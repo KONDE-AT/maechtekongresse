@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -12,10 +11,13 @@
                <persName>
                   <surname>Schneider</surname>
                   <forename>Karin</forename>
-               </persName></editor>
+               </persName>
+                </editor>
          </titleStmt>
          <editionStmt>
-            <edition><date>2015-05-08</date></edition>
+            <edition>
+                    <date>2015-05-08</date>
+                </edition>
          </editionStmt>
          <publicationStmt>
             <publisher>Österreichische Akademie der Wissenschaften, Institut für Neuzeit- und
@@ -43,10 +45,13 @@
                <physDesc>
 
                   <p>Eigenhändiges Protokoll von <persName ref="#p.5">
-                        <surname>Gentz</surname></persName>.</p>
+                        <surname>Gentz</surname>
+                            </persName>.</p>
                   <p>Blatt ist an der unteren rechten Ecke so stark beschädigt, dass die
                      Unterschriften zum Teil nicht mehr lesbar sind. Daher kann nicht festgestellt
-                     werden, ob <persName ref="#p.14"><surname>Kapodistrias</surname></persName> an
+                     werden, ob <persName ref="#p.14">
+                                <surname>Kapodistrias</surname>
+                            </persName> an
                      der Sitzung teilgenommen hat.</p>
                   <handDesc>
                      <handNote xml:id="G">Friedrich Gentz</handNote>
@@ -56,14 +61,18 @@
                   </handDesc>
                </physDesc>
                <history>
-                  <origin><placeName ref="#loc.1">Aachen</placeName>
-                     <date when="1818-11-22">2. November 1818</date></origin>
+                  <origin>
+                            <placeName ref="#loc.1">Aachen</placeName>
+                     <date when="1818-11-22">2. November 1818</date>
+                        </origin>
                </history>
             </msDesc>
             <listWit corresp="#m.1">
                <head>Protokoll</head>
-               <witness corresp="#w.22"><bibl type="print">Rain, L’Europe et la Restauration, S.
-                     490.</bibl></witness>
+               <witness corresp="#w.22">
+                        <bibl type="print">Rain, L’Europe et la Restauration, S.
+                     490.</bibl>
+                    </witness>
             </listWit>
          </sourceDesc>
       </fileDesc>
@@ -116,22 +125,32 @@
       <body>
          <div hand="#G" decls="#m.1">
             <pb n="259"/>
-            <p><add hand="#W" place="top">Protocole <choice>
-                     <abbr>N<hi rendition="#su">o</hi></abbr>
+            <p>
+                    <add hand="#W" place="top">Protocole <choice>
+                     <abbr>N<hi rendition="#su">o</hi>
+                            </abbr>
                      <expan>Numéro</expan>
-                  </choice> 47.</add></p>
-            <p><placeName ref="#loc.1">Aix-la-Chapelle</placeName> le <date when="1818-11-22">22
-                  Novembre</date></p>
-            <p><add place="margin">(Par les Quatre Cours)</add></p>
+                  </choice> 47.</add>
+                </p>
+            <p>
+                    <placeName ref="#loc.1">Aix-la-Chapelle</placeName> le <date when="1818-11-22">22
+                  Novembre</date>
+                </p>
+            <p>
+                    <add place="margin">(Par les Quatre Cours)</add>
+                </p>
             <p>Les <rs xml:id="n.1">Conférences Ministérielles qui ont eu lieu jusqu’ici à
-                     <placeName ref="#loc.2">Paris</placeName></rs><note type="editorial"
-                  target="#n.1">Botschafterkonferenz in Paris, tätig von 1816 bis 1819; vgl. Pytha,
+                     <placeName ref="#loc.2">Paris</placeName>
+                    </rs>
+                    <note type="editorial" target="#n.1">Botschafterkonferenz in Paris, tätig von 1816 bis 1819; vgl. Pytha,
                   Konzert der Mächte.</note> entre <rs ref="#p.2 #p.3 #p.4 #p.7">les Ministres des
                   Cours d’Autriche, de la Grande-Bretagne, de Prusse et de Russie</rs> relativement
                à des affaires liées à l’occupation militaire du territoire Français et à l’exécution
                du <rs ref="#t.1">Traité de paix du <date when="1815-11-20">20 Novembre
-                  1815</date></rs> étant sans objet depuis que par la <rs ref="#t.10">Convention du
-                     <date when="1818-10-09">9 Octobre</date></rs> et les actes subséquens des
+                  1815</date>
+                    </rs> étant sans objet depuis que par la <rs ref="#t.10">Convention du
+                     <date when="1818-10-09">9 Octobre</date>
+                    </rs> et les actes subséquens des
                Conférences d’<placeName ref="#loc.1">Aix-la-Chapelle</placeName> le dit traité est
                regardé comme pleinement et définitivement exécuté, <choice>
                   <abbr>Mrs.</abbr>
@@ -140,32 +159,53 @@
                sont convenus de faire cesser les susdites conférences, et d’ordonner aux Ministres
                accrédités à <placeName ref="#loc.2">Paris</placeName> d’en clore le Protocole.</p>
             <p>Quant aux conférences qui seroient jugées nécessaires pour d’autres objets d’un
-               intérêt commun, les Cours se réservent de prendre <damage agent="paper_damage"
-                     ><supplied>à</supplied></damage> cet égard les résolutions qu<damage
-                  agent="paper_damage"><supplied>e</supplied></damage> les circonstances pourront
+               intérêt commun, les Cours se réservent de prendre <damage agent="paper_damage">
+                        <supplied>à</supplied>
+                    </damage> cet égard les résolutions qu<damage agent="paper_damage">
+                        <supplied>e</supplied>
+                    </damage> les circonstances pourront
                exiger.</p>
             <signed>
                <list>
-                  <item><persName ref="#p.8">Metternich</persName></item>
-                  <item><persName ref="#p.9">Castlereagh</persName></item>
-                  <item><persName ref="#p.11">Har<damage agent="paper_damage"
-                              ><supplied>denberg</supplied></damage></persName></item>
-                  <item><persName ref="#p.12">Ber<damage agent="paper_damage"
-                              ><supplied>nstorff</supplied></damage></persName></item>
-                  <item><persName ref="#p.13">Ne<damage agent="paper_damage"
-                              ><supplied>sselrode</supplied></damage></persName></item>
-                  <item><persName><gap/></persName></item>
-               </list></signed>
+                  <item>
+                            <persName ref="#p.8">Metternich</persName>
+                        </item>
+                  <item>
+                            <persName ref="#p.9">Castlereagh</persName>
+                        </item>
+                  <item>
+                            <persName ref="#p.11">Har<damage agent="paper_damage">
+                                    <supplied>denberg</supplied>
+                                </damage>
+                            </persName>
+                        </item>
+                  <item>
+                            <persName ref="#p.12">Ber<damage agent="paper_damage">
+                                    <supplied>nstorff</supplied>
+                                </damage>
+                            </persName>
+                        </item>
+                  <item>
+                            <persName ref="#p.13">Ne<damage agent="paper_damage">
+                                    <supplied>sselrode</supplied>
+                                </damage>
+                            </persName>
+                        </item>
+                  <item>
+                            <persName>
+                                <gap/>
+                            </persName>
+                        </item>
+               </list>
+                </signed>
          </div>
       </body>
       <back>
          <include xmlns="http://www.w3.org/2001/XInclude" href="listPlace.xml" xpointer="listPlace"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="listPerson.xml"
-            xpointer="listPerson"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listPerson.xml" xpointer="listPerson"/>
          <include xmlns="http://www.w3.org/2001/XInclude" href="listWit.xml" xpointer="listWit"/>
          <include xmlns="http://www.w3.org/2001/XInclude" href="listOrg.xml" xpointer="listOrg"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="listTreaties.xml"
-            xpointer="listTreaties"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listTreaties.xml" xpointer="listTreaties"/>
       </back>
    </text>
 </TEI>

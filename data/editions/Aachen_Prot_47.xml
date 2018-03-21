@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -12,10 +11,13 @@
                <persName>
                   <surname>Schneider</surname>
                   <forename>Karin</forename>
-               </persName></editor>
+               </persName>
+                </editor>
          </titleStmt>
          <editionStmt>
-            <edition><date>2015-05-08</date></edition>
+            <edition>
+                    <date>2015-05-08</date>
+                </edition>
          </editionStmt>
          <publicationStmt>
             <publisher>Österreichische Akademie der Wissenschaften, Institut für Neuzeit- und
@@ -43,7 +45,8 @@
                <physDesc>
 
                   <p>Eigenhändiges Protokoll von <persName ref="#p.5">
-                        <surname>Gentz</surname></persName>.</p>
+                        <surname>Gentz</surname>
+                            </persName>.</p>
                   <handDesc>
                      <handNote xml:id="G">Friedrich Gentz</handNote>
                      <handNote xml:id="W">Nikolaus Wacken</handNote>
@@ -52,20 +55,30 @@
                   </handDesc>
                </physDesc>
                <history>
-                  <origin><placeName ref="#loc.1">Aachen</placeName>
-                     <date when="1818-11-21">21. November 1818</date></origin>
+                  <origin>
+                            <placeName ref="#loc.1">Aachen</placeName>
+                     <date when="1818-11-21">21. November 1818</date>
+                        </origin>
                </history>
             </msDesc>
             <listWit corresp="#m.1">
                <head>Protokoll</head>
-               <witness corresp="#w.9"><bibl type="print">de Clercq, Recueil, Bd. 3, S.
-                     186–187;</bibl></witness>
-               <witness corresp="#w.5"><bibl type="print">BFSP, Bd. 5 (1817/18), S.
-                  1090;</bibl></witness>
-               <witness corresp="#w.8"><bibl type="print">Angeberg, Congrès, Bd. 3, S.
-                  1767;</bibl></witness>
-               <witness corresp="#w.2"><bibl type="print">Grewe, Fontes, Bd. 3/1, S. 548
-                     (unvollständig).</bibl></witness>
+               <witness corresp="#w.9">
+                        <bibl type="print">de Clercq, Recueil, Bd. 3, S.
+                     186–187;</bibl>
+                    </witness>
+               <witness corresp="#w.5">
+                        <bibl type="print">BFSP, Bd. 5 (1817/18), S.
+                  1090;</bibl>
+                    </witness>
+               <witness corresp="#w.8">
+                        <bibl type="print">Angeberg, Congrès, Bd. 3, S.
+                  1767;</bibl>
+                    </witness>
+               <witness corresp="#w.2">
+                        <bibl type="print">Grewe, Fontes, Bd. 3/1, S. 548
+                     (unvollständig).</bibl>
+                    </witness>
             </listWit>
          </sourceDesc>
       </fileDesc>
@@ -88,8 +101,7 @@
          <abstract>
             <p>Die <rs ref="#p.8 #p.1 #p.9 #p.11 #p.12 #p.13 #p.14">Vertreter der Mächte</rs>
                fixieren den Rang der ständig akkreditierten Ministerresidenten; Vorschriften
-               betreffend den ‚Salut de mer’ werden durch die Ministerialkonferenz in <placeName
-                  ref="#loc.8">London</placeName> festgelegt.</p>
+               betreffend den ‚Salut de mer’ werden durch die Ministerialkonferenz in <placeName ref="#loc.8">London</placeName> festgelegt.</p>
          </abstract>
          <particDesc>
             <listPerson>
@@ -125,26 +137,35 @@
       <body>
          <div hand="#G" decls="#m.1">
             <pb n="255r"/>
-            <p><add hand="#W" place="top">Protocole <choice>
+            <p>
+                    <add hand="#W" place="top">Protocole <choice>
                      <abbr>N.</abbr>
                      <expan>Numéro</expan>
                   </choice>
-                  <del rendition="#s">46</del> 45.</add></p>
-            <p><placeName ref="#loc.1">Aix-la-Chapelle</placeName> le <date when="1818-11-21">21
-                  Novembre</date></p>
-            <p><add place="margin"><hi rendition="#u">Affaire d’Etiquette</hi></add></p>
+                  <del rendition="#s">46</del> 45.</add>
+                </p>
+            <p>
+                    <placeName ref="#loc.1">Aix-la-Chapelle</placeName> le <date when="1818-11-21">21
+                  Novembre</date>
+                </p>
+            <p>
+                    <add place="margin">
+                        <hi rendition="#u">Affaire d’Etiquette</hi>
+                    </add>
+                </p>
 
             <p>Pour éviter des discussions désagréables qui pourroient avoir lieu à l’avenir sur un
-               point d’étiquette diplomatique que <del xml:id="del01">l’annexe</del><undo
-                  target="#del01" rendition="#up"/> du <rs ref="#t.12">Recès de Vienne</rs>, par
+               point d’étiquette diplomatique que <del xml:id="del01">l’annexe</del>
+                    <undo target="#del01" rendition="#up"/> du <rs ref="#t.12">Recès de Vienne</rs>, par
                laquelle les questions de rang ont été réglées, ne paroit pas avoir prévu, il est
                arrêté entre les Cinq Cours que les Ministres Résidens accrédités auprès d’Elles
                formeront par rapport à leur rang une classe intermédiaire entre les Ministres du
                second ordre et les Chargés d’affaires.</p>
             <p>Des doutes s’étant élevés sur les principes à observer relativement au salut de mer,
                il est convenu que chacune des cours signataires de ce Protocole fera remettre à la
-                  <rs xml:id="n.1">Conférence Ministérielle à <placeName ref="#loc.8"
-                     >Londres</placeName></rs><note type="editorial" target="#n.1">Gemeint ist die
+                  <rs xml:id="n.1">Conférence Ministérielle à <placeName ref="#loc.8">Londres</placeName>
+                    </rs>
+                    <note type="editorial" target="#n.1">Gemeint ist die
                   Botschafterkonferenz in London, welche sich zwischen 1816 und 1819 vorwiegend mit
                   der Abschaffung des Sklavenhandels und der Piraterie im Mittelmeer befasste.
                   Protokolle vgl. BFSP Bd. 6 (1818/19), S. 21–53; Clarke, Papers presented to
@@ -154,24 +175,37 @@
                s’occuper de quelque règlement général sur cet objet.</p>
             <signed>
                <list>
-                  <item><persName ref="#p.8">Metternich</persName></item>
-                  <item><persName ref="#p.1">Richelieus</persName></item>
-                  <item><persName ref="#p.9">Castlereagh</persName></item>
-                  <item><persName ref="#p.11">Hardenberg</persName></item>
-                  <item><persName ref="#p.12">Bernstorff</persName></item>
-                  <item><persName ref="#p.13">Nesselrode</persName></item>
-                  <item><persName ref="#p.14">Capodistrias</persName></item>
-               </list></signed>
+                  <item>
+                            <persName ref="#p.8">Metternich</persName>
+                        </item>
+                  <item>
+                            <persName ref="#p.1">Richelieus</persName>
+                        </item>
+                  <item>
+                            <persName ref="#p.9">Castlereagh</persName>
+                        </item>
+                  <item>
+                            <persName ref="#p.11">Hardenberg</persName>
+                        </item>
+                  <item>
+                            <persName ref="#p.12">Bernstorff</persName>
+                        </item>
+                  <item>
+                            <persName ref="#p.13">Nesselrode</persName>
+                        </item>
+                  <item>
+                            <persName ref="#p.14">Capodistrias</persName>
+                        </item>
+               </list>
+                </signed>
          </div>
       </body>
       <back>
          <include xmlns="http://www.w3.org/2001/XInclude" href="listPlace.xml" xpointer="listPlace"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="listPerson.xml"
-            xpointer="listPerson"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listPerson.xml" xpointer="listPerson"/>
          <include xmlns="http://www.w3.org/2001/XInclude" href="listWit.xml" xpointer="listWit"/>
          <include xmlns="http://www.w3.org/2001/XInclude" href="listOrg.xml" xpointer="listOrg"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="listTreaties.xml"
-            xpointer="listTreaties"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listTreaties.xml" xpointer="listTreaties"/>
       </back>
    </text>
 </TEI>

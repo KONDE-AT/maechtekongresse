@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -12,10 +11,13 @@
                <persName>
                   <surname>Schneider</surname>
                   <forename>Karin</forename>
-               </persName></editor>
+               </persName>
+                </editor>
          </titleStmt>
          <editionStmt>
-            <edition><date>2015-05-08</date></edition>
+            <edition>
+                    <date>2015-05-08</date>
+                </edition>
          </editionStmt>
          <publicationStmt>
             <publisher>Österreichische Akademie der Wissenschaften, Institut für Neuzeit- und
@@ -43,7 +45,8 @@
                <physDesc>
 
                   <p>Eigenhändiges Protokoll von <persName ref="#p.5">
-                        <surname>Gentz</surname></persName>.</p>
+                        <surname>Gentz</surname>
+                            </persName>.</p>
                   <handDesc>
                      <handNote xml:id="G">Friedrich Gentz</handNote>
                      <handNote xml:id="W">Nikolaus Wacken</handNote>
@@ -54,8 +57,10 @@
                   </handDesc>
                </physDesc>
                <history>
-                  <origin><placeName ref="#loc.1">Aachen</placeName>
-                     <date when="1818-11-19">19. November 1818</date></origin>
+                  <origin>
+                            <placeName ref="#loc.1">Aachen</placeName>
+                     <date when="1818-11-19">19. November 1818</date>
+                        </origin>
                </history>
             </msDesc>
 
@@ -79,7 +84,8 @@
                </msContents>
                <physDesc>
                   <p>Eigenhändiges Protokoll von <persName ref="#p.5">
-                        <surname>Gentz</surname></persName>.</p>
+                        <surname>Gentz</surname>
+                            </persName>.</p>
                </physDesc>
             </msDesc>
          </sourceDesc>
@@ -104,8 +110,8 @@
          <abstract>
             <p>Die <rs ref="#p.8 #p.1 #p.9 #p.10 #p.11 #p.12 #p.13 #p.14">Vertreter der Mächte</rs>
                regeln die Verlängerung der Zahlungsfrist für <country>Frankreich</country> und
-               beschließen, ein diesbezügliches Protokoll zu verfassen, welches an die <rs
-                  ref="#t.10">Konvention vom <date when="1818-10-09">9. Oktober 1818</date></rs> als
+               beschließen, ein diesbezügliches Protokoll zu verfassen, welches an die <rs ref="#t.10">Konvention vom <date when="1818-10-09">9. Oktober 1818</date>
+                    </rs> als
                zusätzlicher Artikel angehängt wird.</p>
          </abstract>
          <particDesc>
@@ -145,89 +151,140 @@
       <body>
          <div hand="#G" decls="#m.1">
             <pb n="192r"/>
-            <p><add hand="#W" place="top">Protocole <choice>
-                     <abbr>N<hi rendition="#su">o</hi></abbr>
+            <p>
+                    <add hand="#W" place="top">Protocole <choice>
+                     <abbr>N<hi rendition="#su">o</hi>
+                            </abbr>
                      <expan>Numéro</expan>
-                  </choice><del rendition="#s">38</del> 37.</add></p>
-            <p><placeName ref="#loc.1">Aix-la-Chapelle</placeName> le <date when="1818-11-19">19
+                  </choice>
+                        <del rendition="#s">38</del> 37.</add>
+                </p>
+            <p>
+                    <placeName ref="#loc.1">Aix-la-Chapelle</placeName> le <date when="1818-11-19">19
                   Novembre</date>.</p>
-            <p><add place="margin"><hi rendition="#u">Prolongation des payemens</hi></add></p>
-            <p><add hand="#W" place="margin">Entre les Cinq Cabinets</add></p>
-            <p><rs ref="#p.8 #p.1 #p.9 #p.10 #p.11 #p.12 #p.13 #p.14"><choice>
+            <p>
+                    <add place="margin">
+                        <hi rendition="#u">Prolongation des payemens</hi>
+                    </add>
+                </p>
+            <p>
+                    <add hand="#W" place="margin">Entre les Cinq Cabinets</add>
+                </p>
+            <p>
+                    <rs ref="#p.8 #p.1 #p.9 #p.10 #p.11 #p.12 #p.13 #p.14">
+                        <choice>
                      <abbr>Mrs.</abbr>
                      <expan>Messieurs</expan>
                   </choice> les Plénipotentiaires</rs> ayant désiré que les motifs qui les ont
-               déterminés à prolonger les termes des payemens, stipulés dans la <rs ref="#t.10"
-                  >Convention du <date when="1818-10-09">9 Octobre</date></rs>, fussent développés
+               déterminés à prolonger les termes des payemens, stipulés dans la <rs ref="#t.10">Convention du <date when="1818-10-09">9 Octobre</date>
+                    </rs>, fussent développés
                dans un Protocole séparé, cette pièce a été lue à la Conférence ; et ayant obtenu
                l’approbation unanime, on est convenu que, pour en faciliter la communication, elle
                seroit imprimée en forme d’un Extrait du Protocole. Et comme il a été jugé nécessaire
                de consigner dans un acte formel la résolution des puissances relativement à la dite
-               prolongation des termes des payemens, <rs
-                  ref="#p.8 #p.1 #p.9 #p.10 #p.11 #p.12 #p.13 #p.14"><choice>
+               prolongation des termes des payemens, <rs ref="#p.8 #p.1 #p.9 #p.10 #p.11 #p.12 #p.13 #p.14">
+                        <choice>
                      <abbr>Mrs.</abbr>
                      <expan>Messieurs</expan>
                   </choice> les Plénipotentiaires</rs> ont adopté pour cet effet la forme d’un
                Protocole, tenant lieu d’un article additionnel à la <rs ref="#t.10">convention du
-                     <date when="1818-10-09">9 Octobre</date></rs> ; sur quoi <rs xml:id="n.1">la
-                  Minute ci-jointe</rs> a été lue, approuvée et signée.<note type="editorial"
-                  target="#n.1">Vgl. Anlage.</note></p>
+                     <date when="1818-10-09">9 Octobre</date>
+                    </rs> ; sur quoi <rs xml:id="n.1">la
+                  Minute ci-jointe</rs> a été lue, approuvée et signée.<note type="editorial" target="#n.1">Vgl. Anlage.</note>
+                </p>
             <signed>
                <list>
-                  <item><persName ref="#p.8">Metternich</persName></item>
-                  <item><persName ref="#p.1">Richelieus</persName></item>
-                  <item><persName ref="#p.9">Castlereagh</persName></item>
-                  <item><persName ref="#p.10">Wellington</persName></item>
-                  <item><persName ref="#p.11">Hardenberg</persName></item>
-                  <item><persName ref="#p.12">Bernstorff</persName></item>
-                  <item><persName ref="#p.13">Nesselrode</persName></item>
-                  <item><persName ref="#p.14">Capodistrias</persName></item>
-               </list></signed>
+                  <item>
+                            <persName ref="#p.8">Metternich</persName>
+                        </item>
+                  <item>
+                            <persName ref="#p.1">Richelieus</persName>
+                        </item>
+                  <item>
+                            <persName ref="#p.9">Castlereagh</persName>
+                        </item>
+                  <item>
+                            <persName ref="#p.10">Wellington</persName>
+                        </item>
+                  <item>
+                            <persName ref="#p.11">Hardenberg</persName>
+                        </item>
+                  <item>
+                            <persName ref="#p.12">Bernstorff</persName>
+                        </item>
+                  <item>
+                            <persName ref="#p.13">Nesselrode</persName>
+                        </item>
+                  <item>
+                            <persName ref="#p.14">Capodistrias</persName>
+                        </item>
+               </list>
+                </signed>
          </div>
 
          <div hand="#G" decls="#m.2">
             <pb n="194r"/>
-            <p><title>Protocole tenant lieu d’un article additionnel à la <rs ref="#t.10">Convention
-                     du <date when="1818-10-09">9 Octobre</date></rs></title></p>
-            <p><placeName ref="#loc.1">Aix-la-Chapelle</placeName> le <date when="1818-11-19">19
+            <p>
+                    <title>Protocole tenant lieu d’un article additionnel à la <rs ref="#t.10">Convention
+                     du <date when="1818-10-09">9 Octobre</date>
+                        </rs>
+                    </title>
+                </p>
+            <p>
+                    <placeName ref="#loc.1">Aix-la-Chapelle</placeName> le <date when="1818-11-19">19
                   Novembre 1818</date>.</p>
-            <p>Les Hautes parties signataires de la <rs ref="#t.10">Convention du <date
-                     when="1818-10-09">9 Octobre</date></rs>, ayant reconnu d’un commun accord que,
+            <p>Les Hautes parties signataires de la <rs ref="#t.10">Convention du <date when="1818-10-09">9 Octobre</date>
+                    </rs>, ayant reconnu d’un commun accord que,
                vu les circonstances qui ont influé en dernier lieu sur l’état de la circulation et
                la valeur des rentes à <placeName ref="#loc.2">Paris</placeName>, il est de leur
                intérêt réciproque d’admettre dans les termes des payemens, stipulés par les articles
                5 &amp; 6 du <rs ref="#t.10">susdit Traité</rs>, les modifications, consignées au
                   <ref target="Aachen_Prot_29.xml">Protocole du <date when="1818-11-11">11
-                     Novembre</date></ref>, et spécialement motivées dans un Protocole séparé de ce
+                     Novembre</date>
+                    </ref>, et spécialement motivées dans un Protocole séparé de ce
                jour, déclarent en conséquence que les dites modifications sont acceptées de part et
                d’autre, sans porter préjudice aux garanties des stipulations pécuniaires renfermées
-               dans la <rs ref="#t.10">convention du <date when="1818-10-09">9 Octobre</date></rs>,
+               dans la <rs ref="#t.10">convention du <date when="1818-10-09">9 Octobre</date>
+                    </rs>,
                ni a aucune autre disposition de ce traité ; lequel toutefois ne sera exécuté qu’avec
                les modifications ci-dessus mentionnées.</p>
-            <p>Le présent Protocole aura la force et valeur d’un article additionnel à la <rs
-                  ref="#t.10">convention du <date when="1818-10-09">9 Octobre</date></rs> et sera
+            <p>Le présent Protocole aura la force et valeur d’un article additionnel à la <rs ref="#t.10">convention du <date when="1818-10-09">9 Octobre</date>
+                    </rs> et sera
                considéré comme tel, et signé Quintuple par les Hautes puissances signataires de
                cette convention.</p>
             <signed>
                <list>
-                  <item><persName ref="#p.8">Metternich</persName></item>
-                  <item><persName ref="#p.1">Richelieus</persName></item>
-                  <item><persName ref="#p.9">Castlereagh</persName></item>
-                  <item><persName ref="#p.11">Hardenberg</persName></item>
-                  <item><persName ref="#p.12">Bernstorff</persName></item>
-                  <item><persName ref="#p.13">Nesselrode</persName></item>
-                  <item><persName ref="#p.14">Capodistrias</persName></item>
-               </list></signed>
+                  <item>
+                            <persName ref="#p.8">Metternich</persName>
+                        </item>
+                  <item>
+                            <persName ref="#p.1">Richelieus</persName>
+                        </item>
+                  <item>
+                            <persName ref="#p.9">Castlereagh</persName>
+                        </item>
+                  <item>
+                            <persName ref="#p.11">Hardenberg</persName>
+                        </item>
+                  <item>
+                            <persName ref="#p.12">Bernstorff</persName>
+                        </item>
+                  <item>
+                            <persName ref="#p.13">Nesselrode</persName>
+                        </item>
+                  <item>
+                            <persName ref="#p.14">Capodistrias</persName>
+                        </item>
+               </list>
+                </signed>
          </div>
       </body>
       <back>
          <include xmlns="http://www.w3.org/2001/XInclude" href="listPlace.xml" xpointer="listPlace"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="listPerson.xml"
-            xpointer="listPerson"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listPerson.xml" xpointer="listPerson"/>
          <include xmlns="http://www.w3.org/2001/XInclude" href="listWit.xml" xpointer="listWit"/>
          <include xmlns="http://www.w3.org/2001/XInclude" href="listOrg.xml" xpointer="listOrg"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="listTreaties.xml"
-            xpointer="listTreaties"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listTreaties.xml" xpointer="listTreaties"/>
       </back>
    </text>
 </TEI>

@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -18,14 +17,12 @@
    </teiHeader>
    <text>
       <body>
-         <listBibl xmlns="http://www.tei-c.org/ns/1.0" xml:id="listTreaties">
+         <listBibl xml:id="listTreaties">
             <bibl xml:id="t.1"> Zweiter Pariser Frieden vom <date when="1815-11-20">20. November
                   1815</date> zwischen Österreich, Großbritannien, Preußen und Russland auf der
                einen, Frankreich auf der anderen Seite; vgl. BFSP Bd. 3 (1815/16), S. 280–293;
                Grewe, Fontes, Bd. 3/1, S. 10–18; Clercq, Recueil, Bd. 2, S. 642–650; Martens,
-               Nouveau Recueil, Bd. 2, S. 682–691; <ref
-                  target="www.staatsvertraege.de/Frieden1814-15/2pfv1815-i.htm"
-                  >www.staatsvertraege.de/Frieden1814-15/2pfv1815-i.htm</ref> (deutsch; eingesehen
+               Nouveau Recueil, Bd. 2, S. 682–691; <ref target="www.staatsvertraege.de/Frieden1814-15/2pfv1815-i.htm">www.staatsvertraege.de/Frieden1814-15/2pfv1815-i.htm</ref> (deutsch; eingesehen
                am 31. Oktober 2012).</bibl>
             <bibl xml:id="t.2">Convention, conclue en conformité de l’Article IV du Traité
                Principal, relative au paiement de l’Indemnité Pécuniaire à fournir par la France aux
@@ -72,17 +69,13 @@
                S.1440-1442</bibl>
             <bibl xml:id="t.12">Wiener Kongressakte vom 9. Juni 1815; vgl. Klüber, Acten, Bd. 6, S.
                12–208; Angeberg, Congrès, Bd. 2, S. 1386–1433; Martens, Nouveau Recueil, Bd. 2, S.
-               361–430; BFSP Bd. 2 (1814/15), S 3–180; <ref
-                  target="http://www.staatsvertraege.de/Frieden1814-15/wka1815-i.htm"
-                  >http://www.staatsvertraege.de/Frieden1814-15/wka1815-i.htm</ref> (eingesehen am
+               361–430; BFSP Bd. 2 (1814/15), S 3–180; <ref target="http://www.staatsvertraege.de/Frieden1814-15/wka1815-i.htm">http://www.staatsvertraege.de/Frieden1814-15/wka1815-i.htm</ref> (eingesehen am
                15. November 2012).</bibl>
             <bibl xml:id="t.13">Ersten Pariser Friedens, abgeschlossen zwischen Österreich,
                Großbritannien, Portugal, Preußen, Russland, Schweden und Spanien auf der einen,
                Frankreich auf der anderen Seite; vgl. BFSP Bd. 1/1 (1812–1814), S. 151–177; Martens,
                Nouveau Recueil, Bd. 2, S. 1–18; Ghillany, Diplomatisches Handbuch, Bd. 1, S.
-               300–311; Angeberg, Congrès, Bd. 1, S. 161–176; <ref
-                  target="http://www.staatsvertraege.de/Frieden1814-15/1pfv1814-i.htm"
-                  >http://www.staatsvertraege.de/Frieden1814-15/1pfv1814-i.htm</ref> (deutsch;
+               300–311; Angeberg, Congrès, Bd. 1, S. 161–176; <ref target="http://www.staatsvertraege.de/Frieden1814-15/1pfv1814-i.htm">http://www.staatsvertraege.de/Frieden1814-15/1pfv1814-i.htm</ref> (deutsch;
                eingesehen am 15. November 2012) </bibl>
             <bibl xml:id="t.14">Vertrag zwischen Großbritannien und Spanien über die Abschaffung des
                Sklavenhandels, Madrid 23. September 1817; BFSP Bd. 4 (1816/17), S. 33–68.</bibl>
@@ -97,9 +90,7 @@
                125–143.</bibl>
             <bibl xml:id="t.18">Deutsche Bundesakte vom 8. Juni 1815 (unterzeichnet am 10. Juni
                1815; vgl. Huber, Dokumente zur Deutschen Verfassungsgeschichte, Bd. 1, S. 84–90;
-               Treichl, Die Entstehung, Bd. 1/2, S. 1503–1518;<ref
-                  target="http://www.verfassungen.de/de/de06-66/bundesakte15-i.htm"
-                  >http://www.verfassungen.de/de/de06-66/bundesakte15-i.htm</ref> (eingesehen am 15.
+               Treichl, Die Entstehung, Bd. 1/2, S. 1503–1518;<ref target="http://www.verfassungen.de/de/de06-66/bundesakte15-i.htm">http://www.verfassungen.de/de/de06-66/bundesakte15-i.htm</ref> (eingesehen am 15.
                November 2012).</bibl>
             <bibl xml:id="t.19">Allianzvertrag zwischen Baden und Österreich, Frankfurt a. M. 20.
                November 1813; gleichlautend unter demselben Datum auch zwischen Baden und Russland
@@ -120,17 +111,13 @@
                Februar 1815 hinsichtlich der Abschaffung des afrikanischen Sklavenhandels (= 15.
                Anhang der Wiener Kongressakte); vgl. Klüber, Acten, Bd. 4, S. 531–533, und Bd. 6, S.
                202; Angeberg, Congrès, Bd. 1, S. 725–727; Martens, Supplément, Bd. 6, S. 432–434;
-                  <ref target="http://www.staatsvertraege.de/Frieden1814-15/wka1815-i.htm"
-                  >http://www.staatsvertraege.de/Frieden1814-15/wka1815-i.htm</ref> (eingesehen am
+                  <ref target="http://www.staatsvertraege.de/Frieden1814-15/wka1815-i.htm">http://www.staatsvertraege.de/Frieden1814-15/wka1815-i.htm</ref> (eingesehen am
                26. November 2012).</bibl>
             <bibl xml:id="t.23">Reglement über die freie Schifffahrt vom 24. März 1815, das als
                Anhang zur Wiener Kongressakte vom 9. Juni 1815 von den Mächten ratifiziert wurde;
                vgl. Klüber, Acten, Bd. 3, S. 245–275; Angeberg, Congrès, Bd. 2, S. 957–969; Martens,
-               Nouveau Recueil Bd. 2 (1814/15), S. 361–430; BFSP Bd. 2 (1814/15), S. 162–179; <ref
-                  target="http://www.staatsvertraege.de/Frieden1814-15/wka1815-i.htm"
-                  >http://www.staatsvertraege.de/Frieden1814-15/wka1815-i.htm</ref> (eingesehen am
-               15. November 2012); Homepage der Zentralkommission für die Rheinschifffahrt<ref
-                  target="http://www.ccr-zkr.org/11010200-de.html">
+               Nouveau Recueil Bd. 2 (1814/15), S. 361–430; BFSP Bd. 2 (1814/15), S. 162–179; <ref target="http://www.staatsvertraege.de/Frieden1814-15/wka1815-i.htm">http://www.staatsvertraege.de/Frieden1814-15/wka1815-i.htm</ref> (eingesehen am
+               15. November 2012); Homepage der Zentralkommission für die Rheinschifffahrt<ref target="http://www.ccr-zkr.org/11010200-de.html">
                   http://www.ccr-zkr.org/11010200-de.html</ref> (eingesehen am 19. April
                2013).</bibl>
             <bibl xml:id="t.24">Hauptschluss der außerordentlichen Reichsdeputation
@@ -143,9 +130,7 @@
                Regensburg 6. April 1803, vgl. Kotulla, Deutsches Verfassungsrecht, Bd. 4, S. 6. Vgl.
                zum Inhalt Konvention zwischen Oldenburg und Bremen, Regensburg 6. April 1803,
                abgedruckt in Protokolle der Deutschen Bundesversammlung, Bd. 2, S. 855–859, 58.
-               Sitzung vom 22. Dezember 1817; online auf <ref
-                  target="http://publikationen.ub.uni-frankfurt.de/volltexte/2010/115320/"
-                  >http://publikationen.ub.uni-frankfurt.de/volltexte/2010/115320/</ref> (eingesehen
+               Sitzung vom 22. Dezember 1817; online auf <ref target="http://publikationen.ub.uni-frankfurt.de/volltexte/2010/115320/">http://publikationen.ub.uni-frankfurt.de/volltexte/2010/115320/</ref> (eingesehen
                am 27. Juli 2017)</bibl>
             <bibl xml:id="t.26">Rheinbundakte, Paris 2. Juli 1806; abgedruckt in Huber, Dokumente
                zur Deutschen Verfassungsgeschichte, Bd. 1, S. 28–34; Meyer, Corpus Juris
@@ -219,9 +204,7 @@
                Sizlien, Wien 12. Juni 1815; vgl. Recueil des traités concernant l’Autriche et
                l’Italie, S. 200–203.</bibl>
             <bibl xml:id="t.44">Britische Thronfolgeregelung von 1701; abgedruckt in Browning (Hg.),
-               English Historical Documents, S. 129–134; online auf <ref
-                  target="http://www.jacobite.ca/documents/1701settlement.htm"
-                  >http://www.jacobite.ca/documents/1701settlement.htm</ref> (eingesehen am 3.
+               English Historical Documents, S. 129–134; online auf <ref target="http://www.jacobite.ca/documents/1701settlement.htm">http://www.jacobite.ca/documents/1701settlement.htm</ref> (eingesehen am 3.
                August 2017).</bibl>
             <bibl xml:id="t.45">Convention pour l'occupation de la ville de Naples et de ses forts
                par les troupes autrichiennes et pour l'évacuation des forteresses de Gaeta et de
@@ -246,7 +229,8 @@
             12–208; Angeberg, Congrès, Bd. 2, S. 1386–1433; Martens, Nouveau Recueil, Bd. 2, S.
             361–430; BFSP Bd. 2 (1814/15), S 3–180;
             http://www.staatsvertraege.de/Frieden1814-15/wka1815-i.htm (eingesehen am 15. November
-            2012).</bibl></listBibl>
+            2012).</bibl>
+            </listBibl>
 
       </body>
    </text>

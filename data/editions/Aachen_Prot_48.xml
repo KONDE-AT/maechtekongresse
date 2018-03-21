@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -12,10 +11,13 @@
                <persName>
                   <surname>Schneider</surname>
                   <forename>Karin</forename>
-               </persName></editor>
+               </persName>
+                </editor>
          </titleStmt>
          <editionStmt>
-            <edition><date>2015-05-08</date></edition>
+            <edition>
+                    <date>2015-05-08</date>
+                </edition>
          </editionStmt>
          <publicationStmt>
             <publisher>Österreichische Akademie der Wissenschaften, Institut für Neuzeit- und
@@ -51,15 +53,19 @@
                   </handDesc>
                </physDesc>
                <history>
-                  <origin><placeName ref="#loc.1">Aachen</placeName>
-                     <date when="1818-11-22">22. November 1818</date></origin>
+                  <origin>
+                            <placeName ref="#loc.1">Aachen</placeName>
+                     <date when="1818-11-22">22. November 1818</date>
+                        </origin>
                </history>
             </msDesc>
 
             <listWit corresp="#m.1">
                <head>Protokoll</head>
-               <witness corresp="#w.4"><bibl type="print">Vnešnjaja politika Rossii, Bd. 10, S.
-                     588–589.</bibl></witness>
+               <witness corresp="#w.4">
+                        <bibl type="print">Vnešnjaja politika Rossii, Bd. 10, S.
+                     588–589.</bibl>
+                    </witness>
             </listWit>
          </sourceDesc>
       </fileDesc>
@@ -81,8 +87,7 @@
          <abstract>
             <p>Die <rs ref="#p.8 #p.1 #p.9 #p.10 #p.12 #p.13 #p.14">Vertreter der Mächte</rs>
                beschließen, weiterhin zwischen <country>Spanien</country> und
-                  <country>Portugal</country> in der Frage von <placeName ref="#loc.5"
-                  >Montevideo</placeName> zu vermitteln. In Zukunft wird diese Aufgabe von der
+                  <country>Portugal</country> in der Frage von <placeName ref="#loc.5">Montevideo</placeName> zu vermitteln. In Zukunft wird diese Aufgabe von der
                Ministerialkonferenz in <placeName ref="#loc.2">Paris</placeName> übernommen.</p>
          </abstract>
          <particDesc>
@@ -119,24 +124,34 @@
       <body>
          <div hand="#A" decls="#m.1">
             <pb n="257r"/>
-            <p><add hand="#W" place="margin">Protocole <choice>
+            <p>
+                    <add hand="#W" place="margin">Protocole <choice>
                      <abbr>N.</abbr>
                      <expan>Numéro</expan>
                   </choice>
-                  <del rendition="#s">47</del> 46.</add></p>
-            <p><placeName ref="#loc.1">Aix-la-Chapelle</placeName>
-               <date when="1818-11-22"><damage/><add hand="#AmB" place="below">22 11</add> Novembre
-                  1818</date></p>
-            <p><add place="margin">Médiation entre l’<country>Espagne</country> et le
-                     <country>Portugal</country></add></p>
-            <p><choice>
+                  <del rendition="#s">47</del> 46.</add>
+                </p>
+            <p>
+                    <placeName ref="#loc.1">Aix-la-Chapelle</placeName>
+               <date when="1818-11-22">
+                        <damage/>
+                        <add hand="#AmB" place="below">22 11</add> Novembre
+                  1818</date>
+                </p>
+            <p>
+                    <add place="margin">Médiation entre l’<country>Espagne</country> et le
+                     <country>Portugal</country>
+                    </add>
+                </p>
+            <p>
+                    <choice>
                   <abbr>M.M.</abbr>
                   <expan>Messieurs</expan>
                </choice>
                <rs ref="#p.8 #p.1 #p.9 #p.10 #p.12 #p.13 #p.14">les Plénipotentiaires</rs> ayant cru
                devoir avant leur séparation résumer la position de <rs xml:id="n.1">l’affaire de la
-                  médiation entre les Cours d’Espagne et de Portugal</rs><note type="ediotiral"
-                  target="#n.1">Vgl. Pytha, Konzert der Mächte, bes. S. 156–160.</note> afin de
+                  médiation entre les Cours d’Espagne et de Portugal</rs>
+                    <note type="ediotiral" target="#n.1">Vgl. Pytha, Konzert der Mächte, bes. S. 156–160.</note> afin de
                régler éventuellement leur marche à l’avenir, se sont réunis sur les points
                suivans :</p>
             <p>1<hi rendition="#su">o</hi> Ils considèrent leur attitude dans la négociation comme
@@ -162,34 +177,47 @@
                les deux cours, les cinq cabinets continueront à s’efforcer d’atteindre dans les
                voies d’une négociation amicale et par tous les moyens de conciliation le but désiré
                d’un rapprochement définitif entr’Elles.</p>
-            <p>5<hi rendition="#su">o</hi> Les Ministres sont convenus en outre de donner à la<pb
-                  n="258r"/>
-               <rs xml:id="n.2">Conférence de <placeName ref="#loc.2">Paris</placeName></rs><note
-                  type="editorial" target="#n.2">Botschafterkonferenz in Paris, tätig von 1816 bis
+            <p>5<hi rendition="#su">o</hi> Les Ministres sont convenus en outre de donner à la<pb n="258r"/>
+               <rs xml:id="n.2">Conférence de <placeName ref="#loc.2">Paris</placeName>
+                    </rs>
+                    <note type="editorial" target="#n.2">Botschafterkonferenz in Paris, tätig von 1816 bis
                   1819; vgl. Pytha, Konzert der Mächte, bes. S. 156–160, wo der Autor die Tätigkeit
                   der Botschafterkonferenz in Hinblick auf den Konflikt zwischen Spanien und
                   Portugal analysiert.</note> des instructions conformes à la teneur du présent
                protocole.</p>
             <signed>
                <list>
-                  <item><persName ref="#p.8">Metternich</persName></item>
-                  <item><persName ref="#p.1">Richelieus</persName></item>
-                  <item><persName ref="#p.9">Castlereagh</persName></item>
-                  <item><persName ref="#p.10">Wellington</persName></item>
-                  <item><persName ref="#p.12">Bernstorff</persName></item>
-                  <item><persName ref="#p.13">Nesselrode</persName></item>
-                  <item><persName ref="#p.14">Capodistrias</persName></item>
-               </list></signed>
+                  <item>
+                            <persName ref="#p.8">Metternich</persName>
+                        </item>
+                  <item>
+                            <persName ref="#p.1">Richelieus</persName>
+                        </item>
+                  <item>
+                            <persName ref="#p.9">Castlereagh</persName>
+                        </item>
+                  <item>
+                            <persName ref="#p.10">Wellington</persName>
+                        </item>
+                  <item>
+                            <persName ref="#p.12">Bernstorff</persName>
+                        </item>
+                  <item>
+                            <persName ref="#p.13">Nesselrode</persName>
+                        </item>
+                  <item>
+                            <persName ref="#p.14">Capodistrias</persName>
+                        </item>
+               </list>
+                </signed>
          </div>
       </body>
       <back>
          <include xmlns="http://www.w3.org/2001/XInclude" href="listPlace.xml" xpointer="listPlace"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="listPerson.xml"
-            xpointer="listPerson"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listPerson.xml" xpointer="listPerson"/>
          <include xmlns="http://www.w3.org/2001/XInclude" href="listWit.xml" xpointer="listWit"/>
          <include xmlns="http://www.w3.org/2001/XInclude" href="listOrg.xml" xpointer="listOrg"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="listTreaties.xml"
-            xpointer="listTreaties"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listTreaties.xml" xpointer="listTreaties"/>
       </back>
    </text>
 </TEI>

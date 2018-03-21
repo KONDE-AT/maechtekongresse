@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -12,10 +11,13 @@
                <persName>
                   <surname>Schneider</surname>
                   <forename>Karin</forename>
-               </persName></editor>
+               </persName>
+                </editor>
          </titleStmt>
          <editionStmt>
-            <edition><date>2015-05-08</date></edition>
+            <edition>
+                    <date>2015-05-08</date>
+                </edition>
          </editionStmt>
          <publicationStmt>
             <publisher>Österreichische Akademie der Wissenschaften, Institut für Neuzeit- und
@@ -42,8 +44,9 @@
                </msContents>
                <physDesc>
 
-                  <p>Eigenhändiges Protokoll von <persName ref="#p.5"
-                        ><surname>Gentz</surname></persName>.</p>
+                  <p>Eigenhändiges Protokoll von <persName ref="#p.5">
+                                <surname>Gentz</surname>
+                            </persName>.</p>
                   <handDesc>
                      <handNote xml:id="G">Friedrich Gentz</handNote>
                      <handNote xml:id="W">Nikolaus Wacken</handNote>
@@ -51,7 +54,9 @@
 
                </physDesc>
                <history>
-                  <origin><placeName>Aachen</placeName><date when="1818-09-29"/>29. September
+                  <origin>
+                            <placeName>Aachen</placeName>
+                            <date when="1818-09-29"/>29. September
                      1818</origin>
                </history>
             </msDesc>
@@ -73,8 +78,8 @@
 
          <abstract>
             <p>Eröffnung der Beratungen und Erörterung der Frage, ob die militärische Besetzung
-                  <country>Frankreichs</country> entsprechend dem <rs ref="#t.1"> Vertrag vom <date
-                     when="1815-11-20">20. November 1815</date></rs> beendet wird. Der französische
+                  <country>Frankreichs</country> entsprechend dem <rs ref="#t.1"> Vertrag vom <date when="1815-11-20">20. November 1815</date>
+                    </rs> beendet wird. Der französische
                Premierminister <persName ref="#p.1">Richelieu</persName> legt einen Vorschlag zur
                Regelung der 1815 festgelegten finanziellen Klauseln vor.</p>
          </abstract>
@@ -115,14 +120,21 @@
       <body>
          <div hand="#G" decls="#m.1">
             <pb n="2r"/>
-            <p><add place="top" hand="#W">Protocole des Conferences <del rendition="s"
-                     >speciales</del> d'<placeName ref="#loc.1"
-               >Aix-la-Chapelle</placeName></add></p>
-            <p><add hand="#W"><choice>
-                     <abbr>n<hi rendition="su">o</hi></abbr>
+            <p>
+                    <add place="top" hand="#W">Protocole des Conferences <del rendition="s">speciales</del> d'<placeName ref="#loc.1">Aix-la-Chapelle</placeName>
+                    </add>
+                </p>
+            <p>
+                    <add hand="#W">
+                        <choice>
+                     <abbr>n<hi rendition="su">o</hi>
+                            </abbr>
                      <expan>numéro</expan>
-                  </choice> 1<hi rendition="su">o</hi></add></p>
-            <p><date when="1818-09-29">Le <del rendition="s">30</del>
+                  </choice> 1<hi rendition="su">o</hi>
+                    </add>
+                </p>
+            <p>
+                    <date when="1818-09-29">Le <del rendition="s">30</del>
                   <add place="above">29</add> Septembre 1818</date>
                <add place="above">au soir</add>
             </p>
@@ -130,80 +142,103 @@
                <add hand="#W" place="margin">Des quatre Cabinets<sic>
                      <del rendition="#s">Des cinq Cabinets</del>
                   </sic>
-               </add></p>
+               </add>
+                </p>
             <p>Les Cabinets d’<country>Autriche</country>, de <country>Grande-Bretagne</country>, de
                   <country>Prusse</country> et de <country>Russie</country> étant convenus de se
                réunir à <placeName ref="#loc.1">Aix-la-Chapelle</placeName> pour examiner dans le
-               sens de l’article V du <rs ref="t.1">Traité de <placeName ref="#loc.2"
-                     >Paris</placeName> du <date when="1815-11-20">20 Novembre 1815</date></rs>:
+               sens de l’article V du <rs ref="t.1">Traité de <placeName ref="#loc.2">Paris</placeName> du <date when="1815-11-20">20 Novembre 1815</date>
+                    </rs>:
                s’il y a lieu à continuer ou à faire cesser l’occupation Militaire d’une partie du
-               territoire Français après les trois premières années ; et <rs
-                  ref="#p.2 #p.3 #p.4 #p.7">les Ministres des Quatre puissances accrédités à
-                     <placeName ref="#loc.2">Paris</placeName></rs>ayant, par ordre de leurs Cours,
+               territoire Français après les trois premières années ; et <rs ref="#p.2 #p.3 #p.4 #p.7">les Ministres des Quatre puissances accrédités à
+                     <placeName ref="#loc.2">Paris</placeName>
+                    </rs>ayant, par ordre de leurs Cours,
                invité <choice>
                   <abbr>Mr.</abbr>
                   <expan>Monsieur</expan>
-               </choice> le <persName ref="#p.1"><roleName>Duc</roleName>
-                  <surname>de Richelieu</surname></persName> par la note du <date when="1818-07-20"
-                  >20 Juillet <choice>
+               </choice> le <persName ref="#p.1">
+                        <roleName>Duc</roleName>
+                  <surname>de Richelieu</surname>
+                    </persName> par la note du <date when="1818-07-20">20 Juillet <choice>
                      <abbr>a. c.</abbr>
                      <expan>anno currente</expan>
                   </choice>
-               </date>à prendre part aux délibérations qui doivent conduire à la décision <del
-                  rendition="#s">satisfaisante</del> de cette question. <choice>
+               </date>à prendre part aux délibérations qui doivent conduire à la décision <del rendition="#s">satisfaisante</del> de cette question. <choice>
                   <abbr>Mrs.</abbr>
                   <expan>Messieurs</expan>
                </choice> les Ministres des Cinq Cabinets, savoir</p>
             <p>De la part de l’<country>Autriche</country> <choice>
                   <abbr>Mr.</abbr>
                   <expan>Monsieur</expan>
-               </choice> le <persName ref="#p.8"><roleName>Prince</roleName>
-                  <surname>de Metternich</surname></persName> ;</p>
+               </choice> le <persName ref="#p.8">
+                        <roleName>Prince</roleName>
+                  <surname>de Metternich</surname>
+                    </persName> ;</p>
             <p>De la part de la <country>France</country>
                <choice>
                   <abbr>Mr.</abbr>
                   <expan>Monsieur</expan>
-               </choice> le <persName ref="#p.1"><roleName><roleName>Duc</roleName>
-                     <surname>de Richelieu</surname></roleName></persName> ;</p>
+               </choice> le <persName ref="#p.1">
+                        <roleName>
+                            <roleName>Duc</roleName>
+                     <surname>de Richelieu</surname>
+                        </roleName>
+                    </persName> ;</p>
             <p>De la part de la <country>Grande-Bretagne</country>
                <choice>
                   <abbr>Mr.</abbr>
                   <expan>Monsieur</expan>
-               </choice> le <persName ref="#p.9"><roleName>Vicomte</roleName>
-                  <surname>Castlereagh</surname></persName></p>
+               </choice> le <persName ref="#p.9">
+                        <roleName>Vicomte</roleName>
+                  <surname>Castlereagh</surname>
+                    </persName>
+                </p>
             <p>et</p>
-            <p><choice>
+            <p>
+                    <choice>
                   <abbr>Mr.</abbr>
                   <expan>Monsieur</expan>
-               </choice> le <persName ref="#p.10"><roleName>Duc</roleName>
-                  <surname>de Wellington</surname></persName> ;</p>
+               </choice> le <persName ref="#p.10">
+                        <roleName>Duc</roleName>
+                  <surname>de Wellington</surname>
+                    </persName> ;</p>
             <p>De la part de la <country>Prusse</country>
                <choice>
                   <abbr>Mr.</abbr>
                   <expan>Monsieur</expan>
-               </choice> le <persName ref="#p.11"><roleName>Prince</roleName>
-                  <surname>de Hardenberg</surname></persName>
+               </choice> le <persName ref="#p.11">
+                        <roleName>Prince</roleName>
+                  <surname>de Hardenberg</surname>
+                    </persName>
             </p>
             <p>et </p>
-            <p><choice>
+            <p>
+                    <choice>
                   <abbr>Mr.</abbr>
                   <expan>Monsieur</expan>
-               </choice> le <persName ref="#p.12"><roleName>Comte</roleName>
-                  <surname>de Bernstorff</surname></persName> ;</p>
+               </choice> le <persName ref="#p.12">
+                        <roleName>Comte</roleName>
+                  <surname>de Bernstorff</surname>
+                    </persName> ;</p>
             <pb n="2v"/>
             <p>De la part de la <country>Russie</country>
                <choice>
                   <abbr>Mr.</abbr>
                   <expan>Monsieur</expan>
-               </choice> le <persName ref="#p.13"><roleName>Comte</roleName>
-                  <surname>de Nesselrode</surname></persName>
+               </choice> le <persName ref="#p.13">
+                        <roleName>Comte</roleName>
+                  <surname>de Nesselrode</surname>
+                    </persName>
             </p>
             <p>et </p>
-            <p><choice>
+            <p>
+                    <choice>
                   <abbr>Mr.</abbr>
                   <expan>Monsieur</expan>
-               </choice> le <persName ref="#p.14"><roleName>Comte</roleName>
-                  <surname>de Capo-d’Istria</surname></persName>,</p>
+               </choice> le <persName ref="#p.14">
+                        <roleName>Comte</roleName>
+                  <surname>de Capo-d’Istria</surname>
+                    </persName>,</p>
             <p>s’étant rendus à <placeName ref="#loc.1">Aix-la-Chapelle</placeName>, y ont ouvert
                aujourd’hui, <subst>
                   <del rendition="#s">30</del>
@@ -216,89 +251,120 @@
                      <abbr>Mr.</abbr>
                      <expan>Monsieur</expan>
                   </choice> le <rs ref="#p.11">Chancelier-d’Etat de Prusse</rs>
-               </rs><note type="editorial" target="#n.1"> Karl August Fürst Hardenberg war auf dem
+               </rs>
+                    <note type="editorial" target="#n.1"> Karl August Fürst Hardenberg war auf dem
                   Großen Markt Nr. 910, im Hotel der Witwe Bettendorf, abgestiegen; vgl. Taack, Die
                   Affären gehen gut, S. 28.</note>  ; et après s’être communiqués leurs pleins
                pouvoirs, ont procédé à prendre en considération l’objet de leur réunion.</p>
-            <p><choice>
+            <p>
+                    <choice>
                   <abbr>Mr.</abbr>
                   <expan>Monsieur</expan>
-               </choice> le <persName ref="#p.1"><roleName>Duc</roleName>
-                  <surname>de Richelieu</surname></persName>, portant la parole au nom de <choice>
+               </choice> le <persName ref="#p.1">
+                        <roleName>Duc</roleName>
+                  <surname>de Richelieu</surname>
+                    </persName>, portant la parole au nom de <choice>
                   <abbr>S. M.</abbr>
                   <expan>Sa Majesté</expan>
                </choice> le <rs ref="#p.15">Roi de France</rs>, a énoncé le vœu que, vu l’état de ce
-               Royaume, et l’exécution fidèle des stipulations du <rs ref="#t.1">traité du <date
-                     when="1815-11-20">20 Novembre</date></rs>, les Quatre Cours Alliées convinssent
+               Royaume, et l’exécution fidèle des stipulations du <rs ref="#t.1">traité du <date when="1815-11-20">20 Novembre</date>
+                    </rs>, les Quatre Cours Alliées convinssent
                avec <rs xml:id="n.2">
                   <choice>
                      <abbr>S. M.</abbr>
                      <expan>Sa Majesté</expan>
                   </choice>
-                  <rs ref="#p.15">Très Chrétienne</rs></rs>
+                  <rs ref="#p.15">Très Chrétienne</rs>
+                    </rs>
                <note type="editorial" target="#n.2"> Ehrentitel des Königs von Frankreich.</note> de
                faire cesser le plutôt possible l’occupation Militaire, arrêtée par l’article V du
                   <rs ref="#t.1">Traité de <placeName ref="#loc.2">Paris</placeName> de
                1815</rs>.</p>
-            <p><rs ref="#p.13 #p.14 #p.11 #p.10 #p.12 #p.8 #p.9"><choice>
+            <p>
+                    <rs ref="#p.13 #p.14 #p.11 #p.10 #p.12 #p.8 #p.9">
+                        <choice>
                      <abbr>Mrs.</abbr>
                      <expan>Messieurs</expan>
                   </choice> les Ministres des Quatre Cours</rs>, après avoir témoigné à <choice>
                   <abbr>Mr.</abbr>
                   <expan>Monsieur</expan>
-               </choice> le <persName ref="#p.1"><roleName>Duc</roleName>
-                  <surname>de Richelieu</surname></persName> les dispositions amicales dont <rs
-                  ref="#p.16 #p.17 #p.18 #p.19">leurs Augustes Souverains</rs> sont animés pour <rs
-                  ref="#p.15">Sa Majesté Très Chrétienne</rs>, et l’intérêt qu’Ils portent à la
+               </choice> le <persName ref="#p.1">
+                        <roleName>Duc</roleName>
+                  <surname>de Richelieu</surname>
+                    </persName> les dispositions amicales dont <rs ref="#p.16 #p.17 #p.18 #p.19">leurs Augustes Souverains</rs> sont animés pour <rs ref="#p.15">Sa Majesté Très Chrétienne</rs>, et l’intérêt qu’Ils portent à la
                prospérité de <pb n="3r"/> Son Royaume, se sont engagés à s’occuper sans délai de la
                proposition de <choice>
                   <abbr>Mr.</abbr>
                   <expan>Monsieur</expan>
-               </choice> le <persName ref="#p.1"><roleName>Duc</roleName>
-                  <surname>de Richelieu</surname></persName> et à délibérer, de concert avec <choice>
+               </choice> le <persName ref="#p.1">
+                        <roleName>Duc</roleName>
+                  <surname>de Richelieu</surname>
+                    </persName> et à délibérer, de concert avec <choice>
                   <abbr>Mr.</abbr>
                   <expan>Monsieur</expan>
                </choice> le <rs ref="#p.1">Duc</rs>, sur les moyens de satisfaire au désir de Sa
                Majesté le<rs ref="#p.15"> Roi de France</rs> d’une manière compatible avec
                l’exécution complète des Traités.</p>
-            <p><choice>
+            <p>
+                    <choice>
                   <abbr>Mr.</abbr>
                   <expan>Monsieur</expan>
-               </choice> le <persName ref="#p.1"><roleName>Duc</roleName>
-                  <surname>de Richelieu</surname></persName> a fait connoître en même tems les bases
-               des arrangemens propres à compléter l’exécution des clauses pécuniaires <add
-                  place="above">pécuniaires</add> du <rs ref="#t.1">Traité du <date
-                     when="1815-11-20">20 Novembre</date></rs>.<del rendition="#s">Ces clauses,
+               </choice> le <persName ref="#p.1">
+                        <roleName>Duc</roleName>
+                  <surname>de Richelieu</surname>
+                    </persName> a fait connoître en même tems les bases
+               des arrangemens propres à compléter l’exécution des clauses pécuniaires <add place="above">pécuniaires</add> du <rs ref="#t.1">Traité du <date when="1815-11-20">20 Novembre</date>
+                    </rs>.<del rendition="#s">Ces clauses,
                   telles qu’elles se trouvent spécifiées dans <rs xml:id="n.3"> l’annexe de ce
                      Protocole</rs>
                   <note type="editorial" target="#n.3">Anhang liegt nicht ein.</note>, ont été
                   communiquées à <choice>
                      <abbr>Mr.</abbr>
                      <expan>Monsieur</expan>
-                  </choice> le <persName ref="#p.10"><roleName>Duc</roleName>
-                     <surname>de Wellington</surname></persName>, qui s’est chargé de les examiner
-                  et d’en faire son rapport.</del></p>
-            <p><del rendition="#s">Ces bases se trouvent consignées dans l’annexe du présent
-                  Protocole.</del></p>
+                  </choice> le <persName ref="#p.10">
+                            <roleName>Duc</roleName>
+                     <surname>de Wellington</surname>
+                        </persName>, qui s’est chargé de les examiner
+                  et d’en faire son rapport.</del>
+                </p>
+            <p>
+                    <del rendition="#s">Ces bases se trouvent consignées dans l’annexe du présent
+                  Protocole.</del>
+                </p>
             <signed>
                <list>
-                  <item><persName ref="#p.8">Metternich</persName></item>
-                  <item><persName ref="#p.1">Richelieu</persName></item>
-                  <item><persName ref="#p.9">Castlereagh</persName></item>
-                  <item><persName ref="#p.10">Wellington</persName></item>
-                  <item><persName ref="#p.11">Hardenberg</persName></item>
-                  <item><persName ref="#p.12">Bernstorff</persName></item>
-                  <item><persName ref="#p.13">Nesselrode</persName></item>
-                  <item><persName ref="#p.14">Capodistrias</persName></item>
-               </list></signed>
+                  <item>
+                            <persName ref="#p.8">Metternich</persName>
+                        </item>
+                  <item>
+                            <persName ref="#p.1">Richelieu</persName>
+                        </item>
+                  <item>
+                            <persName ref="#p.9">Castlereagh</persName>
+                        </item>
+                  <item>
+                            <persName ref="#p.10">Wellington</persName>
+                        </item>
+                  <item>
+                            <persName ref="#p.11">Hardenberg</persName>
+                        </item>
+                  <item>
+                            <persName ref="#p.12">Bernstorff</persName>
+                        </item>
+                  <item>
+                            <persName ref="#p.13">Nesselrode</persName>
+                        </item>
+                  <item>
+                            <persName ref="#p.14">Capodistrias</persName>
+                        </item>
+               </list>
+                </signed>
          </div>
       </body>
       <back>
          <include xmlns="http://www.w3.org/2001/XInclude" href="listPlace.xml" xpointer="listPlace"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="listPerson.xml"
-            xpointer="listPerson"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="listTreaties.xml"
-            xpointer="listTreaties"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listPerson.xml" xpointer="listPerson"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listTreaties.xml" xpointer="listTreaties"/>
       </back>
    </text>
 </TEI>

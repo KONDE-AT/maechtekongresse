@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -13,10 +12,13 @@
                <persName>
                   <surname>Schneider</surname>
                   <forename>Karin</forename>
-               </persName></editor>
+               </persName>
+                </editor>
          </titleStmt>
          <editionStmt>
-            <edition><date>2017-03-13</date></edition>
+            <edition>
+                    <date>2017-03-13</date>
+                </edition>
          </editionStmt>
          <publicationStmt>
             <publisher>Österreichische Akademie der Wissenschaften, Institut für Neuzeit- und
@@ -43,8 +45,9 @@
                </msContents>
                <physDesc>
                   <p>Originalprotokoll</p>
-                  <p>Procès-verbal liegt zweifach ein: handschriftliches Konzept von <persName
-                        ref="#p.5"><surname>Gentz</surname></persName> fol. III/32, Reinschrift fol.
+                  <p>Procès-verbal liegt zweifach ein: handschriftliches Konzept von <persName ref="#p.5">
+                                <surname>Gentz</surname>
+                            </persName> fol. III/32, Reinschrift fol.
                      III/31; die Edition folgt der Reinschrift.</p>
 
                   <handDesc>
@@ -59,8 +62,11 @@
 
                </physDesc>
                <history>
-                  <origin><placeName ref="#loc.68">Verona</placeName><date when="1822-11-26">26.
-                        November 1822</date></origin>
+                  <origin>
+                            <placeName ref="#loc.68">Verona</placeName>
+                            <date when="1822-11-26">26.
+                        November 1822</date>
+                        </origin>
                </history>
             </msDesc>
             <msDesc xml:id="m.2" type="Lithographie">
@@ -86,7 +92,9 @@
                      Variante.</p>
                </physDesc>
                <history>
-                  <origin><placeName ref="#loc.7">Wien</placeName></origin>
+                  <origin>
+                            <placeName ref="#loc.7">Wien</placeName>
+                        </origin>
                </history>
             </msDesc>
             <msDesc xml:id="m.3" type="Lithographie">
@@ -111,8 +119,11 @@
                      III/39. Die Edition folgt der lithographierten Variante.</p>
                </physDesc>
                <history>
-                  <origin><placeName ref="#loc.68">Verona</placeName><date when="1822-11-26">26.
-                        November 1822</date></origin>
+                  <origin>
+                            <placeName ref="#loc.68">Verona</placeName>
+                            <date when="1822-11-26">26.
+                        November 1822</date>
+                        </origin>
                </history>
             </msDesc>
             <msDesc xml:id="m.4" type="Lithographie">
@@ -134,33 +145,44 @@
                <physDesc>
                   <p>Lithographie</p>
                   <p>Anlage 3 liegt dreifach ein: handschriftlich fol. III/42 und III/47–48,
-                     handschriftliches Konzept von <persName ref="#p.5"
-                        ><surname>Gentz</surname></persName> fol. III/43–45, lithographiert fol.
+                     handschriftliches Konzept von <persName ref="#p.5">
+                                <surname>Gentz</surname>
+                            </persName> fol. III/43–45, lithographiert fol.
                      III/40–41. Die Edition folgt der lithographierten Variante.</p>
                </physDesc>
                <history>
-                  <origin><placeName ref="#loc.68">Verona</placeName></origin>
+                  <origin>
+                            <placeName ref="#loc.68">Verona</placeName>
+                        </origin>
                </history>
             </msDesc>
             <listWit corresp="#m.1">
                <head>Procès-verbal der fünften Sitzung</head>
-               <witness corresp="#w.34"><bibl type="print">Prokesch-Osten, Geschichte des Abfalls,
-                     Bd. 3, S. 443.</bibl></witness>
+               <witness corresp="#w.34">
+                        <bibl type="print">Prokesch-Osten, Geschichte des Abfalls,
+                     Bd. 3, S. 443.</bibl>
+                    </witness>
             </listWit>
             <listWit corresp="#m.2">
                <head>Anlage 1: Erklärung Caramans</head>
-               <witness corresp="#w.34"><bibl type="print">Prokesch-Osten, Geschichte des Abfalls,
-                     Bd. 3, S. 443–444.</bibl></witness>
+               <witness corresp="#w.34">
+                        <bibl type="print">Prokesch-Osten, Geschichte des Abfalls,
+                     Bd. 3, S. 443–444.</bibl>
+                    </witness>
             </listWit>
             <listWit corresp="#m.3">
                <head>Anlage 2: Erklärung Hatzfelds</head>
-               <witness corresp="#w.34"><bibl type="print">Prokesch-Osten, Geschichte des Abfalls,
-                     Bd. 3, S. 444.</bibl></witness>
+               <witness corresp="#w.34">
+                        <bibl type="print">Prokesch-Osten, Geschichte des Abfalls,
+                     Bd. 3, S. 444.</bibl>
+                    </witness>
             </listWit>
             <listWit corresp="#m.4">
                <head>Anlage 3: Erklärung Wellingtons</head>
-               <witness corresp="#w.34"><bibl type="print">Prokesch-Osten, Geschichte des Abfalls,
-                     Bd. 3, S. 444–446.</bibl></witness>
+               <witness corresp="#w.34">
+                        <bibl type="print">Prokesch-Osten, Geschichte des Abfalls,
+                     Bd. 3, S. 444–446.</bibl>
+                    </witness>
             </listWit>
          </sourceDesc>
       </fileDesc>
@@ -181,9 +203,9 @@
       <profileDesc>
          <abstract>
             <p>Die <rs ref="#p.102 #p.175 #p.10">Vertreter Frankreichs, Preußens und
-                  Großbritanniens</rs> verlesen im Namen ihrer Regierungen Entgegnungen auf die <ref
-                  target="Verona_III_1.xml">russische Erklärung vom <date when="1822-11-09">9.
-                     November 1822</date></ref>.</p>
+                  Großbritanniens</rs> verlesen im Namen ihrer Regierungen Entgegnungen auf die <ref target="Verona_III_1.xml">russische Erklärung vom <date when="1822-11-09">9.
+                     November 1822</date>
+                    </ref>.</p>
          </abstract>
          <particDesc>
             <listPerson>
@@ -214,70 +236,103 @@
          <div decls="#m.1" hand="#A">
             <pb n="31r"/>
 
-            <p><add place="top">V<hi rendition="#su">me</hi> Conférence.</add></p>
-            <p><title>Procès-verbal de La</title></p>
-            <p><title>Conférence du <date when="1822-11-26">26 Novembre 1822</date></title></p>
-            <p><title>Affaire d'orient.</title></p>
-            <p>À la suite des déclarations consignées au <ref target="Verona_III_1.xml"
-                  >procès-verbal de la Conférence du <date when="1822-11-09">9 <choice>
+            <p>
+                    <add place="top">V<hi rendition="#su">me</hi> Conférence.</add>
+                </p>
+            <p>
+                    <title>Procès-verbal de La</title>
+                </p>
+            <p>
+                    <title>Conférence du <date when="1822-11-26">26 Novembre 1822</date>
+                    </title>
+                </p>
+            <p>
+                    <title>Affaire d'orient.</title>
+                </p>
+            <p>À la suite des déclarations consignées au <ref target="Verona_III_1.xml">procès-verbal de la Conférence du <date when="1822-11-09">9 <choice>
                         <abbr>Nov.</abbr>
                         <expan>Novembre</expan>
-                     </choice></date></ref>, <choice>
-                  <abbr>M<hi rendition="#su">r</hi></abbr>
+                     </choice>
+                        </date>
+                    </ref>, <choice>
+                  <abbr>M<hi rendition="#su">r</hi>
+                        </abbr>
                   <expan>Monsieur</expan>
-               </choice> le <persName ref="#p.102"><roleName>Marquis</roleName>
-                  <surname>de Caraman</surname></persName>, <choice>
-                  <abbr>M<hi rendition="#su">r</hi></abbr>
+               </choice> le <persName ref="#p.102">
+                        <roleName>Marquis</roleName>
+                  <surname>de Caraman</surname>
+                    </persName>, <choice>
+                  <abbr>M<hi rendition="#su">r</hi>
+                        </abbr>
                   <expan>Monsieur</expan>
-               </choice> le <persName ref="#p.175"><roleName>Prince</roleName>
-                  <surname>de Hatzfeld</surname></persName> et <choice>
-                  <abbr>M<hi rendition="#su">r</hi></abbr>
+               </choice> le <persName ref="#p.175">
+                        <roleName>Prince</roleName>
+                  <surname>de Hatzfeld</surname>
+                    </persName> et <choice>
+                  <abbr>M<hi rendition="#su">r</hi>
+                        </abbr>
                   <expan>Monsieur</expan>
-               </choice> le <persName ref="#p.10"><roleName>Duc</roleName>
-                  <surname>de Wellington</surname></persName> ont lu et déposé <rs xml:id="n.1"
-                  >celles qui se trouvent ci-annexées <hi rendition="#u">sub</hi> A., B et
-                  C.</rs><note type="editorial" target="#n.1">Vgl. Anlagen 1 bis 3.</note>
+               </choice> le <persName ref="#p.10">
+                        <roleName>Duc</roleName>
+                  <surname>de Wellington</surname>
+                    </persName> ont lu et déposé <rs xml:id="n.1">celles qui se trouvent ci-annexées <hi rendition="#u">sub</hi> A., B et
+                  C.</rs>
+                    <note type="editorial" target="#n.1">Vgl. Anlagen 1 bis 3.</note>
             </p>
-            <p><choice>
-                  <abbr>M<hi rendition="#su">r</hi></abbr>
+            <p>
+                    <choice>
+                  <abbr>M<hi rendition="#su">r</hi>
+                        </abbr>
                   <expan>Monsieur</expan>
-               </choice> le Conseiller intime actuel <persName ref="#p.35"><surname>de
-                     Tatischeff</surname></persName>, prévoyant qu’il recevroit de <rs ref="#p.17"><choice>
+               </choice> le Conseiller intime actuel <persName ref="#p.35">
+                        <surname>de
+                     Tatischeff</surname>
+                    </persName>, prévoyant qu’il recevroit de <rs ref="#p.17">
+                        <choice>
                      <abbr>S. M. I.</abbr>
                      <expan>Sa Majesté Impériale</expan>
                   </choice> de toutes les Russies</rs> des instructions qui le mettroient dans le
                cas de répondre aux déclarations de <choice>
-                  <abbr>M<hi rendition="#su">ss</hi></abbr>
+                  <abbr>M<hi rendition="#su">ss</hi>
+                        </abbr>
                   <expan>Messieurs</expan>
                </choice> les Plénipotentiaires des autres Cours, a demandé pour cet effet une autre
                Conférence laquelle <app>
                   <lem>a été arrêtée pour le lendemain</lem>
-                  <rdg><subst>
+                  <rdg>
+                            <subst>
                         <del rendition="#s">vu l’état actuel de cette question, confiée de nouveau
                            au Zèle et aux talens de <choice>
                               <abbr>Mrs.</abbr>
                               <expan>Messieurs</expan>
                            </choice> les Ministres des puissances alliées auprès de la Porte, feroit
-                           la clôture de celles qui avoient été établies à <placeName ref="#loc.7"
-                              >Vienne</placeName>, et se trouvoient si heureusement terminées par
-                           les transactions de <placeName ref="#loc.68">Vérone</placeName></del>
+                           la clôture de celles qui avoient été établies à <placeName ref="#loc.7">Vienne</placeName>, et se trouvoient si heureusement terminées par
+                           les transactions de <placeName ref="#loc.68">Vérone</placeName>
+                                </del>
                         <add>a été arrêtée pour le lendemain</add>
-                     </subst></rdg>
+                     </subst>
+                        </rdg>
                </app>.</p>
          </div>
 
          <div decls="#m.2">
             <pb n="34r"/>
-            <p><add place="top">A.</add></p>
-            <p><title>Déclaration du <rs ref="#p.102">Plénipotentiaire de France</rs> au Protocole
-                  de la Conférence du <date when="1822-11-26">26 Novembre 1822</date></title></p>
+            <p>
+                    <add place="top">A.</add>
+                </p>
+            <p>
+                    <title>Déclaration du <rs ref="#p.102">Plénipotentiaire de France</rs> au Protocole
+                  de la Conférence du <date when="1822-11-26">26 Novembre 1822</date>
+                    </title>
+                </p>
             <p>Le <rs ref="#p.102">Soussigné</rs>, en répondant à la déclaration qui lui a été
                communiquée par <choice>
-                  <abbr>M<hi rendition="#su">r</hi></abbr>
+                  <abbr>M<hi rendition="#su">r</hi>
+                        </abbr>
                   <expan>Monsieur</expan>
-               </choice> le <rs ref="#p.35">Plénipotentiaire Russe</rs> dans la <ref
-                  target="Verona_III_1.xml">Conférence du <date when="1822-11-09">9
-                  Novembre</date></ref>, est chargé de déposer au Protocole de la Conférence de ce
+               </choice> le <rs ref="#p.35">Plénipotentiaire Russe</rs> dans la <ref target="Verona_III_1.xml">Conférence du <date when="1822-11-09">9
+                  Novembre</date>
+                    </ref>, est chargé de déposer au Protocole de la Conférence de ce
                jour l’adhésion la plus complète de son gouvernement aux conditions auxquelles la
                Cour de Russie attache le rétablissement de Ses relations diplomatiques ordinaires
                avec la Porte, et le renvoi de Ses agents dans les <rs xml:id="n.2">Principautés du
@@ -287,20 +342,21 @@
             <p>Les sentimens nobles et généreux, qui caractérisent depuis si long temps toutes les
                déterminations de Sa Majesté l’<rs ref="#p.17">Empereur de toutes les Russies</rs>,
                n’ont jamais permis à <rs xml:id="n.3" ref="#p.15">Sa Majesté Très
-                  Chrétienne</rs><note type="editorial" target="#n.3">Ehrentitel des Königs von
+                  Chrétienne</rs>
+                    <note type="editorial" target="#n.3">Ehrentitel des Königs von
                   Frankreich.</note> d’élever le moindre doute sur ce qu’Elle avait droit d’attendre
                de <rs ref="#p.17">Son Auguste Allié</rs> dans une circonstance où le repos de
                l’Europe se trouvait dépendant de Ses hautes résolutions.</p>
             <p>La modération dont <rs ref="#p.17">Sa Majesté Impériale</rs> a donné des preuves si
                marquantes depuis les malheureux évènemens qui ont troublé la paix de l’Orient vient
                encore de recevoir un nouvel éclat de la déclaration communiquée par <choice>
-                  <abbr>M<hi rendition="#su">r</hi></abbr>
+                  <abbr>M<hi rendition="#su">r</hi>
+                        </abbr>
                   <expan>Monsieur</expan>
                </choice> le <rs ref="#p.35">Plénipotentiaire Russe</rs>.</p>
-            <p>Le <rs ref="#p.102">Soussigné</rs> s’empresse d’assurer Monsieur<pb n="34v"/> le <rs
-                  ref="#p.35">Plénipotentiaire de Russie</rs> que son Gouvernement ne négligera
-               aucun des moyens qui sont en son pouvoir pour engager le <rs xml:id="n.4"
-                  >Divan</rs><note type="editorial" target="#n.4">Osmanischer Staatsrat.</note> à
+            <p>Le <rs ref="#p.102">Soussigné</rs> s’empresse d’assurer Monsieur<pb n="34v"/> le <rs ref="#p.35">Plénipotentiaire de Russie</rs> que son Gouvernement ne négligera
+               aucun des moyens qui sont en son pouvoir pour engager le <rs xml:id="n.4">Divan</rs>
+                    <note type="editorial" target="#n.4">Osmanischer Staatsrat.</note> à
                satisfaire au plutôt la Cour de Russie sur les conditions auxquelles Elle a réduit
                Ses prétentions envers la Porte.</p>
             <p>En unissant ses efforts à ceux de Ses Augustes Alliés pour hâter autant que possible
@@ -316,16 +372,21 @@
 
          <div decls="#m.3">
             <pb n="39r"/>
-            <p><add place="top"><choice>
+            <p>
+                    <add place="top">
+                        <choice>
                      <abbr>Litt.</abbr>
                      <expan>Littera</expan>
                   </choice> B au protocole du <date when="1822-11-26">26 <choice>
                         <abbr>Nov.</abbr>
                         <expan>Novembre</expan>
-                     </choice> 1822</date>.</add></p>
-            <p><title>Déclaration du <rs ref="#p.175">Plénipotentiaire de Sa Majesté le <rs
-                        ref="#p.18">Roi de Prusse</rs></rs> au Protocole du <date when="1822-11-26"
-                     >26 Novembre 1822</date></title></p>
+                     </choice> 1822</date>.</add>
+                </p>
+            <p>
+                    <title>Déclaration du <rs ref="#p.175">Plénipotentiaire de Sa Majesté le <rs ref="#p.18">Roi de Prusse</rs>
+                        </rs> au Protocole du <date when="1822-11-26">26 Novembre 1822</date>
+                    </title>
+                </p>
             <p>Le <rs ref="#p.175">Plénipotentiaire de Prusse</rs> pour les Affaires de l’Orient est
                autorisé à déclarer au Protocole de ce jour :</p>
             <p>Que Sa Majesté le <rs ref="#p.18">Roi</rs>, son auguste maître, reconnoissant toute
@@ -333,43 +394,56 @@
                   les Russies</rs> a portés à l’intérêt de Ses augustes Alliés et au repos de
                l’Europe, partage dans toute leur étendue les principes et les sentimens exprimés
                dans la <ref target="Verona_III_1.xml">Déclaration que le Cabinet d’Autriche a fait
-                  insérer en réponse à celle du Plénipotentiaire de Russie au Protocole du <date
-                     when="1822-11-09">9 Novembre</date></ref>, et que le <rs ref="#p.193">Chargé
-                  d’Affaires de Prusse à <placeName ref="#loc.81">Constantinople</placeName></rs>
+                  insérer en réponse à celle du Plénipotentiaire de Russie au Protocole du <date when="1822-11-09">9 Novembre</date>
+                    </ref>, et que le <rs ref="#p.193">Chargé
+                  d’Affaires de Prusse à <placeName ref="#loc.81">Constantinople</placeName>
+                    </rs>
                recevra les ordres les plus précis de joindre ses efforts à ceux des Ambassadeurs des
                Cours alliées pour obtenir enfin l’accomplissement des justes demandes du Cabinet de
                Russie, et pour écarter par là les griefs qui s’opposent encore au rétablissement des
                relations diplomatiques et amicales des deux Gouvernemens.</p>
-            <p><placeName ref="#loc.68">Vérone</placeName>, le <date when="1822-11-26">26 Novembre
+            <p>
+                    <placeName ref="#loc.68">Vérone</placeName>, le <date when="1822-11-26">26 Novembre
                   1822</date>.</p>
          </div>
 
          <div decls="#m.4">
             <pb n="40r"/>
-            <p><add place="top">C.</add></p>
-            <p><title>Déclaration de <choice>
-                     <abbr>Mons<hi rendition="#su">r</hi></abbr>
+            <p>
+                    <add place="top">C.</add>
+                </p>
+            <p>
+                    <title>Déclaration de <choice>
+                     <abbr>Mons<hi rendition="#su">r</hi>
+                            </abbr>
                      <expan>Monsieur</expan>
-                  </choice> le <persName ref="#p.10"><roleName>Duc</roleName>
-                     <surname>de Wellington</surname></persName> au Protocole de la Conférence du
-                     <date when="1822-11-26">26 Novembre 1822</date></title></p>
+                  </choice> le <persName ref="#p.10">
+                            <roleName>Duc</roleName>
+                     <surname>de Wellington</surname>
+                        </persName> au Protocole de la Conférence du
+                     <date when="1822-11-26">26 Novembre 1822</date>
+                    </title>
+                </p>
             <p>Le <rs ref="#p.10">Plénipotentiaire de <rs ref="#p.130">Sa Majesté
-                  Britannique</rs></rs> a déjà, depuis son arrivée au Congrès, saisi une occasion
+                  Britannique</rs>
+                    </rs> a déjà, depuis son arrivée au Congrès, saisi une occasion
                pour déclarer combien le <rs ref="#p.130">Roi</rs>, son Maître, reconnait la
                magnanimité et la modération de Son Auguste Allié l’<rs ref="#p.17">Empereur de
                   Russie</rs> dans les discussions récentes avec la Porte Ottomane ; et c’est avec
                le plus grand plaisir qu’il profite de l’occasion présente pour exprimer les mêmes
                sentimens et le désir sincère du <rs ref="#p.130">Roi</rs> que les discussions qui
                ont eu pour objet d’inspirer à la Porte <choice>
-                  <abbr>Ottom<hi rend="#su">e</hi></abbr>
+                  <abbr>Ottom<hi rend="#su">e</hi>
+                        </abbr>
                   <expan>Ottomane</expan>
                </choice> des vues justes sur ce qui est dû à <rs ref="#p.17">Sa Majesté
                   Impériale</rs>, réusissent à rétablir les relations amicales entre les deux
                Puissances.</p>
             <p>Le but des Cours alliées a été constamment celui d’engager la Porte par Leurs
                représentations à remplir les stipulations de ses traités avec <rs ref="#p.17">Sa
-                  Majesté Impériale</rs>. Et maintenant, que des <rs ref="#p.194 #p.195"><rs
-                     xml:id="n.5">Hospodars</rs><note type="editorial" target="#n.5">Titel der
+                  Majesté Impériale</rs>. Et maintenant, que des <rs ref="#p.194 #p.195">
+                        <rs xml:id="n.5">Hospodars</rs>
+                        <note type="editorial" target="#n.5">Titel der
                      Fürsten in Moldau und der Walachei.</note> ont été nommés et investis du
                   Gouvernement des Principautés de Valachie et de Moldavie</rs>, que les troupes
                Ottomanes ont été retirées de ces Provinces, que la Porte a proclamé et dans
@@ -380,28 +454,23 @@
                se soumettraient encore en conséquence des actes de pardon et d’amnistie, il est à
                   espérer<pb n="40v"/> que le terme ne sera pas éloigné où <rs ref="#p.17">Sa
                   Majesté Impériale</rs> jugera à propos d’accorder à la Porte ce témoignage de Sa
-               haute satisfaction qui lui est offert dans une des alternatives de la note du <rs
-                  ref="#p.35">Plénipotentiaire de Sa Majesté</rs>.</p>
+               haute satisfaction qui lui est offert dans une des alternatives de la note du <rs ref="#p.35">Plénipotentiaire de Sa Majesté</rs>.</p>
             <p>Le second objet touché dans ladite Note est la notification officielle à faire au
                Gouvernement de <rs ref="#p.17">Sa Majesté Impériale</rs> par la Porte relativement
-               au rétablissement dans les Principautés du Gouvernement des Hospodars, <rs
-                  xml:id="n.6">tel que les traités le réclament</rs>.<note type="editorial"
-                  target="#n.6">Seit dem Frieden von <placeName ref="#loc.83">Bukarest</placeName>
+               au rétablissement dans les Principautés du Gouvernement des Hospodars, <rs xml:id="n.6">tel que les traités le réclament</rs>.<note type="editorial" target="#n.6">Seit dem Frieden von <placeName ref="#loc.83">Bukarest</placeName>
                   von 1812 verfügte der russische Zar über ein Weisungsrecht gegenüber den
                   Hospodaren der Donaufürstentümer sowie ein Mitspracherecht im Fall einer
                   Amtsenthebung. Zudem wurde den Osmanischen Truppen der Aufenthalt in Modawien und
                   der Walachei verboten; vgl. Calic, Südosteuropa, S. 253. </note> Quoique cette
                notification ne soit pas exigée par les traités, elle serait cependant une démarche
                si évidemment propre à manifester le désir de la Porte de voir les relations d’amitié
-               et de bon voisinage rétablies entre les deux Puissances, que l’<rs ref="#p.58"
-                  >Ambassadeur de <rs ref="#p.130">Sa Majesté Britannique</rs> à <placeName
-                     ref="#loc.81">Constantinople</placeName></rs> proposera et emploira avec
+               et de bon voisinage rétablies entre les deux Puissances, que l’<rs ref="#p.58">Ambassadeur de <rs ref="#p.130">Sa Majesté Britannique</rs> à <placeName ref="#loc.81">Constantinople</placeName>
+                    </rs> proposera et emploira avec
                empressement ses bons offices pour que la Porte s’y décide le plus tôt possible.</p>
             <p>Le commerce de la Mer noire, et la manière dont il pourra être affecté par les
                règlemens de douane de la Porte, doit nécessairement offrir un sujet de sollicitude à
                   <rs ref="#p.17">Sa Majesté Impériale</rs>, et sous ce point de vue réclamera
-               toujours l’intérêt de <rs ref="#p.130">Sa Majesté Britannique</rs>. Le <rs
-                  ref="#p.10">Plénipotentiaire de Sa Majesté</rs> est en conséquence autorisé à
+               toujours l’intérêt de <rs ref="#p.130">Sa Majesté Britannique</rs>. Le <rs ref="#p.10">Plénipotentiaire de Sa Majesté</rs> est en conséquence autorisé à
                déclarer que <rs ref="#p.58">Son Ambassadeur</rs> sera instruit de faire valoir ses
                bons offices et l’influence que Sa Majesté pourra se promettre auprès de la Porte
                afin de faciliter, de concert avec Ses Alliés, les arrangemens que tels Souverains,
@@ -411,20 +480,17 @@
                Pavillon du <rs ref="#p.172">Roi de Sardaigne</rs>. </p>
             <p>Le <rs ref="#p.10">Plénipotentiaire Britannique</rs> se flatte que ces mesures,
                lorsqu’elles seront complétées, placeront le commerce de la Mer noire sur un meilleur
-               pied que celui où il se trouvait avant les derniers troubles, et que <rs ref="#p.17"
-                  >Sa Majesté Impériale</rs> sera convaincue du sincère désir de <rs ref="#p.130">Sa
+               pied que celui où il se trouvait avant les derniers troubles, et que <rs ref="#p.17">Sa Majesté Impériale</rs> sera convaincue du sincère désir de <rs ref="#p.130">Sa
                   Majesté Britannique</rs> de faciliter tout arrangement tendant à la prospérité
                d’une partie quelconque des Etats de Sa Majesté Impériale.</p>
          </div>
       </body>
       <back>
          <include xmlns="http://www.w3.org/2001/XInclude" href="listPlace.xml" xpointer="listPlace"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="listPerson.xml"
-            xpointer="listPerson"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listPerson.xml" xpointer="listPerson"/>
          <include xmlns="http://www.w3.org/2001/XInclude" href="listWit.xml" xpointer="listWit"/>
          <include xmlns="http://www.w3.org/2001/XInclude" href="listOrg.xml" xpointer="listOrg"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="listTreaties.xml"
-            xpointer="listTreaties"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listTreaties.xml" xpointer="listTreaties"/>
       </back>
    </text>
 </TEI>

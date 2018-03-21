@@ -1,23 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title type="main">VIII. Protocole du <date when="1822-11-21">21 Novembre</date>
-               concernant La réclamation du <persName ref="#p.204"><roleName>Prince</roleName>
-                  <surname>Aldobrandini</surname></persName></title>
+               concernant La réclamation du <persName ref="#p.204">
+                        <roleName>Prince</roleName>
+                  <surname>Aldobrandini</surname>
+                    </persName>
+                </title>
             <title type="sub">Digitale Edition</title>
             <editor>
                <persName>
                   <surname>Schneider</surname>
                   <forename>Karin</forename>
-               </persName></editor>
+               </persName>
+                </editor>
          </titleStmt>
          <editionStmt>
-            <edition><date>2017-03-13</date></edition>
+            <edition>
+                    <date>2017-03-13</date>
+                </edition>
          </editionStmt>
          <publicationStmt>
             <publisher>Österreichische Akademie der Wissenschaften, Institut für Neuzeit- und
@@ -40,15 +45,19 @@
                <msContents>
                   <msItem>
                      <title>Protocole du <date when="1822-11-21">21 Novembre</date> concernant La
-                        réclamation du <persName ref="#p.204"><roleName>Prince</roleName>
-                           <surname>Aldobrandini</surname></persName></title>
+                        réclamation du <persName ref="#p.204">
+                                    <roleName>Prince</roleName>
+                           <surname>Aldobrandini</surname>
+                                </persName>
+                            </title>
                   </msItem>
                </msContents>
                <physDesc>
-                  <p>Originalprotokoll von <persName ref="#p.5"
-                     ><surname>Gentz</surname></persName></p>
-                  <p>Protokoll liegt zweifach ein: handschriftliches Original von <persName
-                        ref="#p.5">Gentz</persName> fol. VI/20, Abschrift fol. VI/21; die Edition
+                  <p>Originalprotokoll von <persName ref="#p.5">
+                                <surname>Gentz</surname>
+                            </persName>
+                        </p>
+                  <p>Protokoll liegt zweifach ein: handschriftliches Original von <persName ref="#p.5">Gentz</persName> fol. VI/20, Abschrift fol. VI/21; die Edition
                      folgt der Originalversion von Gentz.</p>
 
                   <handDesc>
@@ -63,8 +72,11 @@
 
                </physDesc>
                <history>
-                  <origin><placeName ref="#loc.68">Verona</placeName><date when="1822-11-21">21.
-                        November 1822</date></origin>
+                  <origin>
+                            <placeName ref="#loc.68">Verona</placeName>
+                            <date when="1822-11-21">21.
+                        November 1822</date>
+                        </origin>
                </history>
             </msDesc>
          </sourceDesc>
@@ -85,12 +97,12 @@
       </encodingDesc>
       <profileDesc>
          <abstract>
-            <p>Die Mächte legen die Formalien fest, nach welchen über die Forderungen des <persName
-                  ref="#p.204"><roleName>Prinzen</roleName>
+            <p>Die Mächte legen die Formalien fest, nach welchen über die Forderungen des <persName ref="#p.204">
+                        <roleName>Prinzen</roleName>
                   <forename>Francesco</forename>
-                  <surname>Borghese Aldobrandini</surname></persName> hinsichtlich von Einkünften
-               aus den Salinen <placeName ref="#loc.87">Kreuznach</placeName> und <placeName
-                  ref="#loc.88">Dürkheim</placeName> entschieden werden wird.</p>
+                  <surname>Borghese Aldobrandini</surname>
+                    </persName> hinsichtlich von Einkünften
+               aus den Salinen <placeName ref="#loc.87">Kreuznach</placeName> und <placeName ref="#loc.88">Dürkheim</placeName> entschieden werden wird.</p>
          </abstract>
          <particDesc>
             <listPerson>
@@ -120,26 +132,32 @@
       <body>
          <div decls="#m.1" hand="#G">
             <pb n="20r"/>
-            <p><title>Protocole</title></p>
-            <p><title>relatif aux réclamations du <persName ref="#p.204"><roleName>Prince</roleName>
-                     <surname>Aldobrandini</surname></persName></title>
+            <p>
+                    <title>Protocole</title>
+                </p>
+            <p>
+                    <title>relatif aux réclamations du <persName ref="#p.204">
+                            <roleName>Prince</roleName>
+                     <surname>Aldobrandini</surname>
+                        </persName>
+                    </title>
             </p>
-            <p><placeName ref="#loc.68">Vérone</placeName> Le <date when="1822-11-21">21 Novembre
+            <p>
+                    <placeName ref="#loc.68">Vérone</placeName> Le <date when="1822-11-21">21 Novembre
                   1822</date>.</p>
             <p>Sur la demande de <choice>
                   <abbr>Mr.</abbr>
                   <expan>Monsieur</expan>
                </choice> le <rs ref="#p.174">Ministre des affaires étrangères de France</rs>, les
                   <rs ref="#p.8 #p.10 #p.12 #p.13">Plénipotentiaires d’Autriche, de la
-                  Grande-Bretagne, de Prusse et de Russie</rs> sont convenus avec <rs ref="#p.174"
-                  >Son Excellence</rs> de ce qui suit :</p>
-            <p>La réclamation formée par le <persName ref="#p.204"><roleName>Prince</roleName>
-                  <surname>Aldobrandini</surname></persName> relativement à une partie des revenus
-               des salines de <placeName ref="#loc.87">Kreutznach</placeName> et de <placeName
-                  ref="#loc.88">Dürkheim</placeName> sera soumise à l’examen des <rs
-                  ref="#p.2 #p.3 #p.4 #p.7">Ministres des Quatre Cours accrédités auprès de <rs
-                     xml:id="n.1" ref="#p.15">Sa Majesté Très Chrétienne</rs></rs><note
-                  type="editorial" target="#n.1">Ehrentitel des Königs von Frankreich.</note>
+                  Grande-Bretagne, de Prusse et de Russie</rs> sont convenus avec <rs ref="#p.174">Son Excellence</rs> de ce qui suit :</p>
+            <p>La réclamation formée par le <persName ref="#p.204">
+                        <roleName>Prince</roleName>
+                  <surname>Aldobrandini</surname>
+                    </persName> relativement à une partie des revenus
+               des salines de <placeName ref="#loc.87">Kreutznach</placeName> et de <placeName ref="#loc.88">Dürkheim</placeName> sera soumise à l’examen des <rs ref="#p.2 #p.3 #p.4 #p.7">Ministres des Quatre Cours accrédités auprès de <rs xml:id="n.1" ref="#p.15">Sa Majesté Très Chrétienne</rs>
+                    </rs>
+                    <note type="editorial" target="#n.1">Ehrentitel des Königs von Frankreich.</note>
                lesquels, après s’être concertés à ce sujet avec <choice>
                   <abbr>Mr.</abbr>
                   <expan>Monsieur</expan>
@@ -148,22 +166,31 @@
                à amener une décision unanime et définitive.</p>
             <signed>
                <list>
-                  <item><persName ref="#p.8">Metternich</persName></item>
-                  <item><persName ref="#p.174">Montmorency</persName></item>
-                  <item><persName ref="#p.10">Wellington</persName></item>
-                  <item><persName ref="#p.12">Bernstorff</persName></item>
-                  <item><persName ref="#p.13">Nesselrode</persName></item>
-               </list></signed>
+                  <item>
+                            <persName ref="#p.8">Metternich</persName>
+                        </item>
+                  <item>
+                            <persName ref="#p.174">Montmorency</persName>
+                        </item>
+                  <item>
+                            <persName ref="#p.10">Wellington</persName>
+                        </item>
+                  <item>
+                            <persName ref="#p.12">Bernstorff</persName>
+                        </item>
+                  <item>
+                            <persName ref="#p.13">Nesselrode</persName>
+                        </item>
+               </list>
+                </signed>
          </div>
       </body>
       <back>
          <include xmlns="http://www.w3.org/2001/XInclude" href="listPlace.xml" xpointer="listPlace"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="listPerson.xml"
-            xpointer="listPerson"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listPerson.xml" xpointer="listPerson"/>
          <include xmlns="http://www.w3.org/2001/XInclude" href="listWit.xml" xpointer="listWit"/>
          <include xmlns="http://www.w3.org/2001/XInclude" href="listOrg.xml" xpointer="listOrg"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="listTreaties.xml"
-            xpointer="listTreaties"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listTreaties.xml" xpointer="listTreaties"/>
       </back>
    </text>
 </TEI>

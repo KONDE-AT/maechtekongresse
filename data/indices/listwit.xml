@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
       <teiHeader>
@@ -18,123 +17,195 @@
       </teiHeader>
       <text>
             <body>
-                  <listWit xmlns="http://www.tei-c.org/ns/1.0" xml:id="listWit">
+                  <listWit xml:id="listWit">
                         <witness xml:id="w.1">
                               <bibl type="print">Wellington, Arthur Richard Wellesly, 2nd Duke of
                                     (Hg.), Arthur Wellesly, Duke of Wellington. Supplementary
                                     Despachtes, Correspondence, and Memoirs, Bd. 12 (London
                                     1865).</bibl>
                         </witness>
-                        <witness xml:id="w.2"><bibl type="print">Grewe Wilhelm G. (Hg.), Fontes
+                        <witness xml:id="w.2">
+                    <bibl type="print">Grewe Wilhelm G. (Hg.), Fontes
                                     Historiae Juris Gentium. Quellen zur Geschichte des
                                     Völkerrechts. Bd. 3/1 (1815–1945) (Berlin – New York
-                                    1992).</bibl></witness>
-                        <witness xml:id="w.3"><bibl type="print">Bertier de Sauvigny Guillaume de,
-                                    La Sainte-Alliance (Paris 1972).</bibl></witness>
-                        <witness xml:id="w.4"><bibl type="print">Vnešnjaja politika Rossii XIX i
-                                    načala XX veka, 12 Bde. (Moskau 1960–1980).</bibl></witness>
-                        <witness xml:id="w.5"><bibl type="print">British and Foreign State Papers,
-                                    170 Bde. (London 1841–1977).</bibl></witness>
-                        <witness xml:id="w.6"><bibl type="print">Clarke R. G., Papers [relative to
+                                    1992).</bibl>
+                </witness>
+                        <witness xml:id="w.3">
+                    <bibl type="print">Bertier de Sauvigny Guillaume de,
+                                    La Sainte-Alliance (Paris 1972).</bibl>
+                </witness>
+                        <witness xml:id="w.4">
+                    <bibl type="print">Vnešnjaja politika Rossii XIX i
+                                    načala XX veka, 12 Bde. (Moskau 1960–1980).</bibl>
+                </witness>
+                        <witness xml:id="w.5">
+                    <bibl type="print">British and Foreign State Papers,
+                                    170 Bde. (London 1841–1977).</bibl>
+                </witness>
+                        <witness xml:id="w.6">
+                    <bibl type="print">Clarke R. G., Papers [relative to
                                     the slave trade] presented to Parliament in 1819, Bd. 1 (London
-                                    o. J.).</bibl></witness>
-                        <witness xml:id="w.7"><bibl type="print">Martens Georg Friedrich, Nouveaux
+                                    o. J.).</bibl>
+                </witness>
+                        <witness xml:id="w.7">
+                    <bibl type="print">Martens Georg Friedrich, Nouveaux
                                     supplémens au recueil des traités, Bd. 3: 1806–1839 (Göttingen
-                                    1842).</bibl></witness>
-                        <witness xml:id="w.8"><bibl type="print">Angeberg Comte d’ (= Leonard Jakób
+                                    1842).</bibl>
+                </witness>
+                        <witness xml:id="w.8">
+                    <bibl type="print">Angeberg Comte d’ (= Leonard Jakób
                                     Boreijko Chodźko) (Hg.), Le Congrès de Viene et les traités de
                                     1815. Précédé et suivi des actes diplomatiques qui s’y
                                     rattachent. Avec une introduction historique par M. Capefigue, 3
-                                    Bde. (Paris 1863 und1864).</bibl></witness>
-                        <witness xml:id="w.9"><bibl type="print">Clercq Alexandre de, Recueil des
+                                    Bde. (Paris 1863 und1864).</bibl>
+                </witness>
+                        <witness xml:id="w.9">
+                    <bibl type="print">Clercq Alexandre de, Recueil des
                                     Traités de la France. 10 Bde. (Paris
-                              1864–1872).</bibl></witness>
-                        <witness xml:id="w.10"><bibl type="print">Metternich-Winneburg Richard,
+                              1864–1872).</bibl>
+                </witness>
+                        <witness xml:id="w.10">
+                    <bibl type="print">Metternich-Winneburg Richard,
                                     Klinkowström Alfons (Hg.), Aus Metternichs nachgelassenen
-                                    Papieren, 8 Bde. (Wien 1880–1884).</bibl></witness>
-                        <witness xml:id="w.11"><bibl>Firmin-Didot Georges, La captivité de
+                                    Papieren, 8 Bde. (Wien 1880–1884).</bibl>
+                </witness>
+                        <witness xml:id="w.11">
+                    <bibl>Firmin-Didot Georges, La captivité de
                                     Sainte-Hélène, d’après les rapports inédits de Marquis de
-                                    Montchenu (Paris 1894).</bibl></witness>
-                        <witness xml:id="w.12"><bibl>Masson Frédéric, Autour de Sainte-Helène (Paris
-                                    1909).</bibl></witness>
-                        <witness xml:id="w.13"><bibl>de Raxis de Flassan Gaëtan, Histoire du Congrès
-                                    de Vienne, 3 Bde. (Paris 1829).</bibl></witness>
-                        <witness xml:id="w.14"><bibl>Martens Georg Friedrich, Nouveau recueil des
+                                    Montchenu (Paris 1894).</bibl>
+                </witness>
+                        <witness xml:id="w.12">
+                    <bibl>Masson Frédéric, Autour de Sainte-Helène (Paris
+                                    1909).</bibl>
+                </witness>
+                        <witness xml:id="w.13">
+                    <bibl>de Raxis de Flassan Gaëtan, Histoire du Congrès
+                                    de Vienne, 3 Bde. (Paris 1829).</bibl>
+                </witness>
+                        <witness xml:id="w.14">
+                    <bibl>Martens Georg Friedrich, Nouveau recueil des
                                     traités d’alliance, de paix, de trêve, de neutralité, de
                                     commerce, de limites, d’échange etc., Bd. 1 (Göttingen 1817);
                                     Bd. 2 (Göttingen 1818); Bd. 5 (Göttingen 1824); Bd. 6 (Göttingen
-                                    1828).</bibl></witness>
-                        <witness xml:id="w.15"><bibl>Näf Werner (Hg.), Europapolitik zu Beginn des
+                                    1828).</bibl>
+                </witness>
+                        <witness xml:id="w.15">
+                    <bibl>Näf Werner (Hg.), Europapolitik zu Beginn des
                                     19. Jahrhunderts (= Quellen zur neueren Geschichte, Bern
-                                    1944).</bibl></witness>
-                        <witness xml:id="w.16"><bibl>Meyer Philipp Anton Guido von (Hg.),
+                                    1944).</bibl>
+                </witness>
+                        <witness xml:id="w.16">
+                    <bibl>Meyer Philipp Anton Guido von (Hg.),
                                     Staats-Acten für Geschichte und öffentliches Recht des Deutschen
                                     Bundes (Corpus Juris Confoederationis Germanicae) (Frankfurt a.
-                                    M. 21833).</bibl></witness>
-                        <witness xml:id="w.17"><bibl>Clarke R. G., Papers presented to Parliament in
-                                    1823, Bd. 1 (London o. J.).</bibl></witness>
-                        <witness xml:id="w.18"><bibl>Shaler William, Sketches of Algiers, Political,
-                                    Historical, and Civil (Boston 1826).</bibl></witness>
-                        <witness xml:id="w.19"><bibl>Neumann Leopold, Recueil des traités et
+                                    M. 21833).</bibl>
+                </witness>
+                        <witness xml:id="w.17">
+                    <bibl>Clarke R. G., Papers presented to Parliament in
+                                    1823, Bd. 1 (London o. J.).</bibl>
+                </witness>
+                        <witness xml:id="w.18">
+                    <bibl>Shaler William, Sketches of Algiers, Political,
+                                    Historical, and Civil (Boston 1826).</bibl>
+                </witness>
+                        <witness xml:id="w.19">
+                    <bibl>Neumann Leopold, Recueil des traités et
                                     conventions conclus par l’Autriche, Bd. 2–4 (Leipzig
-                                    1856–1858).</bibl></witness>
-                        <witness xml:id="w.20"><bibl>Scult Mel, Millennial Expectations and Jewish
+                                    1856–1858).</bibl>
+                </witness>
+                        <witness xml:id="w.20">
+                    <bibl>Scult Mel, Millennial Expectations and Jewish
                                     Liberties. A Study of the Efforts to Convert the Jews in
                                     Britain, up to the Mid Ninteenth Century (Leiden
-                              1978).</bibl></witness>
-                        <witness xml:id="w.21"><bibl>Wolf Lucien, Notes on the Diplomatic History of
-                                    the Jewish Question (London 1919).</bibl></witness>
-                        <witness xml:id="w.22"><bibl>Rain Pierre, L’Europe et la Restauration des
-                                    Bourbons. 1814–1818 (Paris 1908).</bibl></witness>
-                        <witness xml:id="w.23"><bibl>Recueil des Traités, Conventions et Actes
+                              1978).</bibl>
+                </witness>
+                        <witness xml:id="w.21">
+                    <bibl>Wolf Lucien, Notes on the Diplomatic History of
+                                    the Jewish Question (London 1919).</bibl>
+                </witness>
+                        <witness xml:id="w.22">
+                    <bibl>Rain Pierre, L’Europe et la Restauration des
+                                    Bourbons. 1814–1818 (Paris 1908).</bibl>
+                </witness>
+                        <witness xml:id="w.23">
+                    <bibl>Recueil des Traités, Conventions et Actes
                                     diplomatiques concernant l’Autriche et l’Italie (Paris
-                                    1859).</bibl></witness>
-                        <witness xml:id="w.24"><bibl>Martens Charles de, Manuel diplomatique ou
+                                    1859).</bibl>
+                </witness>
+                        <witness xml:id="w.24">
+                    <bibl>Martens Charles de, Manuel diplomatique ou
                                     Précis des Droits et des Fonctions des Agens diplomatiques
-                                    (Paris 1822).</bibl></witness>
-                        <witness xml:id="w.25"><bibl>Ghillany Friedrich Wilhelm (Hg.),
+                                    (Paris 1822).</bibl>
+                </witness>
+                        <witness xml:id="w.25">
+                    <bibl>Ghillany Friedrich Wilhelm (Hg.),
                                     Diplomatisches Handbuch. Sammlungen der wichtigsten europäischen
                                     Friedensschlüsse, Congreßacten und sonstigen Staatsurkunden vom
                                     Westphälischen Frieden bis auf die neueste Zeit. 3 Bde.
-                                    (Nördlingen 1855).</bibl></witness>
-                        <witness xml:id="w.26"><bibl>Archives diplomatiques pour l’histoire du temps
+                                    (Nördlingen 1855).</bibl>
+                </witness>
+                        <witness xml:id="w.26">
+                    <bibl>Archives diplomatiques pour l’histoire du temps
                                     et des états/ Diplomatisches Archiv für die Zeit- und
                                     Staatengeschichte, 6 Bde. (Stuttgart – Tübingen
-                                    1821–1826).</bibl></witness>
-                        <witness xml:id="w.27"><bibl>Lesur C. P., Annuaire historique universel pour
-                                    1821, Bd. 6 (Paris 1821).</bibl></witness>
-                        <witness xml:id="w.28"><bibl>Martens Georg Friedrich, Supplément au Recueil
+                                    1821–1826).</bibl>
+                </witness>
+                        <witness xml:id="w.27">
+                    <bibl>Lesur C. P., Annuaire historique universel pour
+                                    1821, Bd. 6 (Paris 1821).</bibl>
+                </witness>
+                        <witness xml:id="w.28">
+                    <bibl>Martens Georg Friedrich, Supplément au Recueil
                                     des principaux Traités d’Alliance, de Paix, de Trêve, de
                                     Neutralité, de Commerce, de Limites, d’Èchange etc., Bd. 6
-                                    (Göttingen 1818), Bd. 9 (Göttingen 1824).</bibl></witness>
-                        <witness xml:id="w.29"><bibl>Collezione delle leggi e de’decreti reali del
+                                    (Göttingen 1818), Bd. 9 (Göttingen 1824).</bibl>
+                </witness>
+                        <witness xml:id="w.29">
+                    <bibl>Collezione delle leggi e de’decreti reali del
                                     Regno delle due Sicilie. Anno 1821, Semestre I (Napoli
-                                    1821).</bibl></witness>
-                        <witness xml:id="w.30"><bibl>Bianchi Nicomede, Storia documentata delle
+                                    1821).</bibl>
+                </witness>
+                        <witness xml:id="w.30">
+                    <bibl>Bianchi Nicomede, Storia documentata delle
                                     Diplomazia Europea in Italia dall’anno 1814 all’anno 1861, Bd. 2
-                                    (Turin 1865).</bibl></witness>
-                        <witness xml:id="w.31"><bibl>Martens Charles de, Guide diplomatique ou
+                                    (Turin 1865).</bibl>
+                </witness>
+                        <witness xml:id="w.31">
+                    <bibl>Martens Charles de, Guide diplomatique ou
                                     Traité des droits, des immunités et des devoirs des Ministres
                                     publics, des agens diplomatiques et consulaires, Bd. 2 (Paris
-                                    1837).</bibl></witness>
-                        <witness xml:id="w.32"><bibl>Chateaubriand François-René, Congrès de Vérone.
+                                    1837).</bibl>
+                </witness>
+                        <witness xml:id="w.32">
+                    <bibl>Chateaubriand François-René, Congrès de Vérone.
                                     Guerre d’Espagne 1823. Colonies Espagnoles (Paris – Leipzig
-                                    1838).</bibl></witness>
-                        <witness xml:id="w.33"><bibl>Oechsli Wilhelm, Geschichte der Schweiz im
+                                    1838).</bibl>
+                </witness>
+                        <witness xml:id="w.33">
+                    <bibl>Oechsli Wilhelm, Geschichte der Schweiz im
                                     neunzehnten Jahrhundert, Bd. 2 (= Staatengeschichte der neuesten
-                                    Zeit, Bd. 30, Leipzig 1913).</bibl></witness>
-                        <witness xml:id="w.34"><bibl>Prokesch-Osten Anton von, Geschichte des
+                                    Zeit, Bd. 30, Leipzig 1913).</bibl>
+                </witness>
+                        <witness xml:id="w.34">
+                    <bibl>Prokesch-Osten Anton von, Geschichte des
                                     Abfalls der Griechen vom Türkischen Reiche im Jahre 1821, 6 Bde.
-                                    (Wien 1867).</bibl></witness>
-                        <witness xml:id="w.35"><bibl>Hajnal Henry, The Danube. Its Historical,
+                                    (Wien 1867).</bibl>
+                </witness>
+                        <witness xml:id="w.35">
+                    <bibl>Hajnal Henry, The Danube. Its Historical,
                                     Political and Economic Importance (The Hague
-                              1920).</bibl></witness>
-                        <witness xml:id="w.36"><bibl>Wellington, Duke of (Hg.), Dispatches,
+                              1920).</bibl>
+                </witness>
+                        <witness xml:id="w.36">
+                    <bibl>Wellington, Duke of (Hg.), Dispatches,
                                     Correspondence and Memoranda of Field Marshal Arthur Duke of
-                                    Wellington, Bd. 1 (London 1867).</bibl></witness>
-                        <witness xml:id="w.37"><bibl>Alberti Annibale, Atti del parlamento delle Due
+                                    Wellington, Bd. 1 (London 1867).</bibl>
+                </witness>
+                        <witness xml:id="w.37">
+                    <bibl>Alberti Annibale, Atti del parlamento delle Due
                               Sicilie, 1820–182, Bd. 4: La rivoluzione napoletana. Il suo parlamento
-                              et la reazione Europea (Bologna 1931).</bibl></witness>
+                              et la reazione Europea (Bologna 1931).</bibl>
+                </witness>
                   </listWit>
 
             </body>

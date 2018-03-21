@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -12,10 +11,13 @@
                <persName>
                   <surname>Schneider</surname>
                   <forename>Karin</forename>
-               </persName></editor>
+               </persName>
+                </editor>
          </titleStmt>
          <editionStmt>
-            <edition><date>2015-05-08</date></edition>
+            <edition>
+                    <date>2015-05-08</date>
+                </edition>
          </editionStmt>
          <publicationStmt>
             <publisher>Österreichische Akademie der Wissenschaften, Institut für Neuzeit- und
@@ -43,7 +45,8 @@
                <physDesc>
 
                   <p>Eigenhändiges Protokoll von <persName ref="#p.5">
-                        <surname>Gentz</surname></persName>.</p>
+                        <surname>Gentz</surname>
+                            </persName>.</p>
                   <handDesc>
                      <handNote xml:id="G">Friedrich Gentz</handNote>
                      <handNote xml:id="W">Nikolaus Wacken</handNote>
@@ -52,8 +55,10 @@
                   </handDesc>
                </physDesc>
                <history>
-                  <origin><placeName ref="#loc.1">Aachen</placeName>
-                     <date when="1818-11-19">19. November 1818</date></origin>
+                  <origin>
+                            <placeName ref="#loc.1">Aachen</placeName>
+                     <date when="1818-11-19">19. November 1818</date>
+                        </origin>
                </history>
             </msDesc>
             <msDesc xml:id="m.2" type="Übersetzung">
@@ -83,20 +88,30 @@
 
             <listWit corresp="#m.1">
                <head>Protokoll</head>
-               <witness corresp="#w.7"><bibl type="print">Martens, Nouveaux supplémens, Bd. 3, S.
-                     125–126;</bibl></witness>
-               <witness corresp="#w.5"><bibl type="print">BFSP Bd. 6 (1818/19), S.
-                  86–87;</bibl></witness>
-               <witness corresp="#w.6"><bibl type="print">Clarke, Papers presented to Parliament
-                     1819, S. 333–335.</bibl></witness>
+               <witness corresp="#w.7">
+                        <bibl type="print">Martens, Nouveaux supplémens, Bd. 3, S.
+                     125–126;</bibl>
+                    </witness>
+               <witness corresp="#w.5">
+                        <bibl type="print">BFSP Bd. 6 (1818/19), S.
+                  86–87;</bibl>
+                    </witness>
+               <witness corresp="#w.6">
+                        <bibl type="print">Clarke, Papers presented to Parliament
+                     1819, S. 333–335.</bibl>
+                    </witness>
             </listWit>
             <listWit corresp="#m.2">
                <head>Anlage: Britische Denkschrift betreffend die Abschaffung des Sklavenhandels (im
                   englischen Original</head>
-               <witness corresp="#w.5"><bibl type="print">BFSP Bd. 6 (1818/19), S.
-                  77–85;</bibl></witness>
-               <witness corresp="#w.7"><bibl type="print">Martens, Nouveaux supplémens, Bd. 3, S.
-                     112–123.</bibl></witness>
+               <witness corresp="#w.5">
+                        <bibl type="print">BFSP Bd. 6 (1818/19), S.
+                  77–85;</bibl>
+                    </witness>
+               <witness corresp="#w.7">
+                        <bibl type="print">Martens, Nouveaux supplémens, Bd. 3, S.
+                     112–123.</bibl>
+                    </witness>
             </listWit>
          </sourceDesc>
       </fileDesc>
@@ -116,12 +131,11 @@
       </encodingDesc>
       <profileDesc>
          <abstract>
-            <p>Auf Initiative des britischen Außenministers <persName ref="#p.9"
-                     ><surname>Castlereagh</surname></persName> fassen die <rs
-                  ref="#p.8 #p.1 #p.9 #p.10 #p.11 #p.12 #p.13 #p.14">Vertreter der Mächte</rs> den
+            <p>Auf Initiative des britischen Außenministers <persName ref="#p.9">
+                        <surname>Castlereagh</surname>
+                    </persName> fassen die <rs ref="#p.8 #p.1 #p.9 #p.10 #p.11 #p.12 #p.13 #p.14">Vertreter der Mächte</rs> den
                Beschluss, die Ministerialkonferenz in <placeName ref="#loc.8">London</placeName> mit
-               der Frage der Abschaffung des Sklavenhandels zu befassen, ohne die Antwort des <rs
-                  ref="#p.28">Königs von Portugal und Brasilien</rs> auf die abgesendete Demarche
+               der Frage der Abschaffung des Sklavenhandels zu befassen, ohne die Antwort des <rs ref="#p.28">Königs von Portugal und Brasilien</rs> auf die abgesendete Demarche
                abzuwarten. Die <rs ref="#p.13 #p.14">Vertreter Russlands</rs> versichern,
                Verhandlungen über praktische Maßnahmen zur Abschaffung des Sklavenhandles in
                   <placeName ref="#loc.8">London</placeName> zu unterstützen.</p>
@@ -163,24 +177,35 @@
       <body>
          <div hand="#G" decls="#m.1">
             <pb n="196r"/>
-            <p><add hand="#W" place="top">Protocole <choice>
-                     <abbr>N<hi rendition="#su">o</hi></abbr>
+            <p>
+                    <add hand="#W" place="top">Protocole <choice>
+                     <abbr>N<hi rendition="#su">o</hi>
+                            </abbr>
                      <expan>Numéro</expan>
                   </choice>
-                  <del rendition="#s">39</del> 38.</add></p>
-            <p><placeName ref="#loc.1">Aix-la-Chapelle</placeName> le <date when="1818-11-19">19
+                  <del rendition="#s">39</del> 38.</add>
+                </p>
+            <p>
+                    <placeName ref="#loc.1">Aix-la-Chapelle</placeName> le <date when="1818-11-19">19
                   Novembre</date>.</p>
-            <p><add place="margin"><hi rendition="u">Traite des Nègres</hi></add></p>
-            <p><add hand="#W" place="margin">Entre les Cinq Cabinets</add></p>
+            <p>
+                    <add place="margin">
+                        <hi rendition="u">Traite des Nègres</hi>
+                    </add>
+                </p>
+            <p>
+                    <add hand="#W" place="margin">Entre les Cinq Cabinets</add>
+                </p>
             <p>Pour résumer la discussion des mesures ultérieures à adopter contre la traite des
-               Nègres, <persName ref="#p.9"><roleName>Lord</roleName>
-                  <surname>Castlereagh</surname></persName> a donné lecture <rs xml:id="n.1">d’un
-                  Mémorandum</rs><note type="editorial" target="#n.1">Vgl. Anlage und Fladeland,
+               Nègres, <persName ref="#p.9">
+                        <roleName>Lord</roleName>
+                  <surname>Castlereagh</surname>
+                    </persName> a donné lecture <rs xml:id="n.1">d’un
+                  Mémorandum</rs>
+                    <note type="editorial" target="#n.1">Vgl. Anlage und Fladeland,
                   Abolitionist Pressures, S. 367–369; Webster, Foreign Policy, Bd. 2, S. 463–464;
                   Kielstra, The Politics of Slave Trade, bes. S. 86–91.</note> dans lequel, en
-               s’expliquant sur <ref
-                  target="Aachen_Prot_19.xml Aachen_Prot_23.xml Aachen_Prot_25.xml Aachen_Prot_30.xml"
-                  >les différentes propositions dont on s’étoit occupé dans les conférences
+               s’expliquant sur <ref target="Aachen_Prot_19.xml Aachen_Prot_23.xml Aachen_Prot_25.xml Aachen_Prot_30.xml">les différentes propositions dont on s’étoit occupé dans les conférences
                   précédentes</ref>, Il a exprimé ses sincèrs regrets de ce que la présente réunion
                n’ait pas amené un résultat plus décisif pour le succès final de l’abolition, ni
                surtout quelque résolution directement applicable à la répression des abus cruels par
@@ -197,18 +222,21 @@
                d’exécution proposés par <choice>
                   <abbr>Mrs.</abbr>
                   <expan>Messieurs</expan>
-               </choice> les <rs ref="#p.13 #p.14">Plénipotentiaires de Russie</rs>, <persName
-                  ref="#p.9"><roleName>Lord</roleName>
-                  <surname>Castlereagh</surname></persName>, en appelant de nouveau l’attention la
+               </choice> les <rs ref="#p.13 #p.14">Plénipotentiaires de Russie</rs>, <persName ref="#p.9">
+                        <roleName>Lord</roleName>
+                  <surname>Castlereagh</surname>
+                    </persName>, en appelant de nouveau l’attention la
                plus sérieuse des puissances sur une cause aussi digne de leur intérêt, a demandé
                qu’il soit enjoint aux <rs ref="#p.101 #p.102 #p.38 #p.75">Ministres des Cours
-                  prenant part aux <rs xml:id="n.2">Conférences de <placeName ref="#loc.8"
-                        >Londres</placeName></rs><note type="editorial" target="#n.2">Gemeint ist
+                  prenant part aux <rs xml:id="n.2">Conférences de <placeName ref="#loc.8">Londres</placeName>
+                        </rs>
+                        <note type="editorial" target="#n.2">Gemeint ist
                      die Botschafterkonferenz in London, welche sich zwischen 1816 und 1819
                      vorwiegend mit der Abschaffung des Sklavenhandels und der Piraterie im
                      Mittelmeer befasste. Protokolle vgl. BFSP Bd. 6 (1818/19), S. 21–53; Clarke,
                      Papers presented to Parliament 1819, Bd. 1, S. 153–233; Anderson, Rise, S.
-                     237.</note></rs> de donner suite à leurs délibérations sur cette question, sans
+                     237.</note>
+                    </rs> de donner suite à leurs délibérations sur cette question, sans
                attendre l’effet que pourroit produire la démarche solemnelle que les Souverains
                viennent de faire envers <choice>
                   <abbr>S. M.</abbr>
@@ -217,27 +245,29 @@
                résultat de cette démarche n’étoit pas un préliminaire indispensable des résolutions
                à adopter d’un commun accord pour supprimer efficacement le trafic illicite sur les
                côtes au Nord de la ligne.</p>
-            <p>Le Mémorandum de <persName ref="#p.9"><roleName>Lord</roleName>
-                  <surname>Castlereagh</surname></persName> a été annexé au
+            <p>Le Mémorandum de <persName ref="#p.9">
+                        <roleName>Lord</roleName>
+                  <surname>Castlereagh</surname>
+                    </persName> a été annexé au
                   Protoco<supplied>le</supplied>, et <choice>
                   <abbr>Mrs</abbr>
                   <expan>Messieurs</expan>
                </choice>
                <rs ref="#p.8 #p.1 #p.11 #p.12 #p.13 #p.14">les Plénipotentiaires</rs> sont convenus
-               d’instruire les <rs ref="#p.101 #p.102 #p.38 #p.75">Ministres des Cours à <placeName
-                     ref="#loc.8">Londres</placeName></rs> dans le sens de cette dernière
+               d’instruire les <rs ref="#p.101 #p.102 #p.38 #p.75">Ministres des Cours à <placeName ref="#loc.8">Londres</placeName>
+                    </rs> dans le sens de cette dernière
                proposition.</p>
             <pb n="211r"/>
             <p>Lors de la lecture de ce protocole, <choice>
                   <abbr>Mrs</abbr>
                   <expan>Messieurs</expan>
                </choice> les <rs ref="#p.13 #p.14">Plénipotentiaires de Russie</rs> ont ajouté
-               qu’indépendamment de l’instruction convenue entre les Cours, <rs ref="#p.75"
-                  >l’ambassadeur de <choice>
+               qu’indépendamment de l’instruction convenue entre les Cours, <rs ref="#p.75">l’ambassadeur de <choice>
                      <abbr>S. M.</abbr>
                      <expan>Sa Majesté</expan>
                   </choice>
-                  <rs ref="#p.17">l’Empereur</rs> à <placeName ref="#loc.8">Londres</placeName></rs>
+                  <rs ref="#p.17">l’Empereur</rs> à <placeName ref="#loc.8">Londres</placeName>
+                    </rs>
                seroit informé du désir de <rs ref="#p.17">Sa Majesté</rs> de voir la conférence
                Ministérielle de <placeName ref="#loc.8">Londres</placeName> s’occuper non seulement
                de la question générale relative aux bases du système à adopter contre la traite
@@ -251,15 +281,32 @@
                cet effet.</p>
             <signed>
                <list>
-                  <item><persName ref="#p.8">Metternich</persName></item>
-                  <item><persName ref="#p.1">Richelieus</persName></item>
-                  <item><persName ref="#p.9">Castlereagh</persName></item>
-                  <item><persName ref="#p.10">Wellington</persName></item>
-                  <item><persName ref="#p.11">Hardenberg</persName></item>
-                  <item><persName ref="#p.12">Bernstorff</persName></item>
-                  <item><persName ref="#p.13">Nesselrode</persName></item>
-                  <item><persName ref="#p.14">Capodistrias</persName></item>
-               </list></signed>
+                  <item>
+                            <persName ref="#p.8">Metternich</persName>
+                        </item>
+                  <item>
+                            <persName ref="#p.1">Richelieus</persName>
+                        </item>
+                  <item>
+                            <persName ref="#p.9">Castlereagh</persName>
+                        </item>
+                  <item>
+                            <persName ref="#p.10">Wellington</persName>
+                        </item>
+                  <item>
+                            <persName ref="#p.11">Hardenberg</persName>
+                        </item>
+                  <item>
+                            <persName ref="#p.12">Bernstorff</persName>
+                        </item>
+                  <item>
+                            <persName ref="#p.13">Nesselrode</persName>
+                        </item>
+                  <item>
+                            <persName ref="#p.14">Capodistrias</persName>
+                        </item>
+               </list>
+                </signed>
          </div>
 
          <div hand="#A" decls="#m.2">
@@ -269,14 +316,24 @@
                   <expan>Protocole</expan>
                </choice>
                <choice>
-                  <abbr>N<hi rendition="#su">o</hi></abbr>
+                  <abbr>N<hi rendition="#su">o</hi>
+                        </abbr>
                   <expan>Numéro</expan>
                </choice> 38.</p>
-            <p><title><hi rendition="#u">Memorandum Anglais</hi></title></p>
-            <p><title><hi rendition="#u">Traite des Négres</hi></title></p>
+            <p>
+                    <title>
+                        <hi rendition="#u">Memorandum Anglais</hi>
+                    </title>
+                </p>
+            <p>
+                    <title>
+                        <hi rendition="#u">Traite des Négres</hi>
+                    </title>
+                </p>
             <p>Les <rs ref="#p.9 #p.10">plénipotentiaires de la Grande-Bretagne</rs>, après avoir
                examiné <choice>
-                  <abbr>attentivem<hi rendition="#su">t</hi></abbr>
+                  <abbr>attentivem<hi rendition="#su">t</hi>
+                        </abbr>
                   <expan>attentivement</expan>
                </choice>
                <ref target="Aachen_Prot_25.xml Aachen_Prot_30.xml">les votes émis par les divers
@@ -286,18 +343,19 @@
                qui est à la veille de se séparer, ne soient pas destinées à être signalées dans les
                pages de l’histoire par une intervention plus décisive que celle qui parait devoir
                exister en faveur des malheurs de l’Afrique.</p>
-            <p><rs xml:id="n.3">Ils s’étaient persuadés qu’il était réservé <rs
-                     ref="#p.16 #p.18 #p.17 #p.8 #p.1 #p.9 #p.10 #p.11 #p.12 #p.13 #p.14">aux
-                     Souverains et aux Plénipotentiaires assemblés à <placeName ref="#loc.1"
-                        >Aix-la-Chapelle</placeName></rs> de compléter à la fois l’ouvrage de la
+            <p>
+                    <rs xml:id="n.3">Ils s’étaient persuadés qu’il était réservé <rs ref="#p.16 #p.18 #p.17 #p.8 #p.1 #p.9 #p.10 #p.11 #p.12 #p.13 #p.14">aux
+                     Souverains et aux Plénipotentiaires assemblés à <placeName ref="#loc.1">Aix-la-Chapelle</placeName>
+                        </rs> de compléter à la fois l’ouvrage de la
                   paix en Europe, et de poser une base étendue et durable, sur laquelle on pût
                   fonder la délivrance d’une grande portion du Globe d’un fléau bien plus terrible
                   que celui de la Guerre en Europe,<pb n="197v"/> en établissant une alliance qui
                   refusât à jamais au marchand d’esclaves fraudeur, de quelque nation qu’il fût, la
-                  protection des Pavillons respectifs pour un trafic aussi injuste.</rs><note
-                  type="editorial" target="#n.3">Vgl. Fladeland, Abolitionist Pressures, S. 367–369;
+                  protection des Pavillons respectifs pour un trafic aussi injuste.</rs>
+                    <note type="editorial" target="#n.3">Vgl. Fladeland, Abolitionist Pressures, S. 367–369;
                   Webster, Foreign Policy, Bd. 2, S. 463–464; Kielstra, The Politics of Slave Trade,
-                  bes. S. 86–91.</note></p>
+                  bes. S. 86–91.</note>
+                </p>
             <p>Quoique trompés dans cette espérance, ils ne désespèrent pas de parvenir enfin à leur
                but, tandis qu’ils plaident une cause si puissante, et qu’ils peuvent s’adresser non
                moins à l’esprit qu’au cœur de <rs ref="#p.16 #p.18 #p.17">ces Souverains</rs> qui,
@@ -307,8 +365,7 @@
             <p>Ils tirent en outre quelque consolation de l’examen des documents ci-dessus désignés,
                car quoiqu’ils leur soient contraires quant à la conclusion, ils rendent cependant
                dans tous leurs raisonnements un tel hommage aux principes et marquent dans quelques
-               détails si complèttement le sentiment<pb n="198r"/> prononcé de devoir qui anime <rs
-                  ref="#p.16 #p.18 #.17">les augustes Souverains</rs> dans la poursuite de cette
+               détails si complèttement le sentiment<pb n="198r"/> prononcé de devoir qui anime <rs ref="#p.16 #p.18 #.17">les augustes Souverains</rs> dans la poursuite de cette
                mesure, qu’on peut les considérer plutôt comme précurseurs de quelqu’effort décidé
                pour mettre fin à ce grand mal moral que comme indiquant de leur part l’intention
                d’abandonner une cause qu’ils ont prise sous leur protection spéciale à la face de
@@ -320,10 +377,12 @@
                cependant, les principes de la vérité et de la justice ont fini par triompher, ne
                laissant dans le monde civilisé qu’une grande tache qui n’est pas encore effacée.</p>
             <p>Toutes les nations, à<pb n="198v"/> l’exception d’une seule, se sont dérobées à cette
-               honte, et <rs ref="#p.28" xml:id="n.4"><choice>
+               honte, et <rs ref="#p.28" xml:id="n.4">
+                        <choice>
                      <abbr>S. M.</abbr>
                      <expan>Sa Majesté</expan>
-                  </choice> très fidèle</rs><note type="editorial" target="#n.4">Ehrentitel des
+                  </choice> très fidèle</rs>
+                    <note type="editorial" target="#n.4">Ehrentitel des
                   portugiesischen Königs.</note> a pris <rs ref="#t.39 #t.16">des mesures assez
                   décisives</rs> dans le même but pour donner une preuve très encourageante de sa
                détermination d’affranchir sans perdre de temps ses peuples d’un usage qui tend à les
@@ -337,15 +396,16 @@
                   <corr>ces</corr>
                </choice> pirateries, exercées sur la côte septentrionale de l’Afrique, en opposition
                aux lois de tout Gouvernement civilisé, qui non <choice>
-                  <abbr>seulem<hi rendition="#su">t</hi></abbr>
+                  <abbr>seulem<hi rendition="#su">t</hi>
+                        </abbr>
                   <expan>seulement</expan>
-               </choice> pèsent encore sur cette portion étendue du Globe, mais qui ont détruit<pb
-                  n="199r"/> l’ouvrage de plusieurs années d’amélioration lente, mais réelle.</p>
+               </choice> pèsent encore sur cette portion étendue du Globe, mais qui ont détruit<pb n="199r"/> l’ouvrage de plusieurs années d’amélioration lente, mais réelle.</p>
             <p>C’est le trafiquant d’esclaves par fraude qui a introduit de nouveau sur ces côtes au
                retour de la paix, ce commerce avec toute son influence désolante sur l’intérieur du
                pays et qui, si on n’y oppose bientôt des mesures d’un caractère décisif, banniront
                non <choice>
-                  <abbr>seulem<hi rendition="#su">t</hi></abbr>
+                  <abbr>seulem<hi rendition="#su">t</hi>
+                        </abbr>
                   <expan>seulement</expan>
                </choice> toute trace d’amélioration, mais tout commerce quelconque autre que celui
                d’esclaves.</p>
@@ -354,25 +414,24 @@
                eu lieu à ce sujet, <rs ref="#p.9 #p.10">les Plénipotentiaires anglais</rs> ne
                peuvent se flatter de l’espoir d’obtenir en ce moment une décision plus favorable ;
                mais ils ne satisferaient pas au sentiment de leur devoir s’ils ne présentaient pas
-               leurs observations sur les objections qui ont été mises en avant contre la mesure<pb
-                  n="199v"/> qu’ils étaient chargés de proposer, les soumettant humblement, mais
+               leurs observations sur les objections qui ont été mises en avant contre la mesure<pb n="199v"/> qu’ils étaient chargés de proposer, les soumettant humblement, mais
                avec confiance, au nom de leur Cour, à la considération plus réfléchie des différents
                Cabinets.</p>
             <p>Et comme ce n’est que sur l’espèce de mesure plus propre à réprimer ce grand mal que
                leurs opinions sont partagées ; comme tous sont d’accord sur l’énormité de l’offense
                et tous également animés du désir d’y mettre fin d’une manière effective, ils se
-               flattent que ce sujet pourra se reprendre à une époque peu éloignée dans les <rs
-                  xml:id="n.5">Conférences de <placeName ref="#loc.8">Londres</placeName></rs>,<note
-                  type="editorial" target="#n.5">Gemeint ist die Botschafterkonferenz in London,
+               flattent que ce sujet pourra se reprendre à une époque peu éloignée dans les <rs xml:id="n.5">Conférences de <placeName ref="#loc.8">Londres</placeName>
+                    </rs>,<note type="editorial" target="#n.5">Gemeint ist die Botschafterkonferenz in London,
                   welche sich zwischen 1816 und 1819 vorwiegend mit der Abschaffung des
                   Sklavenhandels und der Piraterie im Mittelmeer befasste. Protokolle vgl. BFSP Bd.
                   6 (1818/19), S. 21–53; Clarke, Papers presented to Parliament 1819, Bd. 1, S.
                   153–233; Anderson, Rise, S. 237.</note> et qu’on pourra arriver sous de plus
                favorables auspices à un résultat décisif.</p>
             <p>Et d’abord, pour commencer par <ref target="Aachen_Prot_25.xml">le mémoire présenté
-                  par les <rs ref="#p.13 #p.14">Plénipotentiaires de Russie</rs></ref>, <rs
-                  ref="#p.9 #p.10">les <choice>
-                     <abbr>Plénip<hi rendition="#su">res</hi></abbr>
+                  par les <rs ref="#p.13 #p.14">Plénipotentiaires de Russie</rs>
+                    </ref>, <rs ref="#p.9 #p.10">les <choice>
+                     <abbr>Plénip<hi rendition="#su">res</hi>
+                            </abbr>
                      <expan>Plénipotentiaires</expan>
                   </choice> de la Grande-Bretagne</rs> rendent hommage aux sentiments de
                bienfaisance éclairée qui, dans cette occasion comme en toute autre, distinguent les
@@ -389,7 +448,8 @@
                mesure proposée, le poids de son illustre et puissant exemple.</p>
             <p>Il parait que le Gouvernement russe attend le moment où le
                   <country>Portugal</country> aura <choice>
-                  <abbr>finalem<hi rendition="#su">t</hi></abbr>
+                  <abbr>finalem<hi rendition="#su">t</hi>
+                        </abbr>
                   <expan>finalement</expan>
                </choice> aboli la traite pour établir sur la côte d’Afrique un système, d’après
                lequel on serait autorisé non seulement à prononcer sur la propriété du marchand
@@ -415,10 +475,13 @@
                porter devant les tribunaux ordinaires d’un ou de chaque état particulier ; que les
                individus accusés de piraterie ne pourraient réclamer aucun caractère national devant
                une telle Jurisdiction, soit qu’ils aient été pris en mer ou sur la côte d’Afrique.
-               S’ils sont pirates, ils sont <rs xml:id="n.6"><hi rendition="#u">hostes humani
-                     generis</hi></rs>.<note type="editorial" target="#n.6">Latein: Feinde des
+               S’ils sont pirates, ils sont <rs xml:id="n.6">
+                        <hi rendition="#u">hostes humani
+                     generis</hi>
+                    </rs>.<note type="editorial" target="#n.6">Latein: Feinde des
                   menschlichen Geschlechts; aus dem Seerecht stammender Rechtsterminus; vgl.
-                  Abraham, Seerecht.</note></p>
+                  Abraham, Seerecht.</note>
+                </p>
             <p>Ils ne sont sous la protection d’aucun pavillon, et la vérification du fait de
                piraterie par une évidence suffisante les place immédiatement sous le jugement du
                premier tribunal criminel d’autorité compétente, devant lequel ils seraient
@@ -451,7 +514,8 @@
             <p>Le <country>Portugal</country> lui-même, n’a-t’il pas donné des preuves sans réplique
                sur ce point, en accordant le droit de visite au nord de l’Equateur où l’abolition a
                été effectuée <rs ref="#t.16">tant par lui</rs> que <rs ref="#t.14">par
-                     l’<country>Espagne</country></rs> et toutes les autres Puissances ?</p>
+                     l’<country>Espagne</country>
+                    </rs> et toutes les autres Puissances ?</p>
             <p>Peut-être est-ce parcequ’on<pb n="202v"/> ne peut citer aucun exemple d’un trafiquant
                en esclaves qui ait paru sur la côte d’Afrique sous Pavillon Russe, Autrichien ou
                Prussien que ces Puissances, par un sentiment de délicatesse envers des Etats plus
@@ -459,15 +523,15 @@
                répugnance à prendre l’initiative en donnant leur sanction à ce principe.</p>
             <p>Le mémoire russe semble évidemment refuser, ou plutôt différer son adhésion jusqu’à
                ce qu’il y ait lieu de présumer qu’on peut obtenir un accord général ; mais <choice>
-                  <abbr>certainem<hi rendition="#su">t</hi></abbr>
+                  <abbr>certainem<hi rendition="#su">t</hi>
+                        </abbr>
                   <expan>certainement</expan>
                </choice> dans tout cas pareil le mode le plus sûr de parvenir à cet accord général
                est d’augmenter le nombre des parties concurrentes.</p>
             <p>Les <country>Etats-Unis</country> et la <country>France</country> sont probablement
                désignés comme puissances d’un autre avis ; mais même dans ces Etats, combien les
                chances de succès auraient été plus fortes si les trois Puissances en question
-               avaient suivi l’exemple de celles qui ont déjà adopté le système, et combien<pb
-                  n="203r"/> les chances de fraude auraient été moindres si la sphère de l’alliance
+               avaient suivi l’exemple de celles qui ont déjà adopté le système, et combien<pb n="203r"/> les chances de fraude auraient été moindres si la sphère de l’alliance
                avait été ainsi étendue par leur accession. Il est encore à espérer que leurs doutes
                actuels céderont à une réflexion plus mûre sur la nature de la proposition. Le
                premier cas où l’un de leurs pavillons serait employé à couvrir l’abus serait dans
@@ -483,19 +547,28 @@
                à l’adoption de leur part de la mesure (quelle qu’elle soit) qui, vu toutes les
                circonstances, leur paroîtrait la plus propre à supprimer le mal.</p>
             <p>Quant au <ref target="Aachen_Prot_30.xml">mémoire<pb n="203v"/> qui a été présenté à
-                  la Conférence par le <rs ref="#p.10"><choice>
-                        <abbr>plénip<hi rendition="#su">re</hi></abbr>
+                  la Conférence par le <rs ref="#p.10">
+                            <choice>
+                        <abbr>plénip<hi rendition="#su">re</hi>
+                                </abbr>
                         <expan>plénipotentiaire</expan>
-                     </choice> de France</rs></ref>, les <rs ref="#p.9 #p.10"><choice>
-                     <abbr>plénip<hi rendition="#su">res</hi></abbr>
+                     </choice> de France</rs>
+                    </ref>, les <rs ref="#p.9 #p.10">
+                        <choice>
+                     <abbr>plénip<hi rendition="#su">res</hi>
+                            </abbr>
                      <expan>plénipotentiaires</expan>
                   </choice> anglais</rs> sont prêts à rendre témoignage à l’esprit de loyauté avec
                lequel le sujet a été traité, et à la protection signalée que la cause de l’abolition
-               a obtenue progressivement de <rs ref="#p.15" xml:id="n.7"><choice>
+               a obtenue progressivement de <rs ref="#p.15" xml:id="n.7">
+                        <choice>
                      <abbr>S. M. T. C.</abbr>
                      <expan>Sa Majesté Très Chrétienne</expan>
-                  </choice></rs><note type="editorial" target="#n.7">Ehrentitel des Königs von
-                  Frankreich.</note></p>
+                  </choice>
+                    </rs>
+                    <note type="editorial" target="#n.7">Ehrentitel des Königs von
+                  Frankreich.</note>
+                </p>
             <p>Le <rs ref="#p.1">plénipotentiaire de France</rs> a reconnu loyalement : </p>
             <p>1<hi rendition="#su">o</hi> Que la mesure proposée ne peut pas être considérée comme
                une infraction à la loi des nations ; qu’elle confirme au contraire cette loi, en ce
@@ -503,13 +576,14 @@
                admis par la loi générale ;</p>
             <p>2<hi rendition="#su">o</hi> Qu’elle ne peut pas être regardée comme concession
                exclusive des droits maritimes d’aucun état particulier, puisque les clauses en sont <choice>
-                  <abbr>strictem<hi rendition="#su">t</hi></abbr>
+                  <abbr>strictem<hi rendition="#su">t</hi>
+                        </abbr>
                   <expan>strictement</expan>
                </choice> réciproques et pour un objet auquel tous sentent et avouent qu’ils prennent
                un intérêt commun ;</p>
             <p>3<hi rendition="#su">o</hi> Que le principe de réciprocité peut être encore mieux
-               garanti en<pb n="204r"/> bornant le droit de visite, comme dans le <rs ref="#t.17"
-                  >Traité avec la <country>Hollande</country></rs>, à un nombre égal et limité de
+               garanti en<pb n="204r"/> bornant le droit de visite, comme dans le <rs ref="#t.17">Traité avec la <country>Hollande</country>
+                    </rs>, à un nombre égal et limité de
                bâtiments de guerre de chaque Etat ;</p>
             <p>4<hi rendition="#su">o</hi> Que l’on a fait tous les efforts possibles pour limiter
                l’exercice de ce pouvoir à l’objet immédiat pour lequel il est accordé, et pour le
@@ -529,13 +603,13 @@
                l’arrangement de concert avec la <country>France</country>, il ne parait pas possible
                qu’une interprétation aussi peu favorable ait pu être donnée à une mesure si générale
                et si bienfaisante ; mais <choice>
-                  <abbr>heureusem<hi rendition="#su">t</hi></abbr>
+                  <abbr>heureusem<hi rendition="#su">t</hi>
+                        </abbr>
                   <expan>heureusement</expan>
                </choice> cette objection est une de celles qu’un court espace de temps doit faire
                disparoître.</p>
             <p>La 2<hi rendition="#su">de</hi> Objection est qu’il existerait dans la nation
-               française une incompétence morale à se conformer à cette mesure ; <rs
-                  ref="#t.14 #t.16 #t.17">que ce qui n’est pas regardé par les Couronnes d’Espagne,
+               française une incompétence morale à se conformer à cette mesure ; <rs ref="#t.14 #t.16 #t.17">que ce qui n’est pas regardé par les Couronnes d’Espagne,
                   de Portugal et des Pays-bas comme pouvant ternir l’honneur de leurs Pavillons, ni
                   comme portant préjudice aux droits et aux intérêts commerciaux de leurs
                   Peuples,</rs> ne créerait en <country>France</country> qu’un sentiment
@@ -543,7 +617,8 @@
             <pb n="205r"/>
             <p>Tout en marquant leur déférence pour l’autorité sur laquelle se fonde cette
                conclusion, <rs ref="#p.9 #p.10">les <choice>
-                     <abbr>Plénip<hi rendition="#su">res</hi></abbr>
+                     <abbr>Plénip<hi rendition="#su">res</hi>
+                            </abbr>
                      <expan>Plénipotentiaires</expan>
                   </choice> anglais</rs> ne peuvent s’empêcher de nourrir l’espoir que bien qu’il
                existe en <country>France</country> au premier apperçu des préjugés contre cette
@@ -556,11 +631,12 @@
                que la nation française ne s’effraierait jamais d’une concurrence avec la nation
                anglaise ou toute autre pour arriver à un but qui intéresse les grands intérêts de
                l’humanité.</p>
-            <p>Il est vrai que la <country><choice>
+            <p>Il est vrai que la <country>
+                        <choice>
                      <abbr>G<hi rendition="#su">de</hi>-Bretagne</abbr>
                      <expan>Grande-Bretagne</expan>
-                  </choice></country> et la <country>France</country> ont été considérées comme<pb
-                  n="205v"/> rivales aussi bien que voisines, mais si elles ont eu quelquefois le
+                  </choice>
+                    </country> et la <country>France</country> ont été considérées comme<pb n="205v"/> rivales aussi bien que voisines, mais si elles ont eu quelquefois le
                malheur de se combattre en armes, il ne s’est rien passé dans le résultat de ces
                luttes qui puisse établir un sentiment d’infériorité d’aucun côté. Les deux nations
                ont bien soutenu leur honneur national et toutes deux ont appris à se respecter l’une
@@ -576,23 +652,23 @@
                leur rivalité pourrait-elle prendre un caractère plus noble et plus auguste ?</p>
             <p>Si un doute ou un murmure s’élevait au premier abord<pb n="206r"/> chez la nation
                française, on pourrait lui dire que <rs xml:id="n.8">quatre des principales
-                  Puissances Coloniales et maritimes du monde</rs><note type="editorial"
-                  target="#n.8">Großbritannien, Portugal, Spanien, Niederlande.</note> ont uni avec
+                  Puissances Coloniales et maritimes du monde</rs>
+                    <note type="editorial" target="#n.8">Großbritannien, Portugal, Spanien, Niederlande.</note> ont uni avec
                joie leurs efforts dans ce système pour la délivrance de l’Afrique ; elle apprendrait
                que le peuple anglais, si prêt à s’alarmer, comme on le sait, sur tout ce qui peut
                gêner ses intérêts commerciaux ou exposer la Pavillon national à une intervention
                étrangère, n’a trahi aucune crainte dans cette circonstance qu’aucune remontrance n’a
                été faite, soit au Parlement, soit par quelque branche du Commerce dans l’empire, ni
                même par aucun négociant ou navigateur <choice>
-                  <abbr>individuellem<hi rendition="#su">t</hi></abbr>
+                  <abbr>individuellem<hi rendition="#su">t</hi>
+                        </abbr>
                   <expan>individuellement</expan>
                </choice>.</p>
             <p>Si le doute portait sur le tort qu’une semblable mesure pourrait causer aux intérêts
                commerciaux de la <country>France</country> sur la côte d’Afrique, l’examen
                prouvera : que, si la <country>France</country> désire conserver et voir accroître
                son commerce légitime et innocent sur cette côte, elle ne peut adopter une marche
-               plus sûre que celle d’unir ses efforts à ceux des autres Puissances pour réprimer<pb
-                  n="206v"/> le trafiquant d’esclaves en fraude qui est devenu actuellement un
+               plus sûre que celle d’unir ses efforts à ceux des autres Puissances pour réprimer<pb n="206v"/> le trafiquant d’esclaves en fraude qui est devenu actuellement un
                flibustier, combinant le pillage des bâtiments marchands de quelque nation qu’ils
                soient avec ses spéculations illégales en esclaves.</p>
             <p>Si l’on concevait l’idée que des bâtiments marchands français commerçant sur cette
@@ -602,15 +678,18 @@
                passion cette objection à sa juste valeur ; qu’on la juge relativement à l’étendue du
                commerce sur cette côte, et si les chances de tels accidents se présentent nonobstant
                toutes les précautions prises par les <choice>
-                  <abbr>Gouvernem<hi rendition="#su">ts</hi></abbr>
+                  <abbr>Gouvernem<hi rendition="#su">ts</hi>
+                        </abbr>
                   <expan>Gouvernements</expan>
                </choice> respectifs ; que l’on compare ce mal, pris dans sa plus grande acception,
                avec la grande question morale de savoir si, pour éviter des inconvénients aussi peu
                graves, on doit abandonner tout un Continent aux horreurs prolongées d’un commerce
-                  d’esclaves<pb n="207r"/> illicite, et alors que le Gouvernement de <rs ref="#p.15"><choice>
+                  d’esclaves<pb n="207r"/> illicite, et alors que le Gouvernement de <rs ref="#p.15">
+                        <choice>
                      <abbr>S. M. T. C.</abbr>
                      <expan>Sa Majesté Très Chrétienne</expan>
-                  </choice></rs> juge s’il est possible que la nation française puisse hésiter sur
+                  </choice>
+                    </rs> juge s’il est possible que la nation française puisse hésiter sur
                la décision qu’elle pourrait désirer voir prendre dans cette alternative.</p>
             <p>Si l’exemple de quelqu’abus pouvait un moment causer un regret, on se rappellera que
                c’est là le prix (et combien il est peu considérable) qu’un peuple humain et éclairé
@@ -623,7 +702,8 @@
                Sujets français à toute autre Jurisdiction que celle de ses propres tribunaux, mais
                il parait que ce cas n’est pas sans exemple ; en temps de guerre et<pb n="207v"/>
                pour la sûreté du belligérent il se représente <choice>
-                  <abbr>constamm<hi rendition="#su">t</hi></abbr>
+                  <abbr>constamm<hi rendition="#su">t</hi>
+                        </abbr>
                   <expan>constamment</expan>
                </choice>. Les neutres sont toujours justiciables des tribunaux du belligérent pour
                toute violation supposée de ses droits en matière de blocus, contrebande de guerre
@@ -637,9 +717,9 @@
                autre que celle des tribunaux ordinaires de son Etat.</p>
             <p>Des réclamations tant publiques que particulières ont souvent été rendues par une loi
                de convention l’objet d’une telle manière de procéder dont l’effet est celui d’une
-               espèce d’arbitrage. Peut-on<pb n="208r"/> citer un exemple plus décisif que <rs
-                  ref="#t.2 #t.4">les deux Conventions par lesquelles en <choice>
-                     <abbr>Nov<hi rendition="#su">bre</hi></abbr>
+               espèce d’arbitrage. Peut-on<pb n="208r"/> citer un exemple plus décisif que <rs ref="#t.2 #t.4">les deux Conventions par lesquelles en <choice>
+                     <abbr>Nov<hi rendition="#su">bre</hi>
+                            </abbr>
                      <expan>Novembre</expan>
                   </choice> 1815</rs> les réclamations particulières sur le Gouvernement français,
                quelques énormes qu’elles fussent dans leur ensemble, ont été renvoyées à la décision
@@ -654,26 +734,30 @@
                procès long et dispendieux à suivre contre un capteur peut-être insolvable.</p>
             <pb n="208v"/>
             <p>Après avoir parlé des principales objections mises en avant par le mémoire français
-               et qui, comme ils aiment à s’en persuader, ne sont pas insurmontables, <rs
-                  ref="#p.9 #p.10">les <choice>
-                     <abbr>Plénip<hi rendition="#su">res</hi></abbr>
+               et qui, comme ils aiment à s’en persuader, ne sont pas insurmontables, <rs ref="#p.9 #p.10">les <choice>
+                     <abbr>Plénip<hi rendition="#su">res</hi>
+                            </abbr>
                      <expan>Plénipotentiaires</expan>
                   </choice> anglais</rs> ont observé avec satisfaction les efforts qu’a fait le <choice>
-                  <abbr>Gouv<hi rendition="#su">t</hi><expan>Gouvernement</expan></abbr>
+                  <abbr>Gouv<hi rendition="#su">t</hi>
+                            <expan>Gouvernement</expan>
+                        </abbr>
                </choice> français, et qu’il est encore prêt à faire pour combattre ce mal, au moins
                autant qu’il peut être supposé exister dans ses propres limites, et qu’on peut en
-               accuser des sujets français ; mais ils sont persuadés que le Gouvernement de <rs
-                  ref="#p.15"><choice>
+               accuser des sujets français ; mais ils sont persuadés que le Gouvernement de <rs ref="#p.15">
+                        <choice>
                      <abbr>S. M. T. C.</abbr>
                      <expan>Sa Majesté Très Chrétienne</expan>
-                  </choice></rs> prendra une vue plus étendue de son pouvoir de faire le bien, et
+                  </choice>
+                    </rs> prendra une vue plus étendue de son pouvoir de faire le bien, et
                qu’il sera disposé à faire entrer dans la sphère de son activité la suppression de ce
                mal partout où ses efforts pourront l’atteindre.</p>
             <p>Le Gouvernement anglais rend aussi toute justice à la manière dont le Gouvernement
                français a demandé de lui en toute occasion les informations qui pouvaient le mettre
                à même d’assurer l’exécution de la loi d’abolition.</p>
             <p>Ils rend avec plaisir témoignage non <choice>
-                  <abbr>seulem<hi rendition="#su">t</hi></abbr>
+                  <abbr>seulem<hi rendition="#su">t</hi>
+                        </abbr>
                   <expan>seulement</expan>
                </choice> à la sincérité de ses efforts,<pb n="209r"/> mais aux arrangements qu’il a
                pris récemment en stationnant une force navale sur la côte d’Afrique pour la
@@ -685,15 +769,15 @@
                Puissances se soient accordées à n’avoir contre les marchands frauduleux d’esclaves,
                   <hi rendition="#u">au moins sur la côte d’Afrique,</hi> qu’un Pavillon commun et
                une force combinée, elles n’auront pas donné à leurs moyens l’extension nécessaire
-               pour effectuer leur objet conformément à la <rs ref="#t.22">déclaration de <placeName
-                     ref="#loc.7">Vienne</placeName></rs>.</p>
+               pour effectuer leur objet conformément à la <rs ref="#t.22">déclaration de <placeName ref="#loc.7">Vienne</placeName>
+                    </rs>.</p>
             <p>Les <rs ref="#p.9 #p.10">Plénipotentiaires anglais</rs> termineront leur exposé par
                ces observations, le soumettant à l’examen loyal des différents Cabinets.</p>
             <p>Ce serait pour eux une grande satisfaction que<pb n="209v"/> d’être assurés que les
                représentations qu’ils ont cru de leur devoir de faire auraient été de nature à être
-               prises au plutôt en considération par eux, et que les <rs
-                  ref="#p.101 #p.102 #p.38 #p.75">Ministres des différentes Puissances en conférence
-                  à <placeName ref="#loc.8">Londres</placeName></rs> pourraient s’attendre à
+               prises au plutôt en considération par eux, et que les <rs ref="#p.101 #p.102 #p.38 #p.75">Ministres des différentes Puissances en conférence
+                  à <placeName ref="#loc.8">Londres</placeName>
+                    </rs> pourraient s’attendre à
                recevoir des instructions ultérieures qui les missent à même de reprendre leurs
                travaux dans cet objet sans perte de temps. Il leur est encore exposé très humblement
                que l’acte final que les Souverains vont solliciter auprès de <choice>
@@ -710,12 +794,10 @@
       </body>
       <back>
          <include xmlns="http://www.w3.org/2001/XInclude" href="listPlace.xml" xpointer="listPlace"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="listPerson.xml"
-            xpointer="listPerson"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listPerson.xml" xpointer="listPerson"/>
          <include xmlns="http://www.w3.org/2001/XInclude" href="listWit.xml" xpointer="listWit"/>
          <include xmlns="http://www.w3.org/2001/XInclude" href="listOrg.xml" xpointer="listOrg"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="listTreaties.xml"
-            xpointer="listTreaties"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listTreaties.xml" xpointer="listTreaties"/>
       </back>
    </text>
 </TEI>

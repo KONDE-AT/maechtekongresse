@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -8,10 +9,13 @@
                <persName>
                   <surname>Schneider</surname>
                   <forename>Karin</forename>
-               </persName></editor>
+               </persName>
+                </editor>
          </titleStmt>
          <editionStmt>
-            <edition><date>2015-05-08</date></edition>
+            <edition>
+                    <date>2015-05-08</date>
+                </edition>
          </editionStmt>
          <publicationStmt>
             <publisher>Österreichische Akademie der Wissenschaften, Institut für Neuzeit- und
@@ -39,15 +43,19 @@
                <physDesc>
 
                   <p>Eigenhändiges Protokoll von <persName ref="#p.5">
-                        <surname>Gentz</surname></persName>. </p>
+                        <surname>Gentz</surname>
+                            </persName>. </p>
                   <handDesc>
                      <handNote xml:id="G">Friedrich Gentz</handNote>
                      <handNote xml:id="W">Nikolaus Wacken</handNote>
                   </handDesc>
                </physDesc>
                <history>
-                  <origin><placeName>Aachen</placeName><date when="1818-10-01">1. Oktober
-                        1818</date></origin>
+                  <origin>
+                            <placeName>Aachen</placeName>
+                            <date when="1818-10-01">1. Oktober
+                        1818</date>
+                        </origin>
                </history>
             </msDesc>
          </sourceDesc>
@@ -72,8 +80,8 @@
                   Mächte</rs> beschließen nach Prüfung der Grundsätze der finanziellen Entschädigung
                die alliierten Truppen nach dem Ende des dritten Besatzungsjahres bzw. so früh wie
                möglich aus <country>Frankreich</country> abzuziehen. Sie behalten sich vor, sich
-               entsprechend <rs ref="#t.6">Art. VI. des Bündnisvertrags vom <date when="1815-11-20"
-                     >20. November 1815</date></rs> regelmäßig zu versammeln, um über die Lage
+               entsprechend <rs ref="#t.6">Art. VI. des Bündnisvertrags vom <date when="1815-11-20">20. November 1815</date>
+                    </rs> regelmäßig zu versammeln, um über die Lage
                   <country>Frankreichs</country> nach dem Rückzug der alliierten Truppen zu
                beraten.</p>
          </abstract>
@@ -111,13 +119,17 @@
       <body>
          <div hand="#G" decls="#m.1">
             <pb n="5r"/>
-            <p><add place="top">3.</add></p>
+            <p>
+                    <add place="top">3.</add>
+                </p>
             <p>
                <date when="1818-10-01">Le 1 Octobre 1818</date>
             </p>
             <p>
-               <add hand="#W" place="margin">entre les Quatre Cabinets </add></p>
-            <p><choice>
+               <add hand="#W" place="margin">entre les Quatre Cabinets </add>
+                </p>
+            <p>
+                    <choice>
                   <abbr>Mrs.</abbr>
                   <expan>Messieurs</expan>
                </choice> les <rs ref="#p.8 #p.10 #p.11 #p.13 #p.12 #p.14 #p.9">Ministres des
@@ -125,24 +137,29 @@
                matin l’examen <ref target="Aachen_Prot_1.xml">de la proposition faite par <choice>
                      <abbr>Mr.</abbr>
                      <expan>Monsieur</expan>
-                  </choice> le <persName ref="#p.1"><roleName>Duc</roleName>
-                     <surname>de Richelieu</surname></persName> dans la première Conférence
+                  </choice> le <persName ref="#p.1">
+                            <roleName>Duc</roleName>
+                     <surname>de Richelieu</surname>
+                        </persName> dans la première Conférence
                   générale</ref> relativement à l’évacuation du Territoire Français. <choice>
                   <abbr>Mr.</abbr>
                   <expan>Monsieur</expan>
-               </choice> le <persName ref="#p.10"><roleName>Duc</roleName>
-                  <surname>de Wellington</surname></persName> leur ayant fait connoître <rs
-                  xml:id="n.1"> ses observations</rs>
+               </choice> le <persName ref="#p.10">
+                        <roleName>Duc</roleName>
+                  <surname>de Wellington</surname>
+                    </persName> leur ayant fait connoître <rs xml:id="n.1"> ses observations</rs>
                <note type="editorial" target="#n.1">Anlage liegt nicht ein. Abgedruckt als „Report
                   upon the Pecuniary Arrangements Proposed by France“ (Aachen, Oktober 1818) in
                   Wellington, Supplementary Despatches, Bd. 12, S. 720.</note> sur les bases
                présentées par <choice>
                   <abbr>Mr.</abbr>
                   <expan>Monsieur</expan>
-               </choice> le <persName ref="#p.1"><roleName>Duc</roleName>
-                  <surname>de Richelieu</surname></persName> pour les arrangemens propres à
-               compléter l’exécution des clauses pécuniaires du <rs ref="#t.1">traité du <date
-                     when="1815-11-20">20 Novembre 1815</date></rs>, <choice>
+               </choice> le <persName ref="#p.1">
+                        <roleName>Duc</roleName>
+                  <surname>de Richelieu</surname>
+                    </persName> pour les arrangemens propres à
+               compléter l’exécution des clauses pécuniaires du <rs ref="#t.1">traité du <date when="1815-11-20">20 Novembre 1815</date>
+                    </rs>, <choice>
                   <abbr>Mrs.</abbr>
                   <expan>Messieurs</expan>
                </choice>
@@ -150,13 +167,17 @@
                considération de l’avis de <choice>
                   <abbr>Mr.</abbr>
                   <expan>Monsieur</expan>
-               </choice> le <persName ref="#p.10"><roleName>Duc</roleName>
-                  <surname>de Wellington</surname></persName>, et à la suite de la discussion
+               </choice> le <persName ref="#p.10">
+                        <roleName>Duc</roleName>
+                  <surname>de Wellington</surname>
+                    </persName>, et à la suite de la discussion
                précédente de la question principale, ont résolu à l’unanimité d’adresser à <choice>
                   <abbr>Mr.</abbr>
                   <expan>Monsieur</expan>
-               </choice> le <persName ref="#p.1"><roleName>Duc</roleName>
-                  <surname>de Richelieu</surname></persName> dans la prochaine Conférence générale
+               </choice> le <persName ref="#p.1">
+                        <roleName>Duc</roleName>
+                  <surname>de Richelieu</surname>
+                    </persName> dans la prochaine Conférence générale
                une déclaration, portant,</p>
             <p rendition="#et">Que les Quatre cours, après avoir murement examiné tout ce qui peut
                influer sur une décision aussi importante, sont prêtes à admettre le principe de
@@ -164,20 +185,25 @@
                troisième année d’occupation ou plus tôt si faire se peut, <pb n="5v"/>sauf les
                arrangemens à prendre pour régler le mode et l’époque du payement des sommes dues
                encore par le Gouvernement Français aux Cours Alliées en suite des stipulations du
-               susdit <rs ref="#t.1">Traité de <placeName ref="#loc.2">Paris</placeName></rs>
+               susdit <rs ref="#t.1">Traité de <placeName ref="#loc.2">Paris</placeName>
+                    </rs>
                <rs ref="#t.2 #t.3 #t.4 #t.5">et de ses annexes</rs>.</p>
-            <p><add place="margin left"><choice>
+            <p>
+                    <add place="margin left">
+                        <choice>
                      <abbr>Mrs.</abbr>
                      <expan>Messieurs</expan>
                   </choice>
                   <rs ref="#p.8 #p.10 #p.11 #p.13 #p.12 #p.14 #p.9">les Ministres</rs> se réservent
                   en même tems de porter leur attention sur les grands objets que les Quatre Cours
                   Alliées ont eus en vue en signant l’article VI du <rs ref="#t.6">Traité d’Alliance
-                     du <date when="1815-11-20">20 Novembre 1815</date></rs>, afin d’appliquer les
+                     du <date when="1815-11-20">20 Novembre 1815</date>
+                        </rs>, afin d’appliquer les
                   principes et les dispositions générales de cet article à l’état des choses qui
                   succédera à l’évacuation du territoire Français et à la situation dans laquelle,
                   par l’effet de cette mesure, la <country>France</country> se trouvera placée
-                  envers les puissances Alliées.</add></p>
+                  envers les puissances Alliées.</add>
+                </p>
             <p>Lecture faite du présent Protocole ainsi que de <ref target="Aachen_Prot_2.xml">celui
                   de la précédente conférence particulière</ref> ils ont été, l’un et l’autre,
                approuvés et signés par <choice>
@@ -187,22 +213,35 @@
                   Cabinets Alliés</rs>.</p>
             <signed>
                <list>
-                  <item><persName ref="#p.8">Metternich</persName></item>
-                  <item><persName ref="#p.9">Castlereagh</persName></item>
-                  <item><persName ref="#p.10">Wellington</persName></item>
-                  <item><persName ref="#p.11">Hardenberg</persName></item>
-                  <item><persName ref="#p.12">Bernstorff</persName></item>
-                  <item><persName ref="#p.13">Nesselrode</persName></item>
-                  <item><persName ref="#p.14">Capodistrias</persName></item>
-               </list></signed>
+                  <item>
+                            <persName ref="#p.8">Metternich</persName>
+                        </item>
+                  <item>
+                            <persName ref="#p.9">Castlereagh</persName>
+                        </item>
+                  <item>
+                            <persName ref="#p.10">Wellington</persName>
+                        </item>
+                  <item>
+                            <persName ref="#p.11">Hardenberg</persName>
+                        </item>
+                  <item>
+                            <persName ref="#p.12">Bernstorff</persName>
+                        </item>
+                  <item>
+                            <persName ref="#p.13">Nesselrode</persName>
+                        </item>
+                  <item>
+                            <persName ref="#p.14">Capodistrias</persName>
+                        </item>
+               </list>
+                </signed>
          </div>
       </body>
       <back>
          <include xmlns="http://www.w3.org/2001/XInclude" href="listPlace.xml" xpointer="listPlace"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="listPerson.xml"
-            xpointer="listPerson"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="listTreaties.xml"
-            xpointer="listTreaties"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listPerson.xml" xpointer="listPerson"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listTreaties.xml" xpointer="listTreaties"/>
       </back>
    </text>
 </TEI>

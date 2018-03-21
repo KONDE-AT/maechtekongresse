@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -12,10 +11,13 @@
                <persName>
                   <surname>Schneider</surname>
                   <forename>Karin</forename>
-               </persName></editor>
+               </persName>
+                </editor>
          </titleStmt>
          <editionStmt>
-            <edition><date>2015-05-08</date></edition>
+            <edition>
+                    <date>2015-05-08</date>
+                </edition>
          </editionStmt>
          <publicationStmt>
             <publisher>Österreichische Akademie der Wissenschaften, Institut für Neuzeit- und
@@ -43,7 +45,8 @@
                <physDesc>
 
                   <p>Eigenhändiges Protokoll von <persName ref="#p.5">
-                        <surname>Gentz</surname></persName>.</p>
+                        <surname>Gentz</surname>
+                            </persName>.</p>
                   <handDesc>
                      <handNote xml:id="G">Friedrich Gentz</handNote>
                      <handNote xml:id="W">Nikolaus Wacken</handNote>
@@ -52,17 +55,23 @@
                   </handDesc>
                </physDesc>
                <history>
-                  <origin><placeName ref="#loc.1">Aachen</placeName>
-                     <date when="1818-11-21">21. November 1818</date></origin>
+                  <origin>
+                            <placeName ref="#loc.1">Aachen</placeName>
+                     <date when="1818-11-21">21. November 1818</date>
+                        </origin>
                </history>
             </msDesc>
 
             <listWit corresp="#m.1">
                <head>Protokoll</head>
-               <witness corresp="#w.20"><bibl type="print">Scult, Millennial Expectations, S.
-                     108;</bibl></witness>
-               <witness corresp="#w.21"><bibl type="print">Wolf, Notes on the Diplomatic History, S.
-                     16.</bibl></witness>
+               <witness corresp="#w.20">
+                        <bibl type="print">Scult, Millennial Expectations, S.
+                     108;</bibl>
+                    </witness>
+               <witness corresp="#w.21">
+                        <bibl type="print">Wolf, Notes on the Diplomatic History, S.
+                     16.</bibl>
+                    </witness>
             </listWit>
          </sourceDesc>
       </fileDesc>
@@ -120,22 +129,32 @@
       <body>
          <div hand="#G" decls="#m.1">
             <pb n="253r"/>
-            <p><add hand="#W" place="top">Protocole <choice>
+            <p>
+                    <add hand="#W" place="top">Protocole <choice>
                      <abbr>N.</abbr>
                      <expan>Numéro</expan>
                   </choice>
-                  <del rendition="#s">45</del>44</add></p>
-            <p><placeName ref="#loc.1">Aix-la-Chapelle</placeName> le <date when="1818-11-21">21
-                  Novembre</date></p>
-            <p><add place="margin">Reforme de la législation <hi rendition="#u">par rapport aux
-                     Juifs</hi></add></p>
-            <p><add hand="#AmB" place="margin">deest</add></p>
-            <p><choice>
+                  <del rendition="#s">45</del>44</add>
+                </p>
+            <p>
+                    <placeName ref="#loc.1">Aix-la-Chapelle</placeName> le <date when="1818-11-21">21
+                  Novembre</date>
+                </p>
+            <p>
+                    <add place="margin">Reforme de la législation <hi rendition="#u">par rapport aux
+                     Juifs</hi>
+                    </add>
+                </p>
+            <p>
+                    <add hand="#AmB" place="margin">deest</add>
+                </p>
+            <p>
+                    <choice>
                   <abbr>Mrs.</abbr>
                   <expan>Messieurs</expan>
                </choice> les <rs ref="#p.13 #p.14">Plénipotentiaires de Russie</rs> ont communiqué
-                  l’<rs xml:id="n.1">Imprimé ci-joint</rs><note type="editorial" target="#n.1"
-                  >Anlage liegt nicht ein.</note> relatif à une reforme dans la législation civile
+                  l’<rs xml:id="n.1">Imprimé ci-joint</rs>
+                    <note type="editorial" target="#n.1">Anlage liegt nicht ein.</note> relatif à une reforme dans la législation civile
                et politique en ce qui concerne la nation Juive. La conférence, sans entrer
                absolument dans toutes les vues de l’auteur de cette pièce, a rendu justice à la
                tendance générale et au but louable <choice>
@@ -149,27 +168,41 @@
                   question dans les deux Monarchies tous les éclaircissemens qui pourroient servir à
                   la solution d’un problème qui doit également occuper l’homme d’état et l’ami de
                   l’humanité</rs>.<note type="editorial" target="#n.2">Vgl. dazu Feinberg, The
-                  Jewish Question.</note></p>
+                  Jewish Question.</note>
+                </p>
             <signed>
                <list>
-                  <item><persName ref="#p.8">Metternich</persName></item>
-                  <item><persName ref="#p.1">Richelieus</persName></item>
-                  <item><persName ref="#p.9">Castlereagh</persName></item>
-                  <item><persName ref="#p.11">Hardenberg</persName></item>
-                  <item><persName ref="#p.12">Bernstorff</persName></item>
-                  <item><persName ref="#p.13">Nesselrode</persName></item>
-                  <item><persName ref="#p.14">Capodistrias</persName></item>
-               </list></signed>
+                  <item>
+                            <persName ref="#p.8">Metternich</persName>
+                        </item>
+                  <item>
+                            <persName ref="#p.1">Richelieus</persName>
+                        </item>
+                  <item>
+                            <persName ref="#p.9">Castlereagh</persName>
+                        </item>
+                  <item>
+                            <persName ref="#p.11">Hardenberg</persName>
+                        </item>
+                  <item>
+                            <persName ref="#p.12">Bernstorff</persName>
+                        </item>
+                  <item>
+                            <persName ref="#p.13">Nesselrode</persName>
+                        </item>
+                  <item>
+                            <persName ref="#p.14">Capodistrias</persName>
+                        </item>
+               </list>
+                </signed>
          </div>
       </body>
       <back>
          <include xmlns="http://www.w3.org/2001/XInclude" href="listPlace.xml" xpointer="listPlace"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="listPerson.xml"
-            xpointer="listPerson"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listPerson.xml" xpointer="listPerson"/>
          <include xmlns="http://www.w3.org/2001/XInclude" href="listWit.xml" xpointer="listWit"/>
          <include xmlns="http://www.w3.org/2001/XInclude" href="listOrg.xml" xpointer="listOrg"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="listTreaties.xml"
-            xpointer="listTreaties"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listTreaties.xml" xpointer="listTreaties"/>
       </back>
    </text>
 </TEI>

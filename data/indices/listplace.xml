@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -19,158 +18,260 @@
    <text>
       <body>
 
-         <listPlace xmlns="http://www.tei-c.org/ns/1.0" xml:id="listPlace">
+         <listPlace xml:id="listPlace">
             <place xml:id="loc.1">
                <placeName>Aix-la-Chapelle</placeName>
                <placeName>Aachen</placeName>
-               <idno type="URI">http://www.geonames.org/3247449/</idno>
+               <tei:location xmlns:tei="http://www.tei-c.org/ns/1.0">
+                        <tei:geo>50.77664 6.08342</tei:geo>
+                    </tei:location>
+                    <idno type="URI">http://www.geonames.org/3247449/</idno>
             </place>
             <place xml:id="loc.2">
                <placeName>Paris</placeName>
-               <idno type="URI">http://www.geonames.org/2988507/</idno>
+               <tei:location xmlns:tei="http://www.tei-c.org/ns/1.0">
+                        <tei:geo>48.85341 2.3488</tei:geo>
+                    </tei:location>
+                    <idno type="URI">http://www.geonames.org/2988507/</idno>
             </place>
             <place xml:id="loc.3">
                <placeName>Valenciennes</placeName>
-               <idno type="URI">http://www.geonames.org/2971041/</idno>
+               <tei:location xmlns:tei="http://www.tei-c.org/ns/1.0">
+                        <tei:geo>50.35 3.53333</tei:geo>
+                    </tei:location>
+                    <idno type="URI">http://www.geonames.org/2971041/</idno>
             </place>
             <place xml:id="loc.4">
                <placeName>Cambrai</placeName>
-               <idno type="URI">http://www.geonames.org/3029030/</idno>
+               <tei:location xmlns:tei="http://www.tei-c.org/ns/1.0">
+                        <tei:geo>50.16667 3.23333</tei:geo>
+                    </tei:location>
+                    <idno type="URI">http://www.geonames.org/3029030/</idno>
             </place>
             <place xml:id="loc.5">
                <placeName>Montevideo</placeName>
-               <idno type="URI">http://www.geonames.org/3441575/</idno>
+               <tei:location xmlns:tei="http://www.tei-c.org/ns/1.0">
+                        <tei:geo>-34.90328 -56.18816</tei:geo>
+                    </tei:location>
+                    <idno type="URI">http://www.geonames.org/3441575/</idno>
             </place>
             <place xml:id="loc.6">
                <placeName>Rome</placeName>
                <placeName>Rom</placeName>
-               <idno type="URI">http://www.geonames.org/3169070/</idno>
+               <tei:location xmlns:tei="http://www.tei-c.org/ns/1.0">
+                        <tei:geo>41.89193 12.51133</tei:geo>
+                    </tei:location>
+                    <idno type="URI">http://www.geonames.org/3169070/</idno>
             </place>
             <place xml:id="loc.7">
                <placeName>Vienne</placeName>
                <placeName>Wien</placeName>
-               <idno type="URI">http://www.geonames.org/2761367/</idno>
+               <tei:location xmlns:tei="http://www.tei-c.org/ns/1.0">
+                        <tei:geo>48.2082 16.37169</tei:geo>
+                    </tei:location>
+                    <idno type="URI">http://www.geonames.org/2761367/</idno>
             </place>
             <place xml:id="loc.8">
                <placeName>Londres</placeName>
                <placeName>London</placeName>
-               <idno type="URI">http://www.geonames.org/2643743/</idno>
+               <tei:location xmlns:tei="http://www.tei-c.org/ns/1.0">
+                        <tei:geo>51.50853 -0.12574</tei:geo>
+                    </tei:location>
+                    <idno type="URI">http://www.geonames.org/2643743/</idno>
             </place>
             <place xml:id="loc.9">
                <placeName>Berlin</placeName>
-               <idno type="URI">http://www.geonames.org/2950159/</idno>
+               <tei:location xmlns:tei="http://www.tei-c.org/ns/1.0">
+                        <tei:geo>52.52437 13.41053</tei:geo>
+                    </tei:location>
+                    <idno type="URI">http://www.geonames.org/2950159/</idno>
             </place>
             <place xml:id="loc.10">
                <placeName>Staint-Pétersbourg</placeName>
                <placeName>St. Petersburg</placeName>
-               <idno type="URI">http://www.geonames.org/498817/</idno>
+               <tei:location xmlns:tei="http://www.tei-c.org/ns/1.0">
+                        <tei:geo>59.93863 30.31413</tei:geo>
+                    </tei:location>
+                    <idno type="URI">http://www.geonames.org/498817/</idno>
             </place>
             <place xml:id="loc.11">
                <placeName>Naples</placeName>
                <placeName>Neapel</placeName>
-               <idno type="URI">http://www.geonames.org/3172394/</idno>
+               <tei:location xmlns:tei="http://www.tei-c.org/ns/1.0">
+                        <tei:geo>40.85216 14.26811</tei:geo>
+                    </tei:location>
+                    <idno type="URI">http://www.geonames.org/3172394/</idno>
             </place>
             <place xml:id="loc.12">
                <placeName>Stockholm</placeName>
-               <idno type="URI">http://www.geonames.org/2673730/</idno>
+               <tei:location xmlns:tei="http://www.tei-c.org/ns/1.0">
+                        <tei:geo>59.33258 18.0649</tei:geo>
+                    </tei:location>
+                    <idno type="URI">http://www.geonames.org/2673730/</idno>
             </place>
             <place xml:id="loc.13">
                <placeName>Dresde</placeName>
                <placeName>Dresden</placeName>
-               <idno type="URI">http://www.geonames.org/2935022/</idno>
+               <tei:location xmlns:tei="http://www.tei-c.org/ns/1.0">
+                        <tei:geo>51.05089 13.73832</tei:geo>
+                    </tei:location>
+                    <idno type="URI">http://www.geonames.org/2935022/</idno>
             </place>
             <place xml:id="loc.14">
                <placeName>Copenhague</placeName>
                <placeName>Kopenhagen</placeName>
-               <idno type="URI">http://www.geonames.org/2618425/</idno>
+               <tei:location xmlns:tei="http://www.tei-c.org/ns/1.0">
+                        <tei:geo>55.67594 12.56553</tei:geo>
+                    </tei:location>
+                    <idno type="URI">http://www.geonames.org/2618425/</idno>
             </place>
             <place xml:id="loc.15">
                <placeName>Hanovre</placeName>
                <placeName>Hannover</placeName>
-               <idno type="URI">http://www.geonames.org/2910831/</idno>
+               <tei:location xmlns:tei="http://www.tei-c.org/ns/1.0">
+                        <tei:geo>52.37052 9.73322</tei:geo>
+                    </tei:location>
+                    <idno type="URI">http://www.geonames.org/2910831/</idno>
             </place>
             <place xml:id="loc.16">
                <placeName>Munich</placeName>
                <placeName>München</placeName>
-               <idno type="URI">http://www.geonames.org/2867714/</idno>
+               <tei:location xmlns:tei="http://www.tei-c.org/ns/1.0">
+                        <tei:geo>48.13743 11.57549</tei:geo>
+                    </tei:location>
+                    <idno type="URI">http://www.geonames.org/2867714/</idno>
             </place>
             <place xml:id="loc.17">
                <placeName>Stuttgart</placeName>
                <placeName>Stuttgardt</placeName>
-               <idno type="URI">http://www.geonames.org/2825297/</idno>
+               <tei:location xmlns:tei="http://www.tei-c.org/ns/1.0">
+                        <tei:geo>48.78232 9.17702</tei:geo>
+                    </tei:location>
+                    <idno type="URI">http://www.geonames.org/2825297/</idno>
             </place>
             <place xml:id="loc.18">
                <placeName>Rastatt</placeName>
-               <idno type="URI">http://www.geonames.org/2850257/</idno>
+               <tei:location xmlns:tei="http://www.tei-c.org/ns/1.0">
+                        <tei:geo>48.85851 8.20965</tei:geo>
+                    </tei:location>
+                    <idno type="URI">http://www.geonames.org/2850257/</idno>
             </place>
             <place xml:id="loc.19">
                <placeName>Karlsruhe</placeName>
                <placeName>Carlsruhe</placeName>
-               <idno type="URI">http://www.geonames.org/8643496/</idno>
+               <tei:location xmlns:tei="http://www.tei-c.org/ns/1.0">
+                        <tei:geo>49.00922 8.40394</tei:geo>
+                    </tei:location>
+                    <idno type="URI">http://www.geonames.org/8643496/</idno>
             </place>
             <place xml:id="loc.20">
                <placeName>Germersheim</placeName>
-               <idno type="URI">http://www.geonames.org/2921034/</idno>
+               <tei:location xmlns:tei="http://www.tei-c.org/ns/1.0">
+                        <tei:geo>49.22306 8.36389</tei:geo>
+                    </tei:location>
+                    <idno type="URI">http://www.geonames.org/2921034/</idno>
             </place>
             <place xml:id="loc.21">
                <placeName>Bruchsal</placeName>
-               <idno type="URI">http://www.geonames.org/2943560/</idno>
+               <tei:location xmlns:tei="http://www.tei-c.org/ns/1.0">
+                        <tei:geo>49.12426 8.59804</tei:geo>
+                    </tei:location>
+                    <idno type="URI">http://www.geonames.org/2943560/</idno>
             </place>
             <place xml:id="loc.22">
                <placeName>Mannheim</placeName>
-               <idno type="URI">http://www.geonames.org/2873891/</idno>
+               <tei:location xmlns:tei="http://www.tei-c.org/ns/1.0">
+                        <tei:geo>49.4891 8.46694</tei:geo>
+                    </tei:location>
+                    <idno type="URI">http://www.geonames.org/2873891/</idno>
             </place>
             <place xml:id="loc.23">
                <placeName>Heidelberg</placeName>
-               <idno type="URI">http://www.geonames.org/2907911/</idno>
+               <tei:location xmlns:tei="http://www.tei-c.org/ns/1.0">
+                        <tei:geo>49.40768 8.69079</tei:geo>
+                    </tei:location>
+                    <idno type="URI">http://www.geonames.org/2907911/</idno>
             </place>
             <place xml:id="loc.24">
                <placeName>Madrid</placeName>
-               <idno type="URI">http://www.geonames.org/3117735/</idno>
+               <tei:location xmlns:tei="http://www.tei-c.org/ns/1.0">
+                        <tei:geo>40.4165 -3.70256</tei:geo>
+                    </tei:location>
+                    <idno type="URI">http://www.geonames.org/3117735/</idno>
             </place>
             <place xml:id="loc.25">
                <placeName>Frankfurt am Main</placeName>
-               <idno type="URI">http://www.geonames.org/2925533/</idno>
+               <tei:location xmlns:tei="http://www.tei-c.org/ns/1.0">
+                        <tei:geo>50.11552 8.68417</tei:geo>
+                    </tei:location>
+                    <idno type="URI">http://www.geonames.org/2925533/</idno>
             </place>
             <place xml:id="loc.26">
                <placeName>Rio de Janeiro</placeName>
-               <idno type="URI">http://www.geonames.org/3451190/</idno>
+               <tei:location xmlns:tei="http://www.tei-c.org/ns/1.0">
+                        <tei:geo>-22.90642 -43.18223</tei:geo>
+                    </tei:location>
+                    <idno type="URI">http://www.geonames.org/3451190/</idno>
             </place>
             <place xml:id="loc.27">
                <placeName>Kiel</placeName>
-               <idno type="URI">http://www.geonames.org/2891122/</idno>
+               <tei:location xmlns:tei="http://www.tei-c.org/ns/1.0">
+                        <tei:geo>54.32133 10.13489</tei:geo>
+                    </tei:location>
+                    <idno type="URI">http://www.geonames.org/2891122/</idno>
             </place>
             <place xml:id="loc.28">
                <placeName>Kehl</placeName>
-               <idno type="URI">http://www.geonames.org/2891951/</idno>
+               <tei:location xmlns:tei="http://www.tei-c.org/ns/1.0">
+                        <tei:geo>48.57297 7.81523</tei:geo>
+                    </tei:location>
+                    <idno type="URI">http://www.geonames.org/2891951/</idno>
             </place>
             <place xml:id="loc.29">
                <placeName>Bâle</placeName>
                <placeName>Basel</placeName>
                <placeName>Basle</placeName>
-               <idno type="URI">http://www.geonames.org/2661604/</idno>
+               <tei:location xmlns:tei="http://www.tei-c.org/ns/1.0">
+                        <tei:geo>47.55839 7.57327</tei:geo>
+                    </tei:location>
+                    <idno type="URI">http://www.geonames.org/2661604/</idno>
             </place>
             <place xml:id="loc.30">
                <placeName>Mayence</placeName>
                <placeName>Mainz</placeName>
-               <idno type="URI">http://www.geonames.org/2874225/</idno>
+               <tei:location xmlns:tei="http://www.tei-c.org/ns/1.0">
+                        <tei:geo>49.98419 8.2791</tei:geo>
+                    </tei:location>
+                    <idno type="URI">http://www.geonames.org/2874225/</idno>
             </place>
             <place xml:id="loc.31">
                <placeName>Waterloo</placeName>
-               <idno type="URI">http://www.geonames.org/2783985/</idno>
+               <tei:location xmlns:tei="http://www.tei-c.org/ns/1.0">
+                        <tei:geo>50.71469 4.3991</tei:geo>
+                    </tei:location>
+                    <idno type="URI">http://www.geonames.org/2783985/</idno>
             </place>
             <place xml:id="loc.32">
                <placeName>Strasbourg</placeName>
                <placeName>Straßburg</placeName>
-               <idno type="URI">http://www.geonames.org/2973783/</idno>
+               <tei:location xmlns:tei="http://www.tei-c.org/ns/1.0">
+                        <tei:geo>48.58392 7.74553</tei:geo>
+                    </tei:location>
+                    <idno type="URI">http://www.geonames.org/2973783/</idno>
             </place>
             <place xml:id="loc.33">
                <placeName>Elsfleth</placeName>
-               <idno type="URI">http://www.geonames.org/2930726/</idno>
+               <tei:location xmlns:tei="http://www.tei-c.org/ns/1.0">
+                        <tei:geo>53.23748 8.45664</tei:geo>
+                    </tei:location>
+                    <idno type="URI">http://www.geonames.org/2930726/</idno>
             </place>
             <place xml:id="loc.34">
                <placeName>Darmstadt</placeName>
-               <idno type="URI">http://www.geonames.org/2938913/</idno>
+               <tei:location xmlns:tei="http://www.tei-c.org/ns/1.0">
+                        <tei:geo>49.87167 8.65027</tei:geo>
+                    </tei:location>
+                    <idno type="URI">http://www.geonames.org/2938913/</idno>
             </place>
             <place xml:id="loc.35">
                <placeName>Bremen</placeName>
@@ -179,186 +280,303 @@
             </place>
             <place xml:id="loc.36">
                <placeName>Lübeck</placeName>
-               <idno type="URI">http://www.geonames.org/2875601/</idno>
+               <tei:location xmlns:tei="http://www.tei-c.org/ns/1.0">
+                        <tei:geo>53.86893 10.68729</tei:geo>
+                    </tei:location>
+                    <idno type="URI">http://www.geonames.org/2875601/</idno>
             </place>
             <place xml:id="loc.37">
                <placeName>Ratisbonne</placeName>
                <placeName>Regensburg</placeName>
-               <idno type="URI">http://www.geonames.org/2849483/</idno>
+               <tei:location xmlns:tei="http://www.tei-c.org/ns/1.0">
+                        <tei:geo>49.01513 12.10161</tei:geo>
+                    </tei:location>
+                    <idno type="URI">http://www.geonames.org/2849483/</idno>
             </place>
             <place xml:id="loc.38">
                <placeName>Frankenthal</placeName>
-               <idno type="URI">http://www.geonames.org/2925550/</idno>
+               <tei:location xmlns:tei="http://www.tei-c.org/ns/1.0">
+                        <tei:geo>49.53414 8.35357</tei:geo>
+                    </tei:location>
+                    <idno type="URI">http://www.geonames.org/2925550/</idno>
             </place>
             <place xml:id="loc.39">
                <placeName>Hambourg</placeName>
                <placeName>Hamburg</placeName>
-               <idno type="URI">http://www.geonames.org/6547395/</idno>
+               <tei:location xmlns:tei="http://www.tei-c.org/ns/1.0">
+                        <tei:geo>53.55 10</tei:geo>
+                    </tei:location>
+                    <idno type="URI">http://www.geonames.org/6547395/</idno>
             </place>
             <place xml:id="loc.40">
                <placeName>Amsterdam</placeName>
-               <idno type="URI">http://www.geonames.org/2759794/</idno>
+               <tei:location xmlns:tei="http://www.tei-c.org/ns/1.0">
+                        <tei:geo>52.37403 4.88969</tei:geo>
+                    </tei:location>
+                    <idno type="URI">http://www.geonames.org/2759794/</idno>
             </place>
             <place xml:id="loc.41">
                <placeName>Augsbourg</placeName>
                <placeName>Augsburg</placeName>
-               <idno type="URI">http://www.geonames.org/2954172/</idno>
+               <tei:location xmlns:tei="http://www.tei-c.org/ns/1.0">
+                        <tei:geo>48.37154 10.89851</tei:geo>
+                    </tei:location>
+                    <idno type="URI">http://www.geonames.org/2954172/</idno>
             </place>
             <place xml:id="loc.42">
                <placeName>Alger</placeName>
                <placeName>Algier</placeName>
-               <idno type="URI">http://www.geonames.org/2507480/</idno>
+               <tei:location xmlns:tei="http://www.tei-c.org/ns/1.0">
+                        <tei:geo>36.73225 3.08746</tei:geo>
+                    </tei:location>
+                    <idno type="URI">http://www.geonames.org/2507480/</idno>
             </place>
             <place xml:id="loc.43">
                <placeName>Rochefort</placeName>
-               <idno type="URI">http://www.geonames.org/2983276/</idno>
+               <tei:location xmlns:tei="http://www.tei-c.org/ns/1.0">
+                        <tei:geo>45.93333 -0.98333</tei:geo>
+                    </tei:location>
+                    <idno type="URI">http://www.geonames.org/2983276/</idno>
             </place>
             <place xml:id="loc.44">
                <placeName>Wetzlar</placeName>
-               <idno type="URI">http://www.geonames.org/2809889/</idno>
+               <tei:location xmlns:tei="http://www.tei-c.org/ns/1.0">
+                        <tei:geo>50.56109 8.50495</tei:geo>
+                    </tei:location>
+                    <idno type="URI">http://www.geonames.org/2809889/</idno>
             </place>
             <place xml:id="loc.45">
                <placeName>Cassel</placeName>
                <placeName>Kassel</placeName>
-               <idno type="URI">http://www.geonames.org/2892518/</idno>
+               <tei:location xmlns:tei="http://www.tei-c.org/ns/1.0">
+                        <tei:geo>51.31667 9.5</tei:geo>
+                    </tei:location>
+                    <idno type="URI">http://www.geonames.org/2892518/</idno>
             </place>
             <place xml:id="loc.46">
                <placeName>Bruxelles</placeName>
                <placeName>Brussels</placeName>
                <placeName>Brüssel</placeName>
-               <idno type="URI">http://www.geonames.org/2800866/</idno>
+               <tei:location xmlns:tei="http://www.tei-c.org/ns/1.0">
+                        <tei:geo>50.85045 4.34878</tei:geo>
+                    </tei:location>
+                    <idno type="URI">http://www.geonames.org/2800866/</idno>
             </place>
             <place xml:id="loc.47">
                <placeName>Cologne</placeName>
                <placeName>Köln</placeName>
-               <idno type="URI">http://www.geonames.org/2886242/</idno>
+               <tei:location xmlns:tei="http://www.tei-c.org/ns/1.0">
+                        <tei:geo>50.93333 6.95</tei:geo>
+                    </tei:location>
+                    <idno type="URI">http://www.geonames.org/2886242/</idno>
             </place>
             <place xml:id="loc.48">
                <placeName>Ostende</placeName>
-               <idno type="URI">http://www.geonames.org/2789786/</idno>
+               <tei:location xmlns:tei="http://www.tei-c.org/ns/1.0">
+                        <tei:geo>51.21551 2.927</tei:geo>
+                    </tei:location>
+                    <idno type="URI">http://www.geonames.org/2789786/</idno>
             </place>
             <place xml:id="loc.49">
                <placeName>Nieuport</placeName>
-               <idno type="URI">http://www.geonames.org/2790150/</idno>
+               <tei:location xmlns:tei="http://www.tei-c.org/ns/1.0">
+                        <tei:geo>51.13008 2.75135</tei:geo>
+                    </tei:location>
+                    <idno type="URI">http://www.geonames.org/2790150/</idno>
             </place>
             <place xml:id="loc.50">
                <placeName>Ypres</placeName>
-               <idno type="URI">http://www.geonames.org/2795100/</idno>
+               <tei:location xmlns:tei="http://www.tei-c.org/ns/1.0">
+                        <tei:geo>50.85114 2.88569</tei:geo>
+                    </tei:location>
+                    <idno type="URI">http://www.geonames.org/2795100/</idno>
             </place>
             <place xml:id="loc.51">
                <placeName>Tournai</placeName>
                <placeName>Tournay</placeName>
-               <idno type="URI">http://www.geonames.org/2785341/</idno>
+               <tei:location xmlns:tei="http://www.tei-c.org/ns/1.0">
+                        <tei:geo>50.60715 3.38932</tei:geo>
+                    </tei:location>
+                    <idno type="URI">http://www.geonames.org/2785341/</idno>
             </place>
             <place xml:id="loc.52">
                <placeName>Anvers</placeName>
                <placeName>Antwerpen</placeName>
-               <idno type="URI">http://www.geonames.org/2803138/</idno>
+               <tei:location xmlns:tei="http://www.tei-c.org/ns/1.0">
+                        <tei:geo>51.21989 4.40346</tei:geo>
+                    </tei:location>
+                    <idno type="URI">http://www.geonames.org/2803138/</idno>
             </place>
             <place xml:id="loc.53">
                <placeName>Huy</placeName>
-               <idno type="URI">http://www.geonames.org/2795113/</idno>
+               <tei:location xmlns:tei="http://www.tei-c.org/ns/1.0">
+                        <tei:geo>50.51894 5.23284</tei:geo>
+                    </tei:location>
+                    <idno type="URI">http://www.geonames.org/2795113/</idno>
             </place>
             <place xml:id="loc.54">
                <placeName>Namur</placeName>
-               <idno type="URI">http://www.geonames.org/2790471/</idno>
+               <tei:location xmlns:tei="http://www.tei-c.org/ns/1.0">
+                        <tei:geo>50.4669 4.86746</tei:geo>
+                    </tei:location>
+                    <idno type="URI">http://www.geonames.org/2790471/</idno>
             </place>
             <place xml:id="loc.55">
                <placeName>Dinant</placeName>
-               <idno type="URI">http://www.geonames.org/2799357/</idno>
+               <tei:location xmlns:tei="http://www.tei-c.org/ns/1.0">
+                        <tei:geo>50.25807 4.91166</tei:geo>
+                    </tei:location>
+                    <idno type="URI">http://www.geonames.org/2799357/</idno>
             </place>
             <place xml:id="loc.56">
                <placeName>Charleroy</placeName>
                <placeName>Charleroi</placeName>
-               <idno type="URI">http://www.geonames.org/2800481/</idno>
+               <tei:location xmlns:tei="http://www.tei-c.org/ns/1.0">
+                        <tei:geo>50.41136 4.44448</tei:geo>
+                    </tei:location>
+                    <idno type="URI">http://www.geonames.org/2800481/</idno>
             </place>
             <place xml:id="loc.57">
                <placeName>Marienbourg</placeName>
                <placeName>Mariembourg</placeName>
-               <idno type="URI">http://www.geonames.org/2791684/</idno>
+               <tei:location xmlns:tei="http://www.tei-c.org/ns/1.0">
+                        <tei:geo>50.09489 4.52161</tei:geo>
+                    </tei:location>
+                    <idno type="URI">http://www.geonames.org/2791684/</idno>
             </place>
             <place xml:id="loc.58">
                <placeName>Philippeville</placeName>
-               <idno type="URI">http://www.geonames.org/2789016/</idno>
+               <tei:location xmlns:tei="http://www.tei-c.org/ns/1.0">
+                        <tei:geo>50.19612 4.54374</tei:geo>
+                    </tei:location>
+                    <idno type="URI">http://www.geonames.org/2789016/</idno>
             </place>
             <place xml:id="loc.59">
                <placeName>Ried im Innkreis</placeName>
-               <idno type="URI">http://www.geonames.org/2767471/</idno>
+               <tei:location xmlns:tei="http://www.tei-c.org/ns/1.0">
+                        <tei:geo>48.21123 13.48855</tei:geo>
+                    </tei:location>
+                    <idno type="URI">http://www.geonames.org/2767471/</idno>
             </place>
             <place xml:id="loc.60">
                <placeName>Troppau</placeName>
                <placeName>Opava</placeName>
-               <idno type="URI">http://www.geonames.org/3068927/</idno>
+               <tei:location xmlns:tei="http://www.tei-c.org/ns/1.0">
+                        <tei:geo>49.93866 17.90257</tei:geo>
+                    </tei:location>
+                    <idno type="URI">http://www.geonames.org/3068927/</idno>
             </place>
             <place xml:id="loc.61">
                <placeName>Nola</placeName>
-               <idno type="URI">http://www.geonames.org/3172227/</idno>
+               <tei:location xmlns:tei="http://www.tei-c.org/ns/1.0">
+                        <tei:geo>40.92606 14.52816</tei:geo>
+                    </tei:location>
+                    <idno type="URI">http://www.geonames.org/3172227/</idno>
             </place>
             <place xml:id="loc.62">
                <placeName>Ponte-Corvo</placeName>
                <placeName>Pontecorvo</placeName>
                <placeName>Ponte Corvo</placeName>
-               <idno type="URI">http://www.geonames.org/3170286/</idno>
+               <tei:location xmlns:tei="http://www.tei-c.org/ns/1.0">
+                        <tei:geo>41.45861 13.66618</tei:geo>
+                    </tei:location>
+                    <idno type="URI">http://www.geonames.org/3170286/</idno>
             </place>
             <place xml:id="loc.63">
                <placeName>Bénévent</placeName>
                <placeName>Benevento</placeName>
-               <idno type="URI">http://www.geonames.org/3182179/</idno>
+               <tei:location xmlns:tei="http://www.tei-c.org/ns/1.0">
+                        <tei:geo>41.1307 14.77816</tei:geo>
+                    </tei:location>
+                    <idno type="URI">http://www.geonames.org/3182179/</idno>
             </place>
             <place xml:id="loc.64">
                <placeName>Turin</placeName>
                <placeName>Turino</placeName>
-               <idno type="URI">http://www.geonames.org/3165524/</idno>
+               <tei:location xmlns:tei="http://www.tei-c.org/ns/1.0">
+                        <tei:geo>45.07049 7.68682</tei:geo>
+                    </tei:location>
+                    <idno type="URI">http://www.geonames.org/3165524/</idno>
             </place>
             <place xml:id="loc.65">
                <placeName>Laibach</placeName>
                <placeName>Laybach</placeName>
                <placeName>Ljubljana</placeName>
-               <idno type="URI">http://www.geonames.org/3196359/</idno>
+               <tei:location xmlns:tei="http://www.tei-c.org/ns/1.0">
+                        <tei:geo>46.05108 14.50513</tei:geo>
+                    </tei:location>
+                    <idno type="URI">http://www.geonames.org/3196359/</idno>
             </place>
             <place xml:id="loc.66">
                <placeName>Livourne</placeName>
                <placeName>Livorno</placeName>
-               <idno type="URI">http://www.geonames.org/3174659/</idno>
+               <tei:location xmlns:tei="http://www.tei-c.org/ns/1.0">
+                        <tei:geo>43.54427 10.32615</tei:geo>
+                    </tei:location>
+                    <idno type="URI">http://www.geonames.org/3174659/</idno>
             </place>
             <place xml:id="loc.67">
                <placeName>Bologne</placeName>
                <placeName>Bologna</placeName>
-               <idno type="URI">http://www.geonames.org/3181928/</idno>
+               <tei:location xmlns:tei="http://www.tei-c.org/ns/1.0">
+                        <tei:geo>44.49381 11.33875</tei:geo>
+                    </tei:location>
+                    <idno type="URI">http://www.geonames.org/3181928/</idno>
             </place>
             <place xml:id="loc.68">
                <placeName>Verona</placeName>
-               <idno type="URI">http://www.geonames.org/3164527/</idno>
+               <tei:location xmlns:tei="http://www.tei-c.org/ns/1.0">
+                        <tei:geo>45.4299 10.98444</tei:geo>
+                    </tei:location>
+                    <idno type="URI">http://www.geonames.org/3164527/</idno>
             </place>
             <place xml:id="loc.69">
                <placeName>Florenz</placeName>
                <placeName>Florence</placeName>
-               <idno type="URI">http://www.geonames.org/3176959/</idno>
+               <tei:location xmlns:tei="http://www.tei-c.org/ns/1.0">
+                        <tei:geo>43.77925 11.24626</tei:geo>
+                    </tei:location>
+                    <idno type="URI">http://www.geonames.org/3176959/</idno>
             </place>
             <place xml:id="loc.70">
                <placeName>Warschau</placeName>
                <placeName>Varsovie</placeName>
                <placeName>Warsaw</placeName>
-               <idno type="URI">http://www.geonames.org/756135/</idno>
+               <tei:location xmlns:tei="http://www.tei-c.org/ns/1.0">
+                        <tei:geo>52.22977 21.01178</tei:geo>
+                    </tei:location>
+                    <idno type="URI">http://www.geonames.org/756135/</idno>
             </place>
             <place xml:id="loc.71">
                <placeName>Porto</placeName>
-               <idno type="URI">http://www.geonames.org/2735943/</idno>
+               <tei:location xmlns:tei="http://www.tei-c.org/ns/1.0">
+                        <tei:geo>41.14961 -8.61099</tei:geo>
+                    </tei:location>
+                    <idno type="URI">http://www.geonames.org/2735943/</idno>
             </place>
             <place xml:id="loc.72">
                <placeName>Barcelone</placeName>
                <placeName>Barcelona</placeName>
-               <idno type="URI">http://www.geonames.org/3128760/</idno>
+               <tei:location xmlns:tei="http://www.tei-c.org/ns/1.0">
+                        <tei:geo>41.38879 2.15899</tei:geo>
+                    </tei:location>
+                    <idno type="URI">http://www.geonames.org/3128760/</idno>
             </place>
             <place xml:id="loc.73">
                <placeName>Novare</placeName>
                <placeName>Novara</placeName>
-               <idno type="URI">http://www.geonames.org/3172189/</idno>
+               <tei:location xmlns:tei="http://www.tei-c.org/ns/1.0">
+                        <tei:geo>45.44694 8.62118</tei:geo>
+                    </tei:location>
+                    <idno type="URI">http://www.geonames.org/3172189/</idno>
             </place>
             <place xml:id="loc.74">
                <placeName>Alexandrie</placeName>
                <placeName>Alessandria</placeName>
-               <idno type="URI">http://www.geonames.org/3183299/</idno>
+               <tei:location xmlns:tei="http://www.tei-c.org/ns/1.0">
+                        <tei:geo>44.90924 8.61007</tei:geo>
+                    </tei:location>
+                    <idno type="URI">http://www.geonames.org/3183299/</idno>
             </place>
             <place xml:id="loc.75">
                <placeName>Saluces</placeName>
@@ -368,12 +586,18 @@
             <place xml:id="loc.76">
                <placeName>Gênes</placeName>
                <placeName>Genova</placeName>
-               <idno type="URI">http://www.geonames.org/3176219/</idno>
+               <tei:location xmlns:tei="http://www.tei-c.org/ns/1.0">
+                        <tei:geo>44.40478 8.94439</tei:geo>
+                    </tei:location>
+                    <idno type="URI">http://www.geonames.org/3176219/</idno>
             </place>
             <place xml:id="loc.77">
                <placeName>Casal</placeName>
                <placeName>Casale Monferrato</placeName>
-               <idno type="URI">http://www.geonames.org/3180208/</idno>
+               <tei:location xmlns:tei="http://www.tei-c.org/ns/1.0">
+                        <tei:geo>45.13338 8.4525</tei:geo>
+                    </tei:location>
+                    <idno type="URI">http://www.geonames.org/3180208/</idno>
             </place>
             <place xml:id="loc.78">
                <placeName>Pignerol</placeName>
@@ -381,40 +605,63 @@
                <idno type="URI">http://www.geonames.org/3170694/pinerolo.html</idno>
             </place>
             <place xml:id="loc.79">
-               <placeName><sic>Acqui</sic></placeName>
+               <placeName>
+                        <sic>Acqui</sic>
+                    </placeName>
                <placeName>Acqui Terme</placeName>
-               <idno type="URI">http://www.geonames.org/3183490/</idno>
+               <tei:location xmlns:tei="http://www.tei-c.org/ns/1.0">
+                        <tei:geo>44.67552 8.46934</tei:geo>
+                    </tei:location>
+                    <idno type="URI">http://www.geonames.org/3183490/</idno>
             </place>
             <place xml:id="loc.80">
                <placeName>Savone</placeName>
                <placeName>Savona</placeName>
-               <idno type="URI">http://www.geonames.org/3167022/</idno>
+               <tei:location xmlns:tei="http://www.tei-c.org/ns/1.0">
+                        <tei:geo>44.30905 8.47715</tei:geo>
+                    </tei:location>
+                    <idno type="URI">http://www.geonames.org/3167022/</idno>
             </place>
             <place xml:id="loc.81">
                <placeName>Constantinople</placeName>
                <placeName>Istanbul</placeName>
-               <idno type="URI">http://www.geonames.org/745044/</idno>
+               <tei:location xmlns:tei="http://www.tei-c.org/ns/1.0">
+                        <tei:geo>41.01384 28.94966</tei:geo>
+                    </tei:location>
+                    <idno type="URI">http://www.geonames.org/745044/</idno>
             </place>
             <place xml:id="loc.82">
                <placeName>Yassy</placeName>
                <placeName>Iaşi</placeName>
                <placeName>Jassy</placeName>
-               <idno type="URI">http://www.geonames.org/675810/</idno>
+               <tei:location xmlns:tei="http://www.tei-c.org/ns/1.0">
+                        <tei:geo>47.16667 27.6</tei:geo>
+                    </tei:location>
+                    <idno type="URI">http://www.geonames.org/675810/</idno>
             </place>
             <place xml:id="loc.83">
                <placeName>Bukarest</placeName>
                <placeName>București</placeName>
-               <idno type="URi">http://www.geonames.org/683506/</idno>
+               <tei:location xmlns:tei="http://www.tei-c.org/ns/1.0">
+                        <tei:geo>44.43225 26.10626</tei:geo>
+                    </tei:location>
+                    <idno type="URi">http://www.geonames.org/683506/</idno>
             </place>
             <place xml:id="loc.84">
                <placeName>Lisbonne</placeName>
                <placeName>Lisboa</placeName>
-               <idno type="URI">http://www.geonames.org/2267057/</idno>
+               <tei:location xmlns:tei="http://www.tei-c.org/ns/1.0">
+                        <tei:geo>38.71667 -9.13333</tei:geo>
+                    </tei:location>
+                    <idno type="URI">http://www.geonames.org/2267057/</idno>
             </place>
             <place xml:id="loc.85">
                <placeName>Den Haag</placeName>
                <placeName>The Hague</placeName>
-               <idno type="URI">http://www.geonames.org/2747373/</idno>
+               <tei:location xmlns:tei="http://www.tei-c.org/ns/1.0">
+                        <tei:geo>52.07667 4.29861</tei:geo>
+                    </tei:location>
+                    <idno type="URI">http://www.geonames.org/2747373/</idno>
             </place>
             <place xml:id="loc.86">
                <placeName>Triest</placeName>
@@ -424,12 +671,18 @@
             <place xml:id="loc.87">
                <placeName>Kreuznach</placeName>
                <placeName>Bad Kreuznach</placeName>
-               <idno type="URI">http://www.geonames.org/2953416/</idno>
+               <tei:location xmlns:tei="http://www.tei-c.org/ns/1.0">
+                        <tei:geo>49.8414 7.86713</tei:geo>
+                    </tei:location>
+                    <idno type="URI">http://www.geonames.org/2953416/</idno>
             </place>
             <place xml:id="loc.88">
                <placeName>Dürkheim</placeName>
                <placeName>Bad Dürkheim</placeName>
-               <idno type="URI">http://www.geonames.org/2953522/</idno>
+               <tei:location xmlns:tei="http://www.tei-c.org/ns/1.0">
+                        <tei:geo>49.4618 8.17236</tei:geo>
+                    </tei:location>
+                    <idno type="URI">http://www.geonames.org/2953522/</idno>
             </place>
          </listPlace>
 

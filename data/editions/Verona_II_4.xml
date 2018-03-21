@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -13,10 +12,13 @@
                <persName>
                   <surname>Schneider</surname>
                   <forename>Karin</forename>
-               </persName></editor>
+               </persName>
+                </editor>
          </titleStmt>
          <editionStmt>
-            <edition><date>2017-03-13</date></edition>
+            <edition>
+                    <date>2017-03-13</date>
+                </edition>
          </editionStmt>
          <publicationStmt>
             <publisher>Österreichische Akademie der Wissenschaften, Institut für Neuzeit- und
@@ -59,8 +61,11 @@
 
                </physDesc>
                <history>
-                  <origin><placeName ref="#loc.68">Verona</placeName><date when="1822-12-08">8.
-                        Dezember 1822</date></origin>
+                  <origin>
+                            <placeName ref="#loc.68">Verona</placeName>
+                            <date when="1822-12-08">8.
+                        Dezember 1822</date>
+                        </origin>
                </history>
             </msDesc>
             <msDesc xml:id="m.2" type="Lithographie">
@@ -107,8 +112,7 @@
             <p>Die <rs ref="#p.8 #p.40 #p.175 #p.13 #p.35 #p.75">Vertreter Österreich, Preußen und
                   Russlands</rs> informieren die <rs ref="#p.137 #p.102 #p.180 #p.135">Gesandten
                   Großbritanniens und Frankreichs</rs> über die Reduktion der Besatzungstruppen im
-                  <country>Königreich beider Sizilien</country>. Der <rs ref="#p.140"
-                  >Bevollmächtigte des Königreichs beider Sizilien</rs> bringt die Absicht seines
+                  <country>Königreich beider Sizilien</country>. Der <rs ref="#p.140">Bevollmächtigte des Königreichs beider Sizilien</rs> bringt die Absicht seines
                   <rs ref="#p.138">Königs</rs> zur Kenntnis, Schweizer Regimenter in Dienst zu
                nehmen und ersucht dabei um die Unterstützung der alliierten Höfe. Diese wird in
                Aussicht gestellt.</p>
@@ -159,21 +163,29 @@
       <body>
          <div decls="#m.1">
             <pb n="33r"/>
-            <p><add hand="#AmB" place="top"><date when="1822-12-08">8/12</date>
+            <p>
+                    <add hand="#AmB" place="top">
+                        <date when="1822-12-08">8/12</date>
                   <choice>
                      <abbr>Pr.</abbr>
                      <expan>Procès-Verbal</expan>
-                  </choice></add></p>
-            <p><title>Procès-verbal de la Conférence du <date when="1822-12-08">8 Décembre</date>
-                  entre Messieurs les <rs
-                     ref="#p.8 #p.40 #p.137 #p.102 #p.180 #p.135 #p.175 #p.13 #p.35 #p.75"
-                     >Plénipotentiaires des Cours d'Autriche, de France, de Grande-Bretagne, de
-                     Prusse et de Russie</rs>.</title></p>
+                  </choice>
+                    </add>
+                </p>
             <p>
-               <title><hi rendition="#u">Diminution des Troupes auxiliaires dans le <country>Royaume
-                        des Deux-Siciles</country></hi></title>
+                    <title>Procès-verbal de la Conférence du <date when="1822-12-08">8 Décembre</date>
+                  entre Messieurs les <rs ref="#p.8 #p.40 #p.137 #p.102 #p.180 #p.135 #p.175 #p.13 #p.35 #p.75">Plénipotentiaires des Cours d'Autriche, de France, de Grande-Bretagne, de
+                     Prusse et de Russie</rs>.</title>
+                </p>
+            <p>
+               <title>
+                        <hi rendition="#u">Diminution des Troupes auxiliaires dans le <country>Royaume
+                        des Deux-Siciles</country>
+                        </hi>
+                    </title>
             </p>
-            <p><placeName ref="#loc.68">Vérone</placeName> le <date when="1822-12-08">8 Décembre
+            <p>
+                    <placeName ref="#loc.68">Vérone</placeName> le <date when="1822-12-08">8 Décembre
                   1822</date>.</p>
             <p>Dans la Conférence de ce soir il a été fait communication à <choice>
                   <abbr>Mrs.</abbr>
@@ -186,23 +198,29 @@
                   <abbr>Mrs.</abbr>
                   <expan>Messieurs</expan>
                </choice> les <rs ref="#p.8 #p.40 #p.175 #p.13 #p.35">Plénipotentiaires des Cours
-                  signataires de la <rs ref="#t.48">Convention de <placeName ref="#loc.11"
-                        >Naples</placeName></rs></rs> du <date when="1821-10-18">18 Octobre
+                  signataires de la <rs ref="#t.48">Convention de <placeName ref="#loc.11">Naples</placeName>
+                        </rs>
+                    </rs> du <date when="1821-10-18">18 Octobre
                   1821</date>. </p>
-            <p><choice>
+            <p>
+                    <choice>
                   <abbr>Mr.</abbr>
                   <expan>Monsieur</expan>
-               </choice> le <persName ref="#p.140"><roleName>Prince</roleName>
-                  <surname>de Ruffo</surname></persName> a fait part en même temps par la <rs
-                  xml:id="n.1">Note ci-annexée</rs><note type="editorial" target="#n.1">Vgl.
+               </choice> le <persName ref="#p.140">
+                        <roleName>Prince</roleName>
+                  <surname>de Ruffo</surname>
+                    </persName> a fait part en même temps par la <rs xml:id="n.1">Note ci-annexée</rs>
+                    <note type="editorial" target="#n.1">Vgl.
                   Anlage.</note> de la résolution du <rs ref="#p.138">Roi</rs>, son Maître,
-               d’engager à son service des Régimens suisses, et du désir de <rs ref="#p.138"><choice>
+               d’engager à son service des Régimens suisses, et du désir de <rs ref="#p.138">
+                        <choice>
                      <abbr>S. M.</abbr>
                      <expan>Sa Majesté</expan>
                   </choice> Sicilienne</rs> que les Cabinets alliés interposassent Leurs bons
                offices près de la Confédération Suisse afin qu’elle appuye de son assentiment et de
                son autorité près des Cantons les capitulations particulières que le <choice>
-                  <abbr>Gouvernem<hi rendition="#su">t</hi></abbr>
+                  <abbr>Gouvernem<hi rendition="#su">t</hi>
+                        </abbr>
                   <expan>Gouvernement</expan>
                </choice> du <rs ref="#p.138">Roi</rs> a déjà faites et celles qu’il se propose
                encore de faire.</p>
@@ -216,42 +234,92 @@
                   <cell/>
                </row>
                <row>
-                  <cell><persName ref="#p.8"><surname>Metternich</surname></persName></cell>
-                  <cell><persName ref="#p.137"><roleName>Vane
-                     Londonderry</roleName></persName></cell>
-                  <cell><persName ref="#p.140"><surname>Ruffo</surname></persName></cell>
+                  <cell>
+                            <persName ref="#p.8">
+                                <surname>Metternich</surname>
+                            </persName>
+                        </cell>
+                  <cell>
+                            <persName ref="#p.137">
+                                <roleName>Vane
+                     Londonderry</roleName>
+                            </persName>
+                        </cell>
+                  <cell>
+                            <persName ref="#p.140">
+                                <surname>Ruffo</surname>
+                            </persName>
+                        </cell>
                </row>
                <row>
-                  <cell><persName ref="#p.40"><surname>Lebzeltern</surname></persName></cell>
-                  <cell><persName ref="#p.175"><surname>Hatzfeldt</surname></persName></cell>
+                  <cell>
+                            <persName ref="#p.40">
+                                <surname>Lebzeltern</surname>
+                            </persName>
+                        </cell>
+                  <cell>
+                            <persName ref="#p.175">
+                                <surname>Hatzfeldt</surname>
+                            </persName>
+                        </cell>
                   <cell/>
                </row>
                <row>
-                  <cell>le <persName ref="#p.102"><roleName><choice>
-                              <abbr>M<hi rendition="#su">is</hi></abbr>
+                  <cell>le <persName ref="#p.102">
+                                <roleName>
+                                    <choice>
+                              <abbr>M<hi rendition="#su">is</hi>
+                                        </abbr>
                               <expan>Marquis</expan>
-                           </choice></roleName>
-                        <surname>de Caraman</surname></persName></cell>
-                  <cell><persName ref="#p.13"><surname>Nesselrode</surname></persName></cell>
+                           </choice>
+                                </roleName>
+                        <surname>de Caraman</surname>
+                            </persName>
+                        </cell>
+                  <cell>
+                            <persName ref="#p.13">
+                                <surname>Nesselrode</surname>
+                            </persName>
+                        </cell>
                   <cell/>
                </row>
                <row>
-                  <cell><persName ref="#p.135"><roleName><choice>
-                              <abbr>C<hi rendition="#su">te</hi></abbr>
+                  <cell>
+                            <persName ref="#p.135">
+                                <roleName>
+                                    <choice>
+                              <abbr>C<hi rendition="#su">te</hi>
+                                        </abbr>
                               <expan>Comte</expan>
-                           </choice></roleName>
-                        <surname>de la Ferronnay</surname></persName></cell>
-                  <cell><persName ref="#p.75"><surname>Lieven</surname></persName></cell>
+                           </choice>
+                                </roleName>
+                        <surname>de la Ferronnay</surname>
+                            </persName>
+                        </cell>
+                  <cell>
+                            <persName ref="#p.75">
+                                <surname>Lieven</surname>
+                            </persName>
+                        </cell>
                   <cell/>
                </row>
                <row>
-                  <cell><persName ref="#p.180"><surname>Chateaubriand</surname></persName></cell>
-                  <cell><persName ref="#p.35"><surname>Tatistcheff</surname></persName></cell>
+                  <cell>
+                            <persName ref="#p.180">
+                                <surname>Chateaubriand</surname>
+                            </persName>
+                        </cell>
+                  <cell>
+                            <persName ref="#p.35">
+                                <surname>Tatistcheff</surname>
+                            </persName>
+                        </cell>
                   <cell/>
                </row>
             </table>
 
-            <p><app>
+            <p>
+                    <app>
                   <lem>
                      <hi rendition="#u">Nota.</hi>
                      <choice>
@@ -260,13 +328,16 @@
                      </choice> le <rs ref="#p.137">Plénipotentiaire de la Grande-Bretagne</rs>
                      n’étant point autorisé à entrer dans les discussions, a signé les Protocoles vu
                      qu’ils ne se rapportent qu’à de simples communications.</lem>
-                  <rdg><add hand="#G"><hi rendition="#u">Nota.</hi>
+                  <rdg>
+                            <add hand="#G">
+                                <hi rendition="#u">Nota.</hi>
                         <choice>
                            <abbr>Mr.</abbr>
                            <expan>Monsieur</expan>
                         </choice> le <rs ref="#p.137">Plénipotentiaire de la Grande-Bretagne</rs>
                         n’étant point autorisé à entrer dans les discussions, a signé les Protocoles
-                        vu qu’ils ne se rapportent qu’à de simples communications.</add></rdg>
+                        vu qu’ils ne se rapportent qu’à de simples communications.</add>
+                        </rdg>
                </app>
             </p>
 
@@ -275,13 +346,20 @@
          <div decls="#m.2">
             <pb n="34r"/>
 
-            <p><title>Note de <choice>
-                     <abbr>M<hi rendition="#su">r</hi></abbr>
+            <p>
+                    <title>Note de <choice>
+                     <abbr>M<hi rendition="#su">r</hi>
+                            </abbr>
                      <expan>Monsieur</expan>
-                  </choice> le <persName ref="#p.140"><roleName>Prince</roleName>
-                     <surname>de Ruffo</surname></persName>, remise à la conférence du soir du <date
-                     when="1822-12-08">8 Décembre</date></title></p>
-            <p><rs ref="#p.138"><choice>
+                  </choice> le <persName ref="#p.140">
+                            <roleName>Prince</roleName>
+                     <surname>de Ruffo</surname>
+                        </persName>, remise à la conférence du soir du <date when="1822-12-08">8 Décembre</date>
+                    </title>
+                </p>
+            <p>
+                    <rs ref="#p.138">
+                        <choice>
                      <abbr>S. M.</abbr>
                      <expan>Sa Majesté</expan>
                   </choice> Sicilienne</rs>, désirant avoir à Sa libre disposition un corps de
@@ -289,28 +367,37 @@
                semé le trouble dans Ses états, a pris la résolution d’engager à Son service des
                régimens suisses.</p>
             <p>Habituée à compter sur l’appui de Ses Alliés dans tout ce qui peut contribuer au
-               prompt rétablissement de l’ordre dans Son royaume, <rs ref="#p.138"><choice>
+               prompt rétablissement de l’ordre dans Son royaume, <rs ref="#p.138">
+                        <choice>
                      <abbr>S. M.</abbr>
                      <expan>Sa Majesté</expan>
                   </choice> Sicilienne</rs> a donné l’ordre à <choice>
-                  <abbr>M<hi rendition="#su">r</hi></abbr>
+                  <abbr>M<hi rendition="#su">r</hi>
+                        </abbr>
                   <expan>Monsieur</expan>
-               </choice> le <persName ref="#p.140"><roleName>Prince</roleName>
-                  <surname>de Ruffo</surname></persName> de prier les Cabinets alliés de vouloir
+               </choice> le <persName ref="#p.140">
+                        <roleName>Prince</roleName>
+                  <surname>de Ruffo</surname>
+                    </persName> de prier les Cabinets alliés de vouloir
                bien interposer leurs bons offices près de la Confédération Suisse afin qu’elle
                appuye de Son assentiment et de Son autorité près des Cantons les capitulations
                particulières qu’a déjà faites le <choice>
-                  <abbr>gouv<hi rendition="#su">t</hi></abbr>
+                  <abbr>gouv<hi rendition="#su">t</hi>
+                        </abbr>
                   <expan>gouvernement</expan>
                </choice> du <rs ref="#p.138">Roi</rs>, et celles qu’il a encore le projet de
                faire.</p>
             <p>En mettant à exécution cet ordre de <rs ref="#p.138">son Souverain</rs>, <choice>
-                  <abbr>M<hi rendition="#su">r</hi></abbr>
+                  <abbr>M<hi rendition="#su">r</hi>
+                        </abbr>
                   <expan>Monsieur</expan>
-               </choice> le <persName ref="#p.140"><roleName>Prince</roleName>
-                  <surname>de Ruffo</surname></persName> espère que les cabinets alliés voudront
+               </choice> le <persName ref="#p.140">
+                        <roleName>Prince</roleName>
+                  <surname>de Ruffo</surname>
+                    </persName> espère que les cabinets alliés voudront
                d’autant plus accéder à cette demande qu’elle appartient à l’ensemble des mesures que
-                  <rs ref="#p.138"><choice>
+                  <rs ref="#p.138">
+                        <choice>
                      <abbr>S. M.</abbr>
                      <expan>Sa Majesté</expan>
                   </choice> Sicilienne</rs> a prises pour la reconstruction de Son gouvernement, et
@@ -319,12 +406,10 @@
       </body>
       <back>
          <include xmlns="http://www.w3.org/2001/XInclude" href="listPlace.xml" xpointer="listPlace"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="listPerson.xml"
-            xpointer="listPerson"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listPerson.xml" xpointer="listPerson"/>
          <include xmlns="http://www.w3.org/2001/XInclude" href="listWit.xml" xpointer="listWit"/>
          <include xmlns="http://www.w3.org/2001/XInclude" href="listOrg.xml" xpointer="listOrg"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="listTreaties.xml"
-            xpointer="listTreaties"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listTreaties.xml" xpointer="listTreaties"/>
       </back>
    </text>
 </TEI>

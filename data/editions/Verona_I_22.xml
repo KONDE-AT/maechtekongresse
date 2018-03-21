@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -13,10 +12,13 @@
                <persName>
                   <surname>Schneider</surname>
                   <forename>Karin</forename>
-               </persName></editor>
+               </persName>
+                </editor>
          </titleStmt>
          <editionStmt>
-            <edition><date>2017-03-13</date></edition>
+            <edition>
+                    <date>2017-03-13</date>
+                </edition>
          </editionStmt>
          <publicationStmt>
             <publisher>Österreichische Akademie der Wissenschaften, Institut für Neuzeit- und
@@ -59,22 +61,35 @@
 
                </physDesc>
                <history>
-                  <origin><placeName ref="#loc.68">Verona</placeName><date when="1822-11-26">26.
-                        November 1822</date></origin>
+                  <origin>
+                            <placeName ref="#loc.68">Verona</placeName>
+                            <date when="1822-11-26">26.
+                        November 1822</date>
+                        </origin>
                </history>
             </msDesc>
             <listWit corresp="#m.1">
                <head>Note Nesselrodes an den russischen Geschäftsträger in Madrid </head>
-               <witness corresp="#w.26"><bibl type="print">Archive diplomatique/ Diplomatisches
-                     Archiv, Bd. 3, 433–438;</bibl></witness>
-               <witness corresp="#w.5"><bibl type="print">BFSP Bd. 10 (1822/23), S.
-                  912–915;</bibl></witness>
-               <witness corresp="#w.25"><bibl type="print">Ghillany, Diplomatisches Handbuch, Bd. 2,
-                     S. 445–448;</bibl></witness>
-               <witness corresp="#w.31"><bibl type="print">Martens, Guide diplomatique, Bd. 1, S.
-                     432–436;</bibl></witness>
-               <witness corresp="#w.14"><bibl type="print">Martens, Nouveau recueil, Bd. 6, S.
-                     183–188.</bibl></witness>
+               <witness corresp="#w.26">
+                        <bibl type="print">Archive diplomatique/ Diplomatisches
+                     Archiv, Bd. 3, 433–438;</bibl>
+                    </witness>
+               <witness corresp="#w.5">
+                        <bibl type="print">BFSP Bd. 10 (1822/23), S.
+                  912–915;</bibl>
+                    </witness>
+               <witness corresp="#w.25">
+                        <bibl type="print">Ghillany, Diplomatisches Handbuch, Bd. 2,
+                     S. 445–448;</bibl>
+                    </witness>
+               <witness corresp="#w.31">
+                        <bibl type="print">Martens, Guide diplomatique, Bd. 1, S.
+                     432–436;</bibl>
+                    </witness>
+               <witness corresp="#w.14">
+                        <bibl type="print">Martens, Nouveau recueil, Bd. 6, S.
+                     183–188.</bibl>
+                    </witness>
             </listWit>
          </sourceDesc>
       </fileDesc>
@@ -94,8 +109,8 @@
       </encodingDesc>
       <profileDesc>
          <abstract>
-            <p>Das russische Kabinett beauftragt den <rs ref="#p.179">Geschäftsträger in <placeName
-                     ref="#loc.24">Madrid</placeName></rs>, der spanischen Regierung seine
+            <p>Das russische Kabinett beauftragt den <rs ref="#p.179">Geschäftsträger in <placeName ref="#loc.24">Madrid</placeName>
+                    </rs>, der spanischen Regierung seine
                Sichtweise in Hinblick auf die inneren Zustände Spaniens und die daraus
                resultierenden Konsequenzen für die Ruhe in Europa nahezubringen und den Wunsch des
                   <rs ref="#p.17">Zaren</rs> nach Wiederherstellung der inneren Stabilität durch die
@@ -107,15 +122,23 @@
       <body>
          <div corresp="#m.1" hand="#A">
             <pb n="251r"/>
-            <p><add hand="#A1" place="top">C</add>
-               <add place="top" hand="#AmB">17.</add></p>
+            <p>
+                    <add hand="#A1" place="top">C</add>
+               <add place="top" hand="#AmB">17.</add>
+                </p>
 
-            <p><title>Dépêche ostensible au <persName ref="#p.179"><roleName>Comte</roleName>
-                     <surname>de Bulgary</surname></persName></title>
+            <p>
+                    <title>Dépêche ostensible au <persName ref="#p.179">
+                            <roleName>Comte</roleName>
+                     <surname>de Bulgary</surname>
+                        </persName>
+                    </title>
             </p>
-            <p><placeName ref="#loc.68">Vérone</placeName> le <supplied>...</supplied>
+            <p>
+                    <placeName ref="#loc.68">Vérone</placeName> le <supplied>...</supplied>
                <choice>
-                  <abbr>Nov<hi rendition="#su">br</hi></abbr>
+                  <abbr>Nov<hi rendition="#su">br</hi>
+                        </abbr>
                   <expan>Novembre</expan>
                </choice> 1822.</p>
             <p>Les <rs ref="#p.16 #p.18 #p.17">Souverains</rs> et les Plénipotentiaires réunis à
@@ -126,32 +149,38 @@
                des troubles intérieurs agitent depuis deux Ans, et qui ne peut qu’exciter à un égal
                degré la sollicitude, <app>
                   <lem>l’intérêt</lem>
-                  <rdg><subst>
+                  <rdg>
+                            <subst>
                         <del>les regrets</del>
                         <add>l’intérêt</add>
-                     </subst></rdg>
+                     </subst>
+                        </rdg>
                </app> et les appréhensions des autres Puissances.</p>
-            <p><rs xml:id="n.1">Lorsqu’au Mois de Mars 1820 quelques soldats parjures tournèrent
+            <p>
+                    <rs xml:id="n.1">Lorsqu’au Mois de Mars 1820 quelques soldats parjures tournèrent
                   leurs Armes contre le <rs ref="#p.30">Souverain</rs> et la Patrie</rs>, pour
-               imposer à l’<country>Espagne</country><note type="editorial" target="#n.1">Zur
-                  Revolution in <country>Spanien</country>, die mit einem Militäraufstand am <date
-                     when="1820-01-01">1. Jänner 1820</date> ihren Anfang nahm, vgl. Späth,
+               imposer à l’<country>Espagne</country>
+                    <note type="editorial" target="#n.1">Zur
+                  Revolution in <country>Spanien</country>, die mit einem Militäraufstand am <date when="1820-01-01">1. Jänner 1820</date> ihren Anfang nahm, vgl. Späth,
                   Revolution in Europa, S. 117–128. Zur spanischen Verfassung von Cádiz,
                   veröffentlicht am 19. März 1812 und am 8. März 1820 durch König Ferdinand VII.
                   erneut in Kraft gesetzt, vgl. Timmermann, Die „Gemäßigte Monarchie“; BFSP Bd. 6
                   (1819/20), S. 237–279; Brand, Schlegelmilch, Kirsch (Hgg.), Quellen.</note> des
                Lois que la raison publique de l’Europe, éclairée par l’expérience de tous les
-               Siècles, frappoit de la plus haute improbation, les Cabinets Alliés, et nommément<pb
-                  n="251v"/> celui de <placeName ref="#loc.10"><choice>
-                     <abbr>S<hi rendition="#su">t</hi></abbr>
+               Siècles, frappoit de la plus haute improbation, les Cabinets Alliés, et nommément<pb n="251v"/> celui de <placeName ref="#loc.10">
+                        <choice>
+                     <abbr>S<hi rendition="#su">t</hi>
+                            </abbr>
                      <expan>Saint</expan>
                   </choice> Petersbourg</placeName>, se hâtèrent de signaler les malheurs
                qu’entraineroient après elles des institutions qui consacroient<app>
                   <lem/>
-                  <rdg><subst>
+                  <rdg>
+                            <subst>
                         <del>l’anarchie par leur essence, et in</del>
                         <add/>
-                     </subst></rdg>
+                     </subst>
+                        </rdg>
                </app> la révolte militaire par le mode de leur établissement.</p>
             <p>Ces craintes ne furent que trop tôt et trop complètement justifiées. Ce ne sont plus
                des théories ni des principes qu’il s’agit ici d’examiner et d’approfondir. Les faits
@@ -161,11 +190,13 @@
                Révolution d’Espagne ?</p>
             <p>À l’époque où un déplorable succès couronna leur entreprise, l’intégrité de la
                Monarchie Espagnole formoit l’objet des soins de son Gouvernement. Toute la Nation
-               partageoit les vœux de <rs xml:id="n.2" ref="#p.30"><choice>
-                     <abbr>S. M<hi rendition="#su">té</hi></abbr>
+               partageoit les vœux de <rs xml:id="n.2" ref="#p.30">
+                        <choice>
+                     <abbr>S. M<hi rendition="#su">té</hi>
+                            </abbr>
                      <expan>Sa Majesté</expan>
-                  </choice><pb n="252r"/> Catholique</rs>,<note type="editorial" target="#n.2"
-                  >Ehrentitel des Königs von Spanien.</note> toute l’Europe lui avoit offert une
+                  </choice>
+                        <pb n="252r"/> Catholique</rs>,<note type="editorial" target="#n.2">Ehrentitel des Königs von Spanien.</note> toute l’Europe lui avoit offert une
                intervention amicale pour rasseoir sur des bases solides l’autorité de la Métropole
                dans les contrées lointaines qui avoient jadis fait sa richesse et sa force.
                Encouragées par un funeste exemple à persévérer dans la révolte, les Provinces où
@@ -182,26 +213,31 @@
                état de choses où tous les principes constitu<pb n="252v"/>tifs de l’ordre social
                avoient été mis en oubli.</p>
             <p>L’anarchie parut à la suite de la Révolution, le désordre à la suite de l’anarchie ;
-               de longues années d’une possession tranquille cessèrent <add place="above"
-                  >bientôt</add> solennels furent révoqués en doute ; bientôt des Emprunts ruineux
+               de longues années d’une possession tranquille cessèrent <add place="above">bientôt</add> solennels furent révoqués en doute ; bientôt des Emprunts ruineux
                et des Contributions sans cesse renouvellées attaquèrent à la fois la fortune
                publique et les fortunes particulières. Comme aux jours dont <app>
                   <lem>l’idee seule</lem>
-                  <rdg><subst>
+                  <rdg>
+                            <subst>
                         <del>le souvenir</del>
                         <add>l’idee seule</add>
-                     </subst></rdg>
+                     </subst>
+                        </rdg>
                </app> fait encore frissonner l’Europe, la religion fut dépouillée de son patrimoine,
                le trône du respect des peuples, la Majesté royale outragée, l’autorité transportée
                dans des réunions où les passions aveugles de la multitude s’arrachoient les rênes de
                l’Etat. Enfin, comme à ces mêmes jours de deuil si malheureusement reproduits en
                Espagne, <rs xml:id="n.4">on vit le <date when="1822-07-07">7
-                  Juillet</date></rs><note type="editorial" target="#n.4">Im Zuge einer
+                  Juillet</date>
+                    </rs>
+                    <note type="editorial" target="#n.4">Im Zuge einer
                   gescheiterten Konterrevolution übernahm die Fraktion der exaltados die Regierung
                   in <country>Spanien</country>; vgl. Späth, Revolution in Europa, S. 408–409.
-               </note> le sang couler<pb n="253r"/><del rendition="#s">jusque</del> dans la demeure
+               </note> le sang couler<pb n="253r"/>
+                    <del rendition="#s">jusque</del> dans la demeure
                des Rois, et une guerre civile embraser la Péninsule.</p>
-            <p><app>
+            <p>
+                    <app>
                   <lem>Depuis près de trois ans les Puissances Alliées s’étoient toujours flattées
                      que le Caractère Espagnol, ce caractère si constant et si généreux, dès qu’il
                      s’agit du salut de la Patrie et naguères si héroïque quand il luttoit contre un
@@ -209,25 +245,30 @@
                      hommes qui avoient eu le malheur d’être infidèles aux nobles souvenirs que
                         l’<country>Espagne</country> peut citer avec orgueil à tous les peuples de
                      l’Europe. Elles s’étoient flattées que le <choice>
-                        <abbr>Gouv<hi rendition="#su">t</hi></abbr>
+                        <abbr>Gouv<hi rendition="#su">t</hi>
+                                </abbr>
                         <expan>Gouvernement</expan>
-                     </choice> de <rs ref="#p.30"><choice>
+                     </choice> de <rs ref="#p.30">
+                                <choice>
                            <abbr>S. M. C.</abbr>
                            <expan>Sa Majesté Catholique</expan>
-                        </choice></rs>, détrompé par les premières leçons d’une expérience fatale,
+                        </choice>
+                            </rs>, détrompé par les premières leçons d’une expérience fatale,
                      prendroit des mesures, si non pour arrêter d’un seul effort tant de maux qui
                      déjà se débordoient de toutes parts,</lem>
-                  <rdg><subst>
+                  <rdg>
+                            <subst>
                         <del>Les Puissances, qui avoient eu le bonheur de prévenir l’action terrible
                            de ces fléaux à <country>Naples</country> et dans le
                               <country>Piémont</country>, s’étoient flattées que le rétablissement
                            de l’ordre en Italie, et les faits qui venoient de prouver que ces
                            prétendus organes du désir universel des peuples n’avoient pu obtenir ni
-                           leur aveu, ni leur assistance, offriroient aux Ministres de <rs
-                              ref="#p.30"><choice>
+                           leur aveu, ni leur assistance, offriroient aux Ministres de <rs ref="#p.30">
+                                        <choice>
                                  <abbr>S. M. Cath.</abbr>
                                  <expan>Sa Majesté Catholique</expan>
-                              </choice></rs> un exemple propre à les éclairer sur leur vraie
+                              </choice>
+                                    </rs> un exemple propre à les éclairer sur leur vraie
                            position, et que le Gouvernement Espagnol prendroit des mesures, si non
                            pour mettre un terme à tant de maux</del>
                         <add>Depuis près de trois ans les Puissances Alliées s’étoient toujours
@@ -238,66 +279,84 @@
                            d’être infidèles aux nobles souvenirs que l’<country>Espagne</country>
                            peut citer avec orgueil à tous les peuples de l’Europe. Elles s’étoient
                            flattées que le <choice>
-                              <abbr>Gouv<hi rendition="#su">t</hi></abbr>
+                              <abbr>Gouv<hi rendition="#su">t</hi>
+                                        </abbr>
                               <expan>Gouvernement</expan>
-                           </choice> de <rs ref="#p.30"><choice>
+                           </choice> de <rs ref="#p.30">
+                                        <choice>
                                  <abbr>S. M. C.</abbr>
                                  <expan>Sa Majesté Catholique</expan>
-                              </choice></rs>, détrompé par les premières leçons d’une expérience
+                              </choice>
+                                    </rs>, détrompé par les premières leçons d’une expérience
                            fatale, prendroit des mesures, si non pour arrêter d’un seul effort tant
                            de maux qui déjà se débordoient de toutes parts,</add>
-                     </subst></rdg>
+                     </subst>
+                        </rdg>
                </app> au moins pour jetter les fondemens d’un système réparateur <app>
                   <lem>et pour assurer graduellement</lem>
-                  <rdg><subst>
+                  <rdg>
+                            <subst>
                         <del>qui assurât</del>
                         <add>et pour assurer graduellement</add>
-                     </subst></rdg>
+                     </subst>
+                        </rdg>
                </app> au trône ses Droits légitimes et ses prérogatives nécessaires, aux sujets une
                juste protection, aux pro<pb n="253v"/>priétés d’indispensables garanties. Mais cet
                espoir a été complètement déçu. Le tems n’a fait qu’amener de nouvelles injustices,
                les violences se sont multipliées, le nombre des victimes a grossi dans une
                effrayante proportion, et l’<country>Espagne</country> a déjà vu plus d’un guerrier,
                plus d’un Citoyen fidèle, porter sa tête sur l’échafaud.</p>
-            <p><app>
-                  <lem>C’est ainsi que la <rs xml:id="n.5">Révolution du <date when="1820-03-08"><choice>
+            <p>
+                    <app>
+                  <lem>C’est ainsi que la <rs xml:id="n.5">Révolution du <date when="1820-03-08">
+                                    <choice>
                               <sic>9</sic>
                               <corr>8</corr>
-                           </choice> Mars</date></rs>
-                     <note type="editorial" target="#n.5"><persName ref="#p.30"
-                              ><roleName>König</roleName>
-                           <forename>Ferdinand</forename></persName> leistete den Eid auf die
+                           </choice> Mars</date>
+                            </rs>
+                     <note type="editorial" target="#n.5">
+                                <persName ref="#p.30">
+                                    <roleName>König</roleName>
+                           <forename>Ferdinand</forename>
+                                </persName> leistete den Eid auf die
                         Verfassung von Cádiz am <date when="1820-03-08">8. März
                      1820</date>.</note>avançoit de jour en jour la ruine de la Monarchie Espagnole,
                      lorsque deux circonstances particulières viennent appeler sur elle la plus
                      sérieuse attention des Gouvernemens étrangers.</lem>
-                  <rdg><subst>
+                  <rdg>
+                            <subst>
                         <del>Depuis longtemps les Souverains et les principaux Cabinets de l’Europe
                            avoient été compris dans les insultes prodiguées, au nom même de
                            l’autorité publique, à tous ceux qui veulent le règne de l’ordre et des
                            lois ; mais deux circonstances surtout achèvent de changer les rapports
                            du Gouvernement Espagnol avec les cours étrangères.</del>
-                        <add>C’est ainsi que la <rs xml:id="n.5a">Révolution du <date
-                                 when="1820-03-08"><choice>
+                        <add>C’est ainsi que la <rs xml:id="n.5a">Révolution du <date when="1820-03-08">
+                                            <choice>
                                     <sic>9</sic>
                                     <corr>8</corr>
-                                 </choice> Mars</date></rs>
-                           <note type="editorial" target="#n.5a"><persName ref="#p.30"
-                                    ><roleName>König</roleName>
-                                 <forename>Ferdinand</forename></persName> leistete den Eid auf die
+                                 </choice> Mars</date>
+                                    </rs>
+                           <note type="editorial" target="#n.5a">
+                                        <persName ref="#p.30">
+                                            <roleName>König</roleName>
+                                 <forename>Ferdinand</forename>
+                                        </persName> leistete den Eid auf die
                               Verfassung von Cádiz am <date when="1820-03-08">8. März
                               1820</date>.</note>avançoit de jour en jour la ruine de la Monarchie
                            Espagnole, lorsque deux circonstances particulières viennent appeler sur
                            elle la plus sérieuse attention des Gouvernemens étrangers.</add>
-                     </subst></rdg>
+                     </subst>
+                        </rdg>
                </app>
             </p>
             <p>Au milieu <app>
                   <lem>d’un peuple</lem>
-                  <rdg><subst>
+                  <rdg>
+                            <subst>
                         <del>d’une nation</del>
                         <add>d’un peuple</add>
-                     </subst></rdg>
+                     </subst>
+                        </rdg>
                </app> pour qui le dévouement à ses Rois est un besoin et un sentiment héréditaire,
                qui pendant six Années consécutives a versé le sang le plus pur pour reconquérir son
                Monarque légitime, ce <rs ref="#p.30">Monarque</rs> et son Auguste famille viennent
@@ -306,15 +365,16 @@
                glaive ; et d’impérieuses représentations lui ont interdit avec Son Epouse mourante
                la sortie de la <rs ref="#loc.24">Capitale</rs>.</p>
             <p>D’autre part, après les <rs xml:id="n.7">révolutions de
-                  <country>Naples</country></rs><note type="editorial" target="#n.7">Am <date
-                     when="1820-07-02">2. Juli 1820</date> meuterte die Militärgarnison in Nola, 35
+                  <country>Naples</country>
+                    </rs>
+                    <note type="editorial" target="#n.7">Am <date when="1820-07-02">2. Juli 1820</date> meuterte die Militärgarnison in Nola, 35
                   km von <placeName ref="#loc.11">Neapel</placeName> entfernt. Das Datum gilt als
                   Beginn der Revolution im <country>Königreich beider Sizilien</country>. Vgl.
                   Stites, The four Horsemen; Davis, Naples and Napoleon; Gin, Sanfedisti, Carbonari,
                   Magistrati del Re; Späth, Revolution in Europa, S. 129–149. Zur Reaktion der
                   Großmächte vgl. zuletzt Jarrett, The Congress of Vienna, S. 248–285 sowie die
-                  Editionen der Dokumente der Kongresse von Troppau und Laibach. </note> et du <rs
-                  xml:id="n.8">Piémont</rs><note type="editorial" target="#n.8">Im März 1821 war im
+                  Editionen der Dokumente der Kongresse von Troppau und Laibach. </note> et du <rs xml:id="n.8">Piémont</rs>
+                    <note type="editorial" target="#n.8">Im März 1821 war im
                      <country>Königreich Sardinien-Piemont</country> eine Revolution ausgebrochen,
                   die rasch durch österreichische Truppen niedergeschlagen wurde. Vgl. Späth,
                   Revolution in Europa, S. 150–165; Broers, Napoleonic Imperialism; Jarrett, The
@@ -325,40 +385,44 @@
                des Etats plus éloignés, ils traivaillent à se créer des complices ; l’activité de
                leur prosélytisme s’étend partout, et partout elle prépare les mêmes désastres.</p>
             <p>Une telle conduite devoit forcément exciter l’animadversion générale. Les Cabinets,
-               qui désirent sincèrement le bien de l’<country>Espagne</country>, lui manifestent<pb
-                  n="254v"/> depuis deux ans leur pensée par la nature des rapports qu’ils
+               qui désirent sincèrement le bien de l’<country>Espagne</country>, lui manifestent<pb n="254v"/> depuis deux ans leur pensée par la nature des rapports qu’ils
                entretiennent avec son Gouvernement. La <country>France</country>
                <app>
                   <lem>se voit</lem>
-                  <rdg><subst>
+                  <rdg>
+                            <subst>
                         <del>est</del>
                         <add>se voit</add>
-                     </subst></rdg>
+                     </subst>
+                        </rdg>
                </app> obligée de confier à une Armée la garde de ses frontières, et peut-être
                faudra-t-il qu’elle lui confie également le soin de faire cesser les provocations
                dont elle est l’objet. L’<country>Espagne</country> elle-même se soulève en partie
                contre un régime que repoussent ses Mœurs, la loyauté connue de ses habitans et ses
                traditions toutes Monarchiques.<app>
                   <lem/>
-                  <rdg><subst>
-                        <del>La perte des plus riches portions du monde connu, la captivité d’un <rs
-                              ref="#p.30">Roi</rs>, la guerre civile et la perspective d’une guerre
+                  <rdg>
+                            <subst>
+                        <del>La perte des plus riches portions du monde connu, la captivité d’un <rs ref="#p.30">Roi</rs>, la guerre civile et la perspective d’une guerre
                            extérieure, voilà donc pour la Péninsule Espagnole les conséquences à
                            jamais déplorables des journées du <date when="1820-03-08">8</date> et du
                               <date when="1820-03-09">9 Mars 1820</date>.</del>
                         <add/>
-                     </subst></rdg>
+                     </subst>
+                        </rdg>
                </app>
             </p>
             <p>Dans cet état de choses, <app>
                   <lem>l’<rs ref="#p.17">Empereur</rs>, Notre Auguste Maître, s’est décidé à
                      faire</lem>
-                  <rdg><subst>
+                  <rdg>
+                            <subst>
                         <del>les Cours Alliées, fidèles au système de paix qu’elles ont proclamé, se
                            sont décidées à faire simultanément</del>
                         <add>l’<rs ref="#p.17">Empereur</rs>, Notre Auguste Maître, s’est décidé à
                            faire</add>
-                     </subst></rdg>
+                     </subst>
+                        </rdg>
                </app> une démarche qui ne pourra laisser à la Nation Espagnole aucun doute sur ses
                véritables intentions, ni sur la sincérité des vœux qu’Il forme pour son Bonheur.</p>
             <p>Il est à craindre que les dangers toujours plus réels du voisinage, ceux qui
@@ -366,7 +430,8 @@
                limitrophe, ne finissent par amener entre elle et l’<country>Espagne</country> les
                plus graves complications.</p>
             <app>
-               <lem><p>C’est là l’extrémité fâcheuse que <rs ref="#p.17">Sa Majesté Impériale</rs>
+               <lem>
+                        <p>C’est là l’extrémité fâcheuse que <rs ref="#p.17">Sa Majesté Impériale</rs>
                      voudroit prévenir, s’il est possible, mais tant que le <rs ref="#p.30">Roi</rs>
                      sera hors d’état de témoigner librement sa volonté, tant qu’à la faveur d’un
                      ordre de choses déplorable des Artisans de Révolutions, liés par un Pacte
@@ -393,30 +458,37 @@
                      sainte religion finiront toujours par triompher des doctrines subversives et
                      des séductions mises en œuvre pour étendre leur fatale influence. Déjà une
                      partie de la Nation s’est prononcée ; il ne tient qu’à l’autre de s’unir dès à
-                     présent à son <rs ref="#p.30">Roi</rs> pour délivrer l’Espagne, pour la<pb
-                        n="256v"/> sauver, pour lui assigner dans la famille Européenne, une place
+                     présent à son <rs ref="#p.30">Roi</rs> pour délivrer l’Espagne, pour la<pb n="256v"/> sauver, pour lui assigner dans la famille Européenne, une place
                      d’autant plus honorable qu’elle auroit été arrachée comme en 1814 au triomphe
-                     désastreux d’une usurpation militaire.</p></lem>
-               <rdg><subst>
-                     <del><p>C'est là l'extrémité fâcheuse que les Cours Alliées veulent encore
+                     désastreux d’une usurpation militaire.</p>
+                    </lem>
+               <rdg>
+                        <subst>
+                     <del>
+                                <p>C'est là l'extrémité fâcheuse que les Cours Alliées veulent encore
                            prévenir s’il est possible, mais elles ne sauroient le vouloir qu’à
                            certaines conditions. Garantes de la paix, elles ne peuvent reconnoître
                            plus long temps un ordre de choses qui tend à la troubler. Aussi
                            intéressées au repos de la <country>France</country> que la France
                            elle-même, elles ne peuvent composer avec les artisans de révolutions,
-                           qui travaillent à le compromettre.</p></del>
-                     <del><p>Enfin, amies sincères de l’<country>Espagne</country>, elles ne peuvent
+                           qui travaillent à le compromettre.</p>
+                            </del>
+                     <del>
+                                <p>Enfin, amies sincères de l’<country>Espagne</country>, elles ne peuvent
                            reculer volontairement le terme des malheurs dont gémit une nation si
-                           digne d’un meilleur sort.</p></del>
-                     <del><p>Il faut donc de toute nécessité qu’un changement salutaire
+                           digne d’un meilleur sort.</p>
+                            </del>
+                     <del>
+                                <p>Il faut donc de toute nécessité qu’un changement salutaire
                            s’accomplisse dans la situation et du <rs ref="#p.30">Roi</rs> et du
                            Gouvernement Espagnol. Si les Ministres et les Cortès déplorent hautement
-                           les événemens survenus en <country>Espagne</country> depuis le <date
-                              when="1822-03-08">8 Mars</date>, si dans une adresse solennelle ils
-                           présentent à <rs ref="#p.30"><choice>
+                           les événemens survenus en <country>Espagne</country> depuis le <date when="1822-03-08">8 Mars</date>, si dans une adresse solennelle ils
+                           présentent à <rs ref="#p.30">
+                                        <choice>
                                  <abbr>S. M. C.</abbr>
                                  <expan>Sa Majesté Catholique</expan>
-                              </choice></rs> l’hommage de leur respect et de leur obéissance, s’ils
+                              </choice>
+                                    </rs> l’hommage de leur respect et de leur obéissance, s’ils
                            lui rendent son entière liberté, s’ils l’invitent à mettre fin à la
                            guerre civile, à prévenir la guerre étrangère et à s’environner des plus
                            sages et des plus éclairés de ses sujets pour remplacer un code
@@ -425,8 +497,10 @@
                            mais alors seulement les Puissances alliées, heureuses d’applaudir à ses
                            nobles résolutions, s’empresseront de renouer avec le Gouvernement
                            Espagnol des relations auxquelles présideront de leur part les sentimens
-                           les plus vrais d’amitié et de bienveillance.</p></del>
-                     <del><p>Il y a plus de deux ans que la <country>Russie</country> signale ces
+                           les plus vrais d’amitié et de bienveillance.</p>
+                            </del>
+                     <del>
+                                <p>Il y a plus de deux ans que la <country>Russie</country> signale ces
                            grandes vérités à l’attention des Espagnols, et jamais leur patriotisme
                            n’eut une tâche plus utile et plus honorable à remplir. Quelle gloire
                            pour l’<country>Espagne</country> que de vaincre une seconde fois la
@@ -439,14 +513,15 @@
                            l’autre de sauver l’<country>Espagne</country>, de la réconcilier avec
                            elle-même et avec toutes les Puissances de l’Europe, et de s’unir dès à
                            présent à son <rs ref="#p.30">Roi</rs>, pour effacer les traces d’une
-                           longue tourmente.</p></del>
-                     <add><p>C’est là l’extrémité fâcheuse que <rs ref="#p.17">Sa Majesté
+                           longue tourmente.</p>
+                            </del>
+                     <add>
+                                <p>C’est là l’extrémité fâcheuse que <rs ref="#p.17">Sa Majesté
                               Impériale</rs> voudroit prévenir s’il est possible, mais tant que le
                               <rs ref="#p.30">Roi</rs> sera hors d’état de témoigner librement sa
                            volonté, tant qu’à la faveur d’un ordre de choses déplorable des Artisans
                            de Révolutions, liés par un Pacte commun à ceux des autres Contrées de
-                           l’Europe, chercheront à troubler son repos, est-il au pouvoir de l’<rs
-                              ref="#p.17">Empereur</rs>, est-il au pouvoir d’aucun Monarque,
+                           l’Europe, chercheront à troubler son repos, est-il au pouvoir de l’<rs ref="#p.17">Empereur</rs>, est-il au pouvoir d’aucun Monarque,
                            d’améliorer les relations du Gouvernement Espagnol avec les Puissances
                            étrangères ?</p>
                         <p>D’un autre côté, combien ce but essentiel ne seroit-il pas facile à
@@ -469,35 +544,45 @@
                            sociétés, et le respect d’une sainte religion finiront toujours par
                            triompher des doctrines subversives et des séductions mises en œuvre pour
                            étendre leur fatale influence. Déjà une partie de la Nation s’est
-                           prononcée ; il ne tient qu’à l’autre de s’unir dès à présent à son <rs
-                              ref="#p.30">Roi</rs> pour délivrer l’<country>Espagne</country>, pour
+                           prononcée ; il ne tient qu’à l’autre de s’unir dès à présent à son <rs ref="#p.30">Roi</rs> pour délivrer l’<country>Espagne</country>, pour
                            la sauver, pour lui assigner dans la famille Européenne, une place
                            d’autant plus honorable qu’elle auroit été arrachée comme en 1814 au
-                           triomphe désastreux d’une usurpation militaire.</p></add>
-                  </subst></rdg>
+                           triomphe désastreux d’une usurpation militaire.</p>
+                            </add>
+                  </subst>
+                    </rdg>
             </app>
 
-            <p>En Vous chargeant, <rs ref="#p.179"><choice>
-                     <abbr>M<hi rendition="#su">r</hi></abbr>
+            <p>En Vous chargeant, <rs ref="#p.179">
+                        <choice>
+                     <abbr>M<hi rendition="#su">r</hi>
+                            </abbr>
                      <expan>Monsieur</expan>
-                  </choice> le Comte</rs>, de faire part aux Ministres de <rs ref="#p.30"><choice>
+                  </choice> le Comte</rs>, de faire part aux Ministres de <rs ref="#p.30">
+                        <choice>
                      <abbr>S. M. C.</abbr>
                      <expan>Sa Majesté Catholique</expan>
-                  </choice></rs> des considérations développées dans cette Dépêche, l’<rs
-                  ref="#p.17">Empereur</rs> se plaît à croire que Ses intentions, et celles de Ses
+                  </choice>
+                    </rs> des considérations développées dans cette Dépêche, l’<rs ref="#p.17">Empereur</rs> se plaît à croire que Ses intentions, et celles de Ses
                Alliés, ne seront pas méconnues. En vain la malveillance essayeroit-elle de les
                présenter sous les couleurs d’une ingérence étrangère qui prétendroit dicter des Loix
-               à l’<country>Espagne</country>. <app><lem>Exprimer le désir de voir cesser une longue tourmente
+               à l’<country>Espagne</country>. <app>
+                        <lem>Exprimer le désir de voir cesser une longue tourmente
                de soustraire au même joug un Monarque malheureux et un des premiers peuples de
                l’Europe d’arrêter l’effusion du sang, de favoriser le rétablissement d’une
                administration toute<pb n="257r"/> à la fois sage et nationale, certes, ce n’est
                point attenter à l’indépendance d’un Pays, ni établir un droit d’intervention contre
-               lequel une Puissance quelconque ait raison de s’élever. Si <rs ref="#p.17"><choice>
+               lequel une Puissance quelconque ait raison de s’élever. Si <rs ref="#p.17">
+                                <choice>
                      <abbr>S. M<hi rendition="#su">té</hi> I.</abbr>
                      <expan>Sa Majesté Impériale</expan>
-                  </choice></rs> nourrissoit d’autres vues, il ne dépendroit que d’Elle et de ses
+                  </choice>
+                            </rs> nourrissoit d’autres vues, il ne dépendroit que d’Elle et de ses
                Alliés de laisser la révolution d’<country>Espagne</country> achever son
-                  ouvrage.</lem><rdg><subst><del>Annoncer le désir de
+                  ouvrage.</lem>
+                        <rdg>
+                            <subst>
+                                <del>Annoncer le désir de
                      réprimer des désordres de notoriété Européenne, de délivrer un Monarque
                      d’arrêter l’effusion du sang, de favoriser le rétablissement d’une
                      administration bienfesante &amp; nationale autant que tutélaire, certes ce
@@ -505,40 +590,60 @@
                      d’intervention contre lequel une puissance quelconque ait raison de s’élever.
                      Si les Cours alliées étoient animées d’autres vues, il ne dépendroit que
                      d’elles de laisser la révolution d’<country>Espagne</country> achever son
-                     ouvrage.</del><add>Exprimer le désir de voir cesser une longue
+                     ouvrage.</del>
+                                <add>Exprimer le désir de voir cesser une longue
                      tourmente de soustraire au même joug un Monarque malheureux et un des premiers
                      peuples de l’Europe d’arrêter l’effusion du sang, de favoriser le
                      rétablissement d’une administration toute à la fois sage et nationale, certes,
                      ce n’est point attenter à l’indépendance d’un Pays, ni établir un droit
                      d’intervention contre lequel une Puissance quelconque ait raison de s’élever.
-                     Si <rs ref="#p.17"><choice>
+                     Si <rs ref="#p.17">
+                                        <choice>
                         <abbr>S. M<hi rendition="#su">té</hi> I.</abbr>
                         <expan>Sa Majesté Impériale</expan>
-                     </choice></rs> nourrissoit d’autres vues, il ne dépendroit que d’Elle et de
-                     ses Alliés de laisser la révolution d’<country>Espagne</country> achever son ouvrage.</add></subst></rdg></app> Bientôt tous les germes de prospérité, de richesse et de force seroient
-               détruits dans la Péninsule, et si la Nation Espagnole pouvoit <app><lem>aujourd’hui</lem><rdg><subst><del>jamais leur</del><add>aujourd’hui</add></subst></rdg></app> supposer des desseins hostiles, ce seroit dans l’indifférence et dans
+                     </choice>
+                                    </rs> nourrissoit d’autres vues, il ne dépendroit que d’Elle et de
+                     ses Alliés de laisser la révolution d’<country>Espagne</country> achever son ouvrage.</add>
+                            </subst>
+                        </rdg>
+                    </app> Bientôt tous les germes de prospérité, de richesse et de force seroient
+               détruits dans la Péninsule, et si la Nation Espagnole pouvoit <app>
+                        <lem>aujourd’hui</lem>
+                        <rdg>
+                            <subst>
+                                <del>jamais leur</del>
+                                <add>aujourd’hui</add>
+                            </subst>
+                        </rdg>
+                    </app> supposer des desseins hostiles, ce seroit dans l’indifférence et dans
                l’immobilité seules qu’elle devroit en trouver la preuve.</p>
             <p>La réponse qui sera faite à la présente déclaration va résoudre des questions de la
                plus haute importance. Vos instructions de ce jour Vous indiquent la détermination
-               que Vous aurez à prendre<app><lem></lem><rdg><subst><del>conjointement avec les représentans des autres Cours
-                  alliées</del><add></add></subst></rdg></app> si les dépositaires de l’autorité publique à <placeName ref="#loc.24"
-                  >Madrid</placeName> rejettent le moyen que<pb n="257v"/> Vous leur offrirez
+               que Vous aurez à prendre<app>
+                        <lem/>
+                        <rdg>
+                            <subst>
+                                <del>conjointement avec les représentans des autres Cours
+                  alliées</del>
+                                <add/>
+                            </subst>
+                        </rdg>
+                    </app> si les dépositaires de l’autorité publique à <placeName ref="#loc.24">Madrid</placeName> rejettent le moyen que<pb n="257v"/> Vous leur offrirez
                d’assurer à l’<country>Espagne</country> un avenir tranquille et une gloire
                impérissable.</p>
             <p>Recevez <choice>
                   <abbr>etc.</abbr>
                   <expan>et cetera</expan>
-               </choice></p>
+               </choice>
+                </p>
          </div>
       </body>
       <back>
          <include xmlns="http://www.w3.org/2001/XInclude" href="listPlace.xml" xpointer="listPlace"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="listPerson.xml"
-            xpointer="listPerson"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listPerson.xml" xpointer="listPerson"/>
          <include xmlns="http://www.w3.org/2001/XInclude" href="listWit.xml" xpointer="listWit"/>
          <include xmlns="http://www.w3.org/2001/XInclude" href="listOrg.xml" xpointer="listOrg"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="listTreaties.xml"
-            xpointer="listTreaties"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listTreaties.xml" xpointer="listTreaties"/>
       </back>
    </text>
 </TEI>

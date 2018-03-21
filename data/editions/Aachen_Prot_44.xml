@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -12,10 +11,13 @@
                <persName>
                   <surname>Schneider</surname>
                   <forename>Karin</forename>
-               </persName></editor>
+               </persName>
+                </editor>
          </titleStmt>
          <editionStmt>
-            <edition><date>2015-05-08</date></edition>
+            <edition>
+                    <date>2015-05-08</date>
+                </edition>
          </editionStmt>
          <publicationStmt>
             <publisher>Österreichische Akademie der Wissenschaften, Institut für Neuzeit- und
@@ -43,7 +45,8 @@
                <physDesc>
 
                   <p>Eigenhändiges Protokoll von <persName ref="#p.5">
-                        <surname>Gentz</surname></persName>.</p>
+                        <surname>Gentz</surname>
+                            </persName>.</p>
                   <handDesc>
                      <handNote xml:id="G">Friedrich Gentz</handNote>
                      <handNote xml:id="W">Nikolaus Wacken</handNote>
@@ -52,8 +55,10 @@
                   </handDesc>
                </physDesc>
                <history>
-                  <origin><placeName ref="#loc.1">Aachen</placeName>
-                     <date when="1818-11-21">21. November 1818</date></origin>
+                  <origin>
+                            <placeName ref="#loc.1">Aachen</placeName>
+                     <date when="1818-11-21">21. November 1818</date>
+                        </origin>
                </history>
             </msDesc>
             <msDesc xml:id="m.2" type="Abschrift">
@@ -80,8 +85,10 @@
 
                </physDesc>
                <history>
-                  <origin><placeName ref="#loc.1">Aachen</placeName>
-                     <date when="1818-11-21">21. November 1818</date></origin>
+                  <origin>
+                            <placeName ref="#loc.1">Aachen</placeName>
+                     <date when="1818-11-21">21. November 1818</date>
+                        </origin>
                </history>
             </msDesc>
          </sourceDesc>
@@ -106,7 +113,8 @@
                entscheiden, ein Schreiben von monegassischen Untertanen, welche sich über das durch
                den <rs ref="#p.133">Prinzregenten</rs> eingeführte Regierungssystem beschweren, an
                die <rs ref="#p.2 #p.3 #p.4 #p.7">Vertreter von Österreich, Preußen, Russland und
-                  Großbritannien in <placeName ref="#loc.2">Paris</placeName></rs>
+                  Großbritannien in <placeName ref="#loc.2">Paris</placeName>
+                    </rs>
                weiterzuleiten.</p>
          </abstract>
          <particDesc>
@@ -143,51 +151,92 @@
       <body>
          <div hand="#G" decls="#m.1">
             <pb n="246"/>
-            <p><add hand="#W" place="top">Protocole <choice>
+            <p>
+                    <add hand="#W" place="top">Protocole <choice>
                      <abbr>N.</abbr>
                      <expan>Numéro</expan>
-                  </choice> 4<del rendition="#s">4</del>3.</add></p>
-            <p><placeName ref="#loc.1">Aix-la-Chapelle</placeName> le <date when="1818-11-21">21
+                  </choice> 4<del rendition="#s">4</del>3.</add>
+                </p>
+            <p>
+                    <placeName ref="#loc.1">Aix-la-Chapelle</placeName> le <date when="1818-11-21">21
                   Novembre</date>.</p>
-            <p><add place="margin"><hi rendition="#u">Affaire de Monaco</hi></add></p>
-            <p><add hand="#W" place="margin">Entre les Cinq Cabinets</add></p>
-            <p><choice>
+            <p>
+                    <add place="margin">
+                        <hi rendition="#u">Affaire de Monaco</hi>
+                    </add>
+                </p>
+            <p>
+                    <add hand="#W" place="margin">Entre les Cinq Cabinets</add>
+                </p>
+            <p>
+                    <choice>
                   <abbr>Mr.</abbr>
                   <expan>Monsieur</expan>
-               </choice> le <persName ref="#p.8"><roleName>Prince</roleName>
-                  <surname>de Metternich</surname></persName> a fait lecture d’une dépêche à
+               </choice> le <persName ref="#p.8">
+                        <roleName>Prince</roleName>
+                  <surname>de Metternich</surname>
+                    </persName> a fait lecture d’une dépêche à
                adresser aux <rs ref="#p.2 #p.3 #p.4 #p.7">Ministres d’Autriche, de Grande-Bretagne,
-                  de Prusse et de Russie à <placeName ref="#loc.2">Paris</placeName></rs>
+                  de Prusse et de Russie à <placeName ref="#loc.2">Paris</placeName>
+                    </rs>
                relativement aux plaintes que des habitans de la <country>Principauté de
                   Monaco</country> ont adressées depuis quelque tems à plusieurs Cours contre le
                système de gouvernement établi par le <rs ref="#p.133">Prince qui les gouverne</rs>.
                   <rs xml:id="n.2">On est convenue de faire expédier cette <rs xml:id="n.1">dépêche,
-                     dont copie est ci-jointe</rs><note type="editorial" target="#n.1">Vgl.
-                     Anlage</note>, aux Ministres qui doivent en faire usage.</rs><note
-                  type="editorial" target="#n.2">Vgl. dazu Lecomte-Moncharville, Monaco au point de
-                  vue international, S. 127–130.</note></p>
+                     dont copie est ci-jointe</rs>
+                        <note type="editorial" target="#n.1">Vgl.
+                     Anlage</note>, aux Ministres qui doivent en faire usage.</rs>
+                    <note type="editorial" target="#n.2">Vgl. dazu Lecomte-Moncharville, Monaco au point de
+                  vue international, S. 127–130.</note>
+                </p>
             <signed>
                <list>
-                  <item><persName ref="#p.8">Metternich</persName></item>
-                  <item><persName ref="#p.1">Richelieus</persName></item>
-                  <item><persName ref="#p.9">Castlereagh</persName></item>
-                  <item><persName ref="#p.11">Hardenberg</persName></item>
-                  <item><persName ref="#p.12">Bernstorff</persName></item>
-                  <item><persName ref="#p.13">Nesselrode</persName></item>
-                  <item><persName ref="#p.14">Capodistrias</persName></item>
-               </list></signed>
+                  <item>
+                            <persName ref="#p.8">Metternich</persName>
+                        </item>
+                  <item>
+                            <persName ref="#p.1">Richelieus</persName>
+                        </item>
+                  <item>
+                            <persName ref="#p.9">Castlereagh</persName>
+                        </item>
+                  <item>
+                            <persName ref="#p.11">Hardenberg</persName>
+                        </item>
+                  <item>
+                            <persName ref="#p.12">Bernstorff</persName>
+                        </item>
+                  <item>
+                            <persName ref="#p.13">Nesselrode</persName>
+                        </item>
+                  <item>
+                            <persName ref="#p.14">Capodistrias</persName>
+                        </item>
+               </list>
+                </signed>
          </div>
 
          <div hand="#A" decls="#m.2">
             <pb n="247r"/>
-            <p><add place="margin"><choice>
+            <p>
+                    <add place="margin">
+                        <choice>
                      <abbr>Exp</abbr>
                      <expan>Expedit</expan>
-                  </choice><supplied><unclear>...</unclear></supplied></add></p>
-            <p><title>Dépêche aux <rs ref="#p.2 #p.3 #p.4 #p.7">Ministres d’Autriche, de
-                     Grande-Bretagne, de Prusse et de Russie à <placeName ref="#loc.2"
-                        >Paris</placeName></rs></title></p>
-            <p><placeName ref="#loc.1">Aix-la-Chapelle</placeName> le <date when="1818-11-21">21 <choice>
+                  </choice>
+                        <supplied>
+                            <unclear>...</unclear>
+                        </supplied>
+                    </add>
+                </p>
+            <p>
+                    <title>Dépêche aux <rs ref="#p.2 #p.3 #p.4 #p.7">Ministres d’Autriche, de
+                     Grande-Bretagne, de Prusse et de Russie à <placeName ref="#loc.2">Paris</placeName>
+                        </rs>
+                    </title>
+                </p>
+            <p>
+                    <placeName ref="#loc.1">Aix-la-Chapelle</placeName> le <date when="1818-11-21">21 <choice>
                      <abbr>Nov.</abbr>
                      <expan>Novembre</expan>
                   </choice> 1818</date>.</p>
@@ -196,77 +245,110 @@
                établi par <rs ref="#p.133">leur Prince</rs>, et pour réclamer l’intervention de ces
                mêmes Cours comme le dernier remède contre les maux qui les accablent.</p>
             <p>Il suffit de prendre connoissance des ordonnances publiées par <choice>
-                  <abbr>M<hi rendition="#su">r</hi></abbr>
+                  <abbr>M<hi rendition="#su">r</hi>
+                        </abbr>
                   <expan>Monsieur</expan>
-               </choice> le <persName ref="#p.133"><roleName>Duc</roleName>
-                  <surname>de Valentinois</surname></persName> en sa qualité de régent et d’héritier
+               </choice> le <persName ref="#p.133">
+                        <roleName>Duc</roleName>
+                  <surname>de Valentinois</surname>
+                    </persName> en sa qualité de régent et d’héritier
                présomptif à la principauté pour ne point pouvoir nourrir de doute que les plaintes
                des habitans ne sont que trop fondées. Les Puissances ne se regardant toutefois pas
                comme les arbitres des destinées d’Etats qui ne sont point placés sous leur
                souveraineté, elles saisissent<pb n="247v"/> une occasion que vient de leur offrir <choice>
-                  <abbr>M<hi rendition="#su">r</hi></abbr>
+                  <abbr>M<hi rendition="#su">r</hi>
+                        </abbr>
                   <expan>Monsieur</expan>
-               </choice> le <persName ref="#p.133"><roleName>Duc</roleName>
-                  <surname>de Valentinois</surname></persName> lui-même pour employer tout ce qui se
+               </choice> le <persName ref="#p.133">
+                        <roleName>Duc</roleName>
+                  <surname>de Valentinois</surname>
+                    </persName> lui-même pour employer tout ce qui se
                trouve dans le domaine de la raison afin de le porter à une autre conduite vis-à-vis
                de ses sujets, et pour lui faire comprendre qu’en replaçant le petit Etat de
                   <country>Monaco</country> sous son ancien Prince les Cours contractantes n’ont
                point entendu livrer ses habitans à un système de désolation.</p>
-            <p><choice>
-                  <abbr>M<hi rendition="#su">r</hi></abbr>
+            <p>
+                    <choice>
+                  <abbr>M<hi rendition="#su">r</hi>
+                        </abbr>
                   <expan>Monsieur</expan>
-               </choice> le <persName ref="#p.133"><roleName>Duc</roleName>
-                  <surname>de Valentinois</surname></persName>, ayant conçu à ce qu’il parait
+               </choice> le <persName ref="#p.133">
+                        <roleName>Duc</roleName>
+                  <surname>de Valentinois</surname>
+                    </persName>, ayant conçu à ce qu’il parait
                quelques soupçons sur des plaintes portées par ses sujets, vient d’adresser à <choice>
-                  <abbr>M<hi rendition="#su">r</hi></abbr>
+                  <abbr>M<hi rendition="#su">r</hi>
+                        </abbr>
                   <expan>Monsieur</expan>
-               </choice> le <persName ref="#p.1"><roleName>Duc</roleName>
-                  <surname>de Richelieu</surname></persName>
+               </choice> le <persName ref="#p.1">
+                        <roleName>Duc</roleName>
+                  <surname>de Richelieu</surname>
+                    </persName>
                <rs xml:id="n.3">une lettre de justification accompagnée d’un Mémoire
-                  imprimé</rs><note type="editorial" target="#n.3">Texte liegen nicht ein.</note>
-               qui a pour but de nier les faits sur lesquels portent les plaintes des habitans<pb
-                  n="248r"/> de <country>Monaco</country>. Mais les ordonnances publiées par
+                  imprimé</rs>
+                    <note type="editorial" target="#n.3">Texte liegen nicht ein.</note>
+               qui a pour but de nier les faits sur lesquels portent les plaintes des habitans<pb n="248r"/> de <country>Monaco</country>. Mais les ordonnances publiées par
                lui-même existent et rien ne nous prouve qu’elles ayent été révoquées.</p>
             <p>Les 5 Cabinets, prenant cet état de choses en considération et s’étant convaincus de
                la nécessité d’inviter <choice>
-                  <abbr>M<hi rendition="#su">r</hi></abbr>
+                  <abbr>M<hi rendition="#su">r</hi>
+                        </abbr>
                   <expan>Monsieur</expan>
-               </choice> le <persName ref="#p.133"><roleName>Duc</roleName>
-                  <surname>de Valentinois</surname></persName> à se prêter à leur vœu unanime de
+               </choice> le <persName ref="#p.133">
+                        <roleName>Duc</roleName>
+                  <surname>de Valentinois</surname>
+                    </persName> à se prêter à leur vœu unanime de
                faire cesser les griefs que les Cours sont en droit de regarder comme réels, se sont
                réunis sur une démarche à faire vis-à-vis de lui, fondée sur celle que <choice>
-                  <abbr>M<hi rendition="#su">r</hi></abbr>
+                  <abbr>M<hi rendition="#su">r</hi>
+                        </abbr>
                   <expan>Monsieur</expan>
                </choice>
-               <persName ref="#p.133"><surname>de Valentinois</surname></persName> a fait lui-même
+               <persName ref="#p.133">
+                        <surname>de Valentinois</surname>
+                    </persName> a fait lui-même
                vis-à-vis de <choice>
-                  <abbr>M<hi rendition="#su">r</hi></abbr>
+                  <abbr>M<hi rendition="#su">r</hi>
+                        </abbr>
                   <expan>Monsieur</expan>
-               </choice> le <persName ref="#p.1"><roleName>Duc</roleName>
-                  <surname>de Richelieu</surname></persName>. Ils ont arrêté en conséquence :</p>
+               </choice> le <persName ref="#p.1">
+                        <roleName>Duc</roleName>
+                  <surname>de Richelieu</surname>
+                    </persName>. Ils ont arrêté en conséquence :</p>
             <p>1<hi rendition="#su">o</hi> Que <choice>
-                  <abbr>M<hi rendition="#su">r</hi></abbr>
+                  <abbr>M<hi rendition="#su">r</hi>
+                        </abbr>
                   <expan>Monsieur</expan>
-               </choice> le <persName ref="#p.1"><roleName>Duc</roleName>
-                  <surname>de Richelieu</surname></persName> serait invité à entrer en pourparlers
+               </choice> le <persName ref="#p.1">
+                        <roleName>Duc</roleName>
+                  <surname>de Richelieu</surname>
+                    </persName> serait invité à entrer en pourparlers
                avec <choice>
-                  <abbr>M<hi rendition="#su">r</hi></abbr>
+                  <abbr>M<hi rendition="#su">r</hi>
+                        </abbr>
                   <expan>Monsieur</expan>
-               </choice> le <persName ref="#p.133"><roleName>Duc</roleName>
-                  <surname>de Valentinois</surname></persName><pb n="248v"/> pour lui rendre compte
+               </choice> le <persName ref="#p.133">
+                        <roleName>Duc</roleName>
+                  <surname>de Valentinois</surname>
+                    </persName>
+                    <pb n="248v"/> pour lui rendre compte
                de l’accueil que sa demande a rencontrée dans le conseil des 5 Cours, et de leur
                désir sincère de lui voir adopter des principes de Gouvernement conformes à ceux dont
                s’honorent les plus grands Princes ;</p>
             <p>2<hi rendition="#su">o</hi> Que les <rs ref="#p.2 #p.3 #p.4 #p.7">Ministres des Cours
                   d’Autriche, de la Grande-Bretagne, de Prusse et de Russie</rs> seraient chargés
                par leurs Gouvernemens respectifs de soutenir la démarche de <choice>
-                  <abbr>M<hi rendition="#su">r</hi></abbr>
+                  <abbr>M<hi rendition="#su">r</hi>
+                        </abbr>
                   <expan>Monsieur</expan>
-               </choice> le <persName ref="#p.1"><roleName>Duc</roleName>
-                  <surname>de Richelieu</surname></persName> pour autant qu’ils en seraient requis
+               </choice> le <persName ref="#p.1">
+                        <roleName>Duc</roleName>
+                  <surname>de Richelieu</surname>
+                    </persName> pour autant qu’ils en seraient requis
                par ce Ministre.</p>
             <p>Vous voudrez bien <choice>
-                  <abbr>M<hi rendition="#su">r</hi></abbr>
+                  <abbr>M<hi rendition="#su">r</hi>
+                        </abbr>
                   <expan>Monsieur</expan>
                </choice> vous régler d’après le présent ordre et agir dans son esprit toutes les
                fois que le cas devrait s’en présenter.</p>
@@ -275,12 +357,10 @@
       </body>
       <back>
          <include xmlns="http://www.w3.org/2001/XInclude" href="listPlace.xml" xpointer="listPlace"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="listPerson.xml"
-            xpointer="listPerson"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listPerson.xml" xpointer="listPerson"/>
          <include xmlns="http://www.w3.org/2001/XInclude" href="listWit.xml" xpointer="listWit"/>
          <include xmlns="http://www.w3.org/2001/XInclude" href="listOrg.xml" xpointer="listOrg"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="listTreaties.xml"
-            xpointer="listTreaties"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listTreaties.xml" xpointer="listTreaties"/>
       </back>
    </text>
 </TEI>

@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -13,10 +12,13 @@
                <persName>
                   <surname>Schneider</surname>
                   <forename>Karin</forename>
-               </persName></editor>
+               </persName>
+                </editor>
          </titleStmt>
          <editionStmt>
-            <edition><date>2017-03-13</date></edition>
+            <edition>
+                    <date>2017-03-13</date>
+                </edition>
          </editionStmt>
          <publicationStmt>
             <publisher>Österreichische Akademie der Wissenschaften, Institut für Neuzeit- und
@@ -39,7 +41,8 @@
                <msContents>
                   <msItem>
                      <title>Protokoll der Sitzung vom <date when="1822-11-25">25. November
-                           1822</date></title>
+                           1822</date>
+                            </title>
                   </msItem>
                </msContents>
                <physDesc>
@@ -60,14 +63,19 @@
 
                </physDesc>
                <history>
-                  <origin><placeName ref="#loc.68">Verona</placeName><date when="1822-11-25">25.
-                        November 1822</date></origin>
+                  <origin>
+                            <placeName ref="#loc.68">Verona</placeName>
+                            <date when="1822-11-25">25.
+                        November 1822</date>
+                        </origin>
                </history>
             </msDesc>
             <listWit corresp="#m.1">
                <head>Protokoll der Sitzung vom 25. November 1822</head>
-               <witness corresp="#w.4"><bibl type="print">Vnešnjaja politika Rossii, Bd. 12, S.
-                     593.</bibl></witness>
+               <witness corresp="#w.4">
+                        <bibl type="print">Vnešnjaja politika Rossii, Bd. 12, S.
+                     593.</bibl>
+                    </witness>
 
             </listWit>
          </sourceDesc>
@@ -90,7 +98,8 @@
          <abstract>
             <p>Die Vertreter Österreichs, Preußens und Russlands sprechen den Inhalt der
                Instruktionen an ihre jeweiligen <rs ref="#p.2 #p.4 #p.7">diplomatischen Vertreter in
-                     <placeName ref="#loc.2">Paris</placeName></rs> ab.</p>
+                     <placeName ref="#loc.2">Paris</placeName>
+                    </rs> ab.</p>
          </abstract>
          <particDesc>
             <listPerson>
@@ -123,44 +132,53 @@
       <body>
          <div decls="#m.1" hand="#A">
             <pb n="267r"/>
-            <p><add place="top" hand="#AmB"><choice>
+            <p>
+                    <add place="top" hand="#AmB">
+                        <choice>
                      <abbr>N.</abbr>
                      <expan>Numéro</expan>
-                  </choice> 15</add></p>
-            <p><title><hi rendition="#u">Procès-Verbal de la Conférence confidentielle du <date
-                        when="1822-11-25">25 Novembre 1822</date>.</hi></title></p>
+                  </choice> 15</add>
+                </p>
+            <p>
+                    <title>
+                        <hi rendition="#u">Procès-Verbal de la Conférence confidentielle du <date when="1822-11-25">25 Novembre 1822</date>.</hi>
+                    </title>
+                </p>
             <p>Les Cabinets d’Autriche, de Prusse et de Russie, voulant donner à leurs Missions à
                   <placeName ref="#loc.2">Paris</placeName> des instructions devant leur servir de
                règle positive pour leur conduite, sont convenus des points suivans :</p>
             <p>1<hi rendition="#su">o</hi> Ils est entendu que dans le cas où la
                   <country>France</country> ne se réunirait pas aux résolutions prises par les trois
-               Cabinets, <rs ref="#p.2 #p.4 #p.7">Leurs Représentans à <placeName ref="#loc.2"
-                     >Paris</placeName></rs> feront parvenir à <placeName ref="#loc.24"
-                  >Madrid</placeName> les ordres et instructions destinés à être communiqués au
+               Cabinets, <rs ref="#p.2 #p.4 #p.7">Leurs Représentans à <placeName ref="#loc.2">Paris</placeName>
+                    </rs> feront parvenir à <placeName ref="#loc.24">Madrid</placeName> les ordres et instructions destinés à être communiqués au
                Gouvernement Espagnol.</p>
             <p>2<hi rendition="#su">o</hi> Si la <country>France</country> consent à se réunir aux
-               trois Cabinets et qu’Elle demande un délai pour recevoir des nouvelles de <placeName
-                  ref="#loc.8">Londres</placeName>, les Ministres à <placeName ref="#loc.2"
-                  >Paris</placeName> se concerteront avec le<pb n="267v"/> Cabinet français sur ce
+               trois Cabinets et qu’Elle demande un délai pour recevoir des nouvelles de <placeName ref="#loc.8">Londres</placeName>, les Ministres à <placeName ref="#loc.2">Paris</placeName> se concerteront avec le<pb n="267v"/> Cabinet français sur ce
                sujet ; de manière cependant que le temps accordé soit strictement limité à celui qui
                sera nécessaire pour recevoir les réponses, et sans se laisser arrêter par aucun
                incident dont le but serait de différer l’exécution des mesures convenues à
                   <placeName ref="#loc.68">Vérone</placeName>.</p>
-            <signed><list>
-                  <item><persName ref="#p.8">Metternich</persName></item>
-                  <item><persName ref="#p.175">Hatzfeldt</persName></item>
-                  <item><persName ref="#p.13">Nesselrode</persName></item>
-               </list></signed>
+            <signed>
+                    <list>
+                  <item>
+                            <persName ref="#p.8">Metternich</persName>
+                        </item>
+                  <item>
+                            <persName ref="#p.175">Hatzfeldt</persName>
+                        </item>
+                  <item>
+                            <persName ref="#p.13">Nesselrode</persName>
+                        </item>
+               </list>
+                </signed>
          </div>
       </body>
       <back>
          <include xmlns="http://www.w3.org/2001/XInclude" href="listPlace.xml" xpointer="listPlace"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="listPerson.xml"
-            xpointer="listPerson"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listPerson.xml" xpointer="listPerson"/>
          <include xmlns="http://www.w3.org/2001/XInclude" href="listWit.xml" xpointer="listWit"/>
          <include xmlns="http://www.w3.org/2001/XInclude" href="listOrg.xml" xpointer="listOrg"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="listTreaties.xml"
-            xpointer="listTreaties"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listTreaties.xml" xpointer="listTreaties"/>
       </back>
    </text>
 </TEI>

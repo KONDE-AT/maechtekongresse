@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -12,10 +11,13 @@
                <persName>
                   <surname>Schneider</surname>
                   <forename>Karin</forename>
-               </persName></editor>
+               </persName>
+                </editor>
          </titleStmt>
          <editionStmt>
-            <edition><date>2012-10-26</date></edition>
+            <edition>
+                    <date>2012-10-26</date>
+                </edition>
          </editionStmt>
          <publicationStmt>
             <publisher>Österreichische Akademie der Wissenschaften, Institut für Neuzeit- und
@@ -41,7 +43,10 @@
                   </msItem>
                </msContents>
                <physDesc>
-                  <p>Journal von <persName rendition="#p.5"><surname>Gentz</surname></persName></p>
+                  <p>Journal von <persName rendition="#p.5">
+                                <surname>Gentz</surname>
+                            </persName>
+                        </p>
 
                   <handDesc>
                      <handNote xml:id="A">Anonyme Hand</handNote>
@@ -53,8 +58,11 @@
 
                </physDesc>
                <history>
-                  <origin><placeName ref="#loc.60">Troppau</placeName><date when="1820-12-24">24.
-                        Dezember 1820</date></origin>
+                  <origin>
+                            <placeName ref="#loc.60">Troppau</placeName>
+                            <date when="1820-12-24">24.
+                        Dezember 1820</date>
+                        </origin>
                </history>
             </msDesc>
             <msDesc xml:id="m.2" type="Ausfertigung">
@@ -77,8 +85,11 @@
                   <p>Ausfertigung</p>
                </physDesc>
                <history>
-                  <origin><placeName ref="#loc.60">Troppau</placeName><date when="1820-12-24">24.
-                        Dezember 1820</date></origin>
+                  <origin>
+                            <placeName ref="#loc.60">Troppau</placeName>
+                            <date when="1820-12-24">24.
+                        Dezember 1820</date>
+                        </origin>
                </history>
             </msDesc>
             <msDesc xml:id="m.3" type="Abschrift">
@@ -94,11 +105,15 @@
                </msIdentifier>
                <msContents>
                   <msItem>
-                     <title>Anlage 2: Schreiben <persName ref="#p.15"><forename>Ludwigs
+                     <title>Anlage 2: Schreiben <persName ref="#p.15">
+                                    <forename>Ludwigs
                               XVIII.,</forename>
-                           <roleName>König von Frankreich</roleName></persName>, an <persName
-                           ref="#p.138"><forename>Ferdinand I.,</forename>
-                           <roleName>König beider Sizilien</roleName></persName></title>
+                           <roleName>König von Frankreich</roleName>
+                                </persName>, an <persName ref="#p.138">
+                                    <forename>Ferdinand I.,</forename>
+                           <roleName>König beider Sizilien</roleName>
+                                </persName>
+                            </title>
                   </msItem>
                </msContents>
                <physDesc>
@@ -106,36 +121,59 @@
 
                </physDesc>
                <history>
-                  <origin><placeName ref="#loc.2">Paris</placeName><date when="1820-12-03">3.
-                        Dezember 1820</date></origin>
+                  <origin>
+                            <placeName ref="#loc.2">Paris</placeName>
+                            <date when="1820-12-03">3.
+                        Dezember 1820</date>
+                        </origin>
                </history>
             </msDesc>
             <listWit corresp="#m.1">
                <head>Journal</head>
-               <witness corresp="#w.37"><bibl type="print">Alberti, Atti, S. 395.</bibl></witness>
+               <witness corresp="#w.37">
+                        <bibl type="print">Alberti, Atti, S. 395.</bibl>
+                    </witness>
             </listWit>
             <listWit corresp="#m.2">
                <head>Anlage 1: Französische Denkschrift</head>
-               <witness corresp="#w.37"><bibl type="print">Alberti, Atti, S.
-                  395-397.</bibl></witness>
+               <witness corresp="#w.37">
+                        <bibl type="print">Alberti, Atti, S.
+                  395-397.</bibl>
+                    </witness>
             </listWit>
             <listWit corresp="#m.3">
-               <head>Anlage 2: Schreiben <persName ref="#p.15"><forename>Ludwigs XVIII.,</forename>
-                     <roleName>König von Frankreich</roleName></persName>, an <persName ref="#p.138"
-                        ><forename>Ferdinand I.,</forename>
-                     <roleName>König beider Sizilien</roleName></persName></head>
-               <witness corresp="#w.5"><bibl type="print">BFSP Bd. 8 (1820/21), S.
-                  1148–1149;</bibl></witness>
-               <witness corresp="#w.25"><bibl type="print">Ghillany, Diplomatisches Handbuch, Bd. 2,
-                     S. 425–426;</bibl></witness>
-               <witness corresp="#w.24"><bibl type="print">Martens, Manuel diplomatique, S.
-                     371–372;</bibl></witness>
-               <witness corresp="#w.14"><bibl type="print">Martens, Nouveau Recueil, Bd. 5, S.
-                     587–588;</bibl></witness>
-               <witness corresp="#w.28"><bibl type="print">Martens, Supplement au Recueil, Bd. 9, S.
-                     578–583;</bibl></witness>
-               <witness corresp="#w.37"><bibl type="print">Alberti, Atti, S.
-                  397-398.</bibl></witness>
+               <head>Anlage 2: Schreiben <persName ref="#p.15">
+                            <forename>Ludwigs XVIII.,</forename>
+                     <roleName>König von Frankreich</roleName>
+                        </persName>, an <persName ref="#p.138">
+                            <forename>Ferdinand I.,</forename>
+                     <roleName>König beider Sizilien</roleName>
+                        </persName>
+                    </head>
+               <witness corresp="#w.5">
+                        <bibl type="print">BFSP Bd. 8 (1820/21), S.
+                  1148–1149;</bibl>
+                    </witness>
+               <witness corresp="#w.25">
+                        <bibl type="print">Ghillany, Diplomatisches Handbuch, Bd. 2,
+                     S. 425–426;</bibl>
+                    </witness>
+               <witness corresp="#w.24">
+                        <bibl type="print">Martens, Manuel diplomatique, S.
+                     371–372;</bibl>
+                    </witness>
+               <witness corresp="#w.14">
+                        <bibl type="print">Martens, Nouveau Recueil, Bd. 5, S.
+                     587–588;</bibl>
+                    </witness>
+               <witness corresp="#w.28">
+                        <bibl type="print">Martens, Supplement au Recueil, Bd. 9, S.
+                     578–583;</bibl>
+                    </witness>
+               <witness corresp="#w.37">
+                        <bibl type="print">Alberti, Atti, S.
+                  397-398.</bibl>
+                    </witness>
             </listWit>
 
          </sourceDesc>
@@ -157,14 +195,16 @@
       <profileDesc>
          <abstract>
             <p>Die <rs ref="#p.8 #p.40 #p.11 #p.12 #p.136 #p.13 #p.14 #p.121">Vertreter Österreichs,
-                  Preußens und Russlands</rs> geben bekannt, dass die Konferenz nach <placeName
-                  ref="#loc.65">Laibach</placeName>/<placeName ref="#loc.65">Ljubljana</placeName>
-               verlegt wird, wo <persName ref="#p.138"><forename>Ferdinand I.,</forename>
-                  <roleName>König beider Sizilien</roleName></persName>, in Kürze erwartet wird. Die
+                  Preußens und Russlands</rs> geben bekannt, dass die Konferenz nach <placeName ref="#loc.65">Laibach</placeName>/<placeName ref="#loc.65">Ljubljana</placeName>
+               verlegt wird, wo <persName ref="#p.138">
+                        <forename>Ferdinand I.,</forename>
+                  <roleName>König beider Sizilien</roleName>
+                    </persName>, in Kürze erwartet wird. Die
                   <rs ref="#p.102 #p.135">französischen Gesandten</rs> übermitteln eine Denkschrift
                betreffend das Protocole préliminaire vom <date when="1820-11-19">19. November
-                  1820</date> sowie einen Brief des französischen Königs <persName ref="#p.15"
-                     ><forename>Ludwig XVIII.</forename></persName> an den <rs ref="#p.138">König
+                  1820</date> sowie einen Brief des französischen Königs <persName ref="#p.15">
+                        <forename>Ludwig XVIII.</forename>
+                    </persName> an den <rs ref="#p.138">König
                   beider Sizilien</rs>.</p>
          </abstract>
          <particDesc>
@@ -213,13 +253,22 @@
       <body>
          <div hand="#G" decls="#m.1">
             <pb n="191r"/>
-            <p><hi rendition="#u">Journal des Conférences</hi></p>
-            <p><hi rendition="#u"><choice>
+            <p>
+                    <hi rendition="#u">Journal des Conférences</hi>
+                </p>
+            <p>
+                    <hi rendition="#u">
+                        <choice>
                      <abbr>Nr.</abbr>
                      <expan>Numéro</expan>
-                  </choice> 8</hi></p>
-            <p><hi rendition="#u">Dimanche <date when="1820-12-24">24 Décembre 1820</date></hi></p>
-            <p><choice>
+                  </choice> 8</hi>
+                </p>
+            <p>
+                    <hi rendition="#u">Dimanche <date when="1820-12-24">24 Décembre 1820</date>
+                    </hi>
+                </p>
+            <p>
+                    <choice>
                   <abbr>Mrs.</abbr>
                   <expan>Messieurs</expan>
                </choice> les <rs ref="#p.8 #p.40 #p.11 #p.12 #p.136 #p.13 #p.14 #p.121">Ministres
@@ -233,25 +282,29 @@
                   ci-jointe</rs>,<note type="editorial" target="#n.1">Anlage liegt nicht ein.
                   Schreiben abgedruckt in BFSP Bd. 8 (1820/21), S. 1158.</note>
                <rs ref="#p.138">Sa Majesté</rs> acceptoit l’invitation avec empressement, et Elle
-               étoit prêt<damage agent="paper_damage"><supplied>e</supplied></damage> à s’embarquer
-               pour se rend<damage agent="paper_damage"><supplied>re</supplied></damage> par mer à
-                  <placeName ref="#loc.66">Livourne</placeName>, et de là à <placeName ref="#loc.65"
-                  >Laybach</placeName>.</p>
+               étoit prêt<damage agent="paper_damage">
+                        <supplied>e</supplied>
+                    </damage> à s’embarquer
+               pour se rend<damage agent="paper_damage">
+                        <supplied>re</supplied>
+                    </damage> par mer à
+                  <placeName ref="#loc.66">Livourne</placeName>, et de là à <placeName ref="#loc.65">Laybach</placeName>.</p>
             <p>Comme dans ces circonstances les réunions qui jusqu’à présent avoient eu lieu ici
-               seront transférées à <placeName ref="#loc.65">Laybach</placeName> où <rs
-                  ref="#p.16 #p.18 #p.17">les Augustes Souverains</rs> vont se rendre incessamment,
+               seront transférées à <placeName ref="#loc.65">Laybach</placeName> où <rs ref="#p.16 #p.18 #p.17">les Augustes Souverains</rs> vont se rendre incessamment,
                il a été convenu de consigner ce changement dans le Journal de ce jour, lequel sera
                en même<pb n="191v"/> tems regardé comme l’acte de clôture des conférences tenues à
                   <placeName ref="#loc.60">Troppau</placeName>.</p>
-            <p><choice>
+            <p>
+                    <choice>
                   <abbr>Mrs.</abbr>
                   <expan>Messieurs</expan>
                </choice>
-               <rs ref="#p.102 #p.135">les Ministres de France</rs> ont fait à la conférence <rs
-                  xml:id="n.2">la communication ci-jointe</rs><note type="editorial" target="#n.2"
-                  >Vgl. Anlage 1.</note> relative au <ref target="Troppau_Prot_4.xml">Protocole
-                  préliminaire du <date when="1820-11-19">19 Novembre</date></ref> et à la démarche
-               faite auprès de <rs ref="#p.138"><choice>
+               <rs ref="#p.102 #p.135">les Ministres de France</rs> ont fait à la conférence <rs xml:id="n.2">la communication ci-jointe</rs>
+                    <note type="editorial" target="#n.2">Vgl. Anlage 1.</note> relative au <ref target="Troppau_Prot_4.xml">Protocole
+                  préliminaire du <date when="1820-11-19">19 Novembre</date>
+                    </ref> et à la démarche
+               faite auprès de <rs ref="#p.138">
+                        <choice>
                      <abbr>S. M.</abbr>
                      <expan>Sa Majesté</expan>
                   </choice> Napolitaine</rs>, en y ajoutant <rs xml:id="n.3">la lettre également
@@ -259,36 +312,51 @@
                      <abbr>S. M.</abbr>
                      <expan>Sa Majesté</expan>
                   </choice> le <rs ref="#p.15">Roi de France</rs> a adressée au <rs ref="#p.138">Roi
-                     de Naples</rs></rs><note type="editorial" target="#n.3">Vgl. Anlage 2.</note>
+                     de Naples</rs>
+                    </rs>
+                    <note type="editorial" target="#n.3">Vgl. Anlage 2.</note>
                par rapport à l’invitation qui a déterminé le voyage du <rs ref="#p.138">Roi</rs> à
                   <placeName ref="#loc.65">Laybach</placeName>.</p>
             <p rendition="#r">Lu et certifié</p>
             <p rendition="#r">séance tenante</p>
-            <signed rendition="#r"><persName ref="#p.5"><surname>Gentz</surname></persName></signed>
+            <signed rendition="#r">
+                    <persName ref="#p.5">
+                        <surname>Gentz</surname>
+                    </persName>
+                </signed>
          </div>
 
          <div hand="#A" decls="#m.2">
             <pb n="312r"/>
-            <p><add place="top"><date when="1820-12-24">24/12</date>.</add></p>
-            <p><title>Communication des Plénipotentiaires Français relativement au <ref
-                     target="Troppau_Prot_4.xml">protocole préliminaire</ref></title></p>
-            <p><title>du <date when="1820-11-19">19 Novembre</date> et à la démarche faite auprès de
-                     <rs ref="#p.138"><choice>
+            <p>
+                    <add place="top">
+                        <date when="1820-12-24">24/12</date>.</add>
+                </p>
+            <p>
+                    <title>Communication des Plénipotentiaires Français relativement au <ref target="Troppau_Prot_4.xml">protocole préliminaire</ref>
+                    </title>
+                </p>
+            <p>
+                    <title>du <date when="1820-11-19">19 Novembre</date> et à la démarche faite auprès de
+                     <rs ref="#p.138">
+                            <choice>
                         <abbr>S. M.</abbr>
                         <expan>Sa Majesté</expan>
-                     </choice> Napolitaine</rs></title></p>
-            <p><placeName ref="#loc.60">Troppau</placeName> le <date when="1820-12-24">24 Décembre
-                  1820</date></p>
+                     </choice> Napolitaine</rs>
+                    </title>
+                </p>
+            <p>
+                    <placeName ref="#loc.60">Troppau</placeName> le <date when="1820-12-24">24 Décembre
+                  1820</date>
+                </p>
             <p>Les <rs ref="#p.102 #p.135">Plénipotentiaires Français</rs> ont transmis à leur
-               Gouvernement le protocole préliminaire arrêté dans la conférence du <date
-                  when="1820-11-19">19 Novembre</date> et dans lequel sont exposées :</p>
+               Gouvernement le protocole préliminaire arrêté dans la conférence du <date when="1820-11-19">19 Novembre</date> et dans lequel sont exposées :</p>
             <p>1<hi rendition="#su">o</hi> Les bases projetées d’un plan général dont le but seroit
                de prévenir ou d’arrêter les boulversemens révolutionnaires ;</p>
             <p>2<hi rendition="#su">o</hi> La proposition des mesures à adopter envers le
                   <country>Royaume de Naples</country>.</p>
             <p>Le Gouvernement du <rs ref="#p.15">Roi</rs> a pesé et médité l’objet de cette
-               communication avec l’attention que demande la gravité des intérêts discutés<pb
-                  n="312v"/> par les Cabinets réunis, et avec le désir de maintenir dans toute sa
+               communication avec l’attention que demande la gravité des intérêts discutés<pb n="312v"/> par les Cabinets réunis, et avec le désir de maintenir dans toute sa
                force l’alliance qui s’est établie entre les principaux Gouvernemens de l’Europe.</p>
             <p>Il a vu, dans la première partie de ce protocole, l’intention bienfaisante d’épargner
                au Monde civilisé les révolutions et les malheurs qu’elles entrainent avec elles ;
@@ -327,13 +395,11 @@
                Nation sa tranquillité et son bonheur.</p>
             <p>Déjà <rs ref="#p.15">Sa Majesté</rs>, sur la première information qui lui a été
                transmise de la démarche tentée dans cette<pb n="314v"/> intention, a joint aussitôt
-               ses instances à celles de ses alliés, <rs xml:id="n.4">en écrivant au <rs
-                     ref="#p.138">Roi de Naples</rs> une lettre que <rs ref="#p.102 #p.135">ses
-                     Ministres</rs> ont reçu ordre de communiquer à la conférence</rs>.<note
-                  type="editorial" target="#n.4">Vgl. Anlage 2.</note></p>
+               ses instances à celles de ses alliés, <rs xml:id="n.4">en écrivant au <rs ref="#p.138">Roi de Naples</rs> une lettre que <rs ref="#p.102 #p.135">ses
+                     Ministres</rs> ont reçu ordre de communiquer à la conférence</rs>.<note type="editorial" target="#n.4">Vgl. Anlage 2.</note>
+                </p>
             <p>Si, comme il l’espère, <rs ref="#p.138">Sa Majesté Sicilienne</rs> se rend à
-               l’invitation qui lui a été faite, et qu’une négociation puisse être entamée, Le <rs
-                  ref="#p.15">Roi</rs> emploira toute l’influence qu’il peut exercer pour qu’elle
+               l’invitation qui lui a été faite, et qu’une négociation puisse être entamée, Le <rs ref="#p.15">Roi</rs> emploira toute l’influence qu’il peut exercer pour qu’elle
                ait un résultat favorable.</p>
             <p>Les <rs ref="#p.102 #p.135">Plénipotentiaires français</rs> sont si intimement
                convaincus que ce vœu qu’ils expriment, de voir la réconciliation de
@@ -342,12 +408,11 @@
                qu’ils croient pouvoir prendre sur eux de déclarer que Sa Majesté est disposée à
                donner un assentiment complet à la nouvelle démarche que ses Alliés ont proposée dans
                le cas où la première viendroit à échouer.</p>
-            <p>Tel sera toujours l’esprit de concorde et d’union qui dirigera les conseils de <rs
-                  ref="#p.15">Sa Majesté</rs>, et c’est par son ordre exprès que <rs
-                  ref="#p.102 #p.135">les Plénipotentiaires français</rs> répètent encore aux
+            <p>Tel sera toujours l’esprit de concorde et d’union qui dirigera les conseils de <rs ref="#p.15">Sa Majesté</rs>, et c’est par son ordre exprès que <rs ref="#p.102 #p.135">les Plénipotentiaires français</rs> répètent encore aux
                Ministres des Puissances alliées que la <country>France</country> a pris pour règle
                immuable de sa conduite les <rs ref="#t.42">engagemens politiques qu’elle a
-                  contractés à <placeName ref="#loc.1">Aix-la-Chapelle</placeName></rs>.</p>
+                  contractés à <placeName ref="#loc.1">Aix-la-Chapelle</placeName>
+                    </rs>.</p>
             <p>Elle reconnoit que si ces<pb n="315v"/> engagemens, tels qu’ils ont été jusqu’à ce
                jour interprétés, ne lui imposent pas de devoirs positifs, ils emportent pour elle,
                comme pour les autres Puissances liées par les mêmes engagemens, l’obligation de
@@ -376,28 +441,36 @@
 
          <div hand="#A" decls="#m.3">
             <pb n="320r"/>
-            <p><title>Copie d’une lettre de <choice>
+            <p>
+                    <title>Copie d’une lettre de <choice>
                      <abbr>S. M.</abbr>
                      <expan>Sa Majesté</expan>
                   </choice> le <rs ref="#p.15">Roi de France</rs> au <rs ref="#p.138">Roi de
-                     Naples</rs></title></p>
-            <p><rs ref="#p.138">Monsieur mon Frère</rs></p>
+                     Naples</rs>
+                    </title>
+                </p>
+            <p>
+                    <rs ref="#p.138">Monsieur mon Frère</rs>
+                </p>
             <p>Dans les graves circonstances où les événemens des cinq derniers mois ont placé les
-               Etats que la providence a confiés aux soins de <rs ref="#p.138"><choice>
+               Etats que la providence a confiés aux soins de <rs ref="#p.138">
+                        <choice>
                      <abbr>V. M.</abbr>
                      <expan>Votre Majesté</expan>
-                  </choice></rs>, Elle n’a pu douter un moment de l’intérêt constant que <rs
-                  ref="#p.15">je</rs> lui portais, et des vœux que je formais pour son bonheur
+                  </choice>
+                    </rs>, Elle n’a pu douter un moment de l’intérêt constant que <rs ref="#p.15">je</rs> lui portais, et des vœux que je formais pour son bonheur
                personnel et pour celui de ses peuples.</p>
-            <p><rs ref="#p.138"><choice>
+            <p>
+                    <rs ref="#p.138">
+                        <choice>
                      <abbr>V. M.</abbr>
                      <expan>Votre Majesté</expan>
-                  </choice></rs> n’ignore pas les puissans motifs qui m’ont empêché de Lui exprimer
+                  </choice>
+                    </rs> n’ignore pas les puissans motifs qui m’ont empêché de Lui exprimer
                plutôt les sentimens dont <rs ref="#p.15">j</rs>’étais animé, et de lui faire
                parvenir, dans l’effusion de la plus sincère amitié, les conseils que peut-être
                j’étais à plus d’un titre autorisé à lui offrir. Mais aujourd’hui je ne me crois plus
-               permis d’hésiter. Informé<pb n="320v"/> par mes alliés réunis à <placeName
-                  ref="#loc.60">Troppau</placeName> de l’invitation qu’ils ont fait parvenir à <choice>
+               permis d’hésiter. Informé<pb n="320v"/> par mes alliés réunis à <placeName ref="#loc.60">Troppau</placeName> de l’invitation qu’ils ont fait parvenir à <choice>
                   <abbr>V. M.</abbr>
                   <expan>Votre Majesté</expan>
                </choice>, je dois me joindre à ceux ; et comme membre d’une alliance dont le seul
@@ -420,19 +493,24 @@
                social. Elle préservera ses peuples des malheurs qui les menacent. Elle assurera, par
                l’accord si nécessaire du pouvoir et de la liberté, leur bonheur et leur prospérité
                pour une longue suite de générations.</p>
-            <p>Si mes infirmités me l’eussent permis, j’aurais voulu accompagner <rs ref="#p.138"><choice>
+            <p>Si mes infirmités me l’eussent permis, j’aurais voulu accompagner <rs ref="#p.138">
+                        <choice>
                      <abbr>V. M.</abbr>
                      <expan>Votre Majesté</expan>
-                  </choice></rs> à cette auguste réunion, mais lorsqu’Elle verra que, pour lui
+                  </choice>
+                    </rs> à cette auguste réunion, mais lorsqu’Elle verra que, pour lui
                écrire dans une pareille occasion, <rs ref="#p.15">je</rs> suis forcé de me servir
                d’une main étrangère, Elle jugera facilement de l’impossibilité où je me trouve de
                suivre à cet égard l’impulsion de mon cœur. Elle peut toutefois compter que ceux de
                   <rs ref="#p.102 #p.135">mes Ministres</rs> qui y assistent en mon nom ne
                négligeront rien pour suppléer à tout ce qu’Elle aurait pu attendre de moi-même.</p>
-            <p><rs ref="#p.138"><choice>
+            <p>
+                    <rs ref="#p.138">
+                        <choice>
                      <abbr>V. M.</abbr>
                      <expan>Votre Majesté</expan>
-                  </choice></rs>, en prenant une détermination conforme au désir<pb n="321v"/> que
+                  </choice>
+                    </rs>, en prenant une détermination conforme au désir<pb n="321v"/> que
                mes alliés et moi nous lui manifestons, donnera à ses peuples une marque de son
                affection d’autant plus grande que cette détermination, <rs ref="#p.15">j</rs>’en ai
                la conviction intime, sera pour <choice>
@@ -444,12 +522,10 @@
       </body>
       <back>
          <include xmlns="http://www.w3.org/2001/XInclude" href="listPlace.xml" xpointer="listPlace"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="listPerson.xml"
-            xpointer="listPerson"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listPerson.xml" xpointer="listPerson"/>
          <include xmlns="http://www.w3.org/2001/XInclude" href="listWit.xml" xpointer="listWit"/>
          <include xmlns="http://www.w3.org/2001/XInclude" href="listOrg.xml" xpointer="listOrg"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="listTreaties.xml"
-            xpointer="listTreaties"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listTreaties.xml" xpointer="listTreaties"/>
       </back>
    </text>
 </TEI>

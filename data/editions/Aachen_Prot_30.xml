@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -12,10 +11,13 @@
                <persName>
                   <surname>Schneider</surname>
                   <forename>Karin</forename>
-               </persName></editor>
+               </persName>
+                </editor>
          </titleStmt>
          <editionStmt>
-            <edition><date>2015-05-08</date></edition>
+            <edition>
+                    <date>2015-05-08</date>
+                </edition>
          </editionStmt>
          <publicationStmt>
             <publisher>Österreichische Akademie der Wissenschaften, Institut für Neuzeit- und
@@ -42,8 +44,9 @@
                </msContents>
                <physDesc>
 
-                  <p> Eigenhändiges Protokoll von <persName ref="#p.5"
-                        ><surname>Gentz</surname></persName>.</p>
+                  <p> Eigenhändiges Protokoll von <persName ref="#p.5">
+                                <surname>Gentz</surname>
+                            </persName>.</p>
                   <handDesc>
                      <handNote xml:id="G">Friedrich Gentz</handNote>
                      <handNote xml:id="W">Nikolaus Wacken</handNote>
@@ -51,8 +54,10 @@
                   </handDesc>
                </physDesc>
                <history>
-                  <origin><placeName ref="#loc.1">Aachen</placeName>
-                     <date when="1818-11-11">11. November 1818</date></origin>
+                  <origin>
+                            <placeName ref="#loc.1">Aachen</placeName>
+                     <date when="1818-11-11">11. November 1818</date>
+                        </origin>
                </history>
             </msDesc>
             <msDesc xml:id="m.2" type="Abschrift">
@@ -149,48 +154,74 @@
 
                </physDesc>
                <history>
-                  <origin><placeName ref="#loc.2">Paris</placeName>
-                     <date when="1818-11-07">7. November 1818</date></origin>
+                  <origin>
+                            <placeName ref="#loc.2">Paris</placeName>
+                     <date when="1818-11-07">7. November 1818</date>
+                        </origin>
                </history>
             </msDesc>
             <listWit corresp="#m.1">
                <head>Protokoll</head>
-               <witness corresp="#w.5"><bibl type="print">BFSP Bd. 6 (1818/19), S. 86
-                     (unvollständig);</bibl></witness>
-               <witness corresp="#w.6"><bibl type="print">Clarke, Papers presented to Parliament
-                     1819, S. 332–333 (unvollständig);</bibl></witness>
-               <witness corresp="#w.7"><bibl type="print">Martens, Nouveaux supplémens, Bd. 3, S.
-                     124 (unvollständig).</bibl></witness>
+               <witness corresp="#w.5">
+                        <bibl type="print">BFSP Bd. 6 (1818/19), S. 86
+                     (unvollständig);</bibl>
+                    </witness>
+               <witness corresp="#w.6">
+                        <bibl type="print">Clarke, Papers presented to Parliament
+                     1819, S. 332–333 (unvollständig);</bibl>
+                    </witness>
+               <witness corresp="#w.7">
+                        <bibl type="print">Martens, Nouveaux supplémens, Bd. 3, S.
+                     124 (unvollständig).</bibl>
+                    </witness>
             </listWit>
             <listWit corresp="#m.2">
                <head>Anlage 1: Denkschrift Frankreichs über die Abschaffung des
                   Sklavenhandels</head>
-               <witness corresp="#w.5"><bibl type="print">BFSP Bd. 6 (1818/19), S.
-                  69–75;</bibl></witness>
-               <witness corresp="#w.6"><bibl type="print">Clarke, Papers presented to Parliament
-                     1819, S. 281–291;</bibl></witness>
-               <witness corresp="#w.7"><bibl type="print">Martens, Nouveaux supplémens, Bd. 3, S.
-                     102–110.</bibl></witness>
+               <witness corresp="#w.5">
+                        <bibl type="print">BFSP Bd. 6 (1818/19), S.
+                  69–75;</bibl>
+                    </witness>
+               <witness corresp="#w.6">
+                        <bibl type="print">Clarke, Papers presented to Parliament
+                     1819, S. 281–291;</bibl>
+                    </witness>
+               <witness corresp="#w.7">
+                        <bibl type="print">Martens, Nouveaux supplémens, Bd. 3, S.
+                     102–110.</bibl>
+                    </witness>
             </listWit>
             <listWit corresp="#m.3">
                <head>Anlage 2: Österreichisches Votum hinsichtlich der Abschaffung des
                   Sklavenhandels</head>
-               <witness corresp="#w.5"><bibl type="print">BFSP Bd. 6 (1818/19), S.
-                  75–76;</bibl></witness>
-               <witness corresp="#w.6"><bibl type="print">Clarke, Papers presented to Parliament
-                     1819, S. 291–293;</bibl></witness>
-               <witness corresp="#w.7"><bibl type="print">Martens, Nouveaux supplémens, Bd. 3, S.
-                     110–111.</bibl></witness>
+               <witness corresp="#w.5">
+                        <bibl type="print">BFSP Bd. 6 (1818/19), S.
+                  75–76;</bibl>
+                    </witness>
+               <witness corresp="#w.6">
+                        <bibl type="print">Clarke, Papers presented to Parliament
+                     1819, S. 291–293;</bibl>
+                    </witness>
+               <witness corresp="#w.7">
+                        <bibl type="print">Martens, Nouveaux supplémens, Bd. 3, S.
+                     110–111.</bibl>
+                    </witness>
             </listWit>
             <listWit corresp="#m.4">
                <head>Anlage 3: Preußisches Votum hinsichtlich der Abschaffung des
                   Sklavenhandels</head>
-               <witness corresp="#w.5"><bibl type="print">BFSP Bd. 6 (1818/19), S.
-                  76;</bibl></witness>
-               <witness corresp="#w.6"><bibl type="print">Clarke, Papers presented to Parliament
-                     1819, S. 293–294;</bibl></witness>
-               <witness corresp="#w.7"><bibl type="print">Martens, Nouveaux supplémens, Bd. 3, S.
-                     111–112.</bibl></witness>
+               <witness corresp="#w.5">
+                        <bibl type="print">BFSP Bd. 6 (1818/19), S.
+                  76;</bibl>
+                    </witness>
+               <witness corresp="#w.6">
+                        <bibl type="print">Clarke, Papers presented to Parliament
+                     1819, S. 293–294;</bibl>
+                    </witness>
+               <witness corresp="#w.7">
+                        <bibl type="print">Martens, Nouveaux supplémens, Bd. 3, S.
+                     111–112.</bibl>
+                    </witness>
             </listWit>
          </sourceDesc>
       </fileDesc>
@@ -210,12 +241,15 @@
       </encodingDesc>
       <profileDesc>
          <abstract>
-            <p>Der französische Premierminister <persName ref="#p.1"
-                  ><surname>Richelieu</surname></persName> verliest eine Denkschrift in Beantwortung
+            <p>Der französische Premierminister <persName ref="#p.1">
+                        <surname>Richelieu</surname>
+                    </persName> verliest eine Denkschrift in Beantwortung
                der britischen Vorschläge zur Überwachung und Unterdrückung des Sklavenhandels. Die
                   <rs ref="#p.8 #p.9 #p.10 #p.11 #p.12 #p.13 #p.14 #p.1">Vertreter der Mächte</rs>
                beraten über eine Note <country>Portugals</country> betreffend die Frage der
-               Piraterie und ersuchen <persName ref="#p.1"><surname>Richelieu</surname></persName>,
+               Piraterie und ersuchen <persName ref="#p.1">
+                        <surname>Richelieu</surname>
+                    </persName>,
                seine Eindrücke hinsichtlich dieser Denkschrift vorzulegen.</p>
          </abstract>
          <particDesc>
@@ -255,59 +289,83 @@
       <body>
          <div hand="#G" decls="#m.1">
             <pb n="37r"/>
-            <p><add hand="#W" place="top"><choice>
+            <p>
+                    <add hand="#W" place="top">
+                        <choice>
                      <abbr>N.</abbr>
                      <expan>Numéro</expan>
-                  </choice> 30.</add></p>
-            <p><add hand="#W" place="margin">Entre les cinq Puissances</add></p>
-            <p><placeName ref="#loc.1">Aix-la-Chapelle</placeName> Le <date when="1818-11-11">11
-                  Novembre</date></p>
-            <p><add hand="#W" place="margin">avec cinq Annexes</add></p>
-            <p><choice>
+                  </choice> 30.</add>
+                </p>
+            <p>
+                    <add hand="#W" place="margin">Entre les cinq Puissances</add>
+                </p>
+            <p>
+                    <placeName ref="#loc.1">Aix-la-Chapelle</placeName> Le <date when="1818-11-11">11
+                  Novembre</date>
+                </p>
+            <p>
+                    <add hand="#W" place="margin">avec cinq Annexes</add>
+                </p>
+            <p>
+                    <choice>
                   <abbr>Mr</abbr>
                   <expan>Monsieur</expan>
-               </choice> le <persName ref="#p.1"><roleName>Duc</roleName>
-                  <surname>de Richelieu</surname></persName> a fait lecture de ses observations sur
+               </choice> le <persName ref="#p.1">
+                        <roleName>Duc</roleName>
+                  <surname>de Richelieu</surname>
+                    </persName> a fait lecture de ses observations sur
                   <ref target="Aachen_Prot_23.xml">les moyens proposés par <choice>
                      <abbr>Mrs.</abbr>
                      <expan>Messieurs</expan>
                   </choice> les <rs ref="#p.9 #p.10">Plénipotentiaires de la Grande-Bretagne</rs>
                   <rs xml:id="n.1"> pour surveiller et réprimer la traite illicite des Nègres.
-                  </rs></ref><note type="editorial" target="#n.1">Vgl. Fladeland, Abolitionist
+                  </rs>
+                    </ref>
+                    <note type="editorial" target="#n.1">Vgl. Fladeland, Abolitionist
                   Pressures, S. 367–369; Webster, Foreign Policy, Bd. 2, S. 463–464; Kielstra, The
                   Politics of Slave Trade, bes. S. 86–91.</note>
                <rs xml:id="n.2"> Les observations de <choice>
                      <abbr>Mr</abbr>
                      <expan>Monsieur</expan>
-                  </choice> le <rs ref="#p.1">Duc</rs>, </rs><note type="editorial" target="#n.2"
-                  >Vgl. Anlage 1.</note> ainsi que <rs xml:id="n.3"> l’opinion du Cabinet d’Autriche
-                  </rs><note type="editorial" target="#n.3">Vgl. Anlage 2.</note> sur la même
-               question, et <rs xml:id="n.4"> celle que le Cabinet de Prusse </rs><note
-                  type="editorial" target="#n.4">Vgl. Anlage 3.</note>
-               <rs xml:id="n.5"> avoit fait connoître dans une séance précédente, </rs><note
-                  type="editorial" target="#n.5">Ist in keinem Protokoll vermerkt.</note> se
+                  </choice> le <rs ref="#p.1">Duc</rs>, </rs>
+                    <note type="editorial" target="#n.2">Vgl. Anlage 1.</note> ainsi que <rs xml:id="n.3"> l’opinion du Cabinet d’Autriche
+                  </rs>
+                    <note type="editorial" target="#n.3">Vgl. Anlage 2.</note> sur la même
+               question, et <rs xml:id="n.4"> celle que le Cabinet de Prusse </rs>
+                    <note type="editorial" target="#n.4">Vgl. Anlage 3.</note>
+               <rs xml:id="n.5"> avoit fait connoître dans une séance précédente, </rs>
+                    <note type="editorial" target="#n.5">Ist in keinem Protokoll vermerkt.</note> se
                trouvent annexées au Protocole.</p>
-            <p><choice>
+            <p>
+                    <choice>
                   <abbr>Mrs.</abbr>
                   <expan>Messieurs</expan>
                </choice> les Plénipotentiaires se sont occupés d’un Mémoire de <choice>
                   <abbr>Mr.</abbr>
                   <expan>Monsieur</expan>
-               </choice> le <persName ref="#p.27"><roleName><choice>
-                        <abbr>C<hi rendition="#su">te</hi></abbr>
+               </choice> le <persName ref="#p.27">
+                        <roleName>
+                            <choice>
+                        <abbr>C<hi rendition="#su">te</hi>
+                                </abbr>
                         <expan>Comte</expan>
-                     </choice></roleName>
-                  <surname>Palmella</surname></persName>, Ministre des affaires étrangères de <choice>
+                     </choice>
+                        </roleName>
+                  <surname>Palmella</surname>
+                    </persName>, Ministre des affaires étrangères de <choice>
                   <abbr>S. M.</abbr>
                   <expan>Sa Majesté</expan>
                </choice> le <rs ref="#p.28">Roi de Portugal</rs>, sur les pirateries exercées depuis
                quelque tems par une foule de forbans navigant sous des pavillons inconnus. <choice>
                   <abbr>Mr.</abbr>
                   <expan>Monsieur</expan>
-               </choice> le <persName ref="#p.1"><roleName>Duc</roleName>
-                  <surname>de Richelieu</surname></persName> s’est chargé de présenter à la
+               </choice> le <persName ref="#p.1">
+                        <roleName>Duc</roleName>
+                  <surname>de Richelieu</surname>
+                    </persName> s’est chargé de présenter à la
                conférence ses aperçus sur l’important objet de ce Mémoire.</p>
-            <p><choice>
+            <p>
+                    <choice>
                   <abbr>Mrs.</abbr>
                   <expan>Messieurs</expan>
                </choice> les Plénipotentiaires ont arrêté ensuite la distribution du travail sur les
@@ -315,59 +373,86 @@
                présentes conférences.</p>
             <signed>
                <list>
-                  <item><persName ref="#p.8">Metternich</persName></item>
-                  <item><persName ref="#p.1">Richelieus</persName></item>
-                  <item><persName ref="#p.9">Castlereagh</persName></item>
-                  <item><persName ref="#p.10">Wellington</persName></item>
-                  <item><persName ref="#p.11">Hardenberg</persName></item>
-                  <item><persName ref="#p.12">Bernstorff</persName></item>
-                  <item><persName ref="#p.13">Nesselrode</persName></item>
-                  <item><persName ref="#p.14">Capodistrias</persName></item>
-               </list></signed>
+                  <item>
+                            <persName ref="#p.8">Metternich</persName>
+                        </item>
+                  <item>
+                            <persName ref="#p.1">Richelieus</persName>
+                        </item>
+                  <item>
+                            <persName ref="#p.9">Castlereagh</persName>
+                        </item>
+                  <item>
+                            <persName ref="#p.10">Wellington</persName>
+                        </item>
+                  <item>
+                            <persName ref="#p.11">Hardenberg</persName>
+                        </item>
+                  <item>
+                            <persName ref="#p.12">Bernstorff</persName>
+                        </item>
+                  <item>
+                            <persName ref="#p.13">Nesselrode</persName>
+                        </item>
+                  <item>
+                            <persName ref="#p.14">Capodistrias</persName>
+                        </item>
+               </list>
+                </signed>
          </div>
 
          <div hand="#A" decls="#m.2">
             <pb n="44r"/>
-            <p><add hand="#W" place="top">Annexé au Protocole <choice>
+            <p>
+                    <add hand="#W" place="top">Annexé au Protocole <choice>
                      <abbr>n</abbr>
                      <expan>numéro</expan>
-                  </choice> 30 du <date when="1818-11-11">11 Novembre 1818</date>.</add></p>
+                  </choice> 30 du <date when="1818-11-11">11 Novembre 1818</date>.</add>
+                </p>
 
-            <p><title><hi rendition="#u">Traite des Noirs</hi></title></p>
+            <p>
+                    <title>
+                        <hi rendition="#u">Traite des Noirs</hi>
+                    </title>
+                </p>
             <p>La <country>France</country> a prouvé de la manière la plus évidente qu’elle voulait
                concourir efficacement à <rs xml:id="n.6"> l’abolition complètte de la Traite des
-                  Noirs. </rs><note type="editorial" target="#n.6">Vgl. Fladeland, Abolitionist
+                  Noirs. </rs>
+                    <note type="editorial" target="#n.6">Vgl. Fladeland, Abolitionist
                   Pressures, S. 367–369; Webster, Foreign Policy, Bd. 2, S. 463–464; Kielstra, The
-                  Politics of Slave Trade, bes. S. 86–91.</note> Engagée par la <rs ref="#t.22"
-                  >Déclaration qu’elle a souscrite le <date when="1815-02-08">8 Février 1815</date>
-                  à <placeName ref="#loc.7">Vienne</placeName></rs> avec les Puissances Signataires
-               du <rs ref="#t.13">Traité du <date when="1815-05-30">30 Mai</date></rs>, à faire
+                  Politics of Slave Trade, bes. S. 86–91.</note> Engagée par la <rs ref="#t.22">Déclaration qu’elle a souscrite le <date when="1815-02-08">8 Février 1815</date>
+                  à <placeName ref="#loc.7">Vienne</placeName>
+                    </rs> avec les Puissances Signataires
+               du <rs ref="#t.13">Traité du <date when="1815-05-30">30 Mai</date>
+                    </rs>, à faire
                usage pour atteindre ce but <quote>« de tous les moyens qui se trouvaient à sa
                   disposition, et à agir dans l’emploi de ces moyens avec tout le zèle et toute la
                   persévérance due à une si grande et belle cause »</quote>, Elle se flatte d’avoir
-               satisfait à cet engagement. En effet, peu de mois après la <rs ref="#t.22"
-                  >déclaration de <placeName ref="#loc.7">Vienne</placeName></rs>, elle a renoncé à
+               satisfait à cet engagement. En effet, peu de mois après la <rs ref="#t.22">déclaration de <placeName ref="#loc.7">Vienne</placeName>
+                    </rs>, elle a renoncé à
                la stipulation de 1814 qui lui avait donné un délai de cinq années pour effectuer la
-               cessation de la Traite. <rs xml:id="n.7"> Elle a déclaré le <date when="1815-07-30"
-                     >30 Juillet 1815</date>
-               </rs><note type="editorial" target="#n.7">Vgl. Schreiben Talleyrands an Castlereagh,
+               cessation de la Traite. <rs xml:id="n.7"> Elle a déclaré le <date when="1815-07-30">30 Juillet 1815</date>
+               </rs>
+                    <note type="editorial" target="#n.7">Vgl. Schreiben Talleyrands an Castlereagh,
                   Paris, 30. Juli 1815, abgedruckt in Hertslet (Hg.), Complete Collection, Bd. 3, S.
                   96–98.</note> qu’à partir de ce jour la Traite<pb n="44v"/> cesserait, de sa part,
                partout et pour toujours. Les Actes de son Administration ont été conformes à cette
                déclaration. Les Instructions données dans les Ports de <country>France</country> et
-               dans les Colonies ont précédé une <rs xml:id="n.8"> Ordonnance spéciale du <rs
-                     ref="#p.19">Roi</rs>, </rs><note type="editorial" target="#n.8">Ordonnanz vom
+               dans les Colonies ont précédé une <rs xml:id="n.8"> Ordonnance spéciale du <rs ref="#p.19">Roi</rs>, </rs>
+                    <note type="editorial" target="#n.8">Ordonnanz vom
                   8. Jänner 1817 zur Konfiksations von Schiffen, die Sklavenhandel betreiben; vgl.
                   Hertslet (Hg.), Complete Collection, Bd. 3, S. 98–100.</note> portant prohibition
                de la Traite. Cette Ordonnance a été fortifiée par une <rs xml:id="n.9"> Loi rendue
-                  en Mars 1818 </rs><note type="editorial" target="#n.9"> Gesetz über die Bestrafung
+                  en Mars 1818 </rs>
+                    <note type="editorial" target="#n.9"> Gesetz über die Bestrafung
                   von französischen Untertanen, die Sklavenhandel betreiben, 15. April 1818; vgl.
                   Hertslet (Hg.), Complete Collection, Bd. 3, S. 100–101.</note> qui prononce contre
                les infracteurs des dispositions arrêtées par le Gouvernement les peines les plus
                sévères que puisse comporter la Législation de <country>France</country>. Des mesures
                de surveillance ont été prescrites dans la vue d’assurer l’exécution de la Loi ; et
                une Croisière a été, <rs xml:id="n.10"> par ordre du <rs ref="#p.19">Roi</rs>,
-                  </rs><note type="editorial" target="#n.10">Ordonnanz vom 24. Juni 1818 über die
+                  </rs>
+                    <note type="editorial" target="#n.10">Ordonnanz vom 24. Juni 1818 über die
                   Überwachung der afrikanischen Küste durch französische Schiffe zur Verhinderung
                   des Sklavenhandels; vgl. Hertslet (Hg.), Complete Collection, Bd. 3, S.
                   101–102.</note> établie sur la Côte Occidentale d’Afrique pour visiter les
@@ -378,7 +463,9 @@
                      disposition</hi> »</quote> pour réprimer la Traite. Il <hi rendition="#u">y a
                   mis du zèle</hi>, puisqu’il a créé les moyens qui lui manquaient à cet égard, en
                provoquant l’adoption d’une Loi formelle.</p>
-            <p><ref target="Aachen_Prot_23.xml">Cependant, le Gouvernement de <rs ref="#p.19"><choice>
+            <p>
+                    <ref target="Aachen_Prot_23.xml">Cependant, le Gouvernement de <rs ref="#p.19">
+                            <choice>
                         <abbr>S. M.</abbr>
                         <expan>Sa Majesté</expan>
                      </choice> Britannique</rs> qui met, pour parvenir à la répression de la Traite,
@@ -387,18 +474,21 @@
                   informé que le but de ses efforts et de ceux des autres Puissances n’était point
                   encore atteint, et que le Commerce des Noirs, fait en contrebande et en dépit des
                   mesures prises contre lui, enlevait encore sur la Côte d’Afrique un grand nombre
-                  d’Esclaves.</ref></p>
-            <p>Le Gouvernement de <rs ref="#p.19"><choice>
+                  d’Esclaves.</ref>
+                </p>
+            <p>Le Gouvernement de <rs ref="#p.19">
+                        <choice>
                      <abbr>S. M.</abbr>
                      <expan>Sa Majesté</expan>
                   </choice> Britannique</rs> a pensé que les infractions aux<pb n="45v"/> ordres
                donnés de toutes parts pouvaient tenir à l’insuffisance des dispositions faites pour
                en assurer l’exécution. Il a cru que des mesures combinées entre les principales
-               Puissances, engagées d’ailleurs par une <rs ref="#t.30">Clause du Traité du <date
-                     when="1815-11-20">20 <choice>
-                        <abbr>Nov<hi rendition="#su">e</hi></abbr>
+               Puissances, engagées d’ailleurs par une <rs ref="#t.30">Clause du Traité du <date when="1815-11-20">20 <choice>
+                        <abbr>Nov<hi rendition="#su">e</hi>
+                                </abbr>
                         <expan>Novembre</expan>
-                     </choice> 1815</date></rs> à se concerter à cet égard, pourraient extirper le
+                     </choice> 1815</date>
+                    </rs> à se concerter à cet égard, pourraient extirper le
                mal dans sa racine. Il a proposé, entr’autres mesures, de visiter rigoureusement les
                Bâtimens qui navigueraient sur la Côte Occidentale d’Afrique et, pour que cette
                visite pût avoir tout son effet, il a jugé qu’il convenait que chacune des Puissances
@@ -406,7 +496,8 @@
                Pavillon. La formation de Commissions mixtes, chargées de prononcer sur la légitimité
                des expéditions suspectées de fraude, forme la seconde partie du projet de
                   l’<country>Angleterre</country>. Il serait<pb n="46r"/> impossible de ne point
-               reconnaître qu’en proposant une telle mesure, le Gouvernement de <rs ref="#p.19"><choice>
+               reconnaître qu’en proposant une telle mesure, le Gouvernement de <rs ref="#p.19">
+                        <choice>
                      <abbr>S. M.</abbr>
                      <expan>Sa Majesté</expan>
                   </choice> Britannique</rs> a fait tout ce qu’il a dépendu de lui pour
@@ -416,13 +507,16 @@
                pour l’indépendance et les droits de chacun. <rs ref="#t.14 #t.16 #t.17">Trois
                   Puissances, l’<country>Espagne</country>, le <country>Portugal</country> &amp; le
                      <country>Royaume des Pays-bas</country>, ont souscrit à ses
-               propositions.</rs></p>
+               propositions.</rs>
+                </p>
             <p>Le Gouvernement de <rs xml:id="n.11">
-                  <rs ref="#p.15"><choice>
+                  <rs ref="#p.15">
+                            <choice>
                         <abbr>S. M.</abbr>
                         <expan>Sa Majesté</expan>
                      </choice> Très Chrétienne</rs>
-               </rs><note type="editorial" target="#n.11">Ehrentitel des Königs von
+               </rs>
+                    <note type="editorial" target="#n.11">Ehrentitel des Königs von
                   Frankreich.</note> suivrait avec empressement un tel exemple si, portant
                exclusivement ses regards sur le but de l’Entreprise, il pouvait ne point apercevoir,
                dans le moyen indiqué pour l’atteindre, des dangers qui se rattachent peut-être à sa
@@ -433,7 +527,8 @@
                dérogation à ce principe, et non une dénégation de son existence, qu’il propose
                d’accorder à chaque Puissance la faculté d’arrêter les bâtimens portant le Pavillon
                des autres et de s’assurer de la légitimité de leurs expéditions.</p>
-            <p>Mais déjà sur ce point, le Gouvernement de <rs ref="#p.15"><choice>
+            <p>Mais déjà sur ce point, le Gouvernement de <rs ref="#p.15">
+                        <choice>
                      <abbr>S. M.</abbr>
                      <expan>Sa Majesté</expan>
                   </choice> Très Chrétienne</rs> trouverait à la proposition de
@@ -465,7 +560,8 @@
                conserve tous ses avantages même en paraissant en abandonner l’exercice absolu, et
                elle ne peut craindre qu’on rattache à la concession qu’elle fait l’idée d’un
                sacrifice qu’elle ne pouvait éviter.</p>
-            <p>Mais quand le Gouvernement de <rs ref="#p.15"><choice>
+            <p>Mais quand le Gouvernement de <rs ref="#p.15">
+                        <choice>
                      <abbr>S. M.</abbr>
                      <expan>Sa Majesté</expan>
                   </choice> Très Chrétienne</rs> se croirait autorisé à passer par-dessus de si
@@ -511,18 +607,20 @@
                l’Europe ne serait-elle pas en droit de demander aux Puissances un compte rigoureux
                de ces mesures qui, concertées pour le bien de l’humanité, auraient compromis ce bien
                précieux en troublant sa tranquillité ?</p>
-            <p>Il est une autre considération qui arrêterait encore le Gouvernement de <rs
-                  ref="#p.15"><choice>
+            <p>Il est une autre considération qui arrêterait encore le Gouvernement de <rs ref="#p.15">
+                        <choice>
                      <abbr>S. M.</abbr>
                      <expan>Sa Majesté</expan>
                   </choice> Très Chrétienne</rs>, quand il ne verrait point déjà l’impossibilité
                d’admettre la proposition de la visite : c’est celle qui se rapporte à l’institution
                des Commissions mixtes, chargées de juger les prises faites par suite des règlemens
                contre la Traite. La conséquence immédiate d’une telle institution est de soustraire
-               les sujets de <rs ref="#p.15"><choice>
+               les sujets de <rs ref="#p.15">
+                        <choice>
                      <abbr>S. M.</abbr>
                      <expan>Sa Majesté</expan>
-                  </choice></rs> à leurs Juges naturels, et Sa<pb n="50v"/> conscience ne lui permet
+                  </choice>
+                    </rs> à leurs Juges naturels, et Sa<pb n="50v"/> conscience ne lui permet
                point de croire qu’Elle en ait le droit. La jurisdiction est de tous les droits de la
                Souveraineté celui qui est le plus essentiellement destiné à la défense du Sujet, et
                l’on peut dire qu’il est presqu’uniquement dans l’intérêt de ce dernier. Il est de
@@ -536,22 +634,28 @@
             <p>En vain alléguera-t-on que la<pb n="51r"/> Commission mixte n’exerce pas de
                jurisdiction au criminel, et qu’elle ne fait que <subst>
                   <del rendition="#s">prouver</del>
-                  <add place="above"><choice>
+                  <add place="above">
+                            <choice>
                         <abbr>noncer</abbr>
                         <expan>prononcer</expan>
-                     </choice></add>
+                     </choice>
+                        </add>
                </subst>
-               <ref target="Aachen_Prot_23.xml"><quote>« sur la légalité de la saisie du Navire,
-                     ayant illicitement des Esclaves à son bord »</quote></ref>. Prononcer sur la
+               <ref target="Aachen_Prot_23.xml">
+                        <quote>« sur la légalité de la saisie du Navire,
+                     ayant illicitement des Esclaves à son bord »</quote>
+                    </ref>. Prononcer sur la
                légalité de la prise, c’est juger la question autant qu’il est possible de le faire ;
                c’est décider que le capturé a, ou n’a pas encouru les peines portées contre le délit
                qu’il a commis. Son sort est dès lors fixé : il importe peu que ces peines qu’il a ou
                n’a pas encourues soient déterminées par le Code de son Pays ou par celui d’un autre.
                Quand il a subi l’examen de la Commission, il ne s’agit plus que d’une application de
                ce Code ou de sa mise en liberté ; il est donc <choice>
-                  <abbr>véritablem<hi rendition="#su">t</hi></abbr>
+                  <abbr>véritablem<hi rendition="#su">t</hi>
+                        </abbr>
                   <expan>véritablement</expan>
-               </choice> jugé ; et il ne l’a point été par ses seuls Juges naturels. <rs ref="#p.15"><choice>
+               </choice> jugé ; et il ne l’a point été par ses seuls Juges naturels. <rs ref="#p.15">
+                        <choice>
                      <abbr>S. M.</abbr>
                      <expan>Sa Majesté</expan>
                   </choice> Très Chrétienne</rs>, on le répète, ne se croirait point en<pb n="51v"/>
@@ -603,7 +707,8 @@
                Ministère Public, du droit d’en poursuivre la punition devant les Tribunaux. On
                pourrait également faire dans toute Colonie où les Propriétaires sont intéressés à
                recruter des Nègres des Règlemens à l’instar du <rs xml:id="n.12"> Registry Bill
-                  </rs><note type="editorial" target="#n.12">Gesetz, das die Registrierung von
+                  </rs>
+                    <note type="editorial" target="#n.12">Gesetz, das die Registrierung von
                   Sklaven vorsah und das im britischen Parlament diskutiert wurde; vgl. dazu Hansard
                   (Ed.), The Parliamentary Debates, Bd. 40, Sp. 976–979.</note> pour constater le
                nombre de Noirs existant sur chaque habitation, et s’assurer par des dénombremens
@@ -618,65 +723,74 @@
                surveiller les individus qui les achètent, et de faire connaître aux Autorités
                supérieures du Pays les infractions que les Agens secondaires pourroient mettre de la
                tiédeur à poursuivre. Ces dispositions sont dans la mesure de celles que le <choice>
-                  <abbr>Gouvern<hi rendition="#su">t</hi></abbr>
+                  <abbr>Gouvern<hi rendition="#su">t</hi>
+                        </abbr>
                   <expan>Gouvernement</expan>
-               </choice> de <rs ref="#p.15"><choice>
+               </choice> de <rs ref="#p.15">
+                        <choice>
                      <abbr>S M.</abbr>
                      <expan>Sa Majesté</expan>
                   </choice> Très Chrétienne</rs> peut prendre sans craindre de blesser les droits de
-               ses Sujets, et il est prêt à s’entendre à cet égard avec les Puissances qui<pb
-                  n="54v"/> réunissent leurs efforts pour parvenir à l’entière abolition du Commerce
+               ses Sujets, et il est prêt à s’entendre à cet égard avec les Puissances qui<pb n="54v"/> réunissent leurs efforts pour parvenir à l’entière abolition du Commerce
                odieux, signalé à l’animadversion générale.</p>
          </div>
 
          <div hand="#A" decls="#m.3">
             <pb n="38r"/>
 
-            <p><add hand="#W" place="top">Annexé au Protocole du <date when="1818-11-11">11
+            <p>
+                    <add hand="#W" place="top">Annexé au Protocole du <date when="1818-11-11">11
                      Novembre</date> sub <choice>
                      <abbr>n.</abbr>
                      <expan>numéro</expan>
-                  </choice> 30.</add></p>
-            <p><title>Opinion du Cabinet d’Autriche sur la question de la Traite des
-               Nègres</title></p>
+                  </choice> 30.</add>
+                </p>
+            <p>
+                    <title>Opinion du Cabinet d’Autriche sur la question de la Traite des
+               Nègres</title>
+                </p>
             <p>Depuis que <rs xml:id="n.13"> l’abolition de la traite des Nègres est devenue l’objet
-                  des délibérations communes des puissances de l’Europe, </rs><note type="editorial"
-                  target="#n.13">Vgl. Fladeland, Abolitionist Pressures, S. 367–369; Webster,
+                  des délibérations communes des puissances de l’Europe, </rs>
+                    <note type="editorial" target="#n.13">Vgl. Fladeland, Abolitionist Pressures, S. 367–369; Webster,
                   Foreign Policy, Bd. 2, S. 463–464; Kielstra, The Politics of Slave Trade, bes. S.
                   86–91.</note> le Cabinet d’Autriche n’a cessé de vouer à cette question tout
                l’intérêt qu’elle mérite dans ses grands rapports avec le bien de l’humanité, ainsi
                qu’avec les préceptes de la saine morale et de la religion. Fidèle aux principes
-               solemnellement proclamés à cet égard à l’époque du Congrès de <placeName ref="#loc.7"
-                  >Vienne</placeName> et aux engagemens successifs fondés sur ces principes,
+               solemnellement proclamés à cet égard à l’époque du Congrès de <placeName ref="#loc.7">Vienne</placeName> et aux engagemens successifs fondés sur ces principes,
                   l’<country>Autriche</country>, quoique peu en état, vu sa position géographique,
                de coopérer directement au succès d’une aussi belle et noble entreprise, n’en a pas
                moins concouru avec empressement à tout ce qui pouvait<pb n="38v"/> l’avancer et la
-               perfectionner ; et c’est en partant de cette disposition immuable que le <rs
-                  ref="#p.8">Ministre d’Autriche</rs> a examiné avec l’attention la plus sérieuse
-                  <ref target="Aachen_Prot_23.xml">les propositions faites par <rs ref="#p.9 #p.10"><choice>
+               perfectionner ; et c’est en partant de cette disposition immuable que le <rs ref="#p.8">Ministre d’Autriche</rs> a examiné avec l’attention la plus sérieuse
+                  <ref target="Aachen_Prot_23.xml">les propositions faites par <rs ref="#p.9 #p.10">
+                            <choice>
                         <abbr>Mrs</abbr>
                         <expan>Messieurs</expan>
-                     </choice> les Plénipotentiaires de <rs ref="#p.19"><choice>
+                     </choice> les Plénipotentiaires de <rs ref="#p.19">
+                                <choice>
                            <abbr>S. M.</abbr>
                            <expan>Sa Majesté</expan>
-                        </choice> Britannique</rs></rs> aux conférences actuelles</ref> tant pour
+                        </choice> Britannique</rs>
+                        </rs> aux conférences actuelles</ref> tant pour
                compléter et étendre le système poursuivi jusqu’-à-présent pour parvenir à
                l’extinction finale de la traite que pour assurer l’exécution et l’efficacité de ce
                système.</p>
-            <p><rs ref="#p.16"><choice>
+            <p>
+                    <rs ref="#p.16">
+                        <choice>
                      <abbr>S. M.</abbr>
                      <expan>Sa Majesté</expan>
-                  </choice> l’Empereur</rs> est prêt à prendre part aux démarches que les <rs
-                  ref="#p.17 #p.18 #p.19">Souverains alliés</rs> vont faire auprès du <rs
-                  xml:id="n.14"> Cabinet de <placeName ref="#loc.26">Rio Janeiro</placeName>
-               </rs><note type="editorial" target="#n.14">Der portugiesische Hof war auf der Flucht
+                  </choice> l’Empereur</rs> est prêt à prendre part aux démarches que les <rs ref="#p.17 #p.18 #p.19">Souverains alliés</rs> vont faire auprès du <rs xml:id="n.14"> Cabinet de <placeName ref="#loc.26">Rio Janeiro</placeName>
+               </rs>
+                    <note type="editorial" target="#n.14">Der portugiesische Hof war auf der Flucht
                   vor Napoleon 1808 nach Rio de Janeiro übersiedelt und kehrte erst 1821 nach Europa
                   zurück; vgl. Manchester, The Transfer; Wilcken, A Colony; Kleinlercher,
                   Monarchieprojekte, S. 235–247.</note> pour l’engager à fixer le plutôt possible le
-               terme de l’abolition définitive. <rs ref="#p.16"><choice>
+               terme de l’abolition définitive. <rs ref="#p.16">
+                        <choice>
                      <abbr>S. M.</abbr>
                      <expan>Sa Majesté</expan>
-                  </choice></rs> ne peut pas méconnoître que le <rs ref="#p.28">Souverain du
+                  </choice>
+                    </rs> ne peut pas méconnoître que le <rs ref="#p.28">Souverain du
                   Brésil</rs> doit rencontrer dans<pb n="39r"/> cette route des difficultés plus
                réelles peut-être et plus fortes que n’en avait à surmonter aucune autre des
                puissances qui ont consenti à cette mesure salutaire. Mais <rs ref="#p.16">Elle</rs>
@@ -686,9 +800,11 @@
                      <date when="1815-02-08">8 <choice>
                         <abbr>Févr.</abbr>
                         <expan>Février</expan>
-                     </choice> 1815</date></rs>.</p>
+                     </choice> 1815</date>
+                    </rs>.</p>
             <p>Quant aux mesures proposées par <choice>
-                  <abbr>Mess<hi rendition="#su">rs</hi></abbr>
+                  <abbr>Mess<hi rendition="#su">rs</hi>
+                        </abbr>
                   <expan>Messieurs</expan>
                </choice> les <rs ref="#p.9 #p.10">Plénipotentiaires Britanniques</rs> pour mettre
                fin à la traite illicite, comme il semblait admis de toute part qu’un système de
@@ -701,11 +817,10 @@
                fondamental, celui d’arriver à l’abolition universelle et efficace de la traite, ne
                soit jamais perdu de vue, et que chaque puissance continue à seconder sincèrement de
                ses soins et de ses efforts ceux que le Gouvernement Britannique a consacrés
-               jusqu’ici à une cause aussi honorable, on finira par s’accorder sur les moyens<pb
-                  n="40r"/> d’exécution les plus propres à la faire complèttement réussir.</p>
+               jusqu’ici à une cause aussi honorable, on finira par s’accorder sur les moyens<pb n="40r"/> d’exécution les plus propres à la faire complèttement réussir.</p>
             <p>Le Cabinet d’Autriche désire en outre que <rs xml:id="n.15"> la Conférence
-                  ministérielle établie à Londres pour s’occuper de cette question, </rs><note
-                  type="editorial" target="#n.15">Gemeint ist die Botschafterkonferenz in London,
+                  ministérielle établie à Londres pour s’occuper de cette question, </rs>
+                    <note type="editorial" target="#n.15">Gemeint ist die Botschafterkonferenz in London,
                   welche sich zwischen 1816 und 1819 vorwiegend mit der Abschaffung des
                   Sklavenhandels und der Piraterie im Mittelmeer befasste. Protokolle vgl. BFSP Bd.
                   6 (1818/19), S. 21–53; Clarke, Papers presented to Parliament 1819, Bd. 1, S.
@@ -715,20 +830,25 @@
 
          <div hand="#A" decls="#m.4">
             <pb n="42r"/>
-            <p><add place="top" hand="#W">Annexé au Protocole du <date when="1818-11-11">11
+            <p>
+                    <add place="top" hand="#W">Annexé au Protocole du <date when="1818-11-11">11
                      Novembre</date> sub <choice>
-                     <abbr>n<hi rendition="#su">o</hi><expan>numéro</expan></abbr>
-                  </choice> 30.</add></p>
+                     <abbr>n<hi rendition="#su">o</hi>
+                                <expan>numéro</expan>
+                            </abbr>
+                  </choice> 30.</add>
+                </p>
 
-            <p><title>Traite des Nègres</title></p>
+            <p>
+                    <title>Traite des Nègres</title>
+                </p>
             <p>Invariablement attaché aux principes de morale et d’humanité qui depuis longtems
-               avoient réclamé l’abolition de la traite des Nègres, et fidèle aux <rs ref="#t.22"
-                  >engagemens qu’il a pris à cet effet</rs>, le Gouvernement Prussien est
+               avoient réclamé l’abolition de la traite des Nègres, et fidèle aux <rs ref="#t.22">engagemens qu’il a pris à cet effet</rs>, le Gouvernement Prussien est
                constamment prêt à concourir à tout ce qui peut servir à l’accomplissement définitif
                de ce noble but.</p>
             <p>Il n’hésite par conséquent pas à accéder à la proposition d’une démarche collective à
-               faire auprès de la <rs xml:id="n.16"> Cour de Brésil </rs><note type="editorial"
-                  target="#n.16">Der portugiesische Hof war auf der Flucht vor Napoleon 1808 nach
+               faire auprès de la <rs xml:id="n.16"> Cour de Brésil </rs>
+                    <note type="editorial" target="#n.16">Der portugiesische Hof war auf der Flucht vor Napoleon 1808 nach
                   Rio de Janeiro übersiedelt und kehrte erst 1821 nach Europa zurück; vgl.
                   Manchester, The Transfer; Wilcken, A Colony; Kleinlercher, Monarchieprojekte, S.
                   235–247.</note> pour L’engager à accélérer, autant que les circonstances et les
@@ -751,50 +871,63 @@
 
          <div hand="#A" decls="#m.5">
             <pb n="56r"/>
-            <p><add place="top" hand="#W">Annexé au Protocole <choice>
+            <p>
+                    <add place="top" hand="#W">Annexé au Protocole <choice>
                      <abbr>n.</abbr>
                      <expan>numéro</expan>
-                  </choice> 30 du <date when="1818-11-11">11 Novembre</date>.</add></p>
-            <p><add place="bottom">À Son Altesse <choice>
-                     <abbr>Mons<hi rendition="#su">r</hi></abbr>
+                  </choice> 30 du <date when="1818-11-11">11 Novembre</date>.</add>
+                </p>
+            <p>
+                    <add place="bottom">À Son Altesse <choice>
+                     <abbr>Mons<hi rendition="#su">r</hi>
+                            </abbr>
                      <expan>Monsieur</expan>
-                  </choice> le <persName ref="#p.8"><roleName>Prince</roleName>
-                     <surname>de Metternich</surname></persName> Ministre d’Etat, des Conférences et
-                  des Affaires Etrangères de <rs ref="#p.16"><choice>
-                        <abbr>S. M. I<hi rendition="#su">le</hi> et R<hi rendition="#su"
-                           >le</hi></abbr>
+                  </choice> le <persName ref="#p.8">
+                            <roleName>Prince</roleName>
+                     <surname>de Metternich</surname>
+                        </persName> Ministre d’Etat, des Conférences et
+                  des Affaires Etrangères de <rs ref="#p.16">
+                            <choice>
+                        <abbr>S. M. I<hi rendition="#su">le</hi> et R<hi rendition="#su">le</hi>
+                                </abbr>
                         <expan>Sa Majesté Impériale et Royale</expan>
-                     </choice> Apostolique.</rs></add></p>
+                     </choice> Apostolique.</rs>
+                    </add>
+                </p>
             <p>Mon <rs ref="#p.8">Prince</rs>,</p>
             <p>J’ai reçu de ma Cour l’ordre d’appeler l’attention des Puissances réunies à
                   <placeName ref="#loc.1">Aix-la-Chapelle</placeName> sur les mesures à prendre pour
                réprimer les brigandages intolérables qu’une multitude de Pirates exerce maintenant
                sur l’océan. Cet objet parait bien digne d’être pris en considération par les
                principales Puissances de l’Europe, et je m’acquitte du devoir qui m’est imposé en
-               vous remettant <rs xml:id="n.17"> le Mémoire ci-joint, </rs><note type="editorial"
-                  target="#n.17">Denkschrift liegt nicht ein.</note> et en priant <rs ref="#p.8"
-                  >Votre Altesse</rs> de vouloir bien, si Elle le juge convenable, me faire
+               vous remettant <rs xml:id="n.17"> le Mémoire ci-joint, </rs>
+                    <note type="editorial" target="#n.17">Denkschrift liegt nicht ein.</note> et en priant <rs ref="#p.8">Votre Altesse</rs> de vouloir bien, si Elle le juge convenable, me faire
                connaître son opinion sur la question dont il s’agit.</p>
             <p>J’ai l’honneur d’être avec la plus haute considération</p>
             <p>De Votre Altesse</p>
             <p>Le très humble et très obéissant <choice>
-                  <abbr>Serv<hi rendition="#su">r</hi></abbr>
+                  <abbr>Serv<hi rendition="#su">r</hi>
+                        </abbr>
                   <expan>Serviteur</expan>
-               </choice></p>
-            <signed>Le <persName ref="#p.27"><roleName>Comte</roleName>
-                  <surname>de Palmella</surname></persName></signed>
-            <dateline><placeName ref="#loc.2">Paris</placeName> le <date when="1818-11-07">7
-                  Novembre 1818</date></dateline>
+               </choice>
+                </p>
+            <signed>Le <persName ref="#p.27">
+                        <roleName>Comte</roleName>
+                  <surname>de Palmella</surname>
+                    </persName>
+                </signed>
+            <dateline>
+                    <placeName ref="#loc.2">Paris</placeName> le <date when="1818-11-07">7
+                  Novembre 1818</date>
+                </dateline>
          </div>
       </body>
       <back>
          <include xmlns="http://www.w3.org/2001/XInclude" href="listPlace.xml" xpointer="listPlace"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="listPerson.xml"
-            xpointer="listPerson"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listPerson.xml" xpointer="listPerson"/>
          <include xmlns="http://www.w3.org/2001/XInclude" href="listWit.xml" xpointer="listWit"/>
          <include xmlns="http://www.w3.org/2001/XInclude" href="listOrg.xml" xpointer="listOrg"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="listTreaties.xml"
-            xpointer="listTreaties"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listTreaties.xml" xpointer="listTreaties"/>
       </back>
    </text>
 </TEI>

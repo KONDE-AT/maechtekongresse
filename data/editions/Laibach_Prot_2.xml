@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -12,10 +11,13 @@
                <persName>
                   <surname>Schneider</surname>
                   <forename>Karin</forename>
-               </persName></editor>
+               </persName>
+                </editor>
          </titleStmt>
          <editionStmt>
-            <edition><date>2017-03-13</date></edition>
+            <edition>
+                    <date>2017-03-13</date>
+                </edition>
          </editionStmt>
          <publicationStmt>
             <publisher>Österreichische Akademie der Wissenschaften, Institut für Neuzeit- und
@@ -53,11 +55,19 @@
 
                </physDesc>
                <history>
-                  <origin><placeName ref="#loc.65">Laibach</placeName><date when="1821-01-12">12.
-                        Jänner 1821</date></origin>
+                  <origin>
+                            <placeName ref="#loc.65">Laibach</placeName>
+                            <date when="1821-01-12">12.
+                        Jänner 1821</date>
+                        </origin>
                </history>
             </msDesc>
-            <listWit corresp="#m.1"><head>Journal</head><witness corresp="#w.37"><bibl type="print">Alberti, Atti, S. 402.</bibl></witness></listWit>
+            <listWit corresp="#m.1">
+                    <head>Journal</head>
+                    <witness corresp="#w.37">
+                        <bibl type="print">Alberti, Atti, S. 402.</bibl>
+                    </witness>
+                </listWit>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
@@ -76,13 +86,15 @@
       </encodingDesc>
       <profileDesc>
          <abstract>
-            <p>Der österreichische Außenminister <persName ref="#p.8"
-                  ><surname>Metternich</surname></persName> informiert über die Gespräche, die
-               zwischen dem <rs ref="#p.138">König beider Sizilien</rs> und den in <placeName
-                  ref="#loc.65">Laibach</placeName>/<placeName ref="#loc.65">Ljubljana</placeName>
+            <p>Der österreichische Außenminister <persName ref="#p.8">
+                        <surname>Metternich</surname>
+                    </persName> informiert über die Gespräche, die
+               zwischen dem <rs ref="#p.138">König beider Sizilien</rs> und den in <placeName ref="#loc.65">Laibach</placeName>/<placeName ref="#loc.65">Ljubljana</placeName>
                anwesenden <rs ref="#p.16 #p.18 #p.17">alliierten Monarchen</rs> stattgefunden haben.
-                  <persName ref="#p.140"><forename>Alvaro</forename>
-                  <surname>Ruffo</surname></persName> wird als Vertreter des <country>Königreichs
+                  <persName ref="#p.140">
+                        <forename>Alvaro</forename>
+                  <surname>Ruffo</surname>
+                    </persName> wird als Vertreter des <country>Königreichs
                   beider Sizilien</country> bei den Verhandlungen akzeptiert.</p>
          </abstract>
          <particDesc>
@@ -128,88 +140,123 @@
       <body>
          <div hand="#A" decls="#m.1">
             <pb n="9r"/>
-            <p><add place="top" hand="#AmB">1821 Kongreßakten 40 <unclear>IV 1 + 6
-               t</unclear></add></p>
-            <p><title>Journal des Conférences</title></p>
-            <p><title><choice>
-                     <abbr>N<hi rendition="#su">o</hi></abbr>
+            <p>
+                    <add place="top" hand="#AmB">1821 Kongreßakten 40 <unclear>IV 1 + 6
+               t</unclear>
+                    </add>
+                </p>
+            <p>
+                    <title>Journal des Conférences</title>
+                </p>
+            <p>
+                    <title>
+                        <choice>
+                     <abbr>N<hi rendition="#su">o</hi>
+                            </abbr>
                      <expan>Numéro</expan>
-                  </choice> 2.</title></p>
+                  </choice> 2.</title>
+                </p>
             <p>Conférence du <date when="1821-01-12">12 Janvier</date>.</p>
-            <p><choice>
-                  <abbr>M<hi rendition="#su">r</hi></abbr>
+            <p>
+                    <choice>
+                  <abbr>M<hi rendition="#su">r</hi>
+                        </abbr>
                   <expan>Monsieur</expan>
-               </choice> le <persName ref="#p.8"><roleName>Prince</roleName>
-                  <surname>de Metternich</surname></persName> a présenté à la Conférence un résumé
+               </choice> le <persName ref="#p.8">
+                        <roleName>Prince</roleName>
+                  <surname>de Metternich</surname>
+                    </persName> a présenté à la Conférence un résumé
                des communications qui, depuis l’arrivée du <rs ref="#p.138">Roi de Naples</rs> à
-                  <placeName ref="#loc.65">Laybach</placeName>, ont eu lieu entre <rs ref="#p.138"
-                  >Sa Majesté</rs> et <rs ref="#p.16 #p.18 #p.17">les Souverains alliés</rs>. <rs
-                  ref="#p.138"><choice>
+                  <placeName ref="#loc.65">Laybach</placeName>, ont eu lieu entre <rs ref="#p.138">Sa Majesté</rs> et <rs ref="#p.16 #p.18 #p.17">les Souverains alliés</rs>. <rs ref="#p.138">
+                        <choice>
                      <abbr>S. M.</abbr>
                      <expan>Sa Majesté</expan>
                   </choice> Sicilienne</rs> a demandé aux <rs ref="#p.16 #p.18 #p.17">Souverains
                   alliés</rs> de lui faire connaître leurs intentions relativement aux affaires de
                Son Royaume par <choice>
-                  <abbr>M<hi rendition="#su">r</hi></abbr>
+                  <abbr>M<hi rendition="#su">r</hi>
+                        </abbr>
                   <expan>Monsieur</expan>
-               </choice> le <persName ref="#p.142"><roleName>Duc</roleName>
-                  <surname>de Gallo</surname></persName> qu’Elle adresserait pour cet effet à la
+               </choice> le <persName ref="#p.142">
+                        <roleName>Duc</roleName>
+                  <surname>de Gallo</surname>
+                    </persName> qu’Elle adresserait pour cet effet à la
                Conférence de leurs plénipo<pb n="9v"/>tentiaires.</p>
-            <p>Il a été répondu à <rs ref="#p.138">Sa Majesté</rs> que <rs ref="#p.16 #p.18 #p.17"
-                  >les Souverains</rs> n’ayant pas reconnu et étant décidés à ne pas reconnaître le
+            <p>Il a été répondu à <rs ref="#p.138">Sa Majesté</rs> que <rs ref="#p.16 #p.18 #p.17">les Souverains</rs> n’ayant pas reconnu et étant décidés à ne pas reconnaître le
                Gouvernement actuellement établi à <country>Naples</country>, la Conférence ne
                pouvait traiter d’affaire ni avec <choice>
-                  <abbr>M<hi rendition="#su">r</hi></abbr>
+                  <abbr>M<hi rendition="#su">r</hi>
+                        </abbr>
                   <expan>Monsieur</expan>
-               </choice> le <persName ref="#p.142"><roleName>Duc</roleName>
-                  <surname>de Gallo</surname></persName>, ni avec aucun individu attaché par des
+               </choice> le <persName ref="#p.142">
+                        <roleName>Duc</roleName>
+                  <surname>de Gallo</surname>
+                    </persName>, ni avec aucun individu attaché par des
                places ou des fonctions au régime actuel.</p>
             <p>En suite de cette réponse le <rs ref="#p.138">Roi de Naples</rs> a fait annoncer aux
                   <rs ref="#p.16 #p.18 #p.17">Souverains</rs> que ne pouvant, après leur
                déclaration, proposer aucun autre organe pour entrer en communication régulière avec
                les Cabinets de Ses augustes Alliés, il allait charger de Ses ordres <choice>
-                  <abbr>M<hi rendition="#su">r</hi></abbr>
+                  <abbr>M<hi rendition="#su">r</hi>
+                        </abbr>
                   <expan>Monsieur</expan>
-               </choice> le <persName ref="#p.140"><roleName>Prince</roleName>
-                  <surname>de Ruffo</surname></persName> et le nommer Son Plénipotentiaire aux
+               </choice> le <persName ref="#p.140">
+                        <roleName>Prince</roleName>
+                  <surname>de Ruffo</surname>
+                    </persName> et le nommer Son Plénipotentiaire aux
                Conférences.</p>
-            <p><rs ref="#p.16 #p.18 #p.17">Les Souverains</rs> ont fait répondre à <rs ref="#p.138"
-                  >Sa Majesté</rs> que comme il n’y avait, de leur côté, aucune objection contre le
+            <p>
+                    <rs ref="#p.16 #p.18 #p.17">Les Souverains</rs> ont fait répondre à <rs ref="#p.138">Sa Majesté</rs> que comme il n’y avait, de leur côté, aucune objection contre le
                choix de <choice>
-                  <abbr>M<hi rendition="#su">r</hi></abbr>
+                  <abbr>M<hi rendition="#su">r</hi>
+                        </abbr>
                   <expan>Monsieur</expan>
-               </choice> le <persName ref="#p.140"><roleName>Prince</roleName>
-                  <surname>de Ruffo</surname></persName> qui, au contraire, ne pouvait que leur être
+               </choice> le <persName ref="#p.140">
+                        <roleName>Prince</roleName>
+                  <surname>de Ruffo</surname>
+                    </persName> qui, au contraire, ne pouvait que leur être
                agréable, <choice>
-                  <abbr>M<hi rendition="#su">r</hi></abbr>
+                  <abbr>M<hi rendition="#su">r</hi>
+                        </abbr>
                   <expan>Monsieur</expan>
-               </choice> le <persName ref="#p.140"><roleName>Prince</roleName>
-                  <surname>de Ruffo</surname></persName> serait sans difficulté admis aux
+               </choice> le <persName ref="#p.140">
+                        <roleName>Prince</roleName>
+                  <surname>de Ruffo</surname>
+                    </persName> serait sans difficulté admis aux
                Conférences de leurs Plénipotentiaires.</p>
             <p>En conséquence de ce résumé<pb n="10r"/> il a été conclu </p>
             <p>« Que <choice>
-                  <abbr>M<hi rendition="#su">r</hi></abbr>
+                  <abbr>M<hi rendition="#su">r</hi>
+                        </abbr>
                   <expan>Monsieur</expan>
-               </choice> le <persName ref="#p.140"><roleName>Prince</roleName>
-                  <surname>de Ruffo</surname></persName> sera invité à prendre part aux Conférences
+               </choice> le <persName ref="#p.140">
+                        <roleName>Prince</roleName>
+                  <surname>de Ruffo</surname>
+                    </persName> sera invité à prendre part aux Conférences
                à titre de Plénipotentiaire de <choice>
                   <abbr>S. M.</abbr>
                   <expan>Sa Majesté</expan>
                </choice> le <rs ref="#p.138">Roi des Deux-Siciles</rs>. »</p>
-            <p rendition="#r"><add hand="#G">Lu et Certifié</add></p>
-            <p rendition="#r"><add hand="#G">À la conférence du <date when="1821-01-13"
-                  >13</date></add></p>
-            <signed rendition="#r"><persName ref="#p.5"><surname>Gentz</surname></persName></signed>
+            <p rendition="#r">
+                    <add hand="#G">Lu et Certifié</add>
+                </p>
+            <p rendition="#r">
+                    <add hand="#G">À la conférence du <date when="1821-01-13">13</date>
+                    </add>
+                </p>
+            <signed rendition="#r">
+                    <persName ref="#p.5">
+                        <surname>Gentz</surname>
+                    </persName>
+                </signed>
          </div>
       </body>
       <back>
          <include xmlns="http://www.w3.org/2001/XInclude" href="listPlace.xml" xpointer="listPlace"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="listPerson.xml"
-            xpointer="listPerson"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listPerson.xml" xpointer="listPerson"/>
          <include xmlns="http://www.w3.org/2001/XInclude" href="listWit.xml" xpointer="listWit"/>
          <include xmlns="http://www.w3.org/2001/XInclude" href="listOrg.xml" xpointer="listOrg"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="listTreaties.xml"
-            xpointer="listTreaties"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listTreaties.xml" xpointer="listTreaties"/>
       </back>
    </text>
 </TEI>

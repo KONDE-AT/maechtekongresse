@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -12,10 +11,13 @@
                <persName>
                   <surname>Schneider</surname>
                   <forename>Karin</forename>
-               </persName></editor>
+               </persName>
+                </editor>
          </titleStmt>
          <editionStmt>
-            <edition><date>2015-05-08</date></edition>
+            <edition>
+                    <date>2015-05-08</date>
+                </edition>
          </editionStmt>
          <publicationStmt>
             <publisher>Österreichische Akademie der Wissenschaften, Institut für Neuzeit- und
@@ -43,7 +45,8 @@
                <physDesc>
 
                   <p> Eigenhändiges Protokoll von <persName ref="#p.5">
-                        <surname>Gentz</surname></persName>. </p>
+                        <surname>Gentz</surname>
+                            </persName>. </p>
                   <handDesc>
                      <handNote xml:id="G">Friedrich Gentz</handNote>
                      <handNote xml:id="W">Nikolaus Wacken</handNote>
@@ -51,8 +54,10 @@
                   </handDesc>
                </physDesc>
                <history>
-                  <origin><placeName ref="#loc.1">Aachen</placeName>
-                     <date when="1818-10-17">17. Oktober 1818</date></origin>
+                  <origin>
+                            <placeName ref="#loc.1">Aachen</placeName>
+                     <date when="1818-10-17">17. Oktober 1818</date>
+                        </origin>
                </history>
             </msDesc>
 
@@ -75,8 +80,10 @@
          <abstract>
             <p>Die <rs ref="#p.8 #p.10 #p.11 #p.13 #p.12 #p.14 #p.9 #p.1">Vertreter der Mächte</rs>
                ratifizieren die <rs ref="#t.10">Konvention vom <date when="1818-10-09">9. Oktober
-                     1818</date></rs> in vorläufiger Form und autorisieren damit <persName
-                  ref="#p.10"><surname>Wellington</surname></persName>, den Befehl für den
+                     1818</date>
+                    </rs> in vorläufiger Form und autorisieren damit <persName ref="#p.10">
+                        <surname>Wellington</surname>
+                    </persName>, den Befehl für den
                Truppenabzug zu erteilen.</p>
          </abstract>
          <particDesc>
@@ -116,12 +123,23 @@
       <body>
          <div hand="#G" decls="#m.1">
             <pb n="53r"/>
-            <p><add hand="#W" place="top">Protocole <del rendition="#s">11</del> 13.</add></p>
-            <p><add hand="#W"><placeName ref="#loc.1">Aix-la-Chapelle</placeName></add></p>
-            <p><add hand="#W">Le <date when="1818-10-17">17 Octobre 1818</date>.</add></p>
-            <p><add hand="#W" place="margin">(Entre des 5 Cabinets)</add></p>
+            <p>
+                    <add hand="#W" place="top">Protocole <del rendition="#s">11</del> 13.</add>
+                </p>
+            <p>
+                    <add hand="#W">
+                        <placeName ref="#loc.1">Aix-la-Chapelle</placeName>
+                    </add>
+                </p>
+            <p>
+                    <add hand="#W">Le <date when="1818-10-17">17 Octobre 1818</date>.</add>
+                </p>
+            <p>
+                    <add hand="#W" place="margin">(Entre des 5 Cabinets)</add>
+                </p>
             <p>Les ratifications du <rs ref="#t.10">Traité signé entre les Quatre Cours et la
-                     <country>France</country> le <date when="1818-10-09">9 de ce mois</date></rs>
+                     <country>France</country> le <date when="1818-10-09">9 de ce mois</date>
+                    </rs>
                relativement à l’évacuation du territoire Français n’ayant pas pu être expédiées
                jusqu’ici dans la forme régulière, on est convenu, pour accélérer autant que possible
                l’exécution des stipulations du dit Traité, d’en échanger les ratifications
@@ -129,52 +147,83 @@
                conséquence de quoi <choice>
                   <abbr>Mr.</abbr>
                   <expan>Monsieur</expan>
-               </choice> le <persName ref="#p.10"><roleName>Duc</roleName>
-                  <surname>de Wellington</surname></persName> a été autorisé à donner sans délai les
+               </choice> le <persName ref="#p.10">
+                        <roleName>Duc</roleName>
+                  <surname>de Wellington</surname>
+                    </persName> a été autorisé à donner sans délai les
                ordres nécessaires pour l’évacuation du Territoire Français par les troupes des
                puissances Alliées. </p>
             <signed>
                <list>
-                  <item><persName ref="#p.8"><choice>
+                  <item>
+                            <persName ref="#p.8">
+                                <choice>
                            <abbr>M</abbr>
                            <expan>Metternich</expan>
-                        </choice></persName></item>
-                  <item><persName ref="#p.1"><choice>
+                        </choice>
+                            </persName>
+                        </item>
+                  <item>
+                            <persName ref="#p.1">
+                                <choice>
                            <abbr>R</abbr>
                            <expan>Richelieu</expan>
-                        </choice></persName></item>
-                  <item><persName ref="#p.9"><choice>
+                        </choice>
+                            </persName>
+                        </item>
+                  <item>
+                            <persName ref="#p.9">
+                                <choice>
                            <abbr>C</abbr>
                            <expan>Castlereagh</expan>
-                        </choice></persName></item>
-                  <item><persName ref="#p.10"><choice>
+                        </choice>
+                            </persName>
+                        </item>
+                  <item>
+                            <persName ref="#p.10">
+                                <choice>
                            <abbr>W</abbr>
                            <expan>Wellington</expan>
-                        </choice></persName></item>
-                  <item><persName ref="#p.11"><choice>
+                        </choice>
+                            </persName>
+                        </item>
+                  <item>
+                            <persName ref="#p.11">
+                                <choice>
                            <abbr>H</abbr>
                            <expan>Hardenberg</expan>
-                        </choice></persName></item>
-                  <item><persName ref="#p.12"><choice>
+                        </choice>
+                            </persName>
+                        </item>
+                  <item>
+                            <persName ref="#p.12">
+                                <choice>
                            <abbr>B</abbr>
                            <expan>Bernstorff</expan>
-                        </choice></persName></item>
-                  <item><persName ref="#p.13"><choice>
+                        </choice>
+                            </persName>
+                        </item>
+                  <item>
+                            <persName ref="#p.13">
+                                <choice>
                            <abbr>N</abbr>
                            <expan>Nesselrode</expan>
-                        </choice></persName></item>
-                  <item><persName ref="#p.14">Capodistrias</persName></item>
-               </list></signed>
+                        </choice>
+                            </persName>
+                        </item>
+                  <item>
+                            <persName ref="#p.14">Capodistrias</persName>
+                        </item>
+               </list>
+                </signed>
          </div>
       </body>
       <back>
          <include xmlns="http://www.w3.org/2001/XInclude" href="listPlace.xml" xpointer="listPlace"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="listPerson.xml"
-            xpointer="listPerson"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listPerson.xml" xpointer="listPerson"/>
          <include xmlns="http://www.w3.org/2001/XInclude" href="listWit.xml" xpointer="listWit"/>
          <include xmlns="http://www.w3.org/2001/XInclude" href="listOrg.xml" xpointer="listOrg"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="listTreaties.xml"
-            xpointer="listTreaties"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listTreaties.xml" xpointer="listTreaties"/>
       </back>
    </text>
 </TEI>
