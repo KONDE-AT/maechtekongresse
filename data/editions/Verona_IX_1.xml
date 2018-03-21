@@ -1,0 +1,665 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">IX. Circulaire finale</title>
+            <title type="sub">Digitale Edition</title>
+            <editor>
+               <persName>
+                  <surname>Schneider</surname>
+                  <forename>Karin</forename>
+               </persName></editor>
+         </titleStmt>
+         <editionStmt>
+            <edition><date>2017-03-13</date></edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Österreichische Akademie der Wissenschaften, Institut für Neuzeit- und
+               Zeitgeschichtsforschung</publisher>
+            <pubPlace>Wien</pubPlace>
+            <idno>V_IX_1</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="m.1" type="Lithographie">
+               <msIdentifier>
+                  <settlement>Wien</settlement>
+                  <institution>ÖStA</institution>
+                  <collection>HHStA, Staatskanzlei, Kongressakten</collection>
+                  <idno>
+                     <idno type="Karton">Kart. 24</idno>
+                     <idno type="Faszikel"> Fasz. 44 (alt)</idno>
+                     <idno type="Folia">IX/24, 35-37, 40-43</idno>
+                  </idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <title>Circulaire final</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <p>Lithographie</p>
+                  <p>Das Schlusszirkular liegt mehrfach ein: Konzept, von <persName ref="#p.5"
+                           ><surname>Gentz</surname></persName> korrigiert, fol. IX/3–12;
+                     handschriftlich von <persName ref="#p.5"><surname>Gentz</surname></persName>,
+                     fol. IX/25–33; lithographierte Schlussfassung fol. IX/24 und 35–37, sowie fol.
+                     IX/40–43; deutsche Übersetzung fol. IX/14–23. Beiliegend kurzes
+                     Begleitschreiben an das diplomatische Personal (fol. IX/38), das folgende
+                     Passage enthält: "Il nous reste à ajouter une courte explication. Avant de
+                     quitter l’<country>Espagne</country>, les Agens des Cours d’Autriche, de Russie
+                     et de Prusse ont ordre de notifier au Ministère Espagnol qu’à moins que l’état
+                     actuel des choses ne change complètement, que le <rs ref="#p.150">Roi</rs> ne
+                     soit remis en pleine liberté et qu’Il ne reçoive le pouvoir de s’entourer des
+                     plus fidèles et des plus éclairés de Ses sujets pour donner à
+                        l’<country>Espagne</country> les lois que réclament ses véritables intérêts
+                     et ses vœux légitimes, les Cours de <placeName ref="#loc.7">Vienne</placeName>,
+                     de <placeName ref="#loc.10"><choice>
+                           <abbr>St</abbr>
+                           <expan>Saint</expan>
+                        </choice> Petersbourg</placeName> et de <placeName ref="#loc.9"
+                        >Berlin</placeName> ont résolu de rompre toute relation diplomatique avec le
+                     Gouvernement de fait séant à <placeName ref="#loc.24">Madrid</placeName>.</p>
+
+                  <handDesc>
+                     <handNote xml:id="A">Anonyme Hand</handNote>
+                     <handNote xml:id="A1">Weitere anonyme Hand</handNote>
+                     <handNote xml:id="G">Friedrich Gentz</handNote>
+                     <handNote xml:id="W">Nikolaus Wacken</handNote>
+                     <handNote xml:id="AmB">Anonyme Hand mit Bleistift</handNote>
+                     <handNote xml:id="AmR">Anonyme Hand mit Rotstift</handNote>
+                     <handNote xml:id="M">Metternich</handNote>
+                  </handDesc>
+
+               </physDesc>
+               <history>
+                  <origin><placeName ref="#loc.68">Verona</placeName><date when="1822-12-14">14.
+                        Dezember 1822</date></origin>
+               </history>
+            </msDesc>
+            <msDesc xml:id="m.2" type="Konzept">
+               <msIdentifier>
+                  <settlement>Wien</settlement>
+                  <institution>ÖStA</institution>
+                  <collection>HHStA, Staatskanzlei, Kongressakten</collection>
+                  <idno>
+                     <idno type="Karton">Kart. 24</idno>
+                     <idno type="Faszikel"> Fasz. 44 (alt)</idno>
+                     <idno type="Folia">IX/3–12, 25-33</idno>
+                  </idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <title>Circulaire final</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <p>Lithographie und Konzept</p>
+                  <p>Das Konzept liegt mehrfach ein: Konzept, von <persName ref="#p.5"
+                           ><surname>Gentz</surname></persName> korrigiert, fol. IX/3–12;
+                     handschriftlich von <persName ref="#p.5"><surname>Gentz</surname></persName>,
+                     fol. IX/25–33. Vermerk von anderer Hand auf fol. IX/3r: "<choice>
+                        <abbr>NB</abbr>
+                        <expan>Nota Bene</expan>
+                     </choice> : n’a pas été expédié". Beiliegend auch kurzes Begleitschreiben an
+                     das diplomatische Personal (fol. IX/38), das folgende Passage enthält: "Il nous
+                     reste à ajouter une courte explication. Avant de quitter
+                        l’<country>Espagne</country>, les Agens des Cours d’Autriche, de Russie et
+                     de Prusse ont ordre de notifier au Ministère Espagnol qu’à moins que l’état
+                     actuel des choses ne change complètement, que le <rs ref="#p.150">Roi</rs> ne
+                     soit remis en pleine liberté et qu’Il ne reçoive le pouvoir de s’entourer des
+                     plus fidèles et des plus éclairés de Ses sujets pour donner à
+                        l’<country>Espagne</country> les lois que réclament ses véritables intérêts
+                     et ses vœux légitimes, les Cours de <placeName ref="#loc.7">Vienne</placeName>,
+                     de <placeName ref="#loc.10"><choice>
+                           <abbr>St</abbr>
+                           <expan>Saint</expan>
+                        </choice> Petersbourg</placeName> et de <placeName ref="#loc.9"
+                        >Berlin</placeName> ont résolu de rompre toute relation diplomatique avec le
+                     Gouvernement de fait séant à <placeName ref="#loc.24">Madrid</placeName>.</p>
+
+               </physDesc>
+               <history>
+                  <origin><placeName ref="#loc.68">Verona</placeName></origin>
+               </history>
+            </msDesc>
+            <listWit corresp="#m.1">
+               <head>Circulaire finale</head>
+               <witness corresp="#w.8"><bibl type="print">Angeberg, Congrès, Bd. III, S. 1817–1818
+                     (unvollständig);</bibl></witness>
+               <witness corresp="#w.5"><bibl type="print">BFSP Bd. 10 (1822/23), S.
+                  921–925;</bibl></witness>
+               <witness corresp="#w.26"><bibl type="print">Diplomatisches Archiv/Archive
+                     diplomatique, Bd. 3, S. 538–544;</bibl></witness>
+               <witness corresp="#w.2"><bibl type="print">Grewe, Fontes, S.
+                  125–130;</bibl></witness>
+               <witness corresp="#w.14"><bibl type="print">Martens, Noveau Recueil, Bd. 6, S.
+                     195–201;</bibl></witness>
+               <witness corresp="#w.16"><bibl type="print">Meyer, Staats-Acten, S.
+                  291–296.</bibl></witness>
+            </listWit>
+
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <appInfo>
+            <application xml:id="docxtotei" ident="TEI_fromDOCX" version="2.15.0">
+               <label>DOCX to TEI</label>
+            </application>
+         </appInfo>
+         <styleDefDecl scheme="css"/>
+         <tagsDecl>
+            <rendition xml:id="su">superscript</rendition>
+            <rendition xml:id="s">strikethrough</rendition>
+            <rendition xml:id="u">underline</rendition>
+            <rendition xml:id="ow">overwritten</rendition>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <abstract>
+            <p>Zirkular an die an den deutschen und italienische Höfen akkreditierten
+               Bevollmächtigten Österreichs, Preußens, und Russlands, in welchem die Gesandten über
+               die Ergebnisse der Verhandlungen in <placeName ref="#loc.68">Verona</placeName>
+               informiert werden. Die an den deutschen und italienischen Höfen akkreditierten
+               Bevollmächtigen werden angewiesen, den Inhalt des Zirkulars bekannt zu machen und
+               gleichzeitig zu erklären, dass die <rs ref="#p.16 #p.18 #p.17">alliierten
+                  Monarchen</rs> auf die Unterstützung der Regierungen zählen.</p>
+         </abstract>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+
+         <div decls="#m.1">
+            <pb n="24r"/>
+            <p><add place="top" rendition="#u">Circulaire</add></p>
+            <p><placeName ref="#loc.68">Vérone</placeName> le <date when="1822-12-14">14 Décembre
+                  1822</date>.</p>
+
+            <p>Mon <supplied>...</supplied></p>
+            <p>Vous avez été instruit par les pièces qui Vous furent adressées au moment de la <ref
+                  type="Laibach_Prot_16.xml">clôture des Conférences de <placeName ref="#loc.65"
+                     >Laibach</placeName> au mois de Mai 1821</ref> que la réunion des <rs
+                  ref="#p.16 #p.18 #p.17">Monarques Alliés</rs> et de Leurs Cabinets se
+               renouvèlerait dans le courant de l’année 1822, et que l’on y prendrait en
+               considération le terme à fixer aux mesures qui, sur les propositions des Cours de
+                  <placeName ref="#loc.11">Naples</placeName> et de <placeName ref="#loc.64"
+                  >Turin</placeName>, et de l’aveu de toutes les Cours d’Italie, avaient été jugées
+               nécessaires pour raffermir la tranquillité de la Péninsule <rs xml:id="n.1">après les
+                  funestes évènemens des années 1820 et 1821</rs>.<note type="editorial"
+                  target="#n.1">Am <date when="1820-07-02">2. Juli 1820</date> meuterte die
+                  Militärgarnison in Nola, 35 km von <placeName ref="#loc.11">Neapel</placeName>
+                  entfernt. Das Datum gilt als Beginn der Revolution im <country>Königreich beider
+                     Sizilien</country>. Vgl. Stites, The four Horsemen; Davis, Naples and Napoleon;
+                  Gin, Sanfedisti, Carbonari, Magistrati del Re; Späth, Revolution in Europa, S.
+                  129–149. Zur Reaktion der Großmächte vgl. zuletzt Jarrett, The Congress of Vienna,
+                  S. 248–285 sowie die Editionen der Dokumente der Kongresse von Troppau und
+                  Laibach. Im März 1821 war im <country>Königreich Sardinien-Piemont</country> eine
+                  Revolution ausgebrochen, die rasch durch österreichische Truppen niedergeschlagen
+                  wurde. Vgl. Späth, Revolution in Europa, S. 150–165; Broers, Napoleonic
+                  Imperialism; Jarrett, The Congress of Vienna, S. 270–284. </note>
+            </p>
+            <p>Cette réunion vient d’avoir lieu, et nous allons Vous en faire connaître les
+               principaux résultats.</p>
+            <p>D’après la <rs ref="#t.46">Convention signée à <placeName ref="#loc.73"
+                     >Novare</placeName> le <date when="1821-07-24">24 Juillet 1821</date></rs>,
+               l’occupation d’une ligne militaire dans le <country>Piémont</country> par un corps de
+               troupes auxiliaires avait été éventuellement fixée à une année de durée, sauf à
+               examiner lors de la réunion de 1822 si la situation du Pays permettrait de la faire
+               cesser ou rendrait nécessaire de la prolonger.</p>
+            <p>Les Plénipotentiaires des Cours signataires de la <rs ref="#t.46">Convention de
+                     <placeName ref="#loc.73">Novare</placeName></rs> se sont livrés à cet examen
+               conjointement avec le <rs ref="#p.182">Plénipotentiaire de <choice>
+                     <abbr>S. M.</abbr>
+                     <expan>Sa Majesté</expan>
+                  </choice> le <rs ref="#p.172">Roi de Sardaigne</rs></rs> ; et il a été reconnu que
+               l’assistance d’une force alliée n’était plus nécessaire pour le maintien de la
+               tranquillité du <country>Piémont</country>. <choice>
+                  <abbr>S. M.</abbr>
+                  <expan>Sa Majesté</expan>
+               </choice> le <rs ref="#p.172">Roi de Sardaigne</rs> ayant indiqué Elle-même les
+               termes qu’Elle jugeait convenable de fixer pour la retraite successive des Troupes
+               auxiliaires, les <rs ref="#p.16 #p.18 #p.17">Souverains alliés</rs> ont accédé à Ses
+               propositions, <ref target="Verona_II_1.xml">et il a été arrêté par une <rs
+                     ref="#t.47">nouvelle Convention</rs> que la sortie de ces troupes du
+                     <country>Piémont</country> commencerait dès le <date when="1822-12-31">31
+                     Décembre de l’année présente</date>, et serait définitivement terminée par<pb
+                     n="24v"/> la remise de la forteresse d’<placeName ref="#loc.74"
+                     >Alessandrie</placeName> au <date when="1823-09-30">30 Septembre
+                  1823</date></ref>.</p>
+            <p>D’un autre côté, <choice>
+                  <abbr>S. M.</abbr>
+                  <expan>Sa Majesté</expan>
+               </choice> le <rs ref="#p.138">Roi des Deux-Siciles</rs> a fait déclarer aux Trois
+               Cours qui avaient eu part à la <rs ref="#t.48">Convention signée à <placeName
+                     ref="#loc.11">Naples</placeName> le <date when="1821-10-18">18
+                  Octobre</date></rs> que l’état actuel de Son pays Lui permettait de proposer une
+               diminution dans le nombre des Troupes auxiliaires stationnées dans différentes
+               parties du Royaume. <ref target="Verona_II_3.xml">Les <rs ref="#p.16 #p.18 #p.17"
+                     >Souverains Alliés</rs> n’ont pas hésité à se prêter à cette proposition ; et
+                  l’armée d’occupation du <country>Royaume des Deux-Siciles</country> sera dans le
+                  plus court délai diminuée de dix-sept mille hommes.</ref>
+            </p>
+            <p>Ainsi s’est réalisée, autant que les évènemens ont répondu aux vœux des Monarques, la
+               déclaration faite au moment de la clôture du Congrès de <placeName ref="#loc.65"
+                  >Laibach</placeName> : <ref target="Laibach_Prot_16.xml"><quote>« Que loin de
+                     vouloir prolonger au-delà des limites d’une stricte nécessité Leur intervention
+                     dans les affaires d’Italie, <rs ref="#p.16 #p.18 #p.17">Leurs Majestés</rs>
+                     désiraient bien sincèrement que l’état des choses qui Leur avait imposé ce
+                     pénible devoir, vînt à cesser le plutôt possible et ne se reproduisit
+                     jamais. »</quote></ref> – Ainsi s’évanouissent les fausses alarmes, les
+               interprétations hostiles, les prédictions sinistres que l’ignorance et la mauvaise
+               foi avaient fait retentir en Europe pour égarer l’opinion des peuples sur les
+               intentions franches et loyales des <rs ref="#p.16 #p.18 #p.17">Monarques</rs> !
+               Aucune vue secrète, aucun calcul d’ambition ni d’intérêt n’avait eu part aux
+               résolutions qu’une nécessité impérieuse Leur avait dictée en 1821 ; résister à la
+               révolution ; prévenir les désordres, les crimes, les calamités innombrables qu’elle
+               appellait sur l’Italie toute entière ; y rétablir l’ordre et la paix ; fournir aux
+               Gouvernemens légitimes l’appui qu’ils étaient en droit de réclamer – tel a été
+               l’unique objet des pensées et des efforts des <rs ref="#p.16 #p.18 #p.17"
+                  >Monarques</rs>. À mesure que cet objet s’accomplit, Ils retirent et retireront
+               des secours qu’un besoin trop réel avait seul pu provoquer et justifier ; heureux de
+                  pouvoir<pb n="35r"/> abandonner aux Princes que la Providence en a chargés, le
+               soin de veiller à la sûreté et à la tranquillité de Leurs peuples, et d’enlever ainsi
+               à la malveillance jusqu’au dernier prétexte dont elle ait pu se servir pour répandre
+               des doutes sur l’indépendance des Souverains de l’Italie.</p>
+            <p>Le but du Congrès de <placeName ref="#loc.68">Vérone</placeName>, tel qu’un
+               engagement positif l’avait désigné, aurait été rempli par les résolutions adoptées
+               pour le soulagement de l’Italie. Mais les <rs ref="#p.16 #p.18 #p.17">Souverains</rs>
+               et les Cabinets réunis n’ont pu se dispenser de porter leurs regards sur deux graves
+               complications dont le développement les avait constamment occupés depuis la réunion
+               de <placeName ref="#loc.65">Laibach</placeName>.</p>
+            <p>Un évènement d’une importance majeure avait éclaté vers la fin de cette dernière
+               réunion. Ce que le génie révolutionnaire avait commencé dans la Péninsule
+               Occidentale, ce qu’il avait tenté en Italie, <rs xml:id="n.2">il était parvenu à
+                  l’exécuter aux extrémités orientales de l’Europe</rs>.<note type="editorial"
+                  target="#n.2">1821 begann der Griechische Unabhängigkeitskrieg gegen die
+                  Osmanische Herrschaft; vgl. Dakin, The Greek Struggle; Clogg, Movement for Greek
+                  Independence. </note> À l’époque même où les révoltes militaires de <placeName
+                  ref="#loc.11">Naples</placeName> et de <placeName ref="#loc.64">Turin</placeName>
+               cédèrent à l’approche d’une force régulière, le brandon de l’insurrection fut lancé
+               au milieu de l’<country>Empire Ottoman</country>. La coïncidence des évènemens ne
+               pouvait laisser aucun doute sur l’identité de leur origine. Le même mal se
+               reproduisant sur tant de points divers et toujours avec des formes et un langage
+               analogues, quoique sous des prétextes différens, trahissait trop évidemment le foyer
+               commun d’où il était sorti. Les hommes qui avaient dirigé ce mouvement s’étaient
+               flattés d’en tirer parti pour semer la division dans les conseils des Puissances, et
+               pour neutraliser les forces que de nouveaux dangers pouvaient appeler sur d’autres
+               points de l’Europe. Cet espoir fut trompé. Les <rs ref="#p.16 #p.18 #p.17"
+                  >Monarques</rs>, décidés à repousser le principe de la révolte en quelque lieu et
+               sous quelque forme qu’il se montrât, se hâtèrent de le frapper d’une égale et unanime
+               réprobation. Invariablement occupés du grand<pb n="35v"/> objet de Leurs sollicitudes
+               communes, Ils surent résister à toute considération qui aurait pu les détourner de
+               leur route ; mais écoutant en même temps la voix de Leur conscience et d’un devoir
+               sacré, Ils plaidèrent la cause de l’humanité, en faveur des victimes d’une entreprise
+               aussi irréfléchie que coupable.</p>
+            <p>Les nombreuses communications confidentielles, qui ont eu lieu entre les cinq Cours
+               pendant cette époque, une des plus mémorables de leur Alliance, ayant placé les
+               questions de l’Orient sur une base d’unanimité et d’accord complètement
+               satisfaisante, Leur réunion à <placeName ref="#loc.68">Vérone</placeName> n’a eu qu’à
+               consacrer et à confirmer ces résultats, et <ref
+                  target="Verona_III_1.xml Verona_III_2.xml Verona_III_3.xml">les Puissances amies
+                  de la <country>Russie</country> peuvent se flatter qu’elle feront disparaître par
+                  des démarches communes les obstacles qui ont pu retarder l’accomplissement
+                  définitif de Leurs vœux</ref>. </p>
+            <p>D’autres évènemens dignes de toute la sollicitude des <rs ref="#p.16 #p.18 #p.17"
+                  >Monarques</rs> ont fixé Leurs vues sur la position déplorable de la Péninsule
+               occidentale de l’Europe.</p>
+            <p><rs xml:id="n.3">L’<country>Espagne</country> subit le sort réservé à tous les pays
+                  qui ont eu le malheur de chercher le bien dans les voies qui n’y conduisent
+                  jamais. Elle parcourt aujourd’hui le cercle fatal de sa révolution ; d’une
+                  révolution que des hommes égarés ou pervers ont prétendu représenter comme un
+                  bienfait, comme le triomphe même d’un siècle de lumières.</rs><note
+                  type="editorial" target="#n.3">Zur Revolution in <country>Spanien</country>, die
+                  mit einem Militäraufstand am <date when="1820-01-01">1. Jänner 1820</date> ihren
+                  Anfang nahm, vgl. Späth, Revolution in Europa, S. 117–128. </note> Tous les
+               Gouvernemens ont été témoins des efforts que ces hommes ont faits pour persuader à
+               Leurs contemporains que cette révolution était le fruit nécessaire et heureux des
+               progrès de la civilisation, et le moyen par lequel elle a été opérée et soutenue le
+               plus bel élan d’un patriotisme généreux. Si la civilisation pouvait avoir pour but la
+               destruction de la Société, et s’il était permis d’admettre que la force militaire pût
+               s’emparer impunément de la direction des Empires dont elle n’est appelée qu’à
+               maintenir la paix intérieure et extérieure,<pb n="36r"/> certes, la révolution
+               Espagnole aurait des titres à l’admiration des siècles, et la révolte militaire de
+               l’île de Léon pourrait servir de modèle aux réformateurs. Mais la vérité n’a pas
+               tardé à reprendre ses droits, et l’<country>Espagne</country> a fourni aux dépens de
+               son bonheur et de sa gloire un triste exemple de plus des conséquences infaillibles
+               de tout attentat contre les lois éternelles du monde moral.</p>
+            <p>Le pouvoir légitime enchaîné et servant lui-même d’instrument pour renverser tous les
+               droits et toutes les libertés légales ; toutes les classes de la population
+               bouleversées par le mouvement révolutionnaire ; l’arbitraire et l’oppression exercés
+               sous les formes de la loi ; un Royaume livré à tous les genres de convulsion et de
+               désordre ; de riches colonies justifiant leur émancipation par les mêmes maximes sur
+               lesquelles la mère patrie a fondé son droit public, et qu’elle tenterait en vain de
+               condamner dans un autre hémisphère ; la guerre civile consumant les dernières
+               ressources de l’Etat – tel est le tableau que nous présente la situation actuelle de
+                  l’<country>Espagne</country> ; tels sont les malheurs qui affligent un peuple
+               loyal et digne d’un meilleur sort ; telle est enfin la cause directe des justes
+               inquiétudes que tant d’élémens réunis de troubles et de confusion ont dû inspirer aux
+               pays immédiatement en contact avec la Péninsule. Si jamais il s’est élevé au sein de
+               la civilisation une Puissance ennemie des principes conservateurs, ennemie surtout de
+               ceux qui font la base de l’Alliance Européenne, c’est l’<country>Espagne</country>
+               dans sa désorganisation présente.</p>
+            <p>Les <rs ref="#p.16 #p.18 #p.17">Monarques</rs> auraient-Ils pu contempler avec
+               indifférence tant de maux accumulés sur un pays, et accompagnés de tant de dangers
+               pour les autres ? N’ayant à consulter dans cette grave question que leur propre
+               jugement et Leur propre conscience, Ils ont dû se demander<pb n="36v"/> si, dans un
+               état de choses que chaque jour menace de rendre plus cruel et plus alarmant, il leur
+               était permis de rester spectateurs tranquilles, de prêter même par la présence de
+               leurs Représentans la fausse couleur d’une approbation tacite aux actes d’une faction
+               déterminée à tout entreprendre pour conserver son funeste pouvoir. Leur décision n’a
+               pu être douteuse. <ref
+                  target="Verona_I_19.xml Verona_I_20.xml Verona_I_21.xml Verona_I_22.xml">Leurs
+                  Missions ont reçu l’ordre de quitter la Péninsule.</ref>
+            </p>
+            <p>Quelques puissent être les suites de cette démarche, les <rs ref="#p.16 #p.18 #p.17"
+                  >Monarques</rs> auront prouvé à l’Europe que rien ne peut Les engager à reculer
+               devant une détermination sanctionnée par Leur conviction intime. Plus, Ils vouent
+               d’amitié à <rs ref="#p.150" xml:id="n.4"><choice>
+                     <abbr>S. M.</abbr>
+                     <expan>Sa Majesté</expan>
+                  </choice> Catholique</rs><note type="editorial" target="#n.4">Ehrentitel des
+                  Königs von Spanien.</note> et d’intérêt au bien-être d’une Nation que tant de
+               vertus et de grandeur ont distinguée dans plus d’une époque de son histoire, et plus
+               Ils ont senti la nécessité de prendre le parti auquel Ils se sont arrêtés, et qu’Ils
+               sauront soutenir.</p>
+            <p>Vous Vous convaincrez par le précédent Exposé que les principes qui ont constamment
+               guidé les <rs ref="#p.16 #p.18 #p.17">Monarques</rs> dans les grandes questions
+               d’ordre et de stabilité auxquelles les évènemens de nos jours ont donné une si haute
+               importance, n’ont point été démentis dans leurs dernières transactions. Leur union,
+               essentiellement fondée sur ces principes loin de s’affaiblir, acquiert d’époque en
+               époque plus de cohésion et de force. Il serait superflu de venger encore la loyauté
+               et la bienveillance de leurs intentions contre de méprisables calomnies que chaque
+               jour l’évidence des faits réduit à leur juste valeur. L’Europe entière doit enfin
+               reconnaître que la marche suivie par les <rs ref="#p.16 #p.18 #p.17">Monarques</rs>
+               est également en harmonie avec l’indépendance et la force des Gouvernemens, et avec
+               les intérêts bien-entendus des peuples. Ils ne regardent comme ennemis<pb n="37r"/>
+               que ceux qui conspirent contre l’autorité légitime des uns, et en imposent à la bonne
+               foi des autres pour les entraîner dans un abîme commun. Les vœux des <rs
+                  ref="#p.16 #p.18 #p.17">Monarques</rs> ne sont dirigés que vers la paix ; mais
+               cette paix, bien que solidement établie entre les Puissances, ne peut répandre sur la
+               Société la plénitude de ses bienfaits, tant que la fermentation qui agite encore les
+               esprits dans plus d’un pays sera entretenue par les suggestions perfides et par les
+               tentatives criminelles d’une faction qui ne veut que révolutions et bouleversemens ;
+               tant que les Chefs et les instrumens de cette faction, soit qu’ils marchent à front
+               découvert attaquant les trônes et les institutions, soit qu’ils travaillent dans les
+               ténèbres, organisant des projets sinistres, préparant des complots ou empoisonnant
+               l’opinion publique, ne cesseront de tourmenter les peuples par le tableau sombre et
+               mensonger du présent et par des alarmes chimériques sur l’avenir. Les mesures les
+               plus sages des Gouvernemens ne prospéreront, les améliorations les mieux combinées ne
+               seront couronnées de succès, la confiance enfin ne renaîtra parmi les hommes que
+               lorsque ces fauteurs de trames odieuses seront réduits à une impuissance complète ;
+               et les Monarques ne croiront point avoir rempli leur noble tâche avant de leur avoir
+               arraché les armes qu’ils pourraient tourner contre la tranquillité du monde.</p>
+            <p>En faisant part au Cabinet près duquel Vous êtes accrédité des notions et des
+               déclarations que renferme la présente pièce, Vous aurez soin de rappeler en même
+               temps ce que les <rs ref="#p.16 #p.18 #p.17">Monarques</rs> regardent comme la
+               condition indispensable de l’accomplissement de Leurs vues bienveillantes. Pour
+               assurer à l’Europe, avec la paix dont elle jouit sous l’égide des traités, cet état
+               de calme et de stabilité hors duquel il n’y a pas de vrai bonheur<pb n="37v"/> pour
+               les Nations, Ils doivent compter sur l’appui sincère et constant de tous les
+               Gouvernemens. C’est au nom de leurs premiers intérêts, c’est au nom de la
+               conservation de l’ordre social et au nom des générations futures qu’Ils le réclament.
+               Qu’ils soient tous pénétrés de cette grande vérité que le pouvoir remis entre Leurs
+               mains est un dépôt sacré dont Ils ont à rendre compte et à Leurs peuples et à la
+               postérité, et qu’Ils encourent une responsabilité sévère en se livrant à des erreurs,
+               ou en écoutant des conseils qui tôt ou tard les mettraient dans l’impossibilité de
+               sauver Leurs sujets des malheurs qu’Ils Leur auraient préparés Eux-mêmes. Les <rs
+                  ref="#p.16 #p.18 #p.17">Monarques</rs> aiment à croire que partout Ils trouveront
+               dans ceux qui sont appelés à exercer l’autorité suprême, sous quelque forme que ce
+               soit, de véritables Alliés ; des Alliés ne respectant pas moins l’esprit et les
+               principes que la lettre et les stipulations positives des actes qui forment
+               aujourd’hui la base du sistème Européen ; et Ils se flattent que Leurs paroles seront
+               regardées comme un nouveau gage de Leur résolution ferme et invariable de consacrer
+               au salut de l’Europe tous les moyens que la Providence a mis à Leur disposition.</p>
+            <p>Recevez, <choice>
+                  <abbr>Mon</abbr>
+                  <expan>Monsieur</expan>
+               </choice>
+               <supplied>...</supplied> l’assurance de <supplied>...</supplied></p>
+         </div>
+         <div decls="#m.2" hand="#G">
+            <pb n="25r"/>
+            <p><title>Projet de Dépêche circulaire aux Ministres d’Autriche, de Russie et de Prusse
+                  près les Cours d’Allemagne et d’Italie</title></p>
+            <p><add place="margin" hand="#A"><choice>
+                     <abbr>NB</abbr>
+                     <expan>Nota Bene</expan>
+                  </choice>: n'a pas été expédié.</add></p>
+            <p>Vous avez été instruit par les pièces qui Vous furent adressées au moment de la <ref
+                  type="Laibach_Prot_16.xml">clôture des Conférences de <placeName ref="#loc.65"
+                     >Laibach</placeName> au mois de Mai 1821</ref> que la réunion des <rs
+                  ref="#p.16 #p.18 #p.17">Monarques Alliés</rs> et de Leurs Cabinets se
+               renouvelleroit dans le courant de l’année 1822, et que l’on y prendroit en
+               considération le terme à fixer aux mesures qui, sur les propositions des cours de
+                  <placeName ref="#loc.11">Naples</placeName> et de <placeName ref="#loc.64"
+                  >Turin</placeName>, et de l’aveu de toutes les cours d’Italie, avoient été jugées
+               nécessaires pour raffermir la tranquillité de la Péninsule après <rs xml:id="n.5">les
+                  funestes évènemens des années 1820 et 1821.</rs><note type="editorial"
+                  target="#n.5">Am <date when="1820-07-02">2. Juli 1820</date> meuterte die
+                  Militärgarnison in Nola, 35 km von <placeName ref="#loc.11">Neapel</placeName>
+                  entfernt. Das Datum gilt als Beginn der Revolution im <country>Königreich beider
+                     Sizilien</country>. Vgl. Stites, The four Horsemen; Davis, Naples and Napoleon;
+                  Gin, Sanfedisti, Carbonari, Magistrati del Re; Späth, Revolution in Europa, S.
+                  129–149. Zur Reaktion der Großmächte vgl. zuletzt Jarrett, The Congress of Vienna,
+                  S. 248–285 sowie die Editionen der Dokumente der Kongresse von Troppau und
+                  Laibach. Im März 1821 war im <country>Königreich Sardinien-Piemont</country> eine
+                  Revolution ausgebrochen, die rasch durch österreichische Truppen niedergeschlagen
+                  wurde. Vgl. Späth, Revolution in Europa, S. 150–165; Broers, Napoleonic
+                  Imperialism; Jarrett, The Congress of Vienna, S. 270–284. </note>
+            </p>
+            <p>Cette réunion vient d’avoir lieu, et nous allons Vous en faire connoître les
+               principaux résultats.</p>
+            <p>D’après la <rs ref="#t.46">convention<pb n="25v"/> signée à <placeName ref="#loc.73"
+                     >Novare</placeName> le <date when="1821-07-24">24 Juillet 1821</date></rs>,
+               l’occupation d’une ligne militaire dans le <country>Piémont</country> par un corps de
+               troupes auxiliaires avoit été éventuellement fixée à une année de durée, sauf à
+               examiner lors de la réunion de 1822 si la situation du pays permettroit de la faire
+               cesser ou rendroit nécessaire de la prolonger.</p>
+            <p><ref target="Verona_II_1.xml"><choice>
+                     <abbr>S. M.</abbr>
+                     <expan>Sa Majesté</expan>
+                  </choice> le <rs ref="#p.172">Roi de Sardaigne</rs> a fait mettre sous les yeux
+                  des <rs ref="#p.16 #p.18 #p.17">Souverains Alliés</rs> l’exposé complet de la
+                  situation militaire, morale, et administrative du
+                  <country>Piémont</country>.</ref>
+               <rs ref="#p.16 #p.18 #p.17">Leurs Majestés</rs> y ont vu avec une vive satisfaction
+               les progrès d’une restauration qu’Elles appeloient de tous Leurs vœux ; Elles ont
+               reconnu que l’assistance d’une force alliée n’étoit plus<pb n="26r"/> nécessaire pour
+               le maintien de la tranquillité dans les Etats Sardes. <choice>
+                  <abbr>S. M.</abbr>
+                  <expan>Sa Majesté</expan>
+               </choice> le <rs ref="#p.172">Roi de Sardaigne</rs> ayant indiqué Elle-même les
+               termes qu’Elle jugeoit convenable de fixer pour la retraite successive des troupes
+               auxiliaires, les Souverains Alliés ont accédé à Ses propositions, <ref
+                  target="Verona_II_1.xml">et il a été arrêté par <rs ref="#t.47">une nouvelle
+                     convention</rs> que la sortie de ces troupes du <country>Piémont</country>
+                  commenceroit dès le <date when="1822-12-31">31 Décembre de l’année
+                  présente</date>, et seroit définitivement terminée au <date when="1823-09-30">30
+                     Septembre 1823</date></ref>.</p>
+            <p>D’un autre côté, <choice>
+                  <abbr>S. M.</abbr>
+                  <expan>Sa Majesté</expan>
+               </choice> le <rs ref="#p.138">Roi des Deux-Siciles</rs> a fait déclarer aux Trois
+               Cours qui avoient eu part à la <rs ref="#t.48">convention signée à <placeName
+                     ref="#loc.11">Naples</placeName> le <date when="1821-10-18">18 Octobre
+                     1821</date></rs>, que l’état actuel de Son pays Lui permettoit de proposer une
+               diminution dans le nombre des troupes auxiliaires, stati<pb n="26v"/>onnées dans
+               différentes parties du Royaume. <ref target="Verona_II_3.xml">Les <rs
+                     ref="#p.16 #p.18 #p.17">Souverains Alliés</rs> n’ont pas hésité à se prêter à
+                  cette proposition ; et l’armée d’occupation du <country>Royaume des
+                     Deux-Siciles</country> sera dans le plus court délai possible réduite à
+                  Trente-Cinq Mille hommes.</ref>
+            </p>
+            <p>C’est ainsi que s’est réalisée, autant que les évènemens ont répondu aux vœux des <rs
+                  ref="#p.16 #p.18 #p.17">Monarques</rs>, la déclaration faite au moment de la
+               clôture du Congrès de <placeName ref="#loc.65">Laybach</placeName> : <ref
+                  target="Laibach_Prot_16.xml"><quote>« Que loin de vouloir prolonger au-delà des
+                     limites d’une stricte nécessité Leur intervention dans les affaires d’Italie,
+                     Leurs Majestés désiroient bien sincèrement que l’état des choses qui Leur avoit
+                     imposé ce pénible devoir, vînt à cesser le plutôt possible, et ne se
+                     reproduisit jamais. »</quote></ref> – C’est ainsi que s’évanouissent<pb n="27r"
+               /> les fausses alarmes, les interprétations hostiles, les prédictions sinistres que
+               l’ignorance et la mauvaise foi avoient fait retenir en Europe pour égarer l’opinion
+               des peuples sur les intentions franches et loyales des <rs ref="#p.16 #p.18 #p.17"
+                  >Monarques Alliés</rs> ! Aucune vue sécrète, aucun calcul d’ambition ni d’intérêt
+               n’avoit eu part aux résolutions qu’une nécessité impérieuse Leur dicta en 1821 ;
+               résister à la révolution, prévenir les désordres, les crimes, les calamités
+               innombrables qu’elle préparoit à l’Italie toute entière ; rétablir l’ordre et la
+               paix ; fournir aux gouvernemens légitimes l’appui qu’ils étoient en droit de réclamer
+               – tel fut l’unique objet des pensées et des efforts des <rs ref="#p.16 #p.18 #p.17"
+                  >Monarques</rs>. À mesure que cet objet s’accomplit, Ils retirent et continueront
+               à retirer des secours qu’un besoin réel<pb n="27v"/> avoit seul pu provoquer et
+               justifier ; heureux de pouvoir abandonner aux Princes que la Providence en a chargés,
+               le soin de veiller à la sureté et à la tranquillité de Leurs peuples, et d’ôter ainsi
+               à la malveillance jusqu’au dernier prétexte dont elle ait pu se servir pour répondre
+               des doutes et des soupçons sur l’indépendance des Souverains de l’Italie.</p>
+            <p>Le but du Congrès de <placeName ref="#loc.68">Vérone</placeName>, tel qu’un
+               engagement positif l’avoit désigné, eut été rempli par les résolutions adoptées dans
+               l’intérêt du bien-être de l’Italie. Mais les <rs ref="#p.16 #p.18 #p.17"
+                  >Souverains</rs> et les Cabinets réunis n’ont pu se refuser à porter leurs regards
+               sur deux complications graves dont le développement les avoit con<pb n="28r"
+               />stamment occupés depuis la réunion de <placeName ref="#loc.65"
+               >Laybach</placeName>.</p>
+            <p>Un évènement d’une conséquence majeure avoit éclaté vers la fin de cette dernière
+               réunion. Ce que le génie révolutionnaire avoit commencé dans la Péninsule
+               Occidentale, ce qu’il avoit conçu et entrepris en Italie, <rs xml:id="n.6">il parvint
+                  encore à l’exécuter aux extrémités orientales de l’Europe.</rs><note
+                  type="editorial" target="#n.6">1821 begann der Griechische Unabhängigkeitskrieg
+                  gegen die Osmanische Herrschaft; vgl. Dakin, The Greek Struggle; Clogg, Movement
+                  for Greek Independence.</note> À l’époque même où les révoltes militaires de
+                  <placeName ref="#loc.11">Naples</placeName> et de <placeName ref="#loc.64"
+                  >Turin</placeName> cédèrent à l’approche d’une force régulière, le brandon de
+               l’insurrection se trouva jetté dans l’<country>Empire Ottoman</country>. La
+               coïncidence des évènemens ne pouvoit laisser aucun doute sur l’identité de leur
+               origine. Le même mal se reproduisant sur tant de points à la fois, et partout,
+               quoique sous<pb n="28v"/> des prétextes différens, avec des formes et un langage
+               entièrement analogues, trahissoit trop évidemment le foyer commun d’où il étoit
+               sorti. La faction qui avoit préparé et dirigé ce nouveau mouvement s’étoit flattée
+               d’y trouver le moyen de semer la division dans les conseils des puissances, et de
+               détourner leur attention des projets qui se trâmoient sur d’autres points de
+               l’Europe. Son calcul fut trompé. Les <rs ref="#p.16 #p.18 #p.17">Monarques</rs>,
+               décidés à repousser le principe de la révolte dans quelque lieu et dans quelque forme
+               qu’il peut se montrer, condamnèrent l’ouvrage dès qu’Ils reconnurent les mains qui
+               l’avoient créé. Invariablement occupés du grand objet de leurs sollicitudes
+                  communes,<pb n="29r"/> Ils ne se permirent point de céder à des considérations qui
+               eussent pu les conduire dans des routes différentes : Ils se bornèrent à écouter dans
+               cette terrible catastrophe la voix de leur conscience et d’un devoir sacré ; Ils
+               soutirèrent les droits et plaidèrent la cause des malheureuses victimes d’une
+               entreprise aussi insensée que coupable.</p>
+            <p>Les nombreuses communications confidentielles, qui ont eu lieu entre les cinq Cours
+               pendant une des époques les plus mémorables de leur alliance, <ref
+                  target="Verona_III_1.xml Verona_III_2.xml Verona_III_3.xml">ayant placé les
+                  questions de l’orient sur une base d’unanimité et d’accord complètement
+                  satisfaisante, leur réunion à <placeName ref="#loc.68">Vérone</placeName> n’a eu
+                  qu’à consacrer et à confirmer ces résultats, et Elles se flattent de faire
+                  disparoître par les démarches communes les obstacles<pb n="29v"/> qui ont pu
+                  encore retarder l’accomplissement définitif de leurs vœux</ref>. </p>
+            <p>Un autre objet digne de fixer toute la sollicitude des <rs ref="#p.16 #p.18 #p.17"
+                  >Monarques</rs> et des cabinets leur a été offert par la position déplorable des
+               choses dans la Péninsule occidentale de l’Europe.</p>
+            <p><rs xml:id="n.7">L’<country>Espagne</country>, condamnée à subir le sort réservé à
+                  toutes les révolutions, parcourt maintenant les phases funestes de la sienne ;
+                  d’une révolution que des hommes égarés ou pervers ont prétendu représenter aux
+                  peuples de l’Europe comme un bienfait, comme le triomphe même d’un siècle de
+                  lumières.</rs><note type="editorial" target="#n.7">Zur Revolution in
+                     <country>Spanien</country>, die mit einem Militäraufstand am <date
+                     when="1820-01-01">1. Jänner 1820</date> ihren Anfang nahm, vgl. Späth,
+                  Revolution in Europa, S. 117–128.</note> Tous les gouvernemens ont été témoins des
+               efforts que ces hommes ont faits pour persuader à leurs contemporains que cette
+               révolution étoit le fruit nécessaire<pb n="30r"/> et heureux des progrès de la
+               civilisation, et le moyen par lequel elle a été opérée et soutenue le chef-d’œuvre
+               d’un patriotisme généreux. Si la civilisation pouvoit avoir pour but la destruction
+               de la société, et s’il étoit permis d’admettre que la force militaire put s’emparer
+               impunément de la direction des Empires dont elle n’est appelée qu’à maintenir la paix
+               intérieure et extérieure, certes, la révolution Espagnole auroit des titres à
+               l’admiration des siècles, et la révolte militaire de l’isle de Léon pourroit servir
+               de modèle aux réformateurs. Mais la vérité n’a pas tardé à reprendre ses droits, et
+                  l’<country>Espagne</country> a fourni, aux dépens de son bonheur et de sa gloire,
+               un triste exemple de plus des suites infaillibles<pb n="30v"/> de tout attentat
+               contre les lois éternelles du monde moral.</p>
+            <p>Le pouvoir légitime enchaîné et servant, comme tel, lui-même d’instrument pour
+               renverser tous les droits et toutes les libertés légales ; le mouvement
+               révolutionnaire communiqué à toutes les classes de la population ; l’arbitraire et
+               l’oppression exercés sous les formes de la loi ; un royaume livré à tous les genres
+               de désordre et de misère ; de riches colonies justifiant leur émancipation par les
+               mêmes maximes sur lesquelles la mère patrie a fondé son droit public, et qu’elle
+               tenteroit en vain de condamner dans un autre hémisphère ; la guerre civile consumant
+               les dernières ressources de l’un des Etats les plus nobles du Continent – tel est
+                  le<pb n="31r"/> tableau exact de la situation actuelle de
+                  l’<country>Espagne</country> ; tels sont les désastres qui affligent un peuple
+               loyal et digne d’un meilleur sort ; telle est enfin la cause directe des justes
+               inquiétudes que tant d’élémens réunis de confusion et de troubles ont dû inspirer aux
+               pays immédiatement en contact avec la Péninsule. Si jamais il s’est élevé au sein de
+               la civilisation une puissance ennemie des principes conservateurs qui font la base de
+               l’alliance Européenne, c’est l’<country>Espagne</country> dans sa désorganisation
+               présente.</p>
+            <p>Les <rs ref="#p.16 #p.18 #p.17">Monarques</rs> n’auroient pu, sans méconnoître leurs
+               devoirs et sans abjurer leurs sentimens, contempler avec indifférence tant de maux
+               accumulés sur un pays, et accompagnés de tant de dangers pour les autres.<pb n="31v"
+               /> N’ayant à consulter dans cette grave question que leur propre jugement et leur
+               propre conscience, Ils ont dû se demander si, dans un état de choses que chaque jour
+               menace de rendre plus cruel et plus alarmant, il leur étoit permis de rester
+               spectateurs tranquilles, de prêter même par la présence de leurs Représentans la
+               fausse couleur d’une approbation tacite aux actes d’une faction déterminée à tout
+               entreprendre pour conserver son fatal pouvoir ? Leur décision n’a pas été douteuse.
+                  <ref target="Verona_I_19.xml Verona_I_20.xml Verona_I_21.xml Verona_I_22.xml"
+                  >Leurs missions ont reçu l’ordre de quitter la péninsule.</ref>
+            </p>
+            <p>Quelques puissent être les suites de cette détermination, les <rs
+                  ref="#p.16 #p.18 #p.17">Monarques</rs> auront prouvé à l’Europe qu’Ils ne
+               reculeront jamais devant<pb n="32r"/> ce que leur conviction intime leur a signalé
+               comme juste et salutaire. Plus Ils vouent d’amitié à <rs xml:id="n.8" ref="#p.150"><choice>
+                     <abbr>S. M.</abbr>
+                     <expan>Sa Majesté</expan>
+                  </choice> Catholique</rs>,<note type="editorial" target="#n.8">Ehrentitel des
+                  Königs von Spanien.</note> et d’intérêt au bien-être d’une nation que tant de
+               vertu et de grandeur ont distinguée dans plus d’une époque de son histoire, et plus
+               Ils ont senti la nécessité de prendre le parti auquel Ils se sont arrêtés, et qu’Ils
+               sauront soutenir.</p>
+            <p>Vous Vous convaincrez par le précédent exposé que les principes qui ont constamment
+               guidé les <rs ref="#p.16 #p.18 #p.17">Monarques Alliés</rs> dans les grandes
+               questions d’ordre et de stabilité auxquelles les évènemens de nos jours ont donné une
+               nouvelle et immense importance, ne se sont<pb n="32v"/> point démentis pendant la
+               dernière réunion. Loin de s’affoiblir, Leur union, essentiellement fondée sur ces
+               principes, acquiert d’époque en époque plus de cohésion et de force. Il seroit
+               superflu de venger encore la loyauté et la bienveillance de leurs intentions contre
+               de méprisables calomnies que chaque jour réduit à leur juste valeur. Les faits ont
+               parlé ; tout ce qu’il y a en Europe d’hommes justes et éclairés reconnoissent enfin
+               que les <rs ref="#p.16 #p.18 #p.17">Monarques Alliés</rs> n’en veulent ni à
+               l’indépendance, ni aux droits, ni aux institutions légitimes d’aucun autre Etat, et
+               que désirant Eux-mêmes de faire jouir Leurs peuples de tout ce que le<pb n="33r"/>
+               développement de l’esprit humain peut produire de véritables améliorations et de
+               nouvelles sources de prospérité, Ils ne prétendront jamais arrêter les progrès des
+               autres nations dans quelque carrière que ce soit. Les vœux des <rs
+                  ref="#p.16 #p.18 #p.17">Monarques</rs> sont dirigés vers la paix ; toutes leurs
+               démarches, tous leurs efforts ne tendent qu’à la consolider. Mais cette paix, quoique
+               bien établie et garantie entre les puissances par les transactions politiques des
+               dernières années, cette paix ne peut répandre la plénitude de ses bienfaits sur les
+               Etats, tant que l’inquiétude et la fermentation qui tourmentent encore les esprits
+               dans plus d’un pays ne seront calmées. Cette paix ne sera pas appréciée, elle ne sera
+               pas sentie par les peuples, tant qu’une<pb n="33v"/> faction antisociale qui ne
+               respire que révolution et bouleversement, soit qu’elle marche à front découvert
+               attaquant les trônes et les institutions, soit qu’elle travaille dans les ténèbres,
+               organisant des complots, fomentent des projets coupables, ou empoisonnant l’opinion
+               par des écrits séditieux, conservera un reste d’espoir d’influer sur les destinées du
+               monde. C’est-là le seul ennemi que les <rs ref="#p.16 #p.18 #p.17">Monarques
+                  Alliés</rs> aient à combattre ; Ils sont décidés à le poursuivre partout où il
+               menacera ouvertement la tranquillité publique, et Ils ne croiront pas avoir rempli
+               leur tâche, avant de Lui avoir enlevé les dernières armes qui pourroit diriger contre
+               les intérêts impérissables de l’ordre social.</p>
+         </div>
+      </body>
+      <back>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listPlace.xml" xpointer="listPlace"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listPerson.xml"
+            xpointer="listPerson"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listWit.xml" xpointer="listWit"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listOrg.xml" xpointer="listOrg"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listTreaties.xml"
+            xpointer="listTreaties"/>
+      </back>
+   </text>
+</TEI>

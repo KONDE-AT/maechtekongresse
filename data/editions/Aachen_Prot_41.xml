@@ -1,0 +1,920 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Protokoll der 40. Sitzung des Kongresses von Aachen</title>
+            <title type="sub">Digitale Edition</title>
+            <editor>
+               <persName>
+                  <surname>Schneider</surname>
+                  <forename>Karin</forename>
+               </persName></editor>
+         </titleStmt>
+         <editionStmt>
+            <edition><date>2015-05-08</date></edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Österreichische Akademie der Wissenschaften, Institut für Neuzeit- und
+               Zeitgeschichtsforschung</publisher>
+            <pubPlace>Wien</pubPlace>
+            <idno>A_41</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="m.1" type="Originalprotokoll">
+               <msIdentifier>
+                  <settlement>Wien</settlement>
+                  <institution>ÖStA</institution>
+                  <collection>HHStA, Staatskanzlei, Kongressakten</collection>
+                  <idno>
+                     <idno type="Karton">Kart. 17</idno>
+                     <idno type="Faszikel"> Fasz. 29 (alt)</idno>
+                     <idno type="Folia">II/224</idno>
+                  </idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <title>Protokoll</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+
+                  <p>Eigenhändiges Protokoll von <persName ref="#p.5">
+                        <surname>Gentz</surname></persName>.</p>
+                  <handDesc>
+                     <handNote xml:id="G">Friedrich Gentz</handNote>
+                     <handNote xml:id="W">Nikolaus Wacken</handNote>
+                     <handNote xml:id="A">Anonyme Hand</handNote>
+                     <handNote xml:id="A1">Weitere anonyme Hand</handNote>
+                     <handNote xml:id="AmrB">Anonyme Hand mit rotem Buntstift</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin><placeName ref="#loc.1">Aachen</placeName>
+                     <date when="1818-11-20">20. November 1818</date></origin>
+               </history>
+            </msDesc>
+            <msDesc xml:id="m.2" type="Protokoll">
+               <msIdentifier>
+                  <settlement>Wien</settlement>
+                  <institution>ÖStA</institution>
+                  <collection>HHStA, Staatskanzlei, Kongressakten</collection>
+                  <idno>
+                     <idno type="Karton">Kart. 17</idno>
+                     <idno type="Faszikel"> Fasz. 29 (alt)</idno>
+                     <idno type="Folia">II/220-223</idno>
+                  </idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <title>Anlage 1: Protokoll zur Regulierung der noch offenen Fragen betreffend
+                        das Großherzogtum Baden</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+
+                  <p>Protokoll</p>
+                  <p>Das Protokoll liegt zweifach ein: fol. II/220–223 im Original und fol.
+                     II/225–229 und fol. II/232 in Abschrift. Die Edition folgt der Fassung von fol.
+                     II/220–223, welche die Unterschriften der Bevollmächtigten aufweist.</p>
+
+               </physDesc>
+               <history>
+                  <origin><placeName ref="#loc.1">Aachen</placeName>
+                     <date when="1818-11-20">20. November 1818</date></origin>
+               </history>
+            </msDesc>
+            <msDesc xml:id="m.3" type="Abschrift">
+               <msIdentifier>
+                  <settlement>Wien</settlement>
+                  <institution>ÖStA</institution>
+                  <collection>HHStA, Staatskanzlei, Kongressakten</collection>
+                  <idno>
+                     <idno type="Karton">Kart. 17</idno>
+                     <idno type="Faszikel"> Fasz. 30/I (alt)</idno>
+                     <idno type="Folia">233-237</idno>
+                  </idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <title>Anlage 2: Historischer Abriss der Verhandlungen der territorialen Fragen
+                        in Mitteldeutschland</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <p>Abschrift</p>
+               </physDesc>
+            </msDesc>
+            <msDesc xml:id="m.4" type="Abschrift">
+               <msIdentifier>
+                  <settlement>Wien</settlement>
+                  <institution>ÖStA</institution>
+                  <collection>HHStA, Staatskanzlei, Kongressakten</collection>
+                  <idno>
+                     <idno type="Karton">Kart. 17</idno>
+                     <idno type="Faszikel"> Fasz. 30/I (alt)</idno>
+                     <idno type="Folia">214-219</idno>
+                  </idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <title>Anlage 3: Britisches Votum betreffend das Großherzogtum Baden</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <p>Abschrift</p>
+
+               </physDesc>
+            </msDesc>
+            <msDesc xml:id="m.5" type="Abschrift">
+               <msIdentifier>
+                  <settlement>Wien</settlement>
+                  <institution>ÖStA</institution>
+                  <collection>HHStA, Staatskanzlei, Kongressakten</collection>
+                  <idno>
+                     <idno type="Karton">Kart. 17</idno>
+                     <idno type="Faszikel"> Fasz. 30/I (alt)</idno>
+                     <idno type="Folia">230-231</idno>
+                  </idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <title>Anlage 4: Abschrift des zwischen Österreich und Bayern am 14. April 1816
+                        abgeschlossenen Vertrags</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <p>Abschrift</p>
+               </physDesc>
+               <history>
+                  <origin><placeName ref="#loc.16">München</placeName>
+                     <date when="1816-04-14">14. April 1816</date></origin>
+               </history>
+            </msDesc>
+
+            <listWit corresp="#m.5">
+               <head>Anlage 4: Abschrift des zwischen Österreich und Bayern am 14. April 1816
+                  abgeschlossenen Vertrags</head>
+               <witness corresp="#w.14"><bibl type="print">Martens, Nouveau Recueil, Bd. 3, S.
+                     19–20;</bibl></witness>
+               <witness corresp="#w.5"><bibl type="print">BFSP Bd. 3 (1815/16), S.
+                  668–669;</bibl></witness>
+               <witness corresp="#w.19"><bibl type="print">Neumann, Recueil, Bd. 3, S.
+                     134–135.</bibl></witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <appInfo>
+            <application xml:id="docxtotei" ident="TEI_fromDOCX" version="2.15.0">
+               <label>DOCX to TEI</label>
+            </application>
+         </appInfo>
+         <styleDefDecl scheme="css"/>
+         <tagsDecl>
+            <rendition xml:id="su">superscript</rendition>
+            <rendition xml:id="s">strikethrough</rendition>
+            <rendition xml:id="u">underline</rendition>
+            <rendition xml:id="ow">overwritten</rendition>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <abstract>
+            <p>Die <rs ref="#p.8 #p.1 #p.9 #p.10 #p.11 #p.12 #p.13 #p.14">Vertreter der Mächte</rs>
+               fixieren verschiedener territorialer und anderer offene Angelegenheiten betreffend
+               das Großherzogtum <country>Baden</country> in einem definitiven Protokoll.</p>
+         </abstract>
+         <particDesc>
+            <listPerson>
+               <head>Anwesende</head>
+
+               <person>
+                  <persName ref="#p.12">BERNSTORFF</persName>
+               </person>
+               <person>
+                  <persName ref="#p.9">CASTLEREAGH</persName>
+               </person>
+               <person>
+                  <persName ref="#p.11">HARDENBERG</persName>
+               </person>
+               <person>
+                  <persName ref="#p.14">KAPODISTRIAS</persName>
+               </person>
+               <person>
+                  <persName ref="#p.8">METTERNICH</persName>
+               </person>
+               <person>
+                  <persName ref="#p.13">NESSELRODE</persName>
+               </person>
+               <person>
+                  <persName ref="#p.1">RICHELIEU</persName>
+               </person>
+               <person>
+                  <persName ref="#p.10">WELLINGTON</persName>
+               </person>
+
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div hand="#G" decls="#m.1">
+            <pb n="224r"/>
+            <p><add hand="#W" place="top">Protocole <choice>
+                     <abbr>N<hi rendition="#su">o</hi></abbr>
+                     <expan>Numéro</expan>
+                  </choice> 40.</add></p>
+            <p><placeName ref="#loc.1">Aix-la-Chapelle</placeName> le <date when="1818-11-20"><subst>
+                     <del rendition="#s">19</del>
+                     <add place="above">20</add>
+                  </subst> Novembre</date>.</p>
+            <p><add place="margin"><hi rendition="u">Affaire de Bade</hi></add></p>
+            <p><add hand="#W" place="margin">Entre les cinq Cabinets</add></p>
+
+            <p><choice>
+                  <abbr>Mrs.</abbr>
+                  <expan>Messieurs</expan>
+               </choice> les <rs ref="#p.13 #p.14">Plénipotentiaires de Russie</rs> ayant présenté à
+                  <rs xml:id="n.1">la conférence d’hier</rs><note type="editorial" target="#n.1">Das
+                  Protokoll einer Sitzung vom <date when="1818-11-29">19. November 1818</date>, in
+                  welcher die badischen Angelegenheiten behandelt werden, liegt nicht ein. Zum
+                  Konflikt vgl. Huber, Deutsche Verfassungsgeschichte, Bd. 1, S. 324–328.</note> le
+               projet de Protocole définitif sur les arrangemens qui auront lieu pour terminer les
+               différentes questions, territoriales et autres, concernant le <country>Grand-Duché de
+                  Bade</country> ; et <choice>
+                  <abbr>Mr.</abbr>
+                  <expan>Monsieur</expan>
+               </choice> le <persName ref="#p.8"><roleName>Prince</roleName>
+                  <surname>Metternich</surname></persName> y ayant ajouté de son côté les
+               modifications et réserves qu’il a jugées nécessaires, il a été fait aujourd’hui une
+               dernière lecture de <rs xml:id="n.2">cet acte lequel a été unanimement approuvé et
+                  signé tel qu’il se trouve annexé au présent Protocole</rs>.<note type="editorial"
+                  target="#n.2">Vgl. Anlage 1 und 2.</note></p>
+            <signed>
+               <list>
+                  <item><persName ref="#p.8">Metternich</persName></item>
+                  <item><persName ref="#p.1">Richelieus</persName></item>
+                  <item><persName ref="#p.9">Castlereagh</persName></item>
+                  <item><persName ref="#p.10">Wellington</persName></item>
+                  <item><persName ref="#p.11">Hardenberg</persName></item>
+                  <item><persName ref="#p.12">Bernstorff</persName></item>
+                  <item><persName ref="#p.13">Nesselrode</persName></item>
+                  <item><persName ref="#p.14">Capodistrias</persName></item>
+               </list></signed>
+         </div>
+
+         <div hand="#A" decls="#m.2">
+            <pb n="220r"/>
+            <p hand="#G"><placeName ref="#loc.1">Aix-la-Chapelle</placeName> le <date
+                  when="1818-11-20">20 Novembre 1818</date></p>
+            <p>En conséquence du <ref target="Aachen_Prot_14">Protocole du <date when="1818-10-17"
+                     >17 <choice>
+                        <abbr>8<hi rendition="#su">bre</hi></abbr>
+                        <expan>Octobre</expan>
+                     </choice></date></ref> le Ministère de Russie, ayant été chargé d’entamer une
+               négociation confidentielle avec le <rs ref="#p.26">Plénipotentiaire envoyé à
+                     <placeName ref="#loc.1">Aix-la-Chapelle</placeName> par <choice>
+                     <abbr>S. A. R.</abbr>
+                     <expan>Son Altesse Royale</expan>
+                  </choice> le <rs ref="#p.22">Grand-Duc de Bade</rs></rs>, a rendu compte dans <rs
+                  xml:id="n.3">le Mémoire ci-joint</rs><note type="editorial" target="#n.3">Vgl.
+                  Anlage 3.</note> des termes auxquels cette négociation était parvenue et qui
+               semblaient présenter le dernier résultat que la persuasion pût obtenir.</p>
+            <p>Ce mémoire a fait l’objet d’une mûre délibération, et les <rs xml:id="n.4">votes
+                  ci-annexés des <rs ref="#p.9 #p.10">Plénipotentiaires de la Grande-Bretagne</rs>
+                  et de la Prusse</rs>,<note type="editorial" target="#n.4">Britisches Votum: Vgl.
+                  Anlage 3. Preußisches Votum: Anlage liegt nicht ein.</note> conformes en substance
+               au vote énoncé de la part de l’<rs ref="#p.17">Empereur de Russie</rs>, s’accordant,
+               ainsi que celui-ci, à conclure que les Alliés ont poussé leur négociation avec la
+               Cour de <placeName ref="#loc.19">Carlsrouhe</placeName> au point de ne plus se
+               reconnaître ni la possibilité, ni le droit d’aller audelà, les <rs
+                  ref="#p.13 #p.14 #p.11 #p.12 #p.9 #p.10">Plénipotentiaires de Russie, de
+                     <placeName ref="#loc.9">Berlin</placeName> et de <placeName ref="#loc.8"
+                     >Londres</placeName></rs> ont déclaré que leurs Cours étaient décidées non
+               seulement à ne point donner ultérieurement suite à la négociation<pb n="220v"/> avec
+               la Cour de <placeName ref="#loc.19">Carlsrouhe</placeName>, mais aussi à ne laisser
+               ouverte, du chef de la dite négociation, aucune demande à la charge du <rs
+                  ref="#p.22">Grand-Duc de Bade</rs>.</p>
+            <p>Le <rs ref="#p.8">Plénipotentiaire d’Autriche</rs> a répondu que les droits à la
+               charge du <rs ref="#p.22">Grand-Duc de Bade</rs> qui résultent des transactions des
+               quatre Cours leur appartenant en commun, le Cabinet de <placeName ref="#loc.7"
+                  >Vienne</placeName> ne pouvait se reconnoître la faculté de juger à lui seul ni du
+               degré auquel les Alliés croyaient devoir et pouvoir porter leurs bons offices, ni du
+               terme auquel ils croyaient devoir et pouvoir arrêter leur intervention ; que la Cour
+               de <placeName ref="#loc.7">Vienne</placeName> n’ayant cessé depuis la conclusion du
+                  <rs ref="t.27">Traité de <placeName ref="#loc.16">Munich</placeName></rs>
+               d’interposer tous ses moyens près de Ses augustes Alliés dans le but de leur faire
+               soutenir par leurs bons offices la stipulation des <rs xml:id="n.5">Articles II et
+                  III du Traité secret avec la Cour de Bavière</rs>,<note type="editorial"
+                  target="#n.5">Vgl. Anlage 4.</note> et qu’après avoir spécialement épuisé dans le
+               Cours des présentes conférences tous les argumens qui, d’après sa conviction et sa
+               conscience, pouvaient militer en<pb n="221r"/> faveur de la cause qu’elle n’avait
+               cessé de défendre, Elle ne pouvait que regretter que le terme de Ses soins à cet
+               égard fût arrivé par la décision unanime des trois autres Cours.</p>
+            <p>Il ajouta que, dans tout état de cause, il était autorisé : </p>
+            <p>1<hi rendition="#su">o</hi> À confirmer l’abandon entre les mains des Alliés de la
+               rente provisoire de cent-mille Florins, en la changeant en une rente perpétuelle ; </p>
+            <p>2<hi rendition="#su">o</hi> À déclarer que l’<country>Autriche</country> serait
+               toujours prête à admettre de son côté tout arrangement relatif à ce que, dans la
+               question de réversion, les Alliés pourront ou ne pourront pas atteindre de gré à gré
+               avec le <rs ref="#p.22">Grand-Duc de Bade</rs>, devant néanmoins réserver
+               éventuellement que la réversion du Brisgau à l’<country>Autriche</country> resterait
+               placée sur la même ligne que la réversion du Bas-Palatinat pourrait être réservée à
+               la <country>Bavière</country>.</p>
+            <p>Les <rs ref="#p.13 #p.14 #p.11 #p.12 #p.9 #p.10">Plénipotentiaires des Cours de
+                  Russie, de Prusse et de la Grande-Bretagne</rs> ont répliqué qu’ils avaient ordre
+               de persister dans les deux points qu’ils ont déclaré ci-dessus. Après la<pb n="221v"
+               /> détermination de ces Cours, à ne point donner de suite ultérieure à la dite
+               négociation, il n’est resté qu’à régler à la pluralité des Votes, comment les Cours
+               entendraient ne laisser subsister de ce chef aucune demande ouverte à la charge du
+                  <rs ref="#p.22">Grand-Duc</rs>.</p>
+            <p>En conséquence, le résultat de la délibération a été :</p>
+            <p>1<hi rendition="#su">o</hi> Qu’en proposant l’échange du <rs xml:id="n.6">bailliage
+                  du haut Wertheim</rs><note type="editorial" target="#n.6">Vgl. Köbler,
+                  Historisches Lexikon, S. 777–778.</note> contre la <rs xml:id="n.7">Principauté de
+                  Geroldseck</rs><note type="editorial" target="#n.7">Vgl. Köbler, Historisches
+                  Lexikon, S. 216.</note> ; en consentant à ouvrir dans la direction de <placeName
+                  ref="#loc.38">Frankenthal</placeName> une route militaire qui établirait de libres
+               communications entre les anciennes et les nouvelles Provinces bavaroises ; en offrant
+               l’abandon d’une prétention liquide et liquidée de deux millions de Florins à la
+               charge de l’<country>Autriche</country> et de la <country>Bavière</country>, le <rs
+                  ref="#p.22">Grand-Duc de Bade</rs> avait rempli la mesure des sacrifices qu’aurait
+               pu lui imposer le <rs ref="#t.19">Traité de <placeName ref="#loc.25"
+                     >Francfort</placeName> du <date when="1813-11-20">20 Novembre
+               1813</date></rs>.</p>
+            <p>2<hi rendition="#su">o</hi> Qu’aux trois conditions qui viennent d’être énoncées, le
+                  <rs ref="#p.22">Grand-Duché de Bade</rs><pb n="222r"/> serait libéré de toutes les
+               Clauses onéreuses, patentes ou secrèttes que des Traités ou actes diplomatiques
+               quelconques peuvent avoir eu pour objet ; qu’ayant repris en examen les réversions
+               mentionnées dans les <rs ref="#t.11 #t.21">Protocoles du <date when="1815-06-10">10
+                     Juin</date> et du <date when="1815-11-03">3 <choice>
+                        <abbr>Nov<hi rendition="#su">bre</hi></abbr>
+                        <expan>Novembre</expan>
+                     </choice> 1815</date></rs>, elles sont révoquées et déclarées à l’avenir nulles
+               et de nul effet, et que les quatre Cours <rs xml:id="n.8">reconnoitront les Comtes de
+                  Hochberg habiles à succéder au Grand-Duché de Bade</rs>.<note type="editorial"
+                  target="#n.8"><persName ref="#p.51"><roleName>Großherzog</roleName>
+                     <forename>Ludwig I.</forename></persName>hatte, als er am <date
+                     when="1818-12-08">8. Dezember 1818</date> Großherzog wurde, keine legitimen
+                  Nachkommen. Die Erbfolge wurde zugunsten einer ursprünglich nicht standesgemäßen
+                  Nebenlinie, den Grafen von Hochberg (seit 1817 Markgrafen von Baden) geregelt.
+                  Bayern weigerte sich, diese Erbregelung anzuerkennen; vgl. Erbe, Erschütterung, S.
+                  172–173; Ullmann, Baden 1800 bis 1830. In: Handbuch der Baden-Württembergischen
+                  Geschichte, S. 37–38. Huber, Deutsche Verfassungsgeschichte, Bd. 1, S. 324–328;
+                  Sahrmann, Pfalz oder Salzburg, S. 84–96.</note></p>
+            <p>3<hi rendition="#su">o</hi> Que les sacrifices offerts par le <rs ref="#p.22"
+                  >Grand-Duc de Bade</rs> et la compensation qui lui est promise seraient, ainsi
+               qu’ils le sont déjà plus haut, consignés au présent Protocole, lequel servirait
+               d’instruction commune aux <rs ref="#p.36 #p.37 #p.38 #p.39">Ministres des quatre
+                  Cours composant la <rs xml:id="n.9">Commission territoriale à <placeName
+                        ref="#loc.25">Francfort</placeName></rs></rs>.<note type="editorial"
+                  target="#n.9">Von den alliierten Mächten eingesetzte Kommission zur Klärung noch
+                  offener territorialer Fragen im Deutschen Bund. Erarbeitet den Frankfurter
+                  Territorialrezess vom 20. Juli 1819; vgl. Huber, Deutsche Verfassungsgeschichte,
+                  Bd. 1, S. 579–582.</note> Il est entendu que cette instruction ne pourra, dans
+               aucun cas, admettre aucune réserve, ni subir aucune modification.</p>
+            <p>4<hi rendition="#su">o</hi> Que <choice>
+                  <abbr>M<hi rendition="#su">r</hi></abbr>
+                  <expan>Monsieur</expan>
+               </choice> le <persName ref="#p.14"><roleName>Comte</roleName>
+                  <surname>de Capodistrias</surname></persName> porterait lui-même les présentes
+               décisions des Conférences d’<placeName ref="#loc.1">Aix-la-Chapelle</placeName> à la
+               connoissance de la Cour de Bavière, et<pb n="222v"/> l’inviterait à y accéder. En
+               développant les principes de droit, première base de cette décision, en démontrant la
+               nécessité de donner à l’Allemagne une garantie immuable de son repos à venir, en
+               prouvant par le simple exposé des faits que ces principes et cette nécessité sont les
+               uniques régulateurs des intentions qu’expriment à <rs ref="#p.99"><choice>
+                     <abbr>S. M<hi rendition="#su">é</hi></abbr>
+                     <expan>Sa Majesté</expan>
+                  </choice> Bavaroise</rs> les Cours d’Autriche, de la Grande-Bretagne, de Prusse et
+               de Russie, le <persName ref="#p.14"><roleName>Comte</roleName>
+                  <surname>de Capodistrias</surname></persName> sera autorisé à déclarer à la
+               Bavière en cas de refus que les quatre Cabinets regarderaient dèslors le <rs
+                  ref="#p.22">Grand-Duc de Bade</rs> comme libéré même des sacrifices qu’il offre
+               dans ce moment. Il est entendu que l’accession de la Cour de Bavière ne pourra, dans
+               aucun cas, admettre aucune réserve, ni subir aucune modification ou condition.</p>
+            <p>5<hi rendition="#su">o</hi> Que si la Bavière adhérait à l’arrangement qui lui sera
+               proposé, cet arrangement recevrait une sanction formelle par un Acte que les
+               Ministres des quatre Cours alliées, délégués à cet effet à <placeName ref="#loc.25"
+                  >Francfort</placeName>, signeraient avec le<pb n="223r"/> Plénipotentiaire
+               Bavarois, et par un second acte que les mêmes Ministres signeraient également à
+                  <placeName ref="#loc.25">Francfort</placeName> avec un Plénipotentiaire du <rs
+                  ref="#p.22">Grand-Duc de Bade</rs>. Cet acte additionnel au <rs ref="#t.27">Traité
+                  de <placeName ref="#loc.16">Munich</placeName> du <date when="1816-04-14">14 Avril
+                     1816</date></rs> clôturerait le recès général, ouvert à la Commission
+               territoriale de <placeName ref="#loc.25">Francfort</placeName> pour l’accomplissement
+               des transactions de <placeName ref="#loc.2">Paris</placeName>, et substituerait aux
+               articles secrets de celle de <placeName ref="#loc.16">Munich</placeName> des articles
+               additionnels qui énonceraient la nature positive des cessions et concessions faites
+               par le <rs ref="#p.22">Grand-Duc de Bade</rs>.</p>
+            <p>6<hi rendition="#su">o</hi> Enfin, que si la Bavière se refusait à ce même
+               arrangement, la Commission territoriale de <placeName ref="#loc.25"
+                  >Francfort</placeName>, d’après les communications qui lui seraient adressées de
+                  <placeName ref="#loc.16">Munich</placeName> à ce sujet par le <persName
+                  ref="#p.14"><roleName>Comte</roleName>
+                  <surname>de Capodistrias</surname></persName>, remettrait au <rs ref="#p.49"
+                  >Plénipotentiaire de Bade</rs> une déclaration, par laquelle les Cours d’Autriche,
+               de la Grande-Bretagne, de Prusse et de Russie reconnoitraient cet Etat comme
+               pleinement libéré de toute réversion<pb n="223v"/> et de toutes les Clauses onéreuses
+               que des Traités ou actes diplomatiques quelconques auraient stipulées à sa charge.
+               Cette déclaration, qui porterait également <add hand="#G" place="margin">de la part
+                  des Quatre Cours</add> la reconnoissance des Comtes de Hochberg comme habiles à
+               succéder au Grand-Duché, serait pareillement insérée au Recès général.</p>
+            <p>7<hi rendition="#su">o</hi> Le <rs ref="#p.1">Plénipotentiaire de <rs ref="#p.15"
+                     xml:id="n.10"><choice>
+                        <abbr>S. M. T. C.</abbr>
+                        <expan>Sa Majesté Très Chrétienne</expan>
+                     </choice></rs></rs><note type="editorial" target="#n.10">Ehrentitel des Königs
+                  von Frankreich.</note> a déclaré que Son Souverain s’empresserait de joindre Son
+               intervention à celle de <rs ref="#p.16 #p.19 #p.18 #p.17">Ses augustes alliés</rs>
+               pour engager <choice>
+                  <abbr>S. M.</abbr>
+                  <expan>Sa Majesté</expan>
+               </choice> le <rs ref="#p.99">Roi de Bavière</rs> à accepter les propositions de <choice>
+                  <abbr>S. A. R.</abbr>
+                  <expan>Son Altesse Royale</expan>
+               </choice> le <rs ref="#p.22">Grand-Duc de Bade</rs>.</p>
+            <signed>
+               <list>
+                  <item><persName ref="#p.8">Metternich</persName></item>
+                  <item><persName ref="#p.9">Castlereagh</persName></item>
+                  <item><persName ref="#p.11">Hardenberg</persName></item>
+                  <item><persName ref="#p.12">Bernstorff</persName></item>
+                  <item><persName ref="#p.13">Nesselrode</persName></item>
+                  <item><persName ref="#p.14">Capodistrias</persName></item>
+               </list></signed>
+         </div>
+
+         <div hand="#A" decls="#m.3">
+            <pb n="233r"/>
+            <p><add place="top" rendition="#u">Copie <gap/>C.</add></p>
+            <p><title>Apperçu historique des négociations qui ont eu lieu entre les Cabinets de
+                     <placeName ref="#loc.7">Vienne</placeName>,</title></p>
+            <p><title>de <placeName ref="#loc.8">Londres</placeName>, de <placeName ref="#loc.9"
+                     >Berlin</placeName> et de <placeName ref="#loc.10"><choice>
+                        <abbr>S<hi rendition="#su">t</hi></abbr>
+                        <expan>Saint</expan>
+                     </choice> Petersbourg</placeName> pour amener l’accomplissement des
+                  actes</title></p>
+            <p><title>relatifs aux arrangemens territoriaux dans le midi de l’Allemagne, présenté
+                  aux</title></p>
+            <p><title>Conférences d’<placeName ref="#loc.1">Aix-la-Chapelle</placeName> par la
+                  Russie</title></p>
+            <p>Le Congrès de <placeName ref="#loc.7">Vienne</placeName> devait mettre à exécution le
+                  <rs ref="#t.40">traité de <placeName ref="#loc.59">Ried</placeName></rs>, comme
+               tous les actes par lesquels différens Etats de l’Allemagne avaient stipulé en 1813
+               des échanges et des compensations de territoire.</p>
+            <p>Accomplis les clauses du <rs ref="#t.40">traité de <placeName ref="#loc.59"
+                     >Ried</placeName></rs> à l’égale satisfaction des parties contractantes, tel
+               fut le vœu sincère du <rs xml:id="n.11">Congrès</rs>,<note type="editorial"
+                  target="#n.11">Des Wiener Kongresses 1814/15.</note> tel fut l’objet constant de
+               ses efforts, mais tel n’en fut point le résultat. On ne rappellera pas ici les
+               détails de cette négociation stérile. On oubliera que la voix de l’amitié semble y
+               avoir perdu son éloquence et qu’une auguste intervention ne put rien obtenir.</p>
+            <p>Au moment où parurent s’apprêter de nouveaux malheurs, aucune stipulation positive
+               n’avait été conclue avec la <country>Bavière</country> en exécution du <rs
+                  ref="#t.40">traité de <placeName ref="#loc.59">Ried</placeName></rs>. L’état<pb
+                  n="233v"/> définitif de ses possessions territoriales restait dans la même
+               incertitude.</p>
+            <p>Les Puissances assemblées à <placeName ref="#loc.7">Vienne</placeName> reprirent les
+               armes, et une cause visiblement soutenue par la Providence devait bientôt triompher
+               une seconde fois. Les alliés devaient une seconde fois trouver à <placeName
+                  ref="#loc.2">Paris</placeName> les moyens de consommer l’œuvre d’une pacification
+               générale. Ils étaient responsables devant l’Europe de ce grand résultat ; elle leur
+               demandait un compte sévère des travaux qu’ils avaient laissés incomplets, et pour les
+               achever, pour étouffer à leur naissance tous les germes de discorde que propagent
+               toujours des propriétés incertaines, après avoir déterminé toutes les possessions
+               respectives, ils se virent contraintes par les intérêts dont ils étaient
+               dépositaires, par <rs ref="#t.1">la paix qu’ils devaient donner au monde</rs>, de
+               compléter immédiatement le Système territorial de l’<country>Autriche</country> et de
+               fixer entre eux la compensation que <rs ref="#p.99">Sa Majesté Bavaroise</rs>
+               recevrait de cette Puissance. Ils signèrent donc les stipulations du <rs ref="#t.21"
+                  >Protocole de <placeName ref="#loc.2">Paris</placeName><pb n="234r"/> du <date
+                     when="1815-11-03">3 <choice>
+                        <abbr>Nov.</abbr>
+                        <expan>Novembre</expan>
+                     </choice> 1815</date></rs> relatives à la <country>Bavière</country>.</p>
+            <p>Ce plan qui leur présentait des moyens de négociation dont le succès semblait devoir
+               combler tous ses vœux ne fut point accepté par elle.</p>
+            <p>Déslors les <rs ref="#p.16 #p.19 #p.18 #p.17">Souverains alliés</rs> se trouveront
+               par le fait même de son refus étrangers à ses discussions territoriales avec la Cour
+               de <placeName ref="#loc.7">Vienne</placeName>.</p>
+            <p>En rejettant leurs offres collectives, <rs ref="#p.99">Sa Majesté Bavaroise</rs> les
+               avait libérés de toute obligation contractée à son égard par le <rs ref="#t.21"
+                  >Protocole du <date when="1815-11-03">3 Novembre</date></rs>, et les <rs
+                  ref="#p.16 #p.19 #p.18 #p.17">Souverains alliés</rs> devaient se borner à hâter de
+               tous leurs vœux la conclusion d’un arrangement entre la <country>Bavière</country> et
+                  l’<country>Autriche</country> ; mais cet arrangement ne pouvait plus être que le
+               fruit d’une négociation directe.</p>
+            <p>Les Cabinets de <placeName ref="#loc.8">Londres</placeName>, de <placeName
+                  ref="#loc.9">Berlin</placeName> et de <placeName ref="#loc.10"><choice>
+                     <abbr>S<hi rendition="#su">t</hi></abbr>
+                     <expan>Saint</expan>
+                  </choice> Petersbourg</placeName> se féliciteront sincèrement d’apprendre qu’un
+                  <rs ref="#t.27">traité signé à <placeName ref="#loc.16">Munic</placeName></rs>
+               avait enfin résolu ce long problème. Mais dès que ce traité parvint à leur
+               connaissance, ils virent deux obstacles à son accomplissement. Pour l’exécuter,
+                  l’<country>Autriche</country> attendait l’adhésion de ses alliés. Ses alliés
+               devaient attendre à leur tour l’adhésion du <rs ref="#p.22">Grand-Duc de Bade</rs>.
+               Le <rs ref="#t.27">traité de <placeName ref="#loc.16">Munic</placeName></rs>
+               disposait en effet d’une partie de ses Etats et de sa succession ; il devait donc,
+               pour être légalement obligatoire, obtenir son assentiment.</p>
+            <p>Aucun principe de droit n’aurait permis de préjuger la décision du <rs ref="#p.22"
+                  >Grand-Duc de Bade</rs>. En vain la <country>Bavière</country> eut-elle invoqué le
+                  <rs ref="#t.21">Protocole de <placeName ref="#loc.2">Paris</placeName></rs>, nous
+               avons vu qu’elle avait délié elle-même les Puissances signataires de toutes les
+               obligations que cet acte leur imposait sous ce rapport. Les Puissances pouvaient par
+               conséquent renoncer à faire valoir ce moyen de négociation, mais le désir de
+               concilier tous les intérêts leur dicta un parti où <rs ref="#p.99">Sa Majesté
+                  Bavaroise</rs> a dû reconnaître sans peine une preuve de leur constante
+               amitié.</p>
+            <p>Les <rs ref="#p.25 #p.114 #p.115 #p.39">Ministres des quatre Cours ouvrirent une
+                  négociation à <placeName ref="#loc.25">Francfort</placeName></rs> avec le <rs
+                  ref="#p.22">Grand-Duc de Bade</rs>. Aucune instance ne fut épargnée. Ils
+               alléguèrent les clauses onéreuses du <rs ref="#t.19">traité de <placeName
+                     ref="#loc.25">Francfort</placeName> du <date when="1813-11-20">20 Novembre
+                     1813</date></rs>, et pour engager le<pb n="235r"/>
+               <rs ref="#p.22">Grand-Duc</rs> à la cession du Cercle du Mein et de la Tauber ils lui
+               offrirent même l’annullation des réversibilités, prononcées par le <rs ref="#t.21"
+                  >Protocole de <placeName ref="#loc.2">Paris</placeName></rs>, quoique cette
+               stipulation eut déjà cessé d’être obligatoire. Mais le <rs ref="#p.22">Grand-Duc</rs>
+               avait puisé dans un profond sentiment de ses droits une force de détermination
+               inébranlable. Il accepta constamment toutes les conditions qu’exigeait l’intérêt
+               avéré de la <country>Bavière</country> ; il refusa tous les sacrifices qu’on lui
+               demandait sans titre strictement légitime, et qu’il eut accordés sans compensation
+               réelle.</p>
+            <p>Les négociations de <placeName ref="#loc.25">Francfort</placeName> échouèrent, la
+               cause qui s’y était agitée ne pouvait cependant pas rester indécise, et bientôt le
+                  <rs ref="#p.22">Grand-Duc</rs> en déféra le jugement aux Souverains assemblés à
+                  <placeName ref="#loc.1">Aix-la-Chapelle</placeName>.</p>
+            <p>La demande du <rs ref="#p.22">Grand-Duc</rs> fut et devait être accueillie. Mais même
+               en l’accueillant, les quatre Cabinets donnèrent un nouveau témoignage d’amitié à <rs
+                  ref="#p.99">Sa Majesté le Roi de Bavière</rs>. Ils faisaient pressentir au <rs
+                  ref="#p.22">Grand-Duc</rs> dans leur réponse la nécessité d’un sacrifice : Ils
+               exigeaient l’envoi d’un Ministre muni des plus<pb n="235v"/> amples pouvoirs : Ils se
+               réservaient d’emploier tous les moyens de négociation autorisés par le <rs
+                  ref="#t.19">traité du <date when="1813-11-20">20 <choice>
+                        <abbr>Nov.</abbr>
+                        <expan>Novembre</expan>
+                     </choice> 1813</date></rs> et même par le <rs ref="#t.21">Protocole du <date
+                     when="1815-11-03">3 <choice>
+                        <abbr>Nov.</abbr>
+                        <expan>Novembre</expan>
+                     </choice> 1815</date></rs>.</p>
+            <p>Ce devoir a été scrupuleusement rempli ; les quatre Cours peuvent en donner à <rs
+                  ref="#p.99">Sa Majesté Bavaroise</rs> la plus formelle assurance. Les argumens de
+                  <placeName ref="#loc.25">Francfort</placeName> ont été reproduits et développés,
+               les mêmes offres renouvellées, la cession du Cercle du Mein et de la Tauber
+               instamment demandée, l’annullation des réversibilités proposée en retour, la
+               négociation enfin poussée à son dernier terme. Mais bientôt elle atteignit des bornes
+               qu’elle ne pouvait plus franchir, car la persuasion eut pris un autre caractère. Le
+                  <rs ref="#p.49">Ministre badois</rs> déclara que <rs ref="#p.22">son
+                  Souverain</rs> croyait avoir rempli les clauses onéreuses du <rs ref="#t.19"
+                  >traité du <date when="1813-11-20">20 <choice>
+                        <abbr>Nov.</abbr>
+                        <expan>Novembre</expan>
+                     </choice> 1813</date></rs> par les cessions territoriales et pécuniaires qu’il
+               offrait, et que n’admettant pas et ne devant pas admettre l’existence légale d’une
+               réversibilité quelconque, il n’accorderait d’autres sacrifices qu’à la seule force
+               des armes.</p>
+            <p>Les <rs ref="#p.16 #p.19 #p.18 #p.17">quatre Souverains</rs> respectent trop les
+               sentimens de Sa Majesté le <rs ref="#p.99">Roi de<pb n="236r"/> Bavière</rs>, ils
+               rendent une justice trop méritée à la sagesse de ses vues pour croire qu’il eut
+               jamais consenti à l’emploi d’une mesure militaire et violente.</p>
+            <p>Ce n’est point à l’époque où tous les efforts des Puissances tendent vers un seul
+               but, vers le maintien de la paix, le triomphe de la morale et l’affermissement de
+               tous les liens d’union et d’amitié qu’il était permis de penser à déployer le funeste
+               appareil d’un nouvel armement. Quel eut été d’ailleurs le jugement de l’Europe si un
+               acte qui ôtait une Province à un Souverain plus faible, conclu sans lui, avait été
+               invoqué contre lui pour le forcer à racheter le partage de ses possessions, stipulé
+               au préjudice de ses propres droits et celui de son héritage, effectué aux dépens des
+               droits de sa famille ?</p>
+            <p>Enfin, il ne faut pas se le dissimuler, ce n’était point ici le <rs ref="#p.22"
+                  >Grand-Duc de Bade</rs>, c’était l’opinion de l’Allemagne qui se présentait au
+               combat. La force des armes eut lutté contre une force morale qui prenait d’un côté<pb
+                  n="236v"/> la justice pour auxiliaire, de l’autre le tems pour vengeur.
+               L’Allemagne voyait dans les reversions, avec un trop légitime effroi, la source d’une
+               ancienne guerre qui l’avait désolée trente ans, et le prétexte d’une guerre nouvelle
+               qui viendrait la déchirer encore le jour où s’ouvrirait l’obscure question de ces
+               droits de déshérence que plus d’un Etat interprèterait sans doute le glaive à la
+               main, et qu’invoqueraient peut-être même des Puissances étrangères dont
+               l’intervention compromettrait les grands intérêts germaniques.</p>
+            <p>Nous nous hâterons de dérober aux yeux de la Cour de Bavière le tableau d’un aussi
+               triste avenir, certains qu’elle désavouerait elle-même toute mesure qui prendrait la
+               force pour appui.</p>
+            <p><rs ref="#p.99">Sa Majesté Bavaroise</rs> agréera donc assurément les résultats que
+               la persuasion peut lui offrir, et si Elle considère que le <rs ref="#t.21">Protocole
+                  de <placeName ref="#loc.2">Paris</placeName></rs> a perdu toute force obligatoire,
+               que les engagemens de l’<country>Autriche</country> envers la
+                  <country>Bavière</country> étaient et devaient être conditionels,<pb n="237r"/>
+               que les <rs ref="#p.16 #p.19 #p.18 #p.17">Souverains alliés</rs> ne sauraient en
+               garantir l’exécution, <rs ref="#p.99">Sa Majesté</rs> reconnaîtra qu’en Lui
+               transmettant le seul plan de conciliation auquel le <rs ref="#p.22">Grand-Duc de
+                  Bade</rs> ait pu souscrire, les quatre Cabinets proposent aussi à <rs ref="#p.99"
+                  >Sa Majesté</rs> le seul arrangement qu’ils puissent lui proposer.</p>
+            <p>Cet arrangement est tel que le présente l’extrait qui suit du Protocole des
+               Conférences d’<placeName ref="#loc.1">Aix-la-Chapelle</placeName> en date du <date
+                  when="1818-11-20">20 <choice>
+                     <abbr>Nov.</abbr>
+                     <expan>Novembre</expan>
+                  </choice> 1818</date>.</p>
+            <p>Le résultat de la délibération a été : (s’ensuivent les Sept points du <rs
+                  xml:id="n.12">Protocole séparé de la Séance du <date when="1818-11-20">20 <choice>
+                        <abbr>Nov.</abbr>
+                        <expan>Novembre</expan>
+                     </choice> 1818</date></rs><note type="editorial" target="#n.12">Vgl. Anlage
+                  1.</note>).</p>
+         </div>
+
+         <div hand="#A" decls="#m.4">
+            <pb n="214r"/>
+            <p><add hand="#W" place="top">Annexé au Protocole du <date when="1818-11-20">20 Novembre
+                     1818</date>.</add></p>
+            <p><title><rs ref="#p.9 #p.10">Les plénipotentiaires de la <choice>
+                        <abbr>G<hi rendition="#su">de</hi></abbr>
+                        <expan>Grande</expan>
+                     </choice>-Bretagne</rs> désirent émettre au nom de leur Cour</title></p>
+            <p><title>le vote suivant relativement à la question de
+               <country>Bade</country></title></p>
+            <p>Les puissances signataires du <rs ref="#t.19">traité de <placeName ref="#loc.25"
+                     >Francfort</placeName></rs> ont demandé au <rs ref="#p.22"><choice>
+                     <abbr>G<hi rendition="#su">d</hi></abbr>
+                     <expan>Grand</expan>
+                  </choice>-Duc de Bade</rs> la cercle de Mein et Tauber pour être cédé à la
+                  <country>Bavière</country> comme compensation des vastes cessions et échanges
+               faits par cette dernière puissance à l’<country>Autriche</country>, dans le but de
+               consolider son état de possession et de compléter les arrangemens militaires et
+               territoriaux de l’Allemagne vers ses frontières méridionales et occidentales.</p>
+            <p>Les <rs xml:id="n.13">quatre puissances alliées</rs><note type="editorial"
+                  target="#n.13">Österreich, Großbritannien, Preußen, Russland.</note> ont employé
+               leurs bons offices dans les négociations de<pb n="214v"/>
+               <placeName ref="#loc.25">Francfort</placeName> pour mettre en avant et soutenir cette
+               demande vis-à-vis de la Cour de Bade ; mais elle a été déclinée péremptoirement par
+               le <rs ref="#p.22"><choice>
+                     <abbr>G<hi rendition="#su">d</hi></abbr>
+                     <expan>Grand</expan>
+                  </choice>-Duc</rs>.</p>
+            <p>Le gouvernement Britannique, quoiqu’il ne soit point partie contractante du <rs
+                  ref="#t.19">traité de <placeName ref="#loc.25">Francfort</placeName></rs> et n’ait
+               par conséquent point droit de décision dans cette affaire, n’a pas hésité à joindre
+               ses efforts à ceux de ses alliés pour amener à un résultat désirable cette
+               transaction qui doit clorre les arrangemens territoriaux de l’Europe.</p>
+            <p>Quoiqu’elle ne fasse point partie du <rs ref="#t.27">traité de <placeName
+                     ref="#loc.16">Munich</placeName></rs>, ni d’aucun de ses articles secrets, soit
+               par accession ou autrement, la <choice>
+                  <abbr>G<hi rendition="#su">de</hi></abbr>
+                  <expan>Grande</expan>
+               </choice>-Bretagne a néanmoins employé ses bons offices de concert avec ses Alliés
+               pour soutenir cette demande :</p>
+            <p>1<hi rendition="#su">o</hi> Par la conviction que le <rs ref="#t.19">traité de
+                     <placeName ref="#loc.25">Francfort</placeName></rs> donnoit aux trois Cours
+               d’Autriche, de Russie<pb n="215r"/> et de Prusse une juridiction dans ce cas
+               particulier, et que <country>Bade</country>, ensuite de son traité avec ces
+               Puissances (qui se distingue essentiellement par ses stipulations d’avec <rs
+                  ref="#t.40">celui qui a été signé à <placeName ref="#loc.59">Ried</placeName> avec
+                  la <country>Bavière</country></rs> ou même d’avec <rs ref="#t.41">celui qui fut
+                  signé plus tard avec le <country>Würtemberg</country></rs>), étoit tenu à se
+               soumettre, pour l’objet déclaré dans le traité, à tels sacrifices raisonnables qui
+               seroient jugés nécessaires par les trois Cours ;</p>
+            <p>2<hi rendition="#su">o</hi> Par la persuasion qu’un sacrifice imposé dans le but
+               d’une vaste dislocation territoriale des parties méridionales de l’Allemagne, réclamé
+               par le projet d’une conformation et d’un système de défense plus convenable pour la
+               fédération, étoit exactement conforme sinon à la lettre, du moins à l’esprit du <rs
+                  ref="#t.19">traité</rs> même ;</p>
+            <p>3<hi rendition="#su">o</hi> Par l’opinion que les cessions demandées ne pourroient
+               paroître exorbitantes comparées aux possessions du <rs ref="#p.22"><choice>
+                     <abbr>G<hi rendition="#su">d</hi></abbr>
+                     <expan>Grand</expan>
+                  </choice>-Duc de Bade</rs> qui se sont<pb n="215v"/> quadruplées quant à l’étendue
+               pendant la dernière guerre ; les acquisitions de la Cour de <placeName ref="#loc.19"
+                  >Carlsruhe</placeName> excédant de beaucoup celles de tout autre état d’Allemagne,
+               proportion gardée.</p>
+            <p><choice>
+                  <abbr>S. A. R.</abbr>
+                  <expan>Son Altesse Royale</expan>
+               </choice> le <rs ref="#p.22"><choice>
+                     <abbr>G<hi rendition="#su">d</hi></abbr>
+                     <expan>Grand</expan>
+                  </choice>-Duc de Bade</rs> – plus attentif peut-être à ménager les intérêts de Sa
+               maison qu’à remplir les Stipulations d’un <rs ref="#t.19">traité</rs> auquel <choice>
+                  <abbr>S. A. R.</abbr>
+                  <expan>Son Altesse Royale</expan>
+               </choice> s’étoit soumis antérieurement de plein gré – a cru devoir opposer un refus
+               positif à l’étendue de cette demande. <choice>
+                  <abbr>S. A. R.</abbr>
+                  <expan>Son Altesse Royale</expan>
+               </choice> s’est retranchée dans cette position qui est toujours la plus formidable de
+               toutes, lorsque une puissance foible s’en empare pour résister à trois puissances
+               pareilles à celles avec lesquelles Bade a à lutter ; et le <rs ref="#p.22"><choice>
+                     <abbr>G<hi rendition="#su">d</hi></abbr>
+                     <expan>Grand</expan>
+                  </choice>-Duc</rs> a cherché à triompher plutôt par leur générosité que par la
+               force de ses raisons. Si, à la fin de leurs travaux pacifiques, les puissances <hi
+                  rendition="#u">n’ont pas le courage</hi> de<pb n="216r"/> prendre sur elles la
+               triste tâche d’exécuter leur propre arrêt ; et si elles ne peuvent consentir à ce
+               qu’une autre partie, plus intéressée au résultat, remplisse une obligation à laquelle
+               Elles répugnent de céder – leur droit n’en est point invalidé pour cela.</p>
+            <p>D’après cette résolution sage et généreuse, les Cours se sont occupées à <placeName
+                  ref="#loc.1">Aix-la-Chapelle</placeName> de fixer les bases d’un arrangement en
+               faveur de la <country>Bavière</country> auquel on pourroit amener le <rs ref="#p.22"><choice>
+                     <abbr>G<hi rendition="#su">d</hi></abbr>
+                     <expan>Grand</expan>
+                  </choice>-Duc</rs> dans les voies d’une négociation à l’amiable.</p>
+            <p>Cette tentative a été exécutée avec zèle sous la sanction de la conférence par le <rs
+                  ref="#p.14">Ministre de Russie</rs>, et la <choice>
+                  <abbr>G<hi rendition="#su">de</hi></abbr>
+                  <expan>Grande</expan>
+               </choice>-Bretagne, en considération de toutes les circonstances compliquées et
+               embarassantes de cette question, adopte le résultat de cette négociation comme le <rs
+                  xml:id="n.14"><hi rendition="#u">nec plus ultra</hi></rs><note type="editorial"
+                  target="#n.14">Lat.: nicht darüber hinaus; hier im Sinn von „äußerstes
+                  Zugeständnis“.</note> des cessions à exiger du <rs ref="#p.22"><choice>
+                     <abbr>G<hi rendition="#su">d</hi></abbr>
+                     <expan>Grand</expan>
+                  </choice>-Duc de Bade</rs>, résultat sur lequel il faut ouvrir la<pb n="216v"/>
+               négociation avec la <country>Bavière</country> comme la seule base d’arrangement
+               admissible.</p>
+            <p>Quant aux réversions, les <rs ref="#p.9 #p.10">Plénipotentiaires de la <choice>
+                     <abbr>G<hi rendition="#su">de</hi></abbr>
+                     <expan>Grande</expan>
+                  </choice>-Bretagne</rs> s’expliqueront tout aussi clairement et franchement.</p>
+            <p>_______</p>
+            <p>En consultant le cours de ces transactions, on trouve que le <date when="1815-06-09"
+                  >9 Juin 1815</date>, jour de la clôture des travaux du <rs xml:id="n.15"
+                  >congrès</rs>,<note type="editorial" target="#n.15">Des Wiener Kongresses
+                  1814/15.</note> les réversions du Palatinat et du Brisgau furent (non cédées),
+               mais mises à la disposition de l’Autriche dans le but explicite d’être employées
+               comme moyens à terminer les derniers arrangemens territoriaux de l’Allemagne. À
+                  <placeName ref="#loc.2">Paris</placeName>, au mois de Novembre 1815, ces
+               réversions <rs ref="#t.21">redevinrent l’objet d’un règlement des quatre puissances ;
+                  celle du Palatinat fut assignée à la Bavière sous certaines conditions qui n’ont
+                  pas été acceptées ; – celle du Brisgau fut déclarée rester à<pb n="217r"/>
+                  l’Autriche (« sera maintenue »)</rs>. </p>
+            <p>Dans ces dispositions les <rs ref="#p.9 #p.10">Plénipotentiaires Britanniques</rs>
+               n’apperçoivent rien qui puisse être considéré comme détournant ces réversions de leur
+               destination primitivement fixée, savoir : de servir à effectuer l’arrangement
+               général ; et cette destination ayant manqué son effet après une négociation de deux
+               ans, il paroit juste et nécessaire que les quatre puissances, toujours chargées
+               d’achever cet œuvre, résument leur opinion sur ce côté de la question et prennent de
+               nouveau en considération la marche la mieux calculée pour l’amener le plutôt possible
+               au résultat désiré.</p>
+            <p>Mais ils n’hésitent point à avouer qu’il y a d’autres considérations qui doivent
+               puissamment les engager à regarder cette partie de leurs travaux antérieurs comme<pb
+                  n="217v"/> étant de nature à être révisée.</p>
+            <p>Les <rs ref="#p.9 #p.10">Plénipotentiaires <choice>
+                     <abbr>B<hi rendition="#su">ques</hi></abbr>
+                     <expan>Britanniques</expan>
+                  </choice></rs> doivent avouer franchement que les discussions subséquentes à
+                  <placeName ref="#loc.25">Francfort</placeName> ont ébranlé leur opinion, quant à
+               la compétence des quatre puissances de faire légalement les règlemens en question,
+               même dans l’intention de servir l’intérêt général ; et que ces discussions les ont
+               conduits <rs xml:id="n.16"><hi rendition="#u">a fortiori</hi></rs><note
+                  type="editorial" target="#n.16">Lat.: vom Stärkeren hier; hier im Sinn von „um so
+                  mehr“.</note> à douter du droit des dites puissances de faire aucune cession
+               formelle à une puissance quelconque, lorsque cette cession n’auroit pas pour but de
+               servir à l’objet proposé, mais ne feroit que diminuer la masse des moyens applicables
+               à un arrangement définitif. Les négociations subséquentes, destinées à appuyer la
+               cession du cercle de Mein &amp; Tauber, n’ont fait que renforcer ce doute, en
+               prouvant que les <rs ref="#t.20 #t.21">règlemens de <placeName ref="#loc.7"
+                     >Vienne</placeName> et de <placeName ref="#loc.2">Paris</placeName></rs> ne
+               peuvent être justifiés<pb n="218r"/> d’après les pouvoirs que leur avoit conféré le
+                  <rs ref="#t.19">traité de <placeName ref="#loc.25">Francfort</placeName></rs>.</p>
+            <p>S’il existe des doutes sur cette question, le caractère général et l’intérêt de
+               toutes les parties qu’elle concerne ne concourent-ils pas à suggérer que ces doutes
+               devroient être appaisés par une nouvelle disposition qui placeroit toute la
+               transaction sur des bases exemptes de tout germe de dispute et de contestation ? –
+               Les quatre puissances hazarderoient-elles de procéder à la mise à exécution du <rs
+                  ref="#t.21">protocole de <choice>
+                     <abbr>Nov<hi rendition="#su">bre</hi></abbr>
+                     <expan>Novembre</expan>
+                  </choice> 1815</rs> en faveur de la <country>Bavière</country> et de
+                  l’<country>Autriche</country>, avant que ce doute soit éclairci d’une manière
+               satisfaisante ? – Ces puissances pourroient-elles réclamer quoique ce soit en vertu
+               des <rs ref="#t.20 #t.21">protocoles de <placeName ref="#loc.7">Vienne</placeName> et
+                  de <placeName ref="#loc.2">Paris</placeName></rs> si ces protocoles reposoient sur
+               une erreur ?</p>
+            <p>Hazarderoient-elles de<pb n="218v"/> maintenir désormais leur droit à ces réversions
+               s’il étoit prouvé que dans le fait les quatre puissances n’avoient aucune autorité
+               légale pour les céder ?</p>
+            <p>L’une ou l’autre de ces deux puissances trouveroit-elle quelque avantage à se
+               prévaloir d’un titre aussi litigieux, et de prendre sur elle la tâche de le faire
+               reconnoître par toutes les puissances de l’Europe que le protocole en question ne
+               concerne pas, en opposition avec une ligne de succession coïncidante qui plus tard
+               pourroit trouver en Europe de formidables défenseurs ?</p>
+            <p>D’après toutes ces considérations, la sagesse et la politique paroissent s’accorder à
+               conseiller de ne plus compliquer les transactions par des questions de droit
+               douteuses. Les parties devroient procéder sur une base assurée, et une base pareille
+               est à leur portée. Si<pb n="219r"/>
+               <country>Bade</country> n’accorde pas tout ce qu’on eut pu attendre de cette Cour,
+               elle accorde du moins ce qui est le plus essentiel pour la
+               <country>Bavière</country>, une route de communication entre ses provinces du Rhin et
+               ses Etats héréditaires.</p>
+            <p>La Cour de Bade fait aussi des sacrifices considérables d’argent et quelques
+               sacrifices territoriaux. La <country>Bavière</country>, si elle n’obtient point tout
+               ce qu’elle désiroit, acquiert tout ce que <country>Bade</country> a été amené à
+               céder. Elle acquiert en outre de l’<country>Autriche</country> les équivalents
+               qu’elle avoit stipulés Elle-même en cas de non-réussite, et par-dessus tout, elle y
+               gagne le repos et le bon voisinage en échange de contestations politiques et de
+               successions disputées qui pourroient par la suite troubler son repos et celui des
+               états voisins.</p>
+            <p>Les <rs ref="#p.9 #p.10">Plénipotentiaires <choice>
+                     <abbr>B<hi rendition="#su">ques</hi></abbr>
+                     <expan>Britanniques</expan>
+                  </choice></rs>,<pb n="219v"/> coïncidant ainsi sur le fond avec le vote de <rs
+                  ref="#p.17"><choice>
+                     <abbr>S. M. I.</abbr>
+                     <expan>Sa Majesté Impériale</expan>
+                  </choice> de toutes les Russies</rs>, se persuadent que le <rs ref="#p.99">Roi de
+                  Bavière</rs> rendra justice aux considérations qui ont dicté le présent appel à Sa
+               sagesse et à Sa modération, et que Sa Majesté, dans cette occasion comme en tant
+               d’autres, se montrera disposé à prendre une résolution conforme à ce que l’intérêt
+               général de l’Europe paroitra exiger.</p>
+         </div>
+
+         <div hand="#W" decls="#m.5">
+            <pb n="230r"/>
+            <p><rs ref="#t.27"><title>Articles additionnels et secrets</title></rs></p>
+            <p>Article I.</p>
+            <p><rs ref="#p.16">Sa Majesté Impériale et royale apostolique</rs>, pour Elle-même et au
+               nom de ses hauts alliés, garantit à Sa Majesté le <rs ref="#p.99">Roi de
+               Bavière</rs>, ainsi qu’à ses héritiers et successeurs, la réversion de la partie du
+               Palatinat du Rhin, dite le Cercle du Neckar, appartenant aujourd’hui à la Maison de
+               Bade, au cas d’extinction de la ligne mâle et directe de Son Altesse royal le<rs
+                  ref="#p.22"> Grand-Duc</rs> régnant.</p>
+            <p>Article II.</p>
+            <p>Par suite de la teneur de l’article IV du traité patent, le Cercle badois de Mein et
+               Tauber est destiné à servir d’indemnité à la Couronne de Bavière pour la contiguïté
+               de territoire qui lui avoit été promise par les traités et que les circonstances ne
+               permettent pas d’établir aujourd’hui.</p>
+            <p>Article III.</p>
+            <p>À l’effet d’y parvenir plus promptement, et pour donner à Sa Majesté le <rs
+                  ref="#p.99">Roi de Bavière</rs> des preuves non équivoques<pb n="230v"/> du désir
+               dont <rs ref="#p.16">Sa Majesté Impériale</rs> est animée de Lui procurer ladite
+               indemnité, Elle s’engage non seulement à y employer tous ses moyens, mais Elle promet
+               à Sa Majesté le <rs ref="#p.99">Roi de Bavière</rs> de soutenir cet engagement près
+                  <rs xml:id="n.17">les trois cours ses alliées</rs><note type="editorial"
+                  target="#n.17">Großbritannien, Preußen, Russland.</note> et conjointement avec
+               Elles à <rs xml:id="n.18"><placeName ref="#loc.25">Francfort</placeName></rs>.<note
+                  type="editorial" target="#n.18">Beim Deutschen Bundestag.</note></p>
+            <p>Article IV.</p>
+            <p>Afin que les intérêts de la <country>Bavière</country> ne puissent être lésés par le
+               retard qu’éprouveroit la cession dudit Cercle de Mein et Tauber, Sa Majesté l’<rs
+                  ref="#p.16">Empereur d’Autriche</rs> prend sur Elle de lui en payer annuellement
+               le revenu qui est évalué de gré-à-gré à cent-mille Florins, valeur d’Empire ; cette
+               somme sera déduite du payement des deux cent-mille quintaux de sel jusqu’à ce qu’un
+               résultat efficace des négociations de <placeName ref="#loc.25">Francfort</placeName>
+               ait mis Sa Majesté le <rs ref="#p.99">Roi de Bavière</rs> en possession de ce
+               territoire.</p>
+            <p>Article V.</p>
+            <p>La route militaire à travers les Etats de Son Altesse royale le <rs ref="#p.22"
+                  >Grand-Duc de Bade</rs>, dont l’établissement est stipulé par l’article V du <rs
+                  ref="#t.27">traité de ce jour</rs>, ne pouvant remplir l’objet des communications
+               entre les Etats bavarois sur le Mein et<pb n="231r"/> ceux de la rive gauche du Rhin
+               sans causer une surcharge pour les parties de territoire soumises à ce passage, <rs
+                  ref="#p.16">Sa Majesté Impériale et royale apostolique</rs> s’engage à employer
+               ses bons offices et à réclamer ceux des Cours alliées près Son Altesse royale le <rs
+                  ref="#p.79">Grand-Duc de Hesse</rs> pour l’établissement d’une seconde route
+               militaire à travers ses Etats.</p>
+            <p>Article VI.</p>
+            <p>Ces articles additionnels et secrets auront la même force et valeur que s’ils étoient
+               insérés mot à mot dans le <rs ref="#t.27">traité patent de ce jour</rs> ; ils seront
+               ratifiés, et les ratifications en seront échangées en même temps.</p>
+            <p>En foi de quoi les plénipotentiaires respectifs les ont signés et y ont apposé le
+               cachet de leurs armes.</p>
+            <p>Fait à <placeName ref="#loc.16">Munic</placeName> le <date when="1816-04-14"><add
+                     hand="#A1" place="inspace">Quatorze</add> Avril, l’an de grâce Mil huit cent
+                  seize</date>.</p>
+            <signed><rs xml:id="n.19">Le <persName ref="#p.24"><roleName>Baron</roleName>
+                     <surname>de Wacquant-Geozelles</surname></persName></rs></signed>
+            <note type="editorial" target="#n.19">Es folgt "L. S." in einem Kreis als
+               Siegelzeichen.</note>
+            <signed><rs xml:id="n.20">Le <persName ref="#p.131"><roleName><choice>
+                           <abbr>C<hi rendition="#su">te</hi></abbr>
+                           <expan>Comte</expan>
+                        </choice></roleName>
+                     <surname>de Montgelas</surname></persName></rs>
+            </signed>
+            <note type="editorial" target="#n.20">Es folgt "L. S." in einem Kreis als
+               Siegelzeichen.</note>
+            <signed><rs xml:id="n.21">Le <persName ref="#p.132"><roleName>Comte</roleName>
+                     <surname>de Rechberg</surname></persName></rs>
+            </signed>
+            <note type="editorial" target="#n.21">Es folgt "L. S." in einem Kreis als
+               Siegelzeichen.</note>
+         </div>
+      </body>
+      <back>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listPlace.xml" xpointer="listPlace"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listPerson.xml"
+            xpointer="listPerson"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listWit.xml" xpointer="listWit"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listOrg.xml" xpointer="listOrg"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listTreaties.xml"
+            xpointer="listTreaties"/>
+      </back>
+   </text>
+</TEI>

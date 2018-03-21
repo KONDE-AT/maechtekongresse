@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Protokoll der 6. Sitzung des Kongresses von Aachen</title>
+            <title type="sub">Digitale Edition</title>
+            <editor>
+               <persName>
+                  <surname>Schneider</surname>
+                  <forename>Karin</forename>
+               </persName></editor>
+         </titleStmt>
+         <editionStmt>
+            <edition><date>2015-05-08</date></edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Österreichische Akademie der Wissenschaften, Institut für Neuzeit- und
+               Zeitgeschichtsforschung</publisher>
+            <pubPlace>Wien</pubPlace>
+            <idno>A_06</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="m.1" type="Originalprotokoll">
+               <msIdentifier>
+                  <settlement>Wien</settlement>
+                  <institution>ÖStA</institution>
+                  <collection>HHStA, Staatskanzlei, Kongressakten</collection>
+                  <idno>
+                     <idno type="Karton">Kart. 17</idno>
+                     <idno type="Faszikel"> Fasz. 29 (alt)</idno>
+                     <idno type="Folia">I/24</idno>
+                  </idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <title>Protokoll</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+
+                  <p> Eigenhändiges Protokoll von <persName ref="#p.5">
+                        <surname>Gentz</surname></persName>. </p>
+                  <handDesc>
+                     <handNote xml:id="G">Friedrich Gentz</handNote>
+                     <handNote xml:id="W">Nikolaus Wacken</handNote>
+                     <handNote xml:id="A">Anonym</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin><placeName ref="#loc.1">Aachen</placeName><date when="1818-10-08">8.
+                        Oktober 1818</date></origin>
+               </history>
+            </msDesc>
+            <msDesc xml:id="m.2" type="Übersetzung">
+               <msIdentifier>
+                  <settlement>Wien</settlement>
+                  <institution>ÖStA</institution>
+                  <collection>HHStA, Staatskanzlei, Kongressakten</collection>
+                  <idno>
+                     <idno type="Karton">Kart. 17</idno>
+                     <idno type="Faszikel"> Fasz. 29 (alt)</idno>
+                     <idno type="Folia">I/25-28</idno>
+                  </idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <title>Anlage: Bericht <persName ref="#p.10"
+                           ><surname>Wellingtons</surname></persName></title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <p>Französische Übersetzung des englischen Originals</p>
+                  </objectDesc>
+
+               </physDesc>
+               <history>
+                  <origin><placeName ref="#loc.1">Aachen</placeName><date when="1818-10-06">6.
+                        Oktober 1818</date></origin>
+               </history>
+            </msDesc>
+            <listWit corresp="#m.2">
+               <head>Anlage</head>
+               <witness corresp="#w.1">Wellington, Supplementary Despatches, Bd. 12, S. 726–729
+                  (Englisch).</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <appInfo>
+            <application xml:id="docxtotei" ident="TEI_fromDOCX" version="2.15.0">
+               <label>DOCX to TEI</label>
+            </application>
+         </appInfo>
+         <styleDefDecl scheme="css"/>
+         <tagsDecl>
+            <rendition xml:id="su">superscript</rendition>
+            <rendition xml:id="s">strikethrough</rendition>
+            <rendition xml:id="u">underline</rendition>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+
+         <abstract>
+            <p>Die <rs ref="#p.8 #p.10 #p.11 #p.13 #p.12 #p.14 #p.9">Vertreter der alliierten
+                  Mächte</rs> stimmen den vom französischen Premierminister <persName ref="#p.1"
+                     ><surname>Richelieu</surname></persName> in der <ref target="Aachen_Prot_5.xml"
+                  >Sitzung vom <date when="1818-10-03">3. Oktober 1818</date></ref> gemachten
+               Vorschlägen hinsichtlich der Zahlungsmodalitäten der Entschädigungszahlungen zu.</p>
+         </abstract>
+         <particDesc>
+            <listPerson>
+               <head>Anwesende</head>
+
+               <person>
+                  <persName ref="#p.12">BERNSTORFF</persName>
+               </person>
+               <person>
+                  <persName ref="#p.9">CASTLEREAGH</persName>
+               </person>
+               <person>
+                  <persName ref="#p.11">HARDENBERG</persName>
+               </person>
+               <person>
+                  <persName ref="#p.14">KAPODISTRIAS</persName>
+               </person>
+               <person>
+                  <persName ref="#p.8">METTERNICH</persName>
+               </person>
+               <person>
+                  <persName ref="#p.13">NESSELRODE</persName>
+               </person>
+               <person>
+                  <persName ref="#p.10">WELLINGTON</persName>
+               </person>
+
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div hand="#G" decls="#m.1">
+            <pb n="24r"/>
+            <p><add place="top">6.</add></p>
+            <p><placeName ref="#loc.1">Aix-la-Chapelle</placeName></p>
+            <p><date when="1818-10-08">Le 8 Octobre 1818</date>
+            </p>
+            <p>
+               <add place="margin">Entre les 4 Cabinets</add></p>
+            <p><choice>
+                  <abbr>Mr.</abbr>
+                  <expan>Monsieur</expan>
+               </choice> le <persName ref="#p.10"><roleName>Duc</roleName>
+                  <surname>de Wellington</surname></persName> ayant fait part à la conférence de
+               différens apperçus et éclaircissemens relatifs à l’exécution des clauses pécuniaires
+               du <rs ref="#t.1">traité du <date when="1815-11-20">20 Novembre 1815</date></rs>, <choice>
+                  <abbr>Mrs.</abbr>
+                  <expan>Messieurs</expan>
+               </choice> les<rs ref="#p.8 #p.10 #p.11 #p.13 #p.12 #p.14 #p.9"> Ministres des Quatre
+                  Cours</rs>, après avoir examiné et discuté ces pièces dans leurs séances des trois
+               derniers jours, sont convenus aujourd’hui d’accepter les bases de l’arrangement
+               proposé par <choice>
+                  <abbr>Mr.</abbr>
+                  <expan>Monsieur</expan>
+               </choice> le <persName ref="#p.1"><roleName>Duc</roleName>
+                  <surname>de Richelieu</surname></persName> sauf les modifications concertées avec <choice>
+                  <abbr>Mr.</abbr>
+                  <expan>Monsieur</expan>
+               </choice> le <persName ref="#p.10"><roleName>Duc</roleName>
+                  <surname>de Wellington</surname></persName>. En conséquence il est entendu</p>
+            <p>1. Que sur ce qui reste à payer par la <country>France</country> pour s’acquitter
+               définitivement avec les puissances Alliées, une somme de 100 Millions Francs valeur
+               effective sera acquittée en Inscriptions de rentes au Cours de Lundi <date
+                  when="1818-10-05">5 Octobre dernier</date> ; lesquelles inscriptions seront
+               escomptées et réalisées par les maisons <orgName ref="#o.1">Hope et Comp.</orgName>
+               et <orgName ref="#o.2">Baring &amp; Comp.</orgName> aux conditions convenues entre <choice>
+                  <abbr>Mr.</abbr>
+                  <expan>Monsieur</expan>
+               </choice> le <persName ref="#p.10"><roleName>Duc</roleName>
+                  <surname>de Wellington</surname></persName> et <choice>
+                  <abbr>Mr.</abbr>
+                  <expan>Monsieur</expan>
+               </choice>
+               <persName ref="#p.20"><surname>Baring</surname></persName> ;</p>
+            <p>2. Que le surplus des payemens à faire par la <country>France</country> sera acquitté
+               en traites sur les maisons <orgName ref="#o.1">Hope</orgName> et <orgName ref="#o.2"
+                  >Baring</orgName> ; les Quatre Cours considérant que la solidité de ces maisons de
+               banque offre une meilleure garantie de l’exactitude des payemens que n’en offriroit
+               tout autre mode qui eut pu être proposé ;</p>
+            <pb n="24v"/>
+            <p>3. Que le taux de l’intérêt à bonifier au Gouvernement Français sur les payemens
+               anticipés, soit dans le courant des dernières années, soit moyennant l’arrangement
+               présent, sera généralement fixé à 5 pour Cent ;</p>
+            <p>4. Que, pour simplifier et faciliter l’arrangement final de cette affaire, les Quatre
+               Cours proposeront au Gouvernement Français une somme aversionelle de Douze Millions,
+               tenant lieu de toute autre bonification ou balance à réclamer par le Gouvernement
+               Français en déduction du restant de sa dette.</p>
+            <signed>
+               <list>
+                  <item><persName ref="#p.8"><choice>
+                           <abbr>M</abbr>
+                           <expan>Metternich</expan>
+                        </choice></persName></item>
+                  <item><persName ref="#p.9"><choice>
+                           <abbr>C</abbr>
+                           <expan>Castlereagh</expan>
+                        </choice></persName></item>
+                  <item><persName ref="#p.10"><choice>
+                           <abbr>W</abbr>
+                           <expan>Wellington</expan>
+                        </choice></persName></item>
+                  <item><persName ref="#p.11"><choice>
+                           <abbr>H</abbr>
+                           <expan>Hardenberg</expan>
+                        </choice></persName></item>
+                  <item><persName ref="#p.12"><choice>
+                           <abbr>B</abbr>
+                           <expan>Bernstorff</expan>
+                        </choice></persName></item>
+                  <item><persName ref="#p.13"><choice>
+                           <abbr>N</abbr>
+                           <expan>Nesselrode</expan>
+                        </choice></persName></item>
+                  <item><persName ref="#p.14">Capodistrias</persName></item>
+               </list></signed>
+            <note place="margin" hand="#G"><p><hi rendition="#u">Note</hi> du <date
+                     when="1818-10-09">9 Octobre</date></p>
+               <p>La proposition ad <hi rendition="#u">4</hi> ayant été faite par <choice>
+                     <abbr>Mr.</abbr>
+                     <expan>Monsieur</expan>
+                  </choice> le <persName ref="#p.10"><roleName>Duc</roleName>
+                     <surname>de Wellington</surname></persName> et acceptée par <choice>
+                     <abbr>Mr.</abbr>
+                     <expan>Monsieur</expan>
+                  </choice> le <persName ref="#p.1"><roleName>Duc</roleName>
+                     <surname>de Richelieu</surname></persName>, la somme totale de ce que la
+                     <country>France</country> restera devoir aux puissances Alliées a été fixée à
+                  268 Millions, dont 100 Millions à acquitter en Inscriptions et 168 en traites sur
+                  les <rs ref="#o.1 #o.2">susdites maisons de banque</rs>.</p>
+               <p>À la suite d’explications ultérieures qui ont eu lieu <date when="1818-10-09">le
+                     9</date> (jour de la signature du <rs ref="#t.10">traité</rs>), la dite somme
+                  de 268 Millions a été définitivement réduite à 265 Millions Francs.</p></note>
+         </div>
+
+         <div hand="#A" decls="#m.2">
+            <pb n="25r"/>
+            <p><add place="top">Annexe au <choice>
+                     <abbr>N<hi rendition="#su">o</hi></abbr>
+                     <expan>Numéro</expan>
+                  </choice> 6</add></p>
+            <p><add place="top"><hi rendition="#u">Traduction</hi></add></p>
+
+            <p><title>Observations concernant la demande de la France que l’indemnité pécuniaire
+                  soit diminuée de 38 millions de francs – demande fondée sur ce que les frais de
+                  l’armée d’occupation pendant trois ans ont excédé d’une somme pareille celle de
+                  450 millions</title></p>
+            <p>1<hi rendition="#su">o</hi> Par l’Art. 2 de <rs ref="#t.3">la Convention pour la mise
+                  à exécution de l’Art. 5</rs> du <rs ref="#t.1">traité principal</rs> (savoir de la
+               Convention militaire) la <country>France</country> promet ce qui suit : </p>
+            <p><quote>« Cette armée sera entretenue par le Gouvernement français de la manière
+                  suivante : Le logement, le chauffage, l’éclairage, les vivres et fourages doivent
+                  être fournis en nature. Il est convenu que le nombre total des rations ne pourra
+                  jamais être porté au delà de deux cent mille pour hommes, et de cinquante mille
+                  pour chevaux, et qu’elles seront délivrées suivant le tarif annexé à la présente
+                  Convention. »</quote></p>
+            <p>2<hi rendition="#su">o</hi> Voilà l’unique stipulation positive à ce sujet.</p>
+            <p>3<hi rendition="#su">o</hi> Durant les négociations, les frais annuels d’une armée<pb
+                  n="25v"/> de 150.000 hommes furent évalués à 150 millions de francs, dont 50
+               millions pour solde et équipement et 100 millions pour <hi rendition="#u"
+                  >l’entretien</hi> ou les objets mentionnés à l’Art. 2 de <rs ref="#t.3">la
+                  Convention</rs>.</p>
+            <p>4<hi rendition="#su">o</hi> Les Ministres français ayant déclaré dans le cours des
+               négociations qui ont précédé le <rs ref="#t.1">traité du <date when="1815-11-20">20 <choice>
+                        <abbr>9<hi rendition="#su">bre</hi></abbr>
+                        <expan>Novembre</expan>
+                     </choice> 1815</date></rs> qu’ils ne pouvoient point subvenir aux frais de
+               l’armée d’occupation, évalués à 150 millions de francs par an, et acquitter dans
+               l’espace de cinq ans l’indemnité de guerre de 700 millions de francs, en payant 140
+               millions annuellement – les Ministres des Puissances alliées <rs ref="#t.8">prirent
+                  cet objet en considération le <date when="1815-10-13">13 Octobre 1815</date></rs>,
+               et lecture fut faite à la Conférence de la pièce à laquelle <choice>
+                  <abbr>M<hi rendition="#su">r</hi></abbr>
+                  <expan>Monsieur</expan>
+               </choice> le <persName ref="#p.1"><roleName>Duc</roleName>
+                  <surname>de Richelieu</surname></persName> se réfère dans sa <ref
+                  target="Aachen_Prot_5.xml">Note du <date when="1818-10-02">2 Octobre <choice>
+                        <abbr>c.</abbr>
+                        <expan>currente</expan>
+                     </choice></date></ref> et qui, ainsi que deux autres <hi rendition="#u">Notes
+                  explicatives</hi>, marquées <hi rendition="#u">A</hi> et <hi rendition="#u"
+               >B</hi>, fut reçue non comme <hi rendition="#u">procès-verbal de la Conférence</hi>
+               selon les expressions de <choice>
+                  <abbr>M<hi rendition="#su">r</hi></abbr>
+                  <expan>Monsieur</expan>
+               </choice> le <rs ref="#p.1">Duc</rs>, mais comme <hi rendition="#u">annexe au
+                  procès-verbal de la Conférence</hi>.</p>
+            <pb n="26r"/>
+            <p>5<hi rendition="#su">o</hi> L’objet de ces pièces étoit de démontrer à la Conférence
+               qu’en bornant à 30 millions la demande à titre de solde pour l’armée au lieu de
+               l’étendre à 50 millions, la différence à être payée aux Alliés par la
+                  <country>France</country> dans les années subséquentes de l’occupation, en cas que
+               l’armée pût être réduite de manière à réduire les dépenses aux proportions arrêtées,
+               ou bien en 1821, si l’armée et les dépenses ne peuvent pas être diminuées, l’ensemble
+               des dispositions auroit pu être exécuté selon le plan proposé par la
+                  <country>France</country>, celui de pourvoir à un service fixé à 270 millions de
+               francs seulement.</p>
+            <p>6<hi rendition="#su">o</hi> Tout le système étoit fondé sur la supposition d’une
+               occupation de cinq ans. L’on croyoit qu’en général l’on ne se trouveroit pas dans le
+               cas pendant cette période d’engager la <country>France</country> à payer plus de 270
+               millions de francs par an. Quant aux demandes en sus de cette somme, il ne devoit y
+               être satisfait que dans le courant de la sixième année.</p>
+            <pb n="26v"/>
+            <p>7<hi rendition="#su">o</hi>
+               <rs ref="#p.1">Le Ministre de <country>France</country></rs> prétend que <rs
+                  ref="#t.8">l’annexe au Protocole du <date when="1815-10-13">13 <choice>
+                        <abbr>8<hi rendition="#su">bre</hi><expan>Octobre</expan></abbr>
+                     </choice></date></rs> renferme des engagemens non moins obligatoires que toute
+               autre partie des actes qui ont précédé le <rs ref="#t.1">traité du <date
+                     when="1815-11-20">20 <choice>
+                        <abbr>9<hi rendition="#su">bre</hi></abbr>
+                        <expan>Novembre</expan>
+                     </choice></date></rs>, et que ce traité même ; et que les frais d’entretien de
+               l’armée excédant la somme fixée, c’est aux Alliés à porter cette charge.</p>
+            <p>8<hi rendition="#su">o</hi> En examinant cette question dans ses détails, l’on se
+               rappelera que depuis 1815 il y a eu deux années de calamités extraordinaires,
+               nommément l’année 1816, mais que malgré ce fait les frais d’entretien n’ont excédé
+               l’estimation conventionnelle que de 7 millions pendant la première année 1816, de 40
+               millions en 1817 – et en admettant 24 millions pour les dépenses d’Octobre et
+               Novembre 1818, l’on trouve que les frais d’entretien pour cette année n’outrepassent
+               l’estimation que de 8.000.000 seulement.</p>
+            <p>Or il est probable que si l’occupation avoit duré cinq ans,<pb n="27r"/> comme il a
+               été proposé d’abord, les frais d’entretien auroient été, l’un portant l’autre,
+               inférieurs à la somme d’estimation de 100 millions de francs au lieu de
+               l’outrepasser.</p>
+            <p>9<hi rendition="#su">o</hi> Mais où sont les termes qui constituent l’engagement que
+               toute dépense excédant 150 millions par an pour solde et équipement de l’armée
+               doivent être à la charge des Alliés ?</p>
+            <p>Les <rs ref="#t.8">paragraphes 5 et 6 des annexes</rs> mentionnent la fixation des
+               270 millions comme Maximum des payemens annuels à effectuer par la
+                  <country>France</country>, ils règlent le mode d’acquittement de l’arriéré que
+               cette Puissance devoit à titre de solde, et stipulent positivement qu’il ne pourra
+               être questions des demandes des Alliés que lorsque les dépenses ne dépasseront pas le
+               maximum de 270 millions, ou bien dans le courant de la 6<hi rendition="#su">e</hi>
+               année si, contre leur attente, il étoit jugé nécessaire<pb n="27v"/> de maintenir
+               l’armée au complet primitif de 150 mille hommes.</p>
+            <p>10<hi rendition="#su">o</hi> Mais <rs ref="#t.8">les annexes</rs> passent sous
+               silence le cas imprévu où les frais d’entretien de l’armée excéderoient la somme
+               fixée. <rs ref="#t.3">Le traité</rs> seul a prévu ce point à l’Art. 2 où la
+                  <country>France</country> se charge entièrement de cette dépense.</p>
+            <p>11<hi rendition="#su">o</hi> Si les Alliés avoient consenti à prendre sur eux tous
+               les frais excédant 150 millions par an, la <country>France</country> auroit eu soin
+               de faire consigner ce consentement dans un des Articles du Traité, et de leur côté
+               les Alliés n’auroient pas manqué de se réserver le contrôle du mode d’exécution à
+               suivre par la <country>France</country> à l’égard de l’Art. 2 de la <rs ref="#t.3"
+                  >Convention</rs>.</p>
+            <p>12<hi rendition="#su">o</hi> Si les Alliés avoient consenti à se charger de ces
+               surplus de fraix, la réduction de l’armée, effectuée au mois d’Avril 1817, et toutes
+               les réductions subséquentes, n’auroient eu d’autre but<pb n="28r"/> que de procurer
+               un avantage pécuniaire et un soulagement aux Alliés eux-mêmes, et non à la
+                  <country>France</country>, ce qui est contraire au bon sens, à la raison et au
+               fait.</p>
+            <p>13<hi rendition="#su">o</hi> Il résulte de tout ceci que l’état de détresse où la
+                  <country>France</country> s’est trouvée placée vers la fin de l’année 1815, et les
+               calamités extraordinaires qui ont succédé en 1816 et 1817, ont causé le surcroit de
+               dépenses en question, et qu’en revanche la <country>France</country> trouvera une
+               compensation, en voyant son territoire évacué le plutôt possible.</p>
+            <p>14<hi rendition="#su">o</hi> Quant au droit que la <country>France</country> prétend
+               avoir eu, de ne pas payer pendant chacune des années 1817 et 1818 une somme plus
+               forte que de 30 millions à titre de solde, et de n’acquitter ses dettes de ce chef
+               que dans le courant de la 5<hi rendition="#su">e</hi> et même de la 6<hi
+                  rendition="#su">e</hi> année, j’avoue que ce droit existoit en vertu des
+               stipulations des annexes toutes les fois que la <country>France</country> auroit<pb
+                  n="28v"/> payé plus de 270 millions d’indemnité et de frais d’occupations par
+               an.</p>
+            <p>15<hi rendition="#su">o</hi> Supposé que les calculs français soient exacts, la
+                  <country>France</country> aura payé jusqu’à ce jour environ 300 millions par an, y
+               compris 40 millions de solde, pour chacune des années 1817 et 1818, et un arriéré de
+               solde du chef de l’époque entre le <date when="1817-12-15">15 <choice>
+                     <abbr>X<hi rendition="#su">bre</hi></abbr>
+                     <expan>Décembre</expan>
+                  </choice></date> et le <date when="1818-04-17">17 Avril</date>, montant à 26
+               millions et acquitté <choice>
+                  <abbr>dernièrem<hi rendition="#su">t</hi></abbr>
+                  <expan>dernièrement</expan>
+               </choice>.</p>
+            <p>16<hi rendition="#su">o</hi> Elle payera de même dans le courant de 1819 une somme de
+               280 millions, formant le total de l’indemnité pour les années 1819 et 1820.</p>
+            <p>17<hi rendition="#su">o</hi> La <country>France</country> auroit eu, conformément aux
+               stipulations <rs ref="#t.8">des annexes</rs>, le droit de reculer jusqu’en 1820, ou
+               jusqu’à la 5<hi rendition="#su">e</hi> année, l’acquittement de la solde excédant 30
+               millions par an pendant les années 1817 et 1818, ainsi que celui de l’arriéré de 26
+               millions acquitté <choice>
+                  <abbr>dernièrem<hi rendition="#su">t </hi></abbr>
+                  <expan>dernièrement</expan>
+               </choice>; elle peut, à mon avis, prétendre aux intérêts de ces sommes à compter des
+               époques respectives de leur payement jusqu’à la 5<hi rendition="#su">e</hi>
+               année.</p>
+         </div>
+      </body>
+      <back>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listPlace.xml" xpointer="listPlace"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listPerson.xml"
+            xpointer="listPerson"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listWit.xml" xpointer="listWit"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listOrg.xml" xpointer="listOrg"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listTreaties.xml"
+            xpointer="listTreaties"/>
+      </back>
+   </text>
+</TEI>

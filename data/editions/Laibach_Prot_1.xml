@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Protokoll der 1. Sitzung des Kongresses von Laibach</title>
+            <title type="sub">Digitale Edition</title>
+            <editor>
+               <persName>
+                  <surname>Schneider</surname>
+                  <forename>Karin</forename>
+               </persName></editor>
+         </titleStmt>
+         <editionStmt>
+            <edition><date>2017-03-13</date></edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Österreichische Akademie der Wissenschaften, Institut für Neuzeit- und
+               Zeitgeschichtsforschung</publisher>
+            <pubPlace>Wien</pubPlace>
+            <idno>L_01</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="m.1" type="Originaljournal">
+               <msIdentifier>
+                  <settlement>Wien</settlement>
+                  <institution>ÖStA</institution>
+                  <collection>HHStA, Staatskanzlei, Kongressakten</collection>
+                  <idno>
+                     <idno type="Karton">Kart. 22</idno>
+                     <idno type="Faszikel"> Fasz. 40 (alt)</idno>
+                     <idno type="Folia">5, 8</idno>
+                  </idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <title>Journal des Conférences</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <p>Journal</p>
+
+                  <handDesc>
+                     <handNote xml:id="A">Anonyme Hand</handNote>
+                     <handNote xml:id="G">Friedrich Gentz</handNote>
+                     <handNote xml:id="W">Nikolaus Wacken</handNote>
+                     <handNote xml:id="AmB">Anonyme Hand mit Bleistift</handNote>
+                     <handNote xml:id="AmR">Anonyme Hand mit Rotstift</handNote>
+                  </handDesc>
+
+               </physDesc>
+               <history>
+                  <origin><placeName ref="#loc.65">Laibach</placeName><date when="1821-01-11">11.
+                        Jänner 1821</date></origin>
+               </history>
+            </msDesc>
+            <msDesc xml:id="m.2" type="Abschrift">
+               <msIdentifier>
+                  <settlement>Wien</settlement>
+                  <institution>ÖStA</institution>
+                  <collection>HHStA, Staatskanzlei, Kongressakten</collection>
+                  <idno>
+                     <idno type="Karton">Kart. 22</idno>
+                     <idno type="Faszikel"> Fasz. 40 (alt)</idno>
+                     <idno type="Folia">6-7</idno>
+                  </idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <title>Anlage 1: Russische Erklärung</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <p>Abschrift</p>
+               </physDesc>
+               <history>
+                  <origin><placeName ref="#loc.65">Laibach</placeName><date when="1821-01-11">11.
+                        Jänner 1821</date></origin>
+               </history>
+            </msDesc>
+            <listWit corresp="#m.1">
+               <head>Journal</head>
+               <witness corresp="#w.37"><bibl type="print">Alberti, Atti, S.
+                  399-400.</bibl></witness>
+            </listWit>
+            <listWit corresp="#m.2">
+               <head>Anlage: Russische Erklärung</head>
+               <witness corresp="#w.37"><bibl type="print">Alberti, Atti, S.
+                  400-401.</bibl></witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <appInfo>
+            <application xml:id="docxtotei" ident="TEI_fromDOCX" version="2.15.0">
+               <label>DOCX to TEI</label>
+            </application>
+         </appInfo>
+         <styleDefDecl scheme="css"/>
+         <tagsDecl>
+            <rendition xml:id="su">superscript</rendition>
+            <rendition xml:id="s">strikethrough</rendition>
+            <rendition xml:id="u">underline</rendition>
+            <rendition xml:id="r">right</rendition>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <abstract>
+            <p>Die <rs ref="#p.12 #p.160 #p.102 #p.135 #p.161 #p.14 #p.8 #p.13 #p.7 #p.2">Vertreter
+                  der Mächte</rs> einigen sich über die äußeren Formen, die bei den Verhandlungen in
+                  <placeName ref="#loc.65">Laibach</placeName>/<placeName ref="#loc.65"
+                  >Ljubljana</placeName> zu beachten sind und beschließen, die in <placeName
+                  ref="#loc.60">Troppau</placeName>/<placeName ref="#loc.60">Opava</placeName>
+               angewendeten Formalia beizubehalten.</p>
+         </abstract>
+         <particDesc>
+            <listPerson>
+               <head>Anwesende</head>
+               <person>
+                  <persName ref="#p.12">BERNSTORFF</persName>
+               </person>
+               <person>
+                  <persName ref="#p.160">BLACAS</persName>
+               </person>
+               <person>
+                  <persName ref="#p.102">CARAMAN</persName>
+               </person>
+               <person>
+                  <persName ref="#p.135">FERRONNAYS</persName>
+               </person>
+               <person>
+                  <persName ref="#p.161">GORDON</persName>
+               </person>
+               <person>
+                  <persName ref="#p.14">KAPODISTRIAS</persName>
+               </person>
+               <person>
+                  <persName ref="#p.8">METTERNICH</persName>
+               </person>
+               <person>
+                  <persName ref="#p.13">NESSELRODE</persName>
+               </person>
+               <person>
+                  <persName ref="#p.7">POZZO DI BORGO</persName>
+               </person>
+               <person>
+                  <persName ref="#p.2">VINCENT</persName>
+               </person>
+
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div hand="#A" decls="#m.1">
+            <pb n="5r"/>
+            <p><add place="top" hand="#AmB">1821 Kongreßakten 40 <unclear>IV 1 + 6
+               t</unclear></add></p>
+            <p><title>Journal des Conférences</title></p>
+            <p><title>tenues à <placeName ref="#loc.65">Laybach</placeName></title></p>
+            <p><title>depuis le <date when="1821-01-11">11 Janvier 1821</date></title></p>
+            <p><choice>
+                  <abbr>N<hi rendition="#su">o</hi></abbr>
+                  <expan>Numéro</expan>
+               </choice> 1.</p>
+            <p>Conférence du <date when="1821-01-11">11 Janiver 1821</date>.</p>
+            <p>Conformément à la teneur du <ref target="Troppau_Prot_8.xm.">Journal des Conférences
+                  de <placeName ref="#loc.60">Troppau</placeName>
+                  <choice>
+                     <abbr>N<hi rendition="#su">o</hi></abbr>
+                     <expan>Numéro</expan>
+                  </choice> 8 en date du <date when="1820-12-24">24 Décembre</date></ref> le siège
+               des réunions ayant été transféré à <placeName ref="#loc.65">Laybach</placeName>, <choice>
+                  <abbr>M<hi rendition="#su">rs</hi></abbr>
+                  <expan>Messieurs</expan>
+               </choice>
+               <rs ref="#p.12 #p.160 #p.102 #p.135 #p.161 #p.14 #p.8 #p.13 #p.7 #p.2">les
+                  Plénipotentiaires des Cours alliées présens</rs>, les <rs ref="#p.13 #p.14 #p.7"
+                  >Ministres du Cabinet de Russie</rs> ont fixé l’attention de la conférence sur la
+               forme et l’ordre à suivre dans les travaux<pb n="5v"/> qui doivent être la
+               continuation de ceux dont la réunion de <placeName ref="#loc.60">Troppau</placeName>
+               a posé les bases et tracé le plan général.</p>
+            <p>Ils ont fait en conséquence la communication de <rs xml:id="n.1">l’opinion
+                  ci-jointe</rs>,<note type="editorial" target="#n.1">Vgl. Anlage.</note> tendant à
+               établir que les conférences de <placeName ref="#loc.60">Troppau</placeName> n’étaient
+               que préliminaires et que dans celles de <placeName ref="#loc.65">Laybach</placeName>
+               les Plénipotentiaires consigneraient leurs opinions dans des procès-verbaux ou
+               protocoles formels revêtus de leurs signatures respectives suivant l’usage adopté de
+               tout tems et dans toutes les réunions précédentes.</p>
+            <p><choice>
+                  <abbr>M<hi rendition="#su">rs</hi></abbr>
+                  <expan>Messieurs</expan>
+               </choice>
+               <rs ref="#p.8 #p.2 #p.102 #p.135 #p.160 #p.12">les Plénipotentiaires d’Autriche, de
+                  France et de Prusse</rs> ont répondu qu’en appréciant le motif qui a dicté la
+               proposition du Cabinet de Russie concernant les formes et la solemnité des
+               délibérations qui vont s’ouvrir, en reconnaissant qu’elle tend à rétablir un usage
+               général et à mettre en vigueur un principe consacré par des transactions récentes, en
+               convenant même qu’il en résulterait une utilité réelle, ils devaient néanmoins
+               observer qu’un intérêt dont l’urgence et la gravité ne sauraient être méconnues
+               paraissait à leur avis prescrire<pb n="8r"/> une exception. Cet intérêt serait celui
+               de voir assister la <country>Grande-Bretagne</country> aux travaux ultérieurs de la
+               présente réunion ainsi qu’Elle avait assisté à son début. Ils ajoutent que comme on
+               ne pouvait se flatter d’obtenir cet avantage sous les formes proposées par le
+               Ministère de Russie, il serait à désirer que celles suivies à <placeName
+                  ref="#loc.60">Troppau</placeName> fussent encore maintenues pour la conservation
+               du système d’union et de solidarité générale qui règle heureusement les rapports des
+               Etats Européens.</p>
+            <p><choice>
+                  <abbr>M<hi rendition="#su">rs</hi></abbr>
+                  <expan>Messieurs</expan>
+               </choice><rs ref="#p.13 #p.14 #p.7"> les Ministres de Russie</rs> ont répliqué que
+                  l’<rs ref="#p.17">Empereur</rs>, désirant toujours témoigner l’identité de ses
+               sentimens et de ses vues avec les dispositions de <rs ref="#p.16 #p.18">ses augustes
+                  Alliés</rs>, hésitera d’autant moins à adhérer de nouveau aux formes adoptées dans
+               les discussions de <placeName ref="#loc.60">Troppau</placeName> que le seul motif
+               unanimement reconnu et articulé qui porte les Cabinets à considérer ces formes comme
+               préférables, loin d’invalider le principe que <rs ref="#p.17"><choice>
+                     <abbr>S. M. I.</abbr>
+                     <expan>Sa Majesté Impériale</expan>
+                  </choice></rs> a fait développer dans l’opinion susmentionnée, l’établit au
+               contraire dans toute<pb n="8v"/> sa force, vu qu’elle n’emporte qu’une exception que
+               l’on aime à regarder comme purement transitoire et momentanée.</p>
+            <p rendition="#r"><add hand="#G">Lu et Certifié</add></p>
+            <p rendition="#r"><add hand="#G">À la conférence du <date when="1821-01-12">12
+                     Janvier</date></add></p>
+            <signed rendition="#r"><persName ref="#p.5"><surname>Gentz</surname></persName></signed>
+         </div>
+
+         <div hand="#A" decls="#m.2">
+            <pb n="6r"/>
+            <p><add place="top">Annexe au Journal <choice>
+                     <abbr>N<hi rendition="#su">o</hi></abbr>
+                     <expan>Numéro</expan>
+                  </choice> 1.</add></p>
+            <p><title>Opinion du Ministère Russe sur les formes à suivre dans les délibérations de
+                     <placeName ref="#loc.65">Laybach</placeName>.</title></p>
+            <p><placeName ref="#loc.65">Laybach</placeName> le <date when="1821-01-11">11 Janvier
+                  1821</date>.</p>
+            <p>Les travaux auxquels sont appelés <rs
+                  ref="#p.12 #p.160 #p.102 #p.135 #p.161 #p.14 #p.8 #p.13 #p.7 #p.2">les
+                  Plénipotentiaires des Puissances représentées à <placeName ref="#p.65"
+                     >Laybach</placeName></rs> ne semblent pouvoir être que la continuation de ceux
+               dont la réunion de <placeName ref="#loc.60">Troppau</placeName> a posé les bases et
+               tracé le plan général.</p>
+            <p>Avant de s’appliquer sur le fond même des graves questions que les Plénipotentiaires
+               ont à examiner et à résoudre, le Ministère Russe commencera par fixer leur attention
+               sur les formes et le mode de procéder qui pourraient être adoptés dans leurs
+               délibérations actuelles.</p>
+            <p>À cet égard il observera d’abord que les Conférences de <placeName ref="#loc.60"
+                  >Troppau</placeName>, n’ayant été que préliminaires, ne devoient pas
+               nécessairement être revêtues de formes solennelles. Ainsi les Cabinets ont ils
+               consigné leurs opinions dans un simple <hi rendition="#u">Journal</hi> et non dans
+               des <hi rendition="#u">Procès-verbaux</hi> ou <hi rendition="#u">Protocoles
+                  formels</hi>, suivant l’usage adopté de tout tems et renouvelé à tous les congrès
+               et à toutes les réunions qui ont eu lieu dans le cours des six dernières années. Les
+               mesures même que<pb n="6v"/> les Cabinets ont prises ne peuvent être considérées que
+               comme préparatoires. Leur but et leur essence leur donnent à la fois ce caractère. Le
+               Protocole préliminaire a été rédigé dans la vue de préparer un acte qui pût obtenir
+               la sanction de tous les Gouvernemens de l’Europe. L’<ref target="Troppau_Prot_4.xml"
+                  >invitation de se rendre à <placeName ref="#loc.65">Laybach</placeName></ref> a
+               été adressée au <rs ref="#p.138">Roi</rs> dans le dessein de préparer d’un côté une
+               médiation qui réconciliât <country>Naples</country> avec les Puissances amies de
+               l’ordre et du bien, de l’autre une réunion qui pût arrêter des mesures définitives.
+               Cette réunion ayant eu lieu semble par sa destination appelée à imprimer aux actes
+               qui constateront ses résultats le cachet de solennité que portent et que doivent
+               porter tous les actes de la même nature et de la même importance.</p>
+            <p>Adopter d’autres formes, ce serait faire croire ou que l’on redoute cette solennité
+               parcequ’elle présuppose et la légalité des mesures prises et la compétence de ceux
+               qui les prennent, ou bien que les Puissances assemblées délibèrent parcequ’il leur a
+               convenu de délibérer et non parcequ’un engagement formel<pb n="7r"/> leur en imposait
+               le devoir.</p>
+            <p>Dans la première supposition les Gouvernemens seconderaient eux-mêmes les efforts de
+               la malveillance en confirmant l’opinion qu’elle cherche à répandre.</p>
+            <p>Dans la seconde ils contracteraient gratuitement la responsabilité de tous les
+               malheurs que peut receler l’avenir, puisqu’ils n’auraient résolu de le diriger que
+               pour satisfaire à leurs mutuelles convenances.</p>
+            <p>Espérant que les Puissances réunies partageront à cet égard sa sollicitude, le
+               Ministère Russe leur propose d’ouvrir les conférences de <placeName ref="#loc.65"
+                  >Laybach</placeName> en déclarant :</p>
+            <p>Que les Conférences de <placeName ref="#loc.60">Troppau</placeName> n’étaient que
+               préliminaires et préparatoires, et qu’on n’a pu d’autant moins y délibérer dans les
+               formes accoutumées que parmi les Plénipotentiaires des Puissances intervenantes
+               quelques-uns, vu l’état des questions à cette époque, avaient nécessairement dû
+               recevoir des instructions peu précises et peu positives ;</p>
+            <p>Que maintenant ces questions ayant été discutées, l’objet des délibérations se
+               trouvant clairement défini et la nature ainsi que les bornes de tous les devoirs
+               ayant été reconnues, les<pb n="7v"/> Puissances représentées à <placeName
+                  ref="#loc.65">Laybach</placeName> déclarent qu’elles se sont réunies aux termes
+               des actes qui ont statué des réunions de Souverains et de Plénipotentiaires ; que les
+               stipulations de ces actes ont été et seront toujours scrupuleusement observées ; que
+               la sécurité d’<rs xml:id="n.2">une de ces Puissances</rs><note type="editorial"
+                  target="#n.2">Österreich.</note> ayant été compromise par les événemens de
+                  <country>Naples</country>, celle-ci a engagé ses alliés à délibérer avec elle sur
+               ses propres intérêts, et que ces intérêts embrassant ceux de l’Italie entière, toutes
+               les Cours de la Péninsule Italienne ont été invitées à prendre part aux
+               délibérations ; enfin que, loin d’avoir pour objet des combinaisons politiques
+               nouvelles, la présente réunion n’est destinée qu’à l’affermissement du système qui a
+               rendu à l’Europe la paix, aux nations leur indépendance, aux Gouvernemens les moyens
+               de faire le bonheur des peuples.</p>
+            <p>À la suite de cette déclaration on conviendrait de substituer au Journal tenu à
+                  <placeName ref="#loc.60">Troppau</placeName> des Procès-verbaux ou Protocoles qui
+               seraient revêtus suivant l’usage de la signature de tous les Plénipotentiaires.</p>
+         </div>
+      </body>
+      <back>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listPlace.xml" xpointer="listPlace"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listPerson.xml"
+            xpointer="listPerson"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listWit.xml" xpointer="listWit"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listOrg.xml" xpointer="listOrg"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listTreaties.xml"
+            xpointer="listTreaties"/>
+      </back>
+   </text>
+</TEI>

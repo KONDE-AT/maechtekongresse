@@ -1,0 +1,459 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Protokoll der 12. Sitzung des Kongresses von Laibach</title>
+            <title type="sub">Digitale Edition</title>
+            <editor>
+               <persName>
+                  <surname>Schneider</surname>
+                  <forename>Karin</forename>
+               </persName></editor>
+         </titleStmt>
+         <editionStmt>
+            <edition><date>2017-03-13</date></edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Österreichische Akademie der Wissenschaften, Institut für Neuzeit- und
+               Zeitgeschichtsforschung</publisher>
+            <pubPlace>Wien</pubPlace>
+            <idno>L_12</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="m.1" type="Originaljournal">
+               <msIdentifier>
+                  <settlement>Wien</settlement>
+                  <institution>ÖStA</institution>
+                  <collection>HHStA, Staatskanzlei, Kongressakten</collection>
+                  <idno>
+                     <idno type="Karton">Kart. 22</idno>
+                     <idno type="Faszikel"> Fasz. 40 (alt)</idno>
+                     <idno type="Folia">95-97</idno>
+                  </idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <title>Journal des Conférences</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <p>Journal</p>
+                  <p><persName ref="#p.137"><surname>Stewart</surname></persName> in der
+                     Anwesenheitsliste gestrichen.</p>
+                  <p><persName ref="#p.136"><surname>Krusemarck</surname></persName> von <persName
+                        ref="#p.5"><surname>Gentz</surname></persName> nachträglich in der
+                     Anwesenheitsliste ergänzt.</p>
+                  <handDesc>
+                     <handNote xml:id="A">Anonyme Hand</handNote>
+                     <handNote xml:id="A1">Weitere anonyme Hand</handNote>
+                     <handNote xml:id="G">Friedrich Gentz</handNote>
+                     <handNote xml:id="W">Nikolaus Wacken</handNote>
+                     <handNote xml:id="AmB">Anonyme Hand mit Bleistift</handNote>
+                     <handNote xml:id="AmR">Anonyme Hand mit Rotstift</handNote>
+                  </handDesc>
+
+               </physDesc>
+               <history>
+                  <origin><placeName ref="#loc.65">Laibach</placeName><date when="1821-02-20">20.
+                        Februar 1821</date></origin>
+               </history>
+            </msDesc>
+            <msDesc xml:id="m.2" type="Ausfertigung">
+               <msIdentifier>
+                  <settlement>Wien</settlement>
+                  <institution>ÖStA</institution>
+                  <collection>HHStA, Staatskanzlei, Kongressakten</collection>
+                  <idno>
+                     <idno type="Karton">Kart. 22</idno>
+                     <idno type="Faszikel"> Fasz. 40 (alt)</idno>
+                     <idno type="Folia">99</idno>
+                  </idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <title>Anlage 1: Erklärung des Kirchenstaats</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <p>Ausfertigung</p>
+
+               </physDesc>
+
+            </msDesc>
+            <msDesc xml:id="m.3" type="Ausfertigung">
+               <msIdentifier>
+                  <settlement>Wien</settlement>
+                  <institution>ÖStA</institution>
+                  <collection>HHStA, Staatskanzlei, Kongressakten</collection>
+                  <idno>
+                     <idno type="Karton">Kart. 22</idno>
+                     <idno type="Faszikel"> Fasz. 40 (alt)</idno>
+                     <idno type="Folia">101</idno>
+                  </idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <title>Anlage 2: Toskanische Erklärung</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <p>Ausfertigung</p>
+
+               </physDesc>
+
+            </msDesc>
+            <msDesc xml:id="m.4" type="Ausfertigung">
+               <msIdentifier>
+                  <settlement>Wien</settlement>
+                  <institution>ÖStA</institution>
+                  <collection>HHStA, Staatskanzlei, Kongressakten</collection>
+                  <idno>
+                     <idno type="Karton">Kart. 22</idno>
+                     <idno type="Faszikel"> Fasz. 40 (alt)</idno>
+                     <idno type="Folia">102</idno>
+                  </idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <title>Anlage 3: Modenesische Erklärung</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <p>Ausfertigung von <persName ref="#p.6"><forename>Nikolaus</forename>
+                        <surname>Wacken</surname></persName></p>
+
+               </physDesc>
+            </msDesc>
+            <listWit corresp="#m.1">
+               <head>Journal</head>
+               <witness corresp="#w.37"><bibl type="print">Alberti, Atti, S.
+                  436-437.</bibl></witness>
+            </listWit>
+            <listWit corresp="#m.2">
+               <head>Anlage 1: Erklärung des Kirchenstaats</head>
+               <witness corresp="#w.37"><bibl type="print">Alberti, Atti, S. 438.</bibl></witness>
+            </listWit>
+            <listWit corresp="#m.3">
+               <head>Anlage 2: Toskanische Erklärung</head>
+               <witness corresp="#w.37"><bibl type="print">Alberti, Atti, S. 438.</bibl></witness>
+            </listWit>
+            <listWit corresp="#m.4">
+               <head>Anlage 3: Modenesische Erklärung</head>
+               <witness corresp="#w.37"><bibl type="print">Alberti, Atti, S.
+                  438-439.</bibl></witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <appInfo>
+            <application xml:id="docxtotei" ident="TEI_fromDOCX" version="2.15.0">
+               <label>DOCX to TEI</label>
+            </application>
+         </appInfo>
+         <styleDefDecl scheme="css"/>
+         <tagsDecl>
+            <rendition xml:id="su">superscript</rendition>
+            <rendition xml:id="s">strikethrough</rendition>
+            <rendition xml:id="u">underline</rendition>
+            <rendition xml:id="r">right</rendition>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <abstract>
+            <p>Erklärungen der <rs ref="#p.164 #p.165 #p.168">Vertreter des Kirchenstaats, der
+                  Toskana und Modenas</rs> hinsichtlich der österreichischen Denkschrift betreffend
+               die militärische Okkupation des <country>Königreichs beider Sizilien</country>. Der
+               neapolitanische Gesandte <persName ref="#p.140"><surname>Ruffo</surname></persName>
+               informiert die <rs ref="#p.8 #p.2 #p.12 #p.13 #p.14 #p.7">Vertreter der Mächte</rs>
+               über die vom <rs ref="#p.138">König beider Sizilien</rs> beschlossenen Reformen in
+               seinem Herrschaftsgebiet.</p>
+         </abstract>
+         <particDesc>
+            <listPerson>
+               <head>Anwesende</head>
+
+               <person>
+                  <persName ref="#p.167">AGLIÉ</persName>
+               </person>
+               <person>
+                  <persName ref="#p.12">BERNSTORFF</persName>
+               </person>
+               <person>
+                  <persName ref="#p.160">BLACAS</persName>
+               </person>
+               <person>
+                  <persName ref="#p.102">CARAMAN</persName>
+               </person>
+               <person>
+                  <persName ref="#p.168">CORSINI</persName>
+               </person>
+               <person>
+                  <persName ref="#p.135">FERRONNAYS</persName>
+               </person>
+               <person>
+                  <persName ref="#p.161">GORDON</persName>
+               </person>
+               <person>
+                  <persName ref="#p.14">KAPODISTRIAS</persName>
+               </person>
+               <person>
+                  <persName ref="#p.136">KRUSEMARCK</persName>
+               </person>
+               <person>
+                  <persName ref="#p.8">METTERNICH</persName>
+               </person>
+               <person>
+                  <persName ref="#p.165">MOLZA</persName>
+               </person>
+               <person>
+                  <persName ref="#p.13">NESSELRODE</persName>
+               </person>
+               <person>
+                  <persName ref="#p.7">POZZO DI BORGO</persName>
+               </person>
+               <person>
+                  <persName ref="#p.140">RUFFO</persName>
+               </person>
+               <person>
+                  <persName ref="#p.166">SAN MARZANO</persName>
+               </person>
+               <person>
+                  <persName ref="#p.164">SPINA</persName>
+               </person>
+               <person>
+                  <persName ref="#p.2">VINCENT</persName>
+               </person>
+
+
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div hand="#A" decls="#m.1">
+            <pb n="95r"/>
+            <p><add hand="#AmB" place="bottom">Kongressacten, Fasz.40</add></p>
+            <p><title rendition="#u">Journal des Conférences</title></p>
+            <p><title rendition="#u"><choice>
+                     <abbr>Nr.</abbr>
+                     <expan>Numéro</expan>
+                  </choice> XII.</title></p>
+            <p rendition="#u"><placeName ref="#loc.65">Laybach</placeName> le <date
+                  when="1821-02-20">20 Février 1821</date></p>
+
+            <p>À la suite du <ref target="Laibach_Prot_11.xml">Journal de la dernière
+                  conférence</ref>, lequel a été lu et approuvé dans celle de ce jour, <add
+                  hand="#G" place="inline"><choice>
+                     <abbr>Msgr.</abbr>
+                     <expan>Monseigneur</expan>
+                  </choice> le <persName ref="#p.164"><roleName>Cardinal</roleName>
+                     <surname>Spina</surname></persName>, Légat de <rs ref="#p.155">Sa
+                  Sainteté</rs></add>, <choice>
+                  <abbr>Mr.</abbr>
+                  <expan>Monsieur</expan>
+               </choice> le <persName ref="#p.168"><roleName>Prince</roleName>
+                  <surname>de Corsini</surname></persName>, Plénipotentiaire de <choice>
+                  <abbr>S. A. I. R.</abbr>
+                  <expan>Son Altesse Impériale Royale</expan>
+               </choice> le <rs ref="#p.170">Grand-Duc de Toscane</rs>, et <choice>
+                  <abbr>Mr.</abbr>
+                  <expan>Monsieur</expan>
+               </choice> le <persName ref="#p.165"><roleName>Marquis</roleName>
+                  <surname>de Molza</surname></persName>, Plénipotentiaire de <choice>
+                  <abbr>S. A. R.</abbr>
+                  <expan>Son Altesse Royale</expan>
+               </choice> le <rs ref="#p.171">Duc de Modène</rs>, ont donné lecture des <subst>
+                  <del rendition="#s">deux</del>
+                  <add hand="#G" place="above">trois</add>
+               </subst>
+               <rs xml:id="n.1">pièces ci-jointes sub A <del rendition="#s">et</del>, B, <add
+                     place="above" hand="#G">C</add></rs><note type="editorial" target="#n.1">Vgl.
+                  Anlagen 1, 2 und 3.</note> relatives aux <ref target="Laibach_Prot_11.xml"><add
+                     hand="#G" place="above">pro</add>positions du Cabinet d’Autriche, telles
+                  qu’elles se trouvent consignées au Journal du <date when="1821-02-02">2 de ce
+                     mois</date></ref>.</p>
+            <p><choice>
+                  <abbr>Mr.</abbr>
+                  <expan>Monsieur</expan>
+               </choice> le <persName ref="#p.140"><roleName>Prince</roleName>
+                  <surname>de Ruffo</surname></persName>, après avoir informé la conférence qu’il
+               étoit chargé d’une communication de la part de <choice>
+                  <abbr>S. M.</abbr>
+                  <expan>Sa Majesté</expan>
+               </choice> le <rs ref="#p.138">Roi des Deux-Siciles</rs>, a fait, au nom de <rs
+                  ref="#p.138">Sa Majesté</rs>, la déclaration suivante :</p>
+            <p>Le <rs ref="#p.138">Roi</rs>, sans cesse occupé du bonheur de Ses peuples, a réfléchi
+               longtems sur les principes à adopter pour reconstruire le Gouvernement de Son Royaume
+               aussitôt que la tranquillité y sera<pb n="95v"/> suffisamment rétablie.</p>
+            <p>Après avoir envisagé cette question importante sous toutes ses différentes faces, <choice>
+                  <abbr>S. M.</abbr>
+                  <expan>Sa Majesté</expan>
+               </choice> a cru enfin devoir fixer ses pensées sur les bases suivantes :</p>
+            <p>1. De séparer l’administration de Naples de celle de la Sicile, en conservant
+               soigneusement tous les liens qui les unissent sous un même sceptre ;</p>
+            <p>2. De donner à Son Conseil d’Etat dans l’une et l’autre partie du Royaume
+               l’organisation la plus efficace et la plus propre à éclairer <rs ref="#p.138">Sa
+                  Majesté</rs> sur les besoins et les intérêts de Ses peuples et sur les mesures
+               nécessaires pour assurer en même tems la marche régulière du Gouvernement et le
+               bien-être du pays ;</p>
+            <p>3. D’établir dans les deux parties du Royaume un corps consultatif, servant de
+               garantie à ce que les projets de haute législation, avant<pb n="96r"/> de passer en
+               loi, et les mesures d’administration générale, avant d’être définitivement arrêtées,
+               seront complèttement débattues et éclaircies dans les intérêts inséparables de la
+               couronne, du bien général du Royaume et d’une justice éclairée ;</p>
+            <p>4. De créer dans chaque province un conseil provincial, destiné à s’occuper d’une
+               juste répartition des impôts et d’autres objets d’utilité publique ;</p>
+            <p>5. De régler enfin l’administration communale d’après les principes les plus
+               favorables au bien-être des communes et à la conservation de leur patrimoine.</p>
+            <p><rs ref="#p.138"><choice>
+                     <abbr>S. M.</abbr>
+                     <expan>Sa Majesté</expan>
+                  </choice></rs>, pleinement convaincue qu’un mode de Gouvernement fondé sur ces
+               bases garantira également la tranquillité et l’ordre de Son Royaume et le bonheur de
+               ses fidèles sujets, ne peut pas mettre en doute que <rs ref="#p.16 #p.18 #p.17">Ses
+                  Augustes Alliés</rs> ne ren<pb n="96v"/>dent une entière justice aux intentions et
+               aux vues qui l’ont guidée. C’est dans la persuasion que, par l’adoption des bases
+               citées ci-dessus, <rs ref="#p.138"><choice>
+                     <abbr>S. M.</abbr>
+                     <expan>Sa Majesté</expan>
+                  </choice></rs> contribuera également au maintien de la tranquillité intérieure de
+               la péninsule italienne que le <rs ref="#p.138">Roi</rs> a ordonné à <rs ref="#p.140"
+                  >Son Plénipotentiaire</rs> de les faire connoître à <rs ref="#p.16 #p.18 #p.17"
+                  >Ses augustes alliés</rs>. <rs ref="#p.138">Sa Majesté</rs> aime à se flatter
+               qu’ils apprécieront cette preuve de Sa confiance, et que les Princes d’Italie
+               reconnoîtront dans les principes qu’Elle a eus en vue dans cette grave circonstance
+               un nouveau témoignage de sa constante sollicitude à cimenter les rapports de bon
+               voisinage si heureusement établis avec eux.</p>
+            <p><rs ref="#p.138">Sa Majesté</rs> doit observer en même tems qu’Elle ne peut que
+               remettre le développement ultérieur de ces bases et la rédaction des<pb n="97r"/>
+               actes qui en seront les résultats à l’époque heureuse où, entourée d’un Conseil
+               choisi parmi les hommes les plus intègres et les plus sages de ses Etats, Elle pourra
+               vouer de nouveau tous Ses soins aux grands intérêts de Son pays et à la prospérité de
+               Ses sujets.</p>
+            <p><choice>
+                  <abbr>Mrs.</abbr>
+                  <expan>Messieurs</expan>
+               </choice> les Plénipotentiaires des autres Puissances se sont réservés de prendre en
+               considération les ouvertures faites au nom de <rs ref="#p.138">Sa Majesté
+                  Sicilienne</rs> et d’énoncer leur opinion dans une conférence subséquente.</p>
+            <p rendition="#r"><add hand="#G">Lu et certifié</add></p>
+            <p rendition="#r"><add hand="#G">à la conférence du <date when="1821-02-21">21
+                     février</date></add></p>
+            <signed rendition="#r"><persName ref="#p.5"><surname>Gentz</surname></persName></signed>
+         </div>
+
+         <div hand="#A" decls="#m.2">
+            <pb n="99r"/>
+            <p><add place="top">A.</add></p>
+            <p><title>Déclaration de <choice>
+                     <abbr>Mgr</abbr>
+                     <expan>Monseigneur</expan>
+                  </choice> le <persName ref="#p.164"><roleName>Cardinal</roleName>
+                     <surname>Spina</surname></persName>, légat de <rs ref="#p.155">Sa
+                  Sainteté</rs></title></p>
+            <p>Le <persName ref="#p.164"><roleName>Cardinal</roleName>
+                  <surname>Spina</surname></persName> s’est empressé de faire connoître à <rs
+                  ref="#p.155">Sa Sainteté</rs>
+               <hi rendition="#u">Le Point de vue sur L’Armée d’Occupation</hi> qui a été L’objet de
+               La <ref target="Laibach_Prot_11.xml">Conférence du <del rendition="#s">30
+                     Janvier</del><add hand="#AmB" place="above"><date when="1821-02-02">2
+                        Février</date></add></ref>.</p>
+            <p>Le <persName ref="#p.164"><roleName>Cardinal</roleName>
+                  <surname>Spina</surname></persName> ne doute pas que Le <rs ref="#p.155">S<hi
+                     rendition="#su">t</hi> Père</rs> ne se réunisse aux autres Puissances à rendre
+               hommage aux mesures de générosité et de justice que <rs ref="#p.16" xml:id="n.2"><choice>
+                     <abbr>S. M. I. R. A.</abbr>
+                     <expan>Sa Majesté Impériale Royale Apostolique</expan>
+                  </choice></rs><note type="editorial" target="#n.2">Ehrentitel des Kaisers von
+                  Österreich.</note> a cru, dans Sa haute sagesse, d’adopter soit pour Le
+                  <country>Royaume de Naples</country>, soit pour Les autres Etats de l’Italie.</p>
+            <p>En attendant, Le <persName ref="#p.164"><roleName>Cardinal</roleName>
+                  <surname>Spina</surname></persName> s’honore de réunir ses sentiments respectueux
+               à ceux qui ont été manifesté dans La Conférence par Les Plénipotentiaires des autres
+               Cours d’Italie.</p>
+         </div>
+
+         <div hand="#A" decls="#m.3">
+            <pb n="101r"/>
+
+            <p><add place="top">B.</add></p>
+
+            <p><add hand="#W" place="top">Déclaration de Monsieur le <persName ref="#p.168"
+                        ><roleName>Prince</roleName>
+                     <surname>de Corsini</surname></persName>, Plénipotentiaire de Toscane</add></p>
+            <p><title>Note pour le Journal des Conférences</title></p>
+            <p><rs ref="#p.168">Le Ministre Plénipotentiaire de la Cour de Toscane</rs> a déclaré
+               qu’il s’est fait un devoir de porter à la connoissance de <choice>
+                  <abbr>S. A. I et R<hi rendition="#su">e</hi></abbr>
+                  <expan>Son Altesse Impériale et Royale</expan>
+               </choice> Le <rs ref="#p.170">Grand-Duc</rs>, son Auguste Maître, le <ref
+                  target="Laibach_Prot_11.xml">Mémoire intitulé « <hi rendition="#u">Points de vue
+                     sur l’armée d’occupation</hi> »</ref>
+               <add hand="#G" place="margin">que <choice>
+                     <abbr>Mr.</abbr>
+                     <expan>Monsieur</expan>
+                  </choice> le <persName ref="#p.8"><roleName>Prince</roleName>
+                     <surname>de Metternich</surname></persName> a présenté au nom de <rs
+                     ref="#p.16">Son Auguste Souverain</rs></add> ;</p>
+            <p>Qu’il est convaincu d’avance que <rs ref="#p.170"><choice>
+                     <abbr>S. A. I et R<hi rendition="#su">e</hi></abbr>
+                     <expan>Son Altesse Impériale et Royale</expan>
+                  </choice></rs>, conformément aux sentimens qu’elle a déjà fait exprimer en Son Nom
+               à l’égard de l’occupation militaire du <country>Royaume de Naples</country>, ne
+               pourra que trouver très sagement combinées les mesures adoptées pour en assurer et en
+               régulariser l’exécution ;</p>
+            <p>Que le <rs ref="#p.170">Grand-Duc</rs>, connoissant depuis longtems les principes de
+               justice et de désintéressement par lesquels <choice>
+                  <abbr>S. M.</abbr>
+                  <expan>Sa Majesté</expan>
+               </choice> L’<rs ref="#p.16">Empereur<pb n="101v"/> d’Autriche</rs> a été guidé dans
+               toutes ses démarches de concert avec <rs ref="#p.18 #p.17">ses augustes alliés</rs>,
+               n’a jamais pu douter des égards que l’on aurait eu envers les états intermédiaires à
+               l’occasion du passage des Troupes, ni de l’indemnité complète qu’on leur aurait
+               assuré pour toutes les dépenses que ce passage pourrait causer ;</p>
+            <p>Que néanmoins le <rs ref="#p.170">Grand-Duc</rs> sera fort aisé de trouver une
+               nouvelle garantie de ce résultat dans le <add hand="#G" place="inline">susdit</add>
+               Mémoire, <del rendition="#s" hand="#G">qui forme l’annexe du Journal des
+                  Conférences</del> et ne pourra qu’être très reconnoissant aux dispositions aussi
+               équitables que bienfesantes qui y sont annoncées.</p>
+         </div>
+
+         <div hand="#W" decls="#m.4">
+            <pb n="102r"/>
+            <p><add place="top" hand="#AmB">C.</add></p>
+            <p><title>Déclaration de Monsieur le <persName ref="#p.165"><roleName>Marquis</roleName>
+                     <surname>de Molza</surname></persName></title></p>
+            <p>Ayant rendu compte à Son Altesse Royale l’Archiduc <rs ref="#p.171">Duc de
+                  Modène</rs> des dispositions de <rs ref="#p.16" xml:id="n.3">Sa Majesté Impériale
+                  et Royale Apostolique</rs>,<note type="editorial" target="#n.3">Ehrentitel des
+                  Kaisers von Österreich.</note> contenues dans la pièce intitulée « Point de vue
+               sur l’armée d’occupation » communiquée à la <ref target="Laibach_Prot_11.xml"
+                  >Conférence dans la séance du <date when="1821-02-02">2 Février</date></ref>, <rs
+                  ref="#p.171">Son Altesse Royale</rs>, mon Auguste Maître, m’a ordonné de déclarer
+               qu’Il reconnait les nobles mesures adoptées par <rs ref="#p.16">Sa Majesté</rs> comme
+               les plus propres aux circonstances pour la tranquillité de l’Italie, et qu’Il est
+               pénétré de reconnaissance, comme Il croit que le seront tous les Princes d’Italie,
+               pour les généreuses dispositions de <rs ref="#p.16">Sa Majesté</rs> à vouloir
+               soutenir Elle seule les dépenses de l’armement.</p>
+            <p>Comme <rs ref="#p.171">Son Altesse Royale</rs> souhaite que cet hommage de Sa
+               reconnaissance soit connu de tous les Cabinets réunis à <placeName ref="#loc.65"
+                  >Laybach</placeName>, je demande que la présente Déclaration soit insérée au
+               Journal des Conférences.</p>
+         </div>
+      </body>
+      <back>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listPlace.xml" xpointer="listPlace"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listPerson.xml"
+            xpointer="listPerson"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listWit.xml" xpointer="listWit"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listOrg.xml" xpointer="listOrg"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listTreaties.xml"
+            xpointer="listTreaties"/>
+      </back>
+   </text>
+</TEI>

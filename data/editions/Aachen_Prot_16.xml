@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Protokoll der 16. Sitzung des Kongresses von Aachen</title>
+            <title type="sub">Digitale Edition</title>
+            <editor>
+               <persName>
+                  <surname>Schneider</surname>
+                  <forename>Karin</forename>
+               </persName></editor>
+         </titleStmt>
+         <editionStmt>
+            <edition><date>2015-05-08</date></edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Österreichische Akademie der Wissenschaften, Institut für Neuzeit- und
+               Zeitgeschichtsforschung</publisher>
+            <pubPlace>Wien</pubPlace>
+            <idno>A_16</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="m.1" type="Originalprotokoll">
+               <msIdentifier>
+                  <settlement>Wien</settlement>
+                  <institution>ÖStA</institution>
+                  <collection>HHStA, Staatskanzlei, Kongressakten</collection>
+                  <idno>
+                     <idno type="Karton">Kart. 17</idno>
+                     <idno type="Faszikel"> Fasz. 29 (alt)</idno>
+                     <idno type="Folia">I/59</idno>
+                  </idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <title>Protokoll</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+
+                  <p> Eigenhändiges Protokoll von <persName ref="#p.5">
+                        <surname>Gentz</surname></persName>. </p>
+                  <handDesc>
+                     <handNote xml:id="G">Friedrich Gentz</handNote>
+                     <handNote xml:id="W">Nikolaus Wacken</handNote>
+                     <handNote xml:id="A">Anonym</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin><placeName ref="#loc.1">Aachen</placeName>
+                     <date when="1818-10-19">19. Oktober 1818</date></origin>
+               </history>
+            </msDesc>
+            <msDesc xml:id="m.2" type="Protokoll">
+               <msIdentifier>
+                  <settlement>Wien</settlement>
+                  <institution>ÖStA</institution>
+                  <collection>HHStA, Staatskanzlei, Kongressakten</collection>
+                  <idno>
+                     <idno type="Karton">Kart. 17</idno>
+                     <idno type="Faszikel"> Fasz. 29 (alt)</idno>
+                     <idno type="Folia">I/61-67</idno>
+                  </idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <title>Anlage: Protokoll</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <p>Protokoll von <persName ref="#p.6"><surname>Wacken</surname></persName></p>
+                  <p>Anlage liegt zweifach, als Original (fol. I/65–67) und als Abschrift (fol.
+                     I/61–63) ein. Die Edition folgt dem Original. Auf der Abschrift Vermerk
+                        <persName ref="#p.8"><surname>Metternichs</surname></persName>: <hi
+                        rendition="#u">Principes arrêtés</hi> auf dem Korrekturrand von fol.
+                     I/61r.</p>
+               </physDesc>
+               <history>
+                  <origin><placeName ref="#loc.1">Aachen</placeName>
+                     <date when="1818-10-19">19. Oktober 1818</date></origin>
+               </history>
+            </msDesc>
+
+            <listWit corresp="#m.2">
+               <head>Anlage: Protokoll</head>
+               <witness corresp="#w.3"><bibl type="print">Bertier de Sauvigny, Sainte-Alliance, S.
+                     143–145.</bibl></witness>
+               <witness corresp="#w.4"><bibl type="print">Vnešnjaja politika Rossii, Bd. 10, S.
+                     519–520.</bibl></witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <appInfo>
+            <application xml:id="docxtotei" ident="TEI_fromDOCX" version="2.15.0">
+               <label>DOCX to TEI</label>
+            </application>
+         </appInfo>
+         <styleDefDecl scheme="css"/>
+         <tagsDecl>
+            <rendition xml:id="su">superscript</rendition>
+            <rendition xml:id="s">strikethrough</rendition>
+            <rendition xml:id="u">underline</rendition>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <abstract>
+            <p>Die <rs ref="#p.8 #p.11 #p.13 #p.12 #p.14 #p.9">Vertreter der alliierten Mächte</rs>
+               unterzeichnen ein Protokoll betreffend die Behandlung der <rs ref="#t.1 #t.6"
+                  >Verträge von 1815</rs> nach dem Abzug der Besatzungstruppen aus
+                  <country>Frankreich</country>.</p>
+         </abstract>
+         <particDesc>
+            <listPerson>
+               <head>Anwesende</head>
+
+               <person>
+                  <persName ref="#p.12">BERNSTORFF</persName>
+               </person>
+               <person>
+                  <persName ref="#p.9">CASTLEREAGH</persName>
+               </person>
+               <person>
+                  <persName ref="#p.11">HARDENBERG</persName>
+               </person>
+               <person>
+                  <persName ref="#p.14">KAPODISTRIAS</persName>
+               </person>
+               <person>
+                  <persName ref="#p.8">METTERNICH</persName>
+               </person>
+               <person>
+                  <persName ref="#p.13">NESSELRODE</persName>
+               </person>
+
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div hand="#G" decls="#m.1">
+            <pb n="59r"/>
+            <p><add hand="#W" place="top">Protocole n. <del rendition="#s">13</del> 16.</add></p>
+            <p><placeName ref="#loc.1">Aix-la-Chapelle</placeName> le <date when="1818-10-19">19
+                  Octobre 1818</date></p>
+            <p><add hand="#W" place="margin">Entre les 4 Cabinets</add></p>
+            <p><choice>
+                  <abbr>Mrs.</abbr>
+                  <expan>Messieurs</expan>
+               </choice> les Ministres des Quatre Cours ont continué et terminé aujourd’hui l’examen
+               du projet de protocole dont Ils s’étoient occupés pendant les derniers jours ; et
+               cette pièce ayant été signée telle qu’elle se trouve ci-annexée, on est convenu qu’il
+               sera procédé aux rédactions qui en développeront les principes.</p>
+            <signed>
+               <list>
+                  <item><persName ref="#p.8"><choice>
+                           <abbr>M</abbr>
+                           <expan>Metternich</expan>
+                        </choice></persName></item>
+                  <item><persName ref="#p.9"><choice>
+                           <abbr>C</abbr>
+                           <expan>Castlereagh</expan>
+                        </choice></persName></item>
+                  <item><persName ref="#p.11"><choice>
+                           <abbr>H</abbr>
+                           <expan>Hardenberg</expan>
+                        </choice></persName></item>
+                  <item><persName ref="#p.12"><choice>
+                           <abbr>B</abbr>
+                           <expan>Bernstorff</expan>
+                        </choice></persName></item>
+                  <item><persName ref="#p.13"><choice>
+                           <abbr>N</abbr>
+                           <expan>Nesselrode</expan>
+                        </choice></persName></item>
+                  <item><persName ref="#p.14">Capodistrias</persName></item>
+               </list></signed>
+         </div>
+
+         <div hand="#W" decls="#m.2">
+            <pb n="65r"/>
+            <p hand="#A"><placeName ref="#loc.1">Aix-la-Chapelle</placeName> Le <date
+                  when="1818-10-19">19 Octobre</date></p>
+            <p rend="Datum 1">Aachen, 19. Oktober 1818</p>
+
+            <p>Les engagemens consignés dans les articles 2, 3 et 4 <add place="above">et 5</add> du
+                  <rs ref="#t.6">Traité de la quadruple alliance du <date when="1815-11-20">8/20
+                     Novembre 1815</date></rs> n’étant applicables dans l’état actuel des choses
+               qu’au cas d’une guerre contre la <country>France</country> tel qu’il est prévu et
+               défini par ledit traité ; </p>
+            <p>Et ces dispositions éventuelles ne pouvant point servir de base aux relations
+               pacifiques et permanentes qu’il s’agit d’établir à la présente époque entre les
+               quatre Puissances et la <country>France</country>, considérée comme faisant partie du
+               système européen ; </p>
+            <p>Les quatre Cabinets sont convenus d’adopter pour le travail dont la Conférence va
+               s’occuper les bases suivantes :</p>
+            <pb n="65v"/>
+            <p><hi rendition="#u">Pour le premier objet</hi></p>
+            <p>Conserver dans toute sa force et valeur la quadruple alliance pour le <rs
+                  xml:id="n.1">casus foederis</rs><note type="editorial" target="#n.1">Lat.:
+                  Bündnisfall.</note> tel qu’il est défini dans le <rs ref="#t.6">traité du <date
+                     when="1815-11-20">20 Novembre 1815</date></rs> ; statuer la partie
+               règlementaire des mesures militaires que les Puissances se sont engagées à exécuter
+               dans le cas échéant ; </p>
+            <p>Considérer les actes des Conférences d’<placeName ref="#loc.1"
+                  >Aix-la-Chapelle</placeName> qui se réfèrent à cette dernière disposition comme
+               secrets.</p>
+            <p><rs xml:id="n.2"><hi rendition="#u">Pour le second objet</hi></rs><note
+                  type="editorial" target="#n.2"> "NB. Dans la Séance du 19 <choice>
+                     <abbr>Oct.</abbr>
+                     <expan>Octobre</expan>
+                  </choice> le <rs ref="#p.8"><choice>
+                        <abbr>Plénip</abbr>
+                        <expan>Plénipotentiaire</expan>
+                     </choice> Autrichien</rs> a proposé que cet article fût rédigé ainsi :
+                  « Conserver également la quadruple alliance dans sa partie morale et maintenir en
+                  conséquence le principe d’union entre les 4 Cours statué etc. etc. etc. »" bei der
+                  abschriftlichen Variante von <persName ref="#p.8"
+                     ><surname>Metternich</surname></persName> auf Korrekturrand ergänzt.</note></p>
+            <p>Conserver également dans toute sa pureté le principe moral de l’union entre les
+               quatre Cabinets, statué par l’article VI du <rs ref="#t.6">dit traité</rs>, et faire
+               de ce principe l’application la plus conforme à l’affermissement du système général ; </p>
+            <p>Inviter la <country>France</country> à s’associer aux quatre Puissances à l’effet
+                  de<pb n="66r"/> présenter à l’Europe dans l’union et dans l’accord fraternel et
+               chrétien qui caractérisent leur politique, le moyen le plus sûr de maintenir
+               l’inviolabilité des transactions sur lesquelles repose la paix générale.</p>
+            <p>Conformément à ces bases il y aura :</p>
+            <p><hi rendition="#u">Ad 1</hi><hi rendition="#su #u">um</hi>
+            </p>
+            <p>Un <ref target="Aachen_Prot_33.xml">protocole spécial et secret</ref>, renfermant les
+               dispositions relatives à la quadruple alliance et aux réunions des Souverains
+               motivées par <rs xml:id="n.3"><hi rendition="#u">le casus foederis et
+                  belli</hi></rs><note type="editorial" target="#n.3">Lat.: Bündnis- und
+                  Kriegsfall.</note> ;</p>
+            <p><hi rendition="#u">Ad 2</hi><hi rendition="#su #u">um</hi>
+            </p>
+            <p>Un <ref target="Aachen_Prot_34.xml">Protocole à être signé conjointement avec <choice>
+                     <abbr>M<hi rendition="#su">r</hi></abbr>
+                     <expan>Monsieur</expan>
+                  </choice> le <persName ref="#p.1"><roleName>Duc</roleName>
+                     <surname>de Richelieu</surname></persName></ref>, et devant être communiqué à
+               tous les Etats qui ont accédé au <rs ref="#t.12">Recès de Vienne</rs> et aux <rs
+                  ref="#t.1 #t.9">actes de Paris de l’année 1815</rs> ; l’objet de ce Protocole
+               sera</p>
+            <pb n="66v"/>
+            <p>1<hi rendition="#su">o</hi> D’exposer les motifs de l’association de la
+                  <country>France</country> aux quatre autres Puissances ;</p>
+            <p>2<hi rendition="#su">o</hi> De signaler le but et de tracer les principes de cette
+               grande union ; et</p>
+            <p>3<hi rendition="#su">o</hi> D’en régler les formes.</p>
+            <p>Les cinq Puissances déclareront dans ce Protocole que leur union n’a essentiellement
+               pour objet que le maintien de la paix générale, fondé sur le respect scrupuleux pour
+               les engagemens sanctionnés par les traités et pour l’ensemble des droits qui en
+               dérivent ; qu’en conséquence les cinq Cours voulant observer les unes envers les
+               autres comme à l’égard de tous les membres de l’association européenne les principes
+               du droit des gens qui règlent les relations d’Etat à Etat, déclarent ne vouloir ni ne
+               pouvoir décider d’aucune affaire qui concerne<pb n="67r"/> les intérêts des autres
+               Etats sans y avoir été formellement invitées par les Parties intéressées, et qu’une
+               réunion des souverains ou des Cabinets ayant lieu, les Etats dont les affaires
+               seroient traitées à cette réunion y participeront de droit et de fait.</p>
+            <p>Il est entendu que si, d’un commun accord, les cinq Cours jugeoient utile ou
+               nécessaire de se réunir pour prendre en considération et assurer leurs intérêts
+               communs, leurs réunions auront lieu dans ce cas à l’époque dont on sera convenu.</p>
+            <signed>
+               <list>
+                  <item><persName ref="#p.8">Metternich</persName></item>
+                  <item><persName ref="#p.9">Castlereagh</persName></item>
+                  <item><persName ref="#p.10">Wellington</persName></item>
+                  <item><persName ref="#p.11">Hardenberg</persName></item>
+                  <item><persName ref="#p.12">Bernstorff</persName></item>
+                  <item><persName ref="#p.13">Nesselrode</persName></item>
+                  <item><persName ref="#p.14">Capodistrias</persName></item>
+               </list></signed>
+         </div>
+      </body>
+      <back>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listPlace.xml" xpointer="listPlace"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listPerson.xml"
+            xpointer="listPerson"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listWit.xml" xpointer="listWit"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listOrg.xml" xpointer="listOrg"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listTreaties.xml"
+            xpointer="listTreaties"/>
+      </back>
+   </text>
+</TEI>

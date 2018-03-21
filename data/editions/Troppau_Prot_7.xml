@@ -1,0 +1,1012 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Protokoll der 7. Sitzung des Kongresses von Troppau</title>
+            <title type="sub">Digitale Edition</title>
+            <editor>
+               <persName>
+                  <surname>Schneider</surname>
+                  <forename>Karin</forename>
+               </persName></editor>
+         </titleStmt>
+         <editionStmt>
+            <edition><date>2012-10-26</date></edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Österreichische Akademie der Wissenschaften, Institut für Neuzeit- und
+               Zeitgeschichtsforschung</publisher>
+            <pubPlace>Wien</pubPlace>
+            <idno>T_07</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="m.1" type="Originaljournal">
+               <msIdentifier>
+                  <settlement>Wien</settlement>
+                  <institution>ÖStA</institution>
+                  <collection>HHStA, Staatskanzlei, Kongressakten</collection>
+                  <idno>
+                     <idno type="Karton">Kart. 21</idno>
+                     <idno type="Faszikel"> Fasz. 38 (alt)</idno>
+                     <idno type="Folia">129</idno>
+                  </idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <title>Journal</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <p>Journal von <persName rendition="#p.5"><surname>Gentz</surname></persName></p>
+
+                  <handDesc>
+                     <handNote xml:id="A">Anonyme Hand</handNote>
+                     <handNote xml:id="G">Friedrich Gentz</handNote>
+                     <handNote xml:id="W">Nikolaus Wacken</handNote>
+                     <handNote xml:id="AmB">Anonyme Hand mit Bleistift</handNote>
+                     <handNote xml:id="AmR">Anonyme Hand mit Rotstift</handNote>
+                  </handDesc>
+
+               </physDesc>
+               <history>
+                  <origin><placeName ref="#loc.60">Troppau</placeName><date when="1820-12-19">19.
+                        Dezember 1820</date></origin>
+               </history>
+            </msDesc>
+            <msDesc xml:id="m.2" type="Ausfertigung">
+               <msIdentifier>
+                  <settlement>Wien</settlement>
+                  <institution>ÖStA</institution>
+                  <collection>HHStA, Staatskanzlei, Kongressakten</collection>
+                  <idno>
+                     <idno type="Karton">Kart. 21</idno>
+                     <idno type="Faszikel"> Fasz. 38 (alt)</idno>
+                     <idno type="Folia">173-189</idno>
+                  </idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <title>Anlage 1: Britische Denkschrift</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <p>Ausfertigung</p>
+                  <p>Französische Übersetzung auf fol. 161-172</p>
+               </physDesc>
+
+            </msDesc>
+            <msDesc xml:id="m.3" type="Ausfertigung">
+               <msIdentifier>
+                  <settlement>Wien</settlement>
+                  <institution>ÖStA</institution>
+                  <collection>HHStA, Staatskanzlei, Kongressakten</collection>
+                  <idno>
+                     <idno type="Karton">Kart. 21</idno>
+                     <idno type="Faszikel"> Fasz. 38 (alt)</idno>
+                     <idno type="Folia">157-158</idno>
+                  </idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <title>Anlage 2: Offizielle Erklärung Stewarts</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <p>Ausfertigung</p>
+                  <p>Französische Übersetzung auf fol. 156.</p>
+               </physDesc>
+
+            </msDesc>
+            <msDesc xml:id="m.4" type="Ausfertigung">
+               <msIdentifier>
+                  <settlement>Wien</settlement>
+                  <institution>ÖStA</institution>
+                  <collection>HHStA, Staatskanzlei, Kongressakten</collection>
+                  <idno>
+                     <idno type="Karton">Kart. 21</idno>
+                     <idno type="Faszikel"> Fasz. 38 (alt)</idno>
+                     <idno type="Folia">159</idno>
+                  </idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <title>Anlage 3: Begleitschreiben der britischen Denkschrift</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <p>Ausfertigung</p>
+               </physDesc>
+               <history>
+                  <origin><placeName ref="#loc.7">Wien</placeName><date when="1820-12-29">29.
+                        Dezember 1820</date></origin>
+               </history>
+            </msDesc>
+            <msDesc xml:id="m.5" type="Abschrift">
+               <msIdentifier>
+                  <settlement>Wien</settlement>
+                  <institution>ÖStA</institution>
+                  <collection>HHStA, Staatskanzlei, Kongressakten</collection>
+                  <idno>
+                     <idno type="Karton">Kart. 21</idno>
+                     <idno type="Faszikel"> Fasz. 38 (alt)</idno>
+                     <idno type="Folia">130-155</idno>
+                  </idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <title>Anlage 4: Note des britischen Außenministers <persName ref="#p.9"
+                              ><surname>Castlereagh</surname></persName></title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <p>Abschrift</p>
+               </physDesc>
+               <history>
+                  <origin><placeName ref="#loc.7">London</placeName><date when="1820-12-16">16.
+                        Dezember 1820</date></origin>
+               </history>
+            </msDesc>
+            <listWit corresp="#m.1">
+               <head>Journal</head>
+               <witness corresp="#w.37"><bibl type="print">Alberti, Atti, S. 390.</bibl></witness>
+            </listWit>
+            <listWit corresp="#m.2">
+               <head>Anlage 1: Britische Denkschrift</head>
+               <witness corresp="#w.37"><bibl type="print">Alberti, Atti, S. 390-395 (französische
+                     Übersetzung.</bibl></witness>
+            </listWit>
+            <listWit corresp="#m.3">
+               <head>Anlage 2: Offizielle Erklärung Stewarts</head>
+               <witness corresp="#w.37"><bibl type="print">Alberti, Atti, S. 390 (französische
+                     Übersetzung).</bibl></witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <appInfo>
+            <application xml:id="docxtotei" ident="TEI_fromDOCX" version="2.15.0">
+               <label>DOCX to TEI</label>
+            </application>
+         </appInfo>
+         <styleDefDecl scheme="css"/>
+         <tagsDecl>
+            <rendition xml:id="su">superscript</rendition>
+            <rendition xml:id="s">strikethrough</rendition>
+            <rendition xml:id="u">underline</rendition>
+            <rendition xml:id="r">right</rendition>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <abstract>
+            <p>Der britische Gesandte <persName ref="#p.137"><surname>Stewart</surname></persName>
+               übermittelt Denkschriften betreffend das von den Regierungen Österreichs, Preußens
+               und Russlands geplante Vorgehen gegen die Revolution im <country>Königreich beider
+                  Sizilien</country>.</p>
+         </abstract>
+         <particDesc>
+            <listPerson>
+               <head>Anwesende</head>
+
+               <person>
+                  <persName ref="#p.102">CARAMAN</persName>
+               </person>
+               <person>
+                  <persName ref="#p.135">FERRONNAYS</persName>
+               </person>
+               <person>
+                  <persName ref="#p.121">GOLOVKIN</persName>
+               </person>
+               <person>
+                  <persName ref="#p.11">HARDENBERG</persName>
+               </person>
+               <person>
+                  <persName ref="#p.14">KAPODISTRIAS</persName>
+               </person>
+               <person>
+                  <persName ref="#p.136">KRUSEMARCK</persName>
+               </person>
+               <person>
+                  <persName ref="#p.40">LEBZELTERN</persName>
+               </person>
+               <person>
+                  <persName ref="#p.8">METTERNICH</persName>
+               </person>
+               <person>
+                  <persName ref="#p.13">NESSELRODE</persName>
+               </person>
+               <person>
+                  <persName ref="#p.137">STEWART</persName>
+               </person>
+
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div hand="#G" decls="#m.1">
+            <pb n="129r"/>
+            <p><placeName ref="#loc.60">Troppau</placeName> le <date when="1820-12-19">19 Décembre
+                  1820</date></p>
+            <p><hi rendition="#u">Journal des Conférences</hi></p>
+            <p><choice>
+                  <abbr>Nro</abbr>
+                  <expan>Numéro</expan>
+               </choice> VII</p>
+            <p>La conférence de ce jour a eu pour but d’entendre la lecture des pièces que <choice>
+                  <abbr>Mr.</abbr>
+                  <expan>Monsieur</expan>
+               </choice> l’<rs ref="#p.137">Ambassadeur de la Grande-Bretagne</rs> a reçues de son
+               gouvernement comme réponse aux différens Mémoires communiqués dans les séances
+               précédentes par <choice>
+                  <abbr>Mrs</abbr>
+                  <expan>Messieurs</expan>
+               </choice> les <rs ref="#p.8 #p.40 #p.11 #p.12 #p.136 #p.13 #p.14 #p.121">Ministres
+                  des Cabinets d’Autriche, de Prusse et de Russie</rs>.</p>
+            <p><persName ref="#p.137"><roleName>Lord</roleName>
+                  <surname>Stewart</surname></persName> a fait lire <rs xml:id="n.1">un Mémoire du
+                  gouvernement Brittanique, renfermant la déclaration de ce gouvernement sur les
+                  questions traitées dans les sus-dits Mémoires</rs>,<note type="editorial"
+                  target="#n.1">Vgl. Anlage 1.</note> et <rs xml:id="n.2">une note accompagnant ce
+                  Mémoire</rs>.<note type="editorial" target="#n.2">Vgl. Anlage 4.</note> Ces deux
+               pièces se trouvent ci-jointes sub <choice>
+                  <abbr>Litt</abbr>
+                  <expan>Litteris</expan>
+               </choice> A et B.</p>
+            <p rendition="#r"><add>Lu et arrêté</add></p>
+            <p rendition="#r"><add>à la Séance du <date when="1820-12-19">19
+               Décembre</date></add></p>
+            <signed rendition="#r"><persName ref="#p.5"><surname>Gentz</surname></persName></signed>
+         </div>
+
+         <div hand="#A" decls="#m.2">
+            <pb n="173r"/>
+            <p><rs ref="#p.137">The Undersigned,</rs> having transmitted to His Court the <ref
+                  target="Troppau_Prot_1.xml Troppau_Prot_2.xml Troppau_Prot_3.xml">Journal of the
+                  Proceedings of the Allied Ministers assembled in Conference down to the <date
+                     when="1820-11-07">7<hi rendition="#su">th</hi> November</date> inclusive</ref>,
+               in which Proceedings are contained the Explanatory Memoirs delivered in on the part
+               of the <rs ref="#p.8 #p.40 #p.11 #p.12 #p.136 #p.13 #p.14 #p.121">Austrian, Prussian
+                  and Russian Plenipotentiaries</rs>, has received the orders of His Government to
+               declare:</p>
+            <pb n="173v"/>
+            <p>That the <rs ref="#p.130">King</rs>, His Royal Master, has observed with the greatest
+               satisfaction the friendly and conciliatory spirit in which these important
+               Discussions have been conducted, and that upon this, as upon every former occasion
+               when the Allied Ministers have been brought together, the various modes of proceeding
+               for the common interest have been temperately and freely examined, without prejudice
+               to that happy and intimate Union, which has invariably characterised the Proceedings
+               of the Alliance.</p>
+            <pb n="174r"/>
+            <p><rs ref="#p.130">His Majesty</rs> has also seen with peculiar pleasure in the late
+               Deliberations that the respective Cabinets, assembled at <placeName ref="#loc.60"
+                  >Troppau</placeName>, have evinced a laudable delicacy in not attempting to give a
+               strained or exaggerated construction to the existing Treaties, and that, while the
+               text of those Instruments is regarded as the exclusive rule and measure, both of the
+               common rights and duties of the Contracting Parties, all extraneous Questions have
+               been treated of in such a manner as to leave the several Allied<pb n="174v"/> Powers
+               at Liberty to accomodate their Decisions upon them to their own peculiar position,
+               without, at the same time, impairing either the general harmony or the common ties,
+               which bind the Allies together.</p>
+            <p>The British Government, in replying to the Communications thus brought under their
+               consideration, do not deem it necessary to enter into a detailed examination of the
+               several Memoirs in question.</p>
+            <p>Most of the Topics therein touched upon have been examined by<pb n="175r"/> them in
+               former Communications. They conceive that they will upon the whole best consult the
+               convenience and meet the wishes of the Allied Cabinets by shortly recapitulating
+               those Principles as guiding their Decision upon the present occasion, which have
+               already formed the basis of the several Instructions lately addressed to His
+               Majesty’s Ministers abroad, of all which Instructions Copies have been successively
+               communicated to the Allied Courts.</p>
+            <p>And first, with regard<pb n="175v"/> to the Neapolitan question, which has more
+               immediately given birth to the present <hi rendition="#u">Réunion</hi>, and which
+               forms the main topic of discussion in these Papers, the British Government has
+               already fully explained its sentiments with the utmost frankness in a <note
+                  type="gloss" place="margin" hand="#AmR"><choice>
+                     <abbr>N<hi rendition="#su">o</hi></abbr>
+                     <expan>Numéro</expan>
+                  </choice> 1.</note>
+               <rs xml:id="n.3">Dispatch addressed to the <rs ref="#p.137">Undersigned</rs>, bearing
+                  date <date when="1820-07-29">July 29<hi rendition="#su">th</hi></date></rs>.<note
+                  type="editorial" target="#n3"> Vgl. dazu Webster, Foreign Policy, Bd. 2, S.
+                  263.</note></p>
+            <p>Had this Document not been conveyed to the knowledge of the Allied Courts, the well
+               known Principles of the British Government must nevertheless have assured<pb n="176r"
+               /> them that a Revolution, bearing on the face of it such evident traces of an occult
+               Sectarian Conspiracy and of Military Revolt against a mild and paternal Government,
+               could not have been viewed otherwise than with equal pain and distrust by a State,
+               which regards such dangerous expedients as little adapted to establish reciprocal
+               Confidence between a Sovereign and His People, or to contribute to the Establishment
+               of any rational or well<pb n="176v"/> regulated System of Freedom; but whilst the
+               pernicious character of this change was then fully admitted, the British Government
+               felt it a duty at the same time to declare that whatever danger might be expected to
+               flow from the example of such an Event, it was not regarded by them as so directly
+               bearing upon the particular Safety of <country>Great Britain</country> as would
+               induce or, according to their received notions, could justify them in making
+                  themselves<pb n="177r"/> parties in the particular case to any system of forcible
+               interference.</p>
+            <p>This Principle of forbearance was still further enforced in <persName ref="#p.9"
+                     ><roleName>Lord</roleName>
+                  <surname>Castlereagh’s</surname></persName><note type="gloss" place="margin"
+                  hand="#AmR"><choice>
+                     <abbr>N<hi rendition="#su">o</hi></abbr>
+                     <expan>Numéro</expan>
+                  </choice> 2.</note>
+               <rs xml:id="n.4">Instructions to <persName ref="#p.146"><roleName>Sir</roleName>
+                     <forename><choice>
+                           <abbr>W<hi rendition="#su">m</hi></abbr>
+                           <expan>William</expan>
+                        </choice></forename>
+                     <surname>A’Court</surname></persName>, bearing date the <date when="1820-09-16"
+                        >16<hi rendition="#su">th</hi> of September</date></rs>,<note
+                  type="editorial" target="#n.4"> Vgl. Webster, Foreign Policy, Bd. 2, S.
+                  270.</note> wherein <rs ref="#p.146">that Minister</rs> was expressly authorized
+               to declare that a strict neutrality would be observed by His Government in the event
+               of any Hostilities, resulting from the late changes, provided always that the
+               Personal Safety of the Royal family was<pb n="177v"/> duly respected.</p>
+            <p>The Declaration thus directed to be made decided from that moment absolutely and
+               finally the position of the British Government.</p>
+            <p>It left them in fact no other matter for Deliberation than what might belong in good
+               Faith to the observance of their Neutrality.</p>
+            <p>The duties of such a line of conduct compelled them, for the reasons alleged in
+                  <persName ref="#p.9"><roleName>Lord</roleName>
+                  <surname>Castlereagh’s</surname></persName><note type="gloss" place="margin"
+                  hand="#AmR"><choice>
+                     <abbr>N<hi rendition="#su">o</hi></abbr>
+                     <expan>Numéro</expan>
+                  </choice> 3.</note>
+               <rs xml:id="n.5">Dispatch of the <date when="1820-09-16">same date</date></rs>,<note
+                  type="editorial" target="#n.5">Abgedruckt in Londonderry (Hg.), Memoirs and
+                  Correspondence of Viscount Castlereagh, Bd. 12, S. 311–318.</note> addressed<pb
+                  n="178r"/> to <rs ref="#p.137">the Undersigned</rs>, to decline the <rs
+                  xml:id="n.6">Austrian Overture of the <date when="1820-08-28">28<hi
+                        rendition="#su">th</hi> of August</date></rs>,<note type="editorial"
+                  target="#n.6">Propositions adressées par l’Autriche aux Cours de France, de
+                  Grande-Bretagne, die Prusse, de Russie, Wien 28. August 1820; in: ÖStA, HHStA, St.
+                  K., Kongressakten, Kart. 21, Fasz. 38/2, fol. 4–8.</note> and they feel equally
+               bound to abstain from making themselves Parties either morally or materially to every
+               other Measure of an hostile character that may be taken by any particular Power or
+               Powers against the “de facto” Government of Naples.</p>
+            <p>The motives, which decided His Majesty’s Government to adopt this course of Policy
+               without a moment’s<pb n="178v"/> delay, were explained in the <note type="gloss"
+                  place="margin" hand="#AmR"><choice>
+                     <abbr>N<hi rendition="#su">o</hi></abbr>
+                     <expan>Numéro</expan>
+                  </choice> 4.</note><rs xml:id="n.7"><hi rendition="#u">Dispatch</hi> to the <rs
+                     ref="#p.137">Undersigned</rs>, also bearing date the <date when="1820-09-16"
+                        >16<hi rendition="#su">th</hi> of September</date></rs>,<note
+                  type="editorial" target="#n.7">Abgedruckt in Londonderry (Hg.), Memoirs and
+                  Correspondence of Viscount Castlereagh, Bd. 12, S. 311–318.</note> and the <rs
+                  ref="#p.137">Undersigned</rs> doubts not, those Motives have been duly appreciated
+               by the Allied Cabinets.</p>
+            <p>The decision thus taken is a sufficient proof that the British Government did not
+               regard the Question of <country>Naples</country> as one falling within any of the
+               Provisions of existing Treaties, upon which it would be contended that the <hi
+                  rendition="#u">Casus Foederis et Belli</hi>,<pb n="179r"/> therein specified, had
+               arisen, or even that the special Obligation to deliberate in common with the Allies,
+               as specified in the 3<hi rendition="#su">d</hi> Article of the <rs ref="#t.6">Treaty
+                  of Alliance</rs>, could in this particular case be alleged to exist.</p>
+            <p>They took their Determination therefore under the pressure of the exigency, and in
+               the exercise of what appeared to them their undoubted right, and by that
+               Determination the line of their duty must be most scrupulously regulated.</p>
+            <pb n="179v"/>
+            <p>In laying down this Principle of non-interference for the rule of their own conduct,
+               the British Government has never presumed to prejudge the Decision of the other
+               Allied Powers, or to question the grounds upon which they either collectively or
+               individually may deem it incumbent on them to adopt a different course of Policy.</p>
+            <p>His Majesty’s Government have from the first admitted that the Position of some of
+               the Continental Powers, and<pb n="180r"/> specifically the Position of
+                  <country>Austria</country> and of the Italian States, was essentially different
+               from that of <country>Great Britain</country>, and they have professed their
+               disposition to respect whatever Decision They, as Independent Powers, might take upon
+               full Deliberation for the security of Their own Dominions; provided always that due
+               assurance was given that the <rs ref="#t.12 #t.1">Territorial System of Europe as
+                  settled by late Treaties</rs> was not thereby intended to be disturbed.</p>
+            <pb n="180v"/>
+            <p>As far as the present Discussions have gone, it is but Justice to the several Allied
+               Powers that the British Government should declare that they have unequivocally
+               evinced a Disposition altogether exempt even from the suspicion of any interested or
+               ambitious purpose, and without being understood to give any opinion upon the
+               propriety of the Political Conclusions, to which They appear to have come with regard
+               to the Affairs<pb n="181r"/> of <country>Naples</country>, as bearing upon Their own
+               Security (an Opinion, which the British Government, in their Neutral Character, do
+               not feel themselves called upon either to form or to pronounce). They nevertheless,
+               under the particular circumstances of the Case, certainly cannot feel either the
+               Disposition or the Right to oppose themselves to their Determination.</p>
+            <p>Having stated thus much upon the General Principle of the proposed Interference, the
+                  <rs ref="#p.137">Undersigned</rs> is directed<pb n="181v"/> to declare, on the
+               part of His Government, as an obvious and necessary Corollary from the Principles
+               above laid down, that they must likewise decline being Parties to any executory
+               measures which may grow out of such Interference and that, if the Entry of an
+               Austrian Army into the <country>Kingdom of Naples</country> should give occasion to
+               any temporary System of Military Occupation, resembling<pb n="182r"/> that to which
+               the <rs ref="#t.1">Treaty of Peace in 1815</rs> gave rise in
+                  <country>France</country>, <country>Great Britain</country> can take no share in
+               its execution, nor can the British Government otherwise interfere, than in
+               exercising, in concert with the Alliance, that general “Surveillance” with respect to
+               the nature and duration of that Occupation, which devolves upon them not as matter of
+               Option, but as a Duty under existing Treaties and as Guardians of the General
+                  Territorial<pb n="182v"/> Balance and Settlement of Europe.</p>
+            <p>The <rs ref="#p.137">Undersigned</rs> is further directed to decline, but in the most
+               friendly manner, the Overture contained in the <ref target="Troppau_Prot_1.xm."><rs
+                     ref="#p.8">Austrian Minister’s</rs> Note of the <date when="1820-10-29">29<hi
+                        rendition="#su">th</hi> of October</date></ref>, in which it is proposed
+               that the Allied Powers should take an engagement not to recognize, but with common
+               consent, the existing order of Things at <country>Naples</country>, so long as the
+               Conferences at <placeName ref="#loc.60">Troppau</placeName> shall last, which
+                  Proposition,<pb n="183r"/> having been accepted by <rs
+                  ref="#p.13 #p.14 #p.121 #p.11 #p.12 #p.136">the Russian and Prussian
+                  Plenipotentiaries</rs>, has since, at the instance of the Russian Cabinet, been
+               made absolute and without restriction as to time.</p>
+            <p>It is not that the British Government has it in contemplation at present to advise
+                  <rs ref="#p.130">His Majesty</rs> to grant Credentials or to receive them from the
+               existing Government of <country>Naples</country>, but as the Principles above
+               explained preclude them from being Parties to the more extended Concert, in<pb
+                  n="183v"/> which the other Powers are engaged, they feel it in point of
+               Consistency incumbent on them not to participate in this particular Branch of that
+               Concert.</p>
+            <p>Having submitted the reasons, which have determined His Court under existing
+               Circumstances to act upon a Principle of Neutrality with regard to
+                  <country>Naples</country>, the <rs ref="#p.137">Undersigned</rs> is instructed to
+               declare, with reference to the observations brought forward in these Memoirs
+               concerning the <rs xml:id="n.8">late Revolutions in
+                  <country>Spain</country></rs><note type="editorial" target="#n.8">Zur spanischen
+                  Verfassung von Cádiz, veröffentlicht am <date when="1812-03-19">19. März
+                     1812</date> und am <date when="1820-03-08">8. März 1820</date> durch <persName
+                     ref="#p.30"><roleName>König</roleName>
+                     <forename>Ferdinand VII.</forename></persName> erneut in Kraft gesetzt, vgl.
+                  Timmermann, Die „Gemäßigte Monarchie“; BFSP Bd. 6 (1819/20), S. 237–279; Brand,
+                  Schlegelmilch, Kirsch (Hgg.), Quellen. Zur Revolution vgl. Späth, Revolution in
+                  Europa, S. 117–128.</note> and<pb n="184r"/>
+               <rs xml:id="n.9"><country>Portugal</country></rs>,<note type="editorial"
+                  target="#n.9">In Portugal war am <date when="1820-08-24">24. August 1820</date>
+                  ebenfalls eine Revolution ausgebrochen; vgl. Birmingham, A Concise History, S.
+                  111–113.</note> that His Government continues to be of opinion that the state of
+               neither of those Kingdoms, however critically and anxiously circumstanced, can
+               justify at present in prudence any direct Interference in their internal Affairs.</p>
+            <p>With regard to <country>Spain</country>, the existing Constitution has been formally
+               acknowledged by the Allied Sovereigns at the instance of the <rs ref="#p.30"
+                  >King</rs>, and their Ministers accredited to that Court have been continued in
+               the full exercise of their Functions.</p>
+            <pb n="184v"/>
+            <p>And with respect to <country>Portugal</country>, until <rs ref="#p.28">His Most
+                  Faithful Majesty</rs> shall be enabled to take some Determination upon the
+               extraordinary Situation, in which His Affairs are placed by the late Events, it
+               should seem impossible for any other Power to venture to pronounce upon them.</p>
+            <p>For a more particular Exposition however of their Sentiments upon both these
+               important Subjects the <rs ref="#p.137">Undersigned</rs> is directed by His
+               Government to refer to the <note type="gloss" place="margin" hand="#AmR"><choice>
+                     <abbr>N<hi rendition="#su">o</hi></abbr>
+                     <expan>Numéro</expan>
+                  </choice> 5.</note><rs xml:id="n.10">Memoir on Spanish Affairs of April 1820</rs>
+                  and<pb n="185r"/> to the <note type="gloss" place="margin" hand="#AmR"><choice>
+                     <abbr>N<hi rendition="#su">o</hi></abbr>
+                     <expan>Numéro</expan>
+                  </choice> 6.</note><rs xml:id="n.11">Dispatch of <date when="1820-10-29">October
+                        29<hi rendition="#su">th</hi></date></rs>, recently addressed to the <rs
+                  ref="#p.137">Undersigned</rs> concerning the late Events in
+                  <country>Portugal</country>.</p>
+            <p><ref target="Troppau_Prot_3.xml">There only remains for the <rs ref="#p.137"
+                     >Undersigned</rs> to observe upon the idea, which prevails throughout these
+                  Memoirs, but which appears to be somewhat more specifically treated of in that
+                  delivered by <rs ref="#p.13 #p.14 #p.121">the Russian Plenipotentiaries</rs>,
+                  namely that of some general systematic and solemn Declaration, to be agreed upon
+                  and promulgated on the present occasion, of the Principle, by which the Conduct of
+                  the five<pb n="185v"/> Great European Powers is to be in future regulated with
+                  regard to States, the established Governments of which shall undergo some violent
+                  change by means similar to those by which the late Events in
+                     <country>Spain</country>, <country>Portugal</country> and
+                     <country>Naples</country> have been brought about.</ref></p>
+            <p><ref target="Aachen_Dok_50.xml">The Principles therein thrown out for consideration
+                  appear to the British Government to amount in effect to a revival of those
+                  Discussions with regard to the Establishment of a General System of Guarantee, not
+                     merely<pb n="186r"/> territorial, but political, between the European Powers,
+                  in the examination of which Question some progress was made when the Cabinets were
+                  assembled at <placeName ref="#loc.1">Aix-la-Chapelle</placeName>, but which was
+                  then laid aside by common consent from the extreme Difficulties, if not the
+                  absolute Impracticability, in which the whole Subject was involved.</ref></p>
+            <p><rs xml:id="n.12">The Memoir presented by <rs ref="#p.9 #p.10">the British
+                     Plenipotentiaries</rs> on that occasion, bearing date the <date
+                     when="1818-09-15">15<hi rendition="#su">th</hi> September
+                  1818</date></rs>,<note type="editorial" target="#n.12">Der Kongress von <placeName
+                     ref="#loc.1">Aachen</placeName> begann erst am <date when="1818-09-29">29.
+                     September</date>. In den Dokumenten zum Kongress von Aachen im ÖStA, HHStA
+                  liegt kein entsprechendes Dokument ein. Ein entsprechendes Memorandum findet
+                  Erwähnung bei Webster, Foreign Policy, Bd. 2, S. 134–139, sowie bei Jarrett,
+                  Congress of Vienna, S. 183.</note> contains the expression of the opinion of Their
+               Court not only upon<pb n="186v"/> this momentous Question, but also defines the
+               precise meaning and character of the <note type="gloss" place="margin" hand="#AmR"><choice>
+                     <abbr>N<hi rendition="#su">o</hi></abbr>
+                     <expan>Numéro</expan>
+                  </choice> 7.</note><rs ref="#t.6" xml:id="n.13">Treaty of Quadruple Alliance of
+                  the Year 1815</rs>, as agreed to by <rs ref="#p.130">His Majesty</rs> and
+               sanctioned by Parliament.</p>
+            <p>To the reasoning contained in this short Analysis of their Foreign Relations, the
+               British Government desires to be understood as adhering, and They feel it Their duty
+               to declare, that Reflection has only served to confirm Them in the conviction that
+                  every<pb n="187r"/> attempt to reduce such a System to practice must not only
+               fail, but that the avowal of such a description of League among the Great Allied
+               Powers would seriously tend in various ways to aggravate the danger to which it
+               professes to apply a Remedy.</p>
+            <p>This being Their matured and deliberate conviction, They owe it to Themselves and to
+               the Allied Cabinets, so far as the opinion of the British Government can have weight,
+               to dissuade them from attempting to reduce<pb n="187v"/> to an abstract rule of
+               conduct possible Cases of Interference in the internal Affairs of Independent
+               States.</p>
+            <p>Such Interference every Power has an undoubted right to employ upon the Principle of
+               Self defence in a case of adequate Necessity, but to be just, it must rest upon some
+               evident practical danger, to be specially inferred from all the circumstances of the
+               particular case, but which never can, <hi rendition="#u">a priori</hi>,<pb n="188r"/>
+               be made the subject matter of an Alliance between the Great Powers of Europe.</p>
+            <p>The Transactions of 1815, with regard to <country>France</country>, were expressly
+               founded upon the overbearing and conquering character, which that particular
+               Revolution had assumed to the terror of all Europe, but it does not follow that the
+               same course of Policy can be made universally applicable to all other
+               Revolutions.</p>
+            <p>The <rs ref="#p.137">Undersigned</rs><pb n="188v"/> is only further commanded to
+               state that the <rs ref="#p.130">King</rs>, His Master, is fully alive to the great
+               Kindness and Consideration, with which <rs ref="#p.16 #p.18 #p.17">His August
+                  Allies</rs> have expressed Themselves to <rs ref="#p.130">His Majesty</rs> upon
+               the present occasion.</p>
+            <p><rs ref="#p.130">His Majesty</rs> has received these assurances from Them as a fresh
+               and valuable Pledge, not less of Regard than of Confidence, and They may rest assured
+               that His Majesty’s attachment to Their August Persons<pb n="189r"/> and to the
+               Interests of the Alliance is unabated and imperishable, and that <rs ref="#p.130">His
+                  Majesty</rs> will always be found ready to fulfil with Zeal and Promptitude those
+               Duties which are prescribed to Him by the Treaties so happily subsisting between
+               Them.</p>
+            <signed><persName ref="#p.137"><surname>Vane</surname>
+                  <surname>Stewart</surname></persName></signed>
+         </div>
+
+         <div hand="#A" decls="#m.3">
+            <pb n="157r"/>
+            <p>The <rs ref="#p.137">English Ambassador at the Court of <placeName ref="#loc.7"
+                     >Vienna</placeName></rs>, in placing by order of His Court <rs xml:id="n.14"
+                  >the Official Note hereunto annexed</rs><note type="editorial" target="#n.14">Vgl.
+                  Anlage 1.</note> on the Journal of the Conferences, is commanded additionally to
+               state that, had the time admitted of it, this Official Document would have been
+               accompanied by a more detailed Developement of the reasoning upon which the British
+               Government deems it necessary as well to decline being a Party to any League or
+               Concert in the nature of a General Guarantee, as to<pb n="157v"/> recommend earnestly
+               to their Allies to confine Their views to special cases of public danger, as they may
+               from time to time arise, rather than to pledge Themselves beforehand to interfere on
+               every occasion when Political Changes may be brought about in any State by what may
+               be regarded by Them as irregular or unlawful means, or by anticipation to hazard the
+               promulgation of a System of conduct to be pursued by them on all such occasions, of
+               the Prudence as well as the Practicability of which undertaking the<pb n="158r"/>
+               most serious doubts may suggest themselves.</p>
+            <p>An outline of the view taken of this Question by the British Government may be found
+               towards the close of the <rs xml:id="n.15">Memoir of the <date when="1818-09-15"
+                        >15<hi rendition="#su">th</hi>
+                     <choice>
+                        <abbr>Sept<hi rendition="#su">r</hi></abbr>
+                        <expan>September</expan>
+                     </choice> 1818</date></rs>,<note type="editorial" target="#n.15">Der Kongress
+                  von <placeName ref="#loc.1">Aachen</placeName> begann erst am <date
+                     when="1818-09-29">29. September</date>. In den Dokumenten zum Kongress von
+                  Aachen im ÖStA, HHStA liegt kein entsprechendes Dokument ein. Ein entsprechendes
+                  Memorandum findet Erwähnung bei Webster, Foreign Policy, Bd. 2, S. 134–139, sowie
+                  bei Jarrett, Congress of Vienna, S. 183.</note> presented by the British
+               Government at <placeName ref="#loc.1">Aix-la-Chapelle</placeName>.</p>
+         </div>
+
+         <div hand="#A" decls="#m.4">
+            <pb n="159r"/>
+            <p><add place="bottom">À Son Altesse Monsieur le <persName ref="#p.8"
+                        ><roleName>Prince</roleName>
+                     <surname>de Metternich</surname></persName> Ministre d’Etat et des Affaires
+                  Étrangères <choice>
+                     <abbr>etc.</abbr>
+                     <expan>et cetera</expan>
+                  </choice>
+                  <choice>
+                     <abbr>etc.</abbr>
+                     <expan>et cetera</expan>
+                  </choice>
+                  <choice>
+                     <abbr>etc.</abbr>
+                     <expan>et cetera</expan>
+                  </choice></add></p>
+            <p>Le <rs ref="#p.137">Soussigné Ambassadeur Extraordinaire et Ministre
+                  Plénipotentiaire</rs> de <rs ref="#p.130">Sa Majesté Britannique</rs> ayant reçu
+               l’ordre de Sa Cour de communiquer à Son Altesse Monsieur le <persName ref="#p.8"
+                     ><roleName>Prince</roleName>
+                  <surname>de Metternich</surname></persName>, Ministre d’Etat et des Affaires
+               Etrangères de <rs ref="#p.16">Sa Majesté Impériale et <choice>
+                     <abbr>Roy.</abbr>
+                     <expan>Royale</expan>
+                  </choice> Apostolique</rs>, <rs xml:id="n.16">la Copie d’une Dépêche</rs><note
+                  type="editorial" target="#n.16">Vgl. Anlage 4.</note> qu’il vient de recevoir en
+               date du <date when="1820-12-16">16 Décembre</date> ; il a l’honneur de la transmettre
+               ci-jointe, en réitérant à Son Altesse les Assurances de Sa haute considération.</p>
+            <p><placeName ref="#loc.7">Vienne</placeName> ce <date when="1820-12-29">29 Décembre
+                  1820</date></p>
+         </div>
+
+         <div hand="#A" decls="#m.5">
+            <pb n="130r"/>
+            <p><add place="top">Copy; ad <choice>
+                     <abbr>Prot</abbr>
+                     <expan>Protocol</expan>
+                  </choice> VII.</add></p>
+            <p>Foreign Office <date when="1820-12-16">December 16 1820</date></p>
+            <p>My <rs ref="#p.137">Lord</rs></p>
+            <p>Your Excellency’s Dispatch <choice>
+                  <abbr>N<hi rendition="#su">o</hi><expan>Numero</expan></abbr>
+               </choice> 129 with its several Inclosures has been received and laid before the <rs
+                  ref="#p.130">King</rs>.</p>
+            <p>The important Documents conveyed in this Dispatch having been examined by His
+               Majesty’s Confidential Servants with the greatest attention, <rs ref="#p.9">I</rs> am
+               now commanded to convey to <rs ref="#p.137">Your Excellency</rs> the observations,
+               which they<pb n="130v"/> have felt it their Duty to submit to <rs ref="#p.130">His
+                  Majesty</rs>, and which, being honoured with the King’s sanction, Your Excellency
+               will consider as the rule, by which Your own conduct and language is to be regulated
+               in any future discussions that may take place on this subject.</p>
+            <p><rs ref="#p.9">I</rs> consider it may be convenient in this Dispatch to lay wholly
+               out of view the Instructions transmitted to <rs ref="#p.144 #p.148 #p.149">the
+                  Austrian, Prussian and Russian Ministers<pb n="131r"/> at <placeName ref="#loc.11"
+                     >Naples</placeName></rs>, together with the Autographic Letters addressed by
+                  <rs ref="#p.16 #p.18 #p.17">the August Sovereigns assembled at <placeName
+                     ref="#loc.60">Troppau</placeName></rs> to <rs ref="#p.138">His Sicilian
+                  Majesty</rs>.</p>
+            <p><rs xml:id="n.17">The Note, which <rs ref="#p.137">Your Excellency</rs> has already
+                  been directed to present to the Conference, will have fully explained, why the <rs
+                     ref="#p.130">King</rs> feels Himself bound to decline any direct Participation
+                  in those Measures.</rs><note type="editorial" target="#n.17">Vgl. Anlage
+               1.</note></p>
+            <p>Under this view of His duty, <rs ref="#p.130">His Majesty</rs> does not deem it
+                  expedient<pb n="131v"/> to appoint a Plenipotentiary to take part in His Majesty’s
+               name in the proposed Discussions at <placeName ref="#loc.65">Laybach</placeName>; but
+                  <rs ref="#p.130">His Majesty</rs> sees no objection to <rs ref="#p.137 #p.146">His
+                  Ministers at <placeName ref="#loc.7">Vienna</placeName> and <placeName
+                     ref="#loc.11">Naples</placeName></rs> (should They receive Invitations from the
+               Sovereigns to whom They are respectively accredited) accompanying <rs
+                  ref="#p.16 #p.138">Their Majesties</rs> to such interview, and when there, to
+               Their assisting at any Conferences which may be held in<pb n="132r"/> the same manner
+               and under the same reserve as has been prescribed to <rs ref="#p.137">Your
+                  Excellency</rs> at <placeName ref="#loc.60">Troppau</placeName>; and it will
+               afford to the <rs ref="#p.130">King</rs> the truest satisfaction should these
+               Discussions lead to an amicable adjustment of all differences.</p>
+            <p>The subject to which I am more particularly directed in this Dispatch to call <rs
+                  ref="#p.137">Your Excellency’s</rs> attention is the <ref
+                  target="Troppau_Prot_4.xml"><hi rendition="#u">Protocole Préliminaire,</hi></ref>
+               which appears to have been presented to the Conference at<pb n="132v"/>
+               <placeName ref="#loc.60">Troppau</placeName> on the <date when="1820-11-19">19<hi
+                     rendition="#su">th</hi> Ultimo</date>, as an Act agreed upon and executed by
+                  <rs ref="#p.8 #p.40 #p.11 #p.12 #p.136 #p.13 #p.14 #p.121">the Plenipotentiaries
+                  of the three Powers</rs>, without any previous Communication with <rs
+                  ref="#p.137 #p.102 #p.135">the British and French Ministers</rs>.</p>
+            <p>The formal Signatures to this Protocol having, in consequence of <rs ref="#p.137"
+                  >Your Excellency’s</rs> observations, been withdrawn, it was declared on the <rs
+                  xml:id="n.18">Proceedings of the following day by the Memoirs of the<pb n="133r"/>
+                  three Courts</rs><note type="editorial" target="#n.18">Liegen nicht ein – bei den
+                  "Proceedings of the following day" handelt es sich vermutlich um eine der
+                  vertraulichen Zusammenkünfte Österreichs, Preußens und Russlands.</note> that they
+               regarded this Document rather in the nature of a <hi rendition="#u">Projét</hi>, than
+               of a signed Instrument, and as containing only the Basis upon which They proposed to
+               pursue Their deliberations in this branch of Their labors, till <rs ref="#p.138">His
+                  Sicilian Majesty’s</rs> Answer should be received, and until the observations of
+               the two absent Courts upon the Protocol in question could be obtained.</p>
+            <pb n="133v"/>
+            <p>If this <hi rendition="#u">Protocole Préliminaire</hi> is only to be regarded as the
+               reasoned Basis upon which the three Courts were induced to come to the conclusion
+               with regard to the Affairs of <country>Naples</country>, which is set forth in that
+               Paper and in the Instructions transmitted to <country>Naples</country>, combined with
+               such a <add place="inline">confidential</add> assurance to each other of the spirit
+               of precaution in which they are determined to watch over the safety of Their own
+               Dominions by regarding with a jealous<pb n="134r"/> eye Events of a like nature to
+               those which have lately occurred in the <country>Kingdom of Naples</country>, the
+               British Government, having already declared itself disposed to respect the Course
+               which in the particular case They propose to pursue, would not have felt itself
+               called upon, in declining to accede to this Protocol, to enter upon this Question
+               further <metamark rend="Bleistiftstrich" place="margin">than very shortly to state
+                  their reasons for such Decision</metamark>. But as this Protocol appears<pb
+                  n="134v"/> rather to be intended to form the Basis of a General System which,
+               after being proposed to the consideration of the other Allied Courts, is, if agreed
+               to by Them, <metamark rend="Bleistiftstrich" place="margin">to assume the character
+                  of a Treaty or to be promulgated to Europe as a System of international Law, to
+                  which the accession of other Courts is to be invited</metamark>, the Question in
+               that view assumes a character such as must necessarily<pb n="135r"/> awaken the
+               attention of all European States with regard to its principles as well as its
+               provisions.</p>
+            <p>In looking at the effects of this Protocol, and examining its bearings in the latter
+               point of view, the first question that arises is, in what position does it place the
+               Contracting Parties, first towards each other, and secondly towards independent
+                  States,<pb n="135v"/> not being Parties to its obligations?</p>
+            <p>Before we examine this, it may be well to state generally the nature of its
+               provisions.</p>
+            <p>It professes to assign to the contracting Parties under the name of the <hi
+                  rendition="#u" hand="#AmB">Alliance</hi> the right and the duty of declaring any
+               particular State, in which a change of Government has been effectuated by what they
+                  <add place="inline">may</add> deem irregular or illegal means, to be <hi
+                  rendition="#u">ipso<pb n="136r"/> facto</hi> excluded from the European Alliance:
+               An immediate separation from the State, thus placed as it were in Outlawry, is to be
+               the first consequence of such Declaration; and in the event of amicable intervention
+               failing to procure the reestablishment in that State of such an order of things as
+               may, in the judgment of the contracting Parties, entitle it to be received again into
+               the Bosom<pb n="136v"/> of the Alliance, Coercive Measures are to be had recourse to
+               for the purpose of enforcing the same.</p>
+            <p>It is impossible for those who value the Alliance the most highly, and who from
+               experience are the most highly and unfeignedly impressed with its characteristic
+               Benevolence and Liberality, not to feel alarmed at the very idea of challenging in a
+               formal Instrument a claim on its behalf to the exercise of such<pb n="137r"/>
+               unexampled power as this; a Claim which is represented in the Protocol to rest upon
+                  <quote>“une application légitime et salutaire des principes, sur lesquels se fonde
+                  Leur Alliance”</quote>. – It may be asked from what Principle of existing Treaties
+               the Alliance finds Itself entitled to draw such a conclusion. Certainly not from the
+                  <rs ref="#t.6">Treaty of Alliance of November 1815, signed at <placeName
+                     ref="#loc.2">Paris</placeName></rs>.</p>
+            <p>At the close of an unexampled war carried<pb n="137v"/> on against Them by the
+               Revolutionary Government of <country>France</country> the Allies, under the
+               extraordinary Circumstances of being obliged a second time to march Their Armies into
+               that Kingdom, felt Themselves entitled to take the precautions contained in that <rs
+                  ref="#t.6">Treaty</rs>; and They justified its extraordinary provisions
+               exclusively upon the necessity of the particular case. But surely it is impossible to
+               bring forward what was applied to <country>France</country> at the close<pb n="138r"
+               /> of such a War and under Circumstances so peculiar as a precedent which is to
+               justify the Alliance in placing all Europe, including so many States that were
+               associated as Allies in that <hi rendition="#u" hand="#AmB">struggle, in the same
+                  state of <hi rendition="#u">surveillance</hi> as was then on special grounds
+                  applied to <country>France</country></hi>.</p>
+            <p><country>France</country> might be said to make the Peace with Her eyes open, in
+               contemplation of the <rs ref="#t.6">Treaty of Alliance</rs>.</p>
+            <p>But where is the like title to be found for the assumption of the five Powers<pb
+                  n="138v"/> of a similar, or rather of a much more penal Superintendance over all
+               the other States of Europe?</p>
+            <p>The <rs ref="#t.6">Treaty of Alliance</rs>, after stipulating the exclusion of the
+                  <rs ref="#p.50">Usurper</rs>’s Family forever from the Throne of France, binds the
+               Allies in the event of any Revolutionary Convulsion in <country>France</country> only
+               to <hi rendition="#u">deliberate</hi> together for the common safety, with a view to
+               the adoption of such measures as the Safety of Europe under such an exigency might
+                  require.<pb n="139r"/> But the <hi rendition="#u">Protocole Préliminaire</hi> in
+               Article 5 proceeds at once to recognize their authority to place Armies of Occupation
+               in the Territories of such of those States as the Alliance may deem to require such a
+               precaution.</p>
+            <p>If a title to assume such powers cannot be contended for as founded upon any general
+               Principle or upon any existing Treaty, is it intended to invite all other States to
+               accede to this League and thus, by their voluntary<pb n="139v"/> consent, to submit
+               themselves in such cases to the Jurisdiction of the Alliance?</p>
+            <p>Can it be supposed that all the other States of Europe will choose to accede <hi
+                  rendition="#AmB">to such a System? And if not – what is to be the position of the
+                  non-acceding States</hi>?</p>
+            <p>What would be the effect of such accession upon the Political situation of the
+               greater number of Sovereigns that might be called upon to give it, and upon Their
+               Subjects?</p>
+            <p>Would it not bear the appearance of separating<pb n="140r"/> Themselves from Their
+               own people and of looking to Foreign Aid for the safety of Their Thrones?</p>
+            <p>Could the <rs ref="#p.15">King of France</rs> for instance accede to such a Treaty
+               without exposing Himself to the very inconvenience which the Allies dissuaded His
+               Majesty wisely in 1815 from incurring?</p>
+            <p>Could the <rs ref="#p.30">King of Spain</rs>, without the utmost and most immediate
+               peril to His personal safety, as well as to His Throne?</p>
+            <pb n="140v"/>
+            <p>It is also material to consider what would be the situation of the Five Great
+               European Powers with respect to each other, were the Principle promulgated in this
+               Protocol to be recognized.</p>
+            <p>It is to be presumed that whatever rights are therein claimed, the exercise of such
+               rights is to be reciprocal between the Parties.</p>
+            <p>Are then the Great Powers of Europe prepared to admit or to recognize such a
+               Principle, as that Their respective Territories are thrown open to this<pb n="141r"/>
+               extent to each other’s approach upon cases of assumed necessity or expediency, of
+               which not the Party receiving aid, but <metamark rend="+ mit Bleistift"
+                  place="margin">the Party administering</metamark> it is to be the Judge?</p>
+            <p>I should much doubt whether such a Doctrine would be palatable in any one of the
+               great Monarchies in question; but with regard to <country>Great Britain</country>, no
+               Minister could venture to advise the <rs ref="#p.130">King</rs> to sanction such a
+               Principle.</p>
+            <p>The <rs ref="#t.44">Act of Settlement</rs>, by which the Succession to the Throne is
+                  regulated,<pb n="141v"/> has expressly provided that it is contrary to Law for the
+               King, under any Circumstances, to introduce Foreign Troops into the Realm, without
+               the Consent of Parliament.</p>
+            <p>Under this Law, were <rs ref="#p.130">His Majesty</rs> to be advised to recognize
+               this Principle that in any possible event, even at His own specific invitation, much
+               more at the discretion of other Powers, Foreign Troops might, without the Consent of
+               Parliament, come into the Country with a view of interfering in its internal
+               Affaires, not only<pb n="142r"/> would such a recognition be wholly illegal and
+               invalid, but so revolting would it be to every Class and Description of the People
+               that it might shake His Majesty’s Title to His Throne, if not expiated by the
+               punishment of the Minister, by whom such advice had been given.</p>
+            <p>From such a Principle the British Government must not only dissent, but protest
+               against any attempt to consider it as under <hi rendition="#u">any imaginable
+                  Circumstances</hi> capable of being applied to the<pb n="142v"/> British
+               Dominions.</p>
+            <p>It may however be alleged that nothing more is meant than to reassert the Right which
+               belongs to every Independent State to interpose in the Affairs of a neighbouring
+               State, by whose Internal Convulsions its own Peace and Security are menaced or
+               endangered, and to declare on the part of the Contracting Parties Their fixed
+               Determination, under the present Circumstances of Europe, pregnant as they
+                  undoubtedly<pb n="143r"/> are with peril to the Stability of all Governments, to
+               act together, as set forth in the Protocol, in all such cases for the common safety.
+               But here is a wide distinction. It is proposed to create a Confederacy for the
+               Exercise of a Right, which though undoubtedly appertaining, upon Principles of
+               Selfdefence in extreme Cases, to each particular State, has never yet as a general
+               Measure been made the subject either of a Diplomatic Regulation<pb n="143v"/> or
+               conjoint exercise.</p>
+            <p>It is proposed to assume on the part of the Alliance a Sovereign Power over the other
+               States of Europe equivalent to that, to which the German States have mutually
+               submitted themselves in case of internal Convulsion, but which in the German League
+               is to be administered not at the discretion or by the force of the most powerful
+               Members of the Confederacy, but by the force of the League itself and under the<pb
+                  n="144r"/> discretion of its Diet.</p>
+            <p>In this Case no such Conventional arrangement has been or can well be made.</p>
+            <p><metamark rend="+ mit Bleistift" place="margin">The claim to exercise such a
+                  Power</metamark> may not only excite among the Nations of Europe great uneasiness,
+               but may provoke sooner or later Counter-Alliances.</p>
+            <p>There are extreme Rights to which Nations, as well as Individuals, must have recourse
+               for Their own preservation, and for the exercise of which no Legislation can provide
+               Rights, which must be left to originate<pb n="144v"/> in and to be limited by the
+               necessity of the especial Case.</p>
+            <p>The extreme Right of Interference between Nation and Nation can never properly be
+               made a matter of written stipulation or be assumed as the Attribute of any
+               Alliance.</p>
+            <p>It must in each Case be an exception to the General Rule.</p>
+            <p>It cannot be incorporated with the acknowledged practice of Nations, or provided for
+               beforehand by the ordinary Forms of Diplomatic Transactions. Such an innovation<pb
+                  n="145r"/> seems the less called for in the present moment, as after preliminary
+               explanation with Their Allies the Three Powers have taken Their <metamark
+                  rend="+ mit Bleistift" place="margin">determination upon the particular point of
+                     <country>Naples</country></metamark> as freely as They could have done under
+               the existence of such a Protocol.</p>
+            <p>If the other Powers have pursued a different course of Policy, They have neither
+               pretended to oppose Themselves to the Decision of Their Allies, nor have They evinced
+               any Disposition to obstruct Them in what<pb n="145v"/> They regard to be a measure of
+               public safety.</p>
+            <p>Why then contract any new Engagement, or promulgate any new Code on so grave and
+               delicate a subject?</p>
+            <p>It may perhaps be conceived that the Publication of some formal Act by the Great
+               Powers may, at the present moment, serve to discourage the Enterprises of the
+               Factions in all Countries and animate the well-disposed with more Confidence to
+               resist their evil Machinations.</p>
+            <p>But would not the<pb n="146r"/>
+               <metamark rend="+ mit Bleistift" place="margin">course of Measures, in which the <rs
+                     ref="#p.16 #p.18 #p.17">Three Allied Sovereigns</rs></metamark> are engaged in
+               the case of <country>Naples</country>, speak more forcibly for itself, than any
+               written instrument proceeding from the same Parties could do?</p>
+            <p>If however a Declaration of the Sovereigns is, in <metamark rend="+ mit Bleistift"
+                  place="margin">addition, deemed necessary</metamark> to enforce their Sentiments
+               or to awaken the deluded to reflection, might not such a Declaration <metamark
+                  rend="+ mit Bleistift" place="margin">find its place in Ministerial Notes,
+                  explanatory of the</metamark> Considerations which have determined their
+                  Interference<pb n="146v"/> in this particular case, and without hazarding a new
+               diplomatic proceeding altogether without example?</p>
+            <p>If the Powers confine Themselves to the Question of <country>Naples</country> and lay
+               down Their general Principles without reference to any other Case, those Principles
+               will speak for themselves, but They by this Course pledge Themselves to no other
+               proceeding than that in which They have already embarked: They thus avoid creating
+               unnecessary alarm and exciting expectations as well as<pb n="147r"/> apprehensions,
+               which might fruitlessly disturb the peace of other Countries.</p>
+            <p>It is also to be considered that, if the promulgation of such a novel Confederacy may
+               express in some degree the prevailing spirit of Military Revolts, it may on the other
+               hand arouse in those States, which have latterly through such means received a
+               Representative Form of Government, that spirit of Military Energy which was the
+               distinctive and most formidable Character of the French Revolution, but of which<pb
+                  n="147v"/> the late Revolutions have as yet exhibited no Symptom.</p>
+            <p>The apprehension of an armed Interference in their internal Affairs may excite them
+               to arm; may induce them to look with greater jealousy and distrust than ever to the
+               Conduct of their Rulers, in short, may accelerate the progress of Republican
+               Principles and perhaps lead to the Destruction even of the semblance of Monarchical
+               Institutions within those States.</p>
+            <p>What hope in such a case of a better order<pb n="148r"/> of things to result from the
+               prudence and calm deliberations of a People, agitated by the apprehension of Foreign
+               Force, and how hopeless on the other hand the attempt to settle by Foreign Arms or by
+               Foreign Influence alone any stable and rational System of Government.</p>
+            <p>It is impossible to do more in this Dispatch than to point attention to some of the
+               most important bearings of this extensive and formidable subject.</p>
+            <p>Enough has however<pb n="148v"/> been stated to prove that the present may be
+               regarded as an important Era in the European System; and whether the reasoning
+               brought forward be convincing or not, it is at least sufficient to shew what an
+               unbounded field for Agitation and Controversy the promulgation of such an Instrument
+               as the <hi rendition="#u">Protocole Préliminaire</hi> must immediately open.</p>
+            <p><metamark rend="+ mit Bleistift" place="margin"><rs ref="#p.137">Your Lordship</rs>,
+                  for the reasons above stated,</metamark> and many others of a most cogent nature,
+               which it would swell this Communication too much<pb n="149r"/> to enumerate, will
+               decline, in the name of Your Court, being an acceding Party to the Protocols in
+               question.</p>
+            <p>You will distinctly understand that this determination on the part of His Majesty’s
+               Government does not rest upon the <metamark rend="+ mit Bleistift" place="margin"><hi
+                     rendition="#u" hand="#AmB">Form or Phrases</hi></metamark> of the particular
+               Instruments, <hi rendition="#u" hand="#AmB">and consequently is not susceptible of
+                  being removed by any partial modification of their stipulations</hi>.</p>
+            <p>They feel Themselves obliged to dissent from the fundamental Principle<pb n="149v"/>
+               upon which these Protocols rest, namely that of rendering the Powers either of the
+               existing or of any other Alliance avowedly and <hi rendition="#u">systematically
+                  applicable</hi>
+               <hi rendition="#u" hand="#AmB">under any Circumstances</hi> to the internal
+               Transactions of independent States.</p>
+            <p>The British Government will always claim on their own behalf and will recognize in
+               others the Right of such an Interference upon an adequate necessity.</p>
+            <p>They also are ready fully to acknowledge that in the present situation of Europe,
+                  and<pb n="150r"/> considering the happy union which, <hi rendition="#u">for
+                  limited and defined purposes</hi>, subsists under Treaty between its principal
+               Powers, it would be highly advantageous that any particular Power or Powers, before
+               they proceed to act upon such an extreme Right, should open their intentions as well
+               as their motives to the Alliance, in order that the Allied Powers may thereby receive
+               the requisite assurance that, in prosecuting such measures of National Security, the
+               Powers so acting entertain no views inconsistent with the general Territorial<pb
+                  n="150v"/> Settlement and Balance of Europe.</p>
+            <p>The British Government can never regard the question of Interference in each
+               particular instance as one which the Alliance is to be called in to decide; but as
+               one which appertains exclusively (under the check above described) to the particular
+               State or States menaced or immediately endangered.</p>
+            <p>The other System appears to Them at once to lead to the creation of a species of
+               General Government<pb n="151r"/> in Europe with a superintending Directory,
+               destructive of all correct notions of internal Sovereign authority.</p>
+            <p>Such a System would not only render the connexion of the five Powers offensive to
+               other independent States, but must rapidly tend by familiarizing their minds with
+               ideas of Foreign Influence and Interference to destroy all wholesome National Energy
+               and all independent action, more especially within the smaller States.</p>
+            <p>The British Government<pb n="151v"/> have not observed without Reprobation and Alarm
+               the machinations of secret Societies and the success of the Military Insurrections of
+               the present day.</p>
+            <p>They regard them as more likely to consign the Countries, in which they may occur,
+               through scenes of Bloodshed and Confusion to the hateful Repose of a Military
+               Despotism than to conduct them to any improved System of regular Liberty.</p>
+            <p>But the Disapprobation<pb n="152r"/> and the dread of those perilous evils must not
+               be permitted to hurry them into the opposite, and as they would regard it, not less
+               fatal extreme of becoming (as the Protocol appears to contemplate) <metamark
+                  rend="Bleistiftstrich" place="margin">armed Guardians of all Thrones,</metamark>
+               without even regard to the Principles upon which the Powers of Government are
+               administered.</p>
+            <p>They feel that such a Guarantee could not be morally given without involving a Claim
+               to pronounce upon, and to interfere with the mode<pb n="152v"/> in which the supreme
+               authority in each particular State so to be guaranteed is exercised: a Claim
+               absolutely incompatible with the Independance or Dignity of the local Sovereign.</p>
+            <p>Under these impressions the British Government must continue to regard the right of
+               Interference in the concerns of other Nations as one to be exclusively used by a
+               State or States with a view to their own immediate Security or to the Preservation of
+               those national Interests, for the maintenance of which a recurrence to War<pb
+                  n="153r"/> would be justifiable, but it cannot consent to charge itself as a
+               Member of the Alliance with the Moral Responsibility of administering a General
+               European Police of this description.</p>
+            <p>It is true, it has not been contended in support of the proposed Projet that the
+               Letter of any of the existing Treaties warrants such an Interpretation of the Powers
+               or Duties of the Alliance, and it is only under the Sanction of the alleged Spirit of
+               the <rs ref="#t.6">Treaty of 1815</rs> that it is sought to assign those<pb n="153v"
+               /> powers and those duties to the Alliance by the Protocols now under
+               consideration.</p>
+            <p>The British Government, in declining to accede to such a System, gives full credit to
+               the Governments, by whom it is proposed, for the purity and benevolence of Their
+               Intentions; but conscientiously believes that the result of adopting such a Principle
+               (though comparatively safe in the hands of the <rs ref="#p.16 #p.18 #p.17">August
+                  Sovereigns</rs>, who now happily fill the Thrones of those powerful States)
+                  would<pb n="154r"/> in the long run be productive of more misrule and even of more
+               Revolutions in Europe than the leaving of extreme cases of public danger from time to
+               time to find as heretofore their corrective in the Interference not of an Alliance,
+               but of the Power or Powers most directly interested in their Repression.</p>
+            <p>Your Excellency will make a communication to the Allied Courts of this frank avowal
+               of the <rs ref="#p.130">King</rs>’s Sentiments upon the result of Their late
+               Deliberations.</p>
+            <p>However painful it must be to <rs ref="#p.130">His Majesty</rs> on<pb n="154v"/> any
+               occasion to differ in opinion from those <rs ref="#p.16 #p.18 #p.17">August
+                  Sovereigns</rs> to whom He is so firmly and so cordially attached; yet upon a
+               Question of this peculiar nature, whatever may be their ultimate decision, <rs
+                  ref="#p.130">His Majesty</rs>’s own course must necessarily be regulated by those
+               prudential maxims, which are known to have at all times governed the Policy of
+                  <country>Great Britain</country>.</p>
+            <p>The <rs ref="#p.130">King</rs> trusts that He will not be regarded however as
+               presuming to interfere bejond the just limits of those<pb n="155r"/> obligations
+               which unite His Majesty with His Allies; if He should again recommend to Their
+               considerations the wisdom of not being tempted by the nature of their own particular
+               Institutions to hazard an experiment which cannot fail to excite public feelings and
+               public discussions throughout Europe, the effects of which in the present state of
+               moral and political ferment no human foresight can estimate, and no Combination of
+               its Powers may be able to controul.</p>
+            <p>Signed <persName ref="#p.9"><surname>Castlereagh</surname></persName></p>
+         </div>
+      </body>
+      <back>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listPlace.xml" xpointer="listPlace"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listPerson.xml"
+            xpointer="listPerson"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listWit.xml" xpointer="listWit"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listOrg.xml" xpointer="listOrg"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listTreaties.xml"
+            xpointer="listTreaties"/>
+      </back>
+   </text>
+</TEI>

@@ -1,0 +1,781 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Protokoll der 4. Sitzung des Kongresses von Troppau</title>
+            <title type="sub">Digitale Edition</title>
+            <editor>
+               <persName>
+                  <surname>Schneider</surname>
+                  <forename>Karin</forename>
+               </persName></editor>
+         </titleStmt>
+         <editionStmt>
+            <edition><date>2012-10-26</date></edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Österreichische Akademie der Wissenschaften, Institut für Neuzeit- und
+               Zeitgeschichtsforschung</publisher>
+            <pubPlace>Wien</pubPlace>
+            <idno>T_04</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="m.1" type="Originaljournal">
+               <msIdentifier>
+                  <settlement>Wien</settlement>
+                  <institution>ÖStA</institution>
+                  <collection>HHStA, Staatskanzlei, Kongressakten</collection>
+                  <idno>
+                     <idno type="Karton">Kart. 21</idno>
+                     <idno type="Faszikel"> Fasz. 38 (alt)</idno>
+                     <idno type="Folia">63-64, 77-78</idno>
+                  </idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <title>Journal</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <p>Journal</p>
+                  <p>Das Journal liegt zweifach auf fol. 63 und 78 (Original), und fol. 64 und 77
+                     ein; die Edition folgt der Variante fol. 63 und 78 als dem von <persName
+                        ref="#p.5"><surname>Gentz</surname></persName> eigenhändig unterzeichnetem
+                     Original.</p>
+                  <handDesc>
+                     <handNote xml:id="A">Anonyme Hand</handNote>
+                     <handNote xml:id="G">Friedrich Gentz</handNote>
+                     <handNote xml:id="W">Nikolaus Wacken</handNote>
+                     <handNote xml:id="AmB">Anonyme Hand mit Bleistift</handNote>
+                  </handDesc>
+
+               </physDesc>
+               <history>
+                  <origin><placeName ref="#loc.60">Troppau</placeName><date when="1820-11-19">19.
+                        November 1820</date></origin>
+               </history>
+            </msDesc>
+            <msDesc xml:id="m.2" type="Abschrift">
+               <msIdentifier>
+                  <settlement>Wien</settlement>
+                  <institution>ÖStA</institution>
+                  <collection>HHStA, Staatskanzlei, Kongressakten</collection>
+                  <idno>
+                     <idno type="Karton">Kart. 21</idno>
+                     <idno type="Faszikel"> Fasz. 38 (alt)</idno>
+                     <idno type="Folia">65-69</idno>
+                  </idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <title>Anlage 1: Protocole préliminaire</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <p>Abschrift</p>
+
+               </physDesc>
+               <history>
+                  <origin><placeName ref="#loc.60">Troppau</placeName><date when="1820-11-19">19.
+                        November 1820</date></origin>
+               </history>
+            </msDesc>
+            <msDesc xml:id="m.3" type="Abschrift">
+               <msIdentifier>
+                  <settlement>Wien</settlement>
+                  <institution>ÖStA</institution>
+                  <collection>HHStA, Staatskanzlei, Kongressakten</collection>
+                  <idno>
+                     <idno type="Karton">Kart. 21</idno>
+                     <idno type="Faszikel"> Fasz. 38 (alt)</idno>
+                     <idno type="Folia">69-70</idno>
+                  </idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <title>Anlage 2: Ergänzung zum Protocole préliminaire vom 19. November
+                        1820</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <p>Abschrift</p>
+
+               </physDesc>
+               <history>
+                  <origin><placeName ref="#loc.60">Troppau</placeName><date when="1820-11-19">19.
+                        November 1820</date></origin>
+               </history>
+            </msDesc>
+            <msDesc xml:id="m.4" type="Abschrift">
+               <msIdentifier>
+                  <settlement>Wien</settlement>
+                  <institution>ÖStA</institution>
+                  <collection>HHStA, Staatskanzlei, Kongressakten</collection>
+                  <idno>
+                     <idno type="Karton">Kart. 21</idno>
+                     <idno type="Faszikel"> Fasz. 38 (alt)</idno>
+                     <idno type="Folia">71-72</idno>
+                  </idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <title>Anlage 3: Konzept eines Briefs Kaiser Franz I. an Ferdinand I., König
+                        beider Sizilien</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <p>Abschrift</p>
+               </physDesc>
+               <history>
+                  <origin><placeName ref="#loc.60">Troppau</placeName><date when="1820-11-20">20.
+                        November 1820</date></origin>
+               </history>
+            </msDesc>
+            <msDesc xml:id="m.5" type="Abschrift">
+               <msIdentifier>
+                  <settlement>Wien</settlement>
+                  <institution>ÖStA</institution>
+                  <collection>HHStA, Staatskanzlei, Kongressakten</collection>
+                  <idno>
+                     <idno type="Karton">Kart. 21</idno>
+                     <idno type="Faszikel"> Fasz. 38 (alt)</idno>
+                     <idno type="Folia">73-75</idno>
+                  </idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <title>Anlage 4: Instruktion für die russischen und preußischen Gesandten sowie
+                        den österreichischen Chargé d’affaires in Neapel</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <p>Abschrift</p>
+               </physDesc>
+               <history>
+                  <origin><placeName ref="#loc.60">Troppau</placeName><date when="1820-11-22">22.
+                        November 1820</date></origin>
+               </history>
+            </msDesc>
+            <listWit corresp="#m.1">
+               <head>Journal</head>
+               <witness corresp="#w.37"><bibl type="print">Alberti, Atti, S.
+                  364-365.</bibl></witness>
+            </listWit>
+            <listWit corresp="#m.2">
+               <head>Anlage 1: Protocole préliminaire</head>
+               <witness corresp="#w.2"><bibl type="print">Grewe, Fontes, Bd. 3/1, S.
+                  110–113;</bibl></witness>
+               <witness corresp="#w.15"><bibl type="print">Näf, Europapolitik, S.
+                  31–33;</bibl></witness>
+               <witness corresp="#w.3"><bibl type="print">Bertier de Sauvigny, Sainte-Alliance, S.
+                     204–207;</bibl></witness>
+               <witness corresp="#w.4"><bibl type="print">Vnešnjaja politika Rossii, Bd. 11, S.
+                     589–591;</bibl></witness>
+               <witness corresp="#w.37"><bibl type="print">Alberti, Atti, S.
+                  365-367.</bibl></witness>
+            </listWit>
+            <listWit corresp="#m.3">
+               <head>Anlage 2: Ergänzung zum Protocole préliminaire vom 19. November 1820</head>
+               <witness corresp="#w.15"><bibl type="print">Näf, Europapolitik, S.
+                  33–34;</bibl></witness>
+               <witness corresp="#w.4"><bibl type="print">Vnešnjaja politika Rossii, Bd. 11, S.
+                     593;</bibl></witness>
+               <witness corresp="#w.37"><bibl type="print">Alberti, Atti, S.
+                  367-368.</bibl></witness>
+            </listWit>
+            <listWit corresp="#m.4">
+               <head>Anlage 3: Konzept eines Briefs Kaiser Franz I. an Ferdinand I., König beider
+                  Sizilien</head>
+               <witness corresp="#w.24"><bibl type="print">Martens, Manuel diplomatique, S.
+                     369–370;</bibl></witness>
+               <witness corresp="#w.14"><bibl type="print">Martens, Nouveau Recueil, Bd. 5 S.
+                     585–586;</bibl></witness>
+               <witness corresp="#w.5"><bibl type="print">BFSP Bd. 8 (1820/21), S.
+                  1147–1148;</bibl></witness>
+               <witness corresp="#w.25"><bibl type="print">Ghillany, Diplomatisches Handbuch, Bd. 2,
+                     S. 424;</bibl></witness>
+               <witness corresp="#w.26"><bibl type="print">Archive diplomatique/Diplomatisches
+                     Archiv, Bd. 1, S. 287–289;</bibl></witness>
+               <witness corresp="#w.37"><bibl type="print">Alberti, Atti, S. 368.</bibl></witness>
+            </listWit>
+            <listWit corresp="#m.5">
+               <head>Anlage 4: Instruktion für die russischen und preußischen Gesandten sowie den
+                  österreichischen Chargé d'affaires in Neapel</head>
+               <witness corresp="#w.37"><bibl type="print">Alberti, Atti, S.
+                  369-370.</bibl></witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <appInfo>
+            <application xml:id="docxtotei" ident="TEI_fromDOCX" version="2.15.0">
+               <label>DOCX to TEI</label>
+            </application>
+         </appInfo>
+         <styleDefDecl scheme="css"/>
+         <tagsDecl>
+            <rendition xml:id="su">superscript</rendition>
+            <rendition xml:id="s">strikethrough</rendition>
+            <rendition xml:id="u">underline</rendition>
+            <rendition xml:id="r">right</rendition>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <abstract>
+            <p>Entsprechend dem Beschluss vom <date when="1820-11-07">7. November</date> informieren
+               die <rs ref="#p.8 #p.40 #p.11 #p.12 #p.136 #p.13 #p.14 #p.121">Vertreter Österreichs,
+                  Preußens und Russlands</rs> die <rs ref="#p.137 #p.102 #p.135">Gesandten
+                  Großbritanniens und Frankreichs</rs> über die Ergebnisse ihrer bisherigen
+               vertraulichen Beratungen; Rechtfertigung für dieses Vorgehen durch <persName
+                  ref="#p.8"><surname>Metternich</surname></persName>.</p>
+         </abstract>
+         <particDesc>
+            <listPerson>
+               <head>Anwesende</head>
+
+               <person>
+                  <persName ref="#p.12">BERNSTORFF</persName>
+               </person>
+               <person>
+                  <persName ref="#p.102">CARAMAN</persName>
+               </person>
+               <person>
+                  <persName ref="#p.135">FERRONNAYS</persName>
+               </person>
+               <person>
+                  <persName ref="#p.121">GOLOVKIN</persName>
+               </person>
+               <person>
+                  <persName ref="#p.11">HARDENBERG</persName>
+               </person>
+               <person>
+                  <persName ref="#p.14">KAPODISTRIAS</persName>
+               </person>
+               <person>
+                  <persName ref="#p.136">KRUSEMARCK</persName>
+               </person>
+               <person>
+                  <persName ref="#p.40">LEBZELTERN</persName>
+               </person>
+               <person>
+                  <persName ref="#p.8">METTERNICH</persName>
+               </person>
+               <person>
+                  <persName ref="#p.13">NESSELRODE</persName>
+               </person>
+               <person>
+                  <persName ref="#p.137">STEWART</persName>
+               </person>
+
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div hand="#A" decls="#m.1">
+            <pb n="63r"/>
+            <p><title><hi rendition="#u">Journal des conférences</hi></title></p>
+            <p><title><hi rendition="#u"><choice>
+                        <abbr>N<hi rendition="#su">o</hi></abbr>
+                        <expan>Numéro</expan>
+                     </choice> 4</hi></title></p>
+            <p>Dimanche <date when="1820-11-19">19 Novembre 1820</date></p>
+            <p><choice>
+                  <abbr>M<hi rendition="#su">rs</hi></abbr>
+                  <expan>Monsieurs</expan>
+               </choice> les <rs ref="#p.8 #p.40 #p.11 #p.12 #p.136 #p.13 #p.14 #p.121">Ministres
+                  des Cabinets d’Autriche, de Prusse et de Russie</rs> ayant annoncé dans la <ref
+                  target="Troppau_Prot_3.xml">conférence du <date when="1820-11-07">7 de ce
+                     mois</date></ref>,</p>
+            <p>Que devant d’abord s’entendre complètement entr’eux sur les bases à établir pour
+               continuer avec succès les présentes délibérations, ils ont cru ne pouvoir mieux
+               atteindre ce but qu’en se communiquant confidentiellement les observations et
+               éclaircissemens réciproques, sauf à offrir à la conférence les résultats de ces
+               communications,</p>
+            <p>Ont procédé dans la conférence de ce jour à donner part des résultats que lesdites
+               communications entre les trois cabinets ont amenés depuis le <date when="1820-11-07"
+                  >7 Novembre</date>.</p>
+            <p>Ces résultats se trouvent consignés dans les pièces suivantes :</p>
+            <p>1<hi rendition="#su">o</hi>
+               <rs xml:id="n.1">Un Protocole préliminaire, arrêté entre les Cours d’Autriche, de
+                  Prusse et de Russie</rs><note type="editorial" target="#n.1">Vgl. Anlage
+               1.</note> ;</p>
+            <p>2<hi rendition="#su">o</hi>
+               <rs xml:id="n.2">Un supplément relatif à l’application des principes<pb n="63v"/>
+                  énoncés dans le Protocole préliminaire à la question de
+                  <country>Naples</country></rs><note type="editorial" target="#n.2">Vgl. Anlage
+                  2.</note> ;</p>
+            <p>3<hi rendition="#su">o</hi> Un projet de lettre à adresser par les <rs
+                  ref="#p.16 #p.18 #p.17">trois Augustes Monarques</rs> à <choice>
+                  <abbr>S. M.</abbr>
+                  <expan>Sa Majesté</expan>
+               </choice> le <rs ref="#p.138">Roi des Deux-Siciles</rs> ;</p>
+            <p>4<hi rendition="#su">o</hi> Un projet d’instruction pour les <rs xml:id="n.3"
+                  ref="#p.144 #p.148 #p.149">Ministres des trois Cours résidant à <placeName
+                     ref="#loc.11">Naples</placeName></rs>.<note type="editorial" target="#n.3">Vgl.
+                  Anlage 4.</note></p>
+            <p>Après la lecture de ces pièces, ci-jointes sub <choice>
+                  <abbr>Litt<hi rendition="#su">is</hi></abbr>
+                  <expan>Litteris</expan>
+               </choice> A, B, C et D, <choice>
+                  <abbr>M<hi rendition="#su">r</hi></abbr>
+                  <expan>Monsieur</expan>
+               </choice> le <persName ref="#p.8"><roleName>Prince</roleName>
+                  <surname>de Metternich</surname></persName> a déclaré en son nom et au nom de <choice>
+                  <abbr>M<hi rendition="#su">rs</hi></abbr>
+                  <expan>Monsieurs</expan>
+               </choice> les <rs ref="#p11 #p.12 #p.136 #p.13 #p.14 #p.121">Ministres de Prusse et
+                  de Russie</rs> :</p>
+            <p>Qu’en conséquence des explications précédentes, les réunions confidentielles entre
+               les trois Cabinets ne peuvent point être considérées comme des Conférences ;</p>
+            <p>Que l’avantage dont jouissent <choice>
+                  <abbr>M<hi rendition="#su">rs</hi></abbr>
+                  <expan>Monsieurs</expan>
+               </choice> les <rs ref="#p.8 #p.40 #p.11 #p.12 #p.136 #p.13 #p.14 #p.121">Ministres de
+                  ces trois Cabinets</rs> par la présence de <rs ref="#p.16 #p.18 #p.17">leurs
+                  Augustes Souverains</rs>, et par la faculté d’en recevoir des instructions
+               fréquentes et précises, leur impose le devoir d’avancer de leur part autant que
+               possible l’accord des Cabinets sur les importantes questions qui les occupent ;</p>
+            <p>Que tout en remplissant ce<pb n="78r"/> devoir, ils ont constamment annoncé
+               l’intention de communiquer à <choice>
+                  <abbr>M<hi rendition="#su">rs</hi></abbr>
+                  <expan>Monsieurs</expan>
+               </choice> les <rs ref="#p.102 #p.135 #p.137">Ambassadeurs de France et de la
+                  Grande-Bretagne</rs> pour l’information complète de leurs Cours les résultats de
+               leur travail commun, aussitôt que, moyennant une rédaction régulière, ce travail
+               seroit susceptible d’être présenté ;</p>
+            <p>Qu’ils ont observé cette marche dans les communications nombreuses, consignées au
+               journal de la dernière conférence ; et</p>
+            <p>Qu’ils offrent aujourd’hui les pièces rédigées à la suite de ces premières
+               communications ; pièces que <choice>
+                  <abbr>M<hi rendition="#su">rs</hi></abbr>
+                  <expan>Monsieurs</expan>
+               </choice> les Ministres ne peuvent regarder que comme le développement des mémoires
+               donnés par Eux aux actes des <ref target="Troppau_Prot_1.xml">Conférences du <date
+                     when="1820-10-23">23</date></ref> et <ref target="Troppau_Prot_2.xml"><date
+                     when="1820-10-29">29 Octobre</date></ref> et <ref target="Troppau_Prot_3.xml"
+                     ><date when="1820-11-07">7 Novembre</date></ref>.</p>
+            <p rendition="#r"><add hand="#G">Lu et Certifié</add></p>
+            <p rendition="#r"><add hand="#G">à la conférence du <date when="1820-11-20">20
+                     Novembre</date>.</add></p>
+            <signed rendition="#r"><persName ref="#p.5"><surname>Gentz</surname></persName></signed>
+         </div>
+
+         <div hand="#A" decls="#m.2">
+            <pb n="65r"/>
+            <p><add place="top"><choice>
+                     <abbr>Litt.</abbr>
+                     <expan>Littera</expan>
+                  </choice> A.</add></p>
+            <p><title><hi rendition="#u">Protocole préliminaire</hi></title></p>
+            <p>Les Cabinets alliés, s’étant réunis à <placeName ref="#loc.60">Troppau</placeName> à
+               l’effet de prendre en mûre considération les dangers auxquels l’Europe se trouve
+               exposée par suite des révolutions qu’un coupable oubli de tous les devoirs a fait
+               éclater <rs xml:id="n.4">dans plusieurs Etats</rs><note type="editorial"
+                  target="#n.4">Spanien, Königreich beider Sizilien, Portugal.</note> ;</p>
+            <p>Voulant recourir dans des circonstances aussi graves à une application légitime &amp;
+               salutaire des principes sur lesquels se fonde leur alliance ;</p>
+            <p>Voulant ainsi maintenir les droits consacrés par les Traités, &amp; préserver leurs
+               peuples &amp; l’Europe de la contagion du crime &amp; de ses déplorables effets ;</p>
+            <p>Désirant enfin assurer le développement heureux &amp; paisible de la civilisation, le
+               règne de la justice &amp; des lois sous les auspices de la morale Chrétienne, de
+               l’ordre &amp; d’une sollicitude éclairée, les dits Cabinets,<pb n="65v"/> après avoir
+               consigné leur pensée sur les questions relatives à ces grands intérêts dans les
+               mémoires donnés aux actes de leurs <ref target="Troppau_Prot_2.xml">conférences du
+                     <date when="1820-10-29">29 <choice>
+                        <abbr>8<hi rendition="#su">bre</hi></abbr>
+                        <expan>Octobre</expan>
+                     </choice></date></ref> &amp; <ref target="Troppau_Prot_3.xml">du <date
+                     when="1820-11-07">7 Novembre</date></ref>, sont convenus d’un commun accord de
+               stipuler par le présent Protocole préliminaire les bases de l’acte, en vertu duquel
+               ils se reconnoitront le droit &amp; l’obligation d’arrêter <choice>
+                  <abbr>définitivem<hi rendition="#su">t</hi></abbr>
+                  <expan>définitivement</expan>
+               </choice> les mesures qu’il est en leur pouvoir de prendre, afin de prévenir les
+               progrès du mal dont le corps social est menacé, &amp; d’y apporter remède là où il
+               exerce déjà ses ravages, &amp; où les Puissances alliées peuvent l’atteindre.</p>
+            <p>En conséquence, les <rs ref="#p.8 #p.40 #p.11 #p.12 #p.136 #p.13 #p.14 #p.121"><choice>
+                     <abbr>P.P.</abbr>
+                     <expan>Plénipotentiaires</expan>
+                  </choice> d’Autriche, de Prusse &amp; de Russie</rs>, vu la présence de <rs
+                  ref="#p.16 #p.18 #p.17">leurs Souverains respectifs</rs>, ont signé les points
+               suivans :</p>
+            <p><hi rendition="#u">Principes</hi></p>
+            <p><hi rendition="#u">1</hi><hi rendition="#su #u">o</hi></p>
+            <p>Les Etats faisant partie<pb n="66r"/> de l’alliance Européenne, qui auront subi dans
+               la forme de leur régime intérieur une altération opérée par la révolte, &amp; dont
+               les suites sont menaçantes pour d’autres Etats, cessent par là même de faire partie
+               de la dite Alliance, &amp; en resteront exclus, jusqu’à ce que leur situation
+               présente des garanties d’ordre légitime &amp; de stabilité.</p>
+            <p><hi rendition="#u">2</hi><hi rendition="#su #u">o</hi></p>
+            <p>Les Puissances alliées ne se borneront pas à déclarer cette exclusion, mais fidèles
+               aux principes qu’elles ont proclamés &amp; au respect dû à l’autorité de chaque
+               Gouvernement légitime, ainsi qu’à tout acte qui émane de sa volonté libre, Elles
+               s’engageront à refuser leur reconnoissance aux changemens consommés par des voies
+               illégales.</p>
+            <p><hi rendition="#u">3</hi><hi rendition="#su #u">o</hi></p>
+            <p>Lorsque les Etats où de pareils changemens se seront ainsi effectués feront<pb
+                  n="66v"/> craindre à d’autres pays un danger imminent par leur proximité, &amp;
+               lorsque les Puissances alliées pourront exercer à leur égard une action efficace
+               &amp; bienfaisante, elles employeront, pour les ramener au sein de l’alliance,
+               premièrement des démarches amicales, en second lieu une force coercitive si l’emploi
+               de cette force devenoit indispensable.</p>
+            <p><hi rendition="#u">Application</hi></p>
+            <p><hi rendition="#u">4</hi><hi rendition="#su #u">o</hi></p>
+            <p>Le <country>Royaume des deux-Siciles</country> venant de subir une des altérations
+               ci-dessus caractérisées, et l’adoption des mesures indiquées au paragraphe précédent
+               étant à la fois impérieusement nécessaire &amp; possible envers le dit Royaume, les
+               Puissances alliées statuent que ces mesures seront mises à exécution avec l’intention
+               invariable :</p>
+            <p>De respecter l’existence politique &amp; l’intégrité du dit Royaume ;</p>
+            <pb n="67r"/>
+            <p>&amp; dans le but unique :</p>
+            <p>De rendre la liberté au <rs ref="#p.138">Roi</rs> &amp; à la nation ;</p>
+            <p>De mettre le pouvoir Royal à même de fonder dans le <country>Royaume des
+                  deux-Siciles</country> un ordre de choses qui puisse se maintenir sur ses propres
+               bases &amp; sans l’appui d’une force étrangère ;</p>
+            <p>De se garantir de toute nouvelle secousse révolutionnaire &amp; d’assurer à la nation
+               sa tranquillité &amp; son bonheur.</p>
+            <p><hi rendition="#u">5</hi><hi rendition="#su #u">o</hi></p>
+            <p>Soit que les Puissances alliées parviennent au but ci-dessus signalé par des
+               démarches amicales, soit qu’Elles se trouvent obligées de l’atteindre par l’emploi de
+               la force militaire, il est convenu que le fruit de leurs efforts communs pourra être
+               garanti au <country>Royaume des deux-Siciles</country> &amp; à l’Europe par la
+               présence temporaire dans les Etats napolitains<pb n="67v"/> d’une armée
+               d’occupation.</p>
+            <p>Dans le cas d’un arrangement amical ce gage de sûreté seroit accordé au <rs
+                  ref="#p.138">Roi</rs> s’il le réclamoit de la part des Puissances.</p>
+            <p>En tout état de cause, l’occupation militaire seroit effectuée par l’armée
+               Autrichienne au nom des Puissances contractantes &amp; accédantes au présent
+               acte.</p>
+            <p><hi rendition="#u">6</hi><hi rendition="#su #u">o</hi></p>
+            <p><rs xml:id="n.5">Pour exécuter l’ensemble de ces dispositions, les Puissances alliées
+                  nommeront des Plénipotentiaires spéciaux, lesquels seront munis d’instructions
+                  communes &amp; composeront, sous la présidence d’un Plénipotentiaire Autrichien,
+                  une conférence chargée de toutes les négociations &amp; transactions qui pourront
+                  avoir lieu entre les dites Puissances &amp; <rs ref="#p.138"><choice>
+                        <abbr>S. M.</abbr>
+                        <expan>Sa Majesté</expan>
+                     </choice> Sicilienne</rs></rs>.<note type="editorial" target="#n.5">Die
+                  Protokolle dieser Kommission liegen im ÖStA, HHStA, St.K., Kongressakten, Kart.
+                  23.</note></p>
+            <p><hi rendition="#u">7</hi><hi rendition="#su #u">o</hi></p>
+            <p>Ce sera sur ces bases que se poursuivront les travaux de la réunion de <placeName
+                  ref="#loc.60">Troppau</placeName>,<pb n="68r"/> jusqu’à ce que les Cabinets
+               connoissent d’une part les résultats des démarches qui seront faites auprès de <rs
+                  ref="#p.138"><choice>
+                     <abbr>S. M.</abbr>
+                     <expan>Sa Majesté</expan>
+                  </choice> Sicilienne</rs>, &amp; que de l’autre ils recoivent les réponses par
+               lesquelles les Cabinets des Tuileries &amp; de St. James manifesteront leurs
+               déterminations à l’égard du présent Protocole préliminaire.</p>
+            <p>Il sera en conséquence communiqué à ces Cabinets avec tous les développemens &amp;
+               toutes les explications convenables.</p>
+            <p>Fait et signé à <placeName ref="#loc.60">Troppau</placeName> le <date
+                  when="1820-11-19">19 <choice>
+                     <abbr>Nov.</abbr>
+                     <expan>Novembre</expan>
+                  </choice> 1820</date></p>
+            <p>signé: <rs xml:id="n.6"><persName ref="#p.8"
+                  ><surname>Metternich</surname></persName></rs></p>
+            <p><rs xml:id="n.7"><persName ref="#p.11"
+               ><surname>Hardenberg</surname></persName></rs></p>
+            <p><rs xml:id="n.8"><persName ref="#p.12"
+               ><surname>Bernstorff</surname></persName></rs></p>
+            <p><rs xml:id="n.9"><persName ref="#p.13"
+               ><surname>Nesselrode</surname></persName></rs></p>
+            <p><rs xml:id="n.10"><persName ref="#p.14"
+                  ><surname>Capodistrias</surname></persName></rs><note type="editorial"
+                  target="#n.6 #n.7 #n.8 #n.9 #n.10">Unterschriften abschriftlich
+                  überliefert.</note>
+            </p>
+         </div>
+
+         <div hand="#A" decls="#m.3">
+            <pb n="69r"/>
+            <p><add place="top"><choice>
+                     <abbr>Litt.</abbr>
+                     <expan>Littera</expan>
+                  </choice> B.</add></p>
+            <p><title>Supplément au Protocole du <date when="1820-11-19">19 <choice>
+                        <abbr>Nov.</abbr>
+                        <expan>Novembre</expan>
+                     </choice> 1820</date></title></p>
+            <p>Conformément aux principes établis dans le <rs xml:id="n.11">Protocole préliminaire
+                  de ce jour</rs><note type="editorial" target="#n.11">Vgl. Anlage 2.</note>, &amp;
+               afin de donner suite à l’application de ces principes aux affaires de
+                  <country>Naples</country>, les Cabinets ayant signé le dit Protocole sont
+               convenus :</p>
+            <p>1<hi rendition="#su">o</hi> D’adresser à <rs ref="#p.138"><choice>
+                     <abbr>S. M.</abbr>
+                     <expan>Sa Majesté</expan>
+                  </choice> Sicilienne</rs>
+               <rs xml:id="n.12">la lettre d’invitation jointe au présent Protocole</rs><note
+                  type="editorial" target="#n.12">Vgl. Anlage 3.</note> ;</p>
+            <p>2<hi rendition="#su">o</hi> De l’accompagner <rs xml:id="n.13"
+                  ref="#p.144 #p.148 #p.149">de l’instruction également ci-jointe, adressée aux
+                  Ministres des Cours d’Autriche, de Prusse &amp; de Russie résidant à <placeName
+                     ref="#loc.11">Naples</placeName></rs>.<note type="editorial" target="#n.13"
+                  >Vgl. Anlage 4.</note></p>
+            <p>En se décidant à cette démarche les Cabinets ont eu en vue :</p>
+            <p>1<hi rendition="#su">o</hi> De ne négliger aucun des moyens qui sont en leur pouvoir
+               pour mettre <rs ref="#p.138"><choice>
+                     <abbr>S. M.</abbr>
+                     <expan>Sa Majesté</expan>
+                  </choice> Sicilienne</rs> en pleine &amp; entière liberté ;</p>
+            <pb n="69v"/>
+            <p>2<hi rendition="#su">o</hi> D’offrir à la nation dans la personne auguste de son
+               Monarque légitime le médiateur qui seul,<rs xml:id="n.14"> après les déplorables
+                  conséquences des événemens du <date when="1820-07-02">2 Juillet</date></rs>,<note
+                  type="editorial" target="#n.14">Am 2. Juli 1820 meuterte die Militärgarnison in
+                  Nola, 35 km von <placeName ref="#loc.11">Neapel</placeName> entfernt. Das Datum
+                  gilt als Beginn der Revolution im <country>Königreich beider Sizilien</country>.
+                  Vgl. Stites, The four Horsemen; Davis, Naples and Napoleon; Gin, Sanfedisti,
+                  Carbonari, Magistrati del Re; Späth, Revolution in Europa, S. 129–149.</note> peut
+               concilier le rétablissement de l’ordre dans le <country>Royaume des
+                  deux-Siciles</country> avec la tranquillité du reste de l’Italie &amp; de
+               l’Europe.</p>
+            <p>C’est d’après les résultats de cette démarche que les Puissances se réservent de
+               convenir définitivement des mesures à adopter pour l’exécution du plan dont les bases
+               sont consignées <rs xml:id="n.15">dans le Protocole préliminaire</rs>.<note
+                  type="editorial" target="#n.15">Vgl. Anlage 1.</note></p>
+            <p><choice>
+                  <abbr>M.M.</abbr>
+                  <expan>Messieurs</expan>
+               </choice> les <rs ref="#p.102 #p.135 #p.137">Ministres de France &amp; de <choice>
+                     <abbr>G<hi rendition="#su">de</hi></abbr>
+                     <expan>Grande</expan>
+                  </choice>-Bretagne</rs> seront invités à soumettre à leurs Gouvernemens le contenu
+               du présent Protocole &amp; le vœu des Cours d’Autriche, de Prusse &amp; de Russie
+               pour que celles de France &amp; de <choice>
+                  <abbr>G<hi rendition="#su">de</hi></abbr>
+                  <expan>Grande</expan>
+               </choice>-Bretagne<pb n="70r"/> se joignent à elles par des démarches amicales
+               adressées dans le même sens à <rs ref="#p.138"><choice>
+                     <abbr>S. M.</abbr>
+                     <expan>Sa Majesté</expan>
+                  </choice> Sicilienne</rs>.</p>
+            <p>On est convenu en outre d’informer de la présente démarche les Cours de <placeName
+                  ref="#loc.6">Rome</placeName>, de <placeName ref="loc.64">Turin</placeName>, de
+                  <country>Toscane</country>, comme étant particulièrement intéressées au
+               développement des affaires de <country>Naples</country>.</p>
+            <p>Fait et signé à <placeName ref="#loc.60">Troppau</placeName> le <date
+                  when="1820-11-19">19 <choice>
+                     <abbr>Nov.</abbr>
+                     <expan>Novembre</expan>
+                  </choice> 1820</date></p>
+            <p>signé: <rs xml:id="n.16"><persName ref="#p.8"
+                     ><surname>Metternich</surname></persName></rs></p>
+            <p><rs xml:id="n.17"><persName ref="#p.11"
+               ><surname>Hardenberg</surname></persName></rs></p>
+            <p><rs xml:id="n.18"><persName ref="#p.12"
+               ><surname>Bernstorff</surname></persName></rs></p>
+            <p><rs xml:id="n.19"><persName ref="#p.13"
+               ><surname>Nesselrode</surname></persName></rs></p>
+            <p><rs xml:id="n.20"><persName ref="#p.14"
+                  ><surname>Capodistrias</surname></persName></rs><note type="editorial"
+                  target="#n.16 #n.17 #n.18 #n.19 #n.20">Unterschriften abschriftlich
+                  überliefert.</note></p>
+         </div>
+
+         <div hand="#A" decls="#m.4">
+            <pb n="71r"/>
+            <p><add place="top"><choice>
+                     <abbr>Litt.</abbr>
+                     <expan>Littera</expan>
+                  </choice> C.</add></p>
+            <p><title>Projet de lettre de Cabinet au <rs ref="#p.138">Roi des
+                  deux-Siciles</rs></title></p>
+            <p><placeName ref="#loc.60">Troppau</placeName> le <date when="1820-11-20">20 <choice>
+                     <abbr>Nov.</abbr>
+                     <expan>Novembre</expan>
+                  </choice> 1820</date>.</p>
+            <p><rs ref="#p.138">Monsieur mon Frère.</rs></p>
+            <p>De tristes circonstances ne m’ont pas permis de recevoir les lettres que <rs
+                  ref="#p.138"><choice>
+                     <abbr>V. M.</abbr>
+                     <expan>Votre Majesté</expan>
+                  </choice></rs> m’a adressées depuis quatre mois. Mais les événemens auxquels ces
+               lettres ont dû se rapporter n’ont cessé de faire le sujet de mes plus sérieuses
+               méditations ; &amp; les Puissances alliées se sont réunies à <placeName ref="#loc.60"
+                  >Troppau</placeName> pour considérer ensemble les suites dont ces événemens
+               menacent le reste de la Péninsule Italienne &amp; peut-être l’Europe toute entière.
+               En nous décidant à cette délibération commune, nous n’avons fait que nous conformer
+               aux <rs ref="#t.37 #t.13 #t.1 #t.6 #t.9 #t.42">transactions de 1814, 1815 et
+                  1818</rs>, transactions dont <rs ref="#p.138"><choice>
+                     <abbr>V. M.</abbr>
+                     <expan>Votre Majesté</expan>
+                  </choice></rs>, ainsi que l’Europe, connoit le caractère &amp; le but, &amp; sur
+               lesquelles repose cette alliance tutélaire,<pb n="71v"/> uniquement destinée à
+               garantir de toute atteinte l’indépendance politique &amp; l’intégrité territoriale de
+               tous les Etats, &amp; à assurer le repos &amp; la prospérité de l’Europe par le repos
+               &amp; la prospérité de chacun des pays dont Elle se compose. <rs ref="#p.138"><choice>
+                     <abbr>V. M.</abbr>
+                     <expan>Votre Majesté</expan>
+                  </choice></rs> ne doutera donc pas que l’intention des Cabinets assemblés ici ne
+               soit de concilier l’intérêt &amp; le bien-être, dont la sollicitude paternelle de <rs
+                  ref="#p.138"><choice>
+                     <abbr>V. M.</abbr>
+                     <expan>Votre Majesté</expan>
+                  </choice></rs> doit désirer faire jouir Ses peuples, avec les devoirs que <rs
+                  ref="#p.16 #p.18 #p.17">les Monarques alliés</rs> ont à remplir envers leurs Etats
+               &amp; envers le monde. Mais nous nous féliciterions, mes Alliés &amp; moi, d’exécuter
+               ces engagemens solennels avec la coopération de <rs ref="#p.138"><choice>
+                     <abbr>V. M.</abbr>
+                     <expan>Votre Majesté</expan>
+                  </choice></rs>, &amp; fidèles aux principes que nous avons proclamés, nous
+               demandons aujourd’hui cette coopération. C’est dans ce seul but que nous proposons à
+                  <rs ref="#p.138"><choice>
+                     <abbr>V. M.</abbr>
+                     <expan>Votre Majesté</expan>
+                  </choice></rs> de se<pb n="72r"/> réunir à nous dans la Ville de <placeName
+                  ref="#loc.65">Laybach</placeName>. Votre présence, <rs ref="#p.138">Sire</rs>,
+               hâtera, nous en sommes sûrs, une conciliation aussi indispensable, &amp; c’est au nom
+               des intérêts les plus chers de Votre Royaume, &amp; avec cette bienveillante
+               sollicitude dont nous croyons avoir donné plus d’un témoignage à <rs ref="#p.138"><choice>
+                     <abbr>V. M.</abbr>
+                     <expan>Votre Majesté</expan>
+                  </choice></rs>, que nous l’invitons à venir recevoir de nouvelles preuves de la
+               véritable amitié que nous Lui portons &amp; de la franchise qui fait la base de notre
+               politique.</p>
+            <p><choice>
+                  <abbr>Etc.</abbr>
+                  <expan>Et cetera</expan>
+               </choice>
+               <choice>
+                  <abbr>etc.</abbr>
+                  <expan>et cetera</expan>
+               </choice>
+               <choice>
+                  <abbr>etc.</abbr>
+                  <expan>et cetera</expan>
+               </choice></p>
+         </div>
+
+         <div hand="#A" decls="#m.5">
+            <pb n="73r"/>
+            <p><add place="top"><choice>
+                     <abbr>Litt.</abbr>
+                     <expan>Littera</expan>
+                  </choice> D.</add></p>
+            <p><ref target="Laibach_Prot_9.xml">Instruction pour les <rs ref="#p.149 #p.148 #p.144"
+                     >Envoyés de Russie &amp; de Prusse et le Chargé d’affaires d’Autriche à <hi
+                        rendition="#u"><placeName ref="#loc.11"
+               >Naples</placeName></hi></rs></ref></p>
+            <p><placeName ref="#loc.60">Troppau</placeName> le <date when="1820-11-22">22 <choice>
+                     <abbr>Nov.</abbr>
+                     <expan>Novembre</expan>
+                  </choice> 1820</date>.</p>
+            <p>Vous recevez ci-joint <rs xml:id="n.21">une lettre authographe</rs>,<note
+                  type="editorial" target="#n.21">Vgl. Anlage 3.</note> adressée par <rs ref="#p.16"><choice>
+                     <abbr>S. M.</abbr>
+                     <expan>Sa Majesté</expan>
+                  </choice> l’Empereur</rs> à <rs ref="#p.138"><choice>
+                     <abbr>S. M.</abbr>
+                     <expan>Sa Majesté</expan>
+                  </choice> Sicilienne</rs>, et copie de cette lettre pour Votre information
+               particulière.</p>
+            <p><choice>
+                  <abbr>L.L. M.M.</abbr>
+                  <expan>Leurs Majestés</expan>
+               </choice> l’<rs ref="#p.17">Empereur de Russie</rs> &amp; le <rs ref="#p.18">Roi de
+                  Prusse</rs> adressent au <rs ref="#p.138">Roi de Naples</rs> des lettres
+               textuellement conformes à celle de <rs ref="#p.16"><choice>
+                     <abbr>S. M.</abbr>
+                     <expan>Sa Majesté</expan>
+                  </choice> l’Empereur</rs>, notre auguste Maître, &amp; les trois Cours viennent
+               d’inviter celles de France &amp; de Grande-Bretagne à se réunir à Elles pour des
+               démarches à faire dans le même sens.</p>
+            <p>Vous Vous concerterez avec <choice>
+                  <abbr>M.M.</abbr>
+                  <expan>Messieurs</expan>
+               </choice>
+               <rs ref="#p.149 #p.148">les Envoyés de Russie &amp; de Prusse</rs> sur la marche à
+               suivre pour obtenir des audiences particulières du <rs ref="#p.138">Roi</rs>, &amp;
+               pour remettre à <rs ref="#p.138"><choice>
+                     <abbr>S. M.</abbr>
+                     <expan>Sa Majesté</expan>
+                  </choice></rs> les lettres des <rs ref="#p.16 #p.17 #p.18">Monarques</rs>.</p>
+            <pb n="73v"/>
+            <p>Décidées à ne jamais reconnoître l’édifice monstrueux que la révolte a élevé à
+                  <country>Naples</country> sur les ruines du pouvoir légitime, <rs
+                  ref="#p.16 #p.17 #p.18"><choice>
+                     <abbr>L.L. M.M.</abbr>
+                     <expan>Leurs Majestés</expan>
+                  </choice></rs> ne sont animées que d’intentions parfaitement conformes au
+               bien-être véritable du <country>Royaume des deux-Siciles</country>, à la garantie du
+               repos des Etats voisins, ainsi qu’au maintien de la tranquillité générale &amp; des
+               principes sur lesquels seuls elle peut être fondée.</p>
+            <p>Les factions qui exercent le pouvoir au nom du <rs ref="#p.138">Roi</rs> assurent
+               qu’Il est libre. Ce prétendu fait va être éclairci.</p>
+            <p>Le <rs ref="#p.138">Roi</rs> libre a le devoir de concilier les intérêts de Son
+               Royaume avec ceux de l’ordre social tout entier. Il doit désirer d’arriver par les
+               moyens les plus prompts &amp; les plus efficaces à un résultat également réclamé par
+               les intérêts<pb n="74r"/> essentiels de Son Royaume, par les vœux sincères des <rs
+                  ref="#p.16 #p.17 #p.18">Monarques alliés</rs>, &amp; certes non moins par la
+               partie saine de la nation napolitaine.</p>
+            <p>Ces moyens sont mis à la portée du <rs ref="#p.138">Roi</rs> par l’invitation qui Lui
+               est adressée aujourd’hui. Vous êtes autorisé à prévenir <rs ref="#p.138"><choice>
+                     <abbr>S. M.</abbr>
+                     <expan>Sa Majesté</expan>
+                  </choice></rs> que <rs ref="#p.16 #p.17 #p.18">les Monarques</rs> vont se rendre à
+                  <placeName ref="#loc.65">Laybach</placeName> pour l’y attendre.</p>
+            <p>En Vous acquittant de ces ordres, Vous aurez soin de prévenir <choice>
+                  <abbr>S. M.</abbr>
+                  <expan>Sa Majesté</expan>
+               </choice>
+               <rs ref="#p.138">le Roi</rs> que <rs ref="#p.16 #p.17 #p.18"><choice>
+                     <abbr>L.L. M.M. I.I. &amp; R.R.</abbr>
+                     <expan>Leurs Majestés Impériales et Royales</expan>
+                  </choice></rs> s’attendent à une réponse prompte &amp; positive, &amp; que le
+               choix des individus qui doivent accompagner <rs ref="#p.138"><choice>
+                     <abbr>S. M.</abbr>
+                     <expan>Sa Majesté</expan>
+                  </choice></rs> ne peut dépendre que d’Elle-même.</p>
+            <p>Mais l’invitation étant absolument personnelle, Vous n’admettrez point qu’un
+               représentant quelconque, fût-il même un Prince de Sa Maison, puisse être<pb n="74v"/>
+               envoyé au nom du <rs ref="#p.138">Roi</rs>, &amp; dans le cas qu’une pareille
+               proposition soit faite, Vous êtes chargé de déclarer que Vous avez l’ordre précis de
+               ne délivrer à cet effet aucun Passeport pour les Etats de <choice>
+                  <abbr>S. M. I. &amp; R. A.</abbr>
+                  <expan>Sa Majesté Impériale et Royale Apostolique.</expan>
+               </choice></p>
+            <p>Dans le cas que <choice>
+                  <abbr>S. M.</abbr>
+                  <expan>Sa Majesté</expan>
+               </choice>
+               <rs ref="#p.138">le Roi</rs> Vous témoignât le désir d’être mis en possession du
+               contenu de Vos instructions, Vous êtes autorisé à les Lui confier.</p>
+            <p>La présente communication étant adressée directement à la personne du <rs
+                  ref="#p.138">Roi</rs>, il est entendu que pour Vous en acquitter, Vous n’entriez
+               dans aucune explication officielle avec <rs ref="#p.145">Son Ministre</rs>.</p>
+            <p>Vous donnerez communication de cette dépêche aux Missions de France &amp; de <choice>
+                  <abbr>G<hi rendition="#su">de</hi></abbr>
+                  <expan>Grande</expan>
+               </choice>-Bretagne.</p>
+            <p>Vous nous ferez connoître dans le plus bref délai possible, en même temps &amp; par
+               la même occasion<pb n="75r"/> que <choice>
+                  <abbr>M.M.</abbr>
+                  <expan>Messieurs</expan>
+               </choice> les <rs ref="#p.149 #p.148">Ministres de Russie &amp; de Prusse</rs>, le
+               résultat de l’exécution de ces ordres uniformément adressés à ces Ministres par leurs
+               Cabinets respectifs. Il seroit superflu de Vous recommander de ne Vous écarter en
+               aucune manière de la marche qui Vous est prescrite par la présente instruction.</p>
+         </div>
+      </body>
+      <back>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listPlace.xml" xpointer="listPlace"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listPerson.xml"
+            xpointer="listPerson"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listWit.xml" xpointer="listWit"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listOrg.xml" xpointer="listOrg"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listTreaties.xml"
+            xpointer="listTreaties"/>
+      </back>
+   </text>
+</TEI>

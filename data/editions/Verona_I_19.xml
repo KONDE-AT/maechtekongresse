@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">I. Affaires d'Espagne</title>
+            <title type="main">Note des Fürsten Metternich an den Geschäftsträger in Madrid </title>
+            <title type="sub">Digitale Edition</title>
+            <editor>
+               <persName>
+                  <surname>Schneider</surname>
+                  <forename>Karin</forename>
+               </persName></editor>
+         </titleStmt>
+         <editionStmt>
+            <edition><date>2017-03-13</date></edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Österreichische Akademie der Wissenschaften, Institut für Neuzeit- und
+               Zeitgeschichtsforschung</publisher>
+            <pubPlace>Wien</pubPlace>
+            <idno>V_I_19</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="m.1" type="Lithographie">
+               <msIdentifier>
+                  <settlement>Wien</settlement>
+                  <institution>ÖStA</institution>
+                  <collection>HHStA, Staatskanzlei, Kongressakten</collection>
+                  <idno>
+                     <idno type="Karton">Kart. 23</idno>
+                     <idno type="Faszikel"> Fasz. 43 (alt)</idno>
+                     <idno type="Folia">238-240</idno>
+                  </idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <title>Note des Fürsten Metternich an den Geschäftsträger in <placeName
+                           ref="#loc.24">Madrid</placeName>
+                     </title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <p>Lithographie</p>
+
+
+                  <handDesc>
+                     <handNote xml:id="A">Anonyme Hand</handNote>
+                     <handNote xml:id="A1">Weitere anonyme Hand</handNote>
+                     <handNote xml:id="G">Friedrich Gentz</handNote>
+                     <handNote xml:id="W">Nikolaus Wacken</handNote>
+                     <handNote xml:id="AmB">Anonyme Hand mit Bleistift</handNote>
+                     <handNote xml:id="AmR">Anonyme Hand mit Rotstift</handNote>
+                     <handNote xml:id="M">Metternich</handNote>
+                  </handDesc>
+
+               </physDesc>
+               <history>
+                  <origin><placeName ref="#loc.68">Verona</placeName><date when="1822-12-14">14.
+                        Dezember 1822</date></origin>
+               </history>
+            </msDesc>
+            <listWit corresp="#m.1">
+               <head>Note des Fürsten Metternich an den Geschäftsträger in Madrid </head>
+               <witness corresp="#w.26"><bibl type="print">Archive diplomatique/Diplomatisches
+                     Archiv, Bd. 3, S. 441–445;</bibl></witness>
+               <witness corresp="#w.5"><bibl type="print">BFSP Bd. 10 (1822/23), S. 917–920 (Note
+                     hier datiert auf <date when="1822-12-02">2. Dezember
+                  1822</date>);</bibl></witness>
+               <witness corresp="#w.25"><bibl type="print">Ghillany, Diplomatisches Handbuch, Bd. 2,
+                     S. 450–453;</bibl></witness>
+               <witness corresp="#w.31"><bibl type="print">Martens, Guide diplomatique, Bd. 2, S.
+                     424–428;</bibl></witness>
+               <witness corresp="#w.14"><bibl type="print">Martens, Nouveau recueil, Bd. 6, S.
+                     190–195.</bibl></witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <appInfo>
+            <application xml:id="docxtotei" ident="TEI_fromDOCX" version="2.15.0">
+               <label>DOCX to TEI</label>
+            </application>
+         </appInfo>
+         <styleDefDecl scheme="css"/>
+         <tagsDecl>
+            <rendition xml:id="su">superscript</rendition>
+            <rendition xml:id="s">strikethrough</rendition>
+            <rendition xml:id="u">underline</rendition>
+            <rendition xml:id="ow">overwritten</rendition>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <abstract>
+            <p>Die österreichische Regierung übermittelt ihrem <rs ref="#p.177">Geschäftsträger in
+                     <placeName ref="#loc.24">Madrid</placeName></rs> ihre Sichtweise der Revolution
+               in <country>Spanien</country> und erklärt, dem Ende der politischen Isolation des
+               Landes nur dann zuzustimmen, wenn der <rs ref="#p.30">König</rs> wieder volle
+               Entscheidungsfreiheit erhalte.</p>
+         </abstract>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div decls="#m.1">
+            <pb n="238r"/>
+            <p><add hand="#M" place="top"><choice>
+                     <abbr>Cab.</abbr>
+                     <expan>Cabinet</expan>
+                  </choice> Autrichien</add></p>
+            <p><add place="top" hand="#M">Projet de dépêche ostensible au <persName ref="#p.177"
+                        ><roleName>Comte</roleName>
+                     <surname>de Brunetti</surname></persName></add>
+            </p>
+            <p>La situation dans laquelle se trouve la Monarchie Espagnole <rs xml:id="n.1">à la
+                  suite des évènemens qui s’y sont passés depuis deux ans</rs><note type="editorial"
+                  target="#n.1">Zur Revolution in <country>Spanien</country>, die mit einem
+                  Militäraufstand am <date when="1820-01-01">1. Jänner 1820</date> ihren Anfang
+                  nahm, vgl. Späth, Revolution in Europa, S. 117–128. </note> était un objet de trop
+               haute importance pour ne pas avoir sérieusement occupé les Cabinets réunis à
+                  <placeName ref="#loc.68">Vérone</placeName>. L’<rs ref="#p.16">Empereur</rs>,
+               notre Auguste Maître, a voulu que Vous fussiez informé de Sa manière d’envisager
+               cette grave question ; et c’est pour cet effet que je Vous adresse la présente
+               dépêche.</p>
+            <p>La révolution d’Espagne a été jugée pour nous dès son origine. Selon les décrets
+               éternels de la Providence, le bien ne peut pas plus naître pour les Etats que pour
+               les individus de l’oubli des premiers devoirs imposés à l’homme dans l’ordre social ;
+               ce n’est pas par de coupables illusions pervertissant l’opinion, égarant la
+               conscience des peuples, que doit commencer l’amélioration de leur sort ; et la
+               révolte militaire ne peut jamais former la base d’un Gouvernement heureux et
+               durable.</p>
+            <p>La révolution d’Espagne, considérée sous le seul rapport de l’influence funeste
+               qu’elle a exercée sur le Royaume qui l’a subie, serait un évènement digne de toute
+               l’attention et de tout l’intérêt des Souverains étrangers ; car la prospérité ou la
+               ruine d’un des Pays les plus intéressans de l’Europe ne saurait être à leurs yeux une
+               alternative indifférente ; les ennemis seuls de ce Pays, s’il pouvait en avoir,
+               auraient le droit de regarder avec froideur les convulsions qui le<pb n="238v"/>
+               déchirent. Cependant, une juste répugnance à toucher aux affaires intérieures d’un
+               Etat indépendant déterminerait peut-être ces Souverains à ne pas se prononcer sur la
+               situation de l’<country>Espagne</country> si le mal opéré par sa révolution s’était
+               concentré, et pouvait se concentrer dans son intérieur. Mais tel n’est pas le cas.
+               Cette révolution, avant même d’être parvenue à sa maturité, a provoqué déjà de grands
+               désastres dans d’autres pays ; c’est elle qui, par la contagion de ses principes et
+               de ses exemples et par les intrigues de ses principaux artisans, a créé les
+               révolutions <rs xml:id="n.2">de <country>Naples</country></rs><note type="editorial"
+                  target="#n.2">Am <date when="1820-07-02">2. Juli 1820</date> meuterte die
+                  Militärgarnison in Nola, 35 km von <placeName ref="#loc.11">Neapel</placeName>
+                  entfernt. Das Datum gilt als Beginn der Revolution im <country>Königreich beider
+                     Sizilien</country>. Vgl. Stites, The four Horsemen; Davis, Naples and Napoleon;
+                  Gin, Sanfedisti, Carbonari, Magistrati del Re; Späth, Revolution in Europa, S.
+                  129–149. Zur Reaktion der Großmächte vgl. zuletzt Jarrett, The Congress of Vienna,
+                  S. 248–285 sowie die Editionen der Dokumente der Kongresse von Troppau und
+                  Laibach. </note> et <rs xml:id="n.3">du <country>Piémont</country></rs><note
+                  type="editorial" target="#n.3">Im März 1821 war im <country>Königreich
+                     Sardinien-Piemont</country> eine Revolution ausgebrochen, die rasch durch
+                  österreichische Truppen niedergeschlagen wurde. Vgl. Späth, Revolution in Europa,
+                  S. 150–165; Broers, Napoleonic Imperialism; Jarrett, The Congress of Vienna, S.
+                  270–284.</note> ; c’est elle qui aurait embrasé l’Italie toute entière, menacé la
+                  <country>France</country>, compromis l’Allemagne, sans l’intervention des
+               Puissances qui ont préservé l’Europe de ce nouvel incendie. Partout les funestes
+               moyens employés en <country>Espagne</country> pour préparer et exécuter la révolution
+               ont servi de modèle à ceux qui se flattaient de lui ouvrir de nouvelles conquêtes ;
+               partout la <rs xml:id="n.4">Constitution Espagnole</rs><note type="editorial"
+                  target="#n.4">Zur spanischen Verfassung von Cádiz, veröffentlicht am <date
+                     when="1812-03-19">19. März 1812</date> und am <date when="1820-03-08">8. März
+                     1820</date> durch <persName ref="#p.30"><roleName>König</roleName>
+                     <surname>Ferdinand VII.</surname></persName> erneut in Kraft gesetzt, vgl.
+                  Timmermann, Die „Gemäßigte Monarchie“; BFSP Bd. 6 (1819/20), S. 237–279; Brand,
+                  Schlegelmilch, Kirsch (Hgg.), Quellen.</note> est devenue le point de réunion et
+               le cri de guerre d’une faction conjurée contre la sûreté des Trônes et contre le
+               repos des Peuples.</p>
+            <p>Le mouvement dangereux que la révolution d’Espagne avait imprimé à tout le midi de
+               l’Europe a mis l’Autriche dans la pénible nécessité de recourir à des mesures peu
+               d’accord avec la marche pacifique qu’elle aurait voulu invariablement poursuivre.
+               Elle a vu <rs xml:id="n.5">une partie de ses Etats</rs><note type="editorial"
+                  target="#n.5">1814 wurden die Lombardei und Venetien ein Teil des
+                     <country>Kaisertums Österreich</country> und bildeten das Königreich
+                  Lombardo-Venetien. Vgl. Gottsmann, Malfèr, Die Vertretungskörperschaften; Helfert,
+                  Kaiser Franz von Österreich; Rath, The Provisional Austrian Regime; Pesendorfer,
+                  Eiserne Krone. </note> entourée de séditions cernée par des complots incendiaires,
+               à la veille même d’être attaquée par des conspirateurs dont les premiers essais se
+               dirigeaient contre ses frontières. Ce n’est que par de grands efforts et de<pb
+                  n="239r"/> grands sacrifices que l’Autriche a pu rétablir la tranquillité en
+               Italie et déjouer des projets dont le succès n’eût été rien moins qu’indifférent pour
+               le sort de ses propres provinces.</p>
+            <p><rs ref="#p.16">Sa Majesté Impériale</rs> ne peut d’ailleurs que soutenir dans les
+               questions relatives à la révolution d’Espagne les mêmes principes qu’Elle a toujours
+               hautement manifestés. Dans l’absence même de tout danger direct pour les peuples
+               confiés à Ses soins, l’<rs ref="#p.16">Empereur</rs> n’hésitera jamais à désavouer et
+               à réprouver ce qu’Il croit faux, pernicieux et condamnable dans l’intérêt général des
+               Sociétés humaines. Fidèle au sistème de conservation et de paix, pour le maintien
+               duquel <rs ref="#t.42">Elle a contracté avec Ses Augustes Alliés des engagemens
+                  inviolables</rs>, <rs ref="#p.16">Sa Majesté</rs> ne cessera de regarder le
+               désordre et les bouleversemens, quelque partie de l’Europe qui puisse en être la
+               victime, comme un objet de vives sollicitudes pour tous les Gouvernemens, et chaque
+               fois que l’<rs ref="#p.16">Empereur</rs> pourra se faire entendre dans le tumulte de
+               ces crises déplorables, Il croira avoir rempli un devoir dont aucune considération ne
+               saurait le dispenser.</p>
+            <p>Il me serait difficile de croire, <rs ref="#p.177">Monsieur le Comte</rs>, que le
+               jugement énoncé par <rs ref="#p.16">Sa Majesté Impériale</rs> sur les évènemens qui
+               se passent en <country>Espagne</country> puisse être mal compris ou mal interprété
+               dans ce pays. Aucun objet d’intérêt particulier, aucun choc de prétentions
+               réciproques, aucun sentiment de méfiance ou de jalousie ne saurait inspirer à notre
+               Cabinet une pensée en opposition avec le bien-être de l’<country>Espagne</country>.
+               La maison d’Autriche n’a qu’à remonter à sa propre histoire pour y trouver les plus
+               puissans motifs d’attachement,<pb n="239v"/> d’égard et de bienveillance pour une
+               Nation qui peut se rappeler avec un juste orgueil ces siècles de glorieuse mémoire où
+                  <quote>« le soleil n’avait pas de couchant pour Elle »</quote>, pour une Nation
+               qui, forte de ses institutions respectables, de ses vertus héréditaires, de ses
+               sentimens religieux, de son amour pour ses Rois, s’est illustrée dans tous les temps
+               par un patriotisme toujours loyal, toujours généreux, et bien souvent héroïque. À une
+               époque peu éloignée de nous, cette Nation a encore étonné le monde par le courage, le
+               dévouement et la persévérance qu’elle a opposés à l’ambition usurpatrice qui
+               prétendait la priver de Ses Monarques et de Ses lois ; et l’Autriche n’oubliera
+               jamais combien <rs xml:id="n.6">la noble résistance du Peuple Espagnol lui a été
+                  utile dans un moment de grand danger pour elle-même</rs>.<note type="editorial"
+                  target="#n.6">Bezieht sich auf den Aufstand der spanischen Bevölkerung gegen das
+                  napoleonische Regime. Vgl. dazu Esdaile, Fighting Napoleon; Malye, Napóleon et la
+                  folie espagnole.</note>
+            </p>
+            <p>Ce n’est donc pas sur l’<country>Espagne</country>, ni comme Nation, ni comme
+               Puissance, que peut porter le langage sévère dicté à <rs ref="#p.16">Sa Majesté
+                  Impériale</rs> par Sa conscience et par la force de la vérité ; il ne s’applique
+               qu’à ceux qui ont ruiné et défiguré l’<country>Espagne</country>, et qui persistent à
+               prolonger ses souffrances.</p>
+            <p>En se réunissant à <placeName ref="#loc.68">Vérone</placeName> à Ses Augustes Alliés,
+                  <rs ref="#p.16">Sa Majesté Impériale</rs> a eu le bonheur de retrouver dans Leurs
+               conseils les mêmes dispositions bienveillantes et désintéressées qui ont constamment
+               guidé les Siens. Les paroles qui partiront pour <placeName ref="#loc.24"
+                  >Madrid</placeName> constateront ce fait, et ne laisseront aucun doute sur
+               l’empressement sincère des Puissances à servir la cause de
+                  l’<country>Espagne</country>, en Lui démontrant la nécessité de changer de route.
+               Il est certain que les embarras qui l’accablent se sont accrus depuis<pb n="240r"/>
+               peu dans une progression effrayante. Les mesures les plus rigoureuses, les expédiens
+               les plus hazardés ne peuvent plus faire marcher son administration ; la guerre civile
+               est allumée dans plusieurs de ses provinces ; ses rapports avec la plus grande partie
+               de l’Europe sont dérangés ou suspendus ; ses relations même avec la
+                  <country>France</country> ont pris un caractère si problématique qu’il est permis
+               de se livrer à des inquiétudes sérieuses sur les complications qui peuvent en
+               résulter. Un pareil état de choses ne justifierait-il pas les plus sinistres
+               pressentimens ?</p>
+            <p>Tout Espagnol éclairé sur la véritable situation de sa patrie doit sentir que pour
+               briser les chaines qui pèsent aujourd’hui sur le <rs ref="#p.30">Monarque</rs> et sur
+               le Peuple, il faut que l’<country>Espagne</country> mette un terme à cet état de
+               séparation du reste de l’Europe dans lequel les derniers évènemens l’ont jetée. Il
+               faut que des rapports de confiance et de franchise se rétablissent entr’Elle et les
+               autres Gouvernemens ; rapports qui, en garantissant d’un côté sa ferme intention de
+               s’associer à la cause commune des Monarchies Européennes, puissent lui fournir de
+               l’autre côté les moyens de faire valoir sa volonté réelle et d’écarter tout ce qui
+               peut la dénaturer ou la comprimer. Mais pour arriver à ce but, il faut avant tout que
+               son <rs ref="#p.30">Roi</rs> soit libre ; non seulement de cette liberté personnelle
+               que tout individu peut réclamer sous le règne des lois, mais de celle dont un
+               Souverain doit jouir pour remplir Sa haute vocation. Le <rs ref="#p.30">Roi
+                  d’Espagne</rs> sera libre du moment qu’Il aura le<pb n="240v"/> pouvoir de faire
+               cesser les malheurs de Son Peuple, de ramener l’ordre et la paix dans Son Royaume, de
+               s’entourer d’hommes également dignes de Sa confiance par leurs principes et par leurs
+               lumières, de substituer enfin à un régime, reconnu impraticable par ceux mêmes que
+               l’égoïsme ou l’orgueil y tiennent encore attachés, un ordre de choses, dans lequel
+               les droits du Monarque seraient heureusement combinés avec les vrais intérêts et les
+               vœux légitimes de toutes les classes de la Nation. Lorsque ce moment sera venu,
+                  l’<country>Espagne</country>, fatiguée de sa longue tourmente, pourra se flatter
+               de rentrer en pleine possession des avantages que le Ciel lui a départis et que le
+               noble caractère de ses habitans lui assure ; elle verra renaître les liens qui
+               l’unissaient à toutes les Puissances Européennes ; et <rs ref="#p.16">Sa Majesté
+                  Impériale</rs> se félicitera de n’avoir plus à Lui offrir que les vœux qu’Elle
+               forme pour sa prospérité et tous les bons services qu’Elle sera en état de rendre à
+               un ancien Ami et Allié.</p>
+            <p>Vous ferez de la présente dépêche, <rs ref="#p.177">Monsieur le Comte</rs>, l’usage
+               le plus approprié aux circonstances, dans lesquelles Vous Vous trouverez en la
+               recevant. Vous êtes autorisé à en faire lecture au <rs ref="#p.181">Ministre des
+                  Affaires étrangères</rs> ainsi qu’à lui en donner copie s’il le demande.</p>
+         </div>
+      </body>
+      <back>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listPlace.xml" xpointer="listPlace"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listPerson.xml"
+            xpointer="listPerson"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listWit.xml" xpointer="listWit"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listOrg.xml" xpointer="listOrg"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listTreaties.xml"
+            xpointer="listTreaties"/>
+      </back>
+   </text>
+</TEI>

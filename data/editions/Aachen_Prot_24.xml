@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Protokoll der 24. Sitzung des Kongresses von Aachen</title>
+            <title type="sub">Digitale Edition</title>
+            <editor>
+               <persName>
+                  <surname>Schneider</surname>
+                  <forename>Karin</forename>
+               </persName></editor>
+         </titleStmt>
+         <editionStmt>
+            <edition><date>2015-05-08</date></edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Österreichische Akademie der Wissenschaften, Institut für Neuzeit- und
+               Zeitgeschichtsforschung</publisher>
+            <pubPlace>Wien</pubPlace>
+            <idno>A_24</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="m.1" type="Originalprotokoll">
+               <msIdentifier>
+                  <settlement>Wien</settlement>
+                  <institution>ÖStA</institution>
+                  <collection>HHStA, Staatskanzlei, Kongressakten</collection>
+                  <idno>
+                     <idno type="Karton">Kart. 17</idno>
+                     <idno type="Faszikel"> Fasz. 29 (alt)</idno>
+                     <idno type="Folia">I/135</idno>
+                  </idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <title>Protokoll</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+
+                  <p>Eigenhändiges Protokoll von <persName ref="#p.5">
+                        <surname>Gentz</surname></persName>.</p>
+                  <handDesc>
+                     <handNote xml:id="G">Friedrich Gentz</handNote>
+                     <handNote xml:id="W">Nikolaus Wacken</handNote>
+                     <handNote xml:id="A">Anonym</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin><placeName ref="#loc.1">Aachen</placeName>
+                     <date when="1818-11-05">5. November 1818</date></origin>
+               </history>
+            </msDesc>
+            <msDesc xml:id="m.2" type="Konzept">
+               <msIdentifier>
+                  <settlement>Wien</settlement>
+                  <institution>ÖStA</institution>
+                  <collection>HHStA, Staatskanzlei, Kongressakten</collection>
+                  <idno>
+                     <idno type="Karton">Kart. 17</idno>
+                     <idno type="Faszikel"> Fasz. 29 (alt)</idno>
+                     <idno type="Folia">I/136</idno>
+                  </idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <title>Anlage: Schreiben der <rs ref="#p.16 #p.17 #p.18">Herrscher von
+                           Österreich, Preußen und Russland</rs> sowie <persName ref="#p.9"
+                              ><roleName>Lord</roleName>
+                           <surname>Castlereagh</surname></persName> an den <rs ref="p.74">König der
+                           Niederlande</rs></title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+
+                  <p>Konzept von <persName ref="#p.6">Wacken</persName></p>
+
+               </physDesc>
+               <history>
+                  <origin><placeName ref="#loc.1">Aachen</placeName>
+                     <date when="1818-11-14">14. November 1818</date></origin>
+               </history>
+            </msDesc>
+
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <appInfo>
+            <application xml:id="docxtotei" ident="TEI_fromDOCX" version="2.15.0">
+               <label>DOCX to TEI</label>
+            </application>
+         </appInfo>
+         <styleDefDecl scheme="css"/>
+         <tagsDecl>
+            <rendition xml:id="su">superscript</rendition>
+            <rendition xml:id="s">strikethrough</rendition>
+            <rendition xml:id="u">underline</rendition>
+            <rendition xml:id="ow">overwritten</rendition>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <abstract>
+            <p>Die <rs ref="#p.8 #p.13 #p.12 #p.14 #p.9 #p.10 #p.1">Vertreter der Mächte</rs>
+               verhandeln über die Territorialstreitigkeiten zwischen dem <persName ref="#p.47"
+                     ><roleName>Herzog von Bourbon</roleName></persName> und dem <persName
+                  ref="#p.48"><roleName>Prinzen</roleName>
+                  <forename>Charles</forename>
+                  <surname>de Rohan</surname></persName> hinsichtlich des Herzogtums Bouillon sowie
+               die Entschädigungszahlungen der <country>Niederlande</country> an das Haus Rohan als
+               Abgeltung von Souveränitätsrechten; in der zweiten Angelegenheit schlagen die <rs
+                  ref="#p.8 #p.13 #p.12 #p.14 #p.9 #p.10 #p.1">Vertreter der Mächte</rs> die
+               Einrichtung einer Schiedskommission vor. Anschließend Verhandlungen der offenen
+               Territorialfragen betreffend das Großherzogtum <country>Baden</country>.</p>
+         </abstract>
+         <particDesc>
+            <listPerson>
+               <head>Anwesende</head>
+
+               <person>
+                  <persName ref="#p.12">BERNSTORFF</persName>
+               </person>
+               <person>
+                  <persName ref="#p.9">CASTLEREAGH</persName>
+               </person>
+               <person>
+                  <persName ref="#p.14">KAPODISTRIAS</persName>
+               </person>
+               <person>
+                  <persName ref="#p.8">METTERNICH</persName>
+               </person>
+               <person>
+                  <persName ref="#p.13">NESSELRODE</persName>
+               </person>
+               <person>
+                  <persName ref="#p.1">RICHELIEU</persName>
+               </person>
+               <person>
+                  <persName ref="#p.10">WELLINGTON</persName>
+               </person>
+
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div hand="#G" decls="#m.1">
+            <pb n="135r"/>
+            <p><add hand="#W" place="top">Protocole <del rendition="#s">22</del>
+                  <del rendition="#s">23</del> 24.</add></p>
+            <p><placeName ref="#loc.1">Aix-la-Chapelle</placeName> le <date when="1818-11-05">5
+                  Novembre 1818</date></p>
+            <p><add hand="#W" place="margin">Entre les cinq Cabinets</add></p>
+            <p>Ayant pris en considération la note remise par <choice>
+                  <abbr>Mr.</abbr>
+                  <expan>Monsieur</expan>
+               </choice> le <persName ref="#p.1"><roleName>Duc</roleName>
+                  <surname>de Richelieu</surname></persName> au sujet du Duché de Bouillon dont <choice>
+                  <abbr>S. A. S.</abbr>
+                  <expan>Son Altesse Sérénissime</expan>
+               </choice> le <persName ref="#p.47"><roleName>Duc de Bourbon</roleName></persName>
+               réclame la propriété contre le <persName ref="#p.48"><roleName>Prince</roleName>
+                  <forename>Charles</forename>
+                  <surname>de Rohan</surname></persName>, possesseur actuel moyennant la décision
+               arbitrale, <choice>
+                  <abbr>Mrs.</abbr>
+                  <expan>Messieurs</expan>
+               </choice> les Plénipotentiaires des autres Cours ont répondu à cette demande par les
+               éclaircissemens contenus dans <rs xml:id="n.1">la Contre-Note ci-annexée</rs><note
+                  type="editorial" target="#n.1">Vgl. Anlage.</note> dont il résulte qu’il ne
+               sauroit y avoir lieu à la déclaration proposée dans la susdite Note. <choice>
+                  <abbr>Mrs.</abbr>
+                  <expan>Messieurs</expan>
+               </choice> les Plénipotentiaires ayant fixé en même tems leur attention sur les
+               rapports dans lesquels la maison de Rohan se trouve placée vis-à-vis du
+                  <country>Royaume des Pays-Bas</country>, il a été reconnu <rs xml:id="n.2">que
+                  l’indemnité qu’en vertu des stipulations positives des Traités</rs><note
+                  type="editorial" target="#n.2">Vgl. dazu Angeberg, Congrès, Bd. 2, S. 1416–1417;
+                  Stauber, Freie und vertrauliche Erörterungen, S. 68–69.</note> le <rs ref="#p.74"
+                  >Roi des Pays-Bas</rs> doit au <persName ref="#p.48"><roleName>Prince</roleName>
+                  <surname>de Rohan</surname></persName> pour les droits de Souveraineté transférés
+               à la couronne des Pays-Bas ne pouvant être l’objet d’une négociation diplomatique,
+                  <rs ref="#p.74">Sa Majesté</rs> sera invitée à porter cette question à la décision
+               d’une commission arbitrale, composée de Jurisconsultes nommés de part et d’autre dans
+               les formes reçues, pour arriver<pb n="135v"/> le plus promptement possible à un
+               résultat conforme à la teneur des dits Traités.</p>
+            <p>La Conférence a continué ensuite sa délibération sur les moyens de terminer <rs
+                  xml:id="n.3">les questions territoriales relatives au Grand-Duché de
+                     <country>Bade</country>.</rs><note type="editorial" target="#n.3">Vgl. Huber,
+                  Deutsche Verfassungsgeschichte, Bd. 1, S. 324–328.</note></p>
+            <signed>
+               <list>
+                  <item><persName ref="#p.8">Metternich</persName></item>
+                  <item><persName ref="#p.9">Castlereagh</persName></item>
+                  <item><persName ref="#p.10">Wellington</persName></item>
+                  <item><persName ref="#p.12">Bernstorff</persName></item>
+                  <item><persName ref="#p.13">Nesselrode</persName></item>
+                  <item><persName ref="#p.14">Capodistrias</persName></item>
+               </list></signed>
+         </div>
+
+         <div hand="#W" decls="#m.2">
+            <pb n="135r"/>
+            <p><add hand="#W" place="top"><hi rendition="#u">Annexé au Protocole <choice>
+                        <abbr>n</abbr>
+                        <expan>numéro</expan>
+                     </choice> 24 du <date when="1818-11-05">5 Novembre</date>.</hi></add></p>
+            <p><add place="margin"><choice>
+                     <abbr>N.B.</abbr>
+                     <expan>Nota Bene</expan>
+                  </choice> Lorsque les 3 lettres autographes seront expédiées, elles pourront être
+                  remises à <choice>
+                     <abbr>S. E.</abbr>
+                     <expan>Son Excellence</expan>
+                  </choice>
+                  <persName ref="#p.9"><roleName>Lord</roleName>
+                     <surname>Castlereagh</surname></persName>, qui les transmettroit à <persName
+                     ref="#p.37"><roleName>Lord</roleName>
+                     <surname>Clancarty</surname></persName>.</add></p>
+            <p hand="#A"><placeName ref="#loc.1">Aix-la-Chapelle</placeName> le <date
+                  when="1818-11-14">14 Novembre 1818</date>.</p>
+
+            <p><title>Lettre des <rs ref="#p.16 #p.17 #p.18">trois Souverains</rs> et <hi
+                     rendition="#u">in simili</hi> de <persName ref="#p.9"><roleName>Lord</roleName>
+                     <surname>Castlereagh</surname></persName> à <choice>
+                     <abbr>S. M.</abbr>
+                     <expan>Sa Majesté</expan>
+                  </choice> le <rs ref="#p.74">Roi du Pays-bas, Duc de Luxembourg</rs></title></p>
+            <p><add place="margin"><hi rendition="#u">Superscription</hi></add></p>
+            <p><hi rendition="#u">à <rs ref="#p.74">Sa Majesté le Roi des Pays-bas, <del
+                        rendition="#s">Duc Grand</del> Duc de Luxembourg</rs>, Monsieur Mon
+                  Frère</hi></p>
+            <p>Monsieur <rs ref="#p.74">Mon Frère</rs>, <rs xml:id="n.4">Différentes Notes ont été
+                  échangées entre les Commissaires de <choice>
+                     <abbr>V. M.</abbr>
+                     <expan>Votre Majesté</expan>
+                  </choice> et les fondés de pouvoirs du <persName ref="#p.48"
+                        ><roleName>Prince</roleName>
+                     <forename>Charles</forename>
+                     <surname>de Rohan</surname></persName>, propriétaire reconnu du Duché de
+                  Bouillon, sans que l’on soit parvenu à conclure un arrangement équitable tant pour
+                  la restitution complètte de la propriété du Duché et du produit de
+                  l’administration intermédiaire que pour indemniser le possesseur actuel de la
+                  perte des revenus provenant des droits de souveraineté.</rs><note type="editorial"
+                  target="#n.4">Vgl. Stauber, Freie und vertrauliche Erörterungen, S. 68–69.</note>
+               Votre Majesté est cependant autant convaincue que Mes alliés et Moi le sommes que
+               l’intention des Puissances signataires du <rs ref="#t.12">Recès de <placeName
+                     ref="#loc.7">Vienne</placeName></rs>, ainsi que du <rs ref="#t.1">traité de
+                     <placeName ref="#loc.2">Paris</placeName> du <date when="1815-11-20">20 <choice>
+                        <abbr>9<hi rendition="#su">bre</hi></abbr>
+                        <expan>Novembre</expan>
+                     </choice> 1815</date></rs>, a été qu’il ne fût pas imposé à l’<rs xml:id="n.5"
+                  >héritier du Duc de Bouillon</rs><note type="editorial" target="#n.5">Das
+                  Herzogtum Bouillon war 1791 in eine Republik umgewandelt worden, der letzte
+                  direkte Nachkomme aus dem Herrschergeschlecht, Jacques Leopold La Tour d’Auvergne,
+                  verstarb 1802; vgl. Stauber, Freie und vertrauliche Erörterungen, S. 68–69.</note>
+               d’autre sacrifice que la privation de la souveraineté. Votre <choice>
+                  <abbr>M<hi rendition="#su">té</hi></abbr>
+                  <expan>Majesté</expan>
+               </choice> n’est pas moins persuadée qu’il est de l’intérêt général de voir remplir
+               cette condition d’indemnité sous laquelle la souveraineté de Bouillon a été cédée par
+               les alliés au <country>Royaume des Pays-bas</country>. Nous avons donc cru, Mes
+               alliés et Moi, ne pouvoir mieux rencontrer les intentions de <rs ref="#p.74"><choice>
+                     <abbr>V. M</abbr>
+                     <expan>Votre Majesté</expan>
+                  </choice></rs> qu’en Lui proposant, dans le but d’accélérer la conclusion de cet
+               arrangement équitable, de porter cette question à la décision d’une commission
+               arbitrale, composée de jurisconsultes nommés de la part de <rs ref="#p.74"><choice>
+                     <abbr>V. M</abbr>
+                     <expan>Votre Majesté</expan>
+                  </choice></rs> et de celle du <persName ref="#p.48"><roleName>Prince</roleName>
+                  <forename>Charles</forename>
+                  <surname>de Rohan</surname></persName>,<pb n="136v"/> pour arriver de cette
+               manière le plus promptement possible à un résultat conforme à la teneur et à l’esprit
+               des Traités. Nous aimons à Nous flatter que <rs ref="#p.74"><choice>
+                     <abbr>V. M</abbr>
+                     <expan>Votre Majesté</expan>
+                  </choice></rs> donnera d’autant plus volontiers les mains aux voies d’un prononcé
+               arbitral que cette mesure reste dans l’analogie de la disposition portée par le <rs
+                  ref="#t.12">Recès du Congrès</rs>, et que la détermination de <rs ref="#p.74"><choice>
+                     <abbr>V. M</abbr>
+                     <expan>Votre Majesté</expan>
+                  </choice></rs> constatera à la fois le plus noble désintéressement de Sa part, et
+               satisfera au vœu de la plus stricte impartialité. <add place="margin">Je connois
+                  trop, Monsieur <rs ref="#p.74">Mon Frère</rs>, Votre amour pour la justice et la
+                  modération, pour ne pas m’être empressé à me rendre garant de votre assentiment à
+                  cette proposition.</add></p>
+            <p>Sur ce je prie <rs ref="#p.74"><choice>
+                     <abbr>V. M</abbr>
+                     <expan>Votre Majesté</expan>
+                  </choice></rs> d’agréer l’assurance des sentimens de confiance et de la
+               considération très distinguées avec laquelle je ne cesserai d’être</p>
+            <p>Monsieur <rs ref="#p.74">Mon Frère</rs></p>
+            <p>de <rs ref="#p.74">Votre Majesté</rs></p>
+            <p>Le Bon frère.</p>
+         </div>
+      </body>
+      <back>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listPlace.xml" xpointer="listPlace"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listPerson.xml"
+            xpointer="listPerson"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listWit.xml" xpointer="listWit"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listOrg.xml" xpointer="listOrg"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listTreaties.xml"
+            xpointer="listTreaties"/>
+      </back>
+   </text>
+</TEI>

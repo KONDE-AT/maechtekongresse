@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Title</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+<listOrg xmlns="http://www.tei-c.org/ns/1.0" xml:id="listOrg">
+    <org xml:id="o.1">
+        <orgName>Hope &amp; Comp.</orgName>
+        <note>Vgl. Buist, At spes non fracta; Jonker, The link; Bruguière, Hope et
+            Baring. In: Tulard (Hg.) Dictionnaire Napoléon, S. 890.</note>
+    </org>
+    <org xml:id="o.2">
+        <orgName>Baring &amp; Comp.</orgName>
+        <note>Vgl. Ziegler, The Sixth Great Power; Bruguière, Hope et
+            Baring. In: Tulard (Hg.) Dictionnaire Napoléon, S. 890.</note>
+    </org>
+    
+</listOrg>
+        </body>
+    </text>
+</TEI>

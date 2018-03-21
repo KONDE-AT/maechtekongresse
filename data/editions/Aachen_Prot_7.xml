@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Protokoll der 7. Sitzung des Kongresses von Aachen</title>
+            <title type="sub">Digitale Edition</title>
+            <editor>
+               <persName>
+                  <surname>Schneider</surname>
+                  <forename>Karin</forename>
+               </persName></editor>
+         </titleStmt>
+         <editionStmt>
+            <edition><date>2015-05-08</date></edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Österreichische Akademie der Wissenschaften, Institut für Neuzeit- und
+               Zeitgeschichtsforschung</publisher>
+            <pubPlace>Wien</pubPlace>
+            <idno>A_07</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="m.1" type="Originalprotokoll">
+               <msIdentifier>
+                  <settlement>Wien</settlement>
+                  <institution>ÖStA</institution>
+                  <collection>HHStA, Staatskanzlei, Kongressakten</collection>
+                  <idno>
+                     <idno type="Karton">Kart. 17</idno>
+                     <idno type="Faszikel"> Fasz. 29 (alt)</idno>
+                     <idno type="Folia">I/30</idno>
+                  </idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <title>Protokoll</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+
+                  <p> Eigenhändiges Protokoll von <persName ref="#p.5">
+                        <surname>Gentz</surname></persName> und <persName ref="#p.6"
+                           ><surname>Wacken</surname></persName>.</p>
+                  <handDesc>
+                     <handNote xml:id="G">Friedrich Gentz</handNote>
+                     <handNote xml:id="W">Nikolaus Wacken</handNote>
+                     <handNote xml:id="A">Anonym</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin><placeName ref="#loc.1">Aachen</placeName><date when="1818-10-09">9.
+                        Oktober 1818</date></origin>
+               </history>
+
+            </msDesc>
+            <msDesc xml:id="m.2" type="Ausfertigung">
+               <msIdentifier>
+                  <settlement>Wien</settlement>
+                  <institution>ÖStA</institution>
+                  <collection>HHStA, Staatskanzlei, Kongressakten</collection>
+                  <idno>
+                     <idno type="Karton">Kart. 17</idno>
+                     <idno type="Faszikel"> Fasz. 29 (alt)</idno>
+                     <idno type="Folia">I/31</idno>
+                  </idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <title>Anlage zum Protokoll vom <date when="1818-10-09">9. Oktober
+                        1818</date></title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <p>Ausfertigung von <persName ref="#p.5"><surname>Gentz</surname></persName></p>
+               </physDesc>
+               <history>
+                  <origin><placeName ref="#loc.1">Aachen</placeName><date when="1818-10-09">9.
+                        Oktober 1818</date></origin>
+               </history>
+            </msDesc>
+
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <appInfo>
+            <application xml:id="docxtotei" ident="TEI_fromDOCX" version="2.15.0">
+               <label>DOCX to TEI</label>
+            </application>
+         </appInfo>
+         <styleDefDecl scheme="css"/>
+         <tagsDecl>
+            <rendition xml:id="su">superscript</rendition>
+            <rendition xml:id="s">strikethrough</rendition>
+            <rendition xml:id="u">underline</rendition>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <abstract>
+            <p>Die <rs ref="#p.8 #p.10 #p.11 #p.13 #p.12 #p.14 #p.9">Vertreter der alliierten
+                  Mächte</rs> schreiben die Grundsätze der in der <ref target="Aachen_Prot_6.xml"
+                  >Sitzung am <date when="1818-10-08">8. Oktober 1818</date></ref> abgeschlossenen
+               Verhandlungen betreffend die französischen Entschädigungszahlungen fest. Der Abzug
+               der Besatzungstruppen aus <country>Frankreich</country> gilt mit der Räumung der
+               Städte <placeName ref="#loc.3">Valenciennes</placeName> und <placeName ref="#loc.4"
+                  >Cambrai</placeName> als abgeschlossen.</p>
+         </abstract>
+         <particDesc>
+            <listPerson>
+               <head>Anwesende</head>
+               
+                  <person><persName ref="#p.12">BERNSTORFF</persName></person>
+                  <person><persName ref="#p.9">CASTLEREAGH</persName></person>
+                  <person><persName ref="#p.11">HARDENBERG</persName></person>
+                  <person><persName ref="#p.14">KAPODISTRIAS</persName></person>
+                  <person><persName ref="#p.8">METTERNICH</persName></person>
+                  <person><persName ref="#p.13">NESSELRODE</persName></person>
+                  <person><persName ref="#p.1">RICHELIEU</persName></person>
+                  <person><persName ref="#p.10">WELLINGTON</persName></person>
+               
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div hand="#G" decls="#m.1">
+            <pb n="30r"/>
+            <p><add place="top">7</add></p>
+            <p> À <placeName ref="#loc.1">Aix-la-Chapelle</placeName> Le</p>
+            <p><date when="1818-10-09"> 9 Octobre 1818</date>
+            </p>
+            <p>
+               <add place="margin">(Entre les 5 Cabinets)</add></p>
+            <p>La discussion des arrangemens pécuniaires entre les Quatre Cours Alliées et la
+                  <country>France</country> ayant été terminée dans les dernières conférences, <choice>
+                  <abbr>Mrs.</abbr>
+                  <expan>Messieurs</expan>
+               </choice>
+               <rs ref="#p.8 #p.10 #p.11 #p.13 #p.12 #p.14 #p.9 #p.1">les Ministres des Cinq
+                  cours</rs> se sont réunis aujourd’hui pour prendre en considération le <rs
+                  ref="#t.10">projet de Convention relatif à l’évacuation du Territoire
+                  Français</rs>. Après avoir successivement examiné et discuté les Huit articles,
+               ainsi que le préambule de ce projet de convention, <choice>
+                  <abbr>Mrs.</abbr>
+                  <expan>Messieurs</expan>
+               </choice>
+               <rs ref="#p.8 #p.10 #p.11 #p.13 #p.12 #p.14 #p.9 #p.1">les Ministres</rs> ont arrêté
+               et paraphé le tout pour le faire expédier selon les formes d’usage ; et afin de
+               terminer le plutôt possible cette affaire importante, il a été convenu d’y consacrer
+               une seconde séance dans la soirée.</p>
+            <p>En conséquence de quoi <choice>
+                  <abbr>Mrs</abbr>
+                  <expan>Messieurs</expan>
+               </choice>
+               <rs ref="#p.8 #p.10 #p.11 #p.13 #p.12 #p.14 #p.9 #p.1">les Ministres d’Autriche, de
+                  France, de la Grande-Bretagne, de Prusse et de Russie</rs> se sont de nouveau
+               réunis à Huit heures du soir chez <choice>
+                  <abbr>Mr.</abbr>
+                  <expan>Monsieur</expan>
+               </choice> le <persName ref="#p.8"><roleName>Prince</roleName>
+                  <surname>de Metternich</surname></persName> et y ont procédé à la signature de la
+                  <rs ref="#t.10">convention stipulant l’évacuation prochaine du Territoire Français
+                  par les troupes des puissances Alliées</rs>.</p>
+            <signed>
+               <list>
+                  <item><persName ref="#p.8"><choice>
+                           <abbr>M</abbr>
+                           <expan>Metternich</expan>
+                        </choice></persName></item>
+                  <item><persName ref="#p.1"><choice>
+                           <abbr>R</abbr>
+                           <expan>Richelieu</expan>
+                        </choice></persName></item>
+                  <item><persName ref="#p.9"><choice>
+                           <abbr>C</abbr>
+                           <expan>Castlereagh</expan>
+                        </choice></persName></item>
+                  <item><persName ref="#p.10"><choice>
+                           <abbr>W</abbr>
+                           <expan>Wellington</expan>
+                        </choice></persName></item>
+                  <item><persName ref="#p.11"><choice>
+                           <abbr>H</abbr>
+                           <expan>Hardenberg</expan>
+                        </choice></persName></item>
+                  <item><persName ref="#p.12"><choice>
+                           <abbr>B</abbr>
+                           <expan>Bernstorff</expan>
+                        </choice></persName></item>
+                  <item><persName ref="#p.13"><choice>
+                           <abbr>N</abbr>
+                           <expan>Nesselrode</expan>
+                        </choice></persName></item>
+                  <item><persName ref="#p.14">Capodistrias</persName></item>
+               </list></signed>
+         </div>
+         <div hand="W" decls="#m.1">
+            <p>Et attendu qu’il est fixé par l’article 6 de la <rs ref="#t.10">Convention</rs> que
+               les traites pour les 165 millions <pb n="30v"/> millions, de même que les
+               inscriptions de rentes pour les cent millions valeur effective seront délivrés par le
+               trésor Royal de France aux Commissaires des quatre Cours <quote>« à <hi
+                     rendition="#u">l’époque</hi> de l’évacuation complètte et définitive du
+                  territoire français »</quote>, les <rs
+                  ref="#p.8 #p.10 #p.11 #p.13 #p.12 #p.14 #p.9">Ministres des quatre Cours</rs> ont
+               cru devoir pour plus de précision désigner explicitement cette <hi rendition="#u"
+                  >époque</hi>, en déclarant que ce seroit celle où les places de <placeName
+                  ref="#loc.3">Valenciennes</placeName> et de <placeName ref="#loc.4"
+                  >Cambray</placeName> seront évacuées. Cette explication a fait le sujet d’une Note
+               qui, séance tenant, a été adressée par les <rs
+                  ref="#p.8 #p.10 #p.11 #p.13 #p.12 #p.14 #p.9">Ministres des quatre Cours</rs> à <choice>
+                  <abbr>M</abbr>
+                  <expan>Monsieur</expan>
+               </choice> le <persName ref="#p.1"><roleName>Duc</roleName>
+                  <surname>de Richelieu</surname></persName>, en l’invitant à vouloir bien leur
+               donner acte de cette déclaration. <rs xml:id="n.1"> Cette Note est annexée au présent
+                  Protocole.</rs>
+               <note type="editorial" target="#n.1"> Erwähnte Anlage liegt nicht ein.</note>
+            </p>
+         </div>
+         <div hand="#G" decls="#m.2">
+            <pb n="31r"/>
+            <p><title>Supplément au Protocole du <date when="1818-10-09">9
+               Octobre</date></title></p>
+            <p>Pendant la discussion qui a eu lieu à la conférence du <date when="1818-10-09">9
+                  Octobre</date> sur les articles de la <rs ref="#t.10">convention</rs> relative à
+               l’évacuation du Territoire Français et aux arrangemens pécuniaires entre la
+                  <country>France</country> et les puissances Alliées, <choice>
+                  <abbr>Mr.</abbr>
+                  <expan>Monsieur</expan>
+               </choice> le <persName ref="#p.1"><roleName>Duc</roleName>
+                  <surname>de Richelieu</surname></persName> a observé que, comme selon toutes les
+               probabilités les troupes Alliées seroient retirées du sol de la
+                  <country>France</country> quelque tems avant la fin du mois de Novembre, il seroit
+               juste que la <country>France</country> ne payât leur solde que jusqu’au jour de leur
+               départ définitif, <choice>
+                  <abbr>Mrs.</abbr>
+                  <expan>Messieurs</expan>
+               </choice> les <rs ref="#p.8 #p.10 #p.11 #p.13 #p.12 #p.14 #p.9">Ministres des Quatre
+                  Cours</rs>, sans contester le fond de cette observation, ont été d’avis qu’afin
+               d’éviter tout calcul compliqué et toute discussion ultérieure entre des Commissaires
+               subalternes, il seroit plus convenable de fixer le <date when="1818-12-01">1
+                  Décembre</date> comme dernier terme jusqu’au quel la <country>France</country>
+               auroit à continuer le payement de cette solde, et d’indemniser la
+                  <country>France</country> par une somme ronde de 3 Millions du sacrifice que cet
+               arrangement pourroit entraîner pour Elle. Il a été convenu en conséquence de
+               défalquer encore 3 Millions de la somme totale que la <country>France</country> reste
+               devoir aux Alliés, et que cette <pb n="31v"/>somme totale sera fixée à 265 Millions,
+               ainsi que cela a eu lieu dans l’article 4 de la <rs ref="#t.10">convention</rs>.</p>
+            <p>Comme on peut s’attendre à ce qu’un certain nombre de Malades non susceptibles d’être
+               transportés devront être laissés en <country>France</country> au moment du départ des
+               différens Contingens, il a été convenu que l’entretien de ces Malades restera à la
+               charge de la <country>France</country> jusqu’au <date when="1818-12-01">1
+                  Décembre</date> prochain. À dater de cette époque, cet entretien sera aux frais
+               des puissances Alliées, et elles en tiendront compte au Gouvernement Français, avec
+               lequel <choice>
+                  <abbr>Mr.</abbr>
+                  <expan>Monsieur</expan>
+               </choice> le <persName ref="#p.10"><roleName>Duc</roleName>
+                  <surname>de Wellington</surname></persName> voudra bien prendre pour cet effet les
+               arrangemens nécessaires.</p>
+            <signed>
+               <list>
+                  <item><persName ref="#p.8"><choice>
+                           <abbr>M</abbr>
+                           <expan>Metternich</expan>
+                        </choice></persName></item>
+                  <item><persName ref="#p.1"><choice>
+                           <abbr>R</abbr>
+                           <expan>Richelieu</expan>
+                        </choice></persName></item>
+                  <item><persName ref="#p.9"><choice>
+                           <abbr>C</abbr>
+                           <expan>Castlereagh</expan>
+                        </choice></persName></item>
+                  <item><persName ref="#p.10"><choice>
+                           <abbr>W</abbr>
+                           <expan>Wellington</expan>
+                        </choice></persName></item>
+                  <item><persName ref="#p.11"><choice>
+                           <abbr>H</abbr>
+                           <expan>Hardenberg</expan>
+                        </choice></persName></item>
+                  <item><persName ref="#p.12"><choice>
+                           <abbr>B</abbr>
+                           <expan>Bernstorff</expan>
+                        </choice></persName></item>
+                  <item><persName ref="#p.13"><choice>
+                           <abbr>N</abbr>
+                           <expan>Nesselrode</expan>
+                        </choice></persName></item>
+                  <item><persName ref="#p.14">Capodistrias</persName></item>
+               </list></signed>
+         </div>
+      </body>
+      <back>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listPlace.xml" xpointer="listPlace"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listPerson.xml" xpointer="listPerson"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listWit.xml" xpointer="listWit"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listOrg.xml" xpointer="listOrg"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listTreaties.xml" xpointer="listTreaties"/>
+      </back>
+   </text>
+</TEI>

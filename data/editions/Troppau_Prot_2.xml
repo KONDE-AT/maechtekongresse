@@ -1,0 +1,799 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Protokoll der 2. Sitzung des Kongresses von Troppau</title>
+            <title type="sub">Digitale Edition</title>
+            <editor>
+               <persName>
+                  <surname>Schneider</surname>
+                  <forename>Karin</forename>
+               </persName></editor>
+         </titleStmt>
+         <editionStmt>
+            <edition><date>2012-10-26</date></edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Österreichische Akademie der Wissenschaften, Institut für Neuzeit- und
+               Zeitgeschichtsforschung</publisher>
+            <pubPlace>Wien</pubPlace>
+            <idno>T_02</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="m.1" type="Originaljournal">
+               <msIdentifier>
+                  <settlement>Wien</settlement>
+                  <institution>ÖStA</institution>
+                  <collection>HHStA, Staatskanzlei, Kongressakten</collection>
+                  <idno>
+                     <idno type="Karton">Kart. 21</idno>
+                     <idno type="Faszikel"> Fasz. 38 (alt)</idno>
+                     <idno type="Folia">7-8</idno>
+                  </idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <title>Journal</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <p>Eigenhändiges Journal von <persName ref="#p.5"><forename>Friedrich</forename>
+                        <surname>von Gentz</surname></persName></p>
+                  <handDesc>
+                     <handNote xml:id="A">Anonyme Hand</handNote>
+                     <handNote xml:id="G">Friedrich Gentz</handNote>
+                     <handNote xml:id="W">Nikolaus Wacken</handNote>
+                     <handNote xml:id="AmB">Anonyme Hand mit Bleistift</handNote>
+                  </handDesc>
+
+               </physDesc>
+               <history>
+                  <origin><placeName ref="#loc.60">Troppau</placeName><date when="1820-10-29">29.
+                        Oktober 1820</date></origin>
+               </history>
+            </msDesc>
+            <msDesc xml:id="m.2" type="Ausfertigung">
+               <msIdentifier>
+                  <settlement>Wien</settlement>
+                  <institution>ÖStA</institution>
+                  <collection>HHStA, Staatskanzlei, Kongressakten</collection>
+                  <idno>
+                     <idno type="Karton">Kart. 21</idno>
+                     <idno type="Faszikel"> Fasz. 38 (alt)</idno>
+                     <idno type="Folia">9-10</idno>
+                  </idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <title>Anlage 1: Preußische Denkschrift</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <p>Ausfertigung</p>
+
+               </physDesc>
+               <history>
+                  <origin><placeName ref="#loc.60">Troppau</placeName><date when="1820-10-29">29.
+                        Oktober 1820</date></origin>
+               </history>
+            </msDesc>
+            <msDesc xml:id="m.3" type="Abschrift">
+               <msIdentifier>
+                  <settlement>Wien</settlement>
+                  <institution>ÖStA</institution>
+                  <collection>HHStA, Staatskanzlei, Kongressakten</collection>
+                  <idno>
+                     <idno type="Karton">Kart. 21</idno>
+                     <idno type="Faszikel"> Fasz. 38 (alt)</idno>
+                     <idno type="Folia">11-22</idno>
+                  </idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <title>Anlage 2: Instruktion für den preußischen diplomatischen Vertreter in
+                        Wien</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <p>Abschrift</p>
+
+               </physDesc>
+               <history>
+                  <origin><placeName ref="#loc.9">Berlin</placeName><date when="1820-10-08">8.
+                        Oktober 1820</date></origin>
+               </history>
+            </msDesc>
+            <msDesc xml:id="m.4" type="Ausfertigung">
+               <msIdentifier>
+                  <settlement>Wien</settlement>
+                  <institution>ÖStA</institution>
+                  <collection>HHStA, Staatskanzlei, Kongressakten</collection>
+                  <idno>
+                     <idno type="Karton">Kart. 21</idno>
+                     <idno type="Faszikel"> Fasz. 38 (alt)</idno>
+                     <idno type="Folia">23</idno>
+                  </idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <title>Anlage 3: Erklärung Russlands</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <p>Ausfertigung</p>
+               </physDesc>
+               <history>
+                  <origin><placeName ref="#loc.60">Troppau</placeName><date when="1815-10-27">27.
+                        Oktober 1820</date><date when="1820-10-29">29. Oktober 1820</date></origin>
+               </history>
+            </msDesc>
+            <listWit corresp="#m.1">
+               <head>Journal</head>
+               <witness corresp="#w.37"><bibl type="print">Alberti, Atti, S.
+                  338-339.</bibl></witness>
+            </listWit>
+            <listWit corresp="#m.2">
+               <head>Anlage 1: Preußische Denkschrift</head>
+               <witness corresp="#w.37"><bibl type="print">Alberti, Atti, S.
+                  339-340.</bibl></witness>
+            </listWit>
+            <listWit corresp="#m.3">
+               <head>Anlage 2: Instruktion für den preußischen diplomatischen Vertreter in
+                  Wien</head>
+               <witness corresp="#w.37"><bibl type="print">Alberti, Atti, S.
+                  340-346.</bibl></witness>
+            </listWit>
+            <listWit corresp="#m.4">
+               <head>Anlage 3: Erklärung Russlands</head>
+               <witness corresp="#w.37"><bibl type="print">Alberti, Atti, S.
+                  347.</bibl></witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <appInfo>
+            <application xml:id="docxtotei" ident="TEI_fromDOCX" version="2.15.0">
+               <label>DOCX to TEI</label>
+            </application>
+         </appInfo>
+         <styleDefDecl scheme="css"/>
+         <tagsDecl>
+            <rendition xml:id="su">superscript</rendition>
+            <rendition xml:id="s">strikethrough</rendition>
+            <rendition xml:id="u">underline</rendition>
+            <rendition xml:id="r">right</rendition>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <abstract>
+            <p>Die <rs ref="#p.11 #p.136 #p.13 #p.14">Vertreter Preußens und Russlands</rs> geben
+               Erklärungen betreffend die neapolitanische Frage ab. Verhandlung über den Vorschlag
+               des österreichischen Außenministers <persName ref="#p.8"
+                     ><surname>Metternich</surname></persName>, kein Mitglied des Mächtekonzerts
+               möge isoliert in Verhandlungen mit der revolutionären Regierung des
+                  <country>Königreichs beider Sizilien</country> treten.</p>
+         </abstract>
+         <particDesc>
+            <listPerson>
+               <head>Anwesende</head>
+
+               <person>
+                  <persName ref="#p.102">CARAMAN</persName>
+               </person>
+               <person>
+                  <persName ref="#p.135">FERRONNAYS</persName>
+               </person>
+               <person>
+                  <persName ref="#p.121">GOLOVKIN</persName>
+               </person>
+               <person>
+                  <persName ref="#p.11">HARDENBERG</persName>
+               </person>
+               <person>
+                  <persName ref="#p.14">KAPODISTRIAS</persName>
+               </person>
+               <person>
+                  <persName ref="#p.136">KRUSEMARCK</persName>
+               </person>
+               <person>
+                  <persName ref="#p.40">LEBZELTERN</persName>
+               </person>
+               <person>
+                  <persName ref="#p.8">METTERNICH</persName>
+               </person>
+               <person>
+                  <persName ref="#p.13">NESSELRODE</persName>
+               </person>
+               <person>
+                  <persName ref="#p.137">STEWART</persName>
+               </person>
+
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div hand="#G" decls="#m.1">
+            <pb n="7r"/>
+            <p><title><hi rendition="#u">Journal des Conférences</hi></title></p>
+            <p><title><hi rendition="#u"><choice>
+                        <abbr>Nro</abbr>
+                        <expan>Numéro</expan>
+                     </choice> 2.</hi></title></p>
+            <p><hi rendition="#u">Dimanche <date when="1820-10-29">29 Octobre 1820</date>.</hi></p>
+
+            <p><choice>
+                  <abbr>Mr.</abbr>
+                  <expan>Monsieur</expan>
+               </choice> le <persName ref="#p.11"><roleName>Prince</roleName>
+                  <surname>de Hardenberg</surname></persName>, Chancelier d’Etat de <choice>
+                  <abbr>S. M.</abbr>
+                  <expan>Sa Majesté</expan>
+               </choice> le <rs ref="#p.18">Roi de Prusse</rs>, et <choice>
+                  <abbr>Mr.</abbr>
+                  <expan>Monsieur</expan>
+               </choice> le <persName ref="#p.13"><roleName>Comte</roleName>
+                  <surname>de Nesselrode</surname></persName>, Secrétaire d’Etat de <choice>
+                  <abbr>S. M.</abbr>
+                  <expan>Sa Majesté</expan>
+               </choice> l’<rs ref="#p.17">Empereur de Toutes les Russies</rs>, ont assisté à la
+               séance de ce jour.</p>
+            <p><choice>
+                  <abbr>Mr.</abbr>
+                  <expan>Monsieur</expan>
+               </choice> le <persName ref="#p.8"><roleName>Prince</roleName>
+                  <surname>de Metternich</surname></persName> a demandé à <choice>
+                  <abbr>Mrs.</abbr>
+                  <expan>Messieurs</expan>
+               </choice>
+               <rs ref="#p.102 #p.135 #p.121 #p.11 #p.14 #p.136 #p.13 #p.137">les Ministres des
+                  autres Cours</rs> s’Ils avoient quelques observations à communiquer sur les pièces
+               dont le Cabinet Autrichien avoit fait part <ref target="Troppau_Prot_1.xml">à la
+                  première séance</ref>.</p>
+            <p><choice>
+                  <abbr>Mr.</abbr>
+                  <expan>Monsieur</expan>
+               </choice> le <persName ref="#p.11"><roleName>Prince</roleName>
+                  <surname>de Hardenberg</surname></persName> a fait alors lecture des observations
+                  <rs xml:id="n.1">ci-jointes sub Litt A</rs>,<note type="editorial" target="#n.1"
+                  >Vgl. Anlage 1.</note> ainsi que de l’instruction envoyée par sa cour au <rs
+                  ref="#p.136">Ministre de Prusse à <placeName ref="#loc.7">Vienne</placeName></rs>
+               en date du <date when="1820-10-08">8 Octobre</date>, <rs xml:id="n.2">laquelle se
+                  trouve également ci-jointe (sub B)</rs>.<note type="editorial" target="#n.2">Vgl.
+                  Anlage 2.</note></p>
+            <p><choice>
+                  <abbr>Mr.</abbr>
+                  <expan>Monsieur</expan>
+               </choice> le <persName ref="#p.13"><roleName>Comte</roleName>
+                  <surname>de Nesselrode</surname></persName> a fait part, au nom du Cabinet de <choice>
+                  <abbr>S. M.</abbr>
+                  <expan>Sa Majesté</expan>
+               </choice> l’<rs ref="#p.17">Empereur de Russie</rs>, d’une déclaration préalable, <rs
+                  xml:id="n.3">ci-jointe sub Litt C</rs>,<note type="editorial" target="#n.3">Vgl.
+                  Anlage 3.</note> annonçant de plus amples<pb n="7v"/> développemens sur les
+               questions mises en avant par le Cabinet Autrichien.</p>
+            <p><choice>
+                  <abbr>Mr.</abbr>
+                  <expan>Monsieur</expan>
+               </choice> le <persName ref="#p.8"><roleName>Prince</roleName>
+                  <surname>de Metternich</surname></persName> a fixé l’attention de la conférence
+               sur un objet que le Cabinet Autrichien regarde comme étant d’un intérêt commun et
+               d’une haute importance.</p>
+            <p>Les conférences ouvertes à <placeName ref="#loc.60">Troppau</placeName> dans une des
+               conjonctures les plus graves pour le sort de la Société devant être regardées comme
+               un foyer de lumières commun aux Cinq Cours, le Cabinet Autrichien croit devoir faire
+               observer aux autres Cabinets, Ses Alliés, que le Gouvernement révolutionnaire de
+                  <country>Naples</country> prend à tâche d’envoyer aujourd’hui des Agens dans les
+               lieux où il n’existe pas de sa part des missions régulières et avouées comme dans
+               ceux où on est décidé à ne point en admettre, qu’il se met en correspondance directe
+               avec tous les Ministères, et que par cette double tactique il se ménage les moyens de
+               recevoir des rapports et des informations de ses agens avoués ou secrets.</p>
+            <p>Les <rs ref="#p.144 #p.146 #p.147 #p.148 #p.149">Représentans des Cinq<pb n="8r"/>
+                  Cours résidant à <placeName ref="#loc.11">Naples</placeName></rs> ont dès les
+               premiers jours de Juillet pris la sage résolution de se constituer en conseil afin
+               d’éviter qu’en aucune manière il put naître de la divergence ni dans leurs
+               explications, ni dans leurs démarches respectives envers le gouvernement Napolitain.
+               Cette sage mesure a produit jusqu’à cette heure à <country>Naples</country> le
+               meilleur effet, en faisant éviter à ces Ministres de se compromettre individuellement
+               et de même de compromettre leurs cours respectives.</p>
+            <p>Plus cette mesure offre d’utilité à la bonne cause, plus le nouveau Gouvernement
+               révolutionnaire s’efforcera de se soustraire à cette gêne ; et il en trouveroit le
+               moyen par des explications isolées qu’il pourroit provoquer dans les différens pays
+               où il envoit des Agens.</p>
+            <p>Afin de rendre vaine cette tentative, ainsi que les espérances que ce Gouvernement ne
+               manqueroit pas d’y appuyer, et qu’il sauroit au besoin soutenir par les armes du
+               mensonge, le Cabinet Autrichien propose aux quatre autres Cours de se promettre
+               réciproquement que durant la<pb n="8v"/> réunion de <placeName ref="#loc.60"
+                  >Troppau</placeName> aucune d’entr’elles n’entrera isolément en explication
+               quelconques vis-à-vis du Gouvernemen<supplied>t</supplied> de
+                  <country>Naples</country> ou de ses agens ; que, conformément à cette promesse,
+               elles concentreront dans les présentes conférences les informations qui leur
+               arriveroient de <country>Naples</country>, de même que les insinuations qui
+               pourroient leur être faites ; et qu’enfin elles ne passeront point à des réponses ou
+               même à des explications, à moin<supplied>s</supplied> qu’au préalable celles-ci
+               n’aient été portées à la connoissance de la conférence.</p>
+            <p>Sur la demande de <choice>
+                  <abbr>Mrs.</abbr>
+                  <expan>Messieurs</expan>
+               </choice> les <rs ref="#p.102 #p.135 #p.121 #p.11 #p.14 #p.136 #p.13 #p.137"
+                  >Ministres des autres</rs> Cours <choice>
+                  <abbr>M<supplied>r.</supplied></abbr>
+                  <expan>Monsieur</expan>
+               </choice> le <persName ref="#p.8"><roleName>Prince</roleName>
+                  <surname>de Metternich</surname></persName> a fait consigner par écrit cette
+               proposition, telle qu’elle est insérée ici.</p>
+            <p rendition="#r"><add>Lu et certifié</add></p>
+            <p><add rendition="#r">à la Séance du <date when="1820-11-07">7 Novem<damage
+                        agent="binding"><supplied>bre</supplied></damage></date></add></p>
+            <signed rendition="#r"><persName ref="#p.5"><surname>Gentz</surname></persName></signed>
+         </div>
+
+         <div hand="#A" decls="#m.2">
+            <pb n="9r"/>
+            <p><placeName ref="#loc.60">Troppau</placeName> ce <date when="1820-10-29">29 Octrobre
+                  1820</date></p>
+            <p>Le Cabinet Prussien a voué la plus sérieuse attention au contenu du Mémoire que <choice>
+                  <abbr>Mr.</abbr>
+                  <expan>Monsieur</expan>
+               </choice> le <persName ref="#p.8"><roleName>Prince</roleName>
+                  <surname>de Metternich</surname></persName> a présenté <ref
+                  target="Troppau_Prot_1.xml">à la Conférence le <date when="1820-10-23">23 de ce
+                     mois</date></ref>.</p>
+            <p>Il en faudroit bien moins que les considérations exposées dans ce mémoire pour donner
+               au Cabinet Prussien, s’il ne l’avoit déjà eue, la conviction entière que la
+               révolution de <country>Naples</country> ne sauroit sous aucun rapport rester
+               étrangère à la politique, à la juste sollicitude et aux calculs les plus
+               indispensables des Puissances alliées.</p>
+            <p>Toute la pensée de Sa Majesté le <rs ref="#p.18">Roi de Prusse</rs> sur les causes et
+               le principe de cette révolution, sur le moyen par lequel elle a été opérée, et sur
+               les conséquences qu’on doit en redouter, se trouvant exprimée dans les instructions
+               données au <rs ref="#p.136">Ministre de <rs ref="#p.18">Sa Majesté</rs> à la Cour de
+                     <placeName ref="#loc.7">Vienne</placeName></rs>, le Cabinet Prussien, pour ne
+               pas se répéter inutilement, croit devoir aujourd’hui soumettre ces instructions dans
+               toute leur étendue à Messieurs <rs
+                  ref="#p.8 #p.40 #p.102 #p.135 #p.121 #p.14 #p.13 #p.137">les Plénipotentiaires
+                  actuellement réunis</rs>.</p>
+            <p>La Conférence y trouvera les questions de savoir :</p>
+            <p>- Si les Puissances ont le droit d’intervenir dans les affaires de
+                  <country>Naples</country> ?</p>
+            <p>- Si l’<country>Autriche</country> a été fondée à prendre les mesures de
+                  précaution<pb n="9v"/> qu’elle a adoptées ? et</p>
+            <p>- Si cette Puissance peut se croire autorisée à réclamer l’appui moral de ses
+               Alliés ?</p>
+            <p>Assez amplement traitées pour qu’il ne reste au Cabinet Prussien rien à ajouter à cet
+               égard.</p>
+            <p>Si, en invitant ses augustes alliés à Lui accorder leur appui moral, Sa Majesté l’<rs
+                  ref="#p.16">Empereur d’Autriche</rs> s’est cru tenu à leur offrir des garanties de
+               la pureté de Ses intentions et du désintéressement de Ses vues, le Cabinet Prussien
+               hésite d’autant moins à juger suffisantes celles que présente le mémoire Autrichien
+               que les alliés possèdent à cet égard une garantie bien supérieure à toute
+               protestation dans le caractère et les principes de l’auguste Monarque, qui n’a pas
+               hésité à s’armer seul pour une cause que tous les Gouvernemens de l’Europe, qui ont
+               encore une existence légitime à défendre, doivent reconnoître pour la leur.</p>
+            <p>Quant aux formes, sous lesquelles on voudra énoncer ou manifester un accord de vues
+               et de principes entre l’<country>Autriche</country> et ses alliés, la
+                  <country>Prusse</country> accorderoit la préférence à celle qui seroit le moins
+               susceptible de laisser subsister aucun doute sur la<pb n="10r"/> sincérité et
+               l’intégrité de cet accord. Elle concourroit par conséquent de grand cœur à une
+               déclaration solennelle, tendant à professer à la face de l’Europe les principes
+               sociaux et les vues conservatrices et tutélaires des Puissances alliées. Mais ne
+               méconnoissant pas les difficultés que quelques-unes de ces Puissances rencontrent à
+               cet égard, la <country>Prusse</country> n’hésitera pas à acquiescer à toute autre
+               forme propre à amener une unanimité, au défaut de laquelle aucune déclaration, quelle
+               qu’en fût la forme, ne pourroit entièrement remplir son but. Voudra-t-on que
+                  l’<country>Autriche</country> parle seule au public, en rapportant ses résolutions
+               et ses mesures aux principes et aux traités qui la lient avec ses alliés ? Ou bien
+               jugera-t-on convenable que ces derniers n’émettent leurs avis que par des ouvertures
+               qu’ils adresseroient séparément aux Cours de l’Europe par les voies ordinaires de la
+               diplomatie ? Dans les deux cas la <country>Prusse</country>, toujours prête à
+               sacrifier son opinion particulière à l’accord commun, ne feroit aucune difficulté
+               d’adopter la proposition qui réuniroit les suffrages des autres Cours alliées.</p>
+            <p>Si après l’affranchissement du<pb n="10v"/>
+               <rs ref="#p.138">Souverain légitime de <country>Naples</country></rs> les bons
+               offices des Puissances alliées peuvent être jugés nécessaires ou utiles pour rasseoir
+               un régime légal sur des bases solides et équitables, la <country>Prusse</country> ne
+               refusera pas les siens, et elle est dès aujourd’hui prête à ouvrir des délibérations
+               à ce sujet et à les étendre aux deux propositions faites préalablement par
+                  l’<country>Autriche</country> : l’une, qu’il soit établi dans le <country>Royaume
+                  de Naples</country> une armée d’occupation au nom et sous la responsabilité de la
+               totalité des Puissances alliées ; l’autre, de faire servir à cette même époque
+               l’intervention des alliés à rétablir ou à déterminer pour l’avenir le sens et la
+               valeur <ref target="Troppau_Prot_1.xml">des stipulations secrèttes du <rs ref="#t.43"
+                     >traité de 1815</rs></ref> entre Leurs Majestés l’<rs ref="#p.16">Empereur
+                  d’Autriche</rs> et le <rs ref="#p.138">Roi des deux-Siciles</rs>.</p>
+         </div>
+
+         <div hand="#A" decls="#m.3">
+            <pb n="11r"/>
+            <p><title>Instruction pour le <rs ref="#p.136">Ministre du <rs ref="#p.18">Roi</rs> à la
+                     cour de <placeName ref="#loc.7">Vienne</placeName></rs></title></p>
+            <p><placeName ref="#loc.9">Berlin</placeName> le <date when="1820-10-08">8 Octrobre
+                  1820</date>.</p>
+            <p>Votre Excellence connait à fond l’impression que le <rs ref="#p.18">Roi</rs>, notre
+               maître, avait conçue, et le jugement que <rs ref="#p.18">Sa Majesté</rs> a porté de
+               la révolution d’<country>Espagne</country>, qui a offert à l’Europe surprise
+               l’exemple d’une poignée d’officiers conjurés et de soldats séduits, disposer non
+               seulement de l’autorité du <rs ref="#p.150">Roi</rs> mais de l’ordre légal tout
+               entier, attaquer la royauté bien plus encore que la personne du Roi, imposer à main
+               armée <rs xml:id="n.4">une constitution</rs><note type="editorial" target="#n.4">Zur
+                  spanischen Verfassung von Cádiz, veröffentlicht am 19. März 1812 und am 8. März
+                  1820 durch König Ferdinand VII. erneut in Kraft gesetzt, vgl. Timmermann, Die
+                  „Gemäßigte Monarchie“; BFSP Bd. 6 (1819/20), S. 237–279; Brand, Schlegelmilch,
+                  Kirsch (Hgg.), Quellen. Zur Revolution vgl. Späth, Revolution in Europa, S.
+                  117–128.</note> à leur prince et à leur nation, décorer leur crime du nom de
+               vertu, appeler le parjure un devoir, la révolte un dévouement, faire tenir le même
+               langage à leurs concitoyens égarés et à leur <rs ref="#p.150">Roi</rs> avili,
+               demander et recevoir l’éloge et les récompenses dus à la fidélité.</p>
+            <p>À cette époque, les principes conservateurs de justice et d’ordre, qui servent de
+               base au grand système Européen, auraient incontestablement<pb n="11v"/> autorisé et
+               semblaient devoir engager les Alliés à se prononcer avec force contre ce renversement
+               de toutes les idées et de toutes les loix.</p>
+            <p>Aussi Sa Majesté l’<rs ref="#p.17">Empereur de Russie</rs>, provoqué en son
+               particulier par une notification dans laquelle on avait osé énoncer la supposition
+               injurieuse que ce Souverain applaudirai<supplied>t</supplied> à l’œuvre impie qui
+               attaque jusqu’aux racines de l’ordre social, crut devoir à sa dignité de condamner
+               hautement les principes et les moyens de la révolution d’<country>Espagne</country>
+               et, en le faisant, Il n’exprime que ce que sentaient et pensaient <rs
+                  ref="#p.16 #p.15 #p.130 #p.18">ses augustes alliés</rs>. Si ceux-ci, non aussi
+               directement interpellés de parler, préféraient de garder le silence, ils y étaient
+               portés par des considérations graves et, à leurs yeux, impérieuses. Ils pensaient
+               qu’un langage quelconque ne mènerait guères au but s’il n’était appuyé par des moyens
+               d’action, et toute action était difficile, pour ne pas dire impossible. On ne pouvait
+                  atteindre<pb n="12r"/> l’<country>Espagne</country> ; on ne le pouvait du moins
+               que par la <country>France</country> et avec elle. Mais dans la situation politique
+               où cette dernière se trouvait, toute tentative de ce genre, faite de sa part ou de
+               celle des alliés, aurait compromis sa tranquillité ; or cette tranquillité importait
+               plus aux alliés et au monde civilisé que tout le reste. Le premier intérêt comme le
+               premier devoir était de la maintenir à tout prix.</p>
+            <p>En effet, la situation géographique de l’<country>Espagne</country> et son état moral
+               devant la faire envisager comme également inaccessible aux armes et aux conseils des
+               alliés, ceux-ci pouvaient se croire bien fondés à préférer à la chance peu propice
+               que leur présentait une intervention que l’amour propre blessé ou compromis des
+               Espagnols, ainsi que leur jalousie et leur méfiance contre les étrangers, devaient
+               selon toute proba<supplied>bi</supplied>lité rendre ou inefficace ou nuisible celle
+               de voir expirer dans ses propres excès un jacobinisme enfanté par la révolte
+               militaire.</p>
+            <pb n="12v"/>
+            <p>L’Europe était à peine un peu revenue du juste effroi que lui avait causé le
+               bouleversement de l’<country>Espagne</country> lorsqu’un bouleversement encore plus
+               inattendu, plus criminel dans son principe, plus révoltant par ses circonstances,
+               plus dangereux dans ses effets, est venu lui révéler toute l’activité de la contagion
+               et lui montrer à nud toute l’étendue et toute la grandeur du mal qui menace la
+               civilisation.</p>
+            <p>La révolution de <country>Naples</country>, avant d’être opérée par les bras des
+               soldats, avait été préparée par <rs xml:id="n.5">une société secrète</rs>,<note
+                  type="editorial" target="#n5">Anspielung auf die Carbonari, vgl. z. B.
+                  Falcionelli, Les sociétés secrètes italiennes; Rath, The Carbonari.</note> et
+               cette circonstance, qui la distingue principalement de celle
+                  d’<country>Espagne</country>, suffirait seule pour la rendre beaucoup plus
+               dangereuse. Ces sociétés secrètes, le dissolvant le plus actif des corps politiques,
+               aussi criminelles dans leurs buts que dans leurs moyens, marchent d’autant plus
+               sûrement qu’elles marchent à l’ombre, souminent dans toute l’Europe les trônes pour
+               les renverser un jour plus facilement, et forment une puissance<pb n="13r"/> d’autant
+               plus redoutable qu’elle est invisible, mystérieuse, et qu’elle dirige et porte ses
+               coups sans qu’on puisse le plus souvent ni les prévoir, ni les éviter.</p>
+            <p>Depuis longtems l’existence de ces sociétés était dévoilée aux gouvernemens d’Italie,
+               mais on ne connaissait ni leur nombre, ni leurs forces, ni leurs plans d’exécution
+               jusqu’au moment où elles ont fait à <country>Naples</country> l’essai le plus soudain
+               et le plus terrible de leur pouvoir. L’affinité entre ces sociétés et les fauteurs
+               des idées révolutionnaires qui, sous différentes dénominations, agitent
+                  l’<country>Angleterre</country> et la <country>France</country> et font fermenter
+               l’Allemagne n’est plus aujourd’hui un problème, et si le triomphe que les Carbonari
+               viennent de remporter à <country>Naples</country> devenait durable et décisif, l’on
+               ne saurait calculer jusqu’à quel point il doublerait le courage, les forces et
+               l’audace de leurs partisans et de leurs affiliés dans les autres pays. Et il n’est<pb
+                  n="13v"/> d’armée en Europe que l’on pourrait croire entièrement à l’abri de la
+               séduction que lui présenteroient le succès et l’impunité des conspirations dont la
+               tentative seule – si elle se reproduisait ailleurs – serait un mal incalculable.</p>
+            <p>La révolution de <country>Naples</country> est envahissante et annonce clairement
+               qu’elle ne pourra, ni ne voudra s’arrêter sur les confins du pays où elle a pris
+               naissance. Déjà les Napolitains ont fait un essai sur <placeName ref="#loc.62"
+                  >Ponte-Corvo</placeName> et <placeName ref="#loc.63">Bénévent</placeName>, et il
+               n’y a qu’un reste de timidité qui les a empêchés de donner plus de suite à des
+               projets plutôt ajournés qu’abandonnés. En effet, le système des Carbonari, qui ne
+               leur fait rêver rien moins que la liberté absolue, l’unité parfaite et l’indépendance
+               entière de l’Italie leur fait en quelque sorte la loi d’étendre de plus en plus les
+               ravages de leurs principes et de leurs menées. Quelle que soit l’animosité des
+               différentes parties de l’Italie l’une contre<pb n="14r"/> l’autre, et les différences
+               qui tiennent à leur ancienne histoire et les portent à l’isolement, les rapports de
+               ressemblance de la langue, du caractère, de la façon de voir et de sentir ne peuvent,
+               dans le moment d’une effervescence générale, que trop facilement l’emporter sur ces
+               différentes causes de désunion et faire germer dans toutes les têtes les mêmes idées
+               et les mêmes espérances.</p>
+            <p>Tout se réunit donc à imposer aux <rs ref="#p.16 #p.15 #p.130 #p.18 #p.17">Souverains
+                  alliés</rs>, aux gardiens naturels de l’ordre social et de la liberté publique,
+               l’obligation de quitter par rapport à l’Italie la ligne de réserve qu’ils s’étaient
+               forcément prescrite pour les affaires d’<country>Espagne</country>. Le but de leur
+               union est de garantir l’indépendance de tous les Etats dans l’enceinte des limites
+               que les traités leur tracent, et la tranquillité des peuples par le maintien de
+               l’autorité légitime. Asseoir la paix générale sur le règne de la justice et la vraie
+               liberté sur la stabilité de l’ordre public, tel est l’objet et l’esprit de leur <rs
+                  ref="#t.9">sainte association</rs>.<pb n="14v"/> La route du désordre et du crime
+               est tracée ; que le second essai de bouleversement ne soit ni réprimé, ni puni, et
+               d’autres essais suivant, et c’en sera fait de tous les bienfaits et de toutes les
+               richesses de la civilisation.</p>
+            <p>Ces graves considérations n’ont pas échappé <rs ref="#p.16 #p.15 #p.130 #p.18 #p.17"
+                  >aux Souverains alliés</rs>.</p>
+            <p>Convaincus de la nécessité de mettre un terme aux entreprises révolutionnaires dont
+                  <country>Naples</country> venait d’être la victime, ils se sont rencontrés, avant
+               même de s’être concertés, dans deux idées toutes simples : l’une, que l’initiative
+               des propositions à faire et des mesures à prendre devait être abandonnée à
+                  l’<country>Autriche</country> ; l’autre, que les Alliés devaient prêter à cette
+               puissance la force morale de leur assentiment et d’un entier concert avec elle.</p>
+            <p>L’<country>Autriche</country> a non seulement le droit, mais elle se reconnait aussi
+               l’obligation de se charger de cette initiative. La défense légitime d’elle-même et
+               les devoirs de<pb n="15r"/> l’<rs ref="#p.16">Empereur</rs>
+               <rs xml:id="n.6">comme Souverain de vastes et riches provinces en Italie</rs><note
+                  type="editorial" target="#n.6">1814 wurden die Lombardei und Venetien ein Teil des
+                  Kaisertums Österreich und bildeten das Königreich Lombardo-Venetien. Vgl.
+                  Gottsmann, Malfèr, Die Vertretungskörperschaften; Helfert, Kaiser Franz von
+                  Österreich; Rath, The Provisional Austrian Regime; Pesendorfer, Eiserne
+                  Krone.</note> lui font la loi d’opposer une digue aux flots de la révolution qui
+               ont couvert le <country>royaume de Naples</country>, et de ne négliger aucune
+               précaution pour arrêter la contagion de l’exemple. Les <rs ref="#t.43">traités
+                  particuliers, qui lient l’<rs ref="#p.16">Empereur</rs> au <rs ref="#p.138">Roi de
+                     Naples</rs></rs>, ont d’ailleurs créé pour <rs ref="#p.16">Sa Majesté
+                  Impériale</rs> des obligations et des titres qui n’existent pas pour les autres
+               Puissances.</p>
+            <p>L’<country>Autriche</country> a reconnu dès le premier moment de l’explosion et la
+               gravité des circonstances et l’étendue de ses devoirs, ses dangers et ses ressources,
+               les besoins des peuples de l’Italie et les obligations que ces besoins lui imposent.
+               Ses Alliés se plairont à lui rendre la justice de dire qu’elle a senti toute la
+               hauteur du rôle auquel les événemens l’appelaient, et qu’elle s’est placée de prime
+               abord à son niveau. Sa résolution a été prise sans hésitation ; elle l’a communiquée
+               à ses alliés avec une entière et<pb n="15v"/> juste confiance, et avec cette
+               franchise qui est inséparable d’une politique désintéressée ; elle s’est hâtée
+               d’exécuter ce qu’elle avait résolu, et dédaignant des calculs timides sur les
+               sacrifices, les dépenses, les difficultés de son entreprise, elle a doublé ses forces
+               par la célérité qu’elle a mise à les déployer.</p>
+            <p>Aujourd’hui, qu’elle a réuni sur ses frontières une armée formidable et prête à
+               entrer en campagne, la première question est sans doute de savoir quel usage elle en
+               fera. Se contentera-t-elle de couvrir ses provinces, ou ira-t-elle attaquer le mal
+               dans sa source et l’étouffer dans son principe ? Attendra-t-elle qu’on réclame ses
+               secours, ou préviendra-t-elle cette demande dans la crainte que, si elle l’attendait,
+               il ne fût trop tard de les accorder ?</p>
+            <p>Quels que soyent les espérances, les vœux, les présomptions que l’on attache à ces
+               questions, le triomphe de la bonne cause semble exiger<pb n="16r"/> que le calcul des
+               diverses chances que présente cette grave alternative soit abandonné à
+                  l’<country>Autriche</country> seule, et qu’on lui laisse l’initiative dans toute
+               son étendue.</p>
+            <p>Mais que son dessein se borne pour le moment à opposer une barrière aux invasions
+               ultérieures de la révolution, ou qu’elle juge devoir aller en éteindre les feux dans
+               le foyer même, elle ne saurait se flatter d’obtenir des succès complets et durables
+               qu’en appuyant l’emploi de ses forces matérielles de la force morale d’un accord
+               intime, entier et hautement prononcé avec ses alliés.</p>
+            <p>La cour de <placeName ref="#loc.7">Vienne</placeName> a trop bien senti cette vérité
+               pour ne pas être la première à énoncer le désir de voir, dans la circonstance
+               critique du moment, cet accord de vues et de principes constaté et manifesté de
+               manière à donner à l’Europe entière la conviction que rien n’a ébranlé la force, ni
+               altéré la nature de <rs ref="#t.9">l’alliance sociale et chrétienne des
+                  Souverains</rs>, que<pb n="16v"/> ceux-ci sont toujours résolus de maintenir <rs
+                  ref="#t.13 #t.12 #t.1 #t.6 #t.42 #t.9">le système solidaire de l’Europe tel qu’il
+                  repose sur les traités</rs>, et de défendre la liberté légale des peuples en
+               défendant les gouvernemens légitimes contre les attaques de la violence et de la
+               perfidie, et que partout où peuvent pénétrer les forces de la grande confédération
+               Européenne, les perturbateurs de l’ordre public trouveront toujours dans les
+               Souverains alliés des juges sévères et, s’il le faut, des vengeurs puissans et
+               inévitables.</p>
+            <p>La confiance que l’<country>Autriche</country> a dans cette importante occasion
+               montrée à ses alliés ne l’a pas trompée. Elle a recueilli de la part de tous les
+               mêmes témoignages d’approbation et les mêmes preuves de cette identité de principes
+               et de sentimens qui fait aujourd’hui la principale garantie de la sûreté de
+               l’Europe ; elle a rencontré partout la disposition la moins équivoque à regarder la
+               cause dont elle a<pb n="17r"/> sans hésitation fait la sienne comme celle de l’Europe
+               entière. Cela devait arriver ; car il ne peut y avoir deux manières d’envisager et de
+               juger l’origine, la nature et les conséquences de la révolution de
+                  <country>Naples</country> pour qui ne fonde ses droits que sur ses devoirs, ne
+               considère l’ordre social que dans l’intérêt des peuples, et ne veut maintenir et
+               défendre l’autorité légitime que pour asseoir la liberté générale sur le règne des
+               loix et le bonheur public sur le perfectionnement graduel du méchanisme social. Si,
+               dans l’opinion des Alliés, il s’est manifesté de légères différences, elles
+               n’existent que par rapport à l’application des principes qui sont communs à tous, et
+               aux formes à donner aux délibérations, destinées à amener un concert que tous
+               désirent, que tous regardent comme indispensable.</p>
+            <p>La <country>Prusse</country>, constamment disposée à tout ce qui peut resserrer les
+               liens qui l’unissent à ses alliés, consolider<pb n="17v"/> le nouveau système
+               Européen, calmer ou prévenir l’agitation des peuples, s’est empressée de déclarer à
+                  l’<country>Autriche</country> qu’en applaudissant de grand cœur à ses mesures,
+               elle était prête à les seconder par la profession la plus franche et la plus haute de
+               ses principes et de ses sentimens.</p>
+            <p>L’<rs ref="#p.17">Empereur de Russie</rs>, toujours jaloux de maintenir le grand
+               ouvrage auquel il a si puissamment coopéré, qui ne place rien au dessus du respect
+               des traités et de la foi réciproque des Souverains et des peuples, qui puise les
+               résolutions de sa politique non dans les calculs étroits de l’égoïsme, mais dans les
+               inspirations d’une âme magnanime, et qui ne voit dans les forces puissantes que la
+               Providence lui a confiées que des moyens d’assurer le règne de la justice et de la
+               paix, est allé au devant des vœux de l’<country>Autriche</country> avec le même
+               empressement et la même cordialité. <rs xml:id="n.7">Il a désiré qu’on lui offrit les
+                  moyens d’annoncer et de prouver<pb n="18r"/> aux ennemis de l’ordre social de la
+                  manière la moins équivoque son inébranlable attachement aux principes
+                  conservateurs qui servent aujourd’hui de base au système Européen, et sa ferme
+                  résolution de les défendre et de les soutenir à tout prix.</rs><note
+                  type="editorial" target="#n.7">Vgl. dazu russische Réponse aux communications de
+                  l’Autriche et de la France, en date du mois d’Aout 1820, à être adressée
+                  circulairement aux Cours de Vienne, de Paris, de Londres et de Berlin, o. D.; in:
+                  ÖStA, HHStA, St.K., Kongressakten, Kart. 21, Fasz. 38, fol. 28–35.</note></p>
+            <p>La <country>Russie</country> et la <country>Prusse</country>, ayant par la nature
+               même de leurs gouvernemens les mains libres, peuvent et pourront s’expliquer sans
+               réserve.</p>
+            <p>Les formes représentatives des monarchies de <country>France</country> et
+                  d’<country>Angleterre</country> présentent aux gouvernemens de ces deux Etats dans
+               la politique extérieure souvent des facilités particulières, mais souvent aussi des
+               difficultés qui peuvent rendre leur marche moins décidée, et apporter plus de retenue
+               à leur langage public. Cependant la <country>France</country>, dans cette
+               circonstance importante, n’a pas hésité un moment à se placer sur la même ligne avec
+               les autres Puissances. <rs xml:id="n.8">Elle a été même la première à signaler la
+                  nature et l’étendue du danger et les moyens<pb n="18v"/> de le conjurer.</rs><note
+                  type="editorial" target="#n.8">Frankreich hatte bereits am 10. August 1820 die
+                  Einberufung eines Kongresses vorgeschlagen; vgl. Jarrett, The Congress of Vienna,
+                  S. 239.</note></p>
+            <p>Le gouvernement Français, qui ne fait que sortir d’une lutte avec ses ennemis de
+               l’intérieur où toute sa sagesse et toute sa fermeté ont à peine suffi pour assurer
+               son triomphe, doit sans doute plus que personne avoir la mesure des dangers qui ne
+               sont guères plus les siens que ceux de l’Europe entière.</p>
+            <p>En effet, s’il voit avec raison le plus grand de tous les dangers dans la réaction
+               inévitable que vont exercer sur la <country>France</country> les nouveaux progrès de
+               cette fureur révolutionnaire qui, pour avoir changé de terrain, n’a changé ni de but,
+               ni de moyens, il doit se croire d’autant plus en droit d’y appeler l’attention la
+               plus sérieuse des Puissances alliées, que depuis longtems celles-ci ont dû se
+               convaincre que c’est plus que jamais des destinées de la <country>France</country>
+               que dépend le salut ou la perte de l’Europe.</p>
+            <p>Si jusqu’ici le Gouvernement Britannique ne s’est pas prononcé<pb n="19r"/> aussi
+               ouvertement, il n’a cependant laissé à ses Alliés aucun doute ni sur la manière dont
+               il juge la révolution de <country>Naples</country>, ni sur les vœux qu’il forme par
+               rapport à cette funeste catastrophe. Et en effet, comment douterait-on de ses
+               principes après qu’il a combattu les radicaux et sévi contre leurs attentats avec une
+               fermeté et une vigueur qui garantissent à l’Europe de quel œil il doit envisager les
+               entreprises du même genre qui ont été conçues et exécutées ailleurs avec le plus
+               déplorable succès. Après avoir si puissamment contribué à briser le joug que la
+                  <country>France</country> révolutionnaire et le despotisme de <persName
+                  ref="#p.50"><surname>Buonaparte</surname></persName> avaient imposé au continent
+               Européen, l’<country>Angleterre</country> restera fidèle à sa haute destination et
+               concourra à sauver ce qui reste de liberté légale en Europe, et à préserver des
+               horreurs de la licence et de l’anarchie des nations qui lui doivent en grande partie
+               l’existence paisible et honorable dont elles jouissent aujourd’hui.</p>
+            <p>Mais si les Alliés de l’<country>Angleterre</country> peuvent, avec la confiance la
+                  mieux<pb n="19v"/> fondée, compter qu’elle fera sous ce rapport tout ce qui
+               peut-être censé compatible avec sa position particulière, il est juste, il est
+               indispensable qu’à leur tour ils considèrent et apprécient avec un intérêt
+               bienveillant et impartial cette position particulière qui commande la plus rigoureuse
+               circonspection à un gouvernement placé à côté d’une opposition active et
+               malveillante, exposé dans toutes ses actions et dans toutes ses paroles à des
+               interprétations aussi fausses que malignes, et devant constamment craindre de fournir
+               de nouvelles armes ou de nouveaux prétextes à ceux qui, de bonne foi ou contre leur
+               conscience, confondent sans cesse la liberté avec la licence pour accuser les
+               gouvernemens de vouloir opprimer la première, lorsqu’ils ne font que réprimer la
+               seconde.</p>
+            <p>En effet, ce serait bien mal payer à la <country>Grande-Bretagne</country> les
+               services qu’elle a rendus à l’Europe et se méprendre entièrement sur la nature de
+               ceux qu’on peut encore se promettre de sa part que<pb n="20r"/> de lui refuser sous
+               ce rapport les ménagemens et les déférences qu’elle pourra se croire forcée à
+               demander à ses Alliés.</p>
+            <p>Quant aux formes, sous lesquelles on peut constater et énoncer l’union constante et
+               l’accord entier des alliés, il s’en est présenté plusieurs qui ont toutes leurs
+               avantages, qui, à des degrés différens, peuvent toutes mener au but que l’on peut
+               concilier ou entre lesquelles on peut choisir.</p>
+            <p>La réunion qui aura lieu à <placeName ref="#loc.60">Troppau</placeName> offrira un
+               grand moyen de concert ; mais les circonstances l’ayant rendue un peu tardive, l’idée
+               d’ouvrir incontinent des conférences à <placeName ref="#loc.7">Vienne</placeName> et
+               de déposer le plutôt possible dans ce foyer de délibérations la pensée entière des
+                  <rs ref="#p.16 #p.15 #p.130 #p.18 #p.17">augustes Souverains alliés</rs> doit
+               paraître aussi juste et naturelle que conforme aux besoins du moment.</p>
+            <p>La Cour de France a été la première à énoncer l’idée d’une déclaration unanime,
+               destinée à manifester l’union non altérée des Puissances alliées, à exprimer
+               l’indignation et l’horreur<pb n="20v"/> qu’elles ont conçues d’une révolution
+               concertée dans les loges ténébreuses des sectaires et opérée par la révolte
+               militaire, et à faire connaître à l’Europe entière leur intention positive de faire
+               servir leur accord à rétablir la tranquillité de l’Italie sur la base des traités
+               existans, et à rendre au <rs ref="#p.138">Roi de Naples</rs> et à la nation
+               Napolitaine, également asservis par des soldats séditieux et une secte criminelle, la
+               liberté de rasseoir l’ordre public par des voyes légales et d’un commun accord sur
+               des fondemens solides.</p>
+            <p>Une déclaration conçue dans ce sens ne rencontrerait aucune difficulté de la part de
+               la <country>Prusse</country> qui, jalouse de concourir en tout ce qui dépend d’elle à
+               une unanimité qui est à ses yeux la première condition du salut de l’Europe, donnera
+               son adhésion à tous les termes qui seront proposés par l’<country>Autriche</country>
+               et approuvés par la <country>Russie</country>, et dont le choix pourra également
+               obtenir l’acquiescement et<pb n="21r"/> assurer le concours de la
+                  <country>France</country> et de la <country>Grande-Bretagne</country>.</p>
+            <p>Il ne reste qu’à parler des propositions préalables que l’<country>Autriche</country>
+               vient de soumettre à ses Alliés.</p>
+            <p>Elle désire en premier lieu que ceux-ci s’engagent à regarder le <country>royaume de
+                  Naples</country> comme étant dans un état de révolte contre son <rs ref="#p.138"
+                  >Souverain légitime</rs>, à ne reconnaître aucune authenticité légale aux actes du
+               gouvernement révolutionnaire, à ne recevoir aucun agent de sa part et à n’entrer avec
+               lui dans aucune explication qu’après un concert préalable entre eux.</p>
+            <p>La <country>Prusse</country> voit pour sa part d’autant moins de difficultés à
+               prendre cet engagement qu’il répond entièrement aux impressions qu’elle a conçues de
+               la révolution de <country>Naples</country>, et qu’elle a du premier moment regardé
+               cet engagement comme tacitement existant. Aussi a-t-elle sans hésitation parlé et agi
+               en conséquence. Le <rs ref="#p.18">Roi</rs> a jugé devoir laisser non-ouverte et sans
+               réponse la lettre par laquelle le <rs ref="#p.138">Roi des deux-Siciles</rs> Lui a
+                  notifié<pb n="21v"/> le changement que son royaume venait de subir, lettre qui
+               avait été indubitablement dictée à cet infortuné Souverain par le parti même qui l’a
+               asservi à ses vues criminelles. <rs ref="#p.18">Sa Majesté</rs> n’avait jamais douté
+               que <rs ref="#p.16 #p.15 #p.130 #p.17">ses augustes alliés</rs> n’en usassent de
+               même, et Elle a vu avec satisfaction sa supposition se confirmer de toute part.</p>
+            <p>L’<country>Autriche</country> désire de plus :</p>
+            <p>1) Que les Ministres des <rs ref="#p.16 #p.15 #p.130 #p.18 #p.17">Souverains
+                  alliés</rs> dans les Cours étrangères soient instruits de tenir un langage
+               uniforme et propre à faire connaître l’accord entier des sentimens des Cours alliées
+               par rapport aux causes et à la nature de la révolution de <country>Naples</country> ;
+               et</p>
+            <p>2) Que <rs ref="#p.102 #p.137 #p.136 #p.121">les représentans de <rs
+                     ref="#p.16 #p.15 #p.130 #p.18 #p.17">ces mêmes Souverains</rs> à <placeName
+                     ref="#loc.7">Vienne</placeName></rs> soient chargés d’y ouvrir des conférences
+               conjointement avec le Cabinet Autrichien et de déposer dans ce centre commun les
+               idées, les vœux et les déterminations de leurs Cours respectives.</p>
+            <p>Cette seconde partie des demandes de la Cour de <placeName ref="#loc.7"
+                  >Vienne</placeName> a été remplie<pb n="22r"/> d’avance par la
+                  <country>Prusse</country> ou va l’être par la présente instruction qui, tout comme
+               elle expose les idées sur lesquelles ont été fondées les directions données aux
+               Envoyés de <country>Prusse</country> près des Cours étrangères, fera aussi la règle
+               positive et invariable de la conduite que <rs ref="#p.136">Votre Excellence</rs> aura
+               à tenir dans une circonstance aussi intéressante que critique. Vous voudrez par
+               conséquent, <rs ref="#p.136">Monsieur le Baron</rs>, dès ce moment vous regarder
+               comme autorisé à prendre part à la conférence ministérielle qui, si les propositions
+               de l’<country>Autriche</country> sont agréés par tous les Alliés, va se former à
+                  <placeName ref="#loc.7">Vienne</placeName>, à y déposer la pensée toute entière du
+                  <rs ref="#p.18">Roi</rs>, et à concourir à toutes les résolutions qui, sans
+               préjuger les mesures ultérieures qui pourront sortir de la réunion de <placeName
+                  ref="#loc.60">Troppau</placeName>, seraient d’un commun accord censées réclamées
+               par les besoins du moment.</p>
+         </div>
+
+         <div hand="#A" decls="#m.4">
+            <pb n="23r"/>
+            <p><add hand="#AmB" place="top"><date when="1820-10-29">29/20</date></add></p>
+            <p><add place="top" hand="#AmB">C</add></p>
+            <p><placeName ref="#loc.60">Troppau</placeName>, le 17/<date when="1820-10-29">29
+                  Octobre 1820</date>.</p>
+            <p><choice>
+                  <abbr>Mr.</abbr>
+                  <expan>Monsieur</expan>
+               </choice> le <persName ref="#p.8"><roleName>Prince</roleName>
+                  <surname>de Metternich</surname></persName> demande si les communications qu’il a
+               faites dans <ref target="Troppau_Prot_1.xml">la conférence du <date when="1820-10-20"
+                     >20 octobre</date></ref> donneront lieu à quelques observations de la part des
+               Plénipotentiaires.</p>
+            <p><choice>
+                  <abbr>Mr.</abbr>
+                  <expan>Monsieur</expan>
+               </choice> le Secrétaire d’Etat <persName ref="#p.13"><roleName>Comte</roleName>
+                  <surname>de Nesselrode</surname></persName> déclare que l’<rs ref="#p.17">Empereur
+                  de Russie</rs> a pris connoissance du dernier mémoire Autrichien, et qu’il partage
+               entièrement les vœux énoncés par la Cour de <placeName ref="#loc.7"
+                  >Vienne</placeName>. D’accord avec <rs ref="#p.16" xml:id="n.9">Sa Majesté
+                  Impériale et Royale Apostolique</rs>,<note type="editorial" target="#n.9"
+                  >Ehrentitel des Kaisers von Österreich.</note> il considère comme un devoir sacré
+               le devoir d’opposer une digue au torrent des révolutions ; d’arrêter et d’anéantir
+               dans leur source celles qui menacent d’autres pays d’un débordement funeste ; de
+               déployer une action morale et collective partout où cette action peut<pb n="23v"/>
+               produire d’utiles résultats ; d’avoir même recours à la force des armes partout où
+               l’emploi de cette force peut faire atteindre plus rapidement aux Puissances Alliées
+               l’objet de leurs désirs et de leurs obligations. Mais plus il est nécessaire de
+               parvenir à ce grand but, et plus l’<rs ref="#p.17">Empereur</rs> croit essentiel de
+               ne négliger aucun des moyens qu’indiquera la prudence humaine, pour rendre unanime le
+               suffrage des Cabinets Alliés, et pour y associer celui de tous les hommes bien
+               pensans de l’Europe.</p>
+            <p>Le Ministère russe s’occupe, de concert avec les Cabinets d’Autriche et de Prusse, de
+               cet important travail, et il espère se trouver dans peu de jours en mesure de le
+               soumettre aux discussions de la Conférence.</p>
+         </div>
+      </body>
+      <back>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listPlace.xml" xpointer="listPlace"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listPerson.xml"
+            xpointer="listPerson"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listWit.xml" xpointer="listWit"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listOrg.xml" xpointer="listOrg"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listTreaties.xml"
+            xpointer="listTreaties"/>
+      </back>
+   </text>
+</TEI>

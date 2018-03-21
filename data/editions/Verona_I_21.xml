@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">I. Affaires d'Espagne</title>
+            <title type="main">Note Bernstorffs an den preußischen Geschäftsträger in Madrid </title>
+            <title type="sub">Digitale Edition</title>
+            <editor>
+               <persName>
+                  <surname>Schneider</surname>
+                  <forename>Karin</forename>
+               </persName></editor>
+         </titleStmt>
+         <editionStmt>
+            <edition><date>2017-03-13</date></edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Österreichische Akademie der Wissenschaften, Institut für Neuzeit- und
+               Zeitgeschichtsforschung</publisher>
+            <pubPlace>Wien</pubPlace>
+            <idno>V_I_21</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="m.1" type="Lithographie">
+               <msIdentifier>
+                  <settlement>Wien</settlement>
+                  <institution>ÖStA</institution>
+                  <collection>HHStA, Staatskanzlei, Kongressakten</collection>
+                  <idno>
+                     <idno type="Karton">Kart. 23</idno>
+                     <idno type="Faszikel"> Fasz. 43 (alt)</idno>
+                     <idno type="Folia">301-308</idno>
+                  </idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <title>Note <persName ref="#p.12"><surname>Bernstorffs</surname></persName> an
+                        den <rs ref="#p.178">preußischen Geschäftsträger in <placeName ref="#loc.24"
+                              >Madrid</placeName></rs></title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <p>Lithographie</p>
+                  <p>Dokument liegt zweifach ein: Handschriftlich fol. 302–306, Lithographie fol.
+                     301, 307–308. Die Transkription folgt der lithographierten Fassung. Zählung mit
+                     Bleistift in der rechten oberen von fol. 302r: "16".</p>
+
+                  <handDesc>
+                     <handNote xml:id="A">Anonyme Hand</handNote>
+                     <handNote xml:id="A1">Weitere anonyme Hand</handNote>
+                     <handNote xml:id="G">Friedrich Gentz</handNote>
+                     <handNote xml:id="W">Nikolaus Wacken</handNote>
+                     <handNote xml:id="AmB">Anonyme Hand mit Bleistift</handNote>
+                     <handNote xml:id="AmR">Anonyme Hand mit Rotstift</handNote>
+                     <handNote xml:id="M">Metternich</handNote>
+                  </handDesc>
+
+               </physDesc>
+               <history>
+                  <origin><placeName ref="#loc.68">Verona</placeName><date when="1822-11-22">22.
+                        November 1822</date></origin>
+               </history>
+            </msDesc>
+            <listWit corresp="#m.1">
+               <head>Note Bernstorffs an den preußischen Geschäftsträger in Madrid</head>
+               <witness corresp="#w.26"><bibl type="print">Archive diplomatique/ Diplomatisches
+                     Archiv, Bd. 3, S. 428–432;</bibl></witness>
+               <witness corresp="#w.5"><bibl type="print">BFSP Bd. 10 (1822/23), S.
+                  909–912;</bibl></witness>
+               <witness corresp="#w.14"><bibl type="print">Martens, Nouveau Recueil, Bd. 6, S.
+                     178–182.</bibl></witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <appInfo>
+            <application xml:id="docxtotei" ident="TEI_fromDOCX" version="2.15.0">
+               <label>DOCX to TEI</label>
+            </application>
+         </appInfo>
+         <styleDefDecl scheme="css"/>
+         <tagsDecl>
+            <rendition xml:id="su">superscript</rendition>
+            <rendition xml:id="s">strikethrough</rendition>
+            <rendition xml:id="u">underline</rendition>
+            <rendition xml:id="ow">overwritten</rendition>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <abstract>
+            <p>Das preußische Kabinett beauftragt den <rs ref="#p.178">Geschäftsträger in <placeName
+                     ref="#loc.24">Madrid</placeName></rs>, der spanischen Regierung ihre Sichtweise
+               in Hinblick auf die inneren Zustände Spaniens und die daraus resultierenden
+               Konsequenzen auf die Ruhe in Europa nahezubringen und zu erklären, dass vor der
+               Wiederherstellung der Beziehungen zwischen <country>Spanien</country> und den
+               europäischen Mächten der <rs ref="#p.30">spanische König</rs> volle
+               Entscheidungsfreiheit erhalten müsse.</p>
+         </abstract>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div decls="#m.1">
+            <pb n="301r"/>
+            <p><add place="top" hand="#A">16.</add></p>
+            <p><title>Dépêche du Cabinet de <placeName ref="#loc.9">Berlin</placeName>, adressée au
+                     <rs ref="#p.178">Chargé d’Affaires</rs> de <choice>
+                     <abbr>S. M.</abbr>
+                     <expan>Sa Majesté</expan>
+                  </choice> le <rs ref="#p.18">Roi de Prusse</rs> à <placeName ref="#loc.24"
+                     >Madrid</placeName></title></p>
+            <p><placeName ref="#loc.68">Vérone</placeName> le <date when="1822-11-22"
+                     ><supplied>22</supplied> Novembre 1822</date>.</p>
+            <p>Au nombre des objets qui fixoient l’attention et réclamoient la sollicitude des <rs
+                  ref="#p.16 #p.18 #p.17">Souverains</rs> et Cabinets réunis à <placeName
+                  ref="#loc.68">Vérone</placeName>, la situation de l’<country>Espagne</country> et
+               ses rapports avec le reste de l’Europe ont occupé une première place.</p>
+            <p>Vous connoissez l’intérêt que le <rs ref="#p.18">Roi</rs>, notre auguste Maître, n’a
+               jamais cessé de prendre à <rs xml:id="n.1" ref="#p.30"><choice>
+                     <abbr>S. M.</abbr>
+                     <expan>Sa Majesté</expan>
+                  </choice> Catholique</rs><note type="editorial" target="#n.1">Ehrentitel des
+                  Königs von Spanien. </note> et à la Nation espagnole.</p>
+            <p>Cette Nation si distinguée par la loyauté et l’énergie de son caractère, illustrée
+               par tant de siècles de gloire et de vertus, et à jamais célèbre par le noble
+               dévouement et l’héroïque persévérance qui l’ont fait triompher des efforts ambitieux
+               et oppressifs de l’<rs ref="#p.50">usurpateur du Trône de France</rs>, a des titres
+               trop anciens et trop bien fondés à l’intérêt et à l’estime de l’Europe entière pour
+               que les Souverains puissent regarder avec indifférence les malheurs qui l’accablent
+               et ceux dont Elle est menacée.</p>
+            <p>L’événement le plus déplorable est venu subvertir les antiques bases de la Monarchie
+               espagnole, compromettre le caractère de la nation, attaquer et empoisonner la
+               prospérité publique dans ses premières sources.</p>
+            <p><rs xml:id="n.2">Une révolution, sortie de la révolte militaire</rs>,<note
+                  type="editorial" target="#n.2">Zur Revolution in <country>Spanien</country>, die
+                  mit einem Militäraufstand am <date when="1820-01-01">1. Jänner 1820</date> ihren
+                  Anfang nahm, vgl. Späth, Revolution in Europa, S. 117–128. </note> a soudainement
+               rompu tous les liens du devoir, renversé tout ordre légitime et décomposé les élémens
+               de l’édifice social qui n’a pu tomber sans couvrir le pays entier de Ses
+               décombres.</p>
+            <pb n="301v"/>
+            <p>On crut pouvoir remplacer cet édifice, en arrachant à un <rs ref="#p.30"
+                  >Souverain</rs>, déjà dépouillé de toute autorité réelle et de toute liberté de
+               volonté, <rs xml:id="n.3">le rétablissement de la Constitution des Cortes de l’année
+                  1812</rs><note type="editorial" target="#n.3">Verfassung von Cádiz aus dem Jahr
+                  1812, in <country>Spanien</country> wieder eingeführt 1820; vgl. Timmermann, Die
+                  „Gemäßigte Monarchie“; BFSP Bd. 6 (1819/20), S. 237–279; Brand, Schlegelmilch,
+                  Kirsch (Hgg.), Quellen. </note> qui, confondant tous les élémens et tous les
+               pouvoirs, ne partant que du seul principe d’une opposition permanente et légale
+               contre le Gouvernement, devait nécessairement détruire cette autorité centrale et
+               tutélaire, qui fait l’essence du système monarchique.</p>
+            <p>L’événement n’a pas tardé à faire connoître à l’<country>Espagne</country> les fruits
+               d’une aussi fatale erreur.</p>
+            <p>La révolution, c’est-à-dire le déchainement de toutes les passions contre l’ancien
+               ordre de choses, loin d’être arrêtée ou comprimée, a pris un développement aussi
+               rapide qu’effrayant. Le Gouvernement, impuissant et paralysé, n’a plus en aucun moyen
+               ni de faire le bien, ni d’empêcher ou d’arrêter le mal. Tous les pouvoirs se trouvant
+               concentrés, cumulés et confondus dans une assemblée unique ; cette assemblée n’a
+               présenté qu’un conflit d’opinions et de vues, et un froissement d’intérêts et de
+               passions, au milieu desquels les propositions et les résolutions les plus disparates
+               se sont constamment croisées, combattues et neutralisées. L’ascendant des funestes
+               doctrines d’une philosophie désorganisatrice n’a pu qu’augmenter l’égarement général,
+               jusqu’à ce que, selon la pente naturelle des choses, toutes les notions d’une saine
+               politique fussent abandonnées pour de vaines théories et tous les sentimens de
+               justice et de modération sacrifiés aux rêves d’une fausse liberté. Dès lors des
+               institutions établies sous le prétexte d’offrir des garanties contre<pb n="308r"/>
+               l’abus de l’autorité ne furent plus que des instrumens d’injustice et de violence, et
+               un moyen de couvrir ce système tyrannique d’une apparence légale. L’on n’hésita plus
+               à abolir sans ménagemens les droits les plus anciens et les plus sacrés, à violer les
+               propriétés les plus légitimes et à dépouiller l’église de sa dignité, de ses
+               prérogatives et de ses possessions. Il est permis de croire que le pouvoir
+               despotique, exercé par une faction pour le malheur du pays, se seroit plutôt brisé
+               entre ses mains, si les déclamations trompeuses sorties de la Tribune, les
+               vociférations féroces des clubistes et la licence de la presse n’avoient pas comprimé
+               l’opinion et étouffé la voix de la partie saine et raisonnable de la Nation espagnole
+               qui, l’Europe ne l’ignore pas, en forme l’immense majorité. Mais la mesure de
+               l’injustice a été comblée, et la patience des Espagnols fidèles paraît enfin avoir
+               trouvé son terme. Déjà le mécontentement éclate sur tous les points du Royaume, et
+               des provinces entières sont embrasées par le feu de la guerre civile.</p>
+            <p>Au milieu de cette cruelle agitation l’on voit le <rs ref="#p.30">Souverain</rs> du
+               pays réduit à une impuissance absolue, dépouillé de toute liberté d’action et de
+               volonté, prisonnier dans <rs ref="#loc.24">Sa Capitale</rs>, séparé de tout ce qui
+               Lui restait de serviteurs fidèles, abreuvé de dégouts et d’insultes, et exposé du
+               jour au lendemain à des attentats dont la faction, si même elle ne les provoque pas
+               sur lui, n’a conservé aucun moyen de le garantir.</p>
+            <p><rs ref="#p.178">Vous, Monsieur,</rs> qui avez été témoin de l’origine<pb n="308v"/>
+               des progrès et des résultats de la révolution de l’année 1820, Vous êtes à même de
+               reconnoître et d’attester qu’il n’y a rien d’exagéré dans le tableau que je viens
+               d’en tracer rapidement. Les choses en sont venues au point que les Puissances de
+               l’Europe doivent enfin se demander quels sont aujourd’hui et quels seront désormais
+               leurs rapports avec l’<country>Espagne</country>.</p>
+            <p>L’on avait pu se flatter que la maladie affreuse dont l’<country>Espagne</country> se
+               trouve attaquée éprouverait des crises propres à ramener cette ancienne Monarchie à
+               un ordre de choses compatible avec son propre bonheur et avec des rapports d’amitié
+               et de confiance avec les autres Etats de l’Europe. Mais cet espoir se trouve
+               jusqu’ici déçu. L’état moral de l’<country>Espagne</country> est aujourd’hui tel que
+               ses relations avec les Puissances étrangères doivent nécessairement se trouver
+               troublées ou interverties. Des doctrines subversives de tout ordre social y sont
+               hautement prêchées et protégées. Des insultes contre les premiers Souverains de
+               l’Europe remplissent impunément les Journaux. Les sectaires de l’Espagne font courir
+               leurs Emissaires pour associer à leurs travaux ténébreux tout ce qu’il y a dans les
+               pays étrangers de conspirateurs contre l’ordre public et contre l’autorité
+               légitime.</p>
+            <p>L’effet inévitable de tant de désordres se fait surtout sentir dans l’altération des
+               rapports entre l’<country>Espagne</country> et la <country>France</country>.
+               L’irritation qui en résulte est de nature à donner les plus justes alarmes pour la
+               paix entre les deux Royaumes. Cette considération suffiroit pour déterminer les
+               Puissances alliées à rompre<pb n="307v"/> le silence sur un état de choses qui d’un
+               jour à l’autre peut compromettre la tranquillité de l’Europe.</p>
+            <p>Le Gouvernement espagnol veut-il et peut-il apporter des remèdes à des maux aussi
+               palpables et aussi notoires ? Veut-il et peut-il prévenir ou réprimer les effets
+               hostiles et les provocations insultantes qui résultent pour les Gouvernemens
+               étrangers de l’attitude que la révolution lui a donnée et du système qu’elle a
+               établi ?</p>
+            <p>Nous concevons que rien ne doit être plus contraire aux intentions de <rs ref="#p.30"
+                  >Sa Majesté Catholique</rs> que de se voir placée dans une position aussi pénible
+               envers les Souverains étrangers, mais c’est précisément parce que ce <rs ref="#p.30"
+                  >Monarque</rs>, seul organe authentique et légitime entre
+                  l’<country>Espagne</country> et les autres Puissances de l’Europe, se trouve privé
+               de Sa liberté et enchainé dans Ses volontés que ces Puissances voyent Leurs rapports
+               avec l’<country>Espagne</country> dénaturés et compromis.</p>
+            <p>Ce n’est pas aux Cours étrangères à juger quelles institutions répondent le mieux au
+               caractère, aux mœurs et aux besoins réels de la Nation Espagnole, mais il leur
+               appartient indubitablement de juger des effets que des expériences de ce genre
+               produisent par rapport à elles, et d’en laisser dépendre leurs déterminations et leur
+               position future envers l’<country>Espagne</country>. Or le <rs ref="#p.18">Roi</rs>,
+               notre Maître, est d’opinion que, pour conserver et rasseoir sur des bases solides ses
+               relations avec les Puissances étrangères, le <choice>
+                  <abbr>Gouvernem<hi rendition="#su">t</hi></abbr>
+                  <expan>Gouvernement</expan>
+               </choice> espagnol ne saurait faire moins que d’offrir à ces dernières des preuves
+               non équivoques de la liberté de <rs ref="#p.30">Sa Majesté Catholique</rs> et une
+               garantie suffisante de Son intention et de Sa faculté d’écarter les causes de nos
+                  griefs<pb n="307r"/> et de nos trop justes inquiétudes à Son égard.</p>
+            <p>Le <rs ref="#p.18">Roi</rs>
+               <rs ref="#p.178">Vous</rs> ordonne, Monsieur, de ne pas dissimuler cette opinion au
+               Ministère espagnol, mais de lui faire lecture de la présente Dépêche, de lui en
+               donner copie s’il Vous en témoigne le désir, et de l’inviter à s’expliquer
+               franchement et clairement sur ce qui en fait l’objet.</p>
+         </div>
+      </body>
+      <back>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listPlace.xml" xpointer="listPlace"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listPerson.xml"
+            xpointer="listPerson"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listWit.xml" xpointer="listWit"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listOrg.xml" xpointer="listOrg"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listTreaties.xml"
+            xpointer="listTreaties"/>
+      </back>
+   </text>
+</TEI>

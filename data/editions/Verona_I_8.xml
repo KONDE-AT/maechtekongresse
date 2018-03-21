@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">I. Affaires d'Espagne</title>
+            <title type="main">Entgegnung Montmorencys auf die Memoranden der Bevollmächtigten </title>
+            <title type="sub">Digitale Edition</title>
+            <editor>
+               <persName>
+                  <surname>Schneider</surname>
+                  <forename>Karin</forename>
+               </persName></editor>
+         </titleStmt>
+         <editionStmt>
+            <edition><date>2017-03-13</date></edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Österreichische Akademie der Wissenschaften, Institut für Neuzeit- und
+               Zeitgeschichtsforschung</publisher>
+            <pubPlace>Wien</pubPlace>
+            <idno>V_I_8</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="m.1" type="Ausfertigung">
+               <msIdentifier>
+                  <settlement>Wien</settlement>
+                  <institution>ÖStA</institution>
+                  <collection>HHStA, Staatskanzlei, Kongressakten</collection>
+                  <idno>
+                     <idno type="Karton">Kart. 23</idno>
+                     <idno type="Faszikel"> Fasz. 43 (alt)</idno>
+                     <idno type="Folia">189-190</idno>
+                  </idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <title>Entgegnung Montmorencys auf die Memoranden der Bevollmächtigten </title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <p>Ausfertigung</p>
+                  <p>Dokument liegt in einem Umschlag mit der Aufschrift von der Hand <persName
+                        ref="#p.8"><surname>Metternichs</surname></persName>: "No 8. Projets des
+                     réponses des Cabinets à la proposition autrichienne".</p>
+
+                  <handDesc>
+                     <handNote xml:id="A">Anonyme Hand</handNote>
+                     <handNote xml:id="A1">Weitere anonyme Hand</handNote>
+                     <handNote xml:id="G">Friedrich Gentz</handNote>
+                     <handNote xml:id="W">Nikolaus Wacken</handNote>
+                     <handNote xml:id="AmB">Anonyme Hand mit Bleistift</handNote>
+                     <handNote xml:id="AmR">Anonyme Hand mit Rotstift</handNote>
+                     <handNote xml:id="M">Metternich</handNote>
+                  </handDesc>
+
+               </physDesc>
+               <history>
+                  <origin><placeName ref="#loc.68">Verona</placeName></origin>
+               </history>
+            </msDesc>
+
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <appInfo>
+            <application xml:id="docxtotei" ident="TEI_fromDOCX" version="2.15.0">
+               <label>DOCX to TEI</label>
+            </application>
+         </appInfo>
+         <styleDefDecl scheme="css"/>
+         <tagsDecl>
+            <rendition xml:id="su">superscript</rendition>
+            <rendition xml:id="s">strikethrough</rendition>
+            <rendition xml:id="u">underline</rendition>
+            <rendition xml:id="ow">overwritten</rendition>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <abstract>
+            <p>Der französische Außenminister <persName ref="#p.174"
+                  ><surname>Montmorency</surname></persName> begrüßt die Unterstützung der <rs
+                  ref="#p.8 #p.12 #p.175 #p.13">Vertreter Österreichs, Preußens und Russlands</rs>
+               und bedauert, dass die Regierung Großbritanniens einer Intervention in
+                  <country>Spanien</country> ablehnend gegenübersteht.</p>
+         </abstract>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div decls="#m.1" hand="#A">
+            <pb n="189r"/>
+            <p>Le <rs ref="#p.174">Ministre des Affaires Etrangères de France</rs> se félicite
+               d’avoir à remercier Messieurs les <rs ref="#p.8 #p.12 #p.175 #p.13">Ministres
+                  d’Autriche, de Prusse et de Russie</rs> des <ref
+                  target="Verona_I_3 Verona_I_4 Verona_I_5">réponses</ref> que, d’après les ordres
+               de leurs Cours, ils ont faites à la <ref target="Verona_I_2.xml">communication qu’il
+                  avait eu l’honneur de placer sous leurs yeux</ref>. Elles justifient la confiance
+               qu’avait <rs xml:id="n.1" ref="#p.15">Sa Majesté Très Chrétienne</rs><note
+                  type="editorial" target="#n.1">Ehrentitel des Königs von Frankreich.</note> dans
+               l’intérêt de Ses Alliés pour la <country>France</country> et dans leur constant
+               attachement aux principes de l’Alliance.</p>
+            <p>Le <rs ref="#p.174">Ministre des Affaires Etrangères</rs>, tout en rendant la même
+               justice aux <ref target="Verona_I_6.xml">sentimens exprimés par le <rs ref="#p.10"
+                     >Plénipotentiaire de la Grande-Bretagne</rs>,<pb n="189v"/></ref> ne peut que
+               regretter de ne l’avoir pas rencontré sur la ligne suivie par les Cours d’Autriche,
+               de Prusse et de Russie. Parfaitement d’accord avec Monsieur le <rs ref="#p.10"
+                  >Plénipotentiaire de la Grande-Bretagne</rs> sur les principes qui dérivent de la
+               nature à peu près semblable des deux Gouvernemens, il croit ne s’en être pas écarté
+               en établissant des hypothèses qui ne touchent en rien à ces principes, hypothèses
+               repoussées par Monsieur le <persName ref="#p.10"><roleName>Duc</roleName>
+                  <surname>de Wellington</surname></persName> et qui seules cependant pouvaient
+               faire naître les questions qui ont été proposées par la
+               <country>France</country>.</p>
+            <p><rs ref="#p.174">Il</rs> a également vu avec peine que Monsieur le <persName
+                  ref="#p.10"><roleName>Duc</roleName><pb n="190r"/>
+                  <surname>de Wellington</surname></persName> fondait à quelques égards son opinion
+               sur l’ignorance où se trouvait la Cour de <placeName ref="#loc.8">Londres</placeName>
+               de ce qui s’est passé depuis 1820 entre la <country>France</country> et
+                  l’<country>Espagne</country>. Les faits sur ce point sont malheureusement de
+               notoriété publique. La <country>France</country>, fidèlle aux principes de l’Union
+               consacrée par le <rs ref="#t.42">Protocole d’<placeName ref="#loc.1"
+                     >Aix-La-Chapelle</placeName></rs>, n’a jamais laissé ignorer à ses Alliés ses
+               relations avec le <choice>
+                  <abbr>Gouv<hi rendition="#su">t</hi></abbr>
+                  <expan>Gouvernement</expan>
+               </choice> Espagnol. Le <rs ref="#p.174">Ministre des Affaires Etrangères</rs> croit
+               d’ailleurs avoir exposé assez clairement aux <rs ref="#p.8 #p.12 #p.175 #p.13 #p.10"
+                  >Ministres des quatre Cours</rs> le détail des circonstances qui ont amené entre
+               la <country>France</country> et l’<country>Espagne</country> l’état<pb n="190v"/>
+               présent des choses pour qu’il ne reste aucun doute sur le soin que le Gouvernement du
+                  <rs ref="#p.15">Roi</rs> a mis à conserver la Paix et à éviter, de son côté, tout
+               motif légitime de rupture.</p>
+         </div>
+      </body>
+      <back>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listPlace.xml" xpointer="listPlace"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listPerson.xml"
+            xpointer="listPerson"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listWit.xml" xpointer="listWit"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listOrg.xml" xpointer="listOrg"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listTreaties.xml"
+            xpointer="listTreaties"/>
+      </back>
+   </text>
+</TEI>

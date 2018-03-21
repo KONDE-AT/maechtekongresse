@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Protokoll der 4. Sitzung des Kongresses von Aachen</title>
+            <title type="sub">Digitale Edition</title>
+            <editor>
+               <persName>
+                  <surname>Schneider</surname>
+                  <forename>Karin</forename>
+               </persName></editor>
+         </titleStmt>
+         <editionStmt>
+            <edition><date>2015-05-08</date></edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Österreichische Akademie der Wissenschaften, Institut für Neuzeit- und
+               Zeitgeschichtsforschung</publisher>
+            <pubPlace>Wien</pubPlace>
+            <idno>A_04</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="m.1" type="Originalprotokoll">
+               <msIdentifier>
+                  <settlement>Wien</settlement>
+                  <institution>ÖStA</institution>
+                  <collection>HHStA, Staatskanzlei, Kongressakten</collection>
+                  <idno>
+                     <idno type="Karton">Kart. 17</idno>
+                     <idno type="Faszikel"> Fasz. 29 (alt)</idno>
+                     <idno type="Folia">I/6</idno>
+                  </idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <title>Protokoll</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+
+                  <p> Eigenhändiges Protokoll von <persName ref="#p.5">
+                        <surname>Gentz</surname></persName>. </p>
+                  <handDesc>
+                     <handNote xml:id="G">Friedrich Gentz</handNote>
+                     <handNote xml:id="W">Nikolaus Wacken</handNote>
+                     <handNote xml:id="MmB">Metternich mit Bleistift</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin><placeName>Aachen</placeName><date when="1818-10-02">2. Oktober
+                        1818</date></origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <appInfo>
+            <application xml:id="docxtotei" ident="TEI_fromDOCX" version="2.15.0">
+               <label>DOCX to TEI</label>
+            </application>
+         </appInfo>
+         <styleDefDecl scheme="css"/>
+         <tagsDecl>
+            <rendition xml:id="su">superscript</rendition>
+            <rendition xml:id="s">strikethrough</rendition>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <abstract>
+            <p>Die <rs ref="#p.8 #p.10 #p.11 #p.13 #p.12 #p.14 #p.9">Vertreter der alliierten
+                  Mächte</rs> informieren den französischen Premierminister <persName ref="#p.1"
+                     ><surname>Richelieu</surname></persName> über die in der <ref
+                  target="Aachen_Prot_3.xml">dritten Sitzung</ref> gefassten Beschlüsse. Auftrag an
+                  <persName ref="# p.10"><surname>Wellington</surname></persName>, sich mit den
+               Vorbereitungen für den Abzug der Truppen zu befassen.</p>
+         </abstract>
+         <particDesc>
+            <listPerson>
+               <head>Anwesende</head>
+               
+                  <person><persName ref="#p.12">BERNSTORFF</persName></person>
+                  <person><persName ref="#p.9">CASTLEREAGH</persName></person>
+                  <person><persName ref="#p.11">HARDENBERG</persName></person>
+                  <person><persName ref="#p.14">KAPODISTRIAS</persName></person>
+                  <person><persName ref="#p.8">METTERNICH</persName></person>
+                  <person><persName ref="#p.13">NESSELRODE</persName></person>
+                  <person><persName ref="#p.1">RICHELIEU</persName></person>
+                  <person><persName ref="#p.10">WELLINGTON</persName></person>
+               
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div hand="#G" decls="#m.1">
+            <pb n="6r"/>
+            <p><add place="top">4.</add></p>
+            <p>
+               <date when="1818-10-02">Le 2 Octobre 1818</date>
+            </p>
+            <p>
+               <add hand="#W" place="margin">entre les cinq.</add></p>
+            <p><choice>
+                  <abbr>Mrs.</abbr>
+                  <expan>Messieurs</expan>
+               </choice> les <rs ref="#p.8 #p.10 #p.11 #p.13 #p.12 #p.14 #p.9">Ministres des
+                  Cabinets d’Autriche, de Grande-Bretagne, de Prusse et de Russie</rs> ayant pris en
+               considération <ref target="Aachen_Prot_2.xml">la proposition qui leur a été adressée
+                  par <choice>
+                     <abbr>Mr.</abbr>
+                     <expan>Monsieur</expan>
+                  </choice> le <persName ref="#p.1"><roleName>Duc</roleName>
+                     <surname>de Richelieu</surname></persName></ref> au nom et par ordre de <choice>
+                  <abbr>S. M.</abbr>
+                  <expan>Sa Majesté</expan>
+               </choice> le <rs ref="#p.15">Roi de France</rs>, de retirer aussitôt que faire se
+               peut les troupes Alliées, occupant une partie du Territoire Français en vertu de
+               l’article V du <rs ref="#t.1">Traité du <date when="1815-11-20">20 <choice>
+                        <abbr>Novbre</abbr>
+                        <expan>Novembre</expan>
+                     </choice> 1815</date></rs> ; et ayant en même tems examiné les bases <subst>
+                  <del rendition="#s">d'un</del>
+                  <add place="margin">communiquées par <choice>
+                        <abbr>Mr.</abbr>
+                        <expan>Monsieur</expan>
+                     </choice> le <persName ref="#p.1"><roleName>Duc</roleName>
+                        <surname>de Richelieu</surname></persName> dans <ref
+                        target="Aachen_Prot_1.xml">la première conférence générale</ref> pour
+                     un</add>
+               </subst> arrangement propre à effectuer dans un tems fixe la liquidation des charges
+               pécuniaires à solder par la <country>France</country>, <add place="margin"
+                  hand="#MmB">communiquée dans la séance antérieure par <choice>
+                     <abbr>M<hi rendition="#su">r</hi></abbr>
+                     <expan>Monsieur</expan>
+                  </choice> le <persName ref="#p.1"><roleName>Duc</roleName>
+                     <surname>de Richelieu</surname></persName></add> ont fait à <choice>
+                  <abbr>Mr.</abbr>
+                  <expan>Monsieur</expan>
+               </choice> le <persName ref="#p.1"><roleName>Duc</roleName>
+                  <surname>de Richelieu</surname></persName> la déclaration suivante :</p>
+            <p>Les Quatre Cours, après un mur examen de tout ce qui doit influer sur une décision
+               aussi importante, sont prêtes à admettre à l’unanimité le principe de l’évacuation du
+               territoire Français, et à faire exécuter cette mesure à la fin de la troisième année
+               d’occupation ou plus tôt si faire se peut,<pb n="6v"/> sauf les arrangemens à
+               prendre pour régler le mode et l’époque du payement des sommes encore dues par le
+               Gouvernement Français aux Cours Alliées en suite des stipulations <rs ref="#t.1 #t.2 #t.3 #t.4 #t.5">du susdit
+               traité de <placeName
+                  ref="#loc.2">Paris</placeName> et de ses annexes</rs>.</p>
+            <p><choice>
+                  <abbr>Mr.</abbr>
+                  <expan>Monsieur</expan>
+               </choice> le<persName ref="#p.10"><roleName> Feld-Márechal</roleName><roleName>
+                     Duc</roleName>
+                  <surname>de Wellington</surname></persName> est chargé de s’occuper incessamment
+               des préparatifs nécessaires pour le départ des troupes, lequel aura lieu aussitôt que
+               les dits arrangemens auront été arrêtés et sanctionnés.</p>
+            <signed>
+               <list>
+                  <item><persName ref="#p.8">Metternich</persName></item>
+                  <item><persName ref="#p.1">Richelieu</persName></item>
+                  <item><persName ref="#p.9">Castlereagh</persName></item>
+                  <item><persName ref="#p.10">Wellington</persName></item>
+                  <item><persName ref="#p.11">Hardenberg</persName></item>
+                  <item><persName ref="#p.12">Bernstorff</persName></item>
+                  <item><persName ref="#p.13">Nesselrode</persName></item>
+                  <item><persName ref="#p.14">Capodistrias</persName></item>
+               </list></signed>
+         </div>
+      </body>
+      <back>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listPlace.xml" xpointer="listPlace"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listPerson.xml" xpointer="listPerson"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listTreaties.xml" xpointer="listTreaties"/>
+      </back>
+   </text>
+</TEI>

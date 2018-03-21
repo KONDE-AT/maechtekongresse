@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">I. Affaires d'Espagne</title>
+            <title type="main">Vorschläge Metternichs</title>
+            <title type="sub">Digitale Edition</title>
+            <editor>
+               <persName>
+                  <surname>Schneider</surname>
+                  <forename>Karin</forename>
+               </persName></editor>
+         </titleStmt>
+         <editionStmt>
+            <edition><date>2017-03-13</date></edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Österreichische Akademie der Wissenschaften, Institut für Neuzeit- und
+               Zeitgeschichtsforschung</publisher>
+            <pubPlace>Wien</pubPlace>
+            <idno>V_I_7</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="m.1" type="Lithographie">
+               <msIdentifier>
+                  <settlement>Wien</settlement>
+                  <institution>ÖStA</institution>
+                  <collection>HHStA, Staatskanzlei, Kongressakten</collection>
+                  <idno>
+                     <idno type="Karton">Kart. 23</idno>
+                     <idno type="Faszikel"> Fasz. 43 (alt)</idno>
+                     <idno type="Folia">172-178</idno>
+                  </idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <title>Vorschläge Metternichs</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <p>Lithographie</p>
+                  <p>Das Schriftstück liegt als Konzept von <persName ref="#p.5"
+                           ><surname>Gentz</surname></persName> fol. 173r–175r und doppelt als
+                     Lithographie auf fol. 172r und 176, sowie 177–178 ein. Die Edition folgt der
+                     Lithographie. Vermerk mit Bleistift in den rechten oberen Ecken von fol. 172 r
+                     und 177r.</p>
+
+                  <handDesc>
+                     <handNote xml:id="A">Anonyme Hand</handNote>
+                     <handNote xml:id="A1">Weitere anonyme Hand</handNote>
+                     <handNote xml:id="G">Friedrich Gentz</handNote>
+                     <handNote xml:id="W">Nikolaus Wacken</handNote>
+                     <handNote xml:id="AmB">Anonyme Hand mit Bleistift</handNote>
+                     <handNote xml:id="AmR">Anonyme Hand mit Rotstift</handNote>
+                     <handNote xml:id="M">Metternich</handNote>
+                  </handDesc>
+
+               </physDesc>
+               <history>
+                  <origin><placeName ref="#loc.68">Verona</placeName><date when="1822-10-31">31.
+                        Oktober 1822</date></origin>
+               </history>
+            </msDesc>
+
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <appInfo>
+            <application xml:id="docxtotei" ident="TEI_fromDOCX" version="2.15.0">
+               <label>DOCX to TEI</label>
+            </application>
+         </appInfo>
+         <styleDefDecl scheme="css"/>
+         <tagsDecl>
+            <rendition xml:id="su">superscript</rendition>
+            <rendition xml:id="s">strikethrough</rendition>
+            <rendition xml:id="u">underline</rendition>
+            <rendition xml:id="ow">overwritten</rendition>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <abstract>
+            <p>Der österreichische Staatskanzler <persName ref="#p.8"
+                  ><surname>Metternich</surname></persName> unterbreitet auf Basis der bisher
+               vorgelegten Denkschriften Überlegungen betreffend das weitere gemeinsame Vorgehen der
+               alliierten Mächte gegen <country>Spanien</country>.</p>
+         </abstract>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div decls="#m.1">
+            <pb n="172r"/>
+            <p><title>Propositions du Cabinet Autrichien dans la Conférence du <date
+                     when="1822-10-31">31 Octobre 1822</date></title></p>
+            <p><rs xml:id="n.1">La première question qui a dû occuper le Congrès est celle de
+                     l’<country>Espagne</country></rs>.<note type="editorial" target="#n.1">Zur
+                  Revolution in <country>Spanien</country>, die mit einem Militäraufstand am <date
+                     when="1820-01-01">1. Jänner 1820</date> ihren Anfang nahm, vgl. Späth,
+                  Revolution in Europa, S. 117–128. In <country>Portugal</country> war am <date
+                     when="1820-08-24">24. August 1820</date> eine Revolution ausgebrochen; vgl.
+                  Birmingham, A Concise History, S. 111–113.</note>
+            </p>
+            <p>Cette grave question a réclamé l’attention et la sollicitude des Puissances Alliées
+               sous deux rapports différens : sous celui du danger général et commun à l’Europe
+               entière du triomphe du sistème révolutionnaire, et sous celui de la crise survenue
+               dans les rapports politiques entre la <country>France</country> et
+                  l’<country>Espagne</country>.</p>
+            <p>Le Gouvernement français, convaincu que la position dans laquelle il se trouve
+               vis-à-vis de l’<country>Espagne</country> présentait plusieurs considérations
+               importantes, s’est adressé <choice>
+                  <abbr>confidentiellem<hi rendition="#su">t</hi></abbr>
+                  <expan>confidentiellement</expan>
+               </choice> à Ses Alliés.</p>
+            <p><ref target="Verona_I_2.xml">Il leur a expliqué Ses vœux et Ses déterminations.</ref>
+            </p>
+            <p>Ses vœux sont la conservation de la paix ; mais il admet que
+                  l’<country>Espagne</country> révolutionnaire pourrait le mettre dans le cas de
+               repousser une agression.</p>
+            <p>Le Gouvernement français est parti de ces données pour demander si, dans le cas d’une
+               juste et nécessaire défense, il pouvait compter sur l’appui moral et sur des secours
+               matériels de la part des Cours Alliées. <ref
+                  target="Verona_I_3 Verona_I_4 Verona_I-5">Les Cours d’Autriche, de Russie et de
+                  Prusse ont en principe répondu <choice>
+                     <abbr>affirmativem<hi rendition="#su">t</hi></abbr>
+                     <expan>affirmativement</expan>
+                  </choice> à cette demande.</ref>
+            </p>
+            <p>Portant toutefois sur des applications éventuelles, leur adhésion doit être précisée
+               par une définition exacte des<pb n="172v"/>
+               <rs xml:id="n.2">Casus foederis</rs><note type="editorial" target="#n.2">Lat.:
+                  Bündnisfall.</note> ainsi que par l’énoncé des obligations réciproques qui en
+               dériveraient. Ces différens points seront réservés aux transactions diplomatiques que
+               les Cabinets jugeront à propos d’entamer à la suite des explications présentes.</p>
+            <p>Cependant l’anarchie révolutionnaire qui déchire l’<country>Espagne</country>, qui a
+               allumé et nourrit dans ce malheureux Royaume le feu de la guerre civile, portant
+               impunément le défi aux efforts salutaires des Souverains Alliés pour la conservation
+               de l’ordre social, ne doit pas moins fixer la sollicitude des Cours ; et celles-ci
+               rempliraient mal leur tâche si Elles ne se réunissaient pas sincèrement pour
+               délibérer sur les moyens de sauver l’Europe des dangers dont la menacerait le
+               triomphe de la révolution.</p>
+            <p>Existe-t-il des moyens d’influer sur le rétablissement de l’ordre dans la Péninsule ?
+               Et où faut-il les chercher ? Telles sont les premières questions qu’il est de la
+               dignité et du devoir des Alliés de soumettre à la discussion la plus approfondie.</p>
+            <p>L’attitude nouvelle qui résultera pour la <country>France</country> et pour l’Europe
+               des engagemens qui vont s’établir entre les Alliés, ne pourrait-elle pas prêter au
+               double but d’aborder la question révolutionnaire en <country>Espagne</country> même
+               et de fournir aux hommes de bien de ce Pays les moyens de se serrer sur une ligne de
+               salut commun ?</p>
+            <p>Le nombre des ennemis et des victimes de la révolution s’est accru dans le sein de
+                  l’<country>Espagne</country> au point que peut-être il ne faudrait plus qu’une
+               pareille mesure pour donner à la partie saine de la Nation<pb n="176r"/> le courage
+               et la force de briser le joug de la faction qui la domine et l’avilit.</p>
+            <p>D’un autre côté, l’attitude et le langage du <choice>
+                  <abbr>Gouvernem<hi rendition="#su">t</hi></abbr>
+                  <expan>Gouvernement</expan>
+               </choice> Espagnol à l’égard des Pays étrangers sont devenus tellement provoquans que
+               les Puissances Alliées ne sauraient plus guères y opposer la longanimité du
+               silence.</p>
+            <p>Ces considérations sont de nature à offrir aux Cours Alliées et le droit de
+               s’expliquer franchement envers le Gouvernement Espagnol et la chance de ne pas se
+               porter sans succès à cette démarche.</p>
+            <p>L’état de captivité où le <rs ref="#p.30">Roi d’Espagne</rs>, seul organe authentique
+               et légitime entre Son pays et les Etats étrangers, se trouve notoirement réduit, peut
+               fournir un nouveau titre en faveur d’une tentative qui aurait pour objet de décider
+               des rapports futurs entre l’<country>Espagne</country> et les Puissances Alliées, et
+               qui d’ailleurs, amenée par le désir de maintenir la paix entre
+                  l’<country>Espagne</country> et la <country>France</country>, ne présenterait
+               d’autre caractère que celui d’une intervention pacifique.</p>
+            <p>Une démarche pareille est susceptible d’être faite dans des formes différentes dont
+               chacune peut avoir ses avantages et ses inconvéniens particuliers.</p>
+            <p>La première forme serait celle que les cinq Puissances s’accordassent à tenir un
+               langage commun, soit par le moyen d’une déclaration collective, soit par des notes
+               séparées, mais uniformes dans leur principe<pb n="176v"/> et leur but.</p>
+            <p>Une seconde forme serait celle que la <country>France</country> abandonnât à Ses
+               quatre Alliés le soin d’une démarche destinée à aplanir des difficultés dans
+               lesquelles on pourrait l’envisager comme étant partie Elle-même.</p>
+            <p>Une troisième forme pourrait se trouver dans une ouverture faite au Gouvernement
+               Espagnol par une seule des Puissances Alliées qui serait regardée d’un commun accord
+               comme étant la plus avantageusement placée pour porter la parole.</p>
+            <p>Le Cabinet d’Autriche, en soumettant ces points de vue à la Conférence, n’a d’autre
+               but que celui de seconder les nobles pensées et les efforts constans de ses Augustes
+               Alliés dans tout ce qui peut conduire au bien général de l’Europe.</p>
+         </div>
+      </body>
+      <back>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listPlace.xml" xpointer="listPlace"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listPerson.xml"
+            xpointer="listPerson"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listWit.xml" xpointer="listWit"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listOrg.xml" xpointer="listOrg"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listTreaties.xml"
+            xpointer="listTreaties"/>
+      </back>
+   </text>
+</TEI>

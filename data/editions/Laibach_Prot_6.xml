@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Protokoll der 6. Sitzung des Kongresses von Laibach</title>
+            <title type="sub">Digitale Edition</title>
+            <editor>
+               <persName>
+                  <surname>Schneider</surname>
+                  <forename>Karin</forename>
+               </persName></editor>
+         </titleStmt>
+         <editionStmt>
+            <edition><date>2017-03-13</date></edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Österreichische Akademie der Wissenschaften, Institut für Neuzeit- und
+               Zeitgeschichtsforschung</publisher>
+            <pubPlace>Wien</pubPlace>
+            <idno>L_06</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="m.1" type="Originaljournal">
+               <msIdentifier>
+                  <settlement>Wien</settlement>
+                  <institution>ÖStA</institution>
+                  <collection>HHStA, Staatskanzlei, Kongressakten</collection>
+                  <idno>
+                     <idno type="Karton">Kart. 22</idno>
+                     <idno type="Faszikel"> Fasz. 40 (alt)</idno>
+                     <idno type="Folia">19</idno>
+                  </idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <title>Journal des Conférences</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <p>Journal</p>
+
+                  <handDesc>
+                     <handNote xml:id="A">Anonyme Hand</handNote>
+                     <handNote xml:id="G">Friedrich Gentz</handNote>
+                     <handNote xml:id="W">Nikolaus Wacken</handNote>
+                     <handNote xml:id="AmB">Anonyme Hand mit Bleistift</handNote>
+                     <handNote xml:id="AmR">Anonyme Hand mit Rotstift</handNote>
+                  </handDesc>
+
+               </physDesc>
+               <history>
+                  <origin><placeName ref="#loc.65">Laibach</placeName><date when="1821-01-22">22.
+                        Jänner 1821</date></origin>
+               </history>
+            </msDesc>
+            <msDesc xml:id="m.2" type="Abschrift">
+               <msIdentifier>
+                  <settlement>Wien</settlement>
+                  <institution>ÖStA</institution>
+                  <collection>HHStA, Staatskanzlei, Kongressakten</collection>
+                  <idno>
+                     <idno type="Karton">Kart. 22</idno>
+                     <idno type="Faszikel"> Fasz. 40 (alt)</idno>
+                     <idno type="Folia">20-24</idno>
+                  </idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <title>Anlage: Schreiben des Königs beider Sizilien an seinen Sohn, den Herzog
+                        von Kalabrien</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <p>Abschrift</p>
+                  <p>Anlage liegt im italienischen Original (fol. 20–21) und in französischer
+                     Übersetzung (fol. 22–24) ein. Die Edition folgt dem Original.</p>
+               </physDesc>
+               <history>
+                  <origin><placeName ref="#loc.65">Laibach</placeName><date when="1821-01-28">28.
+                        Jänner 1821</date></origin>
+               </history>
+            </msDesc>
+            <listWit corresp="#m.1">
+               <head>Journal</head>
+               <witness corresp="#w.37"><bibl type="print">Alberti, Atti, S.
+                  408-409.</bibl></witness>
+            </listWit>
+            <listWit corresp="#m.2">
+               <head>Anlage: Schreiben des Königs beider Sizilien an seinen Sohn, den Herzog von
+                  Kalabrien</head>
+               <witness corresp="#w.5"><bibl type="print">BFSP Bd. 8 (1820/21), S. 1162–1164
+                     (Übersetzung);</bibl></witness>
+               <witness corresp="#w.29"><bibl type="print">Collezione delle leggi, S.
+                  1–3;</bibl></witness>
+               <witness corresp="#w.26"><bibl type="print">Diplomatisches Archiv/Archive
+                     diplomatique, Bd. 1, S. 357–361;</bibl></witness>
+               <witness corresp="#w.37"><bibl type="print">Alberti, Atti, S. 409-410 (französische
+                     Übersetzung).</bibl></witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <appInfo>
+            <application xml:id="docxtotei" ident="TEI_fromDOCX" version="2.15.0">
+               <label>DOCX to TEI</label>
+            </application>
+         </appInfo>
+         <styleDefDecl scheme="css"/>
+         <tagsDecl>
+            <rendition xml:id="su">superscript</rendition>
+            <rendition xml:id="s">strikethrough</rendition>
+            <rendition xml:id="u">underline</rendition>
+            <rendition xml:id="r">right</rendition>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <abstract>
+            <p>Der neapolitanische Gesandte <persName ref="#p.140"
+                  ><surname>Ruffo</surname></persName> übermittelt das Schreiben des <rs
+                  ref="#p.138">Königs beider Sizilien</rs> an <rs ref="#p.141">seinen Sohn</rs>. Die
+                  <rs ref="#p.8 #p.2 #p.12 #p.13 #p.14 #p.7">Gesandten der Mächte</rs> informieren
+                  <persName ref="#p.140"><surname>Ruffo</surname></persName>, dass die <rs
+                  ref="#p.144 #p.148 #p.149">diplomatischen Vertreter in <placeName ref="#loc.11"
+                     >Neapel</placeName></rs> Instruktionen betreffend den Stand der Verhandlungen
+               erhalten werden. <persName ref="#p.140"><surname>Ruffo</surname></persName>
+               unterrichtet die Gesandten von der Absicht des <rs ref="#p.138">Königs</rs>,
+                  <persName ref="#p.142"><forename>Marzio</forename>
+                  <surname>Mastrilli</surname><roleName>, duca di Gallo</roleName></persName>, vor
+               die Konferenz zu bitten.</p>
+         </abstract>
+         <particDesc>
+            <listPerson>
+               <head>Anwesende</head>
+
+               <person>
+                  <persName ref="#p.12">BERNSTORFF</persName>
+               </person>
+               <person>
+                  <persName ref="#p.160">BLACAS</persName>
+               </person>
+               <person>
+                  <persName ref="#p.102">CARAMAN</persName>
+               </person>
+               <person>
+                  <persName ref="#p.135">FERRONNAYS</persName>
+               </person>
+               <person>
+                  <persName ref="#p.161">GORDON</persName>
+               </person>
+               <person>
+                  <persName ref="#p.14">KAPODISTRIAS</persName>
+               </person>
+               <person>
+                  <persName ref="#p.8">METTERNICH</persName>
+               </person>
+               <person>
+                  <persName ref="#p.13">NESSELRODE</persName>
+               </person>
+               <person>
+                  <persName ref="#p.7">POZZO DI BORGO</persName>
+               </person>
+               <person>
+                  <persName ref="#p.140">RUFFO</persName>
+               </person>
+               <person>
+                  <persName ref="#p.2">VINCENT</persName>
+               </person>
+
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div hand="#A" decls="#m.1">
+            <pb n="19r"/>
+            <p><title>Journal des Conférences</title></p>
+            <p><title><choice>
+                     <abbr>N<hi rendition="#su">o</hi></abbr>
+                     <expan>Numéro</expan>
+                  </choice> 6.</title></p>
+            <p>Conférence du <date when="1821-01-22">22 Janvier</date>.</p>
+            <p><choice>
+                  <abbr>M<hi rendition="#su">r</hi></abbr>
+                  <expan>Monsieur</expan>
+               </choice> le <persName ref="#p.140"><roleName>Prince</roleName>
+                  <surname>de Ruffo</surname></persName> a communiqué aujourd’hui à la Conférence la
+               lettre, <rs xml:id="n.1">dont copie ci-jointe</rs>,<note type="editorial"
+                  target="#n.1">Vgl. Anlage.</note> que <choice>
+                  <abbr>S. M.</abbr>
+                  <expan>Sa Majesté</expan>
+               </choice> le <rs ref="#p.138">Roi de Naples</rs> se propose d’adresser à <choice>
+                  <abbr>S. A. R.</abbr>
+                  <expan>Son Altesse Royale</expan>
+               </choice> le <rs ref="#p.141"><roleName>Duc de Calabre</roleName></rs>. <choice>
+                  <abbr>M<hi rendition="#su">rs</hi></abbr>
+                  <expan>Messieurs</expan>
+               </choice>
+               <rs ref="#p.8 #p.2 #p.12 #p.13 #p.14 #p.7">les Plénipotentiaires</rs> ont rendu
+               justice à la franchise et à la noble confiance que cette lettre respire.</p>
+            <p>On a prévenu <choice>
+                  <abbr>M<hi rendition="#su">r</hi></abbr>
+                  <expan>Monsieur</expan>
+               </choice> le <persName ref="#p.140"><roleName>Prince</roleName>
+                  <surname>de Ruffo</surname></persName> que, conformément au désir que <rs
+                  ref="#p.138"><choice>
+                     <abbr>S. M.</abbr>
+                     <expan>Sa Majesté</expan>
+                  </choice> Sicilienne</rs> avait témoigné dans sa <ref target="Laibach_Prot_5.xml"
+                  >déclaration du <date when="1821-01-19">19</date></ref>, la lettre du <rs
+                  ref="#p.138">Roi</rs> sera accompagnée d’Instructions adressées aux <rs
+                  ref="#p.144 #p.148 #p.149">Ministres ou Agens diplomatiques résidant à <placeName
+                     ref="#loc.11">Naples</placeName></rs> ; instructions dans lesquelles on fera
+               entrer la substance de ce qui se trouve consigné dans les Journaux des Conférences
+               précédentes et dont les dits agens feront usage pour coopérer aux succès de la
+               démarche du <rs ref="#p.138">Roi</rs>.</p>
+            <p><choice>
+                  <abbr>M<hi rendition="#su">r</hi></abbr>
+                  <expan>Monsieur</expan>
+               </choice> le <persName ref="#p.140"><roleName>Prince</roleName>
+                  <surname>de Ruffo</surname></persName> a annoncé ensuite que <choice>
+                  <abbr>S. M.</abbr>
+                  <expan>Sa Majesté</expan>
+               </choice> le <rs ref="#p.138">Roi</rs> avait l’intention d’appeler auprès de sa
+               personne le <persName ref="#p.142"><roleName>Duc de Gallo</roleName></persName> pour
+               que la Conférence lui fasse directement connaître les déterminations qui ont motivé
+               la démarche du <rs ref="#p.138">Roi</rs> envers le <persName ref="#p.141"
+                        ><roleName>Duc<pb n="19v"/> de Calabre</roleName></persName>, après quoi le
+                  <persName ref="#p.142"><roleName>Duc de Gallo</roleName></persName> se rendrait à
+                  <placeName ref="#loc.11">Naples</placeName> en même tems que la lettre du <rs
+                  ref="#p.138">Roi</rs> y serait envoyée.</p>
+            <p>Il a été répondu à <choice>
+                  <abbr>M<hi rendition="#su">r</hi></abbr>
+                  <expan>Monsieur</expan>
+               </choice> le <persName ref="#p.140"><roleName>Prince</roleName>
+                  <surname>Ruffo</surname></persName> que, vu qu’il ne s’agissait dans cette
+               occasion que d’une simple communication à faire à <choice>
+                  <abbr>M<hi rendition="#su">r</hi></abbr>
+                  <expan>Monsieur</expan>
+               </choice> le <persName ref="#p.142"><roleName>Duc de Gallo</roleName></persName>, il
+               n’y avait de la part de la conférence aucune objection à ce que <choice>
+                  <abbr>S. M.</abbr>
+                  <expan>Sa Majesté</expan>
+               </choice> le <rs ref="#p.138">Roi</rs> venait de proposer.</p>
+            <p rendition="#r"><add hand="#G">Lu et Certifié à</add></p>
+            <p rendition="#r"><add hand="#G">la conférence du <date when="1821-01-23">23
+                     Janvier</date></add></p>
+            <signed rendition="#r"><persName ref="#p.5"><surname>Gentz</surname></persName></signed>
+         </div>
+
+         <div hand="#A" decls="#m.2">
+            <pb n="20r"/>
+            <p><add place="top">Annexe au Journal <choice>
+                     <abbr>N<hi rendition="#su">o</hi></abbr>
+                     <expan>Numéro</expan>
+                  </choice> 6.</add></p>
+            <p>Carissimo <rs ref="#p.141">figlio</rs>,</p>
+            <p>Voi ben conoscete i sentimenti che <rs ref="#p.138">mi</rs> animano per la felicità
+               dei miei popoli, ed i motivi pei quali solamente ho intrapreso ad onte della mia età
+               e della stagione un così lungo e penoso viaggio.</p>
+            <p>Ho veduto che il notre paese era minacciato da nuovi disastri, ed ho creduto perciò
+               che nessuna considerazione dovesse impedirmi di fare un tentativo che mi veniva
+               dettato dai più sacri doveri.</p>
+            <p>Fin dai miei primi abboccamenti coi <rs ref="#p.16 #p.18 #p.17">Sovrani</rs>, ed in
+               seguito delle communicazioni che furono fatte delle deliberazioni che hanno avuto
+               luogo dalla parte dei Gabinetti riuniti a <placeName ref="#loc.60"
+                  >Troppau</placeName>, non mi è restato più dubbio alcuno sulla maniera colla quale
+               le Potenza giudicano <rs xml:id="n.2">gli avvenimenti accaduti in
+                     <country>Napoli</country> dal <date when="1820-07-02">2 di
+                  Luglio</date></rs><note type="editorial" target="#n.2">Am <date when="1820-07-02"
+                     >2. Juli 1820</date> meuterte die Militärgarnison in Nola, 35 km von <placeName
+                     ref="#loc.11">Neapel</placeName> entfernt. Das Datum gilt als Beginn der
+                  Revolution im <country>Königreich beider Sizilien</country>. Vgl. Stites, The four
+                  Horsemen; Davis, Naples and Napoleon; Gin, Sanfedisti, Carbonari, Magistrati del
+                  Re; Späth, Revolution in Europa, S. 129–149.</note> fino a questo giorno. Le ho
+               trovate irrevocabilmente determinate a non ammettere lo stato di cose ch’è risultato
+               da tali avvenimenti, ne ciò che potrebbe risultarne; a riguardarlo come incompatibile
+               colla tranquillità del mio Regno e colla sicurezza degli stati vicini; ed a
+               combatterlo piuttosto colla forza delle armi, qualora la forza della persuasione non
+               ne producesse la cessazione immediata.</p>
+            <pb n="20v"/>
+            <p>Questa è la dichiarazione che tanto i <rs ref="#p.16 #p.18 #p.17">Sovrani</rs>,
+               quanto i <rs ref="#p.8 #p.2 #p.12 #p.13 #p.14 #p.7">Plenipotenziari</rs> rispettivi
+               mi hanno fatta, ed alla quale nulla può indurli a rinunciare.</p>
+            <p>E’al di sopra del mio potere, e credo, d’ogni possibilità umana, d’ottenere un altro
+               risultato. Non vi è dunque incertezza alcuna sull’alternativa nella quale siamo
+               messi, ne sull’unico mezzo che ci resta per preservare il mio Regno dal flagello
+               della guerra.</p>
+            <p>Nel caso che tal condizione, sulla quale i <rs ref="#p.16 #p.18 #p.17">Sovrani</rs>
+               insistono, sia accettata, le misure che ne saranno la conseguenza verranno regolate
+               colla mia intervenzione. Devo però avvertirvi che i Monarchi esiggono alcune garanzie
+               giudicate momentaneamente necessarie per mantener la tranquillità degli stati
+               vicini.</p>
+            <p>In quanto al sistema che deve succedere all’attuale stato di cose, i <rs
+                  ref="#p.16 #p.18 #p.17">sovrani</rs> mi han fatto conoscere il punto di vista
+               generale, sotto cui essi riguardono tal questione.</p>
+            <p>Essi considerano come un oggetto della più alta importanza per la sicurezza e la
+               tranquillità degli stati vicini del mio Regno, e per conseguenza per l’Europa
+               intiera, le misure che adotterò per dare al mio governo la stabilità, della quale ha
+                  bisogno,<pb n="21r"/> senza voler restringere la mia libertà nella scelta di
+               queste misure. Essi desiderano sinceramente che circondato dagli nomini i più probi
+               ed i più savi fra i miei sudditti, <rs ref="#p.138">io</rs> consulti i veri, e
+               permanenti interessi dei miei popoli, senza perder di vista quelli che esigge il
+               mantenimento della pace generale; e che risulti dalle mie sollecitudini e dai miei
+               sforzi un sistema di governo atto a garantire per sempre il riposo e la prosperità
+               del mio Regno, e tale da render sicuri nel tempo stesso gli altri stati d’Italia
+               agitati dalle inquietudini che gli ultimi avvenimenti del nostro paese avevano loro
+               cagionate.</p>
+            <p>È mio desiderio, carissimo <rs ref="#p.141">figlio</rs>, che voi diate alla presente
+               lettera tutta la pubblicità che deve avere, affinché nessuno possa ingannarsi sulla
+               pericolosa situazione nella quali ci troviamo. Se questa lettera produce l’effetto
+               che mi permettono d’aspettarne tanto la coscienza delle mie paterne intenzioni,
+               quanto la fiducia nei vostri lumi, e nel retto giudizio e lealtà dei miei popoli,
+               toccherà a voi di addottare quelle misure provvisorie che giudicherete opportune a
+               mantener l’ordine pubblico e<pb n="21v"/> l’amministrazione del paese, finche <rs
+                  ref="#p.138">io</rs> possa farvi conoscere la mia volontà in una maniera più
+               esplicita.</p>
+         </div>
+      </body>
+      <back>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listPlace.xml" xpointer="listPlace"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listPerson.xml"
+            xpointer="listPerson"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listWit.xml" xpointer="listWit"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listOrg.xml" xpointer="listOrg"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listTreaties.xml"
+            xpointer="listTreaties"/>
+      </back>
+   </text>
+</TEI>

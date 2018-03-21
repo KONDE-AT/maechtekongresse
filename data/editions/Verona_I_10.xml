@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">I. Affaires d'Espagne</title>
+            <title type="main">Antwort der preußischen Delegation auf die Vorschläge Metternichs vom
+               31. Oktober 1822 </title>
+            <title type="sub">Digitale Edition</title>
+            <editor>
+               <persName>
+                  <surname>Schneider</surname>
+                  <forename>Karin</forename>
+               </persName></editor>
+         </titleStmt>
+         <editionStmt>
+            <edition><date>2017-03-13</date></edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Österreichische Akademie der Wissenschaften, Institut für Neuzeit- und
+               Zeitgeschichtsforschung</publisher>
+            <pubPlace>Wien</pubPlace>
+            <idno>V_I_10</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="m.1" type="Ausfertigung">
+               <msIdentifier>
+                  <settlement>Wien</settlement>
+                  <institution>ÖStA</institution>
+                  <collection>HHStA, Staatskanzlei, Kongressakten</collection>
+                  <idno>
+                     <idno type="Karton">Kart. 23</idno>
+                     <idno type="Faszikel"> Fasz. 43 (alt)</idno>
+                     <idno type="Folia">185</idno>
+                  </idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <title>Antwort der preußischen Delegation auf die Vorschläge Metternichs vom
+                        31. Oktober 1822 </title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <p>Ausfertigung</p>
+                  <p>Dokument liegt in einem Umschlag mit der Aufschrift von der Hand <persName
+                        ref="#p.8"><surname>Metternichs</surname></persName>: "No 8. Projets des
+                     réponses des Cabinets à la proposition autrichienne".</p>
+
+                  <handDesc>
+                     <handNote xml:id="A">Anonyme Hand</handNote>
+                     <handNote xml:id="A1">Weitere anonyme Hand</handNote>
+                     <handNote xml:id="G">Friedrich Gentz</handNote>
+                     <handNote xml:id="W">Nikolaus Wacken</handNote>
+                     <handNote xml:id="AmB">Anonyme Hand mit Bleistift</handNote>
+                     <handNote xml:id="AmR">Anonyme Hand mit Rotstift</handNote>
+                     <handNote xml:id="M">Metternich</handNote>
+                  </handDesc>
+
+               </physDesc>
+               <history>
+                  <origin><placeName ref="#loc.68">Verona</placeName></origin>
+               </history>
+            </msDesc>
+
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <appInfo>
+            <application xml:id="docxtotei" ident="TEI_fromDOCX" version="2.15.0">
+               <label>DOCX to TEI</label>
+            </application>
+         </appInfo>
+         <styleDefDecl scheme="css"/>
+         <tagsDecl>
+            <rendition xml:id="su">superscript</rendition>
+            <rendition xml:id="s">strikethrough</rendition>
+            <rendition xml:id="u">underline</rendition>
+            <rendition xml:id="ow">overwritten</rendition>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <abstract>
+            <p>Die <rs ref="#p.12 #p.175">Vertreter Preußens</rs> begrüßen die Vorschläge <persName
+                  ref="#p.8"><surname>Metternichs</surname></persName> zur schnellstmöglichen
+               Beendigung der Revolution in <country>Spanien</country>, erklären sich zu weiteren
+               Erörterungen bereit und favorisieren ein gemeinsames Vorgehen der Mächte, ohne sich
+               auf Kollektiv- oder Separatnoten der Mächte an die spanische Regierung
+               festzulegen.</p>
+         </abstract>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div decls="#m.1" hand="#A">
+            <pb n="185r"/>
+            <p>Le Cabinet Prussien, après avoir pris en considération les <ref
+                  target="Verona_I_7.xml">propositions émises par Monsieur le <persName ref="#p.8"
+                        ><roleName>Prince</roleName>
+                     <surname>de Metternich</surname></persName> dans la conférence du <date
+                     when="1822-10-31">31 Octobre</date></ref>, ne saurait qu’apprécier les motifs
+               qui ont dicté ces propositions, et partager les vues et les espérances que le Cabinet
+               Autrichien attache à l’idée d’une démarche à faire par les Cours alliées auprès du
+               Gouvernement Espagnol. Le Cabinet Prussien est par conséquent prêt à entrer en
+               délibération sur ce qui peut servir au développement et à la réalisation de cette
+               idée. Quant à la forme à donner à cette démarche il accorderait toujours la
+               préférence à celle qui serait la plus propre à constater un accord de principes et
+                  de<pb n="185v"/> vues entre les Alliés, et d’après cela il ne peut qu’opiner pour
+               la première des formes proposées, en admettant toutefois la justesse des observations
+               déjà faites sur l’avantage que des notes séparées, mais partant du même principe et
+               allant au même but, auraient sur une déclaration collective.</p>
+         </div>
+      </body>
+      <back>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listPlace.xml" xpointer="listPlace"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listPerson.xml"
+            xpointer="listPerson"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listWit.xml" xpointer="listWit"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listOrg.xml" xpointer="listOrg"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listTreaties.xml"
+            xpointer="listTreaties"/>
+      </back>
+   </text>
+</TEI>

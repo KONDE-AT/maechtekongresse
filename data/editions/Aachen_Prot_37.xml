@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Protokoll der 36. Sitzung des Kongresses von Aachen</title>
+            <title type="sub">Digitale Edition</title>
+            <editor>
+               <persName>
+                  <surname>Schneider</surname>
+                  <forename>Karin</forename>
+               </persName></editor>
+         </titleStmt>
+         <editionStmt>
+            <edition><date>2015-05-08</date></edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Österreichische Akademie der Wissenschaften, Institut für Neuzeit- und
+               Zeitgeschichtsforschung</publisher>
+            <pubPlace>Wien</pubPlace>
+            <idno>A_37</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="m.1" type="Originalprotokoll">
+               <msIdentifier>
+                  <settlement>Wien</settlement>
+                  <institution>ÖStA</institution>
+                  <collection>HHStA, Staatskanzlei, Kongressakten</collection>
+                  <idno>
+                     <idno type="Karton">Kart. 17</idno>
+                     <idno type="Faszikel"> Fasz. 29 (alt)</idno>
+                     <idno type="Folia">II/182-191</idno>
+                  </idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <title>Protokoll</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <p>Das Protokoll liegt in handschriftlicher (fol. II/182, 186–191) und gedruckter
+                     Form (fol. II/183–185) ein. Die Transkription folgt der handschriftlichen
+                     Fassung, welche Korrekturen durch <persName ref="#p.5"
+                        ><surname>Gentz</surname></persName> aufweist.</p>
+                  <handDesc>
+                     <handNote xml:id="G">Friedrich Gentz</handNote>
+                     <handNote xml:id="W">Nikolaus Wacken</handNote>
+                     <handNote xml:id="A">Anonyme Hand</handNote>
+                     <handNote xml:id="AmrB">Anonyme Hand mit rotem Buntstift</handNote>
+                     <handNote xml:id="AmT">Anonyme Hand mit Tinte</handNote>
+                     <handNote xml:id="AmB">Anonyme Hand mit Bleistift</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin><placeName ref="#loc.1">Aachen</placeName>
+                     <date when="1818-11-19">19. November 1818</date></origin>
+               </history>
+            </msDesc>
+
+            <listWit corresp="#m.1">
+               <head>Protokoll</head>
+               <witness corresp="#w.5"><bibl type="print">BFSP, Bd. 5 (1817/18), S.
+                     1086–1090;</bibl></witness>
+               <witness corresp="#w.9"><bibl type="print">de Clercq, Recueil, Bd. 3, S.
+                     183–186;</bibl></witness>
+               <witness corresp="#w.8"><bibl type="print">Angeberg, Congrès, Bd. 3, S.
+                     1763–1766.</bibl></witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <appInfo>
+            <application xml:id="docxtotei" ident="TEI_fromDOCX" version="2.15.0">
+               <label>DOCX to TEI</label>
+            </application>
+         </appInfo>
+         <styleDefDecl scheme="css"/>
+         <tagsDecl>
+            <rendition xml:id="su">superscript</rendition>
+            <rendition xml:id="s">strikethrough</rendition>
+            <rendition xml:id="u">underline</rendition>
+            <rendition xml:id="ow">overwritten</rendition>
+            <rendition xml:id="italic">italic</rendition>
+            <rendition xml:id="allcaps">allcaps</rendition>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <abstract>
+            <p>Dem Ansuchen des französischen Premierministers <persName ref="#p.1"
+                     ><surname>Richelieu</surname></persName> nachkommend bewilligen die <rs
+                  ref="#p.8 #p.9 #p.11 #p.12 #p.13 #p.14">Vertreter der alliierten Mächte</rs>
+               folgende Modifikation der Zahlungsmodalitäten der französischen
+               Entschädigungszahlungen: Verlängerung des Zahlungszeitraums, Ermächtigung der <rs
+                  ref="#o.1 #o.2">beauftragten Bankhäuser</rs>, einen Teil der Wechselbriefe über
+               außerhalb <country>Frankreichs</country> gelegene Orte auszuzahlen.</p>
+         </abstract>
+         <particDesc>
+            <listPerson>
+               <head>Anwesende</head>
+
+               <person>
+                  <persName ref="#p.12">BERNSTORFF</persName>
+               </person>
+               <person>
+                  <persName ref="#p.9">CASTLEREAGH</persName>
+               </person>
+               <person>
+                  <persName ref="#p.11">HARDENBERG</persName>
+               </person>
+               <person>
+                  <persName ref="#p.14">KAPODISTRIAS</persName>
+               </person>
+               <person>
+                  <persName ref="#p.8">METTERNICH</persName>
+               </person>
+               <person>
+                  <persName ref="#p.13">NESSELRODE</persName>
+               </person>
+               <person>
+                  <persName ref="#p.1">RICHELIEU</persName>
+               </person>
+
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div hand="#A" decls="#m.1">
+            <pb n="182r"/>
+            <p><add hand="#W" place="top">Protocole <choice>
+                     <abbr>No</abbr>
+                     <expan>Numéro</expan>
+                  </choice>
+                  <del rendition="#s">37</del> 36.</add></p>
+            <p><placeName ref="#loc.1">Aix-la-Chapelle</placeName> le <date when="1818-11-19">19
+                  Novembre 1818</date>.</p>
+            <p><add hand="#W" place="margin">Entre les cinq Cabinets</add></p>
+            <p><ref target="Aachen_Prot_6.xml"><rs ref="#o.1 #o.2">Les maisons de banque</rs>, avec
+                  lesquelles le Gouvernement François a traité de l’exécution de ses engagemens
+                  pécuniaires,</ref> et dont le crédit universellement reconnu a déterminé les Cours
+               Alliées non seulement à accepter en payement les lettres de change, tirées sur ces
+               maisons par le trésor de <country>France</country> pour la somme de 165 Millions,
+               restant à acquitter d’après l’article VI de la <rs ref="#t.10">Convention du <date
+                     when="1818-10-09">9 Octobre</date></rs>, mais encore à faire réaliser par leur
+               entremise la somme de 100 Millions valeur effective, payable en inscriptions de rente
+               d’après l’article V de la même convention, avoient déclaré qu’elles pourroient
+               effectuer en neuf termes les différens payemens<pb n="182v"/> dont elles se
+               chargeoient ; et la position favorable de la Place de <placeName ref="#loc.2"
+                  >Paris</placeName> à l’époque où cet arrangement eut lieu, les facilités
+               qu’éprouvoit la circulation, la valeur élevée des rentes, et la perspective d’un
+               surcroit de consolidation du crédit public à la suite des transactions politiques les
+               plus heureuses et les plus satisfaisantes pour la <country>France</country>,
+               sembloient pleinement justifier l’opinion que les termes proposés par <rs
+                  ref="#o.1 #o.2">les dites maisons de banque</rs> ne dépassoient pas la limite des
+               moyens disponibles, et pouvoient être acceptés et maintenus sans aucun inconvénient
+               ni pour la <country>France</country>, ni pour les puissances créancières.</p>
+            <p>Tel étoit l’état des choses lorsque la <rs ref="#t.10">Convention du <date
+                     when="1818-10-09">9 Octobre</date></rs> fut signée. Mais dès les derniers jours
+               du même mois plusieurs symptômes, dont il étoit impossible de se dissimuler
+                  l’importance,<pb n="187r"/> avertirent le Gouvernement François que, malgré
+               l’étendue des ressources que <rs ref="#p.20 #p.23">les banquiers</rs>, chargés de ses
+               payemens, avoient à leur disposition, il seroit difficile de réaliser ces payemens
+               dans les délais stipulés sans exposer directement la circulation de <placeName
+                  ref="#loc.2">Paris</placeName> et de la <country>France</country>, et
+               indirectement celle de toute l’Europe commerçante, à de graves inconvéniens. Quoique
+               les charges pécuniaires que le <rs ref="#t.1">traité du <date when="1815-11-20">20
+                     Novembre 1815</date></rs> avoit imposées à la <country>France</country> eussent
+               été en très grande Partie acquittées par des revivemens de commerce, par des
+               opérations de change, et par tous ces moyens artificiels qui, dans l’état
+               perfectionné des communications réciproques des pays, remplacent le numéraire
+               effectif, il paroit cependant qu’en dernière analyse une quantité assez considérable
+               de ce numéraire a<pb n="187v"/> dû être nécessairement employée à solder la balance
+               de la <country>France</country>. À cette cause première de diminution dans la masse
+               des valeurs circulantes il en accéda d’autres dont les effets ne peuvent point être
+               méconnus. Plusieurs des principaux Etats de l’Europe travaillent à substituer <subst>
+                  <del rendition="#s">l'argent</del>
+                  <add hand="#G" place="above">les valeurs</add>
+               </subst> métalliques au papier qui jusqu’ici en avoit rempli les fonctions. Les
+               mesures adoptées dans ce but ont exigé une forte importation de numéraire ; et il est
+               suffisamment avéré que cette importation s’est en grande partie opérée par
+               l’exportation de celui de la <country>France</country>. Des Conjonctures momentanées,
+               assez connues de ceux qui s’occupent particulièrement de ces objets, ont rendu cette
+               diminution du numéraire plus sensible à l’époque même où une nouvelle création de
+               rentes étoit annoncée par les<pb n="188r"/> stipulations du <rs ref="#t.10">traité
+                  d’évacuation</rs>. La banque de France en a éprouvé les premiers effets. Ses fonds
+               effectifs, naguères trop forts même pour ses besoins, ont été successivement entamés
+               au point que la loyauté et la prudence, bases essentielles de cet établissement, lui
+               ont commandé de resserrer ses escomptes, et de restreindre par conséquent l’émission
+               de ses billets. Il en est nécessairement résulté un redoublement d’embarras dans la
+               circulation générale. Sous des circonstances qui auroient rendu désirable une
+               augmentation de numéraire ou des signes qui le représentent, pour absorber les
+               nouvelles rentes qui alloient être versées sur la place, l’insuffisance des valeurs
+               disponibles a été telle que le prix même des rentes existantes n’a pas pu se soutenir
+               à la bourse. La baisse des effets publics s’est déclarée dans un moment<pb n="188v"/>
+               où des causes exclusivement liées aux rapports pécuniaires pouvoient seules expliquer
+               un phénomène pareil, puisque toutes les Causes politiques et morales qui peuvent agir
+               sur le crédit d’un <choice>
+                  <abbr>Gouvern<hi rendition="#su">t</hi></abbr>
+                  <expan>Gouvernement</expan>
+               </choice> se réunissoient en faveur de la <country>France</country> ; mais cette
+               baisse une fois arrivée, un concours de circonstances secondaires, et surtout
+               l’empressement irréfléchi qu’un certain nombre de porteurs d’inscriptions ont mis à
+               se défaire de celles qu’ils possédoient, a momentanément affoibli l’efficacité des
+               mesures par lesquelles le Gouvernement et les maisons de commerce respectables, qui
+               secondent ses opérations, seroient bientôt parvenus à ramener les choses à leur juste
+               niveau.</p>
+            <p>Le contre-coup de ce qui s’est passé à <placeName ref="#loc.2">Paris</placeName> doit
+               nécessairement se faire sentir dans les relations commerciales et pécuniaires des
+               autres Places Européennes ; et si le mal n’est pas attaqué dans<pb n="189r"/> sa
+               racine, aucun pays ne sera à l’abri de ses effets. Ce seroit se livrer à une illusion
+               dangereuse que de croire qu’à proportion que le Numéraire diminueroit en
+                  <country>France</country>, il abonderoit dans les autres pays. La totalité des
+               opérations pécuniaires du monde civilisé se fait au moyen d’une somme comparativement
+               très petite d’argent monnoyé. Ce qui détermine la rareté ou l’abondance du numéraire
+               est beaucoup moins sa quantité absolue que le degré de facilité et de rapidité du
+               mouvement qui le fait circuler. Mais aussitôt qu’une cause quelconque arrête ce
+               mouvement dans un de ses principaux foyers, les affaires commerciales, les ressources
+               de l’industrie, les transactions du change, le prise des effets publics, doivent s’en
+               ressentir par-tout, et la stagnation qui se manifeste sur une des places centrales de
+                  l’Europe<pb n="189v"/> doit inévitablement amener une stagnation plus ou moins
+               générale. Aussi les embarras produits à <placeName ref="#loc.2">Paris</placeName> par
+               la réduction des escomptes de la banque et le resserrement progressif de l’argent
+               sont-ils déjà simultanément sensibles dans les opérations de toutes les autres places
+               de commerce et dans les fonds de tous les gouvernemens.</p>
+            <p>Indépendamment de ces considérations majeures, la valeur des effets publics de
+                  <country>France</country> a, dans l’époque actuelle, un intérêt particulier pour
+               les Puissances qui ont eu part aux <rs ref="#t.1 #t.2 #t.3 #t.4 #t.5">traités du
+                     <date when="1815-11-20">20 Novembre 1815</date></rs> et à la <rs ref="#t.7"
+                  >Convention du <date when="1818-04-25">25 <subst>
+                        <del rendition="#s">Mai</del>
+                        <add hand="#G" place="above">Avril</add>
+                     </subst>1818</date></rs>. Car ayant stipulé au nom de leurs sujets créanciers
+               de la <country>France</country> qu’ils recevroient le montant de Leurs créances en
+               inscriptions sur le grand livre de sa dette publique, elles ne doivent négliger aucun
+               des moyens à leur portée pour<pb n="190r"/> empêcher que les valeurs que les
+               Individus en question ont reçues ou vont recevoir ne soient dépréciées ; et les
+               mesures que le Gouvernement François peut adopter pour maintenir ou améliorer le
+               cours de ses inscriptions ne sauroient, par cette raison seule, être indifférentes
+               pour les autres Etats.</p>
+            <p>Ayant sérieusement réfléchi sur cette position des choses, sur les inconvéniens
+               nombreux qui naîtroient du déplacement subit d’une trop grande masse de numéraire,
+               sur l’atteinte que porteroient aux intérêts commerciaux de tous les pays les
+               opérations forcées auxquelles <rs ref="#o.1 #o.2">les maisons de banque, chargées des
+                  payemens</rs>, seroient obligées d’avoir recours pour effectuer un déplacement
+               pareil dans un espace de tems trop limité, le Gouvernement François a proposé aux
+               Puissances créancières d’admettre dans les arrangemens convenus les deux<pb n="190v"
+               /> modifications suivantes, savoir : </p>
+            <p>1. Celle de prolonger à dix-huit mois les termes des payemens fixés à neuf mois par
+               la <rs ref="#t.10">Convention du <date when="1818-10-09">9 Octobre</date></rs> ; </p>
+            <p>2. Celle de donner aux maisons contractantes la faculté d’acquitter une partie de
+               leurs engagemens en lettres de change sur certaines places hors de
+                  <country>France</country> qui seroient spécialement déterminées.</p>
+            <p>Les <rs ref="#p.8 #p.9 #p.11 #p.12 #p.13 #p.14">Plénipotentiaires d’Autriche, de la
+                  Grande-Bretagne, de Prusse et de Russie</rs> ont fait de ces propositions l’objet
+               d’un examen approfondi ; et le résultat de cet examen les ayant conduits à
+               reconnoître,</p>
+            <p>Que les modifications proposées n’altèrent en rien ni la nature, ni la solidité des
+               engagemens primitifs, ni celles des garanties sur lesquelles reposent en dernière
+               analyse toutes les stipulations pécuniaires de la <rs ref="#t.10">convention du <date
+                     when="1818-10-09">9 Octobre</date></rs> ;</p>
+            <pb n="191r"/>
+            <p>Que ces modifications ne sauroient affecter en aucune manière la Confiance que les
+               puissances ont accordée aux maisons contractantes, attendu que ces maisons se sont
+               déclarées prêtes à remplir leurs engagemens primitifs si les puissances le jugoient
+               nécessaire ou convenable ;</p>
+            <p>Que, par conséquent, il ne sera nullement difficile d’éclairer et de rassurer
+               l’opinion publique sur les alarmes qu’une fausse interprétation de cette mesure, ou
+               l’ignorance de ses véritables motifs, pourroient faire naître dans l’un ou l’autre
+               pays ;</p>
+            <p>Que les dites modifications ne doivent point être considérées comme un avantage
+               particulier pour le Gouvernement François, ou comme un Soulagement accordé aux
+               maisons de banque avec lesquelles il a traité, mais comme un arrangement de
+               convenance mutuelle, dicté par des motifs communs à toutes<pb n="191v"/> les parties
+               contractantes, et non moins conforme à l’intérêt bien entendu du créancier qu’à celui
+               du débiteur ;</p>
+            <p>Que la <country>France</country> s’engageant en outre à tenir compte aux puissances
+               créancières d’un intérêt de Cinq pour Cent à raison du délai provenant de ce nouvel
+               arrangement, il n’en résulte pour les autres puissances aucune perte réelle.</p>
+            <p>Les <rs ref="#p.8 #p.9 #p.11 #p.12 #p.13 #p.14">Plénipotentiaires des Quatre
+                  puissances</rs> ont adhéré aux modifications proposées par le <rs ref="#p.1"
+                  >Plénipotentiaire de France</rs> aux stipulations de la <rs ref="#t.10">Convention
+                  du <date when="1818-10-09">9 Octobre</date></rs> et, de concert avec Lui, les ont
+               rédigées et arrêtées telles qu’elles se trouvent insérées au <ref
+                  target="Aachen_Prot_29.xm.">Protocole signé le <date when="1818-11-11">11
+                     Novembre</date></ref>.</p>
+            <signed>
+               <list>
+                  <item><persName ref="#p.8">Metternich</persName></item>
+                  <item><persName ref="#p.9">Castlereagh</persName></item>
+                  <item><persName ref="#p.11">Hardenberg</persName></item>
+                  <item><persName ref="#p.12">Bernstorff</persName></item>
+                  <item><persName ref="#p.13">Nesselrode</persName></item>
+                  <item><persName ref="#p.14">Capodistrias</persName></item>
+               </list></signed>
+         </div>
+      </body>
+      <back>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listPlace.xml" xpointer="listPlace"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listPerson.xml"
+            xpointer="listPerson"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listWit.xml" xpointer="listWit"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listOrg.xml" xpointer="listOrg"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listTreaties.xml"
+            xpointer="listTreaties"/>
+      </back>
+   </text>
+</TEI>

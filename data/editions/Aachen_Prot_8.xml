@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Protokoll der 8. Sitzung des Kongresses von Aachen</title>
+            <title type="sub">Digitale Edition</title>
+            <editor>
+               <persName>
+                  <surname>Schneider</surname>
+                  <forename>Karin</forename>
+               </persName></editor>
+         </titleStmt>
+         <editionStmt>
+            <edition><date>2015-05-08</date></edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Österreichische Akademie der Wissenschaften, Institut für Neuzeit- und
+               Zeitgeschichtsforschung</publisher>
+            <pubPlace>Wien</pubPlace>
+            <idno>A_08</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="m.1" type="Originalprotokoll">
+               <msIdentifier>
+                  <settlement>Wien</settlement>
+                  <institution>ÖStA</institution>
+                  <collection>HHStA, Staatskanzlei, Kongressakten</collection>
+                  <idno>
+                     <idno type="Karton">Kart. 17</idno>
+                     <idno type="Faszikel"> Fasz. 29 (alt)</idno>
+                     <idno type="Folia">I/34</idno>
+                  </idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <title>Protokoll</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+
+                  <p> Eigenhändiges Protokoll von <persName ref="#p.5">
+                        <surname>Gentz</surname></persName>. </p>
+                  <handDesc>
+                     <handNote xml:id="G">Friedrich Gentz</handNote>
+                     <handNote xml:id="W">Nikolaus Wacken</handNote>
+                     <handNote xml:id="A">Anonym</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin><placeName ref="#loc.1">Aachen</placeName><date when="1818-10-11">11.
+                        Oktober 1818</date></origin>
+               </history>
+            </msDesc>
+
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <appInfo>
+            <application xml:id="docxtotei" ident="TEI_fromDOCX" version="2.15.0">
+               <label>DOCX to TEI</label>
+            </application>
+         </appInfo>
+         <styleDefDecl scheme="css"/>
+         <tagsDecl>
+            <rendition xml:id="su">superscript</rendition>
+            <rendition xml:id="s">strikethrough</rendition>
+            <rendition xml:id="u">underline</rendition>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+
+         <abstract>
+            <p>Die <rs ref="#p.8 #p.10 #p.11 #p.13 #p.12 #p.14 #p.9">Vertreter der alliierten
+                  Mächte</rs> beschließen, jene Höfe mittels eines <ref target="Aachen_Prot_7.xml"
+                  >Zirkularschreibens über die <rs ref="#t.10">Konvention vom <date
+                        when="1818-10-09">9. Oktober 1818</date></rs></ref> zu verständigen, die dem
+                  <rs ref="#t.1">Zweiten Pariser Frieden</rs> beigetreten sind. <ref
+                  target="Aachen_Prot_10.xml">Das Gesuch des <rs ref="#p.21">Großherzogs von
+                     Hessen</rs> betreffend die Annahme der Königswürde wird von den <rs
+                     ref="#p.8 #p.10 #p.11 #p.13 #p.12 #p.14 #p.9"> Vertretern der alliierten
+                     Mächte</rs> mittels eines separaten Protokolls abgelehnt.</ref></p>
+         </abstract>
+         <particDesc>
+            <listPerson>
+               <head>Anwesende</head>
+
+               <person>
+                  <persName ref="#p.12">BERNSTORFF</persName>
+               </person>
+               <person>
+                  <persName ref="#p.9">CASTLEREAGH</persName>
+               </person>
+               <person>
+                  <persName ref="#p.11">HARDENBERG</persName>
+               </person>
+               <person>
+                  <persName ref="#p.14">KAPODISTRIAS</persName>
+               </person>
+               <person>
+                  <persName ref="#p.8">METTERNICH</persName>
+               </person>
+               <person>
+                  <persName ref="#p.13">NESSELRODE</persName>
+               </person>
+               <person>
+                  <persName ref="#p.10">WELLINGTON</persName>
+               </person>
+
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div hand="#G" decls="#m.1">
+            <pb n="34r"/>
+            <p><add place="top" rendition="#u">8</add></p>
+            <p><placeName ref="#loc.1">Aix-la-Chapelle</placeName> le <date when="1818-10-11"> 11
+                  Octobre</date>
+            </p>
+            <p>
+               <add hand="#W" place="margin">Entre les 4 Cabinets</add></p>
+            <p><choice>
+                  <abbr>Mr.</abbr>
+                  <expan>Monsieur</expan>
+               </choice> le <persName ref="#p.8"><roleName>Prince</roleName>
+                  <surname>de Metternich</surname></persName> a proposé de donner part de la
+               signature de la <rs ref="#t.10">convention de Vendredi <date when="1818-10-09">9
+                     Octobre</date></rs> relative à l’évacuation du territoire Français aux
+               différentes Cours qui ont accédé au <rs ref="#t.1">Traité de <placeName ref="#loc.2"
+                     >Paris</placeName> du <date when="1815-11-20">20 Novembre 1815</date></rs>. On
+               est convenu d’adresser à cet effet une Circulaire aux Ministres des Quatre puissances
+               accrédités prés ces cours. <del rendition="#s">et <choice>
+                     <abbr>Mr.</abbr>
+                     <expan>Monsieur</expan>
+                  </choice> le <persName ref="#p.8"><roleName>Prince</roleName>
+                     <surname>de Metternich</surname></persName> s’est réservé une proposition
+                  ultérieure sur la forme à donner à cette communication pour les deux Cours de
+                  Suède et de Naples, ces Cours n’ayant pas eu part à l’occupation
+               Militaire.</del></p>
+            <p>Il a été ensuite fait lecture des lettres que <rs ref="#p.21"><del rendition="#s">le
+                     Grand-Duc</del> l’Electeur de Hesse</rs> a adressées aux Souverains pour
+               obtenir leur assentiment au projet qu’Il avoit formé de se revêtir de la dignité
+               Royale. <choice>
+                  <abbr>Mrs.</abbr>
+                  <expan>Messieurs</expan>
+               </choice>
+               <rs ref="#p.8 #p.10 #p.11 #p.13 #p.12 #p.14 #p.9">les Ministres</rs> ont été
+               unanimement d’avis qu’un changement pareil sera produire aucun avantage, ameneroit de
+               nombreux inconvéniens ; et cet avis doit être consigné dans <ref
+                  target="Aachen_Prot_10.xml">un Protocole séparé</ref>.</p>
+            <signed>
+               <list>
+                  <item><persName ref="#p.8"><choice>
+                           <abbr>M</abbr>
+                           <expan>Metternich</expan>
+                        </choice></persName></item>
+                  <item><persName ref="#p.9"><choice>
+                           <abbr>C</abbr>
+                           <expan>Castlereagh</expan>
+                        </choice></persName></item>
+                  <item><persName ref="#p.10"><choice>
+                           <abbr>W</abbr>
+                           <expan>Wellington</expan>
+                        </choice></persName></item>
+                  <item><persName ref="#p.11"><choice>
+                           <abbr>H</abbr>
+                           <expan>Hardenberg</expan>
+                        </choice></persName></item>
+                  <item><persName ref="#p.12"><choice>
+                           <abbr>B</abbr>
+                           <expan>Bernstorff</expan>
+                        </choice></persName></item>
+                  <item><persName ref="#p.13"><choice>
+                           <abbr>N</abbr>
+                           <expan>Nesselrode</expan>
+                        </choice></persName></item>
+                  <item><persName ref="#p.14">Capodistrias</persName></item>
+               </list></signed>
+         </div>
+      </body>
+      <back>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listPlace.xml" xpointer="listPlace"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listPerson.xml" xpointer="listPerson"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listWit.xml" xpointer="listWit"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listOrg.xml" xpointer="listOrg"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listTreaties.xml" xpointer="listTreaties"/>
+      </back>
+   </text>
+</TEI>

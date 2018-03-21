@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">I. Affaires d'Espagne</title>
+            <title type="main">Antwort der russischen Bevollmächtigten auf die Vorschläge
+               Metternichs vom 31. Oktober 1822 </title>
+            <title type="sub">Digitale Edition</title>
+            <editor>
+               <persName>
+                  <surname>Schneider</surname>
+                  <forename>Karin</forename>
+               </persName></editor>
+         </titleStmt>
+         <editionStmt>
+            <edition><date>2017-03-13</date></edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Österreichische Akademie der Wissenschaften, Institut für Neuzeit- und
+               Zeitgeschichtsforschung</publisher>
+            <pubPlace>Wien</pubPlace>
+            <idno>V_I_9</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="m.1" type="Ausfertigung">
+               <msIdentifier>
+                  <settlement>Wien</settlement>
+                  <institution>ÖStA</institution>
+                  <collection>HHStA, Staatskanzlei, Kongressakten</collection>
+                  <idno>
+                     <idno type="Karton">Kart. 23</idno>
+                     <idno type="Faszikel"> Fasz. 43 (alt)</idno>
+                     <idno type="Folia">181-182</idno>
+                  </idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <title>Antwort der russischen Bevollmächtigten auf die Vorschläge <persName
+                           ref="#p.8"><surname>Metternichs</surname></persName> vom <date
+                           when="1822-10-31">31. Oktober 1822</date>
+                     </title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <p>Ausfertigung</p>
+                  <p>Dokument liegt in einem Umschlag mit der Aufschrift von der Hand <persName
+                        ref="#p.8"><surname>Metternichs</surname></persName>: "No 8. Projets des
+                     réponses des Cabinets à la proposition autrichienne".</p>
+
+                  <handDesc>
+                     <handNote xml:id="A">Anonyme Hand</handNote>
+                     <handNote xml:id="A1">Weitere anonyme Hand</handNote>
+                     <handNote xml:id="G">Friedrich Gentz</handNote>
+                     <handNote xml:id="W">Nikolaus Wacken</handNote>
+                     <handNote xml:id="AmB">Anonyme Hand mit Bleistift</handNote>
+                     <handNote xml:id="AmR">Anonyme Hand mit Rotstift</handNote>
+                     <handNote xml:id="M">Metternich</handNote>
+                  </handDesc>
+
+               </physDesc>
+               <history>
+                  <origin><placeName ref="#loc.68">Verona</placeName><date when="1822-11-02">2.
+                        November 1822</date></origin>
+               </history>
+            </msDesc>
+            <listWit corresp="#m.1">
+               <head>Antwort der russischen Bevollmächtigten auf die Vorschläge Metternichs vom 31.
+                  Oktober 1822</head>
+               <witness corresp="#w.4"><bibl type="print">Vnešnjaja politika Rossii, Bd. 12, S.
+                     588–589.</bibl></witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <appInfo>
+            <application xml:id="docxtotei" ident="TEI_fromDOCX" version="2.15.0">
+               <label>DOCX to TEI</label>
+            </application>
+         </appInfo>
+         <styleDefDecl scheme="css"/>
+         <tagsDecl>
+            <rendition xml:id="su">superscript</rendition>
+            <rendition xml:id="s">strikethrough</rendition>
+            <rendition xml:id="u">underline</rendition>
+            <rendition xml:id="ow">overwritten</rendition>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <abstract>
+            <p>Die <rs ref="#p.13">russischen Vertreter</rs> erklären, der <rs ref="#p.17">Zar</rs>
+               begrüße die Vorschläge des österreichischen Kabinetts zur schnellstmöglichen
+               Beendigung der Revolution in <country>Spanien</country> und schlagen vor, sich
+               bereits über weitere Maßnahmen zu einigen, falls das von den <rs ref="#p.8"
+                  >Vertretern Österreichs</rs> angeregte Vorgehen sich als nicht zielführend
+               erweisen sollte. Zudem plädieren sie, in Anlehnung an die Vorschläge Österreichs, für
+               Separatnoten der Mächte an die spanische Regierung.</p>
+         </abstract>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div decls="#m.1" hand="#A">
+            <pb n="181r"/>
+
+            <p><title>Réponse des <rs ref="#p.13">Plénipotentiaires de Russie</rs> aux <ref
+                     target="Verona_I_7">propositions faites par le Cabinet Autrichien à la
+                     Conférence du <date when="1822-10-31">31 Octobre</date></ref></title>
+            </p>
+            <p><placeName ref="#loc.68">Vérone</placeName>, le 21 Octobre/<date when="1822-11-02">2
+                  Novembre 1822</date>.</p>
+            <p>À la suite des propositions faites par le Cabinet Autrichien, les <rs ref="#p.13"
+                  >Plénipotentiaires de Russie</rs> ont déclaré :</p>
+            <p>« Que l’<rs ref="#p.17">Empereur</rs>, leur Maître, ne pourroit que Se féliciter de
+               voir la Cour de <placeName ref="#loc.7">Vienne</placeName> signaler la nécessité
+               d’une démarche dont l’objet seroit de hâter le terme de la révolution en
+                  <country>Espagne</country>, et d’encourager la nation Espagnole à secouer le joug
+               des factieux qui l’oppriment ;</p>
+            <p>Qu’ils sont autorisés à adhérer à cette proposition dans l’espoir que les résolutions
+               auxquelles donneront lieu les ouvertures de<pb n="181v"/>
+                  l’<country>Autriche</country> jointes aux engagemens qui doivent résulter des
+               propositions antérieures du Ministère français, serviront à compléter le système
+               qu’on aura jugé le plus convenable d’adopter à l’égard de
+                  l’<country>Espagne</country> ; </p>
+            <p>Qu’en conséquence il leur paroît nécessaire de prévoir dès à présent le cas où la
+               démarche proposée par l’<country>Autriche</country> seroit infructueuse ; </p>
+            <p>De définir l’attitude que prendroit chacune des Puissances intervenantes si les
+               représentations de <rs ref="#p.177 #p.123 #p.178 #p.179">leurs Ministres à <placeName
+                     ref="#loc.24">Madrid</placeName></rs> n’étoient pas écoutées ; </p>
+            <p>D’utiliser, en un mot, l’importante époque du Congrès de <placeName ref="#loc.68"
+                  >Vérone</placeName> pour<pb n="182r"/> arrêter avec précision le plan de conduite
+               à suivre par ces Puissances dans toutes les circonstances que pourront amener leurs
+               explications avec le Gouvernement Espagnol et les déterminations qu’il aura
+               provoquées de leur part. »</p>
+            <p>Pour ce qui est du mode de la démarche en question, les <rs ref="#p.13"
+                  >Plénipotentiaires de Russie</rs> ont été d’avis qu’une déclaration faite au moyen
+               de notes séparées, mais uniformes quant au point de départ &amp; au but offriroit le
+               plus de facilité.</p>
+            <p>C’est sur cette dernière base et dans la vue de réaliser aussi complètement que
+               possible les idées<pb n="182v"/> qu’ils venoient d’indiquer que les <rs ref="#p.13"
+                  >Plénipotentiaires de Russie</rs> ont témoigné être prêts à se concerter avec ceux
+               des autres Cours alliées sur la suite à donner aux propositions du Cabinet de
+                  <placeName ref="#loc.7">Vienne</placeName>.</p>
+         </div>
+      </body>
+      <back>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listPlace.xml" xpointer="listPlace"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listPerson.xml"
+            xpointer="listPerson"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listWit.xml" xpointer="listWit"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listOrg.xml" xpointer="listOrg"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listTreaties.xml"
+            xpointer="listTreaties"/>
+      </back>
+   </text>
+</TEI>

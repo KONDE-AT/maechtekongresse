@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">II. Affaires d'Italie</title>
+            <title type="main">Procès-verbal der dritten Sitzung</title>
+            <title type="sub">Digitale Edition</title>
+            <editor>
+               <persName>
+                  <surname>Schneider</surname>
+                  <forename>Karin</forename>
+               </persName></editor>
+         </titleStmt>
+         <editionStmt>
+            <edition><date>2017-03-13</date></edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Österreichische Akademie der Wissenschaften, Institut für Neuzeit- und
+               Zeitgeschichtsforschung</publisher>
+            <pubPlace>Wien</pubPlace>
+            <idno>V_II_3</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="m.1" type="Lithographie">
+               <msIdentifier>
+                  <settlement>Wien</settlement>
+                  <institution>ÖStA</institution>
+                  <collection>HHStA, Staatskanzlei, Kongressakten</collection>
+                  <idno>
+                     <idno type="Karton">Kart. 24</idno>
+                     <idno type="Faszikel"> Fasz. 44 (alt)</idno>
+                     <idno type="Folia">II/39-40, II/47-48</idno>
+                  </idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <title>Procès-verbal der dritten Sitzung</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <p>Lithographie</p>
+                  <p>Procès-verbal liegt zweifach ein: handschriftlich fol. II/39 und II/48,
+                     lithographiert fol. II/40 und II/47; die Edition folgt der lithographierten
+                     Variante. Zählung mit Bleistift in der rechten oberen Ecke von fol. 39r:
+                     "3".</p>
+
+                  <handDesc>
+                     <handNote xml:id="A">Anonyme Hand</handNote>
+                     <handNote xml:id="A1">Weitere anonyme Hand</handNote>
+                     <handNote xml:id="G">Friedrich Gentz</handNote>
+                     <handNote xml:id="W">Nikolaus Wacken</handNote>
+                     <handNote xml:id="AmB">Anonyme Hand mit Bleistift</handNote>
+                     <handNote xml:id="AmR">Anonyme Hand mit Rotstift</handNote>
+                     <handNote xml:id="M">Metternich</handNote>
+                  </handDesc>
+
+               </physDesc>
+               <history>
+                  <origin><placeName ref="#loc.68">Verona</placeName><date when="1822-12-08">8.
+                        Dezember 1822</date></origin>
+               </history>
+            </msDesc>
+            <msDesc xml:id="m.2" type="Lithographie">
+               <msIdentifier>
+                  <settlement>Wien</settlement>
+                  <institution>ÖStA</institution>
+                  <collection>HHStA, Staatskanzlei, Kongressakten</collection>
+                  <idno>
+                     <idno type="Karton">Kart. 24</idno>
+                     <idno type="Faszikel"> Fasz. 44 (alt)</idno>
+                     <idno type="Folia">II/41-43, II/46</idno>
+                  </idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <title>Anlage: Neapolitanisch-sizilianische Denkschrift</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <p>Lithographie</p>
+                  <p>Anlage liegt zweifach ein: handschriftlich fol. II/42–43, lithographiert fol.
+                     II/41 und II/46; die Edition folgt der lithographierten Variante.</p>
+               </physDesc>
+
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <appInfo>
+            <application xml:id="docxtotei" ident="TEI_fromDOCX" version="2.15.0">
+               <label>DOCX to TEI</label>
+            </application>
+         </appInfo>
+         <styleDefDecl scheme="css"/>
+         <tagsDecl>
+            <rendition xml:id="su">superscript</rendition>
+            <rendition xml:id="s">strikethrough</rendition>
+            <rendition xml:id="u">underline</rendition>
+            <rendition xml:id="ow">overwritten</rendition>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <abstract>
+            <p>Der <rs ref="#p.138">König beider Sizilien</rs> fordert die Verringerung der Zahl der
+               seit 1821 in seinem Herrschaftsgebiet stationierten Besatzungstruppen auf 35.000
+               Mann; die <rs ref="#p.8 #p.40 #p.175 #p.13 #p.35">Vertreter Österreichs, Preußens und
+                  Russlands</rs> stimmten der Forderung zu. Der Wunsch des <rs ref="#p.138">Königs
+                  beider Sizilien</rs>, Artikel III des Protokolls von <placeName ref="#loc.65"
+                  >Laibach</placeName> vom <date when="1821-02-20">20. Februar 1821</date>
+               hinsichtlich der vom <rs ref="#p.138">König</rs> zu ernennenden beratenden
+               Körperschaften zu modifizieren, wird akzeptiert.</p>
+         </abstract>
+         <particDesc>
+            <listPerson>
+               <head>Anwesende</head>
+
+               <person>
+                  <persName ref="#p.175">HATZFELDT</persName>
+               </person>
+               <person>
+                  <persName ref="#p.40">LEBZELTERN</persName>
+               </person>
+               <person>
+                  <persName ref="#p.8">METTERNICH</persName>
+               </person>
+               <person>
+                  <persName ref="#p.13">NESSELRODE</persName>
+               </person>
+               <person>
+                  <persName ref="#p.140">RUFFO</persName>
+               </person>
+               <person>
+                  <persName ref="#p.35">TATISTCHEFF</persName>
+               </person>
+
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div decls="#m.1">
+            <pb n="40r"/>
+
+            <p><add hand="#AmB" place="top"><date when="1822-12-08">8/12</date>
+                  <choice>
+                     <abbr>Pr.</abbr>
+                     <expan>Procès-Verbal</expan>
+                  </choice></add></p>
+            <p>Procès-Verbal</p>
+            <p><title>de la Conférence entre Messieurs les <rs
+                     ref="#p.8 #p.40 #p.175 #p.13 #p.35 #p.140">Plénipotentiaires d'Autriche, de
+                     Russie, de Prusse, et des Deux-Siciles</rs> relativement à la diminution de
+                  l’Armée auxiliaire dans le <country>Royaume des Deux-Siciles</country></title></p>
+            <p><title>et</title></p>
+            <p><title>d’une modification dans l’établissement des Corps Consultatifs dans le même
+                  Royaume</title></p>
+            <p><placeName ref="#loc.68">Vérone</placeName> le <date when="1822-12-08">8 Décembre
+                  1822</date>.</p>
+            <p><choice>
+                  <abbr>M<hi rendition="#su">r</hi></abbr>
+                  <expan>Monsieur</expan>
+               </choice> le <persName ref="#p.140"><roleName>Prince</roleName>
+                  <surname>de Ruffo</surname></persName>, Ministre d’Etat et Président du Conseil de
+               Sa Majesté le <rs ref="#p.138">Roi des Deux-Siciles</rs>, a demandé à <choice>
+                  <abbr>M<hi rendition="#su">rs</hi></abbr>
+                  <expan>Messieurs</expan>
+               </choice> les <rs ref="#p.8 #p.40 #p.175 #p.13 #p.35">Plénipotentiaires des
+                  Puissances signataires de la <rs ref="#t.48">Convention de <placeName
+                        ref="#loc.11">Naples</placeName></rs> du <date when="1821-10-18">18 Octobre
+                     1821</date></rs> une Conférence relative à l’armée auxiliaire stationnée tant
+               en Naples qu’en Sicile à la suite <rs xml:id="n.1">des évènemens de 1820 et
+                  1821</rs>.<note type="editorial" target="#n.1">Am <date when="1820-07-02">2. Juli
+                     1820</date> meuterte die Militärgarnison in Nola, 35 km von <placeName
+                     ref="#loc.11">Neapel</placeName> entfernt. Das Datum gilt als Beginn der
+                  Revolution im <country>Königreich beider Sizilien</country>. Vgl. Stites, The four
+                  Horsemen; Davis, Naples and Napoleon; Gin, Sanfedisti, Carbonari, Magistrati del
+                  Re; Späth, Revolution in Europa, S. 129–149. Zur Reaktion der Großmächte vgl.
+                  zuletzt Jarrett, The Congress of Vienna, S. 248–285 sowie die Editionen der
+                  Dokumente der Kongresse von Troppau und Laibach. </note>
+            </p>
+            <p>Dans cette Conférence, <choice>
+                  <abbr>M<hi rendition="#su">r</hi></abbr>
+                  <expan>Monsieur</expan>
+               </choice> le <persName ref="#p.140"><roleName>Prince</roleName>
+                  <surname>de Ruffo</surname></persName> a informé <choice>
+                  <abbr>M<hi rendition="#su">rs</hi></abbr>
+                  <expan>Messieurs</expan>
+               </choice> les <rs ref="#p.8 #p.40 #p.175 #p.13 #p.35">Ministres des hautes Cours
+                  alliées</rs> que <rs ref="#p.138">Sa Majesté Sicilienne</rs>, en examinant la
+               position et les besoins réels de Son Royaume, s’était persuadée qu’une diminution du
+               nombre des troupes auxiliaires pouvait avoir lieu, et que <rs ref="#p.138">Sa
+                  Majesté</rs> proposait en conséquence de réduire à Trente-Cinq mille hommes la
+               totalité des forces de l’armée auxiliaire.</p>
+            <p><choice>
+                  <abbr>M<hi rendition="#su">r</hi></abbr>
+                  <expan>Monsieur</expan>
+               </choice> le <rs ref="#p.8">Ministre d’Autriche</rs> a déclaré que, vu<pb n="40v"/>
+               la demande de <rs ref="#p.138">Sa Majesté Sicilienne</rs> et les motifs dont elle
+               était appuyée, Sa Majesté l’<rs ref="#p.16">Empereur</rs>, son Maître, consentait à
+               la diminution désirée de façon que l’armée auxiliaire stationnée dans les deux
+               parties du <country>Royaume des deux-Siciles</country> serait, dans les termes
+               proposés par <rs ref="#p.138">Sa Majesté Sicilienne</rs>, réduite à Trente-Cinq Mille
+               hommes.</p>
+            <p><choice>
+                  <abbr>M<hi rendition="#su">rs</hi></abbr>
+                  <expan>Messieurs</expan>
+               </choice> les <rs ref="#p.13 #p.35 #p.175">Plénipotentiaires de Russie et de
+                  Prusse</rs> ont annoncé que n’ayant aucune objection contre la mesure proposée par
+                  <rs ref="#p.138">Sa Majesté Sicilienne</rs> et acceptée par <choice>
+                  <abbr>S. M.</abbr>
+                  <expan>Sa Majesté</expan>
+               </choice> l’<rs ref="#p.16">Empereur d’Autriche</rs>, Ils n’hésitaient point à y
+               accéder au nom de <rs ref="#p.17 #p.18">Leurs Augustes Souverains</rs>.</p>
+            <p>Le principe de la diminution de l’armée auxiliaire à Trente-Cinq Mille hommes étant
+               ainsi arrêté, les Cours de <placeName ref="#loc.7">Vienne</placeName> et de
+                  <placeName ref="#loc.11">Naples</placeName> se concerteront sans délai sur les
+               moyens de le mettre à exécution.</p>
+            <p>Dans la même Conférence <choice>
+                  <abbr>M<hi rendition="#su">r</hi></abbr>
+                  <expan>Monsieur</expan>
+               </choice> le <persName ref="#p.140"><roleName>Prince</roleName>
+                  <surname>de Ruffo</surname></persName> a fait une autre proposition relative à
+               l’établissement des corps consultatifs dans les deux parties du <country>Royaume des
+                  deux-Siciles</country>, tel qu’il se trouvait indiqué par l’Article III du <ref
+                  target="Laibach_Prot_12.xml">Protocole de <placeName ref="#loc.65"
+                     >Laibach</placeName> du <date when="1821-02-20">20 Février 1821</date></ref>.
+               Par les raisons exposées au <rs xml:id="n.2">Mémorandum ci-annexé</rs>,<note
+                  type="editorial" target="#n.2">Vgl. Anlage.</note>
+               <rs ref="#p.138">Sa Majesté Sicilienne</rs> désire que la disposition consignée au
+               dit article soit remplacée par la suivante :</p>
+            <p><quote>« Les deux Consultes résideront près de Sa Majesté le Roi. Elles resteront
+                  séparées pour<pb n="47r"/> la discussion de tout objet qui se rattacherait
+                  directement aux intérêts de l’un ou de l’autre des deux Pays ; elles se réuniront
+                  au contraire en Consulte générale pour délibérer de concert sur les objets d’un
+                  intérêt commun. »</quote></p>
+            <p><choice>
+                  <abbr>M<hi rendition="#su">rs</hi></abbr>
+                  <expan>Messieurs</expan>
+               </choice> les <rs ref="#p.8 #p.40 #p.13 #p.35 #p.175">Ministres d’Autriche, de Russie
+                  et de Prusse</rs> ayant examiné les raisons qui faisaient désirer ce changement à
+                  <rs ref="#p.138">Sa Majesté Sicilienne</rs>, ont exprimé l’assentiment de Leurs
+               Cours à la modification proposée.</p>
+            <table rend="rules">
+               <row>
+                  <cell>(Signé)</cell>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+               </row>
+               <row>
+                  <cell><persName ref="#p.8"><surname>Metternich</surname></persName></cell>
+                  <cell><persName ref="#p.175"><surname>Hatzfeldt</surname></persName></cell>
+                  <cell><persName ref="#p.13"><surname>Nesselrode</surname></persName></cell>
+                  <cell><persName ref="#p.140"><surname>Ruffo</surname></persName></cell>
+               </row>
+               <row>
+                  <cell><persName ref="#p.40"><surname>Lebzeltern</surname></persName></cell>
+                  <cell/>
+                  <cell><persName ref="#p.35"><surname>Tatistscheff</surname></persName></cell>
+                  <cell/>
+               </row>
+            </table>
+         </div>
+
+         <div decls="#m.2">
+            <pb n="41r"/>
+
+            <p><title>Mémorandum de <choice>
+                     <abbr>Mr</abbr>
+                     <expan>Monsieur</expan>
+                  </choice> le <persName ref="#p.140"><roleName>Prince</roleName>
+                     <surname>de Ruffo</surname></persName>, sur les Corps consultatifs dans le
+                     <country>Royaume des deux-Siciles</country></title></p>
+            <p><rs ref="#p.138">Sa Majesté Sicilienne</rs> fit exposer par Son Plénipotentiaire, <choice>
+                  <abbr>M<hi rendition="#su">r</hi></abbr>
+                  <expan>Monsieur</expan>
+               </choice> le <persName ref="#p.140"><roleName>Prince</roleName>
+                  <surname>de Ruffo</surname></persName>, dans la <ref target="Laibach_Prot_12.xml"
+                  >Conférence du Congrès de <placeName ref="#loc.65">Laibach</placeName> du <date
+                     when="1821-02-20">20 Février</date></ref> les principes qu’Elle voulait adopter
+               pour reconstruire le Gouvernement de Son Royaume.</p>
+            <p><rs ref="#p.138">Sa Majesté Sicilienne</rs>, renforcée dans Son opinion par
+               l’assentiment de <rs ref="#p.16 #p.17 #p.18">Ses Augustes Alliés</rs>, s’est <choice>
+                  <abbr>scrupuleusem<hi rendition="#su">t</hi></abbr>
+                  <expan>scrupuleusement</expan>
+               </choice> attachée aux résolutions qu’Elle avait prises alors, et a procédé d’après
+               ces bases à la reconstruction successive de Son Gouvernement.</p>
+            <p>Le 1<hi rendition="#su">er</hi> Article du Protocole du <date when="1821-02-20">20
+                  Février 1821</date> établit : <quote>« de séparer l’administration de Naples de
+                  celle de la Sicile, en conservant soigneusement tous les liens qui les unissent
+                  sous un même sceptre. »</quote></p>
+            <p>Toutes les lois rendues par <rs ref="#p.138">Sa Majesté Sicilienne</rs> l’ont été
+               dans l’esprit de cet article ; mais l’expérience prouve déjà que la séparation de <hi
+                  rendition="#u">l’administration</hi> proprement dite, si elle s’étend jusqu’<hi
+                  rendition="#u">au point central du Gouvernement</hi>, conduirait à des
+               conséquences lesquelles, en se prolongeant, finiraient indubitablement par
+                  développer<pb n="41v"/> davantage une tendance de nature telle à porter atteinte
+               aux liens qui unissent les deux pays sous un même sceptre.</p>
+            <p>Il est donc devenu nécessaire d’établir un contrepoids à cette tendance afin de
+               prévenir le relâchement que le lien d’union entre les deux parties d’un même empire
+               pourraient encourir.</p>
+            <p><rs ref="#p.138">Sa Majesté Sicilienne</rs> croit pouvoir trouver ce contrepoids dans
+               la modification de l’<choice>
+                  <abbr>Art<hi rendition="#su">e</hi></abbr>
+                  <expan>Article</expan>
+               </choice> III.</p>
+            <p><quote>« Cet article porte l’établissement dans les deux parties du Royaume d’un
+                  Corps Consultatif, servant de garantie à ce que les projets de haute législation,
+                  avant de passer en loi, et les mesures d’administration générale, avant d’être
+                  définitivement arrêtées, seront complètement débattus et éclaircis dans les
+                  intérêts inséparables de la Couronne, du bien général du Royaume et d’une justice
+                  éclairée. »</quote></p>
+            <p>Afin d’établir un centre d’union entre l’administration des deux parties de Son
+               Royaume et de rapprocher l’un de l’autre les deux corps consultatifs, <rs
+                  ref="#p.138">Sa Majesté Sicilienne</rs> a résolu de changer cet article de la
+               manière suivante :</p>
+            <p><quote>« Les deux Consultes résideront près de Sa Majesté le Roi. Elles resteront
+                  séparées pour la<pb n="46r"/> discussion de tout objet qui se rattacherait
+                  directement aux intérêts de l’un ou de l’autre des deux Pays ; elles se réuniront
+                  au contraire en Consulte générale pour délibérer de concert sur les objets d’un
+                  intérêt commun. »</quote></p>
+            <p><rs ref="#p.138">Sa Majesté Sicilienne</rs> croit trouver dans cette modification le
+               moyen de prévenir l’affaiblissement des liens qui unissent Naples et la Sicile, en
+               même temps que celui de s’éclairer d’une manière plus prompte sur les besoins de la
+               Sicile, et sur les modifications d’administration que ses intérêts pourront
+               successivement exiger pour la conduire à cette unité de principes, indispensable au
+               bien-être de Ses Etats.</p>
+         </div>
+      </body>
+      <back>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listPlace.xml" xpointer="listPlace"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listPerson.xml"
+            xpointer="listPerson"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listWit.xml" xpointer="listWit"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listOrg.xml" xpointer="listOrg"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listTreaties.xml"
+            xpointer="listTreaties"/>
+      </back>
+   </text>
+</TEI>
