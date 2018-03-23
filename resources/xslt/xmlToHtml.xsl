@@ -300,7 +300,7 @@
             <xsl:when test="@target[ends-with(.,'.xml')]">
                 <xsl:element name="a">
                     <xsl:attribute name="href">
-                       show.html?ref=<xsl:value-of select="tokenize(./@target, '/')[4]"/>
+                       show.html?document=<xsl:value-of select="@target"/>
                     </xsl:attribute>
                     <xsl:value-of select="."/>
                 </xsl:element>

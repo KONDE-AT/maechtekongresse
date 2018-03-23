@@ -201,7 +201,7 @@ declare function app:listPers($node as node(), $model as map(*)) {
                 <a href="{concat($hitHtml,data($person/@xml:id))}">{$person/tei:persName/tei:surname}</a>
             </td>
             <td>
-                {$person/tei:persName/tei:forename}
+                <a href="{concat($hitHtml,data($person/@xml:id))}">{$person/tei:persName/tei:forename}</a>
             </td>
             <td>
                 {$gnd_link}
@@ -242,7 +242,8 @@ declare function app:toc($node as node(), $model as map(*)) {
         else
             collection(concat($config:app-root, '/data/editions/'))//tei:TEI
     for $title in $docs
-        let $date := $title//tei:title//text()
+        let $idno := $title//tei:publicationStmt/tei:idno//text()
+        let $date := $title//tei:title[@type='main']//text()
         let $link2doc := if ($collection)
             then
                 <a href="{app:hrefToDoc($title, $collection)}">{app:getDocName($title)}</a>
@@ -250,6 +251,7 @@ declare function app:toc($node as node(), $model as map(*)) {
                 <a href="{app:hrefToDoc($title)}">{app:getDocName($title)}</a>
         return
         <tr>
+           <td>{$idno}</td>
            <td>{$date}</td>
             <td>
                 {$link2doc}
