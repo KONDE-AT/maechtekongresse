@@ -190,7 +190,7 @@ for $title in ($entities, $terms)
 declare function app:listPers($node as node(), $model as map(*)) {
     let $hitHtml := "hits.html?searchkey="
     for $person in doc($app:personIndex)//tei:listPerson/tei:person
-    let $gnd := $person/tei:note/tei:p[3]/text()
+    let $gnd := $person/tei:idno/text()
     let $gnd_link := if ($gnd != "no gnd provided") then
         <a href="{$gnd}">{$gnd}</a>
         else
@@ -292,21 +292,22 @@ declare function app:listBibl($node as node(), $model as map(*)) {
     for $item in doc($app:workIndex)//tei:listBibl/tei:bibl
     let $author := normalize-space(string-join($item/tei:author//text(), ' '))
     let $gnd := $item//tei:idno/text()
-    let $gnd_link := if ($gnd) 
+    let $ext := $item//ref[1]/string(@target)
+    let $ext_link := if ($ext) 
         then
-            <a href="{$gnd}">{$gnd}</a>
+            <a href="{$ext}">{$ext}</a>
         else
             'no normdata provided'
    return
         <tr>
             <td>
-                <a href="{concat($hitHtml,data($item/@xml:id))}">{$item//tei:title[1]/text()}</a>
+                <a href="{concat($hitHtml,data($item/@xml:id))}">{$item//text()}</a>
             </td>
             <td>
                 {$author}
             </td>
             <td>
-                {$gnd_link}
+                {$ext_link}
             </td>
         </tr>
 };
