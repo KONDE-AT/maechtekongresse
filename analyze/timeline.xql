@@ -7,7 +7,7 @@ declare namespace tei = "http://www.tei-c.org/ns/1.0";
 declare option exist:serialize "method=json media-type=text/javascript";
 
 let $data := <data>{
-    for $x at $pos in collection($app:editions)//tei:correspDesc[(.//@when[1] castable as xs:date)]
+    for $x at $pos in collection($app:editions)//tei:msDesc[(.//@when[1] castable as xs:date)]
     let $sender := string-join($x//tei:correspAction[@type='sent']/tei:persName/text(), ' ')
     let $backlink := app:hrefToDoc($x)
     let $receiver := string-join($x//tei:correspAction[@type='received']/tei:persName/text(), ' ')

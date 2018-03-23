@@ -52,11 +52,11 @@ let $return :=
                         <type>{$type}</type>
                     </item>
             }</list>
-    else if($type eq 'org') then
+    else if($type eq 'treaties') then
         <list>{
-        let $entities := doc($app:orgIndex)//tei:org
+        let $entities := doc($app:treatiesIndex)//tei:bibl
         for $x in $entities
-            let $name := normalize-space(string-join($x/tei:orgName//text(), ' '))
+            let $name := normalize-space(string-join($x/tei:bibl//text(), ' '))
             let $description := normalize-space(string-join($x//text(), ' '))
             let $more := normalize-space($x//tei:idno[1 and @type="URL"]/text())
             where contains($name, $query)
