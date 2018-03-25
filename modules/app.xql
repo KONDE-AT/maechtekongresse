@@ -12,6 +12,7 @@ declare variable $app:placeIndex := $config:app-root||'/data/indices/listplace.x
 declare variable $app:personIndex := $config:app-root||'/data/indices/listperson.xml';
 declare variable $app:orgIndex := $config:app-root||'/data/indices/listorg.xml';
 declare variable $app:workIndex := $config:app-root||'/data/indices/listwork.xml';
+declare variable $app:treatiesIndex := $config:app-root||'data/indices/listtreaties.xml';
 
 declare function functx:contains-case-insensitive
   ( $arg as xs:string? ,
@@ -98,16 +99,16 @@ declare function app:nameOfIndexEntry($node as node(), $model as map (*)){
     let $terms := (collection($app:editions)//tei:TEI[.//tei:term[./text() eq substring-after($withHash, '#')]])
     let $noOfterms := count(($entities, $terms))
     let $hit := collection($app:indices)//*[@xml:id=$searchkey]
-    let $name := if (contains(node-name($hit), 'person'))
+    let $name := if (contains(node-name($hit[1]), 'person'))
         then
             <a class="reference" data-type="listperson.xml" data-key="{$searchkey}">{normalize-space(string-join($hit/tei:persName[1], ', '))}</a>
-        else if (contains(node-name($hit), 'place'))
+        else if (contains(node-name($hit[1]), 'place'))
         then
             <a class="reference" data-type="listplace.xml" data-key="{$searchkey}">{normalize-space(string-join($hit/tei:placeName[1], ', '))}</a>
-        else if (contains(node-name($hit), 'org'))
+        else if (contains(node-name($hit[1]), 'org'))
         then
             <a class="reference" data-type="listorg.xml" data-key="{$searchkey}">{normalize-space(string-join($hit/tei:orgName[1], ', '))}</a>
-        else if (contains(node-name($hit), 'bibl'))
+        else if (contains(node-name($hit[1]), 'bibl'))
         then
             <a class="reference" data-type="listwork.xml" data-key="{$searchkey}">{normalize-space(string-join($hit/tei:title[1], ', '))}</a>
         else
