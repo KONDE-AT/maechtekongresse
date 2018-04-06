@@ -204,6 +204,9 @@ declare function app:listPers($node as node(), $model as map(*)) {
             <td>
                 <a href="{concat($hitHtml,data($person/@xml:id))}">{$person/tei:persName/tei:forename}</a>
             </td>
+            <td><a href="{concat($hitHtml,data($person/@xml:id))}">{$person/tei:persName/tei:roleName}</a></td>
+            <td><a href="{concat($hitHtml,data($person/@xml:id))}">{$person/tei:birth}–{$person/tei:death}</a></td>
+            
             <td>
                 {$gnd_link}
             </td>
@@ -232,7 +235,7 @@ declare function app:listPlace($node as node(), $model as map(*)) {
 
 
 (:~
- : creates a basic table of content derived from the documents stored in '/data/editions'
+ : creates a basic table of contents derived from the documents stored in '/data/editions'
  :)
 declare function app:toc($node as node(), $model as map(*)) {
 
@@ -244,7 +247,12 @@ declare function app:toc($node as node(), $model as map(*)) {
             collection(concat($config:app-root, '/data/editions/'))//tei:TEI
     for $title in $docs
         let $idno := $title//tei:publicationStmt/tei:idno//translate(text(),'_',' ')
-        let $date := $title//tei:title[@type='main']//text()
+        let $date := if ($title//tei:title[2][@type='main']//text()) 
+            then 
+                concat($title//tei:title[1][@type='main']//text(), ' – ',  $title//tei:title[2][@type='main']//text())
+            else
+                $title//tei:title[1][@type='main']//text()
+            return    
         let $link2doc := if ($collection)
             then
                 <a href="{app:hrefToDoc($title, $collection)}">{app:getDocName($title)}</a>

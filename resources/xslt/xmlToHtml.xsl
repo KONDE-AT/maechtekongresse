@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xsl:stylesheet xmlns="http://www.w3.org/1999/xhtml" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:tei="http://www.tei-c.org/ns/1.0" exclude-result-prefixes="tei" version="2.0"><!-- <xsl:strip-space elements="*"/>-->
+<xsl:stylesheet xmlns="http://www.w3.org/1999/xhtml" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" exclude-result-prefixes="tei" version="2.0"><!-- <xsl:strip-space elements="*"/>-->
     <xsl:param name="document"/>
     <xsl:param name="app-name"/>
     <xsl:param name="collection-name"/>
@@ -46,7 +46,7 @@
                                     </th>
                                     <td>
                                         <xsl:value-of select="//tei:history/tei:origin/tei:placeName"/>,
-                                        <xsl:value-of select="//tei:history/tei:origin/tei:date"/>
+                                        <xsl:value-of select="format-date(xs:date(//tei:history/tei:origin/tei:date/@when), '[D]. [M02]. [Y0001]')"/>
                                     </td>
                                 </tr>
                             </xsl:if>
@@ -475,7 +475,57 @@
             <xsl:text/>
             <xsl:apply-templates/>
         </xsl:element>
-    </xsl:template><!-- Bücher -->
+    </xsl:template><!-- choice -->
+    <xsl:template match="tei:choice">
+        <xsl:choose>
+            <xsl:when test="tei:sic and tei:corr">
+                <span class="alternate choice4" title="alternate">
+                    <xsl:if test="@xml:id">
+                        <xsl:attribute name="id" select="@xml:id"/>
+                    </xsl:if>
+                    <xsl:apply-templates select="tei:corr[1]"/>
+                    <span class="hidden altcontent ">
+                        <xsl:if test="@xml:id">
+                            <xsl:attribute name="id" select="@xml:id"/>
+                        </xsl:if>
+                        <xsl:apply-templates select="tei:sic[1]"/>
+                    </span>
+                </span>
+            </xsl:when>
+            <xsl:when test="tei:abbr and tei:expan">
+                <abbr>
+                    <xsl:if test="@xml:id">
+                        <xsl:attribute name="id" select="@xml:id"/>
+                    </xsl:if>
+                    <xsl:attribute name="title">
+                        <xsl:value-of select="tei:expan"/>
+                    </xsl:attribute>
+                    <xsl:apply-templates select="tei:abbr[1]"/>
+                    <span class="hidden altcontent ">
+                        <xsl:if test="@xml:id">
+                            <xsl:attribute name="id" select="@xml:id"/>
+                        </xsl:if>
+                        <xsl:apply-templates select="tei:expan[1]"/>
+                    </span>
+                </abbr>
+            </xsl:when>
+            <xsl:when test="tei:orig and tei:reg">
+                <span class="alternate choice6" title="alternate">
+                    <xsl:if test="@xml:id">
+                        <xsl:attribute name="id" select="@xml:id"/>
+                    </xsl:if>
+                    <xsl:apply-templates select="tei:reg[1]"/>
+                    <span class="hidden altcontent ">
+                        <xsl:if test="@xml:id">
+                            <xsl:attribute name="id" select="@xml:id"/>
+                        </xsl:if>
+                        <xsl:apply-templates select="tei:orig[1]"/>
+                    </span>
+                </span>
+            </xsl:when>
+        </xsl:choose>
+    </xsl:template>
+    <!-- Bücher -->
     <xsl:template match="tei:bibl">
         <xsl:element name="strong">
             <xsl:apply-templates/>
@@ -495,7 +545,7 @@
     <xsl:template match="tei:table">
         <xsl:element name="table">
             <xsl:attribute name="class">
-                <xsl:text>table table-bordered table-striped table-condensed table-hover</xsl:text>
+                <xsl:text>table table-striped table-condensed table-hover</xsl:text>
             </xsl:attribute>
             <xsl:element name="tbody">
                 <xsl:apply-templates/>
@@ -549,6 +599,14 @@
     </xsl:template><!-- Durchstreichungen -->
     <xsl:template match="tei:del">
         <xsl:element name="strike">
+            <xsl:apply-templates/>
+        </xsl:element>
+    </xsl:template>
+    <xsl:template match="tei:signed/tei:list/tei:item">
+        <xsl:element name="p">
+            <xsl:attribute name="style">
+                <xsl:text>text-align:right; margin-right:3em</xsl:text>
+            </xsl:attribute>
             <xsl:apply-templates/>
         </xsl:element>
     </xsl:template>
