@@ -243,7 +243,7 @@ declare function app:toc($node as node(), $model as map(*)) {
         else
             collection(concat($config:app-root, '/data/editions/'))//tei:TEI
     for $title in $docs
-        let $idno := $title//tei:publicationStmt/tei:idno//text()
+        let $idno := $title//tei:publicationStmt/tei:idno//translate(text(),'_',' ')
         let $date := $title//tei:title[@type='main']//text()
         let $link2doc := if ($collection)
             then
@@ -253,7 +253,7 @@ declare function app:toc($node as node(), $model as map(*)) {
         return
         <tr>
            <td>{$idno}</td>
-           <td>{$date}</td>
+           <td><a href="{app:hrefToDoc($title, $collection)}">{$date}</a></td>
             <td>
                 {$link2doc}
             </td>

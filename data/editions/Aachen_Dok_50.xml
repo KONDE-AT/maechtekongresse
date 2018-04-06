@@ -1,0 +1,801 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Kongress von Aachen: Anhang zu den Protokollen</title>
+            <title type="sub">Digitale Edition</title>
+            <editor>
+               <persName>
+                  <surname>Schneider</surname>
+                  <forename>Karin</forename>
+               </persName>
+                </editor>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+                    <date>2015-05-08</date>
+                </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Österreichische Akademie der Wissenschaften, Institut für Neuzeit- und
+               Zeitgeschichtsforschung</publisher>
+            <pubPlace>Wien</pubPlace>
+            <idno>A_50</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="m.1" type="Ausfertigung">
+               <msIdentifier>
+                  <settlement>Wien</settlement>
+                  <institution>ÖStA</institution>
+                  <collection>HHStA, Staatskanzlei, Kongressakten</collection>
+                  <idno>
+                     <idno type="Karton">Kart. 17</idno>
+                     <idno type="Faszikel"> Fasz. 30/I (alt)</idno>
+                     <idno type="Folia">34-47</idno>
+                  </idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <title>Russische Denkschrift</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+
+                  <p>Ausfertigung</p>
+                  <handDesc>
+                     <handNote xml:id="G">Friedrich Gentz</handNote>
+                     <handNote xml:id="W">Nikolaus Wacken</handNote>
+                     <handNote xml:id="A">Anonyme Hand</handNote>
+                     <handNote xml:id="AmrB">Anonyme Hand mit rotem Buntstift</handNote>
+                     <handNote xml:id="M">Clemens Wenzel Fürst Metternich</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                            <placeName ref="#loc.1">Aachen</placeName>
+                     <date when="1818-10-08">8. Oktober 1818</date>
+                        </origin>
+               </history>
+            </msDesc>
+            <msDesc xml:id="m.2" type="Ausfertigung">
+               <msIdentifier>
+                  <settlement>Wien</settlement>
+                  <institution>ÖStA</institution>
+                  <collection>HHStA, Staatskanzlei, Kongressakten</collection>
+                  <idno>
+                     <idno type="Karton">Kart. 17</idno>
+                     <idno type="Faszikel"> Fasz. 30/I (alt)</idno>
+                     <idno type="Folia">50-55</idno>
+                  </idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <title>Ergänzende Denkschrift Russlands</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+
+                  <p>Ausfertigung</p>
+
+               </physDesc>
+               <history>
+                  <origin>
+                            <placeName ref="#loc.1">Aachen</placeName>
+                     <date when="1818-10-08">8. Oktober 1818</date>
+                        </origin>
+               </history>
+            </msDesc>
+            <msDesc xml:id="m.3" type="Konzept">
+               <msIdentifier>
+                  <settlement>Wien</settlement>
+                  <institution>ÖStA</institution>
+                  <collection>HHStA, Staatskanzlei, Kongressakten</collection>
+                  <idno>
+                     <idno type="Karton">Kart. 17</idno>
+                     <idno type="Faszikel"> Fasz. 29 (alt)</idno>
+                     <idno type="Folia">I/75-78</idno>
+                  </idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <title>Russisches Protokollkonzept</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+
+                  <p>Konzept</p>
+                  <p>Das Dokument wurde zeitnah mit Bleistift in Hinblick auf orthographische und
+                     grammatikalische Fehler korrigiert.</p>
+
+               </physDesc>
+               <history>
+                  <origin>
+                            <placeName ref="#loc.1">Aachen</placeName>
+                  </origin>
+               </history>
+            </msDesc>
+            <listWit corresp="#m.1">
+               <head>Russische Denkschrift</head>
+               <witness corresp="#w.1">
+                        <bibl type="print">Wellington, Supplementary Despatches, Bd.
+                     12, S. 743–749.</bibl>
+                    </witness>
+            </listWit>
+            <listWit corresp="#m.2">
+               <head>Ergänzende Denkschrift Russlands</head>
+               <witness corresp="#w.1">
+                        <bibl type="print">Wellington, Supplementary Despatches, Bd.
+                     12, S. 749-751.</bibl>
+                    </witness>
+            </listWit>
+
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <appInfo>
+            <application xml:id="docxtotei" ident="TEI_fromDOCX" version="2.15.0">
+               <label>DOCX to TEI</label>
+            </application>
+         </appInfo>
+         <styleDefDecl scheme="css"/>
+         <tagsDecl>
+            <rendition xml:id="su">superscript</rendition>
+            <rendition xml:id="s">strikethrough</rendition>
+            <rendition xml:id="u">underline</rendition>
+            <rendition xml:id="ow">overwritten</rendition>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <abstract corresp="#m.1">
+            <p>Die <rs ref="#p.13 #p.14">Vertreter Russlands</rs> legen eine Denkschrift betreffend
+               die Sicherstellung und Erhaltung eines permanenten Friedens nach dem Ende der
+               Okkupation <country>Frankreichs</country> durch die Truppen der alliierten Mächte
+               vor.</p>
+         </abstract>
+         <abstract corresp="#m.2">
+            <p>Die <rs ref="#p.13 #p.14">russischen Vertreter</rs> präsentieren in dieser Ergänzung
+               zur vertraulichen Denkschrift die Vorstellungen ihrer Regierung hinsichtlich des
+               politischen Systems in Europa und definiert die Rolle der Quadrupelallianz.</p>
+         </abstract>
+         <abstract corresp="#m.3">
+            <p>Russisches Konzept von <persName ref="#p.14">
+                        <surname>Kapodistrias</surname>
+                    </persName>, nach welchem
+                  <country>Österreich</country>, <country>Großbritannien</country>,
+                  <country>Frankreich</country>, <country>Preußen</country> und
+                  <country>Russland</country> die Grundlagen ihrer zukünftigen politischen
+               Kooperation auf der Basis eines engen Bündnisses festlegen.</p>
+         </abstract>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div decls="#m.1" hand="#A">            
+            <pb n="34r"/>
+            <p>
+                    <title>Mémoire Confidentiel du Cabinet de Russie</title>
+                </p>
+            <p>
+                    <placeName ref="#loc.1">Aix-la-Chapelle</placeName> le 26 Septembre/<date when="1818-10-08">8 Octobre 1818</date>.</p>
+            <p>L’exécution des Clauses stipulées par l’<choice>
+                  <abbr>art.</abbr>
+                  <expan>article</expan>
+               </choice> 5 du <rs ref="#t.1">traité principal de Paris du <date when="1818-11-20">8/20 Novembre 1815</date>
+                    </rs>, ainsi que les dispositions arrêtées par l’<choice>
+                  <abbr>art.</abbr>
+                  <expan>article</expan>
+               </choice> 6 du <rs ref="#t.6">traité de la quadruple-alliance de la <date when="1815-11-20">même date</date>
+                    </rs>, imposent aux Cabinets le devoir de
+               délibérer sur la question suivante, savoir :</p>
+            <p>L’occupation de la <country>France</country> ayant cessé, quelles sont les mesures
+               que les Cours alliées prendront à l’effet de se garantir à Elles-mêmes et de garantir
+               à l’Europe, par le maintien de la restauration de la Monarchie française, la paix
+               générale, ainsi que l’inviolabilité de tous les intérêts réglés par le <rs ref="#t.12">recès de <placeName ref="#loc.7">Vienne</placeName>
+                    </rs> et par <rs ref="#t.1 #t.6 #t.9">les actes conclus à <placeName ref="#loc.2">Paris</placeName>
+                  l’année 1815</rs> ;</p>
+            <p>Ou en d’autres termes :</p>
+            <p>La <country>France</country> étant évacuée par les troupes étrangères, de quelle
+               manière garantir l’Europe de deux grands dangers, du <hi rendition="#u">retour des
+                  révolutions</hi> et<hi rendition="#u"> du droit du plus fort</hi>.</p>
+                <pb n="34v"/>
+            <p>Ce double problème n’est pas nouveau. Les <rs ref="#t.1 #t.6 #t.9">traités de
+                  1815</rs> l’ont résolu en principe. L’observation religieuse de la lettre et de
+               l’esprit de ces traités pendant trois années l’a résolu non moins heureusement en
+               application.</p>
+            <p>Dans cette mémorable époque l’Europe a su tout ensemble comprimer le génie
+               révolutionnaire, et créer un nouvel ordre de choses embrassant tous les intérêts et
+               les couvrant tous de l’égide de la justice.</p>
+            <p>Les moyens par lesquels on y est parvenu sont :</p>
+            <p>- L’alliance des grands Etats, inaltérable en son principe, mais étendant sa sphère
+               suivant la progression des événemens, et devenant ainsi :</p>
+            <p>- L’alliance générale de tous les Etats ;</p>
+            <p>- Le Gouvernement légitime rétabli en <country>France</country> et <rs xml:id="n.1">fortifié par des institutions qui unissent indissolublement les droits de la
+                  dynastie régnante<pb n="35r"/> et ceux du peuple</rs>
+                    <note type="editorial" target="#n.1">Einführung der Charte constitutionelle; vg. Haupt, Von der französischen
+                  Revolution. Prutsch, Die Revision.</note> ;</p>
+            <p>- Les transactions renfermées dans le <rs ref="#t.12">recès de <placeName ref="#loc.7">Vienne</placeName>
+                    </rs> ;</p>
+            <p>- Les <rs ref="#t.1 #t.6 #t.9">actes subséquens de <placeName ref="#loc.2">Paris</placeName> de l’année 1815</rs>.</p>
+            <p>Dans ces grands résultats, qui ont non seulement couronné les efforts des Puissances
+               alliées, mais encore surpassé leur attente, qui pourroit voir le résultat des
+               combinaisons incertaines des hommes plutôt que l’œuvre de cette suprême intelligence
+               à laquelle <rs ref="#p.16 #p.18 #p.17">les Souverains</rs> ont rendu hommage par
+                  l’<rs ref="#t.9">acte du <date when="1815-09-26">14/26 Septembre</date>
+                    </rs> ?</p>
+            <p>Le mal, sous le poids duquel gémissoit l’humanité au milieu de la tourment des
+               révolutions, étoit l’infaillible conséquence des erreurs passées, c’est-à-dire de
+               l’égoïsme et des combinaisons partielles ou exclusives en politique.</p>
+            <p>Le bien dont elle commence à jouir sous l’empire de la morale Chrétienne et du droit
+               des gens est une suite des grandes épreuves que<pb n="35v"/> les Souverains et les peuples ont
+               subies.</p>
+            <p>Depuis cette nouvelle ère toutes les questions ont été décidées en Europe sur la base
+               des traités existans selon les principes de l’équité sous les auspices de l’amitié,
+               de la confiance et de la concorde.</p>
+            <p>L’Europe est donc en paix. Son système est une association générale qui a <hi rendition="#u">pour bases</hi> le <rs ref="#t.12">recès de <placeName ref="#loc.7">Vienne</placeName>
+                    </rs> et les <rs ref="#t.1 #t.6 #t.9">actes de <placeName ref="#loc.2">Paris</placeName> de l’année 1815</rs> ; <hi rendition="#u">pour
+                  principe conservateur</hi> l’union fraternelle des Puissances alliées ; <hi rendition="#u">pour but</hi> la garantie de tous les droits reconnus.</p>
+            <p>Ce système, on le répète, est l’œuvre de la Providence : aucun Cabinet n’en est
+               l’auteur. Aucun n’y porte atteinte, et tous le respectent parcequ’il embrasse et
+               garantit, autant qu’il favorise, les intérêts les plus chers de la grande famille
+               Européenne et de chaque Etat en particulier. </p>
+            <p>Il assure à l’association des Etats les avantages inestimables de<pb n="36r"/> l’ordre civil : <hi rendition="#u">l’inviolabilité des personnes et des choses</hi>, consacrant et
+               garantissant partout, la légitimité <hi rendition="#u">ab antiquo</hi> ou reconnue
+               par des traités en vigueur, et l’état de possession territoriale de chaque
+               Puissance.</p>
+            <p>Il en est de ce système comme de la vérité. Une fois reconnue et gravée dans le cœur
+               des hommes, son pouvoir est fondé pour toujours. Elle ne quitte le domaine des
+               abstractions, et n’entre sous des formes diverses dans la discussion des affaires que
+               pour reparoître plus forte et plus grande en sa simplicité et pour se faire apprécier
+               davantage.</p>
+            <p>Aussi voyons-nous, en consultant les communications échangées entre les Cabinets
+               allies durant cette première période de la restauration Européenne, qu’une seule et
+               même pensée y domine, soit que ces communications aient trait aux intérêts du
+               présent, soit qu’elles embrassent ceux de l’avenir.</p>
+                <pb n="36v"/>
+            <p>C’est à ces derniers que se rapportent les ouvertures adressées à l’occasion de la
+               réunion actuelle au Cabinet de Russie par ceux de <placeName ref="#loc.7">Vienne</placeName>, <placeName ref="#loc.8">Londres</placeName> et <placeName ref="#loc.9">Berlin</placeName>.<gap/>
+            </p>
+            <p>L’uniformité de ces ouvertures indique suffisamment l’identité du point de vue sous
+               lequel les Puissances envisagent le système Européen, et l’importance majeure de
+               l’affermir sur ses bases, au moment de procéder à l’évacuation de la
+                  <country>France</country>. Et rien ne semble plus facile désormais que de poser,
+               selon les erremens même des Cabinets de <placeName ref="#loc.7">Vienne</placeName>,
+               de <placeName ref="#loc.8">Londres</placeName> et de <placeName ref="#loc.9">Berlin</placeName>, les principes généraux, d’après lesquels on peut résoudre la
+               question.</p>
+            <p>L’accomplissement de cette tâche, de la part du Ministère de Russie, constituera le
+               vote de l’<rs ref="#p.17">Empereur</rs>.</p>
+                <pb n="37r"/>
+            <p>
+                    <hi rendition="#u">De ces principes</hi>
+                </p>
+            <p>En affermissant par les <rs ref="#t.1 #t.6 #t.9">transactions de l’année 1815</rs> le
+               système Européen sur ses bases, les Puissances ont jugé nécessaire de le préserver de
+               toute atteinte au moyen de garanties <hi rendition="#u">morales</hi> et <hi rendition="#u">matérielles</hi>.</p>
+            <p>La quadruple-alliance ; <rs ref="#t.6">les pièces diplomatiques qui s’y
+                  rattachent</rs> ; l’<rs ref="#t.9">acte du <date when="1815-09-26">14/26
+                     Septembre</date>
+                    </rs>, embrassent les garanties <hi rend="underline">morales</hi>.</p>
+            <p>Les <hi rendition="#u">matérielles</hi> se trouvent dans l’occupation militaire et
+               toutes les mesures qui s’y rapportent.</p>
+            <p>Au moment de faire cesser ces dernières, les Puissances alliées jugent d’un accord
+               unanime qu’il est de la plus haute importance non seulement que les garanties morales
+               restent dans toute leur force et vigueur, mais qu’il faut encore qu’une conviction
+               salutaire de ce fait règne en <country>France</country> et parmi tous les peuples sur
+               lesquels la révolution de ce pays a exercé sa pernicieuse influence.</p>
+                <pb n="37v"/>
+            <p>Il s’agit donc de puiser dans le cercle des transactions existantes une force dont
+               l’influence morale puisse écarter de l’association Européenne le fléau des
+               révolutions et celui du droit du plus fort.</p>
+            <p>Or cette force ne peut résulter du renouvellement des engagemens existans. Car dans
+               l’ordre politique, comme dans l’ordre social, multiplier les sermens, c’est les
+               affoiblir.</p>
+            <p>Elle ne peut non plus se composer de nouvelles garanties temporaires et matérielles
+               puisqu’on est résolu de les faire cesser.</p>
+            <p>On ne sauroit donc trouver cette force <hi rendition="#u">spéciale</hi> que dans les
+               élémens qui constituent le système actuel de l’Europe et dans une combinaison qui
+               rende, aux yeux du monde entier, la cohésion de ce système <hi rendition="#u">évidente</hi>, <hi rendition="#u">nécessaire</hi> et <hi rendition="#u">indissoluble</hi>.</p>
+            <p>Ces élémens sont la quadruple-alliance et l’alliance générale,<pb n="38r"/> considérées, dans le
+               cas dont il s’agit, la première comme principe et la seconde comme conséquence.</p>
+            <p>Le pacte qui consacre et régit la première est le <rs ref="#t.6">traité du <date when="1815-11-20">8/20 Novembre 1815</date>
+                    </rs>. Il établit une fédération
+               armée pour le cas où la révolution porteroit atteinte à la Royauté légitime et
+               constitutionnelle en <country>France</country>. </p>
+            <p>L’alliance générale se trouve dans le <rs ref="#t.12">recès de <placeName ref="#loc.7">Vienne</placeName>
+                    </rs> et dans les <rs ref="#t.1 #t.9">actes
+                  subséquens de <placeName ref="#loc.2">Paris</placeName> de l’année 1815</rs>. </p>
+            <p>Elle fixe l’état de possession et garantit de fait, par une solidarité générale, le
+               principe de l’inviolabilité des propriétés, ainsi que de leur représentant légitime,
+               ou en d’autres termes, le principe de la légitimité.</p>
+            <p>Le premier pacte est <hi rendition="#u">principe</hi> en ce sens que l’alliance des
+               grands Etats, par les accessions successives des années 1813, 14 et 15, devint
+               alliance générale, et que le<pb n="38v"/> système Européen est fondé sur la restauration de la
+               Monarchie française, au maintien de laquelle est consacrée plus particulièrement la
+                  <rs ref="#t.6">quadruple-alliance du <date when="1815-11-20">8/20
+                  Novembre</date>
+                    </rs>.</p>
+            <p>L’alliance générale est conséquence nécessaire en ce sens que si cette Monarchie
+               étoit encore bouleversée par une nouvelle révolution sans que le remède se trouvât à
+               côté du mal, tous les rapports du système Européen seroient replongés dans le chaos
+               dont ils ne sont sortis que par de grands efforts et des sacrifices qui pèsent encore
+               sur les peuples.</p>
+            <p>Persuadé que tels sont les élémens dont paroit devoir se composer la force <hi rendition="#u">morale</hi> qu’il s’agit de faire ressortir des transactions
+               existantes, l’<rs ref="#p.17">Empereur de Russie</rs>, dont les vœux sont dans le
+               plus parfait accord avec ceux <rs ref="#p.16 #p.19 #p.18">de ses Augustes
+               Alliés</rs>, pense que les travaux de la conférence d’<placeName ref="#loc.1">Aix-la-Chapelle</placeName> peuvent<pb n="39r"/> être consacrés à jetter une lumière plus vive
+               que jamais sur la vraie nature et la coexistence de la quadruple-alliance et de
+               l’alliance générale, et à rendre universelle en Europe la conviction la plus intime
+               et la plus salutaire sur les points suivans :</p>
+            <p>1<hi rendition="#su">o</hi> Que la quadruple-alliance a pour unique objet le maintien
+               inviolable des clauses statuées par le <rs ref="#t.1">traité principal de <placeName ref="#loc.2">Paris</placeName>
+                    </rs> concernant la Royauté légitime et
+               constitutionelle rétablie en <country>France</country> ; que cette alliance reste
+               armée de toutes ses forces morales et militaires à l’effet d’arriver avec l’<hi rendition="#u">Europe en armes</hi> aux portes de la <country>France</country> au
+               moment où la <country>France</country> oseroit enfreindre les obligations qu’elle a
+               contractées par le dit traité, envers elle-même et envers toutes les Puissances qui y
+               ont accédé.</p>
+            <p>2<hi rendition="#su">o</hi> Que le <rs ref="#t.12">recès de <placeName ref="#loc.7">Vienne</placeName>
+                    </rs> et les <rs ref="#t.1 #t.9">actes de <placeName ref="#loc.2">Paris</placeName> de l’année 1815</rs>
+                    <pb n="39v"/> constituent une alliance
+               générale entre les parties contractantes dont l’objet est :</p>
+            <p>a. La garantie solidaire de l’état de possession territoriale statué par ces
+               actes ;</p>
+            <p>b. La garantie solidaire de la Souveraineté légitime <hi rendition="#u">ab
+                  antiquo</hi> ou reconnue par des traités en vigueur.</p>
+            <p>3<hi rendition="#su">o</hi> Que les Puissances, qui ont signé le <rs ref="#t.12">recès de <placeName ref="#loc.7">Vienne</placeName>
+                    </rs> et les <rs ref="#t.1 #t.9">actes de <placeName ref="#loc.2">Paris</placeName> de l’année
+                  1815</rs> ou qui y ont accédé, se trouvent liées de droit et de fait à cette
+               association générale.</p>
+            <p>C’est en manifestant, sous des formes convenables, ces trois vérités aux yeux du
+               monde entier que les Puissances semblent pouvoir remplir l’objet que l’<choice>
+                  <abbr>art.</abbr>
+                  <expan>article</expan>
+               </choice> 5 du <rs ref="#t.1">traité de <placeName ref="#loc.2">Paris</placeName>
+                    </rs> et le 6<hi rendition="#su">me</hi> de la <rs ref="#t.6">quadruple-alliance</rs> assignent à leur présente réunion. Elles maintiendront
+               ainsi dans toute sa force tutélaire et conservatrice le <rs ref="#t.6">traité de la
+                  quadruple-alliance</rs>.</p>
+            <p>Elles resteront ainsi, soit envers la<pb n="40r"/> <country>France</country>, soit envers tous les
+               Etats Européens, dans les rapports établis par les traités.</p>
+            <p>Et manifestant de cette manière leur respect religieux pour le système Européen,
+               Elles ajouteront une nouvelle garantie à Sa stabilité.</p>
+            <p>Nous allons examiner comment ces vues pourront guider la conférence dans son
+               travail.</p>
+            <p>
+                    <hi rendition="#u">Application de ces principes à la question</hi>
+                </p>
+            <p>Les garanties que les quatre Cabinets sont décidés à confirmer maintenant par des
+               déclarations solennelles tant envers eux-mêmes qu’envers l’association générale sont
+               établies, comme nous l’avons dit, par le <rs ref="#t.6">traité de la
+                  quadruple-alliance</rs> et par le <rs ref="#t.12">recès de <placeName ref="#loc.7">Vienne</placeName>
+                    </rs>, aussi bien que par les <rs ref="#t.1 #t.9">actes
+                  subséquens de <placeName ref="#loc.2">Paris</placeName> de l’année 1815</rs>.</p>
+            <p>Or en passant en revue ces actes, il sera facile de déterminer celles de<pb n="40v"/> leurs
+               clauses qui sont complettement remplies, et celles qui renferment des obligations
+               encore existantes, sur lesquelles il importe de fixer l’attention des Cabinets et des
+               peuples dont les regards impatiens environnent la réunion d’<placeName ref="#loc.1">Aix-la-Chapelle</placeName>.</p>
+            <p>C’est ainsi qu’on rectifiera peut-être tant d’idées vagues que la liberté de la
+               presse fait circuler en Europe sur la politique des Souverains ; qu’on pourra
+               répondre à toutes les espérances légitimes ; que des craintes chimériques
+               s’évanouiront, et que les esprits, ramenés au calme, deviendront encore accessibles à
+               l’autorité de la raison et aux attraits de la confiance.</p>
+            <p>En suivant la division que nous avons tracée plus haut, il paroit :</p>
+            <p>1<hi rendition="#su">o</hi> Que le <rs ref="#t.6">traité de la
+                  quadruple-alliance</rs> offre matière à un <hi rendition="#u">acte</hi> ou <hi rendition="#u">protocole</hi>, par lequel les quatre Puissances déclareroient les
+               obligations qu’elles s’engagent à remplir pour<pb n="41r"/> le cas où la <country>France</country>
+               auroit le malheur d’enfreindre encore une fois les liens qui l’unissent à la
+               légitimité du trône et à l’association Européenne<gap/> ;</p>
+            <p>2<hi rendition="#su">o</hi> Que le <rs ref="#t.12">recès de <placeName ref="#loc.7">Vienne</placeName>
+                    </rs> et les <rs ref="#t.1 #t.9">transactions de <placeName ref="#loc.2">Paris</placeName> de l’année 1815</rs> offrent de même matière à
+               une <hi rendition="#u">déclaration</hi>, par laquelle les quatre Puissances, en
+               retirant les garanties temporaires et matérielles qui ont assuré l’ordre en
+                  <country>France</country>, signaleroient à l’Europe celles qui demeurent exprimées
+                  <hi rendition="#u">dans les traités existans</hi>, et dont le maintien tend à
+               resserrer encore, s’il se peut, les liens de l’association générale, et à faire du
+               droit des gens la sauvegarde effective et puissante de la paix du monde.</p>
+            <p>
+                    <hi rendition="#u">Ad primum</hi>
+                </p>
+            <p>L’acte ou protocole qui résulteroit de cette première partie du travail de la
+               conférence embrasseroit donc :</p>
+                <pb n="41v"/>
+            <p>a. La définition positive du casus foederis ;</p>
+            <p>b. L’organisation éventuelle des mesures militaires que, le cas échéant, les parties
+               contractantes s’engageroient à mettre promptement à exécution ;</p>
+            <p>c. Les dispositions relatives aux réunions futures des Souverains, leurs époques
+               ordinaires et les cas extraordinaires dans lesquels elles auront lieu. Enfin, les
+               précautions à prendre à l’effet de garantir ces augustes réunions de toute apparence
+               qui seroit de nature à blesser les égards dûs à la dignité des autres Couronnes ou à
+               affoiblir les liens de l’association générale.</p>
+            <p>
+                    <hi rendition="#u">Ad secundum</hi>
+                </p>
+            <p>La seconde partie du travail de la conférence produiroit la <hi rendition="#u">déclaration</hi>, par laquelle les Grandes Puissances annonceront à l’Europe les
+               résultats de leur réunion d’<placeName ref="#loc.1">Aix-la-Chapelle</placeName>.</p>
+            <p>En exposant véridiquement la situation où se trouvent les relations<pb n="42r"/> Européennes par
+               un effet des transactions existantes et de la religion scrupuleuse avec laquelle les
+               Puissances les ont respectées, la déclaration pourroit énoncer :</p>
+            <p>1<hi rendition="#su">o</hi> Les motifs qui ont autorisé l’évacuation du territoire
+               français et conséquemment la cessation des garanties temporaires statuées par le <rs ref="#t.1">traité de <placeName ref="#loc.2">Paris</placeName>
+                    </rs> ;</p>
+            <p>2<hi rendition="#su">o</hi> Les garanties qui restent encore en vigueur, et la part
+               que sont appelées à y prendre les Puissances signataires du <rs ref="#t.12">recès de
+                     <placeName ref="#loc.7">Vienne</placeName>
+                    </rs> et des <rs ref="#t.1 #t.9">actes subséquens de <placeName ref="#loc.2">Paris</placeName> de l’année
+                  1815</rs>.</p>
+            <p>En faisant dériver ces garanties <hi rendition="#u">des traités existans</hi> sans
+               faire mention explicite de la quadruple-alliance, on trouveroit leur essence et leur
+               source dans le double engagement général que nous avons indiqué plus haut,
+               savoir :</p>
+            <p>
+                    <hi rendition="#u">La garantie solidaire de l’état de possession territoriale</hi>,
+                  <hi rendition="#u">consacrée<pb n="42v"/> de fait par le <rs ref="#t.12">recès de <placeName ref="#loc.7">Vienne</placeName>
+                        </rs> et par les <rs ref="#t.1 #t.9">actes de
+                        <placeName ref="#loc.2">Paris</placeName> de l’année 1815</rs>.</hi>
+                </p>
+            <p>
+                    <hi rendition="#u">La garantie solidaire de la Souveraineté légitime ab antiquo</hi>,
+                  <hi rendition="#u">ou reconnue par les traités en vigueur.</hi>
+                </p>
+            <p>Si l’on considère que la <rs ref="#t.6">quadruple-alliance</rs> et le protocole qui
+               seroit signé maintenant ne sont en substance qu’une répétition plus spéciale du même
+               engagement, mais conçue dans les formes les plus propres à le rendre immédiatement
+               applicable en cas de besoin, et, qu’un cas aussi malheureux venant à écheoir, les
+               quatre Puissances suivroient à l’égard des autres Etats la même marche qui fut suivie
+               en 1815 ; si l’on reconnoit unanimement que le mode qu’adopteroient les quatre
+               Puissances pour établir plus spécialement leurs obligations, tout en regardant le cas
+               unique d’une nouvelle catastrophe en <country>France</country>, n’a pour objet que le
+               maintien de la paix<pb n="43r"/> générale, et que dès-lors la coopération de tous les Etats s’unit
+               d’elle-même à cet engagement ; si enfin l’on ne veut point que la quadruple-alliance
+               devienne une combinaison partielle et exclusive, mais s’il s’agit de la conserver au
+               contraire dans toute sa pureté primitive, et de la considérer comme principe et base
+               de l’alliance générale, rien ne sembleroit plus régulier ni plus simple que de fixer
+               l’attention de tous les Cabinets, comme des nations respectives, sur les garanties
+               morales, déjà statuées<gap/> et consacrées par des obligations solidaires et
+               générales.</p>
+            <p>Et remontant au principe de ce fait, on présenteroit l’union intime des quatre
+               Puissances comme un moyen sûr d’appliquer ces obligations à l’avenir, aussi bien
+               qu’elles l’ont été dans le passé, si le génie malfaisant des révolutions, ou celui
+               des conquêtes,<pb n="43v"/> osoit troubler encore le repos général et la paix.</p>
+            <p>Les quatre Cours, après avoir ainsi jeté une nouvelle clarté sur la nature et le sens
+               précis de leurs obligations mutuelles, inviteroient les autres Puissances signataires
+               du <rs ref="#t.12">recès de <placeName ref="#loc.7">Vienne</placeName>
+                    </rs> et des
+                  <rs ref="#t.1 #t.9">actes de <placeName ref="#loc.2">Paris</placeName> de l’année
+                  1815</rs> à accéder à leur déclaration.</p>
+            <p>La <country>France</country> s’y joignant, comme tout autre Etat, et conservant
+               immuablement l’ordre établi par sa restauration, se trouveroit dans des rapports
+               convenables et réguliers avec la grande association Européenne.</p>
+            <p>Et si elle tomboit encore une fois dans le grand malheur d’éprouver une catastrophe
+               révolutionnaire, elle se verroit par ce seul fait exclue de l’association générale.
+               Et ce seroit à l’Europe à la ramener de force dans les termes du droit.</p>
+                <pb n="44r"/>
+            <p>Nous disons : l’association générale parcequ’en effet elle ne peut être partielle
+               d’après le sens du protocole proposé, et lorsque tous les autres Etats signataires du
+                  <rs ref="#t.12">recès de <placeName ref="#loc.7">Vienne</placeName>
+                    </rs> et des
+                  <rs ref="#t.1 #t.9">actes de <placeName ref="#loc.2">Paris</placeName>
+                    </rs> se
+               joignent à la Déclaration émise par la réunion d’<placeName ref="#loc.1">Aix-la-Chapelle</placeName>.</p>
+            <p>Si ces apperçus, déduits des communications échangées entre les Cabinets, méritent
+               leurs suffrages, nous osons croire que, pris pour base dans la discussion ultérieure,
+               ils faciliteront la rédaction des pièces où seront constatés les résultats de la
+               réunion.</p>
+            <p>Nous terminons ce mémoire en énumérant rapidement les grands avantages qui nous
+               semblent appartenir à ce mode d’envisager et de résoudre la question dont s’occupe la
+               conférence :</p>
+            <p>1<hi rendition="#su">o</hi> Les actes proposés établissant en fait la coexistence et
+               la nature unique et indivisible de la<pb n="44v"/> quadruple-alliance et de l’alliance générale,
+               l’union intime des quatre Puissances devient <hi rendition="#u">évidente</hi>, <hi rendition="#u">nécessaire</hi> et <hi rendition="#u">indissoluble</hi>.</p>
+            <p>En effet, tant que la quadruple-alliance resteroit isolée et restreinte aux quatre
+               Cours et qu’un intérêt secrètement ou vaguement défini en constitueroit le ressort
+               principal, elle nécessiteroit l’isolement d’autres intérêts, et conséquemment des
+               alliances opposées et contraires.</p>
+            <p>D’ailleurs l’union intime des quatre Cabinets, cimentée par des sentimens qui n’ont
+               pour règle et pour garant que la conscience des parties contractantes, n’offre point
+               un préservatif suffisant contre les vicissitudes qui sont inhérentes à la nature
+               humaine.</p>
+            <p>Il en seroit autrement lorsqu’aucune des quatre Puissances ne pourroit se séparer de
+               l’alliance sans se trouver dans un isolement absolu, et sans encourir le poids<pb n="45r"/> de
+               l’animadversion Européenne.</p>
+            <p>Si la lettre du <rs ref="#t.6">traité de quadruple-alliance</rs> s’interprète dans un
+               sens qui le circonscrive et le rende inextensible au reste des Puissances
+               Européennes, nul obstacel n’est opposé à la possibilité des combinaisons isolées et
+               secrettes.</p>
+            <p>Les Etats qui se croiroient exclus de ce système prétendroient à juste titre à y
+               participer. Et ne pouvant être admis, ils s’efforceroient d’affoiblir ou de rompre
+               les liens qui unissent les quatre Cours, en sollicitant d’abord, en obtenant
+               peut-être un jour l’avantage de s’associer plus particulièrement avec l’une ou
+               l’autre d’entr’Elles.</p>
+            <p>Or en offrant la déclaration d’<placeName ref="#loc.1">Aix-la-Chapelle</placeName> à
+               l’accession de toutes les Puissances qui ont adhéré au <rs ref="#t.12">recès de
+                     <placeName ref="#loc.7">Vienne</placeName>
+                    </rs> et aux <rs ref="#t.1 #t.9">actes de <placeName ref="#loc.2">Paris</placeName>
+                    </rs>, on les persuadera bien
+               intimement :</p>
+            <p>a. Que la quadruple-alliance<pb n="45v"/> et l’alliance générale composent un système <hi rendition="#u">un et indivisible</hi>.</p>
+            <p>b. Que ce système garantit à la fois l’inviolabilité de tous les droits reconnus et
+               de tous les intérêts réglés par les transactions existantes.</p>
+            <p>c. Que nulle alliance particulière et distincte, destinée à reconnoître et à garantir
+               les mêmes droits et les mêmes intérêts, ne sauroit plus trouver place dans le code du
+               droit public des nations.</p>
+            <p>Tel est l’ensemble des précautions qui peut rendre, comme nous l’avons dit plus haut,
+               la force de cohésion qui unit maintenant les 4 Grandes Puissances pour le bonheur du
+               monde <hi rendition="#u">évidente</hi>, <hi rendition="#u">nécessaire</hi> et <hi rendition="#u">indissoluble</hi>.</p>
+            <p>2<hi rendition="#su">o</hi> En faisant apprécier aux Gouvernemens autant qu’aux
+               peuples la valeur intrinsèque des traités existans sous le double rapport de la
+               garantie de l’état<pb n="46r"/> de possession et du principe de la légitimité statués par ces
+               traités, on briseroit peut-être pour toujours le ressort principal de toutes les
+               révolutions, et l’instrument dont les conquérans et <rs ref="#p.50">le prisonnier de <choice>
+                     <abbr>Ste.</abbr>
+                     <expan>Sainte</expan>
+                  </choice> Hélène</rs> se sont servis avec le plus de succès, l’appât des
+               agrandissemens montré aux nations avec celui du pillage offert aux armées.</p>
+            <p>Pourquoi une nation renonceroit-elle à sa paisible et honorable existence ; pourquoi
+               s’exposeroit-elle aux horreus d’une révolution et d’une guerre si des chances propres
+               à la tenter ne s’offroient à son ambition ? Et quel est l’usurpateur ou le conquérant
+               qui oseroit encore se montrer sans avoir une nation à séduire ? Comment
+               l’entraînera-t-il lorsqu’elle verra sa perte à le suivre, et l’Europe en armes lui
+               interdire toute acquisition territoriale ?</p>
+                <pb n="46v"/>
+            <p>La révolution n’est elle-même qu’un conquérant qui en veut aux propriétés comme aux
+               pouvoirs légitimes ?</p>
+            <p>La solidarité des garanties territoriales et celle des Souverainetés légitimes
+               décourageront ces prétentions si elles existent encore.</p>
+            <p>3<hi rendition="#su">o</hi> Mais lorsqu’un jour le temps et l’expérience auront donné
+               plus d’autorité à la force morale de cette grande association, elle fera plus
+               encore.</p>
+            <p>Elle garantira la sécurité des Gouvernemens autant que celle des peuples, en plaçant
+               le droit des nations sous une garantie analogue à celle qui protège les individus. Le
+               génie des révolutions rencontrant le même frein qui, dans l’intérieur de la société,
+               prévient les attentats, le perfectionnement progressif des institutions sociales sera
+               favorisé. Car les Gouvernemens rendus indépendans<pb n="47r"/> de toute dictature, de toute
+               prépondérance partielle, mais soumis à leurs engagemens volontaires, pourroient
+               offrir sans crainte à leurs sujets respectifs la jouissance de semblables
+               institutions.</p>
+            <p>L’asservissement des hommes et des classes, selon le témoignage de l’histoire, a
+               toujours diminué à proportion du perfectionnement de la vie sociale.</p>
+            <p>Or l’association solidaire de tous les Etats ayant pour but de régulariser
+               l’application du principe de défense mutuelle, principe que l’intérêt de l’humanité
+               tend à élever de la sphère de la société civile, à celle de l’ordre politique, il
+               s’en suit que les libertés des peuples, sagement réglées, sortiroient sans effort de
+               cet état de choses, une fois reconnu et publiquement avoué.</p>
+            <p>L’<rs ref="#p.17">Empereur</rs> a désiré faire part de ces réflexions à <rs ref="#p.16 #p.19 #p.18">Ses<pb n="47v"/> Augustes Alliés</rs>. C’est à leur haute sagesse à les
+               prendre en considération, et à juger s’il ne serait pas convenable de faire entrevoir
+               à l’Europe la perspective d’un avenir si consolant.</p>
+         </div>
+         <div hand="#A" decls="#m.2">
+            <pb n="50r"/>
+            <p>
+                    <title>Addition au Mémoire confidentiel du Cabinet de Russie</title>
+                </p>
+            <p>
+                    <placeName ref="#loc.1">Aix-la-Chapelle</placeName> le 26 Septembre/<date when="1818-10-08">8 Octobre 1818</date>.</p>
+            <p>Admettant la supposition que les Conférences envisagent et décident la question
+               principale qui leur est déférée selon les indications posées <rs xml:id="n.2">dans le
+                  Mémoire confidentiel de ce jour</rs>
+                    <note type="editorial" target="#n.2">Vgl.
+                  Dokument Nr. 1 des Anhangs.</note> en conformité des ouvertures qui le motivent :
+               c’est dans la présente addition que nous tâcherons de tracer un apperçu clair et
+               simple résumant nos considérations sur le système politique de l’Europe dans ses
+               principes, sa marche et les résultats que l’époque actuelle est appellé á
+               sanctionner.</p>
+                <pb n="50v"/>
+            <p>En délivrant l’Europe de la révolution et du conquérant qui la dévastoient, les
+               Puissances, animées d’un esprit de concorde et de fraternité chrétienne ont réussi, à
+               la faveur de ces auspices, à fonder leurs relations mutuelles sur les principes du
+               droit.</p>
+            <p>Elles ont restauré conséquemment les Monarchies légitimes et les Etats que la
+               révolution avoit renversés, complété leur propre circonscription territoriale, et
+               statué des arrangemens ayant pour objet unique le maintien de la<pb n="51r"/> Paix, l’indépendance
+               des nations et les progrès réels des peuples vers la vraie civilisation.</p>
+            <p>En signant collectivement les actes voués à ces grands résultats, les Puissances se
+               sont engagées de droit et de fait à se garantir solidairement l’exécution religieuse
+               de ces transactions, et par conséquent l’état de <hi rendition="#u">possession
+                  territoriale déterminé par ces actes</hi>, ainsi que la représentation légale de
+               ces possessions respectives : <hi rendition="#u">Savoir, la Souveraineté
+                  légitime</hi>.</p>
+                <pb n="51v"/>
+            <p>
+                    <rs xml:id="n.3">La catastrophe qui éclata en <country>France</country> l’année
+                  1815</rs>
+                    <note type="editorial" target="#n.3">Napoleons Herrschaft der 100
+                  Tage.</note> ayant menacé cet ordre de choses d’un nouveau bouleversement,
+               l’Europe reprit les armes. Une heureuse expérience ayant déjà démontré aux quatre
+               Puissances que les principes suivis par elles durant les années 1813 et 14 avoient
+               complétement répondu à leur attente et aux vœux de toutes les Nations : le <rs ref="#t.34">Traité solennel du <date when="1815-03-25">25 Mars 1815</date>
+                    </rs> ne
+               statua point de nouveaux <hi rendition="#u">principes</hi> dans cette conjoncture
+               décisive, mais simplement<pb n="52r"/> les <hi rendition="#u">règles</hi> d’après lesquelles la
+               Grande Fédération s’imposoit le devoir de ramener la <country>France</country> aux
+               termes du droit.</p>
+            <p>Le Génie d’<rs ref="#p.10">un grand Capitaine</rs> et la valeur des armées qui
+               servoient sous ses ordres la cause de l’univers rendirent subitement la
+                  <country>France</country> à la Souveraineté légitime et à la Famille
+               Européenne.</p>
+            <p>Les Négociations de <placeName ref="#loc.2">Paris</placeName> furent destinées à
+               l’examen et au choix des mesures qui devoient assurer de nouveau la stabilité<pb n="52v"/> de ce
+               résultat. En effet, le <rs ref="#t.1">Traité principal de <placeName ref="#loc.2">Paris</placeName>
+                    </rs> et celui de la <rs ref="#t.6">Quadruple Alliance</rs>
+               stipulèrent des garanties matérielles et temporaires, et confirmèrent des garanties
+               morales très étendues.</p>
+            <p>Au moment de faire cesser les garanties matérielles et temporaires, les quatre
+               Cabinets reconnoissent la nécessité et l’utilité de renforcer celles de la seconde
+               catégorie.</p>
+            <p>Pour atteindre ce but, ils partent unanimement du principe immuable<pb n="53r"/> de composer la
+               nouvelle force morale des mêmes élémens qui constituoient celle qui a sauvé l’Europe
+               du fléau des révolutions et du droit du plus fort.</p>
+            <p>L’esprit et la lettre des transactions existantes présentent ces élémens. Ou, en
+               d’autres termes, que nous aimons à répéter : les transactions existantes renferment
+               des obligations dont le fidèle accomplissement promèt au monde une longue paix, vu
+               qu’il garantit l’inviolabilité solidaire des possessions<pb n="53v"/> territoriales et du principe
+               de la souveraineté légitime.</p>
+            <p>Si la Restauration de la monarchie Françoise s’étayoit de l’épreuve d’une longue
+               suite d’années de stabilité, nul doute que les Puissances n’auroient eu ni le droit,
+               ne le devoir d’arrêter éventuellement des mesures propres à préserver l’Europe de la
+               contagion des révolutions sur la seule hypothèse que la <country>France</country>
+               peut en devenir encore le foyer. Mais en attendant que la tranquillité durable de ce
+               pays<pb n="54r"/> réalise les vœux de l’Europe, les quatre Cabinets, fermement décidés à conserver
+               des mesures de précautions autorisées par le passé, suivront les principes que
+               l’expérience a sanctionnés, et se concerteront entr’eux pour le seul cas où la
+               Royauté légitime en <country>France</country> seroit menacée et atteinte d’une
+               nouvelle révolution.</p>
+            <p>Le concert des quatre Puissances Alliées a donc pour objet imposant et essentiel de
+               porter encore,<pb n="54v"/> le casus foederis écheant, l’Europe en armes sur la
+                  <country>France</country> afin d’étouffer dans leur germe les explosions
+               révolutionnaires où d’en arrêter le torrent.</p>
+            <p>Or pour atteindre ce but il faut que le principe de la coalition générale soit établi
+               et développé par des règlemens éventuels. Il faut en second lieu que la coalition
+               générale puisse agir ; et les quatre Cours compter sur la coopération unanime de tous
+               les Etats de l’Europe au cas échéant.</p>
+            <p>C’est pour répondre à ce double point de vue que <ref target="Aachen_Prot_33.xml">les<pb n="55r"/>
+                  Conférences d’<placeName ref="#loc.1">Aix-la-Chapelle</placeName> consigneroient
+                  dans un Protocole les mesures éventuelles qui seroient prises au casus
+                  foederis</ref> ; et que par la Déclaration elles constateroient le lien qui unit
+               les Etats signataires ou accédans du <rs ref="#t.12">Recès de <placeName ref="#loc.7">Vienne</placeName>
+                    </rs> et des <rs ref="#t.1 #t.9">transactions de <placeName ref="#loc.2">Paris</placeName>
+                    </rs> au grand Pacte général.</p>
+            <p>En négligeant cette démarche, les quatre Cours feroient peut-être sentir à la
+                  <country>France</country> et aux autres Etats leur isolement, et dès lors ils
+               seroient portés et même<pb n="55v"/> autorisés à embrasser le système des combinaisons partielles
+               ou des contre alliances.</p>
+            <p>Rien d’ailleurs ne prouve plus l’importance et la nécessité de rectifier les erreurs
+               qui semblent s’accréditer dans la pensée de plusieurs Cabinets à cet égard que les
+               ouvertures adressées par la Cour des Tuilleries afin d’être admis à la quadruple
+               alliance, ainsi que les prétentions déplacées souvent produites par
+                  l’<country>Espagne</country>.</p>
+            <p>En un mot, il importe de faire comprendre bien distinctement que la Quadruple
+               Alliance n’est que le Centre de l’Alliance générale ou du système Européen.</p>
+         </div>
+         <div hand="#A" decls="#m.3">
+            <pb n="75r"/>
+            <p>
+                    <add hand="#AmrB" place="top">14</add>
+                </p>
+            <p>
+                    <add hand="#M" place="margin">
+                        <choice>
+                     <abbr>NB.</abbr>
+                     <expan>Nota Bene</expan>
+                  </choice> Premier minute rédigée par le <persName ref="#p.14">
+                            <roleName>
+                                <choice>
+                           <abbr>C.</abbr>
+                           <expan>Comte</expan>
+                        </choice>
+                            </roleName>
+                     <surname>de Capo d’Istria</surname>
+                        </persName>. <date when="1818-10-22">22
+                     Okt.</date>
+                    </add>
+                </p>            
+            <p>
+                    <title>Projet de Protocole, destiné à être signé par <rs ref="#p.8 #p.1 #p.9 #p.10 #p.11 #p.12 #p.13 #p.14">les Ministres et
+                     Plénipotentiaires des Cinq Puissances</rs>
+                    </title>
+                </p>
+            <p>Les <rs ref="#p.8 #p.9 #p.10 #p.1 #p.11 #p.12 #p.13 #p.14">Ministres et
+                  Plénipotentiaires des Cours Impériales et Royales d’Autriche, de la
+                  Grande-Bretagne, de France, de Prusse et de Russie</rs>, après avoir échangé <rs xml:id="n.4">les Offices ci-joints en Copie</rs>,<note type="editorial" target="#n.4">Liegen nicht ein.</note> se sont réunis en conférence à l’effet de
+               délibérer :</p>
+            <p>1<hi rendition="#su">o</hi> Sur la nature des rapports qui unissent leurs Cours
+               respectives à toutes les Puissances Européennes, et qui par une suite de la mise à
+               exécution de l’<choice>
+                  <abbr>Art.</abbr>
+                  <expan>Article</expan>
+               </choice> V du <rs ref="#t.1">Traité de <placeName ref="#loc.2">Paris</placeName> du
+                     <date when="1815-11-20">8/20 <choice>
+                        <abbr>9<hi rendition="#su">bre</hi>
+                                </abbr>
+                        <expan>Novembre</expan>
+                     </choice> 1815</date>
+                    </rs> doivent acquérir désormais le plus haut degré de
+               consistence et de stabilité ;</p>
+            <p>2<hi rendition="#su">o</hi> Sur le choix et la fixation des moyens les plus propres à
+               faire dériver de cet heureux résultat une nouvelle garantie du maintien inviolable
+               des transactions sur lesquelles se fonde l’œuvre de la paix et l’édifice de la
+               tranquillité générale.</p>
+            <p>Après avoir mûrement<pb n="75v"/> approfondi à une époque aussi décisive le principe d’unité des
+               grands intérêts qui constituent l’ordre des choses rétabli en Europe sous les
+               auspices de la divine Providence moyennant le <rs ref="#t.13">Traité de <placeName ref="#loc.2">Paris</placeName> de l’année 1814</rs>, le <rs ref="#t.12">recès
+                  de <placeName ref="#loc.2">Vienne</placeName>
+                    </rs> et les <rs ref="#t.1 #t.9 #t.6">actes subséquens de <placeName ref="#loc.2">Paris</placeName> de l’année
+                  1815</rs>, les Cinq Cours ont unanimement reconnu ce qui suit : </p>
+            <p>La <rs ref="#t.10">Convention du <date when="1818-10-09">9 Octobre</date>
+                    </rs>,
+               laquelle règle définitivement la pleine et entière exécution des clauses stipulées
+               par l’<choice>
+                  <abbr>Art.</abbr>
+                  <expan>Article</expan>
+               </choice> V du <rs ref="#t.1">traité de <placeName ref="#loc.2">Paris</placeName> de
+                  l’année 1815</rs>, devient par cela même le complément du système politique de
+               l’Europe, et consomme par conséquent l’œuvre de la paix.</p>
+            <p>Les transactions existantes, conservées inviolables dans leur ensemble, assurent à
+               chaque Etat en particulier, ainsi qu’à toute<pb n="76r"/> la famille Européenne, la jouissance
+               paisible de tous les droits et l’exercice de tous les pouvoirs légitimes définis,
+               reconnus et sanctionnés par lesdites transactions.</p>
+            <p>Les engagemens qui ont pour objet spécial de garantir la permanence d’un résultat
+               aussi salutaire demeurent inaltérables et réciproquement obligatoires tant par
+               rapport au principe qui les a dictés que pour ce qui a trait à leur mise à exécution
+               dans le cas où le repos des peuples vint encore à être menacé du retour des crises
+               révolutionnaires.</p>
+            <p>La <country>France</country>, associée à tous les Etats de l’Europe moyennant la
+               restauration effective et l’affermissement du pouvoir monarchique, légitime et
+               constitutionnel qui la gouverne, concourt évidemment à empêcher le retour de tout<pb n="76v"/>
+               bouleversement semblable auquel s’oppose désormais le ralliement progressif de tous
+               les intérêts légitimes de la nation française à la loyauté éclairée et à la sagesse
+               modératrice de son Souverain actuel. Elle contribue par cela même de la manière la
+               plus efficace à l’affermissement du système général de l’Europe.</p>
+            <p>D’après l’ensemble de ces considérations, les <rs ref="#p.8 #p.9 #p.10 #p.1 #p.11 #p.12 #p.13 #p.14">Ministres et Plénipotentiaires
+                  des Cours d’Autriche, de la Grande-Bretagne, de France, de Prusse et de
+                  Russie</rs> déclarent</p>
+            <p>1<hi rendition="#su">o</hi> Que les cinq Puissances sont fermement &amp;
+               irrévocablement décidées à ne jamais se départir dans leurs relations mutuelles,
+               ainsi que dans leurs rapports avec les autres Etats, du principe d’union intime qui
+               forme la base de la Grande Alliance ; Alliance qu’un lien de fraternité Chrétienne
+               rend encore plus forte<pb n="77r"/> et plus indissoluble par suite de l’acquiescement de tous les
+               Membres de la famille Européenne aux mêmes maximes d’équité, de bienveillance et de
+               fraternité.</p>
+            <p>2<hi rendition="#su">o</hi> Que cet accord unanime et cette union parfaite dont
+               l’intimité est d’autant plus réelle qu’elle ne prend sa source dans aucun intérêt
+               isolé, dans aucune combinaison du moment, ne peuvent avoir et n’auront par conséquent
+               pour objet que le maintien de la paix générale, fondé sur le respect le plus
+               religieux pour les engagemens consignés dans les Traités, et pour la totalité des
+               droits qui en dérivent.</p>
+            <p>3<hi rendition="#su">o</hi> Que les cinq Puissances signataires du présent acte
+               observeront les unes envers les autres, et à l’égard de tous les Membres de
+               l’association Européenne, les principes invariables du droit des gens ; principes
+               qui, destinés à fixer la nature des relations entre les Gouvernemens, et<pb n="77v"/> combinés à
+               un état de paix stable et permanent, serviront dorénavant à garantir plus
+               efficacement encore la durée de leur association et l’inviolabilité de leur
+               indépendance.</p>
+            <p>4<hi rendition="#su">o</hi> Qu’en vertu de cet ordre des choses lesdites Puissances
+               ne s’arrogeront ni de droit, ni de fait, la faculté de prononcer sur aucun objet
+               concernant les autres Etats de l’Europe sans que les parties intéressées leur ayent
+               déféré cette faculté moyennant une invitation formelle.</p>
+            <p>En cas donc de réunion future entre les Souverains Eux-mêmes ou Leurs Ministres
+               respectifs, les Etats dont les intérêts ou les différends auront motivé ces réunions
+               jouiront du droit d’y participer.</p>
+            <p>5<hi rendition="#su">o</hi> Que si les Cinq Cours signataires du présent acte
+               jugeaint nécessaire d’effectuer de semblables réunions pour<pb n="78r"/> y prendre en
+               considération et y discuter en commun leurs propres intérêts, alors ces réunions
+               auraient lieu à l’époque dont Elles seraient réciproquement convenues entre
+               Elles.</p>
+            <p>Le présent Protocole sera respectivement porté par chacune des hautes parties
+               signataires à la connaissance des Gouvernemens qui ont pris part ou accédé au <rs ref="#t.13">Traité de <placeName ref="#loc.2">Paris</placeName> de l’année
+                  1814</rs>, au <rs ref="#t.12">recès de <placeName ref="#loc.7">Vienne</placeName>
+                    </rs> et aux <rs ref="#t.1 #t.6 #t.9">actes subséquens de
+                     <placeName ref="#loc.2">Paris</placeName> de l’année 1815</rs>.</p>
+            <p>Fait quintuple et réciproquement échangé en original entre les Cinq Cabinets.</p>
+         </div>
+      </body>
+      <back>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listPlace.xml" xpointer="listPlace"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listPerson.xml" xpointer="listPerson"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listWit.xml" xpointer="listWit"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listOrg.xml" xpointer="listOrg"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listTreaties.xml" xpointer="listTreaties"/>
+      </back>
+   </text>
+</TEI>
