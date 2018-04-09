@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns="http://www.w3.org/1999/xhtml" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:tei="http://www.tei-c.org/ns/1.0" exclude-result-prefixes="tei" version="2.0">
-    <xsl:param name="entiyID"/>
+    <xsl:param name="entityID"/>
     <xsl:template match="/"><!-- Modal -->
         <div class="modal" id="myModal" role="dialog">
             <div class="modal-dialog"><!-- Modal content-->
@@ -10,7 +10,7 @@
                             <span class="fa fa-times"/>
                         </button>
                         <h4 class="modal-title">
-                            <xsl:value-of select="//tei:place[@xml:id=$entiyID]/tei:placeName[1]"/>
+                            <xsl:value-of select="//tei:place[@xml:id=$entityID]/tei:placeName[1]"/>
                         </h4>
                     </div>
                     <div class="modal-body">
@@ -18,7 +18,7 @@
                             <tr>
                                 <th>Alternative Schreibweisen</th>
                                 <td>
-                                    <xsl:for-each select="//tei:place[@xml:id=$entiyID]//tei:placeName">
+                                    <xsl:for-each select="//tei:place[@xml:id=$entityID]//tei:placeName">
                                         <li>
                                             <xsl:value-of select="."/>
                                         </li>
@@ -26,11 +26,11 @@
                                 </td>
                             </tr>
                             <xsl:choose>
-                                <xsl:when test=".//tei:place[@xml:id=$entiyID]//tei:location">
+                                <xsl:when test=".//tei:place[@xml:id=$entityID]//tei:location">
                                     <tr>
                                         <th>GPS-Coordinates</th>
                                         <td>
-                                            <xsl:value-of select=".//tei:place[@xml:id=$entiyID]//tei:location"/>
+                                            <xsl:value-of select=".//tei:place[@xml:id=$entityID]//tei:location"/>
                                         </td>
                                     </tr>
                                     <tr>
@@ -38,10 +38,10 @@
                                         <td>
                                             <a>
                                                 <xsl:attribute name="href">
-                                                    <xsl:value-of select=".//tei:place[@xml:id=$entiyID]//tei:idno/text()"/>
+                                                    <xsl:value-of select=".//tei:place[@xml:id=$entityID]//tei:idno/text()"/>
                                                 </xsl:attribute>
                                                 <xsl:attribute name="target">_blank</xsl:attribute>
-                                                <xsl:value-of select=".//tei:place[@xml:id=$entiyID]//tei:idno"/>
+                                                <xsl:value-of select=".//tei:place[@xml:id=$entityID]//tei:idno"/>
                                             </a>
                                         </td>
                                     </tr>
@@ -50,7 +50,7 @@
                                         <td>
                                             <a>
                                                 <xsl:attribute name="href">
-                                                    <xsl:value-of select="concat('hits.html?searchkey=', $entiyID)"/>
+                                                    <xsl:value-of select="concat('hits.html?searchkey=', $entityID)"/>
                                                 </xsl:attribute>
                                                 <xsl:attribute name="target">_blank</xsl:attribute>
                                                 klicke hier

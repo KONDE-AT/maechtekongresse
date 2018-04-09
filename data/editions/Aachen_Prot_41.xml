@@ -354,7 +354,7 @@
                degré auquel les Alliés croyaient devoir et pouvoir porter leurs bons offices, ni du
                terme auquel ils croyaient devoir et pouvoir arrêter leur intervention ; que la Cour
                de <placeName ref="#loc.7">Vienne</placeName> n’ayant cessé depuis la conclusion du
-                  <rs ref="t.27">Traité de <placeName ref="#loc.16">Munich</placeName>
+                  <rs ref="#t.27">Traité de <placeName ref="#loc.16">Munich</placeName>
                     </rs>
                d’interposer tous ses moyens près de Ses augustes Alliés dans le but de leur faire
                soutenir par leurs bons offices la stipulation des <rs xml:id="n.5">Articles II et
@@ -1032,11 +1032,11 @@
          </div>
       </body>
       <back>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="listPlace.xml" xpointer="listPlace"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="listPerson.xml" xpointer="listPerson"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="listWit.xml" xpointer="listWit"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="listOrg.xml" xpointer="listOrg"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="listTreaties.xml" xpointer="listTreaties"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/listplace.xml" xpointer="listPlace"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/listperson.xml" xpointer="listPerson"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/listwit.xml" xpointer="listWit"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/listorg.xml" xpointer="listOrg"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/listwork.xml" xpointer="listTreaties"/>
       </back>
    </text>
 </TEI>

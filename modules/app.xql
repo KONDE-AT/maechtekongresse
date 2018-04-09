@@ -206,7 +206,6 @@ declare function app:listPers($node as node(), $model as map(*)) {
             </td>
             <td><a href="{concat($hitHtml,data($person/@xml:id))}">{$person/tei:persName/tei:roleName}</a></td>
             <td><a href="{concat($hitHtml,data($person/@xml:id))}">{$person/tei:birth}–{$person/tei:death}</a></td>
-            
             <td>
                 {$gnd_link}
             </td>
@@ -275,6 +274,36 @@ declare function app:XMLtoHTML ($node as node(), $model as map (*), $query as xs
 let $ref := xs:string(request:get-parameter("document", ""))
 let $xmlPath := concat(xs:string(request:get-parameter("directory", "editions")), '/')
 let $xml := doc(replace(concat($config:app-root,'/data/', $xmlPath, $ref), '/exist/', '/db/'))
+let $xslPath := concat(xs:string(request:get-parameter("stylesheet", "xmlToHtml")), '.xsl')
+let $xsl := doc(replace(concat($config:app-root,'/resources/xslt/', $xslPath), '/exist/', '/db/'))
+let $collection := functx:substring-after-last(util:collection-name($xml), '/')
+let $path2source := string-join(('../../../../exist/restxq', $config:app-name, $collection, $ref, 'xml'), '/')
+let $params :=
+<parameters>
+    <param name="app-name" value="{$config:app-name}"/>
+    <param name="collection-name" value="{$collection}"/>
+    <param name="path2source" value="{$path2source}"/>
+   {for $p in request:get-parameter-names()
+    let $val := request:get-parameter($p,())
+   (: where  not($p = ("document","directory","stylesheet")):)
+    return
+       <param name="{$p}"  value="{$val}"/>
+   }
+</parameters>
+return
+    transform:transform($xml, $xsl, $params)
+};
+
+
+(:~
+ : perfoms an XSLT transformation for the indices (persons etc)
+:)
+declare function app:XMLtoHTMLindices ($node as node(), $model as map (*), $query as xs:string?) {
+let $ref := xs:string(request:get-parameter("document", ""))
+let $xmlPath := concat(xs:string(request:get-parameter("directory", "editions")), '/')
+(: let $xml := doc(replace(concat($config:app-root,'/data/', $xmlPath, $ref), '/exist/', '/db/')) :)
+let $entityID := xs:string(request:get-parameter("entityID", ""))
+let $xml := collection($config:app-root||'/data/indices')//*[@xml:id=$entityID]
 let $xslPath := concat(xs:string(request:get-parameter("stylesheet", "xmlToHtml")), '.xsl')
 let $xsl := doc(replace(concat($config:app-root,'/resources/xslt/', $xslPath), '/exist/', '/db/'))
 let $collection := functx:substring-after-last(util:collection-name($xml), '/')

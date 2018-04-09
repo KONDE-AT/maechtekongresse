@@ -3,7 +3,7 @@
     <!-- created 2017-07-12 editor:DK = Dario Kampkaspar, dario.kampkaspar@oeaw.ac.at -->
     
     <xsl:output method="html" indent="yes"/>
-    <xsl:param name="entiyID" as="xs:string"/>
+    <xsl:param name="entityID" as="xs:string"/>
     <xsl:param name="render" select="false()" as="xs:boolean"/>
     <xsl:variable name="tei-root">http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-</xsl:variable>
     
@@ -26,12 +26,12 @@
                                 <span class="fa fa-times"/>
                             </button>
                             <h3 class="modal-title" style="font-variant: small-caps">
-                                <small>node id:</small> <xsl:value-of select="$entiyID"/>
+                                <small>node id:</small> <xsl:value-of select="$entityID"/>
                             </h3>
                             <h4>
                                             <a>
                                                 <xsl:attribute name="href">
-                                                    <xsl:value-of select="concat('hits.html?searchkey=', $entiyID)"/>
+                                                    <xsl:value-of select="concat('hits.html?searchkey=', $entityID)"/>
                                                 </xsl:attribute>
                                                 <xsl:attribute name="target">_blank</xsl:attribute>
                                                 mentioned in
@@ -40,11 +40,11 @@
                         </div>
                         <div class="modal-body">
                             <xsl:choose>
-                                <xsl:when test="//*[contains(@xml:id, $entiyID) or contains(@id, $entiyID)]">
-                                    <xsl:apply-templates select="//*[contains(@xml:id, $entiyID) or contains(@id, $entiyID)]" mode="start"/>
+                                <xsl:when test="//*[contains(@xml:id, $entityID) or contains(@id, $entityID)]">
+                                    <xsl:apply-templates select="//*[contains(@xml:id, $entityID) or contains(@id, $entityID)]" mode="start"/>
                                 </xsl:when>
                                 <xsl:otherwise>Looks like there exists no index entry for ID<strong>
-                                        <xsl:value-of select="concat(' ', $entiyID)"/>
+                                        <xsl:value-of select="concat(' ', $entityID)"/>
                                     </strong> 
                                 </xsl:otherwise>
                             </xsl:choose>

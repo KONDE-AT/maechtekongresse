@@ -9,7 +9,7 @@ declare option exist:serialize "method=json media-type=text/javascript";
 let $data := <data>{
     for $x at $pos in collection($app:editions)//tei:msDesc[(.//@when[1] castable as xs:date)]
     let $sender := string-join($x//tei:correspAction[@type='sent']/tei:persName/text(), ' ')
-    let $backlink := app:hrefToDoc($x)
+    let $backlink := concat(app:hrefToDoc($x),'&amp;directory=editions')
     let $receiver := string-join($x//tei:correspAction[@type='received']/tei:persName/text(), ' ')
     let $content := if ($receiver) 
         then $sender||' wrote to '||$receiver

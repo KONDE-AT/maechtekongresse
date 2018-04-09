@@ -12,7 +12,7 @@
     <script id="item-template" type="text/x-handlebars-template">
         <table class="table table-bordered table-hover table-condensed">
             <tr>
-                <th>Sender</th>
+                <th>Dokument</th>
                 <td colspan="3" class="description">{{sender}}</td>
             </tr>
             {{#if receiver}}
@@ -33,8 +33,8 @@
            
         </div>
     <ul class="menu">
-        <li>Click into the timeline hold<code>ctrl</code> to zoom</li>
-        <li>Data fetched from<a href="../analyze/timeline.xql">../analyze/timeline.xql</a>
+        <li>Click into the timeline hold <code>ctrl</code> to zoom</li>
+        <li>Data fetched from <a href="../analyze/timeline.xql">../analyze/timeline.xql</a>
         </li>
     </ul>
     
@@ -58,8 +58,8 @@
                  axis: 5   // minimal margin between items and the axis
                 },
                 orientation: 'top',
-                start: new Date(1833,01,01),
-                end: new Date(1862, 01, 01)
+                start: new Date(1812,01,01),
+                end: new Date(1826,01,01)
             };
             var timeline = new vis.Timeline(container, data.item, options);
         });
