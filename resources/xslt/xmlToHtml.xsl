@@ -146,13 +146,13 @@
                                         </a>
                                     </td>
                                 </tr>
-                                <xsl:if test=".//@type">
+                                <xsl:if test="./@type">
                                     <tr>
                                         <th>
                                             <abbr title="//tei:msDesc/@type">Dokumentenart</abbr>
                                         </th>
                                         <td>
-                                            <xsl:value-of select=".//@type"/>
+                                            <xsl:value-of select="./@type"/>
                                         </td>
                                     </tr>
                                 </xsl:if>
