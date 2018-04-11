@@ -285,6 +285,7 @@
                                     </span>
                                 </a>
                             </xsl:element>
+                            <xsl:text> </xsl:text>
                             <xsl:apply-templates/>
                         </div>
                     </xsl:for-each>
@@ -358,12 +359,17 @@
         </xsl:element>
     </xsl:template>
     <xsl:template match="tei:div">
-        <xsl:variable name="msId" select="substring-after(@decls,'#')"/>
+        <xsl:variable name="msId" select="substring-after(@decls, '#')"/>
+        <xsl:variable name="handId" select="substring-after(@hand, '#')"/>
         <xsl:choose>
             <xsl:when test="@decls">
                 <xsl:element name="div">
                     <xsl:attribute name="id">
                         <xsl:value-of select="$msId"/>
+                    </xsl:attribute>
+                    <xsl:attribute name="title">
+                        <xsl:value-of select="*//tei:handNote[@xml:id='$handId']"/>
+                        <!--<xsl:value-of select="$handId"/>--> <!--is not work! TODO -->
                     </xsl:attribute>
                     <xsl:apply-templates/>
                 </xsl:element>

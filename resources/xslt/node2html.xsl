@@ -43,7 +43,7 @@
                                 <xsl:when test="//*[contains(@xml:id, $entityID) or contains(@id, $entityID)]">
                                     <xsl:apply-templates select="//*[contains(@xml:id, $entityID) or contains(@id, $entityID)]" mode="start"/>
                                 </xsl:when>
-                                <xsl:otherwise>Looks like there exists no index entry for ID<strong>
+                                <xsl:otherwise>Looks like there is no index entry for ID<strong>
                                         <xsl:value-of select="concat(' ', $entityID)"/>
                                     </strong> 
                                 </xsl:otherwise>
@@ -106,4 +106,16 @@
             </small>: <xsl:value-of select="."/>
         </li>
     </xsl:template>
+    
+    <xsl:template match="//idno[@type='URI']">
+        <li>
+                <a>
+                <xsl:attribute name="href">
+                    <xsl:value-of select="."/>
+                </xsl:attribute>
+                <xsl:value-of select="."/>
+                </a>
+        </li>
+    </xsl:template>
+
 </xsl:stylesheet>
