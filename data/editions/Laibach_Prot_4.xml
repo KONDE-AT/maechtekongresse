@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -11,13 +12,10 @@
                <persName>
                   <surname>Schneider</surname>
                   <forename>Karin</forename>
-               </persName>
-                </editor>
+               </persName></editor>
          </titleStmt>
          <editionStmt>
-            <edition>
-                    <date>2017-03-13</date>
-                </edition>
+            <edition><date>2017-03-13</date></edition>
          </editionStmt>
          <publicationStmt>
             <publisher>Österreichische Akademie der Wissenschaften, Institut für Neuzeit- und
@@ -55,19 +53,14 @@
 
                </physDesc>
                <history>
-                  <origin>
-                            <placeName ref="#loc.65">Laibach</placeName>
-                            <date when="1821-01-16">16.
-                        Jänner 1821</date>
-                        </origin>
+                  <origin><placeName ref="#loc.65">Laibach</placeName><date when="1821-01-16">16.
+                        Jänner 1821</date></origin>
                </history>
             </msDesc>
             <listWit corresp="#m.1">
                <head>Journal</head>
-               <witness corresp="#w.37">
-                        <bibl type="print">Alberti, Atti, S.
-                  404-407.</bibl>
-                    </witness>
+               <witness corresp="#w.37"><bibl type="print">Alberti, Atti, S.
+                  404-407.</bibl></witness>
             </listWit>
          </sourceDesc>
       </fileDesc>
@@ -87,14 +80,11 @@
       </encodingDesc>
       <profileDesc>
          <abstract>
-            <p>Der österreichische Außenminister <persName ref="#p.8">
-                        <surname>Metternich</surname>
-                    </persName> informiert den neapolitanischen
-               Vertreter <persName ref="#p.140">
-                        <surname>Ruffo</surname>
-                    </persName> über die Haltung
-               der Mächte gegenüber der revolutionären Regierung des <country>Königreichs beider
-                  Sizilien</country>, und über die Ziele ihrer Politik.</p>
+            <p>Der österreichische Außenminister <persName ref="#p.8"
+                  ><surname>Metternich</surname></persName> informiert den neapolitanischen
+               Vertreter <persName ref="#p.140"><surname>Ruffo</surname></persName> über die Haltung
+               der Mächte gegenüber der Regierung des <country>Königreichs beider
+                  Sizilien</country> und über deren politische Ziele.</p>
          </abstract>
          <particDesc>
             <listPerson>
@@ -142,63 +132,45 @@
       <body>
          <div hand="#A" decls="#m.1">
             <pb n="13r"/>
-            <p>
-                    <title>Journal des Conférences</title>
-                </p>
-            <p>
-                    <title>
-                        <choice>
-                     <abbr>N<hi rendition="#su">o</hi>
-                            </abbr>
+            <p><title>Journal des Conférences</title></p>
+            <p><title><choice>
+                     <abbr>N<hi rendition="#su">o</hi></abbr>
                      <expan>Numéro</expan>
-                  </choice> 4.</title>
-                </p>
+                  </choice> 4.</title></p>
             <p>Conférence du <date when="1821-01-16">16 Janvier</date>.</p>
-            <p>
-                    <choice>
-                  <abbr>M<hi rendition="#su">r</hi>
-                        </abbr>
+            <p><choice>
+                  <abbr>M<hi rendition="#su">r</hi></abbr>
                   <expan>Monsieur</expan>
-               </choice> le <persName ref="#p.8">
-                        <roleName>Prince</roleName>
-                  <surname>de Metternich</surname>
-                    </persName> a pris la parole pour répondre en son
-               nom et comme organe de <rs ref="#p.2 #p.160 #p.102 #p.135 #p.161 #p.12 #p.13 #p.14 #p.7">
-                        <choice>
-                     <abbr>M<hi rendition="#su">rs</hi>
-                            </abbr>
+               </choice> le <persName ref="#p.8"><roleName>Prince</roleName>
+                  <surname>de Metternich</surname></persName> a pris la parole pour répondre en son
+               nom et comme organe de <rs
+                  ref="#p.2 #p.160 #p.102 #p.135 #p.161 #p.12 #p.13 #p.14 #p.7"><choice>
+                     <abbr>M<hi rendition="#su">rs</hi></abbr>
                      <expan>Messieurs</expan>
                   </choice> les Plénipotentiaires</rs>, ses Collègues, à la communication faite à la
                   <ref target="Laibach_Prot_3.xml">Conférence du <date when="1821-01-13">13 de ce
-                     mois</date>
-                    </ref> par <choice>
-                  <abbr>M<hi rendition="#su">r</hi>
-                        </abbr>
+                     mois</date></ref> par <choice>
+                  <abbr>M<hi rendition="#su">r</hi></abbr>
                   <expan>Monsieur</expan>
-               </choice> le <persName ref="#p.140">
-                        <roleName>Prince</roleName>
-                  <surname>de Ruffo</surname>
-                    </persName> de la part de <rs ref="#p.138">
-                        <choice>
+               </choice> le <persName ref="#p.140"><roleName>Prince</roleName>
+                  <surname>de Ruffo</surname></persName> de la part de <rs ref="#p.138"><choice>
                      <abbr>S. M.</abbr>
                      <expan>Sa Majesté</expan>
                   </choice> Sicilienne</rs>. Il a exprimé d’abord à <choice>
-                  <abbr>M<hi rendition="#su">r</hi>
-                        </abbr>
+                  <abbr>M<hi rendition="#su">r</hi></abbr>
                   <expan>Monsieur</expan>
-               </choice> le <persName ref="#p.140">
-                        <roleName>Prince</roleName>
-                  <surname>Ruffo</surname>
-                    </persName> la vive satisfaction avec laquelle les <rs ref="#p.16 #p.18 #p.17">Souverains alliés</rs> avaient appris, combien <rs ref="#p.138">
-                        <choice>
+               </choice> le <persName ref="#p.140"><roleName>Prince</roleName>
+                  <surname>Ruffo</surname></persName> la vive satisfaction avec laquelle les <rs
+                  ref="#p.16 #p.18 #p.17">Souverains alliés</rs> avaient appris, combien <rs
+                  ref="#p.138"><choice>
                      <abbr>S. M.</abbr>
                      <expan>Sa Majesté</expan>
                   </choice> Sicilienne</rs> appréciait les motifs qui les avaient portés à lui
                adresser l’invitation de se rendre à <placeName ref="#loc.65">Laybach</placeName>. Le
                   <rs ref="#p.140">Prince</rs> a ajouté que, bien que <rs ref="#p.138">Sa
-                  Majesté</rs> n’eut pas pu ignorer l’impression fâcheuse produite par <rs xml:id="n.1">les événemens arrivés à <country>Naples</country> depuis le <date when="1820-07-02">2 Juillet</date>
-                    </rs>
-                    <note type="editorial" target="#n.1">Am
+                  Majesté</rs> n’eut pas pu ignorer l’impression fâcheuse produite par <rs
+                  xml:id="n.1">les événemens arrivés à <country>Naples</country> depuis le <date
+                     when="1820-07-02">2 Juillet</date></rs><note type="editorial" target="#n.1">Am
                      <date when="1820-07-02">2. Juli 1820</date> meuterte die Militärgarnison in
                   Nola, 35 km von <placeName ref="#loc.11">Neapel</placeName> entfernt. Das Datum
                   gilt als Beginn der Revolution im <country>Königreich beider Sizilien</country>.
@@ -206,21 +178,21 @@
                   Carbonari, Magistrati del Re; Späth, Revolution in Europa, S. 129–149.</note> et
                les inquiétudes auxquelles ils avaient donné lieu, il appartenait cependant plus
                particulièrement aux <rs ref="#p.8 #p.2 #p.12 #p.13 #p.14 #p.7">Plénipotentiaires des
-                     <rs ref="#p.16 #p.18 #p.17">Souverains alliés</rs>
-                    </rs> de faire connaître
+                     <rs ref="#p.16 #p.18 #p.17">Souverains alliés</rs></rs> de faire connaître
                l’étendue de ces inquiétudes et la gravité des causes qui les ont fait naître.</p>
             <p>La révolution de <country>Naples</country> portait en elle-même un caractère assez
                alarmant pour fixer l’attention des <rs ref="#p.16 #p.18 #p.17">Souverains</rs> et
                pour diriger leurs vues sur les dangers dont elle menaçait les Etats voisins. Les
-               moyens par lesquels cette révolution avait été opérée, les principes annoncés<pb n="13v"/> par ceux qui s’en déclaraient les Chefs, la marche qu’ils suivirent, les
+               moyens par lesquels cette révolution avait été opérée, les principes annoncés<pb
+                  n="13v"/> par ceux qui s’en déclaraient les Chefs, la marche qu’ils suivirent, les
                résultats qu’ils amenèrent, tout devait répandre l’épouvante dans les autres Etats de
                l’Italie et fortement agir sur les Puissances les plus directement intéressées au
                repos de la péninsule. Le Gouvernement autrichien n’aurait pas pu regarder avec
                indifférence une catastrophe dont les suites incalculables pouvaient, en renversant
                pour longtems l’ordre et la paix en Italie, compromettre les plus précieux intérêts
                de l’Autriche et menacer même sa propre sureté. Fidèle au <rs xml:id="n.2">système
-                  qu’elle a invariablement suivi depuis 7 ans</rs>
-                    <note type="editorial" target="#n.2">Gemeint ist das Allianzsystem der Mächte</note>, la Cour de
+                  qu’elle a invariablement suivi depuis 7 ans</rs><note type="editorial"
+                  target="#n.2">Gemeint ist das Allianzsystem der Mächte</note>, la Cour de
                   <placeName ref="#loc.7">Vienne</placeName> crut, dans une occasion aussi
                importante, remplir un devoir que Sa position et ses engagemens lui prescrivaient
                également en invitant Ses alliés à l’éclairer de leurs lumières et à délibérer avec
@@ -230,24 +202,28 @@
                pas pu considérer la révolution de <country>Naples</country> comme un événement tout
                à fait isolé. Ils y ont retrouvé ce même esprit de trouble et de désordre qui a
                désolé le monde pendant si longtems, que l’on a pu croire comprimé par les effets
-               salutaires d’une pacification générale, mais qui depuis s’est malheureusement<pb n="14r"/> réveillé dans plus d’un pays de l’Europe et a reparu même sous des
+               salutaires d’une pacification générale, mais qui depuis s’est malheureusement<pb
+                  n="14r"/> réveillé dans plus d’un pays de l’Europe et a reparu même sous des
                formes moins redoutables peut-être au premier aspect que celles qu’il avait déployées
                à des époques antérieures, mais plus essentiellement menaçantes pour le maintien de
-               l’ordre social. Ces considérations n’ont pu qu’imprimer aux yeux des <rs ref="#p.16 #p.18 #p.17">Souverains</rs> un caractère particulièrement grave aux
+               l’ordre social. Ces considérations n’ont pu qu’imprimer aux yeux des <rs
+                  ref="#p.16 #p.18 #p.17">Souverains</rs> un caractère particulièrement grave aux
                événemens qui venaient de se passer dans le <country>Royaume des
                   Deux-Siciles</country>, et ils se sont convaincus qu’en s’occupant dans les vues
                les plus justes et les plus légitimes des moyens propres à rétablir l’ordre dans ce
                Royaume, ils travaillaient en même tems pour l’intérêt général du repos et du bonheur
                de l’Europe et pour l’affermissement de cette paix qui, après tant de désastres et
-               tant d’efforts, avait enfin été heureusement consolidée par les <rs ref="#t.12 #t.1 #t.6 #t.9 #t.42">transactions de <placeName ref="#loc.7">Vienne</placeName>, de <placeName ref="#loc.2">Paris</placeName> et
-                     d’<placeName ref="#loc.1">Aix-la-Chapelle</placeName>
-                    </rs>.</p>
+               tant d’efforts, avait enfin été heureusement consolidée par les <rs
+                  ref="#t.12 #t.1 #t.6 #t.9 #t.42">transactions de <placeName ref="#loc.7"
+                     >Vienne</placeName>, de <placeName ref="#loc.2">Paris</placeName> et
+                     d’<placeName ref="#loc.1">Aix-la-Chapelle</placeName></rs>.</p>
             <p>En effet, la révolution de <country>Naples</country> a donné au monde un exemple
                aussi instructif que déplorable de ce que les nations ont à gagner en cherchant des
                reformes politiques dans les voies de la révolte et du crime. Ourdie en secret par
                une secte dont les maximes impies attaquaient à la fois la religion, la morale et
                tous les liens sociaux, exécutée par des troupes<pb n="14v"/> traitres à leurs
-               sermens, consommée par la violence et les menaces exercées contre le <rs ref="#p.138">Souverain légitime</rs>, cette révolution n’a pu amener à sa suite que l’anarchie
+               sermens, consommée par la violence et les menaces exercées contre le <rs ref="#p.138"
+                  >Souverain légitime</rs>, cette révolution n’a pu amener à sa suite que l’anarchie
                et le despotisme militaire qu’elle a renforcés plutôt que de les affaiblir en créant
                un régime monstrueux, incapable de servir de base à un Gouvernement quelconque
                incompatible avec tout ordre public et avec les premiers besoins de la société.</p>
@@ -264,8 +240,7 @@
                dicté au cœur paternel du <rs ref="#p.138">Roi</rs>, n’ont pu les induire en erreur
                sur le vrai caractère de ces événemens.</p>
             <pb n="15r"/>
-            <p>
-                    <rs ref="#p.16 #p.18 #p.17">Ils</rs> se sont enfin déterminés non seulement à ne
+            <p><rs ref="#p.16 #p.18 #p.17">Ils</rs> se sont enfin déterminés non seulement à ne
                jamais reconnaître un bouleversement opéré par le crime et qui, d’un instant à
                l’autre, pouvait troubler la paix du monde, mais à réunir leurs efforts pour mettre
                un terme à des désordres aussi pernicieux au pays qu’ils frappaient directement que
@@ -276,19 +251,18 @@
                sincèrement félicités, et se féliciteraient encore, de pouvoir arriver par la force
                de la raison, par des moyens de conciliation et de paix, à un but auquel ils ne
                sauraient renoncer sans se mettre en opposition avec leur conscience et avec leurs
-               devoirs les plus sacrés. C’est dans ces sentimens qu’ils ont <ref target="Troppau_Prot_4.xml">invité <choice>
+               devoirs les plus sacrés. C’est dans ces sentimens qu’ils ont <ref
+                  target="Troppau_Prot_4.xml">invité <choice>
                      <abbr>S. M.</abbr>
                      <expan>Sa Majesté</expan>
-                  </choice> le <rs ref="#p.138">Roi de Naples</rs>
-                    </ref> à se placer au milieu de
+                  </choice> le <rs ref="#p.138">Roi de Naples</rs></ref> à se placer au milieu de
                leurs délibérations et à y concourir par tous les moyens que pourra lui inspirer Sa
-               sollicitude pour le bonheur de ses sujets et pour le repos de Ses Etats. <rs ref="#p.16 #p.18 #p.17">Les Souverains</rs> se trouveraient heureux de préparer
-               ainsi à <rs ref="#p.138">
-                        <choice>
+               sollicitude pour le bonheur de ses sujets et pour le repos de Ses Etats. <rs
+                  ref="#p.16 #p.18 #p.17">Les Souverains</rs> se trouveraient heureux de préparer
+               ainsi à <rs ref="#p.138"><choice>
                      <abbr>S. M.</abbr>
                      <expan>Sa Majesté</expan>
-                  </choice>
-                    </rs> un titre de plus à l’amour et à la vénération de ses peuples, et ce
+                  </choice></rs> un titre de plus à l’amour et à la vénération de ses peuples, et ce
                serait assurément le<pb n="15v"/> plus grand bien que le <rs ref="#p.138">Roi</rs>
                leur aurait jamais fait que celui de les éclairer sur les dangers qui les menacent et
                sur les desseins de ceux qui, sans posséder aucun moyen de les en préserver, n’ont
@@ -308,15 +282,11 @@
                Etats un ordre de choses portant en lui-même les garanties de sa stabilité, conforme
                aux véritables intérêts de ses peuples et propre à rassurer les Etats voisins sur
                leur sécurité et leur tranquillité future.</p>
-            <p>
-                    <choice>
-                  <abbr>M<hi rendition="#su">r</hi>
-                        </abbr>
+            <p><choice>
+                  <abbr>M<hi rendition="#su">r</hi></abbr>
                   <expan>Monsieur</expan>
-               </choice> le <persName ref="#p.8">
-                        <roleName>Prince</roleName>
-                  <surname>de Metternich</surname>
-                    </persName> a terminé<pb n="16r"/> cet exposé
+               </choice> le <persName ref="#p.8"><roleName>Prince</roleName>
+                  <surname>de Metternich</surname></persName> a terminé<pb n="16r"/> cet exposé
                franc et sincère des dispositions des <rs ref="#p.16 #p.18 #p.17">Souverains
                   alliés</rs> en déclarant en leur nom que si, pour combler les malheurs du
                   <country>Royaume des Deux-Siciles</country>, cette dernière tentative était
@@ -331,42 +301,31 @@
                détermination invariable de faire cesser l’état des choses que les événemens du mois
                de Juillet dernier ont provoqué dans le <country>Royaume des
                Deux-Siciles</country>.</p>
-            <p>
-                    <choice>
-                  <abbr>M<hi rendition="#su">r</hi>
-                        </abbr>
+            <p><choice>
+                  <abbr>M<hi rendition="#su">r</hi></abbr>
                   <expan>Monsieur</expan>
-               </choice> le <persName ref="#p.140">
-                        <roleName>Prince</roleName>
-                  <surname>de Ruffo</surname>
-                    </persName> a été invité à rendre compte au <rs ref="#p.138">Roi</rs>, son Maître, des déclarations qui viennent de lui être
-               faites, et de prier <rs ref="#p.138">
-                        <choice>
+               </choice> le <persName ref="#p.140"><roleName>Prince</roleName>
+                  <surname>de Ruffo</surname></persName> a été invité à rendre compte au <rs
+                  ref="#p.138">Roi</rs>, son Maître, des déclarations qui viennent de lui être
+               faites, et de prier <rs ref="#p.138"><choice>
                      <abbr>S. M.</abbr>
                      <expan>Sa Majesté</expan>
-                  </choice>
-                    </rs> de vouloir bien informer les Cabinets alliés des mesures qu’Elle
+                  </choice></rs> de vouloir bien informer les Cabinets alliés des mesures qu’Elle
                jugera convenable de prendre en conséquence de ces déclarations.</p>
-            <p rendition="#r">
-                    <add hand="#G">Lu et Certifié</add>
-                </p>
-            <p rendition="#r">
-                    <add hand="#G">à la conférence du <date when="1821-01-18">18</date>
-                    </add>
-                </p>
-            <signed rendition="#r">
-                    <persName ref="#p.5">
-                        <surname>Gentz</surname>
-                    </persName>
-                </signed>
+            <p rendition="#r"><add hand="#G">Lu et Certifié</add></p>
+            <p rendition="#r"><add hand="#G">à la conférence du <date when="1821-01-18"
+                  >18</date></add></p>
+            <signed rendition="#r"><persName ref="#p.5"><surname>Gentz</surname></persName></signed>
          </div>
       </body>
       <back>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/listplace.xml" xpointer="listPlace"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/listperson.xml" xpointer="listPerson"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/listwit.xml" xpointer="listWit"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/listorg.xml" xpointer="listOrg"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/listwork.xml" xpointer="listTreaties"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listPlace.xml" xpointer="listPlace"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listPerson.xml"
+            xpointer="listPerson"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listWit.xml" xpointer="listWit"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listOrg.xml" xpointer="listOrg"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listTreaties.xml"
+            xpointer="listTreaties"/>
       </back>
    </text>
 </TEI>

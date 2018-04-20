@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -11,13 +12,10 @@
                <persName>
                   <surname>Schneider</surname>
                   <forename>Karin</forename>
-               </persName>
-                </editor>
+               </persName></editor>
          </titleStmt>
          <editionStmt>
-            <edition>
-                    <date>2015-05-08</date>
-                </edition>
+            <edition><date>2015-05-08</date></edition>
          </editionStmt>
          <publicationStmt>
             <publisher>Österreichische Akademie der Wissenschaften, Institut für Neuzeit- und
@@ -45,8 +43,7 @@
                <physDesc>
 
                   <p>Eigenhändiges Protokoll von <persName ref="#p.5">
-                        <surname>Gentz</surname>
-                            </persName>.</p>
+                        <surname>Gentz</surname></persName>.</p>
                   <handDesc>
                      <handNote xml:id="G">Friedrich Gentz</handNote>
                      <handNote xml:id="W">Nikolaus Wacken</handNote>
@@ -54,10 +51,8 @@
                   </handDesc>
                </physDesc>
                <history>
-                  <origin>
-                            <placeName ref="#loc.1">Aachen</placeName>
-                     <date when="1818-11-09">9. November 1818</date>
-                        </origin>
+                  <origin><placeName ref="#loc.1">Aachen</placeName>
+                     <date when="1818-11-09">9. November 1818</date></origin>
                </history>
             </msDesc>
          </sourceDesc>
@@ -79,7 +74,8 @@
       <profileDesc>
          <abstract>
             <p>Die <rs ref="#p.8 #p.9 #p.10 #p.11 #p.12 #p.13 #p.14 #p.1">Vertreter der Mächte</rs>
-               beraten über die Gesuche der <rs ref="#p.76">Herzöge von Oldenburg</rs> und <rs ref="#p.77">Sachsen-Coburg</rs> sowie des <rs ref="#p.78">Landgrafen von
+               beraten über die Gesuche der <rs ref="#p.76">Herzöge von Oldenburg</rs> und <rs
+                  ref="#p.77">Sachsen-Coburg</rs> sowie des <rs ref="#p.78">Landgrafen von
                   Hessen-Homburg</rs> um territoriale Arrondierung im Tausch mit
                   <country>Preußen</country>; Beschluss, diese Angelegenheit nicht weiter zu
                verfolgen.</p>
@@ -121,90 +117,66 @@
       <body>
          <div hand="#G" decls="#m.1">
             <pb n="2r"/>
-            <p>
-                    <add hand="#W" place="top">
-                        <choice>
+            <p><add hand="#W" place="top"><choice>
                      <abbr>N.</abbr>
                      <expan>Numéro</expan>
-                  </choice> 27.</add>
-                </p>
-            <p>
-                    <placeName ref="#loc.1">Aix-la-Chapelle</placeName> le <date when="1818-11-09">9
-                  Novembre</date>
-                </p>
+                  </choice> 27.</add></p>
+            <p><placeName ref="#loc.1">Aix-la-Chapelle</placeName> le <date when="1818-11-09">9
+                  Novembre</date></p>
 
-            <p>
-                    <add hand="#W" place="margin">Entre les cinq Cabinets</add>
-                </p>
-            <p>
-                    <choice>
+            <p><add hand="#W" place="margin">Entre les cinq Cabinets</add></p>
+            <p><choice>
                   <abbr>Mr.</abbr>
                   <expan>Monsieur</expan>
-               </choice> le <persName ref="#p.11">
-                        <forename>Prince</forename>
-                  <surname>de Hardenberg</surname>
-                    </persName> a remis à la Conférence <rs xml:id="n.1"> les observations ci-annexées </rs>
-                    <note type="editorial" target="#n.1">Anlage liegt nicht ein.</note> sur la demande des <rs ref="#p.76">Ducs d’Oldenbourg</rs> et <rs ref="#p.77">de Saxe-Cobourg</rs>, ainsi que du <rs ref="#p.78">Landgrave de Hesse-Hombourg</rs>, d’obtenir en échange des possessions
-               qui leur ont été assignées par l’art. 49 du <rs ref="#t.12">Recès de <placeName ref="#loc.7">Vienne</placeName>
-                    </rs> d’autres acquisitions territoriales,
+               </choice> le <persName ref="#p.11"><forename>Prince</forename>
+                  <surname>de Hardenberg</surname></persName> a remis à la Conférence <rs
+                  xml:id="n.1"> les observations ci-annexées </rs><note type="editorial"
+                  target="#n.1">Anlage liegt nicht ein.</note> sur la demande des <rs ref="#p.76"
+                  >Ducs d’Oldenbourg</rs> et <rs ref="#p.77">de Saxe-Cobourg</rs>, ainsi que du <rs
+                  ref="#p.78">Landgrave de Hesse-Hombourg</rs> d’obtenir, en échange des possessions
+               qui leur ont été assignées par l’art. 49 du <rs ref="#t.12">Recès de <placeName
+                     ref="#loc.7">Vienne</placeName></rs>, d’autres acquisitions territoriales,
                contigües à leurs anciens Etats.</p>
             <p>Les raisons qui ont empêché le Gouvernement Prussien de se prêter aux échanges
                territoriaux réclamés par <rs ref="#p.76 #p.77 #p.78">les dits Princes</rs> ayant été
                pleinement développées dans le Mémoire de <choice>
                   <abbr>Mr.</abbr>
                   <expan>Monsieur</expan>
-               </choice> le <persName ref="#p.11">
-                        <roleName>Prince</roleName>
-                  <surname>de Hardenberg</surname>
-                    </persName>, <choice>
+               </choice> le <persName ref="#p.11"><roleName>Prince</roleName>
+                  <surname>de Hardenberg</surname></persName>, <choice>
                   <abbr>Mrs.</abbr>
                   <expan>Messieurs</expan>
                </choice> les Plénipotentiaires ont jugé que les bons offices, auxquels les Quatre
                puissances étoient tenues d’après le texte de l’article 50 du <rs ref="#t.12">Recès
-                  de <placeName ref="#loc.7">Vienne</placeName>
-                    </rs>, et qu’Elles ont fait valoir
+                  de <placeName ref="#loc.7">Vienne</placeName></rs>, et qu’Elles ont fait valoir
                avec tout l’intérêt qu’Elles portent aux Princes concernés dans ces arrangemens, se
                trouvent définitivement épuisés, et que pour ce qui regarde l’intervention des
-               puissances cette affaire doit être considérée comme terminée ; sauf aux <rs ref="#p.76 #p.77 #p.78">Princes Réclamans</rs> à s’adresser<pb n="2v"/> soit à la
+               puissances cette affaire doit être considérée comme terminée ; sauf aux <rs
+                  ref="#p.76 #p.77 #p.78">Princes Réclamans</rs> à s’adresser<pb n="2v"/> soit à la
                   <country>Prusse</country>, soit à d’autres puissances, a portée de traiter avec
                Eux de ces objets pour obtenir de gré à gré, et par d’autres voies que celles d’un
                échange territorial, les arrangemens qui leur paroîtront convenables.</p>
             <signed>
                <list>
-                  <item>
-                            <persName ref="#p.8">Metternich</persName>
-                        </item>
-                  <item>
-                            <persName ref="#p.1">Richelieus</persName>
-                        </item>
-                  <item>
-                            <persName ref="#p.9">Castlereagh</persName>
-                        </item>
-                  <item>
-                            <persName ref="#p.10">Wellington</persName>
-                        </item>
-                  <item>
-                            <persName ref="#p.11">Hardenberg</persName>
-                        </item>
-                  <item>
-                            <persName ref="#p.12">Bernstorff</persName>
-                        </item>
-                  <item>
-                            <persName ref="#p.13">Nesselrode</persName>
-                        </item>
-                  <item>
-                            <persName ref="#p.14">Capodistrias</persName>
-                        </item>
-               </list>
-                </signed>
+                  <item><persName ref="#p.8">Metternich</persName></item>
+                  <item><persName ref="#p.1">Richelieus</persName></item>
+                  <item><persName ref="#p.9">Castlereagh</persName></item>
+                  <item><persName ref="#p.10">Wellington</persName></item>
+                  <item><persName ref="#p.11">Hardenberg</persName></item>
+                  <item><persName ref="#p.12">Bernstorff</persName></item>
+                  <item><persName ref="#p.13">Nesselrode</persName></item>
+                  <item><persName ref="#p.14">Capodistrias</persName></item>
+               </list></signed>
          </div>
       </body>
       <back>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/listplace.xml" xpointer="listPlace"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/listperson.xml" xpointer="listPerson"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/listwit.xml" xpointer="listWit"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/listorg.xml" xpointer="listOrg"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/listwork.xml" xpointer="listTreaties"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listPlace.xml" xpointer="listPlace"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listPerson.xml"
+            xpointer="listPerson"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listWit.xml" xpointer="listWit"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listOrg.xml" xpointer="listOrg"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listTreaties.xml"
+            xpointer="listTreaties"/>
       </back>
    </text>
 </TEI>

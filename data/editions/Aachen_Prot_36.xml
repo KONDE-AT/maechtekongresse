@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -11,13 +12,10 @@
                <persName>
                   <surname>Schneider</surname>
                   <forename>Karin</forename>
-               </persName>
-                </editor>
+               </persName></editor>
          </titleStmt>
          <editionStmt>
-            <edition>
-                    <date>2015-05-08</date>
-                </edition>
+            <edition><date>2015-05-08</date></edition>
          </editionStmt>
          <publicationStmt>
             <publisher>Österreichische Akademie der Wissenschaften, Institut für Neuzeit- und
@@ -45,32 +43,25 @@
                <physDesc>
 
                   <p>Eigenhändiges Protokoll von <persName ref="#p.5">
-                        <surname>Gentz</surname>
-                            </persName>.</p>
+                        <surname>Gentz</surname></persName>.</p>
                   <p>Das Protokoll wurde ursprünglich als Nr. 36 gezählt, dann aber mit der
                      Bezeichnung "Protocole secret" abgeabgelegt. Es befindet sich in einem Umschlag
-                     mit der Aufschrift von der Hand <persName ref="#p.6">
-                                <surname>Wackens</surname>
-                            </persName>: "Protocolle qu’il a été convenu de
+                     mit der Aufschrift von der Hand <persName ref="#p.6"
+                        ><surname>Wackens</surname></persName>: "Protocolle qu’il a été convenu de
                      tenir secret et qui, par ce motif, ne prend pas de Numéro dans la série des
-                     Protocoles des Conférences d’<placeName ref="#loc.1">Aix-la-Chapelle</placeName>." Darüber mit Bleistift der Vermerk: "<choice>
-                        <abbr>Conc<hi rendition="#su">t</hi>
-                                </abbr>
+                     Protocoles des Conférences d’<placeName ref="#loc.1"
+                        >Aix-la-Chapelle</placeName>." Darüber mit Bleistift der Vermerk: "<choice>
+                        <abbr>Conc<hi rendition="#su">t</hi></abbr>
                         <expan>Concernant</expan>
-                     </choice> l’établissement de la <persName ref="#p.128">
-                                <roleName>Reine</roleName>
+                     </choice> l’établissement de la <persName ref="#p.128"
+                           ><roleName>Reine</roleName>
                         <forename>Fridérique</forename>
-                        <roleName>de Suède</roleName>
-                            </persName> et de son fils le <persName ref="#p.129">
-                                <roleName>
-                                    <choice>
-                              <abbr>P<hi rendition="#su">ce</hi>
-                                        </abbr>
+                        <roleName>de Suède</roleName></persName> et de son fils le <persName
+                        ref="#p.129"><roleName><choice>
+                              <abbr>P<hi rendition="#su">ce</hi></abbr>
                               <expan>Prince</expan>
-                           </choice>
-                                </roleName>
-                        <forename>Gustave</forename>
-                            </persName>".</p>
+                           </choice></roleName>
+                        <forename>Gustave</forename></persName>".</p>
                   <handDesc>
                      <handNote xml:id="G">Friedrich Gentz</handNote>
                      <handNote xml:id="W">Nikolaus Wacken</handNote>
@@ -81,10 +72,8 @@
                   </handDesc>
                </physDesc>
                <history>
-                  <origin>
-                            <placeName ref="#loc.1">Aachen</placeName>
-                     <date when="1818-11-18">18. November 1818</date>
-                        </origin>
+                  <origin><placeName ref="#loc.1">Aachen</placeName>
+                     <date when="1818-11-18">18. November 1818</date></origin>
                </history>
             </msDesc>
 
@@ -131,14 +120,10 @@
       <profileDesc>
          <abstract>
             <p>Die <rs ref="p.8 #p.1 #p.9 #p.11 #p.12 #p.13 #p.14">Vertreter der Mächte</rs>
-               beschließen, den Kindern der ehemaligen <persName ref="128">
-                        <persName>Königin von
-                     Schweden</persName>
-                  <forename>Friederike</forename>
-                    </persName>, insbesondere aber ihrem Sohn <persName ref="#p.129">
-                        <forename>Gustav</forename>
-                    </persName>, über den Deutschen Bundestag
-               eine Entschädigung zukommen zu lassen.</p>
+               beschließen, den Kindern der ehemaligen <rs ref="#p.128">Königin von Schweden</rs>,
+               insbesondere aber ihrem Sohn <persName ref="#p.129"
+                  ><forename>Gustav</forename></persName>, eine Entschädigung zukommen zu
+               lassen.</p>
          </abstract>
          <particDesc>
             <listPerson>
@@ -174,51 +159,35 @@
       <body>
          <div hand="#G" decls="#m.1">
             <pb n="178r"/>
-            <p>
-                    <add place="top" hand="#W">
-                        <del rendition="#s">Protocole <choice>
-                        <abbr>N<hi rendition="#su">o</hi>
-                                </abbr>
+            <p><add place="top" hand="#W"><del rendition="#s">Protocole <choice>
+                        <abbr>N<hi rendition="#su">o</hi></abbr>
                         <expan>Numéro</expan>
-                     </choice> 36</del>
-                    </add>
-                </p>
-            <p>
-                    <add place="top">
-                        <hi rendition="#u">Secret</hi>
-                    </add>
-                </p>
-            <p>
-                    <placeName ref="#loc.1">Aix-la-Chapelle</placeName> le <date when="1818-11-18">18
+                     </choice> 36</del></add></p>
+            <p><add place="top"><hi rendition="#u">Secret</hi></add></p>
+            <p><placeName ref="#loc.1">Aix-la-Chapelle</placeName> le <date when="1818-11-18">18
                   Novembre</date>.</p>
-            <p>
-                    <add place="margin" hand="#W">Entre les Cinq Cabinets</add>
-                </p>
-            <p>
-                    <choice>
+            <p><add place="margin" hand="#W">Entre les Cinq Cabinets</add></p>
+            <p><choice>
                   <abbr>Mr.</abbr>
                   <expan>Monsieur</expan>
-               </choice> le <persName ref="#p.14">
-                        <roleName>Comte</roleName>
-                  <surname>de Capodistrias</surname>
-                    </persName> a remis à la conférence le <rs xml:id="n.1">projet de Protocole ci-joint</rs>
-                    <note type="editorial" target="#n.1">Vgl. Anlage</note> relatif à un établissement, soit foncier, soit pécuniaire,
-               sollicité pour les enfans de <choice>
+               </choice> le <persName ref="#p.14"><roleName>Comte</roleName>
+                  <surname>de Capodistrias</surname></persName> a remis à la conférence le <ref
+                  decls="#m.2">projet de Protocole ci-joint</ref> relatif à un établissement, soit
+               foncier, soit pécuniaire, sollicité pour les enfans de <choice>
                   <abbr>S. M.</abbr>
                   <expan>Sa Majesté</expan>
-               </choice> la <persName ref="#p.128">
-                        <roleName>Reine</roleName>
-                  <forename>Frédérique</forename>
-                    </persName>, et notamment pour le <persName ref="#p.129">
-                        <roleName>Prince</roleName>
-                  <forename>Gustave</forename>
-                    </persName>, Son fils. Et <choice>
+               </choice> la <persName ref="#p.128"><roleName>Reine</roleName>
+                  <forename>Frédérique</forename></persName>, et notamment pour le <persName
+                  ref="#p.129"><roleName>Prince</roleName>
+                  <forename>Gustave</forename></persName>, Son fils. Et <choice>
                   <abbr>Mrs.</abbr>
                   <expan>Messieurs</expan>
                </choice> les <rs ref="#p.8 #p.1 #p.9 #p.11 #p.12 #p.13 #p.14">Plénipotentiaires</rs>
                ayant unanimement admis le principe et les motifs sur lesquels doit porter cette
                mesure de générosité Royale, sont convenus d’envoyer copie du présent Protocole et de
-               la pièce y annexée sous le sceau du secret à <placeName ref="#loc.25">Francfort</placeName> pour y être déposé entre les mains du <rs ref="#p.39">Ministre de <choice>
+               la pièce y annexée sous le sceau du secret à <placeName ref="#loc.25"
+                  >Francfort</placeName> pour y être déposé entre les mains du <rs ref="#p.39"
+                  >Ministre de <choice>
                      <abbr>S. M.</abbr>
                      <expan>Sa Majesté</expan>
                   </choice> l’<rs ref="#p.17">Empereur de Russie</rs> près la Diète Germanique</rs>,
@@ -227,117 +196,84 @@
                   <placeName ref="#loc.25">Francfort</placeName> dans la terme de deux mois.</p>
             <signed>
                <list>
-                  <item>
-                            <persName ref="#p.8">Metternich</persName>
-                        </item>
-                  <item>
-                            <persName ref="#p.9">Castlereagh</persName>
-                        </item>
-                  <item>
-                            <persName ref="#p.11">Hardenberg</persName>
-                        </item>
-                  <item>
-                            <persName ref="#p.12">Bernstorff</persName>
-                        </item>
-                  <item>
-                            <persName ref="#p.13">Nesselrode</persName>
-                        </item>
-                  <item>
-                            <persName ref="#p.14">Capodistrias</persName>
-                        </item>
-               </list>
-                </signed>
+                  <item><persName ref="#p.8">Metternich</persName></item>
+                  <item><persName ref="#p.9">Castlereagh</persName></item>
+                  <item><persName ref="#p.11">Hardenberg</persName></item>
+                  <item><persName ref="#p.12">Bernstorff</persName></item>
+                  <item><persName ref="#p.13">Nesselrode</persName></item>
+                  <item><persName ref="#p.14">Capodistrias</persName></item>
+               </list></signed>
          </div>
 
          <div hand="#A" decls="#m.2">
             <pb n="179r"/>
-            <p>
-                    <title>Projet de Protocole</title>
-                </p>
-            <p>
-                    <placeName ref="#loc.1">Aix-la-Chapelle</placeName> le <supplied>...</supplied>
+            <p><title>Projet de Protocole</title></p>
+            <p><placeName ref="#loc.1">Aix-la-Chapelle</placeName> le <supplied>...</supplied>
                Octobre/Novembre 1818</p>
             <p>Conformément à la teneur des lettres adressées aux principaux Souverains de l’Europe
                par <choice>
                   <abbr>S. M.</abbr>
                   <expan>Sa Majesté</expan>
-               </choice> la <persName ref="#p.128">
-                        <roleName>Reine</roleName>
-                  <forename>Frédérique</forename>
-                    </persName> dans la vue de réclamer en faveur de
+               </choice> la <persName ref="#p.128"><roleName>Reine</roleName>
+                  <forename>Frédérique</forename></persName> dans la vue de réclamer en faveur de
                Ses enfans les dispositions généreuses de Leurs Majestés Impériales et Royales, les
                   <rs ref="#p.8 #p.1 #p.9 #p.11 #p.12 #p.13 #p.14">Plénipotentiaires d’Autriche, de
                   France, de la Grande-Bretagne, de Prusse et de Russie</rs> se sont réunis en
-               Conférence à l’effet d’aviser aux moyens de remplir les intentions de <rs ref="#p.16 #p.15 #p.19 #p.18 #p.17">leurs Augustes Maîtres</rs> quant à
+               Conférence à l’effet d’aviser aux moyens de remplir les intentions de <rs
+                  ref="#p.16 #p.15 #p.19 #p.18 #p.17">leurs Augustes Maîtres</rs> quant à
                l’établissement, soit foncier, soit pécuniaire, sollicité pour les enfans de <choice>
                   <abbr>S. M.</abbr>
                   <expan>Sa Majesté</expan>
-               </choice> la <persName ref="#p.128">
-                        <roleName>Reine</roleName>
-                  <forename>Frédérique</forename>
-                    </persName>, et notamment pour le <persName ref="#p.129">
-                        <roleName>Prince</roleName>
-                  <forename>Gustave</forename>
-                    </persName>, son fils.</p>
+               </choice> la <persName ref="#p.128"><roleName>Reine</roleName>
+                  <forename>Frédérique</forename></persName>, et notamment pour le <persName
+                  ref="#p.129"><roleName>Prince</roleName>
+                  <forename>Gustave</forename></persName>, son fils.</p>
             <p>Après avoir examiné et reconnu la convenance d’une mesure de libéralité à l’avantage
-               de la <rs ref="#p.128">Reine</rs> dans la<pb n="179v"/> personne du <persName ref="#p.129">
-                        <roleName>Prince</roleName>
-                  <forename>Gustave</forename>
-                    </persName>, <rs ref="#p.8 #p.1 #p.9 #p.11 #p.12 #p.13 #p.14">les Ministres et Plénipotentiaires
-                  respectifs</rs> ont, en vertu d’autorisations expresses,
+               de la <rs ref="#p.128">Reine</rs> dans la<pb n="179v"/> personne du <persName
+                  ref="#p.129"><roleName>Prince</roleName>
+                  <forename>Gustave</forename></persName>, <rs
+                  ref="#p.8 #p.1 #p.9 #p.11 #p.12 #p.13 #p.14">les Ministres et Plénipotentiaires
+               </rs>respectifs ont, en vertu d’autorisations expresses,
                   arrêté<supplied>es</supplied> les dispositions retracées ci-après :</p>
             <p>a. Il sera formé <hi rendition="#u">un fonds</hi> de dotation, composé des
                rétributions que voudront accorder pour cet objet les Puissances signataires du
                présent protocole.</p>
             <p>b. La quotité respective de ces rétributions est spécifiée ainsi qu’il suit :</p>
-            <p>
-                    <choice>
+            <p><choice>
                   <abbr>S. M.</abbr>
                   <expan>Sa Majesté</expan>
-               </choice> l’<rs ref="#p.16">Empereur d’Autriche</rs> ...<supplied/>
-                </p>
-            <p>
-                    <choice>
+               </choice> l’<rs ref="#p.16">Empereur d’Autriche</rs> ...<supplied/></p>
+            <p><choice>
                   <abbr>S. M.</abbr>
                   <expan>Sa Majesté</expan>
                </choice> le <rs ref="#p.15">Roi de France</rs>
-               <supplied>...</supplied>
-                </p>
-            <p>
-                    <rs ref="#p.19">
-                        <choice>
-                     <abbr>S. M.</abbr>
-                     <expan>Sa Majesté</expan>
-                  </choice> Britannique</rs>
-               <supplied>...</supplied>
-                </p>
-            <p>
-                    <choice>
+               <supplied>...</supplied></p>
+            <p><choice>
+                  <abbr>S. M.</abbr>
+                  <expan>Sa Majesté</expan>
+               </choice>
+               <rs ref="#p.19">Britannique</rs>
+               <supplied>...</supplied></p>
+            <p><choice>
                   <abbr>S. M.</abbr>
                   <expan>Sa Majesté</expan>
                </choice> le <rs ref="#p.18">Roi de Prusse</rs>
-               <supplied>...</supplied>
-                </p>
-            <p>
-                    <choice>
+               <supplied>...</supplied></p>
+            <p><choice>
                   <abbr>S M.</abbr>
                   <expan>Sa Majesté</expan>
                </choice> l’<rs ref="#p.17">Empereur de Russie</rs>
-               <supplied>...</supplied>
-                </p>
+               <supplied>...</supplied></p>
             <pb n="180r"/>
             <p>c. Ces sommes, une fois assignées et formant un total de <supplied>...</supplied>
                millions, seront employées à faire, soit en Allemagne, soit ailleurs, l’acquisition
-               d’une propriété en fonds de terre dont le <persName ref="#p.129">
-                        <roleName>Prince</roleName>
-                  <forename>Gustave</forename>
-                    </persName>, fils de <choice>
+               d’une propriété en fonds de terre dont le <persName ref="#p.129"
+                     ><roleName>Prince</roleName>
+                  <forename>Gustave</forename></persName>, fils de <choice>
                   <abbr>S. M.</abbr>
                   <expan>Sa Majesté</expan>
-               </choice> la <persName ref="#p.128">
-                        <roleName>Reine</roleName>
-                  <forename>Frédérique</forename>
-                    </persName>, sera mis en possession dans l’espace
+               </choice> la <persName ref="#p.128"><roleName>Reine</roleName>
+                  <forename>Frédérique</forename></persName>, sera mis en possession dans l’espace
                de deux ans au plus tard, c’est-à-dire pour l’époque de sa majorité, avec le droit de
                porter le titre de la dite possession et celui de transmettre cette propriété à ses
                héritiers et descendans selon les loix du pays où le fonds de terre en question se
@@ -346,34 +282,31 @@
                signataires du présent acte feront jouir <choice>
                   <abbr>S. M.</abbr>
                   <expan>Sa Majesté</expan>
-               </choice> la <persName ref="#p.128">
-                        <roleName>Reine</roleName>
-                  <forename>Fréderique</forename>
-                    </persName> et <rs ref="#p.129">son fils</rs> du
+               </choice> la <persName ref="#p.128"><roleName>Reine</roleName>
+                  <forename>Fréderique</forename></persName> et <rs ref="#p.129">son fils</rs> du
                revenu des fonds<pb n="180v"/> ci-dessus spécifiés au taux de 4 pour cent.</p>
             <p>e. Le soin d’effectuer l’acquisition du fonds de terre, d’en acquitter la valeur
                d’après les ordres des Gouvernemens contribuans, et de mettre au temps fixé le
-                  <persName ref="#p.129">
-                        <roleName>Prince</roleName>
-                  <forename>Gustave</forename>
-                    </persName> en possession de la dotation qui lui est
+                  <persName ref="#p.129"><roleName>Prince</roleName>
+                  <forename>Gustave</forename></persName> en possession de la dotation qui lui est
                assurée ; toutes ces mesures d’exécution réclamées par la teneur du présent
-               protocole, sont déférées et commises aux <rs ref="#p.25 #p.26 #p.114 #p.115 #p.39">Ministres des Cours signataires respectivement accrédités à <placeName ref="#loc.25">Francfort <choice>
+               protocole, sont déférées et commises aux <rs ref="#p.25 #p.26 #p.114 #p.115 #p.39"
+                  >Ministres des Cours signataires respectivement accrédités à <placeName
+                     ref="#loc.25">Francfort <choice>
                         <abbr>s/M</abbr>
                         <expan>sur Main</expan>
-                     </choice>
-                        </placeName>
-                    </rs>.</p>
-            <p>Fait et signé à <supplied>...</supplied>
-                </p>
+                     </choice></placeName></rs>.</p>
+            <p>Fait et signé à <supplied>...</supplied></p>
          </div>
       </body>
       <back>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/listplace.xml" xpointer="listPlace"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/listperson.xml" xpointer="listPerson"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/listwit.xml" xpointer="listWit"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/listorg.xml" xpointer="listOrg"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/listwork.xml" xpointer="listTreaties"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listPlace.xml" xpointer="listPlace"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listPerson.xml"
+            xpointer="listPerson"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listWit.xml" xpointer="listWit"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listOrg.xml" xpointer="listOrg"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listTreaties.xml"
+            xpointer="listTreaties"/>
       </back>
    </text>
 </TEI>

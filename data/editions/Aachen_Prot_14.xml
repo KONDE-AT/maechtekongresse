@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -11,13 +12,10 @@
                <persName>
                   <surname>Schneider</surname>
                   <forename>Karin</forename>
-               </persName>
-                </editor>
+               </persName></editor>
          </titleStmt>
          <editionStmt>
-            <edition>
-                    <date>2015-05-08</date>
-                </edition>
+            <edition><date>2015-05-08</date></edition>
          </editionStmt>
          <publicationStmt>
             <publisher>Österreichische Akademie der Wissenschaften, Institut für Neuzeit- und
@@ -45,8 +43,7 @@
                <physDesc>
 
                   <p> Eigenhändiges Protokoll von <persName ref="#p.5">
-                        <surname>Gentz</surname>
-                            </persName>. </p>
+                        <surname>Gentz</surname></persName>. </p>
                   <handDesc>
                      <handNote xml:id="G">Friedrich Gentz</handNote>
                      <handNote xml:id="W">Nikolaus Wacken</handNote>
@@ -54,10 +51,8 @@
                   </handDesc>
                </physDesc>
                <history>
-                  <origin>
-                            <placeName ref="#loc.1">Aachen</placeName>
-                     <date when="1818-10-17">17. Oktober 1818</date>
-                        </origin>
+                  <origin><placeName ref="#loc.1">Aachen</placeName>
+                     <date when="1818-10-17">17. Oktober 1818</date></origin>
                </history>
             </msDesc>
 
@@ -82,8 +77,11 @@
                behandeln das Gesuch des <rs ref="#p.22">Großherzogs von Baden</rs> betreffend die
                Beschleunigung der Verhandlungen über offene territorialen Fragen. Diskussion und
                Genehmigung von Noten an den Bevollmächtigten des <rs ref="#p.30">Königs von
-                  Spanien</rs> in <placeName ref="#loc.2">Paris</placeName> und an die <rs ref="#p.31 #p.32 #p.33 #p.34 #p.35">Botschafter der Mächte in <placeName ref="#loc.24">Madrid</placeName>
-                    </rs> betreffend <placeName ref="#loc.5">Montevideo</placeName>. Verhandlung über die zukünftige Auslegung der <rs ref="#t.1 #t.6">Verträge von 1815</rs> unter Ausschluss des französischen
+                  Spanien</rs> in <placeName ref="#loc.2">Paris</placeName> und an die <rs
+                  ref="#p.31 #p.32 #p.33 #p.34 #p.35">Botschafter der Mächte in <placeName
+                     ref="#loc.24">Madrid</placeName></rs> betreffend <placeName ref="#loc.5"
+                  >Montevideo</placeName>. Verhandlung über die zukünftige Auslegung der <rs
+                  ref="#t.1 #t.6">Verträge von 1815</rs> unter Ausschluss des französischen
                Vertreters <persName ref="#p.1">Richelieu</persName>.</p>
          </abstract>
          <particDesc>
@@ -123,25 +121,19 @@
       <body>
          <div hand="#G" decls="#m.1">
             <pb n="55r"/>
-            <p>
-                    <add hand="#W" place="top">Protocole n. 14<del rendition="#s">
-                            <hi rendition="#su">2</hi>
-                        </del>.</add>
-                </p>
+            <p><add hand="#W" place="top">Protocole n. 14<del rendition="#s"><hi rendition="#su"
+                        >2</hi></del>.</add></p>
             <p>À <placeName ref="#loc.1">Aix-la-Chapelle</placeName> Le <date when="1818-10-17">17
-                  Octobre 1818</date>
-                </p>
-            <p>
-                    <add place="margin">(Entre les <subst>
+                  Octobre 1818</date></p>
+            <p><add place="margin">(Entre les <subst>
                      <del rendition="#s">5</del>
-                     <del rendition="#s">
-                                <add place="above">4</add>
-                            </del>
+                     <del rendition="#s"><add place="above">4</add></del>
                      <add place="below">5</add>
-                  </subst> Cours)</add>
-                </p>
+                  </subst> Cours)</add></p>
             <p>Le <rs ref="#p.22">Grand-Duc de Bade</rs> s’étant adressé aux Quatre Cours Alliées
-               pour les engager à finir par les moyens les plus directs et les plus efficaces <rs xml:id="n.1">l’arrangement territorial qui concerne Ses Etats</rs>, <note type="editorial" target="#n.1">Erbe, Erschütterung, S. 172–173; Ullmann, Baden
+               pour les engager à finir par les moyens les plus directs et les plus efficaces <rs
+                  xml:id="n.1">l’arrangement territorial qui concerne Ses Etats</rs>, <note
+                  type="editorial" target="#n.1">Erbe, Erschütterung, S. 172–173; Ullmann, Baden
                   1800 bis 1830. In: Handbuch der Baden-Württembergischen Geschichte, Bd. 3, S.
                   37–38; Huber, Deutsche Verfassungsgeschichte, Bd. 1, S. 324–328; Sahrmann, Pfalz
                   oder Salzburg, S. 84–96.</note> et <choice>
@@ -151,41 +143,39 @@
                s’étant chargés de rédiger les réponses tant officielles que confidentielles à
                transmettre à la Cour de Bade, on a fait aujourd’hui lecture de ces pièces par
                lesquelles le <rs ref="#p.22">Grand-Duc de Bade</rs> est invité à faire connoître à
-               la <rs xml:id="n.2">conférence de <placeName ref="#loc.25">Francfort</placeName>
-                    </rs>
-                    <note type="editorial" target="#n.2">Von den alliierten
+               la <rs xml:id="n.2">conférence de <placeName ref="#loc.25"
+                  >Francfort</placeName></rs><note type="editorial" target="#n.2">Von den alliierten
                   Mächten eingesetzte Kommission zur Klärung noch offener territorialer Fragen im
-                  Deutschen Bund. Mitglieder: <persName ref="#p.36">
-                            <surname>Wessenberg</surname>
-                        </persName>, <persName ref="#p.37">
-                            <roleName>Clancarty</roleName>
-                        </persName>, <persName ref="#p.38">
-                            <surname>Humboldt</surname>
-                        </persName>, <persName ref="#p.39">
-                            <surname>Anstett</surname>
-                        </persName>. Erarbeitet den Frankfurter
+                  Deutschen Bund. Mitglieder: <persName ref="#p.36"
+                     ><surname>Wessenberg</surname></persName>, <persName ref="#p.37"
+                        ><roleName>Clancarty</roleName></persName>, <persName ref="#p.38"
+                        ><surname>Humboldt</surname></persName>, <persName ref="#p.39"
+                        ><surname>Anstett</surname></persName>. Erarbeitet den Frankfurter
                   Territorialrezess vom 20. Juli 1819; vgl. Huber, Deutsche Verfassungsgeschichte,
                   Bd. 1, S. 579–582.</note> le sacrifice additionnel qu’Il veut offrir pour
-               faciliter l’arrangement final de cette affaire, et à envoyer en même tems <rs ref="#p.26">Son Ministre</rs> à <placeName ref="#loc.1">Aix-la-Chapelle</placeName> pour concerter avec <rs ref="#p.8 #p.9 #p.10 #p.11 #p.12 #p.13 #p.14">les Ministres des Quatre Cours</rs>
-               les mesures les plus propres à diriger et à terminer les négociations de <placeName ref="#loc.25">Francfort</placeName>. <rs xml:id="n.3">Les réponses, telles
-                  qu’elles se trouvent jointes à ce Protocole</rs>,<note type="editorial" target="#n.3">Anlagen liegen nicht ein.</note> seront expédiées incessamment.</p>
-            <p>On a lu ensuite le projet de Note à remettre au Plénipotentiaire de <rs ref="#p.30">Roi d’Espagne</rs> à <placeName ref="#loc.2">Paris</placeName> par les Ministres
+               faciliter l’arrangement final de cette affaire, et à envoyer en même tems <rs
+                  ref="#p.26">Son Ministre</rs> à <placeName ref="#loc.1"
+                  >Aix-la-Chapelle</placeName> pour concerter avec <rs
+                  ref="#p.8 #p.9 #p.10 #p.11 #p.12 #p.13 #p.14">les Ministres des Quatre Cours</rs>
+               les mesures les plus propres à diriger et à terminer les négociations de <placeName
+                  ref="#loc.25">Francfort</placeName>. <rs xml:id="n.3">Les réponses, telles
+                  qu’elles se trouvent jointes à ce Protocole</rs>,<note type="editorial"
+                  target="#n.3">Anlagen liegen nicht ein.</note> seront expédiées incessamment.</p>
+            <p>On a lu ensuite le projet de Note à remettre au Plénipotentiaire de <rs ref="#p.30"
+                  >Roi d’Espagne</rs> à <placeName ref="#loc.2">Paris</placeName> par les Ministres
                des <subst>
                   <del rendition="#s">Quatre</del>
                   <add place="above">Cinq</add>
-               </subst> Cours, ainsi que le projet de lettre aux <rs ref="#p.31 #p.32 #p.33 #p.34 #p.35">Ministres de ces Cours à <placeName ref="#loc.24">Madrid</placeName>
-                    </rs>
-                    <pb n="55v"/>, pour déterminer le
-               Gouvernement de <rs ref="#p.30" xml:id="n.4">
-                        <choice>
+               </subst> Cours, ainsi que le projet de lettre aux <rs
+                  ref="#p.31 #p.32 #p.33 #p.34 #p.35">Ministres de ces Cours à <placeName
+                     ref="#loc.24">Madrid</placeName></rs>,<pb n="55v"/> pour déterminer le
+               Gouvernement de <rs ref="#p.30" xml:id="n.4"><choice>
                      <abbr>S. M.</abbr>
                      <expan>Sa Majesté</expan>
-                  </choice> Catholique</rs>
-                    <note type="editorial" target="#n.4">Ehrentitel des
+                  </choice> Catholique</rs><note type="editorial" target="#n.4">Ehrentitel des
                   spanischen Königs.</note> à accéder dans le plus court délai possible au Traité
                rédigé par <rs xml:id="n.5">les Ministres Médiateurs au sujet de la restitution de
-                  Montevideo.</rs>
-                    <note type="editorial" target="#n.5">Vgl. Pytha, Konzert der
+                  Montevideo.</rs><note type="editorial" target="#n.5">Vgl. Pytha, Konzert der
                   Mächte, bes. S. 156–160.</note>
                <rs xml:id="n.6">Les deux projets ayant été approuvés tels qu’ils se trouvent annexés
                   au Protocole</rs>,<note type="editorial" target="#n.6">Keine der beiden Noten
@@ -193,10 +183,8 @@
             <p>Après le départ de <choice>
                   <abbr>Mr</abbr>
                   <expan>Monsieur</expan>
-               </choice> le <persName ref="#p.1">
-                        <roleName>Duc</roleName>
-                  <surname>de Richelieu</surname>
-                    </persName>, <choice>
+               </choice> le <persName ref="#p.1"><roleName>Duc</roleName>
+                  <surname>de Richelieu</surname></persName>, <choice>
                   <abbr>Mrs.</abbr>
                   <expan>Monsieurs</expan>
                </choice>
@@ -206,67 +194,42 @@
                   l’année 1815</rs>.</p>
             <signed>
                <list>
-                  <item>
-                            <persName ref="#p.8">
-                                <choice>
+                  <item><persName ref="#p.8"><choice>
                            <abbr>M</abbr>
                            <expan>Metternich</expan>
-                        </choice>
-                            </persName>
-                        </item>
-                  <item>
-                            <persName ref="#p.9">
-                                <choice>
+                        </choice></persName></item>
+                  <item><persName ref="#p.9"><choice>
                            <abbr>C</abbr>
                            <expan>Castlereagh</expan>
-                        </choice>
-                            </persName>
-                        </item>
-                  <item>
-                            <persName ref="#p.10">
-                                <choice>
+                        </choice></persName></item>
+                  <item><persName ref="#p.10"><choice>
                            <abbr>W</abbr>
                            <expan>Wellington</expan>
-                        </choice>
-                            </persName>
-                        </item>
-                  <item>
-                            <persName ref="#p.11">
-                                <choice>
+                        </choice></persName></item>
+                  <item><persName ref="#p.11"><choice>
                            <abbr>H</abbr>
                            <expan>Hardenberg</expan>
-                        </choice>
-                            </persName>
-                        </item>
-                  <item>
-                            <persName ref="#p.12">
-                                <choice>
+                        </choice></persName></item>
+                  <item><persName ref="#p.12"><choice>
                            <abbr>B</abbr>
                            <expan>Bernstorff</expan>
-                        </choice>
-                            </persName>
-                        </item>
-                  <item>
-                            <persName ref="#p.13">
-                                <choice>
+                        </choice></persName></item>
+                  <item><persName ref="#p.13"><choice>
                            <abbr>N</abbr>
                            <expan>Nesselrode</expan>
-                        </choice>
-                            </persName>
-                        </item>
-                  <item>
-                            <persName ref="#p.14">Capodistrias</persName>
-                        </item>
-               </list>
-                </signed>
+                        </choice></persName></item>
+                  <item><persName ref="#p.14">Capodistrias</persName></item>
+               </list></signed>
          </div>
       </body>
       <back>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/listplace.xml" xpointer="listPlace"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/listperson.xml" xpointer="listPerson"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/listwit.xml" xpointer="listWit"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/listorg.xml" xpointer="listOrg"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/listwork.xml" xpointer="listTreaties"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listPlace.xml" xpointer="listPlace"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listPerson.xml"
+            xpointer="listPerson"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listWit.xml" xpointer="listWit"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listOrg.xml" xpointer="listOrg"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listTreaties.xml"
+            xpointer="listTreaties"/>
       </back>
    </text>
 </TEI>

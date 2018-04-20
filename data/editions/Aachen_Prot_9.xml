@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -11,13 +12,10 @@
                <persName>
                   <surname>Schneider</surname>
                   <forename>Karin</forename>
-               </persName>
-                </editor>
+               </persName></editor>
          </titleStmt>
          <editionStmt>
-            <edition>
-                    <date>2015-05-08</date>
-                </edition>
+            <edition><date>2015-05-08</date></edition>
          </editionStmt>
          <publicationStmt>
             <publisher>Österreichische Akademie der Wissenschaften, Institut für Neuzeit- und
@@ -45,8 +43,7 @@
                <physDesc>
 
                   <p> Eigenhändiges Protokoll von <persName ref="#p.5">
-                        <surname>Gentz</surname>
-                            </persName>. </p>
+                        <surname>Gentz</surname></persName>. </p>
                   <handDesc>
                      <handNote xml:id="G">Friedrich Gentz</handNote>
                      <handNote xml:id="W">Nikolaus Wacken</handNote>
@@ -54,11 +51,8 @@
                   </handDesc>
                </physDesc>
                <history>
-                  <origin>
-                            <placeName ref="#loc.1">Aachen</placeName>
-                            <date when="1818-10-12">12.
-                        Oktober 1818</date>
-                        </origin>
+                  <origin><placeName ref="#loc.1">Aachen</placeName><date when="1818-10-12">12.
+                        Oktober 1818</date></origin>
                </history>
             </msDesc>
          </sourceDesc>
@@ -79,10 +73,10 @@
       <profileDesc>
          <abstract>
             <p>Die <rs ref="#p.8 #p.10 #p.11 #p.13 #p.12 #p.14 #p.9">Vertreter der alliierten
-                  Mächte</rs> autorisieren den britischen Gesandten <persName ref="#p.10">
-                        <surname>Wellingtons</surname>
-                    </persName>, die Vereinbarungen, die mit den
-               Bankhäusern <orgName ref="#o.1">Hope &amp; Comp</orgName> und <orgName ref="#o.2">Baring &amp; Comp.</orgName> hinsichtlich der französischen
+                  Mächte</rs> autorisieren den britischen Gesandten <persName ref="#p.10"
+                     ><surname>Wellington</surname></persName>, die Vereinbarungen, die mit den
+               Bankhäusern <orgName ref="#o.1">Hope &amp; Comp</orgName> und <orgName ref="#o.2"
+                  >Baring &amp; Comp.</orgName> hinsichtlich der französischen
                Entschädigungszahlungen getroffen wurden, im Namen der alliierten Mächte zu
                unterzeichnen. Der <rs ref="#p.22">Großherzog von Baden</rs> wendet sich betreffend
                offener familiärer und territorialer Angelegenheiten an den Kongress. Beratung über
@@ -93,27 +87,13 @@
             <listPerson>
                <head>Anwesende</head>
                
-                  <person>
-                        <persName ref="#p.12">BERNSTORFF</persName>
-                    </person>
-                  <person>
-                        <persName ref="#p.9">CASTLEREAGH</persName>
-                    </person>
-                  <person>
-                        <persName ref="#p.11">HARDENBERG</persName>
-                    </person>
-                  <person>
-                        <persName ref="#p.14">KAPODISTRIAS</persName>
-                    </person>
-                  <person>
-                        <persName ref="#p.8">METTERNICH</persName>
-                    </person>
-                  <person>
-                        <persName ref="#p.13">NESSELRODE</persName>
-                    </person>
-                  <person>
-                        <persName ref="#p.10">WELLINGTON</persName>
-                    </person>
+                  <person><persName ref="#p.12">BERNSTORFF</persName></person>
+                  <person><persName ref="#p.9">CASTLEREAGH</persName></person>
+                  <person><persName ref="#p.11">HARDENBERG</persName></person>
+                  <person><persName ref="#p.14">KAPODISTRIAS</persName></person>
+                  <person><persName ref="#p.8">METTERNICH</persName></person>
+                  <person><persName ref="#p.13">NESSELRODE</persName></person>
+                  <person><persName ref="#p.10">WELLINGTON</persName></person>
                
             </listPerson>
          </particDesc>
@@ -123,34 +103,25 @@
       <body>
          <div hand="#G" decls="#m.1">
             <pb n="41r"/>
-            <p>
-                    <add place="top" rendition="#u">9</add>
-                </p>
-            <p>
-                    <placeName ref="#loc.1">Aix-la-Chapelle</placeName> le <date when="1818-10-12"> 12
+            <p><add place="top" rendition="#u">9</add></p>
+            <p><placeName ref="#loc.1">Aix-la-Chapelle</placeName> le <date when="1818-10-12"> 12
                   Octobre 1818</date>
             </p>
             <p>
-               <add place="margin">(Entre les 4 Cabinets)</add>
-                </p>
-            <p>
-                    <choice>
+               <add place="margin">(Entre les 4 Cabinets)</add></p>
+            <p><choice>
                   <abbr>Mr.</abbr>
                   <expan>Monsieur</expan>
-               </choice> le <persName ref="#p.10">
-                        <roleName>Duc</roleName>
-                  <surname>de Wellington</surname>
-                    </persName> ayant fait part à la conférence des
+               </choice> le <persName ref="#p.10"><roleName>Duc</roleName>
+                  <surname>de Wellington</surname></persName> ayant fait part à la conférence des
                arrangemens qu’Il a arrêtés avec <choice>
                   <abbr>Mrs.</abbr>
                   <expan>Messieurs</expan>
                </choice>
-               <persName ref="#p.23">
-                        <surname>Hope</surname>
-                    </persName> et <persName ref="#p.20">
-                        <surname>Baring</surname>
-                    </persName> pour l’exécution des articles <add place="inspace">5 et 6</add> de la <rs ref="#t.10">Convention du <date when="1818-10-09">9</date>
-                    </rs> relativement aux 100 Millions payables en
+               <persName ref="#p.23"><surname>Hope</surname></persName> et <persName ref="#p.20"
+                     ><surname>Baring</surname></persName> pour l’exécution des articles <add
+                  place="inspace">5 et 6</add> de la <rs ref="#t.10">Convention du <date
+                     when="1818-10-09">9</date></rs> relativement aux 100 Millions payables en
                inscriptions ; et ces arrangemens ayant été pleinement approuvés, <choice>
                   <abbr>Mr.</abbr>
                   <expan>Monsieur</expan>
@@ -159,13 +130,9 @@
                   <abbr>Mrs.</abbr>
                   <expan>Messieurs</expan>
                </choice>
-               <persName ref="#p.23">
-                        <surname>Hope</surname>
-                    </persName> et <persName ref="#p.20">
-                        <surname>Baring</surname>
-                    </persName>.</p>
-            <p>
-                    <choice>
+               <persName ref="#p.23"><surname>Hope</surname></persName> et <persName ref="#p.20"
+                     ><surname>Baring</surname></persName>.</p>
+            <p><choice>
                   <abbr>Mrs.</abbr>
                   <expan>Messieurs</expan>
                </choice>
@@ -186,74 +153,46 @@
                </choice>
                <rs ref="#p.8 #p.10 #p.11 #p.13 #p.12 #p.14 #p.9">les Ministres</rs> se sont occupés
                de questions relatives au <rs ref="#t.6">Traité d’Alliance du
-                  <date when="1815-11-20">20 Novembre 1815</date>
-                    </rs>, et aux mesures à adopter pour
+                  <date when="1815-11-20">20 Novembre 1815</date></rs> et aux mesures à adopter pour
                déterminer de la manière la plus conforme à l’intérêt commun de l’Europe les
                relations futures entre les Quatre puissances Alliées et la
                <country>France</country>.</p>
             <signed>
                <list>
-                  <item>
-                            <persName ref="#p.8">
-                                <choice>
+                  <item><persName ref="#p.8"><choice>
                            <abbr>M</abbr>
                            <expan>Metternich</expan>
-                        </choice>
-                            </persName>
-                        </item>
-                  <item>
-                            <persName ref="#p.9">
-                                <choice>
+                        </choice></persName></item>
+                  <item><persName ref="#p.9"><choice>
                            <abbr>C</abbr>
                            <expan>Castlereagh</expan>
-                        </choice>
-                            </persName>
-                        </item>
-                  <item>
-                            <persName ref="#p.10">
-                                <choice>
+                        </choice></persName></item>
+                  <item><persName ref="#p.10"><choice>
                            <abbr>W</abbr>
                            <expan>Wellington</expan>
-                        </choice>
-                            </persName>
-                        </item>
-                  <item>
-                            <persName ref="#p.11">
-                                <choice>
+                        </choice></persName></item>
+                  <item><persName ref="#p.11"><choice>
                            <abbr>H</abbr>
                            <expan>Hardenberg</expan>
-                        </choice>
-                            </persName>
-                        </item>
-                  <item>
-                            <persName ref="#p.12">
-                                <choice>
+                        </choice></persName></item>
+                  <item><persName ref="#p.12"><choice>
                            <abbr>B</abbr>
                            <expan>Bernstorff</expan>
-                        </choice>
-                            </persName>
-                        </item>
-                  <item>
-                            <persName ref="#p.13">
-                                <choice>
+                        </choice></persName></item>
+                  <item><persName ref="#p.13"><choice>
                            <abbr>N</abbr>
                            <expan>Nesselrode</expan>
-                        </choice>
-                            </persName>
-                        </item>
-                  <item>
-                            <persName ref="#p.14">Capodistrias</persName>
-                        </item>
-               </list>
-                </signed>
+                        </choice></persName></item>
+                  <item><persName ref="#p.14">Capodistrias</persName></item>
+               </list></signed>
          </div>
       </body>
       <back>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/listplace.xml" xpointer="listPlace"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/listperson.xml" xpointer="listPerson"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/listwit.xml" xpointer="listWit"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/listorg.xml" xpointer="listOrg"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/listwork.xml" xpointer="listTreaties"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listPlace.xml" xpointer="listPlace"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listPerson.xml" xpointer="listPerson"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listWit.xml" xpointer="listWit"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listOrg.xml" xpointer="listOrg"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listTreaties.xml" xpointer="listTreaties"/>
       </back>
    </text>
 </TEI>

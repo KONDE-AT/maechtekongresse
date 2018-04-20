@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -11,13 +12,10 @@
                <persName>
                   <surname>Schneider</surname>
                   <forename>Karin</forename>
-               </persName>
-                </editor>
+               </persName></editor>
          </titleStmt>
          <editionStmt>
-            <edition>
-                    <date>2017-03-13</date>
-                </edition>
+            <edition><date>2017-03-13</date></edition>
          </editionStmt>
          <publicationStmt>
             <publisher>Österreichische Akademie der Wissenschaften, Institut für Neuzeit- und
@@ -56,11 +54,8 @@
 
                </physDesc>
                <history>
-                  <origin>
-                            <placeName ref="#loc.65">Laibach</placeName>
-                            <date when="1821-01-28">28.
-                        Jänner 1821</date>
-                        </origin>
+                  <origin><placeName ref="#loc.65">Laibach</placeName><date when="1821-01-28">28.
+                        Jänner 1821</date></origin>
                </history>
             </msDesc>
             <msDesc xml:id="m.2" type="Abschrift">
@@ -85,11 +80,8 @@
 
                </physDesc>
                <history>
-                  <origin>
-                            <placeName ref="#loc.65">Laibach</placeName>
-                            <date when="1821-01-31">31.
-                        Jänner 1821</date>
-                        </origin>
+                  <origin><placeName ref="#loc.65">Laibach</placeName><date when="1821-01-31">31.
+                        Jänner 1821</date></origin>
                </history>
             </msDesc>
             <msDesc xml:id="m.3" type="Abschrift">
@@ -114,11 +106,8 @@
 
                </physDesc>
                <history>
-                  <origin>
-                            <placeName ref="#loc.65">Laibach</placeName>
-                            <date when="1821-01-31">31.
-                        Jänner 1821</date>
-                        </origin>
+                  <origin><placeName ref="#loc.65">Laibach</placeName><date when="1821-01-31">31.
+                        Jänner 1821</date></origin>
                </history>
             </msDesc>
             <msDesc xml:id="m.4" type="Abschrift">
@@ -143,11 +132,8 @@
 
                </physDesc>
                <history>
-                  <origin>
-                            <placeName ref="#loc.65">Laibach</placeName>
-                            <date when="1821-01-31">31.
-                        Jänner 1821</date>
-                        </origin>
+                  <origin><placeName ref="#loc.65">Laibach</placeName><date when="1821-01-31">31.
+                        Jänner 1821</date></origin>
                </history>
             </msDesc>
             <msDesc xml:id="m.5" type="Abschrift">
@@ -171,11 +157,8 @@
                   <p>Abschrift</p>
                </physDesc>
                <history>
-                  <origin>
-                            <placeName ref="#loc.60">Troppau</placeName>
-                            <date when="1820-11-22">22.
-                        November 1820</date>
-                        </origin>
+                  <origin><placeName ref="#loc.60">Troppau</placeName><date when="1820-11-22">22.
+                        November 1820</date></origin>
                </history>
             </msDesc>
             <msDesc xml:id="m.6" type="Abschrift">
@@ -199,11 +182,8 @@
                   <p>Abschrift</p>
                </physDesc>
                <history>
-                  <origin>
-                            <placeName ref="#loc.65">Laibach</placeName>
-                            <date when="1821-01-31">31.
-                        Jänner 1821</date>
-                        </origin>
+                  <origin><placeName ref="#loc.65">Laibach</placeName><date when="1821-01-31">31.
+                        Jänner 1821</date></origin>
                </history>
             </msDesc>
             <msDesc xml:id="m.7" type="Abschrift">
@@ -247,17 +227,11 @@
                   </msItem>
                </msContents>
                <physDesc>
-                  <p>Abschrift von <persName ref="#p.6">
-                                <surname>Wacken</surname>
-                            </persName>
-                        </p>
+                  <p>Abschrift von <persName ref="#p.6"><surname>Wacken</surname></persName></p>
                </physDesc>
                <history>
-                  <origin>
-                            <placeName ref="#loc.65">Laibach</placeName>
-                            <date when="1821-01-31">31.
-                        Jänner 1821</date>
-                        </origin>
+                  <origin><placeName ref="#loc.65">Laibach</placeName><date when="1821-01-31">31.
+                        Jänner 1821</date></origin>
                </history>
             </msDesc>
             <msDesc xml:id="m.9" type="Abschrift">
@@ -281,111 +255,74 @@
                   <p>Abschrift</p>
                </physDesc>
                <history>
-                  <origin>
-                            <placeName ref="#loc.65">Laibach</placeName>
-                            <date when="1821-01-31">31.
-                        Jänner 1821</date>
-                        </origin>
+                  <origin><placeName ref="#loc.65">Laibach</placeName><date when="1821-01-31">31.
+                        Jänner 1821</date></origin>
                </history>
             </msDesc>
             <listWit corresp="#m.1">
                <head>Journal</head>
-               <witness corresp="#w.37">
-                        <bibl type="print">Alberti, Atti, S.
-                  416-417.</bibl>
-                    </witness>
+               <witness corresp="#w.37"><bibl type="print">Alberti, Atti, S.
+                  416-417.</bibl></witness>
             </listWit>
             <listWit corresp="#m.2">
                <head>Anlage 1: Instruktionen für die österreichischen, preußischen und russischen
                   diplomatischen Vertreter in Neapel</head>
-               <witness corresp="#w.30">
-                        <bibl type="print">Bianchi, Storia documentata, Bd. II, S.
-                     322–329 (leicht abgewandelte Fassung);</bibl>
-                    </witness>
-               <witness corresp="#w.5">
-                        <bibl type="print">BFSP Bd. 8 (1820/21), S. 1165–1170
-                     (abgewandelte Fassung);</bibl>
-                    </witness>
-               <witness corresp="#w.26">
-                        <bibl type="print">Diplomatisches Archiv/Archive
-                     diplomatique, Bd. 1, S. 361–379;</bibl>
-                    </witness>
-               <witness corresp="#w.14">
-                        <bibl type="print">Martens, Nouveau Recueil, Bd. 5, S.
-                     599–607 (Abgewandelte Fassung);</bibl>
-                    </witness>
-               <witness corresp="#w.37">
-                        <bibl type="print">Alberti, Atti, S.
-                  417-420.</bibl>
-                    </witness>
+               <witness corresp="#w.30"><bibl type="print">Bianchi, Storia documentata, Bd. II, S.
+                     322–329 (leicht abgewandelte Fassung);</bibl></witness>
+               <witness corresp="#w.5"><bibl type="print">BFSP Bd. 8 (1820/21), S. 1165–1170
+                     (abgewandelte Fassung);</bibl></witness>
+               <witness corresp="#w.26"><bibl type="print">Diplomatisches Archiv/Archive
+                     diplomatique, Bd. 1, S. 361–379;</bibl></witness>
+               <witness corresp="#w.14"><bibl type="print">Martens, Nouveau Recueil, Bd. 5, S.
+                     599–607 (Abgewandelte Fassung);</bibl></witness>
+               <witness corresp="#w.37"><bibl type="print">Alberti, Atti, S.
+                  417-420.</bibl></witness>
             </listWit>
             <listWit corresp="#m.3">
                <head>Anlage 2: Schreiben an den französischen diplomatischen Vertreter in
                   Neapel</head>
-               <witness corresp="#w.37">
-                        <bibl type="print">Alberti, Atti, S.
-                  420-421.</bibl>
-                    </witness>
+               <witness corresp="#w.37"><bibl type="print">Alberti, Atti, S.
+                  420-421.</bibl></witness>
             </listWit>
             <listWit corresp="#m.4">
                <head>Anlage 3: Schreiben an den russischen Botschafter in Neapel, Gustav Ernst Graf
                   Stackelberg</head>
-               <witness corresp="#w.37">
-                        <bibl type="print">Alberti, Atti, S.
-                  421-423.</bibl>
-                    </witness>
+               <witness corresp="#w.37"><bibl type="print">Alberti, Atti, S.
+                  421-423.</bibl></witness>
             </listWit>
             <listWit corresp="#m.5">
                <head>Anlage 4: Schreiben an den russischen Botschafter in Neapel, Gustav Ernst Graf
                   Stackelberg</head>
-               <witness corresp="#w.37">
-                        <bibl type="print">Alberti, Atti, S.
-                  423-426.</bibl>
-                    </witness>
+               <witness corresp="#w.37"><bibl type="print">Alberti, Atti, S.
+                  423-426.</bibl></witness>
             </listWit>
             <listWit corresp="#m.6">
                <head>Anlage 5: Schreiben an die diplomatischen Vertreter Russlands, Österreichs und
                   Preußens in Neapel</head>
-               <witness corresp="#w.30">
-                        <bibl type="print">Bianchi, Storia documentata, Bd. II, S.
-                     329–330 (leicht abgewandelte Fassung);</bibl>
-                    </witness>
-               <witness corresp="#w.5">
-                        <bibl type="print">BFSP Bd. 8 (1820/21), S.
-                  1171–1172;</bibl>
-                    </witness>
-               <witness corresp="#w.26">
-                        <bibl type="print">Diplomatisches Archiv/Archive
-                     diplomatique, Bd. I, S. 379–383;</bibl>
-                    </witness>
-               <witness corresp="#w.14">
-                        <bibl type="print">Martens, Nouveau Recueil, Bd. 5, S.
-                     607–608 (abgewandelte Fassung);</bibl>
-                    </witness>
-               <witness corresp="#w.37">
-                        <bibl type="print">Alberti, Atti, S.
-                  426-427.</bibl>
-                    </witness>
+               <witness corresp="#w.30"><bibl type="print">Bianchi, Storia documentata, Bd. II, S.
+                     329–330 (leicht abgewandelte Fassung);</bibl></witness>
+               <witness corresp="#w.5"><bibl type="print">BFSP Bd. 8 (1820/21), S.
+                  1171–1172;</bibl></witness>
+               <witness corresp="#w.26"><bibl type="print">Diplomatisches Archiv/Archive
+                     diplomatique, Bd. I, S. 379–383;</bibl></witness>
+               <witness corresp="#w.14"><bibl type="print">Martens, Nouveau Recueil, Bd. 5, S.
+                     607–608 (abgewandelte Fassung);</bibl></witness>
+               <witness corresp="#w.37"><bibl type="print">Alberti, Atti, S.
+                  426-427.</bibl></witness>
             </listWit>
             <listWit corresp="#m.7">
                <head>Anlage 6: Schreiben des Königs beider Sizilien an seinen Sohn</head>
-               <witness corresp="#w.37">
-                        <bibl type="print">Alberti, Atti, S. 429-430 (französische
-                     Übersetzung).</bibl>
-                    </witness>
+               <witness corresp="#w.37"><bibl type="print">Alberti, Atti, S. 429-430 (französische
+                     Übersetzung).</bibl></witness>
             </listWit>
             <listWit corresp="#m.8">
                <head>Anlage 7: Schreiben an den österreichischen Diplomaten Menz in Neapel</head>
-               <witness corresp="#w.37">
-                        <bibl type="print">Alberti, Atti, S.
-                  427-429.</bibl>
-                    </witness>
+               <witness corresp="#w.37"><bibl type="print">Alberti, Atti, S.
+                  427-429.</bibl></witness>
             </listWit>
             <listWit corresp="#m.9">
                <head>Anlage 8: Schreiben an den österreichischen Diplomaten Menz in Neapel</head>
-               <witness corresp="#w.37">
-                        <bibl type="print">Alberti, Atti, S. 429.</bibl>
-                    </witness>
+               <witness corresp="#w.37"><bibl type="print">Alberti, Atti, S. 429.</bibl></witness>
             </listWit>
          </sourceDesc>
       </fileDesc>
@@ -410,8 +347,8 @@
                Entgegnung auf die Betrachtungen der <rs ref="#p.14 #p.137">russischen und britischen
                   Vertreter</rs> in der letzten Sitzung. Anschließend Verlesung der Instruktionen an
                die <rs ref="#p.144 #p.148 #p.149 #p.162">diplomatischen Vertreter Österreichs,
-                  Russlands, Preußens und Frankreichs in <placeName ref="#loc.11">Neapel</placeName>
-                    </rs>, sowie der beigelegten Depeschen. Die Vertreter der
+                  Russlands, Preußens und Frankreichs in <placeName ref="#loc.11"
+                  >Neapel</placeName></rs>, sowie der beigelegten Depeschen. Die Vertreter der
                Mächte werden darüber informiert, dass der <rs ref="#p.138">König beider
                   Sizilien</rs> noch einen zweiten Brief an seinen Sohn, den <rs ref="#p.141">duca
                   di Calabria</rs>, richten wird.</p>
@@ -480,87 +417,74 @@
       <body>
          <div>
             <pb n="45r"/>
-            <p>
-                    <title rendition="#u">Journal des Conférences</title>
-                </p>
-            <p>
-                    <title rendition="#u">
-                        <choice>
+            <p><title rendition="#u">Journal des Conférences</title></p>
+            <p><title rendition="#u"><choice>
                      <abbr>Nr.</abbr>
                      <expan>Numéro</expan>
-                  </choice> IX.</title>
-                </p>
-            <p rendition="#u">
-                    <placeName ref="#loc.65">Laybach</placeName> le <date when="1821-01-28">28 Janvier 1821</date>
-                </p>
+                  </choice> IX.</title></p>
+            <p rendition="#u"><placeName ref="#loc.65">Laybach</placeName> le <date
+                  when="1821-01-28">28 Janvier 1821</date></p>
 
             <p>Après la lecture du Journal de la conférence du <date when="1821-01-26">26 de ce
                   mois</date>, <choice>
                   <abbr>Msgr.</abbr>
                   <expan>Monseigneur</expan>
-               </choice> le <persName ref="#p.164">
-                        <roleName>Cardinal</roleName>
-                  <surname>Spina</surname>
-                    </persName> a témoigné le désir que relativement aux
+               </choice> le <persName ref="#p.164"><roleName>Cardinal</roleName>
+                  <surname>Spina</surname></persName> a témoigné le désir que relativement aux
                observations faites par <choice>
                   <abbr>Mr.</abbr>
                   <expan>Monsieur</expan>
-               </choice> le <persName ref="#p.14">
-                        <roleName>Comte</roleName>
-                  <surname>de Capodistrias</surname>
-                    </persName> et par <persName ref="#p.137">
-                        <roleName>Lord</roleName>
-                  <surname>Stewart</surname>
-                    </persName> sur la première déclaration de <rs ref="#p.164">Son Eminence</rs> il fût inséré au Journal :</p>
+               </choice> le <persName ref="#p.14"><roleName>Comte</roleName>
+                  <surname>de Capodistrias</surname></persName> et par <persName ref="#p.137"
+                     ><roleName>Lord</roleName>
+                  <surname>Stewart</surname></persName> sur la première déclaration de <rs
+                  ref="#p.164">Son Eminence</rs> il fût inséré au Journal :</p>
             <p rendition="#et">Que <rs ref="#p.155">Sa Sainteté</rs> a cru pouvoir, sans blesser Sa
                neutralité, faire intervenir <rs ref="#p.164">Son Représentant</rs> au Congrès de
                   <placeName ref="#loc.65">Laybach</placeName>, en le chargeant de donner Son avis
                sur les principes à adopter pour établir dans le <country>Royaume des
                   Deux-Siciles</country> un gouvernement qui garantisse la tranquillité de
                l’Italie ; mais comme il s’agissoit maintenant de mesures qui pourroient amener des
-               hostilités, <rs ref="#p.164">l’Envoyé de <rs ref="#p.155">Sa Sainteté</rs>
-                    </rs>
-               n’étoit point autorisé à y prendre part, ni à donner aucun avis sur la question. <del rendition="#s">Quant aux observations de <choice>
+               hostilités, <rs ref="#p.164">l’Envoyé de <rs ref="#p.155">Sa Sainteté</rs></rs>
+               n’étoit point autorisé à y prendre part, ni à donner aucun avis sur la question. <del
+                  rendition="#s">Quant aux observations de <choice>
                      <abbr>Mr.</abbr>
                      <expan>Monsieur</expan>
                   </choice>
-                  <rs ref="#p.137">l’Ambassadeur de <rs ref="#p.130">
-                                <choice>
+                  <rs ref="#p.137">l’Ambassadeur de <rs ref="#p.130"><choice>
                            <abbr>S. M.</abbr>
                            <expan>Sa Majesté</expan>
-                        </choice> Britannique</rs>
-                        </rs>, <rs ref="#p.164">Son Eminence</rs> croyoit
-                  devoir faire remarquer la différence qui existoit entre la position de <rs ref="#p.155">Sa Sainteté</rs> et celle du <rs ref="#p.130">Roi de la
-                     Grande-Bretagne</rs>.</del>
-                </p>
+                        </choice> Britannique</rs></rs>, <rs ref="#p.164">Son Eminence</rs> croyoit
+                  devoir faire remarquer la différence qui existoit entre la position de <rs
+                     ref="#p.155">Sa Sainteté</rs> et celle du <rs ref="#p.130">Roi de la
+                     Grande-Bretagne</rs>.</del></p>
             <pb n="45v"/>
-            <p>On a ensuite donne lecture <rs xml:id="n.1">de l’instruction, ci-jointe sub <choice>
+            <p>On a ensuite donne lecture <ref decls="#m.2">de l’instruction, ci-jointe sub <choice>
                      <abbr>Litt.</abbr>
                      <expan>Littera</expan>
-                  </choice> A.</rs>,<note type="editorial" target="#n.1">Vgl. Anlage 1.</note>
-               adressée <rs ref="#p.144 #p.148 #p.149">aux Ministres de Russie et de Prusse et au
-                  Chargé d’affaires d’Autriche à <placeName ref="#loc.11">Naples</placeName>
-                    </rs> ;
-               instruction destinée d’après le vœu énoncé par <rs ref="#p.138">Sa Majesté
-                  Sicilienne</rs> à accompagner la lettre qu’Elle adresse à <choice>
+                  </choice> A.</ref>, adressée <rs ref="#p.144 #p.148 #p.149">aux Ministres de
+                  Russie et de Prusse et au Chargé d’affaires d’Autriche à <placeName ref="#loc.11"
+                     >Naples</placeName></rs> ; instruction destinée d’après le vœu énoncé par <rs
+                  ref="#p.138">Sa Majesté Sicilienne</rs> à accompagner la lettre qu’Elle adresse à <choice>
                   <abbr>Msgr.</abbr>
                   <expan>Monseigneur</expan>
                </choice> le <rs ref="#p.141">Duc de Calabre</rs>.</p>
             <p>On a également lu l’instruction adressée à cet effet par <choice>
                   <abbr>Mrs.</abbr>
                   <expan>Messieurs</expan>
-               </choice> les <rs ref="#p.160 #p.102 #p.135">Plénipotentiaires de France</rs> au <rs ref="#p.162">Chargé d’affaires de leur Cour à <placeName ref="#loc.11">Naples</placeName>
-                    </rs>, <rs xml:id="n.2">telle qu’elle se trouve ci-jointe
+               </choice> les <rs ref="#p.160 #p.102 #p.135">Plénipotentiaires de France</rs> au <rs
+                  ref="#p.162">Chargé d’affaires de leur Cour à <placeName ref="#loc.11"
+                     >Naples</placeName></rs>, <ref decls="#m.3">telle qu’elle se trouve ci-jointe
                   sub <choice>
                      <abbr>Litt.</abbr>
                      <expan>Littera</expan>
-                  </choice> B</rs>.<note type="editorial" target="#n.2">Vgl. Anlage 2.</note>
-                </p>
+                  </choice> B</ref>.</p>
             <p>La conférence a été informée qu’indépendamment de la lettre du <rs ref="#p.138">Roi
                   des Deux-Siciles</rs>, annexée au <ref target="Laibach_Prot_6.xml">Journal <choice>
                      <abbr>Nr.</abbr>
                      <expan>Numéro</expan>
-                  </choice> VI</ref>, <rs ref="#p.138">Sa Majesté</rs> écrivoit au <rs ref="#p.141">Prince</rs> Son fils une seconde lettre confidentielle pour lui faire connoître
+                  </choice> VI</ref>, <rs ref="#p.138">Sa Majesté</rs> écrivoit au <rs ref="#p.141"
+                  >Prince</rs> Son fils une seconde lettre confidentielle pour lui faire connoître
                que par les garanties, dont il est question dans la première, pour assurer la
                tranquillité des Etats voisins, les puissances entendent qu’un Corps d’Armée,
                dépendant des ordres du <rs ref="#p.138">Roi</rs>, soit placé dans le Royaume pour un
@@ -568,159 +492,133 @@
             <p>Les dépêches additionnelles, adressées à la suite de l’instruction principale à <choice>
                   <abbr>Mr.</abbr>
                   <expan>Monsieur</expan>
-               </choice> le <persName ref="#p.149">
-                        <roleName>Comte</roleName>
-                  <surname>de Stackelberg</surname>
-                    </persName>
-                    <pb n="80ar"/> et à <choice>
+               </choice> le <persName ref="#p.149"><roleName>Comte</roleName>
+                  <surname>de Stackelberg</surname></persName><pb n="80ar"/> et à <choice>
                   <abbr>Mr.</abbr>
                   <expan>Monsieur</expan>
                </choice>
-               <persName ref="#p.144">
-                        <surname>de Mentz</surname>
-                    </persName> par leurs Cabinets
-               respectifs, ont été lues <rs xml:id="n.3">et consignées sub <choice>
-                     <abbr>Litt.</abbr>
-                     <expan>Litteris</expan>
-                  </choice> C., D., E</rs>.<note type="editorial" target="#n.3">Vgl. Anlage 3, 4, 5,
-                  6, 7.</note>
-                </p>
-            <p>
-                    <choice>
+               <persName ref="#p.144"><surname>de Mentz</surname></persName> par leurs Cabinets
+               respectifs, ont été lues et consignées sub <choice>
+                  <abbr>Litt.</abbr>
+                  <expan>Litteris</expan>
+               </choice>
+               <ref decls="#m.4">C.</ref>, <ref decls="#m.5">D.</ref>, <ref decls="#m.6"
+               >E</ref>.</p>
+            <p><choice>
                   <abbr>Mrs.</abbr>
                   <expan>Messieurs</expan>
-               </choice> les <rs ref="#p.8 #p.2 #p.12 #p.13 #p.14 #p.7">Plénipotentiaires des <rs ref="#p.16 #p.18 #p.17">Souverains Alliés</rs>
-                    </rs> reconnoissant que la
+               </choice> les <rs ref="#p.8 #p.2 #p.12 #p.13 #p.14 #p.7">Plénipotentiaires des <rs
+                     ref="#p.16 #p.18 #p.17">Souverains Alliés</rs></rs> reconnoissant que la
                situation de la famille Royale et les dangers qu’Elle pourroit courir dans les
                évènemens qui se préparent à <placeName ref="#loc.11">Naples</placeName> réclamoient
                très particulièrement leur attention et leur sollicitude, <choice>
                   <abbr>Mr</abbr>
                   <expan>Monsieur</expan>
-               </choice> le <persName ref="#p.8">
-                        <roleName>Prince</roleName>
-                  <surname>de Metternich</surname>
-                    </persName> a fait part d’une dépêche séparée,
-               rédigée à cet effet, <rs xml:id="n.4">et dont copie est jointe sub <choice>
+               </choice> le <persName ref="#p.8"><roleName>Prince</roleName>
+                  <surname>de Metternich</surname></persName> a fait part d’une dépêche séparée,
+               rédigée à cet effet, <ref decls="#m.9">et dont copie est jointe sub <choice>
                      <abbr>Litt.</abbr>
                      <expan>Littera</expan>
-                  </choice> F</rs>.<note type="editorial" target="#n.4">Vgl. Anlage 8.</note>
-                </p>
-            <p rendition="#r">
-                    <add hand="#G">Lu et Certifié</add>
-                </p>
-            <p rendition="#r">
-                    <add hand="#G">À la conférence du <date when="1821-02-02">2
-                     Février</date>
-                    </add>
-                </p>
-            <signed rendition="#r">
-                    <persName ref="#p.5">
-                        <surname>Gentz</surname>
-                    </persName>
-                </signed>
+                  </choice> F</ref>.</p>
+            <p rendition="#r"><add hand="#G">Lu et Certifié</add></p>
+            <p rendition="#r"><add hand="#G">À la conférence du <date when="1821-02-02">2
+                     Février</date></add></p>
+            <signed rendition="#r"><persName ref="#p.5"><surname>Gentz</surname></persName></signed>
          </div>
 
          <div hand="#A" decls="#m.2">
             <pb n="46r"/>
-            <p>
-                    <add place="top">A</add>
-                </p>
-            <p>
-                    <title>Instruction pour <rs ref="#p.144 #p.148 #p.149">les Ministres et Chargés
-                     d’affaires d’Autriche, de Prusse et de Russie à <placeName ref="#loc.11">Naples</placeName>
-                        </rs>
-                    </title>
-                </p>
-            <p>
-                    <placeName ref="#loc.65">Laibach</placeName>
-               <date when="1821-01-31">31 Janvier 1821</date>
-                </p>
-            <p>Pour vous mettre en état de bien saisir l’objet de la commission importante que <rs ref="#p.16 #p.18 #p.17">Sa Majesté</rs> vous confie par les présentes et que vous
+            <p><add place="top">A</add></p>
+            <p><title>Instruction pour <rs ref="#p.144 #p.148 #p.149">les Ministres et Chargés
+                     d’affaires d’Autriche, de Prusse et de Russie à <placeName ref="#loc.11"
+                        >Naples</placeName></rs></title></p>
+            <p><placeName ref="#loc.65">Laibach</placeName>
+               <date when="1821-01-31">31 Janvier 1821</date></p>
+            <p>Pour vous mettre en état de bien saisir l’objet de la commission importante que <rs
+                  ref="#p.16 #p.18 #p.17">Sa Majesté</rs> vous confie par les présentes et que vous
                remplirez de concert avec les Ministres &amp; &amp;, nous allons vous instruire des
                explications réciproques qui, depuis l’arrivée du <rs ref="#p.138">Roi de Naples</rs>
                à <placeName ref="#loc.65">Laibach</placeName>, ont eu lieu entre ce Monarque et les
                   <rs ref="#p.16 #p.18 #p.17">Souverains alliés</rs>, ainsi que des résultats
-               auxquels ont conduit les délibérations de <rs ref="#p.8 #p.2 #p.12 #p.13 #p.14 #p.7">Leurs Plénipotentiaires</rs> au Congrès.</p>
-            <p>
-                    <choice>
+               auxquels ont conduit les délibérations de <rs ref="#p.8 #p.2 #p.12 #p.13 #p.14 #p.7"
+                  >Leurs Plénipotentiaires</rs> au Congrès.</p>
+            <p><choice>
                   <abbr>S. M.</abbr>
                   <expan>Sa Majesté</expan>
                </choice> le <rs ref="#p.138">Roi de Naples</rs>, hautement intéressé à connaître
                dans toute leur étendue les intentions des <rs ref="#p.16 #p.18 #p.17">souverains
                   alliés</rs> relativement aux affaires de son Royaume, a fait adresser pour cet
                effet à la Conférence des Plénipotentiaires un message, portant :</p>
-            <quote>
-                    <p>« Qu’ayant accepté avec empressement l’invitation de <rs ref="#p.16 #p.18 #p.17">ses augustes alliés</rs> dans l’espoir<pb n="46v"/> de
-                  concilier le bien-être, dont le <rs ref="#p.138">Roi</rs> désirait faire jouir ses
-                  peuples, avec les devoirs que les Monarques alliés pourraient être appelés à
-                  remplir envers leurs Etats et envers le monde, et dans celui de faire disparaître,
-                  sous les auspices de la paix et de la concorde, les obstacles qui depuis six mois
-                  ont isolé ses Etats de l’alliance Européenne ;</p>
-               <p>N’ayant pu se dissimuler l’impression fâcheuse que les derniers événemens survenus
-                  dans son Royaume avaient produite en Europe, et devant avec raison en redouter les
-                  conséquences ;</p>
-               <p>Ayant appris toutefois avec la plus vive satisfaction que les <rs ref="#p.16 #p.18 #p.17">souverains alliés</rs>, fidèles aux principes de
-                  justice, de sagesse et de modération qui les ont constamment guidés, n’ont voulu
-                  prendre aucune mesure définitive par rapport aux affaires de
-                     <country>Naples</country> avant d’avoir épuisé<pb n="47r"/> les chances d’une
-                  conciliation qu’Ils préfèreroient à tout autre moyen d’accomplir le but qui les
-                  réunit aujourd’hui ; et le <rs ref="#p.138">Roi</rs> pouvant d’autant plus se
-                  flatter de faire valoir un titre aussi cher à son cœur que celui de conciliateur
-                  en faveur de ses sujets ;</p>
-               <p>
-                        <rs ref="#p.138">Sa Majesté</rs> était prête à se concerter avec ses alliés sur
-                  les moyens d’épargner à son pays les malheurs dont Elle le croyait menacé ; mais
-                  que, pour remplir avec quelque espérance de succès la tâche importante qu’Elle
-                  s’était imposée, Elle demandait avant tout à <rs ref="#p.16 #p.18 #p.17">Ses
-                     augustes alliés</rs> de Lui manifester sans réserve leur pensée toute entière,
-                  convaincue, comme Elle l’était, qu’Ils ne manqueraient pas de donner au monde dans
-                  cette occasion une nouvelle preuve des sentimens élevés, des vues justes et
-                  éclairées qui forment<pb n="47v"/> la base de leur politique. »<note place="foot" xml:id="ftn130" n="130">
-                            <p rend="footnote text">
-                        <hi rend="italic">Vgl. Dokument Nr. 3.</hi>
-                            </p>
-                        </note>
-                    </p>
-                </quote>
-            <!-- Wie zeichne ich den Verweis aus? -->
-            <p>
-                    <ref target="Laibach_Prot_4.xml">À cette première ouverture il a été répondu de la
-                  part des <rs ref="#p.8 #p.2 #p.12 #p.13 #p.14 #p.7">Plénipotentiaires des <rs ref="#p.16 #p.18 #p.17">Souverains alliés</rs>
-                        </rs> que <quote>« bien que
+            <quote><p><ref target="Laibach_Prot_3.xml">« Qu’ayant accepté avec empressement
+                     l’invitation de <rs ref="#p.16 #p.18 #p.17">ses augustes alliés</rs> dans
+                        l’espoir<pb n="46v"/> de concilier le bien-être, dont le <rs ref="#p.138"
+                        >Roi</rs> désirait faire jouir ses peuples, avec les devoirs que les
+                     Monarques alliés pourraient être appelés à remplir envers leurs Etats et envers
+                     le monde, et dans celui de faire disparaître, sous les auspices de la paix et
+                     de la concorde, les obstacles qui depuis six mois ont isolé ses Etats de
+                     l’alliance Européenne ;</ref></p>
+               <p><ref target="Laibach_Prot_3.xml">N’ayant pu se dissimuler l’impression fâcheuse
+                     que les derniers événemens survenus dans son Royaume avaient produite en
+                     Europe, et devant avec raison en redouter les conséquences ;</ref></p>
+               <p><ref target="Laibach_Prot_3.xml">Ayant appris toutefois avec la plus vive
+                     satisfaction que les <rs ref="#p.16 #p.18 #p.17">souverains alliés</rs>,
+                     fidèles aux principes de justice, de sagesse et de modération qui les ont
+                     constamment guidés, n’ont voulu prendre aucune mesure définitive par rapport
+                     aux affaires de <country>Naples</country> avant d’avoir épuisé<pb n="47r"/> les
+                     chances d’une conciliation qu’Ils préfèreroient à tout autre moyen d’accomplir
+                     le but qui les réunit aujourd’hui ; et le <rs ref="#p.138">Roi</rs> pouvant
+                     d’autant plus se flatter de faire valoir un titre aussi cher à son cœur que
+                     celui de conciliateur en faveur de ses sujets ;</ref></p>
+               <p><ref target="Laibach_Prot_3.xml"><rs ref="#p.138">Sa Majesté</rs> était prête à se
+                     concerter avec ses alliés sur les moyens d’épargner à son pays les malheurs
+                     dont Elle le croyait menacé ; mais que, pour remplir avec quelque espérance de
+                     succès la tâche importante qu’Elle s’était imposée, Elle demandait avant tout à
+                        <rs ref="#p.16 #p.18 #p.17">Ses augustes alliés</rs> de Lui manifester sans
+                     réserve leur pensée toute entière, convaincue, comme Elle l’était, qu’Ils ne
+                     manqueraient pas de donner au monde dans cette occasion une nouvelle preuve des
+                     sentimens élevés, des vues justes et éclairées qui forment<pb n="47v"/> la base
+                     de leur politique. »</ref></p></quote>
+
+            <p><ref target="Laibach_Prot_4.xml">À cette première ouverture il a été répondu de la
+                  part des <rs ref="#p.8 #p.2 #p.12 #p.13 #p.14 #p.7">Plénipotentiaires des <rs
+                        ref="#p.16 #p.18 #p.17">Souverains alliés</rs></rs> que <quote>« bien que
                         <rs ref="#p.138">Sa <choice>
                            <abbr>M.</abbr>
                            <expan>Majesté</expan>
                         </choice> Sicilienne</rs> n’eût pu ignorer l’impression fâcheuse, produite
                      par <rs xml:id="n.5">les événemens arrivés à <country>Naples</country> depuis
-                        le <date when="1820-07-02">2 Juillet</date>
-                            </rs>,<note type="editorial" target="#n.5">Am <date when="1820-07-02">2. Juli 1820</date> meuterte die
-                        Militärgarnison in Nola, 35 km von <placeName ref="#loc.11">Neapel</placeName> entfernt. Das Datum gilt als Beginn der Revolution im
+                        le <date when="1820-07-02">2 Juillet</date></rs>,<note type="editorial"
+                        target="#n.5">Am <date when="1820-07-02">2. Juli 1820</date> meuterte die
+                        Militärgarnison in Nola, 35 km von <placeName ref="#loc.11"
+                           >Neapel</placeName> entfernt. Das Datum gilt als Beginn der Revolution im
                            <country>Königreich beider Sizilien</country>. Vgl. Stites, The four
                         Horsemen; Davis, Naples and Napoleon; Gin, Sanfedisti, Carbonari, Magistrati
                         del Re; Späth, Revolution in Europa, S. 129–149.</note> et les inquiétudes
                      auxquelles ils avaient donné lieu, il appartenait cependant plus
-                     particulièrement aux <rs ref="#p.8 #p.2 #p.12 #p.13 #p.14 #p.7">Plénipotentiaires des <rs ref="#p.16 #p.18 #p.17">Souverains
-                        alliés</rs>
-                            </rs> de faire connaître l’étendue de ces inquiétudes et la
-                     gravité des causes qui les avaient fait naître. »</quote>
-                    </ref>
-                </p>
-            <p>Pour mettre cette observation dans tout son jour et donner pleine connaissance à <rs ref="#p.138">Sa Majesté</rs> des considérations importantes qui ont motivé les
-               déterminations adoptées par les Souverains, on est entré dans les développemens<pb n="48r"/> suivans :</p>
+                     particulièrement aux <rs ref="#p.8 #p.2 #p.12 #p.13 #p.14 #p.7"
+                        >Plénipotentiaires des <rs ref="#p.16 #p.18 #p.17">Souverains
+                        alliés</rs></rs> de faire connaître l’étendue de ces inquiétudes et la
+                     gravité des causes qui les avaient fait naître. »</quote></ref></p>
+            <p>Pour mettre cette observation dans tout son jour et donner pleine connaissance à <rs
+                  ref="#p.138">Sa Majesté</rs> des considérations importantes qui ont motivé les
+               déterminations adoptées par les Souverains, on est entré dans les développemens<pb
+                  n="48r"/> suivans :</p>
             <p>(<choice>
                   <abbr>N. B.</abbr>
                   <expan>Nota Bene</expan>
                </choice> Insérer le passage du <ref target="Laibach_Prot_4.xml">Journal <choice>
-                     <abbr>N<hi rendition="#su">o</hi>
-                            </abbr>
+                     <abbr>N<hi rendition="#su">o</hi></abbr>
                      <expan>Numéro</expan>
                   </choice>
-                  <sic>10</sic>
-                    </ref>, commençant par les mots : <hi rendition="#u">La révolution de
-                     <country>Naples</country>
-                    </hi> – et finissant par les mots : <hi rendition="#u">leur tranquillité future</hi>).</p>
-            <p>À cet exposé franc et sincère des vues et des dispositions des <rs ref="#p.16 #p.17 #p.18">Souverains alliés</rs>, on a ajouté la déclaration <ref target="Laibach_Prot_4.xml">
-                        <quote>« que si, pour combler les malheurs du
+                  <choice>
+                     <sic>10</sic>
+                     <corr>4</corr>
+                  </choice></ref>, commençant par les mots : <hi rendition="#u">La révolution de
+                     <country>Naples</country></hi> – et finissant par les mots : <hi rendition="#u"
+                  >leur tranquillité future</hi>).</p>
+            <p>À cet exposé franc et sincère des vues et des dispositions des <rs
+                  ref="#p.16 #p.17 #p.18">Souverains alliés</rs>, on a ajouté la déclaration <ref
+                  target="Laibach_Prot_4.xml"><quote>« que si, pour combler les malheurs du
                         <country>Royaume des Deux-Siciles</country>, cette dernière tentative
                      restait infructueuse ; si la voix de <choice>
                         <abbr>S. M</abbr>
@@ -728,89 +626,91 @@
                      </choice> le <rs ref="#p.138">Roi</rs> n’était pas écoutée, et qu’il n’y eût
                      plus d’espoir de vaincre par les conseils de la sagesse et de la bienveillance
                      les égaremens d’un aveugle fanatisme ou les suggestions perfides de quelques
-                     hommes criminels, il ne resterait alors aux <rs ref="#p.16 #p.18 #p.17">Souverains alliés</rs> que d’employer la force des armes pour donner effet
+                     hommes criminels, il ne resterait alors aux <rs ref="#p.16 #p.18 #p.17"
+                        >Souverains alliés</rs> que d’employer la force des armes pour donner effet
                      à leur détermination invariable de faire<pb n="48v"/> cesser l’état des choses
                      que les événemens du mois de Juillet dernier ont amené dans le Royaume des
-                     deux-Siciles »</quote>
-                    </ref>.</p>
-            <p>
-                    <rs ref="#p.138">
-                        <choice>
+                     deux-Siciles »</quote></ref>.</p>
+            <p><rs ref="#p.138"><choice>
                      <abbr>S. M.</abbr>
                      <expan>Sa Majesté</expan>
-                  </choice> Sicilienne</rs> a été invitée en même tems à faire connaître aux <rs ref="#p.8 #p.2 #p.12 #p.13 #p.14 #p.7">Plénipotentiaires des <rs ref="#p.16 #p.18 #p.17">Souverains alliés</rs>
-                    </rs> les mesures qu’Elle
+                  </choice> Sicilienne</rs> a été invitée en même tems à faire connaître aux <rs
+                  ref="#p.8 #p.2 #p.12 #p.13 #p.14 #p.7">Plénipotentiaires des <rs
+                     ref="#p.16 #p.18 #p.17">Souverains alliés</rs></rs> les mesures qu’Elle
                jugerait convenable de prendre pour prévenir les nouveaux désastres qui menacent son
                Royaume, et pour seconder le vœu bien sincère des Souverains d’y voir rétablir
                l’ordre et la paix et de le ramener au sein de l’alliance européenne.</p>
-            <p>
-                    <rs ref="#p.138">Sa Majesté</rs>, à la suite de cette déclaration, a fait adresser à
+            <p><rs ref="#p.138">Sa Majesté</rs>, à la suite de cette déclaration, a fait adresser à
                la conférence des Plénipotentiaires un nouveau message, portant : </p>
-            <quote xml:id="q01">
-               <p>« Que connaissant enfin dans toute leur étendue les principes et les intentions
-                  des <rs ref="#p.16 #p.18 #p.17">Souverains alliés</rs> relativement aux affaires
-                     de<pb n="49r"/> son Royaume, ne pouvant se faire aucune illusion, ni conserver
-                  aucun doute sur la situation dans laquelle il est placé ; voyant que les
-                  Souverains regardent l’état de choses que les événemens du mois de Juillet ont
-                  amené dans le <country>Royaume des deux-Siciles</country> comme incompatible avec
-                  la sécurité des pays voisins et avec la tranquillité générale de l’Europe, au
-                  maintien de laquelle Ils se sentent également liés par leurs devoirs envers leurs
-                  sujets et par des engagemens solennels ; ayant appris leur détermination
-                  invariable de faire cesser cet état de choses, soit par les voies de la
-                  persuasion, soit par la force des armes, si cette dernière ressource devenait
-                  malheureusement nécessaire ; instruit, en outre, par les délibérations qui ont eu
-                  lieu à <placeName ref="#loc.60">Troppau</placeName> que<pb n="49v"/> les
-                  Souverains ont adopté cette détermination à la suite d’un mûr examen de toutes les
-                  questions d’un intérêt général qui s’y rapportaient, et que par conséquent Ils ne
-                  s’engageraient pas dans des discussions qui tendraient à leur faire adopter un
-                  point de vue entièrement différent ; réunissant toutes ces considérations, <rs ref="#p.138">Sa <choice>
-                        <abbr>M<hi rendition="#su">té</hi>
-                                </abbr>
-                        <expan>Majesté</expan>
-                     </choice>
-                        </rs> devait nécessairement reconnaître l’inutilité, ou plutôt
-                  l’impossibilité absolue d’une négociation fondée sur des bases irrévocablement
-                  rejetées par les <rs ref="#p.16 #p.18 #p.17">Souverains alliés</rs> ; et qu’Elle
-                  chercherait en vain de se dissimuler que le seul et dernier service que, dans ces
-                  circonstances, Elle pouvait rendre à Ses peuples, était celui de les préserver du
-                  fléau d’une guerre qui mettrait le comble aux malheurs dont ils sont
-                  accablés ;</p>
-               <p>Que placé ainsi entre le danger de les livrer à de nouvelles calamités<pb n="50r"/> et la nécessité de les engager à renoncer par un désaveu prompt et complet aux
-                  changemens politiques qui s’étaient opérés dans le Royaume depuis le <date when="1820-07-02">2 Juillet</date>, le <rs ref="#p.138">Roi</rs> ne pouvait pas
-                  balancer un moment ; qu’Il était décidé à embrasser la dernière alternative, avec
-                  la conviction de pouvoir répondre à Dieu et à Sa conscience du parti qu’Il prenait
-                  dans une position aussi difficile et pénible, et avec la ferme persuasion que
-                  quelque pût être le dénouement de cette crise, Ses <rs ref="#p.16 #p.18 #p.17">augustes alliés</rs> désirant eux-mêmes d’épuiser les voies de conciliation
-                  pour éviter les mesures coercitives ou pour en légitimer l’emploi, ne Lui
-                  refuseraient dans aucun cas leurs conseils et leurs secours ;</p>
-               <p>Que le <rs ref="#p.138">Roi</rs> pouvait se flatter encore que l’immense majorité
-                  de ses sujets ne serait pas sourde à sa voix paternelle, et plutôt que de<pb n="50v"/> se jeter dans un abyme de dangers Lui confierait le soin de veiller à
-                  leurs intérêts pour les réconcilier avec leurs voisins et avec l’Europe, et pour
-                  leur préparer un avenir plus heureux ;</p>
-               <p>Que guidé par de si puissans motifs, le <rs ref="#p.138">Roi</rs> se proposait
-                  d’adresser à son fils, le <rs ref="#p.141">Duc de Calabre</rs>, une lettre par
-                  laquelle Il lui ferait connaître sa propre position, les déterminations des <rs ref="#p.16 #p.18 #p.17">Souverains alliés</rs> et les périls auxquels le
-                  Royaume serait infailliblement exposé si on persistait à soutenir ce qui
-                  dorénavant ne pourrait conduire qu’aux plus funestes extrémités ; que devant
-                  toutefois se borner dans cette Lettre au langage simple et concis que l’urgence du
-                  moment et les circonstances critiques dans lesquelles Il se trouvait Lui
-                  dicteraient envers Son fils, <rs ref="#p.138">Sa<pb n="51r"/>
-                     <choice>
-                        <abbr>M<hi rendition="#su">té</hi>
-                                </abbr>
-                        <expan>Majesté</expan>
-                     </choice>
-                        </rs> espérait que ses <rs ref="#p.16 #p.18 #p.17">augustes
-                     alliés</rs> voudraient bien seconder ses efforts et appuyer la démarche qu’Il
-                  allait faire en adressant à leurs agens diplomatiques à <placeName ref="#p.11">Naples</placeName> une instruction précise, conçue dans le même sens, et en
-                  leur fournissant toutes les informations dont ils pourraient faire usage pour
-                  coopérer à l’heureux résultat qui mettrait un terme aux peines de <rs ref="#p.138">Sa Majesté</rs> et aux souffrances de ses fidèles sujets. »</p>
+            <quote>
+               <p><ref target="Laibach_Prot_5.xml">« Que connaissant enfin dans toute leur étendue
+                     les principes et les intentions des <rs ref="#p.16 #p.18 #p.17">Souverains
+                        alliés</rs> relativement aux affaires de<pb n="49r"/> son Royaume, ne
+                     pouvant se faire aucune illusion, ni conserver aucun doute sur la situation
+                     dans laquelle il est placé ; voyant que les Souverains regardent l’état de
+                     choses que les événemens du mois de Juillet ont amené dans le <country>Royaume
+                        des deux-Siciles</country> comme incompatible avec la sécurité des pays
+                     voisins et avec la tranquillité générale de l’Europe, au maintien de laquelle
+                     Ils se sentent également liés par leurs devoirs envers leurs sujets et par des
+                     engagemens solennels ; ayant appris leur détermination invariable de faire
+                     cesser cet état de choses, soit par les voies de la persuasion, soit par la
+                     force des armes, si cette dernière ressource devenait malheureusement
+                     nécessaire ; instruit, en outre, par les délibérations qui ont eu lieu à
+                        <placeName ref="#loc.60">Troppau</placeName> que<pb n="49v"/> les Souverains
+                     ont adopté cette détermination à la suite d’un mûr examen de toutes les
+                     questions d’un intérêt général qui s’y rapportaient, et que par conséquent Ils
+                     ne s’engageraient pas dans des discussions qui tendraient à leur faire adopter
+                     un point de vue entièrement différent ; réunissant toutes ces considérations,
+                        <rs ref="#p.138">Sa <choice>
+                           <abbr>M<hi rendition="#su">té</hi></abbr>
+                           <expan>Majesté</expan>
+                        </choice></rs> devait nécessairement reconnaître l’inutilité, ou plutôt
+                     l’impossibilité absolue d’une négociation fondée sur des bases irrévocablement
+                     rejetées par les <rs ref="#p.16 #p.18 #p.17">Souverains alliés</rs> ; et
+                     qu’Elle chercherait en vain de se dissimuler que le seul et dernier service
+                     que, dans ces circonstances, Elle pouvait rendre à Ses peuples, était celui de
+                     les préserver du fléau d’une guerre qui mettrait le comble aux malheurs dont
+                     ils sont accablés ;</ref></p>
+               <p><ref target="Laibach_Prot_5.xml">Que placé ainsi entre le danger de les livrer à
+                     de nouvelles calamités<pb n="50r"/> et la nécessité de les engager à renoncer
+                     par un désaveu prompt et complet aux changemens politiques qui s’étaient opérés
+                     dans le Royaume depuis le <date when="1820-07-02">2 Juillet</date>, le <rs
+                        ref="#p.138">Roi</rs> ne pouvait pas balancer un moment ; qu’Il était décidé
+                     à embrasser la dernière alternative, avec la conviction de pouvoir répondre à
+                     Dieu et à Sa conscience du parti qu’Il prenait dans une position aussi
+                     difficile et pénible, et avec la ferme persuasion que quelque pût être le
+                     dénouement de cette crise, Ses <rs ref="#p.16 #p.18 #p.17">augustes alliés</rs>
+                     désirant eux-mêmes d’épuiser les voies de conciliation pour éviter les mesures
+                     coercitives ou pour en légitimer l’emploi, ne Lui refuseraient dans aucun cas
+                     leurs conseils et leurs secours ;</ref></p>
+               <p><ref target="Laibach_Prot_5.xml">Que le <rs ref="#p.138">Roi</rs> pouvait se
+                     flatter encore que l’immense majorité de ses sujets ne serait pas sourde à sa
+                     voix paternelle, et plutôt que de<pb n="50v"/> se jeter dans un abyme de
+                     dangers Lui confierait le soin de veiller à leurs intérêts pour les réconcilier
+                     avec leurs voisins et avec l’Europe, et pour leur préparer un avenir plus
+                     heureux ;</ref></p>
+               <p><ref target="Laibach_Prot_5.xml">Que guidé par de si puissans motifs, le <rs
+                        ref="#p.138">Roi</rs> se proposait d’adresser à son fils, le <rs
+                        ref="#p.141">Duc de Calabre</rs>, une lettre par laquelle Il lui ferait
+                     connaître sa propre position, les déterminations des <rs
+                        ref="#p.16 #p.18 #p.17">Souverains alliés</rs> et les périls auxquels le
+                     Royaume serait infailliblement exposé si on persistait à soutenir ce qui
+                     dorénavant ne pourrait conduire qu’aux plus funestes extrémités ; que devant
+                     toutefois se borner dans cette Lettre au langage simple et concis que l’urgence
+                     du moment et les circonstances critiques dans lesquelles Il se trouvait Lui
+                     dicteraient envers Son fils, <rs ref="#p.138">Sa<pb n="51r"/>
+                        <choice>
+                           <abbr>M<hi rendition="#su">té</hi></abbr>
+                           <expan>Majesté</expan>
+                        </choice></rs> espérait que ses <rs ref="#p.16 #p.18 #p.17">augustes
+                        alliés</rs> voudraient bien seconder ses efforts et appuyer la démarche
+                     qu’Il allait faire en adressant à leurs agens diplomatiques à <placeName
+                        ref="#loc.11">Naples</placeName> une instruction précise, conçue dans le
+                     même sens, et en leur fournissant toutes les informations dont ils pourraient
+                     faire usage pour coopérer à l’heureux résultat qui mettrait un terme aux peines
+                     de <rs ref="#p.138">Sa Majesté</rs> et aux souffrances de ses fidèles
+                     sujets. »</ref></p>
             </quote>
-            <note place="foot" xml:id="ftn136" n="136">
-                    <p rend="footnote text">
-                  <hi rend="italic">Vgl. Dokument Nr. 5.</hi>
-                    </p>
-                </note>
             <p>À la suite de ce message, le <rs ref="#p.138">Roi</rs> a fait communication de la
                lettre qu’Il adresse à <choice>
                   <abbr>S. A. R.</abbr>
@@ -822,20 +722,14 @@
                </choice> le <rs ref="#p.141">Duc de Calabre</rs>, et <rs xml:id="n.6">dont vous
                   trouverez ci-joint la copie</rs>.<note type="editorial" target="#n.6">Schreiben
                   liegt nicht ein; vgl. aber dazu <ref decls="#m.7">Anlage 6</ref>, den
-                  vertraulichen Brief des Königs an seinen Sohn sowie <ref target="Laibach_Prot_6.xml">Dokument Nr. 6, Anlage</ref>.</note>
-                </p>
-            <p>
-                    <ref target="Laibach_Prot_7.xml">
-                        <rs ref="#p.138">
-                            <choice>
+                  vertraulichen Brief des Königs an seinen Sohn sowie <ref
+                     target="Laibach_Prot_6.xml">Dokument Nr. 6, Anlage</ref>.</note></p>
+            <p><ref target="Laibach_Prot_7.xml"><rs ref="#p.138"><choice>
                         <abbr>S. M.</abbr>
                         <expan>Sa Majesté</expan>
-                     </choice>
-                        </rs> a annoncé en même tems qu’Elle jugeait utile sous plusieurs
-                  rapports d’appeler le <persName ref="#p.142">
-                            <roleName>Duc</roleName>
-                     <surname>de Gallo</surname>
-                        </persName> auprès de Sa personne</ref>, pour que la
+                     </choice></rs> a annoncé en même tems qu’Elle jugeait utile sous plusieurs
+                  rapports d’appeler le <persName ref="#p.142"><roleName>Duc</roleName>
+                     <surname>de Gallo</surname></persName> auprès de Sa personne</ref>, pour que la
                Conférence des Plénipotentiaires lui fasse connaître directement<pb n="51v"/> les
                déterminations des <rs ref="#p.16 #p.18 #p.17">Souverains alliés</rs> qui ont motivé
                la démarche du <rs ref="#p.138">Roi</rs>, et pour qu’il puisse en rendre compte à <choice>
@@ -849,49 +743,43 @@
                la démarche du <rs ref="#p.138">Roi</rs> envers le <rs ref="#p.141">Prince</rs> son
                fils, nous vous ordonnons :</p>
             <p>1) De faire connaitre et de certifier à <choice>
-                  <abbr>S. A. R<hi rendition="#su">le</hi>
-                        </abbr>
+                  <abbr>S. A. R<hi rendition="#su">le</hi></abbr>
                   <expan>Son Altesse Royale</expan>
                </choice>
                <choice>
                   <abbr>Mgr</abbr>
                   <expan>Monseigneur</expan>
-               </choice> le <rs ref="#p.141">Duc de Calabre</rs> que les déterminations des <rs ref="#p.16 #p.18 #p.17">souverains alliés</rs> sont en tout conformes à la lettre
+               </choice> le <rs ref="#p.141">Duc de Calabre</rs> que les déterminations des <rs
+                  ref="#p.16 #p.18 #p.17">souverains alliés</rs> sont en tout conformes à la lettre
                que vient de lui adresser le <rs ref="#p.138">Roi</rs> Son père ;</p>
-            <p>2) De déclarer que c’est<pb n="52r"/> maintenant à <rs ref="#p.141">
-                        <choice>
+            <p>2) De déclarer que c’est<pb n="52r"/> maintenant à <rs ref="#p.141"><choice>
                      <abbr>S. A. R.</abbr>
                      <expan>Son Altesse Royale</expan>
-                  </choice>
-                    </rs> à juger et apprécier, et à faire juger et apprécier par ceux
+                  </choice></rs> à juger et apprécier, et à faire juger et apprécier par ceux
                qu’Elle admettra à ses conseils, d’une part les avantages qu’un désaveu spontané des
                événemens du <date when="1820-07-02">2 Juillet</date>, et des résultats qu’ils ont
                eus, offrirait au <country>Royaume des deux-Siciles</country> ; de l’autre part les
                calamités inévitables auxquelles ce Royaume serait livré par le refus d’obtempérer à
                la voix paternelle de son <rs ref="#p.138">Roi</rs> ;</p>
-            <p>3) De représenter à <rs ref="#p.141">
-                        <choice>
+            <p>3) De représenter à <rs ref="#p.141"><choice>
                      <abbr>S. A. R.</abbr>
                      <expan>Son Altesse Royale</expan>
-                  </choice>
-                    </rs> combien il est urgent d’aviser aux moyens les plus promptes et les
+                  </choice></rs> combien il est urgent d’aviser aux moyens les plus promptes et les
                plus convenables pour faire cesser la situation affligeante dans laquelle se trouve
                ce Royaume tant par les convulsions qui agitent son intérieur que par les dangers qui
                le menacent au dehors.</p>
             <p>Vous ferez communication de la présente Dépêche à <choice>
                   <abbr>Mgr</abbr>
                   <expan>Monseigneur</expan>
-               </choice>
-                    <pb n="52v"/> le <rs ref="#p.141">Duc de Calabre</rs>, en assurant <choice>
+               </choice><pb n="52v"/> le <rs ref="#p.141">Duc de Calabre</rs>, en assurant <choice>
                   <abbr>S. A. R.</abbr>
                   <expan>Son Altesse Royale</expan>
                </choice> que les <rs ref="#p.16 #p.18 #p.17">Souverains alliés</rs> joignent bien
-               sincèrement leurs vœux à ceux de son auguste père, pour que la démarche de <rs ref="#p.138">
-                        <choice>
+               sincèrement leurs vœux à ceux de son auguste père, pour que la démarche de <rs
+                  ref="#p.138"><choice>
                      <abbr>S. M.</abbr>
                      <expan>Sa Majesté</expan>
-                  </choice>
-                    </rs> produise le plus heureux effet, prévienne tout mesure de rigueur
+                  </choice></rs> produise le plus heureux effet, prévienne tout mesure de rigueur
                que les Souverains n’adopteraient qu’avec un profond regret, et rétablisse le plus
                promptement possible l’ordre et la paix dans le <country>Royaume des
                   deux-Siciles</country>.</p>
@@ -899,11 +787,8 @@
 
          <div hand="#A" decls="#m.3">
             <pb n="54r"/>
-            <p>
-                    <add place="top">B</add>
-                </p>
-            <p>
-                    <title>Dépêche de <choice>
+            <p><add place="top">B</add></p>
+            <p><title>Dépêche de <choice>
                      <abbr>MM</abbr>
                      <expan>Messieurs</expan>
                   </choice>
@@ -911,18 +796,13 @@
                      <abbr>M</abbr>
                      <expan>Monsieur</expan>
                   </choice>
-                  <persName ref="#p.162">
-                            <surname>de Fontenay</surname>
-                        </persName>, Chargé
-                  d’affaires de France à <placeName ref="#loc.11">Naples</placeName>
-                    </title>
-                </p>
-            <p>
-                    <placeName ref="#loc.65">Laybach</placeName> le <date when="1821-01-31">31 Janvier
-                  1821</date>
-                </p>
-            <p>Nous vous envoyons, Monsieur, <rs xml:id="n.7">la copie de la lettre</rs>
-                    <note type="editorial" target="#n.7">Schreiben liegt nicht ein; vgl. aber dazu <ref decls="#m.7">Anlage 6</ref>, den vertraulichen Brief des Königs an seinen Sohn
+                  <persName ref="#p.162"><surname>de Fontenay</surname></persName>, Chargé
+                  d’affaires de France à <placeName ref="#loc.11">Naples</placeName></title></p>
+            <p><placeName ref="#loc.65">Laybach</placeName> le <date when="1821-01-31">31 Janvier
+                  1821</date></p>
+            <p>Nous vous envoyons, Monsieur, <rs xml:id="n.7">la copie de la lettre</rs><note
+                  type="editorial" target="#n.7">Schreiben liegt nicht ein; vgl. aber dazu <ref
+                     decls="#m.7">Anlage 6</ref>, den vertraulichen Brief des Königs an seinen Sohn
                   sowie <ref target="Laibach_Prot_6.xml">Dokument Nr. 6, Anlage</ref>.</note> que
                   <rs ref="#p.138">Sa Majesté Sicilienne</rs> adresse à <choice>
                   <abbr>S. A. R.</abbr>
@@ -930,9 +810,7 @@
                </choice> le <rs ref="#p.141">Duc de Calabre</rs>, pour Lui faire part du résultat de
                Ses démarches près des <rs ref="#p.16 #p.18 #p.17">Souverains alliés</rs>, et Lui
                faire connaître Leurs résolutions.</p>
-            <p>
-                    <rs ref="#p.138">
-                        <choice>
+            <p><rs ref="#p.138"><choice>
                      <abbr>S. M.</abbr>
                      <expan>Sa Majesté</expan>
                   </choice> Sicilienne</rs> ayant désiré que le contenu de sa Lettre fût appuyé et
@@ -940,12 +818,10 @@
                   <placeName ref="#loc.11">Naples</placeName>, il a été rédigé des instructions
                communes pour les <rs ref="#p.144 #p.148 #p.149">Ministres d’Autriche, de Russie et
                   de Prusse</rs>.</p>
-            <p>
-                    <rs xml:id="n.8">Nous joignons ici la copie de ces instructions</rs>
-                    <note type="editorial" target="#n.8">Vgl. Anlage 1.</note> auxquelles nous avons pris
-               sur nous d’adhérer, et nous vous invitons, <rs ref="#p.162">Monsieur</rs>, à vous
-               concerter avec <rs ref="#p.144 #p.148 #p.149">les Ministres de ces trois Cours</rs>
-               pour arriver au but que l’on se propose d’atteindre.</p>
+            <p><ref decls="#m.2">Nous joignons ici la copie de ces instructions</ref> auxquelles
+               nous avons pris sur nous d’adhérer, et nous vous invitons, <rs ref="#p.162"
+                  >Monsieur</rs>, à vous concerter avec <rs ref="#p.144 #p.148 #p.149">les Ministres
+                  de ces trois Cours</rs> pour arriver au but que l’on se propose d’atteindre.</p>
             <p>Les ordres que nous avons reçus du <rs ref="#p.15">Roi</rs>, notre Maître, sont
                d’employer tous les moyens de la persuasion<pb n="54v"/> pour épargner à la nation
                napolitaine les maux d’une guerre qui serait inévitable si les factieux parvenaient à
@@ -955,124 +831,104 @@
                   <placeName ref="#loc.65">Laybach</placeName> ; nous connaissons d’ailleurs les
                intentions paternelles du <rs ref="#p.138">Roi de Naples</rs>, nous savons que le
                premier de ses vœux est de détourner de ses peuples les malheurs inséparables de la
-               guerre, et que <rs ref="#p.138">
-                        <choice>
+               guerre, et que <rs ref="#p.138"><choice>
                      <abbr>S. M.</abbr>
                      <expan>Sa Majesté</expan>
                   </choice> Sicilienne</rs> n’attend que le moment où Elle pourra s’entourer des
                plus sages et des plus habiles parmi ses fidèles sujets pour s’éclairer de leurs
                lumières et donner à la nation un régime intérieur qui assure sa prospérité future et
                inspire une juste sécurité aux<pb n="55r"/> Etats voisins.</p>
-            <p>Nous connaissons également les sentimens de modération qui animent <rs ref="#p.16 #p.18 #p.17">les Souverains</rs>, et nous croyons remplir les
+            <p>Nous connaissons également les sentimens de modération qui animent <rs
+                  ref="#p.16 #p.18 #p.17">les Souverains</rs>, et nous croyons remplir les
                intentions du <rs ref="#p.15">Roi</rs> en nous unissant aux démarches de ses augustes
                alliés lorsqu’elles ont pour objet d’épuiser les voies de la conciliation en faveur
                du <rs ref="#p.138">Roi</rs> et du <country>Royaume de Naples</country> ; c’est dans
                le même esprit et pour que vos démarches soient dirigées vers le même but que nous
-               vous engageons, <rs ref="#p.162">Monsieur</rs>, à vous unir à <rs ref="#p.144 #p.148 #p.149">ceux de vos collègues, à qui ces instructions seront
+               vous engageons, <rs ref="#p.162">Monsieur</rs>, à vous unir à <rs
+                  ref="#p.144 #p.148 #p.149">ceux de vos collègues, à qui ces instructions seront
                   envoyées</rs>.</p>
          </div>
 
          <div hand="#A" decls="#m.4">
             <pb n="56r"/>
-            <p>
-                    <add place="top">C</add>
-                </p>
-            <p>
-                    <title>Dépêche à <choice>
-                     <abbr>M<hi rendition="#su">r</hi>
-                            </abbr>
+            <p><add place="top">C</add></p>
+            <p><title>Dépêche à <choice>
+                     <abbr>M<hi rendition="#su">r</hi></abbr>
                      <expan>Monsieur</expan>
-                  </choice> le <persName ref="#p.149">
-                            <roleName>Comte</roleName>
-                     <surname>de Stackelberg</surname>
-                        </persName>, qui sera expédiée avec les
+                  </choice> le <persName ref="#p.149"><roleName>Comte</roleName>
+                     <surname>de Stackelberg</surname></persName>, qui sera expédiée avec les
                   instructions communes que doivent recevoir les <rs ref="#p.144 #p.148">Ministres
-                     et Agens des Cours Alliées résidans à <placeName ref="#loc.11">Naples</placeName>
-                        </rs>
-                    </title>
-                </p>
-            <p>
-                    <placeName ref="#loc.65">Laybach</placeName> le <date when="1821-01-31">31 Janvier
+                     et Agens des Cours Alliées résidans à <placeName ref="#loc.11"
+                        >Naples</placeName></rs></title></p>
+            <p><placeName ref="#loc.65">Laybach</placeName> le <date when="1821-01-31">31 Janvier
                   1821</date>.</p>
-            <p>
-                    <rs ref="#p.149">Monsieur le Comte</rs>,</p>
-            <p>L’<rs ref="#p.17">Empereur</rs> a été satisfait d’apprendre que <rs ref="#p.149">
-                        <choice>
+            <p>Monsieur le Comte,</p>
+            <p>L’<rs ref="#p.17">Empereur</rs> a été satisfait d’apprendre que <rs ref="#p.149"><choice>
                      <abbr>V. Ex.</abbr>
                      <expan>Votre Excellence</expan>
-                  </choice>
-                    </rs> se soit décidée à rester à <placeName ref="#loc.11">Naples</placeName> jusqu’à l’arrivée de <choice>
-                  <abbr>M<hi rendition="#su">r</hi>
-                        </abbr>
+                  </choice></rs> se soit décidée à rester à <placeName ref="#loc.11"
+                  >Naples</placeName> jusqu’à l’arrivée de <choice>
+                  <abbr>M<hi rendition="#su">r</hi></abbr>
                   <expan>Monsieur</expan>
-               </choice> le Conseiller d’Etat actuel <persName ref="#p.163">
-                        <surname>d’Oubril</surname>
-                    </persName>. Ce dernier n’ayant pu se rendre
-               jusqu’à présent à sa destination, nous espérons que cette dépêche <rs ref="#p.149">Vous</rs> trouvera encore à Votre poste, et que ce sera au zèle et aux talens de
-                  <rs ref="#p.149">
-                        <choice>
+               </choice> le Conseiller d’Etat actuel <persName ref="#p.163"
+                     ><surname>d’Oubril</surname></persName>. Ce dernier n’ayant pu se rendre
+               jusqu’à présent à sa destination, nous espérons que cette dépêche Vous trouvera
+               encore à Votre poste, et que ce sera au zèle et aux talens de <rs ref="#p.149"><choice>
                      <abbr>V. Ex.</abbr>
                      <expan>Votre Excellence</expan>
-                  </choice>
-                    </rs> que l’<rs ref="#p.17">Empereur</rs> devra l’heureuse et fidèle
-               exécution des ordres que renferme l’<rs xml:id="n.9">instruction ci-jointe</rs>,<note type="editorial" target="#n.9">Vgl. Anlage 1.</note> arrêtée par le Congrès de
-                  <placeName ref="#loc.65">Laybach</placeName>, et que reçoivent tous <rs ref="#p.144 #p.149">les Ministres et agens des Cours Alliées résidans à <placeName ref="#loc.11">Naples</placeName>
-                    </rs>.</p>
+                  </choice></rs> que l’<rs ref="#p.17">Empereur</rs> devra l’heureuse et fidèle
+               exécution des ordres que renferme l’<ref decls="#m.2">instruction ci-jointe</ref>,
+               arrêtée par le Congrès de <placeName ref="#loc.65">Laybach</placeName>, et que
+               reçoivent tous <rs ref="#p.144 #p.149">les Ministres et agens des Cours Alliées
+                  résidans à <placeName ref="#loc.11">Naples</placeName></rs>.</p>
             <p>Cette instruction contient l’exposé des délibérations du<pb n="56v"/> Congrès sur les
                moyens de réconcilier <country>Naples</country> avec les Puissances amies du bien et
                de l’ordre et garantes du système de paix et d’union qui règle aujourd’hui les
                rapports politiques de tous les Etats Européens.</p>
             <p>Nous nous dispenserons de Vous signaler ici plus particulièrement le but que ces
-               Puissances se proposent. Vous en jugerez, <rs ref="#p.149">
-                        <choice>
-                     <abbr>M<hi rendition="#su">r</hi>
-                            </abbr>
+               Puissances se proposent. Vous en jugerez, <rs ref="#p.149"><choice>
+                     <abbr>M<hi rendition="#su">r</hi></abbr>
                      <expan>Monsieur</expan>
                   </choice> le Comte</rs>, dès que Vous aurez pris lecture des instructions qui Vous
                sont adressées, et Vous Vous convaincrez sans peine que la seule intention des Cours
                Alliées est d’engager les Napolitains à profiter spontanément des moyens de
                conciliation qu’elles leur offrent et à préparer, par un acte de sagesse et de
                confiance, le salut et le bonheur de leur patrie.</p>
-            <p>
-                    <rs ref="#p.149">
-                        <choice>
+            <p><rs ref="#p.149"><choice>
                      <abbr>V. Ex.</abbr>
                      <expan>Votre Excellence</expan>
-                  </choice>
-                    </rs> voudra bien observer<pb n="57r"/> dans l’exécution des instructions
+                  </choice></rs> voudra bien observer<pb n="57r"/> dans l’exécution des instructions
                mentionnées ci-dessus la marche suivante.</p>
             <p>En portant leur contenu à la connoissance de <choice>
                   <abbr>Mgr.</abbr>
                   <expan>Monseigneur</expan>
-               </choice> le <rs ref="#p.141">Prince héréditaire</rs>, Vous êtes invité, <rs ref="#p.149">
-                        <choice>
-                     <abbr>M<hi rendition="#su">r</hi>
-                            </abbr>
+               </choice> le <rs ref="#p.141">Prince héréditaire</rs>, Vous êtes invité, <rs
+                  ref="#p.149"><choice>
+                     <abbr>M<hi rendition="#su">r</hi></abbr>
                      <expan>Monsieur</expan>
-                  </choice> le Comte</rs>, à mettre sous les yeux de <rs ref="#p.141">
-                        <choice>
+                  </choice> le Comte</rs>, à mettre sous les yeux de <rs ref="#p.141"><choice>
                      <abbr>S. A. R.</abbr>
                      <expan>Son Altesse Royale</expan>
-                  </choice>
-                    </rs> l’original du <rs xml:id="n.10">rescrit que Vous avez reçu de <rs ref="#p.17">Sa Majesté Impériale</rs> sous la date du 10/<date when="1820-11-22">22 Novembre</date>
-                    </rs>,<note type="editorial" target="#n.10">Vgl. Anlage 4.</note> ainsi que les explications supplémentaires que l’<rs ref="#p.17">Empereur</rs> nous ordonne d’y joindre dans la présente dépêche.</p>
+                  </choice></rs> l’original du <ref decls="#m.5">rescrit que Vous avez reçu de <rs
+                     ref="#p.17">Sa Majesté Impériale</rs> sous la date du 10/<date
+                     when="1820-11-22">22 Novembre</date></ref>, ainsi que les explications
+               supplémentaires que l’<rs ref="#p.17">Empereur</rs> nous ordonne d’y joindre dans la
+               présente dépêche.</p>
             <p>Il appartiendra à <choice>
                   <abbr>Mgr.</abbr>
                   <expan>Monseigneur</expan>
                </choice> le <rs ref="#p.141">Duc de Calabre</rs> de faire de ces communications
-               l’usage que <rs ref="#p.141">
-                        <choice>
+               l’usage que <rs ref="#p.141"><choice>
                      <abbr>S. A. R.</abbr>
                      <expan>Son Altesse Royale</expan>
-                  </choice>
-                    </rs> jugera le plus propre à assurer le succès de la haute mission que
+                  </choice></rs> jugera le plus propre à assurer le succès de la haute mission que
                lui confie <rs ref="#p.138">Son Auguste Père</rs>, d’après le vœu unanimement exprimé
                par le Congrès de <placeName ref="#loc.65">Laybach</placeName>.</p>
-            <p>
-                    <rs xml:id="n.11">Les malheureux événemens<pb n="57v"/> du <date when="1820-07-02">2</date> et du <date when="1820-07-06">6 Juillet</date>
-                    </rs>
-                    <note type="editorial" target="#n.11">Am <date when="1820-07-02">2. Juli 1820</date>
-                  meuterte die Militärgarnison in Nola, 35 km von <placeName ref="#loc.11">Neapel</placeName> entfernt. Das Datum gilt als Beginn der Revolution im
+            <p><rs xml:id="n.11">Les malheureux événemens<pb n="57v"/> du <date when="1820-07-02"
+                     >2</date> et du <date when="1820-07-06">6 Juillet</date></rs><note
+                  type="editorial" target="#n.11">Am <date when="1820-07-02">2. Juli 1820</date>
+                  meuterte die Militärgarnison in Nola, 35 km von <placeName ref="#loc.11"
+                     >Neapel</placeName> entfernt. Das Datum gilt als Beginn der Revolution im
                      <country>Königreich beider Sizilien</country>. Am <date when="1820-07-06">6.
                      Juli 1820</date> entschloss sich der neapolitanische Hof, die Verfassung von
                   Cádiz anzunehmen. Vgl. Stites, The four Horsemen; Davis, Naples and Napoleon; Gin,
@@ -1087,7 +943,8 @@
                Médiateur dont l’intervention pût amener, sous les auspices de la paix, un heureux
                accord entre les intérêts du <country>Royaume des Deux-Siciles</country>, la
                tranquillité intérieure des autres Etats de<pb n="58r"/> la Péninsule Italienne et la
-               sécurité extérieure, assurée à tous les Etats Européens par le <rs ref="#t.12 #t.9 #t.6 #t.1 #t.42">pacte d’Alliance et d’amitié</rs> qui les
+               sécurité extérieure, assurée à tous les Etats Européens par le <rs
+                  ref="#t.12 #t.9 #t.6 #t.1 #t.42">pacte d’Alliance et d’amitié</rs> qui les
                unit.</p>
             <p>Une partie des espérances, conçues à cet égard par les Puissances Alliées, s’est
                réalisée. Elles se sont félicitées de voir que le <rs ref="#p.138">Roi</rs> ait
@@ -1140,27 +997,21 @@
                opéreroit à <country>Naples</country> ce que la raison n’auroit pas réussi à
                produire. Elle y rétabliroit le pouvoir du <rs ref="#p.138">Roi</rs> ; et sans porter
                atteinte ni à l’intégrité territoriale, ni à l’indépendance de ses Etats, elle
-               prêteroit son appui à <rs ref="#p.138">
-                        <choice>
+               prêteroit son appui à <rs ref="#p.138"><choice>
                      <abbr>S. M.</abbr>
                      <expan>Sa Majesté</expan>
-                  </choice>
-                    </rs> pour déjouer à jamais les complots de tous les artisans de troubles
+                  </choice></rs> pour déjouer à jamais les complots de tous les artisans de troubles
                et de malheurs.</p>
             <p>Si l’armée qui va accomplir cette entreprise d’intérêt commun et général n’étoit pas
-               suffisante, <rs ref="#p.149">
-                        <choice>
+               suffisante, <rs ref="#p.149"><choice>
                      <abbr>V. Ex.</abbr>
                      <expan>Votre Excellence</expan>
-                  </choice>
-                    </rs> annoncera que <rs ref="#p.17">notre Auguste<pb n="61r"/>
+                  </choice></rs> annoncera que <rs ref="#p.17">notre Auguste<pb n="61r"/>
                   Maître</rs> a fait déclarer à <rs ref="#p.16 #p.18">Ses Alliés</rs> qu’Il leur
                offriroit le secours de Ses propres forces, et qu’elles se mettroient aussitôt en
                mouvement.</p>
-            <p>Telles sont, <rs ref="#p.149">
-                        <choice>
-                     <abbr>M<hi rendition="#su">r</hi>
-                            </abbr>
+            <p>Telles sont, <rs ref="#p.149"><choice>
+                     <abbr>M<hi rendition="#su">r</hi></abbr>
                      <expan>Monsieur</expan>
                   </choice> le Comte</rs>, les instructions complémentaires que <rs ref="#p.17">Sa
                   Majesté Impériale</rs> nous charge de Vous transmettre et dont Elle Vous autorise
@@ -1168,15 +1019,15 @@
                   <abbr>Mgr.</abbr>
                   <expan>Monseigneur</expan>
                </choice> le <rs ref="#p.141">Duc de Calabre</rs>.</p>
-            <p>Nous ne parlerons plus du service éminent que <rs ref="#p.141">
-                        <choice>
+            <p>Nous ne parlerons plus du service éminent que <rs ref="#p.141"><choice>
                      <abbr>S. A. R.</abbr>
                      <expan>Son Altesse Royale</expan>
-                  </choice>
-                    </rs> rendroit au <country>Royaume des Deux-Siciles</country> et à
+                  </choice></rs> rendroit au <country>Royaume des Deux-Siciles</country> et à
                l’Europe, en portant les Napolitains aux déterminations qui leur épargneroient les
-               calamités d’une guerre, et nous nous contenterons de Vous prévenir d’ordre de l’<rs ref="#p.17">Empereur</rs> que par le succès de Vos démarches<pb n="61v"/> Vous
-               aurez bien mérité de Votre pays et acquis un droit réel à la gratitude de <rs ref="#p.17">Sa Majesté Impériale</rs>.</p>
+               calamités d’une guerre, et nous nous contenterons de Vous prévenir d’ordre de l’<rs
+                  ref="#p.17">Empereur</rs> que par le succès de Vos démarches<pb n="61v"/> Vous
+               aurez bien mérité de Votre pays et acquis un droit réel à la gratitude de <rs
+                  ref="#p.17">Sa Majesté Impériale</rs>.</p>
             <p>Recevez <choice>
                   <abbr>etc.</abbr>
                   <expan>et cetera</expan>
@@ -1184,31 +1035,23 @@
                <choice>
                   <abbr>etc.</abbr>
                   <expan>et cetera</expan>
-               </choice>
-                </p>
+               </choice></p>
          </div>
 
          <div hand="#A" decls="#m.5">
             <pb n="62r"/>
-            <p>
-                    <add hand="#W" place="top">Sous-Annèxe de la Lettre C.</add>
-                </p>
+            <p><add hand="#W" place="top">Sous-Annèxe de la Lettre C.</add></p>
 
-            <p>
-                    <title>Copie du Rescrit au <persName ref="#p.149">
-                            <roleName>Comte</roleName>
-                     <surname>de Stackelberg</surname>
-                        </persName>
-                    </title>
-                </p>
-            <p>Donné à <placeName ref="#loc.60">Troppau</placeName>, le 10/<date when="1810-11-22">22 Novembre</date> 1820.</p>
-            <p>Monsieur le Conseiller privé actuel, <persName ref="#p.149">
-                        <roleName>Comte</roleName>
-                  <surname>de Stackelberg</surname>
-                    </persName>
-                </p>
+            <p><title>Copie du Rescrit au <persName ref="#p.149"><roleName>Comte</roleName>
+                     <surname>de Stackelberg</surname></persName></title></p>
+            <p>Donné à <placeName ref="#loc.60">Troppau</placeName>, le 10/<date when="1810-11-22"
+                  >22 Novembre</date> 1820.</p>
+            <p>Monsieur le Conseiller privé actuel, <persName ref="#p.149"
+                     ><roleName>Comte</roleName>
+                  <surname>de Stackelberg</surname></persName></p>
             <p>La commission spéciale dont je vais Vous charger aujourd’hui et que Vous remplirez de
-               concert avec <rs ref="#p.144 #p.148">les autres ministres</rs> des <rs ref="#p.16 #p.18 #p.17">Souverains alliés</rs> auprès de <choice>
+               concert avec <rs ref="#p.144 #p.148">les autres ministres</rs> des <rs
+                  ref="#p.16 #p.18 #p.17">Souverains alliés</rs> auprès de <choice>
                   <abbr>S. M.</abbr>
                   <expan>Sa Majesté</expan>
                </choice> le <rs ref="#p.138">Roi des deux-Siciles</rs> embrasse les plus graves
@@ -1220,7 +1063,8 @@
                de l’Europe à un pacte de solidarité dont le but est d’assurer à chacun d’eux son
                intégrité territoriale, son indépendance politique et sa tranquillité intérieure.
                   Ce<pb n="62v"/> bienfait, acheté au prix des plus sanglans sacrifices, doit être
-               conservé, et il le sera. L’Europe en avait trouvé le gage dans les grandes <rs ref="#t.37 #t.13 #t.12 #t.1 #t.6 #t.9 #t.42">transactions des années 1814,
+               conservé, et il le sera. L’Europe en avait trouvé le gage dans les grandes <rs
+                  ref="#t.37 #t.13 #t.12 #t.1 #t.6 #t.9 #t.42">transactions des années 1814,
                      <supplied>18</supplied>15, et <supplied>18</supplied>18</rs>. Elle le trouvera
                maintenant dans une détermination irrévocable que les Puissances alliées viennent de
                prendre et de signer. Cet engagement solennel est celui de déployer tous les moyens
@@ -1230,21 +1074,18 @@
             <p>Ces moyens sont d’abord les voies de la persuasion et de la conciliation, ensuite
                celles de la force si la force devenait nécessaire.</p>
             <p>Vous êtes appelé à exécuter les premières de ces mesures de salut commun. Pour
-                  remplir<pb n="63r"/> cette mission importante, Vous remettrez à <rs ref="#p.138">
-                        <choice>
+                  remplir<pb n="63r"/> cette mission importante, Vous remettrez à <rs ref="#p.138"><choice>
                      <abbr>S. M.</abbr>
                      <expan>Sa Majesté</expan>
                   </choice> Sicilienne</rs>
-               <rs xml:id="n.12">la lettre ci-jointe</rs>
-                    <note type="editorial" target="#n.12">Anlage liegt nicht ein; vgl. <ref target="Troppau_Prot_4.xml">Edition Troppau,
+               <rs xml:id="n.12">la lettre ci-jointe</rs><note type="editorial" target="#n.12"
+                  >Anlage liegt nicht ein; vgl. <ref target="Troppau_Prot_4.xml">Edition Troppau,
                      Dokument Nr. 4, Anlage 3</ref>.</note> qui l’invite à se rendre dans la ville
                de <placeName ref="#loc.65">Laybach</placeName>, où seront réunis les Cabinets
-               alliés ; et Vous ne négligerez aucun soin pour que <rs ref="#p.138">
-                        <choice>
+               alliés ; et Vous ne négligerez aucun soin pour que <rs ref="#p.138"><choice>
                      <abbr>S. M.</abbr>
                      <expan>Sa Majesté</expan>
-                  </choice>
-                    </rs> accepte une proposition dictée par l’amitié la plus franche et la
+                  </choice></rs> accepte une proposition dictée par l’amitié la plus franche et la
                plus sincère. Si le <rs ref="#p.138">Roi</rs> défère aux vœux de Ses alliés, s’il se
                rend à <placeName ref="#loc.65">Laybach</placeName>, environné des personnes qu’il
                jugera devoir honorer de Sa confiance, les voies de la conciliation obtiendront,
@@ -1259,14 +1100,14 @@
                succèderont pour eux aux secousses révolutionnaires et aux malheurs qu’elles
                perpétuent.</p>
             <p>Mais plus on considère <rs xml:id="n.13">les événemens du <date when="1820-07-02">2
-                     Juillet</date>
-                    </rs>
-                    <note type="editorial" target="#n.13">Am <date when="1820-07-02">2. Juli 1820</date> meuterte die Militärgarnison in Nola, 35
+                     Juillet</date></rs><note type="editorial" target="#n.13">Am <date
+                     when="1820-07-02">2. Juli 1820</date> meuterte die Militärgarnison in Nola, 35
                   km von <placeName ref="#loc.11">Neapel</placeName> entfernt. Das Datum gilt als
                   Beginn der Revolution im <country>Königreich beider Sizilien</country>. Vgl.
                   Stites, The four Horsemen; Davis, Naples and Napoleon; Gin, Sanfedisti, Carbonari,
                   Magistrati del Re; Späth, Revolution in Europa, S. 129–149.</note> et les
-               conséquences qu’ils ont entrainées, et plus on reconnait que le <rs ref="#p.138">Souverain</rs> lui-même peut seul interposer sa médiation entre un pays qui s’est
+               conséquences qu’ils ont entrainées, et plus on reconnait que le <rs ref="#p.138"
+                  >Souverain</rs> lui-même peut seul interposer sa médiation entre un pays qui s’est
                constitué en état d’hostilité contre l’Europe par les malheurs dont il la menace, et
                cette Europe armée pour conjurer les dangers auxquels l’exposent les suites d’un
                aussi fatal exemple.</p>
@@ -1275,7 +1116,8 @@
                Européenne, cette alliance de paix et de concorde, destinée à épargner les maux de la
                guerre au monde civilisé.</p>
             <p>Dans la seconde alternative, si les Conseils de la bienveillance étaient méconnus, si
-               l’obstination coupable de quelques hommes pervers entravait le départ du <rs ref="#p.138">Roi</rs>, ce serait à la force des armes que les Puissances alliées
+               l’obstination coupable de quelques hommes pervers entravait le départ du <rs
+                  ref="#p.138">Roi</rs>, ce serait à la force des armes que les Puissances alliées
                se trouveraient obligées de recourir, car elles ne sauroient ni sacrifier leur propre
                sureté aux intérêts criminels des artisans de discorde qui oppriment
                   <country>Naples</country> et son <rs ref="#p.138">Roi</rs>, ni souffrir que le
@@ -1292,22 +1134,27 @@
                de les employer, elles les employeront néanmoins si le salut général le leur
                commande.</p>
             <pb n="65r"/>
-            <p>Telles seront les considérations que Vous développerez avec franchise au <rs ref="#p.138">Roi</rs>, ainsi qu’aux personnes qui auront acquis des titres à Votre
-               estime et dont l’opinion pourra influer favorablement sur les décisions de <rs ref="#p.138">Sa Majesté</rs>.</p>
+            <p>Telles seront les considérations que Vous développerez avec franchise au <rs
+                  ref="#p.138">Roi</rs>, ainsi qu’aux personnes qui auront acquis des titres à Votre
+               estime et dont l’opinion pourra influer favorablement sur les décisions de <rs
+                  ref="#p.138">Sa Majesté</rs>.</p>
             <p>Dites-leur qu’à cette démarche est attaché le sort de leur patrie ; qu’il dépend
                d’eux encore de la réconcilier avec elle-même et avec le monde sans troubler la paix,
                mais qu’il faut pour cela avant tout que le <rs ref="#p.138">Roi</rs> accepte la
                proposition des <rs ref="#p.16 #p.18 #p.17">monarques alliés</rs>.</p>
-            <p>Il est possible qu’on Vous observe que parmi les Puissances qui adressent au <rs ref="#p.138">Roi</rs> une invitation commune on ne compte point encore
+            <p>Il est possible qu’on Vous observe que parmi les Puissances qui adressent au <rs
+                  ref="#p.138">Roi</rs> une invitation commune on ne compte point encore
                   l’<country>Angleterre</country> et la <country>France</country>.</p>
             <p>La réponse est facile et simple : Les <rs ref="#p.130 #p.15">Rois d’Angleterre et de
-                  France</rs> ne sont pas présens<pb n="65v"/> à <placeName ref="#loc.60">Troppau</placeName> et n’ont pu y déléguer les principaux membres de leurs
+                  France</rs> ne sont pas présens<pb n="65v"/> à <placeName ref="#loc.60"
+                  >Troppau</placeName> et n’ont pu y déléguer les principaux membres de leurs
                Cabinets. Mais l’<country>Autriche</country>, la <country>Prusse</country> et la
                   <country>Russie</country> connoissent les vues de <rs ref="#p.130 #p.15">ces deux
                   monarques</rs>. La <country>France</country> coopérera aux mesures qu’exige le
                repos de l’Europe. Le sien lui en fait la loi, et ses engagemens lui en imposent même
                le devoir. Elle a reconnu comme nécessaires à l’affermissement de ses institutions
-                  <rs ref="#t.1 #t.6 #t.9">les garanties concertées à cet effet en 1815</rs> et <rs ref="#t.42">celles qui ont succédé en 1818</rs> à son admission dans l’alliance
+                  <rs ref="#t.1 #t.6 #t.9">les garanties concertées à cet effet en 1815</rs> et <rs
+                  ref="#t.42">celles qui ont succédé en 1818</rs> à son admission dans l’alliance
                générale. Le but que les Puissances avoient atteint alors est celui qu’elles veulent
                atteindre à présent. Les lieux seuls ont changé, le système ne variera jamais.
                L’adhésion de la <country>France</country> parait donc complèttement indubitable.
@@ -1320,8 +1167,7 @@
             <p>Toutefois, je me plais à le répéter, elles préféreraient un arrangement amical,
                effectué sous les auspices du <rs ref="#p.138">Roi</rs>. Ne laissez aucun doute sur
                la réalité de leurs intentions bienveillantes. Mais si une méfiance impossible à
-               justifier fait rejeter la proposition qu’elles envoyent à <rs ref="#p.138">
-                        <choice>
+               justifier fait rejeter la proposition qu’elles envoyent à <rs ref="#p.138"><choice>
                      <abbr>S. M.</abbr>
                      <expan>Sa Majesté</expan>
                   </choice> Sicilienne</rs>, si le Gouvernement de <country>Naples</country>,
@@ -1329,7 +1175,8 @@
                   personne<pb n="66v"/> dans cette grave conjoncture, cherche cependant à le
                détourner de l’unique dessein que puisse lui suggérer son amour pour Ses peuples,
                témoignez hautement que la plus terrible des responsabilités pèsera sur la tête et
-               sur l’honneur non seulement des hommes qui auront dissuadé le <rs ref="#p.138">Roi</rs> de partir, mais encore de ceux qui n’auront pas usé de toute leur
+               sur l’honneur non seulement des hommes qui auront dissuadé le <rs ref="#p.138"
+                  >Roi</rs> de partir, mais encore de ceux qui n’auront pas usé de toute leur
                influence pour hâter son départ.</p>
             <p>Dans cette triste hypothèse une armée formidable se mettrait en mouvement. La guerre
                aurait lieu, le <country>Royaume des Deux-Siciles</country> en supporterait le poids,
@@ -1343,62 +1190,41 @@
 
          <div hand="#A" decls="#m.6">
             <pb n="68r"/>
-            <p>
-                    <add place="top">D</add>
-                </p>
-            <p>
-                    <title>Dépêche au <persName ref="#p.149">
-                            <roleName>Comte</roleName>
-                     <surname>de Stackelberg</surname>
-                        </persName> à <hi rendition="#u">
-                            <placeName ref="#loc.11">Naples</placeName>
-                        </hi>
-                    </title>
-                </p>
+            <p><add place="top">D</add></p>
+            <p><title>Dépêche au <persName ref="#p.149"><roleName>Comte</roleName>
+                     <surname>de Stackelberg</surname></persName> à <hi rendition="#u"><placeName
+                        ref="#loc.11">Naples</placeName></hi></title></p>
             <p>in simili :</p>
             <p>à <choice>
                   <abbr>Mr.</abbr>
                   <expan>Monsieur</expan>
                </choice>
-               <persName ref="#p.144">
-                        <surname>de Mentz</surname>
-                    </persName>
-                </p>
-            <p>au <persName ref="#p.148">
-                        <roleName>Baron</roleName>
-                  <surname>de Ramdohr</surname>
-                    </persName>
-                </p>
-            <p>
-                    <placeName ref="#loc.65">Laybach</placeName>, le <date when="1821-01-31">
-                        <add hand="#W" place="inspace">31 Janvier</add> 1821</date>.</p>
-            <p>Aux instructions que nous transmettons à <rs ref="#p.149">
-                        <choice>
+               <persName ref="#p.144"><surname>de Mentz</surname></persName></p>
+            <p>au <persName ref="#p.148"><roleName>Baron</roleName>
+                  <surname>de Ramdohr</surname></persName></p>
+            <p><placeName ref="#loc.65">Laybach</placeName>, le <date when="1821-01-31"><add
+                     hand="#W" place="inspace">31 Janvier</add> 1821</date>.</p>
+            <p>Aux instructions que nous transmettons à <rs ref="#p.149"><choice>
                      <abbr>V. Exc.</abbr>
                      <expan>Votre Excellence</expan>
-                  </choice>
-                    </rs> par notre dépêche principale de ce jour se trouve jointe une
-               traduction de la lettre ostensible que <rs ref="#p.138">
-                        <choice>
+                  </choice></rs> par notre dépêche principale de ce jour se trouve jointe une
+               traduction de la lettre ostensible que <rs ref="#p.138"><choice>
                      <abbr>S. M.</abbr>
                      <expan>Sa Majesté</expan>
-                  </choice> Sicilienne</rs> adresse à <rs ref="#p.141">Son auguste fils</rs>. <rs ref="#p.138">
-                        <choice>
+                  </choice> Sicilienne</rs> adresse à <rs ref="#p.141">Son auguste fils</rs>. <rs
+                  ref="#p.138"><choice>
                      <abbr>S. M.</abbr>
                      <expan>Sa Majesté</expan>
-                  </choice>
-                    </rs> lui en écrit <rs xml:id="n.14">une seconde qui n’est que
+                  </choice></rs> lui en écrit <ref decls="#m.7">une seconde qui n’est que
                   confidentielle et dont nous croyons devoir Vous communiquer également la
-                  teneur</rs>. <note type="editorial" target="#n.14">Vgl. Anlage 6.</note> Le <rs ref="#p.138">Roi</rs> s’y explique sur la nature de la garantie à laquelle il
-               s’est vu obligé de consentir parcequ’elle lui a été demandée par Ses alliés dans
-               l’intérêt général de la Péninsule Italienne. Ce gage indispensable de la tranquillité
-               de l’Italie seroit la présence temporaire d’une armée d’occupation qui n’entreroit
-               dans les Etats de <rs ref="#p.138">
-                        <choice>
+                  teneur</ref>. Le <rs ref="#p.138">Roi</rs> s’y explique sur la nature de la
+               garantie à laquelle il s’est vu obligé de consentir parcequ’elle lui a été demandée
+               par Ses alliés dans l’intérêt général de la Péninsule Italienne. Ce gage
+               indispensable de la tranquillité de l’Italie seroit la présence temporaire d’une
+               armée d’occupation qui n’entreroit dans les Etats de <rs ref="#p.138"><choice>
                      <abbr>S. M.</abbr>
                      <expan>Sa Majesté</expan>
-                  </choice>
-                    </rs> qu’au nom des Puissances, décidées à ne pas laisser subsister plus
+                  </choice></rs> qu’au nom des Puissances, décidées à ne pas laisser subsister plus
                longtemps à <country>Naples</country> un régime<pb n="68v"/> imposé par la révolte,
                et attentatoire à la sécurité de tous les Etats voisins. Cette armée se trouveroit
                sous les ordres du <rs ref="#p.138">Roi</rs> ; l’occupation ne seroit jamais qu’une
@@ -1406,64 +1232,54 @@
                l’indépendance politique du <country>Royaume des Deux-Siciles</country>.</p>
             <p>Le <rs ref="#p.138">Roi</rs> a jugé convenable de prévenir <rs ref="#p.141">son
                   fils</rs> de la nécessité d’une occupation temporaire, mais il a abandonné à sa
-               prudence l’usage que <rs ref="#p.141">
-                        <choice>
+               prudence l’usage que <rs ref="#p.141"><choice>
                      <abbr>S. A. R</abbr>
                      <expan>Son Altesse Royale</expan>
-                  </choice>
-                    </rs> croiroit devoir faire de cette information. Si <choice>
+                  </choice></rs> croiroit devoir faire de cette information. Si <choice>
                   <abbr>Mgr.</abbr>
                   <expan>Monseigneur</expan>
                </choice> le <rs ref="#p.141">Duc de Calabre</rs> pense qu’elle puisse hâter ou
-               faciliter le succès de la mission que <rs ref="#p.138">
-                        <choice>
+               faciliter le succès de la mission que <rs ref="#p.138"><choice>
                      <abbr>S. M.</abbr>
                      <expan>Sa Majesté</expan>
                   </choice> Sicilienne</rs> lui confie, il est chargé de la communiquer aux hommes
-               qu’il honore de sa confiance, ou à ceux sur qui la nouvelle de cette mesure<pb n="69r"/> produiroit une impression salutaire. Dans tout autre cas, <rs ref="#p.141">
-                        <choice>
+               qu’il honore de sa confiance, ou à ceux sur qui la nouvelle de cette mesure<pb
+                  n="69r"/> produiroit une impression salutaire. Dans tout autre cas, <rs
+                  ref="#p.141"><choice>
                      <abbr>S. A. R.</abbr>
                      <expan>Son Altesse Royale</expan>
-                  </choice>
-                    </rs> est autorisée par <rs ref="#p.138">Son auguste père</rs> à tenir
+                  </choice></rs> est autorisée par <rs ref="#p.138">Son auguste père</rs> à tenir
                secrets les renseignemens qu’Elle reçoit.</p>
-            <p>Quant à Vous, <rs ref="#p.149">
-                        <choice>
+            <p>Quant à Vous, <rs ref="#p.149"><choice>
                      <abbr>Mr.</abbr>
                      <expan>Monsieur</expan>
                   </choice> le Comte</rs>, Vous voudrez-bien avertir <choice>
                   <abbr>Mgr.</abbr>
                   <expan>Monseigneur</expan>
                </choice> le <rs ref="#p.141">Duc de Calabre</rs> que Vous êtes instruit de la
-               détermination prise sous ce rapport par les Puissances alliées. Si <rs ref="#p.141">
-                        <choice>
+               détermination prise sous ce rapport par les Puissances alliées. Si <rs ref="#p.141"><choice>
                      <abbr>S. A. R.</abbr>
                      <expan>Son Altesse Royale</expan>
-                  </choice>
-                    </rs> Vous engage à la rendre publique, Vous Vous conformerez à Ses
+                  </choice></rs> Vous engage à la rendre publique, Vous Vous conformerez à Ses
                intentions et Vous pourrez en ce cas expliquer facilement la marche immédiate de
                l’armée et rassurer les esprits à <country>Naples</country>, en faisant connoître
                avec franchise et le vrai but et le caractère de l’occupation. Cependant, si <choice>
                   <abbr>Mgr.</abbr>
                   <expan>Monseigneur</expan>
                </choice> le <rs ref="#p.141">Duc de Calabre</rs> jugeoit plus prudent de garder le
-               silence sur cette garantie, <rs ref="#p.149">
-                        <choice>
+               silence sur cette garantie, <rs ref="#p.149"><choice>
                      <abbr>V. Exc.</abbr>
                      <expan>Votre Excellence</expan>
-                  </choice>
-                    </rs> suivroit facilement l’exemple de <rs ref="#p.141">
-                        <choice>
+                  </choice></rs> suivroit facilement l’exemple de <rs ref="#p.141"><choice>
                      <abbr>S. A. R.</abbr>
                      <expan>Son Altesse Royale</expan>
-                  </choice>
-                    </rs>.</p>
+                  </choice></rs>.</p>
             <pb n="69v"/>
             <p>Il nous reste à Vous prévenir que, d’après les explications qui viennent d’avoir lieu
                entre les Cabinets alliés, aucune contribution de guerre ne seroit imposée au
-                  <country>Royaume des Deux-Siciles</country> au cas qu’un désaveu spontané <rs xml:id="n.15">des événemens du <date when="1820-07-02">2</date> et du <date when="1820-07-06">6 Juillet</date>
-                    </rs>
-                    <note type="editorial" target="#n.15">Am
+                  <country>Royaume des Deux-Siciles</country> au cas qu’un désaveu spontané <rs
+                  xml:id="n.15">des événemens du <date when="1820-07-02">2</date> et du <date
+                     when="1820-07-06">6 Juillet</date></rs><note type="editorial" target="#n.15">Am
                      <date when="1820-07-02">2. Juli 1820</date> meuterte die Militärgarnison in
                   Nola, 35 km von <placeName ref="#loc.11">Neapel</placeName> entfernt. Das Datum
                   gilt als Beginn der Revolution im <country>Königreich beider Sizilien</country>.
@@ -1479,65 +1295,51 @@
                Vous êtes autorisé à instruire <choice>
                   <abbr>Mgr.</abbr>
                   <expan>Monseigneur</expan>
-               </choice> le <rs ref="#p.141">Duc de Calabre</rs> de ce qui a été résolu à <placeName ref="#loc.65">Laybach</placeName> par rapport à l’absence ou à la nécessité
+               </choice> le <rs ref="#p.141">Duc de Calabre</rs> de ce qui a été résolu à <placeName
+                  ref="#loc.65">Laybach</placeName> par rapport à l’absence ou à la nécessité
                   d’une<pb n="70r"/> contribution de guerre. La connoissance de ce fait sera sans
-               doute utile à <rs ref="#p.141">
-                        <choice>
+               doute utile à <rs ref="#p.141"><choice>
                      <abbr>S. A. R.</abbr>
                      <expan>Son Altesse Royale</expan>
-                  </choice>
-                    </rs> pour présenter dans toute leur étendue les avantages qu’offre aux
+                  </choice></rs> pour présenter dans toute leur étendue les avantages qu’offre aux
                Napolitains la preuve de confiance que le <rs ref="#p.138">Roi</rs> leur demande : Il
                dépendra du <rs ref="#p.141">Prince</rs> de donner aux résolutions des Puissances
-               alliées à cet égard une entière publicité ou de les laisser ignorer, selon que <rs ref="#p.141">
-                        <choice>
+               alliées à cet égard une entière publicité ou de les laisser ignorer, selon que <rs
+                  ref="#p.141"><choice>
                      <abbr>S. A. R.</abbr>
                      <expan>Son Altesse Royale</expan>
-                  </choice>
-                    </rs> le trouvera plus conforme aux intérêts du <rs ref="#p.138">Roi</rs>
+                  </choice></rs> le trouvera plus conforme aux intérêts du <rs ref="#p.138">Roi</rs>
                et de Ses peuples.</p>
             <p>Cependant comme il y a une grande différence entre publier une mesure et en convenir,
                si Vous étiez interrogé par des Napolitains tant sur la question d’une occupation
                transitoire que sur les moyens d’épargner au pays une contribution de guerre, il
                seroit indigne d’une politique loyale de dissimuler, sous l’un et l’autre de ces
-               rapports, les déterminations<pb n="70v"/> des Puissances, et <rs ref="#p.149">
-                        <choice>
+               rapports, les déterminations<pb n="70v"/> des Puissances, et <rs ref="#p.149"><choice>
                      <abbr>V. Exc.</abbr>
                      <expan>Votre Excellence</expan>
-                  </choice>
-                    </rs> n’hésiteroit point dans cette hypothèse à faire connoître la
+                  </choice></rs> n’hésiteroit point dans cette hypothèse à faire connoître la
                vérité.</p>
-            <p>Recevez <supplied>...</supplied>
-                </p>
+            <p>Recevez <supplied>...</supplied></p>
          </div>
 
          <div hand="#A" decls="#m.7">
             <pb n="72r"/>
-            <p>
-                    <title>Carissimo <rs ref="#p.141">Figlio</rs>
-                    </title>,</p>
+            <p><title>Carissimo Figlio</title>,</p>
             <p>Nella lettera ostensibile che oggi vi scrivo, vi prevengo che nel caso anche in cui
                fossero adempiti i voti dei <rs ref="#p.16 #p.18 #p.17">Monarchi</rs>, miei Alleati,
                in favore del mantenimento della pace, essi esiggono alcune garanzie giudicate
                necessarie alla tranquillità degli stati vicini. Mi rimane a dirvi che i Monarchi per
-                  t<damage agent="paper_damage">
-                        <supplied>ali</supplied>
-                    </damage> garanzie
-               intendono, che <damage agent="paper_damage">
-                        <supplied>al</supplied>
-                    </damage> oggetto
-               di facilitare le mi<damage agent="paper_damage">
-                        <supplied>sure</supplied>
-                    </damage>
-               indispensabili pel ristabilime<damage agent="paper_damage">
-                        <supplied>nto</supplied>
-                    </damage> dell’ordine, un Corpo d’Armata arrivando con
+                  t<damage agent="paper_damage"><supplied>ali</supplied></damage> garanzie
+               intendono, che <damage agent="paper_damage"><supplied>al</supplied></damage> oggetto
+               di facilitare le mi<damage agent="paper_damage"><supplied>sure</supplied></damage>
+               indispensabili pel ristabilime<damage agent="paper_damage"
+                  ><supplied>nto</supplied></damage> dell’ordine, un Corpo d’Armata arrivando con
                intenzioni pacifiche ed amichevoli, unicamente destinato a mantener la tranquillità,
                e dipendente dai miei ordini, sia situato nel Regno per un tempo determinato, come
-               verrà <damage agent="paper_damage">
-                        <unclear reason="paper_damage">regolato</unclear>
-                    </damage> da una convenzione particolare.</p>
-            <p>Mi sono riservato<pb n="72v"/> di farvi conoscere questa intenzione dei <rs ref="#p.16 #p.18 #p.17">Sovrani Alleati</rs> per mezzo della presente lettera
+               verrà <damage agent="paper_damage"><unclear reason="paper_damage"
+                  >regolato</unclear></damage> da una convenzione particolare.</p>
+            <p>Mi sono riservato<pb n="72v"/> di farvi conoscere questa intenzione dei <rs
+                  ref="#p.16 #p.18 #p.17">Sovrani Alleati</rs> per mezzo della presente lettera
                confidenziale, a fine di lasciarvi l’opportunità di farne uso, sia verso le persone
                che già posseggono la vostra fiducia, sia verso chiunque da voi ne sarà giudicato
                degno, o di manifestarla benanche apertamente qualora credeste che la pubblicità
@@ -1550,24 +1352,16 @@
          <div hand="#W" decls="#m.8">
             <pb n="73r"/>
 
-            <p>
-                    <add place="top">E</add>
-                </p>
-            <p>
-                    <title>Dépêche de <choice>
+            <p><add place="top">E</add></p>
+            <p><title>Dépêche de <choice>
                      <abbr>M</abbr>
                      <expan>Monsieur</expan>
-                  </choice> le <persName ref="#p.8">
-                            <roleName>Prince</roleName>
-                     <surname>de Metternich</surname>
-                        </persName> au <persName ref="#p.144">
-                            <roleName>Sieur</roleName>
-                     <surname>Menz</surname>
-                        </persName>, Chargé d’affaires d’Autriche à <placeName ref="#loc.11">Naples</placeName>
-                    </title>
-                </p>
-            <p>
-                    <placeName ref="#loc.65">Laibach</placeName> le <date when="1821-01-31">31 Janvier
+                  </choice> le <persName ref="#p.8"><roleName>Prince</roleName>
+                     <surname>de Metternich</surname></persName> au <persName ref="#p.144"
+                        ><roleName>Sieur</roleName>
+                     <surname>Menz</surname></persName>, Chargé d’affaires d’Autriche à <placeName
+                     ref="#loc.11">Naples</placeName></title></p>
+            <p><placeName ref="#loc.65">Laibach</placeName> le <date when="1821-01-31">31 Janvier
                   1821</date>.</p>
             <p>Monsieur</p>
             <p>La dépêche précédente étant non seulement ostensible pour <choice>
@@ -1579,16 +1373,16 @@
             <p>Vous recevez l’ordre exprès de l’<rs ref="#p.16">Empereur</rs> de vous tenir, sans
                aucune déviation, sur la ligne suivante ; la seule qui peut être conforme aux
                intentions de Sa Majesté Impériale et à la nature des décisions des alliés.</p>
-            <p>1<hi rendition="#su">o</hi> Vous êtes chargé purement et simplement <hi rendition="#u">d’une commission</hi> limitée à un objet explicite, et non d’une
+            <p>1<hi rendition="#su">o</hi> Vous êtes chargé purement et simplement <hi
+                  rendition="#u">d’une commission</hi> limitée à un objet explicite, et non d’une
                négociation.</p>
             <p>Cette commission se borne à remettre à <choice>
                   <abbr>Mgr</abbr>
                   <expan>Monseigneur</expan>
                </choice> le <rs ref="#p.141">Duc de Calabre</rs>
-               <rs xml:id="n.16">la dépêche ostensible</rs>
-                    <note type="editorial" target="#n.16">Vgl. Anlage 5.</note> que je vous adresse, à lui faire sentir avec instance la
-               nécessité que les paroles paternelles du <rs ref="#p.138">Roi</rs> et les
-               déterminations invariables des<pb n="73v"/>
+               <ref decls="#m.6">la dépêche ostensible</ref> que je vous adresse, à lui faire sentir
+               avec instance la nécessité que les paroles paternelles du <rs ref="#p.138">Roi</rs>
+               et les déterminations invariables des<pb n="73v"/>
                <rs ref="#p.16 #p.18 #p.17">monarques alliés</rs> soyent portées à la connaissance de
                la nation Napolitaine afin de l’éclairer sur les dangers qui la menacent d’une
                manière irrémédiable si, au lieu d’écouter la voix du <rs ref="#p.138">Roi</rs>, elle
@@ -1599,33 +1393,36 @@
                devait s’en présenter, la conscience du <rs ref="#p.141">successeur au trône</rs>,
                appelé à la plus sainte comme à la plus utile des fonctions, à celle de seconder par
                tous les moyens en son pouvoir les intentions du <rs ref="#p.138">Roi</rs>, son
-               auguste Père, d’épargner par là à sa patrie des chances de malheur placées hors de<pb n="74r"/> tout calcul humain, de préparer ainsi, par le fait même de la
+               auguste Père, d’épargner par là à sa patrie des chances de malheur placées hors de<pb
+                  n="74r"/> tout calcul humain, de préparer ainsi, par le fait même de la
                soumission, un avenir plus prospère au <rs ref="#p.138">Roi</rs> régnant, à Lui-même
                en sa qualité d’héritier présomptif du trône, et aux peuples, au milieu desquels il
                se trouve placé aujourd’hui comme le premier sujet du <rs ref="#p.138">Roi</rs> son
                père.</p>
-            <p>
-                    <hi rendition="#u">Les moyens</hi> pour arriver au but que le <rs ref="#p.138">Roi</rs> et <rs ref="#p.16 #p.18 #p.17">les monarques</rs>, ses alliés, regardent
-               comme pouvant être seul conforme à leurs vœux les plus chers étant du ressort de <rs ref="#p.141">son Altesse Royale</rs>, ce sera à vous à les seconder franchement,
+            <p><hi rendition="#u">Les moyens</hi> pour arriver au but que le <rs ref="#p.138"
+                  >Roi</rs> et <rs ref="#p.16 #p.18 #p.17">les monarques</rs>, ses alliés, regardent
+               comme pouvant être seul conforme à leurs vœux les plus chers étant du ressort de <rs
+                  ref="#p.141">son Altesse Royale</rs>, ce sera à vous à les seconder franchement,
                mais ce n’est pas aux agens des Puissances à les dicter. Le premier et le plus sûr de
                ces moyens devra être la plus grande publicité à donner <rs xml:id="n.17">à la lettre
-                  du <rs ref="#p.138">Roi</rs> à <rs ref="#p.141">son fils</rs>
-                    </rs>
-                    <note type="editorial" target="#n.17">Anlage liegt nicht ein. Vgl. <ref target="Laibach_Prot_6.xml">Dokument Nr 6, Anlage</ref>.</note> et <rs xml:id="n.18">à la teneur des instructions</rs>
-                    <note type="editorial" target="#n.18">Vgl. Anlage 1.</note> que les trois<pb n="74v"/> Cours transmettent
-               aujourd’hui <rs ref="#p.144 #p.148 #p.149">à leurs représentans à <placeName ref="#loc.11">Naples</placeName>
-                    </rs>. Ce sera toutefois au <rs ref="#p.141">Prince</rs> qu’il devra appartenir de choisir le meilleur et le plus utile des
-               modes de publicité, et la responsabilité de ce choix ne devra jamais peser sur
-               vous.</p>
+                  du <rs ref="#p.138">Roi</rs> à <rs ref="#p.141">son fils</rs></rs><note
+                  type="editorial" target="#n.17">Anlage liegt nicht ein. Vgl. <ref
+                     target="Laibach_Prot_6.xml">Dokument Nr 6, Anlage</ref>.</note> et <ref
+                  decls="#m.2">à la teneur des instructions</ref> que les trois<pb n="74v"/> Cours
+               transmettent aujourd’hui <rs ref="#p.144 #p.148 #p.149">à leurs représentans à
+                     <placeName ref="#loc.11">Naples</placeName></rs>. Ce sera toutefois au <rs
+                  ref="#p.141">Prince</rs> qu’il devra appartenir de choisir le meilleur et le plus
+               utile des modes de publicité, et la responsabilité de ce choix ne devra jamais peser
+               sur vous.</p>
             <p>Vous vouerez en conséquence les soins les plus scrupuleux à éviter que par aucune
                nuance de votre conduite <hi rendition="#u">personnelle</hi> vous puissiez être
-               compromis ; vous vous concerterez sur toutes vos démarches avec <rs ref="#p.148 #p.149">Messieurs les Ministres et Chargés d’affaires des Cours
+               compromis ; vous vous concerterez sur toutes vos démarches avec <rs
+                  ref="#p.148 #p.149">Messieurs les Ministres et Chargés d’affaires des Cours
                   alliées</rs>, et vous ferez valoir vis-à-vis d’eux la présente instruction
                réservée, en ne vous écartant jamais de ses dispositions précises.</p>
             <p>Le parti que la malveillance a tiré <rs xml:id="n.19">des Conférences qui ont eu lieu
-                  le <date when="1820-12-06">6 décembre dernier</date>
-                    </rs>
-                    <note type="editorial" target="#n.19">Am <date when="1820-12-06">6. Dezember 1820</date> fand keine
+                  le <date when="1820-12-06">6 décembre dernier</date></rs><note type="editorial"
+                  target="#n.19">Am <date when="1820-12-06">6. Dezember 1820</date> fand keine
                   Konferenz in <placeName ref="#loc.60">Troppau</placeName> statt. Möglicherweise
                   liegt eine Verwechslung mit der Sitzung vom <date when="1820-12-07">7.
                      Dezember</date> vor; vgl. <ref target="Troppau_Prot_5.xml">Troppau, Dokument
@@ -1638,137 +1435,107 @@
                personnelle. S’il devait s’en présenter une, vous vous retireriez avec les individus
                attachés à la mission à bord des vaisseaux alliés, stationnés dans la rade de
                   <placeName ref="#loc.11">Naples</placeName>.</p>
-            <p>Je vous envoye ci-joint la copie d’une <rs xml:id="n.20">Lettre Confidentielle que le
+            <p>Je vous envoye ci-joint la copie d’une <ref decls="#m.7">Lettre Confidentielle que le
                      <rs ref="#p.138">Roi</rs> adresse à <rs ref="#p.141">Son auguste
-                  fils</rs>
-                    </rs>
-                    <note type="editorial" target="#n.20">Vgl. Anlage 6.</note> en même
+                  fils</rs></ref> en même
                tems que celle jointe en copie à ma dépêche précédente. Cette lettre porte un
                caractère réservé ; vous verrez cependant que sa<pb n="75v"/> publication est
                abandonnée au jugement de <rs ref="#p.141">Son Altesse Royale</rs>. L’ensemble des
                directions que renferme la présente dépêche porte donc sur l’usage possible que vous
                pouvez être dans le cas de faire de cette pièce comme de la totalité des ouvertures
-               et des décisions qui partent aujourd’hui de <placeName ref="#loc.65">Laybach</placeName> pour <placeName ref="#loc.11">Naples</placeName>.</p>
+               et des décisions qui partent aujourd’hui de <placeName ref="#loc.65"
+                  >Laybach</placeName> pour <placeName ref="#loc.11">Naples</placeName>.</p>
             <p>Il serait superflu de vous prévenir que la présente dépêche n’étant que pour votre
                direction personnelle, elle ne devra, en aucun cas, être rendue publique.</p>
          </div>
 
          <div hand="#A" decls="#m.9">
             <pb n="79r"/>
-            <p>
-                    <add place="top">F</add>
-                </p>
-            <p>
-                    <title>Dépêche de <choice>
+            <p><add place="top">F</add></p>
+            <p><title>Dépêche de <choice>
                      <abbr>M</abbr>
                      <expan>Monsieur</expan>
-                  </choice> le <persName ref="#p.8">
-                            <roleName>Prince</roleName>
-                     <surname>de Metternich</surname>
-                        </persName> au <persName ref="#p.144">
-                            <roleName>Sieur</roleName>
-                     <surname>Menz</surname>
-                        </persName>, Chargé d’affaires d’Autriche à <placeName ref="#loc.11">Naples</placeName>
-                    </title>
-                </p>
-            <p>
-                    <placeName ref="#loc.65">Laibach</placeName> le <date when="1821-01-31">31 Janvier
-                  1821</date>
-                </p>
+                  </choice> le <persName ref="#p.8"><roleName>Prince</roleName>
+                     <surname>de Metternich</surname></persName> au <persName ref="#p.144"
+                        ><roleName>Sieur</roleName>
+                     <surname>Menz</surname></persName>, Chargé d’affaires d’Autriche à <placeName
+                     ref="#loc.11">Naples</placeName></title></p>
+            <p><placeName ref="#loc.65">Laibach</placeName> le <date when="1821-01-31">31 Janvier
+                  1821</date></p>
             <p>In simili</p>
-            <p>
-                    <choice>
+            <p><choice>
                   <abbr>M</abbr>
                   <expan>Monsieur</expan>
-               </choice> le <persName ref="#p.13">
-                        <roleName>
-                            <choice>
-                        <abbr>C<hi rendition="#su">te</hi>
-                                </abbr>
+               </choice> le <persName ref="#p.13"><roleName><choice>
+                        <abbr>C<hi rendition="#su">te</hi></abbr>
                         <expan>Comte</expan>
-                     </choice>
-                        </roleName>
-                  <surname>de Nesselrode</surname>
-                    </persName>
-                </p>
+                     </choice></roleName>
+                  <surname>de Nesselrode</surname></persName></p>
             <p>à <choice>
                   <abbr>M</abbr>
                   <expan>Monsieur</expan>
-               </choice> le <persName ref="#p.149">
-                        <roleName>
-                            <choice>
-                        <abbr>C<hi rendition="#su">te</hi>
-                                </abbr>
+               </choice> le <persName ref="#p.149"><roleName><choice>
+                        <abbr>C<hi rendition="#su">te</hi></abbr>
                         <expan>Comte</expan>
-                     </choice>
-                        </roleName>
-                  <surname>de Stackelberg</surname>
-                    </persName>
-                </p>
+                     </choice></roleName>
+                  <surname>de Stackelberg</surname></persName></p>
             <p>et à <choice>
                   <abbr>M</abbr>
                   <expan>Monsieur</expan>
-               </choice> le <persName ref="#p.12">
-                        <roleName>Comte</roleName>
-                  <surname>de Bernstorff</surname>
-                    </persName>
-                </p>
+               </choice> le <persName ref="#p.12"><roleName>Comte</roleName>
+                  <surname>de Bernstorff</surname></persName></p>
             <p>à <choice>
                   <abbr>M</abbr>
                   <expan>Monsieur</expan>
                </choice>
-               <persName ref="#p.148">
-                        <surname>de Ramdohr</surname>
-                    </persName>
-                </p>
-            <p>
-                    <rs ref="#p.144">Monsieur</rs>,</p>
+               <persName ref="#p.148"><surname>de Ramdohr</surname></persName></p>
+            <p>Monsieur,</p>
             <p>un objet digne de la plus vive sollicitude des Monarques dans l’état actuel des
                choses et dans la position où l’on peut se trouver à <country>Naples</country>, c’est
                la possibilité des risques auxquels pourrait être exposée la famille Royale. Aussi
-               rien de ce qui peut se rattacher à une considération aussi vivement appréciée par <rs ref="#p.16 #p.18 #p.17">Leurs Majestés</rs>, n’est-il resté étranger à leurs
+               rien de ce qui peut se rattacher à une considération aussi vivement appréciée par <rs
+                  ref="#p.16 #p.18 #p.17">Leurs Majestés</rs>, n’est-il resté étranger à leurs
                conseils.</p>
-            <p>La présence des escadres alliées dans la rade de <placeName ref="#loc.11">Naples</placeName> leur offre à cet égard un point de tranquillité et un objet de
+            <p>La présence des escadres alliées dans la rade de <placeName ref="#loc.11"
+                  >Naples</placeName> leur offre à cet égard un point de tranquillité et un objet de
                consolation. Les ordres précis, publiquement avoués des commandans de ces forces
                navales, réunis aux soins des agens diplomatiques <rs xml:id="n.21">des deux
-                  Puissances auxquelles elles appartiennent</rs>,<note type="editorial" target="#n.21">Großbritannien und Frankreich.</note> présentent effectivement sur
+                  Puissances auxquelles elles appartiennent</rs>,<note type="editorial"
+                  target="#n.21">Großbritannien und Frankreich.</note> présentent effectivement sur
                cet objet si digne de la sollicitude des Monarques des motifs de confiance auxquels
                Ils désirent pouvoir s’abandonner.</p>
             <p>Vous êtes expressément chargé,<pb n="79v"/> Monsieur, de vous entendre sur cet objet
                important tant avec <rs ref="#p.149 #p.148">les Ministres de Russie et de Prusse</rs>
                qu’avec <choice>
-                  <abbr>M<hi rendition="#su">r</hi>
-                        </abbr>
+                  <abbr>M<hi rendition="#su">r</hi></abbr>
                   <expan>Monsieur</expan>
                </choice> l’<rs ref="#p.146">Envoyé d’Angleterre</rs> et <choice>
-                  <abbr>M<hi rendition="#su">r</hi>
-                        </abbr>
+                  <abbr>M<hi rendition="#su">r</hi></abbr>
                   <expan>Monsieur</expan>
                </choice> le <rs ref="#p.162">Chargé d’affaires de France</rs>. Ce sera, en vous
                réunissant aux deux premiers, que vous vous en expliquerez confidentiellement avec <choice>
                   <abbr>S. A. R.</abbr>
                   <expan>Son Altesse Royale</expan>
                </choice> Monseigneur le <rs ref="#p.141">Duc de Calabre</rs>, et ce sera de même à <choice>
-                  <abbr>M<hi rendition="#su">r</hi>
-                        </abbr>
+                  <abbr>M<hi rendition="#su">r</hi></abbr>
                   <expan>Monsieur</expan>
                </choice> l’<rs ref="#p.146">Envoyé d’Angleterre</rs> et à <choice>
-                  <abbr>M<hi rendition="#su">r</hi>
-                        </abbr>
+                  <abbr>M<hi rendition="#su">r</hi></abbr>
                   <expan>Monsieur</expan>
                </choice> le <rs ref="#p.162">Chargé d’affaires de France</rs> à faire valoir
                vis-à-vis de <rs ref="#p.141">Son Altesse Royale</rs> la teneur des instructions dont
                ils se trouvent munis.</p>
-            <p>Recevez, <rs ref="#p.144">Monsieur</rs>, les assurances de ma très-parfaite
-               considération.</p>
+            <p>Recevez, Monsieur, les assurances de ma très-parfaite considération.</p>
          </div>
       </body>
       <back>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/listplace.xml" xpointer="listPlace"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/listperson.xml" xpointer="listPerson"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/listwit.xml" xpointer="listWit"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/listorg.xml" xpointer="listOrg"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/listwork.xml" xpointer="listTreaties"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listPlace.xml" xpointer="listPlace"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listPerson.xml"
+            xpointer="listPerson"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listWit.xml" xpointer="listWit"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listOrg.xml" xpointer="listOrg"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listTreaties.xml"
+            xpointer="listTreaties"/>
       </back>
    </text>
 </TEI>

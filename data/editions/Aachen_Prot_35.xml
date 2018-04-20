@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -11,13 +12,10 @@
                <persName>
                   <surname>Schneider</surname>
                   <forename>Karin</forename>
-               </persName>
-                </editor>
+               </persName></editor>
          </titleStmt>
          <editionStmt>
-            <edition>
-                    <date>2015-05-08</date>
-                </edition>
+            <edition><date>2015-05-08</date></edition>
          </editionStmt>
          <publicationStmt>
             <publisher>Österreichische Akademie der Wissenschaften, Institut für Neuzeit- und
@@ -45,8 +43,7 @@
                <physDesc>
 
                   <p>Eigenhändiges Protokoll von <persName ref="#p.5">
-                        <surname>Gentz</surname>
-                            </persName>.</p>
+                        <surname>Gentz</surname></persName>.</p>
                   <handDesc>
                      <handNote xml:id="G">Friedrich Gentz</handNote>
                      <handNote xml:id="W">Nikolaus Wacken</handNote>
@@ -57,10 +54,8 @@
                   </handDesc>
                </physDesc>
                <history>
-                  <origin>
-                            <placeName ref="#loc.1">Aachen</placeName>
-                     <date when="1818-11-16">16. November 1818</date>
-                        </origin>
+                  <origin><placeName ref="#loc.1">Aachen</placeName>
+                     <date when="1818-11-16">16. November 1818</date></origin>
                </history>
             </msDesc>
 
@@ -88,26 +83,18 @@
 
             <listWit corresp="#m.1">
                <head>Protokoll</head>
-               <witness corresp="#w.9">
-                        <bibl type="print">de Clercq, Recueil, Bd. 3, S.
-                  181;</bibl>
-                    </witness>
-               <witness corresp="#w.8">
-                        <bibl type="print">Angeberg, Congrès, Bd. 3, S.
-                     1761–1762.</bibl>
-                    </witness>
+               <witness corresp="#w.9"><bibl type="print">de Clercq, Recueil, Bd. 3, S.
+                  181;</bibl></witness>
+               <witness corresp="#w.8"><bibl type="print">Angeberg, Congrès, Bd. 3, S.
+                     1761–1762.</bibl></witness>
             </listWit>
             <listWit corresp="#m.2">
                <head>Anlage: Artikel betreffend die Regelung der finanziellen Forderungen
                   französischer Untertanen gegen andere Regierungen</head>
-               <witness corresp="#w.9">
-                        <bibl type="print">de Clercq, Recueil, Bd. 3, S.
-                     182–183;</bibl>
-                    </witness>
-               <witness corresp="#w.8">
-                        <bibl type="print">Angeberg, Congrès, Bd. 3, S.
-                     1762–1763.</bibl>
-                    </witness>
+               <witness corresp="#w.9"><bibl type="print">de Clercq, Recueil, Bd. 3, S.
+                     182–183;</bibl></witness>
+               <witness corresp="#w.8"><bibl type="print">Angeberg, Congrès, Bd. 3, S.
+                     1762–1763.</bibl></witness>
             </listWit>
          </sourceDesc>
       </fileDesc>
@@ -166,55 +153,44 @@
       <body>
          <div hand="#G" decls="#m.1">
             <pb n="173r"/>
-            <p>
-                    <add hand="#W" place="top">Protocole <choice>
-                     <abbr>N<hi rendition="#su">o</hi>
-                            </abbr>
+            <p><add hand="#W" place="top">Protocole <choice>
+                     <abbr>N<hi rendition="#su">o</hi></abbr>
                      <expan>Numéro</expan>
-                  </choice> 35.</add>
-                </p>
-            <p>
-                    <placeName ref="#loc.1">Aix-la-Chapelle</placeName> le <date when="1818-11-16">16
-                  Novembre 1818</date>
-                </p>
-            <p>
-                    <add hand="#AmB" place="top">Kongreßakten 29.</add>
-                </p>
+                  </choice> 35.</add></p>
+            <p><placeName ref="#loc.1">Aix-la-Chapelle</placeName> le <date when="1818-11-16">16
+                  Novembre 1818</date></p>            
 
-            <p>À la suite du travail dont, conformément au <ref target="Aachen_Prot_17.xml">Protocole des Conférences du <add hand="#W" place="inspace">
-                            <date when="1818-10-22">22 <choice>
+            <p>À la suite du travail dont, conformément au <ref target="Aachen_Prot_17.xml"
+                  >Protocole des Conférences du <add hand="#W" place="inspace"><date
+                        when="1818-10-22">22 <choice>
                            <abbr>Octb.</abbr>
                            <expan>Octobre</expan>
-                        </choice>
-                            </date>
-                        </add>
-                    </ref>, une Commission particulière avoit été chargée
+                        </choice></date></add></ref>, une Commission particulière avoit été chargée
                pour déterminer les principes à établir et la marche à suivre par rapport à
                différentes réclamations de sujets Français à la charge des Gouvernemens Etrangers,
-                  <rs xml:id="n.1">les Huit articles ci-annexés</rs>
-                    <note type="editorial" target="#n.1">Vgl. Anlage.</note> ont été présentés aujourd’hui à la conférence. <choice>
+                  <ref decls="#m.2">les Huit articles ci-annexés</ref> ont été présentés aujourd’hui à la conférence. <choice>
                   <abbr>Mrs.</abbr>
                   <expan>Messieurs</expan>
-               </choice> les <rs ref="#p.9 #p.10">Plénipotentiaires de la Grande-Bretagne</rs>, <rs ref="#p.11 #p.12">de Prusse</rs> et <rs ref="#p.13 #p.14">de Russie</rs> ont
+               </choice> les <rs ref="#p.9 #p.10">Plénipotentiaires de la Grande-Bretagne</rs>, <rs
+                  ref="#p.11 #p.12">de Prusse</rs> et <rs ref="#p.13 #p.14">de Russie</rs> ont
                purement et simplement adopté les dispositions arrêtées par ces articles ; et <choice>
                   <abbr>Mr.</abbr>
                   <expan>Monsieur</expan>
-               </choice> le <persName ref="#p.8">
-                        <roleName>Prince</roleName>
-                  <surname>de Metternich</surname>
-                    </persName>, témoignant de même au nom de <rs ref="#p.16">Son Souverain</rs> des intentions favorables à cet égard, mais n’étant
+               </choice> le <persName ref="#p.8"><roleName>Prince</roleName>
+                  <surname>de Metternich</surname></persName>, témoignant de même au nom de <rs
+                  ref="#p.16">Son Souverain</rs> des intentions favorables à cet égard, mais n’étant
                pas encore autorisé à prendre part à la conclusion proposée, s’est réservé de faire
                connoître dans le plus court délai possible les ordres qu’il recevra par rapport à
                cette affaire ; <add place="margin">aussi-tôt que la résolution du Cabinet de Vienne
-                  sera connue, les Etats qui ont accédé aux <rs ref="#t.13 #t.1">traités du <date when="1814-05-30">30 Mai 1814</date> et du <date when="1815-11-20">20
-                        Novembre 1815</date>
-                        </rs> seront invités à accéder également au présent
+                  sera connue, les Etats qui ont accédé aux <rs ref="#t.13 #t.1">traités du <date
+                        when="1814-05-30">30 Mai 1814</date> et du <date when="1815-11-20">20
+                        Novembre 1815</date></rs> seront invités à accéder également au présent
                   arrangement.</add>
             </p>
             <p>Quant aux Français qui jouissoient de dotations dont ils ont perdu la possession par
                l’effet des stipulations du <rs ref="#t.13">traité du <date when="1814-05-30">30 Mai
-                     1814</date>
-                    </rs>, il a été convenu qu’étant en droit de réclamer les revenus<pb n="173v"/> de ces dotations jusqu’à cette époque, il sera donné aux anciens
+                     1814</date></rs>, il a été convenu qu’étant en droit de réclamer les revenus<pb
+                  n="173v"/> de ces dotations jusqu’à cette époque, il sera donné aux anciens
                Titulaires par les différens gouvernemens toutes les facilités convenables pour se
                faire payer des revenus des termes antérieurs qui n’auroient pas encore été
                acquittés ; et que dans les cas ou tout ou partie de ces revenus auroit été versé
@@ -224,47 +200,28 @@
                vient d’être reconnu.</p>
             <signed>
                <list>
-                  <item>
-                            <persName ref="#p.8">Metternich</persName>
-                        </item>
-                  <item>
-                            <persName ref="#p.1">Richelieus</persName>
-                        </item>
-                  <item>
-                            <persName ref="#p.9">Castlereagh</persName>
-                        </item>
-                  <item>
-                            <persName ref="#p.11">Hardenberg</persName>
-                        </item>
-                  <item>
-                            <persName ref="#p.12">Bernstorff</persName>
-                        </item>
-                  <item>
-                            <persName ref="#p.13">Nesselrode</persName>
-                        </item>
-                  <item>
-                            <persName ref="#p.14">Capodistrias</persName>
-                        </item>
-               </list>
-                </signed>
+                  <item><persName ref="#p.8">Metternich</persName></item>
+                  <item><persName ref="#p.1">Richelieus</persName></item>
+                  <item><persName ref="#p.9">Castlereagh</persName></item>
+                  <item><persName ref="#p.11">Hardenberg</persName></item>
+                  <item><persName ref="#p.12">Bernstorff</persName></item>
+                  <item><persName ref="#p.13">Nesselrode</persName></item>
+                  <item><persName ref="#p.14">Capodistrias</persName></item>
+               </list></signed>
          </div>
 
          <div hand="#A" decls="#m.2">
-            <pb n="174r"/>
-            <p>
-                    <add hand="#AmB" place="top">Kongreßakten 29.</add>
-                </p>
-            <p>
-                    <add hand="#G" place="top">Articles annexés au Protocole des Conférences du <date when="1818-11-16">16 Novembre 1818</date>.</add>
-                </p>
+            <pb n="174r"/>           
+            <p><add hand="#G" place="top">Articles annexés au Protocole des Conférences du <date
+                     when="1818-11-16">16 Novembre 1818</date>.</add></p>
             <p>Article premier</p>
             <p>Les créances des sujets Français sur les Gouvernemens Etrangers, dont la validité
                auroit déjà été reconnue par les Commissaires Liquidateurs des Gouvernemens
                débiteurs, et dont l’état sera arrêté le <date when="1818-12-15">15 <choice>
-                     <abbr>X<hi rendition="#su">bre</hi>
-                            </abbr>
+                     <abbr>X<hi rendition="#su">bre</hi></abbr>
                      <expan>Décembre</expan>
-                  </choice> prochain</date>, seront payées à <placeName ref="#loc.2">Paris</placeName> au <date when="1819-02-01">1<hi rendition="#su">er</hi> Février
+                  </choice> prochain</date>, seront payées à <placeName ref="#loc.2"
+                  >Paris</placeName> au <date when="1819-02-01">1<hi rendition="#su">er</hi> Février
                   1819</date> ou plutôt si faire se peut, en inscriptions de rente au pair avec
                jouissance du <date when="1818-03-22">22 Mars 1818</date>, sous la condition
                toutefois que la différence entre le cours du jour du payement et le taux de <subst>
@@ -275,68 +232,56 @@
                   <abbr>F.</abbr>
                   <expan>Francs</expan>
                </choice> sera bonifiée par lesdits Gouvernemens.</p>
-            <p>Article 2<hi rendition="#su">e</hi>
-                </p>
+            <p>Article 2<hi rendition="#su">e</hi></p>
             <p>Lors qu’une créance devait rapporter un intérêt, soit par sa nature, soit en vertu
-               des titres sur lesquels elle est fondée, ces intérêts seront capitalisés, et la<pb n="174v"/> somme qu’ils produiront sera ajoutée au principal pour être acquittée
+               des titres sur lesquels elle est fondée, ces intérêts seront capitalisés, et la<pb
+                  n="174v"/> somme qu’ils produiront sera ajoutée au principal pour être acquittée
                de la même manière.</p>
-            <p>Article 3<hi rendition="#su">e</hi>
-                </p>
+            <p>Article 3<hi rendition="#su">e</hi></p>
             <p>Il sera procédé à <placeName ref="#loc.2">Paris</placeName> à la liquidation des
                réclamations des Sujets Français sur les <choice>
-                  <abbr>Gouvernem<hi rendition="#su">s</hi>
-                        </abbr>
+                  <abbr>Gouvernem<hi rendition="#su">s</hi></abbr>
                   <expan>Gouvernements</expan>
                </choice> Etrangers qui se rapporteroient aux cathégories de réclamations prévues par
-               le <rs ref="#t.13">traité du <date when="1814-05-30">30 Mai 1814</date>
-                    </rs> et la
+               le <rs ref="#t.13">traité du <date when="1814-05-30">30 Mai 1814</date></rs> et la
                   <rs ref="#t.4">Convention du <date when="1815-11-20">20 <choice>
-                        <abbr>Nov<hi rendition="#su">bre</hi>
-                                </abbr>
+                        <abbr>Nov<hi rendition="#su">bre</hi></abbr>
                         <expan>Novembre</expan>
-                     </choice> 1815</date>
-                    </rs>.</p>
-            <p>Article 4<hi rendition="#su">e</hi>
-                </p>
+                     </choice> 1815</date></rs>.</p>
+            <p>Article 4<hi rendition="#su">e</hi></p>
             <p>À cet effet, chaque <choice>
-                  <abbr>Gouvernem<hi rendition="#su">t</hi>
-                        </abbr>
+                  <abbr>Gouvernem<hi rendition="#su">t</hi></abbr>
                   <expan>Gouvernement</expan>
                </choice> nommera un Commissaire qui liquidera, de concert avec un Commissaire
                Français, les réclamations présentées : En cas de partage entre les deux
                Commissaires, soit sur la validité, soit sur la fixation du montant de la créance,
-               chacun d’eux choisira un Commissaire parmi ceux des autres Gouvernemens ;<pb n="175r"/> ces deux-ci en choisiront de concert un troisième, et ces cinq Commissaires réunis
+               chacun d’eux choisira un Commissaire parmi ceux des autres Gouvernemens ;<pb n="175r"
+               /> ces deux-ci en choisiront de concert un troisième, et ces cinq Commissaires réunis
                prononceront définitivement à la majorité des voix.</p>
-            <p>Article 5<hi rendition="#su">e</hi>
-                </p>
+            <p>Article 5<hi rendition="#su">e</hi></p>
             <p>La liquidation des réclamations formées par des sujets Français d’après l’article 3
                ci-dessus se bornera aux réclamations qui ont été présentées aux <choice>
-                  <abbr>Gouvern<hi rendition="#su">s</hi>
-                        </abbr>
+                  <abbr>Gouvern<hi rendition="#su">s</hi></abbr>
                   <expan>Gouvernements</expan>
                </choice> intéressés ou à leurs Commissaires liquidateurs avant la date du présent
                arrangement.</p>
-            <p>Article 6<hi rendition="#su">e</hi>
-                </p>
+            <p>Article 6<hi rendition="#su">e</hi></p>
             <p>Les créances liquidées dans la forme prescrite à l’article IV ci-dessus seront payées
                de la manière stipulée à l’<choice>
-                  <abbr>art<hi rendition="#su">e</hi>
-                        </abbr>
+                  <abbr>art<hi rendition="#su">e</hi></abbr>
                   <expan>article</expan>
                </choice> I<hi rendition="#su">er</hi>.</p>
             <p>Les intérêts seront réglés conformément à l’article 2, et le payement de la somme
                totale qui sera due aura lieu dans le mois qui suivra la date du procès-verbal de
                liquidation.</p>
             <pb n="175v"/>
-            <p>Article 7<hi rendition="#su">e</hi>
-                </p>
+            <p>Article 7<hi rendition="#su">e</hi></p>
             <p>Il est bien entendu que les fonds provenant de cautionnemens, dépôts ou consignations
                qui auroient été payés par erreur entre les mains des Commissaires liquidateurs
                étrangers avant le <date when="1818-04-25">25 avril 1818</date>, seront remboursés à
                la <country>France</country>, ainsi qu’ils l’ont été précédemment, à mesure que
                l’erreur aura été reconnue.</p>
-            <p>Article 8<hi rendition="#su">e</hi>
-                </p>
+            <p>Article 8<hi rendition="#su">e</hi></p>
             <p>En cas de discussion à cet égard entre les Commissaires respectifs, il sera procédé,
                pour prononcer sur le différend, conformément à l’article IV ; il en sera de même
                s’il s’élevait des difficultés sur le règlement des intérêts des créances déjà
@@ -344,11 +289,13 @@
          </div>
       </body>
       <back>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/listplace.xml" xpointer="listPlace"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/listperson.xml" xpointer="listPerson"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/listwit.xml" xpointer="listWit"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/listorg.xml" xpointer="listOrg"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/listwork.xml" xpointer="listTreaties"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listPlace.xml" xpointer="listPlace"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listPerson.xml"
+            xpointer="listPerson"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listWit.xml" xpointer="listWit"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listOrg.xml" xpointer="listOrg"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listTreaties.xml"
+            xpointer="listTreaties"/>
       </back>
    </text>
 </TEI>

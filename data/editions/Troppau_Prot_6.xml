@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -11,13 +12,10 @@
                <persName>
                   <surname>Schneider</surname>
                   <forename>Karin</forename>
-               </persName>
-                </editor>
+               </persName></editor>
          </titleStmt>
          <editionStmt>
-            <edition>
-                    <date>2012-10-26</date>
-                </edition>
+            <edition><date>2012-10-26</date></edition>
          </editionStmt>
          <publicationStmt>
             <publisher>Österreichische Akademie der Wissenschaften, Institut für Neuzeit- und
@@ -43,10 +41,7 @@
                   </msItem>
                </msContents>
                <physDesc>
-                  <p>Journal von <persName rendition="#p.5">
-                                <surname>Gentz</surname>
-                            </persName>
-                        </p>
+                  <p>Journal von <persName rendition="#p.5"><surname>Gentz</surname></persName></p>
 
                   <handDesc>
                      <handNote xml:id="A">Anonyme Hand</handNote>
@@ -57,11 +52,8 @@
 
                </physDesc>
                <history>
-                  <origin>
-                            <placeName ref="#loc.60">Troppau</placeName>
-                            <date when="1820-12-11">11.
-                        Dezember 1820</date>
-                        </origin>
+                  <origin><placeName ref="#loc.60">Troppau</placeName><date when="1820-12-11">11.
+                        Dezember 1820</date></origin>
                </history>
             </msDesc>
             <msDesc xml:id="m.2" type="Ausfertigung">
@@ -88,11 +80,8 @@
                      eindeutig zu erkennen sind, wurden in den Kommentar aufgenommen.</p>
                </physDesc>
                <history>
-                  <origin>
-                            <placeName ref="#loc.60">Troppau</placeName>
-                            <date when="1820-12-06">6.
-                        Dezember 1820</date>
-                        </origin>
+                  <origin><placeName ref="#loc.60">Troppau</placeName><date when="1820-12-06">6.
+                        Dezember 1820</date></origin>
                </history>
             </msDesc>
             <msDesc xml:id="m.3" type="Abschrift">
@@ -116,11 +105,8 @@
 
                </physDesc>
                <history>
-                  <origin>
-                            <placeName ref="#loc.60">Troppau</placeName>
-                            <date when="1820-12-10">10.
-                        Dezember 1820</date>
-                        </origin>
+                  <origin><placeName ref="#loc.60">Troppau</placeName><date when="1820-12-10">10.
+                        Dezember 1820</date></origin>
                </history>
             </msDesc>
             <msDesc xml:id="m.4" type="Konzept">
@@ -167,39 +153,29 @@
             </msDesc>
             <listWit corresp="#m.1">
                <head>Journal</head>
-               <witness corresp="#w.37">
-                        <bibl type="print">Alberti, Atti, S. 377.</bibl>
-                    </witness>
+               <witness corresp="#w.37"><bibl type="print">Alberti, Atti, S. 377.</bibl></witness>
             </listWit>
             <listWit corresp="#m.2">
                <head>Anlage 1: Erklärung des russischen Kabinetts</head>
-               <witness corresp="#w.37">
-                        <bibl type="print">Alberti, Atti, S.
-                  377-381.</bibl>
-                    </witness>
+               <witness corresp="#w.37"><bibl type="print">Alberti, Atti, S.
+                  377-381.</bibl></witness>
             </listWit>
             <listWit corresp="#m.3">
                <head>Anlage 2: Entgegnung Österreichs</head>
-               <witness corresp="#w.37">
-                        <bibl type="print">Alberti, Atti, S.
-                  381-382.</bibl>
-                    </witness>
+               <witness corresp="#w.37"><bibl type="print">Alberti, Atti, S.
+                  381-382.</bibl></witness>
             </listWit>
             <listWit corresp="#m.4">
                <head>Anlage 3: Entwurf einer Depesche an die diplomatischen Vertreter Österreichs,
                   Preußens und Russlands am Heiligen Stuhl</head>
-               <witness corresp="#w.37">
-                        <bibl type="print">Alberti, Atti, S.
-                  382-385.</bibl>
-                    </witness>
+               <witness corresp="#w.37"><bibl type="print">Alberti, Atti, S.
+                  382-385.</bibl></witness>
             </listWit>
             <listWit corresp="#m.5">
                <head>Anlage 4: Abschrift eines Schreibens zur Vorlage an den Papst durch die
                   diplomatischen Vertreter der alliierten Höfe</head>
-               <witness corresp="#w.37">
-                        <bibl type="print">Alberti, Atti, S.
-                  385-388.</bibl>
-                    </witness>
+               <witness corresp="#w.37"><bibl type="print">Alberti, Atti, S.
+                  385-388.</bibl></witness>
             </listWit>
          </sourceDesc>
       </fileDesc>
@@ -221,7 +197,8 @@
       <profileDesc>
          <abstract>
             <p>Die <rs ref="#p.8 #p.40 #p.11 #p.12 #p.136 #p.13 #p.14 #p.121">Vertreter Österreichs,
-                  Preußens und Russlands</rs> informieren die <rs ref="#p.102 #p.135 #p.137">Gesandten Frankreichs und Großbritanniens</rs> über die Schreiben, welche
+                  Preußens und Russlands</rs> informieren die <rs ref="#p.102 #p.135 #p.137"
+                  >Gesandten Frankreichs und Großbritanniens</rs> über die Schreiben, welche
                hinsichtlich der angestrebten Einbindung des <rs ref="#p.155">Papstes</rs> als
                Mediator vorbereitet wurden.</p>
          </abstract>
@@ -271,30 +248,16 @@
       <body>
          <div hand="#G" decls="#m.1">
             <pb n="102r"/>
-            <p>
-                    <title>
-                        <hi rendition="#u">Journal des Conférences</hi>
-                    </title>
-                </p>
-            <p>
-                    <title>
-                        <hi rendition="#u">
-                            <choice>
+            <p><title><hi rendition="#u">Journal des Conférences</hi></title></p>
+            <p><title><hi rendition="#u"><choice>
                         <abbr>Nr.</abbr>
                         <expan>Numéro</expan>
-                     </choice> VI</hi>
-                    </title>
-                </p>
-            <p>
-                    <title>
-                        <hi rendition="#u">Lundi <date when="1820-12-12">11 Décembre
-                  1820</date>.</hi>
-                    </title>
-                </p>
-            <p>Le <ref target="Troppau_Prot_5.xml">Journal de la séance du <date when="1820-12-07">7</date>
-                    </ref> a d’abord été lu et approuvé.</p>
-            <p>
-                    <choice>
+                     </choice> VI</hi></title></p>
+            <p><title><hi rendition="#u">Lundi <date when="1820-12-12">11 Décembre
+                  1820</date>.</hi></title></p>
+            <p>Le <ref target="Troppau_Prot_5.xml">Journal de la séance du <date when="1820-12-07"
+                     >7</date></ref> a d’abord été lu et approuvé.</p>
+            <p><choice>
                   <abbr>Mrs.</abbr>
                   <expan>Messieurs</expan>
                </choice> les <rs ref="#p.8 #p.40 #p.11 #p.12 #p.136 #p.13 #p.14 #p.121">Ministres
@@ -304,79 +267,52 @@
                   <expan>Messieurs</expan>
                </choice>
                <rs ref="#p.102 #p.135 #p.137">les Ambassadeurs de France et de Grande-Bretagne</rs>
-               d’une démarche qu’Ils comptoient faire à la Cour de <placeName ref="#loc.6">Rome</placeName> pour déterminer le <rs ref="#p.155">Saint-Père</rs> à se charger
+               d’une démarche qu’Ils comptoient faire à la Cour de <placeName ref="#loc.6"
+                  >Rome</placeName> pour déterminer le <rs ref="#p.155">Saint-Père</rs> à se charger
                des fonctions de Médiateur dans les affaires de <country>Naples</country>, on a
                communiqué aujourd’hui relativement à cette démarche les pièces suivantes :</p>
-            <p>1. <rs xml:id="n.1">L’opinion du Cabinet de Russie du 24 Novembre/<date when="1820-12-06">6 Décembre</date>
-                    </rs>
-                    <note type="editorial" target="#n.1">Vgl. Anlage 1.</note> ;</p>
-            <p>2. <rs xml:id="n.2">La réponse du Cabinet d’Autriche en date du <date when="1820-12-10">10 Décembre</date>
-                    </rs>
-                    <note type="editorial" target="#n.2">Vgl. Anlage 2.</note> ;</p>
-            <p>3. <rs xml:id="n.3">
-                        <add place="margin">Le projet de dépêche à adresser par les Trois
-                     Cabinets à leurs Ministres près le Saint-Siège</add>
-                    </rs>
-                    <note type="editorial" target="#n.3">Vgl. Anlage 3.</note> ;</p>
-            <p>4. <rs xml:id="n.4">Le projet de Note que ces Ministres auront à présenter à cet
-                  effet.</rs>
-                    <note type="editorial" target="#n.4">Vgl. Anlage 4.</note>
-                </p>
+            <p>1. <ref decls="#m.2">L’opinion du Cabinet de Russie du 24 Novembre/<date
+                     when="1820-12-06">6 Décembre</date></ref> ;</p>
+            <p>2. <ref decls="#m.3">La réponse du Cabinet d’Autriche en date du <date
+                     when="1820-12-10">10 Décembre</date></ref> ;</p>
+            <p>3. <ref decls="#m.4"><add place="margin">Le projet de dépêche à adresser par les Trois
+                     Cabinets à leurs Ministres près le Saint-Siège</add></ref> ;</p>
+            <p>4. <ref decls="#m.5">Le projet de Note que ces Ministres auront à présenter à cet
+                  effet.</ref></p>
             <pb n="102v"/>
             <p>Ces pièces se trouvent ci-annexées sub <choice>
                   <abbr>Litt.</abbr>
                   <expan>Litteris</expan>
                </choice> A, B, C et D.</p>
-            <p rendition="#r">
-                    <add>Lu et certifié</add>
-                </p>
-            <p rendition="#r">
-                    <add>à la Séance du <date when="1820-12-18">18
-               Décembre</date>
-                    </add>
-                </p>
-            <signed rendition="#r">
-                    <persName ref="#p.5">
-                        <surname>Gentz</surname>
-                    </persName>
-                </signed>
+            <p rendition="#r"><add>Lu et certifié</add></p>
+            <p rendition="#r"><add>à la Séance du <date when="1820-12-18">18
+               Décembre</date></add></p>
+            <signed rendition="#r"><persName ref="#p.5"><surname>Gentz</surname></persName></signed>
          </div>
 
          <div hand="#A" decls="#m.2">
             <pb n="103r"/>
-            <p>
-                    <add hand="#AmB" place="top">ad <choice>
+            <p><add hand="#AmB" place="top">ad <choice>
                      <abbr>Prot</abbr>
                      <expan>Protocol</expan>
                   </choice> VI A <choice>
                      <abbr>N.</abbr>
                      <expan>Numéro</expan>
-                  </choice> 3.</add>
-                    <add hand="#AmB" place="top">
-                        <date when="1820-12-06">6/12.</date>
-                    </add>
-                </p>
-            <p>
-                    <title>Opinion du Cabinet de Russie sur les moyens de conciliation que les Cours
-                  Alliées</title>
-                </p>
-            <p>
-                    <title>pourraient employer envers <country>Naples</country> si l’invitation adressée
-                  au <rs ref="#p.138">Roi</rs> n’était point acceptée</title>
-                </p>
-            <p>
-                    <placeName ref="#loc.60">Troppau</placeName>, le 24 Novembre/ <date when="1820-12-06">6 Décembre 1820</date>.</p>
+                  </choice> 3.</add><add hand="#AmB" place="top"><date when="1820-12-06"
+                     >6/12.</date></add></p>
+            <p><title>Opinion du Cabinet de Russie sur les moyens de conciliation que les Cours
+                  Alliées</title></p>
+            <p><title>pourraient employer envers <country>Naples</country> si l’invitation adressée
+                  au <rs ref="#p.138">Roi</rs> n’était point acceptée</title></p>
+            <p><placeName ref="#loc.60">Troppau</placeName>, le 24 Novembre/ <date when="1820-12-06"
+                  >6 Décembre 1820</date>.</p>
             <p>Les questions sur lesquelles les Cabinets Alliés ont à délibérer pour donner suite
                aux stipulations des <ref target="Troppau_Prot_4.xml">Protocoles préliminaire et
                   supplémentaire du 7/<date when="1820-11-19">19 <choice>
-                        <abbr>Nov<hi rendition="#su">bre</hi>
-                                </abbr>
+                        <abbr>Nov<hi rendition="#su">bre</hi></abbr>
                         <expan>Novembre</expan>
-                     </choice>
-                        </date>
-                    </ref> semblent se rapporter essentiellement à l’examen des
-               différentes alternatives que présente la démarche faite auprès de <rs ref="#p.138">
-                        <choice>
+                     </choice></date></ref> semblent se rapporter essentiellement à l’examen des
+               différentes alternatives que présente la démarche faite auprès de <rs ref="#p.138"><choice>
                      <abbr>S. M.</abbr>
                      <expan>Sa Majesté</expan>
                   </choice> Sicilienne</rs>.</p>
@@ -385,23 +321,24 @@
                forme de leur régime intérieur, ces alternatives ne sauraient toutes<pb n="103v"/>
                être prévues ni calculées.</p>
             <p>Mais depuis que les Cabinets ont pris l’irrévocable détermination de ne pas
-               reconnoître les Gouvernemens nés du crime, et de regarder le <rs ref="#p.138">Roi</rs> et les peuples des deux-Siciles comme asservis au despotisme
+               reconnoître les Gouvernemens nés du crime, et de regarder le <rs ref="#p.138"
+                  >Roi</rs> et les peuples des deux-Siciles comme asservis au despotisme
                révolutionnaire, les chances qu’il importe d’examiner se réduisent forcément à
                deux :</p>
             <p>Ou la nation, éclairée par des hommes qui obéiront au sentiment de leurs devoirs,
-               mettra le <rs ref="#p.138">Roi</rs> en état d’accepter <ref target="Troppau_Prot_4.xml">l’invitation des <rs ref="#p.16 #p.18 #p.17">Monarques</rs>
-                    </ref> ;</p>
+               mettra le <rs ref="#p.138">Roi</rs> en état d’accepter <ref
+                  target="Troppau_Prot_4.xml">l’invitation des <rs ref="#p.16 #p.18 #p.17"
+                     >Monarques</rs></ref> ;</p>
             <p>Ou bien, aveuglée par les passions et persévérant dans ses funestes erreurs, elle
                opposera un obstacle insurmontable à ce que le <rs ref="#p.138">Roi</rs> puisse la
                réconcilier avec elle-même et avec<pb n="104r"/> l’Europe, en effaçant les traces, en
                détruisant le scandale des <rs xml:id="n.5">attentats du <date when="1820-07-02">2
-                     Juillet</date>
-                    </rs>.<note type="editorial" target="#n.5">Am <date when="1820-07-02">2. Juli 1820</date> meuterte die Militärgarnison in Nola, 35
+                     Juillet</date></rs>.<note type="editorial" target="#n.5">Am <date
+                     when="1820-07-02">2. Juli 1820</date> meuterte die Militärgarnison in Nola, 35
                   km von <placeName ref="#loc.11">Neapel</placeName> entfernt. Das Datum gilt als
                   Beginn der Revolution im <country>Königreich beider Sizilien</country>. Vgl.
                   Stites, The four Horsemen; Davis, Naples and Napoleon; Gin, Sanfedisti, Carbonari,
-                  Magistrati del Re; Späth, Revolution in Europa, S. 129–149.</note>
-                </p>
+                  Magistrati del Re; Späth, Revolution in Europa, S. 129–149.</note></p>
             <p>La première hypothèse, si elle se réalise, offre les élémens des plus heureuses
                combinaisons de paix et de concorde ; <country>Naples</country> se sauverait par sa
                propre sagesse, les Puissances Alliées n’auraient fait que donner la première
@@ -419,7 +356,8 @@
                cette supposition si triste. C’était un devoir pénible, mais en le remplissant, il a
                cru découvrir des moyens dont l’emploi épargnerait à l’Europe le spectacle affligeant
                de la puissance contrainte de commander à une nation son salut et son repos.</p>
-            <p>Dès que le <rs ref="#p.138">Roi de Naples</rs> se refuserait à l’invitation<pb n="105r"/> des <rs ref="#p.16 #p.18 #p.17">Monarques</rs>, toute réponse, toute
+            <p>Dès que le <rs ref="#p.138">Roi de Naples</rs> se refuserait à l’invitation<pb
+                  n="105r"/> des <rs ref="#p.16 #p.18 #p.17">Monarques</rs>, toute réponse, toute
                proposition de sa part constaterait l’état de captivité dans lequel il se trouve, et
                donnerait une nouvelle preuve du succès fatal des artifices mis en œuvre pour
                envelopper, dans la cause coupable d’une poignée de factieux, la nation tout-entière,
@@ -460,15 +398,16 @@
                l’égarent et l’abyme où elles doivent la précipiter avec ignominie, de l’autre ce qui
                lui reste à faire pour les abjurer et pour se sauver honorablement.</p>
             <pb n="107r"/>
-            <p>Or, dans le cas où le <rs ref="#p.138">Roi</rs> rejeterait la proposition des <rs ref="#p.16 #p.18 #p.17">Monarques</rs>, les Cabinets Alliés n’auraient aucun moyen
+            <p>Or, dans le cas où le <rs ref="#p.138">Roi</rs> rejeterait la proposition des <rs
+                  ref="#p.16 #p.18 #p.17">Monarques</rs>, les Cabinets Alliés n’auraient aucun moyen
                de révéler à <country>Naples</country> les vérités dont la connoissance seule y
                devrait identifier la cause nationale avec la cause Européenne.</p>
             <p>Ils ne pourraient, en effet, les exprimer dans un manifeste sans mettre en péril les
                jours du <rs ref="#p.138">Roi</rs> ou sans l’obliger à se placer à la tête du parti
                qui usurpe le nom de nation, <del hand="#AmB" rendition="#s">et sans légaliser ainsi
-                  la résistance qu’ils éprouveraient de Sa part.</del>
-                </p>
-            <p>Ils ne pourraient non plus les faire entendre par la voix du <rs ref="#p.138">Souverain légitime</rs>, puisqu’asservi et captif, ce<pb n="107v"/> Souverain
+                  la résistance qu’ils éprouveraient de Sa part.</del></p>
+            <p>Ils ne pourraient non plus les faire entendre par la voix du <rs ref="#p.138"
+                  >Souverain légitime</rs>, puisqu’asservi et captif, ce<pb n="107v"/> Souverain
                serait dans l’impossibilité de s’en constituer l’organe.</p>
             <p>Ils ne le pourraient enfin ni par l’intermédiaire du Gouvernement actuel, puisqu’ils
                sont décidés à n’avoir pas de relations avec lui, ni par l’entremise des Napolitains
@@ -479,15 +418,13 @@
                demandent à la nation Napolitaine de revenir aux principes dont<pb n="108r"/>
                l’observation est indispensable au bonheur et à la tranquillité de l’état social, et
                cette nation, liée à un système établi par une violation éclatante de ces mêmes
-               principes. Cette autorité est celle du <rs ref="#p.155">
-                        <choice>
-                     <abbr>S<hi rendition="#su">t</hi>
-                            </abbr>
+               principes. Cette autorité est celle du <rs ref="#p.155"><choice>
+                     <abbr>S<hi rendition="#su">t</hi></abbr>
                      <expan>Saint</expan>
                   </choice> Père</rs>. </p>
-            <p>Dépositaire du pouvoir spirituel, <rs xml:id="n.6">
-                        <del hand="#AmB" rendition="#s">Souverain et Pontife</del>
-                    </rs>,<note type="editorial" target="#n.6">Verweiszeichen eingefügt, Verweis selbst jedoch ausradiert.</note> Lui seul,
+            <p>Dépositaire du pouvoir spirituel, <rs xml:id="n.6"><del hand="#AmB" rendition="#s"
+                     >Souverain et Pontife</del></rs>,<note type="editorial" target="#n.6"
+                  >Verweiszeichen eingefügt, Verweis selbst jedoch ausradiert.</note> Lui seul,
                reconnoissant la justice de la cause que les Puissances doivent faire triompher, Lui
                seul peut éclairer les peuples des deux-Siciles et leur offrir des moyens de salut.
                Le premier de tous consisterait à faire reconnoître au <rs ref="#p.138">Roi</rs> et à
@@ -495,31 +432,26 @@
                jours de violence et d’égarement. Tant que la volonté du <rs ref="#p.138">Roi</rs>
                est enchainée, aucune autorité temporelle<pb n="108v"/> n’aurait complèttement ce
                pouvoir. Il n’y a que l’autorité spirituelle du Chef de l’Eglise Romaine qui le
-               possède tout entier et qui soit en mesure de l’exercer de manière à délivrer le <rs ref="#p.138">Roi</rs>, et par le Roi la nation, de tous les malheurs dont cet
+               possède tout entier et qui soit en mesure de l’exercer de manière à délivrer le <rs
+                  ref="#p.138">Roi</rs>, et par le Roi la nation, de tous les malheurs dont cet
                engagement funeste est la source.</p>
-            <p>
-                    <add hand="#AmB" place="margin">Unterschied zwischen Lösung eines Eides oder Beweis
+            <p><add hand="#AmB" place="margin">Unterschied zwischen Lösung eines Eides oder Beweis
                   daß der Eid an sich selbst null und nichtig ist weil er auf einer sündhaften Basis
-                  steht. Gezwungener Eid gillt übrigens nichts.</add>
-                </p>
+                  steht. Gezwungener Eid gillt übrigens nichts.</add></p>
             <p>Invité par les Cours Alliées à intervenir en Médiateur entre elles et le
                   <country>Royaume des Deux-Siciles</country>, le <rs ref="#p.155">Pape</rs> ferait
                connoître dans toute leur pureté et dans toutes les conséquences de leur application
                les principes arrêtés par ces Cours à l’égard des pays qui ont subi et sanctionné une
                révolution.</p>
-            <p>
-                    <rs xml:id="n.7">Après avoir parlé à la raison des Napolitains, le<pb n="109r"/>
+            <p><rs xml:id="n.7">Après avoir parlé à la raison des Napolitains, le<pb n="109r"/>
                   <rs ref="#p.155">Pape</rs> parlerait à leur conscience. La religion y agit encore
-                  puissamment sur les esprits. Ses exhortations ne seraient pas méconnues.</rs>
-                    <note type="editorial" target="#n.7"> Absatz mit Bleistift hervorgehoben und
-                  kommentiert, Kommentar wieder ausradiert.</note>
-                </p>
+                  puissamment sur les esprits. Ses exhortations ne seraient pas méconnues.</rs><note
+                  type="editorial" target="#n.7"> Absatz mit Bleistift hervorgehoben und
+                  kommentiert, Kommentar wieder ausradiert.</note></p>
             <p>Le clergé, cette classe influente et nombreuse, détournée par les sectes de
                l’accomplissement de sa vocation, et le peuple, séduit par les factieux,
-               respecteraient la voix du <rs ref="#p.155">
-                        <choice>
-                     <abbr>S<hi rendition="#su">t</hi>
-                            </abbr>
+               respecteraient la voix du <rs ref="#p.155"><choice>
+                     <abbr>S<hi rendition="#su">t</hi></abbr>
                      <expan>Saint</expan>
                   </choice> Père</rs>. Elle condamnerait les sermens imposés et profanés par le
                crime et par les associations subversives que l’Eglise frappe de ses anathèmes.</p>
@@ -528,7 +460,8 @@
                les Cours Alliées forment, produirait une<pb n="109v"/> impression décisive sur la
                nation, ou du moins sur la partie de cette nation que la contagion n’a point encore
                pervertie.</p>
-            <p>On pourrait espérer alors qu’en se ralliant à l’autorité neutre et pacifique du <rs ref="#p.155">Pape</rs>, elle affranchirait le <rs ref="#p.138">Roi</rs> de sa
+            <p>On pourrait espérer alors qu’en se ralliant à l’autorité neutre et pacifique du <rs
+                  ref="#p.155">Pape</rs>, elle affranchirait le <rs ref="#p.138">Roi</rs> de sa
                captivité et rendrait possible sur les lieux même une négociation de paix entre ce
                Prince et les Cours Alliées, négociation dont le but serait la restauration du
                pouvoir légitime dans le <country>Royaume des Deux-Siciles</country>, et
@@ -536,22 +469,19 @@
                <del hand="#AmB" rendition="#s">le bienfait d’un</del> ordre de choses favorable au
                repos de la Péninsule Italienne et du continent Européen.</p>
             <p>En cas que ce premier<pb n="110r"/> succès vint à manquer, et quand même les efforts
-               du <rs ref="#p.155">
-                        <choice>
-                     <abbr>S<hi rendition="#su">t</hi>
-                            </abbr>
+               du <rs ref="#p.155"><choice>
+                     <abbr>S<hi rendition="#su">t</hi></abbr>
                      <expan>Saint</expan>
                   </choice> Père</rs> ne parviendraient pas à éclairer les hommes qui oppriment
                aujourd’hui <country>Naples</country> sur les véritables intérêts de leur patrie (au
                moins tous ceux dans le cœur des quels l’amour de cette patrie n’est pas encore
-               éteint), se seraient-ils convaincus par le langage de la Cour de <placeName ref="#loc.6">Rome</placeName> et par le fait seul de sa médiation que les
+               éteint), se seraient-ils convaincus par le langage de la Cour de <placeName
+                  ref="#loc.6">Rome</placeName> et par le fait seul de sa médiation que les
                Puissances Alliées ne désirent que le bonheur réel, durable, paisible du
                   <country>Royaume des Deux-Siciles</country>.</p>
             <p>Cette partie de ses habitans aurait alors l’occasion de se prononcer, elle pourrait à
-               son tour confier ses vœux au <rs ref="#p.155">
-                        <choice>
-                     <abbr>S<hi rendition="#su">t</hi>
-                            </abbr>
+               son tour confier ses vœux au <rs ref="#p.155"><choice>
+                     <abbr>S<hi rendition="#su">t</hi></abbr>
                      <expan>Saint</expan>
                   </choice> Père</rs> et<pb n="110v"/> invoquer par son entremise l’assistance de
                Cours Amies contre d’aveugles oppresseurs.</p>
@@ -563,40 +493,38 @@
             <p>Dans l’une et l’autre, le <rs ref="#p.155">Pape</rs> remplirait l’auguste mission de
                Médiateur. Il exercerait dignement Son ministère d’indulgence et de concorde dans la
                vue généreuse de prévenir ou de diminuer pour <country>Naples</country>, pour
-                  <placeName ref="#loc.6">Rome</placeName>, pour l’Europe, les désastres d’une<pb n="111r"/> guerre.</p>
-            <p>Le Cabinet de Russie croit avoir démontré que, si la démarche des <rs ref="#p.16 #p.18 #p.17">Monarques Alliés</rs> auprès de <rs ref="#p.138">
-                        <choice>
+                  <placeName ref="#loc.6">Rome</placeName>, pour l’Europe, les désastres d’une<pb
+                  n="111r"/> guerre.</p>
+            <p>Le Cabinet de Russie croit avoir démontré que, si la démarche des <rs
+                  ref="#p.16 #p.18 #p.17">Monarques Alliés</rs> auprès de <rs ref="#p.138"><choice>
                      <abbr>S. M.</abbr>
                      <expan>Sa Majesté</expan>
                   </choice> Sicilienne</rs> ne produit pas l’effet désiré, il serait impossible de
-               prendre des mesures coercitives sans recourir auparavant à la médiation du <rs ref="#p.155">
-                        <choice>
-                     <abbr>S<hi rendition="#su">t</hi>
-                            </abbr>
+               prendre des mesures coercitives sans recourir auparavant à la médiation du <rs
+                  ref="#p.155"><choice>
+                     <abbr>S<hi rendition="#su">t</hi></abbr>
                      <expan>Saint</expan>
                   </choice> Père</rs>.</p>
             <p>Que cette médiation est le premier moyen de persuasion qui semble devoir être adopté,
                et qu’il parait réunir de grands avantages.</p>
-            <p>Au cas que les autres Cabinets partagent cette opinion, celui de <placeName ref="#loc.10">S<hi rendition="#su">t</hi> Pétersbourg</placeName> leur propose de
+            <p>Au cas que les autres Cabinets partagent cette opinion, celui de <placeName
+                  ref="#loc.10">S<hi rendition="#su">t</hi> Pétersbourg</placeName> leur propose de
                s’adresser collectivement au <rs ref="#p.155">Pape</rs> pour inviter Sa Sainteté à Se
-               charger de cette médiation<pb n="111v"/> dans l’hypothèse où le <rs ref="#p.138">Roi</rs> ne pourrait point se rendre à l’invitation des <rs ref="#p.16 #p.18 #p.17">Monarques</rs>.</p>
-            <p>Si cette proposition était agréée, le Cabinet de <placeName ref="#loc.10">S<hi rendition="#su">t</hi> Péterbourg</placeName> se ferait un devoir de soumettre
-               aux délibérations de la Conférence le projet des instructions dont <rs ref="#p.156 #p.157 #p.158">les Ministres respectifs à <placeName ref="#loc.6">Rome</placeName>
-                    </rs> seraient munis.</p>
+               charger de cette médiation<pb n="111v"/> dans l’hypothèse où le <rs ref="#p.138"
+                  >Roi</rs> ne pourrait point se rendre à l’invitation des <rs
+                  ref="#p.16 #p.18 #p.17">Monarques</rs>.</p>
+            <p>Si cette proposition était agréée, le Cabinet de <placeName ref="#loc.10">S<hi
+                     rendition="#su">t</hi> Péterbourg</placeName> se ferait un devoir de soumettre
+               aux délibérations de la Conférence le projet des instructions dont <rs
+                  ref="#p.156 #p.157 #p.158">les Ministres respectifs à <placeName ref="#loc.6"
+                     >Rome</placeName></rs> seraient munis.</p>
          </div>
 
          <div hand="#A" decls="#m.3">
             <pb n="113r"/>
-            <p>
-                    <add place="top" hand="#AmB">B.</add>
-                </p>
-            <p>
-                    <title>Réponse du Cabinet autrichien à la pièce intitulée :</title>
-                </p>
-            <p>
-                    <title>
-                        <rs xml:id="n.8">
-                            <hi rendition="#u">Opinion du Cabinet de Russie sur les
+            <p><add place="top" hand="#AmB">B.</add></p>
+            <p><title>Réponse du Cabinet autrichien à la pièce intitulée :</title></p>
+            <p><title><ref decls="#m.2"><hi rendition="#u">Opinion du Cabinet de Russie sur les
                         moyens de conciliation <choice>
                            <abbr>etc.</abbr>
                            <expan>et cetera</expan>
@@ -604,19 +532,11 @@
                         <choice>
                            <abbr>etc.</abbr>
                            <expan>et cetera</expan>
-                        </choice>
-                            </hi>
-                        </rs>
-                    </title>
-                    <note type="editorial" target="#n.8">Vgl. Anlage
-                  1.</note>
-                </p>
-            <p>
-                    <placeName ref="#loc.60">Troppau</placeName> ce <date when="1820-12-10">10 Décembre
+                        </choice></hi></ref></title></p>
+            <p><placeName ref="#loc.60">Troppau</placeName> ce <date when="1820-12-10">10 Décembre
                   1820</date>.</p>
             <p>L’<rs ref="#p.16">Empereur</rs>, en prenant en considération le travail du Cabinet de
-                  <rs ref="#p.17">
-                        <choice>
+                  <rs ref="#p.17"><choice>
                      <abbr>S. M. I.</abbr>
                      <expan>Sa Majesté Impériale</expan>
                   </choice> de toutes les Russies</rs>, s’est assuré qu’il renfermait dans des
@@ -624,8 +544,7 @@
                à l’intérêt du peuple du <country>Royaume des Deux-Siciles</country>, et non moins
                analogue à l’esprit de justice, d’énergie et de modération qui caractérise la marche
                des <rs ref="#p.16 #p.18 #p.17">Monarques alliés</rs>.</p>
-            <p>La voix du <rs ref="#p.155">
-                        <choice>
+            <p>La voix du <rs ref="#p.155"><choice>
                      <abbr>St.</abbr>
                      <expan>Saint</expan>
                   </choice> Père</rs> est auguste et placée au dessus de toutes celles que l’erreur
@@ -638,18 +557,14 @@
                   Pontife</rs> s’adresse aux consciences.</p>
             <pb n="113v"/>
             <p>L’<rs ref="#p.16">Empereur</rs> saisit avec d’autant plus de satisfaction la chance
-               de conciliation qu’offre l’intervention de <rs ref="#p.155">
-                        <choice>
+               de conciliation qu’offre l’intervention de <rs ref="#p.155"><choice>
                      <abbr>S. S.</abbr>
                      <expan>Sa Sainteté</expan>
-                  </choice>
-                    </rs> qu’elle lui semble la plus utile et la dernière à la portée des
-               Puissances. Loin de les faire dévier de la ligne des principes que <rs ref="#p.16">
-                        <choice>
+                  </choice></rs> qu’elle lui semble la plus utile et la dernière à la portée des
+               Puissances. Loin de les faire dévier de la ligne des principes que <rs ref="#p.16"><choice>
                      <abbr>S. M. I.</abbr>
                      <expan>Sa Majesté Impériale</expan>
-                  </choice>
-                    </rs>, ainsi que <rs ref="#p.18 #p.17">les augustes Monarques Ses
+                  </choice></rs>, ainsi que <rs ref="#p.18 #p.17">les augustes Monarques Ses
                   alliés</rs>, se sont décidés à suivre immuablement comme les seuls qui puissent
                conduire la catastrophe de <country>Naples</country> à une fin salutaire non
                seulement pour ce Royaume, mais pour l’Europe entière, elle couronne, pour ainsi
@@ -658,52 +573,42 @@
                agissant sur d’autres peuples également livrés aux horreurs de l’anarchie.</p>
             <p>Elle mettra enfin un terme aux fraix immenses que cause à la <country>Monarchie
                   autrichienne</country> le soutien d’une force armée considérable qui pèse sur ses
-               peuples fidèles et sur des provinces auxquels il est du devoir de l’<rs ref="#p.16">Empereur</rs>, et dans l’intérêt de la cause commune,<pb n="114r"/> de ne pas
+               peuples fidèles et sur des provinces auxquels il est du devoir de l’<rs ref="#p.16"
+                  >Empereur</rs>, et dans l’intérêt de la cause commune,<pb n="114r"/> de ne pas
                laisser supporter un fardeau qui n’est nullement réclamé par leurs besoins
                directs.</p>
             <p>Le Cabinet autrichien a cru ne pas pouvoir s’expliquer d’une manière plus apte à
                prouver son adhésion à l’opinion que le Cabinet de Russie lui a communiquée qu’en
                rédigeant, en conformité de cette opinion, le projet d’une dépêche qu’il serait prêt
-               à adresser pour sa part à l’<rs ref="#p.156">ambassadeur de l’<rs ref="#p.16">Empereur</rs> près du <choice>
+               à adresser pour sa part à l’<rs ref="#p.156">ambassadeur de l’<rs ref="#p.16"
+                     >Empereur</rs> près du <choice>
                      <abbr>St.</abbr>
                      <expan>Saint</expan>
                   </choice> Siège</rs>.</p>
-            <p>Il a l’honneur <rs xml:id="n.9">de communiquer ci-joint ce projet</rs> aux deux
-               autres Cabinets.<note type="editorial" target="#n.9">Vgl. Anlage 3.</note>
-                </p>
+            <p>Il a l’honneur <ref decls="#m.4">de communiquer ci-joint ce projet</ref> aux deux
+               autres Cabinets.</p>
             <p>Il se fera un devoir de prendre, dans le plus bref délai possible, en considération
                avec les deux autres Cabinets tout ce que l’un ou l’autre d’entre eux pourrait juger
                devoir ajouter au développement qu’offre le projet de dépêche, et il ne lui reste
-               qu’à exprimer la conviction de <rs ref="#p.16">
-                        <choice>
+               qu’à exprimer la conviction de <rs ref="#p.16"><choice>
                      <abbr>S. M. I.</abbr>
                      <expan>Sa Majesté Impériale</expan>
-                  </choice>
-                    </rs> de l’avantage qui devrait résulter du fait que le Courrier pour
+                  </choice></rs> de l’avantage qui devrait résulter du fait que le Courrier pour
                   <placeName ref="#loc.6">Rome</placeName> puisse être expédié le plus vite que
                faire se pourrait.</p>
          </div>
 
          <div hand="#A" decls="#m.4">
             <pb n="115r"/>
-            <p>
-                    <add hand="#AmB" place="top">C.</add>
-                </p>
-            <p>
-                    <title>Projet d’une Dépêche à adresser par les Cabinets d’Autriche,</title>
-                </p>
-            <p>
-                    <title>de Prusse et de Russie à leurs <rs ref="#p.156 #p.157 #p.158">Ministres
+            <p><add hand="#AmB" place="top">C.</add></p>
+            <p><title>Projet d’une Dépêche à adresser par les Cabinets d’Autriche,</title></p>
+            <p><title>de Prusse et de Russie à leurs <rs ref="#p.156 #p.157 #p.158">Ministres
                      respectifs près du <choice>
-                        <abbr>S<hi rendition="#su">t</hi>
-                                </abbr>
+                        <abbr>S<hi rendition="#su">t</hi></abbr>
                         <expan>Saint</expan>
-                     </choice> Siège</rs>
-                    </title>
-                </p>
+                     </choice> Siège</rs></title></p>
             <p>Les délibérations des Cabinets réunis à <placeName ref="#loc.60">Troppau</placeName>
-               ont porté depuis l’expédition de leur invitation à <rs ref="#p.138">
-                        <choice>
+               ont porté depuis l’expédition de leur invitation à <rs ref="#p.138"><choice>
                      <abbr>S. M.</abbr>
                      <expan>Sa Majesté</expan>
                   </choice> Sicilienne</rs> sur l’examen des différentes alternatives que présente
@@ -713,24 +618,24 @@
                forme de leur régime intérieur, ces alternatives ne sauraient toutes être prévues ni
                calculées.</p>
             <p>Mais depuis que les Cabinets ont pris l’irrévocable détermination de ne pas
-               reconnoître les Gouvernemens nés du crime, et de regarder le <rs ref="#p.138">Roi</rs> et les peuples des <country>Deux-Siciles</country> comme asservis au
+               reconnoître les Gouvernemens nés du crime, et de regarder le <rs ref="#p.138"
+                  >Roi</rs> et les peuples des <country>Deux-Siciles</country> comme asservis au
                despotisme révolutionnaire, les chances qu’il importait d’examiner se réduisent
                forcément à deux :</p>
             <p>Ou la nation, éclairée par des hommes qui obéiront au sentiment de leurs devoirs,
-               mettra le <rs ref="#p.138">Roi</rs>
-                    <pb n="115v"/> en état d’accepter <ref target="Troppau_Prot_4.xml">l’invitation des <rs ref="#p.16 #p.18 #p.17">Monarques</rs>
-                    </ref> ;</p>
+               mettra le <rs ref="#p.138">Roi</rs><pb n="115v"/> en état d’accepter <ref
+                  target="Troppau_Prot_4.xml">l’invitation des <rs ref="#p.16 #p.18 #p.17"
+                     >Monarques</rs></ref> ;</p>
             <p>Ou bien, aveuglée par les passions et persévérant dans ses funestes erreurs, elle
                opposera un obstacle insurmontable à ce que le <rs ref="#p.138">Roi</rs> puisse la
                réconcilier avec elle-même et avec l’Europe, en effaçant les traces, en détruisant le
                scandale des <rs xml:id="n.10">attentats du <date when="1820-07-02">2
-                  Juillet</date>
-                    </rs>.<note type="editorial" target="#n.10">Am <date when="1820-07-02">2. Juli 1820</date> meuterte die Militärgarnison in Nola, 35
+                  Juillet</date></rs>.<note type="editorial" target="#n.10">Am <date
+                     when="1820-07-02">2. Juli 1820</date> meuterte die Militärgarnison in Nola, 35
                   km von <placeName ref="#loc.11">Neapel</placeName> entfernt. Das Datum gilt als
                   Beginn der Revolution im <country>Königreich beider Sizilien</country>. Vgl.
                   Stites, The four Horsemen; Davis, Naples and Napoleon; Gin, Sanfedisti, Carbonari,
-                  Magistrati del Re; Späth, Revolution in Europa, S. 129–149.</note>
-                </p>
+                  Magistrati del Re; Späth, Revolution in Europa, S. 129–149.</note></p>
             <p>La première hypothèse, si elle se réalise, offre les élémens des plus heureuses
                combinaisons de paix et de concorde : <country>Naples</country> se sauverait par sa
                propre sagesse, les Puissances Alliées n’auroient fait que donner la première
@@ -747,7 +652,8 @@
                ont cru découvrir des moyens dont l’emploi épargnerait à l’Europe le spectacle
                affligeant de la puissance, contrainte de commander à une nation son salut et son
                repos.</p>
-            <p>Dès que le <rs ref="#p.138">Roi de Naples</rs> se refuserait à l’invitation des <rs ref="#p.16 #p.18 #p.17">Monarques</rs>, toute réponse, toute proposition de Sa
+            <p>Dès que le <rs ref="#p.138">Roi de Naples</rs> se refuserait à l’invitation des <rs
+                  ref="#p.16 #p.18 #p.17">Monarques</rs>, toute réponse, toute proposition de Sa
                part constaterait l’état de captivité dans lequel il se trouve et donnerait une
                nouvelle preuve du succès fatal des artifices mis en œuvre pour envelopper dans la
                cause coupable d’une poignée de factieux la nation tout entière, ou la grande
@@ -782,16 +688,19 @@
                nation napolitaine, d’un côté, les erreurs qui l’égarent et l’abyme où elles doivent
                la précipiter avec ignominie ; de l’autre, ce qui lui reste à faire pour les abjurer
                et pour se sauver honorablement.</p>
-            <p>Or, dans le cas où le <rs ref="#p.138">Roi</rs> rejeterait la proposition des <rs ref="#p.16 #p.18 #p.17">Monarques</rs>,<pb n="117v"/> les Cabinets alliés
+            <p>Or, dans le cas où le <rs ref="#p.138">Roi</rs> rejeterait la proposition des <rs
+                  ref="#p.16 #p.18 #p.17">Monarques</rs>,<pb n="117v"/> les Cabinets alliés
                n’auraient aucun moyen de révéler à <country>Naples</country> les vérités dont la
                connoissance seule y devrait identifier la cause nationale avec la cause
                européenne.</p>
             <p>Ils ne pourroient, en effet, les exprimer que dans un Manifeste ; et cette mesure,
                qui accompagne ordinairement la guerre, et qui peut même facilement être confondue
                avec la guerre, le parti contraire aux vrais intérêts du <country>Royaume</country>
-               pourrait s’en emparer, soit pour mettre en danger les jours mêmes du <rs ref="#p.138">Monarque</rs>, soit pour le forcer à se placer à la tête de ceux qui usurpent le
+               pourrait s’en emparer, soit pour mettre en danger les jours mêmes du <rs ref="#p.138"
+                  >Monarque</rs>, soit pour le forcer à se placer à la tête de ceux qui usurpent le
                nom de la Nation.</p>
-            <p>Ils ne pourroient non plus les faire entendre par la voix du <rs ref="#p.138">Souverain légitime</rs>, puisqu’asservi et captif ce Souverain serait dans
+            <p>Ils ne pourroient non plus les faire entendre par la voix du <rs ref="#p.138"
+                  >Souverain légitime</rs>, puisqu’asservi et captif ce Souverain serait dans
                l’impossibilité de s’en constituer l’organe.</p>
             <p>Ils ne le pourroient enfin ni par l’intermédiaire du Gouvernement actuel, puisqu’ils
                sont décidés à n’avoir pas de relations avec lui, ni par l’entremise des napolitains
@@ -802,7 +711,8 @@
             <p>On ne voit qu’une seule autorité qui puisse s’interposer entre les Puissances, qui
                demandent à la nation napolitaine de revenir aux principes dont l’observation est
                indispensable au bonheur et à la tranquillité de l’Etat social, et cette nation, liée
-               à un système établi par une violation éclatante. Cette Autorité est celle du <rs ref="#p.155">Saint Père</rs>.</p>
+               à un système établi par une violation éclatante. Cette Autorité est celle du <rs
+                  ref="#p.155">Saint Père</rs>.</p>
             <p>Dépositaire du pouvoir spirituel, à la fois Pontife et Souverain, Lui seul,
                reconnoissant la justice de la cause que les Puissances doivent faire triompher, Lui
                seul peut éclairer les peuples des Deux-Siciles et leur offrir des moyens de
@@ -830,34 +740,34 @@
                   Pontife</rs> doit y agir encore puissamment sur les esprits.</p>
             <p>Ses exhortations ne sauroient y être méconnues.</p>
             <p>Il sera du devoir du Clergé, de cette classe influante et nombreuse, détournée par
-               les Sectes de l’accomplissement de Sa vocation, d’appuyer la voix du <rs ref="#p.155">
-                        <choice>
-                     <abbr>S<hi rendition="#su">t</hi>
-                            </abbr>
+               les Sectes de l’accomplissement de Sa vocation, d’appuyer la voix du <rs ref="#p.155"><choice>
+                     <abbr>S<hi rendition="#su">t</hi></abbr>
                      <expan>Saint</expan>
                   </choice> Père</rs>. Elle condamnerait les sermens imposés et profanés par le
                crime et par les associations subversives que l’Eglise a déjà frappé de Ses
                anathèmes.</p>
             <p>Ces démarches de conciliation et à la fois de salut auxquelles se joindrait l’aspect
                menaçant d’une force armée, prête à amener en dernier résultat la réalisation
-               immanquable des desseins que les Cours alliées forment, produiroient, <rs ref="#p.16 #p.18 #p.17">les Monarques</rs> s’en flattent, une impression décisive
+               immanquable des desseins que les Cours alliées forment, produiroient, <rs
+                  ref="#p.16 #p.18 #p.17">les Monarques</rs> s’en flattent, une impression décisive
                sur la nation, ou du moins sur la partie de cette nation que la contagion n’a point
                encore pervertie.</p>
             <p>On pourrait espérer alors qu’en se ralliant à l’autorité neutre et<pb n="119v"/>
-               pacifique du <rs ref="#p.155">Pape</rs>, elle affranchirait le <rs ref="#p.138">Roi</rs> de Sa captivité et rendrait ainsi possible une entente entre ce Prince
+               pacifique du <rs ref="#p.155">Pape</rs>, elle affranchirait le <rs ref="#p.138"
+                  >Roi</rs> de Sa captivité et rendrait ainsi possible une entente entre ce Prince
                et les Cours alliées dont le but serait la restauration du pouvoir légitime dans le
                   <country>Royaume des Deux-Siciles</country>, et l’établissement d’un ordre des
                choses qui assureroient à <country>Naples</country>, à la péninsule Italienne et au
                continent Européen le bienfait de la prospérité intérieure et de la paix.</p>
-            <p>En cas que ce premier succès vînt à manquer, et quand même les efforts du <rs ref="#p.155">
-                        <choice>
-                     <abbr>S<hi rendition="#su">t</hi>
-                            </abbr>
+            <p>En cas que ce premier succès vînt à manquer, et quand même les efforts du <rs
+                  ref="#p.155"><choice>
+                     <abbr>S<hi rendition="#su">t</hi></abbr>
                      <expan>Saint</expan>
                   </choice> Père</rs> ne parviendraient pas à éclairer les hommes qui oppriment
                aujourd’hui <country>Naples</country> sur les véritables intérêts de leur patrie, au
                moins tous ceux, dans le cœur desquels l’amour de cette patrie n’est pas encore
-               éteint, se seraient-ils convaincus par le langage de la Cour de <placeName ref="#loc.6">Rome</placeName> et par le fait seul de Sa médiation que les
+               éteint, se seraient-ils convaincus par le langage de la Cour de <placeName
+                  ref="#loc.6">Rome</placeName> et par le fait seul de Sa médiation que les
                Puissances alliées ne désirent que le bonheur réel, durable, paisible du
                   <country>Royaume des Deux-Siciles</country>.</p>
             <pb n="120r"/>
@@ -865,7 +775,8 @@
                prononcer et de prouver par ce fait même son existence, sa volonté et sa force ? Ne
                pourrait-elle pas invoquer par l’organe du <rs ref="#p.155">Souverain Pontife</rs>
                l’assistance des Cours amies contre d’aveugles oppresseurs ?</p>
-            <p>Dans la supposition la plus heureuse et la plus conforme au vœu des <rs ref="#p.16 #p.18 #p.17">Monarques</rs>, la force des armes ne constituerait que
+            <p>Dans la supposition la plus heureuse et la plus conforme au vœu des <rs
+                  ref="#p.16 #p.18 #p.17">Monarques</rs>, la force des armes ne constituerait que
                les garanties de durée.</p>
             <p>Dans l’autre, les mesures coercitives ne seraient employées que contre une cause
                réprouvée par la partie saine des napolitains eux-mêmes et contre des hommes qu’ils
@@ -879,84 +790,55 @@
 
          <div hand="#A" decls="#m.5">
             <pb n="121r"/>
-            <p>
-                    <add hand="#AmB" place="top">D.</add>
-                </p>
-            <p>
-                    <title>
-                        <hi rendition="#u">Copie d’une note que les <rs ref="#p.156 #p.157 #p.158">Ministres des Cours alliées à <placeName ref="#loc.6">Rome</placeName>
-                            </rs>
-                     présenteraient pour</hi>
-                    </title>
-                </p>
-            <p>
-                    <title>
-                        <hi rendition="#u">proposer au</hi>
-                  <rs ref="#p.155">
-                            <choice>
-                        <abbr>
-                                    <hi rendition="#u">S</hi>
-                                    <hi rendition="#su #u">t</hi>
-                                </abbr>
+            <p><add hand="#AmB" place="top">D.</add></p>
+            <p><title><hi rendition="#u">Copie d’une note que les <rs ref="#p.156 #p.157 #p.158"
+                        >Ministres des Cours alliées à <placeName ref="#loc.6">Rome</placeName></rs>
+                     présenteraient pour</hi></title></p>
+            <p><title><hi rendition="#u">proposer au</hi>
+                  <rs ref="#p.155"><choice>
+                        <abbr><hi rendition="#u">S</hi><hi rendition="#su #u">t</hi></abbr>
                         <expan>Saint</expan>
-                     </choice> Père</rs>
-                        <hi rendition="#u"> de se charger des fonctions de Médiateur
-                     dans les affaires de <country>Naples</country>
-                        </hi>
-                    </title>
-                </p>
-            <p>
-                    <placeName ref="#loc.60">Troppau</placeName> le <supplied>...</supplied>
-                </p>
+                     </choice> Père</rs><hi rendition="#u"> de se charger des fonctions de Médiateur
+                     dans les affaires de <country>Naples</country></hi></title></p>
+            <p><placeName ref="#loc.60">Troppau</placeName> le <supplied>...</supplied></p>
             <p>Le soussigné à l’honneur d’adresser d’ordre exprès de sa Cour à <choice>
                   <abbr>S. Em.</abbr>
                   <expan>Son Eminence</expan>
                </choice>
                <choice>
-                  <abbr>M<hi rendition="#su">r</hi>
-                        </abbr>
+                  <abbr>M<hi rendition="#su">r</hi></abbr>
                   <expan>Monsieur</expan>
-               </choice> le <persName ref="#p.159">
-                        <roleName>Cardinal</roleName>
-                  <surname>
-                            <rs xml:id="n.11">Consalvi</rs>
-                        </surname>
-                    </persName>
-                    <note type="editorial" target="#n.11"> "Consalvi" über rasierten anderen Namen
+               </choice> le <persName ref="#p.159"><roleName>Cardinal</roleName>
+                  <surname><rs xml:id="n.11">Consalvi</rs></surname></persName><note
+                  type="editorial" target="#n.11"> "Consalvi" über rasierten anderen Namen
                   gesetzt.</note> la communication suivante.</p>
             <p>Les cabinets réunis à <placeName ref="#loc.60">Troppau</placeName> se sont empressés
                de porter à la connoissance de la Cour de <placeName ref="#loc.6">Rome</placeName> la
-               démarche qu’ils ont faite auprès de <rs ref="#p.138">
-                        <choice>
+               démarche qu’ils ont faite auprès de <rs ref="#p.138"><choice>
                      <abbr>S. M.</abbr>
                      <expan>Sa Majesté</expan>
                   </choice> Sicilienne</rs> pour rendre à ce Monarque sa volonté libre et pour le
                mettre en état de se concerter avec les Puissances alliées sur les moyens de
                réconcilier <country>Naples</country> avec lui-même et avec l’ordre social.</p>
-            <p>Les cabinets se font aujourd’hui un devoir de communiquer au Ministère de <rs ref="#p.155">
-                        <choice>
+            <p>Les cabinets se font aujourd’hui un devoir de communiquer au Ministère de <rs
+                  ref="#p.155"><choice>
                      <abbr>S. S.</abbr>
                      <expan>Sa Sainteté</expan>
-                  </choice>
-                    </rs> un aperçu des premiers résultats de leurs délibérations, aperçu qui
+                  </choice></rs> un aperçu des premiers résultats de leurs délibérations, aperçu qui
                indique les bases du système que les Cours alliées se sont reconnues dans la stricte
                obligation de suivre et qu’elles espèrent de voir adopté par tous les Etats
                Européens, intéressés comme elles à prévenir le retour des révolutions et à en
                réparer les maux partout où il est possible d’y apporter un remède.</p>
             <pb n="121v"/>
-            <p>Ne doutant pas que <rs ref="#p.155">
-                        <choice>
+            <p>Ne doutant pas que <rs ref="#p.155"><choice>
                      <abbr>S. S.</abbr>
                      <expan>Sa Sainteté</expan>
-                  </choice>
-                    </rs> n’honore de son suffrage leurs déterminations, et que ses vœux
+                  </choice></rs> n’honore de son suffrage leurs déterminations, et que ses vœux
                n’appellent le succès de leur entreprise, les Cours alliées sont également
-               convaincues que <rs ref="#p.155">
-                        <choice>
+               convaincues que <rs ref="#p.155"><choice>
                      <abbr>S. S.</abbr>
                      <expan>Sa Sainteté</expan>
-                  </choice>
-                    </rs> se prêtera dans sa haute sagesse à concourir à l’accomplissement de
+                  </choice></rs> se prêtera dans sa haute sagesse à concourir à l’accomplissement de
                l’œuvre de paix qu’elles se proposent de consommer et d’affermir dans le
                   <country>Royaume des deux-Siciles</country>.</p>
             <p>Cet Etat, victime d’un mouvement révolutionnaire qui a frappé jusque dans ses
@@ -968,25 +850,25 @@
                en devoir de venir immédiatement au secours du <rs ref="#p.138">Roi</rs> et de la
                nation. Elles ont pris l’irrévocable résolution de les délivrer, l’un et l’autre, du
                despotisme révolutionnaire, et d’employer, pour parvenir à ce but, d’abord des
-               mesures de persuasion, et si ces dernières restaient infructueuses, des mesures<pb n="122r"/> appuyées par la force des armes.</p>
+               mesures de persuasion, et si ces dernières restaient infructueuses, des mesures<pb
+                  n="122r"/> appuyées par la force des armes.</p>
             <p>C’est dans la vue d’épargner au monde le spectacle affligeant de cette force, réduite
                à commander enfin à un peuple ce que la raison devoit lui dicter à lui imposer son
                salut et son bonheur ; c’est dans l’espoir d’atteindre l’objet de leur sollicitude
-               par la seule action de l’autorité paternelle et conservatrice du <rs ref="#p.138">Souverain légitime</rs> que les <rs ref="#p.16 #p.18 #p.17">Monarques présens à
-                     <placeName ref="#loc.60">Troppau</placeName>
-                    </rs> ont invité <rs ref="#p.138">
-                        <choice>
+               par la seule action de l’autorité paternelle et conservatrice du <rs ref="#p.138"
+                  >Souverain légitime</rs> que les <rs ref="#p.16 #p.18 #p.17">Monarques présens à
+                     <placeName ref="#loc.60">Troppau</placeName></rs> ont invité <rs ref="#p.138"><choice>
                      <abbr>S. M.</abbr>
                      <expan>Sa Majesté</expan>
-                  </choice> Sicilienne</rs> à se réunir à eux dans la ville de <placeName ref="#loc.65">Laybach</placeName>.</p>
+                  </choice> Sicilienne</rs> à se réunir à eux dans la ville de <placeName
+                  ref="#loc.65">Laybach</placeName>.</p>
             <p>Mais plus les Puissances alliées attachaient de prix au succès de cette démarche, et
                plus il leur importoit de prévoir le cas où de tristes circonstances le feraient
                échouer.</p>
             <p>Les Puissances alliées ont mûrement réfléchi à cette pénible supposition. En
-               s’occupant de l’hypothèse où les hommes du <rs xml:id="n.12">
-                        <date when="1820-07-02">2 juillet</date>
-                    </rs>
-                    <note type="editorial" target="#n.12">Am <date when="1820-07-02">2. Juli 1820</date> meuterte die Militärgarnison in Nola, 35
+               s’occupant de l’hypothèse où les hommes du <rs xml:id="n.12"><date when="1820-07-02"
+                     >2 juillet</date></rs><note type="editorial" target="#n.12">Am <date
+                     when="1820-07-02">2. Juli 1820</date> meuterte die Militärgarnison in Nola, 35
                   km von <placeName ref="#loc.11">Neapel</placeName> entfernt. Das Datum gilt als
                   Beginn der Revolution im <country>Königreich beider Sizilien</country>. Vgl.
                   Stites, The four Horsemen; Davis, Naples and Napoleon; Gin, Sanfedisti, Carbonari,
@@ -997,19 +879,17 @@
                et religieux la situation dans laquelle se<pb n="122v"/> trouveroit alors le
                   <country>Royaume des deux-Siciles</country> ; en reportant leur pensée sur la
                nécessité d’épuiser les voies <hi rendition="#du">de conciliation,</hi> les
-               Puissances alliées devaient naturellement tourner leurs regards vers le <rs ref="#p.155">
-                        <choice>
-                     <abbr>S<hi rendition="#su">t</hi>
-                            </abbr>
+               Puissances alliées devaient naturellement tourner leurs regards vers le <rs
+                  ref="#p.155"><choice>
+                     <abbr>S<hi rendition="#su">t</hi></abbr>
                      <expan>Saint</expan>
                   </choice> Père</rs>.</p>
             <p>Son pouvoir toujours pacifique, son influence toujours bienfesante leur ont semblé
-               offrir une nouvelle source de moyens de persuasion qui, mis en œuvre par <rs ref="#p.155">
-                        <choice>
+               offrir une nouvelle source de moyens de persuasion qui, mis en œuvre par <rs
+                  ref="#p.155"><choice>
                      <abbr>S. S.</abbr>
                      <expan>Sa Sainteté</expan>
-                  </choice>
-                    </rs>, ne pourroient dans tous les cas que produire un effet salutaire.
+                  </choice></rs>, ne pourroient dans tous les cas que produire un effet salutaire.
                Il leur a paru qu’éclairés par ses exhortations, les hommes qui égarent la nation
                napolitaine reconnoitroient le danger commun et l’urgence de confier le salut du pays
                à la liberté tutélaire de son <rs ref="#p.138">Roi</rs>.</p>
@@ -1026,89 +906,70 @@
                la nation et plus sensibles à l’intérêt public, ces hommes, à l’aspect des forces
                terribles qui, en dernier résultat, viendraient assurer la victoire et le règne de la
                justice, ces hommes même, contraints de fléchir devant une nécessité impérieuse ne
-               s’efforceraient-ils pas d’aider le <rs ref="#p.155">
-                        <choice>
-                     <abbr>S<hi rendition="#su">t</hi>
-                            </abbr>
+               s’efforceraient-ils pas d’aider le <rs ref="#p.155"><choice>
+                     <abbr>S<hi rendition="#su">t</hi></abbr>
                      <expan>Saint</expan>
                   </choice> Père</rs> à remplir la mission auguste dont il se serait chargé ?</p>
-            <p>Dans le cas où <rs ref="#p.155">
-                        <choice>
+            <p>Dans le cas où <rs ref="#p.155"><choice>
                      <abbr>S. S.</abbr>
                      <expan>Sa Sainteté</expan>
-                  </choice>
-                    </rs> l’accepteroit, comme les Puissances alliées aiment à le croire,
-               elle aurait pour but principal de porter la nation napolitaine à affranchir le <rs ref="#p.138">Roi</rs> et à s’affranchir elle-même par le <rs ref="#p.138">Roi</rs>
-               des liens que leur ont<pb n="123v"/> mutuellement imposés les évènemens du <date when="1820-07-02">2 juillet</date> et leurs désastreuses conséquences.</p>
-            <p>Redevenu libre par la médiation et sous les auspices du <rs ref="#p.155">
-                        <choice>
-                     <abbr>S<hi rendition="#su">t</hi>
-                            </abbr>
+                  </choice></rs> l’accepteroit, comme les Puissances alliées aiment à le croire,
+               elle aurait pour but principal de porter la nation napolitaine à affranchir le <rs
+                  ref="#p.138">Roi</rs> et à s’affranchir elle-même par le Roi
+               des liens que leur ont<pb n="123v"/> mutuellement imposés les évènemens du <date
+                  when="1820-07-02">2 juillet</date> et leurs désastreuses conséquences.</p>
+            <p>Redevenu libre par la médiation et sous les auspices du <rs ref="#p.155"><choice>
+                     <abbr>S<hi rendition="#su">t</hi></abbr>
                      <expan>Saint</expan>
                   </choice> Père</rs>, le <rs ref="#p.138">Roi</rs> se concerteroit avec ses alliés
                sur les mesures les plus propres à faire jouir ses peuples d’une honorable
                tranquillité et d’un régime conforme à leurs besoins, mais qui ne pût compromettre
                par le mode de son établissement le repos d’aucun autre Etat.</p>
-            <p>Quand même <rs ref="#p.155">
-                        <choice>
+            <p>Quand même <rs ref="#p.155"><choice>
                      <abbr>S. S.</abbr>
                      <expan>Sa Sainteté</expan>
-                  </choice>
-                    </rs> ne réussirait pas à obtenir ce premier succès, le plus important de
-               tous, au moins en sa qualité de médiateur, le <rs ref="#p.155">
-                        <choice>
-                     <abbr>S<hi rendition="#su">t</hi>
-                            </abbr>
+                  </choice></rs> ne réussirait pas à obtenir ce premier succès, le plus important de
+               tous, au moins en sa qualité de médiateur, le <rs ref="#p.155"><choice>
+                     <abbr>S<hi rendition="#su">t</hi></abbr>
                      <expan>Saint</expan>
                   </choice> Père</rs> pourroit-il recueillir les vœux que la partie saine de la
                nation forme pour voir cesser l’anarchie, au moins serait-il en droit de se
                constituer l’interprète du désir qu’elle lui aurait témoigné et d’invoquer en sa
                faveur l’assistance de la force dont elle seroit dépourvue. Cette force, agissant
-               alors sous la garantie des intentions de <rs ref="#p.155">
-                        <choice>
+               alors sous la garantie des intentions de <rs ref="#p.155"><choice>
                      <abbr>S. S.</abbr>
                      <expan>Sa Sainteté</expan>
-                  </choice>
-                    </rs>, opérerait toujours,<pb n="124r"/> dans le dessein indiqué
+                  </choice></rs>, opérerait toujours,<pb n="124r"/> dans le dessein indiqué
                ci-dessus, la délivrance du <rs ref="#p.138">Roi</rs> et du <country>Royaume des
                   deux-Siciles</country>.</p>
-            <p>Tel serait le double objet de la médiation qu’exerceroit le <rs ref="#p.155">
-                        <choice>
-                     <abbr>S<hi rendition="#su">t</hi>
-                            </abbr>
+            <p>Tel serait le double objet de la médiation qu’exerceroit le <rs ref="#p.155"><choice>
+                     <abbr>S<hi rendition="#su">t</hi></abbr>
                      <expan>Saint</expan>
                   </choice> Père</rs>. Tels sont les vœux que les cabinets alliés lui expriment par
                la présente communication.</p>
             <p>Ils comptent sur son assentiment.</p>
-            <p>Chef de l’Eglise Catholique, le <rs ref="#p.155">
-                        <choice>
-                     <abbr>S<hi rendition="#su">t</hi>
-                            </abbr>
+            <p>Chef de l’Eglise Catholique, le <rs ref="#p.155"><choice>
+                     <abbr>S<hi rendition="#su">t</hi></abbr>
                      <expan>Saint</expan>
                   </choice> Père</rs> voit sans doute avec une vive appréhension les périls qui
                environnent cette église partout où le crime s’est érigé en Puissance.</p>
-            <p>L’<rs xml:id="n.13">
-                        <country>Espagne</country>
-                    </rs>,<note type="editorial" target="#n.13">Zur spanischen Verfassung von Cádiz, veröffentlicht am <date when="1812-03-19">19. März 1812</date> und am <date when="1820-03-08">8. März
-                     1820</date> durch <persName ref="#p.30">
-                            <roleName>König</roleName>
-                     <forename>Ferdinand VII.</forename>
-                        </persName> erneut in Kraft gesetzt, vgl.
+            <p>L’<rs xml:id="n.13"><country>Espagne</country></rs>,<note type="editorial"
+                  target="#n.13">Zur spanischen Verfassung von Cádiz, veröffentlicht am <date
+                     when="1812-03-19">19. März 1812</date> und am <date when="1820-03-08">8. März
+                     1820</date> durch <persName ref="#p.30"><roleName>König</roleName>
+                     <forename>Ferdinand VII.</forename></persName> erneut in Kraft gesetzt, vgl.
                   Timmermann, Die „Gemäßigte Monarchie“; BFSP Bd. 6 (1819/20), S. 237–279; Brand,
                   Schlegelmilch, Kirsch (Hgg.), Quellen. Zur Revolution vgl. Späth, Revolution in
-                  Europa, S. 117–128.</note> le <rs xml:id="n.14">
-                        <country>Portugal</country>
-                    </rs>,<note type="editorial" target="#n.14">In
+                  Europa, S. 117–128.</note> le <rs xml:id="n.14"
+                  ><country>Portugal</country></rs>,<note type="editorial" target="#n.14">In
                      <country>Portugal</country> war am <date when="1820-08-24">24. August
                      1820</date> ebenfalls eine Revolution ausgebrochen; vgl. Birmingham, A Concise
                   History, S. 111–113.</note>
                <country>Naples</country> ont succombé. <country>Naples</country> délivré, délivrera
                peut-être ces pays, comme <country>Naples</country> asservi a partagé leur
                asservissement.</p>
-            <p>Souverain, le <rs ref="#p.155">
-                        <choice>
-                     <abbr>S<hi rendition="#su">t</hi>
-                            </abbr>
+            <p>Souverain, le <rs ref="#p.155"><choice>
+                     <abbr>S<hi rendition="#su">t</hi></abbr>
                      <expan>Saint</expan>
                   </choice> Père</rs> doit de justes égards à la position des peuples qu’il
                gouverne ; il doit surtout les préserver de deux malheurs immenses : du danger de
@@ -1120,10 +981,8 @@
             <p>Sous ce rapport, la cause des Gouvernemens et des peuples et celle de l’église
                conservent plus intimement que dans aucun autre cas le lien qui les unit.</p>
             <p>Il est donc indispensable que l’Eglise cherche à prévenir une perte qui serait
-               nécessairement la sienne. La Providence semble avoir réservé au <rs ref="#p.155">
-                        <choice>
-                     <abbr>S<hi rendition="#su">t</hi>
-                            </abbr>
+               nécessairement la sienne. La Providence semble avoir réservé au <rs ref="#p.155"><choice>
+                     <abbr>S<hi rendition="#su">t</hi></abbr>
                      <expan>Saint</expan>
                   </choice> Père</rs> ce soin et cette gloire. C’est à lui qu’il appartient de
                rétablir à <country>Naples</country> l’empire des principes dont l’observation est le
@@ -1134,33 +993,26 @@
                à interposer sa médiation, dès qu’elle apprendrait que le <rs ref="#p.138">Roi de
                   Naples</rs> n’a point été maître de se réunir aux <rs ref="#p.16 #p.18 #p.17">
                   Monarques alliés</rs> et d’accepter l’invitation<pb n="125r"/> qu’il a reçue.</p>
-            <p>Les cabinets ne sauraient indiquer le mode de l’intervention de <rs ref="#p.155">
-                        <choice>
+            <p>Les cabinets ne sauraient indiquer le mode de l’intervention de <rs ref="#p.155"><choice>
                      <abbr>S. S.</abbr>
                      <expan>Sa Sainteté</expan>
-                  </choice>
-                    </rs>, ni signaler ici les moyens qu’Elle devrait employer pour réussir
+                  </choice></rs>, ni signaler ici les moyens qu’Elle devrait employer pour réussir
                dans la mission que lui défère une confiance unanime.</p>
-            <p>Ce qu’ils désirent c’est que le <rs ref="#p.155">
-                        <choice>
-                     <abbr>S<hi rendition="#su">t</hi>
-                            </abbr>
+            <p>Ce qu’ils désirent c’est que le <rs ref="#p.155"><choice>
+                     <abbr>S<hi rendition="#su">t</hi></abbr>
                      <expan>Saint</expan>
                   </choice> Père</rs> réussira, et il réussira, soit en portant la nation à briser
                le joug qui pèse sur <rs ref="#p.138">son Souverain</rs> et sur elle-même, soit à
                solliciter l’appui dont elle auroit besoin dans ses nobles efforts.</p>
-            <p>Quelle que puisse être de ces deux alternatives celle qui se réalisera, <rs ref="#p.155">
-                        <choice>
+            <p>Quelle que puisse être de ces deux alternatives celle qui se réalisera, <rs
+                  ref="#p.155"><choice>
                      <abbr>S. S.</abbr>
                      <expan>Sa Sainteté</expan>
-                  </choice>
-                    </rs> aura honorablement contribué à l’affermissement de la paix et à
+                  </choice></rs> aura honorablement contribué à l’affermissement de la paix et à
                l’introduction d’un ordre de choses auquel l’Italie serait redevable de sa tranquille
                prospérité.</p>
-            <p>Si le <rs ref="#p.155">
-                        <choice>
-                     <abbr>S<hi rendition="#su">t</hi>
-                            </abbr>
+            <p>Si le <rs ref="#p.155"><choice>
+                     <abbr>S<hi rendition="#su">t</hi></abbr>
                      <expan>Saint</expan>
                   </choice> Père</rs> le jugeoit utile, il pourroit déclarer aux Napolitains qu’en
                cas de délai de leur part l’adoption des mesures coercitives deviendrait inévitable ;
@@ -1171,30 +1023,26 @@
             <p>Le Soussigné prie <choice>
                   <abbr>S. Em.</abbr>
                   <expan>Son Eminence</expan>
-               </choice> le <persName ref="#p.159">
-                        <roleName>
-                            <choice>
+               </choice> le <persName ref="#p.159"><roleName><choice>
                         <abbr>Card.</abbr>
                         <expan>Cardinal</expan>
-                     </choice>
-                        </roleName>
-                  <surname>Consalvi</surname>
-                    </persName> de placer la présente note sous les yeux du
-                  <rs ref="#p.155">
-                        <choice>
-                     <abbr>S<hi rendition="#su">t</hi>
-                            </abbr>
+                     </choice></roleName>
+                  <surname>Consalvi</surname></persName> de placer la présente note sous les yeux du
+                  <rs ref="#p.155"><choice>
+                     <abbr>S<hi rendition="#su">t</hi></abbr>
                      <expan>Saint</expan>
                   </choice> Père</rs> et de lui faire connoître la décision de <rs ref="#p.155">Sa
                   Sainteté</rs>.</p>
          </div>
       </body>
       <back>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/listplace.xml" xpointer="listPlace"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/listperson.xml" xpointer="listPerson"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/listwit.xml" xpointer="listWit"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/listorg.xml" xpointer="listOrg"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/listwork.xml" xpointer="listTreaties"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listPlace.xml" xpointer="listPlace"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listPerson.xml"
+            xpointer="listPerson"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listWit.xml" xpointer="listWit"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listOrg.xml" xpointer="listOrg"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listTreaties.xml"
+            xpointer="listTreaties"/>
       </back>
    </text>
 </TEI>

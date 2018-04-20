@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -11,13 +12,10 @@
                <persName>
                   <surname>Schneider</surname>
                   <forename>Karin</forename>
-               </persName>
-                </editor>
+               </persName></editor>
          </titleStmt>
          <editionStmt>
-            <edition>
-                    <date>2015-05-08</date>
-                </edition>
+            <edition><date>2015-05-08</date></edition>
          </editionStmt>
          <publicationStmt>
             <publisher>Österreichische Akademie der Wissenschaften, Institut für Neuzeit- und
@@ -45,8 +43,7 @@
                <physDesc>
 
                   <p> Eigenhändiges Protokoll von <persName ref="#p.5">
-                        <surname>Gentz</surname>
-                            </persName>. </p>
+                        <surname>Gentz</surname></persName>. </p>
                   <handDesc>
                      <handNote xml:id="G">Friedrich Gentz</handNote>
                      <handNote xml:id="W">Nikolaus Wacken</handNote>
@@ -55,10 +52,8 @@
                   </handDesc>
                </physDesc>
                <history>
-                  <origin>
-                            <placeName ref="#loc.1">Aachen</placeName>
-                     <date when="1818-10-22">22. Oktober 1818</date>
-                        </origin>
+                  <origin><placeName ref="#loc.1">Aachen</placeName>
+                     <date when="1818-10-22">22. Oktober 1818</date></origin>
                </history>
             </msDesc>
             <msDesc xml:id="m.2" type="Abschrift">
@@ -83,9 +78,8 @@
 
                </physDesc>
                <history>
-                  <origin>
-                     <date when="1818-10-21">21. Oktober 1818</date>
-                        </origin>
+                  <origin><placeName ref="#loc.1">Aachen</placeName>
+                     <date when="1818-10-21">21. Oktober 1818</date></origin>
                </history>
             </msDesc>
          </sourceDesc>
@@ -105,9 +99,10 @@
       </encodingDesc>
       <profileDesc>
          <abstract>
-            <p>Der <rs ref="#p.1">Vertreter Frankreichs</rs> übermittelt den <rs ref="#p.8 #p.11 #p.13 #p.12 #p.14 #p.9">Vertretern der alliierten Mächte</rs>
+            <p>Der <rs ref="#p.1">Vertreter Frankreichs</rs> übermittelt den <rs
+                  ref="#p.8 #p.11 #p.13 #p.12 #p.14 #p.9">Vertretern der alliierten Mächte</rs>
                Beschwerden von Seiten der französischen Untertanen und der französischen Regierung
-               betreffend finanzielle Forderungen. Die Gesandten kommen überein, eine Kommission zur
+               finanzielle Forderungen betreffend. Die Gesandten kommen überein, eine Kommission zur
                Untersuchung dieser Beschwerden zu bilden.</p>
          </abstract>
          <particDesc>
@@ -144,32 +139,22 @@
       <body>
          <div hand="#G" decls="#m.1">
             <pb n="71r"/>
-            <p>
-                    <add hand="#W" place="top">Protocole <del rendition="#s">13</del>
+            <p><add hand="#W" place="top">Protocole <del rendition="#s">13</del>
                   <del rendition="#s">14</del>
-                  <del rendition="#s">16</del> 17.</add>
-                </p>
-            <p>
-                    <placeName ref="#loc.1">Aix-la-Chapelle</placeName> le <date when="1818-10-22">22
+                  <del rendition="#s">16</del> 17.</add></p>
+            <p><placeName ref="#loc.1">Aix-la-Chapelle</placeName> le <date when="1818-10-22">22
                   Octobre 1818</date>.</p>
 
-            <p>
-                    <add hand="#W" place="margin">(Entre les cinq Cabinets)</add>
-                </p>
-            <p>
-                    <choice>
+            <p><add hand="#W" place="margin">(Entre les cinq Cabinets)</add></p>
+            <p><choice>
                   <abbr>Mr.</abbr>
                   <expan>Monsieur</expan>
-               </choice> le <persName ref="#p.1">
-                        <roleName>Duc</roleName>
-                  <surname>de Richelieu</surname>
-                    </persName> a remis à la Conférence <rs xml:id="n.1">la note verbale ci-jointe</rs>
-                    <note type="editorial" target="#n.1">Vgl. Anlage.</note> relative à plusieurs réclamations tant des sujets de <rs ref="#p.15" xml:id="n.2">
-                        <choice>
+               </choice> le <persName ref="#p.1"><roleName>Duc</roleName>
+                  <surname>de Richelieu</surname></persName> a remis à la Conférence <ref decls="#m.2">la note verbale ci-jointe</ref> relative à plusieurs réclamations tant des sujets de <rs
+                  ref="#p.15" xml:id="n.1"><choice>
                      <abbr>S. M.</abbr>
                      <expan>Sa Majesté</expan>
-                  </choice> Très Chrétienne</rs>
-                    <note type="editorial" target="#n.2">Ehrentitel des
+                  </choice> Très Chrétienne</rs><note type="editorial" target="#n.1">Ehrentitel des
                   Königs von Frankreich</note> que de Son gouvernement, sur lesquelles <choice>
                   <abbr>S. E.</abbr>
                   <expan>Son Excellence</expan>
@@ -179,20 +164,16 @@
                </choice> les Ministres et Plénipotentiaires réunis. D’après l’observation de <choice>
                   <abbr>Mr.</abbr>
                   <expan>Monsieur</expan>
-               </choice> le <persName ref="#p.1">
-                        <roleName>Duc</roleName>
-                  <surname>de Richelieu</surname>
-                    </persName> ces réclamations se rapportent
+               </choice> le <persName ref="#p.1"><roleName>Duc</roleName>
+                  <surname>de Richelieu</surname></persName> ces réclamations se rapportent
                principalement</p>
             <p>1. Au payement de créances des sujets Français sur les gouvernemens étrangers ;</p>
             <p>2. À la jouissance des revenus des dotations accordées à des Français pour des termes
                antérieurs au <rs ref="#t.13">traité du <date when="1814-05-30">30 Mai
-                  1814</date>
-                    </rs> ;</p>
+                  1814</date></rs> ;</p>
             <p>3. À la restitution de sommes indûment payées par le trésor Royal entre les mains des
                Commissaires des différens Gouvernemens.</p>
-            <p>
-                    <choice>
+            <p><choice>
                   <abbr>Mr.</abbr>
                   <expan>Monsieur</expan>
                </choice> le <rs ref="#p.1">Duc</rs> ayant proposé en outre d’établir une Commission
@@ -204,16 +185,12 @@
             <p>De la part de l’<country>Autriche</country> : <choice>
                   <abbr>Mr.</abbr>
                   <expan>Monsieur</expan>
-               </choice> le <persName ref="#p.40">
-                        <roleName>Baron</roleName>
-                  <surname>de Lebzeltern</surname>
-                    </persName>, Ministre <pb n="71v"/>plénipotentiaire de <rs ref="#p.16" xml:id="n.3">
-                        <choice>
+               </choice> le <persName ref="#p.40"><roleName>Baron</roleName>
+                  <surname>de Lebzeltern</surname></persName>, Ministre <pb n="71v"
+               />plénipotentiaire de <rs ref="#p.16" xml:id="n.2"><choice>
                      <abbr>S. M. I. R. A.</abbr>
                      <expan>Sa Majesté Impériale Royale Apostolique</expan>
-                  </choice>
-                    </rs>
-                    <note type="editorial" target="#n.3">Ehrentitel des Kaisers von
+                  </choice></rs><note type="editorial" target="#n.2">Ehrentitel des Kaisers von
                   Österreich.</note> à la cour de <placeName ref="#loc.10">St.
                   Petersbourg</placeName> ;</p>
             <p>De la part de la <country>France</country> : <choice>
@@ -224,11 +201,8 @@
                   <abbr>Mrs.</abbr>
                   <expan>Messieurs</expan>
                </choice>
-               <persName ref="#p.41">
-                        <surname>de Mounier</surname>
-                    </persName> et <persName ref="#p.42">
-                        <surname>de Rayneval</surname>
-                    </persName>, Conseillers d’Etat de <choice>
+               <persName ref="#p.41"><surname>de Mounier</surname></persName> et <persName
+                  ref="#p.42"><surname>de Rayneval</surname></persName>, Conseillers d’Etat de <choice>
                   <abbr>S. M.</abbr>
                   <expan>Sa Majesté</expan>
                </choice> le <rs ref="#p.15">Roi de France</rs> ;</p>
@@ -236,11 +210,8 @@
                   <abbr>Mr.</abbr>
                   <expan>Monsieur</expan>
                </choice>
-               <persName ref="#p.43">
-                        <surname>Planta</surname>
-                    </persName>, Sous-Secrétaire d’Etat de
-                  <rs ref="#p.19">
-                        <choice>
+               <persName ref="#p.43"><surname>Planta</surname></persName>, Sous-Secrétaire d’Etat de
+                  <rs ref="#p.19"><choice>
                      <abbr>S. M.</abbr>
                      <expan>Sa Majesté</expan>
                   </choice> Brittannique</rs> ;</p>
@@ -248,9 +219,7 @@
                   <abbr>Mr.</abbr>
                   <expan>Monsieur</expan>
                </choice>
-               <persName ref="#p.44">
-                        <surname>de Jordan</surname>
-                    </persName>, Conseiller intime de
+               <persName ref="#p.44"><surname>de Jordan</surname></persName>, Conseiller intime de
                légation actuel de <choice>
                   <abbr>S. M.</abbr>
                   <expan>Sa Majesté</expan>
@@ -259,22 +228,17 @@
                   <abbr>Mr.</abbr>
                   <expan>Monsieur</expan>
                </choice>
-               <persName ref="#p.45">
-                        <surname>d’Alopeus</surname>
-                    </persName>, Ministre
+               <persName ref="#p.45"><surname>d’Alopeus</surname></persName>, Ministre
                plénipotentiaire de <choice>
                   <abbr>S. M.</abbr>
                   <expan>Sa Majesté</expan>
                </choice> l’<rs ref="#p.17">Empereur de toutes les Russies</rs> à la cour de
                   <placeName ref="#loc.9">Berlin</placeName>.</p>
-            <p>
-                    <choice>
+            <p><choice>
                   <abbr>Mr.</abbr>
                   <expan>Monsieur</expan>
-               </choice> le <persName ref="#p.1">
-                        <roleName>Duc</roleName>
-                  <surname>de Richelieu</surname>
-                    </persName> a été invité à faire remettre à ces
+               </choice> le <persName ref="#p.1"><roleName>Duc</roleName>
+                  <surname>de Richelieu</surname></persName> a été invité à faire remettre à ces
                Commissaires les pièces servant d’appui aux dites réclamations. Ils procéderont à
                l’examen de ces pièces, et en rendront compte dans le plus court délai possible.</p>
             <p>Copie du présent Protocole sera communiquée à <choice>
@@ -283,87 +247,55 @@
                </choice> les Commissaires ci-dessus nommés pour leur tenir lieu d’instruction.</p>
             <signed>
                <list>
-                  <item>
-                            <persName ref="#p.8">
-                                <choice>
+                  <item><persName ref="#p.8"><choice>
                            <abbr>M</abbr>
                            <expan>Metternich</expan>
-                        </choice>
-                            </persName>
-                        </item>
-                  <item>
-                            <persName ref="#p.9">
-                                <choice>
+                        </choice></persName></item>
+                  <item><persName ref="#p.9"><choice>
                            <abbr>C</abbr>
                            <expan>Castlereagh</expan>
-                        </choice>
-                            </persName>
-                        </item>
-                  <item>
-                            <persName ref="#p.1">
-                                <choice>
+                        </choice></persName></item>
+                  <item><persName ref="#p.1"><choice>
                            <abbr>R</abbr>
                            <expan>Richelieu</expan>
-                        </choice>
-                            </persName>
-                        </item>
-                  <item>
-                            <persName ref="#p.11">
-                                <choice>
+                        </choice></persName></item>
+                  <item><persName ref="#p.11"><choice>
                            <abbr>H</abbr>
                            <expan>Hardenberg</expan>
-                        </choice>
-                            </persName>
-                        </item>
-                  <item>
-                            <persName ref="#p.13">
-                                <choice>
+                        </choice></persName></item>
+                  <item><persName ref="#p.13"><choice>
                            <abbr>N</abbr>
                            <expan>Nesselrode</expan>
-                        </choice>
-                            </persName>
-                        </item>
-                  <item>
-                            <persName ref="#p.14">Capodistrias</persName>
-                        </item>
-                  <item>
-                            <persName ref="#p.12">
-                                <choice>
+                        </choice></persName></item>
+                  <item><persName ref="#p.14">Capodistrias</persName></item>
+                  <item><persName ref="#p.12"><choice>
                            <abbr>B</abbr>
                            <expan>Bernstorff</expan>
-                        </choice>
-                            </persName>
-                        </item>
-               </list>
-                </signed>
+                        </choice></persName></item>
+               </list></signed>
          </div>
 
          <div hand="#A" decls="#m.2">
             <pb n="72r"/>
             <addSpan spanTo="#a.1" place="top"/>
             <p>annexé au <choice>
-                  <abbr>n<hi rendition="#su">o</hi>
-                        </abbr>
+                  <abbr>n<hi rendition="#su">o</hi></abbr>
                   <expan>numéro</expan>
                </choice> 17.</p>
-            <p>
-                    <date when="1818-10-22">22 <choice>
+            <p><date when="1818-10-22">22 <choice>
                      <abbr>8bre</abbr>
                      <expan>Octobre</expan>
-                  </choice>
-                    </date>.</p>
+                  </choice></date>.</p>
             <anchor xml:id="a.1"/>
             <p>Tous les engagemens contractés par la <country>France</country>, tant envers les
-               différentes Puissances de l’Europe qu’envers leurs sujets, ont été remplis. La <ref target="Aachen_Prot_34.xml">Convention qui vient d’être conclue</ref> y a mis le
+               différentes Puissances de l’Europe qu’envers leurs sujets, ont été remplis. La <ref
+                  target="Aachen_Prot_34.xml">Convention qui vient d’être conclue</ref> y a mis le
                complément. La <country>France</country> est fondée à espérer que les mêmes principes
                de justice seront appliqués par les Puissances à quelques réclamations des sujets de
-                  <rs ref="#p.15" xml:id="n.4">
-                        <choice>
+                  <rs ref="#p.15" xml:id="n.3"><choice>
                      <abbr>S. M. T. C.</abbr>
                      <expan>Sa Majesté Très Chrétienne</expan>
-                  </choice>
-                    </rs>
-                    <note type="editorial" target="#n.4">Ehrentitel des Königs von
+                  </choice></rs><note type="editorial" target="#n.3">Ehrentitel des Königs von
                   Frankreich.</note> ou de son Gouvernement, sur lesquelles <rs ref="#p.1">son
                   Plénipotentiaire</rs> a reçu ordre d’appeler l’attention des Plénipotentiaires
                réunis à <placeName ref="#loc.1">Aix-la-Chapelle</placeName>.</p>
@@ -374,40 +306,36 @@
                   Gouvernemens<pb n="72v"/> Etrangers qui ont déjà été reconnues ou qui le seroient
                d’après les formes dont on conviendroit ;</p>
             <p>2<hi rendition="#su">o</hi> La jouissance des revenus des dotations accordées à des
-               Français pour des termes antérieurs au <rs ref="#t.13">Traité du <date when="1814-05-30">30 Mai 1814</date>
-                    </rs> ;</p>
-            <p>3<hi rendition="#su">o</hi>La restitution de sommes induement payées par le Trésor
+               Français pour des termes antérieurs au <rs ref="#t.13">Traité du <date
+                     when="1814-05-30">30 Mai 1814</date></rs> ;</p>
+            <p>3<hi rendition="#su">o</hi> La restitution de sommes induement payées par le Trésor
                Royal entre les mains des Commissaires de différens <choice>
-                  <abbr>Gouvern<hi rendition="#su">s</hi>
-                        </abbr>
+                  <abbr>Gouvern<hi rendition="#su">s</hi></abbr>
                   <expan>Gouvernemens</expan>
                </choice>.</p>
             <p>La totalité de ces réclamations réunies ne s’élève pas à une somme considérable, mais
-               elles sont importantes pour ceux des sujets de <rs ref="#p.15" xml:id="n.5">
-                        <choice>
+               elles sont importantes pour ceux des sujets de <rs ref="#p.15" xml:id="n.4"><choice>
                      <abbr>S. M. T. C.</abbr>
                      <expan>Sa Majesté Très Chrétienne</expan>
-                  </choice>
-                    </rs>
-                    <note type="editorial" target="#n.5">Ehrentitel des Königs von
+                  </choice></rs><note type="editorial" target="#n.4">Ehrentitel des Königs von
                   Frankreich</note> qu’elles concernent et qui depuis longtemps sollicitent une
                décision à cet égard. Le <rs ref="#p.1">Plénipotentiaire de France</rs> espère en
-               conséquence que les <rs ref="#p.8 #p.9 #p.10 #p.11 #p.12 #p.13 #p.14">Plénipotentiaires des Cours d’Autriche, de la Grande-Bretagne, de Prusse et de
+               conséquence que les <rs ref="#p.8 #p.9 #p.10 #p.11 #p.12 #p.13 #p.14"
+                  >Plénipotentiaires des Cours d’Autriche, de la Grande-Bretagne, de Prusse et de
                   Russie</rs> voudront bien prendre incessamment en considération l’objet de la
                présente note.</p>
-            <p>
-                    <add hand="#A1" place="bottom">
-                        <placeName ref="#loc.1">Aix-la-Chapelle</placeName>,
-                  le <date when="1818-10-21">21 octobre 1818</date>.</add>
-                </p>
+            <p><add hand="#A1" place="bottom"><placeName ref="#loc.1">Aix-la-Chapelle</placeName>,
+                  le <date when="1818-10-21">21 octobre 1818</date>.</add></p>
          </div>
       </body>
       <back>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/listplace.xml" xpointer="listPlace"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/listperson.xml" xpointer="listPerson"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/listwit.xml" xpointer="listWit"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/listorg.xml" xpointer="listOrg"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/listwork.xml" xpointer="listTreaties"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listPlace.xml" xpointer="listPlace"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listPerson.xml"
+            xpointer="listPerson"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listWit.xml" xpointer="listWit"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listOrg.xml" xpointer="listOrg"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listTreaties.xml"
+            xpointer="listTreaties"/>
       </back>
    </text>
 </TEI>

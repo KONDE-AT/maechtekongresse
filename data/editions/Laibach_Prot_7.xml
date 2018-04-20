@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -11,13 +12,10 @@
                <persName>
                   <surname>Schneider</surname>
                   <forename>Karin</forename>
-               </persName>
-                </editor>
+               </persName></editor>
          </titleStmt>
          <editionStmt>
-            <edition>
-                    <date>2017-03-13</date>
-                </edition>
+            <edition><date>2017-03-13</date></edition>
          </editionStmt>
          <publicationStmt>
             <publisher>Österreichische Akademie der Wissenschaften, Institut für Neuzeit- und
@@ -56,11 +54,8 @@
 
                </physDesc>
                <history>
-                  <origin>
-                            <placeName ref="#loc.65">Laibach</placeName>
-                            <date when="1821-01-25">25.
-                        Jänner 1821</date>
-                        </origin>
+                  <origin><placeName ref="#loc.65">Laibach</placeName><date when="1821-01-25">25.
+                        Jänner 1821</date></origin>
                </history>
             </msDesc>
             <msDesc xml:id="m.2" type="Ausfertigung">
@@ -85,25 +80,18 @@
                      28.</p>
                </physDesc>
                <history>
-                  <origin>
-                            <placeName ref="#loc.65">Laibach</placeName>
-                            <date when="1821-01-25">25.
-                        Jänner 1821</date>
-                        </origin>
+                  <origin><placeName ref="#loc.65">Laibach</placeName><date when="1821-01-25">25.
+                        Jänner 1821</date></origin>
                </history>
             </msDesc>
             <listWit corresp="#m.1">
                <head>Journal</head>
-               <witness corresp="#w.37">
-                        <bibl type="print">Alberti, Atti, S.
-                  410-411.</bibl>
-                    </witness>
+               <witness corresp="#w.37"><bibl type="print">Alberti, Atti, S.
+                  410-411.</bibl></witness>
             </listWit>
             <listWit corresp="#m.2">
                <head>Anlage: Französische Verbalnote</head>
-               <witness corresp="#w.37">
-                        <bibl type="print">Alberti, Atti, S. 411.</bibl>
-                    </witness>
+               <witness corresp="#w.37"><bibl type="print">Alberti, Atti, S. 411.</bibl></witness>
             </listWit>
          </sourceDesc>
       </fileDesc>
@@ -124,21 +112,21 @@
       <profileDesc>
          <abstract>
             <p>Die <rs ref="#p.160 #p.102 #p.135">Vertreter Frankreichs</rs> stimmen den Ergebnissen
-               der vorhergegangenen sechs Konferenzen zu. Der britische Gesandte <persName ref="#p.137">
-                        <surname>Stewart</surname>
-                    </persName> erklärt sich für nicht
-               autorisiert an den Verhandlungen in <placeName ref="#loc.65">Laibach</placeName>/<placeName ref="#loc.65">Ljubljana</placeName> teilzunehmen.
+               der vorhergegangenen sechs Konferenzen zu. Der britische Gesandte <persName
+                  ref="#p.137"><surname>Stewart</surname></persName> erklärt, dass er nicht
+               autorisiert sei, an den Verhandlungen in <placeName ref="#loc.65"
+                  >Laibach</placeName>/<placeName ref="#loc.65">Ljubljana</placeName> teilzunehmen.
                Die <rs ref="#p.8 #p.2 #p.12 #p.13 #p.14 #p.7 #p.160 #p.102 #p.135">Vertreter der
-                  Mächte</rs> beschließen, umgehend mit der Redaktion der Instruktionen für die <rs ref="#p.144 #p.147 #p.148 #p.149">österreichischen, französischen, preußischen und
-                  russischen diplomatischen Vertreter in <placeName ref="#loc.11">Neapel</placeName>
-                    </rs> zu beginnen. Der neapolitanische Gesandte <persName ref="#p.140">
-                        <surname>Ruffo</surname>
-                    </persName> kündigt an, dass der <rs ref="#p.138">König beider Sizilien</rs> den <persName ref="#p.142">
-                        <roleName>duca
-                     di Gallo</roleName>
-                    </persName> zu sich rufen wird, um ihm jene Befehle zukommen
-               zu lassen, die sich aus der <ref target="Laibach_Prot_6.xml">Sitzung vom <date when="1821-01-22">22. Jänner</date>
-                    </ref> ergeben. Die <rs ref="#p.8 #p.2 #p.12 #p.13 #p.14 #p.7 #p.160 #p.102 #p.135">Vertreter der
+                  Mächte</rs> beschließen, umgehend mit der Redaktion der Instruktionen für die <rs
+                  ref="#p.144 #p.147 #p.148 #p.149">österreichischen, französischen, preußischen und
+                  russischen diplomatischen Vertreter in <placeName ref="#loc.11"
+                  >Neapel</placeName></rs> zu beginnen. Der neapolitanische Gesandte <persName
+                  ref="#p.140"><surname>Ruffo</surname></persName> kündigt an, dass der <rs
+                  ref="#p.138">König beider Sizilien</rs> den <persName ref="#p.142"><roleName>duca
+                     di Gallo</roleName></persName> zu sich rufen wird, um ihm jene Befehle zukommen
+               zu lassen, die sich aus der <ref target="Laibach_Prot_6.xml">Sitzung vom <date
+                     when="1821-01-22">22. Jänner</date></ref> ergeben. Die <rs
+                  ref="#p.8 #p.2 #p.12 #p.13 #p.14 #p.7 #p.160 #p.102 #p.135">Vertreter der
                   Mächte</rs> beschließen, die Bevollmächtigten der italienischen Höfe zur nächsten
                Sitzung zuzulassen und ihnen die Journale der vorhergehenden Sitzungen zukommen zu
                lassen.</p>
@@ -192,17 +180,11 @@
       <body>
          <div hand="#A" decls="#m.1">
             <pb n="26r"/>
-            <p>
-                    <title>Journal des Conférences</title>
-                </p>
-            <p>
-                    <title>
-                        <choice>
-                     <abbr>N<hi rendition="#su">o</hi>
-                            </abbr>
+            <p><title>Journal des Conférences</title></p>
+            <p><title><choice>
+                     <abbr>N<hi rendition="#su">o</hi></abbr>
                      <expan>Numéro</expan>
-                  </choice> 7.</title>
-                </p>
+                  </choice> 7.</title></p>
             <p>Conférence du <date when="1821-01-25">25 Janvier</date>.</p>
             <p>On a fait lecture dans cette séance des Journaux des six Conférences précédentes, et
                la rédaction a été définitivement approuvée et arrêtée par <choice>
@@ -213,29 +195,24 @@
                   <abbr>MM.</abbr>
                   <expan>Messieurs</expan>
                </choice> les <rs ref="#p.160 #p.102 #p.135">Plénipotentiaires de France</rs> ont
-               remis <rs xml:id="n.1">la note verbale ci-jointe</rs>
-                    <note type="editorial" target="#n.1">Vgl. Anlage.</note> pour donner leur assentiment au contenu des dits
+               remis <ref decls="#m.2">la note verbale ci-jointe</ref> pour donner leur assentiment au contenu des dits
                Journaux, tels qu’ils ont été arrêtés jusqu’à ce jour, et pour annoncer qu’ils
                prendront également sur eux d’envoyer au <rs ref="#p.162">Chargé d’affaires de France
-                  à <placeName ref="#loc.11">Naples</placeName>
-                    </rs> l’invitation de se conformer
+                  à <placeName ref="#loc.11">Naples</placeName></rs> l’invitation de se conformer
                aux instructions qui seront adressées par les <rs ref="#p.16 #p.18 #p.17">Souverains
                   alliés</rs> à <rs ref="#p.144 #p.148 #p.149">leurs Ministres respectifs</rs>.</p>
-            <p>
-                    <choice>
-                  <abbr>M<hi rendition="#su">r</hi>
-                        </abbr>
+            <p><choice>
+                  <abbr>M<hi rendition="#su">r</hi></abbr>
                   <expan>Monsieur</expan>
                </choice>
                <rs ref="#p.137">l’Ambassadeur de <choice>
                      <abbr>S. M.</abbr>
                      <expan>Sa Majesté</expan>
-                  </choice> le <rs ref="#p.130">Roi de la Grande-Bretagne</rs>
-                    </rs> près <choice>
+                  </choice> le <rs ref="#p.130">Roi de la Grande-Bretagne</rs></rs> près <choice>
                   <abbr>S. M.</abbr>
                   <expan>Sa Majesté</expan>
                </choice> l’<rs ref="#p.16">Empereur d’Autriche</rs> saisit cette occasion pour
-               déclarer que, malgré la présence d’un <rs ref="#p.161">Ministre Britannique</rs> aux
+               déclarer que, malgré la présence d’un <rs ref="#p.161 #p.137">Ministre Britannique</rs> aux
                Conférences qui se tiennent à <placeName ref="#loc.65">Laybach</placeName>, ce
                Ministre ne se trouve pas autorisé à prendre part directement au procès-verbal des
                Conférences, vu que <choice>
@@ -244,74 +221,53 @@
                </choice> le <rs ref="#p.130">Roi</rs>, son Maître, n’a pas jugé convenable à
                l’attitude dans laquelle<pb n="26v"/> Elle s’est placée relativement aux questions
                qui s’y traitent, de nommer un Plénipotentiaire à ces Conférences.</p>
-            <p>On est convenu de faire rédiger incessamment des instructions aux <rs ref="#p.144 #p.148 #p.149">agens diplomatiques résidant à <placeName ref="#loc.11">Naples</placeName>
-                    </rs> lesquelles renfermeront la substance de ce qui se
+            <p>On est convenu de faire rédiger incessamment des instructions aux <rs
+                  ref="#p.144 #p.148 #p.149">agens diplomatiques résidant à <placeName ref="#loc.11"
+                     >Naples</placeName></rs> lesquelles renfermeront la substance de ce qui se
                trouve consigné dans le Journal des six premières Conférences.</p>
-            <p>
-                    <choice>
-                  <abbr>M<hi rendition="#su">r</hi>
-                        </abbr>
+            <p><choice>
+                  <abbr>M<hi rendition="#su">r</hi></abbr>
                   <expan>Monsieur</expan>
-               </choice> le <persName ref="#p.140">
-                        <roleName>Prince</roleName>
-                  <surname>de Ruffo</surname>
-                    </persName> a annoncé que <choice>
+               </choice> le <persName ref="#p.140"><roleName>Prince</roleName>
+                  <surname>de Ruffo</surname></persName> a annoncé que <choice>
                   <abbr>S. M.</abbr>
                   <expan>Sa Majesté</expan>
                </choice> le <rs ref="#p.138">Roi</rs>, Son maître, appellerait sans délai <choice>
-                  <abbr>M<hi rendition="#su">r</hi>
-                        </abbr>
+                  <abbr>M<hi rendition="#su">r</hi></abbr>
                   <expan>Monsieur</expan>
-               </choice> le <rs ref="#p.142">
-                        <roleName>Duc</roleName>
-                  <surname>de Gallo</surname>
-                    </rs> pour lui donner ses ordres en conséquence de ce
-               qui avait été arrêté à <ref target="Laibach_Prot_6.xml">la Conférence du <date when="1821-01-22">22 de ce mois</date>
-                    </ref>.</p>
+               </choice> le <rs ref="#p.142"><roleName>Duc</roleName>
+                  <surname>de Gallo</surname></rs> pour lui donner ses ordres en conséquence de ce
+               qui avait été arrêté à <ref target="Laibach_Prot_6.xml">la Conférence du <date
+                     when="1821-01-22">22 de ce mois</date></ref>.</p>
             <p>La conférence a en outre arrêté que <choice>
                   <abbr>MM.</abbr>
                   <expan>Messieurs</expan>
                </choice> les Ministres des Cours d’Italie, arrivés ici en qualité de
                Plénipotentiaires à la suite de l’invitation adressée à leurs Cours respectives
-               d’après <ref target="Troppau_Prot_8.xml">la détermination prise à <placeName ref="#loc.60">Troppau</placeName> le <date when="1820-12-24">24 Décembre <choice>
+               d’après <ref target="Troppau_Prot_8.xml">la détermination prise à <placeName
+                     ref="#loc.60">Troppau</placeName> le <date when="1820-12-24">24 Décembre <choice>
                         <abbr>a. p.</abbr>
                         <expan>an passé</expan>
-                     </choice>
-                        </date>
-                    </ref>, seront invités à la conférence de demain pour prendre
+                     </choice></date></ref>, seront invités à la conférence de demain pour prendre
                part aux délibérations qui auront pour objet les mesures à adopter envers le
                   <country>Royaume des Deux-Siciles</country>.</p>
             <pb n="29r"/>
             <p>Ils recevront conséquemment communication des Journaux des six premières Conférences
                de <placeName ref="#loc.65">Laybach</placeName>.</p>
-            <p rendition="#r">
-                    <add hand="#G">Lu et Certifié</add>
-                </p>
-            <p rendition="#r">
-                    <add hand="#G">À la conférence du <date when="1821-01-26">26
-                     Janvier</date>
-                    </add>
-                </p>
-            <signed rendition="#r">
-                    <persName ref="#p.5">
-                        <surname>Gentz</surname>
-                    </persName>
-                </signed>
+            <p rendition="#r"><add hand="#G">Lu et Certifié</add></p>
+            <p rendition="#r"><add hand="#G">À la conférence du <date when="1821-01-26">26
+                     Janvier</date></add></p>
+            <signed rendition="#r"><persName ref="#p.5"><surname>Gentz</surname></persName></signed>
          </div>
 
          <div hand="#A" decls="#m.2">
             <pb n="28r"/>
-            <p>
-                    <add hand="#AmB" place="top">Annexe de <choice>
+            <p><add hand="#AmB" place="top">Annexe de <choice>
                      <abbr>Nro</abbr>
                      <expan>Numéro</expan>
-                  </choice> 7.</add>
-                </p>
-            <p hand="#A1">
-                    <title rendition="#u">Note verbale</title>
-                </p>
-            <p>
-                    <placeName ref="#loc.65">Laybach</placeName> le <date when="1821-01-25">25 Janvier
+                  </choice> 7.</add></p>
+            <p hand="#A1"><title rendition="#u">Note verbale</title></p>
+            <p><placeName ref="#loc.65">Laybach</placeName> le <date when="1821-01-25">25 Janvier
                   1821</date>.</p>
             <p>Les <rs ref="#p.160 #p.102 #p.135">Plénipotentiaires Français</rs>, toujours
                empressés de contribuer à ce qui peut maintenir la parfaite harmonie qui existe entre
@@ -319,8 +275,7 @@
                des Conférences, tels qu’ils ont été arrêtés jusqu’à ce jour.</p>
             <p>Les <rs ref="#p.160 #p.102 #p.135">Plénipotentiaires Français</rs> prendront
                également sur eux d’envoyer au <rs ref="#p.162">chargé d’affaires de France à
-                     <placeName ref="#loc.11">Naples</placeName>
-                    </rs> l’invitation de se conformer
+                     <placeName ref="#loc.11">Naples</placeName></rs> l’invitation de se conformer
                aux instructions qui seront adressées par les <rs ref="#p.16 #p.18 #p.17">Souverains
                   alliés</rs> à <rs ref="#p.144 #p.148 #p.149">leurs Ministres respectifs</rs>. Ils
                espèrent que les Cours alliées verront dans cette démarche<pb n="28v"/> de leur part
@@ -330,11 +285,13 @@
          </div>
       </body>
       <back>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/listplace.xml" xpointer="listPlace"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/listperson.xml" xpointer="listPerson"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/listwit.xml" xpointer="listWit"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/listorg.xml" xpointer="listOrg"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/listwork.xml" xpointer="listTreaties"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listPlace.xml" xpointer="listPlace"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listPerson.xml"
+            xpointer="listPerson"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listWit.xml" xpointer="listWit"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listOrg.xml" xpointer="listOrg"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listTreaties.xml"
+            xpointer="listTreaties"/>
       </back>
    </text>
 </TEI>
