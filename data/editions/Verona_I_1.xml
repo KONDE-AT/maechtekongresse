@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -12,13 +13,10 @@
                <persName>
                   <surname>Schneider</surname>
                   <forename>Karin</forename>
-               </persName>
-                </editor>
+               </persName></editor>
          </titleStmt>
          <editionStmt>
-            <edition>
-                    <date>2017-03-13</date>
-                </edition>
+            <edition><date>2017-03-13</date></edition>
          </editionStmt>
          <publicationStmt>
             <publisher>Österreichische Akademie der Wissenschaften, Institut für Neuzeit- und
@@ -45,9 +43,8 @@
                </msContents>
                <physDesc>
                   <p>Ausfertigung</p>
-                  <p>Dokument liegt zweifach ein: fol. 81–86 Entwurf von der Hand <persName ref="#p.5">
-                                <surname>Gentz</surname>
-                            </persName>; fol. 80, 87–92 Ausfertigung.
+                  <p>Dokument liegt zweifach ein: fol. 81–86 Entwurf von der Hand <persName
+                        ref="#p.5"><surname>Gentz</surname></persName>; fol. 80, 87–92 Ausfertigung.
                      Edition folgt der Ausfertigung. Konzept ist datiert mit 15. Oktober 1822.</p>
 
                   <handDesc>
@@ -62,11 +59,8 @@
 
                </physDesc>
                <history>
-                  <origin>
-                            <placeName ref="#loc.68">Verona</placeName>
-                            <date when="1822-10-15">15.
-                        Oktober 1822</date>
-                        </origin>
+                  <origin><placeName ref="#loc.68">Verona</placeName><date when="1822-10-15">15.
+                        Oktober 1822</date></origin>
                </history>
             </msDesc>
 
@@ -88,12 +82,12 @@
       </encodingDesc>
       <profileDesc>
          <abstract>
-            <p>Der österreichische Staatskanzler <persName ref="#p.8">
-                        <surname>Metternich</surname>
-                    </persName> legt seine Ansichten hinsichtlich des
+            <p>Der österreichische Staatskanzler <persName ref="#p.8"
+                  ><surname>Metternich</surname></persName> legt seine Ansichten hinsichtlich des
                diplomatischen Vorgehens der Mächte anlässlich der in <country>Spanien</country>
                sowie in <country>Portugal</country> ausgebrochenen Revolutionen dar und entwickelt
-               ein Arbeitsprogramm für die Zusammenkunft in <placeName ref="#loc.68">Verona</placeName>.</p>
+               ein Arbeitsprogramm für die Zusammenkunft in <placeName ref="#loc.68"
+                  >Verona</placeName>.</p>
          </abstract>
       </profileDesc>
    </teiHeader>
@@ -101,31 +95,24 @@
       <body>
          <div decls="#m.1" hand="#A">
             <pb n="80r"/>
-            <p>
-                    <add place="top" hand="#AmB">No. 1.</add>
-                </p>
-            <p>
-                    <title>Mémoire confidentiel sur les affaires d’<country>Espagne</country> et de
-                     <country>Portugal</country>
-                    </title>
-                </p>
-            <p>
-                    <add place="margin" hand="#M">Remis le 15 <choice>
-                     <abbr>Oct<hi rendition="#su">bre</hi>
-                            </abbr>
+            <p><add place="top" hand="#AmB">No. 1.</add></p>
+            <p><title>Mémoire confidentiel sur les affaires d’<country>Espagne</country> et de
+                     <country>Portugal</country></title></p>
+            <p><add place="margin" hand="#M">Remis le 15 <choice>
+                     <abbr>Oct<hi rendition="#su">bre</hi></abbr>
                      <expan>Octobre</expan>
-                  </choice> aux Cabinets de <hi rendition="#u">Russie</hi> &amp; de <hi rendition="#u">Prusse</hi>.</add>
-                </p>
+                  </choice> aux Cabinets de <hi rendition="#u">Russie</hi> &amp; de <hi
+                     rendition="#u">Prusse</hi>.</add></p>
             <p>La <rs xml:id="n.1">révolution qui désole depuis deux ans
-                     l’<country>Espagne</country> et le <country>Portugal</country>
-                    </rs>
-                    <note type="editorial" target="n.1">Zur Revolution in <country>Spanien</country>, die
+                     l’<country>Espagne</country> et le <country>Portugal</country></rs><note
+                  type="editorial" target="n.1">Zur Revolution in <country>Spanien</country>, die
                   mit einem Militäraufstand am <date when="1820-01-01">1. Jänner 1820</date> ihren
                   Anfang nahm, vgl. Späth, Revolution in Europa, S. 117–128. In
                      <country>Portugal</country> war am <date when="1820-08-24">24. August
                      1820</date> eine Revolution ausgebrochen; vgl. Birmingham, A Concise History,
                   S. 111–113. </note> est un événement si riche en dangers non seulement pour les
-               pays voisins, mais pour la totalité de l’Europe, que les <rs ref="#p.16 #p.18 #p.17">Souverains alliés</rs>, à moins d’être indifférens sur la dignité de Leurs
+               pays voisins, mais pour la totalité de l’Europe, que les <rs ref="#p.16 #p.18 #p.17"
+                  >Souverains alliés</rs>, à moins d’être indifférens sur la dignité de Leurs
                couronnes et sur les premiers intérêts de leurs peuples, ne sauroient le regarder
                sans les plus vives inquiétudes.</p>
             <p>Les deux Etats qui, par un concours de circonstances funestes, ont été atteints de
@@ -141,13 +128,11 @@
                      Cabinets doivent consacrer leurs premières délibérations. Il importe d’autant
                      plus de ne pas se tromper dans ce premier travail que des remèdes appliqués mal
                      à propos pourroient <choice>
-                        <abbr>facilem<hi rendition="#su">t</hi>
-                                </abbr>
+                        <abbr>facilem<hi rendition="#su">t</hi></abbr>
                         <expan>facilement</expan>
                      </choice> augmenter et prolonger des maux auxquels il serait si désirable de
                      pouvoir mettre un terme.</lem>
-                  <rdg>
-                            <subst hand="#G">
+                  <rdg><subst hand="#G">
                         <del>l’espoir de la faire rétrograder et de l’éteindre enfin par des mesures
                            sagement combinées. C’est de la recherche de ces mesures que les Cabinets
                            ont à s’occuper avec le plus grand soin, et il est d’autant plus
@@ -164,8 +149,7 @@
                            premier travail que des remèdes appliqués mal à propos pourroient
                            facilement augmenter et prolonger des maux auxquels il seroit si
                            désirable de pouvoir mettre un terme</add>
-                     </subst>
-                        </rdg>
+                     </subst></rdg>
                </app>
             </p>
             <p>Les considérations relatives à cette grande question se placeront naturellement sous
@@ -180,8 +164,9 @@
                conservation de tous les droits et de toutes les libertés légitimes. Il suffit de ce
                fait pour se convaincre que la Péninsule occidentale se trouve, dans son état actuel,
                en opposition bien prononcée avec le principe fondamental de l’alliance.</p>
-            <p>Les révoltes militaires de l’<rs xml:id="n.2">Île de Léon</rs>
-                    <note type="editorial" target="#n.2">Heute: San Fernando. </note> et de <placeName ref="#loc.71">Porto</placeName> ont été les points de départ de ces deux révolutions. Les
+            <p>Les révoltes militaires de l’<rs xml:id="n.2">Île de Léon</rs><note type="editorial"
+                  target="#n.2">Heute: San Fernando. </note> et de <placeName ref="#loc.71"
+                  >Porto</placeName> ont été les points de départ de ces deux révolutions. Les
                changemens opérés dans le Gouvernement depuis cette époque ont reçu du pouvoir
                légitime une sanction factice qui lui a été arrachée par la violence. Le jour où les
                Puissances méconnoitroient cette vérité, elles compromettroient l’existence de tous
@@ -192,24 +177,22 @@
                une ligne de simple tolérance. Aucun acte de leur part n’a invalidé la force du
                principe, et nous ne doutons pas que <rs xml:id="n.3">la révolte militaire dans la
                   Péninsule n’eût essuyé depuis longtems le sort de celles de
-                     <country>Naples</country>
-                    </rs>
-                    <note type="editorial" target="#n.3">Am <date when="1820-07-02">2. Juli 1820</date> meuterte die Militärgarnison in Nola, 35
+                     <country>Naples</country></rs><note type="editorial" target="#n.3">Am <date
+                     when="1820-07-02">2. Juli 1820</date> meuterte die Militärgarnison in Nola, 35
                   km von <placeName ref="#loc.11">Neapel</placeName> entfernt. Das Datum gilt als
                   Beginn der Revolution im <country>Königreich beider Sizilien</country>. Vgl.
                   Stites, The four Horsemen; Davis, Naples and Napoleon; Gin, Sanfedisti, Carbonari,
                   Magistrati del Re; Späth, Revolution in Europa, S. 129–149. Zur Reaktion der
                   Großmächte vgl. zuletzt Jarrett, The Congress of Vienna, S. 248–285 sowie die
-                  Editionen der Dokumente der Kongresse von Troppau und Laibach. </note> et <rs xml:id="n.4">du <country>Piémont</country>
-                    </rs>
-                    <note type="editorial" target="#n.4">Im März 1821 war im <country>Königreich Sardinien-Piemont</country>
+                  Editionen der Dokumente der Kongresse von Troppau und Laibach. </note> et <rs
+                  xml:id="n.4">du <country>Piémont</country></rs><note type="editorial"
+                  target="#n.4">Im März 1821 war im <country>Königreich Sardinien-Piemont</country>
                   eine Revolution ausgebrochen, die rasch durch österreichische Truppen
                   niedergeschlagen wurde. Vgl. Späth, Revolution in Europa, S. 150–165; Broers,
                   Napoleonic Imperialism; Jarrett, The Congress of Vienna, S. 270–284. </note> si
                   <rs xml:id="n.5">les deux Puissances de l’Alliance qui sont soumises au régime
-                  représentatif</rs>
-                    <note type="editorial" target="#n.5">
-                        <country>Frankreich</country>, <country>Großbritannien</country>. </note> ne
+                  représentatif</rs><note type="editorial" target="#n.5"
+                     ><country>Frankreich</country>, <country>Großbritannien</country>. </note> ne
                se trouvoient pas par leur position géographique précisément placées dans la première
                ligne de toute action matérielle possible sur l’<country>Espagne</country> et le
                   <country>Portugal</country>.</p>
@@ -236,16 +219,16 @@
             <p>Ce but doit être clairement mis sous leurs yeux, et elles ne doivent jamais le perdre
                de vue sous peine de voir tourner contre leur propre cause les efforts auxquels le
                sentiment généreux et éclairé de leurs devoirs les auroient déterminées.</p>
-            <p>
-                    <rs xml:id="n.6">La soidisante Constitution que la révolte militaire a<pb n="89r"/>
-                  imposée aux <rs ref="#p.30 #p.28">deux Rois</rs> et à leurs peuples</rs>
-                    <note type="editorial" target="#n.6">Verfassung von Cádiz aus dem Jahr 1812, in
+            <p><rs xml:id="n.6">La soidisante Constitution que la révolte militaire a<pb n="89r"/>
+                  imposée aux <rs ref="#p.30 #p.28">deux Rois</rs> et à leurs peuples</rs><note
+                  type="editorial" target="#n.6">Verfassung von Cádiz aus dem Jahr 1812, in
                      <country>Spanien</country> wieder eingeführt 1820; vgl. Timmermann, Die
                   „Gemäßigte Monarchie“; BFSP Bd. 6 (1819/20), S. 237–279; Brand, Schlegelmilch,
                   Kirsch (Hgg.), Quellen. <country>Portugal</country> erhielt 1822 eine eigene
                   Verfassung: <ref target="http://www.verfassungen.eu/p/verf22-i.htm">
                      http://www.verfassungen.eu/p/verf22-i.htm </ref> (eingesehen am 17. August
-                  2017). </note> doit être <hi rendition="#u">annulée</hi>, et non pas <hi rendition="#u">modifiée</hi>. Il s’agit de détruire la révolution ; modifier ce
+                  2017). </note> doit être <hi rendition="#u">annulée</hi>, et non pas <hi
+                  rendition="#u">modifiée</hi>. Il s’agit de détruire la révolution ; modifier ce
                qu’elle a produit, ce serait la sanctionner. Tout secours que les Puissances
                prêteroient à une aussi fausse mesure porteroit infailliblement un coup fatal à la
                sûreté et au repos de l’Europe ; les révolutionnaires auroient gagné leurs procès, et
@@ -272,7 +255,8 @@
             <p>Renverser l’édifice révolutionnaire et remettre le <rs ref="#p.30">Roi</rs> en pleine
                jouissance de Sa liberté, voilà donc, suivant notre opinion, les deux résultats
                directs auxquels doivent aboutir les efforts des Puissances ; et sans prétendre
-               qu’Elles renoncent au droit incontestable d’assister de leurs conseils, le <rs ref="#p.30">Souverain</rs> auquel elles auroient rendu d’aussi éminens services,
+               qu’Elles renoncent au droit incontestable d’assister de leurs conseils, le <rs
+                  ref="#p.30">Souverain</rs> auquel elles auroient rendu d’aussi éminens services,
                bien persuadées au contraire qu’elles doivent exercer ce droit autant dans l’intérêt
                général de l’Europe que dans celui de la réorganisation des pays bouleversés, nous
                regardons toutefois comme indispensable que le <rs ref="#p.30">Roi</rs> soit placé
@@ -283,18 +267,19 @@
                adressée par le Cabinet de <placeName ref="#loc.7">Vienne</placeName> à un de Ses
                Ministres vers la fin du mois de Juillet dernier. Notre pensée s’y retrouve toute
                entière :</p>
-            <p>
-                    <quote>« La <hi rendition="#u">contre-révolution</hi> est un fait simple,
+            <p><quote>« La <hi rendition="#u">contre-révolution</hi> est un fait simple,
                   indubitablement du ressort des pouvoirs légitimes, réunissant le droit et la
                   faculté de mettre un terme à des usurpations et à des désordres révolutionnaires.
                   La <hi rendition="#u">constitution</hi> qui convient à un peuple dans telle
                   position donnée est au contraire une question complexe et difficile, par laquelle
-                  le rétablissement de l’ordre dans un pays livré à l’anarchie peut tout au plus <hi rendition="#u">finir</hi>, mais ne doit jamais <hi rendition="#u">commencer</hi>. »</quote>
-                </p>
+                  le rétablissement de l’ordre dans un pays livré à l’anarchie peut tout au plus <hi
+                     rendition="#u">finir</hi>, mais ne doit jamais <hi rendition="#u"
+                     >commencer</hi>. »</quote></p>
             <p>
                <hi rendition="#u">Ad 3.</hi> Les moyens que les<pb n="91r"/> Puissances peuvent
                employer pour combattre le mal et pour se rapprocher de leur but appartiendront ou à
-               l’action <hi rendition="#u">morale</hi> ou à l’action <hi rendition="#u">matérielle</hi>. Les uns et les autres seront plus forts ou plus foibles selon
+               l’action <hi rendition="#u">morale</hi> ou à l’action <hi rendition="#u"
+                  >matérielle</hi>. Les uns et les autres seront plus forts ou plus foibles selon
                qu’ils auront été mis en œuvre par la totalité ou par une simple fraction de
                l’alliance.</p>
             <p>En fait d’action morale, il se présente un moyen aussi naturel qu’efficace, qui
@@ -314,8 +299,7 @@
                à propos d’employer contre la faction révolutionnaire en <country>Espagne</country>,
                seroit à notre avis accompagnée de très grands dangers pour le repos de Son propre
                pays. De l’autre côté, tout refus d’appui de la part des alliés en faveur de la
-                  <country>France</country>
-                    <pb n="92r"/> attaquée ou menacée annonceroit la
+                  <country>France</country><pb n="92r"/> attaquée ou menacée annonceroit la
                dissolution de l’alliance et le triomphe de la révolution.</p>
             <p>En partant de ces principes, les Cabinets auront à travailler dès-à-présent :</p>
             <p>1. À s’assurer qu’à l’égard des révolutions d’<country>Espagne</country> et de
@@ -328,11 +312,13 @@
          </div>
       </body>
       <back>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/listplace.xml" xpointer="listPlace"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/listperson.xml" xpointer="listPerson"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/listwit.xml" xpointer="listWit"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/listorg.xml" xpointer="listOrg"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/listwork.xml" xpointer="listTreaties"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listPlace.xml" xpointer="listPlace"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listPerson.xml"
+            xpointer="listPerson"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listWit.xml" xpointer="listWit"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listOrg.xml" xpointer="listOrg"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listTreaties.xml"
+            xpointer="listTreaties"/>
       </back>
    </text>
 </TEI>

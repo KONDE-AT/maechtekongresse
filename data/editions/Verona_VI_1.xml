@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -12,13 +13,10 @@
                <persName>
                   <surname>Schneider</surname>
                   <forename>Karin</forename>
-               </persName>
-                </editor>
+               </persName></editor>
          </titleStmt>
          <editionStmt>
-            <edition>
-                    <date>2017-03-13</date>
-                </edition>
+            <edition><date>2017-03-13</date></edition>
          </editionStmt>
          <publicationStmt>
             <publisher>Österreichische Akademie der Wissenschaften, Institut für Neuzeit- und
@@ -60,11 +58,8 @@
 
                </physDesc>
                <history>
-                  <origin>
-                            <placeName ref="#loc.68">Verona</placeName>
-                            <date when="1822-11-27">27.
-                        November 1822</date>
-                        </origin>
+                  <origin><placeName ref="#loc.68">Verona</placeName><date when="1822-11-27">27.
+                        November 1822</date></origin>
                </history>
             </msDesc>
             <msDesc xml:id="m.2" type="Lithographie/Ausfertigung">
@@ -98,17 +93,13 @@
 
             <listWit corresp="#m.1">
                <head>Procès-verbal</head>
-               <witness corresp="#w.35">
-                        <bibl type="print">Hajnal, The Danube, S.
-                  50.</bibl>
-                    </witness>
+               <witness corresp="#w.35"><bibl type="print">Hajnal, The Danube, S.
+                  50.</bibl></witness>
             </listWit>
             <listWit corresp="#m.2">
                <head>Anlage: Denkschrift Wellington</head>
-               <witness corresp="#w.36">
-                        <bibl type="print">Wellington, Dispatches, Bd. 1, S. 385–385
-                     (Auszug).</bibl>
-                    </witness>
+               <witness corresp="#w.36"><bibl type="print">Wellington, Dispatches, Bd. 1, S. 385–385
+                     (Auszug).</bibl></witness>
             </listWit>
 
          </sourceDesc>
@@ -143,41 +134,34 @@
       <body>
          <div decls="#m.1">
             <pb n="2r"/>
-            <p>
-                    <title>Procès-Verbal</title>
-                </p>
-            <p>
-                    <title>de la Conférence du <date when="1822-11-27">27 Novembre</date>,
-                  relativement</title>
-                </p>
-            <p>
-                    <title>à la Navigation du Rhin</title>
-                </p>
+            <p><title>Procès-Verbal</title></p>
+            <p><title>de la Conférence du <date when="1822-11-27">27 Novembre</date>,
+                  relativement</title></p>
+            <p><title>à la Navigation du Rhin</title></p>
             <p>Monsieur le <rs ref="#p.10">Plénipotentiaire de <rs ref="#p.130">Sa Majesté
-                     Britannique</rs>
-                    </rs> a lu et déposé au Procès-verbal la <rs xml:id="n.1">pièce
-                  ci-annexée</rs>
-                    <note type="editorial" target="#n.1">Vgl. Anlage 1.</note> par
-               laquelle il propose de charger les <rs xml:id="n.2" ref="#p.198 #p.199 #p.37 #p.175 #p.200">Ministres des cinq Cours à <placeName ref="#loc.46">Bruxelles</placeName>
-                    </rs>
-                    <note type="editorial" target="#n.2">Sitz der Regierung des <country>Königreichs der Vereinigten Niederlande</country>
-                  war abwechselnd <placeName ref="#loc.46">Brüssel</placeName> und <placeName ref="#loc.85">Den Haag</placeName>.</note> d’une démarche auprès du
+                     Britannique</rs></rs> a lu et déposé au Procès-verbal la <ref decls="#m.2">pièce
+                  ci-annexée</ref> par
+               laquelle il propose de charger les <rs xml:id="n.2"
+                  ref="#p.198 #p.199 #p.37 #p.175 #p.200">Ministres des cinq Cours à <placeName
+                     ref="#loc.46">Bruxelles</placeName></rs><note type="editorial" target="#n.2"
+                  >Sitz der Regierung des <country>Königreichs der Vereinigten Niederlande</country>
+                  war abwechselnd <placeName ref="#loc.46">Brüssel</placeName> und <placeName
+                     ref="#loc.85">Den Haag</placeName>.</note> d’une démarche auprès du
                Gouvernement des Pays-Bas pour concerter avec ce Gouvernement une mesure faisant
                cesser les obstacles qui s’opposent encore à la libre navigation du Rhin conformément
-               à l’<rs ref="#t.51">acte du Congrès de <placeName ref="#loc.7">Vienne</placeName>
-                    </rs>.</p>
+               à l’<rs ref="#t.51">acte du Congrès de <placeName ref="#loc.7"
+                  >Vienne</placeName></rs>.</p>
             <p>Messieurs les Plénipotentiaires d’Autriche, de Prusse et de Russie, reconnoissant que
                les cinq Puissances sont effectivement appelées à concourir à l’exécution des
-               dispositions de l’<rs ref="#t.51">acte du Congrès de <placeName ref="#loc.7">Vienne</placeName> relativement à la libre navigation du Rhin</rs>, et que les
+               dispositions de l’<rs ref="#t.51">acte du Congrès de <placeName ref="#loc.7"
+                     >Vienne</placeName> relativement à la libre navigation du Rhin</rs>, et que les
                difficultés qui restent à surmonter à cet égard viennent pour la plus grande partie
-               de la part du Gouvernement des Pays-Bas, sont convenus avec Monsieur le <persName ref="#p.10">
-                        <roleName>Duc</roleName>
-                  <surname>de Wellington</surname>
-                    </persName> de ce que les Missions de leurs Cours
+               de la part du Gouvernement des Pays-Bas, sont convenus avec Monsieur le <persName
+                  ref="#p.10"><roleName>Duc</roleName>
+                  <surname>de Wellington</surname></persName> de ce que les Missions de leurs Cours
                à <placeName ref="#loc.46">Bruxelles</placeName> seront instruites sans délai de se
                concerter entr’elles et avec le Ministre de <rs xml:id="n.3" ref="#p.15">Sa Majesté
-                  Très Chrétienne</rs>
-                    <note type="editorial" target="#n.3">Ehrentitel des Königs von
+                  Très Chrétienne</rs><note type="editorial" target="#n.3">Ehrentitel des Königs von
                   Frankreich.</note> à l’effet d’adresser au Ministère des Pays-Bas des
                représentations convenables pour<pb n="2v"/> amener, aussi promptement que faire se
                pourra, un accord satisfaisant sur ce qui fait l’objet des plaintes des parties
@@ -191,20 +175,18 @@
             <pb n="5r"/>
 
             <p>The <rs ref="#p.10">Plenipotentiary of <rs ref="#p.130">His Britannick
-                  Majesty</rs>
-                    </rs> has received the directions of his Government to draw the
-               attention of the Ministers of the Allied Governments assembled at <placeName ref="#loc.68">Verona</placeName> to the state of the Navigation of the Rhine.</p>
+                  Majesty</rs></rs> has received the directions of his Government to draw the
+               attention of the Ministers of the Allied Governments assembled at <placeName
+                  ref="#loc.68">Verona</placeName> to the state of the Navigation of the Rhine.</p>
             <p>According to the <rs ref="#t.51">16<hi rendition="#su">th</hi> Acte of the Treaty of
-                     <placeName ref="#loc.7">Vienna</placeName>
-                    </rs>, the navigation of that River
+                     <placeName ref="#loc.7">Vienna</placeName></rs>, the navigation of that River
                ought to be entirely free from the Point at which it becomes navigable to its Mouth,
                and the principle of the freedom of Commerce of the Rhine is adopted not only by that
                Acte, but in the <hi rendition="#u">annexe</hi>; of which the first, and every
                article has obviously the same object in view.</p>
             <p>Notwithstanding <rs ref="#t.12">this Treaty</rs> to which Every power in Europe is a
                Party, the <choice>
-                  <abbr>Gov<hi rendition="#su">t</hi>
-                        </abbr>
+                  <abbr>Gov<hi rendition="#su">t</hi></abbr>
                   <expan>Government</expan>
                </choice> of the Netherlands <choice>
                   <sic>have</sic>
@@ -215,12 +197,16 @@
                spirit and the letter of the <rs ref="#t.12">Treaty</rs>.</p>
             <p>As this is a Subject of general interest, <rs ref="#p.10">His Majesty’s
                   Plenipotentiary</rs> has been directed to move the Ministers of his Allies, that
-               an Effort may be made by the <rs xml:id="n.4" ref="#p.198 #p.199 #p.37 #p.175 #p.200">Ministers of the five Courts</rs>
-                    <note type="editorial" target="#n.4">Sitz der
+               an Effort may be made by the <rs xml:id="n.4" ref="#p.198 #p.199 #p.37 #p.175 #p.200"
+                  >Ministers of the five Courts</rs><note type="editorial" target="#n.4">Sitz der
                   Regierung des <country>Königreichs der Vereinigten Niederlande</country> war
-                  abwechselnd <placeName ref="#loc.46">Brüssel</placeName> und <placeName ref="#loc.85">Den Haag</placeName>.</note> at the Court of <placeName ref="#loc.46">Brussels</placeName>, to induce His Majesty the <rs ref="#p.201">King of the Netherlands</rs> to adopt measures in relation to the navigation of
+                  abwechselnd <placeName ref="#loc.46">Brüssel</placeName> und <placeName
+                     ref="#loc.85">Den Haag</placeName>.</note> at the Court of <placeName
+                  ref="#loc.46">Brussels</placeName>, to induce His Majesty the <rs ref="#p.74"
+                  >King of the Netherlands</rs> to adopt measures in relation to the navigation of
                the Rhine, in concert with other powers bordering on that River, which may have the
-               Effect of carrying into execution the <rs ref="#t.51">Treaty of <placeName ref="#loc.7">Vienna</placeName> on this subject</rs>.</p>
+               Effect of carrying into execution the <rs ref="#t.51">Treaty of <placeName
+                     ref="#loc.7">Vienna</placeName> on this subject</rs>.</p>
             <pb n="12r"/>
 
             <p>List of Articles, of which the Import, Export or Transit is prohibited by the late
@@ -249,87 +235,65 @@
                   <cell>Cercles et cerceaux d’osier rouge, long de 22 palmes à 26 palmes 7
                      pouces</cell>
                   <cell>--------</cell>
-                  <cell>
-                            <choice>
+                  <cell><choice>
                         <abbr>proh.</abbr>
                         <expan>prohibés</expan>
-                     </choice>
-                        </cell>
-                  <cell>
-                            <choice>
+                     </choice></cell>
+                  <cell><choice>
                         <abbr>proh.</abbr>
                         <expan>prohibés</expan>
-                     </choice>
-                        </cell>
+                     </choice></cell>
                </row>
                <row>
                   <cell>Cercles et cerceaux de saule</cell>
-                  <cell>
-                            <choice>
+                  <cell><choice>
                         <abbr>proh.</abbr>
                         <expan>prohibés</expan>
-                     </choice>
-                        </cell>
+                     </choice></cell>
                   <cell>--------</cell>
-                  <cell>
-                            <choice>
+                  <cell><choice>
                         <abbr>proh.</abbr>
                         <expan>prohibés</expan>
-                     </choice>
-                        </cell>
+                     </choice></cell>
                </row>
                <row>
                   <cell>Douves préparées pour barils à harengs </cell>
-                  <cell>
-                            <choice>
+                  <cell><choice>
                         <abbr>proh.</abbr>
                         <expan>prohibés</expan>
-                     </choice>
-                        </cell>
-                  <cell>
-                            <choice>
+                     </choice></cell>
+                  <cell><choice>
                         <abbr>proh.</abbr>
                         <expan>prohibés</expan>
-                     </choice>
-                        </cell>
-                  <cell>
-                            <choice>
+                     </choice></cell>
+                  <cell><choice>
                         <abbr>proh.</abbr>
                         <expan>prohibés</expan>
-                     </choice>
-                        </cell>
+                     </choice></cell>
                </row>
                <row>
                   <cell>Bois de teinture moulu</cell>
-                  <cell>
-                            <choice>
+                  <cell><choice>
                         <abbr>proh.</abbr>
                         <expan>prohibés</expan>
-                     </choice>
-                        </cell>
+                     </choice></cell>
                   <cell>--------</cell>
-                  <cell>
-                            <choice>
+                  <cell><choice>
                         <abbr>proh.</abbr>
                         <expan>prohibés</expan>
-                     </choice>
-                        </cell>
+                     </choice></cell>
                </row>
                <row>
                   <cell>Cendres de Savonneries et de Saleries</cell>
                   <cell>--------</cell>
-                  <cell>
-                            <choice>
+                  <cell><choice>
                         <abbr>proh.</abbr>
                         <expan>prohibés</expan>
-                     </choice>
-                        </cell>
-                  <cell>
-                            <choice>
+                     </choice></cell>
+                  <cell><choice>
                         <abbr>proh.</abbr>
                         <expan>prohibés</expan>
-                     </choice>
-                        </cell>
+                     </choice></cell>
                </row>
                <pb n="12v"/>
                <row>
@@ -342,34 +306,26 @@
                <row>
                   <cell>Rognures de cuir et de peaux</cell>
                   <cell>--------</cell>
-                  <cell>
-                            <choice>
+                  <cell><choice>
                         <abbr>proh.</abbr>
                         <expan>prohibés</expan>
-                     </choice>
-                        </cell>
-                  <cell>
-                            <choice>
+                     </choice></cell>
+                  <cell><choice>
                         <abbr>proh.</abbr>
                         <expan>prohibés</expan>
-                     </choice>
-                        </cell>
+                     </choice></cell>
                </row>
                <row>
                   <cell>Cuivre en flaon pour les monnoies</cell>
-                  <cell>
-                            <choice>
+                  <cell><choice>
                         <abbr>proh.</abbr>
                         <expan>prohibés</expan>
-                     </choice>
-                        </cell>
+                     </choice></cell>
                   <cell>--------</cell>
-                  <cell>
-                            <choice>
+                  <cell><choice>
                         <abbr>proh.</abbr>
                         <expan>prohibés</expan>
-                     </choice>
-                        </cell>
+                     </choice></cell>
                </row>
                <row>
                   <cell>Drilles et Chiffons, matière première du papier ; cet article comprend
@@ -377,18 +333,14 @@
                      se vendent au poids, quand ils sont d’une livre pesant ou au-dessus, cordagés
                      vieux et usés (comme dessus) filets vieux et usés</cell>
                   <cell>--------</cell>
-                  <cell>
-                            <choice>
+                  <cell><choice>
                         <abbr>proh.</abbr>
                         <expan>prohibés</expan>
-                     </choice>
-                        </cell>
-                  <cell>
-                            <choice>
+                     </choice></cell>
+                  <cell><choice>
                         <abbr>proh.</abbr>
                         <expan>prohibés</expan>
-                     </choice>
-                        </cell>
+                     </choice></cell>
                </row>
                <pb n="13r"/>
                <row>
@@ -400,431 +352,332 @@
                <row>
                   <cell>Fer (minéral de)</cell>
                   <cell>--------</cell>
-                  <cell>
-                            <choice>
+                  <cell><choice>
                         <abbr>proh.</abbr>
                         <expan>prohibé</expan>
-                     </choice>
-                        </cell>
-                  <cell>
-                            <choice>
+                     </choice></cell>
+                  <cell><choice>
                         <abbr>proh.</abbr>
                         <expan>prohibé</expan>
-                     </choice>
-                        </cell>
+                     </choice></cell>
                </row>
                <row>
                   <cell>Vieux fer ou Ferraille</cell>
-                  <cell>
-                            <choice>
+                  <cell><choice>
                         <abbr>proh.</abbr>
                         <expan>prohibés</expan>
-                     </choice>
-                        </cell>
+                     </choice></cell>
                   <cell>--------</cell>
-                  <cell>
-                            <choice>
+                  <cell><choice>
                         <abbr>proh.</abbr>
                         <expan>prohibés</expan>
-                     </choice>
-                        </cell>
+                     </choice></cell>
                </row>
                <row>
                   <cell>Fil pour Filets à Harengs</cell>
                   <cell>--------</cell>
-                  <cell>
-                            <choice>
+                  <cell><choice>
                         <abbr>proh.</abbr>
                         <expan>prohibés</expan>
-                     </choice>
-                        </cell>
-                  <cell>
-                            <choice>
+                     </choice></cell>
+                  <cell><choice>
                         <abbr>proh.</abbr>
                         <expan>prohibés</expan>
-                     </choice>
-                        </cell>
+                     </choice></cell>
                </row>
                <row>
                   <cell>Filets vieux et usés</cell>
                   <cell>--------</cell>
-                  <cell>
-                            <choice>
+                  <cell><choice>
                         <abbr>proh.</abbr>
                         <expan>prohibés</expan>
-                     </choice>
-                        </cell>
-                  <cell>
-                            <choice>
+                     </choice></cell>
+                  <cell><choice>
                         <abbr>proh.</abbr>
                         <expan>prohibés</expan>
-                     </choice>
-                        </cell>
+                     </choice></cell>
                </row>
                <row>
                   <cell>Futailles neuves et vides de toute espèce</cell>
-                  <cell>
-                            <choice>
+                  <cell><choice>
                         <abbr>proh.</abbr>
                         <expan>prohibés</expan>
-                     </choice>
-                        </cell>
+                     </choice></cell>
                   <cell>--------</cell>
-                  <cell>
-                            <choice>
+                  <cell><choice>
                         <abbr>proh.</abbr>
                         <expan>prohibés</expan>
-                     </choice>
-                        </cell>
+                     </choice></cell>
                </row>
                <row>
                   <cell>Barils à harengs vides, Garance, Rasin séché et broyé, pourvu qu’il ait subi
                      l’opération dans les fours à garance et que pour preuve de cela les ballots ou
                      barils portent les marques de ces fours</cell>
                   <cell>--------</cell>
-                  <cell>
-                            <choice>
+                  <cell><choice>
                         <abbr>proh.</abbr>
                         <expan>prohibés</expan>
-                     </choice>
-                        </cell>
-                  <cell>
-                            <choice>
+                     </choice></cell>
+                  <cell><choice>
                         <abbr>proh.</abbr>
                         <expan>prohibés</expan>
-                     </choice>
-                        </cell>
+                     </choice></cell>
                </row>
                <row>
                   <cell>Non séché ou séché et broyé hors les fours à Garance</cell>
                   <cell>--------</cell>
-                  <cell>
-                            <choice>
+                  <cell><choice>
                         <abbr>proh.</abbr>
                         <expan>prohibés</expan>
-                     </choice>
-                        </cell>
-                  <cell>
-                            <choice>
+                     </choice></cell>
+                  <cell><choice>
                         <abbr>proh.</abbr>
                         <expan>prohibés</expan>
-                     </choice>
-                        </cell>
+                     </choice></cell>
                </row>
                <pb n="13v"/>
                <row>
                   <cell>Oreillons ou Orillons</cell>
                   <cell>--------</cell>
-                  <cell>
-                            <choice>
+                  <cell><choice>
                         <abbr>proh.</abbr>
                         <expan>prohibés</expan>
-                     </choice>
-                        </cell>
-                  <cell>
-                            <choice>
+                     </choice></cell>
+                  <cell><choice>
                         <abbr>proh.</abbr>
                         <expan>prohibés</expan>
-                     </choice>
-                        </cell>
+                     </choice></cell>
                </row>
                <row>
                   <cell>Os de bœufs, de vaches et d’autres animaux</cell>
                   <cell>--------</cell>
-                  <cell>
-                            <choice>
+                  <cell><choice>
                         <abbr>proh.</abbr>
                         <expan>prohibés</expan>
-                     </choice>
-                        </cell>
-                  <cell>
-                            <choice>
+                     </choice></cell>
+                  <cell><choice>
                         <abbr>proh.</abbr>
                         <expan>prohibés</expan>
-                     </choice>
-                        </cell>
+                     </choice></cell>
                </row>
                <row>
                   <cell>Pipes de terre à fumer</cell>
-                  <cell>
-                            <choice>
+                  <cell><choice>
                         <abbr>proh.</abbr>
                         <expan>prohibés</expan>
-                     </choice>
-                        </cell>
+                     </choice></cell>
                   <cell>--------</cell>
-                  <cell>
-                            <choice>
+                  <cell><choice>
                         <abbr>proh.</abbr>
                         <expan>prohibés</expan>
-                     </choice>
-                        </cell>
+                     </choice></cell>
                </row>
                <row>
                   <cell>Paille</cell>
                   <cell>--------</cell>
-                  <cell>
-                            <choice>
+                  <cell><choice>
                         <abbr>proh.</abbr>
                         <expan>prohibé</expan>
-                     </choice>
-                        </cell>
+                     </choice></cell>
                   <cell>--------</cell>
                </row>
                <row>
                   <cell>Papier portant les noms ou les marques caractéristiques des papèteries du
-                        <country>Royaume des Pays-Bas</country>
-                        </cell>
-                  <cell>
-                            <choice>
+                        <country>Royaume des Pays-Bas</country></cell>
+                  <cell><choice>
                         <abbr>proh.</abbr>
                         <expan>prohibé</expan>
-                     </choice>
-                        </cell>
+                     </choice></cell>
                   <cell>--------</cell>
-                  <cell>
-                            <choice>
+                  <cell><choice>
                         <abbr>proh.</abbr>
                         <expan>prohibé</expan>
-                     </choice>
-                        </cell>
+                     </choice></cell>
                </row>
                <row>
                   <cell>Vieux papier mis au rebut et rognures de papier</cell>
                   <cell>--------</cell>
-                  <cell>
-                            <choice>
+                  <cell><choice>
                         <abbr>proh.</abbr>
                         <expan>prohibé</expan>
-                     </choice>
-                        </cell>
-                  <cell>
-                            <choice>
+                     </choice></cell>
+                  <cell><choice>
                         <abbr>proh.</abbr>
                         <expan>prohibé</expan>
-                     </choice>
-                        </cell>
+                     </choice></cell>
                </row>
                <row>
                   <cell>Parchemins (rognures de)</cell>
                   <cell>--------</cell>
-                  <cell>
-                            <choice>
+                  <cell><choice>
                         <abbr>proh.</abbr>
                         <expan>prohibés</expan>
-                     </choice>
-                        </cell>
-                  <cell>
-                            <choice>
+                     </choice></cell>
+                  <cell><choice>
                         <abbr>proh.</abbr>
                         <expan>prohibés</expan>
-                     </choice>
-                        </cell>
+                     </choice></cell>
                </row>
                <row>
                   <cell>Marne ou pierres à chaux, blanches ou bleues</cell>
                   <cell>--------</cell>
-                  <cell>
-                            <choice>
+                  <cell><choice>
                         <abbr>proh.</abbr>
                         <expan>prohibés</expan>
-                     </choice>
-                        </cell>
-                  <cell>
-                            <choice>
+                     </choice></cell>
+                  <cell><choice>
                         <abbr>proh.</abbr>
                         <expan>prohibés</expan>
-                     </choice>
-                        </cell>
+                     </choice></cell>
                </row>
                <row>
                   <cell>Poisson non provenant de la pêche nationale</cell>
-                  <cell>
-                            <choice>
+                  <cell><choice>
                         <abbr>proh.</abbr>
                         <expan>prohibé</expan>
-                     </choice>
-                        </cell>
+                     </choice></cell>
                   <cell>--------</cell>
-                  <cell>
-                            <choice>
+                  <cell><choice>
                         <abbr>proh.</abbr>
                         <expan>prohibé</expan>
-                     </choice>
-                        </cell>
+                     </choice></cell>
                </row>
                <row>
                   <cell>Poisson fumé ou séché</cell>
-                  <cell>
-                            <choice>
+                  <cell><choice>
                         <abbr>proh.</abbr>
                         <expan>prohibé</expan>
-                     </choice>
-                        </cell>
+                     </choice></cell>
                   <cell>--------</cell>
-                  <cell>
-                            <choice>
+                  <cell><choice>
                         <abbr>proh.</abbr>
                         <expan>prohibé</expan>
-                     </choice>
-                        </cell>
+                     </choice></cell>
                </row>
                <row>
                   <cell>Hareng sec ou fumé</cell>
-                  <cell>
-                            <choice>
+                  <cell><choice>
                         <abbr>proh.</abbr>
                         <expan>prohibé</expan>
-                     </choice>
-                        </cell>
+                     </choice></cell>
                   <cell>--------</cell>
-                  <cell>
-                            <choice>
+                  <cell><choice>
                         <abbr>proh.</abbr>
                         <expan>prohibé</expan>
-                     </choice>
-                        </cell>
+                     </choice></cell>
                </row>
                <pb n="14r"/>
                <row>
                   <cell>Saumure</cell>
-                  <cell>
-                            <choice>
+                  <cell><choice>
                         <abbr>proh.</abbr>
                         <expan>prohibé</expan>
-                     </choice>
-                        </cell>
+                     </choice></cell>
                   <cell>--------</cell>
-                  <cell>
-                            <choice>
+                  <cell><choice>
                         <abbr>proh.</abbr>
                         <expan>prohibé</expan>
-                     </choice>
-                        </cell>
+                     </choice></cell>
                </row>
                <row>
                   <cell>Sel brut par les Frontières maritimes</cell>
                   <cell>--------</cell>
                   <cell>--------</cell>
-                  <cell>
-                            <choice>
+                  <cell><choice>
                         <abbr>proh.</abbr>
                         <expan>prohibé</expan>
-                     </choice>
-                        </cell>
+                     </choice></cell>
                </row>
                <row>
                   <cell>Par les Frontières de terre</cell>
                   <cell>--------</cell>
-                  <cell>
-                            <choice>
+                  <cell><choice>
                         <abbr>proh.</abbr>
                         <expan>prohibé</expan>
-                     </choice>
-                        </cell>
-                  <cell>
-                            <choice>
+                     </choice></cell>
+                  <cell><choice>
                         <abbr>proh.</abbr>
                         <expan>prohibé</expan>
-                     </choice>
-                        </cell>
+                     </choice></cell>
                </row>
                <row>
                   <cell>Sel raffiné</cell>
                   <cell>--------</cell>
                   <cell>--------</cell>
-                  <cell>
-                            <choice>
+                  <cell><choice>
                         <abbr>proh.</abbr>
                         <expan>prohibé</expan>
-                     </choice>
-                        </cell>
+                     </choice></cell>
                </row>
                <row>
                   <cell>Sirop, Mélasse brute importée des pays de l’Europe et par des vaisseaux
                      étrangers</cell>
-                  <cell>
-                            <choice>
+                  <cell><choice>
                         <abbr>proh.</abbr>
                         <expan>prohibé</expan>
-                     </choice>
-                        </cell>
+                     </choice></cell>
                   <cell>--------</cell>
-                  <cell>
-                            <choice>
+                  <cell><choice>
                         <abbr>proh.</abbr>
                         <expan>prohibé</expan>
-                     </choice>
-                        </cell>
+                     </choice></cell>
                </row>
                <row>
                   <cell>Mélasse épurée</cell>
-                  <cell>
-                            <choice>
+                  <cell><choice>
                         <abbr>proh.</abbr>
                         <expan>prohibé</expan>
-                     </choice>
-                        </cell>
+                     </choice></cell>
                   <cell>--------</cell>
-                  <cell>
-                            <choice>
+                  <cell><choice>
                         <abbr>proh.</abbr>
                         <expan>prohibé</expan>
-                     </choice>
-                        </cell>
+                     </choice></cell>
                </row>
                <row>
                   <cell>Sirop de sucre et de toute autre espèce</cell>
-                  <cell>
-                            <choice>
+                  <cell><choice>
                         <abbr>proh.</abbr>
                         <expan>prohibé</expan>
-                     </choice>
-                        </cell>
+                     </choice></cell>
                   <cell>--------</cell>
-                  <cell>
-                            <choice>
+                  <cell><choice>
                         <abbr>proh.</abbr>
                         <expan>prohibé</expan>
-                     </choice>
-                        </cell>
+                     </choice></cell>
                </row>
                <row>
                   <cell>Thé, et de toute espèce</cell>
                   <cell>--------</cell>
                   <cell>--------</cell>
-                  <cell>
-                            <choice>
+                  <cell><choice>
                         <abbr>proh.</abbr>
                         <expan>prohibé</expan>
-                     </choice>
-                        </cell>
+                     </choice></cell>
                </row>
                <row>
                   <cell>Verres cassés ou croisil</cell>
                   <cell>--------</cell>
-                  <cell>
-                            <choice>
+                  <cell><choice>
                         <abbr>proh.</abbr>
                         <expan>prohibés</expan>
-                     </choice>
-                        </cell>
-                  <cell>
-                            <choice>
+                     </choice></cell>
+                  <cell><choice>
                         <abbr>proh.</abbr>
                         <expan>prohibés</expan>
-                     </choice>
-                        </cell>
+                     </choice></cell>
                </row>
             </table>
          </div>
       </body>
       <back>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/listplace.xml" xpointer="listPlace"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/listperson.xml" xpointer="listPerson"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/listwit.xml" xpointer="listWit"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/listorg.xml" xpointer="listOrg"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/listwork.xml" xpointer="listTreaties"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listPlace.xml" xpointer="listPlace"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listPerson.xml"
+            xpointer="listPerson"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listWit.xml" xpointer="listWit"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listOrg.xml" xpointer="listOrg"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listTreaties.xml"
+            xpointer="listTreaties"/>
       </back>
    </text>
 </TEI>

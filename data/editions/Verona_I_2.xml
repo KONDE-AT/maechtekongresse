@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -12,13 +13,10 @@
                <persName>
                   <surname>Schneider</surname>
                   <forename>Karin</forename>
-               </persName>
-                </editor>
+               </persName></editor>
          </titleStmt>
          <editionStmt>
-            <edition>
-                    <date>2017-03-13</date>
-                </edition>
+            <edition><date>2017-03-13</date></edition>
          </editionStmt>
          <publicationStmt>
             <publisher>Österreichische Akademie der Wissenschaften, Institut für Neuzeit- und
@@ -60,23 +58,16 @@
 
                </physDesc>
                <history>
-                  <origin>
-                            <placeName ref="#loc.68">Verona</placeName>
-                            <date when="1822-10-20">20.
-                        Oktober 1822</date>
-                        </origin>
+                  <origin><placeName ref="#loc.68">Verona</placeName><date when="1822-10-20">20.
+                        Oktober 1822</date></origin>
                </history>
             </msDesc>
             <listWit corresp="#m.1">
                <head>Erklärung des französischen Außenministers Montmorency</head>
-               <witness corresp="#w.32">
-                        <bibl type="print">Chateaubriand, Congrès de Vérone, S.
-                     72–76</bibl>
-                    </witness>
-               <witness corresp="#w.17">
-                        <bibl type="print">Clarke, Papers presented to parliament
-                     1823, S. 24 (Auszug).</bibl>
-                    </witness>
+               <witness corresp="#w.32"><bibl type="print">Chateaubriand, Congrès de Vérone, S.
+                     72–76</bibl></witness>
+               <witness corresp="#w.17"><bibl type="print">Clarke, Papers presented to parliament
+                     1823, S. 24 (Auszug).</bibl></witness>
             </listWit>
          </sourceDesc>
       </fileDesc>
@@ -96,9 +87,8 @@
       </encodingDesc>
       <profileDesc>
          <abstract>
-            <p>Der französische Außenminister <persName ref="#p.174">
-                        <surname>Montmorency</surname>
-                    </persName> gibt eine mündliche Erklärung
+            <p>Der französische Außenminister <persName ref="#p.174"
+                  ><surname>Montmorency</surname></persName> gibt eine mündliche Erklärung
                betreffend die Position der französischen Regierung hinsichtlich der Revolution in
                   <country>Spanien</country> ab und formuliert drei Fragen, um sich der politischen
                Unterstützung der alliierten Mächte zu vergewissern.</p>
@@ -109,33 +99,25 @@
       <body>
          <div decls="#m.1">
             <pb n="112r"/>           
-            <p>
-                    <add place="top" hand="#AmB">No. 2.</add>
-                </p>
+            <p><add place="top" hand="#AmB">No. 2.</add></p>
 
-            <p>
-                    <title>Précis des communications verbales faites par <choice>
-                     <abbr>M<hi rendition="#su">r</hi>
-                            </abbr>
+            <p><title>Précis des communications verbales faites par <choice>
+                     <abbr>M<hi rendition="#su">r</hi></abbr>
                      <expan>Monsieur</expan>
-                  </choice> le <persName ref="#p.174">
-                            <roleName>Vicomte</roleName>
-                     <surname>de Montmorency</surname>
-                        </persName> dans la réunion confidentielle de <choice>
+                  </choice> le <persName ref="#p.174"><roleName>Vicomte</roleName>
+                     <surname>de Montmorency</surname></persName> dans la réunion confidentielle de <choice>
                      <abbr>Mrs.</abbr>
                      <expan>Messieurs</expan>
                   </choice> les Ministres d’Autriche, de Grande-Bretagne, de Prusse et de Russie à
                      <placeName ref="#loc.68">Vérone</placeName> le <date when="1822-10-20">20
-                     Octobre 1822</date>
-                    </title>
-                </p>
-            <p>
-                    <rs xml:id="n.1">L’état d’irritation où se trouve le Gouvernement qui régit
-                  actuellement l’<country>Espagne</country>
-                    </rs>,<note type="editorial" target="#n.1">Zur Revolution in <country>Spanien</country> vgl. Späth, Revolution
+                     Octobre 1822</date></title></p>
+            <p><rs xml:id="n.1">L’état d’irritation où se trouve le Gouvernement qui régit
+                  actuellement l’<country>Espagne</country></rs>,<note type="editorial"
+                  target="#n.1">Zur Revolution in <country>Spanien</country> vgl. Späth, Revolution
                   in Europa, S. 117–128. </note> les provocations nombreuses qu’il adresse à la
                   <country>France</country>, ne donnent que trop lieu de craindre que l’état de paix
-               ne puisse se conserver aussi longtemps qu’Elle le voudrait. Le Gouvernement du <rs ref="#p.15">Roi</rs> a déjà fait des sacrifices à ce désir sincère d’éviter une
+               ne puisse se conserver aussi longtemps qu’Elle le voudrait. Le Gouvernement du <rs
+                  ref="#p.15">Roi</rs> a déjà fait des sacrifices à ce désir sincère d’éviter une
                rupture qui lui imposerait la douloureuse obligation de rallumer le flambeau de la
                guerre et de troubler la tranquillité si chèrement achetée par tous les Etats de
                l’Europe. Il continuera de mettre tous ses soins à se préserver d’un tel malheur ; et
@@ -161,14 +143,17 @@
             <p>Mais d’ici au moment où la guerre serait devenue inévitable, la
                   <country>France</country>, par une chance qui<pb n="113r"/> est commune aux autres Cours, peut
                être dans le cas d’adopter une mesure intermédiaire entre l’état de paix et les
-               hostilités, et de rompre toute relation diplomatique avec la Cour de <placeName ref="#loc.24">Madrid</placeName>. En effet, telle circonstance peut se présenter,
+               hostilités, et de rompre toute relation diplomatique avec la Cour de <placeName
+                  ref="#loc.24">Madrid</placeName>. En effet, telle circonstance peut se présenter,
                telles démarches peuvent être faites par le Gouvernement ou par les Cortes qui
                mettroient le Ministre de <country>France</country> dans la nécessité de demander ses
-               passeports, et qui, malgré tout le désir d’éviter une rupture, forceroient le <rs ref="#p.15">Roi</rs> à le rappeler formellement. Dans ce cas, qu’il faut prévoir,
+               passeports, et qui, malgré tout le désir d’éviter une rupture, forceroient le <rs
+                  ref="#p.15">Roi</rs> à le rappeler formellement. Dans ce cas, qu’il faut prévoir,
                mais que la <country>France</country> mettra tous ses soins à éloigner, les hautes
                Cours ne jugeront-elles pas que ce seroit donner une preuve utile de l’uniformité des
                principes et des vues de l’Alliance, que de prendre une mesure semblable et de
-               rappeler, chacune de son côté, leurs Légations à <placeName ref="#loc.24">Madrid</placeName> ? On peut croire (et cette pensée a fixé dès 1820 l’attention
+               rappeler, chacune de son côté, leurs Légations à <placeName ref="#loc.24"
+                  >Madrid</placeName> ? On peut croire (et cette pensée a fixé dès 1820 l’attention
                de l’une des Puissances) que si la Nation espagnole voyait cesser au même instant les
                rapports qui l’unissent encore aux principaux Gouvernemens de l’Europe, si elle se
                trouvait comme isolée par le rappel de la plus grande partie du corps diplomatique et
@@ -194,15 +179,15 @@
                le concours des hautes Puissances est nécessaire, comme devant consacrer cette
                unanimité de vues qui est le caractère fondamental de l’Alliance, et qu’il est du
                plus grand intérêt de maintenir et de signaler pour garantir le repos de
-               l’Europe.</p>
-                <pb n="114r"/>
+               l’Europe.</p><pb n="114r"/>
             <p>C’est sur la forme de ce concours moral et sur les mesures propres à lui assurer le
                secours matériel qui peut être réclamé par la suite, que la <country>France</country>
                croit, en définitive, nécessaire de fixer l’attention de Ses augustes alliés.</p>
             <p>Résumant donc les idées qui viennent d’être exposées, et qu’ils ont désiré connoître,
                Elle soumet à leur haute prudence les trois questions suivantes :</p>
             <p>1<hi rendition="#su">o</hi> Dans le cas où la <country>France</country> se verroit
-               forcée de rappeller de <placeName ref="#loc.24">Madrid</placeName> le <rs ref="#p.123">Ministre qu’Elle y a accrédité</rs> et de rompre toute relation diplomatique avec l’<country>Espagne</country>, les hautes Cours
+               forcée de rappeller de <placeName ref="#loc.24">Madrid</placeName> le <rs
+                  ref="#p.123">Ministre qu’Elle y a accrédité</rs> et de rompre toute relation diplomatique avec l’<country>Espagne</country>, les hautes Cours
                seroient-Elles disposées à prendre une mesure semblable, et à rappeller leurs propres
                Légations ?</p>
             <p>2<hi rendition="#su">o</hi> Si la guerre doit éclater entre la <country>France</country> et
@@ -218,11 +203,13 @@
          </div>
       </body>
       <back>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/listplace.xml" xpointer="listPlace"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/listperson.xml" xpointer="listPerson"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/listwit.xml" xpointer="listWit"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/listorg.xml" xpointer="listOrg"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/listwork.xml" xpointer="listTreaties"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listPlace.xml" xpointer="listPlace"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listPerson.xml"
+            xpointer="listPerson"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listWit.xml" xpointer="listWit"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listOrg.xml" xpointer="listOrg"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listTreaties.xml"
+            xpointer="listTreaties"/>
       </back>
    </text>
 </TEI>

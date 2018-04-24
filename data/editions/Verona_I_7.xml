@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -12,13 +13,10 @@
                <persName>
                   <surname>Schneider</surname>
                   <forename>Karin</forename>
-               </persName>
-                </editor>
+               </persName></editor>
          </titleStmt>
          <editionStmt>
-            <edition>
-                    <date>2017-03-13</date>
-                </edition>
+            <edition><date>2017-03-13</date></edition>
          </editionStmt>
          <publicationStmt>
             <publisher>Österreichische Akademie der Wissenschaften, Institut für Neuzeit- und
@@ -45,9 +43,8 @@
                </msContents>
                <physDesc>
                   <p>Lithographie</p>
-                  <p>Das Schriftstück liegt als Konzept von <persName ref="#p.5">
-                                <surname>Gentz</surname>
-                            </persName> fol. 173r–175r und doppelt als
+                  <p>Das Schriftstück liegt als Konzept von <persName ref="#p.5"
+                           ><surname>Gentz</surname></persName> fol. 173r–175r und doppelt als
                      Lithographie auf fol. 172r und 176, sowie 177–178 ein. Die Edition folgt der
                      Lithographie. Vermerk mit Bleistift in den rechten oberen Ecken von fol. 172 r
                      und 177r.</p>
@@ -64,11 +61,8 @@
 
                </physDesc>
                <history>
-                  <origin>
-                            <placeName ref="#loc.68">Verona</placeName>
-                            <date when="1822-10-31">31.
-                        Oktober 1822</date>
-                        </origin>
+                  <origin><placeName ref="#loc.68">Verona</placeName><date when="1822-10-31">31.
+                        Oktober 1822</date></origin>
                </history>
             </msDesc>
 
@@ -90,9 +84,8 @@
       </encodingDesc>
       <profileDesc>
          <abstract>
-            <p>Der österreichische Staatskanzler <persName ref="#p.8">
-                        <surname>Metternich</surname>
-                    </persName> unterbreitet auf Basis der bisher
+            <p>Der österreichische Staatskanzler <persName ref="#p.8"
+                  ><surname>Metternich</surname></persName> unterbreitet auf Basis der bisher
                vorgelegten Denkschriften Überlegungen betreffend das weitere gemeinsame Vorgehen der
                alliierten Mächte gegen <country>Spanien</country>.</p>
          </abstract>
@@ -102,16 +95,14 @@
       <body>
          <div decls="#m.1">
             <pb n="172r"/>
-            <p>
-                    <title>Propositions du Cabinet Autrichien dans la Conférence du <date when="1822-10-31">31 Octobre 1822</date>
-                    </title>
-                </p>
-            <p>
-                    <rs xml:id="n.1">La première question qui a dû occuper le Congrès est celle de
-                     l’<country>Espagne</country>
-                    </rs>.<note type="editorial" target="#n.1">Zur
-                  Revolution in <country>Spanien</country>, die mit einem Militäraufstand am <date when="1820-01-01">1. Jänner 1820</date> ihren Anfang nahm, vgl. Späth,
-                  Revolution in Europa, S. 117–128. In <country>Portugal</country> war am <date when="1820-08-24">24. August 1820</date> eine Revolution ausgebrochen; vgl.
+            <p><title>Propositions du Cabinet Autrichien dans la Conférence du <date
+                     when="1822-10-31">31 Octobre 1822</date></title></p>
+            <p><rs xml:id="n.1">La première question qui a dû occuper le Congrès est celle de
+                     l’<country>Espagne</country></rs>.<note type="editorial" target="#n.1">Zur
+                  Revolution in <country>Spanien</country>, die mit einem Militäraufstand am <date
+                     when="1820-01-01">1. Jänner 1820</date> ihren Anfang nahm, vgl. Späth,
+                  Revolution in Europa, S. 117–128. In <country>Portugal</country> war am <date
+                     when="1820-08-24">24. August 1820</date> eine Revolution ausgebrochen; vgl.
                   Birmingham, A Concise History, S. 111–113.</note>
             </p>
             <p>Cette grave question a réclamé l’attention et la sollicitude des Puissances Alliées
@@ -122,29 +113,26 @@
             <p>Le Gouvernement français, convaincu que la position dans laquelle il se trouve
                vis-à-vis de l’<country>Espagne</country> présentait plusieurs considérations
                importantes, s’est adressé <choice>
-                  <abbr>confidentiellem<hi rendition="#su">t</hi>
-                        </abbr>
+                  <abbr>confidentiellem<hi rendition="#su">t</hi></abbr>
                   <expan>confidentiellement</expan>
                </choice> à Ses Alliés.</p>
-            <p>
-                    <ref target="Verona_I_2.xml">Il leur a expliqué Ses vœux et Ses déterminations.</ref>
+            <p><ref target="Verona_I_2.xml">Il leur a expliqué Ses vœux et Ses déterminations.</ref>
             </p>
             <p>Ses vœux sont la conservation de la paix ; mais il admet que
                   l’<country>Espagne</country> révolutionnaire pourrait le mettre dans le cas de
                repousser une agression.</p>
             <p>Le Gouvernement français est parti de ces données pour demander si, dans le cas d’une
                juste et nécessaire défense, il pouvait compter sur l’appui moral et sur des secours
-               matériels de la part des Cours Alliées. <ref target="Verona_I_3 Verona_I_4 Verona_I-5">Les Cours d’Autriche, de Russie et de
+               matériels de la part des Cours Alliées. <ref
+                  target="Verona_I_3.xml Verona_I_4.xml Verona_I_5.xml">Les Cours d’Autriche, de Russie et de
                   Prusse ont en principe répondu <choice>
-                     <abbr>affirmativem<hi rendition="#su">t</hi>
-                            </abbr>
+                     <abbr>affirmativem<hi rendition="#su">t</hi></abbr>
                      <expan>affirmativement</expan>
                   </choice> à cette demande.</ref>
             </p>
             <p>Portant toutefois sur des applications éventuelles, leur adhésion doit être précisée
                par une définition exacte des<pb n="172v"/>
-               <rs xml:id="n.2">Casus foederis</rs>
-                    <note type="editorial" target="#n.2">Lat.:
+               <rs xml:id="n.2">Casus foederis</rs><note type="editorial" target="#n.2">Lat.:
                   Bündnisfall.</note> ainsi que par l’énoncé des obligations réciproques qui en
                dériveraient. Ces différens points seront réservés aux transactions diplomatiques que
                les Cabinets jugeront à propos d’entamer à la suite des explications présentes.</p>
@@ -168,8 +156,7 @@
                pareille mesure pour donner à la partie saine de la Nation<pb n="176r"/> le courage
                et la force de briser le joug de la faction qui la domine et l’avilit.</p>
             <p>D’un autre côté, l’attitude et le langage du <choice>
-                  <abbr>Gouvernem<hi rendition="#su">t</hi>
-                        </abbr>
+                  <abbr>Gouvernem<hi rendition="#su">t</hi></abbr>
                   <expan>Gouvernement</expan>
                </choice> Espagnol à l’égard des Pays étrangers sont devenus tellement provoquans que
                les Puissances Alliées ne sauraient plus guères y opposer la longanimité du
@@ -201,11 +188,13 @@
          </div>
       </body>
       <back>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/listplace.xml" xpointer="listPlace"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/listperson.xml" xpointer="listPerson"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/listwit.xml" xpointer="listWit"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/listorg.xml" xpointer="listOrg"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/listwork.xml" xpointer="listTreaties"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listPlace.xml" xpointer="listPlace"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listPerson.xml"
+            xpointer="listPerson"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listWit.xml" xpointer="listWit"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listOrg.xml" xpointer="listOrg"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listTreaties.xml"
+            xpointer="listTreaties"/>
       </back>
    </text>
 </TEI>

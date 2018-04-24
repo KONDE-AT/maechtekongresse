@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -12,13 +13,10 @@
                <persName>
                   <surname>Schneider</surname>
                   <forename>Karin</forename>
-               </persName>
-                </editor>
+               </persName></editor>
          </titleStmt>
          <editionStmt>
-            <edition>
-                    <date>2017-03-13</date>
-                </edition>
+            <edition><date>2017-03-13</date></edition>
          </editionStmt>
          <publicationStmt>
             <publisher>Österreichische Akademie der Wissenschaften, Institut für Neuzeit- und
@@ -60,11 +58,8 @@
 
                </physDesc>
                <history>
-                  <origin>
-                            <placeName ref="#loc.68">Verona</placeName>
-                            <date when="1822-10-20">20.
-                        Oktober 1822</date>
-                        </origin>
+                  <origin><placeName ref="#loc.68">Verona</placeName><date when="1822-10-20">20.
+                        Oktober 1822</date></origin>
                </history>
             </msDesc>
 
@@ -87,9 +82,8 @@
       <profileDesc>
          <abstract>
             <p>Die Vertreter Russlands erklären, dass der <rs ref="#p.17">Zar</rs>
-               <ref target="Verona_I_2.xml">die von Außenminister <persName ref="#p.174">
-                            <surname>Montmorency</surname>
-                        </persName> im Namen der französischen
+               <ref target="Verona_I_2.xml">die von Außenminister <persName ref="#p.174"
+                        ><surname>Montmorency</surname></persName> im Namen der französischen
                   Regierung am <date when="1822-10-20">20. Oktober 1822</date> gemachten
                   Ausführungen und Fragen</ref> zustimmend zur Kenntnis genommen habe und der
                französischen Regierung seine Unterstützung in Hinblick auf Maßnahmen gegen die
@@ -100,33 +94,28 @@
    <text>
       <body>
          <div decls="#m.1">
-            <pb n="151r"/>           
-            <p>
-                    <add place="top">N. 4.</add>
-                </p>            
-            <p>
-                    <title>Réponse confidentielle du Cabinet de Russie au <ref target="Verona_I_2.xml">précis des communications verbales faites par <choice>
+            <pb n="151r"/>
+            <p><add place="top">N. 4.</add></p>
+            <p><title>Réponse confidentielle du Cabinet de Russie au <ref target="Verona_I_2.xml"
+                     >précis des communications verbales faites par <choice>
                         <abbr>Mr.</abbr>
                         <expan>Monsieur</expan>
-                     </choice> le <persName ref="#p.174">
-                                <roleName>Vicomte</roleName>
-                        <surname>de Montmorency</surname>
-                            </persName> à la Conférence du <date when="1822-10-20">20 Octobre</date>
-                        </ref>
-                    </title> <placeName ref="#loc.68">Veróne</placeName> le <date when="1822-10-20">
-                        <add hand="#A" place="inspace">
-                            <unclear>(20)</unclear>
-                        </add> Octobre 1822</date>. </p>
-            <p>Le <rs ref="#p.13">Plénipotentiaire de Russie</rs> a porté à la connoissance de l’<rs ref="#p.174">Empereur</rs>, Son Maître, le précis des communications verbales
-               faites par Monsieur <rs ref="#p.174">le Ministre des Affaires étrangères</rs> de <rs ref="#p.15" xml:id="n.1">Sa Majesté Très Chrétienne</rs>
-                    <note type="editorial" target="#n.1">Ehrentitel des Königs von Frankreich. </note> à la Conférence du
+                     </choice> le <persName ref="#p.174"><roleName>Vicomte</roleName>
+                        <surname>de Montmorency</surname></persName> à la Conférence du <date
+                        when="1822-10-20">20 Octobre</date></ref></title>
+               <placeName ref="#loc.68">Veróne</placeName> le <date when="1822-10-20"><add hand="#A"
+                     place="inspace"><unclear>(20)</unclear></add> Octobre 1822</date>. </p>
+            <p>Le <rs ref="#p.13">Plénipotentiaire de Russie</rs> a porté à la connoissance de l’<rs
+                  ref="#p.17">Empereur</rs>, Son Maître, le précis des communications verbales
+               faites par Monsieur <rs ref="#p.174">le Ministre des Affaires étrangères</rs> de <rs
+                  ref="#p.15" xml:id="n.1">Sa Majesté Très Chrétienne</rs><note type="editorial"
+                  target="#n.1">Ehrentitel des Königs von Frankreich. </note> à la Conférence du
                   <date when="1822-10-20">20 Octobre</date>.</p>
-            <p>
-                    <rs ref="#p.17">Sa Majesté Impériale</rs> a lu avec un vif intérêt le résumé de ces
+            <p><rs ref="#p.17">Sa Majesté Impériale</rs> a lu avec un vif intérêt le résumé de ces
                importantes ouvertures, et leur objet a fixé Sa plus sérieuse attention.</p>
             <p>Dès le mois d’Avril de l’année 1820 la Russie avait signalé les conséquences du
-               triomphe de <rs xml:id="n.2">la révolution en <country>Espagne</country>
-                    </rs>.<note type="editorial" target="#n.2">Zur Revolution in <country>Spanien</country>, die
+               triomphe de <rs xml:id="n.2">la révolution en <country>Espagne</country></rs>.<note
+                  type="editorial" target="#n.2">Zur Revolution in <country>Spanien</country>, die
                   mit einem Militäraufstand am <date when="1820-01-01">1. Jänner 1820</date> ihren
                   Anfang nahm, vgl. Späth, Revolution in Europa, S. 117–128. In Portugal war am 24.
                   August 1820 eine Revolution ausgebrochen; vgl. Birmingham, A Concise History, S.
@@ -137,8 +126,8 @@
                devait improuver un attentat qui présageoit à l’<country>Espagne</country> les
                malheurs inséparables des concessions que la violence arrache à l’autorité
                légitime.</p>
-            <p>Les craintes de <rs ref="#p.17">Sa Majesté Impériale</rs> ne se<pb n="151v"/> sont que trop
-               justifiées depuis.</p>
+            <p>Les craintes de <rs ref="#p.17">Sa Majesté Impériale</rs> ne se<pb n="151v"/> sont
+               que trop justifiées depuis.</p>
             <p>Peu de pays ont eu plus de maux à souffrir que l’<country>Espagne</country>. Peu de
                pays ont attiré plus de désastres sur le reste de l’Europe.</p>
             <p>Au dedans l’anarchie réduite en principe, le pouvoir devenu le prix des insultes
@@ -148,7 +137,9 @@
                subversives ouvertement prêchées, quelques sujets fidèles s’armant pour la défense de
                leur <rs ref="#p.30">Souverain</rs>, et ce Souverain forcé de les proscrire.</p>
             <p>Au dehors le triste spectacle qui se présente dans les contrées que les artisans des
-               troubles de l’Europe avaient destinées à être la proie des révolutions. <rs xml:id="n.3">L’année dernière, les Siciles en feu</rs>,<note type="editorial" target="#n.3">Am <date when="1820-07-02">2. Juli 1820</date> meuterte die
+               troubles de l’Europe avaient destinées à être la proie des révolutions. <rs
+                  xml:id="n.3">L’année dernière, les Siciles en feu</rs>,<note type="editorial"
+                  target="#n.3">Am <date when="1820-07-02">2. Juli 1820</date> meuterte die
                   Militärgarnison in Nola, 35 km von <placeName ref="#loc.11">Neapel</placeName>
                   entfernt. Das Datum gilt als Beginn der Revolution im <country>Königreich beider
                      Sizilien</country>. Vgl. Stites, The four Horsemen; Davis, Naples and Napoleon;
@@ -158,24 +149,25 @@
                   Laibach. </note> et les Puissances alliées contraintes à y placer le pouvoir
                légitime sous l’égide de leurs armes ; <rs xml:id="n.4">le <country>Piémont</country>
                   soulevé, essayant de propager la révolte dans le Nord de l’Italie, et provoquant
-                  la même intervention, la même assistance</rs>.<note type="editorial" target="#n.4">Im März 1821 war im <country>Königreich Sardinien-Piemont</country> eine
+                  la même intervention, la même assistance</rs>.<note type="editorial" target="#n.4"
+                  >Im März 1821 war im <country>Königreich Sardinien-Piemont</country> eine
                   Revolution ausgebrochen, die rasch durch österreichische Truppen niedergeschlagen
                   wurde. Vgl. Späth, Revolution in Europa, S. 150–165; Broers, Napoleonic
                   Imperialism; Jarrett, The Congress of Vienna, S. 270–284. </note> Aujourd’hui, une
                des plus belles parties de l’Europe désolée par une guerre terrible ; des sectes qui
                conspirent contre la tranquillité de tous les Etats, les Gouvernemens obligés par la
                loi même du salut des peuples à une surveillance rigoureuse et arrêtés dans
-               l’accomplissement<pb n="152r"/> des plus utiles améliorations, tels sont pour
+                  l’accomplissement<pb n="152r"/> des plus utiles améliorations, tels sont pour
                   l’<country>Espagne</country>, tels sont pour l’Europe les résultats à jamais
                funestes de <rs xml:id="n.5">l’insurrection dont Cadix a donné le déplorable
                   exemple</rs>.<note type="editorial" target="#n.5">In Cádiz hatte Oberstleutnant
                   Rafael del Riego am <date when="1820-01-01">1. Jänner 1820</date> die Verfassung
-                  von 1820 proklamiert. Vgl. Späth, Revolution in Europa, S. 117–128. </note>
-                </p>
+                  von 1820 proklamiert. Vgl. Späth, Revolution in Europa, S. 117–128. </note></p>
             <p>Assurément il est impossible qu’un pareil état de choses n’excite les regrets et les
                inquiétudes de toutes les Puissances européennes. Elles ne peuvent y voir
                particulièrement pour la <country>France</country> que les dangers auxquels les
-               événemens de <placeName ref="#loc.11">Naples</placeName> et de <placeName ref="#loc.64">Turin</placeName> avoient exposé l’<country>Autriche</country> ; et
+               événemens de <placeName ref="#loc.11">Naples</placeName> et de <placeName
+                  ref="#loc.64">Turin</placeName> avoient exposé l’<country>Autriche</country> ; et
                la <country>Russie</country> est fermement convaincue que tous les intérêts se
                réunissent pour faire désirer que l’incendie révolutionnaire soit comprimée en
                   <country>Espagne</country>.</p>
@@ -190,11 +182,10 @@
                mesures qu’elle lui permet d’exécuter avec le plus de succès.</p>
             <p>De Son côté, l’<rs ref="#p.17">Empereur</rs> n’hésitera pas à prêter Son plus sincère
                appui au Gouvernement de <rs ref="#p.15">Sa Majesté Très Chrétienne</rs> pour tous
-               les cas que<pb n="152v"/> Monsieur le <persName ref="#p.174">
-                        <roleName>Vicomte</roleName>
-                  <surname>de Montmorency</surname>
-                    </persName> a indiqués aux Cabinets alliés dans
-               la Conférence du <date when="1822-10-20">20 Octobre</date>, et <rs ref="#p.13">le
+               les cas que<pb n="152v"/> Monsieur le <persName ref="#p.174"
+                     ><roleName>Vicomte</roleName>
+                  <surname>de Montmorency</surname></persName> a indiqués aux Cabinets alliés dans
+               la Conférence du <date when="1822-10-20">20 Octobre</date>, et le<rs ref="#p.13">
                   Plénipotentiaire de Russie</rs> a ordre de déclarer que <rs ref="#p.17">Sa Majesté
                   Impériale</rs> l’autorise à accéder aux propositions faites ce même jour par le
                   <rs ref="#p.174">Ministre des affaires étrangères de France</rs>, et à se
@@ -211,11 +202,13 @@
          </div>
       </body>
       <back>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/listplace.xml" xpointer="listPlace"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/listperson.xml" xpointer="listPerson"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/listwit.xml" xpointer="listWit"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/listorg.xml" xpointer="listOrg"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/listwork.xml" xpointer="listTreaties"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listPlace.xml" xpointer="listPlace"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listPerson.xml"
+            xpointer="listPerson"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listWit.xml" xpointer="listWit"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listOrg.xml" xpointer="listOrg"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listTreaties.xml"
+            xpointer="listTreaties"/>
       </back>
    </text>
 </TEI>

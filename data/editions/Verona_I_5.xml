@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -12,13 +13,10 @@
                <persName>
                   <surname>Schneider</surname>
                   <forename>Karin</forename>
-               </persName>
-                </editor>
+               </persName></editor>
          </titleStmt>
          <editionStmt>
-            <edition>
-                    <date>2017-03-13</date>
-                </edition>
+            <edition><date>2017-03-13</date></edition>
          </editionStmt>
          <publicationStmt>
             <publisher>Österreichische Akademie der Wissenschaften, Institut für Neuzeit- und
@@ -60,11 +58,8 @@
 
                </physDesc>
                <history>
-                  <origin>
-                            <placeName ref="#loc.68">Verona</placeName>
-                            <date when="1822-10-30">30.
-                        Oktober 1822</date>
-                        </origin>
+                  <origin><placeName ref="#loc.68">Verona</placeName><date when="1822-10-30">30.
+                        Oktober 1822</date></origin>
                </history>
             </msDesc>
 
@@ -96,58 +91,54 @@
       <body>
          <div decls="#m.1">
             <pb n="164r"/>            
-            <p>
-                    <add place="top" hand="#AmB">No. 5.</add>
-                </p>
+            <p><add place="top" hand="#AmB">No. 5.</add></p>
 
-            <p>
-                    <title>Réponse confidentielle du Cabinet de <placeName ref="#loc.9">Berlin</placeName> au <ref target="Verona_I_2.xml">précis des communications
+            <p><title>Réponse confidentielle du Cabinet de <placeName ref="#loc.9"
+                     >Berlin</placeName> au <ref target="Verona_I_2.xml">précis des communications
                      verbales faites par <choice>
-                        <abbr>M<hi rendition="#su">r</hi>
-                                </abbr>
+                        <abbr>M<hi rendition="#su">r</hi></abbr>
                         <expan>Monsieur</expan>
-                     </choice> le <persName ref="#p.174">
-                                <roleName>Vicomte</roleName>
-                        <surname>de Montmorency</surname>
-                            </persName> à la Conférence du <date when="1822-10-20">20 Octobre</date>
-                        </ref>
-                    </title>
-               <placeName ref="#loc.68">Vérone</placeName> le <date when="1822-10-30">
-                        <add hand="#A" place="inspace">30</add> Octobre 1822</date>. </p>
+                     </choice> le <persName ref="#p.174"><roleName>Vicomte</roleName>
+                        <surname>de Montmorency</surname></persName> à la Conférence du <date
+                        when="1822-10-20">20 Octobre</date></ref></title>
+               <placeName ref="#loc.68">Vérone</placeName> le <date when="1822-10-30"><add hand="#A"
+                     place="inspace">30</add> Octobre 1822</date>. </p>
             <p>Le précis des communications verbales de <choice>
                   <abbr>Mr.</abbr>
                   <expan>Monsieur</expan>
-               </choice> le <persName ref="#p.174">
-                        <roleName>Vicomte</roleName>
-                  <surname>de Montmorency</surname>
-                    </persName> ayant été mis sous les yeux du <rs ref="#p.18">Roi</rs>, Sa Majesté, après avoir pris les rapports actuels entre la
+               </choice> le <persName ref="#p.174"><roleName>Vicomte</roleName>
+                  <surname>de Montmorency</surname></persName> ayant été mis sous les yeux du <rs
+                  ref="#p.18">Roi</rs>, Sa Majesté, après avoir pris les rapports actuels entre la
                   <country>France</country> et l’<country>Espagne</country> en mûre considération et
                voulant donner à la première de ces Puissances une preuve d’intérêt et de confiance,
                a autorisé Son Cabinet à déclarer en Son nom :</p>
             <p>Que si la conduite du Gouvernement espagnol à l’égard de la <country>France</country>
-               ou de <rs ref="#p.123">Son Envoyé à <placeName ref="#loc.24">Madrid</placeName>
-                    </rs>
+               ou de <rs ref="#p.123">Son Envoyé à <placeName ref="#loc.24">Madrid</placeName></rs>
                étoit de nature à forcer cette dernière à rompre Ses relations diplomatiques avec
                   l’<country>Espagne</country>, <rs ref="#p.18">Sa Majesté</rs> n’hésiteroit pas à
                en faire autant de Son côté ;</p>
             <p>Que si, en dépit des soins que le Gouvernement français s’engage à prendre pour
-               éviter la guerre avec l’<country>Espagne</country> cette guerre venait à éclater, <rs ref="#p.18">Sa Majesté</rs> est prête à Se joindre aux Monarques, Ses alliés, pour
+               éviter la guerre avec l’<country>Espagne</country> cette guerre venait à éclater, <rs
+                  ref="#p.18">Sa Majesté</rs> est prête à Se joindre aux Monarques, Ses alliés, pour
                prêter à la <country>France</country> tout l’appui moral qui pourroit servir à
                renforcer sa position ;</p>
             <p>Et</p>
             <p>Que si les événemens ou les conséquences de<pb n="164v"/> la guerre faisaient éprouver à la
-                  <country>France</country> le besoin d’un secours plus actif, le <rs ref="#p.18">Roi</rs> consentiroit encore à concourir aux mesures que l’on voudrait concerter
+                  <country>France</country> le besoin d’un secours plus actif, le <rs ref="#p.18"
+                  >Roi</rs> consentiroit encore à concourir aux mesures que l’on voudrait concerter
                à l’effet d’assurer au Gouvernement français également ce genre d’appui, en autant
                que les nécessités de la position de Sa Majesté et les soins dus à l’intérieur de Son
                Royaume pourroient Lui en laisser la faculté.</p>
          </div>
       </body>
       <back>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/listplace.xml" xpointer="listPlace"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/listperson.xml" xpointer="listPerson"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/listwit.xml" xpointer="listWit"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/listorg.xml" xpointer="listOrg"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/listwork.xml" xpointer="listTreaties"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listPlace.xml" xpointer="listPlace"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listPerson.xml"
+            xpointer="listPerson"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listWit.xml" xpointer="listWit"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listOrg.xml" xpointer="listOrg"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listTreaties.xml"
+            xpointer="listTreaties"/>
       </back>
    </text>
 </TEI>

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -13,13 +14,10 @@
                <persName>
                   <surname>Schneider</surname>
                   <forename>Karin</forename>
-               </persName>
-                </editor>
+               </persName></editor>
          </titleStmt>
          <editionStmt>
-            <edition>
-                    <date>2017-03-13</date>
-                </edition>
+            <edition><date>2017-03-13</date></edition>
          </editionStmt>
          <publicationStmt>
             <publisher>Österreichische Akademie der Wissenschaften, Institut für Neuzeit- und
@@ -41,15 +39,14 @@
                </msIdentifier>
                <msContents>
                   <msItem>
-                     <title>Antwort der französischen Delegation auf die Vorschläge Metternichs vom
+                     <title>Antwort der französischen Delegation auf die Vorschläge <persName ref="#p.8"><surname>Metternichs</surname></persName> vom
                         31. Oktober 1822 </title>
                   </msItem>
                </msContents>
                <physDesc>
                   <p>Ausfertigung</p>
-                  <p>Dokument liegt in einem Umschlag mit der Aufschrift von der Hand <persName ref="#p.8">
-                                <surname>Metternichs</surname>
-                            </persName>: "No 8. Projets des
+                  <p>Dokument liegt in einem Umschlag mit der Aufschrift von der Hand <persName
+                        ref="#p.8"><surname>Metternichs</surname></persName>: "No 8. Projets des
                      réponses des Cabinets à la proposition autrichienne".</p>
 
                   <handDesc>
@@ -64,9 +61,7 @@
 
                </physDesc>
                <history>
-                  <origin>
-                            <placeName ref="#loc.68">Verona</placeName>
-                        </origin>
+                  <origin><placeName ref="#loc.68">Verona</placeName></origin>
                </history>
             </msDesc>
 
@@ -89,9 +84,7 @@
       <profileDesc>
          <abstract>
             <p>Die <rs ref="#p.174 #p.102 #p.135 #p.180">Vertreter Frankreichs</rs> greifen die
-               Vorschläge <persName ref="#p.8">
-                        <surname>Metternichs</surname>
-                    </persName> zur
+               Vorschläge <persName ref="#p.8"><surname>Metternichs</surname></persName> zur
                schnellstmöglichen Beendigung der Revolution in <country>Spanien</country> auf und
                schlagen Separatnoten der Mächte an die spanische Regierung vor.</p>
          </abstract>
@@ -106,8 +99,10 @@
                      <rs ref="#p.8">Plénipotentiaire d’Autriche</rs> a énoncées dans la dernière
                   Conférence</ref> relativement à une démarche à faire pour décider des rapports
                futurs entre l’<country>Espagne</country> &amp; les Puissances Alliées.</p>
-            <p>Ils sont d’avis que la première forme, indiquée par Monsieur le <rs ref="#p.8">Plénipotentiaire d’Autriche</rs>, doit être préférée. Ils pensent toutefois que
-               ce n’est pas par une <hi rendition="#u">Déclaration Collective</hi>, mais par <hi rendition="#u">des Notes séparées</hi> de chaque Cabinet, que doivent être
+            <p>Ils sont d’avis que la première forme, indiquée par Monsieur le <rs ref="#p.8"
+                  >Plénipotentiaire d’Autriche</rs>, doit être préférée. Ils pensent toutefois que
+               ce n’est pas par une <hi rendition="#u">Déclaration Collective</hi>, mais par <hi
+                  rendition="#u">des Notes séparées</hi> de chaque Cabinet, que doivent être
                   communiquées<pb n="188v"/> au Gouvernement d’Espagne les dispositions
                communes.</p>
             <p>Cette forme a l’avantage de s’approprier à la situation particulière de chaque Etat
@@ -116,11 +111,13 @@
          </div>
       </body>
       <back>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/listplace.xml" xpointer="listPlace"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/listperson.xml" xpointer="listPerson"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/listwit.xml" xpointer="listWit"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/listorg.xml" xpointer="listOrg"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/listwork.xml" xpointer="listTreaties"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listPlace.xml" xpointer="listPlace"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listPerson.xml"
+            xpointer="listPerson"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listWit.xml" xpointer="listWit"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listOrg.xml" xpointer="listOrg"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listTreaties.xml"
+            xpointer="listTreaties"/>
       </back>
    </text>
 </TEI>

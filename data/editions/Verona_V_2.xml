@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -12,13 +13,10 @@
                <persName>
                   <surname>Schneider</surname>
                   <forename>Karin</forename>
-               </persName>
-                </editor>
+               </persName></editor>
          </titleStmt>
          <editionStmt>
-            <edition>
-                    <date>2017-03-13</date>
-                </edition>
+            <edition><date>2017-03-13</date></edition>
          </editionStmt>
          <publicationStmt>
             <publisher>Österreichische Akademie der Wissenschaften, Institut für Neuzeit- und
@@ -61,11 +59,8 @@
 
                </physDesc>
                <history>
-                  <origin>
-                            <placeName ref="#loc.68">Verona</placeName>
-                            <date when="1822-11-28">28.
-                        November 1822</date>
-                        </origin>
+                  <origin><placeName ref="#loc.68">Verona</placeName><date when="1822-11-28">28.
+                        November 1822</date></origin>
                </history>
             </msDesc>
             <msDesc xml:id="m.2" type="Lithographie">
@@ -139,11 +134,8 @@
                      Variante.</p>
                </physDesc>
                <history>
-                  <origin>
-                            <placeName ref="#loc.68">Verona</placeName>
-                            <date when="1822-11-28">28.
-                        November 1822</date>
-                        </origin>
+                  <origin><placeName ref="#loc.68">Verona</placeName><date when="1822-11-28">28.
+                        November 1822</date></origin>
                </history>
             </msDesc>
             <msDesc xml:id="m.5" type="Lithographie">
@@ -193,11 +185,8 @@
                      Variante.</p>
                </physDesc>
                <history>
-                  <origin>
-                            <placeName ref="#loc.68">Verona</placeName>
-                            <date when="1822-11-28">28.
-                        November 1822</date>
-                        </origin>
+                  <origin><placeName ref="#loc.68">Verona</placeName><date when="1822-11-28">28.
+                        November 1822</date></origin>
                </history>
             </msDesc>
             <msDesc xml:id="m.7" type="Lithographie">
@@ -246,11 +235,8 @@
                      Variante.</p>
                </physDesc>
                <history>
-                  <origin>
-                            <placeName ref="#loc.68">Verona</placeName>
-                            <date when="1822-11-26">26.
-                        November 1822</date>
-                        </origin>
+                  <origin><placeName ref="#loc.68">Verona</placeName><date when="1822-11-26">26.
+                        November 1822</date></origin>
                </history>
             </msDesc>
             <msDesc xml:id="m.9" type="Lithographie">
@@ -276,11 +262,8 @@
                      Variante.</p>
                </physDesc>
                <history>
-                  <origin>
-                            <placeName ref="#loc.68">Verona</placeName>
-                            <date when="1822-11-28">28.
-                        November 1822</date>
-                        </origin>
+                  <origin><placeName ref="#loc.68">Verona</placeName><date when="1822-11-28">28.
+                        November 1822</date></origin>
                </history>
             </msDesc>
             <msDesc xml:id="m.10" type="Lithographie">
@@ -309,92 +292,58 @@
             </msDesc>
             <listWit corresp="#m.1">
                <head>Procès-verbal der zweiten Sitzung</head>
-               <witness corresp="#w.5">
-                        <bibl type="print">BFSP Bd. 10 (1822/23), S.
-                  101–102;</bibl>
-                    </witness>
-               <witness corresp="#w.17">
-                        <bibl type="print">Clarke, Papers presented to parliament
-                     1823, S. 211–213.</bibl>
-                    </witness>
+               <witness corresp="#w.5"><bibl type="print">BFSP Bd. 10 (1822/23), S.
+                  101–102;</bibl></witness>
+               <witness corresp="#w.17"><bibl type="print">Clarke, Papers presented to parliament
+                     1823, S. 211–213.</bibl></witness>
             </listWit>
             <listWit corresp="#m.2">
                <head>Anlage 1: Entgegnung des österreichischen Kabinetts</head>
-               <witness corresp="#w.5">
-                        <bibl type="print">BFSP Bd. 10 (1822/23), S.
-                  102;</bibl>
-                    </witness>
-               <witness corresp="#w.17">
-                        <bibl type="print">Clarke, Papers presented to parliament
-                     1823, S. 216–217.</bibl>
-                    </witness>
+               <witness corresp="#w.5"><bibl type="print">BFSP Bd. 10 (1822/23), S.
+                  102;</bibl></witness>
+               <witness corresp="#w.17"><bibl type="print">Clarke, Papers presented to parliament
+                     1823, S. 216–217.</bibl></witness>
             </listWit>
             <listWit corresp="#m.3">
                <head>Anlage 2: Entgegnung der französischen Bevollmächtigten</head>
-               <witness corresp="#w.26">
-                        <bibl type="print">Archive diplomatique/Diplomatisches
-                     Archiv, Bd. 6, S. 97–102;</bibl>
-                    </witness>
-               <witness corresp="#w.5">
-                        <bibl type="print">BFSP Bd. 10 (1822/23), S.
-                  102–106;</bibl>
-                    </witness>
-               <witness corresp="#w.17">
-                        <bibl type="print">Clarke, Papers presented to parliament
-                     1823, S. 218–225.</bibl>
-                    </witness>
+               <witness corresp="#w.26"><bibl type="print">Archive diplomatique/Diplomatisches
+                     Archiv, Bd. 6, S. 97–102;</bibl></witness>
+               <witness corresp="#w.5"><bibl type="print">BFSP Bd. 10 (1822/23), S.
+                  102–106;</bibl></witness>
+               <witness corresp="#w.17"><bibl type="print">Clarke, Papers presented to parliament
+                     1823, S. 218–225.</bibl></witness>
             </listWit>
             <listWit corresp="#m.4">
                <head>Anlage 3: Entgegnung der preußischen Bevollmächtigten</head>
-               <witness corresp="#w.5">
-                        <bibl type="print">BFSP Bd. 10 (1822/23), S.
-                  106–107;</bibl>
-                    </witness>
-               <witness corresp="#w.17">
-                        <bibl type="print">Clarke, Papers presented to parliament
-                     1823, S. 232–233.</bibl>
-                    </witness>
+               <witness corresp="#w.5"><bibl type="print">BFSP Bd. 10 (1822/23), S.
+                  106–107;</bibl></witness>
+               <witness corresp="#w.17"><bibl type="print">Clarke, Papers presented to parliament
+                     1823, S. 232–233.</bibl></witness>
             </listWit>
             <listWit corresp="#m.5">
                <head>Anlage 4: Entgegnung des russischen Kabinetts</head>
-               <witness corresp="#w.5">
-                        <bibl type="print">BFSP Bd. 10 (1822/23), S.
-                  107–109;</bibl>
-                    </witness>
-               <witness corresp="#w.17">
-                        <bibl type="print">Clarke, Papers presented to parliament
-                     1823, S. 234–237.</bibl>
-                    </witness>
+               <witness corresp="#w.5"><bibl type="print">BFSP Bd. 10 (1822/23), S.
+                  107–109;</bibl></witness>
+               <witness corresp="#w.17"><bibl type="print">Clarke, Papers presented to parliament
+                     1823, S. 234–237.</bibl></witness>
             </listWit>
             <listWit corresp="#m.6">
                <head>Anlage 5: Resolution betreffend die Abschaffung des Sklavenhandels</head>
-               <witness corresp="#w.26">
-                        <bibl type="print">Archive diplomatique/Diplomatisches
-                     Archiv, Bd. 6, S. 102–103;</bibl>
-                    </witness>
-               <witness corresp="#w.5">
-                        <bibl type="print">BFSP Bd. 10 (1822/23), S.
-                  109–110;</bibl>
-                    </witness>
-               <witness corresp="#w.17">
-                        <bibl type="print">Clarke, Papers presented to parliament
-                     1823, S. 241–243; </bibl>
-                    </witness>
-               <witness corresp="#w.14">
-                        <bibl type="print">Martens, Noveau Recueil, Bd. 6, S.
-                     139–140;</bibl>
-                    </witness>
-               <witness corresp="#w.19">
-                        <bibl type="print">Neumann, Recueil, Bd. 4, S.
-                  17–18.</bibl>
-                    </witness>
+               <witness corresp="#w.26"><bibl type="print">Archive diplomatique/Diplomatisches
+                     Archiv, Bd. 6, S. 102–103;</bibl></witness>
+               <witness corresp="#w.5"><bibl type="print">BFSP Bd. 10 (1822/23), S.
+                  109–110;</bibl></witness>
+               <witness corresp="#w.17"><bibl type="print">Clarke, Papers presented to parliament
+                     1823, S. 241–243; </bibl></witness>
+               <witness corresp="#w.14"><bibl type="print">Martens, Noveau Recueil, Bd. 6, S.
+                     139–140;</bibl></witness>
+               <witness corresp="#w.19"><bibl type="print">Neumann, Recueil, Bd. 4, S.
+                  17–18.</bibl></witness>
             </listWit>
             <listWit corresp="#m.8">
                <head>Anlage 7: Erklärung des französischen Kabinetts</head>
-               <witness corresp="#w.7">
-                        <bibl type="print">Martens, Nouveau supplémens, Bd. 1, S.
-                     605–606.</bibl>
-                    </witness>
+               <witness corresp="#w.7"><bibl type="print">Martens, Nouveau supplémens, Bd. 1, S.
+                     605–606.</bibl></witness>
             </listWit>
          </sourceDesc>
       </fileDesc>
@@ -416,9 +365,7 @@
          <abstract>
             <p>Die Bevollmächtigten verlesen ihre jeweiligen Erklärungen hinsichtlich der
                Abschaffung des Sklavenhandels und diskutieren Maßnahmen zu dessen Eindämmung.
-                  <persName ref="#p.10">
-                        <surname>Wellington</surname>
-                    </persName> verliest den
+                  <persName ref="#p.10"><surname>Wellington</surname></persName> verliest den
                Entwurf einer offiziellen Deklaration der Mächte zur Beibehaltung der auf dem Wiener
                Kongress beschlossenen Grundsätzen zur Abschaffung des Sklavenhandels, der angenommen
                wird. Verhandlungen über die Einberufung einer Botschafterkonferenz. Hinsichtlich der
@@ -465,92 +412,67 @@
       <body>
          <div decls="#m.1">
             <pb n="75r"/>
-            <p>
-                    <title>Procès-Verbal</title>
-                </p>
-            <p>
-                    <title>de la Conférence du <date when="1822-11-28">28 Novembre
-               1822</date>.</title>
-                </p>
-            <p>
-                    <title>
-                        <rs xml:id="n.1">Traite des Nègres</rs>
-                        <note type="editorial" target="#n.1">Vgl. Fladeland, Abolitionist Pressures; Kielstra, The Politics of Slave Trade,
-                     bes. S. 120–124.</note>
-                    </title>
+            <p><title>Procès-Verbal</title></p>
+            <p><title>de la Conférence du <date when="1822-11-28">28 Novembre
+               1822</date>.</title></p>
+            <p><title><rs xml:id="n.1">Traite des Nègres</rs><note type="editorial" target="#n.1"
+                     >Vgl. Fladeland, Abolitionist Pressures; Kielstra, The Politics of Slave Trade,
+                     bes. S. 120–124.</note></title>
             </p>
-            <p>
-                    <title>Colonies Espagnoles d’Amérique</title>
-                </p>
+            <p><title>Colonies Espagnoles d’Amérique</title></p>
             <p>On s’est occupé dans cette Conférence des deux communications de <choice>
-                  <abbr>M<hi rendition="#su">r</hi>
-                        </abbr>
+                  <abbr>M<hi rendition="#su">r</hi></abbr>
                   <expan>Monsieur</expan>
-               </choice> le <persName ref="#p.10">
-                        <roleName>Duc</roleName>
-                  <surname>de Wellington</surname>
-                    </persName> faites à <ref target="Verona_V_1.xml">celle du <date when="1822-11-24">24 Novembre</date>
-                    </ref>, l’une relative à
+               </choice> le <persName ref="#p.10"><roleName>Duc</roleName>
+                  <surname>de Wellington</surname></persName> faites à <ref target="Verona_V_1.xml"
+                  >celle du <date when="1822-11-24">24 Novembre</date></ref>, l’une relative à
                l’abolition de la traite des Nègres, l’autre aux mesures que le Gouvernement
                Britannique a cru devoir adopter dans l’état actuel des Colonies espagnoles en
                Amérique.</p>
-            <p>
-                    <choice>
-                  <abbr>M<hi rendition="#su">ss</hi>
-                        </abbr>
+            <p><choice>
+                  <abbr>M<hi rendition="#su">ss</hi></abbr>
                   <expan>Messieurs</expan>
-               </choice> les <rs ref="#p.8 #p.102 #p.180 #p.135 #p.175 #p.75 #p.13 #p.35">Plénipotentiaires d’Autriche, de France, de Prusse et de Russie</rs> ont fait
+               </choice> les <rs ref="#p.8 #p.102 #p.180 #p.135 #p.175 #p.75 #p.13 #p.35"
+                  >Plénipotentiaires d’Autriche, de France, de Prusse et de Russie</rs> ont fait
                lecture de Leurs réponses à la première desdites communications ; ces réponses se
-               trouvent <rs xml:id="n.2">ci-annexées sub <choice>
-                     <abbr>Litt.</abbr>
-                     <expan>Litteris</expan>
-                  </choice> A, B, C, D</rs>.<note type="editorial" target="#n.2">Vgl. Anlagen 1 bis
-                  4.</note>
-            </p>
+               trouvent ci-annexées sub <choice>
+                  <abbr>Litt.</abbr>
+                  <expan>Litteris</expan>
+               </choice>
+               <ref decls="#m.2">A</ref>, <ref decls="#m.3">B</ref>, <ref decls="#m.4">C</ref>, <ref
+                  decls="#m.5">D</ref>.</p>
             <p>À la suite de cette lecture, <choice>
-                  <abbr>M<hi rendition="#su">r</hi>
-                        </abbr>
+                  <abbr>M<hi rendition="#su">r</hi></abbr>
                   <expan>Monsieur</expan>
-               </choice> le <persName ref="#p.10">
-                        <roleName>Duc</roleName>
-                  <surname>de Wellington</surname>
-                    </persName> a cru devoir relever une observation
+               </choice> le <persName ref="#p.10"><roleName>Duc</roleName>
+                  <surname>de Wellington</surname></persName> a cru devoir relever une observation
                qui se trouve dans la réponse de <choice>
-                  <abbr>Ms<hi rendition="#su">s</hi>
-                        </abbr>
+                  <abbr>Ms<hi rendition="#su">s</hi></abbr>
                   <expan>Messieurs</expan>
                </choice> les <rs ref="#p.102 #p.180 #p.135">Plénipotentiaires de France</rs>,
                portant <quote>« qu’une délibération qui obligerait tous les Gouvernemens à appliquer
                   à la traite des Nègres les châtimens infligés à la Piraterie ne pouvait pas, selon
                   leur avis, être de la compétence d’une réunion politique »</quote>. <choice>
-                  <abbr>M<hi rendition="#su">r</hi>
-                        </abbr>
+                  <abbr>M<hi rendition="#su">r</hi></abbr>
                   <expan>Monsieur</expan>
-               </choice> le <persName ref="#p.10">
-                        <roleName>Duc</roleName>
-                  <surname>de Wellington</surname>
-                    </persName>, en se référant aux termes de son
+               </choice> le <persName ref="#p.10"><roleName>Duc</roleName>
+                  <surname>de Wellington</surname></persName>, en se référant aux termes de son
                mémoire, a remarqué <quote>« que sa proposition n’avait absolument eu pour objet que
                   d’engager les Puissances maritimes qui ont aboli le commerce en esclaves à se
                   concerter entr’Elles sur des mesures à prendre pour déclarer et traiter ce
                   commerce comme<pb n="75v"/> piraterie »</quote>.</p>
-            <p>
-                    <choice>
-                  <abbr>M<hi rendition="#su">r</hi>
-                        </abbr>
+            <p><choice>
+                  <abbr>M<hi rendition="#su">r</hi></abbr>
                   <expan>Monsieur</expan>
-               </choice> le <persName ref="#p.180">
-                        <roleName>Vicomte</roleName>
-                  <surname>de Chateaubriand</surname>
-                    </persName> a répliqué <quote>« que <rs ref="#p.102 #p.180 #p.135">les Plénipotentiaires de <rs xml:id="n.3" ref="#p.15">
-                                <choice>
+               </choice> le <persName ref="#p.180"><roleName>Vicomte</roleName>
+                  <surname>de Chateaubriand</surname></persName> a répliqué <quote>« que <rs
+                     ref="#p.102 #p.180 #p.135">les Plénipotentiaires de <rs xml:id="n.3"
+                        ref="#p.15"><choice>
                            <abbr>S. M.</abbr>
                            <expan>Sa Majesté</expan>
-                        </choice> Très Chrétienne</rs>
-                        </rs>
-                        <note type="editorial" target="#n.3">Ehrentitel des Königs von Frankreich.</note> avaient bien compris que <choice>
-                     <abbr>M<hi rendition="#su">r</hi>
-                            </abbr>
+                        </choice> Très Chrétienne</rs></rs><note type="editorial" target="#n.3"
+                     >Ehrentitel des Königs von Frankreich.</note> avaient bien compris que <choice>
+                     <abbr>M<hi rendition="#su">r</hi></abbr>
                      <expan>Monsieur</expan>
                   </choice> le <rs ref="#p.10">Duc</rs> demandait de chaque Gouvernement en
                   particulier une loi assimilant la traite des Nègres à la piraterie, mais qu’ils ne
@@ -558,132 +480,105 @@
                   prescrire à leur gouvernement le nom, les formes, la teneur et l’étendue d’une
                   loi »</quote>.</p>
             <p>Sur l’observation de plusieurs de <choice>
-                  <abbr>M<hi rendition="#su">ss</hi>
-                        </abbr>
+                  <abbr>M<hi rendition="#su">ss</hi></abbr>
                   <expan>Messieurs</expan>
                </choice> les Plénipotentiaires qu’il serait difficile de prendre des mesures contre
                le commerce avec le <country>Portugal</country> et ses Colonies par rapport à la
                non-abolition de la traite des Nègres sans en avoir prévenu le Gouvernement Portugais
                et sans l’avoir entendu à ce sujet, <choice>
-                  <abbr>M<hi rendition="#su">r</hi>
-                        </abbr>
+                  <abbr>M<hi rendition="#su">r</hi></abbr>
                   <expan>Monsieur</expan>
-               </choice> le <persName ref="#p.10">
-                        <roleName>Duc</roleName>
-                  <surname>de Wellington</surname>
-                    </persName> a remarqué qu’Il n’avait point eu
+               </choice> le <persName ref="#p.10"><roleName>Duc</roleName>
+                  <surname>de Wellington</surname></persName> a remarqué qu’Il n’avait point eu
                l’intention de proposer une marche différente, et qu’Il admettait de même la
                nécessité d’entrer en explication avec le <choice>
-                  <abbr>Gouvern<hi rendition="#su">t</hi>
-                        </abbr>
+                  <abbr>Gouvern<hi rendition="#su">t</hi></abbr>
                   <expan>Gouvernement</expan>
                </choice> Portugais, avant de se porter à une pareille mesure.</p>
             <p>Il a été lu ensuite un projet de déclaration générale, ayant pour but de manifester
                que les Puissances alliées persistaient toujours relativement à l’abolition
-               définitive de la traite dans les principes proclamés par la <rs ref="#t.22">déclaration de <placeName ref="#loc.7">Vienne</placeName> du <date when="1815-02-08">8 Février 1815</date>
-                    </rs>. Ce projet a été adopté, <rs xml:id="n.4">tel qu’il se trouve ci-joint sub <choice>
+               définitive de la traite dans les principes proclamés par la <rs ref="#t.22"
+                  >déclaration de <placeName ref="#loc.7">Vienne</placeName> du <date
+                     when="1815-02-08">8 Février 1815</date></rs>. Ce projet a été adopté, <ref
+                  decls="#m.6">tel qu’il se trouve ci-joint sub <choice>
                      <abbr>Litt.</abbr>
                      <expan>Littera</expan>
-                  </choice> E</rs>,<note type="editorial" target="#n.4">Vgl. Anlage 5.</note> et on
-               est convenu de le consigner au Procès-Verbal sous le titre de <hi rendition="#u">résolutions</hi>.</p>
-            <p>
-                    <app>
-                  <lem>
-                            <choice>
-                        <abbr>M<hi rendition="#su">r</hi>
-                                </abbr>
+                  </choice> E</ref>, et on est convenu de le consigner au Procès-Verbal sous le
+               titre de <hi rendition="#u">résolutions</hi>.</p>
+            <p><app>
+                  <lem><choice>
+                        <abbr>M<hi rendition="#su">r</hi></abbr>
                         <expan>Monsieur</expan>
-                     </choice> le <persName ref="#p.10">
-                                <roleName>Duc</roleName>
-                        <surname>de Wellington</surname>
-                            </persName> a exprimé en outre le désir que,
+                     </choice> le <persName ref="#p.10"><roleName>Duc</roleName>
+                        <surname>de Wellington</surname></persName> a exprimé en outre le désir que,
                      pour se concerter ultérieurement sur les mesures proposées pour effectuer
                      l’abolition définitive de la traite<pb n="76r"/> des Nègres, les Cours alliées
                      établissent une Conférence à <placeName ref="#loc.8">Londres</placeName>. <choice>
-                        <abbr>M<hi rendition="#su">ss</hi>
-                                </abbr>
+                        <abbr>M<hi rendition="#su">ss</hi></abbr>
                         <expan>Messieurs</expan>
                      </choice> les <rs ref="#p.8 #p.175 #p.75 #p.13 #p.35">Plénipotentiaires
                         d’Autriche, de Prusse et de Russie</rs> se sont énoncés en faveur de cette
                      proposition, et <choice>
-                        <abbr>Mes<hi rendition="#su">s</hi>
-                                </abbr>
+                        <abbr>Mes<hi rendition="#su">s</hi></abbr>
                         <expan>Messieurs</expan>
                      </choice> les <rs ref="#p.102 #p.180 #p.135">Plénipotentiaires de France</rs>
                      se sont réservés d’en référer à leur Cour.</lem>
-                  <rdg>
-                            <add hand="#G">
-                                <choice>
-                           <abbr>M<hi rendition="#su">r</hi>
-                                    </abbr>
+                  <rdg><add hand="#G"><choice>
+                           <abbr>M<hi rendition="#su">r</hi></abbr>
                            <expan>Monsieur</expan>
-                        </choice> le <persName ref="#p.10">
-                                    <roleName>Duc</roleName>
-                           <surname>de Wellington</surname>
-                                </persName> a exprimé en outre le désir
+                        </choice> le <persName ref="#p.10"><roleName>Duc</roleName>
+                           <surname>de Wellington</surname></persName> a exprimé en outre le désir
                         que, pour se concerter ultérieurement sur les mesures proposées pour
                         effectuer l’abolition définitive de la traite<pb n="76r"/> des Nègres, les
-                        Cours alliées établissent une Conférence à <placeName ref="#loc.8">Londres</placeName>. <choice>
-                           <abbr>M<hi rendition="#su">ss</hi>
-                                    </abbr>
+                        Cours alliées établissent une Conférence à <placeName ref="#loc.8"
+                           >Londres</placeName>. <choice>
+                           <abbr>M<hi rendition="#su">ss</hi></abbr>
                            <expan>Messieurs</expan>
                         </choice> les <rs ref="#p.8 #p.175 #p.75 #p.13 #p.35">Plénipotentiaires
                            d’Autriche, de Prusse et de Russie</rs> se sont énoncés en faveur de
                         cette proposition, et <choice>
-                           <abbr>Mes<hi rendition="#su">s</hi>
-                                    </abbr>
+                           <abbr>Mes<hi rendition="#su">s</hi></abbr>
                            <expan>Messieurs</expan>
                         </choice> les <rs ref="#p.102 #p.180 #p.135">Plénipotentiaires de
-                           France</rs> se sont réservés d’en référer à leur Cour.</add>
-                        </rdg>
+                           France</rs> se sont réservés d’en référer à leur Cour.</add></rdg>
                </app>
             </p>
             <p>Arrivant ensuite à la seconde communication de <choice>
-                  <abbr>M<hi rendition="#su">r</hi>
-                        </abbr>
+                  <abbr>M<hi rendition="#su">r</hi></abbr>
                   <expan>Monsieur</expan>
-               </choice> le <persName ref="#p.10">
-                        <roleName>Duc</roleName>
-                  <surname>de Wellington</surname>
-                    </persName> concernant les mesures adoptées et
+               </choice> le <persName ref="#p.10"><roleName>Duc</roleName>
+                  <surname>de Wellington</surname></persName> concernant les mesures adoptées et
                devant encore être adoptées par le <choice>
-                  <abbr>Gouvern<hi rendition="#su">t</hi>
-                        </abbr>
+                  <abbr>Gouvern<hi rendition="#su">t</hi></abbr>
                   <expan>Gouvernement</expan>
                </choice> Britannique au sujet de ses relations avec les Colonies Espagnoles de
                l’Amérique, <choice>
-                  <abbr>M<hi rendition="#su">ss</hi>
-                        </abbr>
+                  <abbr>M<hi rendition="#su">ss</hi></abbr>
                   <expan>Messieurs</expan>
                </choice> les Plénipotentiaires d’Autriche, de France, de Prusse et de Russie ont lu
-               et déposé les <rs xml:id="n.5">réponses ci-annexées sub <choice>
-                     <abbr>Litt.</abbr>
-                     <expan>Litteris</expan>
-                  </choice> F, G, H, I</rs>.<note type="editorial" target="#n.5">Vgl. Anlage 6 bis
-                  9. </note>
-            </p>
+               et déposé les réponses ci-annexées sub <choice>
+                  <abbr>Litt.</abbr>
+                  <expan>Litteris</expan>
+               </choice>
+               <ref decls="#m.7">F</ref>, <ref decls="#m.8">G</ref>, <ref decls="#m.9">H</ref>, <ref
+                  decls="#m.10">I</ref>.</p>
             <p>À la fin de la discussion qui s’est engagée sur ces pièces, <choice>
-                  <abbr>M<hi rendition="#su">r</hi>
-                        </abbr>
+                  <abbr>M<hi rendition="#su">r</hi></abbr>
                   <expan>Monsieur</expan>
-               </choice> le <persName ref="#p.10">
-                        <roleName>Duc</roleName>
-                  <surname>de Wellington</surname>
-                    </persName> a déclaré : Que les mesures que Son
+               </choice> le <persName ref="#p.10"><roleName>Duc</roleName>
+                  <surname>de Wellington</surname></persName> a déclaré : Que les mesures que Son
                Gouvernement désirait adopter dans cette affaire étaient le résultat nécessaire de la
-               position où Il se trouvait placé par les relations multipliées des sujets de <rs ref="#p.130">Sa Majesté Britannique</rs> avec les pays en question ; que ces
+               position où Il se trouvait placé par les relations multipliées des sujets de <rs
+                  ref="#p.130">Sa Majesté Britannique</rs> avec les pays en question ; que ces
                mesures ont toujours été limitées par la nécessité et qu’elles n’ont aucun rapport
                avec <app>
                   <lem>les questions de droit relatives à ces pays</lem>
-                  <rdg>
-                            <subst hand="#G">
+                  <rdg><subst hand="#G">
                         <del rendition="#s">la situation politique de ces pays</del>
                         <add>les questions de droit relatives à ces pays</add>
-                     </subst>
-                        </rdg>
+                     </subst></rdg>
                </app>. <choice>
-                  <abbr>M<hi rendition="#su">r</hi>
-                        </abbr>
+                  <abbr>M<hi rendition="#su">r</hi></abbr>
                   <expan>Monsieur</expan>
                </choice> le <rs ref="#p.10">Duc</rs> ne se dissimule pas que cette espèce de
                relations établies ou à établir entre le Gouvernement de <rs ref="#p.130">Sa Majesté
@@ -703,195 +598,122 @@
                   <cell/>
                </row>
                <row>
-                  <cell>
-                            <persName ref="#p.8">
-                                <surname>Metternich</surname>
-                            </persName>
-                        </cell>
-                  <cell>Le <persName ref="#p.102">
-                                <roleName>
-                                    <choice>
-                              <abbr>M<hi rendition="#su">is</hi>
-                                        </abbr>
+                  <cell><persName ref="#p.8"><surname>Metternich</surname></persName></cell>
+                  <cell>Le <persName ref="#p.102"><roleName><choice>
+                              <abbr>M<hi rendition="#su">is</hi></abbr>
                               <expan>Marquis</expan>
-                           </choice>
-                                </roleName>
-                        <surname>de Caraman</surname>
-                            </persName>
-                        </cell>
-                  <cell>
-                            <persName ref="#p.10">
-                                <surname>Wellington</surname>
-                            </persName>
-                        </cell>
-                  <cell>
-                            <persName ref="#p.175">
-                                <surname>Hatzfeldt</surname>
-                            </persName>
-                        </cell>
-                  <cell>
-                            <persName ref="#p.13">
-                                <surname>Nesselrode</surname>
-                            </persName>
-                        </cell>
+                           </choice></roleName>
+                        <surname>de Caraman</surname></persName></cell>
+                  <cell><persName ref="#p.10"><surname>Wellington</surname></persName></cell>
+                  <cell><persName ref="#p.175"><surname>Hatzfeldt</surname></persName></cell>
+                  <cell><persName ref="#p.13"><surname>Nesselrode</surname></persName></cell>
                </row>
                <row>
                   <cell/>
-                  <cell>
-                            <persName ref="#p.135">
-                                <roleName>
-                                    <choice>
-                              <abbr>C<hi rendition="#su">te</hi>
-                                        </abbr>
+                  <cell><persName ref="#p.135"><roleName><choice>
+                              <abbr>C<hi rendition="#su">te</hi></abbr>
                               <expan>Comte</expan>
-                           </choice>
-                                </roleName>
-                        <surname>de la Ferronnay</surname>
-                            </persName>
-                        </cell>
+                           </choice></roleName>
+                        <surname>de la Ferronnay</surname></persName></cell>
                   <cell/>
                   <cell/>
-                  <cell>
-                            <persName ref="#p.75">
-                                <surname>Lieven</surname>
-                            </persName>
-                        </cell>
+                  <cell><persName ref="#p.75"><surname>Lieven</surname></persName></cell>
                </row>
                <row>
                   <cell/>
-                  <cell>
-                            <persName ref="#p.180">
-                                <surname>Chateaubriand</surname>
-                            </persName>
-                        </cell>
+                  <cell><persName ref="#p.180"><surname>Chateaubriand</surname></persName></cell>
                   <cell/>
                   <cell/>
-                  <cell>
-                            <persName ref="#p.35">
-                                <surname>Tatistcheff</surname>
-                            </persName>
-                        </cell>
+                  <cell><persName ref="#p.35"><surname>Tatistcheff</surname></persName></cell>
                </row>
             </table>
          </div>
 
          <div decls="#m.2">
             <pb n="83r"/>
-            <p>
-                    <add place="top">A.</add>
-                </p>
-            <p>
-                    <title>Réponse du Cabinet d’Autriche au Mémoire de <choice>
-                     <abbr>M<hi rendition="#su">r</hi>
-                            </abbr>
+            <p><add place="top">A.</add></p>
+            <p><title>Réponse du Cabinet d’Autriche au <ref target="Verona_V_1.xml">Mémoire de <choice>
+                     <abbr>M<hi rendition="#su">r</hi></abbr>
                      <expan>Monsieur</expan>
-                  </choice> le <persName ref="#p.10">
-                            <roleName>Duc</roleName>
-                     <surname>de Wellington</surname>
-                        </persName> relativement à la <rs xml:id="n.6">traite des Nègres</rs>
-                    </title>
-                    <note type="editorial" target="#n.6">Traite des
-                  Nègres et Colonies, Dokument Nr. 1, Anlage 1. Vgl. Fladeland, Abolitionist
+                  </choice> le <persName ref="#p.10"><roleName>Duc</roleName>
+                     <surname>de Wellington</surname></persName> relativement à la <rs xml:id="n.6"
+                     >traite des Nègres</rs></ref></title><note type="editorial" target="#n.6">Vgl. Fladeland, Abolitionist
                   Pressures; Kielstra, The Politics of Slave Trade, bes. S. 120–124. </note>
             </p>
-            <p>
-                    <app>
-                  <lem>Le <rs ref="#p.8">Ministre d’Autriche</rs>
-                        </lem>
-                  <rdg>
-                            <subst>
-                        <del>
-                                    <choice>
+            <p><app>
+                  <lem>Le <rs ref="#p.8">Ministre d’Autriche</rs></lem>
+                  <rdg><subst>
+                        <del><choice>
                               <abbr>Mr</abbr>
                               <expan>Monsieur</expan>
                            </choice> le Prince de Metternich</del>
-                        <add>Le <rs ref="#p.8">Ministre d’Autriche</rs>
-                                </add>
-                     </subst>
-                        </rdg>
+                        <add>Le <rs ref="#p.8">Ministre d’Autriche</rs></add>
+                     </subst></rdg>
                </app> a ordre de l’<rs ref="#p.16">Empereur</rs>, son Maître, de déclarer :</p>
-            <p>Que <rs ref="#p.16">
-                        <choice>
+            <p>Que <rs ref="#p.16"><choice>
                      <abbr>S. M.</abbr>
                      <expan>Sa Majesté</expan>
                   </choice>
                   <choice>
-                     <abbr>Imp<hi rendition="#su">le</hi>
-                            </abbr>
+                     <abbr>Imp<hi rendition="#su">le</hi></abbr>
                      <expan>Impériale</expan>
-                  </choice>
-                    </rs> rend la plus entière justice à la noble persévérance, avec laquelle
+                  </choice></rs> rend la plus entière justice à la noble persévérance, avec laquelle
                le Gouvernement Britannique a soutenu l’honneur des Gouvernemens Chrétiens et la
                cause de l’humanité souffrante dans l’importante question de l’abolition de la traite
                des Nègres ; que, loin de consentir à ce que <rs ref="#p.130">Sa Majesté
                   Britannique</rs> fût chargée seule en Europe de ce qu’il pourrait y avoir
                d’embarrassant et de pénible dans cette question, <rs ref="#p.16">Sa Majesté <choice>
-                     <abbr>Imp<hi rendition="#su">le</hi>
-                            </abbr>
+                     <abbr>Imp<hi rendition="#su">le</hi></abbr>
                      <expan>Impériale</expan>
-                  </choice>
-                    </rs> ne se refusera pas à concourir, autant qu’il sera en Son pouvoir, à
+                  </choice></rs> ne se refusera pas à concourir, autant qu’il sera en Son pouvoir, à
                toute mesure qui pourrait en faciliter et accélérer le succès.</p>
             <p>Conformément à ces sentimens <rs ref="#p.16">Sa Majesté <choice>
-                     <abbr>Imp<hi rendition="#su">le</hi>
-                            </abbr>
+                     <abbr>Imp<hi rendition="#su">le</hi></abbr>
                      <expan>Impériale</expan>
-                  </choice>
-                    </rs> est prête</p>
+                  </choice></rs> est prête</p>
             <p>- À se joindre à une nouvelle déclaration générale, annonçant l’intention invariable
                des Puissances de mettre un terme à la traite des Nègres ;</p>
             <p>- À prendre part aux démarches par lesquelles on engagerait les Puissances maritimes,
-               qui ont aboli la traite, à se concerter entr’Elles pour la déclarer <hi rendition="#u">piraterie</hi> ;</p>
+               qui ont aboli la traite, à se concerter entr’Elles pour la déclarer <hi
+                  rendition="#u">piraterie</hi> ;</p>
             <pb n="83v"/>
             <p>- À retirer l’usage et la protection de Son pavillon aux individus nés hors de son
                territoire s’il devait en exister qui se serviraient de ce pavillon pour couvrir un
                commerce en Esclaves.</p>
             <p>Quant à celles des mesures proposées par <choice>
-                  <abbr>M<hi rendition="#su">r</hi>
-                        </abbr>
+                  <abbr>M<hi rendition="#su">r</hi></abbr>
                   <expan>Monsieur</expan>
-               </choice> le <persName ref="#p.10">
-                        <roleName>Duc</roleName>
-                  <surname>de Wellington</surname>
-                    </persName> qui regarde particulièrement le
-               Gouvernement de <rs xml:id="n.7" ref="#p.15">Sa Majesté Très Chrétienne</rs>,<note type="editorial" target="#n.7">Ehrentitel des Königs von Frankreich.</note>
-               <rs ref="#p.16">
-                        <choice>
+               </choice> le <persName ref="#p.10"><roleName>Duc</roleName>
+                  <surname>de Wellington</surname></persName> qui regarde particulièrement le
+               Gouvernement de <rs xml:id="n.7" ref="#p.15">Sa Majesté Très Chrétienne</rs>,<note
+                  type="editorial" target="#n.7">Ehrentitel des Königs von Frankreich.</note>
+               <rs ref="#p.16"><choice>
                      <abbr>S. M.</abbr>
                      <expan>Sa Majesté</expan>
                   </choice> Impériale</rs> se réserve, aussitôt que ces mesures pourront former
                l’objet d’une délibération commune, de les faire appuyer par <rs ref="#p.2">Son
-                  Ministre à <placeName ref="#loc.2">Paris</placeName>
-                    </rs> dans telle forme qui
+                  Ministre à <placeName ref="#loc.2">Paris</placeName></rs> dans telle forme qui
                serait jugée convenable.</p>
          </div>
 
          <div decls="#m.3">
             <pb n="84r"/>
-            <p>
-                    <add place="top">B.</add>
-                </p>
-            <p>
-                    <title>Réponse de Messieurs les <rs ref="#p.102 #p.180 #p.135">Plénipotentiaires de
-                     France</rs> au Mémoire de Monsieur le <persName ref="#p.10">
-                            <roleName>Duc</roleName>
-                     <surname>de Wellington</surname>
-                        </persName> relativement à la <rs xml:id="n.8">Traite des Nègres</rs>
-                    </title>
-                    <note type="editorial" target="#n.8">Vgl.
+            <p><add place="top">B.</add></p>
+            <p><title>Réponse de Messieurs les <rs ref="#p.102 #p.180 #p.135">Plénipotentiaires de
+                     France</rs> au Mémoire de Monsieur le <persName ref="#p.10"
+                        ><roleName>Duc</roleName>
+                     <surname>de Wellington</surname></persName> relativement à la <rs xml:id="n.8"
+                     >Traite des Nègres</rs></title><note type="editorial" target="#n.8">Vgl.
                   Fladeland, Abolitionist Pressures; Kielstra, The Politics of Slave Trade, bes. S.
                   120–124. </note>
             </p>
-            <p>
-                    <ref target="Verona_V_1.xml">Le Mémoire, dont Sa Grace le <persName ref="#p.10">
-                            <roleName>Duc</roleName>
-                     <surname>de Wellington</surname>
-                        </persName> a donné connoissance au Congrès
-                  dans la séance du <date when="1822-11-24">24 de ce mois</date>
-                    </ref>, a été pris
+            <p><ref target="Verona_V_1.xml">Le Mémoire, dont Sa Grace le <persName ref="#p.10"
+                        ><roleName>Duc</roleName>
+                     <surname>de Wellington</surname></persName> a donné connoissance au Congrès
+                  dans la séance du <date when="1822-11-24">24 de ce mois</date></ref>, a été pris
                en considération par les <rs ref="#p.102 #p.180 #p.135">Ministres Plénipotentiaires
-                  de <rs xml:id="n.9" ref="#p.15">Sa Majesté Très Chrétienne</rs>
-                    </rs>.<note type="editorial" target="#n.9">Ehrentitel des Königs von Frankreich.</note>
+                  de <rs xml:id="n.9" ref="#p.15">Sa Majesté Très Chrétienne</rs></rs>.<note
+                  type="editorial" target="#n.9">Ehrentitel des Königs von Frankreich.</note>
             </p>
             <p>Ils commencent par déclarer que le Gouvernement français partage toute la sollicitude
                du Gouvernement Britannique pour faire cesser un commerce également réprouvé de Dieu
@@ -906,14 +728,11 @@
                si Elles font des vœux unanimes pour l’abolition de la Traite des Nègres, cette
                abolition renferme des questions de fait qui ne sont pas d’une égale simplicité. Les
                   <rs ref="#p.102 #p.180 #p.135">Ministres de <rs ref="#p.15">Sa Majesté Très
-                     Chrétienne</rs>
-                    </rs> vont les parcourir en suivant le Mémoire présenté par <choice>
+                     Chrétienne</rs></rs> vont les parcourir en suivant le Mémoire présenté par <choice>
                   <abbr>S. G.</abbr>
                   <expan>Sa Grace</expan>
-               </choice> le <persName ref="#p.10">
-                        <roleName>Duc</roleName>
-                  <surname>de Wellington</surname>
-                    </persName>.</p>
+               </choice> le <persName ref="#p.10"><roleName>Duc</roleName>
+                  <surname>de Wellington</surname></persName>.</p>
             <pb n="84v"/>
             <p>Toutes les Lois des Nations civilisées, le <country>Portugal</country> excepté,
                prohibent aujourd’hui la Traite des Nègres ; il s’en suit que ce crime, autrefois
@@ -942,8 +761,8 @@
                   die Bestrafung von französischen Untertanen, die Sklavenhandel betreiben, 15.
                   April 1818; vgl. Hertslet (Hg.), Complete Collection, Bd. 3, S. 100–101.</note>
                   qu’<rs xml:id="n.11">Elle a fait croiser Ses flottes dans les parages de l’Afrique
-                  pour maintenir l’exécution de cette Loi</rs>
-                    <note type="editorial" target="#n.11">Ordonnanz vom 24. Juni 1818 über die Überwachung der afrikanischen Küste durch
+                  pour maintenir l’exécution de cette Loi</rs><note type="editorial" target="#n.11"
+                  >Ordonnanz vom 24. Juni 1818 über die Überwachung der afrikanischen Küste durch
                   französische Schiffe zur Verhinderung des Sklavenhandels; vgl. Hertslet (Hg.),
                   Complete Collection, Bd. 3, S. 101–102.</note> ; mais le Mémoire ajoute que le
                public en <country>France</country> ne paroît pas porter le même intérêt à la cause
@@ -964,8 +783,7 @@
                des sacrifices, mérite qu’on explique ce qui semblerait une anomalie inexplicable
                dans son caractère.</p>
             <p>Le Massacre des Colons à <choice>
-                  <abbr>S<hi rendition="#su">t</hi>
-                        </abbr>
+                  <abbr>S<hi rendition="#su">t</hi></abbr>
                   <expan>Saint</expan>
                </choice> Domingue et l’incendie de leurs habitations ont d’abord laissé des
                Souvenirs douloureux parmi des familles qui ont perdu parents et fortune dans ces
@@ -984,7 +802,8 @@
                dans tout pays où il existe un esprit public et un juste orgueil national.</p>
             <p>Une motion parlementaire, à jamais honorable pour son auteur, a finalement été
                couronnée de succès en <country>Angleterre</country> ; mais combien d’années ne
-               fût-elle pas repoussée avant d’être convertie en loi, quoique soutenue par l’<rs ref="#p.197">un des plus grands Ministres que l’Angleterre</rs> ait produit ?
+               fût-elle pas repoussée avant d’être convertie en loi, quoique soutenue par l’<rs
+                  ref="#p.197">un des plus grands Ministres</rs> que l’Angleterre ait produit ?
                Pendant ces longs débats, l’opinion eut le temps de se mûrir et de se fixer ; le
                commerce, qui prévoyait l’événement, prit ses précautions ; un nombre de Nègres,
                surpassant le besoin des Colons, fut transporté dans les îles Anglaises, et l’on
@@ -995,8 +814,9 @@
                   l’<country>Angleterre</country> après la restauration avait reconnu la nécessité
                d’agir avec<pb n="86r"/> une prudente lenteur dans une affaire d’une nature si
                complexe ; <rs ref="#t.50">un article additionnel de cette Convention accordait un
-                  délai de cinq années pour l’entière abolition de la Traite des Nègres</rs>. La <rs ref="#t.22">déclaration de <placeName ref="#loc.7">Vienne</placeName> du <date when="1815-02-08">8 Février 1815</date>
-                    </rs>, s’exprimant sur la même matière,
+                  délai de cinq années pour l’entière abolition de la Traite des Nègres</rs>. La <rs
+                  ref="#t.22">déclaration de <placeName ref="#loc.7">Vienne</placeName> du <date
+                     when="1815-02-08">8 Février 1815</date></rs>, s’exprimant sur la même matière,
                porte : <quote>« que quelque honorable que soit le but des Souverains, ils ne le
                   poursuivront pas sans de justes ménagemens pour les intérêts, les habitudes et les
                   préventions mêmes de leurs sujets »</quote>. Un louable et vertueux empressement a
@@ -1022,19 +842,16 @@
             <p>Il reste à dire quelques mots sur les moyens coercitifs que <choice>
                   <abbr>S. G.</abbr>
                   <expan>Sa Grace</expan>
-               </choice> le <persName ref="#p.10">
-                        <roleName>Duc</roleName>
-                  <surname>de Wellington</surname>
-                    </persName> propose dans Son Mémoire.</p>
+               </choice> le <persName ref="#p.10"><roleName>Duc</roleName>
+                  <surname>de Wellington</surname></persName> propose dans Son Mémoire.</p>
             <p>Les <rs ref="#p.102 #p.180 #p.135">Ministres Plénipotentiaires de <rs ref="#p.15">Sa
-                     Majesté Très Chrétienne</rs>
-                    </rs> sont prêts à signer toute Déclaration
+                     Majesté Très Chrétienne</rs></rs> sont prêts à signer toute Déclaration
                collective des Puissances tendante à flétrir un commerce odieux et à provoquer contre
                les coupables la vengeance des Lois. Mais une déclaration qui obligeroit tous les
                Gouvernemens à appliquer à la Traite des Nègres les châtimens infligés à la piraterie
                et qui se transformeroit en une loi générale du monde civilisé est une chose qui ne
-               paraît pas aux <rs ref="#p.102 #p.180 #p.135">Ministres Plénipotentiaires de <rs ref="#p.15">Sa Majesté Très Chrétienne</rs>
-                    </rs> être de la compétence d’une
+               paraît pas aux <rs ref="#p.102 #p.180 #p.135">Ministres Plénipotentiaires de <rs
+                     ref="#p.15">Sa Majesté Très Chrétienne</rs></rs> être de la compétence d’une
                réunion politique. Quand il s’agit d’établir la peine de mort, ce sont, selon la
                nature des Gouvernemens, les corps judiciaires ou les corps législatifs qui sont
                appelés à statuer.</p>
@@ -1049,8 +866,7 @@
             <p>Les mesures indiquées relativement à la <country>France</country> sont bonnes, mais
                elles sont toutes matière de Loi, et par conséquent elles doivent attendre cette
                faveur de l’opinion qui assure le succès. Le <choice>
-                  <abbr>Gouvernem<hi rendition="#su">t</hi>
-                        </abbr>
+                  <abbr>Gouvernem<hi rendition="#su">t</hi></abbr>
                   <expan>Gouvernement</expan>
                </choice> de <rs ref="#p.15">Sa Majesté Très Chrétienne</rs> prendra conseil de
                lui-même quand le temps sera venu ; il sera possible qu’il admette l’enregistrement
@@ -1077,58 +893,43 @@
 
          <div decls="#m.4">
             <pb n="88r"/>
-            <p>
-                    <add place="top">C.</add>
-                </p>
-            <p>
-                    <title>Réponse de <choice>
-                     <abbr>M<hi rendition="#su">ss</hi>
-                            </abbr>
+            <p><add place="top">C.</add></p>
+            <p><title>Réponse de <choice>
+                     <abbr>M<hi rendition="#su">ss</hi></abbr>
                      <expan>Messieurs</expan>
                   </choice> les <rs ref="#p.175 #p.12" xml:id="n.13">Plénipotentiaires de
-                     Prusse</rs>
-                        <note type="editorial" target="#n.13">Bernstorff nahm an der Sitzung
+                     Prusse</rs><note type="editorial" target="#n.13">Bernstorff nahm an der Sitzung
                      nicht teil.</note> au Mémoire de <choice>
-                     <abbr>M<hi rendition="#su">r</hi>
-                            </abbr>
+                     <abbr>M<hi rendition="#su">r</hi></abbr>
                      <expan>Monsieur</expan>
-                  </choice> le <persName ref="#p.10">
-                            <roleName>Duc</roleName>
-                     <surname>de Wellington</surname>
-                        </persName> relativement <hi rendition="#u">à
-                        <rs xml:id="n.14">la Traite des Nègres</rs>
-                        </hi>
-                    </title>
+                  </choice> le <persName ref="#p.10"><roleName>Duc</roleName>
+                     <surname>de Wellington</surname></persName> relativement <hi rendition="#u">à
+                        <rs xml:id="n.14">la Traite des Nègres</rs></hi></title>
                <note type="editorial" target="#n.14">Vgl. Fladeland, Abolitionist Pressures;
                   Kielstra, The Politics of Slave Trade, bes. S. 120–124.</note>
             </p>
-            <p rendition="#u">
-                    <placeName ref="#loc.68">Vérone</placeName> le <date when="1822-11-28">28 Novembre 1822</date>.</p>
+            <p rendition="#u"><placeName ref="#loc.68">Vérone</placeName> le <date when="1822-11-28"
+                  >28 Novembre 1822</date>.</p>
             <p>Les <rs ref="#p.175 #p.12">Plénipotentiaires de <choice>
                      <abbr>S. M.</abbr>
                      <expan>Sa Majesté</expan>
-                  </choice> le <rs ref="#p.18">Roi de Prusse</rs>
-                    </rs> n’ayant été mis qu’hier tard
+                  </choice> le <rs ref="#p.18">Roi de Prusse</rs></rs> n’ayant été mis qu’hier tard
                dans la journée en possession du Mémoire de <choice>
                   <abbr>S. G.</abbr>
                   <expan>Sa Grace</expan>
                </choice>
                <choice>
-                  <abbr>M<hi rendition="#su">r</hi>
-                        </abbr>
+                  <abbr>M<hi rendition="#su">r</hi></abbr>
                   <expan>Monsieur</expan>
-               </choice> le <persName ref="#p.10">
-                        <roleName>Duc</roleName>
-                  <surname>de Wellington</surname>
-                    </persName> relatif à la traite des Nègres qui a
+               </choice> le <persName ref="#p.10"><roleName>Duc</roleName>
+                  <surname>de Wellington</surname></persName> relatif à la traite des Nègres qui a
                été lu à la <ref target="Verona_V_1.xml">Conférence du <date when="1822-11-24">24 de
-                     ce mois</date>
-                    </ref>, doivent se borner aujourd’hui à déclarer
+                     ce mois</date></ref>, doivent se borner aujourd’hui à déclarer
                préalablement :</p>
             <p>Que le <rs ref="#p.18">Roi</rs>, leur Maître, reste invariablement fidèle au principe
                d’humanité qui a porté les Puissances signataires de l’<rs ref="#t.12">acte du
-                  Congrès de <placeName ref="#loc.7">Vienne</placeName>
-                    </rs> à <rs ref="#t.22">prononcer l’abolition de la traite des Nègres</rs>, et qu’ils sont pleinement
+                  Congrès de <placeName ref="#loc.7">Vienne</placeName></rs> à <rs ref="#t.22"
+                  >prononcer l’abolition de la traite des Nègres</rs>, et qu’ils sont pleinement
                autorisés à concourir au nom de <rs ref="#p.18">Sa Majesté</rs> à toute nouvelle
                déclaration que les Cours Alliées jugeraient nécessaire pour manifester encore une
                fois Leurs sentimens à cet égard ;</p>
@@ -1138,41 +939,31 @@
                et</p>
             <p>Qu’ils pensent qu’avant de se prononcer sur ce que le Gouvernement Anglais demande à
                la France,<pb n="88v"/> il sera convenable d’attendre les explications que <choice>
-                  <abbr>Ms<hi rendition="#su">s</hi>
-                        </abbr>
+                  <abbr>Ms<hi rendition="#su">s</hi></abbr>
                   <expan>Messieurs</expan>
-               </choice> les <rs ref="#p.102 #p.180 #p.135">Plénipotentiaires de <rs xml:id="n.15" ref="#p.15">Sa Majesté Très Chrétienne</rs>
-                    </rs>
-                    <note type="editorial" target="#n.15">Ehrentitel des Königs von Frankreich.</note> vont donner à ce
+               </choice> les <rs ref="#p.102 #p.180 #p.135">Plénipotentiaires de <rs xml:id="n.15"
+                     ref="#p.15">Sa Majesté Très Chrétienne</rs></rs><note type="editorial"
+                  target="#n.15">Ehrentitel des Königs von Frankreich.</note> vont donner à ce
                sujet.</p>
          </div>
 
          <div decls="#m.5">
             <pb n="89r"/>
-            <p>
-                    <add place="top">D.</add>
-                </p>
-            <p>
-                    <title>Réponse du Cabinet de Russie au Mémoire Britannique sur la <rs xml:id="n.16">traite des Nègres</rs>
-                    </title>
-                    <note type="editorial" target="#n.16">Vgl.
-                  Traite des Nègres et Colonies, Dokument Nr. 1, Anlage 1. Vgl. Fladeland,
-                  Abolitionist Pressures; Kielstra, The Politics of Slave Trade, bes. S.
-                  120–124.</note>
+            <p><add place="top">D.</add></p>
+            <p><title>Réponse du Cabinet de Russie au <ref target="Verona_V_1.xml">Mémoire
+                     Britannique sur la <rs xml:id="n.16">traite des Nègres</rs></ref></title><note
+                  type="editorial" target="#n.16">Vgl. Fladeland, Abolitionist Pressures; Kielstra,
+                  The Politics of Slave Trade, bes. S. 120–124.</note>
             </p>
-            <p>
-                    <ref target="Verona_V_1.xml">Le Mémoire, par lequel <choice>
+            <p><ref target="Verona_V_1.xml">Le Mémoire, par lequel <choice>
                      <abbr>S. E.</abbr>
                      <expan>Son Excellence</expan>
                   </choice>
                   <choice>
-                     <abbr>M<hi rendition="#su">r</hi>
-                            </abbr>
+                     <abbr>M<hi rendition="#su">r</hi></abbr>
                      <expan>Monsieur</expan>
-                  </choice> le <persName ref="#p.10">
-                            <roleName>Duc</roleName>
-                     <surname>de Wellington</surname>
-                        </persName> vient de rappeler à l’attention des
+                  </choice> le <persName ref="#p.10"><roleName>Duc</roleName>
+                     <surname>de Wellington</surname></persName> vient de rappeler à l’attention des
                   Cours Alliées l’objet important de la traite des nègres</ref> et d’indiquer les
                mesures que le Gouvernement de <rs ref="#p.130">Sa Majesté Britannique</rs> croit les
                plus capables d’anéantir les restes de cet odieux commerce, a été porté à la
@@ -1187,53 +978,48 @@
                entendu ne doit pas moins réprouver s’il est vrai que jamais la violation des
                premières lois de l’humanité et de la nature n’ont assuré d’avantages réels ni aux
                peuples, ni aux gouvernemens.</p>
-            <p>Convaincu de ces grandes vérités, l’<rs ref="#p.17">Empereur</rs>
-                    <pb n="89v"/> se fit
-               un devoir de les reconnaître solennellement, dès que la conclusion d’une <rs xml:id="n.17">paix glorieuse</rs>
-                    <note type="editorial" target="#n.17">Sieg über
-                     <persName ref="#p.50">
-                            <forename>Napoleon</forename>
-                        </persName>.</note> offrit
+            <p>Convaincu de ces grandes vérités, l’<rs ref="#p.17">Empereur</rs><pb n="89v"/> se fit
+               un devoir de les reconnaître solennellement, dès que la conclusion d’une <rs
+                  xml:id="n.17">paix glorieuse</rs><note type="editorial" target="#n.17">Sieg über
+                     <persName ref="#p.50"><forename>Napoleon</forename></persName>.</note> offrit
                aux Puissances Européennes l’occasion de consacrer comme bases de leurs relations
                nouvelles toutes les maximes de sagesse, d’équité et de bienveillance réciproque. En
                1814, <rs ref="#p.17">Sa Majesté Impériale</rs> S’empressa de <rs ref="#t.50">donner
                   Son approbation aux clauses qui devaient préparer l’abolition définitive de la
-                  traite des noirs</rs>. En 1815, Ses Représentans signèrent la <rs ref="#t.22">déclaration publiée au nom du Congrès de <placeName ref="#loc.7">Vienne</placeName>
-                    </rs>. Depuis lors, les soins de Son Cabinet ont eu pour
+                  traite des noirs</rs>. En 1815, Ses Représentans signèrent la <rs ref="#t.22"
+                  >déclaration publiée au nom du Congrès de <placeName ref="#loc.7"
+                     >Vienne</placeName></rs>. Depuis lors, les soins de Son Cabinet ont eu pour
                objet constant d’accélérer la réalisation franche et complète de ces honorables
-               promesses. Les actes des <rs xml:id="n.18">Conférences de <placeName ref="#loc.8">Londres</placeName>
-                    </rs>
-                    <note type="editorial" target="#n.18">Gemeint ist die
+               promesses. Les actes des <rs xml:id="n.18">Conférences de <placeName ref="#loc.8"
+                     >Londres</placeName></rs><note type="editorial" target="#n.18">Gemeint ist die
                   Botschafterkonferenz in <placeName ref="#loc.8">London</placeName>, welche sich
                   zwischen 1816 und 1819 vorwiegend mit der Abschaffung des Sklavenhandels und der
                   Piraterie im Mittelmeer befasste. Protokolle vgl. BFSP Bd. 6 (1818/19), S. 21–53;
                   Clarke, Papers presented to Parliament 1819, Bd. 1, S. 153–233; Anderson, Rise, S.
-                  237.</note> prouvent qu’à cet égard Sa sollicitude ne s’est jamais démentie. <ref target="Aachen_Prot.25. xml Aachen_Prot_39.xml">Ceux de la réunion d’<placeName ref="#loc.1">Aix-la-Chapelle</placeName>
-                    </ref> l’attestent également, et le
+                  237.</note> prouvent qu’à cet égard Sa sollicitude ne s’est jamais démentie. <ref
+                  target="Aachen_Prot.25. xml Aachen_Prot_39.xml">Ceux de la réunion d’<placeName
+                     ref="#loc.1">Aix-la-Chapelle</placeName></ref> l’attestent également, et le
                Gouvernement Britannique devait être sûr de trouver <rs ref="#p.17">Sa Majesté
                   Impériale</rs> prête à Le seconder dans les efforts qu’il renouvelle pour amener
                la cessation totale de la traite des Nègres.</p>
             <p>Parmi les mesures proposées à cet effet il en est quelques-unes qui concernent
-               directement la <country>Russie</country>, et au sujet desquelles <rs ref="#p.13 #p.75 #p.35">Ses Plénipotentiaires</rs> vont exprimer l’opinion de
+               directement la <country>Russie</country>, et au sujet desquelles <rs
+                  ref="#p.13 #p.75 #p.35">Ses Plénipotentiaires</rs> vont exprimer l’opinion de
                   l’<rs ref="#p.17">Empereur</rs>. Il en est d’autres qui<pb n="90r"/> regardent
                plus spécialement les Alliés de <rs ref="#p.17">Sa Majesté</rs>. Au nombre des
                premières doit être rangé le projet d’une déclaration qui annoncerait à l’Europe que
                les Puissances alliées persistent dans la ferme résolution d’empêcher ce trafic si
-               condamnable partout où la cupidité ose le continuer encore. Les <rs ref="#p.13 #p.75 #p.35">Plénipotentiaires de <rs ref="#p.17">Sa Majesté <choice>
-                        <abbr>Imp<hi rendition="#su">le</hi>
-                                </abbr>
+               condamnable partout où la cupidité ose le continuer encore. Les <rs
+                  ref="#p.13 #p.75 #p.35">Plénipotentiaires de <rs ref="#p.17">Sa Majesté <choice>
+                        <abbr>Imp<hi rendition="#su">le</hi></abbr>
                         <expan>Impériale</expan>
-                     </choice>
-                        </rs>
-                    </rs> ont ordre de signer une telle déclaration. Ce sera avec la
+                     </choice></rs></rs> ont ordre de signer une telle déclaration. Ce sera avec la
                satisfaction la plus vive que l’<rs ref="#p.17">Empereur</rs> donnera cette garantie
                de la persévérance, avec laquelle Il s’efforce d’accomplir les engagemens qu’Il a
                contractés, et <rs ref="#p.17">Sa Majesté <choice>
-                     <abbr>Imp<hi rendition="#su">le</hi>
-                            </abbr>
+                     <abbr>Imp<hi rendition="#su">le</hi></abbr>
                      <expan>Impériale</expan>
-                  </choice>
-                    </rs> est prête à faire connaître en même temps, de concert avec Ses
+                  </choice></rs> est prête à faire connaître en même temps, de concert avec Ses
                Alliés, qu’Elle ne souffrira jamais que des individus nés hors de Son territoire se
                servent de Son pavillon et abusent de la protection qu’il leur garantirait pour
                couvrir une commerce d’esclaves.</p>
@@ -1244,27 +1030,24 @@
                états, <rs ref="#p.17">Sa Majesté <choice>
                      <abbr>Imp.</abbr>
                      <expan>Impériale</expan>
-                  </choice>
-                    </rs> pense que si les Cabinets Alliés se bornaient à prendre la
-               détermination indiquée par le Cabinet de <placeName ref="#loc.8">Londres</placeName>,<pb n="90v"/> ils seraient encore loin d’atteindre l’objet
+                  </choice></rs> pense que si les Cabinets Alliés se bornaient à prendre la
+               détermination indiquée par le Cabinet de <placeName ref="#loc.8"
+                  >Londres</placeName>,<pb n="90v"/> ils seraient encore loin d’atteindre l’objet
                qu’ils ont en vue, et qu’une suspension générale de tout commerce quelconque avec la
-                  <rs xml:id="n.19">seule Puissance</rs>
-                    <note type="editorial" target="#n.19">
-                        <country>Portugal</country>.</note> qui n’ait point encore défendu la traite
+                  <rs xml:id="n.19">seule Puissance</rs><note type="editorial" target="#n.19"
+                     ><country>Portugal</country>.</note> qui n’ait point encore défendu la traite
                des nègres au midi de la ligne conduirait bien plus promptement au résultat désiré.
                Quelque préjudiciable que dût être à la <country>Russie</country> l’interruption des
                rapports commerciaux qu’une longue série d’années a établis entr’elle et le
-                  <country>Portugal</country>, si les Alliés de <rs ref="#p.17">
-                        <choice>
+                  <country>Portugal</country>, si les Alliés de <rs ref="#p.17"><choice>
                      <abbr>S. M. I.</abbr>
                      <expan>Sa Majesté Impériale</expan>
-                  </choice>
-                    </rs> consentaient à prendre cette mesure, l’<rs ref="#p.17">Empereur</rs> n’hésiterait point de s’imposer le même sacrifice ; mais il Lui
+                  </choice></rs> consentaient à prendre cette mesure, l’<rs ref="#p.17"
+                  >Empereur</rs> n’hésiterait point de s’imposer le même sacrifice ; mais il Lui
                semble que dans tous les cas il serait juste de prévenir d’avance la Cour de
                   <placeName ref="#loc.84">Lisbonne</placeName> des suites qu’entraînerait le refus
                d’abolir <choice>
-                  <abbr>totalem<hi rendition="#su">t</hi>
-                        </abbr>
+                  <abbr>totalem<hi rendition="#su">t</hi></abbr>
                   <expan>totalement</expan>
                </choice> la traite des nègres. Les Cabinets Alliés conviendront sans doute que
                l’équité exigerait cette démarche préalable.</p>
@@ -1273,53 +1056,45 @@
                   <expan>Son Excellence</expan>
                </choice>
                <choice>
-                  <abbr>M<hi rendition="#su">r</hi>
-                        </abbr>
+                  <abbr>M<hi rendition="#su">r</hi></abbr>
                   <expan>Monsieur</expan>
-               </choice> le <persName ref="#p.10">
-                        <roleName>Duc</roleName>
-                  <surname>de Wellington</surname>
-                    </persName>, et qui intéressent plus
-               particulièrement les Puissances maritimes, le Cabinet de <rs ref="#p.17">
-                        <choice>
+               </choice> le <persName ref="#p.10"><roleName>Duc</roleName>
+                  <surname>de Wellington</surname></persName>, et qui intéressent plus
+               particulièrement les Puissances maritimes, le Cabinet de <rs ref="#p.17"><choice>
                      <abbr>S. M. I.</abbr>
                      <expan>Sa Majesté Impériale</expan>
-                  </choice>
-                    </rs> exprimera constamment les vœux que forme l’<rs ref="#p.17">Empereur</rs> pour qu’il puisse s’établir entre ces Puissances un accord qui
+                  </choice></rs> exprimera constamment les vœux que forme l’<rs ref="#p.17"
+                  >Empereur</rs> pour qu’il puisse s’établir entre ces Puissances un accord qui
                fournirait à chacune d’elles les moyens de réprimer parmi Leurs sujets respectifs la
                continuation de la Traite, en la déclarant acte de piraterie, et comme parmi ces
-               propositions il y en a qui concernent spécialement le Gouvernement de <rs xml:id="n.20" ref="#p.15">Sa Majesté Très Chrétienne</rs>,<note type="editorial" target="#n.20">Ehrentitel des Königs von Frankreich.</note> l’<rs ref="#p.17">Empereur</rs> est prêt à les faire appuyer dans les négociations qui pourront
+               propositions il y en a qui concernent spécialement le Gouvernement de <rs
+                  xml:id="n.20" ref="#p.15">Sa Majesté Très Chrétienne</rs>,<note type="editorial"
+                  target="#n.20">Ehrentitel des Königs von Frankreich.</note> l’<rs ref="#p.17"
+                  >Empereur</rs> est prêt à les faire appuyer dans les négociations qui pourront
                s’ouvrir à ce sujet.</p>
          </div>
 
          <div decls="#m.6">
             <pb n="78r"/>
+            <p><add place="top">E.</add></p>
             <p>
-                    <add place="top">E.</add>
-                </p>
-            <p>
-               <title>
-                        <hi rendition="#u">Résolutions</hi>
-                    </title>
+               <title><hi rendition="#u">Résolutions</hi></title>
             </p>
-            <p>
-                    <title>relatives à l’abolition de la <rs xml:id="n.21">Traite des
-                  Nègres</rs>,</title>
-                    <note type="editorial" target="#n.21">Vgl. Fladeland,
+            <p><title>relatives à l’abolition de la <rs xml:id="n.21">Traite des
+                  Nègres</rs>,</title><note type="editorial" target="#n.21">Vgl. Fladeland,
                   Abolitionist Pressures; Kielstra, The Politics of Slave Trade, bes. S. 120–124.
                </note>
             </p>
-            <p>
-                    <title>adoptées à la Conférence du <date when="1822-11-28">28 Novembre
-                  1822</date>.</title>
-                </p>
-            <p>Les <rs ref="#p.8 #p.102 #p.180 #p.135 #p.10 #p.175 #p.12 #p.13 #p.75 #p.35">Plénipotentiaires d’Autriche, de France, de la Grande-Bretagne, de Prusse et de
+            <p><title>adoptées à la Conférence du <date when="1822-11-28">28 Novembre
+                  1822</date>.</title></p>
+            <p>Les <rs ref="#p.8 #p.102 #p.180 #p.135 #p.10 #p.175 #p.12 #p.13 #p.75 #p.35"
+                  >Plénipotentiaires d’Autriche, de France, de la Grande-Bretagne, de Prusse et de
                   Russie</rs>, réunis en Congrès à <placeName ref="#loc.68">Vérone</placeName>,</p>
             <p>Considérant</p>
             <p>Que <rs ref="#p.16 #p.15 #p.130 #p.18 #p.17">Leurs Augustes Souverains</rs> ont pris
                part à la <rs ref="#t.22">déclaration du <date when="1815-02-08">8 Février
-                     1815</date>
-                    </rs>, par laquelle les Puissances réunies au Congrès de <placeName ref="#loc.7">Vienne</placeName> ont proclamé à la face de l’Europe Leur résolution
+                     1815</date></rs>, par laquelle les Puissances réunies au Congrès de <placeName
+                  ref="#loc.7">Vienne</placeName> ont proclamé à la face de l’Europe Leur résolution
                invariable de faire cesser le commerce connu sous le nom de traite des Nègres
                d’Afrique ;</p>
             <p>Considérant de plus</p>
@@ -1331,13 +1106,11 @@
                auxquels ceux qui l’exercent sont<pb n="78v"/> forcés d’avoir recours ;</p>
             <p>Que les causes d’un abus aussi révoltant se trouvent <app>
                   <lem>principalement dans</lem>
-                  <rdg>
-                            <subst hand="#G">
+                  <rdg><subst hand="#G">
                         <del>évidemment dans l’insufficance et l’inefficacité des mesures adoptées
                            jusqu’ici contre</del>
                         <add>principalement dans</add>
-                     </subst>
-                        </rdg>
+                     </subst></rdg>
                </app> les pratiques frauduleuses moyennant lesquelles les entrepreneurs de ces
                spéculations condamnables éludent les lois de leurs pays, déjouent la surveillance
                des bâtimens employés pour arrêter le <app>
@@ -1348,15 +1121,13 @@
             <p>Que les Puissances de l’Europe sont appelées <app>
                   <lem>par Leurs engagemens antérieurs à chercher les moyens les plus efficaces pour
                      prévenir</lem>
-                  <rdg>
-                            <subst hand="#G">
+                  <rdg><subst hand="#G">
                         <del rendition="#s">par leurs <unclear>propores</unclear> engagemens, autant
                            que par un devoir sacré, à se concerter enfin sur les moyens les plus
                            propres à prévenir efficacement</del>
                         <add>par Leurs engagemens antérieurs à chercher les moyens les plus
                            efficaces pour prévenir</add>
-                     </subst>
-                        </rdg>
+                     </subst></rdg>
                </app> un trafic que déjà les lois de la presque totalité des pays civilisés ont
                déclaré illicite et coupable, et pour punir rigoureusement ceux qui le poursuivent en
                contravention manifeste de ces lois ;</p>
@@ -1365,8 +1136,8 @@
                conséquence au nom de <rs ref="#p.16 #p.15 #p.130 #p.18 #p.17">Leurs Augustes
                   Souverains</rs> :</p>
             <p>Qu’ils persistent invariablement dans les<pb n="79r"/> principes et les sentimens que
-               ces Souverains ont manifestés par la <rs ref="#t.22">déclaration du <date when="1815-02-08">8 Février 1815</date>
-                    </rs> ; qu’ils n’ont pas cessé, et ne
+               ces Souverains ont manifestés par la <rs ref="#t.22">déclaration du <date
+                     when="1815-02-08">8 Février 1815</date></rs> ; qu’ils n’ont pas cessé, et ne
                cesseront jamais, de regarder le commerce de Nègres comme <quote corresp="#t.22">« un
                   fléau qui a trop longtemps désolé l’Afrique, dégradé l’Europe et affligé
                   l’humanité »</quote>, et qu’ils sont prêts à concourir à tout ce qui pourra
@@ -1375,42 +1146,27 @@
                livreront avec empressement à l’examen de toute mesure compatible avec Leurs droits
                et les intérêts de leurs sujets<app>
                   <lem/>
-                  <rdg>
-                            <del rendition="#s">que l’une ou l’autre des puissances lieées par cet
-                        engagement honorable pourra mettre en avant</del>
-                        </rdg>
+                  <rdg><del rendition="#s">que l’une ou l’autre des puissances lieées par cet
+                        engagement honorable pourra mettre en avant</del></rdg>
                </app> pour amener un résultat constatant aux yeux du monde la sincérité de leurs
                vœux et de leurs efforts en faveur d’une cause digne de leur sollicitude commune.</p>
          </div>
 
          <div decls="#m.7">
             <pb n="115r"/>
-            <p>
-                    <add place="top">
-                        <hi rendition="#u">Colonies Espangnoles</hi>
-                    </add>
-                </p>
-            <p>
-                    <add place="top">F.</add>
-                </p>
+            <p><add place="top"><hi rendition="#u">Colonies Espangnoles</hi></add></p>
+            <p><add place="top">F.</add></p>
 
-            <p>
-                    <title>Déclaration du Cabinet Autrichien,</title>
-                </p>
-            <p>
-                    <title>en réponse à <ref target="Verona_V_1.xml">celle du Cabinet Britannique en date
-                     du <date when="1822-11-24">24 Novembre 1822</date>
-                        </ref>.</title>
+            <p><title>Déclaration du Cabinet Autrichien,</title></p>
+            <p><title>en réponse à <ref target="Verona_V_1.xml">celle du Cabinet Britannique en date
+                     du <date when="1822-11-24">24 Novembre 1822</date></ref>.</title>
             </p>
-            <p>Le <rs ref="#p.8">Ministre d’Autriche</rs> a soumis à l’<rs ref="#p.16">Empereur</rs>, son Maître, la communication faite par <choice>
-                  <abbr>M<hi rendition="#su">r</hi>
-                        </abbr>
+            <p>Le <rs ref="#p.8">Ministre d’Autriche</rs> a soumis à l’<rs ref="#p.16"
+               >Empereur</rs>, son Maître, la communication faite par <choice>
+                  <abbr>M<hi rendition="#su">r</hi></abbr>
                   <expan>Monsieur</expan>
-               </choice> le <persName ref="#p.10">
-                        <roleName>Duc</roleName>
-                  <surname>de Wellington</surname>
-                    </persName> sur les mesures que <rs ref="#p.130">
-                        <choice>
+               </choice> le <persName ref="#p.10"><roleName>Duc</roleName>
+                  <surname>de Wellington</surname></persName> sur les mesures que <rs ref="#p.130"><choice>
                      <abbr>S. M.</abbr>
                      <expan>Sa Majesté</expan>
                   </choice> Britannique</rs> a jugé nécessaire de prendre pour la protection de Ses
@@ -1418,11 +1174,9 @@
                Colonies Espagnoles en Amérique par un essaim de pirates infestant les mers sous
                divers pavillons connus et inconnus. Et quoique, vu la position géographique de Ses
                Etats, <rs ref="#p.16">Sa Majesté <choice>
-                     <abbr>Imp<hi rendition="#su">le</hi>
-                            </abbr>
+                     <abbr>Imp<hi rendition="#su">le</hi></abbr>
                      <expan>Impériale</expan>
-                  </choice>
-                    </rs> ne se trouve dans aucun rapport direct avec les pays et les
+                  </choice></rs> ne se trouve dans aucun rapport direct avec les pays et les
                circonstances qui ont fait naître ces abus, Elle n’en reconnaît et ne respecte pas
                moins les motifs qui ont déterminé <rs ref="#p.130">Sa Majesté Britannique</rs> à
                assurer par l’emploi de Ses propres moyens au commerce et à la navigation de Ses
@@ -1431,30 +1185,26 @@
             <p>Relativement à la question de la <hi rendition="#u">reconnaissance de fait</hi> des
                nouveaux Gouvernemens établis dans des différentes parties du territoire Espagnol en
                Amérique – question qui, dans le Mémoire de <choice>
-                  <abbr>M<hi rendition="#su">r</hi>
-                        </abbr>
+                  <abbr>M<hi rendition="#su">r</hi></abbr>
                   <expan>Monsieur</expan>
-               </choice> le <persName ref="#p.10">
-                        <roleName>Duc</roleName>
-                  <surname>de Wellington</surname>
-                    </persName>, se trouve liée à celle des susdites
+               </choice> le <persName ref="#p.10"><roleName>Duc</roleName>
+                  <surname>de Wellington</surname></persName>, se trouve liée à celle des susdites
                mesures – le <rs ref="#p.8">Ministre d’Autriche</rs> est chargé de déclarer au nom de
                   l’<rs ref="#p.16">Empereur</rs>, son Maître,</p>
             <p>1. Que <rs ref="#p.16">Sa Majesté Impériale</rs>, invariablement fidèle aux grands
                principes sur lesquels repose l’ordre<pb n="115v"/> social et le maintien des
                gouvernemens légitimes, ne reconnaîtra jamais l’indépendance des Provinces Espagnoles
-               de l’Amérique, tant que <rs xml:id="n.22" ref="#p.150">
-                        <choice>
+               de l’Amérique, tant que <rs xml:id="n.22" ref="#p.150"><choice>
                      <abbr>S. M.</abbr>
                      <expan>Sa Majesté</expan>
-                  </choice> Catholique</rs>
-                    <note type="editorial" target="#n.22">Ehrentitel des
+                  </choice> Catholique</rs><note type="editorial" target="#n.22">Ehrentitel des
                   Königs von Spanien.</note> n’aura pas librement et formellement renoncé aux droits
                de Souveraineté qu’Elle a jusqu’ici exercés sur ces provinces ;</p>
             <p>2. Que plus <rs ref="#p.16">Sa Majesté Impériale</rs> est décidée à ne pas s’écarter
                de cette ligne de conduite, plus Elle se croira libre, dans l’état actuel des choses,
                et tant que l’<country>Espagne</country> se trouvera elle-même sous un régime que les
-               Chefs de la révolution ont imposé <hi rendition="#u">de fait</hi> au <rs ref="#p.150">Roi</rs> et à Son pays, d’adopter également vis-à-vis des Colonies Espagnoles
+               Chefs de la révolution ont imposé <hi rendition="#u">de fait</hi> au <rs ref="#p.150"
+                  >Roi</rs> et à Son pays, d’adopter également vis-à-vis des Colonies Espagnoles
                telle attitude <hi rendition="#u">de fait</hi> que des considérations d’intérêt ou
                d’utilité générale pourront Lui suggérer, toutefois sous la réserve expresse que
                telle que puisse être cette attitude, elle ne portera aucun préjudice permanent aux
@@ -1463,50 +1213,35 @@
 
          <div decls="#m.8">
             <pb n="112r"/>
-            <p>
-                    <add place="top">
-                        <hi rendition="#u">Colonies Espangnoles</hi>
-                    </add>
-                </p>
-            <p>
-                    <add place="top">G.</add>
-                </p>
-            <p>
-                    <title>Déclaration du Cabinet de France</title>
-                </p>
-            <p>
-                    <title>en réponse à <ref target="Verona_V_1.xml">celle du Cabinet Britannique en date
-                     du <date when="1822-11-24">24 Novembre</date>
-                        </ref>.</title>
+            <p><add place="top"><hi rendition="#u">Colonies Espangnoles</hi></add></p>
+            <p><add place="top">G.</add></p>
+            <p><title>Déclaration du Cabinet de France</title></p>
+            <p><title>en réponse à <ref target="Verona_V_1.xml">celle du Cabinet Britannique en date
+                     du <date when="1822-11-24">24 Novembre</date></ref>.</title>
             </p>
-            <p rendition="#u">
-                    <placeName ref="#loc.68">Vérone</placeName> le <date when="1822-11-26">26 Novembre 1822</date>.</p>
-            <p>Les <rs ref="#p.102 #p.180 #p.135">Ministres Plénipotentiaires de <rs xml:id="n.23" ref="#p.15">Sa Majesté Très Chrétienne</rs>
-                    </rs>
-                    <note type="editorial" target="#n.23">Ehrentitel des Königs von Frankreich.</note> au Congrès de
+            <p rendition="#u"><placeName ref="#loc.68">Vérone</placeName> le <date when="1822-11-26"
+                  >26 Novembre 1822</date>.</p>
+            <p>Les <rs ref="#p.102 #p.180 #p.135">Ministres Plénipotentiaires de <rs xml:id="n.23"
+                     ref="#p.15">Sa Majesté Très Chrétienne</rs></rs><note type="editorial"
+                  target="#n.23">Ehrentitel des Königs von Frankreich.</note> au Congrès de
                   <placeName ref="#loc.68">Vérone</placeName> ont examiné avec une sérieuse
                attention le Mémorandum sur les Colonies Espagnoles que <choice>
                   <abbr>S. G.</abbr>
                   <expan>Sa Grace</expan>
-               </choice> le <persName ref="#p.10">
-                        <roleName>Duc</roleName>
-                  <surname>de Wellington</surname>
-                    </persName> a communiqué aux Représentans des
+               </choice> le <persName ref="#p.10"><roleName>Duc</roleName>
+                  <surname>de Wellington</surname></persName> a communiqué aux Représentans des
                Cours alliées dans la Séance du <date when="1822-11-24">24 Novembre</date>.</p>
             <p>Le Cabinet des Tuileries souhaite vivement, comme celui de <choice>
-                  <abbr>S<hi rendition="#su">t</hi>
-                        </abbr>
+                  <abbr>S<hi rendition="#su">t</hi></abbr>
                   <expan>Saint</expan>
                </choice> James, que l’<country>Espagne</country> adopte des mesures propres à rendre
                au continent de l’Amérique la paix et la prospérité.</p>
-            <p>C’est dans ce désir sincère et dans l’espoir de voir se rétablir l’autorité de <rs xml:id="n.24" ref="#p.150">
-                        <choice>
+            <p>C’est dans ce désir sincère et dans l’espoir de voir se rétablir l’autorité de <rs
+                  xml:id="n.24" ref="#p.150"><choice>
                      <abbr>S. M.</abbr>
                      <expan>Sa Majesté</expan>
-                  </choice> Catholique</rs>
-                    <note type="editorial" target="#n.24">Ehrentitel des
-                  Königs von Spanien.</note> que le Gouvernement de <rs ref="#p.15">
-                        <choice>
+                  </choice> Catholique</rs><note type="editorial" target="#n.24">Ehrentitel des
+                  Königs von Spanien.</note> que le Gouvernement de <rs ref="#p.15"><choice>
                      <abbr>S. M.</abbr>
                      <expan>Sa Majesté</expan>
                   </choice> Très Chrétienne</rs> a aussi refusé les avantages qui lui étaient
@@ -1519,13 +1254,12 @@
                celui qui régit l’Europe. Elle pense encore que dans cette grande question
                   l’<country>Espagne</country> doit être préalablement consultée, comme Souveraine
                de droit de Ses Colonies.</p>
-            <p>Néanmoins la <country>France</country> avoue avec l’<country>Angleterre</country>
-                    <pb n="112v"/> que lorsque des troubles se prolongent et que le droit des Nations ne
+            <p>Néanmoins la <country>France</country> avoue avec l’<country>Angleterre</country><pb
+                  n="112v"/> que lorsque des troubles se prolongent et que le droit des Nations ne
                peut plus s’exercer pour cause d’impuissance d’une des parties belligérantes, le
                droit naturel reprend son Empire ; Elle convient qu’il y a des prescriptions
                inévitables ; qu’un <choice>
-                  <abbr>Gouvern<hi rendition="#su">t</hi>
-                        </abbr>
+                  <abbr>Gouvern<hi rendition="#su">t</hi></abbr>
                   <expan>Gouvernement</expan>
                </choice>, après avoir longtemps résisté, est quelquefois obligé de céder à la force
                des choses pour mettre fin à beaucoup de maux et pour ne pas priver un Etat des
@@ -1545,48 +1279,34 @@
 
          <div decls="#m.9">
             <pb n="114r"/>
-            <p>
-                    <add place="top">
-                        <hi rendition="#u">Colonies Espangnoles</hi>
-                    </add>
-                </p>
-            <p>
-                    <add place="top">H.</add>
-                </p>
-            <p>
-                    <title>Déclaration du Cabinet de Prusse,</title>
-                </p>
-            <p>
-                    <title>en réponse à <ref target="Verona_V_1.xml">celle du Cabinet Britannique en date
-                     du <date when="1822-11-24">24 Novembre</date>
-                        </ref>.</title>
+            <p><add place="top"><hi rendition="#u">Colonies Espangnoles</hi></add></p>
+            <p><add place="top">H.</add></p>
+            <p><title>Déclaration du Cabinet de Prusse,</title></p>
+            <p><title>en réponse à <ref target="Verona_V_1.xml">celle du Cabinet Britannique en date
+                     du <date when="1822-11-24">24 Novembre</date></ref>.</title>
             </p>
-            <p rendition="#u">
-                    <placeName ref="#loc.68">Vérone</placeName> le <date when="1822-11-28">28 Novembre 1822</date>.</p>
+            <p rendition="#u"><placeName ref="#loc.68">Vérone</placeName> le <date when="1822-11-28"
+                  >28 Novembre 1822</date>.</p>
             <p>Les <rs xml:id="n.25" ref="#p.12 #p.175">Plénipotentiaires de <choice>
                      <abbr>S. M.</abbr>
                      <expan>Sa Majesté</expan>
-                  </choice> le <rs ref="#p.18">Roi de Prusse</rs>
-                    </rs>
-                    <note type="editorial" target="#n.25">Bernstorff nahm an der Sitzung nicht teil.</note> ont donné toute
-               leur attention au contenu du Mémoire que, dans la Conférence du <date when="1822-11-24">24 du courant</date>, <choice>
+                  </choice> le <rs ref="#p.18">Roi de Prusse</rs></rs><note type="editorial"
+                  target="#n.25">Bernstorff nahm an der Sitzung nicht teil.</note> ont donné toute
+               leur attention au contenu du Mémoire que, dans la Conférence du <date
+                  when="1822-11-24">24 du courant</date>, <choice>
                   <abbr>S. G.</abbr>
                   <expan>Sa Grace</expan>
                </choice>
                <choice>
-                  <abbr>M<hi rendition="#su">r</hi>
-                        </abbr>
+                  <abbr>M<hi rendition="#su">r</hi></abbr>
                   <expan>Monsieur</expan>
-               </choice> le <persName ref="#p.10">
-                        <roleName>Duc</roleName>
-                  <surname>de Wellington</surname>
-                    </persName> a soumis à la réunion relativement aux
+               </choice> le <persName ref="#p.10"><roleName>Duc</roleName>
+                  <surname>de Wellington</surname></persName> a soumis à la réunion relativement aux
                Colonies Espagnoles de l’Amérique.</p>
             <p>C’est énoncer un des sentimens les plus décidés du <rs ref="#p.18">Roi</rs>, leur
                Maître, que d’exprimer la vive répugnance de Sa Majesté à déroger au principe de
                justice et de conservation qui fait la base de la grande Alliance Européenne, en
-               reconnaissant, au préjudice des droits légitimes de <rs xml:id="n.26" ref="#p.150">
-                        <choice>
+               reconnaissant, au préjudice des droits légitimes de <rs xml:id="n.26" ref="#p.150"><choice>
                      <abbr>S. M.</abbr>
                      <expan>Sa Majesté</expan>
                   </choice> Catholique</rs>,<note type="editorial" target="#n.26">Ehrentitel des
@@ -1604,9 +1324,11 @@
                donner à ces considérations, les <rs ref="#p.12 #p.175">Plénipotentiaires de
                   Prusse</rs> sont d’avis que le moment le moins propre à la reconnaissance des
                gouvernemens locaux de l’Amérique Espagnole serait celui où les évènemens de la
-               guerre civile et les résolutions issues des délibérations de <placeName ref="#loc.68">Vérone</placeName> s’accordent à préparer une crise dans les affaires de
+               guerre civile et les résolutions issues des délibérations de <placeName ref="#loc.68"
+                  >Vérone</placeName> s’accordent à préparer une crise dans les affaires de
                   l’<country>Espagne</country>, à laquelle il est encore permis de rattacher
-               l’espoir d’un revirement dans l’intérieur de ce Royaume qui, en rendant au <rs ref="#p.150">Roi</rs> Sa liberté, et en assurant à la raison et à la modération
+               l’espoir d’un revirement dans l’intérieur de ce Royaume qui, en rendant au <rs
+                  ref="#p.150">Roi</rs> Sa liberté, et en assurant à la raison et à la modération
                leur empire naturel, pourrait faire renaître la chance de voir la longue querelle
                entre l’<country>Espagne</country> et ses colonies amenée à un dénouement qui
                épargnerait aux Puissances de l’Europe la nécessité pénible de se prononcer entre les
@@ -1617,66 +1339,50 @@
 
          <div decls="#m.10">
             <pb n="113r"/>
-            <p>
-                    <add place="top">
-                        <hi rendition="#u">Colonies Espangnoles</hi>
-                    </add>
-                </p>
-            <p>
-                    <add place="top">I.</add>
-                </p>
+            <p><add place="top"><hi rendition="#u">Colonies Espangnoles</hi></add></p>
+            <p><add place="top">I.</add></p>
 
-            <p>
-                    <title>Réponse du Cabinet de Russie au Mémoire</title>
-                </p>
-            <p>
-                    <title>confidentiel communiqué par Son Excellence Monsieur le</title>
-                </p>
-            <p>
-                    <title>
-                        <persName ref="#p.10">
-                            <roleName>Duc</roleName>
-                     <surname>de Wellington</surname>
-                        </persName> dans la <ref target="Verona_V_1.xml">Conférence du <date when="1822-11-24">24 Novembre
-                        1822</date>
-                        </ref>
-                    </title>
+            <p><title>Réponse du Cabinet de Russie au Mémoire</title></p>
+            <p><title>confidentiel communiqué par Son Excellence Monsieur le</title></p>
+            <p><title><persName ref="#p.10"><roleName>Duc</roleName>
+                     <surname>de Wellington</surname></persName> dans la <ref
+                     target="Verona_V_1.xml">Conférence du <date when="1822-11-24">24 Novembre
+                        1822</date></ref></title>
             </p>
             <p>Les <rs ref="#p.13 #p.75 #p.35">Plénipotentiaires de Russie</rs> se sont fait un
                devoir de mettre sous les yeux de <rs ref="#p.17">leur Auguste Souverain</rs> le
-               Mémoire confidentiel communiqué par Son Excellence Monsieur le <persName ref="#p.10">
-                        <roleName>Duc</roleName>
-                  <surname>de Wellington</surname>
-                    </persName> relativement aux mesures que
+               Mémoire confidentiel communiqué par Son Excellence Monsieur le <persName ref="#p.10"
+                     ><roleName>Duc</roleName>
+                  <surname>de Wellington</surname></persName> relativement aux mesures que
                   l’<country>Angleterre</country> a déjà adoptées, ou qu’Elle se propose d’adopter
                encore envers les Colonies insurgées de l’Amérique Espagnole.</p>
             <p>Quoique le Pavillon de <rs ref="#p.17">Sa Majesté Impériale</rs> se montre rarement
-               dans les mers où, d’après les informations données par le Cabinet de <placeName ref="#loc.8">Londres</placeName>, des pirates nombreux exercent aujourd’hui leurs
+               dans les mers où, d’après les informations données par le Cabinet de <placeName
+                  ref="#loc.8">Londres</placeName>, des pirates nombreux exercent aujourd’hui leurs
                brigandages, la <country>Russie</country> ne peut que désirer la répression de ces
                désordres, et Elle espère que les forces navales de <rs ref="#p.130">Sa Majesté
                   Britannique</rs> seront bientôt parvenues à y mettre un terme.</p>
             <p>Pour ce qui est de la reconnoissance des Gouvernemens de fait qui se sont établis
                dans les anciennes Colonies Espagnoles, l’<rs ref="#p.17">Empereur</rs> s’est déjà
                prononcé à cet égard au moment où la <rs xml:id="n.27">Déclaration du Congrès des
-                  Etats-Unis d’Amérique</rs>
-                    <note type="editorial" target="#n.27">Vgl. die Erklärung
+                  Etats-Unis d’Amérique</rs><note type="editorial" target="#n.27">Vgl. die Erklärung
                   von Präsident James Monroe an das Repräsentantenhaus des Kongresses vom 8. März
                   1822; abgedruckt in Journal of the House of Representatives, Bd. 15, S. 328–331;
-                  BFSP Bd. 9 (1821/22), S. 366–368.</note> engagea le Cabinet de <placeName ref="#loc.24">Madrid</placeName> à transmettre aux principales Puissances de
+                  BFSP Bd. 9 (1821/22), S. 366–368.</note> engagea le Cabinet de <placeName
+                  ref="#loc.24">Madrid</placeName> à transmettre aux principales Puissances de
                l’Europe un exposé des droits et des vues de l’<country>Espagne</country> sur Ses
                possessions du nouveau monde.</p>
             <p>L’<rs ref="#p.17">Empereur</rs> fit alors témoigner au <rs ref="#p.150">Roi</rs>,
                dans une réponse dont les Cours alliées ont eu connoissance, qu’Il se félicitoit
                d’apprendre qu’un<pb n="113v"/> ensemble de mesures qui allaient être mises à
-               exécution offrît à <rs xml:id="n.28" ref="#p.150">Sa Majesté Catholique</rs>
-                    <note type="editorial" target="#n.28">Ehrentitel des Königs von Spanien.</note> l’espoir
+               exécution offrît à <rs xml:id="n.28" ref="#p.150">Sa Majesté Catholique</rs><note
+                  type="editorial" target="#n.28">Ehrentitel des Königs von Spanien.</note> l’espoir
                de rétablir Son autorité dans Ses provinces d’outremer, et <rs ref="#p.17">Sa Majesté
                   Impériale</rs> chargea Son Cabinet de rappeler en même temps que depuis 1815 Elle
                avait signalé dans plus d’une occasion à la sollicitude du <rs ref="#p.150">Roi</rs>,
                la nécessité d’un plan de pacification qui pût, en assurant le bien-être de Ses
                peuples d’un autre hémisphère, les unir par de nouveaux liens à la mère patrie.</p>
-            <p>
-                    <rs ref="#p.17">Sa Majesté Impériale</rs>, fidèle aux principes conservateurs que Sa
+            <p><rs ref="#p.17">Sa Majesté Impériale</rs>, fidèle aux principes conservateurs que Sa
                politique a toujours suivis, persuadée même que de ces principes dépend le maintien
                des Gouvernemens légitimes et des droits qu’ils possèdent, ne sauroit prendre pour Sa
                part aucune détermination tendant à préjuger la question de l’indépendance du Sud de
@@ -1686,11 +1392,13 @@
          </div>
       </body>
       <back>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/listplace.xml" xpointer="listPlace"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/listperson.xml" xpointer="listPerson"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/listwit.xml" xpointer="listWit"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/listorg.xml" xpointer="listOrg"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/listwork.xml" xpointer="listTreaties"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listPlace.xml" xpointer="listPlace"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listPerson.xml"
+            xpointer="listPerson"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listWit.xml" xpointer="listWit"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listOrg.xml" xpointer="listOrg"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listTreaties.xml"
+            xpointer="listTreaties"/>
       </back>
    </text>
 </TEI>

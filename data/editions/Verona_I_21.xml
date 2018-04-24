@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -12,13 +13,10 @@
                <persName>
                   <surname>Schneider</surname>
                   <forename>Karin</forename>
-               </persName>
-                </editor>
+               </persName></editor>
          </titleStmt>
          <editionStmt>
-            <edition>
-                    <date>2017-03-13</date>
-                </edition>
+            <edition><date>2017-03-13</date></edition>
          </editionStmt>
          <publicationStmt>
             <publisher>Österreichische Akademie der Wissenschaften, Institut für Neuzeit- und
@@ -40,12 +38,9 @@
                </msIdentifier>
                <msContents>
                   <msItem>
-                     <title>Note <persName ref="#p.12">
-                                    <surname>Bernstorffs</surname>
-                                </persName> an
-                        den <rs ref="#p.178">preußischen Geschäftsträger in <placeName ref="#loc.24">Madrid</placeName>
-                                </rs>
-                            </title>
+                     <title>Note <persName ref="#p.12"><surname>Bernstorffs</surname></persName> an
+                        den <rs ref="#p.178">preußischen Geschäftsträger in <placeName ref="#loc.24"
+                              >Madrid</placeName></rs></title>
                   </msItem>
                </msContents>
                <physDesc>
@@ -66,27 +61,18 @@
 
                </physDesc>
                <history>
-                  <origin>
-                            <placeName ref="#loc.68">Verona</placeName>
-                            <date when="1822-11-22">22.
-                        November 1822</date>
-                        </origin>
+                  <origin><placeName ref="#loc.68">Verona</placeName><date when="1822-11-22">22.
+                        November 1822</date></origin>
                </history>
             </msDesc>
             <listWit corresp="#m.1">
                <head>Note Bernstorffs an den preußischen Geschäftsträger in Madrid</head>
-               <witness corresp="#w.26">
-                        <bibl type="print">Archive diplomatique/ Diplomatisches
-                     Archiv, Bd. 3, S. 428–432;</bibl>
-                    </witness>
-               <witness corresp="#w.5">
-                        <bibl type="print">BFSP Bd. 10 (1822/23), S.
-                  909–912;</bibl>
-                    </witness>
-               <witness corresp="#w.14">
-                        <bibl type="print">Martens, Nouveau Recueil, Bd. 6, S.
-                     178–182.</bibl>
-                    </witness>
+               <witness corresp="#w.26"><bibl type="print">Archive diplomatique/ Diplomatisches
+                     Archiv, Bd. 3, S. 428–432;</bibl></witness>
+               <witness corresp="#w.5"><bibl type="print">BFSP Bd. 10 (1822/23), S.
+                  909–912;</bibl></witness>
+               <witness corresp="#w.14"><bibl type="print">Martens, Nouveau Recueil, Bd. 6, S.
+                     178–182.</bibl></witness>
             </listWit>
          </sourceDesc>
       </fileDesc>
@@ -106,8 +92,8 @@
       </encodingDesc>
       <profileDesc>
          <abstract>
-            <p>Das preußische Kabinett beauftragt den <rs ref="#p.178">Geschäftsträger in <placeName ref="#loc.24">Madrid</placeName>
-                    </rs>, der spanischen Regierung ihre Sichtweise
+            <p>Das preußische Kabinett beauftragt den <rs ref="#p.178">Geschäftsträger in <placeName
+                     ref="#loc.24">Madrid</placeName></rs>, der spanischen Regierung ihre Sichtweise
                in Hinblick auf die inneren Zustände Spaniens und die daraus resultierenden
                Konsequenzen auf die Ruhe in Europa nahezubringen und zu erklären, dass vor der
                Wiederherstellung der Beziehungen zwischen <country>Spanien</country> und den
@@ -120,29 +106,24 @@
       <body>
          <div decls="#m.1">
             <pb n="301r"/>
-            <p>
-                    <add place="top" hand="#A">16.</add>
-                </p>
-            <p>
-                    <title>Dépêche du Cabinet de <placeName ref="#loc.9">Berlin</placeName>, adressée au
+            <p><add place="top" hand="#A">16.</add></p>
+            <p><title>Dépêche du Cabinet de <placeName ref="#loc.9">Berlin</placeName>, adressée au
                      <rs ref="#p.178">Chargé d’Affaires</rs> de <choice>
                      <abbr>S. M.</abbr>
                      <expan>Sa Majesté</expan>
-                  </choice> le <rs ref="#p.18">Roi de Prusse</rs> à <placeName ref="#loc.24">Madrid</placeName>
-                    </title>
-                </p>
-            <p>
-                    <placeName ref="#loc.68">Vérone</placeName> le <date when="1822-11-22">
-                        <supplied>22</supplied> Novembre 1822</date>.</p>
-            <p>Au nombre des objets qui fixoient l’attention et réclamoient la sollicitude des <rs ref="#p.16 #p.18 #p.17">Souverains</rs> et Cabinets réunis à <placeName ref="#loc.68">Vérone</placeName>, la situation de l’<country>Espagne</country> et
+                  </choice> le <rs ref="#p.18">Roi de Prusse</rs> à <placeName ref="#loc.24"
+                     >Madrid</placeName></title></p>
+            <p><placeName ref="#loc.68">Vérone</placeName> le <date when="1822-11-22"
+                     ><supplied>22</supplied> Novembre 1822</date>.</p>
+            <p>Au nombre des objets qui fixoient l’attention et réclamoient la sollicitude des <rs
+                  ref="#p.16 #p.18 #p.17">Souverains</rs> et Cabinets réunis à <placeName
+                  ref="#loc.68">Vérone</placeName>, la situation de l’<country>Espagne</country> et
                ses rapports avec le reste de l’Europe ont occupé une première place.</p>
             <p>Vous connoissez l’intérêt que le <rs ref="#p.18">Roi</rs>, notre auguste Maître, n’a
-               jamais cessé de prendre à <rs xml:id="n.1" ref="#p.30">
-                        <choice>
+               jamais cessé de prendre à <rs xml:id="n.1" ref="#p.30"><choice>
                      <abbr>S. M.</abbr>
                      <expan>Sa Majesté</expan>
-                  </choice> Catholique</rs>
-                    <note type="editorial" target="#n.1">Ehrentitel des
+                  </choice> Catholique</rs><note type="editorial" target="#n.1">Ehrentitel des
                   Königs von Spanien. </note> et à la Nation espagnole.</p>
             <p>Cette Nation si distinguée par la loyauté et l’énergie de son caractère, illustrée
                par tant de siècles de gloire et de vertus, et à jamais célèbre par le noble
@@ -154,18 +135,18 @@
             <p>L’événement le plus déplorable est venu subvertir les antiques bases de la Monarchie
                espagnole, compromettre le caractère de la nation, attaquer et empoisonner la
                prospérité publique dans ses premières sources.</p>
-            <p>
-                    <rs xml:id="n.2">Une révolution, sortie de la révolte militaire</rs>,<note type="editorial" target="#n.2">Zur Revolution in <country>Spanien</country>, die
+            <p><rs xml:id="n.2">Une révolution, sortie de la révolte militaire</rs>,<note
+                  type="editorial" target="#n.2">Zur Revolution in <country>Spanien</country>, die
                   mit einem Militäraufstand am <date when="1820-01-01">1. Jänner 1820</date> ihren
                   Anfang nahm, vgl. Späth, Revolution in Europa, S. 117–128. </note> a soudainement
                rompu tous les liens du devoir, renversé tout ordre légitime et décomposé les élémens
                de l’édifice social qui n’a pu tomber sans couvrir le pays entier de Ses
                décombres.</p>
             <pb n="301v"/>
-            <p>On crut pouvoir remplacer cet édifice, en arrachant à un <rs ref="#p.30">Souverain</rs>, déjà dépouillé de toute autorité réelle et de toute liberté de
+            <p>On crut pouvoir remplacer cet édifice, en arrachant à un <rs ref="#p.30"
+                  >Souverain</rs>, déjà dépouillé de toute autorité réelle et de toute liberté de
                volonté, <rs xml:id="n.3">le rétablissement de la Constitution des Cortes de l’année
-                  1812</rs>
-                    <note type="editorial" target="#n.3">Verfassung von Cádiz aus dem Jahr
+                  1812</rs><note type="editorial" target="#n.3">Verfassung von Cádiz aus dem Jahr
                   1812, in <country>Spanien</country> wieder eingeführt 1820; vgl. Timmermann, Die
                   „Gemäßigte Monarchie“; BFSP Bd. 6 (1819/20), S. 237–279; Brand, Schlegelmilch,
                   Kirsch (Hgg.), Quellen. </note> qui, confondant tous les élémens et tous les
@@ -206,8 +187,7 @@
                Lui restait de serviteurs fidèles, abreuvé de dégouts et d’insultes, et exposé du
                jour au lendemain à des attentats dont la faction, si même elle ne les provoque pas
                sur lui, n’a conservé aucun moyen de le garantir.</p>
-            <p>
-                    <rs ref="#p.178">Vous, Monsieur,</rs> qui avez été témoin de l’origine<pb n="308v"/>
+            <p><rs ref="#p.178">Vous, Monsieur,</rs> qui avez été témoin de l’origine<pb n="308v"/>
                des progrès et des résultats de la révolution de l’année 1820, Vous êtes à même de
                reconnoître et d’attester qu’il n’y a rien d’exagéré dans le tableau que je viens
                d’en tracer rapidement. Les choses en sont venues au point que les Puissances de
@@ -236,8 +216,10 @@
                hostiles et les provocations insultantes qui résultent pour les Gouvernemens
                étrangers de l’attitude que la révolution lui a donnée et du système qu’elle a
                établi ?</p>
-            <p>Nous concevons que rien ne doit être plus contraire aux intentions de <rs ref="#p.30">Sa Majesté Catholique</rs> que de se voir placée dans une position aussi pénible
-               envers les Souverains étrangers, mais c’est précisément parce que ce <rs ref="#p.30">Monarque</rs>, seul organe authentique et légitime entre
+            <p>Nous concevons que rien ne doit être plus contraire aux intentions de <rs ref="#p.30"
+                  >Sa Majesté Catholique</rs> que de se voir placée dans une position aussi pénible
+               envers les Souverains étrangers, mais c’est précisément parce que ce <rs ref="#p.30"
+                  >Monarque</rs>, seul organe authentique et légitime entre
                   l’<country>Espagne</country> et les autres Puissances de l’Europe, se trouve privé
                de Sa liberté et enchainé dans Ses volontés que ces Puissances voyent Leurs rapports
                avec l’<country>Espagne</country> dénaturés et compromis.</p>
@@ -248,8 +230,7 @@
                position future envers l’<country>Espagne</country>. Or le <rs ref="#p.18">Roi</rs>,
                notre Maître, est d’opinion que, pour conserver et rasseoir sur des bases solides ses
                relations avec les Puissances étrangères, le <choice>
-                  <abbr>Gouvernem<hi rendition="#su">t</hi>
-                        </abbr>
+                  <abbr>Gouvernem<hi rendition="#su">t</hi></abbr>
                   <expan>Gouvernement</expan>
                </choice> espagnol ne saurait faire moins que d’offrir à ces dernières des preuves
                non équivoques de la liberté de <rs ref="#p.30">Sa Majesté Catholique</rs> et une
@@ -263,11 +244,13 @@
          </div>
       </body>
       <back>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/listplace.xml" xpointer="listPlace"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/listperson.xml" xpointer="listPerson"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/listwit.xml" xpointer="listWit"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/listorg.xml" xpointer="listOrg"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/listwork.xml" xpointer="listTreaties"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listPlace.xml" xpointer="listPlace"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listPerson.xml"
+            xpointer="listPerson"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listWit.xml" xpointer="listWit"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listOrg.xml" xpointer="listOrg"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listTreaties.xml"
+            xpointer="listTreaties"/>
       </back>
    </text>
 </TEI>
