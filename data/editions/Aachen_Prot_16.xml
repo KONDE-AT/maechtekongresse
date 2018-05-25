@@ -1,5 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -9,10 +11,13 @@
                <persName>
                   <surname>Schneider</surname>
                   <forename>Karin</forename>
-               </persName></editor>
+               </persName>
+                </editor>
          </titleStmt>
          <editionStmt>
-            <edition><date>2015-05-08</date></edition>
+            <edition>
+                    <date>2015-05-08</date>
+                </edition>
          </editionStmt>
          <publicationStmt>
             <publisher>Österreichische Akademie der Wissenschaften, Institut für Neuzeit- und
@@ -40,7 +45,8 @@
                <physDesc>
 
                   <p> Eigenhändiges Protokoll von <persName ref="#p.5">
-                        <surname>Gentz</surname></persName>. </p>
+                        <surname>Gentz</surname>
+                            </persName>. </p>
                   <handDesc>
                      <handNote xml:id="G">Friedrich Gentz</handNote>
                      <handNote xml:id="W">Nikolaus Wacken</handNote>
@@ -48,8 +54,10 @@
                   </handDesc>
                </physDesc>
                <history>
-                  <origin><placeName ref="#loc.1">Aachen</placeName>
-                     <date when="1818-10-19">19. Oktober 1818</date></origin>
+                  <origin>
+                            <placeName ref="#loc.1">Aachen</placeName>
+                     <date when="1818-10-19">19. Oktober 1818</date>
+                        </origin>
                </history>
             </msDesc>
             <msDesc xml:id="m.2" type="Protokoll">
@@ -69,24 +77,35 @@
                   </msItem>
                </msContents>
                <physDesc>
-                  <p>Protokoll von <persName ref="#p.6"><surname>Wacken</surname></persName></p>
+                  <p>Protokoll von <persName ref="#p.6">
+                                <surname>Wacken</surname>
+                            </persName>
+                        </p>
                   <p>Anlage liegt zweifach, als Original (fol. I/65–67) und als Abschrift (fol.
                      I/61–63) ein. Die Edition folgt dem Original. Auf der Abschrift Vermerk
-                        <persName ref="#p.8"><surname>Metternichs</surname></persName>: <hi rendition="#u">"Principes arrêtés"</hi> auf dem Korrekturrand von fol.
+                        <persName ref="#p.8">
+                                <surname>Metternichs</surname>
+                            </persName>: <hi rendition="#u">"Principes arrêtés"</hi> auf dem Korrekturrand von fol.
                      I/61r.</p>
                </physDesc>
                <history>
-                  <origin><placeName ref="#loc.1">Aachen</placeName>
-                     <date when="1818-10-19">19. Oktober 1818</date></origin>
+                  <origin>
+                            <placeName ref="#loc.1">Aachen</placeName>
+                     <date when="1818-10-19">19. Oktober 1818</date>
+                        </origin>
                </history>
             </msDesc>
 
             <listWit corresp="#m.2">
                <head>Anlage: Protokoll</head>
-               <witness corresp="#w.3"><bibl type="print">Bertier de Sauvigny, Sainte-Alliance, S.
-                     143–145.</bibl></witness>
-               <witness corresp="#w.4"><bibl type="print">Vnešnjaja politika Rossii, Bd. 10, S.
-                     519–520.</bibl></witness>
+               <witness corresp="#w.3">
+                        <bibl type="print">Bertier de Sauvigny, Sainte-Alliance, S.
+                     143–145.</bibl>
+                    </witness>
+               <witness corresp="#w.4">
+                        <bibl type="print">Vnešnjaja politika Rossii, Bd. 10, S.
+                     519–520.</bibl>
+                    </witness>
             </listWit>
          </sourceDesc>
       </fileDesc>
@@ -98,7 +117,7 @@
          </appInfo>
          <styleDefDecl scheme="css"/>
          <tagsDecl>
-            <rendition xml:id="su" scheme="css">vertical-align:sub; font-size:.7em;</rendition>
+            <rendition xml:id="su" scheme="css">vertical-align:super; font-size:.7em;</rendition>
             <rendition xml:id="s" scheme="css">text-decoration:line-through;</rendition>
             <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
          </tagsDecl>
@@ -140,11 +159,18 @@
       <body>
          <div hand="#G" decls="#m.1">
             <pb n="59r"/>
-            <p><add hand="#W" place="top">Protocole n. <del rendition="#s">13</del> 16.</add></p>
-            <p><placeName ref="#loc.1">Aix-la-Chapelle</placeName> le <date when="1818-10-19">19
-                  Octobre 1818</date></p>
-            <p><add hand="#W" place="margin">Entre les 4 Cabinets</add></p>
-            <p><choice>
+            <p>
+                    <add hand="#W" place="top">Protocole n. <del rendition="#s">13</del> 16.</add>
+                </p>
+            <p>
+                    <placeName ref="#loc.1">Aix-la-Chapelle</placeName> le <date when="1818-10-19">19
+                  Octobre 1818</date>
+                </p>
+            <p>
+                    <add hand="#W" place="margin">Entre les 4 Cabinets</add>
+                </p>
+            <p>
+                    <choice>
                   <abbr>Mrs.</abbr>
                   <expan>Messieurs</expan>
                </choice> les Ministres des Quatre Cours ont continué et terminé aujourd’hui l’examen
@@ -153,37 +179,63 @@
                sera procédé aux rédactions qui en développeront les principes.</p>
             <signed>
                <list>
-                  <item><persName ref="#p.8"><choice>
+                  <item>
+                            <persName ref="#p.8">
+                                <choice>
                            <abbr>M</abbr>
                            <expan>Metternich</expan>
-                        </choice></persName></item>
-                  <item><persName ref="#p.9"><choice>
+                        </choice>
+                            </persName>
+                        </item>
+                  <item>
+                            <persName ref="#p.9">
+                                <choice>
                            <abbr>C</abbr>
                            <expan>Castlereagh</expan>
-                        </choice></persName></item>
-                  <item><persName ref="#p.11"><choice>
+                        </choice>
+                            </persName>
+                        </item>
+                  <item>
+                            <persName ref="#p.11">
+                                <choice>
                            <abbr>H</abbr>
                            <expan>Hardenberg</expan>
-                        </choice></persName></item>
-                  <item><persName ref="#p.12"><choice>
+                        </choice>
+                            </persName>
+                        </item>
+                  <item>
+                            <persName ref="#p.12">
+                                <choice>
                            <abbr>B</abbr>
                            <expan>Bernstorff</expan>
-                        </choice></persName></item>
-                  <item><persName ref="#p.13"><choice>
+                        </choice>
+                            </persName>
+                        </item>
+                  <item>
+                            <persName ref="#p.13">
+                                <choice>
                            <abbr>N</abbr>
                            <expan>Nesselrode</expan>
-                        </choice></persName></item>
-                  <item><persName ref="#p.14">Capodistrias</persName></item>
-               </list></signed>
+                        </choice>
+                            </persName>
+                        </item>
+                  <item>
+                            <persName ref="#p.14">Capodistrias</persName>
+                        </item>
+               </list>
+                </signed>
          </div>
 
          <div hand="#W" decls="#m.2">
             <pb n="65r"/>
-            <p hand="#A"><placeName ref="#loc.1">Aix-la-Chapelle</placeName> Le <date when="1818-10-19">19 Octobre</date></p>         
+            <p hand="#A">
+                    <placeName ref="#loc.1">Aix-la-Chapelle</placeName> Le <date when="1818-10-19">19 Octobre</date>
+                </p>         
 
             <p>Les engagemens consignés dans les articles 2, 3 et 4 <add place="above">et 5</add> du
                   <rs ref="#t.6">Traité de la quadruple alliance du <date when="1815-11-20">8/20
-                     Novembre 1815</date></rs> n’étant applicables dans l’état actuel des choses
+                     Novembre 1815</date>
+                    </rs> n’étant applicables dans l’état actuel des choses
                qu’au cas d’une guerre contre la <country>France</country> tel qu’il est prévu et
                défini par ledit traité ; </p>
             <p>Et ces dispositions éventuelles ne pouvant point servir de base aux relations
@@ -193,23 +245,35 @@
             <p>Les quatre Cabinets sont convenus d’adopter pour le travail dont la Conférence va
                s’occuper les bases suivantes :</p>
             <pb n="65v"/>
-            <p><hi rendition="#u">Pour le premier objet</hi></p>
-            <p>Conserver dans toute sa force et valeur la quadruple alliance pour le <rs xml:id="n.1">casus foederis</rs><note type="editorial" target="#n.1">Lat.:
-                  Bündnisfall.</note> tel qu’il est défini dans le <rs ref="#t.6">traité du <date when="1815-11-20">20 Novembre 1815</date></rs> ; statuer la partie
+            <p>
+                    <hi rendition="#u">Pour le premier objet</hi>
+                </p>
+            <p>Conserver dans toute sa force et valeur la quadruple alliance pour le <rs xml:id="n.1">casus foederis</rs>
+                    <note type="editorial" target="#n.1">Lat.:
+                  Bündnisfall.</note> tel qu’il est défini dans le <rs ref="#t.6">traité du <date when="1815-11-20">20 Novembre 1815</date>
+                    </rs> ; statuer la partie
                règlementaire des mesures militaires que les Puissances se sont engagées à exécuter
                dans le cas échéant ; </p>
             <p>Considérer les actes des Conférences d’<placeName ref="#loc.1">Aix-la-Chapelle</placeName> qui se réfèrent à cette dernière disposition comme
                secrets.</p>
-            <p><rs xml:id="n.2"><hi rendition="#u">Pour le second objet</hi></rs><note type="editorial" target="#n.2"> "NB. Dans la Séance du 19 <choice>
+            <p>
+                    <rs xml:id="n.2">
+                        <hi rendition="#u">Pour le second objet</hi>
+                    </rs>
+                    <note type="editorial" target="#n.2"> "NB. Dans la Séance du 19 <choice>
                      <abbr>Oct.</abbr>
                      <expan>Octobre</expan>
-                  </choice> le <rs ref="#p.8"><choice>
+                  </choice> le <rs ref="#p.8">
+                            <choice>
                         <abbr>Plénip</abbr>
                         <expan>Plénipotentiaire</expan>
                      </choice> Autrichien</rs> a proposé que cet article fût rédigé ainsi :
                   « Conserver également la quadruple alliance dans sa partie morale et maintenir en
                   conséquence le principe d’union entre les 4 Cours statué etc. etc. etc. »" bei der
-                  abschriftlichen Variante von <persName ref="#p.8"><surname>Metternich</surname></persName> auf Korrekturrand ergänzt.</note></p>
+                  abschriftlichen Variante von <persName ref="#p.8">
+                            <surname>Metternich</surname>
+                        </persName> auf Korrekturrand ergänzt.</note>
+                </p>
             <p>Conserver également dans toute sa pureté le principe moral de l’union entre les
                quatre Cabinets, statué par l’article VI du <rs ref="#t.6">dit traité</rs>, et faire
                de ce principe l’application la plus conforme à l’affermissement du système général ; </p>
@@ -218,20 +282,31 @@
                chrétien qui caractérisent leur politique, le moyen le plus sûr de maintenir
                l’inviolabilité des transactions sur lesquelles repose la paix générale.</p>
             <p>Conformément à ces bases il y aura :</p>
-            <p><hi rendition="#u">Ad 1</hi><hi rendition="#su #u">um</hi>
+            <p>
+                    <hi rendition="#u">Ad 1</hi>
+                    <hi rendition="#su #u">um</hi>
             </p>
             <p>Un <ref target="Aachen_Prot_33.xml">protocole spécial et secret</ref>, renfermant les
                dispositions relatives à la quadruple alliance et aux réunions des Souverains
-               motivées par <rs xml:id="n.3"><hi rendition="#u">le casus foederis et
-                  belli</hi></rs><note type="editorial" target="#n.3">Lat.: Bündnis- und
+               motivées par <rs xml:id="n.3">
+                        <hi rendition="#u">le casus foederis et
+                  belli</hi>
+                    </rs>
+                    <note type="editorial" target="#n.3">Lat.: Bündnis- und
                   Kriegsfall.</note> ;</p>
-            <p><hi rendition="#u">Ad 2</hi><hi rendition="#su #u">um</hi>
+            <p>
+                    <hi rendition="#u">Ad 2</hi>
+                    <hi rendition="#su #u">um</hi>
             </p>
             <p>Un <ref target="Aachen_Prot_34.xml">Protocole à être signé conjointement avec <choice>
-                     <abbr>M<hi rendition="#su">r</hi></abbr>
+                     <abbr>M<hi rendition="#su">r</hi>
+                            </abbr>
                      <expan>Monsieur</expan>
-                  </choice> le <persName ref="#p.1"><roleName>Duc</roleName>
-                     <surname>de Richelieu</surname></persName></ref>, et devant être communiqué à
+                  </choice> le <persName ref="#p.1">
+                            <roleName>Duc</roleName>
+                     <surname>de Richelieu</surname>
+                        </persName>
+                    </ref>, et devant être communiqué à
                tous les Etats qui ont accédé au <rs ref="#t.12">Recès de Vienne</rs> et aux <rs ref="#t.1 #t.9">actes de Paris de l’année 1815</rs> ; l’objet de ce Protocole
                sera</p>
             <pb n="66v"/>
@@ -255,14 +330,29 @@
                communs, leurs réunions auront lieu dans ce cas à l’époque dont on sera convenu.</p>
             <signed>
                <list>
-                  <item><persName ref="#p.8">Metternich</persName></item>
-                  <item><persName ref="#p.9">Castlereagh</persName></item>
-                  <item><persName ref="#p.10">Wellington</persName></item>
-                  <item><persName ref="#p.11">Hardenberg</persName></item>
-                  <item><persName ref="#p.12">Bernstorff</persName></item>
-                  <item><persName ref="#p.13">Nesselrode</persName></item>
-                  <item><persName ref="#p.14">Capodistrias</persName></item>
-               </list></signed>
+                  <item>
+                            <persName ref="#p.8">Metternich</persName>
+                        </item>
+                  <item>
+                            <persName ref="#p.9">Castlereagh</persName>
+                        </item>
+                  <item>
+                            <persName ref="#p.10">Wellington</persName>
+                        </item>
+                  <item>
+                            <persName ref="#p.11">Hardenberg</persName>
+                        </item>
+                  <item>
+                            <persName ref="#p.12">Bernstorff</persName>
+                        </item>
+                  <item>
+                            <persName ref="#p.13">Nesselrode</persName>
+                        </item>
+                  <item>
+                            <persName ref="#p.14">Capodistrias</persName>
+                        </item>
+               </list>
+                </signed>
          </div>
       </body>
       <back>

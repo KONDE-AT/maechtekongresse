@@ -1,5 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -10,10 +12,13 @@
                <persName>
                   <surname>Schneider</surname>
                   <forename>Karin</forename>
-               </persName></editor>
+               </persName>
+                </editor>
          </titleStmt>
          <editionStmt>
-            <edition><date>2017-03-13</date></edition>
+            <edition>
+                    <date>2017-03-13</date>
+                </edition>
          </editionStmt>
          <publicationStmt>
             <publisher>Österreichische Akademie der Wissenschaften, Institut für Neuzeit- und
@@ -55,16 +60,23 @@
 
                </physDesc>
                <history>
-                  <origin><placeName ref="#loc.68">Verona</placeName><date when="1822-10-20">20.
-                        Oktober 1822</date></origin>
+                  <origin>
+                            <placeName ref="#loc.68">Verona</placeName>
+                            <date when="1822-10-20">20.
+                        Oktober 1822</date>
+                        </origin>
                </history>
             </msDesc>
             <listWit corresp="#m.1">
                <head>Erklärung des französischen Außenministers Montmorency</head>
-               <witness corresp="#w.32"><bibl type="print">Chateaubriand, Congrès de Vérone, S.
-                     72–76</bibl></witness>
-               <witness corresp="#w.17"><bibl type="print">Clarke, Papers presented to parliament
-                     1823, S. 24 (Auszug).</bibl></witness>
+               <witness corresp="#w.32">
+                        <bibl type="print">Chateaubriand, Congrès de Vérone, S.
+                     72–76</bibl>
+                    </witness>
+               <witness corresp="#w.17">
+                        <bibl type="print">Clarke, Papers presented to parliament
+                     1823, S. 24 (Auszug).</bibl>
+                    </witness>
             </listWit>
          </sourceDesc>
       </fileDesc>
@@ -76,7 +88,7 @@
          </appInfo>
          <styleDefDecl scheme="css"/>
          <tagsDecl>
-            <rendition xml:id="su" scheme="css">vertical-align:sub; font-size:.7em;</rendition>
+            <rendition xml:id="su" scheme="css">vertical-align:super; font-size:.7em;</rendition>
             <rendition xml:id="s" scheme="css">text-decoration:line-through;</rendition>
             <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
             <rendition xml:id="ow">overwritten</rendition>
@@ -84,7 +96,9 @@
       </encodingDesc>
       <profileDesc>
          <abstract>
-            <p>Der französische Außenminister <persName ref="#p.174"><surname>Montmorency</surname></persName> gibt eine mündliche Erklärung
+            <p>Der französische Außenminister <persName ref="#p.174">
+                        <surname>Montmorency</surname>
+                    </persName> gibt eine mündliche Erklärung
                betreffend die Position der französischen Regierung hinsichtlich der Revolution in
                   <country>Spanien</country> ab und formuliert drei Fragen, um sich der politischen
                Unterstützung der alliierten Mächte zu vergewissern.</p>
@@ -95,20 +109,30 @@
       <body>
          <div decls="#m.1">
             <pb n="112r"/>           
-            <p><add place="top" hand="#AmB">No. 2.</add></p>
+            <p>
+                    <add place="top" hand="#AmB">No. 2.</add>
+                </p>
 
-            <p><title>Précis des communications verbales faites par <choice>
-                     <abbr>M<hi rendition="#su">r</hi></abbr>
+            <p>
+                    <title>Précis des communications verbales faites par <choice>
+                     <abbr>M<hi rendition="#su">r</hi>
+                            </abbr>
                      <expan>Monsieur</expan>
-                  </choice> le <persName ref="#p.174"><roleName>Vicomte</roleName>
-                     <surname>de Montmorency</surname></persName> dans la réunion confidentielle de <choice>
+                  </choice> le <persName ref="#p.174">
+                            <roleName>Vicomte</roleName>
+                     <surname>de Montmorency</surname>
+                        </persName> dans la réunion confidentielle de <choice>
                      <abbr>Mrs.</abbr>
                      <expan>Messieurs</expan>
                   </choice> les Ministres d’Autriche, de Grande-Bretagne, de Prusse et de Russie à
                      <placeName ref="#loc.68">Vérone</placeName> le <date when="1822-10-20">20
-                     Octobre 1822</date></title></p>
-            <p><rs xml:id="n.1">L’état d’irritation où se trouve le Gouvernement qui régit
-                  actuellement l’<country>Espagne</country></rs>,<note type="editorial" target="#n.1">Zur Revolution in <country>Spanien</country> vgl. Späth, Revolution
+                     Octobre 1822</date>
+                    </title>
+                </p>
+            <p>
+                    <rs xml:id="n.1">L’état d’irritation où se trouve le Gouvernement qui régit
+                  actuellement l’<country>Espagne</country>
+                    </rs>,<note type="editorial" target="#n.1">Zur Revolution in <country>Spanien</country> vgl. Späth, Revolution
                   in Europa, S. 117–128. </note> les provocations nombreuses qu’il adresse à la
                   <country>France</country>, ne donnent que trop lieu de craindre que l’état de paix
                ne puisse se conserver aussi longtemps qu’Elle le voudrait. Le Gouvernement du <rs ref="#p.15">Roi</rs> a déjà fait des sacrifices à ce désir sincère d’éviter une
@@ -170,7 +194,8 @@
                le concours des hautes Puissances est nécessaire, comme devant consacrer cette
                unanimité de vues qui est le caractère fondamental de l’Alliance, et qu’il est du
                plus grand intérêt de maintenir et de signaler pour garantir le repos de
-               l’Europe.</p><pb n="114r"/>
+               l’Europe.</p>
+                <pb n="114r"/>
             <p>C’est sur la forme de ce concours moral et sur les mesures propres à lui assurer le
                secours matériel qui peut être réclamé par la suite, que la <country>France</country>
                croit, en définitive, nécessaire de fixer l’attention de Ses augustes alliés.</p>

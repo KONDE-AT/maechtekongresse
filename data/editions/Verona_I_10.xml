@@ -1,5 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -11,10 +13,13 @@
                <persName>
                   <surname>Schneider</surname>
                   <forename>Karin</forename>
-               </persName></editor>
+               </persName>
+                </editor>
          </titleStmt>
          <editionStmt>
-            <edition><date>2017-03-13</date></edition>
+            <edition>
+                    <date>2017-03-13</date>
+                </edition>
          </editionStmt>
          <publicationStmt>
             <publisher>Österreichische Akademie der Wissenschaften, Institut für Neuzeit- und
@@ -36,13 +41,17 @@
                </msIdentifier>
                <msContents>
                   <msItem>
-                     <title>Antwort der preußischen Delegation auf die Vorschläge <persName ref="#p.8"><surname>Metternichs</surname></persName> vom
+                     <title>Antwort der preußischen Delegation auf die Vorschläge <persName ref="#p.8">
+                                    <surname>Metternichs</surname>
+                                </persName> vom
                         31. Oktober 1822 </title>
                   </msItem>
                </msContents>
                <physDesc>
                   <p>Ausfertigung</p>
-                  <p>Dokument liegt in einem Umschlag mit der Aufschrift von der Hand <persName ref="#p.8"><surname>Metternichs</surname></persName>: "No 8. Projets des
+                  <p>Dokument liegt in einem Umschlag mit der Aufschrift von der Hand <persName ref="#p.8">
+                                <surname>Metternichs</surname>
+                            </persName>: "No 8. Projets des
                      réponses des Cabinets à la proposition autrichienne".</p>
 
                   <handDesc>
@@ -57,7 +66,9 @@
 
                </physDesc>
                <history>
-                  <origin><placeName ref="#loc.68">Verona</placeName></origin>
+                  <origin>
+                            <placeName ref="#loc.68">Verona</placeName>
+                        </origin>
                </history>
             </msDesc>
 
@@ -71,7 +82,7 @@
          </appInfo>
          <styleDefDecl scheme="css"/>
          <tagsDecl>
-            <rendition xml:id="su" scheme="css">vertical-align:sub; font-size:.7em;</rendition>
+            <rendition xml:id="su" scheme="css">vertical-align:super; font-size:.7em;</rendition>
             <rendition xml:id="s" scheme="css">text-decoration:line-through;</rendition>
             <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
             <rendition xml:id="ow">overwritten</rendition>
@@ -79,7 +90,9 @@
       </encodingDesc>
       <profileDesc>
          <abstract>
-            <p>Die <rs ref="#p.12 #p.175">Vertreter Preußens</rs> begrüßen die Vorschläge <persName ref="#p.8"><surname>Metternichs</surname></persName> zur schnellstmöglichen
+            <p>Die <rs ref="#p.12 #p.175">Vertreter Preußens</rs> begrüßen die Vorschläge <persName ref="#p.8">
+                        <surname>Metternichs</surname>
+                    </persName> zur schnellstmöglichen
                Beendigung der Revolution in <country>Spanien</country>, erklären sich zu weiteren
                Erörterungen bereit und favorisieren ein gemeinsames Vorgehen der Mächte, ohne sich
                auf Kollektiv- oder Separatnoten der Mächte an die spanische Regierung
@@ -91,8 +104,11 @@
       <body>
          <div decls="#m.1" hand="#A">
             <pb n="185r"/>
-            <p>Le Cabinet Prussien, après avoir pris en considération les <ref target="Verona_I_7.xml">propositions émises par Monsieur le <persName ref="#p.8"><roleName>Prince</roleName>
-                     <surname>de Metternich</surname></persName> dans la conférence du <date when="1822-10-31">31 Octobre</date></ref>, ne saurait qu’apprécier les motifs
+            <p>Le Cabinet Prussien, après avoir pris en considération les <ref target="Verona_I_7.xml">propositions émises par Monsieur le <persName ref="#p.8">
+                            <roleName>Prince</roleName>
+                     <surname>de Metternich</surname>
+                        </persName> dans la conférence du <date when="1822-10-31">31 Octobre</date>
+                    </ref>, ne saurait qu’apprécier les motifs
                qui ont dicté ces propositions, et partager les vues et les espérances que le Cabinet
                Autrichien attache à l’idée d’une démarche à faire par les Cours alliées auprès du
                Gouvernement Espagnol. Le Cabinet Prussien est par conséquent prêt à entrer en

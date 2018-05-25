@@ -1,5 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -9,10 +11,13 @@
                <persName>
                   <surname>Schneider</surname>
                   <forename>Karin</forename>
-               </persName></editor>
+               </persName>
+                </editor>
          </titleStmt>
          <editionStmt>
-            <edition><date>2015-05-08</date></edition>
+            <edition>
+                    <date>2015-05-08</date>
+                </edition>
          </editionStmt>
          <publicationStmt>
             <publisher>Österreichische Akademie der Wissenschaften, Institut für Neuzeit- und
@@ -40,7 +45,8 @@
                <physDesc>
 
                   <p>Eigenhändiges Protokoll von <persName ref="#p.5">
-                        <surname>Gentz</surname></persName>.</p>
+                        <surname>Gentz</surname>
+                            </persName>.</p>
                   <handDesc>
                      <handNote xml:id="G">Friedrich Gentz</handNote>
                      <handNote xml:id="W">Nikolaus Wacken</handNote>
@@ -49,8 +55,10 @@
                   </handDesc>
                </physDesc>
                <history>
-                  <origin><placeName ref="#loc.1">Aachen</placeName>
-                     <date when="1818-11-15">15. November 1818</date></origin>
+                  <origin>
+                            <placeName ref="#loc.1">Aachen</placeName>
+                     <date when="1818-11-15">15. November 1818</date>
+                        </origin>
                </history>
             </msDesc>
             <msDesc xml:id="m.2" type="Protokoll">
@@ -76,8 +84,10 @@
 
                </physDesc>
                <history>
-                  <origin><placeName ref="#loc.1">Aachen</placeName>
-                     <date when="1818-11-15">15. November 1818</date></origin>
+                  <origin>
+                            <placeName ref="#loc.1">Aachen</placeName>
+                     <date when="1818-11-15">15. November 1818</date>
+                        </origin>
                </history>
             </msDesc>
             <msDesc xml:id="m.3" type="Abschrift">
@@ -103,23 +113,31 @@
 
                </physDesc>
                <history>
-                  <origin><placeName ref="#loc.1">Aachen</placeName>
-                     <date when="1818-11-15">15. November 1818</date></origin>
+                  <origin>
+                            <placeName ref="#loc.1">Aachen</placeName>
+                     <date when="1818-11-15">15. November 1818</date>
+                        </origin>
                </history>
             </msDesc>
             <listWit corresp="#m.2">
                <head>Anlage 1: Geheimprotokoll Österreichs, Großbritanniens, Preußens und Russlands
                   betreffend Frankreich</head>
-               <witness corresp="#w.15"><bibl type="print">Näf (Hg.), Europapolitik, S.
-                     25–28;</bibl></witness>
-               <witness corresp="#w.1"><bibl type="print">Wellington, Supplementary Despatches, Bd.
-                     12, S. 835–836.</bibl></witness>
+               <witness corresp="#w.15">
+                        <bibl type="print">Näf (Hg.), Europapolitik, S.
+                     25–28;</bibl>
+                    </witness>
+               <witness corresp="#w.1">
+                        <bibl type="print">Wellington, Supplementary Despatches, Bd.
+                     12, S. 835–836.</bibl>
+                    </witness>
             </listWit>
             <listWit corresp="#m.3">
                <head>Anlage 2: Geheimprotokoll Österreichs, Großbritanniens, Preußens und Russlands
                   betreffend den casus foederis</head>
-               <witness corresp="#w.1"><bibl type="print">Wellington, Supplementary Despatches, Bd.
-                     12, S. 836–837.</bibl></witness>
+               <witness corresp="#w.1">
+                        <bibl type="print">Wellington, Supplementary Despatches, Bd.
+                     12, S. 836–837.</bibl>
+                    </witness>
             </listWit>
 
          </sourceDesc>
@@ -132,7 +150,7 @@
          </appInfo>
          <styleDefDecl scheme="css"/>
          <tagsDecl>
-            <rendition xml:id="su" scheme="css">vertical-align:sub; font-size:.7em;</rendition>
+            <rendition xml:id="su" scheme="css">vertical-align:super; font-size:.7em;</rendition>
             <rendition xml:id="s" scheme="css">text-decoration:line-through;</rendition>
             <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
             <rendition xml:id="ow">overwritten</rendition>
@@ -142,7 +160,8 @@
          <abstract>
             <p>Die Geheimprotokolle vom <date when="1818-11-15">15. November 1818</date> betreffend
                die <rs ref="#t.6">Quadrupelallianz vom <date when="1815-11-20">20. November
-                     1815</date></rs> sowie den Bündnisfall werden von den <rs ref="#p.8 #p.9 #p.10 #p.11 #p.12 #p.13 #p.14">Gesandten Österreichs,
+                     1815</date>
+                    </rs> sowie den Bündnisfall werden von den <rs ref="#p.8 #p.9 #p.10 #p.11 #p.12 #p.13 #p.14">Gesandten Österreichs,
                   Großbritannniens, Preußens und Russlands</rs> redigiert sowie paraphiert.</p>
          </abstract>
          <particDesc>
@@ -179,17 +198,26 @@
       <body>
          <div hand="#G" decls="#m.1">
             <pb n="157r"/>
-            <p><add hand="#W" place="top">Protocole <choice>
+            <p>
+                    <add hand="#W" place="top">Protocole <choice>
                      <abbr>n.</abbr>
                      <expan>numéro</expan>
-                  </choice> 33 du <date when="1818-11-15">15 Novembre</date>.</add></p>
-            <p><placeName ref="#loc.1">Aix-la-Chapelle</placeName> le <date when="1818-11-15">15
-                  Novembre 1818</date></p>
-            <p><add place="margin"><hi rendition="#u">Protocole des Quatre puissances</hi></add></p>
+                  </choice> 33 du <date when="1818-11-15">15 Novembre</date>.</add>
+                </p>
+            <p>
+                    <placeName ref="#loc.1">Aix-la-Chapelle</placeName> le <date when="1818-11-15">15
+                  Novembre 1818</date>
+                </p>
+            <p>
+                    <add place="margin">
+                        <hi rendition="#u">Protocole des Quatre puissances</hi>
+                    </add>
+                </p>
             <p>Avant de procéder à la signature des pièces auxquelles <choice>
                   <abbr>Mr.</abbr>
                   <expan>Monsieur</expan>
-               </choice> le <rs ref="#p.1">Plénipotentiaire de <country>France</country></rs> doit
+               </choice> le <rs ref="#p.1">Plénipotentiaire de <country>France</country>
+                    </rs> doit
                prendre part, <choice>
                   <abbr>Mrs.</abbr>
                   <expan>Messieurs</expan>
@@ -198,14 +226,16 @@
                   des Cours d’Autriche, de la Grande-Bretagne, de Prusse et de Russie</rs> se sont
                réunis pour une dernière lecture du <ref decls="#m.2">Protocole réservé à la
                   connoissance des Quatre puissances</ref> signataires du <rs ref="#t.6">Traité de Quadruple Alliance du
-                     <date when="1815-11-20">20 Novembre 1815</date></rs> ; et la rédaction de ce
+                     <date when="1815-11-20">20 Novembre 1815</date>
+                    </rs> ; et la rédaction de ce
                Protocole ayant été définitivement arrêtée, <choice>
                   <abbr>Mrs.</abbr>
                   <expan>Messieurs</expan>
                </choice> les <rs ref="#p.8 #p.9 #p.10 #p.11 #p.12 #p.13 #p.14">Ministres et
                   Plénipotentiaires</rs> en ont paraphé la Minute, sauf à le faire expédier dans la
                forme convenue, et à en signer les Originaux.</p>
-            <p><choice>
+            <p>
+                    <choice>
                   <abbr>Mrs</abbr>
                   <expan>Messieurs</expan>
                </choice> les <rs ref="#p.8 #p.9 #p.10 #p.11 #p.12 #p.13 #p.14">Plénipotentiaires</rs> ont paraphé de même <ref decls="#m.3">le
@@ -223,34 +253,62 @@
                </choice> les Plénipotentiaires des Quatre puissances.</p>
             <signed>
                <list>
-                  <item><persName ref="#p.8">Metternich</persName></item>
-                  <item><persName ref="#p.9">Castlereagh</persName></item>
-                  <item><persName ref="#p.10">Wellington</persName></item>
-                  <item><persName ref="#p.11">Hardenberg</persName></item>
-                  <item><persName ref="#p.12">Bernstorff</persName></item>
-                  <item><persName ref="#p.13">Nesselrode</persName></item>
-                  <item><persName ref="#p.14">Capodistrias</persName></item>
-               </list></signed>
+                  <item>
+                            <persName ref="#p.8">Metternich</persName>
+                        </item>
+                  <item>
+                            <persName ref="#p.9">Castlereagh</persName>
+                        </item>
+                  <item>
+                            <persName ref="#p.10">Wellington</persName>
+                        </item>
+                  <item>
+                            <persName ref="#p.11">Hardenberg</persName>
+                        </item>
+                  <item>
+                            <persName ref="#p.12">Bernstorff</persName>
+                        </item>
+                  <item>
+                            <persName ref="#p.13">Nesselrode</persName>
+                        </item>
+                  <item>
+                            <persName ref="#p.14">Capodistrias</persName>
+                        </item>
+               </list>
+                </signed>
          </div>
 
          <div hand="#A" decls="#m.2">
             <pb n="167r"/>
-            <p><add hand="#AmrB" place="top">17.</add></p>
-            <p><title>Protocole,</title></p>
-            <p><title>réservé à la connoissance des Puissances Signataires</title></p>
-            <p><title>du <rs ref="#t.6">traité de la Quadruple Alliance</rs> du <date when="1818-11-15"><subst>
+            <p>
+                    <add hand="#AmrB" place="top">17.</add>
+                </p>
+            <p>
+                    <title>Protocole,</title>
+                </p>
+            <p>
+                    <title>réservé à la connoissance des Puissances Signataires</title>
+                </p>
+            <p>
+                    <title>du <rs ref="#t.6">traité de la Quadruple Alliance</rs> du <date when="1818-11-15">
+                            <subst>
                         <del rendition="#ow">20</del>
                         <add>15</add>
                      </subst> Novembre <subst>
                         <del rendition="#ow">1815</del>
                         <add>1818</add>
-                     </subst></date></title></p>
+                     </subst>
+                        </date>
+                    </title>
+                </p>
             <p>Conformément à la réserve insérée dans le <ref target="Aachen_Prot_3.xml">Protocole
-                  du <date when="1818-10-01">premier Octobre</date></ref>, les <rs ref="#p.8 #p.9 #p.10 #p.11 #p.12 #p.13 #p.14">Ministres &amp; Plénipotentiaires
+                  du <date when="1818-10-01">premier Octobre</date>
+                    </ref>, les <rs ref="#p.8 #p.9 #p.10 #p.11 #p.12 #p.13 #p.14">Ministres &amp; Plénipotentiaires
                   des cours d’Autriche, de la Grande-Bretagne, de Prusse &amp; de Russie</rs> se
                sont réunis en conférence pour discuter les grands intérêts que les hautes parties
                contractantes ont eu en vue en stipulant les Articles 5 &amp; 6 du <rs ref="#t.6">traité de la Quadruple Alliance du <date when="1815-11-20">20 Novembre
-                     1815</date></rs>, et pour délibérer sur les moyens d’appliquer les principes
+                     1815</date>
+                    </rs>, et pour délibérer sur les moyens d’appliquer les principes
                &amp; les dispositions du dit traité à la situation dans laquelle, après l’évacuation
                du territoire de <country>France</country>, le Gouvernement français se trouvera
                placé envers les quatre puissances,<pb n="167v"/> comme envers tous les autres Etats.
@@ -262,7 +320,8 @@
                prévu &amp; défini par le dit traité ;</p>
             <p>2. Qu’il est du devoir &amp; de la religion des Cours Alliées de maintenir dans toute
                leur force &amp; vigueur les dispositions par lesquelles le <rs ref="#t.6">traité de
-                  Quadruple Alliance</rs><pb n="168r"/> a pourvu au cas qu’un événement aussi
+                  Quadruple Alliance</rs>
+                    <pb n="168r"/> a pourvu au cas qu’un événement aussi
                désastreux vint à se réaliser, &amp; de les rendre même, ce cas échéant, plus
                efficaces et plus promptement applicables, moyennant une combinaison de mesures
                militaires arrêtée dès à présent &amp; d’un commun accord ;</p>
@@ -273,9 +332,11 @@
                Européen ;</p>
             <p>4. Que l’union intime<pb n="168v"/> entre les quatre Cabinets, consacrée par
                l’article 6 du <rs ref="#t.6">traité de Quadruple Alliance du <date when="1815-11-20">20 <choice>
-                        <abbr>9<hi rendition="#su">bre</hi></abbr>
+                        <abbr>9<hi rendition="#su">bre</hi>
+                                </abbr>
                         <expan>Novembre</expan>
-                     </choice> 1815</date></rs>, &amp; <rs ref="#t.9">renforcée par les liens de
+                     </choice> 1815</date>
+                    </rs>, &amp; <rs ref="#t.9">renforcée par les liens de
                   fraternité Chrétienne qui unissent aujourd’hui tous les Etats</rs>, offre le
                principe d’après lequel doivent être déterminées les relations pacifiques &amp;
                permanentes avec la <country>France</country> ; relations inséparables de l’ordre
@@ -288,9 +349,11 @@
                présent protocole pour autant qu’elles se rapportent au <rs xml:id="n.4">Casus
                   foederis et belli</rs>,<note type="editorial" target="#n.4">Lat.: Bündnis- und
                   Kriegsfall.</note> prévu dans le <rs ref="#t.6">traité du <date when="1815-11-20">20 <choice>
-                        <abbr>9<hi rendition="#su">bre</hi></abbr>
+                        <abbr>9<hi rendition="#su">bre</hi>
+                                </abbr>
                         <expan>Novembre</expan>
-                     </choice> 1815</date></rs>, et <ref target="Aachen_Prot_34.xml">dans un
+                     </choice> 1815</date>
+                    </rs>, et <ref target="Aachen_Prot_34.xml">dans un
                   protocole séparé</ref>, pour autant qu’elles ont pour but d’associer la
                   <country>France</country> à l’union des quatre Puissances &amp; au Système général
                de l’Europe ; cette forme ayant été jugée préférable à toute autre, en ce qu’elle
@@ -300,9 +363,11 @@
                <rs ref="#p.16 #p.17 #p.18 #p.19">quatre Souverains</rs> à l’égard de la
                   <country>France</country> ;</p>
             <p>6. Que les engagemens renfermés dans les articles 1, 2, 3 &amp; 4 du <rs ref="#t.6">traité de Quadruple Alliance du <date when="1815-11-20">20 <choice>
-                        <abbr>9<hi rendition="#su">bre</hi></abbr>
+                        <abbr>9<hi rendition="#su">bre</hi>
+                                </abbr>
                         <expan>Novembre</expan>
-                     </choice> 1815</date></rs> étant éventuels &amp; portant sur un cas que les
+                     </choice> 1815</date>
+                    </rs> étant éventuels &amp; portant sur un cas que les
                Puissances voudroient placer aussi loin que possible de leurs calculs, les quatre
                Cours regardent le présent protocole Comme Strictement réservé à la Connoissance des
                Parties Signataires &amp; s’engagent à empêcher par tous les moyens en leur pouvoir
@@ -312,13 +377,16 @@
             <p>7. Que quant au Protocole Séparé qui doit constater les relations futures de la
                   <country>France</country> avec les quatre Puissances Signataires du <rs ref="#t.6">traité de quadruple Alliance</rs>, les quatre Cours sont unanimement d’avis
                d’inviter les Plénipotentiaires de <rs ref="#p.15" xml:id="n.5">Sa Majesté Très
-                  Chrétienne</rs><note type="editorial" target="#n.5">Ehrentitel des Königs von
+                  Chrétienne</rs>
+                    <note type="editorial" target="#n.5">Ehrentitel des Königs von
                   Frankreich.</note> à prendre part à la rédaction &amp; à la Sanction de cet acte,
                lequel exposera les motifs qui ont porté les Puissances Alliées à associer la
                   <country>France</country> au système général, désignera le but de cette union, en
                tracera les principes &amp; en déterminera les formes.</p>
             <p>Cette pièce, devant être portée à la Connoissance de tous les Etats qui ont accédé au
-                  <rs ref="#t.13">traité de <placeName ref="#loc.2">Paris</placeName> du <date when="1814-05-30">30 Mai 1814</date></rs>,<pb n="170v"/> au <rs ref="#t.12">recès de <placeName ref="#loc.7">Vienne</placeName></rs> &amp; aux <rs ref="#t.1 #t.9">actes de <placeName ref="#loc.2">Paris</placeName> de l’année
+                  <rs ref="#t.13">traité de <placeName ref="#loc.2">Paris</placeName> du <date when="1814-05-30">30 Mai 1814</date>
+                    </rs>,<pb n="170v"/> au <rs ref="#t.12">recès de <placeName ref="#loc.7">Vienne</placeName>
+                    </rs> &amp; aux <rs ref="#t.1 #t.9">actes de <placeName ref="#loc.2">Paris</placeName> de l’année
                   1815</rs>, déclarera en outre en termes positifs que l’union des cinq Puissances
                n’a pour objet que de Contribuer au maintien de la tranquillité générale, fondée sur
                l’inviolabilité des droits que les transactions existantes assurent à chaque Etat
@@ -330,18 +398,22 @@
             <pb n="171r"/>
             <p>1. Que tous les engagemens Stipulés par le <rs ref="#t.6">traité de la Quadruple
                   Alliance du <date when="1815-11-20">20 <choice>
-                        <abbr>9<hi rendition="#su">bre</hi></abbr>
+                        <abbr>9<hi rendition="#su">bre</hi>
+                                </abbr>
                         <expan>Novembre</expan>
-                     </choice> 1815</date></rs> sont conservés dans leur pleine force &amp; valeur
+                     </choice> 1815</date>
+                    </rs> sont conservés dans leur pleine force &amp; valeur
                pour le Casus foederis et belli, tel qu’il est prévu et défini par le
                   dit traité ;</p>
             <p>2. Que pour le Casus foederis, spécialement admis dans le Second paragraphe de l’<choice>
                   <abbr>art.</abbr>
                   <expan>article</expan>
                </choice> 3 du <rs ref="#t.6">traité du <date when="1815-11-20">20 <choice>
-                        <abbr>9<hi rendition="#su">bre</hi></abbr>
+                        <abbr>9<hi rendition="#su">bre</hi>
+                                </abbr>
                         <expan>Novembre</expan>
-                     </choice> 1815</date></rs>, les hautes Parties Signataires du présent
+                     </choice> 1815</date>
+                    </rs>, les hautes Parties Signataires du présent
                protocole, en suite de leurs engagemens actuels, se concerteront (le cas échéant)
                dans des réunions particulières, soit entre <rs ref="#p.16 #p.17 #p.18 #p.19">les
                   Monarques Alliés</rs> en personne, soit entre les quatre Cabinets, sur les mesures
@@ -351,30 +423,51 @@
                été arrêté que par l’intimité des rapports &amp; la pureté des Sentimens qui unissent
                   <rs ref="#p.16 #p.17 #p.18 #p.19">les quatre Souverains</rs> pour le bonheur du
                monde.</p>
-            <p>Fait quadruple à <placeName ref="#loc.1">Aix-la-Chapelle</placeName> le <date when="1818-11-15"><rs xml:id="n.6">15</rs> Novembre<note type="editorial" target="#n.6">Tagesdatum weist Korrekturen auf.</note> Mil huit cent
+            <p>Fait quadruple à <placeName ref="#loc.1">Aix-la-Chapelle</placeName> le <date when="1818-11-15">
+                        <rs xml:id="n.6">15</rs> Novembre<note type="editorial" target="#n.6">Tagesdatum weist Korrekturen auf.</note> Mil huit cent
                   dix-huit</date>.</p>
             <signed>
                <list>
-                  <item><persName ref="#p.8">Metternich</persName></item>
-                  <item><persName ref="#p.9">Castlereagh</persName></item>
-                  <item><persName ref="#p.10">Wellington</persName></item>
-                  <item><persName ref="#p.11">Hardenberg</persName></item>
-                  <item><persName ref="#p.12">Bernstorff</persName></item>
-                  <item><persName ref="#p.13">Nesselrode</persName></item>
-                  <item><persName ref="#p.14">Capodistrias</persName></item>
-               </list></signed>
+                  <item>
+                            <persName ref="#p.8">Metternich</persName>
+                        </item>
+                  <item>
+                            <persName ref="#p.9">Castlereagh</persName>
+                        </item>
+                  <item>
+                            <persName ref="#p.10">Wellington</persName>
+                        </item>
+                  <item>
+                            <persName ref="#p.11">Hardenberg</persName>
+                        </item>
+                  <item>
+                            <persName ref="#p.12">Bernstorff</persName>
+                        </item>
+                  <item>
+                            <persName ref="#p.13">Nesselrode</persName>
+                        </item>
+                  <item>
+                            <persName ref="#p.14">Capodistrias</persName>
+                        </item>
+               </list>
+                </signed>
          </div>
 
          <div hand="#A" decls="#m.3">
             <pb n="110r"/>
-            <p><placeName ref="#loc.1">Aix-la-Chapelle</placeName> le <date when="1818-11-15">15
+            <p>
+                    <placeName ref="#loc.1">Aix-la-Chapelle</placeName> le <date when="1818-11-15">15
                   Novembre</date>.</p>
             <p>Conformément aux dispositions consignées <ref decls="#m.2">au Protocole de ce jour,
                   réservé à la connoissance des puissances signataires du <rs ref="#t.6">Traité
-                     d’alliance du <date when="1815-11-20"><choice>
-                           <abbr>20 Nov<hi rendition="#su">r</hi></abbr>
+                     d’alliance du <date when="1815-11-20">
+                                <choice>
+                           <abbr>20 Nov<hi rendition="#su">r</hi>
+                                    </abbr>
                            <expan>Novembre</expan>
-                        </choice> 1815</date></rs></ref>, Messieurs les <rs ref="#p.8 #p.9 #p.10 #p.11 #p.12 #p.13 #p.14">Plénipotentiaires d’Autriche, de Grande Bretagne, de Prusse et de Russie</rs> se
+                        </choice> 1815</date>
+                        </rs>
+                    </ref>, Messieurs les <rs ref="#p.8 #p.9 #p.10 #p.11 #p.12 #p.13 #p.14">Plénipotentiaires d’Autriche, de Grande Bretagne, de Prusse et de Russie</rs> se
                sont réunis par ordre de <rs ref="#p.16 #p.17 #p.18 #p.19">Leurs Souverains</rs> pour
                arrêter et déclarer ce qui suit :</p>
             <p>Vu les articles 3 et 4 du <rs ref="#t.6">traité de quadruple alliance</rs> et les
@@ -382,7 +475,10 @@
                le cas prévu par les articles 1 et 2 du <rs ref="#t.6">traité de quadruple
                   alliance</rs> échéant, le terme de deux mois, indiqué dans l’article 8 du <rs ref="#t.37">traité de Chaumont</rs>, comme celui où le corps auxiliaire serait
                prêt à entrer en campagne, datera du jour où les hautes Puissances alliées auront
-               décidé à la suite du concert à établir ent’Elles que le <rs xml:id="n.8"><hi rendition="#u">Casus foederis</hi></rs><note type="editorial" target="#n.8">Lat. Bündnisfall.</note> existe.</p>
+               décidé à la suite du concert à établir ent’Elles que le <rs xml:id="n.8">
+                        <hi rendition="#u">Casus foederis</hi>
+                    </rs>
+                    <note type="editorial" target="#n.8">Lat. Bündnisfall.</note> existe.</p>
             <pb n="110v"/>
             <p>Après cette décision, le corps britannique se rassemblera à <placeName ref="#loc.46">Bruxelles</placeName>, le corps prussien à <placeName ref="#loc.47">Cologne</placeName>, le corps autrichien à <placeName ref="#loc.17">Stuttgardt</placeName>, dans le terme fixé par l’article 8 du <rs ref="#t.37">Traité de Chaumont</rs> comme ci-dessus expliqué, et le corps russe à <placeName ref="#loc.30">Mayence</placeName>, dans trois mois à dater de la même époque vu sa
                distance.</p>
@@ -393,24 +489,32 @@
                construites ou en état de construction dans les pays limitrophes de la
                   <country>France</country>, et surtout dans le <country>Royaume des
                   Pays-Bas</country>, d’après les stipulations du <rs ref="#t.38">Protocole des
-                  Conférences du <date when="1815-11-21">21 Novembre 1815</date></rs>.</p>
-            <p><choice>
-                  <abbr>M<hi rendition="#su">r</hi></abbr>
+                  Conférences du <date when="1815-11-21">21 Novembre 1815</date>
+                    </rs>.</p>
+            <p>
+                    <choice>
+                  <abbr>M<hi rendition="#su">r</hi>
+                        </abbr>
                   <expan>Monsieur</expan>
-               </choice> le Maréchal <persName ref="#p.10"><roleName>Duc</roleName>
-                  <surname>de Wellington</surname></persName>, ayant été chargé de la part du
+               </choice> le Maréchal <persName ref="#p.10">
+                        <roleName>Duc</roleName>
+                  <surname>de Wellington</surname>
+                    </persName>, ayant été chargé de la part du
                Gouvernement britannique, ainsi que de celui des Pays-Bas, de surveiller l’exécution
                du système de fortification des <country>Pays-Bas</country>, a<pb n="111r"/> déclaré
                pouvoir certifier à la conférence que la quantité de travail exécuté était immense,
                et qu’un résultat utile pour la défense du pays pouvait en être attendu pour l’année
                prochaine si le cas l’exigeait. </p>
-            <p><choice>
-                  <abbr>M<hi rendition="#su">r</hi></abbr>
+            <p>
+                    <choice>
+                  <abbr>M<hi rendition="#su">r</hi>
+                        </abbr>
                   <expan>Monsieur</expan>
                </choice> le
                <rs ref="#p.10">Duc</rs> s’est réservé de communiquer dans une autre occasion aux
                Ministres des puissances alliées les détails à l’appui de son opinion.</p>
-            <p><choice>
+            <p>
+                    <choice>
                   <abbr>Mrs.</abbr>
                   <expan>Messieurs</expan>
                </choice> les <rs ref="#p.8 #p.11 #p.12">Plénipotentiaires d’Autriche et de
@@ -419,7 +523,8 @@
                de construction ou à construire dans les autres pays limitrophes de la
                   <country>France</country>, dans lesquels la surveillance desdits ouvrages se
                trouve confiée à Leurs Cours.</p>
-            <p><choice>
+            <p>
+                    <choice>
                   <abbr>Mrs.</abbr>
                   <expan>Messieurs</expan>
                </choice>
@@ -436,11 +541,13 @@
                </choice> le <rs ref="#p.74">Roi des Pays-Bas</rs> de faire occuper, le casus
                foederis ayant été déclaré échu, les forteresses d’<placeName ref="#loc.48">Ostende</placeName>, <placeName ref="#loc.49">Nieuport</placeName>, <placeName ref="#loc.50">Ypres</placeName> et celles situées sur l’Escaut (avec exception de
                la citadelle de <placeName ref="#loc.51">Tournay</placeName> et de la place
-                  d’<placeName ref="#loc.52">Anvers</placeName>) par les troupes de <rs ref="#p.19"><choice>
+                  d’<placeName ref="#loc.52">Anvers</placeName>) par les troupes de <rs ref="#p.19">
+                        <choice>
                      <abbr>S. M.</abbr>
                      <expan>Sa Majesté</expan>
                   </choice> Britannique</rs>, et les citadelles de <placeName ref="#loc.53">Huy</placeName>, <placeName ref="#loc.54">Namur</placeName> et <placeName ref="#loc.55">Dinant</placeName>, ainsi que les places de <placeName ref="#loc.56">Charleroy</placeName>,<pb n="112r"/>
-               <placeName ref="#loc.57">Marienbourg</placeName> et <placeName ref="#loc.58">Philippeville</placeName> par les troupes de <rs ref="#p.18"><choice>
+               <placeName ref="#loc.57">Marienbourg</placeName> et <placeName ref="#loc.58">Philippeville</placeName> par les troupes de <rs ref="#p.18">
+                        <choice>
                      <abbr>S. M.</abbr>
                      <expan>Sa Majesté</expan>
                   </choice> Prussienne</rs>.</p>
@@ -449,13 +556,27 @@
                et Plénipotentiaires des Quatre Puissances.</p>
             <p>Fait Quadruple etc.</p>
             <list>
-               <item><persName ref="#p.8">Metternich</persName></item>
-               <item><persName ref="#p.9">Castlereagh</persName></item>
-               <item><persName ref="#p.10">Wellington</persName></item>
-               <item><persName ref="#p.11">Hardenberg</persName></item>
-               <item><persName ref="#p.12">Bernstorff</persName></item>
-               <item><persName ref="#p.13">Nesselrode</persName></item>
-               <item><persName ref="#p.14">Capodistrias</persName></item>
+               <item>
+                        <persName ref="#p.8">Metternich</persName>
+                    </item>
+               <item>
+                        <persName ref="#p.9">Castlereagh</persName>
+                    </item>
+               <item>
+                        <persName ref="#p.10">Wellington</persName>
+                    </item>
+               <item>
+                        <persName ref="#p.11">Hardenberg</persName>
+                    </item>
+               <item>
+                        <persName ref="#p.12">Bernstorff</persName>
+                    </item>
+               <item>
+                        <persName ref="#p.13">Nesselrode</persName>
+                    </item>
+               <item>
+                        <persName ref="#p.14">Capodistrias</persName>
+                    </item>
             </list>
          </div>
       </body>

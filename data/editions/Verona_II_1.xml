@@ -1,5 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -10,10 +12,13 @@
                <persName>
                   <surname>Schneider</surname>
                   <forename>Karin</forename>
-               </persName></editor>
+               </persName>
+                </editor>
          </titleStmt>
          <editionStmt>
-            <edition><date>2017-03-13</date></edition>
+            <edition>
+                    <date>2017-03-13</date>
+                </edition>
          </editionStmt>
          <publicationStmt>
             <publisher>Österreichische Akademie der Wissenschaften, Institut für Neuzeit- und
@@ -56,8 +61,11 @@
 
                </physDesc>
                <history>
-                  <origin><placeName ref="#loc.68">Verona</placeName><date when="1822-12-02">2.
-                        Dezember 1822</date></origin>
+                  <origin>
+                            <placeName ref="#loc.68">Verona</placeName>
+                            <date when="1822-12-02">2.
+                        Dezember 1822</date>
+                        </origin>
                </history>
             </msDesc>
             <msDesc xml:id="m.2" type="Lithographie">
@@ -106,8 +114,10 @@
             </msDesc>
             <listWit corresp="#m.1">
                <head>Procès-verbal der ersten Sitzung</head>
-               <witness corresp="#w.4"><bibl type="print">Vnešnjaja politika Rossii, Bd. 12, S.
-                     600–602.</bibl></witness>
+               <witness corresp="#w.4">
+                        <bibl type="print">Vnešnjaja politika Rossii, Bd. 12, S.
+                     600–602.</bibl>
+                    </witness>
 
             </listWit>
          </sourceDesc>
@@ -120,7 +130,7 @@
          </appInfo>
          <styleDefDecl scheme="css"/>
          <tagsDecl>
-            <rendition xml:id="su" scheme="css">vertical-align:sub; font-size:.7em;</rendition>
+            <rendition xml:id="su" scheme="css">vertical-align:super; font-size:.7em;</rendition>
             <rendition xml:id="s" scheme="css">text-decoration:line-through;</rendition>
             <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
             <rendition xml:id="ow">overwritten</rendition>
@@ -168,35 +178,54 @@
          <div decls="#m.1">
             <pb n="3r"/>
 
-            <p><title>Procès-verbal de la Conférence du <date when="1822-12-02">2 Décembre</date>,
+            <p>
+                    <title>Procès-verbal de la Conférence du <date when="1822-12-02">2 Décembre</date>,
                   entre Messieurs les <rs ref="#p.8 #p.40 #p.13 #p.35 #p.175">Ministres d'Autriche,
-                     de Russie et de Prusse</rs></title></p>
-            <p><title>et</title></p>
-            <p><title>Monsieur le <persName ref="#p.182"><roleName>Comte</roleName>
-                     <surname>de la Tour</surname></persName>, premier Secrétaire d'État pour les
+                     de Russie et de Prusse</rs>
+                    </title>
+                </p>
+            <p>
+                    <title>et</title>
+                </p>
+            <p>
+                    <title>Monsieur le <persName ref="#p.182">
+                            <roleName>Comte</roleName>
+                     <surname>de la Tour</surname>
+                        </persName>, premier Secrétaire d'État pour les
                   affaires étrangères et Plénipotentiaire de Sa Majesté le <rs ref="#p.172">Roi de
-                     Sardaigne</rs></title></p>
-            <p><placeName ref="#loc.68">Vérone</placeName> le <date when="1822-12-02">2 Décembre
+                     Sardaigne</rs>
+                    </title>
+                </p>
+            <p>
+                    <placeName ref="#loc.68">Vérone</placeName> le <date when="1822-12-02">2 Décembre
                   1822</date>.</p>
             <p>Messieurs les <rs ref="#p.8 #p.40 #p.13 #p.35 #p.175">Ministres d’Autriche, de Russie
-                  et de Prusse</rs> se sont réunis avec Monsieur le <persName ref="#p.182"><roleName>Comte</roleName>
-                  <surname>de La Tour</surname></persName>, Plénipotentiaire de Sa Majesté le <rs ref="#p.172">Roi de Sardaigne</rs>, pour prendre en considération, conformément à
-               l’article 8 de la <rs ref="#t.46">Convention signée à <placeName ref="#loc.73">Novare</placeName> le <date when="1821-07-24">24 Juillet 1821</date></rs>,</p>
+                  et de Prusse</rs> se sont réunis avec Monsieur le <persName ref="#p.182">
+                        <roleName>Comte</roleName>
+                  <surname>de La Tour</surname>
+                    </persName>, Plénipotentiaire de Sa Majesté le <rs ref="#p.172">Roi de Sardaigne</rs>, pour prendre en considération, conformément à
+               l’article 8 de la <rs ref="#t.46">Convention signée à <placeName ref="#loc.73">Novare</placeName> le <date when="1821-07-24">24 Juillet 1821</date>
+                    </rs>,</p>
             <p>Si la situation actuelle du <country>Piémont</country> exige de prolonger, ou permet
                de faire cesser l’occupation militaire de ce pays par un corps auxiliaire, telle
                qu’elle avait été arrêtée par les stipulations de ladite Convention ?</p>
-            <p>Monsieur le <persName ref="#p.182"><roleName>Comte</roleName>
-                  <surname>de La Tour</surname></persName> a fait lecture du <ref decls="#m.2">mémoire ci-annexé</ref>, offrant un tableau complet de la situation militaire,
+            <p>Monsieur le <persName ref="#p.182">
+                        <roleName>Comte</roleName>
+                  <surname>de La Tour</surname>
+                    </persName> a fait lecture du <ref decls="#m.2">mémoire ci-annexé</ref>, offrant un tableau complet de la situation militaire,
                morale et administrative du <country>Piémont</country>, situation qui, d’après
                l’exposé de ce Mémoire, est telle que Sa Majesté le <rs ref="#p.172">Roi</rs> se
                croit autorisé à prononcer que l’ouvrage de la<pb n="3v"/> régénération de ce pays
                est achevé, que <rs ref="#p.172">Sa Majesté</rs> peut répondre de sa tranquillité, et
                que le temps est venu où l’occupation militaire peut cesser.</p>
             <p>Le <rs ref="#p.8">Ministre d’Autriche</rs> a déclaré qu’il se chargeoit, avec un
-               sentiment de satisfaction véritable, de placer sous les yeux de l’<rs ref="#p.16">Empereur</rs>, Son Maître, le Mémoire dont Monsieur le <persName ref="#p.182"><roleName>Comte</roleName>
-                  <surname>de La Tour</surname></persName> venait de faire lecture ; que les liens
+               sentiment de satisfaction véritable, de placer sous les yeux de l’<rs ref="#p.16">Empereur</rs>, Son Maître, le Mémoire dont Monsieur le <persName ref="#p.182">
+                        <roleName>Comte</roleName>
+                  <surname>de La Tour</surname>
+                    </persName> venait de faire lecture ; que les liens
                d’une amitié sincère qui unissent <rs xml:id="n.2" ref="#p.16">Sa Majesté Impériale
-                  et Royale Apostolique</rs><note type="editorial" target="#n.2">Ehrentitel des
+                  et Royale Apostolique</rs>
+                    <note type="editorial" target="#n.2">Ehrentitel des
                   Kaisers von Österreich.</note> et <rs ref="#p.172">Sa Majesté Sarde</rs>, ainsique
                l’intérêt réciproque des peuples que la Providence a confiés aux deux Monarques, sont
                trop étroits et trop positifs pour que le bien-être de l’un des Etats ne tourne à la
@@ -221,8 +250,10 @@
                   Impériale</rs> se félicitera de pouvoir prouver aujourd’hui à Sa Majesté le <rs ref="#p.172">Roi</rs> la confiance qu’Elle place dans la sagesse et dans la
                fermeté de Ses vues.</p>
             <p>Messieurs les <rs ref="#p.13 #p.35">Plénipotentiaires de Russie</rs> ont déclaré
-               qu’ils s’empresseroient de porter le Mémoire présenté par Monsieur le <persName ref="#p.182"><roleName>Comte</roleName>
-                  <surname>de La Tour</surname></persName> à la connoissance de l’<rs ref="#p.17">Empereur</rs>, leur Maître ; que <rs ref="#p.17">Sa Majesté Impériale</rs> se
+               qu’ils s’empresseroient de porter le Mémoire présenté par Monsieur le <persName ref="#p.182">
+                        <roleName>Comte</roleName>
+                  <surname>de La Tour</surname>
+                    </persName> à la connoissance de l’<rs ref="#p.17">Empereur</rs>, leur Maître ; que <rs ref="#p.17">Sa Majesté Impériale</rs> se
                féliciteroit d’y trouver le tableau fidèle des progrès d’une restauration
                qu’appelloient Ses vœux les plus sincères ; qu’ayant toujours désiré que de vraies
                améliorations et le raffermissement de la tranquillité publique pussent rendre
@@ -237,16 +268,20 @@
                plans salutaires que le <rs ref="#p.172">Roi</rs> venoit de communiquer à Ses
                Alliés.</p>
             <p>Monsieur le <rs ref="#p.175">Plénipotentiaire de Prusse</rs> a observé que le <rs ref="#p.18">Roi</rs>, Son Maître, aurait une satisfaction toute particulière à
-               puiser dans le Mémoire présenté par Monsieur le <persName ref="#p.182"><roleName>Comte</roleName>
-                  <surname>de La Tour</surname></persName> la consolante conviction que le moment
+               puiser dans le Mémoire présenté par Monsieur le <persName ref="#p.182">
+                        <roleName>Comte</roleName>
+                  <surname>de La Tour</surname>
+                    </persName> la consolante conviction que le moment
                était arrivé où rien n’empêchoit plus que <rs ref="#p.172">Sa Majesté Sarde</rs> ne
                recueillît dans le Soulagement qu’Elle désiroit procurer à Ses peuples le prix des
                soins sages et paternels qu’Elle avait mis à rétablir l’ordre dans Ses Etats, et à
                fermer les plaies qu’avait dû y laisser un attentat aussi désastreux que
                criminel.</p>
             <p>Messieurs les Ministres ont délibéré ensuite sur les propositions de Monsieur le
-                  <persName ref="#p.182"><roleName>Comte</roleName>
-                  <surname>de La Tour</surname></persName>, et il a été résolu :</p>
+                  <persName ref="#p.182">
+                        <roleName>Comte</roleName>
+                  <surname>de La Tour</surname>
+                    </persName>, et il a été résolu :</p>
             <p>1<hi rendition="#su">o</hi> Que, vu l’état satisfaisant de réorganisation dans lequel
                se trouvent les Etats de Sa Majesté le <rs ref="#p.172">Roi de Sardaigne</rs>, et sur
                Sa demande, l’occupation du <country>Piémont</country> cessera d’avoir lieu d’après
@@ -258,7 +293,8 @@
                la dernière, ait définitivement lieu le <date when="1823-09-30">30 Septembre
                   1823</date> ;</p>
             <p>3<hi rendition="#su">o</hi> Que les dispositions de la <rs ref="#t.46">Convention de
-                     <placeName ref="#loc.73">Novare</placeName></rs> relatives soit à la proportion
+                     <placeName ref="#loc.73">Novare</placeName>
+                    </rs> relatives soit à la proportion
                des différentes armes dont doit être composée l’armée d’occupation, soit aux
                fournitures que le Gouvernement du <rs ref="#p.172">Roi</rs> s’est engagé à faire en
                nature aussi bien qu’en numéraire, continueront à être observées en autant qu’elles
@@ -277,16 +313,39 @@
             <p>(signé)</p>
             <table rend="rules">
                <row>
-                  <cell><persName ref="#p.8"><surname>Metternich</surname></persName></cell>
-                  <cell><persName ref="#p.175"><surname>Hatzfeldt</surname></persName></cell>
-                  <cell><persName ref="#p.13"><surname>Nesselrode</surname></persName></cell>
-                  <cell><persName ref="#p.182"><surname>De la Tour</surname></persName>
+                  <cell>
+                            <persName ref="#p.8">
+                                <surname>Metternich</surname>
+                            </persName>
+                        </cell>
+                  <cell>
+                            <persName ref="#p.175">
+                                <surname>Hatzfeldt</surname>
+                            </persName>
+                        </cell>
+                  <cell>
+                            <persName ref="#p.13">
+                                <surname>Nesselrode</surname>
+                            </persName>
+                        </cell>
+                  <cell>
+                            <persName ref="#p.182">
+                                <surname>De la Tour</surname>
+                            </persName>
                   </cell>
                </row>
                <row>
-                  <cell><persName ref="#p.40"><surname>Lebzeltern</surname></persName></cell>
+                  <cell>
+                            <persName ref="#p.40">
+                                <surname>Lebzeltern</surname>
+                            </persName>
+                        </cell>
                   <cell/>
-                  <cell><persName ref="#p.35"><surname>Tatistscheff</surname></persName></cell>
+                  <cell>
+                            <persName ref="#p.35">
+                                <surname>Tatistscheff</surname>
+                            </persName>
+                        </cell>
                   <cell/>
                </row>
             </table>
@@ -296,9 +355,11 @@
             <pb n="7r"/>
 
             <p>Par l’<choice>
-                  <abbr>Art<hi rendition="#su">e</hi></abbr>
+                  <abbr>Art<hi rendition="#su">e</hi>
+                        </abbr>
                   <expan>Article</expan>
-               </choice> 8 de la <rs ref="#t.46">Convention de <placeName ref="#loc.73">Novare</placeName></rs> il a été stipulé qu’à la première réunion fixée alors
+               </choice> 8 de la <rs ref="#t.46">Convention de <placeName ref="#loc.73">Novare</placeName>
+                    </rs> il a été stipulé qu’à la première réunion fixée alors
                au mois de Septembre 1822 les <rs ref="#p.16 #p.17 #p.18">Souverains Alliés</rs>
                prendront en considération avec <choice>
                   <abbr>S. M.</abbr>
@@ -328,7 +389,8 @@
                cause la situation du <country>Piémont</country>.</p>
             <p>Le résultat de cet examen ne saurait être douteux ; le <rs ref="#p.172">Roi</rs>
                l’attend avec confiance de la loyauté, de la justice de Ses Alliés.</p>
-            <p>La <rs xml:id="n.4">révolution de Mars 1821</rs><note type="editorial" target="#n.4">Im März 1821 war im <country>Königreich Sardinien-Piemont</country> eine
+            <p>La <rs xml:id="n.4">révolution de Mars 1821</rs>
+                    <note type="editorial" target="#n.4">Im März 1821 war im <country>Königreich Sardinien-Piemont</country> eine
                   Revolution ausgebrochen, die rasch durch österreichische Truppen niedergeschlagen
                   wurde. Vgl. Späth, Revolution in Europa, S. 150–165; Broers, Napoleonic
                   Imperialism; Jarrett, The Congress of Vienna, S. 270–284.</note> avait violé
@@ -342,8 +404,10 @@
             <p>Tel était en peu de mots l’état du <country>Piémont</country> au moment que <choice>
                   <abbr>S. M.</abbr>
                   <expan>Sa Majesté</expan>
-               </choice> le <persName ref="#p.172"><roleName>Roi</roleName>
-                  <forename>Charles-Felix</forename></persName> prit les rênes du Gouvernement.</p>
+               </choice> le <persName ref="#p.172">
+                        <roleName>Roi</roleName>
+                  <forename>Charles-Felix</forename>
+                    </persName> prit les rênes du Gouvernement.</p>
             <pb n="8r"/>
             <p>Fort du secours de la Providence et du témoignage de Sa conscience, sûr de
                l’affection de l’immense majorité de Ses peuples et de l’assistance de Ses Alliés, le
@@ -398,12 +462,15 @@
             <p>Les Officiers sur lesquels la Commission a eu à prononcer furent au nombre de
                421.</p>
             <p>Parmi ceux qui ont été destitués ou démissionnés il s’en est trouvé 130 qui ont eu
-               recours à la clémence de <rs ref="#p.172"><choice>
+               recours à la clémence de <rs ref="#p.172">
+                        <choice>
                      <abbr>S. M.</abbr>
                      <expan>Sa Majesté</expan>
-                  </choice></rs> pour une pension alimentaire. Le <rs ref="#p.172">Roi</rs> a daigné
+                  </choice>
+                    </rs> pour une pension alimentaire. Le <rs ref="#p.172">Roi</rs> a daigné
                leur accorder un secours annuel de 600 <choice>
-                  <abbr>fr<hi rendition="#su">cs</hi></abbr>
+                  <abbr>fr<hi rendition="#su">cs</hi>
+                        </abbr>
                   <expan>francs</expan>
                </choice> en leur prescrivant un domicile fixe dont ils ne peuvent s’absenter qu’avec
                permission.</p>
@@ -464,7 +531,8 @@
                évènemens de Mars 1821. Ils furent chargés d’une surveillance active et journalière
                sur l’esprit de leur Corps, et formellement déclarés responsables de la conduite des
                officiers et soldats placés sous leurs ordres.</p>
-            <p><rs ref="#p.172">Sa Majesté</rs> voulut encore, d’après l’avis d’une<pb n="11r"/>
+            <p>
+                    <rs ref="#p.172">Sa Majesté</rs> voulut encore, d’après l’avis d’une<pb n="11r"/>
                Commission, qu’on procédât à l’amalgame de tous les officiers de l’Armée afin
                d’éteindre les souvenirs, les dissensions, renouveler l’esprit de Corps, mettre à
                même les Commandans supérieurs de leur donner au besoin la direction convenable.
@@ -475,8 +543,10 @@
                répression et de police.</p>
             <p>Les premiers se trouvèrent tout naturellement dans la publication d’un <rs xml:id="n.5">Code pénal militaire</rs>,<note type="editorial" target="#n.5">Code
                   Pénal Militaire Sarde en date du 27 aout 1822 (Chambery 1822).</note> déjà en
-               partie préparé sous le règne du <persName ref="#p.169"><roleName>Roi</roleName>
-                  <forename>Victor-Emanuel</forename></persName> ; l’expérience de quelques mois a
+               partie préparé sous le règne du <persName ref="#p.169">
+                        <roleName>Roi</roleName>
+                  <forename>Victor-Emanuel</forename>
+                    </persName> ; l’expérience de quelques mois a
                sanctionné cette institution importante ; le temps seul fera connaître les
                améliorations dont elle peut être susceptible.</p>
             <p>La Police des Régimens et Brigades fut confiée aux Colonels et Commandans de Corps.
@@ -567,7 +637,8 @@
                importantes de propriétés.</p>
             <p>Tandis que des actes d’un aussi haut intérêt attestaient à chaque instant la
                sollicitude du <choice>
-                  <abbr>Gouvernem<hi rendition="#su">t</hi></abbr>
+                  <abbr>Gouvernem<hi rendition="#su">t</hi>
+                        </abbr>
                   <expan>Gouvernement</expan>
                </choice>, <rs ref="#p.172">Sa Majesté</rs> s’occupait en silence de toutes les
                autres branches de l’administration générale et préparait un grand nombre de lois qui
@@ -578,8 +649,10 @@
                vont recevoir dans le plus court délai une organisation complète.</p>
             <p>Les autres branches de l’administration qui se trouvaient portées à un état
                d’organisation satisfaisant<pb n="16r"/> ont été conservées avec soin.</p>
-            <p>La Marine Royale, institution naissante du <persName ref="#p.169"><roleName>Roi</roleName>
-                  <forename>Victor</forename></persName>, reçut chaque jour des augmentations. Dans
+            <p>La Marine Royale, institution naissante du <persName ref="#p.169">
+                        <roleName>Roi</roleName>
+                  <forename>Victor</forename>
+                    </persName>, reçut chaque jour des augmentations. Dans
                ces mois derniers, le pavillon Sarde a flotté sur les côtes de Maroc, et un
                arrangement favorable avec cette Régence Africaine a été le premier fruit de cette
                croisière.</p>
@@ -661,10 +734,12 @@
                la forteresse d’<placeName ref="#loc.74">Alexandrie</placeName>, qui devra être
                évacuée la dernière, ait définitivement<pb n="18r"/> lieu le <date when="1823-09-30">trente Septembre Mil huit cent vingt-trois</date> ;</p>
             <p>3<hi rendition="#su">o</hi> Que les dispositions de la <rs ref="#t.46">Convention de
-                     <placeName ref="#loc.73">Novare</placeName></rs> relatives soit à la proportion
+                     <placeName ref="#loc.73">Novare</placeName>
+                    </rs> relatives soit à la proportion
                des différentes armes dont doit être composée l’armée d’occupation, soit aux
                fournitures que le <choice>
-                  <abbr>Gouvernem<hi rendition="#su">t</hi></abbr>
+                  <abbr>Gouvernem<hi rendition="#su">t</hi>
+                        </abbr>
                   <expan>Gouvernement</expan>
                </choice> du <rs ref="#p.172">Roi</rs> s’est engagé à faire en nature aussi bien
                qu’en numéraire, continueront à être observées en autant qu’elles sont compatibles
@@ -672,13 +747,15 @@
                &amp; les fournitures à livrer subissent aux époques précitées une diminution
                proportionnée au nombre des troupes qui quitteront les Etats du <rs ref="#p.172">Roi</rs>.</p>
             <p>Pour consentir à prolonger ainsi d’un an (puisque trois mois sont déjà écoulés depuis
-               l’époque fixée par la <rs ref="#t.46">Convention de <placeName ref="#loc.73">Novare</placeName></rs> pour l’examen de cette question) la continuation du
+               l’époque fixée par la <rs ref="#t.46">Convention de <placeName ref="#loc.73">Novare</placeName>
+                    </rs> pour l’examen de cette question) la continuation du
                fardeau imposé à Ses peuples, le <rs ref="#p.172">Roi</rs> a eu besoin de détourner
                Sa pensée de l’état actuel de Ses finances ; Il a dû s’abstenir surtout de considérer
                la situation affligeante des propriétaires forcés à supporter, malgré la baisse
                actuelle, le fardeau de ces mêmes contributions dont ils s’acquittaient avec peine
                lorsque les denrées étaient à un prix bien supérieur.</p>
-            <p><rs ref="#p.172">Sa Majesté</rs>, qui ne peut se dissimuler que l’aisance des
+            <p>
+                    <rs ref="#p.172">Sa Majesté</rs>, qui ne peut se dissimuler que l’aisance des
                familles et la diminution des contributions sont les premiers, les plus forts moyens
                pour rattacher tous les cœurs aux Gouvernemens, se voit avec une peine infinie
                obligée à renvoyer à une époque indéterminée le moment si heureux pour Son cœur
@@ -701,10 +778,13 @@
          <div decls="#m.3">
             <pb n="12v-13r"/>
 
-            <p><title>Etat de l’Armée de <choice>
+            <p>
+                    <title>Etat de l’Armée de <choice>
                      <abbr>S. M.</abbr>
                      <expan>Sa Majesté</expan>
-                  </choice> le <rs ref="#p.172">Roi de Sardaigne</rs></title></p>
+                  </choice> le <rs ref="#p.172">Roi de Sardaigne</rs>
+                    </title>
+                </p>
             <table rend="rules">
                <row>
                   <cell cols="3">Désignation des Corps</cell>

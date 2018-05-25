@@ -1,5 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -10,10 +12,13 @@
                <persName>
                   <surname>Schneider</surname>
                   <forename>Karin</forename>
-               </persName></editor>
+               </persName>
+                </editor>
          </titleStmt>
          <editionStmt>
-            <edition><date>2017-03-13</date></edition>
+            <edition>
+                    <date>2017-03-13</date>
+                </edition>
          </editionStmt>
          <publicationStmt>
             <publisher>Österreichische Akademie der Wissenschaften, Institut für Neuzeit- und
@@ -35,12 +40,15 @@
                </msIdentifier>
                <msContents>
                   <msItem>
-                     <title>Sitzung vom <date when="1822-11-19">19. November 1822</date></title>
+                     <title>Sitzung vom <date when="1822-11-19">19. November 1822</date>
+                            </title>
                   </msItem>
                </msContents>
                <physDesc>
                   <p>Ausfertigung</p>
-                  <p>Schriftstück liegt zweifach ein: Von <persName ref="#p.5"><surname>Gentz</surname></persName> korrigiertes Konzept fol. 233;
+                  <p>Schriftstück liegt zweifach ein: Von <persName ref="#p.5">
+                                <surname>Gentz</surname>
+                            </persName> korrigiertes Konzept fol. 233;
                      Reinschrift fol. 235. Die Transkription folgt der Fassung von fol. 235. Das
                      Schriftstück enthält auch die Zusammenfassungen der Sitzungen vom 18. und 20.
                      November 1822.</p>
@@ -57,8 +65,11 @@
 
                </physDesc>
                <history>
-                  <origin><placeName ref="#loc.68">Verona</placeName><date when="1822-11-19">19.
-                        November 1822</date></origin>
+                  <origin>
+                            <placeName ref="#loc.68">Verona</placeName>
+                            <date when="1822-11-19">19.
+                        November 1822</date>
+                        </origin>
                </history>
             </msDesc>
             <msDesc xml:id="m.2" type="Lithographie">
@@ -86,18 +97,27 @@
 
                </physDesc>
                <history>
-                  <origin><placeName ref="#loc.68">Verona</placeName><date when="1822-11-19">19.
-                        November 1822</date></origin>
+                  <origin>
+                            <placeName ref="#loc.68">Verona</placeName>
+                            <date when="1822-11-19">19.
+                        November 1822</date>
+                        </origin>
                </history>
             </msDesc>
             <listWit corresp="#m.2">
                <head>Procès-verbal betreffend das Vorgehen gegen die spanische Regierung</head>
-               <witness corresp="#w.2"><bibl type="print">Grewe, Fontes Historiae Juris Gentium, S.
-                     123–125;</bibl></witness>
-               <witness corresp="#w.10"><bibl type="print">Metternich, Nachgelassene Papiere, Bd. 3,
-                     S. 575–576;</bibl></witness>
-               <witness corresp="#w.4"><bibl type="print">Vnešnjaja politika Rossii, Bd. 12, S.
-                     590.</bibl></witness>
+               <witness corresp="#w.2">
+                        <bibl type="print">Grewe, Fontes Historiae Juris Gentium, S.
+                     123–125;</bibl>
+                    </witness>
+               <witness corresp="#w.10">
+                        <bibl type="print">Metternich, Nachgelassene Papiere, Bd. 3,
+                     S. 575–576;</bibl>
+                    </witness>
+               <witness corresp="#w.4">
+                        <bibl type="print">Vnešnjaja politika Rossii, Bd. 12, S.
+                     590.</bibl>
+                    </witness>
             </listWit>
          </sourceDesc>
       </fileDesc>
@@ -109,7 +129,7 @@
          </appInfo>
          <styleDefDecl scheme="css"/>
          <tagsDecl>
-            <rendition xml:id="su" scheme="css">vertical-align:sub; font-size:.7em;</rendition>
+            <rendition xml:id="su" scheme="css">vertical-align:super; font-size:.7em;</rendition>
             <rendition xml:id="s" scheme="css">text-decoration:line-through;</rendition>
             <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
             <rendition xml:id="ow">overwritten</rendition>
@@ -119,7 +139,8 @@
          <abstract>
             <p>Die <rs ref="#p.8 #p.40 #p.174 #p.102 #p.135 #p.180 #p.12 #p.175 #p.13 #p.7 #p.35 #p.75">Gesandten Österreichs, Frankreichs, Preußens und Russlands</rs> unterzeichnen den
                Procès-verbal. Nach Rücksprache mit <persName ref="#p.10">
-                  <surname>Wellington</surname></persName> wird über die Abfassung eines umfassenden
+                  <surname>Wellington</surname>
+                    </persName> wird über die Abfassung eines umfassenden
                Protokolls (protocole général) betreffend die spanische Frage entschieden werden.</p>
          </abstract>
          <particDesc>
@@ -131,10 +152,14 @@
       <body>
          <div decls="#m.1" hand="#A">
             <pb n="235v"/>
-            <p><title>Conférence de Mardi, <date when="1822-11-19">19 <choice>
+            <p>
+                    <title>Conférence de Mardi, <date when="1822-11-19">19 <choice>
                         <abbr>Novemb.</abbr>
                         <expan>Novembre</expan>
-                     </choice></date></title></p>
+                     </choice>
+                        </date>
+                    </title>
+                </p>
 
             <p>Ce soir, <choice>
                   <abbr>MM.</abbr>
@@ -149,32 +174,44 @@
                   <abbr>MM.</abbr>
                   <expan>Messieurs</expan>
                </choice> les Chefs des quatre Cabinets s’en seront expliqués avec <choice>
-                  <abbr>M<hi rendition="#su">r</hi></abbr>
+                  <abbr>M<hi rendition="#su">r</hi>
+                        </abbr>
                   <expan>Monsieur</expan>
-               </choice> le <persName ref="#p.10"><roleName>Duc</roleName>
-                  <surname>de Wellington</surname></persName>. </p>
+               </choice> le <persName ref="#p.10">
+                        <roleName>Duc</roleName>
+                  <surname>de Wellington</surname>
+                    </persName>. </p>
          </div>
 
          <div decls="#m.2">
             <pb n="227r"/>
-            <p><add place="top" hand="#AmB"><choice>
+            <p>
+                    <add place="top" hand="#AmB">
+                        <choice>
                      <abbr>N.</abbr>
                      <expan>Numéro</expan>
-                  </choice> 13</add></p>
+                  </choice> 13</add>
+                </p>
             <p>
-               <hi rendition="#u"><title>Procès-Verbal</title></hi>,</p>
-            <p>signé par Messieurs les <rs ref="#p.8 #p.40 #p.174 #p.102 #p.135 #p.180 #p.12 #p.175 #p.13 #p.7 #p.35 #p.75">Plénipotentiaires d’Autriche, de France, de Prusse et de Russie</rs></p>
-            <p><placeName ref="#loc.68">Vérone</placeName>, le <date when="1822-11-19">19 Novembre
+               <hi rendition="#u">
+                        <title>Procès-Verbal</title>
+                    </hi>,</p>
+            <p>signé par Messieurs les <rs ref="#p.8 #p.40 #p.174 #p.102 #p.135 #p.180 #p.12 #p.175 #p.13 #p.7 #p.35 #p.75">Plénipotentiaires d’Autriche, de France, de Prusse et de Russie</rs>
+                </p>
+            <p>
+                    <placeName ref="#loc.68">Vérone</placeName>, le <date when="1822-11-19">19 Novembre
                   1822</date>.</p>
             <p>Les <rs ref="#p.8 #p.40 #p.174 #p.102 #p.135 #p.180 #p.12 #p.175 #p.13 #p.7 #p.35 #p.75">Plénipotentiaires d’Autriche, de France, de Prusse et de Russie</rs>, ayant jugé
                nécessaire de déterminer les cas dans lesquels les engagemens éventuels pris avec la
                Cour de France par les Cours d’Autriche, de Prusse et de Russie dans la supposition
                d’une guerre déclarée ou provoquée par le Gouvernement <app>
                   <lem>actuel</lem>
-                  <rdg><subst>
+                  <rdg>
+                            <subst>
                         <del>révolutionnaire</del>
                         <add>actuel</add>
-                     </subst></rdg>
+                     </subst>
+                        </rdg>
                </app> de l’<country>Espagne</country> deviendroient obligatoires pour les Puissances
                qui y ont pris part, sont convenus de préciser l’application desdits engagemens dans
                les termes suivans :</p>
@@ -186,17 +223,20 @@
                sont :</p>
             <p>1. Celui d’une attaque à main armée de la part de l’<country>Espagne</country> contre <app>
                   <lem>le territoire français</lem>
-                  <rdg><subst>
+                  <rdg>
+                            <subst>
                         <del>l'une ou l'autre des puissances signataires du présent acte</del>
                         <add>le territoire français</add>
-                     </subst></rdg>
+                     </subst>
+                        </rdg>
                </app>, ou d’un acte officiel du Gouvernement espagnol, provoquant directement à la
                rébellion les sujets de l’une ou de l’autre des Puissances ;</p>
             <p>2. Celui de la déchéance prononcée contre <rs ref="#p.30">Sa Majesté<pb n="227v"/> le
                   Roi d’Espagne</rs>, d’un procès intenté à Son Auguste personne, ou d’un attentat
                de même nature contre les membres de Sa famille ;</p>
             <p>3. Celui d’un acte formel du <choice>
-                  <abbr>Gouvernem<hi rendition="#su">t</hi></abbr>
+                  <abbr>Gouvernem<hi rendition="#su">t</hi>
+                        </abbr>
                   <expan>Gouvernement</expan>
                </choice> espagnol, portant atteinte aux droits de succession légitime de la famille
                Royale.</p>
@@ -209,46 +249,103 @@
                trouvent désignés à l’article I, il est arrêté que tel cas non spécifié ou tout autre
                cas analogue venant à se réaliser, les <rs ref="#p.2 #p.7 #p.4">Ministres des Hautes
                   Cours alliées accrédités près de <rs xml:id="n.2" ref="#p.15">Sa Majesté Très
-                     Chrétienne</rs></rs><note type="editorial" target="#n.2">Ehrentitel des Königs
+                     Chrétienne</rs>
+                    </rs>
+                    <note type="editorial" target="#n.2">Ehrentitel des Königs
                   von Frankreich.</note> se réuniront avec le Cabinet de France pour examiner et
                déterminer si le cas en question doit être considéré comme rentrant dans la classe
-               des <rs xml:id="n.3"><hi rendition="#u">Casus foederis</hi></rs>
+               des <rs xml:id="n.3">
+                        <hi rendition="#u">Casus foederis</hi>
+                    </rs>
                <note type="editorial" target="#n.3">Lat.: Bündnisfall.</note> prévus et définis, et
                exigeant comme tel l’application directe des engagemens pris par les Hautes
                Puissances.</p>
             <p>(Signatures)</p>
             <table rend="rules">
                <row>
-                  <cell><persName ref="#p.8"><surname>Metternich</surname></persName></cell>
-                  <cell><persName ref="#p.174"><surname ref="#p.174">Montmorency</surname></persName></cell>
-                  <cell><persName ref="#p.12"><surname>Bernstorff</surname></persName></cell>
-                  <cell><persName ref="#p.13"><surname>Nesselrode</surname></persName></cell>
+                  <cell>
+                            <persName ref="#p.8">
+                                <surname>Metternich</surname>
+                            </persName>
+                        </cell>
+                  <cell>
+                            <persName ref="#p.174">
+                                <surname ref="#p.174">Montmorency</surname>
+                            </persName>
+                        </cell>
+                  <cell>
+                            <persName ref="#p.12">
+                                <surname>Bernstorff</surname>
+                            </persName>
+                        </cell>
+                  <cell>
+                            <persName ref="#p.13">
+                                <surname>Nesselrode</surname>
+                            </persName>
+                        </cell>
                </row>
                <row>
-                  <cell><persName ref="#p.40"><surname>Lebzeltern</surname></persName></cell>
-                  <cell>le <persName ref="#p.102"><roleName><choice>
-                              <abbr>M<hi rendition="#su">is</hi></abbr>
+                  <cell>
+                            <persName ref="#p.40">
+                                <surname>Lebzeltern</surname>
+                            </persName>
+                        </cell>
+                  <cell>le <persName ref="#p.102">
+                                <roleName>
+                                    <choice>
+                              <abbr>M<hi rendition="#su">is</hi>
+                                        </abbr>
                               <expan>Marquis</expan>
-                           </choice></roleName>
-                        <surname>de Caraman</surname></persName></cell>
-                  <cell><persName ref="#p.175"><surname>Hatzfeldt</surname></persName></cell>
-                  <cell><persName ref="#p.75"><surname>Lieven</surname></persName></cell>
+                           </choice>
+                                </roleName>
+                        <surname>de Caraman</surname>
+                            </persName>
+                        </cell>
+                  <cell>
+                            <persName ref="#p.175">
+                                <surname>Hatzfeldt</surname>
+                            </persName>
+                        </cell>
+                  <cell>
+                            <persName ref="#p.75">
+                                <surname>Lieven</surname>
+                            </persName>
+                        </cell>
                </row>
                <row>
                   <cell/>
-                  <cell><persName ref="#p.135"><roleName><choice>
-                              <abbr>C<hi rendition="#su">te</hi></abbr>
+                  <cell>
+                            <persName ref="#p.135">
+                                <roleName>
+                                    <choice>
+                              <abbr>C<hi rendition="#su">te</hi>
+                                        </abbr>
                               <expan>Comte</expan>
-                           </choice></roleName>
-                        <surname>de La Ferronnays</surname></persName></cell>
+                           </choice>
+                                </roleName>
+                        <surname>de La Ferronnays</surname>
+                            </persName>
+                        </cell>
                   <cell/>
-                  <cell><persName ref="#p.35"><surname>Tatistcheff</surname></persName></cell>
+                  <cell>
+                            <persName ref="#p.35">
+                                <surname>Tatistcheff</surname>
+                            </persName>
+                        </cell>
                </row>
                <row>
                   <cell/>
-                  <cell><persName ref="#p.180"><surname>Chateaubriand</surname></persName></cell>
+                  <cell>
+                            <persName ref="#p.180">
+                                <surname>Chateaubriand</surname>
+                            </persName>
+                        </cell>
                   <cell/>
-                  <cell><persName ref="#p.7"><surname>Pozzo di Borgo</surname></persName></cell>
+                  <cell>
+                            <persName ref="#p.7">
+                                <surname>Pozzo di Borgo</surname>
+                            </persName>
+                        </cell>
                </row>
             </table>
          </div>

@@ -328,10 +328,23 @@
             </xsl:when>
             <xsl:otherwise>
                 <span>
-                    <xsl:attribute name="style">
-                        <xsl:value-of select="@rend"/>
-                    </xsl:attribute>
-                    <xsl:apply-templates/>
+                    <xsl:choose>
+                        <xsl:when test="@rend">
+                            <xsl:attribute name="style">
+                                <xsl:value-of select="root()//tei:rend[@xml:id=current()/@rend]"/>
+                            </xsl:attribute>
+                            <xsl:apply-templates/>
+                        </xsl:when>
+                        <xsl:when test="@rendition">
+                            <xsl:attribute name="style">
+                                <xsl:value-of select="root()//tei:rendition[@xml:id=current()/@rendition]"/>
+                            </xsl:attribute>
+                            <xsl:apply-templates/>
+                        </xsl:when>
+                        <xsl:otherwise>
+                            <xsl:apply-templates/>
+                        </xsl:otherwise>
+                    </xsl:choose>
                 </span>
             </xsl:otherwise>
         </xsl:choose>
@@ -372,10 +385,10 @@
                     <xsl:attribute name="id">
                         <xsl:value-of select="$msId"/>
                     </xsl:attribute>
-                    <xsl:attribute name="title">
-                        <xsl:value-of select="*//tei:handNote[@xml:id='$handId']"/>
-                        <!--<xsl:value-of select="$handId"/>--> <!--is not work! TODO -->
-                    </xsl:attribute>
+                    <xsl:element name="p">
+                        <xsl:text>Hand von </xsl:text>
+                        <xsl:value-of select="root()//tei:handNote[@xml:id=$handId]"/>
+                    </xsl:element>
                     <xsl:apply-templates/>
                 </xsl:element>
             </xsl:when>
@@ -492,8 +505,12 @@
                     </xsl:otherwise>
                 </xsl:choose>
                 <xsl:if test="@hand">
+                    <xsl:variable name="handId" select="substring-after(@hand, '#')"/>
                     <xsl:text>durch </xsl:text>
-                    <xsl:value-of select="./@hand"/>: <xsl:value-of select="*//tei:handNote[@xml:id='$handId']"/>
+                    <xsl:value-of select="root()//tei:handNote[@xml:id=$handId]"/>
+                    <xsl:text> (</xsl:text>
+                        <xsl:value-of select="./@hand"/>
+                    <xsl:text>)</xsl:text>
                 </xsl:if>
             </xsl:attribute>
             <xsl:text/>

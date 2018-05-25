@@ -1,5 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -9,10 +11,13 @@
                <persName>
                   <surname>Schneider</surname>
                   <forename>Karin</forename>
-               </persName></editor>
+               </persName>
+                </editor>
          </titleStmt>
          <editionStmt>
-            <edition><date>2017-03-13</date></edition>
+            <edition>
+                    <date>2017-03-13</date>
+                </edition>
          </editionStmt>
          <publicationStmt>
             <publisher>Österreichische Akademie der Wissenschaften, Institut für Neuzeit- und
@@ -38,10 +43,18 @@
                   </msItem>
                </msContents>
                <physDesc>
-                  <p>Eigenhändiges Journal von <persName ref="#p.5"><forename>Friedrich</forename>
-                        <surname>Gentz</surname></persName></p>
-                  <p><persName ref="#p.168"><surname>Corsini</surname></persName> auf
-                     Teilnehmerliste von <persName ref="#p.8"><surname>Metternich</surname></persName> ergänzt.</p>
+                  <p>Eigenhändiges Journal von <persName ref="#p.5">
+                                <forename>Friedrich</forename>
+                        <surname>Gentz</surname>
+                            </persName>
+                        </p>
+                  <p>
+                            <persName ref="#p.168">
+                                <surname>Corsini</surname>
+                            </persName> auf
+                     Teilnehmerliste von <persName ref="#p.8">
+                                <surname>Metternich</surname>
+                            </persName> ergänzt.</p>
 
                   <handDesc>
                      <handNote xml:id="A">Anonyme Hand</handNote>
@@ -54,8 +67,11 @@
 
                </physDesc>
                <history>
-                  <origin><placeName ref="#loc.65">Laibach</placeName><date when="1821-01-26">26.
-                        Jänner 1821</date></origin>
+                  <origin>
+                            <placeName ref="#loc.65">Laibach</placeName>
+                            <date when="1821-01-26">26.
+                        Jänner 1821</date>
+                        </origin>
                </history>
             </msDesc>
             <msDesc xml:id="m.2" type="Ausfertigung">
@@ -148,8 +164,10 @@
             </msDesc>
             <listWit corresp="#m.1">
                <head>Journal</head>
-               <witness corresp="#w.37"><bibl type="print">Alberti, Atti, S.
-                  412-415.</bibl></witness>
+               <witness corresp="#w.37">
+                        <bibl type="print">Alberti, Atti, S.
+                  412-415.</bibl>
+                    </witness>
             </listWit>
          </sourceDesc>
       </fileDesc>
@@ -161,7 +179,7 @@
          </appInfo>
          <styleDefDecl scheme="css"/>
          <tagsDecl>
-            <rendition xml:id="su" scheme="css">vertical-align:sub; font-size:.7em;</rendition>
+            <rendition xml:id="su" scheme="css">vertical-align:super; font-size:.7em;</rendition>
             <rendition xml:id="s" scheme="css">text-decoration:line-through;</rendition>
             <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
             <rendition xml:id="r" scheme="css">display:block; text-align:right;</rendition>
@@ -170,11 +188,17 @@
       <profileDesc>
          <abstract>
             <p>Die Journale der sieben ersten Sitzungen werden in Anwesenheit der <rs ref="#p.164 #p.165 #p.166 #p.167 #p.168">Bevollmächtigten der italienischen
-                  Höfe</rs> verlesen. Der päpstliche Bevollmächtigte, <persName ref="#p.164"><roleName>Kardinal</roleName>
+                  Höfe</rs> verlesen. Der päpstliche Bevollmächtigte, <persName ref="#p.164">
+                        <roleName>Kardinal</roleName>
                   <forename>Giuseppe</forename>
-                  <surname>Spina</surname></persName>, verliest eine Erklärung; Entgegnung des
-               russischen Vertreters <persName ref="#p.14"><surname>Kapodistrias</surname></persName> sowie des britischen Gesandten
-                  <persName ref="#p.137"><surname>Stewart</surname></persName>. Verlesung je einer
+                  <surname>Spina</surname>
+                    </persName>, verliest eine Erklärung; Entgegnung des
+               russischen Vertreters <persName ref="#p.14">
+                        <surname>Kapodistrias</surname>
+                    </persName> sowie des britischen Gesandten
+                  <persName ref="#p.137">
+                        <surname>Stewart</surname>
+                    </persName>. Verlesung je einer
                britischen, sardischen, toskanischen und modenesischen Deklaration.</p>
          </abstract>
          <particDesc>
@@ -242,18 +266,28 @@
       <body>
          <div hand="#G" decls="#m.1">
             <pb n="30r"/>
-            <p><title rendition="#u">Journal des Conférences</title></p>
-            <p><title rendition="#u"><choice>
+            <p>
+                    <title rendition="#u">Journal des Conférences</title>
+                </p>
+            <p>
+                    <title rendition="#u">
+                        <choice>
                      <abbr>Nr</abbr>
                      <expan>Numéro</expan>
-                  </choice> VIII.</title></p>
-            <p rendition="#u"><placeName ref="#loc.65">Laybach</placeName> le <date when="1821-01-26">26 Janvier 1821</date></p>
+                  </choice> VIII.</title>
+                </p>
+            <p rendition="#u">
+                    <placeName ref="#loc.65">Laybach</placeName> le <date when="1821-01-26">26 Janvier 1821</date>
+                </p>
 
             <p>Son Eminence <choice>
                   <abbr>Msgr.</abbr>
                   <expan>Monseigneur</expan>
-               </choice> le <persName ref="#p.164"><roleName>Cardinal</roleName>
-                  <surname>Spina</surname></persName> et <rs ref="#p.166 #p.167 #p.168 #p.165"><choice>
+               </choice> le <persName ref="#p.164">
+                        <roleName>Cardinal</roleName>
+                  <surname>Spina</surname>
+                    </persName> et <rs ref="#p.166 #p.167 #p.168 #p.165">
+                        <choice>
                      <abbr>Mrs.</abbr>
                      <expan>Messieurs</expan>
                   </choice> les Plénipotentiaires de <choice>
@@ -265,7 +299,8 @@
                   </choice> le <rs ref="#p.170">Grand-Duc de Toscane</rs> et de <choice>
                      <abbr>S. A. R.</abbr>
                      <expan>Son Altesse Royale</expan>
-                  </choice> le <rs ref="#p.171">Duc de Modène</rs></rs> ont assisté à la conférence
+                  </choice> le <rs ref="#p.171">Duc de Modène</rs>
+                    </rs> ont assisté à la conférence
                de ce jour.</p>
             <p>Pour les mettre au fait des explications réciproques qui depuis l’arrivée de <choice>
                   <abbr>S. M.</abbr>
@@ -275,22 +310,28 @@
                   Plénipotentiaires</rs> au Congrès, <choice>
                   <abbr>Mr.</abbr>
                   <expan>Monsieur</expan>
-               </choice> le <persName ref="#p.8"><roleName>Prince</roleName>
-                  <surname>de Metternich</surname></persName> a fait communication à <choice>
+               </choice> le <persName ref="#p.8">
+                        <roleName>Prince</roleName>
+                  <surname>de Metternich</surname>
+                    </persName> a fait communication à <choice>
                   <abbr>Mrs.</abbr>
                   <expan>Messieurs</expan>
                </choice>
                <rs ref="#p.164 #p.165 #p.166 #p.167 #p.168">les Ministres des Cours d’Italie</rs> du
-               Journal des sept premières conférences, ainsi que de la lettre que <rs ref="#p.138"><choice>
+               Journal des sept premières conférences, ainsi que de la lettre que <rs ref="#p.138">
+                        <choice>
                      <abbr>S. M.</abbr>
                      <expan>Sa Majesté</expan>
                   </choice> Sicilienne</rs> va adresser au <rs ref="#p.141">Duc de Calabre</rs>, son
                fils.</p>
-            <p><choice>
+            <p>
+                    <choice>
                   <abbr>Mr.</abbr>
                   <expan>Monsieur</expan>
-               </choice> le <persName ref="#p.8"><roleName>Prince</roleName>
-                  <surname>de Metternich</surname></persName> a accompagné la lecture de ces pièces
+               </choice> le <persName ref="#p.8">
+                        <roleName>Prince</roleName>
+                  <surname>de Metternich</surname>
+                    </persName> a accompagné la lecture de ces pièces
                de plusieurs observations sur les principes et la marche suivis par les Cabinets
                Alliés relativement aux affaires du <country>Royaume des Deux-Siciles</country>,
                exprimant en même tems combien il seroit satisfaisant pour ces Cabinets et utile au
@@ -302,29 +343,41 @@
                la situation présente et au sort futur du dit Royaume, en autant qu’ils se
                trouveroient d’accord avec la ligne de conduite observée jusqu’ici dans cette affaire
                et que leurs instructions les y autoriseroient, énonçassent l’assentiment de <rs ref="#p.155 #p.169 #p.170 #p.171">leurs Souverains</rs> respectifs.</p>
-            <p><choice>
+            <p>
+                    <choice>
                   <abbr>Mr.</abbr>
                   <expan>Monsieur</expan>
-               </choice> le <persName ref="#p.8"><roleName>Prince</roleName>
-                  <surname>de Metternich</surname></persName> s’est d’abord adressé pour cet effet à
+               </choice> le <persName ref="#p.8">
+                        <roleName>Prince</roleName>
+                  <surname>de Metternich</surname>
+                    </persName> s’est d’abord adressé pour cet effet à
                Son Eminence <choice>
                   <abbr>Msgr</abbr>
                   <expan>Monseigneur</expan>
-               </choice> le <persName ref="#p.164"><roleName>Cardinal</roleName>
-                  <surname>Spina</surname></persName> lequel a fait <ref decls="#m.2">la
+               </choice> le <persName ref="#p.164">
+                        <roleName>Cardinal</roleName>
+                  <surname>Spina</surname>
+                    </persName> lequel a fait <ref decls="#m.2">la
                   déclaration</ref> dont la
                teneur suit :</p>
             <p>Les puissances alliées ont invité <rs ref="#p.155">Sa Sainteté</rs> par l’organe de
-                  <rs ref="#p.156 #p.157 #p.158">leurs Ministres à <placeName ref="#loc.6">Rome</placeName></rs> à envoyer au Congrès de <placeName ref="#loc.65">Laybach</placeName> une personne revêtue de Sa confiance, à l’effet <ref target="Troppau_Prot_6.xml"><quote>« de se concerter sur les principes à adopter
+                  <rs ref="#p.156 #p.157 #p.158">leurs Ministres à <placeName ref="#loc.6">Rome</placeName>
+                    </rs> à envoyer au Congrès de <placeName ref="#loc.65">Laybach</placeName> une personne revêtue de Sa confiance, à l’effet <ref target="Troppau_Prot_6.xml">
+                        <quote>« de se concerter sur les principes à adopter
                         <metamark rend="Bleistiftstrich" place="margin">pour assurer aux Peuples du
                            <country>Royaume de Naples</country> un gouvernement stable qui offre une
                         garantie d’une tranquillité permanente et générale, sans blesser les
-                        intérêts des autres Etats de la Péninsule</metamark> »</quote></ref>. Ce
+                        intérêts des autres Etats de la Péninsule</metamark> »</quote>
+                    </ref>. Ce
                n’est que pour cet objet que <rs ref="#p.155">Sa Sainteté</rs> a honoré de Sa
-               confiance le <persName ref="#p.164"><roleName>Cardinal</roleName>
-                  <surname>Spina</surname></persName>, Légat<pb n="31r"/> à <placeName ref="#loc.67">Bologne</placeName>, et l’a envoyé à <placeName ref="#loc.65">Laybach</placeName>. Les instructions qu’Il a reçues n’ont pas d’autre but. Le
-                  <persName ref="#p.164"><roleName>Cardinal</roleName>
-                  <surname>Spina</surname></persName> n’est donc point autorisé à donner son avis
+               confiance le <persName ref="#p.164">
+                        <roleName>Cardinal</roleName>
+                  <surname>Spina</surname>
+                    </persName>, Légat<pb n="31r"/> à <placeName ref="#loc.67">Bologne</placeName>, et l’a envoyé à <placeName ref="#loc.65">Laybach</placeName>. Les instructions qu’Il a reçues n’ont pas d’autre but. Le
+                  <persName ref="#p.164">
+                        <roleName>Cardinal</roleName>
+                  <surname>Spina</surname>
+                    </persName> n’est donc point autorisé à donner son avis
                sur les affaires qui ont été traitées dans les conférences, et Il doit d’autant plus
                Se renfermer dans la ligne de Ses instructions qu’Il connoît la ferme volonté du <rs ref="#p.155">Saint-Père</rs> de garder, en sa qualité de Souverain temporel, la
                plus exacte neutralité. Au reste, <rs ref="#p.155">Sa Sainteté</rs> ne peut qu’être
@@ -334,13 +387,17 @@
                   <country>Royaume de Naples</country> ; et <rs ref="#p.155">Sa Sainteté</rs> sera
                toujours prête à employer Sa voix et Son influence paternelle pour ramener un parfait
                accord entre ce Royaume et le reste de l’Europe.</p>
-            <p><choice>
+            <p>
+                    <choice>
                   <abbr>Mr.</abbr>
                   <expan>Monsieur</expan>
-               </choice> le <persName ref="#p.14"><roleName>Comte</roleName>
-                  <surname>de Capodistrias</surname></persName> a fait sur la déclaration de<pb n="31v"/>
+               </choice> le <persName ref="#p.14">
+                        <roleName>Comte</roleName>
+                  <surname>de Capodistrias</surname>
+                    </persName> a fait sur la déclaration de<pb n="31v"/>
                <rs ref="#p.164">Son Eminence</rs> les observations suivantes :</p>
-            <p><rs ref="#p.155">Sa Sainteté</rs>, en envoyant <choice>
+            <p>
+                    <rs ref="#p.155">Sa Sainteté</rs>, en envoyant <choice>
                   <abbr>Msgr.</abbr>
                   <expan>Monseigneur</expan>
                </choice> le <rs ref="#p.164">Cardinal</rs> à <placeName ref="#loc.65">Laybach</placeName> pour y prendre part aux délibérations qui auroient pour objet
@@ -348,7 +405,9 @@
                compatible avec la sureté et la tranquillité de l’Italie, paroît par ce fait même
                avoir admis que les changemens opérés à <placeName ref="#loc.11">Naples</placeName> à
                la suite <rs xml:id="n.2">des évènemens du <date when="1820-07-02">2
-                  Juillet</date></rs><note type="editorial" target="#n.2">Am <date when="1820-07-02">2. Juli 1820</date> meuterte die Militärgarnison in Nola, 35 km von <placeName ref="#loc.11">Neapel</placeName> entfernt. Das Datum gilt als Beginn der
+                  Juillet</date>
+                    </rs>
+                    <note type="editorial" target="#n.2">Am <date when="1820-07-02">2. Juli 1820</date> meuterte die Militärgarnison in Nola, 35 km von <placeName ref="#loc.11">Neapel</placeName> entfernt. Das Datum gilt als Beginn der
                   Revolution im <country>Königreich beider Sizilien</country>. Vgl. Stites, The four
                   Horsemen; Davis, Naples and Napoleon; Gin, Sanfedisti, Carbonari, Magistrati del
                   Re; Späth, Revolution in Europa, S. 129–149.</note> sont contraires au repos et au
@@ -361,14 +420,18 @@
                Souverain Temporel, un système de stricte neutralité, et que l’auguste caractère dont
                le <rs ref="#p.155">Saint-Père</rs> est revêtu ne lui permette pas de prendre une
                part quelconque à des mesures coercitives que les puissances pourroient se voir
-               contraintes d’adopter, <rs ref="#p.155">Sa Sainteté</rs><pb n="32r"/> n’en conservera
+               contraintes d’adopter, <rs ref="#p.155">Sa Sainteté</rs>
+                    <pb n="32r"/> n’en conservera
                pas moins la faculté d’appuyer de Sa puissante et respectable influence les démarches
                qui auront pour but de porter les Napolitains à ne pas méconnoitre la voix paternelle
                de leur <rs ref="#p.138">Roi</rs>, et de contribuer ainsi à l’accomplissement du but
                salutaire des <rs ref="#p.16 #p.18 #p.17">Souverains Alliés</rs> sans compromettre
                aucunement la neutralité qu’Elle est résolue de garder pour Ses Etats.</p>
-            <p><persName ref="#p.137"><roleName>Lord</roleName>
-                  <surname>Stewart</surname></persName> a observé qu’il n’avoit de difficulté à
+            <p>
+                    <persName ref="#p.137">
+                        <roleName>Lord</roleName>
+                  <surname>Stewart</surname>
+                    </persName> a observé qu’il n’avoit de difficulté à
                faire connoitre à <rs ref="#p.164">Son Eminence</rs> et à <choice>
                   <abbr>Mrs.</abbr>
                   <expan>Messieurs</expan>
@@ -381,11 +444,14 @@
                Gouvernement Brittannique ne fût toujours prêt à énoncer ce sentiment parfaitement
                compatible avec la ligne de neutralité que <rs ref="#p.130">Sa Majesté</rs> avoit
                jugé nécessaire d’adopter.</p>
-            <p><choice>
+            <p>
+                    <choice>
                   <abbr>Mr.</abbr>
                   <expan>Monsieur</expan>
-               </choice> le <persName ref="#p.166"><roleName>Marquis</roleName>
-                  <surname>de Saint-Marsan</surname></persName>,<pb n="32v"/> Plénipotentiaire de <choice>
+               </choice> le <persName ref="#p.166">
+                        <roleName>Marquis</roleName>
+                  <surname>de Saint-Marsan</surname>
+                    </persName>,<pb n="32v"/> Plénipotentiaire de <choice>
                   <abbr>S. M.</abbr>
                   <expan>Sa Majesté</expan>
                </choice> le <rs ref="#p.169">Roi de Sardaigne</rs>, a fait ensuite <ref decls="#m.3">une déclaration</ref> en
@@ -432,11 +498,14 @@
                assurer le bonheur de ceux-ci. En conséquence, <rs ref="#p.169">Sa Majesté</rs> ne
                peut que donner Sa pleine adhésion, soit aux déterminations qui ont été prises, soit
                aux formes qui ont été adoptées.</p>
-            <p><choice>
+            <p>
+                    <choice>
                   <abbr>Mr.</abbr>
                   <expan>Monsieur</expan>
-               </choice> le <persName ref="#p.168"><roleName>Prince</roleName>
-                  <surname>de Corsini</surname></persName>, Plénipotentiaire de <choice>
+               </choice> le <persName ref="#p.168">
+                        <roleName>Prince</roleName>
+                  <surname>de Corsini</surname>
+                    </persName>, Plénipotentiaire de <choice>
                   <abbr>S. A. I. R.</abbr>
                   <expan>Son Altesse Impériale Royale</expan>
                </choice>
@@ -445,10 +514,12 @@
                   <expan>Monseigneur</expan>
                </choice> le <rs ref="#p.170">Grand-Duc de Toscane</rs>, <ref decls="#m.4">a
                   déclaré</ref> :</p>
-            <p>Que <rs ref="#p.170"><choice>
+            <p>Que <rs ref="#p.170">
+                        <choice>
                      <abbr>S. A. I. R.</abbr>
                      <expan>Son Altesse Impériale Royale</expan>
-                  </choice></rs> avoit envisagé la révolution de <country>Naples</country> sous le
+                  </choice>
+                    </rs> avoit envisagé la révolution de <country>Naples</country> sous le
                même aspect sous lequel l’ont regardée les puissances réunies à <placeName ref="#loc.60">Troppau</placeName> et ici ;</p>
             <p>Qu’il a vu arriver avec la plus grande satisfaction en Italie une armée Autrichienne
                dont la présence a rassuré les Gouvernemens et réprimé les Malveillans ;</p>
@@ -466,11 +537,14 @@
             <p>Qu’en portant ensuite sa considération sur les formes d’après lesquelles on vient de
                lui annoncer que l’exécution de ces mesures sera dirigée, il ne peut que les trouver
                très convenables et leur donner Son entier adhésion.</p>
-            <p><choice>
+            <p>
+                    <choice>
                   <abbr>Mr.</abbr>
                   <expan>Monsieur</expan>
-               </choice> le <persName ref="#p.165"><roleName>Marquis</roleName>
-                  <surname>de Molza</surname></persName>, Plénipotentiaire de <choice>
+               </choice> le <persName ref="#p.165">
+                        <roleName>Marquis</roleName>
+                  <surname>de Molza</surname>
+                    </persName>, Plénipotentiaire de <choice>
                   <abbr>S. A. R.</abbr>
                   <expan>Son Altesse Royale</expan>
                </choice>
@@ -479,8 +553,10 @@
                   <expan>Monseigneur</expan>
                </choice> l’<rs ref="#p.171">archiduc,<pb n="41v"/> Duc de Modène</rs>, a déclaré ce
                qui suit :</p>
-            <p>Le <persName ref="#p.165"><roleName>Marquis</roleName>
-                  <surname>de Molza</surname></persName>
+            <p>Le <persName ref="#p.165">
+                        <roleName>Marquis</roleName>
+                  <surname>de Molza</surname>
+                    </persName>
                <choice>
                   <abbr>etc.</abbr>
                   <expan>et cetera</expan>
@@ -497,7 +573,8 @@
                   <country>Naples</country>, mais Elle s’empresse de leur exprimer son entière
                adhésion, reconnoissant dans la droiture du procédé des <rs ref="#p.16 #p.18 #p.17">Monarques Alliés</rs> et dans la sagesse de leurs déterminations l’intérêt qu’Ils
                prennent à la tranquillité de l’Italie et les égards éclairés qu’Ils ont voués à la
-               situation de <rs ref="#p.138"><choice>
+               situation de <rs ref="#p.138">
+                        <choice>
                      <abbr>S. M.</abbr>
                      <expan>Sa Majesté</expan>
                   </choice> Sicilienne</rs>.</p>
@@ -507,32 +584,52 @@
                   <expan>Messieurs</expan>
                </choice> les <rs ref="#p.165 #p.166 #p.167 #p.168">Plénipotentiaires des Cours
                   d’Italie</rs> ont été prévenus qu’il leur sera incessamment donné communication
-               des instructions qu’à l’appui de la démarche de <rs ref="#p.138"><choice>
+               des instructions qu’à l’appui de la démarche de <rs ref="#p.138">
+                        <choice>
                      <abbr>S. M.</abbr>
                      <expan>Sa Majesté</expan>
                   </choice> Sicilienne</rs> on adressera, conformément au Journal des Conférences,
-               aux <rs ref="#p.144 #p.148 #p.149">agens diplomatiques des <rs ref="#p.16 #p.18 #p.17">Souverains Alliés</rs> à <placeName ref="#loc.11">Naples</placeName></rs>.</p>
-            <p rendition="#r"><add>Lu et Certifié</add></p>
-            <p rendition="#r"><add>À la Conférence du <date when="1821-01-28">28
-                  Janvier</date></add></p>
-            <signed rendition="#r"><persName ref="#p.5"><surname>Gentz</surname></persName></signed>
+               aux <rs ref="#p.144 #p.148 #p.149">agens diplomatiques des <rs ref="#p.16 #p.18 #p.17">Souverains Alliés</rs> à <placeName ref="#loc.11">Naples</placeName>
+                    </rs>.</p>
+            <p rendition="#r">
+                    <add>Lu et Certifié</add>
+                </p>
+            <p rendition="#r">
+                    <add>À la Conférence du <date when="1821-01-28">28
+                  Janvier</date>
+                    </add>
+                </p>
+            <signed rendition="#r">
+                    <persName ref="#p.5">
+                        <surname>Gentz</surname>
+                    </persName>
+                </signed>
          </div>
 
          <div hand="#A" decls="#m.2">
             <pb n="33r"/>
-            <p><title>Note verbale</title></p>
+            <p>
+                    <title>Note verbale</title>
+                </p>
             <p>Les Puissances Alliées ont invité <rs ref="#p.155">Sa Sainteté</rs>, par l’organe de
-                  <rs ref="#p.156 #p.157 #p.158">leur Ministres à <placeName ref="#loc.6">Rome</placeName></rs>, à envoyer au Congrès de <placeName ref="#loc.65">Laybach</placeName> une personne revêtue de sa confiance, à l’effet <hi rendition="#u">de se concerter sur les principes à adopter pour assurer aux
+                  <rs ref="#p.156 #p.157 #p.158">leur Ministres à <placeName ref="#loc.6">Rome</placeName>
+                    </rs>, à envoyer au Congrès de <placeName ref="#loc.65">Laybach</placeName> une personne revêtue de sa confiance, à l’effet <hi rendition="#u">de se concerter sur les principes à adopter pour assurer aux
                   Peuples du <country>Royaume de Naples</country> un gouvernement stable qui offre
                   une garantie d’une tranquillité permanente et générale, sans blesser les intérêts
-                  des autres Etats de la Péninsule</hi>. Ce n’est que pour cet objet que <rs ref="#p.155">Sa Sainteté</rs> a honoré de sa confiance le <persName ref="#p.164"><roleName>Cardinal</roleName>
-                  <surname>Spina</surname></persName>, Légat à <placeName ref="#loc.67">Bologne</placeName>, et l’a envoyé à <placeName ref="#loc.65">Laybach</placeName>. Les instructions qu’il a reçu n’ont pas d’autre but. Le
-                  <persName ref="#p.164"><roleName>Cardinal</roleName>
-                  <surname>Spina</surname></persName> n’est donc point autorisé à donner son avis
+                  des autres Etats de la Péninsule</hi>. Ce n’est que pour cet objet que <rs ref="#p.155">Sa Sainteté</rs> a honoré de sa confiance le <persName ref="#p.164">
+                        <roleName>Cardinal</roleName>
+                  <surname>Spina</surname>
+                    </persName>, Légat à <placeName ref="#loc.67">Bologne</placeName>, et l’a envoyé à <placeName ref="#loc.65">Laybach</placeName>. Les instructions qu’il a reçu n’ont pas d’autre but. Le
+                  <persName ref="#p.164">
+                        <roleName>Cardinal</roleName>
+                  <surname>Spina</surname>
+                    </persName> n’est donc point autorisé à donner son avis
                sur les affaires qui ont été traitées dans les conférences, et il doit d’autant plus
                se renfermer dans<pb n="33v"/> la ligne de ses instructions qu’il connoit la ferme
-               volonté du <rs ref="#p.155"><choice>
-                     <abbr>S<hi rendition="#su">t</hi></abbr>
+               volonté du <rs ref="#p.155">
+                        <choice>
+                     <abbr>S<hi rendition="#su">t</hi>
+                            </abbr>
                      <expan>Saint</expan>
                   </choice> Père</rs> de garder, en sa qualité de Souverain temporel, la plus exacte
                neutralité.</p>
@@ -547,7 +644,8 @@
 
          <div hand="#A" decls="#m.3">
             <pb n="34r"/>
-            <p>Au premier moment où <rs xml:id="n.5">la révolte de <country>Naples</country></rs> a
+            <p>Au premier moment où <rs xml:id="n.5">la révolte de <country>Naples</country>
+                    </rs> a
                   éclaté,<note type="editorial" target="#n.5">Am <date when="1820-07-02">2. Juli
                      1820</date> meuterte die Militärgarnison in Nola, 35 km von <placeName ref="#loc.11">Neapel</placeName> entfernt. Das Datum gilt als Beginn der
                   Revolution im <country>Königreich beider Sizilien</country>. Vgl. Stites, The four
@@ -559,10 +657,12 @@
                </choice> le <rs ref="#p.169">Roi de Sardaigne</rs> a jugé que si elle n’était pas
                détruite entièrement, et si l’on ne prévenoit pas les conséquences qui en pouvoient
                résulter, elle causeroit infailliblement la subversion des autres Etats d’Italie et
-               successivement de toute l’Europe. <rs ref="#p.169"><choice>
+               successivement de toute l’Europe. <rs ref="#p.169">
+                        <choice>
                      <abbr>S. M.</abbr>
                      <expan>Sa Majesté</expan>
-                  </choice></rs> ne s’est pas dissimulé l’influence qu’elle pouvoit avoir dans ses
+                  </choice>
+                    </rs> ne s’est pas dissimulé l’influence qu’elle pouvoit avoir dans ses
                Etats, malgré qu’Elle ait tout lieu de croire que le nombre des malveillans y soit
                très peu considérable et l’esprit de Ses trouppes excellent.</p>
             <p>La manière d’envisager le nouvel état de choses à <country>Naples</country> a été
@@ -571,10 +671,13 @@
                   <expan>Sa Majesté</expan>
                </choice> l’<rs ref="#p.16">Empereur d’Autriche</rs> et ensuite les Puissances
                réunies à <placeName ref="#loc.60">Troppau</placeName>.</p>
-            <p><rs ref="#p.169"><choice>
+            <p>
+                    <rs ref="#p.169">
+                        <choice>
                      <abbr>S. M.</abbr>
                      <expan>Sa Majesté</expan>
-                  </choice></rs> pense que la marche immédiate d’une armée autrichienne en Italie a
+                  </choice>
+                    </rs> pense que la marche immédiate d’une armée autrichienne en Italie a
                eu la plus grande influence pour déjouer les intrigues des sectaires Napolitains dans
                tout le reste de la Péninsule, et Elle m’a chargé d’en témoigner sa reconnoissance à <choice>
                   <abbr>S. M.</abbr>
@@ -590,27 +693,35 @@
                actuel de <country>Naples</country>, il est impossible d’y rétablir un ordre tel à
                assurer sa tranquillité et à délivrer de toute inquiétude les Etats voisins sans la
                présence pendant quelque tems d’une force étrangère.</p>
-            <p><rs ref="#p.169"><choice>
+            <p>
+                    <rs ref="#p.169">
+                        <choice>
                      <abbr>S. M.</abbr>
                      <expan>Sa Majesté</expan>
-                  </choice></rs>, après cela, a également apprécié infiniment la marche
+                  </choice>
+                    </rs>, après cela, a également apprécié infiniment la marche
                conciliatrice que les Puissances ont adoptée et leurs efforts pour parvenir au but
                qu’elles se proposent par tous les moyens les plus dignes de l’amour paternel de <choice>
                   <abbr>S. M.</abbr>
                   <expan>Sa Majesté</expan>
                </choice> le <rs ref="#p.138">Roi de Naples</rs> pour Ses peuples, et les plus
                propres à assurer le bonheur de ceux-ci.</p>
-            <p>En conséquence, <rs ref="#p.169"><choice>
+            <p>En conséquence, <rs ref="#p.169">
+                        <choice>
                      <abbr>S. M.</abbr>
                      <expan>Sa Majesté</expan>
-                  </choice></rs> ne peut que donner sa pleine adhésion, soit aux déterminations qui
+                  </choice>
+                    </rs> ne peut que donner sa pleine adhésion, soit aux déterminations qui
                ont été prises jusqu’ici, soit aux formes qui ont été adoptées.</p>
          </div>
 
          <div hand="#A" decls="#m.4">
             <pb n="36r"/>
-            <p><title>Note pour le journal de la Conférence du <date when="1821-01-26">26 Janvier
-                     1821</date></title></p>
+            <p>
+                    <title>Note pour le journal de la Conférence du <date when="1821-01-26">26 Janvier
+                     1821</date>
+                    </title>
+                </p>
             <p>Le <rs ref="#p.168">Ministre Plénipotentiaire de <choice>
                      <abbr>S. A. I. et R.</abbr>
                      <expan>Son Altesse Impériale et Royale</expan>
@@ -618,16 +729,19 @@
                   <choice>
                      <abbr>Mgr</abbr>
                      <expan>Monseigneur</expan>
-                  </choice> le <rs ref="#p.170">Grand-Duc de Toscane</rs></rs> a déclaré :</p>
+                  </choice> le <rs ref="#p.170">Grand-Duc de Toscane</rs>
+                    </rs> a déclaré :</p>
             <p>« Que <choice>
                   <abbr>S. A. I. et R.</abbr>
                   <expan>Son Altesse Impériale et Royale</expan>
                </choice> le <rs ref="#p.170">Grand-Duc</rs>, son Maître, avait envisagé la
                révolution de <country>Naples</country> sous le même aspect sous lequel l’ont
-               regardée les Puissances réunies à <placeName ref="#loc.60"><choice>
+               regardée les Puissances réunies à <placeName ref="#loc.60">
+                        <choice>
                      <sic>Tropau</sic>
                      <corr>Troppau</corr>
-                  </choice></placeName> et ici ;</p>
+                  </choice>
+                    </placeName> et ici ;</p>
             <p>Qu’il a vu arriver avec la plus grande satisfaction en Italie une armée autrichienne
                dont la présence a rassuré les Gouvernemens et réprimé les Malveillans ;</p>
             <p>Que le <rs ref="#p.170">Grand-Duc</rs>, quoique rassuré par la fidélité de son Peuple
@@ -648,33 +762,46 @@
 
          <div hand="#A" decls="#m.5">
             <pb n="38r"/>
-            <p><title>Déclaration du <rs ref="#p.165">Plénipotentiaire de <choice>
+            <p>
+                    <title>Déclaration du <rs ref="#p.165">Plénipotentiaire de <choice>
                         <abbr>S. A. R.</abbr>
                         <expan>Son Altesse Royale</expan>
-                     </choice> l’<rs ref="#p.171">Archiduc Duc de Modène</rs></rs>,</title></p>
-            <p><title>à insérer dans le Journal du Congrès de <placeName ref="#loc.65">Laybach</placeName> du <date when="1821-01-26">26 Janvier
-               1821</date></title></p>
-            <p>Le <persName ref="#p.165"><roleName>Marquis</roleName>
-                  <surname>Molza</surname></persName>, Plénipotentiaire de <choice>
+                     </choice> l’<rs ref="#p.171">Archiduc Duc de Modène</rs>
+                        </rs>,</title>
+                </p>
+            <p>
+                    <title>à insérer dans le Journal du Congrès de <placeName ref="#loc.65">Laybach</placeName> du <date when="1821-01-26">26 Janvier
+               1821</date>
+                    </title>
+                </p>
+            <p>Le <persName ref="#p.165">
+                        <roleName>Marquis</roleName>
+                  <surname>Molza</surname>
+                    </persName>, Plénipotentiaire de <choice>
                   <abbr>S. A. R.</abbr>
                   <expan>Son Altesse Royale</expan>
                </choice> le <rs ref="#p.171">Duc de Modène</rs>, déclare que comme son Souverain a
                vu les évènements de <country>Naples</country> avec le sentiment d’inquiétude que
                devoit lui inspirer le calcul le plus simple des dangers dont ils menacèrent de leur
                origine le repos de l’Italie entière, <supplied>il</supplied> est persuadé de la
-               nécessité de comprimer l’Esprit de Secte qui les a enfanté. <rs ref="#p.171"><choice>
+               nécessité de comprimer l’Esprit de Secte qui les a enfanté. <rs ref="#p.171">
+                        <choice>
                      <abbr>S. A. R.</abbr>
                      <expan>Son Altesse Royale</expan>
-                  </choice></rs> est témoin combien la marche des Troupes Autrichiennes en Italie a
-               calmé les esprits et arrêté le progrès de la Révolution. <rs ref="#p.171"><choice>
+                  </choice>
+                    </rs> est témoin combien la marche des Troupes Autrichiennes en Italie a
+               calmé les esprits et arrêté le progrès de la Révolution. <rs ref="#p.171">
+                        <choice>
                      <abbr>S. A. R.</abbr>
                      <expan>Son Altesse Royale</expan>
-                  </choice></rs> non seulement n’a rien a remarquer sur les mesures adoptées par les
+                  </choice>
+                    </rs> non seulement n’a rien a remarquer sur les mesures adoptées par les
                hautes Puissances alliées pour remettre l’ordre a <country>Naples</country>, mais
                Elle s’empresse de leur exprimer son entière adhésion, reconaissant dans la droiture
                du procédé des <rs ref="#p.16 #p.18 #p.17">Monarques alliés</rs> et dans la sagesse
                de leurs déterminations l’intérêt qu’ils prennent à la tranquillité de l’Italie et
-               les égards éclairés qu’ils ont voué à la situation de <rs ref="#p.138"><choice>
+               les égards éclairés qu’ils ont voué à la situation de <rs ref="#p.138">
+                        <choice>
                      <abbr>S. M.</abbr>
                      <expan>Sa Majesté</expan>
                   </choice> Sicilienne</rs>.</p>

@@ -1,5 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -11,10 +13,13 @@
                <persName>
                   <surname>Schneider</surname>
                   <forename>Karin</forename>
-               </persName></editor>
+               </persName>
+                </editor>
          </titleStmt>
          <editionStmt>
-            <edition><date>2017-03-13</date></edition>
+            <edition>
+                    <date>2017-03-13</date>
+                </edition>
          </editionStmt>
          <publicationStmt>
             <publisher>Österreichische Akademie der Wissenschaften, Institut für Neuzeit- und
@@ -36,13 +41,17 @@
                </msIdentifier>
                <msContents>
                   <msItem>
-                     <title>Antwort der französischen Delegation auf die Vorschläge <persName ref="#p.8"><surname>Metternichs</surname></persName> vom
+                     <title>Antwort der französischen Delegation auf die Vorschläge <persName ref="#p.8">
+                                    <surname>Metternichs</surname>
+                                </persName> vom
                         31. Oktober 1822 </title>
                   </msItem>
                </msContents>
                <physDesc>
                   <p>Ausfertigung</p>
-                  <p>Dokument liegt in einem Umschlag mit der Aufschrift von der Hand <persName ref="#p.8"><surname>Metternichs</surname></persName>: "No 8. Projets des
+                  <p>Dokument liegt in einem Umschlag mit der Aufschrift von der Hand <persName ref="#p.8">
+                                <surname>Metternichs</surname>
+                            </persName>: "No 8. Projets des
                      réponses des Cabinets à la proposition autrichienne".</p>
 
                   <handDesc>
@@ -57,7 +66,9 @@
 
                </physDesc>
                <history>
-                  <origin><placeName ref="#loc.68">Verona</placeName></origin>
+                  <origin>
+                            <placeName ref="#loc.68">Verona</placeName>
+                        </origin>
                </history>
             </msDesc>
 
@@ -71,7 +82,7 @@
          </appInfo>
          <styleDefDecl scheme="css"/>
          <tagsDecl>
-            <rendition xml:id="su" scheme="css">vertical-align:sub; font-size:.7em;</rendition>
+            <rendition xml:id="su" scheme="css">vertical-align:super; font-size:.7em;</rendition>
             <rendition xml:id="s" scheme="css">text-decoration:line-through;</rendition>
             <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
             <rendition xml:id="ow">overwritten</rendition>
@@ -80,7 +91,9 @@
       <profileDesc>
          <abstract>
             <p>Die <rs ref="#p.174 #p.102 #p.135 #p.180">Vertreter Frankreichs</rs> greifen die
-               Vorschläge <persName ref="#p.8"><surname>Metternichs</surname></persName> zur
+               Vorschläge <persName ref="#p.8">
+                        <surname>Metternichs</surname>
+                    </persName> zur
                schnellstmöglichen Beendigung der Revolution in <country>Spanien</country> auf und
                schlagen Separatnoten der Mächte an die spanische Regierung vor.</p>
          </abstract>

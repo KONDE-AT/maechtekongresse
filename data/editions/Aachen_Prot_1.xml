@@ -1,5 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -68,7 +70,7 @@
          </appInfo>
          <styleDefDecl scheme="css"/>
          <tagsDecl>
-            <rendition xml:id="su" scheme="css">vertical-align:sub; font-size:.7em;</rendition>
+            <rendition xml:id="su" scheme="css">vertical-align:super; font-size:.7em;</rendition>
             <rendition xml:id="s" scheme="css">text-decoration:line-through;</rendition>
          </tagsDecl>
       </encodingDesc>
@@ -145,7 +147,7 @@
             <p>Les Cabinets d’<country>Autriche</country>, de <country>Grande-Bretagne</country>, de
                   <country>Prusse</country> et de <country>Russie</country> étant convenus de se
                réunir à <placeName ref="#loc.1">Aix-la-Chapelle</placeName> pour examiner dans le
-               sens de l’article V du <rs ref="t.1">Traité de <placeName ref="#loc.2">Paris</placeName> du <date when="1815-11-20">20 Novembre 1815</date>
+               sens de l’article V du <rs ref="#t.1">Traité de <placeName ref="#loc.2">Paris</placeName> du <date when="1815-11-20">20 Novembre 1815</date>
                     </rs>:
                s’il y a lieu à continuer ou à faire cesser l’occupation Militaire d’une partie du
                territoire Français après les trois premières années ; et <rs ref="#p.2 #p.3 #p.4 #p.7">les Ministres des Quatre puissances accrédités à

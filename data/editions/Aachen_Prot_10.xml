@@ -1,5 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -9,10 +11,13 @@
                <persName>
                   <surname>Schneider</surname>
                   <forename>Karin</forename>
-               </persName></editor>
+               </persName>
+                </editor>
          </titleStmt>
          <editionStmt>
-            <edition><date>2015-05-08</date></edition>
+            <edition>
+                    <date>2015-05-08</date>
+                </edition>
          </editionStmt>
          <publicationStmt>
             <publisher>Österreichische Akademie der Wissenschaften, Institut für Neuzeit- und
@@ -40,15 +45,18 @@
                <physDesc>
 
                   <p> Eigenhändiges Protokoll von <persName ref="#p.5">
-                        <surname>Gentz</surname></persName>. </p>
+                        <surname>Gentz</surname>
+                            </persName>. </p>
                   <handDesc>
                      <handNote xml:id="G">Friedrich Gentz</handNote>
                      <handNote xml:id="W">Nikolaus Wacken</handNote>
                   </handDesc>
                </physDesc>
                <history>
-                  <origin><placeName ref="#loc.1">Aachen</placeName>
-                     <date when="1818-10-13">13. Oktober 1818</date></origin>
+                  <origin>
+                            <placeName ref="#loc.1">Aachen</placeName>
+                     <date when="1818-10-13">13. Oktober 1818</date>
+                        </origin>
                </history>
             </msDesc>
             <msDesc xml:id="m.2" type="Konzept">
@@ -68,15 +76,20 @@
                   </msItem>
                </msContents>
                <physDesc>
-                  <p>Konzept von <persName ref="#p.6"><surname>Wacken</surname></persName></p>
+                  <p>Konzept von <persName ref="#p.6">
+                                <surname>Wacken</surname>
+                            </persName>
+                        </p>
                   <handDesc>
                      <handNote xml:id="MmB">Metternich mit Bleistift</handNote>
                      <handNote xml:id="AmB">Anonyme Hand mit Bleistift</handNote>
                   </handDesc>
                </physDesc>
                <history>
-                  <origin><placeName ref="#loc.1">Aachen</placeName>
-                     <date when="1818-10-15">15. Oktober 1818</date></origin>
+                  <origin>
+                            <placeName ref="#loc.1">Aachen</placeName>
+                     <date when="1818-10-15">15. Oktober 1818</date>
+                        </origin>
                </history>
 
             </msDesc>
@@ -98,7 +111,10 @@
                   </msItem>
                </msContents>
                <physDesc>
-                  <p>Protokoll von <persName ref="#p.5"><surname>Gentz</surname></persName></p>
+                  <p>Protokoll von <persName ref="#p.5">
+                                <surname>Gentz</surname>
+                            </persName>
+                        </p>
                   <p>Anlage 2 liegt zweifach ein: Auf fol. I/36 und in einer fehlerhaften Variante
                      auf fol. I/38. Die Edition folgt der Variante von fol. I/36. Die Variante fol.
                      I/38 trägt den Vermerk: "Exemplaire fautif, d’après lequel plusieurs copies ont
@@ -109,14 +125,18 @@
                      dem Potokoll der 10. Sitzung des Kongresses von Aachen zurgeordnet.</p>
                </physDesc>
                <history>
-                  <origin><placeName ref="#loc.1">Aachen</placeName>
-                     <date when="1818-10-11">11. Oktober 1818</date></origin>
+                  <origin>
+                            <placeName ref="#loc.1">Aachen</placeName>
+                     <date when="1818-10-11">11. Oktober 1818</date>
+                        </origin>
                </history>
             </msDesc>
             <listWit corresp="#m.1">
                <head>Protkoll der 10. Sitzung</head>
-               <witness corresp="#w.2"><bibl type="print">Grewe, Fontes, Bd. 3/1, S.
-                  109–110.</bibl></witness>
+               <witness corresp="#w.2">
+                        <bibl type="print">Grewe, Fontes, Bd. 3/1, S.
+                  109–110.</bibl>
+                    </witness>
             </listWit>
          </sourceDesc>
       </fileDesc>
@@ -128,16 +148,19 @@
          </appInfo>
          <styleDefDecl scheme="css"/>
          <tagsDecl>
-            <rendition xml:id="su" scheme="css">vertical-align:sub; font-size:.7em;</rendition>
+            <rendition xml:id="su" scheme="css">vertical-align:super; font-size:.7em;</rendition>
             <rendition xml:id="s" scheme="css">text-decoration:line-through;</rendition>
             <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
          </tagsDecl>
       </encodingDesc>
       <profileDesc>
          <abstract>
-            <p>Der britische Gesandte <persName ref="#p.10"><surname>Wellington</surname></persName>
+            <p>Der britische Gesandte <persName ref="#p.10">
+                        <surname>Wellington</surname>
+                    </persName>
                berichtet Einzelheiten über die Reduktion der französischen Entschädigungszahlung, wie sie
-               in der <rs ref="#t.10">Konvention vom <date when="1818-10-09">9. Oktober</date></rs>
+               in der <rs ref="#t.10">Konvention vom <date when="1818-10-09">9. Oktober</date>
+                    </rs>
                festgelegt wurde. Deren Inhalt wird den europäischen Höfen mittels Zirkularschreibens
                durch die jeweiligen diplomatischen Gesandten übermittelt. Die <rs ref="#p.8 #p.10 #p.11 #p.13 #p.12 #p.14 #p.9 #p.1">Vertreter der Mächte</rs>
                beschließen, den diplomatischen Gesandten an den europäischen Höfen Instruktionen
@@ -151,14 +174,30 @@
             <listPerson>
                <head>Anwesende</head>
                
-                  <person><persName ref="#p.12">BERNSTORFF</persName></person>
-                  <person><persName ref="#p.9">CASTLEREAGH</persName></person>
-                  <person><persName ref="#p.11">HARDENBERG</persName></person>
-                  <person><persName ref="#p.14">KAPODISTRIAS</persName></person>
-                  <person><persName ref="#p.8">METTERNICH</persName></person>
-                  <person><persName ref="#p.13">NESSELRODE</persName></person>
-                  <person><persName ref="#p.1">RICHELIEU</persName></person>
-                  <person><persName ref="#p.10">WELLINGTON</persName></person>
+                  <person>
+                        <persName ref="#p.12">BERNSTORFF</persName>
+                    </person>
+                  <person>
+                        <persName ref="#p.9">CASTLEREAGH</persName>
+                    </person>
+                  <person>
+                        <persName ref="#p.11">HARDENBERG</persName>
+                    </person>
+                  <person>
+                        <persName ref="#p.14">KAPODISTRIAS</persName>
+                    </person>
+                  <person>
+                        <persName ref="#p.8">METTERNICH</persName>
+                    </person>
+                  <person>
+                        <persName ref="#p.13">NESSELRODE</persName>
+                    </person>
+                  <person>
+                        <persName ref="#p.1">RICHELIEU</persName>
+                    </person>
+                  <person>
+                        <persName ref="#p.10">WELLINGTON</persName>
+                    </person>
                
             </listPerson>
          </particDesc>
@@ -168,19 +207,27 @@
       <body>
          <div decls="#m.1" hand="#G">
             <pb n="43r"/>
-            <p><add place="top" rendition="#u">10</add></p>
-            <p><placeName ref="#loc.1">Aix-la-Chapelle</placeName> le <date when="1818-10-13"> 13
+            <p>
+                    <add place="top" rendition="#u">10</add>
+                </p>
+            <p>
+                    <placeName ref="#loc.1">Aix-la-Chapelle</placeName> le <date when="1818-10-13"> 13
                   Octobre 1818</date>
             </p>
             <p>
-               <add hand="#.W" place="margin">Entre les 4 Cours</add></p>
-            <p><choice>
+               <add hand="#.W" place="margin">Entre les 4 Cours</add>
+                </p>
+            <p>
+                    <choice>
                   <abbr>Mr.</abbr>
                   <expan>Monsieur</expan>
-               </choice> le <persName ref="#p.10"><roleName>Duc</roleName>
-                  <surname>de Wellington</surname></persName> a donné sur les dispositions
+               </choice> le <persName ref="#p.10">
+                        <roleName>Duc</roleName>
+                  <surname>de Wellington</surname>
+                    </persName> a donné sur les dispositions
                pécuniaires de la <rs ref="#t.10">convention signée le <date when="1818-10-09">9 de
-                     ce mois</date></rs> les explications suivantes :</p>
+                     ce mois</date>
+                    </rs> les explications suivantes :</p>
             <p>La somme de 15 Millions, qui a été passée en décompte sur celle de 280 Millions,
                payables par la <country>France</country> pour compléter ses engagemens pécuniaires
                vis-à-vis des Alliés, se compose : 1<hi rendition="#su">o</hi>
@@ -196,24 +243,30 @@
                eux qui ont joui et jouiront encore de l’avantage de ces anticipations.</p>
             <p>La Circulaire à adresser aux Ministres des Quatre puissances<pb n="43v"/> accrédités
                auprès des autres Cours de l’Europe <add place="margin">pour communiquer à celle-ci
-                  la <rs ref="#t.10">convention signée <date when="1818-10-09">le 9</date></rs> sur
+                  la <rs ref="#t.10">convention signée <date when="1818-10-09">le 9</date>
+                        </rs> sur
                   l’évacuation du territoire Français</add> a été arrêtée, et doit être expédiée <ref decls="#m.2"> telle qu’elle se trouve annexée à ce Protocole</ref>.
             </p>
-            <p><choice>
+            <p>
+                    <choice>
                   <abbr>Mr.</abbr>
                   <expan>Monsieur</expan>
-               </choice> le <persName ref="#p.8"><roleName>Prince</roleName>
-                  <surname>de Metternich</surname></persName> a communiqué un projet d’instruction
+               </choice> le <persName ref="#p.8">
+                        <roleName>Prince</roleName>
+                  <surname>de Metternich</surname>
+                    </persName> a communiqué un projet d’instruction
                pour le <rs ref="#p.24">Ministre d’Autriche</rs> auprès de <choice>
                   <abbr>S. A. R.</abbr>
                   <expan>Son Altesse Royale</expan>
                </choice>
-               <rs ref="#p.21"><subst>
+               <rs ref="#p.21">
+                        <subst>
                      <del rendition="#s">le Grand-Duc</del>
                      <add place="above">l’Electeur</add>
                   </subst> de Hesse</rs> relativement à la demande de ce Prince de se revêtir du
                titre de Roi. On est convenu de rédiger dans le sens de ce projet les instructions
-               pour les Ministres des autres Souverains auxquels <rs ref="#p.21"><subst>
+               pour les Ministres des autres Souverains auxquels <rs ref="#p.21">
+                        <subst>
                      <del rendition="#s">le Grand-Duc</del>
                      <add place="above">l’Electeur</add>
                   </subst> de Hesse</rs> s’est adressé dans cette occasion, et on a signé <ref decls="#m.3"> le protocole séparé ci-joint relatif à cette affaire</ref>.
@@ -224,55 +277,91 @@
                <note type="editorial" target="#n.1">Vgl. Dokumente Nr. 12, 14, 48 und Erbe,
                   Erschütterung, S. 172–173; Handbuch der Baden-Württembergischen Geschichte, Bd. 3,
                   S. 37–38; Huber, Deutsche Verfassungsgeschichte, Bd. 1, S. 324–328.</note>  ;</p>
-            <p><rs xml:id="n.2"> Des dernières transactions qui ont eu lieu à <placeName ref="#loc.2">Paris</placeName> sur l’affaire de <placeName ref="#loc.5">Montevideo</placeName></rs>
+            <p>
+                    <rs xml:id="n.2"> Des dernières transactions qui ont eu lieu à <placeName ref="#loc.2">Paris</placeName> sur l’affaire de <placeName ref="#loc.5">Montevideo</placeName>
+                    </rs>
                <note type="editorial" target="#n.2">1811 war in Uruguay unter José Gervasio Artigas
                   (1764–1850) eine Revolution ausgebrochen, die von brasilianisch-portugiesischen
                   Truppen 1820 niedergeschlagen wurde; vgl. Street, Artigas; Pytha, Konzert der
                   Mächte, bes. S. 156–160.</note>  ; et</p>
-            <p><ref target="Aachen_Prot_31.xml">Des mesures à prendre par rapport au séjour de
+            <p>
+                    <ref target="Aachen_Prot_31.xml">Des mesures à prendre par rapport au séjour de
                   plusieurs Individus de la famille Bonaparte, établis aujourd’hui à <placeName ref="#loc.6">Rome</placeName> ou dans d’autres parties de l’Italie</ref>.</p>
             <signed>
                <list>
-                  <item><persName ref="#p.8"><choice>
+                  <item>
+                            <persName ref="#p.8">
+                                <choice>
                            <abbr>M</abbr>
                            <expan>Metternich</expan>
-                        </choice></persName></item>
-                  <item><persName ref="#p.1"><choice>
+                        </choice>
+                            </persName>
+                        </item>
+                  <item>
+                            <persName ref="#p.1">
+                                <choice>
                            <abbr>R</abbr>
                            <expan>Richelieu</expan>
-                        </choice></persName></item>
-                  <item><persName ref="#p.9"><choice>
+                        </choice>
+                            </persName>
+                        </item>
+                  <item>
+                            <persName ref="#p.9">
+                                <choice>
                            <abbr>C</abbr>
                            <expan>Castlereagh</expan>
-                        </choice></persName></item>
-                  <item><persName ref="#p.10"><choice>
+                        </choice>
+                            </persName>
+                        </item>
+                  <item>
+                            <persName ref="#p.10">
+                                <choice>
                            <abbr>W</abbr>
                            <expan>Wellington</expan>
-                        </choice></persName></item>
-                  <item><persName ref="#p.11"><choice>
+                        </choice>
+                            </persName>
+                        </item>
+                  <item>
+                            <persName ref="#p.11">
+                                <choice>
                            <abbr>H</abbr>
                            <expan>Hardenberg</expan>
-                        </choice></persName></item>
-                  <item><persName ref="#p.12"><choice>
+                        </choice>
+                            </persName>
+                        </item>
+                  <item>
+                            <persName ref="#p.12">
+                                <choice>
                            <abbr>B</abbr>
                            <expan>Bernstorff</expan>
-                        </choice></persName></item>
-                  <item><persName ref="#p.13"><choice>
+                        </choice>
+                            </persName>
+                        </item>
+                  <item>
+                            <persName ref="#p.13">
+                                <choice>
                            <abbr>N</abbr>
                            <expan>Nesselrode</expan>
-                        </choice></persName></item>
-                  <item><persName ref="#p.14">Capodistrias</persName></item>
-               </list></signed>
+                        </choice>
+                            </persName>
+                        </item>
+                  <item>
+                            <persName ref="#p.14">Capodistrias</persName>
+                        </item>
+               </list>
+                </signed>
          </div>
 
          <div hand="#W" decls="#m.2">
             <pb n="44r"/>
-            <p><placeName ref="#loc.1">Aix-La-Chapelle</placeName> le <date when="1818-10-15">15. <choice>
+            <p>
+                    <placeName ref="#loc.1">Aix-La-Chapelle</placeName> le <date when="1818-10-15">15. <choice>
                      <abbr>Oct.</abbr>
                      <expan>Octobre</expan>
                   </choice> 1818</date>.</p>
             <p>
-               <title><del rendition="#s">Projet de</del> Circulaire des 4 Ministres d’<choice>
+               <title>
+                        <del rendition="#s">Projet de</del> Circulaire des 4 Ministres d’<choice>
                      <abbr>A.</abbr>
                      <expan>Autriche</expan>
                   </choice>, de la <choice>
@@ -284,11 +373,15 @@
                   </choice> et de <choice>
                      <abbr>R</abbr>
                      <expan>Russie</expan>
-                  </choice> aux Envoyés respectifs des Cours de <placeName ref="#loc.7">Vienne</placeName>, <placeName ref="#loc.8">Londres</placeName>, <placeName ref="#loc.9">Berlin</placeName> et <placeName ref="#loc.10">Pétersbourg</placeName></title></p>
+                  </choice> aux Envoyés respectifs des Cours de <placeName ref="#loc.7">Vienne</placeName>, <placeName ref="#loc.8">Londres</placeName>, <placeName ref="#loc.9">Berlin</placeName> et <placeName ref="#loc.10">Pétersbourg</placeName>
+                    </title>
+                </p>
             <p>accrédités près les Cours accedantes au <rs ref="#t.1">Traité de <placeName ref="#loc.2">Paris</placeName> du <date when="1815-11-20">20 <choice>
-                        <abbr>9<hi rendition="#su">bre</hi></abbr>
+                        <abbr>9<hi rendition="#su">bre</hi>
+                                </abbr>
                         <expan>Novembre</expan>
-                     </choice> 1815</date></rs>
+                     </choice> 1815</date>
+                    </rs>
                <del rendition="#s">Excepté les Cours de <placeName ref="#loc.11">Naples</placeName>
                   et de <placeName ref="#loc.12">Stockholm</placeName> qui ont accédé et sont
                   néanmoins sans intérêt dans la répartition de l’indemnité et dans la mesure
@@ -300,36 +393,50 @@
                   <choice>
                      <abbr>M</abbr>
                      <expan>Monsieur</expan>
-                  </choice> le <persName ref="#p.25"><roleName><choice>
-                           <abbr>C<hi rendition="#su">te</hi></abbr>
+                  </choice> le <persName ref="#p.25">
+                            <roleName>
+                                <choice>
+                           <abbr>C<hi rendition="#su">te</hi>
+                                    </abbr>
                            <expan>Comte</expan>
-                        </choice></roleName>
-                     <surname>de Buol</surname></persName>, <choice>
+                        </choice>
+                            </roleName>
+                     <surname>de Buol</surname>
+                        </persName>, <choice>
                      <abbr>M</abbr>
                      <expan>Monsieur</expan>
-                  </choice> le Comte</add></p>
+                  </choice> le Comte</add>
+                </p>
             <p>Les Cabinets des Cours d’Autriche, de la Grande-Bretagne, de Prusse et de Russie
                s’étant réunis en Conférences à <placeName ref="#loc.1">Aix-la-Chapelle</placeName>
                avec <rs ref="#p.1">le Plénipotentiaire de <choice>
                      <abbr>S. M</abbr>
                      <expan>Sa Majesté</expan>
-                  </choice> le <rs ref="#p.15">Roi de France et de Navarre</rs></rs>, le principe de
+                  </choice> le <rs ref="#p.15">Roi de France et de Navarre</rs>
+                    </rs>, le principe de
                l’évacuation du territoire français à la fin de la troisième année de l’occupation
                militaire qui avoit été stipulée par l’article V du <rs ref="#t.1">traité de
                      <placeName ref="#loc.2">Paris</placeName> du <date when="1815-11-20">20 <choice>
-                        <abbr>9<hi rendition="#su">bre</hi></abbr>
+                        <abbr>9<hi rendition="#su">bre</hi>
+                                </abbr>
                         <expan>Novembre</expan>
-                     </choice> 1815</date></rs> a été admis de la part des quatre Cours ci-dessus
+                     </choice> 1815</date>
+                    </rs> a été admis de la part des quatre Cours ci-dessus
                mentionnées, en même temps que <rs xml:id="n.3" ref="#p.15">Sa Majesté Très
-                  Chrétienne</rs><note type="editorial" target="#n.3">Ehrentitel des Königs
+                  Chrétienne</rs>
+                    <note type="editorial" target="#n.3">Ehrentitel des Königs
                         von Frankreich.</note> a pris les engagemens requis pour compléter l’exécution de
                l’article IV du dit <rs ref="#t.1">traité de <placeName ref="#loc.2">Paris</placeName> du <date when="1815-11-20">20 <choice>
-                        <abbr>9<hi rendition="#su">bre</hi></abbr>
+                        <abbr>9<hi rendition="#su">bre</hi>
+                                </abbr>
                         <expan>Novembre</expan>
-                     </choice> 1815</date></rs>.</p>
+                     </choice> 1815</date>
+                    </rs>.</p>
             <p>Ces dispositions ayant été consignées dans une <rs ref="#t.10">Convention signée à
-                     <placeName ref="#loc.1">Aix-La-Chapelle</placeName> le <date when="1818-10-09">9 de ce mois</date></rs>,<add place="margin" hand="#MmB">j’ai l’<choice>
-                     <abbr>h<hi rendition="#su">r</hi></abbr>
+                     <placeName ref="#loc.1">Aix-La-Chapelle</placeName> le <date when="1818-10-09">9 de ce mois</date>
+                    </rs>,<add place="margin" hand="#MmB">j’ai l’<choice>
+                     <abbr>h<hi rendition="#su">r</hi>
+                            </abbr>
                      <expan>honneur</expan>
                   </choice> d’en transmettre à <choice>
                      <abbr>V. E.</abbr>
@@ -343,10 +450,13 @@
                   </choice> jugera la plus convenable. <choice>
                      <abbr>Rcv</abbr>
                      <expan>Recevez</expan>
-                  </choice></add> et les quatre Cours ne voulant pas différer de donner <pb n="44v"/>part de cette transaction aux Puissances et Etats qui ont accédé au <rs ref="#t.1">traité de <placeName ref="#loc.2">Paris</placeName> du <date when="1815-11-20">20 <choice>
-                        <abbr>9<hi rendition="#su">bre</hi></abbr>
+                  </choice>
+                    </add> et les quatre Cours ne voulant pas différer de donner <pb n="44v"/>part de cette transaction aux Puissances et Etats qui ont accédé au <rs ref="#t.1">traité de <placeName ref="#loc.2">Paris</placeName> du <date when="1815-11-20">20 <choice>
+                        <abbr>9<hi rendition="#su">bre</hi>
+                                </abbr>
                         <expan>Novembre</expan>
-                     </choice> 1815</date></rs>, Elles désirent que cette communication soit
+                     </choice> 1815</date>
+                    </rs>, Elles désirent que cette communication soit
                effectuée le plus promptement possible par les Envoyés respectifs de chacune des 4
                Cours qui sont accrédités près les Puissances et Etats accédans.</p>
             <p>En conséquence, Vous voudrez bien/<choice>
@@ -354,26 +464,38 @@
                   <expan>Votre Excellence</expan>
                </choice> voudra bien, à la réception de la présente circulaire, remettre un office
                par lequel <add>des offices <supplied>par</supplied> lesquels</add> vous donnerez
-               communication de la <rs ref="#t.10">Convention d’<placeName ref="#loc.1">Aix-la-Chapelle</placeName> du <date when="1818-10-09">9 Octobre</date></rs>
-               (ci-joint en copie imprimée) à la Cour de <gap/><add place="inline" hand="#AmB"><placeName ref="#loc.13">Dresde</placeName> et aux Cours Ducales de
+               communication de la <rs ref="#t.10">Convention d’<placeName ref="#loc.1">Aix-la-Chapelle</placeName> du <date when="1818-10-09">9 Octobre</date>
+                    </rs>
+               (ci-joint en copie imprimée) à la Cour de <gap/>
+                    <add place="inline" hand="#AmB">
+                        <placeName ref="#loc.13">Dresde</placeName> et aux Cours Ducales de
                Saxe</add>, en même temps que vous <add place="above" hand="#AmB">les</add>
                l'inviterez à y accéder envers chacun des quatre Cours.</p>
             <p>Relativement aux articles 3, 4, 5, 6 et 7 de ladite <rs ref="#t.10">convention du
                      <date when="1818-10-09">9 <choice>
-                        <abbr>8<hi rendition="#su">bre</hi><expan>Octobre</expan></abbr>
-                     </choice></date></rs>, qui ont été stipulés pour assurer l’exécution
+                        <abbr>8<hi rendition="#su">bre</hi>
+                                    <expan>Octobre</expan>
+                                </abbr>
+                     </choice>
+                        </date>
+                    </rs>, qui ont été stipulés pour assurer l’exécution
                   définitive<pb n="45r"/> du <rs ref="#t.1">traité de <placeName ref="#loc.2">Paris</placeName> du <date when="1815-11-20">20 <choice>
-                        <abbr>9<hi rendition="#su">bre</hi></abbr>
+                        <abbr>9<hi rendition="#su">bre</hi>
+                                </abbr>
                         <expan>Novembre</expan>
-                     </choice> 1815</date></rs>, <add place="margin">Vous ajouterez verbalement
-                  l’information que les quatre commissaires de finances, établis par la <rs ref="#t.2">convention du <date when="1815-11-20">20 Novembre 1815</date></rs>
+                     </choice> 1815</date>
+                    </rs>, <add place="margin">Vous ajouterez verbalement
+                  l’information que les quatre commissaires de finances, établis par la <rs ref="#t.2">convention du <date when="1815-11-20">20 Novembre 1815</date>
+                        </rs>
                   pour la perception et la répartition des échéances successives de l’indemnité,
                   viennent d’être autorisés à entrer envers les mandataires des Puissances et Etats
                   participant à ladite indemnité dans les explications les plus détaillés sur la
                   quotité et la mode de payemens. Ces éclaircissemens prouveront à l’évidence
                   que</add>
                <del rendition="#s">vous prier, <choice>
-                     <abbr>M<hi rendition="#su">r</hi><expan>Monsieur</expan></abbr>
+                     <abbr>M<hi rendition="#su">r</hi>
+                                <expan>Monsieur</expan>
+                            </abbr>
                   </choice>
                   <gap/>/ prier <choice>
                      <abbr>V. E.</abbr>
@@ -382,15 +504,19 @@
                   <gap/>, de joindre à Votre/Son office la Note d’éclaircissemens ci-annexée en
                   copie, par laquelle la Cour de <gap/> se convaincra que</del> les dispositions
                apportées par le Gouvernement français à l’exécution de ses engagemens ne laissent
-               rien à désirer. <add place="margin">En outre Pour les Cours de <placeName ref="#loc.14">Copenhague</placeName>, <placeName ref="#loc.13">Dresde</placeName>, <placeName ref="#loc.15">Hanovre</placeName>, <placeName ref="#loc.16">Munich</placeName> &amp; <placeName ref="#loc.17">Stuttgardt</placeName></add>
+               rien à désirer. <add place="margin">En outre Pour les Cours de <placeName ref="#loc.14">Copenhague</placeName>, <placeName ref="#loc.13">Dresde</placeName>, <placeName ref="#loc.15">Hanovre</placeName>, <placeName ref="#loc.16">Munich</placeName> &amp; <placeName ref="#loc.17">Stuttgardt</placeName>
+                    </add>
             </p>
             <p>Vous voudrez bien au surplus ajouter que les Cours d’Autriche, de la Grande-Bretagne,
                de Prusse et de Russie s’en étant entièrement remise aux <subst>
                   <del rendition="#s">dispositions</del>
                   <add place="below">mesures</add>
-               </subst> que Son Excellence, Monsieur le <persName ref="#p.10"><roleName>Duc</roleName>
-                  <surname>de Wellington</surname></persName>, Commandant en Chef de l’armée
-               d’occupation, s’est chargé de concerter avec le Gouvernement de <rs ref="#p.15" xml:id="n.5"><choice>
+               </subst> que Son Excellence, Monsieur le <persName ref="#p.10">
+                        <roleName>Duc</roleName>
+                  <surname>de Wellington</surname>
+                    </persName>, Commandant en Chef de l’armée
+               d’occupation, s’est chargé de concerter avec le Gouvernement de <rs ref="#p.15" xml:id="n.5">
+                        <choice>
                         <abbr>S. M</abbr>
                         <expan>Sa Majesté</expan>
                      </choice> très Chrétienne</rs>
@@ -401,15 +527,20 @@
                rapporter pour l’exécution de cet arrangement à la sagesse des dispositions de
                Monsieur le <rs ref="#p.10">Duc</rs>.</p>
 
-            <p><add place="margin" hand="#W">Annexé au Protocole du <date when="1818-10-13"><subst>
+            <p>
+                    <add place="margin" hand="#W">Annexé au Protocole du <date when="1818-10-13">
+                            <subst>
                         <del rendition="#s">12</del>
                         <add place="above" hand="#AmB">13</add>
-                     </subst> Octobre 1818</date>.</add></p>
+                     </subst> Octobre 1818</date>.</add>
+                </p>
          </div>
 
          <div hand="#G" decls="#m.3">
             <pb n="36r"/>
-            <p><title>(Protocole separé)</title></p>
+            <p>
+                    <title>(Protocole separé)</title>
+                </p>
 
             <p>À <placeName ref="#loc.1">Aix-la-Chapelle</placeName> le <date when="1818-10-11">11
                   Octobre 1818</date>.</p>
@@ -442,32 +573,59 @@
                n’admettront désormais que pour les Chefs des maisons Grand-Ducales (<rs ref="#p.21">l’Electeur de Hesse</rs> y compris), et pour leurs héritiers présomptifs.</p>
             <signed>
                <list>
-                  <item><persName ref="#p.8"><choice>
+                  <item>
+                            <persName ref="#p.8">
+                                <choice>
                            <abbr>M</abbr>
                            <expan>Metternich</expan>
-                        </choice></persName></item>
-                  <item><persName ref="#p.1"><choice>
+                        </choice>
+                            </persName>
+                        </item>
+                  <item>
+                            <persName ref="#p.1">
+                                <choice>
                            <abbr>R</abbr>
                            <expan>Richelieu</expan>
-                        </choice></persName></item>
-                  <item><persName ref="#p.9"><choice>
+                        </choice>
+                            </persName>
+                        </item>
+                  <item>
+                            <persName ref="#p.9">
+                                <choice>
                            <abbr>C</abbr>
                            <expan>Castlereagh</expan>
-                        </choice></persName></item>
-                  <item><persName ref="#p.10"><choice>
+                        </choice>
+                            </persName>
+                        </item>
+                  <item>
+                            <persName ref="#p.10">
+                                <choice>
                            <abbr>W</abbr>
                            <expan>Wellington</expan>
-                        </choice></persName></item>
-                  <item><persName ref="#p.12"><choice>
+                        </choice>
+                            </persName>
+                        </item>
+                  <item>
+                            <persName ref="#p.12">
+                                <choice>
                            <abbr>B</abbr>
                            <expan>Bernstorff</expan>
-                        </choice></persName></item>
-                  <item><persName ref="#p.13"><choice>
+                        </choice>
+                            </persName>
+                        </item>
+                  <item>
+                            <persName ref="#p.13">
+                                <choice>
                            <abbr>N</abbr>
                            <expan>Nesselrode</expan>
-                        </choice></persName></item>
-                  <item><persName ref="#p.14">Capodistrias</persName></item>
-               </list></signed>
+                        </choice>
+                            </persName>
+                        </item>
+                  <item>
+                            <persName ref="#p.14">Capodistrias</persName>
+                        </item>
+               </list>
+                </signed>
          </div>
       </body>
       <back>

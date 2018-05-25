@@ -1,5 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -10,10 +12,13 @@
                <persName>
                   <surname>Schneider</surname>
                   <forename>Karin</forename>
-               </persName></editor>
+               </persName>
+                </editor>
          </titleStmt>
          <editionStmt>
-            <edition><date>2017-03-13</date></edition>
+            <edition>
+                    <date>2017-03-13</date>
+                </edition>
          </editionStmt>
          <publicationStmt>
             <publisher>Österreichische Akademie der Wissenschaften, Institut für Neuzeit- und
@@ -40,7 +45,9 @@
                </msContents>
                <physDesc>
                   <p>Lithographie</p>
-                  <p>Procès-Verbal liegt zweifach ein: handschriftliches Konzept von <persName ref="#p.5"><surname>Gentz</surname></persName> fol. II/70, lithographiert
+                  <p>Procès-Verbal liegt zweifach ein: handschriftliches Konzept von <persName ref="#p.5">
+                                <surname>Gentz</surname>
+                            </persName> fol. II/70, lithographiert
                      fol. II/71; die Edition folgt der lithographierten Variante. Zählung mit rotem
                      Buntstift rechts oben auf fol. 70r: "6".</p>
 
@@ -56,8 +63,11 @@
 
                </physDesc>
                <history>
-                  <origin><placeName ref="#loc.68">Verona</placeName><date when="1822-12-13">13.
-                        Dezember 1822</date></origin>
+                  <origin>
+                            <placeName ref="#loc.68">Verona</placeName>
+                            <date when="1822-12-13">13.
+                        Dezember 1822</date>
+                        </origin>
                </history>
             </msDesc>
             <msDesc xml:id="m.2" type="Lithographie">
@@ -81,8 +91,11 @@
 
                </physDesc>
                <history>
-                  <origin><placeName ref="#loc.68">Verona</placeName><date when="1822-12-13">13.
-                        Dezember 1822</date></origin>
+                  <origin>
+                            <placeName ref="#loc.68">Verona</placeName>
+                            <date when="1822-12-13">13.
+                        Dezember 1822</date>
+                        </origin>
                </history>
             </msDesc>
             <msDesc xml:id="m.3" type="Lithographie">
@@ -108,8 +121,11 @@
                      in der rechten oberen Ecke von fol. 73r: "2".</p>
                </physDesc>
                <history>
-                  <origin><placeName ref="#loc.68">Verona</placeName><date when="1822-12-13">13.
-                        Dezember 1822</date></origin>
+                  <origin>
+                            <placeName ref="#loc.68">Verona</placeName>
+                            <date when="1822-12-13">13.
+                        Dezember 1822</date>
+                        </origin>
                </history>
             </msDesc>
             <msDesc xml:id="m.4" type="Lithographie">
@@ -160,8 +176,11 @@
                      der rechten oberen Ecke von fol. 79r: "4".</p>
                </physDesc>
                <history>
-                  <origin><placeName ref="#loc.68">Verona</placeName><date when="1822-12-13">13.
-                        Dezember 1822</date></origin>
+                  <origin>
+                            <placeName ref="#loc.68">Verona</placeName>
+                            <date when="1822-12-13">13.
+                        Dezember 1822</date>
+                        </origin>
                </history>
             </msDesc>
             <msDesc xml:id="m.6" type="Lithographie">
@@ -187,8 +206,11 @@
                      in der rechten oberen Ecke von fol. 82r: "5".</p>
                </physDesc>
                <history>
-                  <origin><placeName ref="#loc.68">Verona</placeName><date when="1822-12-13">13.
-                        Dezember 1822</date></origin>
+                  <origin>
+                            <placeName ref="#loc.68">Verona</placeName>
+                            <date when="1822-12-13">13.
+                        Dezember 1822</date>
+                        </origin>
                </history>
             </msDesc>
          </sourceDesc>
@@ -201,7 +223,7 @@
          </appInfo>
          <styleDefDecl scheme="css"/>
          <tagsDecl>
-            <rendition xml:id="su" scheme="css">vertical-align:sub; font-size:.7em;</rendition>
+            <rendition xml:id="su" scheme="css">vertical-align:super; font-size:.7em;</rendition>
             <rendition xml:id="s" scheme="css">text-decoration:line-through;</rendition>
             <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
             <rendition xml:id="ow">overwritten</rendition>
@@ -210,28 +232,59 @@
       <profileDesc>
          <abstract>
             <p>Die <rs ref="#p.168 #p.185 #p.183 #p.186 #p.165 #p.164">Vertreter der italienischen
-                  Höfe</rs> verlesen ihre Entgegnungen auf die in der <ref target="Verona_II_5">Sitzung vom <date when="1822-12-11">11. Dezember</date></ref> zur Kenntnis gebrachte Erklärung der
+                  Höfe</rs> verlesen ihre Entgegnungen auf die in der <ref target="Verona_II_5">Sitzung vom <date when="1822-12-11">11. Dezember</date>
+                    </ref> zur Kenntnis gebrachte Erklärung der
                alliierten Bevollmächtigten.</p>
          </abstract>
          <particDesc>
             <listPerson>
                <head>Anwesende</head>
                
-                  <person><persName ref="#p.102">CARAMAN</persName></person>
-                  <person><persName ref="#p.168">CORSINI</persName></person>
-                  <person><persName ref="#p.182">DE LA TOUR</persName></person>
-                  <person><persName ref="#p.135">FERRONNAYS</persName></person>
-                  <person><persName ref="#p.175">HATZFELDT</persName></person>
-                  <person><persName ref="#p.185">LEARDI</persName></person>
-                  <person><persName ref="#p.40">LEBZELTERN</persName></person>
-                  <person><persName ref="#p.183">MANSI</persName></person>
-                  <person><persName ref="#p.186">MAZIO</persName></person>
-                  <person><persName ref="#p.8">METTERNICH</persName></person>
-                  <person><persName ref="#p.165">MOLZA</persName></person>
-                  <person><persName ref="#p.13">NESSELRODE</persName></person>
-                  <person><persName ref="#p.140">RUFFO</persName></person>
-                  <person><persName ref="#p.164">SPINA</persName></person>
-                  <person><persName ref="#p.35">TATISTCHEFF</persName></person>
+                  <person>
+                        <persName ref="#p.102">CARAMAN</persName>
+                    </person>
+                  <person>
+                        <persName ref="#p.168">CORSINI</persName>
+                    </person>
+                  <person>
+                        <persName ref="#p.182">DE LA TOUR</persName>
+                    </person>
+                  <person>
+                        <persName ref="#p.135">FERRONNAYS</persName>
+                    </person>
+                  <person>
+                        <persName ref="#p.175">HATZFELDT</persName>
+                    </person>
+                  <person>
+                        <persName ref="#p.185">LEARDI</persName>
+                    </person>
+                  <person>
+                        <persName ref="#p.40">LEBZELTERN</persName>
+                    </person>
+                  <person>
+                        <persName ref="#p.183">MANSI</persName>
+                    </person>
+                  <person>
+                        <persName ref="#p.186">MAZIO</persName>
+                    </person>
+                  <person>
+                        <persName ref="#p.8">METTERNICH</persName>
+                    </person>
+                  <person>
+                        <persName ref="#p.165">MOLZA</persName>
+                    </person>
+                  <person>
+                        <persName ref="#p.13">NESSELRODE</persName>
+                    </person>
+                  <person>
+                        <persName ref="#p.140">RUFFO</persName>
+                    </person>
+                  <person>
+                        <persName ref="#p.164">SPINA</persName>
+                    </person>
+                  <person>
+                        <persName ref="#p.35">TATISTCHEFF</persName>
+                    </person>
                
             </listPerson>
          </particDesc>
@@ -241,26 +294,43 @@
       <body>
          <div decls="#m.1">
             <pb n="71r"/>
-            <p><add hand="#AmB" place="top"><choice>
-                     <abbr>N<hi rendition="#su">o</hi></abbr>
+            <p>
+                    <add hand="#AmB" place="top">
+                        <choice>
+                     <abbr>N<hi rendition="#su">o</hi>
+                            </abbr>
                      <expan>Numéro</expan>
-                  </choice> 2.</add></p>
-            <p><title>Procès-Verbal</title></p>
-            <p><title>de la seconde Conférence realtive aux affaires d’Italie.</title></p>
-            <p><placeName ref="#loc.68">Vérone</placeName> le <date when="1822-12-13">13 Décembre
+                  </choice> 2.</add>
+                </p>
+            <p>
+                    <title>Procès-Verbal</title>
+                </p>
+            <p>
+                    <title>de la seconde Conférence realtive aux affaires d’Italie.</title>
+                </p>
+            <p>
+                    <placeName ref="#loc.68">Vérone</placeName> le <date when="1822-12-13">13 Décembre
                   1822</date>.</p>
-            <p>La Conférence de ce jour a commencé par la lecture du <ref target="Verona_II_5.xml">Procès-Verbal de celle du <date when="1822-12-11">11 Décembre</date></ref>.</p>
+            <p>La Conférence de ce jour a commencé par la lecture du <ref target="Verona_II_5.xml">Procès-Verbal de celle du <date when="1822-12-11">11 Décembre</date>
+                    </ref>.</p>
             <p>À la suite de cette lecture, <choice>
-                  <abbr>Ms<hi rendition="#su">s</hi></abbr>
+                  <abbr>Ms<hi rendition="#su">s</hi>
+                        </abbr>
                   <expan>Messieurs</expan>
                </choice> les <rs ref="#p.168 #p.185 #p.183 #p.186 #p.165 #p.164">Plénipotentiaires
                   des Cours d’Italie</rs> ont remis, en réponse à la déclaration des <rs ref="#p.8 #p.40 #p.13 #p.35 #p.75 #p.175">Ministres d’Autriche, de Russie et de
-                  Prusse</rs>, consignée au Procès-verbal précédent, les <rs xml:id="n.1"><ref target="#m.2 #m.3 #m.4 #m.5 #m.6">notes qui
-                  se trouvent ci-annexées sub A–E</ref></rs>.<note type="editorial" target="#n.1">Der Vertreter Parmas, <persName ref="#p.184"><surname>Neipperg</surname></persName>, legt zwar eine Note vor, scheint
+                  Prusse</rs>, consignée au Procès-verbal précédent, les <rs xml:id="n.1">
+                        <ref target="#m.2 #m.3 #m.4 #m.5 #m.6">notes qui
+                  se trouvent ci-annexées sub A–E</ref>
+                    </rs>.<note type="editorial" target="#n.1">Der Vertreter Parmas, <persName ref="#p.184">
+                            <surname>Neipperg</surname>
+                        </persName>, legt zwar eine Note vor, scheint
                   jedoch nicht unter den Sitzungsteilnehmern auf.</note>
             </p>
-            <p><choice>
-                  <abbr>M<hi rendition="#su">ss</hi></abbr>
+            <p>
+                    <choice>
+                  <abbr>M<hi rendition="#su">ss</hi>
+                        </abbr>
                   <expan>Messieurs</expan>
                </choice> les <rs ref="#p.8 #p.40 #p.13 #p.35 #p.175">Plénipotentiaires d’Autriche,
                   de Russie et de Prusse</rs> ont répondu à ces communications qu’ils les
@@ -272,55 +342,119 @@
                plus durables.</p>
             <table rend="rules">
                <row>
-                  <cell><unclear>I.</unclear>
-                     <persName ref="#p.164"><roleName><choice>
+                  <cell>
+                            <unclear>I.</unclear>
+                     <persName ref="#p.164">
+                                <roleName>
+                                    <choice>
                               <abbr>Card.</abbr>
                               <expan>Cardinal</expan>
-                           </choice></roleName>
-                        <surname>Spina</surname></persName></cell>
-                  <cell><persName ref="#p.8"><surname>Metternich</surname></persName></cell>
-                  <cell><persName ref="#p.140"><surname>Ruffo</surname></persName></cell>
+                           </choice>
+                                </roleName>
+                        <surname>Spina</surname>
+                            </persName>
+                        </cell>
+                  <cell>
+                            <persName ref="#p.8">
+                                <surname>Metternich</surname>
+                            </persName>
+                        </cell>
+                  <cell>
+                            <persName ref="#p.140">
+                                <surname>Ruffo</surname>
+                            </persName>
+                        </cell>
                </row>
                <row>
-                  <cell><persName ref="#p.185"><forename><choice>
+                  <cell>
+                            <persName ref="#p.185">
+                                <forename>
+                                    <choice>
                               <abbr>P.</abbr>
                               <expan>Paolo</expan>
-                           </choice></forename>
-                        <surname>Léardi</surname></persName>, Archévêque</cell>
-                  <cell><persName ref="#p.182"><surname>De La Tour</surname></persName></cell>
-                  <cell>Le <persName ref="#p.168"><roleName>Prince</roleName>
+                           </choice>
+                                </forename>
+                        <surname>Léardi</surname>
+                            </persName>, Archévêque</cell>
+                  <cell>
+                            <persName ref="#p.182">
+                                <surname>De La Tour</surname>
+                            </persName>
+                        </cell>
+                  <cell>Le <persName ref="#p.168">
+                                <roleName>Prince</roleName>
                         <forename>Neri</forename>
-                        <surname>Corsini</surname></persName></cell>
+                        <surname>Corsini</surname>
+                            </persName>
+                        </cell>
                </row>
                <row>
                   <cell>d’Ephèse, Nonce Ap<hi rend="superscript">que</hi>
                   </cell>
-                  <cell><persName ref="#p.35"><surname>Tatistscheff</surname></persName></cell>
-                  <cell>Le <persName ref="#p.183"><roleName>Marquis</roleName>
-                        <surname>Mansi</surname></persName></cell>
+                  <cell>
+                            <persName ref="#p.35">
+                                <surname>Tatistscheff</surname>
+                            </persName>
+                        </cell>
+                  <cell>Le <persName ref="#p.183">
+                                <roleName>Marquis</roleName>
+                        <surname>Mansi</surname>
+                            </persName>
+                        </cell>
                </row>
                <row>
-                  <cell><persName ref="#p.13"><surname>Nesselrode</surname></persName></cell>
-                  <cell><persName ref="#p.135"><roleName>Comte</roleName>
-                        <surname>de La Ferronnay</surname></persName></cell>
-                  <cell><persName ref="#p.186"><forename><choice>
+                  <cell>
+                            <persName ref="#p.13">
+                                <surname>Nesselrode</surname>
+                            </persName>
+                        </cell>
+                  <cell>
+                            <persName ref="#p.135">
+                                <roleName>Comte</roleName>
+                        <surname>de La Ferronnay</surname>
+                            </persName>
+                        </cell>
+                  <cell>
+                            <persName ref="#p.186">
+                                <forename>
+                                    <choice>
                               <abbr>R.</abbr>
                               <expan>Raffaele</expan>
-                           </choice></forename>
-                        <surname>Mazio</surname></persName></cell>
+                           </choice>
+                                </forename>
+                        <surname>Mazio</surname>
+                            </persName>
+                        </cell>
                </row>
                <row>
-                  <cell><persName ref="#p.175"><surname>Hatzfeldt</surname></persName></cell>
-                  <cell>Le <persName ref="#p.102"><roleName><choice>
-                              <abbr>M<hi rendition="#su">is</hi></abbr>
+                  <cell>
+                            <persName ref="#p.175">
+                                <surname>Hatzfeldt</surname>
+                            </persName>
+                        </cell>
+                  <cell>Le <persName ref="#p.102">
+                                <roleName>
+                                    <choice>
+                              <abbr>M<hi rendition="#su">is</hi>
+                                        </abbr>
                               <expan>Marquis</expan>
-                           </choice></roleName>
-                        <surname>de Caraman</surname></persName></cell>
-                  <cell>Le <persName ref="#p.165"><roleName>Marquis</roleName>
-                        <surname>Molza</surname></persName></cell>
+                           </choice>
+                                </roleName>
+                        <surname>de Caraman</surname>
+                            </persName>
+                        </cell>
+                  <cell>Le <persName ref="#p.165">
+                                <roleName>Marquis</roleName>
+                        <surname>Molza</surname>
+                            </persName>
+                        </cell>
                </row>
                <row>
-                  <cell><persName ref="#p.40"><surname>Lebzeltern</surname></persName></cell>
+                  <cell>
+                            <persName ref="#p.40">
+                                <surname>Lebzeltern</surname>
+                            </persName>
+                        </cell>
                   <cell/>
                   <cell/>
                </row>
@@ -329,18 +463,25 @@
 
          <div decls="#m.2">
             <pb n="72r"/>
-            <p><title>Déclaration de <choice>
-                     <abbr>M<hi rendition="#su">ss</hi></abbr>
+            <p>
+                    <title>Déclaration de <choice>
+                     <abbr>M<hi rendition="#su">ss</hi>
+                            </abbr>
                      <expan>Messieurs</expan>
                   </choice> les <rs ref="#p.186 #p.185">Plénipotentiaires de <rs ref="#p.155">Sa
-                        Sainteté</rs></rs></title>
+                        Sainteté</rs>
+                        </rs>
+                    </title>
             </p>
-            <p><placeName ref="#loc.68">Vérone</placeName> le <date when="1822-12-13">13 Décembre
+            <p>
+                    <placeName ref="#loc.68">Vérone</placeName> le <date when="1822-12-13">13 Décembre
                   1822</date>.</p>
             <p>Les sentimens exprimés par la <ref target="Verona_II_5.xml">Déclaration des Cours
                   d’Autriche, de Prusse et de Russie à la Conférence du <date when="1822-12-11">11
-                     courant</date></ref> sont en harmonie avec les principes généreux que ces
-               Puissances ont mis en pratique en faveur de l’Italie. Celle-ci dut son salut <rs xml:id="n.2">en 1820</rs><note type="editorial" target="#n.2">Am <date when="1820-07-02">2. Juli 1820</date> meuterte die Militärgarnison in Nola, 35
+                     courant</date>
+                    </ref> sont en harmonie avec les principes généreux que ces
+               Puissances ont mis en pratique en faveur de l’Italie. Celle-ci dut son salut <rs xml:id="n.2">en 1820</rs>
+                    <note type="editorial" target="#n.2">Am <date when="1820-07-02">2. Juli 1820</date> meuterte die Militärgarnison in Nola, 35
                   km von <placeName ref="#loc.11">Neapel</placeName> entfernt. Das Datum gilt als
                   Beginn der Revolution im <country>Königreich beider Sizilien</country>. Vgl.
                   Stites, The four Horsemen; Davis, Naples and Napoleon; Gin, Sanfedisti, Carbonari,
@@ -357,7 +498,8 @@
                Leur désir quant à l’Italie c’est que les Gouvernemens de la Péninsule co-opèrent à y
                perpétuer cette tranquillité.</p>
             <p>Les <rs ref="#p.185 #p.186">Plénipotentiaires de <rs ref="#p.155">Sa
-                  Sainteté</rs></rs> ont la vive satisfaction de voir que leur Gouvernement a
+                  Sainteté</rs>
+                    </rs> ont la vive satisfaction de voir que leur Gouvernement a
                prévenu le désir des Puissances de sorte que pour se conformer à leur vœu, ce
                Gouvernement n’a qu’à suivre invariablement la marche qu’il a adoptée depuis
                plusieurs années.</p>
@@ -366,10 +508,13 @@
                est le plus sûr garant.</p>
             <p>Une telle affection est l’effet des vertus apostoliques du <rs ref="#p.155">Souverain
                   Pontife</rs> et de la sagesse de Son Gouvernement. Les soins redoublés pour
-               diriger l’instruction publique vers son but véritable, la loi dite <rs xml:id="n.3">Motu proprio du <date when="1816-07-06"><choice>
+               diriger l’instruction publique vers son but véritable, la loi dite <rs xml:id="n.3">Motu proprio du <date when="1816-07-06">
+                            <choice>
                         <sic>16</sic>
                         <corr>6</corr>
-                     </choice> Juillet 1816</date></rs><note type="editorial" target="#n.3">Moto
+                     </choice> Juillet 1816</date>
+                    </rs>
+                    <note type="editorial" target="#n.3">Moto
                   Proprio della Santitità di Nostro Signore Papa <rs ref="#p.155">Pio Settimo</rs>
                   in Data de <date when="1816-07-06">6 Luglio 1816</date> sulla organizzazione
                   dell’amministrazione pubblica (Mailand 1816).</note> qui est mise graduellement en
@@ -390,8 +535,11 @@
 
          <div decls="#m.3">
             <pb n="74r"/>
-            <p><title>Déclaration du <rs ref="#p.168">Plénipotentiaire de Son Altesse Impériale et
-                     Royale le <rs ref="#p.170">Grand-Duc de Toscane</rs></rs></title>
+            <p>
+                    <title>Déclaration du <rs ref="#p.168">Plénipotentiaire de Son Altesse Impériale et
+                     Royale le <rs ref="#p.170">Grand-Duc de Toscane</rs>
+                        </rs>
+                    </title>
             </p>
             <p>Son Altesse Impériale et Royale le <rs ref="#p.170">Grand-Duc de Toscane</rs> sera
                très satisfait d’apprendre que des arrangemens aussi sages qu’équitables aient pu
@@ -400,7 +548,8 @@
                pour l’évacuation totale de ces Etats, ainsi qu’à l’égard de la diminution de l’armée
                d’occupation dans le <country>Royaume réuni des Deux-Siciles</country>, et de la
                modification d’un des <ref target="Laibach_Prot_12.xml">articles arrêtés dans les
-                  Conférences de <placeName ref="#loc.65">Laibach</placeName></ref> pour la nouvelle
+                  Conférences de <placeName ref="#loc.65">Laibach</placeName>
+                    </ref> pour la nouvelle
                organisation de ce Royaume.</p>
             <p>Il lui sera très agréable surtout de voir que le plus parfait accord a régné entre
                les Puissances appelées à concourir à ces deux transactions.</p>
@@ -412,59 +561,79 @@
                   Conférence</ref>, <rs ref="#p.170">Son Altesse Impériale et Royale</rs> ne pourra
                qu’applaudir aux principes salutaires qui y sont rappelés. Ces principes sont
                entièrement partagés par Elle.</p>
-            <p>Sa sollicitude paternelle ne cesse de s’occuper<pb n="74v"/> des moyens d’assurer <app><lem>et
-               de consolider de plus en plus</lem><rdg><add place="inline">et
-                  de consolider de plus en plus</add></rdg></app> la prospérité de Ses sujets qui n’ont jamais manqué de Lui donner des preuves
+            <p>Sa sollicitude paternelle ne cesse de s’occuper<pb n="74v"/> des moyens d’assurer <app>
+                        <lem>et
+               de consolider de plus en plus</lem>
+                        <rdg>
+                            <add place="inline">et
+                  de consolider de plus en plus</add>
+                        </rdg>
+                    </app> la prospérité de Ses sujets qui n’ont jamais manqué de Lui donner des preuves
                de leur fidélité, de leur dévouement et de leur reconnoissance ; Sa confiance
                illimitée dans les intentions aussi justes qu’amicales de ces Cours lui fera
                apprécier infiniment ce nouveau témoignage de leur sincère intérêt pour la sûreté des
                Gouvernemens d’Italie et pour le bonheur des peuples que ces Gouvernemens sont
                destinés à régir.</p>
-            <p><placeName ref="#loc.68">Vérone</placeName> le <date when="1822-12-13">13 Décembre
+            <p>
+                    <placeName ref="#loc.68">Vérone</placeName> le <date when="1822-12-13">13 Décembre
                   1822</date>.</p>
-            <p>signé Le <persName ref="#p.168"><roleName>Prince</roleName>
+            <p>signé Le <persName ref="#p.168">
+                        <roleName>Prince</roleName>
                   <forename>Neri</forename>
-                  <surname>Corsini</surname></persName></p>
+                  <surname>Corsini</surname>
+                    </persName>
+                </p>
          </div>
 
          <div decls="#m.4">
             <pb n="77r"/>
-            <p><title>Déclaration de <choice>
-                     <abbr>M<hi rendition="#su">r</hi></abbr>
+            <p>
+                    <title>Déclaration de <choice>
+                     <abbr>M<hi rendition="#su">r</hi>
+                            </abbr>
                      <expan>Monsieur</expan>
                   </choice> le <rs ref="#p.165">Plénipotentiaire de <choice>
                         <abbr>S. A. R.</abbr>
                         <expan>Son Altesse Royale</expan>
                      </choice>
                      <choice>
-                        <abbr>M<hi rendition="#su">gr</hi></abbr>
+                        <abbr>M<hi rendition="#su">gr</hi>
+                                </abbr>
                         <expan>Monseigneur</expan>
                      </choice> l’Archiduc <rs ref="#p.171">Duc de Modène</rs>, et de <choice>
                         <abbr>S. A. R.</abbr>
                         <expan>Son Altesse Royale</expan>
                      </choice>
                      <choice>
-                        <abbr>M<hi rendition="#su">dme</hi></abbr>
+                        <abbr>M<hi rendition="#su">dme</hi>
+                                </abbr>
                         <expan>Madame</expan>
                      </choice> l’Archiduchesse <rs ref="#p.187">Duchesse de Masse &amp;
-                     Carrare</rs></rs></title>
+                     Carrare</rs>
+                        </rs>
+                    </title>
             </p>
-            <p>Le <persName ref="#p.165"><roleName>Marquis</roleName>
-                  <surname>Molza</surname></persName> ayant porté à la connaissance de <choice>
+            <p>Le <persName ref="#p.165">
+                        <roleName>Marquis</roleName>
+                  <surname>Molza</surname>
+                    </persName> ayant porté à la connaissance de <choice>
                   <abbr>S. A. R.</abbr>
                   <expan>Son Altesse Royale</expan>
                </choice>
                <choice>
-                  <abbr>M<hi rendition="#su">gr</hi></abbr>
+                  <abbr>M<hi rendition="#su">gr</hi>
+                        </abbr>
                   <expan>Monseigneur</expan>
                </choice> l’Archiduc <rs ref="#p.171">Duc de Modène</rs>, Son Auguste Maître, les
-                  <ref target="Verona_II_5.xml">communications faites à la Conférence du jour <date when="1822-12-11">11 Décembre</date></ref>, est autorisé à faire la Déclaration
+                  <ref target="Verona_II_5.xml">communications faites à la Conférence du jour <date when="1822-12-11">11 Décembre</date>
+                    </ref>, est autorisé à faire la Déclaration
                suivante.</p>
             <p>L’Archiduc <rs ref="#p.171">Duc de Modène</rs>, appréciant les motifs des arrangemens
                pris avec <choice>
                   <abbr>S. M.</abbr>
                   <expan>Sa Majesté</expan>
-               </choice> le <rs ref="#p.172">Roi de Sardaigne</rs> et avec <rs ref="#p.138"><choice>
+               </choice> le <rs ref="#p.172">Roi de Sardaigne</rs> et avec <rs ref="#p.138">
+                        <choice>
                      <abbr>S. M.</abbr>
                      <expan>Sa Majesté</expan>
                   </choice> Sicilienne</rs>, n’a aucune remarque à faire là-dessus.</p>
@@ -473,13 +642,18 @@
                s’empressera toujours à y coopérer de Son côté par l’introduction dans Ses Etats des
                améliorations les plus propres à obtenir ce but, et par le meilleur accord avec les
                autres Gouvernemens d’Italie.</p>
-            <p>Le <persName ref="#p.165"><roleName>Marquis</roleName>
-                  <surname>Molza</surname></persName> est autorisé à faire ladite déclaration même
+            <p>Le <persName ref="#p.165">
+                        <roleName>Marquis</roleName>
+                  <surname>Molza</surname>
+                    </persName> est autorisé à faire ladite déclaration même
                de la part de <choice>
                   <abbr>S. A. R.</abbr>
                   <expan>Son Altesse Royale</expan>
-               </choice> Madame l’<persName ref="#p.187"><roleName>Archiduchesse</roleName><forename>
-                  Marie-Béatrix</forename></persName>, Duchesse de Masse et de Carrare.</p>
+               </choice> Madame l’<persName ref="#p.187">
+                        <roleName>Archiduchesse</roleName>
+                        <forename>
+                  Marie-Béatrix</forename>
+                    </persName>, Duchesse de Masse et de Carrare.</p>
             <p>De Son côté, l’Archiduc <rs ref="#p.171">Duc de Modène</rs>, persuadé de la nécessité
                d’affermir les principes de l’ordre public, serait d’avis qu’il faudrait s’occuper
                principalement des objets suivans :</p>
@@ -508,31 +682,39 @@
                entier effet sans un accord commun pour ôter aux coupables l’espoir de se soustraire
                aux poursuites de la justice sortant de l’Etat auquel ils appartiennent, et surtout
                jusqu’à ce que les <rs xml:id="n.4">révolutions d’<country>Espagne</country> et de
-                     <country>Portugal</country></rs><note type="editorial" target="#n.4">Zur
+                     <country>Portugal</country>
+                    </rs>
+                    <note type="editorial" target="#n.4">Zur
                   Revolution in <country>Spanien</country>, die mit einem Militäraufstand am <date when="1820-01-01">1. Jänner 1820</date> ihren Anfang nahm, vgl. Späth,
                   Revolution in Europa, S. 117–128. In <country>Portugal</country> war am <date when="1820-08-24">24. August 1820</date> eine Revolution ausgebrochen; vgl.
                   Birmingham, A Concise History, S. 111–113. </note> ne soient comprimées, car il ne
                serait pas possible de garantir à l’avenir l’Italie de leur pernicieuse influence
                dont <choice>
-                  <abbr>malheureusem<hi rendition="#su">t</hi></abbr>
+                  <abbr>malheureusem<hi rendition="#su">t</hi>
+                        </abbr>
                   <expan>malheureusement</expan>
                </choice> on y prouve tous les jours les effets.</p>
          </div>
 
          <div decls="#m.5">
             <pb n="80r"/>
-            <p><title>Déclaration de <choice>
-                     <abbr>M<hi rendition="#su">r</hi></abbr>
+            <p>
+                    <title>Déclaration de <choice>
+                     <abbr>M<hi rendition="#su">r</hi>
+                            </abbr>
                      <expan>Monsieur</expan>
-                  </choice> le <rs ref="#p.184">Plénipotentiaire</rs> de Sa Majesté Madame l’Archiduchesse <rs ref="#p.188">Duchesse de Parme</rs></title>
+                  </choice> le <rs ref="#p.184">Plénipotentiaire</rs> de Sa Majesté Madame l’Archiduchesse <rs ref="#p.188">Duchesse de Parme</rs>
+                    </title>
             </p>
-            <p rendition="#u"><placeName ref="#loc.68">Vérone</placeName> le <date when="1822-12-13">13 Décembre 1822</date>.</p>
+            <p rendition="#u">
+                    <placeName ref="#loc.68">Vérone</placeName> le <date when="1822-12-13">13 Décembre 1822</date>.</p>
             <p>Le <rs ref="#p.184">Soussigné</rs>, Chevalier d’honneur de <choice>
                   <abbr>S. M.</abbr>
                   <expan>Sa Majesté</expan>
                </choice>
                <choice>
-                  <abbr>Mad<hi rendition="#su">e</hi></abbr>
+                  <abbr>Mad<hi rendition="#su">e</hi>
+                        </abbr>
                   <expan>Madame</expan>
                </choice> l’Archiduchesse <rs ref="#p.188">Duchesse de Parme, Plaisance et
                   Guastalla</rs>, Chargé des affaires étrangères de Ses Duchés, n’a point manqué de
@@ -541,28 +723,37 @@
                la <ref target="Verona_II_5.xml">Conférence générale qui s’est réunie chez <choice>
                      <abbr>S. A.</abbr>
                      <expan>Son Altesse</expan>
-                  </choice> le <persName ref="#p.8"><roleName>Prince</roleName>
-                     <surname>de Metternich</surname></persName> le <date when="1822-12-11">11 du
-                     mois de Décembre</date></ref>. </p>
-            <p><choice>
+                  </choice> le <persName ref="#p.8">
+                            <roleName>Prince</roleName>
+                     <surname>de Metternich</surname>
+                        </persName> le <date when="1822-12-11">11 du
+                     mois de Décembre</date>
+                    </ref>. </p>
+            <p>
+                    <choice>
                   <abbr>S. M.</abbr>
                   <expan>Sa Majesté</expan>
                </choice>
                <choice>
-                  <abbr>Mad<hi rendition="#su">e</hi></abbr>
+                  <abbr>Mad<hi rendition="#su">e</hi>
+                        </abbr>
                   <expan>Madame</expan>
                </choice> l’<rs ref="#p.188">Archiduchesse</rs> apprécie avec un sentiment de
                reconnaissance bien profond les sollicitudes constantes des Hautes Puissances Alliées
                pour le maintien de la paix générale en Europe et de la tranquillité particulière de
                l’Italie.</p>
-            <p><rs xml:id="n.5">Pendant les troubles éclatés à <country>Naples</country></rs><note type="editorial" target="#n.5">Am <date when="1820-07-02">2. Juli 1820</date>
+            <p>
+                    <rs xml:id="n.5">Pendant les troubles éclatés à <country>Naples</country>
+                    </rs>
+                    <note type="editorial" target="#n.5">Am <date when="1820-07-02">2. Juli 1820</date>
                   meuterte die Militärgarnison in Nola, 35 km von <placeName ref="#loc.11">Neapel</placeName> entfernt. Das Datum gilt als Beginn der Revolution im
                      <country>Königreich beider Sizilien</country>. Vgl. Stites, The four Horsemen;
                   Davis, Naples and Napoleon; Gin, Sanfedisti, Carbonari, Magistrati del Re; Späth,
                   Revolution in Europa, S. 129–149. Zur Reaktion der Großmächte vgl. zuletzt
                   Jarrett, The Congress of Vienna, S. 248–285 sowie die Editionen der Dokumente der
                   Kongresse von Troppau und Laibach.</note> et <rs xml:id="n.6">en
-                     <country>Piémont</country></rs>,<note type="editorial" target="#n.6">Im März
+                     <country>Piémont</country>
+                    </rs>,<note type="editorial" target="#n.6">Im März
                   1821 war im <country>Königreich Sardinien-Piemont</country> eine Revolution
                   ausgebrochen, die rasch durch österreichische Truppen niedergeschlagen wurde. Vgl.
                   Späth, Revolution in Europa, S. 150–165; Broers, Napoleonic Imperialism; Jarrett,
@@ -573,21 +764,27 @@
             <p>Le petit nombre de Ses sujets qui se sont laissés aller à l’esprit de vertige du
                siècle, en s’associant à des Sociétés secrètes étrangères, a été mis en jugement et
                sera puni avec toute la sévérité des lois.</p>
-            <p>Plusieurs institutions utiles, créées par <rs ref="#p.188"><choice>
+            <p>Plusieurs institutions utiles, créées par <rs ref="#p.188">
+                        <choice>
                      <abbr>S. M.</abbr>
                      <expan>Sa Majesté</expan>
-                  </choice></rs> depuis la prise de possession de Ses Etats – telles que
+                  </choice>
+                    </rs> depuis la prise de possession de Ses Etats – telles que
                l’introduction d’un nouveau Code civil et criminel conforme au caractère de Ses
-               sujets, l’établissement d’un Conseil d’Etat présidé par <rs ref="#p.188"><choice>
+               sujets, l’établissement d’un Conseil d’Etat présidé par <rs ref="#p.188">
+                        <choice>
                      <abbr>S. M.</abbr>
                      <expan>Sa Majesté</expan>
-                  </choice></rs> et composé des premiers Magistrats et des grands Propriétaires
+                  </choice>
+                    </rs> et composé des premiers Magistrats et des grands Propriétaires
                Nobles du Pays, un Sistème municipal<pb n="80v"/> qui laisse aux Communes une grande
                latitude dans leur administration particulière, la diminution des impôts, la
-               liquidation de la dette publique de deux millions et demi de francs dont <rs ref="#p.188"><choice>
+               liquidation de la dette publique de deux millions et demi de francs dont <rs ref="#p.188">
+                        <choice>
                      <abbr>S. M.</abbr>
                      <expan>Sa Majesté</expan>
-                  </choice></rs> s’est chargée et qui sera acquittée l’année 1826, la création d’un
+                  </choice>
+                    </rs> s’est chargée et qui sera acquittée l’année 1826, la création d’un
                Collège pour la Noblesse dans lequel on cherche à Lui inculquer les principes
                desquels Elle n’aurait jamais dû dévier, une surveillance active sur toutes les
                parties de l’éducation publique, enfin les grands travaux pour la construction des
@@ -596,10 +793,13 @@
                donnent un juste espoir à cette <rs ref="#p.188">Auguste Souveraine</rs> que
                l’attente des hautes Puissances alliées relativement à l’administration de Ses Etats
                ne sera point déçue.</p>
-            <p><rs ref="#p.188"><choice>
+            <p>
+                    <rs ref="#p.188">
+                        <choice>
                      <abbr>S. M.</abbr>
                      <expan>Sa Majesté</expan>
-                  </choice></rs> prend l’engagement solennel non seulement de seconder de tous Ses
+                  </choice>
+                    </rs> prend l’engagement solennel non seulement de seconder de tous Ses
                moyens les vues sages &amp; bienfaisantes des hautes Puissances alliées pour le repos
                et la prospérité de l’Italie, mais promet aussi de communiquer aux autres
                Gouvernemens Italiens tout ce qui pourrait venir à Sa connaissance et qui serait
@@ -609,22 +809,31 @@
                de son <rs ref="#p.188">Auguste Souveraine</rs> près des Membres d’une Conférence
                aussi illustre que respectable, et prie en même temps que sa note soit accueillie et
                insérée dans Ses actes.</p>
-            <p>Signé / Le <persName ref="#p.184"><roleName>Comte</roleName>
-                  <surname>de Neipperg</surname></persName></p>
+            <p>Signé / Le <persName ref="#p.184">
+                        <roleName>Comte</roleName>
+                  <surname>de Neipperg</surname>
+                    </persName>
+                </p>
          </div>
 
          <div decls="#m.6">
             <pb n="83r"/>
-            <p><title>Déclaration de <choice>
-                     <abbr>M<hi rendition="#su">r</hi></abbr>
+            <p>
+                    <title>Déclaration de <choice>
+                     <abbr>M<hi rendition="#su">r</hi>
+                            </abbr>
                      <expan>Monsieur</expan>
-                  </choice> le <rs ref="#p.183">Plénipotentiaire</rs> de Sa Majesté l’<rs ref="#p.189"><roleName>Infante
-                        Duchesse de Lucques</roleName></rs></title>
+                  </choice> le <rs ref="#p.183">Plénipotentiaire</rs> de Sa Majesté l’<rs ref="#p.189">
+                            <roleName>Infante
+                        Duchesse de Lucques</roleName>
+                        </rs>
+                    </title>
             </p>
             <p>Le <rs ref="#p.183">Plénipotentiaire de <choice>
                      <abbr>S. M.</abbr>
                      <expan>Sa Majesté</expan>
-                  </choice> l’<rs ref="#p.189">Infante Duchesse de Lucques</rs></rs> ne se croyant
+                  </choice> l’<rs ref="#p.189">Infante Duchesse de Lucques</rs>
+                    </rs> ne se croyant
                pas autorisé à émettre une opinion sur les dispositions qui ont été prises par <choice>
                   <abbr>LL. MM.</abbr>
                   <expan>Leurs Majestés</expan>
@@ -635,7 +844,8 @@
                   <expan>Sa Majesté</expan>
                </choice>
                <rs ref="#p.189">la Duchesse</rs> ne pourra apprendre qu’avec beaucoup de
-               satisfaction et le plus vif intérêt les résolutions qui ont été communiquées à <rs ref="#p.183">Son Plénipotentiaire</rs> dans la <ref target="Verona_II_5.xml">Conférence du <date when="1822-12-11">11 Décembre</date></ref>, et ne pourra voir
+               satisfaction et le plus vif intérêt les résolutions qui ont été communiquées à <rs ref="#p.183">Son Plénipotentiaire</rs> dans la <ref target="Verona_II_5.xml">Conférence du <date when="1822-12-11">11 Décembre</date>
+                    </ref>, et ne pourra voir
                dans ces résolutions que le fruit des sages mesures adoptées par <rs ref="#p.138 #p.172">Leurs Majestés Sicilienne et Sarde</rs> pour combattre la
                révolution et ramener le bonheur dans Leurs Etats, et les soins généreux et
                bienveillans des hautes Puissances alliées pour la prospérité des Trônes et celle des
@@ -665,7 +875,8 @@
                reconnaissance pour le témoignage de confiance qu’Elles viennent de donner aux
                Souverains d’Italie, et pour les soins qu’Elles ne cessent de vouer à consolider un
                ordre de choses sur lesquelles repose le bonheur des Gouvernans et des Gouvernés.</p>
-            <p rendition="#u"><placeName ref="#loc.68">Vérone</placeName> le <date when="1822-12-13">13 Décembre 1822</date>.</p>
+            <p rendition="#u">
+                    <placeName ref="#loc.68">Vérone</placeName> le <date when="1822-12-13">13 Décembre 1822</date>.</p>
          </div>
       </body>
       <back>

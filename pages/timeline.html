@@ -11,14 +11,9 @@
     </style>
     <script id="item-template" type="text/x-handlebars-template">
         <table class="table table-bordered table-hover table-condensed">
+            {{#if doctitle}}
             <tr>
-                <th>Dokument</th>
-                <td colspan="3" class="description">{{sender}}</td>
-            </tr>
-            {{#if receiver}}
-            <tr>
-                <th>Receiver</th>
-                <td colspan="3" class="description">{{receiver}}</td>
+                <th colspan="3" class="description">{{doctitle}}</th>
             </tr>
             {{/if}}
             <tr>

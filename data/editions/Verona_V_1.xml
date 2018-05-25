@@ -1,5 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -10,10 +12,13 @@
                <persName>
                   <surname>Schneider</surname>
                   <forename>Karin</forename>
-               </persName></editor>
+               </persName>
+                </editor>
          </titleStmt>
          <editionStmt>
-            <edition><date>2017-03-13</date></edition>
+            <edition>
+                    <date>2017-03-13</date>
+                </edition>
          </editionStmt>
          <publicationStmt>
             <publisher>Österreichische Akademie der Wissenschaften, Institut für Neuzeit- und
@@ -56,8 +61,11 @@
 
                </physDesc>
                <history>
-                  <origin><placeName ref="#loc.68">Verona</placeName><date when="1822-11-24">24.
-                        November 1822</date></origin>
+                  <origin>
+                            <placeName ref="#loc.68">Verona</placeName>
+                            <date when="1822-11-24">24.
+                        November 1822</date>
+                        </origin>
                </history>
             </msDesc>
             <msDesc xml:id="m.2" type="Ausfertigung">
@@ -113,19 +121,29 @@
             </msDesc>
             <listWit corresp="#m.1">
                <head>Procès-verbal der ersten Sitzung</head>
-               <witness corresp="#w.5"><bibl type="print">BFSP Bd. 10 (1822/23), S. 94–95
-                     (Auszug);</bibl></witness>
-               <witness corresp="#w.17"><bibl type="print">Clarke, Papers presented to parliament
-                     1823, S. 188–189 (Auszug);</bibl></witness>
-               <witness corresp="#w.4"><bibl type="print">Vnešnjaja politika Rossii, Bd. 12, S.
-                     591–592.</bibl></witness>
+               <witness corresp="#w.5">
+                        <bibl type="print">BFSP Bd. 10 (1822/23), S. 94–95
+                     (Auszug);</bibl>
+                    </witness>
+               <witness corresp="#w.17">
+                        <bibl type="print">Clarke, Papers presented to parliament
+                     1823, S. 188–189 (Auszug);</bibl>
+                    </witness>
+               <witness corresp="#w.4">
+                        <bibl type="print">Vnešnjaja politika Rossii, Bd. 12, S.
+                     591–592.</bibl>
+                    </witness>
             </listWit>
             <listWit corresp="#m.2">
                <head>Anlage 1: Denkschrift Wellingtons</head>
-               <witness corresp="#w.5"><bibl type="print">BFSP Bd. 10 (1822/23), S.
-                  95–100;</bibl></witness>
-               <witness corresp="#w.17"><bibl type="print">Clarke, Papers presented to parliament
-                     1823, S. 201–211.</bibl></witness>
+               <witness corresp="#w.5">
+                        <bibl type="print">BFSP Bd. 10 (1822/23), S.
+                  95–100;</bibl>
+                    </witness>
+               <witness corresp="#w.17">
+                        <bibl type="print">Clarke, Papers presented to parliament
+                     1823, S. 201–211.</bibl>
+                    </witness>
             </listWit>
 
          </sourceDesc>
@@ -138,7 +156,7 @@
          </appInfo>
          <styleDefDecl scheme="css"/>
          <tagsDecl>
-            <rendition xml:id="su" scheme="css">vertical-align:sub; font-size:.7em;</rendition>
+            <rendition xml:id="su" scheme="css">vertical-align:super; font-size:.7em;</rendition>
             <rendition xml:id="s" scheme="css">text-decoration:line-through;</rendition>
             <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
             <rendition xml:id="ow">overwritten</rendition>
@@ -195,26 +213,41 @@
       <body>
          <div decls="#m.1">
             <pb n="4r"/>
-            <p rendition="#u"><title>Procès-Verbal</title></p>
-            <p><title>de la Conférence <rs xml:id="n.1">relative à l’abolition de la traite des
+            <p rendition="#u">
+                    <title>Procès-Verbal</title>
+                </p>
+            <p>
+                    <title>de la Conférence <rs xml:id="n.1">relative à l’abolition de la traite des
                      Nègres</rs>,<note type="editorial" target="#n.1">Vgl. Fladeland, Abolitionist
                      Pressures; Kielstra, The Politics of Slave Trade, bes. S.
-                  120–124.</note></title></p>
-            <p><title>aux mesures adoptées par <rs ref="#p.130">Sa Majesté Britannique</rs> contre
-                  les</title></p>
-            <p><title>pirateries dans les mers de l’Amérique</title></p>
-            <p><placeName ref="#loc.68">Vérone</placeName>, le <date when="1822-11-24">24 Novembre
+                  120–124.</note>
+                    </title>
+                </p>
+            <p>
+                    <title>aux mesures adoptées par <rs ref="#p.130">Sa Majesté Britannique</rs> contre
+                  les</title>
+                </p>
+            <p>
+                    <title>pirateries dans les mers de l’Amérique</title>
+                </p>
+            <p>
+                    <placeName ref="#loc.68">Vérone</placeName>, le <date when="1822-11-24">24 Novembre
                   1822</date>.</p>
-            <p><choice>
-                  <abbr>M<hi rendition="#su">ss</hi></abbr>
+            <p>
+                    <choice>
+                  <abbr>M<hi rendition="#su">ss</hi>
+                        </abbr>
                   <expan>Messieurs</expan>
                </choice> les <rs ref="#p.102 #p.180 #p.135 #p.175 #p.40 #p.75 #p.8 #p.13 #p.35 #p.10">Plénipotentiaires d’Autriche, de France, de Grande-Bretagne, de Prusse et de
                   Russie</rs> se sont réunis ce jour pour prendre connaissance de deux
                communications que <choice>
-                  <abbr>M<hi rendition="#su">r</hi></abbr>
+                  <abbr>M<hi rendition="#su">r</hi>
+                        </abbr>
                   <expan>Monsieur</expan>
-               </choice> le <persName ref="#p.10"><roleName>Duc</roleName>
-                  <surname>de Wellington</surname></persName> a faites au nom du Gouvernement
+               </choice> le <persName ref="#p.10">
+                        <roleName>Duc</roleName>
+                  <surname>de Wellington</surname>
+                    </persName> a faites au nom du Gouvernement
                Britannique, telles qu’elles se trouvent ci-annexées sub <choice>
                   <abbr>litt.</abbr>
                   <expan>litteris</expan>
@@ -223,57 +256,80 @@
             <p>La première avait pour objet la continuation déplorable du commerce des Nègres, en
                dépit des déclarations, les lois et des traités qui ont interdit et condamné ce
                commerce depuis 1815. <choice>
-                  <abbr>M<hi rendition="#su">r</hi></abbr>
+                  <abbr>M<hi rendition="#su">r</hi>
+                        </abbr>
                   <expan>Monsieur</expan>
-               </choice> le <persName ref="#p.10"><roleName>Duc</roleName>
-                  <surname>de Wellington</surname></persName> a présenté dans son mémoire des
+               </choice> le <persName ref="#p.10">
+                        <roleName>Duc</roleName>
+                  <surname>de Wellington</surname>
+                    </persName> a présenté dans son mémoire des
                observations sur ce qu’Il regarde comme les causes du mal, et Il a indiqué
                différentes mesures qui pourraient y mettre un terme.</p>
-            <p><choice>
-                  <abbr>M<hi rendition="#su">r</hi></abbr>
+            <p>
+                    <choice>
+                  <abbr>M<hi rendition="#su">r</hi>
+                        </abbr>
                   <expan>Monsieur</expan>
-               </choice> le <persName ref="#p.13"><roleName>Comte</roleName>
-                  <surname>de Nesselrode</surname></persName> a déclaré au nom de <choice>
+               </choice> le <persName ref="#p.13">
+                        <roleName>Comte</roleName>
+                  <surname>de Nesselrode</surname>
+                    </persName> a déclaré au nom de <choice>
                   <abbr>S. M.</abbr>
                   <expan>Sa Majesté</expan>
                </choice> l’<rs ref="#p.17">Empereur de toutes les Russies</rs> que <rs ref="#p.17">Sa Majesté <choice>
-                     <abbr>Imp<hi rendition="#su">le</hi></abbr>
+                     <abbr>Imp<hi rendition="#su">le</hi>
+                            </abbr>
                      <expan>Impériale</expan>
-                  </choice></rs> ne désavouerait jamais les principes et les sentimens qui Lui
+                  </choice>
+                    </rs> ne désavouerait jamais les principes et les sentimens qui Lui
                avaient fait envisager de tout temps la traite des Nègres comme un commerce réprouvé
                par la religion, la justice et l’humanité, et qu’Elle était prête à concourir aux
                mesures que Ses Alliés jugeraient exécutables pour assurer l’abolition totale et
                définitive de ce commerce.</p>
-            <p><choice>
-                  <abbr>M<hi rendition="#su">ss</hi></abbr>
+            <p>
+                    <choice>
+                  <abbr>M<hi rendition="#su">ss</hi>
+                        </abbr>
                   <expan>Messieurs</expan>
                </choice> les <rs ref="#p.8 #p.40 #p.102 #p.180 #p.135 #p.175">Plénipotentiaires
-                  d’Autriche, de France et de Prusse</rs> ont également déclaré que <rs ref="#p.16 #p.15 #p.18">leurs Souverains</rs><pb n="4v"/> persistaient dans les
+                  d’Autriche, de France et de Prusse</rs> ont également déclaré que <rs ref="#p.16 #p.15 #p.18">leurs Souverains</rs>
+                    <pb n="4v"/> persistaient dans les
                principes en faveur desquels Ils s’étaient prononcés dès le Congrès de <placeName ref="#loc.7">Vienne</placeName> ; et on est convenu de consacrer de nouveau ces
-               principes par une déclaration analogue à <rs ref="#t.22">celle du <date when="1815-02-08">8 Février 1815</date></rs>.</p>
+               principes par une déclaration analogue à <rs ref="#t.22">celle du <date when="1815-02-08">8 Février 1815</date>
+                    </rs>.</p>
             <p>Quant aux mesures particulières proposées par <choice>
-                  <abbr>M<hi rendition="#su">r</hi></abbr>
+                  <abbr>M<hi rendition="#su">r</hi>
+                        </abbr>
                   <expan>Monsieur</expan>
-               </choice> le <persName ref="#p.10"><roleName>Duc</roleName>
-                  <surname>de Wellington</surname></persName>, <choice>
-                  <abbr>M<hi rendition="#su">ss</hi></abbr>
+               </choice> le <persName ref="#p.10">
+                        <roleName>Duc</roleName>
+                  <surname>de Wellington</surname>
+                    </persName>, <choice>
+                  <abbr>M<hi rendition="#su">ss</hi>
+                        </abbr>
                   <expan>Messieurs</expan>
                </choice> les <rs ref="#p.102 #p.135 #p.180">Plénipotentiaires de France</rs> se sont
                réservés d’en faire l’objet de Leurs réflexions, et de soumettre les résultats de ces
                réflexions à une Conférence prochaine.</p>
             <p>La seconde communication de <choice>
-                  <abbr>M<hi rendition="#su">r</hi></abbr>
+                  <abbr>M<hi rendition="#su">r</hi>
+                        </abbr>
                   <expan>Monsieur</expan>
-               </choice> le <persName ref="#p.10"><roleName>Duc</roleName>
-                  <surname>de Wellington</surname></persName> portait sur les mesures que <rs ref="#p.130"><choice>
+               </choice> le <persName ref="#p.10">
+                        <roleName>Duc</roleName>
+                  <surname>de Wellington</surname>
+                    </persName> portait sur les mesures que <rs ref="#p.130">
+                        <choice>
                      <abbr>S. M.</abbr>
                      <expan>Sa Majesté</expan>
                   </choice> Britannique</rs> a jugé nécessaire d’adopter pour la protection de Ses
                sujets contre les pirateries et attentats de toute espèce qui, dans la situation
                actuelle de l’Amérique Espagnole, se commettent dans toutes les mers au détriment de
                leur commerce et de leur navigation.</p>
-            <p><choice>
-                  <abbr>M<hi rendition="#su">ss</hi></abbr>
+            <p>
+                    <choice>
+                  <abbr>M<hi rendition="#su">ss</hi>
+                        </abbr>
                   <expan>Messieurs</expan>
                </choice> les <rs ref="#p.102 #p.180 #p.135 #p.175 #p.40 #p.75 #p.8 #p.13 #p.35">Plénipotentiaires des autres Cours</rs> ont annoncé qu’ils s’occuperont également
                de cette pièce, afin de s’expliquer sur les questions qu’elle embrasse dans la
@@ -288,35 +344,78 @@
                   <cell/>
                </row>
                <row>
-                  <cell><persName ref="#p.8"><surname>Metternich</surname></persName></cell>
-                  <cell>Le <persName ref="#p.102"><roleName>M<hi rendition="#su">is</hi></roleName>
-                        <surname>de Caraman</surname></persName></cell>
-                  <cell><persName ref="#p.10"><surname>Wellington</surname></persName></cell>
-                  <cell><persName ref="#p.175"><surname>Hatzfeldt</surname></persName></cell>
-                  <cell><persName ref="#p.13"><surname>Nesselrode</surname></persName></cell>
+                  <cell>
+                            <persName ref="#p.8">
+                                <surname>Metternich</surname>
+                            </persName>
+                        </cell>
+                  <cell>Le <persName ref="#p.102">
+                                <roleName>M<hi rendition="#su">is</hi>
+                                </roleName>
+                        <surname>de Caraman</surname>
+                            </persName>
+                        </cell>
+                  <cell>
+                            <persName ref="#p.10">
+                                <surname>Wellington</surname>
+                            </persName>
+                        </cell>
+                  <cell>
+                            <persName ref="#p.175">
+                                <surname>Hatzfeldt</surname>
+                            </persName>
+                        </cell>
+                  <cell>
+                            <persName ref="#p.13">
+                                <surname>Nesselrode</surname>
+                            </persName>
+                        </cell>
                </row>
                <row>
-                  <cell><persName ref="#p.40"><surname>Lebzeltern</surname></persName></cell>
-                  <cell><persName ref="#p.135"><roleName>C<hi rendition="#su">te</hi></roleName>
-                        <surname>de la Ferronay</surname></persName></cell>
+                  <cell>
+                            <persName ref="#p.40">
+                                <surname>Lebzeltern</surname>
+                            </persName>
+                        </cell>
+                  <cell>
+                            <persName ref="#p.135">
+                                <roleName>C<hi rendition="#su">te</hi>
+                                </roleName>
+                        <surname>de la Ferronay</surname>
+                            </persName>
+                        </cell>
                   <cell/>
                   <cell/>
-                  <cell><persName ref="#p.75"><surname>Lieven</surname></persName></cell>
+                  <cell>
+                            <persName ref="#p.75">
+                                <surname>Lieven</surname>
+                            </persName>
+                        </cell>
                </row>
                <row>
                   <cell/>
-                  <cell><persName ref="#p.180"><surname>Chateaubriand</surname></persName></cell>
+                  <cell>
+                            <persName ref="#p.180">
+                                <surname>Chateaubriand</surname>
+                            </persName>
+                        </cell>
                   <cell/>
                   <cell/>
-                  <cell><persName ref="#p.35"><surname>Tatistcheff</surname></persName></cell>
+                  <cell>
+                            <persName ref="#p.35">
+                                <surname>Tatistcheff</surname>
+                            </persName>
+                        </cell>
                </row>
             </table>
          </div>
 
          <div decls="#m.2">
             <pb n="7r"/>
-            <p><rs ref="#p.10">Those Minister, who had the honor of representing <rs ref="#p.19 #p.130">His Britannic Majesty</rs> at the Conferences at <placeName ref="#loc.7">Vienna</placeName>, at <placeName ref="#loc.2">Paris</placeName>,
-                  and at <placeName ref="#loc.1">Aix-la-Chapelle</placeName></rs>, called the
+            <p>
+                    <rs ref="#p.10">Those Minister, who had the honor of representing <rs ref="#p.19 #p.130">His Britannic Majesty</rs> at the Conferences at <placeName ref="#loc.7">Vienna</placeName>, at <placeName ref="#loc.2">Paris</placeName>,
+                  and at <placeName ref="#loc.1">Aix-la-Chapelle</placeName>
+                    </rs>, called the
                attention of the Sovereigns and of their Ministers upon each of those occasions to
                the State of the Slave trade; <rs xml:id="n.3">but there never was a moment, at which
                   it was more important that Their attention should be drawn to this important
@@ -353,7 +452,8 @@
             <p>It is obvious that this crime is committed in contravention of the laws<pb n="9r"/>
                of every country in Europe and of America, excepting only of one, and that it
                requires something more than the ordinary operation of Law to prevent it.</p>
-            <p><country>Portugal</country> is the only Country in the World which now by Law permits
+            <p>
+                    <country>Portugal</country> is the only Country in the World which now by Law permits
                a trade in Slaves, and that only in its own Factories and Territories South of the
                Equator, and as there is no legal sale for Slaves imported in Slave Ships excepting
                in the Portuguese Colonies, which are generally South of the Equator, the whole trade
@@ -367,9 +467,11 @@
                   engaged<pb n="10r"/> in this horrible traffic; and those employed in this Service
                have too much respect for the Flag of France to venture, excepting in cases of
                extraordinary suspicion, to search the vessels which sail under Its protection.</p>
-            <p><rs ref="#t.14 #t.17 #t.16">An endeavor has recently been made to improve these
+            <p>
+                    <rs ref="#t.14 #t.17 #t.16">An endeavor has recently been made to improve these
                   treaties with <country>Spain</country>, the <country>Netherlands</country>, and
-                     <country>Portugal</country></rs>; but no improvement of the measures to be
+                     <country>Portugal</country>
+                    </rs>; but no improvement of the measures to be
                carried into execution under these treaties, however well calculated under other
                circumstances to effect the object in view, can be effectual, so long as Contraband
                Traders in Men can carry on their Trade by assuming<pb n="10v"/> any foreign Flag,
@@ -414,9 +516,15 @@
                French law inflicts upon conviction, so few, and so little is the punishment
                commensurate which the offence even after conviction, that the insurance upon<pb n="13r"/> each voyage is not more than fifteen <hi rendition="#u">per
                cent</hi>.</p>
-            <p><sic><rs ref="#p.15" xml:id="n.4">His most Christian Majesty</rs></sic>,<note type="editorial" target="#n.4">Ehrentitel des Königs von Frankreich.</note> having
+            <p>
+                    <sic>
+                        <rs ref="#p.15" xml:id="n.4">His most Christian Majesty</rs>
+                    </sic>,<note type="editorial" target="#n.4">Ehrentitel des Königs von Frankreich.</note> having
                in the year 1815 voluntarily abolished the Slave trade by <rs ref="#.49">His
-                  declaration published on the <date when="1815-03-29"><supplied>29<hi rendition="#su">th</hi> of march</supplied></date></rs>, having
+                  declaration published on the <date when="1815-03-29">
+                            <supplied>29<hi rendition="#su">th</hi> of march</supplied>
+                        </date>
+                    </rs>, having
                subsequently engaged Himself by Treaty with the Four then Allied Courts to abolish
                that Traffic, having since recommended to the French legislature, that Laws should be
                passed to carry into execution His Royal declaration, and the stipulation of His
@@ -430,7 +538,8 @@
                cover, are generally unknown in that Country. It is believed, certainly erroneously,
                that the views of <country>Great-Britain</country> in the abolition are interested,
                and quite distinct from those of humanity; and <ref target="Aachen_Prot_30.xml">the
-                     <rs ref="#p.1">late respectable Minister of France</rs> told us at <placeName ref="#loc.1">Aix-la-Chapelle</placeName></ref>, that an erroneous opinion
+                     <rs ref="#p.1">late respectable Minister of France</rs> told us at <placeName ref="#loc.1">Aix-la-Chapelle</placeName>
+                    </ref>, that an erroneous opinion
                prevailed in <country>France</country>, that the abolition of the Slave trade had
                been imposed upon <country>France</country> as the price of Peace.</p>
             <pb n="14r"/>
@@ -469,7 +578,8 @@
                that, rather than urge <rs ref="#p.15">His Most Christian Majesty</rs> to adopt those
                measures which are necessary effectually to put down the Slave Trade, They will
                suffer this disgrace to human nature to exist?</p>
-            <p>The additional Article of the <rs ref="#t.1">Treaty<pb n="16r"/> of Paris of <date when="1815-11-20">November 20<hi rendition="#su">th</hi> 1815</date></rs> does
+            <p>The additional Article of the <rs ref="#t.1">Treaty<pb n="16r"/> of Paris of <date when="1815-11-20">November 20<hi rendition="#su">th</hi> 1815</date>
+                    </rs> does
                not describe any particular measure, or set of measures to be adopted to effect its
                purpose, but states that “the Contracting Parties engage to renew conjointly their
                efforts, with the view of securing final success, and to concert the <hi rendition="#u">most effectual measures</hi> for the entire and definitive
@@ -478,7 +588,8 @@
             <p>The following appear to be the measures, which the Allied Powers might adopt or
                recommend, which would have the effect of checking, if not of entirely putting<pb n="16v"/> down the Slave Trade:</p>
             <p>- A declaration on the part of the Powers whose Ministers are now assembled at
-                  <placeName ref="#loc.68">Verona</placeName>, renewing the <rs ref="#t.22">denunciation of the Slave Trade of the Congress of <placeName ref="#loc.7">Vienna</placeName></rs>, and exhorting the Maritime Powers, who have abolished
+                  <placeName ref="#loc.68">Verona</placeName>, renewing the <rs ref="#t.22">denunciation of the Slave Trade of the Congress of <placeName ref="#loc.7">Vienna</placeName>
+                    </rs>, and exhorting the Maritime Powers, who have abolished
                the Trade, to concert measures among themselves for proclaiming and treating it as
                Piracy, with a view of founding upon the aggregate of such separate engagements
                between State and State, a general Law to be incorporated into the public Law of the
@@ -512,7 +623,8 @@
                Colonies to attend to the strict execution of the Laws on the subject.</p>
             <p>It must be observed that the <ref target="Aachen_Prot_30.xml">measure was suggested
                   at the late Congress of <placeName ref="#loc.1">Aix-la-Chapelle</placeName> by the
-                     <rs ref="#p.1">late Minister of France</rs></ref>, but has not yet been ordered
+                     <rs ref="#p.1">late Minister of France</rs>
+                    </ref>, but has not yet been ordered
                by an “<hi rendition="#u">ordonnance</hi>”.</p>
             <p>2<hi rendition="#su">o</hi> That <rs ref="#p.15">His Most Christian Majesty</rs>
                should encourage the capture of Slave Ships fraudulently carrying on a Contraband
@@ -550,13 +662,15 @@
                the Officers commanding His fleets and Ships, regarding the Interests of His
                subjects; and to recognise in those several Governments the rights of War, as
                   exercised<pb n="69v"/> by Belligerents according to the Laws of Nations.</p>
-            <p><rs xml:id="n.5">In the course of the last session of Parliament, His Majesty’s
+            <p>
+                    <rs xml:id="n.5">In the course of the last session of Parliament, His Majesty’s
                   Government had occasion to propose to Parliament a review, relaxation, and
                   consolidation of the Navigation Laws, and Vessels, bearing the Flag of Spain, or
                   of any of the Local Governments in the provinces heretofore forming the dominion
                   of <country>Spain</country>, carrying Articles, the growth, produce, or
                   manufacture of those provinces on the Continent of America, can now import into
-                  the United Kingdom.</rs><note type="editorial" target="#n.5">Verm. Cap. 44: Act to
+                  the United Kingdom.</rs>
+                    <note type="editorial" target="#n.5">Verm. Cap. 44: Act to
                   regulate the Trade between His Majesty’s Possessions in America and the West
                   Indies, and other Places in America and the West Indies, 24. Juni 1822; abgedruckt
                   in The Statutes of the United Kingdom, 1822, S. 196–207.</note>
@@ -566,7 +680,8 @@
                   das Repräsentantenhaus des Kongresses vom 8. März 1822; abgedruckt in Journal of
                   the House of Representatives, Bd. 15, S. 328–331; BFSP Bd. 9 (1821/22), S.
                   366–368.</note>
-               <rs xml:id="n.7" ref="#p.150">His Catholic Majesty</rs><note type="editorial" target="#n.7">Ehrentitel des Königs von Spanien.</note> having thought proper to
+               <rs xml:id="n.7" ref="#p.150">His Catholic Majesty</rs>
+                    <note type="editorial" target="#n.7">Ehrentitel des Königs von Spanien.</note> having thought proper to
                direct that a Note should be presented to His Majesty’s Government to make<pb n="70r"/> known to <rs ref="#p.130">His Majesty</rs>
                <rs xml:id="n.8">that <country>Spain</country> was about to enter upon a course of
                   measures in relation to those provinces, having for their object their
@@ -575,10 +690,12 @@
                <rs ref="#p.130">His Majesty</rs> directed that an answer should be returned, stating
                His wish to witness an amicable termination of the differences existing between
                   <country>Spain</country> and Her Colonies of America, the readiness of His
-               Government to receive from the Government of Spain such further explanation as <rs ref="#p.150"><choice>
+               Government to receive from the Government of Spain such further explanation as <rs ref="#p.150">
+                        <choice>
                      <abbr>H. C. M.</abbr>
                      <expan>His Catholic Majesty</expan>
-                  </choice></rs> might think proper to give, but at the same time warning the
+                  </choice>
+                    </rs> might think proper to give, but at the same time warning the
                Spanish Government of the rapid progress of events, of the dangers of delay, and of
                the impossibility that so large a portion of the world could long continue without
                some recognised relations, without disturbing the Intercourse of civilised<pb n="70v"/> Society.</p>
@@ -595,7 +712,8 @@
                down this Evil, and representations<pb n="71r"/> have been made to the Spanish
                Government, which have produced promises of redress – but no redress has
                followed.</p>
-            <p><rs ref="#p.130">His Majesty</rs> has been at length obliged to undertake the task,
+            <p>
+                    <rs ref="#p.130">His Majesty</rs> has been at length obliged to undertake the task,
                but it is impossible to expect that this intolerable Evil should be thoroughly
                extirpated without the cooperation of the Local authorities, occupying the Ports and
                Coasts of that part of the Continent of <choice>
@@ -604,31 +722,40 @@
                </choice> America; and the necessity of this cooperation must lead to some further
                recognition of the existence <hi rendition="#u">de facto</hi> of some one or more of
                these self created Governments.</p>
-            <p><rs ref="#p.130">His Majesty</rs>, as the Ally of <rs ref="#p.150">His Catholic
+            <p>
+                    <rs ref="#p.130">His Majesty</rs>, as the Ally of <rs ref="#p.150">His Catholic
                   Majesty</rs>, has for many years been disposed to exert the Influence of His
                Government to effect a pacification between <country>Spain</country> and Her<pb n="71v"/> Colonies on terms of mutual liberality and advantage; and, in the
                earnest pursuit of this friendly purpose, has refused for His subjects every
                commercial advantage which either party was disposed to concede to them.</p>
-            <p><rs ref="#p.150"><choice>
+            <p>
+                    <rs ref="#p.150">
+                        <choice>
                      <abbr>H. C. M.</abbr>
                      <expan>His Catholic Majesty</expan>
-                  </choice></rs>’s Government have more than once acknowledged their obligations to
+                  </choice>
+                    </rs>’s Government have more than once acknowledged their obligations to
                   <rs ref="#p.130">His Majesty</rs> in this respect. </p>
             <p>On the same principle, <rs ref="#p.130">His Majesty</rs> would have been highly
                gratified if He could have received the intelligence of the termination of these
-               differences, and that <rs ref="#p.150"><choice>
+               differences, and that <rs ref="#p.150">
+                        <choice>
                      <abbr>H. C. M.</abbr>
                      <expan>His Catholic Majesty</expan>
-                  </choice></rs> was so situated in respect to those provinces, as to render
+                  </choice>
+                    </rs> was so situated in respect to those provinces, as to render
                unnecessary the measures for the protection of His subjects which the progress of
                Events, the rapid growth, and existing magnitude of the unredressed Evils, under
                which His Majesty’s subjects are suffering<pb n="72r"/> in the pursuit of their
                lawful occupations, have rendered it absolutely necessary for <rs ref="#p.130">His
                   Majesty</rs> to adopt for their protection.</p>
-            <p><rs ref="#p.130">His Majesty</rs> has apprised the Government of <rs ref="#p.150"><choice>
+            <p>
+                    <rs ref="#p.130">His Majesty</rs> has apprised the Government of <rs ref="#p.150">
+                        <choice>
                      <abbr>H. C. M.</abbr>
                      <expan>His Catholic Majesty</expan>
-                  </choice></rs> of these Measures; and in the true spirit of the Union existing
+                  </choice>
+                    </rs> of these Measures; and in the true spirit of the Union existing
                between Him and His Allies, having before had occasion to communicate to Them what
                had passed between Him and <country>Spain</country> upon this subject, has directed
                that these additional circumstances should be made known to Them.</p>

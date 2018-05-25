@@ -1,5 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -9,10 +11,13 @@
                <persName>
                   <surname>Schneider</surname>
                   <forename>Karin</forename>
-               </persName></editor>
+               </persName>
+                </editor>
          </titleStmt>
          <editionStmt>
-            <edition><date>2015-05-08</date></edition>
+            <edition>
+                    <date>2015-05-08</date>
+                </edition>
          </editionStmt>
          <publicationStmt>
             <publisher>Österreichische Akademie der Wissenschaften, Institut für Neuzeit- und
@@ -40,7 +45,8 @@
                <physDesc>
 
                   <p>Eigenhändiges Protokoll von <persName ref="#p.5">
-                        <surname>Gentz</surname></persName>.</p>
+                        <surname>Gentz</surname>
+                            </persName>.</p>
                   <handDesc>
                      <handNote xml:id="G">Friedrich Gentz</handNote>
                      <handNote xml:id="W">Nikolaus Wacken</handNote>
@@ -49,15 +55,19 @@
                   </handDesc>
                </physDesc>
                <history>
-                  <origin><placeName ref="#loc.1">Aachen</placeName>
-                     <date when="1818-11-21">21. November 1818</date></origin>
+                  <origin>
+                            <placeName ref="#loc.1">Aachen</placeName>
+                     <date when="1818-11-21">21. November 1818</date>
+                        </origin>
                </history>
             </msDesc>
 
             <listWit corresp="#m.1">
                <head>Protokoll</head>
-               <witness corresp="#w.12"><bibl type="print">Masson, Autour de Sainte-Helène, S.
-                     259–260.</bibl></witness>
+               <witness corresp="#w.12">
+                        <bibl type="print">Masson, Autour de Sainte-Helène, S.
+                     259–260.</bibl>
+                    </witness>
             </listWit>
          </sourceDesc>
       </fileDesc>
@@ -69,7 +79,7 @@
          </appInfo>
          <styleDefDecl scheme="css"/>
          <tagsDecl>
-            <rendition xml:id="su" scheme="css">vertical-align:sub; font-size:.7em;</rendition>
+            <rendition xml:id="su" scheme="css">vertical-align:super; font-size:.7em;</rendition>
             <rendition xml:id="s" scheme="css">text-decoration:line-through;</rendition>
             <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
             <rendition xml:id="ow">overwritten</rendition>
@@ -78,8 +88,10 @@
       <profileDesc>
          <abstract>
             <p>Die <rs ref="#p.13 #p.14">Vertreter Russlands</rs> verlesen eine Denkschrift
-               betreffend die Haftbedingungen <persName ref="#p.50"><forename>Napoleon</forename>
-                  <surname>Bonapartes</surname></persName> auf St. Helena, der sich die Vertreter
+               betreffend die Haftbedingungen <persName ref="#p.50">
+                        <forename>Napoleon</forename>
+                  <surname>Bonapartes</surname>
+                    </persName> auf St. Helena, der sich die Vertreter
                der anderen Mächte anschließen.</p>
          </abstract>
          <particDesc>
@@ -119,31 +131,50 @@
       <body>
          <div hand="#G" decls="#m.1">
             <pb n="244r"/>
-            <p><add hand="#W" place="top">Protocole <choice>
+            <p>
+                    <add hand="#W" place="top">Protocole <choice>
                      <abbr>N.</abbr>
                      <expan>Numéro</expan>
                   </choice>
-                  <del rendition="#ow">43</del>42.</add></p>
-            <p><placeName ref="#loc.1">Aix-la-Chapelle</placeName> le <date when="1818-11-21">21
-                  Novembre</date></p>
-            <p><add place="margin"><hi rendition="#u"><persName ref="#p.50"><surname>Bonaparte</surname></persName> à
+                  <del rendition="#ow">43</del>42.</add>
+                </p>
+            <p>
+                    <placeName ref="#loc.1">Aix-la-Chapelle</placeName> le <date when="1818-11-21">21
+                  Novembre</date>
+                </p>
+            <p>
+                    <add place="margin">
+                        <hi rendition="#u">
+                            <persName ref="#p.50">
+                                <surname>Bonaparte</surname>
+                            </persName> à
                      <choice>
                         <abbr>St.</abbr>
                         <expan>Sainte</expan>
-                     </choice> Hélène</hi></add></p>
-            <p><add hand="#W" place="margin">Entre les Cinq Cabinets</add></p>
-            <p><rs xml:id="n.1"><choice>
+                     </choice> Hélène</hi>
+                    </add>
+                </p>
+            <p>
+                    <add hand="#W" place="margin">Entre les Cinq Cabinets</add>
+                </p>
+            <p>
+                    <rs xml:id="n.1">
+                        <choice>
                      <abbr>Mrs.</abbr>
                      <expan>Messieurs</expan>
                   </choice> les <rs ref="#p.13 #p.14">Plénipotentiaires de Russie</rs> ont donné
-                  lecture d’un <ref target="Aachen_Prot_31.xml">Mémoire</ref></rs> destiné à faire connoître les points de
-               vue sous lesquels leur Cabinet envisage la position de <persName ref="#p.50"><forename>Napoléon</forename>
-                  <surname>Bonaparte</surname></persName> à l’Isle <del rendition="#s">d'Elba</del>
+                  lecture d’un <ref target="Aachen_Prot_31.xml">Mémoire</ref>
+                    </rs> destiné à faire connoître les points de
+               vue sous lesquels leur Cabinet envisage la position de <persName ref="#p.50">
+                        <forename>Napoléon</forename>
+                  <surname>Bonaparte</surname>
+                    </persName> à l’Isle <del rendition="#s">d'Elba</del>
                de <choice>
                   <abbr>St.</abbr>
                   <expan>Sainte</expan>
                </choice> Hélène, l’esprit et la teneur des instructions réglant la conduite des
-               Commissaires de <rs ref="#p.19"><choice>
+               Commissaires de <rs ref="#p.19">
+                        <choice>
                      <abbr>S. M.</abbr>
                      <expan>Sa Majesté</expan>
                   </choice> Brittannique</rs> à l’égard de ce Prisonnier, et les rapports <subst>
@@ -163,33 +194,46 @@
                </choice> les <rs ref="#p.9 #p.10">Plénipotentiaires Brittaniques</rs> que sur les
                apperçus présentés avec autant de vérité que de force dans le susdit Mémoire ; </p>
             <p>Ont unanimement reconnu et déclarent en conséquence :</p>
-            <p>1. Que <persName ref="#p.50"><forename>Napoléon</forename>
-                  <surname>Bonaparte</surname></persName> s’est, par son propre fait, privé <pb n="244v"/>de tous les droits autres que ceux que l’humanité réclame en sa faveur,
+            <p>1. Que <persName ref="#p.50">
+                        <forename>Napoléon</forename>
+                  <surname>Bonaparte</surname>
+                    </persName> s’est, par son propre fait, privé <pb n="244v"/>de tous les droits autres que ceux que l’humanité réclame en sa faveur,
                et que les mesures de précaution que le repos et le salut public peuvent exiger à son
                égard sont entièrement soumises à la discrétion éclairée des <rs ref="#p.16 #p.19 #p.18 #p.17">Souverains Alliés</rs> ;</p>
             <p>2. Que la <rs ref="#t.31">convention du <date when="1815-08-02">2 Aout
-                  1815</date></rs> le constitue expressément prisonnier des puissances signataires
-               du <rs ref="#t.34">Traité du <date when="1815-03-25">25 Mars 1815</date></rs> ;</p>
+                  1815</date>
+                    </rs> le constitue expressément prisonnier des puissances signataires
+               du <rs ref="#t.34">Traité du <date when="1815-03-25">25 Mars 1815</date>
+                    </rs> ;</p>
             <p>3. Qu’une telle clause ne permet à aucune des puissances, et moins qu’à toute autre à
                celle à laquelle la garde de sa personne a été exclusivement confiée, de s’écarter de
                l’engagement contracté ou de s’exposer, par quelque considération que ce soit, à ce
                que l’effet de cet engagement puisse être frustré au détriment de la paix
                publique ;</p>
-            <p>4. Que les précautions ordonnées dans les <ref target="Aachen_Prot_31.xml">instructions primitives du Gouvernement de <rs ref="#p.19"><choice>
+            <p>4. Que les précautions ordonnées dans les <ref target="Aachen_Prot_31.xml">instructions primitives du Gouvernement de <rs ref="#p.19">
+                            <choice>
                         <abbr>S. M.</abbr>
                         <expan>Sa Majesté</expan>
-                     </choice> Brittannique</rs>, et renouvelées dans la dépêche de <persName ref="#p.111"><roleName>Lord</roleName>
-                     <surname>Bathurst</surname></persName> à <persName ref="#p.108"><roleName>Sir</roleName>
+                     </choice> Brittannique</rs>, et renouvelées dans la dépêche de <persName ref="#p.111">
+                            <roleName>Lord</roleName>
+                     <surname>Bathurst</surname>
+                        </persName> à <persName ref="#p.108">
+                            <roleName>Sir</roleName>
                      <forename>Hudson</forename>
-                     <surname>Lowe</surname></persName> du <date when="1818-09-01">1 Septembre
-                     1818</date></ref>, ont obtenu l’assentiment unanime des puis<pb n="245r"/>sances signataires de la susdite convention ; et qu’elles approuvent également les
+                     <surname>Lowe</surname>
+                        </persName> du <date when="1818-09-01">1 Septembre
+                     1818</date>
+                    </ref>, ont obtenu l’assentiment unanime des puis<pb n="245r"/>sances signataires de la susdite convention ; et qu’elles approuvent également les
                ménagemens que l’humanité et la générosité peuvent suggérer dans l’exécution de ces
                instructions, vu la position où se trouve <choice>
                   <abbr>S. A. R.</abbr>
                   <expan>Son Altesse Royale</expan>
-               </choice> le <rs ref="#p.130">Prince Régent</rs> par le fait que <persName ref="#p.50"><surname>Bonaparte</surname></persName> s’est rendu au Gouvernement
+               </choice> le <rs ref="#p.130">Prince Régent</rs> par le fait que <persName ref="#p.50">
+                        <surname>Bonaparte</surname>
+                    </persName> s’est rendu au Gouvernement
                Brittanique ;</p>
-            <p>5. Qu’aussi long tems que les Commissaires des puissances qui ont concouru au <rs ref="#t.31">traité du <date when="1815-08-02">2 Aout 1815</date></rs> prolongeront
+            <p>5. Qu’aussi long tems que les Commissaires des puissances qui ont concouru au <rs ref="#t.31">traité du <date when="1815-08-02">2 Aout 1815</date>
+                    </rs> prolongeront
                leur séjour à l’isle de <choice>
                   <abbr>St.</abbr>
                   <expan>Sainte</expan>
@@ -203,15 +247,32 @@
                dénoncé et poursuivi par les voies légales.</p>
             <signed>
                <list>
-                  <item><persName ref="#p.8">Metternich</persName></item>
-                  <item><persName ref="#p.1">Richelieus</persName></item>
-                  <item><persName ref="#p.9">Castlereagh</persName></item>
-                  <item><persName ref="#p.10">Wellington</persName></item>
-                  <item><persName ref="#p.11">Hardenberg</persName></item>
-                  <item><persName ref="#p.12">Bernstorff</persName></item>
-                  <item><persName ref="#p.13">Nesselrode</persName></item>
-                  <item><persName ref="#p.14">Capodistrias</persName></item>
-               </list></signed>
+                  <item>
+                            <persName ref="#p.8">Metternich</persName>
+                        </item>
+                  <item>
+                            <persName ref="#p.1">Richelieus</persName>
+                        </item>
+                  <item>
+                            <persName ref="#p.9">Castlereagh</persName>
+                        </item>
+                  <item>
+                            <persName ref="#p.10">Wellington</persName>
+                        </item>
+                  <item>
+                            <persName ref="#p.11">Hardenberg</persName>
+                        </item>
+                  <item>
+                            <persName ref="#p.12">Bernstorff</persName>
+                        </item>
+                  <item>
+                            <persName ref="#p.13">Nesselrode</persName>
+                        </item>
+                  <item>
+                            <persName ref="#p.14">Capodistrias</persName>
+                        </item>
+               </list>
+                </signed>
          </div>
       </body>
       <back>

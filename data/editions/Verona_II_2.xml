@@ -1,5 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -10,10 +12,13 @@
                <persName>
                   <surname>Schneider</surname>
                   <forename>Karin</forename>
-               </persName></editor>
+               </persName>
+                </editor>
          </titleStmt>
          <editionStmt>
-            <edition><date>2017-03-13</date></edition>
+            <edition>
+                    <date>2017-03-13</date>
+                </edition>
          </editionStmt>
          <publicationStmt>
             <publisher>Österreichische Akademie der Wissenschaften, Institut für Neuzeit- und
@@ -57,8 +62,11 @@
 
                </physDesc>
                <history>
-                  <origin><placeName ref="#loc.68">Verona</placeName><date when="1822-12-05">5.
-                        Dezember 1822</date></origin>
+                  <origin>
+                            <placeName ref="#loc.68">Verona</placeName>
+                            <date when="1822-12-05">5.
+                        Dezember 1822</date>
+                        </origin>
                </history>
             </msDesc>
 
@@ -72,7 +80,7 @@
          </appInfo>
          <styleDefDecl scheme="css"/>
          <tagsDecl>
-            <rendition xml:id="su" scheme="css">vertical-align:sub; font-size:.7em;</rendition>
+            <rendition xml:id="su" scheme="css">vertical-align:super; font-size:.7em;</rendition>
             <rendition xml:id="s" scheme="css">text-decoration:line-through;</rendition>
             <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
             <rendition xml:id="ow">overwritten</rendition>
@@ -130,21 +138,34 @@
          <div decls="#m.1">
             <pb n="29r"/>
 
-            <p><add hand="#AmB" place="top"><date when="1822-12-05">5/12</date>
+            <p>
+                    <add hand="#AmB" place="top">
+                        <date when="1822-12-05">5/12</date>
                   <choice>
                      <abbr>Pr.</abbr>
                      <expan>Procés-verbal</expan>
-                  </choice></add></p>
-            <p><title>Procès-verbal</title></p>
-            <p><title>de la Conférence du <date when="1822-12-05">5 Décembre</date>, relative à
-                  l’évacuation du <country>Piémont</country>.</title></p>
-            <p><placeName ref="#loc.68">Vérone</placeName> le <date when="1822-12-05">5 Décembre
+                  </choice>
+                    </add>
+                </p>
+            <p>
+                    <title>Procès-verbal</title>
+                </p>
+            <p>
+                    <title>de la Conférence du <date when="1822-12-05">5 Décembre</date>, relative à
+                  l’évacuation du <country>Piémont</country>.</title>
+                </p>
+            <p>
+                    <placeName ref="#loc.68">Vérone</placeName> le <date when="1822-12-05">5 Décembre
                   1822</date>.</p>
             <p>Messieurs les <rs ref="#p.8 #p.40 #p.102 #p.180 #p.135 #p.137 #p.175 #p.13 #p.35">Plénipotentiaires des Cours d’Autriche, de France, de la Grande-Bretagne, de
-                  Prusse et de Russie</rs> se sont réunis avec Monsieur le <persName ref="#p.182"><roleName>Comte</roleName>
-                  <surname>de la Tour</surname></persName>, Plénipotentiaire de Sa Majesté le <rs ref="#p.172">Roi de Sardaigne</rs>, pour prendre en considération si l’état actuel
+                  Prusse et de Russie</rs> se sont réunis avec Monsieur le <persName ref="#p.182">
+                        <roleName>Comte</roleName>
+                  <surname>de la Tour</surname>
+                    </persName>, Plénipotentiaire de Sa Majesté le <rs ref="#p.172">Roi de Sardaigne</rs>, pour prendre en considération si l’état actuel
                du <country>Piémont</country> justifiait un changement dans les mesures adoptées au
-                  <rs xml:id="n.1">Congrès de <placeName ref="#loc.65">Laibach</placeName></rs><note type="editorial" target="#n.1">Vgl. Edition Laibach sowie zuletzt Jarrett,
+                  <rs xml:id="n.1">Congrès de <placeName ref="#loc.65">Laibach</placeName>
+                    </rs>
+                    <note type="editorial" target="#n.1">Vgl. Edition Laibach sowie zuletzt Jarrett,
                   Congress of Vienna, S. 270–284.</note> relativement à l’occupation d’une ligne
                militaire dans ce pays par un corps auxiliaire, demandée à cette époque par Sa
                Majesté le <rs ref="#p.169">Roi de Sardaigne</rs>, pour L’assister à rétablir la
@@ -155,14 +176,19 @@
                   Napoleonic Imperialism; Jarrett, The Congress of Vienna, S. 270–284.</note>
             </p>
             <p>Cette question avait été mise en délibération entre Messieurs les Ministres des Cours
-               signataires de la <rs ref="#t.46">Convention de <placeName ref="#loc.73">Novare</placeName></rs> du <date when="1821-07-24">24 Juillet 1821</date>. Un
+               signataires de la <rs ref="#t.46">Convention de <placeName ref="#loc.73">Novare</placeName>
+                    </rs> du <date when="1821-07-24">24 Juillet 1821</date>. Un
                article de cette convention portait qu’à la première réunion des Souverains il serait
                examiné si la situation du <country>Piémont</country> exigeait de prolonger ou
-               permettait de faire cesser ladite occupation militaire. <ref target="Verona_II_1.xml"><choice>
-                     <abbr>M<hi rendition="#su">r</hi></abbr>
+               permettait de faire cesser ladite occupation militaire. <ref target="Verona_II_1.xml">
+                        <choice>
+                     <abbr>M<hi rendition="#su">r</hi>
+                            </abbr>
                      <expan>Monsieur</expan>
-                  </choice> le <persName ref="#p.182"><roleName>Comte</roleName>
-                     <surname>de La Tour</surname></persName> avait présenté<pb n="29v"/> à cette
+                  </choice> le <persName ref="#p.182">
+                            <roleName>Comte</roleName>
+                     <surname>de La Tour</surname>
+                        </persName> avait présenté<pb n="29v"/> à cette
                   première conférence les renseignemens nécessaires pour juger la situation présente
                   du <country>Piémont</country> sous le point de vue militaire, moral et
                   administratif.</ref> Il avait déclaré en même temps au nom du <rs ref="#p.172">Roi</rs>, Son Maître, que Sa Majesté, convaincue de ce que les secours sollicités
@@ -181,7 +207,8 @@
                de la forteresse d’<placeName ref="#loc.74">Alexandrie</placeName>, qui devra être
                évacuée la dernière, ait définitivement lieu le <date when="1823-09-30">30 Septembre
                   1823</date> ;</p>
-            <p>Que les dispositions de la <rs ref="#t.46">Convention de <placeName ref="#loc.73">Novare</placeName></rs> relatives soit à la proportion des différentes armes
+            <p>Que les dispositions de la <rs ref="#t.46">Convention de <placeName ref="#loc.73">Novare</placeName>
+                    </rs> relatives soit à la proportion des différentes armes
                dont doit être composée l’armée d’occupation, soit aux fournitures que le
                Gouvernement du <rs ref="#p.172">Roi</rs> s’est engagé à faire en nature aussi bien
                qu’en numéraire, continueront à être observées en autant<pb n="30r"/> qu’elles sont
@@ -190,8 +217,10 @@
                proportionnée au nombre des troupes qui quitteront les Etats sardes.</p>
             <p>Messieurs les <rs ref="#p.8 #p.40 #p.175 #p.13 #p.35">Ministres d’Autriche, de Russie
                   et de Prusse</rs> avaient répondu à cette ouverture que <rs ref="#p.16 #p.17 #p.18">leurs augustes Souverains</rs>, entièrement satisfaits des
-               renseignemens fournis par Monsieur le <persName ref="#p.182"><roleName>Comte</roleName>
-                  <surname>de la Tour</surname></persName> sur la situation présente du
+               renseignemens fournis par Monsieur le <persName ref="#p.182">
+                        <roleName>Comte</roleName>
+                  <surname>de la Tour</surname>
+                    </persName> sur la situation présente du
                   <country>Piémont</country>, partageant l’opinion de Sa Majesté le <rs ref="#p.172">Roi de Sardaigne</rs> à l’égard du corps auxiliaire, et empressés de concourir
                avec Elle au soulagement de Ses peuples par la retraite des Troupes dont la présence
                n’était plus jugée nécessaire ; rendant également justice au désir de <rs ref="#p.172">Sa Majesté</rs> de voir s’exécuter la mesure de l’évacuation de
@@ -211,21 +240,63 @@
                de la Convention de Novare.</p>
             <p>Signé</p>
             <list>
-               <item><persName ref="#p.8"><surname>Metternich</surname></persName></item>
-               <item><persName ref="#p.40"><surname>Lebzeltern</surname></persName></item>
-               <item>Le <persName ref="#p.102"><roleName><choice>
-                           <abbr>M<hi rendition="#su">is</hi></abbr>
+               <item>
+                        <persName ref="#p.8">
+                            <surname>Metternich</surname>
+                        </persName>
+                    </item>
+               <item>
+                        <persName ref="#p.40">
+                            <surname>Lebzeltern</surname>
+                        </persName>
+                    </item>
+               <item>Le <persName ref="#p.102">
+                            <roleName>
+                                <choice>
+                           <abbr>M<hi rendition="#su">is</hi>
+                                    </abbr>
                            <expan>Marquis</expan>
-                        </choice></roleName>
-                     <surname>de Caraman</surname></persName></item>
-               <item><persName ref="#p.135"><roleName>Comte</roleName>
-                     <surname>de la Ferronnay</surname></persName></item>
-               <item><persName ref="#p.180"><surname>Chateaubriand</surname></persName></item>
-               <item><persName ref="#p.137"><roleName>Vane Londonderry</roleName></persName></item>
-               <item><persName ref="#p.175"><surname>Hatzfeldt</surname></persName></item>
-               <item><persName ref="#p.13"><surname>Nesselrode</surname></persName></item>
-               <item><persName ref="#p.35"><surname>Tatistscheff</surname></persName></item>
-               <item><persName ref="#p.182"><surname>De la Tour</surname></persName></item>
+                        </choice>
+                            </roleName>
+                     <surname>de Caraman</surname>
+                        </persName>
+                    </item>
+               <item>
+                        <persName ref="#p.135">
+                            <roleName>Comte</roleName>
+                     <surname>de la Ferronnay</surname>
+                        </persName>
+                    </item>
+               <item>
+                        <persName ref="#p.180">
+                            <surname>Chateaubriand</surname>
+                        </persName>
+                    </item>
+               <item>
+                        <persName ref="#p.137">
+                            <roleName>Vane Londonderry</roleName>
+                        </persName>
+                    </item>
+               <item>
+                        <persName ref="#p.175">
+                            <surname>Hatzfeldt</surname>
+                        </persName>
+                    </item>
+               <item>
+                        <persName ref="#p.13">
+                            <surname>Nesselrode</surname>
+                        </persName>
+                    </item>
+               <item>
+                        <persName ref="#p.35">
+                            <surname>Tatistscheff</surname>
+                        </persName>
+                    </item>
+               <item>
+                        <persName ref="#p.182">
+                            <surname>De la Tour</surname>
+                        </persName>
+                    </item>
             </list>
 
          </div>

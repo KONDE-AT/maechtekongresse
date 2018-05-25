@@ -1,5 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -9,10 +11,13 @@
                <persName>
                   <surname>Schneider</surname>
                   <forename>Karin</forename>
-               </persName></editor>
+               </persName>
+                </editor>
          </titleStmt>
          <editionStmt>
-            <edition><date>2012-10-26</date></edition>
+            <edition>
+                    <date>2012-10-26</date>
+                </edition>
          </editionStmt>
          <publicationStmt>
             <publisher>Österreichische Akademie der Wissenschaften, Institut für Neuzeit- und
@@ -38,7 +43,10 @@
                   </msItem>
                </msContents>
                <physDesc>
-                  <p>Journal von <persName rendition="#p.5"><surname>Gentz</surname></persName></p>
+                  <p>Journal von <persName rendition="#p.5">
+                                <surname>Gentz</surname>
+                            </persName>
+                        </p>
 
                   <handDesc>
                      <handNote xml:id="A">Anonyme Hand</handNote>
@@ -50,8 +58,11 @@
 
                </physDesc>
                <history>
-                  <origin><placeName ref="#loc.60">Troppau</placeName><date when="1820-12-19">19.
-                        Dezember 1820</date></origin>
+                  <origin>
+                            <placeName ref="#loc.60">Troppau</placeName>
+                            <date when="1820-12-19">19.
+                        Dezember 1820</date>
+                        </origin>
                </history>
             </msDesc>
             <msDesc xml:id="m.2" type="Ausfertigung">
@@ -118,8 +129,11 @@
                   <p>Ausfertigung</p>
                </physDesc>
                <history>
-                  <origin><placeName ref="#loc.7">Wien</placeName><date when="1820-12-29">29.
-                        Dezember 1820</date></origin>
+                  <origin>
+                            <placeName ref="#loc.7">Wien</placeName>
+                            <date when="1820-12-29">29.
+                        Dezember 1820</date>
+                        </origin>
                </history>
             </msDesc>
             <msDesc xml:id="m.5" type="Abschrift">
@@ -135,30 +149,42 @@
                </msIdentifier>
                <msContents>
                   <msItem>
-                     <title>Anlage 4: Note des britischen Außenministers <persName ref="#p.9"><surname>Castlereagh</surname></persName></title>
+                     <title>Anlage 4: Note des britischen Außenministers <persName ref="#p.9">
+                                    <surname>Castlereagh</surname>
+                                </persName>
+                            </title>
                   </msItem>
                </msContents>
                <physDesc>
                   <p>Abschrift</p>
                </physDesc>
                <history>
-                  <origin><placeName ref="#loc.7">London</placeName><date when="1820-12-16">16.
-                        Dezember 1820</date></origin>
+                  <origin>
+                            <placeName ref="#loc.7">London</placeName>
+                            <date when="1820-12-16">16.
+                        Dezember 1820</date>
+                        </origin>
                </history>
             </msDesc>
             <listWit corresp="#m.1">
                <head>Journal</head>
-               <witness corresp="#w.37"><bibl type="print">Alberti, Atti, S. 390.</bibl></witness>
+               <witness corresp="#w.37">
+                        <bibl type="print">Alberti, Atti, S. 390.</bibl>
+                    </witness>
             </listWit>
             <listWit corresp="#m.2">
                <head>Anlage 1: Britische Denkschrift</head>
-               <witness corresp="#w.37"><bibl type="print">Alberti, Atti, S. 390-395 (französische
-                     Übersetzung.</bibl></witness>
+               <witness corresp="#w.37">
+                        <bibl type="print">Alberti, Atti, S. 390-395 (französische
+                     Übersetzung.</bibl>
+                    </witness>
             </listWit>
             <listWit corresp="#m.3">
                <head>Anlage 2: Offizielle Erklärung Stewarts</head>
-               <witness corresp="#w.37"><bibl type="print">Alberti, Atti, S. 390 (französische
-                     Übersetzung).</bibl></witness>
+               <witness corresp="#w.37">
+                        <bibl type="print">Alberti, Atti, S. 390 (französische
+                     Übersetzung).</bibl>
+                    </witness>
             </listWit>
          </sourceDesc>
       </fileDesc>
@@ -170,7 +196,7 @@
          </appInfo>
          <styleDefDecl scheme="css"/>
          <tagsDecl>
-            <rendition xml:id="su" scheme="css">vertical-align:sub; font-size:.7em;</rendition>
+            <rendition xml:id="su" scheme="css">vertical-align:super; font-size:.7em;</rendition>
             <rendition xml:id="s" scheme="css">text-decoration:line-through;</rendition>
             <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
             <rendition xml:id="r" scheme="css">display:block; text-align:right;</rendition>
@@ -178,7 +204,9 @@
       </encodingDesc>
       <profileDesc>
          <abstract>
-            <p>Der britische Gesandte <persName ref="#p.137"><surname>Stewart</surname></persName>
+            <p>Der britische Gesandte <persName ref="#p.137">
+                        <surname>Stewart</surname>
+                    </persName>
                übermittelt Denkschriften betreffend das von den Regierungen Österreichs, Preußens
                und Russlands geplante Vorgehen gegen die Revolution im <country>Königreich beider
                   Sizilien</country>.</p>
@@ -226,10 +254,15 @@
       <body>
          <div hand="#G" decls="#m.1">
             <pb n="129r"/>
-            <p><placeName ref="#loc.60">Troppau</placeName> le <date when="1820-12-19">19 Décembre
-                  1820</date></p>
-            <p><hi rendition="#u">Journal des Conférences</hi></p>
-            <p><choice>
+            <p>
+                    <placeName ref="#loc.60">Troppau</placeName> le <date when="1820-12-19">19 Décembre
+                  1820</date>
+                </p>
+            <p>
+                    <hi rendition="#u">Journal des Conférences</hi>
+                </p>
+            <p>
+                    <choice>
                   <abbr>Nro</abbr>
                   <expan>Numéro</expan>
                </choice> VII</p>
@@ -243,8 +276,11 @@
                   <expan>Messieurs</expan>
                </choice> les <rs ref="#p.8 #p.40 #p.11 #p.12 #p.136 #p.13 #p.14 #p.121">Ministres
                   des Cabinets d’Autriche, de Prusse et de Russie</rs>.</p>
-            <p><persName ref="#p.137"><roleName>Lord</roleName>
-                  <surname>Stewart</surname></persName> a fait lire <ref decls="#m.2">un Mémoire du
+            <p>
+                    <persName ref="#p.137">
+                        <roleName>Lord</roleName>
+                  <surname>Stewart</surname>
+                    </persName> a fait lire <ref decls="#m.2">un Mémoire du
                   gouvernement Brittanique, renfermant la déclaration de ce gouvernement sur les
                   questions traitées dans les sus-dits Mémoires</ref>, et <ref decls="#m.5">une note accompagnant ce
                   Mémoire</ref>. Ces deux
@@ -252,15 +288,25 @@
                   <abbr>Litt</abbr>
                   <expan>Litteris</expan>
                </choice> A et B.</p>
-            <p rendition="#r"><add>Lu et arrêté</add></p>
-            <p rendition="#r"><add>à la Séance du <date when="1820-12-19">19
-               Décembre</date></add></p>
-            <signed rendition="#r"><persName ref="#p.5"><surname>Gentz</surname></persName></signed>
+            <p rendition="#r">
+                    <add>Lu et arrêté</add>
+                </p>
+            <p rendition="#r">
+                    <add>à la Séance du <date when="1820-12-19">19
+               Décembre</date>
+                    </add>
+                </p>
+            <signed rendition="#r">
+                    <persName ref="#p.5">
+                        <surname>Gentz</surname>
+                    </persName>
+                </signed>
          </div>
 
          <div hand="#A" decls="#m.2">
             <pb n="173r"/>
-            <p><rs ref="#p.137">The Undersigned,</rs> having transmitted to His Court the <ref target="Troppau_Prot_1.xml Troppau_Prot_2.xml Troppau_Prot_3.xml">Journal of the
+            <p>
+                    <rs ref="#p.137">The Undersigned,</rs> having transmitted to His Court the <ref target="Troppau_Prot_1.xml Troppau_Prot_2.xml Troppau_Prot_3.xml">Journal of the
                   Proceedings of the Allied Ministers assembled in Conference down to the <date when="1820-11-07">7<hi rendition="#su">th</hi> November</date> inclusive</ref>,
                in which Proceedings are contained the Explanatory Memoirs delivered in on the part
                of the <rs ref="#p.8 #p.40 #p.11 #p.12 #p.136 #p.13 #p.14 #p.121">Austrian, Prussian
@@ -275,7 +321,8 @@
                to that happy and intimate Union, which has invariably characterised the Proceedings
                of the Alliance.</p>
             <pb n="174r"/>
-            <p><rs ref="#p.130">His Majesty</rs> has also seen with peculiar pleasure in the late
+            <p>
+                    <rs ref="#p.130">His Majesty</rs> has also seen with peculiar pleasure in the late
                Deliberations that the respective Cabinets, assembled at <placeName ref="#loc.60">Troppau</placeName>, have evinced a laudable delicacy in not attempting to give a
                strained or exaggerated construction to the existing Treaties, and that, while the
                text of those Instruments is regarded as the exclusive rule and measure, both of the
@@ -297,13 +344,18 @@
             <p>And first, with regard<pb n="175v"/> to the Neapolitan question, which has more
                immediately given birth to the present <hi rendition="#u">Réunion</hi>, and which
                forms the main topic of discussion in these Papers, the British Government has
-               already fully explained its sentiments with the utmost frankness in a <note type="gloss" place="margin" hand="#AmR"><choice>
-                     <abbr>N<hi rendition="#su">o</hi></abbr>
+               already fully explained its sentiments with the utmost frankness in a <note type="gloss" place="margin" hand="#AmR">
+                        <choice>
+                     <abbr>N<hi rendition="#su">o</hi>
+                            </abbr>
                      <expan>Numéro</expan>
                   </choice> 1.</note>
                <rs xml:id="n.3">Dispatch addressed to the <rs ref="#p.137">Undersigned</rs>, bearing
-                  date <date when="1820-07-29">July 29<hi rendition="#su">th</hi></date></rs>.<note type="editorial" target="#n3"> Vgl. dazu Webster, Foreign Policy, Bd. 2, S.
-                  263.</note></p>
+                  date <date when="1820-07-29">July 29<hi rendition="#su">th</hi>
+                        </date>
+                    </rs>.<note type="editorial" target="#n3"> Vgl. dazu Webster, Foreign Policy, Bd. 2, S.
+                  263.</note>
+                </p>
             <p>Had this Document not been conveyed to the knowledge of the Allied Courts, the well
                known Principles of the British Government must nevertheless have assured<pb n="176r"/> them that a Revolution, bearing on the face of it such evident traces of an occult
                Sectarian Conspiracy and of Military Revolt against a mild and paternal Government,
@@ -318,17 +370,28 @@
                induce or, according to their received notions, could justify them in making
                   themselves<pb n="177r"/> parties in the particular case to any system of forcible
                interference.</p>
-            <p>This Principle of forbearance was still further enforced in <persName ref="#p.9"><roleName>Lord</roleName>
-                  <surname>Castlereagh’s</surname></persName><note type="gloss" place="margin" hand="#AmR"><choice>
-                     <abbr>N<hi rendition="#su">o</hi></abbr>
+            <p>This Principle of forbearance was still further enforced in <persName ref="#p.9">
+                        <roleName>Lord</roleName>
+                  <surname>Castlereagh’s</surname>
+                    </persName>
+                    <note type="gloss" place="margin" hand="#AmR">
+                        <choice>
+                     <abbr>N<hi rendition="#su">o</hi>
+                            </abbr>
                      <expan>Numéro</expan>
                   </choice> 2.</note>
-               <rs xml:id="n.4">Instructions to <persName ref="#p.146"><roleName>Sir</roleName>
-                     <forename><choice>
-                           <abbr>W<hi rendition="#su">m</hi></abbr>
+               <rs xml:id="n.4">Instructions to <persName ref="#p.146">
+                            <roleName>Sir</roleName>
+                     <forename>
+                                <choice>
+                           <abbr>W<hi rendition="#su">m</hi>
+                                    </abbr>
                            <expan>William</expan>
-                        </choice></forename>
-                     <surname>A’Court</surname></persName>, bearing date the <date when="1820-09-16">16<hi rendition="#su">th</hi> of September</date></rs>,<note type="editorial" target="#n.4"> Vgl. Webster, Foreign Policy, Bd. 2, S.
+                        </choice>
+                            </forename>
+                     <surname>A’Court</surname>
+                        </persName>, bearing date the <date when="1820-09-16">16<hi rendition="#su">th</hi> of September</date>
+                    </rs>,<note type="editorial" target="#n.4"> Vgl. Webster, Foreign Policy, Bd. 2, S.
                   270.</note> wherein that Minister was expressly authorized
                to declare that a strict neutrality would be observed by His Government in the event
                of any Hostilities, resulting from the late changes, provided always that the
@@ -338,23 +401,35 @@
             <p>It left them in fact no other matter for Deliberation than what might belong in good
                Faith to the observance of their Neutrality.</p>
             <p>The duties of such a line of conduct compelled them, for the reasons alleged in
-                  <persName ref="#p.9"><roleName>Lord</roleName>
-                  <surname>Castlereagh’s</surname></persName><note type="gloss" place="margin" hand="#AmR"><choice>
-                     <abbr>N<hi rendition="#su">o</hi></abbr>
+                  <persName ref="#p.9">
+                        <roleName>Lord</roleName>
+                  <surname>Castlereagh’s</surname>
+                    </persName>
+                    <note type="gloss" place="margin" hand="#AmR">
+                        <choice>
+                     <abbr>N<hi rendition="#su">o</hi>
+                            </abbr>
                      <expan>Numéro</expan>
                   </choice> 3.</note>
-               <rs xml:id="n.5">Dispatch of the <date when="1820-09-16">same date</date></rs>,<note type="editorial" target="#n.5">Abgedruckt in Londonderry (Hg.), Memoirs and
-                  Correspondence of Viscount Castlereagh, Bd. 12, S. 311–318.</note> addressed<pb n="178r"/> to <rs ref="#p.137">the Undersigned</rs>, to decline the <rs xml:id="n.6">Austrian Overture of the <date when="1820-08-28">28<hi rendition="#su">th</hi> of August</date></rs>,<note type="editorial" target="#n.6">Propositions adressées par l’Autriche aux Cours de France, de
+               <rs xml:id="n.5">Dispatch of the <date when="1820-09-16">same date</date>
+                    </rs>,<note type="editorial" target="#n.5">Abgedruckt in Londonderry (Hg.), Memoirs and
+                  Correspondence of Viscount Castlereagh, Bd. 12, S. 311–318.</note> addressed<pb n="178r"/> to <rs ref="#p.137">the Undersigned</rs>, to decline the <rs xml:id="n.6">Austrian Overture of the <date when="1820-08-28">28<hi rendition="#su">th</hi> of August</date>
+                    </rs>,<note type="editorial" target="#n.6">Propositions adressées par l’Autriche aux Cours de France, de
                   Grande-Bretagne, die Prusse, de Russie, Wien 28. August 1820; in: ÖStA, HHStA, St.
                   K., Kongressakten, Kart. 21, Fasz. 38/2, fol. 4–8.</note> and they feel equally
                bound to abstain from making themselves Parties either morally or materially to every
                other Measure of an hostile character that may be taken by any particular Power or
                Powers against the “de facto” Government of Naples.</p>
             <p>The motives, which decided His Majesty’s Government to adopt this course of Policy
-               without a moment’s<pb n="178v"/> delay, were explained in the <note type="gloss" place="margin" hand="#AmR"><choice>
-                     <abbr>N<hi rendition="#su">o</hi></abbr>
+               without a moment’s<pb n="178v"/> delay, were explained in the <note type="gloss" place="margin" hand="#AmR">
+                        <choice>
+                     <abbr>N<hi rendition="#su">o</hi>
+                            </abbr>
                      <expan>Numéro</expan>
-                  </choice> 4.</note><rs xml:id="n.7"><hi rendition="#u">Dispatch</hi> to the <rs ref="#p.137">Undersigned</rs>, also bearing date the <date when="1820-09-16">16<hi rendition="#su">th</hi> of September</date></rs>,<note type="editorial" target="#n.7">Abgedruckt in Londonderry (Hg.), Memoirs and
+                  </choice> 4.</note>
+                    <rs xml:id="n.7">
+                        <hi rendition="#u">Dispatch</hi> to the <rs ref="#p.137">Undersigned</rs>, also bearing date the <date when="1820-09-16">16<hi rendition="#su">th</hi> of September</date>
+                    </rs>,<note type="editorial" target="#n.7">Abgedruckt in Londonderry (Hg.), Memoirs and
                   Correspondence of Viscount Castlereagh, Bd. 12, S. 311–318.</note> and the <rs ref="#p.137">Undersigned</rs> doubts not, those Motives have been duly appreciated
                by the Allied Cabinets.</p>
             <p>The decision thus taken is a sufficient proof that the British Government did not
@@ -405,7 +480,9 @@
                Option, but as a Duty under existing Treaties and as Guardians of the General
                   Territorial<pb n="182v"/> Balance and Settlement of Europe.</p>
             <p>The <rs ref="#p.137">Undersigned</rs> is further directed to decline, but in the most
-               friendly manner, the Overture contained in the <ref target="Troppau_Prot_1.xml"><rs ref="#p.8">Austrian Minister’s</rs> Note of the <date when="1820-10-29">29<hi rendition="#su">th</hi> of October</date></ref>, in which it is proposed
+               friendly manner, the Overture contained in the <ref target="Troppau_Prot_1.xml">
+                        <rs ref="#p.8">Austrian Minister’s</rs> Note of the <date when="1820-10-29">29<hi rendition="#su">th</hi> of October</date>
+                    </ref>, in which it is proposed
                that the Allied Powers should take an engagement not to recognize, but with common
                consent, the existing order of Things at <country>Naples</country>, so long as the
                Conferences at <placeName ref="#loc.60">Troppau</placeName> shall last, which
@@ -423,14 +500,20 @@
                   <country>Naples</country>, the <rs ref="#p.137">Undersigned</rs> is instructed to
                declare, with reference to the observations brought forward in these Memoirs
                concerning the <rs xml:id="n.8">late Revolutions in
-                  <country>Spain</country></rs><note type="editorial" target="#n.8">Zur spanischen
+                  <country>Spain</country>
+                    </rs>
+                    <note type="editorial" target="#n.8">Zur spanischen
                   Verfassung von Cádiz, veröffentlicht am <date when="1812-03-19">19. März
-                     1812</date> und am <date when="1820-03-08">8. März 1820</date> durch <persName ref="#p.30"><roleName>König</roleName>
-                     <forename>Ferdinand VII.</forename></persName> erneut in Kraft gesetzt, vgl.
+                     1812</date> und am <date when="1820-03-08">8. März 1820</date> durch <persName ref="#p.30">
+                            <roleName>König</roleName>
+                     <forename>Ferdinand VII.</forename>
+                        </persName> erneut in Kraft gesetzt, vgl.
                   Timmermann, Die „Gemäßigte Monarchie“; BFSP Bd. 6 (1819/20), S. 237–279; Brand,
                   Schlegelmilch, Kirsch (Hgg.), Quellen. Zur Revolution vgl. Späth, Revolution in
                   Europa, S. 117–128.</note> and<pb n="184r"/>
-               <rs xml:id="n.9"><country>Portugal</country></rs>,<note type="editorial" target="#n.9">In Portugal war am <date when="1820-08-24">24. August 1820</date>
+               <rs xml:id="n.9">
+                        <country>Portugal</country>
+                    </rs>,<note type="editorial" target="#n.9">In Portugal war am <date when="1820-08-24">24. August 1820</date>
                   ebenfalls eine Revolution ausgebrochen; vgl. Birmingham, A Concise History, S.
                   111–113.</note> that His Government continues to be of opinion that the state of
                neither of those Kingdoms, however critically and anxiously circumstanced, can
@@ -445,17 +528,26 @@
                should seem impossible for any other Power to venture to pronounce upon them.</p>
             <p>For a more particular Exposition however of their Sentiments upon both these
                important Subjects the <rs ref="#p.137">Undersigned</rs> is directed by His
-               Government to refer to the <note type="gloss" place="margin" hand="#AmR"><choice>
-                     <abbr>N<hi rendition="#su">o</hi></abbr>
+               Government to refer to the <note type="gloss" place="margin" hand="#AmR">
+                        <choice>
+                     <abbr>N<hi rendition="#su">o</hi>
+                            </abbr>
                      <expan>Numéro</expan>
-                  </choice> 5.</note><rs xml:id="n.10">Memoir on Spanish Affairs of April 1820</rs>
-                  and<pb n="185r"/> to the <note type="gloss" place="margin" hand="#AmR"><choice>
-                     <abbr>N<hi rendition="#su">o</hi></abbr>
+                  </choice> 5.</note>
+                    <rs xml:id="n.10">Memoir on Spanish Affairs of April 1820</rs>
+                  and<pb n="185r"/> to the <note type="gloss" place="margin" hand="#AmR">
+                        <choice>
+                     <abbr>N<hi rendition="#su">o</hi>
+                            </abbr>
                      <expan>Numéro</expan>
-                  </choice> 6.</note><rs xml:id="n.11">Dispatch of <date when="1820-10-29">October
-                        29<hi rendition="#su">th</hi></date></rs>, recently addressed to the <rs ref="#p.137">Undersigned</rs> concerning the late Events in
+                  </choice> 6.</note>
+                    <rs xml:id="n.11">Dispatch of <date when="1820-10-29">October
+                        29<hi rendition="#su">th</hi>
+                        </date>
+                    </rs>, recently addressed to the <rs ref="#p.137">Undersigned</rs> concerning the late Events in
                   <country>Portugal</country>.</p>
-            <p><ref target="Troppau_Prot_3.xml">There only remains for the <rs ref="#p.137">Undersigned</rs> to observe upon the idea, which prevails throughout these
+            <p>
+                    <ref target="Troppau_Prot_3.xml">There only remains for the <rs ref="#p.137">Undersigned</rs> to observe upon the idea, which prevails throughout these
                   Memoirs, but which appears to be somewhat more specifically treated of in that
                   delivered by <rs ref="#p.13 #p.14 #p.121">the Russian Plenipotentiaries</rs>,
                   namely that of some general systematic and solemn Declaration, to be agreed upon
@@ -464,27 +556,35 @@
                   regard to States, the established Governments of which shall undergo some violent
                   change by means similar to those by which the late Events in
                      <country>Spain</country>, <country>Portugal</country> and
-                     <country>Naples</country> have been brought about.</ref></p>
-            <p><ref target="Aachen_Dok_50.xml">The Principles therein thrown out for consideration
+                     <country>Naples</country> have been brought about.</ref>
+                </p>
+            <p>
+                    <ref target="Aachen_Dok_50.xml">The Principles therein thrown out for consideration
                   appear to the British Government to amount in effect to a revival of those
                   Discussions with regard to the Establishment of a General System of Guarantee, not
                      merely<pb n="186r"/> territorial, but political, between the European Powers,
                   in the examination of which Question some progress was made when the Cabinets were
                   assembled at <placeName ref="#loc.1">Aix-la-Chapelle</placeName>, but which was
                   then laid aside by common consent from the extreme Difficulties, if not the
-                  absolute Impracticability, in which the whole Subject was involved.</ref></p>
-            <p><rs xml:id="n.12">The Memoir presented by <rs ref="#p.9 #p.10">the British
+                  absolute Impracticability, in which the whole Subject was involved.</ref>
+                </p>
+            <p>
+                    <rs xml:id="n.12">The Memoir presented by <rs ref="#p.9 #p.10">the British
                      Plenipotentiaries</rs> on that occasion, bearing date the <date when="1818-09-15">15<hi rendition="#su">th</hi> September
-                  1818</date></rs>,<note type="editorial" target="#n.12">Der Kongress von <placeName ref="#loc.1">Aachen</placeName> begann erst am <date when="1818-09-29">29.
+                  1818</date>
+                    </rs>,<note type="editorial" target="#n.12">Der Kongress von <placeName ref="#loc.1">Aachen</placeName> begann erst am <date when="1818-09-29">29.
                      September</date>. In den Dokumenten zum Kongress von Aachen im ÖStA, HHStA
                   liegt kein entsprechendes Dokument ein. Ein entsprechendes Memorandum findet
                   Erwähnung bei Webster, Foreign Policy, Bd. 2, S. 134–139, sowie bei Jarrett,
                   Congress of Vienna, S. 183.</note> contains the expression of the opinion of Their
                Court not only upon<pb n="186v"/> this momentous Question, but also defines the
-               precise meaning and character of the <note type="gloss" place="margin" hand="#AmR"><choice>
-                     <abbr>N<hi rendition="#su">o</hi></abbr>
+               precise meaning and character of the <note type="gloss" place="margin" hand="#AmR">
+                        <choice>
+                     <abbr>N<hi rendition="#su">o</hi>
+                            </abbr>
                      <expan>Numéro</expan>
-                  </choice> 7.</note><rs ref="#t.6" xml:id="n.13">Treaty of Quadruple Alliance of
+                  </choice> 7.</note>
+                    <rs ref="#t.6" xml:id="n.13">Treaty of Quadruple Alliance of
                   the Year 1815</rs>, as agreed to by <rs ref="#p.130">His Majesty</rs> and
                sanctioned by Parliament.</p>
             <p>To the reasoning contained in this short Analysis of their Foreign Relations, the
@@ -509,25 +609,32 @@
                Revolution had assumed to the terror of all Europe, but it does not follow that the
                same course of Policy can be made universally applicable to all other
                Revolutions.</p>
-            <p>The <rs ref="#p.137">Undersigned</rs><pb n="188v"/> is only further commanded to
+            <p>The <rs ref="#p.137">Undersigned</rs>
+                    <pb n="188v"/> is only further commanded to
                state that the <rs ref="#p.130">King</rs>, His Master, is fully alive to the great
                Kindness and Consideration, with which <rs ref="#p.16 #p.18 #p.17">His August
                   Allies</rs> have expressed Themselves to <rs ref="#p.130">His Majesty</rs> upon
                the present occasion.</p>
-            <p><rs ref="#p.130">His Majesty</rs> has received these assurances from Them as a fresh
+            <p>
+                    <rs ref="#p.130">His Majesty</rs> has received these assurances from Them as a fresh
                and valuable Pledge, not less of Regard than of Confidence, and They may rest assured
                that His Majesty’s attachment to Their August Persons<pb n="189r"/> and to the
                Interests of the Alliance is unabated and imperishable, and that <rs ref="#p.130">His
                   Majesty</rs> will always be found ready to fulfil with Zeal and Promptitude those
                Duties which are prescribed to Him by the Treaties so happily subsisting between
                Them.</p>
-            <signed><persName ref="#p.137"><surname>Vane</surname>
-                  <surname>Stewart</surname></persName></signed>
+            <signed>
+                    <persName ref="#p.137">
+                        <surname>Vane</surname>
+                  <surname>Stewart</surname>
+                    </persName>
+                </signed>
          </div>
 
          <div hand="#A" decls="#m.3">
             <pb n="157r"/>
-            <p>The <rs ref="#p.137">English Ambassador at the Court of <placeName ref="#loc.7">Vienna</placeName></rs>, in placing by order of His Court <ref decls="#m.2">the Official Note hereunto annexed</ref> on the Journal of the Conferences, is commanded additionally to
+            <p>The <rs ref="#p.137">English Ambassador at the Court of <placeName ref="#loc.7">Vienna</placeName>
+                    </rs>, in placing by order of His Court <ref decls="#m.2">the Official Note hereunto annexed</ref> on the Journal of the Conferences, is commanded additionally to
                state that, had the time admitted of it, this Official Document would have been
                accompanied by a more detailed Developement of the reasoning upon which the British
                Government deems it necessary as well to decline being a Party to any League or
@@ -542,9 +649,11 @@
             <p>An outline of the view taken of this Question by the British Government may be found
                towards the close of the <rs xml:id="n.15">Memoir of the <date when="1818-09-15">15<hi rendition="#su">th</hi>
                      <choice>
-                        <abbr>Sept<hi rendition="#su">r</hi></abbr>
+                        <abbr>Sept<hi rendition="#su">r</hi>
+                                </abbr>
                         <expan>September</expan>
-                     </choice> 1818</date></rs>,<note type="editorial" target="#n.15">Der Kongress
+                     </choice> 1818</date>
+                    </rs>,<note type="editorial" target="#n.15">Der Kongress
                   von <placeName ref="#loc.1">Aachen</placeName> begann erst am <date when="1818-09-29">29. September</date>. In den Dokumenten zum Kongress von
                   Aachen im ÖStA, HHStA liegt kein entsprechendes Dokument ein. Ein entsprechendes
                   Memorandum findet Erwähnung bei Webster, Foreign Policy, Bd. 2, S. 134–139, sowie
@@ -554,8 +663,11 @@
 
          <div hand="#A" decls="#m.4">
             <pb n="159r"/>
-            <p><add place="bottom">À Son Altesse Monsieur le <persName ref="#p.8"><roleName>Prince</roleName>
-                     <surname>de Metternich</surname></persName> Ministre d’Etat et des Affaires
+            <p>
+                    <add place="bottom">À Son Altesse Monsieur le <persName ref="#p.8">
+                            <roleName>Prince</roleName>
+                     <surname>de Metternich</surname>
+                        </persName> Ministre d’Etat et des Affaires
                   Étrangères <choice>
                      <abbr>etc.</abbr>
                      <expan>et cetera</expan>
@@ -567,31 +679,43 @@
                   <choice>
                      <abbr>etc.</abbr>
                      <expan>et cetera</expan>
-                  </choice></add></p>
+                  </choice>
+                    </add>
+                </p>
             <p>Le <rs ref="#p.137">Soussigné Ambassadeur Extraordinaire et Ministre
                   Plénipotentiaire</rs> de <rs ref="#p.130">Sa Majesté Britannique</rs> ayant reçu
-               l’ordre de Sa Cour de communiquer à Son Altesse Monsieur le <persName ref="#p.8"><roleName>Prince</roleName>
-                  <surname>de Metternich</surname></persName>, Ministre d’Etat et des Affaires
+               l’ordre de Sa Cour de communiquer à Son Altesse Monsieur le <persName ref="#p.8">
+                        <roleName>Prince</roleName>
+                  <surname>de Metternich</surname>
+                    </persName>, Ministre d’Etat et des Affaires
                Etrangères de <rs ref="#p.16">Sa Majesté Impériale et <choice>
                      <abbr>Roy.</abbr>
                      <expan>Royale</expan>
                   </choice> Apostolique</rs>, <ref decls="#m.5">la Copie d’une Dépêche</ref> qu’il vient de recevoir en
                date du <date when="1820-12-16">16 Décembre</date> ; il a l’honneur de la transmettre
                ci-jointe, en réitérant à Son Altesse les Assurances de Sa haute considération.</p>
-            <p><placeName ref="#loc.7">Vienne</placeName> ce <date when="1820-12-29">29 Décembre
-                  1820</date></p>
+            <p>
+                    <placeName ref="#loc.7">Vienne</placeName> ce <date when="1820-12-29">29 Décembre
+                  1820</date>
+                </p>
          </div>
 
          <div hand="#A" decls="#m.5">
             <pb n="130r"/>
-            <p><add place="top">Copy; ad <choice>
+            <p>
+                    <add place="top">Copy; ad <choice>
                      <abbr>Prot</abbr>
                      <expan>Protocol</expan>
-                  </choice> VII.</add></p>
-            <p>Foreign Office <date when="1820-12-16">December 16 1820</date></p>
-            <p>My <rs ref="#p.137">Lord</rs></p>
+                  </choice> VII.</add>
+                </p>
+            <p>Foreign Office <date when="1820-12-16">December 16 1820</date>
+                </p>
+            <p>My <rs ref="#p.137">Lord</rs>
+                </p>
             <p>Your Excellency’s Dispatch <choice>
-                  <abbr>N<hi rendition="#su">o</hi><expan>Numero</expan></abbr>
+                  <abbr>N<hi rendition="#su">o</hi>
+                            <expan>Numero</expan>
+                        </abbr>
                </choice> 129 with its several Inclosures has been received and laid before the <rs ref="#p.130">King</rs>.</p>
             <p>The important Documents conveyed in this Dispatch having been examined by His
                Majesty’s Confidential Servants with the greatest attention, <rs ref="#p.9">I</rs> am
@@ -600,32 +724,41 @@
                   Majesty</rs>, and which, being honoured with the King’s sanction, Your Excellency
                will consider as the rule, by which Your own conduct and language is to be regulated
                in any future discussions that may take place on this subject.</p>
-            <p><rs ref="#p.9">I</rs> consider it may be convenient in this Dispatch to lay wholly
+            <p>
+                    <rs ref="#p.9">I</rs> consider it may be convenient in this Dispatch to lay wholly
                out of view the Instructions transmitted to <rs ref="#p.144 #p.148 #p.149">the
-                  Austrian, Prussian and Russian Ministers<pb n="131r"/> at <placeName ref="#loc.11">Naples</placeName></rs>, together with the Autographic Letters addressed by
-                  <rs ref="#p.16 #p.18 #p.17">the August Sovereigns assembled at <placeName ref="#loc.60">Troppau</placeName></rs> to <rs ref="#p.138">His Sicilian
+                  Austrian, Prussian and Russian Ministers<pb n="131r"/> at <placeName ref="#loc.11">Naples</placeName>
+                    </rs>, together with the Autographic Letters addressed by
+                  <rs ref="#p.16 #p.18 #p.17">the August Sovereigns assembled at <placeName ref="#loc.60">Troppau</placeName>
+                    </rs> to <rs ref="#p.138">His Sicilian
                   Majesty</rs>.</p>
-            <p><ref decls="#m.2">The Note, which <rs ref="#p.137">Your Excellency</rs> has already
+            <p>
+                    <ref decls="#m.2">The Note, which <rs ref="#p.137">Your Excellency</rs> has already
                   been directed to present to the Conference, will have fully explained, why the <rs ref="#p.130">King</rs> feels Himself bound to decline any direct Participation
-                  in those Measures.</ref></p>
+                  in those Measures.</ref>
+                </p>
             <p>Under this view of His duty, <rs ref="#p.130">His Majesty</rs> does not deem it
                   expedient<pb n="131v"/> to appoint a Plenipotentiary to take part in His Majesty’s
                name in the proposed Discussions at <placeName ref="#loc.65">Laybach</placeName>; but
                   <rs ref="#p.130">His Majesty</rs> sees no objection to <rs ref="#p.137 #p.146">His
-                  Ministers at <placeName ref="#loc.7">Vienna</placeName> and <placeName ref="#loc.11">Naples</placeName></rs> (should They receive Invitations from the
+                  Ministers at <placeName ref="#loc.7">Vienna</placeName> and <placeName ref="#loc.11">Naples</placeName>
+                    </rs> (should They receive Invitations from the
                Sovereigns to whom They are respectively accredited) accompanying <rs ref="#p.16 #p.138">Their Majesties</rs> to such interview, and when there, to
                Their assisting at any Conferences which may be held in<pb n="132r"/> the same manner
                and under the same reserve as has been prescribed to <rs ref="#p.137">Your
                   Excellency</rs> at <placeName ref="#loc.60">Troppau</placeName>; and it will
                afford to the <rs ref="#p.130">King</rs> the truest satisfaction should these
                Discussions lead to an amicable adjustment of all differences.</p>
-            <p>The subject to which I am more particularly directed in this Dispatch to call <rs ref="#p.137">Your Excellency’s</rs> attention is the <ref target="Troppau_Prot_4.xml"><hi rendition="#u">Protocole Préliminaire,</hi></ref>
+            <p>The subject to which I am more particularly directed in this Dispatch to call <rs ref="#p.137">Your Excellency’s</rs> attention is the <ref target="Troppau_Prot_4.xml">
+                        <hi rendition="#u">Protocole Préliminaire,</hi>
+                    </ref>
                which appears to have been presented to the Conference at<pb n="132v"/>
                <placeName ref="#loc.60">Troppau</placeName> on the <date when="1820-11-19">19<hi rendition="#su">th</hi> Ultimo</date>, as an Act agreed upon and executed by
                   <rs ref="#p.8 #p.40 #p.11 #p.12 #p.136 #p.13 #p.14 #p.121">the Plenipotentiaries
                   of the three Powers</rs>, without any previous Communication with <rs ref="#p.137 #p.102 #p.135">the British and French Ministers</rs>.</p>
             <p>The formal Signatures to this Protocol having, in consequence of <rs ref="#p.137">Your Excellency’s</rs> observations, been withdrawn, it was declared on the <rs xml:id="n.18">Proceedings of the following day by the Memoirs of the<pb n="133r"/>
-                  three Courts</rs><note type="editorial" target="#n.18">Liegen nicht ein – bei den
+                  three Courts</rs>
+                    <note type="editorial" target="#n.18">Liegen nicht ein – bei den
                   "Proceedings of the following day" handelt es sich vermutlich um eine der
                   vertraulichen Zusammenkünfte Österreichs, Preußens und Russlands.</note> that they
                regarded this Document rather in the nature of a <hi rendition="#u">Projét</hi>, than
@@ -677,7 +810,8 @@
                   <quote>“une application légitime et salutaire des principes, sur lesquels se fonde
                   Leur Alliance”</quote>. – It may be asked from what Principle of existing Treaties
                the Alliance finds Itself entitled to draw such a conclusion. Certainly not from the
-                  <rs ref="#t.6">Treaty of Alliance of November 1815, signed at <placeName ref="#loc.2">Paris</placeName></rs>.</p>
+                  <rs ref="#t.6">Treaty of Alliance of November 1815, signed at <placeName ref="#loc.2">Paris</placeName>
+                    </rs>.</p>
             <p>At the close of an unexampled war carried<pb n="137v"/> on against Them by the
                Revolutionary Government of <country>France</country> the Allies, under the
                extraordinary Circumstances of being obliged a second time to march Their Armies into
@@ -687,8 +821,10 @@
                justify the Alliance in placing all Europe, including so many States that were
                associated as Allies in that <hi rendition="#u" hand="#AmB">struggle, in the same
                   state of <hi rendition="#u">surveillance</hi> as was then on special grounds
-                  applied to <country>France</country></hi>.</p>
-            <p><country>France</country> might be said to make the Peace with Her eyes open, in
+                  applied to <country>France</country>
+                    </hi>.</p>
+            <p>
+                    <country>France</country> might be said to make the Peace with Her eyes open, in
                contemplation of the <rs ref="#t.6">Treaty of Alliance</rs>.</p>
             <p>But where is the like title to be found for the assumption of the five Powers<pb n="138v"/> of a similar, or rather of a much more penal Superintendance over all
                the other States of Europe?</p>
@@ -765,7 +901,8 @@
                is to be administered not at the discretion or by the force of the most powerful
                Members of the Confederacy, but by the force of the League itself and under the<pb n="144r"/> discretion of its Diet.</p>
             <p>In this Case no such Conventional arrangement has been or can well be made.</p>
-            <p><metamark rend="+ mit Bleistift" place="margin">The claim to exercise such a
+            <p>
+                    <metamark rend="+ mit Bleistift" place="margin">The claim to exercise such a
                   Power</metamark> may not only excite among the Nations of Europe great uneasiness,
                but may provoke sooner or later Counter-Alliances.</p>
             <p>There are extreme Rights to which Nations, as well as Individuals, must have recourse
@@ -779,7 +916,8 @@
             <p>It cannot be incorporated with the acknowledged practice of Nations, or provided for
                beforehand by the ordinary Forms of Diplomatic Transactions. Such an innovation<pb n="145r"/> seems the less called for in the present moment, as after preliminary
                explanation with Their Allies the Three Powers have taken Their <metamark rend="+ mit Bleistift" place="margin">determination upon the particular point of
-                     <country>Naples</country></metamark> as freely as They could have done under
+                     <country>Naples</country>
+                    </metamark> as freely as They could have done under
                the existence of such a Protocol.</p>
             <p>If the other Powers have pursued a different course of Policy, They have neither
                pretended to oppose Themselves to the Decision of Their Allies, nor have They evinced
@@ -792,7 +930,8 @@
                Factions in all Countries and animate the well-disposed with more Confidence to
                resist their evil Machinations.</p>
             <p>But would not the<pb n="146r"/>
-               <metamark rend="+ mit Bleistift" place="margin">course of Measures, in which the <rs ref="#p.16 #p.18 #p.17">Three Allied Sovereigns</rs></metamark> are engaged in
+               <metamark rend="+ mit Bleistift" place="margin">course of Measures, in which the <rs ref="#p.16 #p.18 #p.17">Three Allied Sovereigns</rs>
+                    </metamark> are engaged in
                the case of <country>Naples</country>, speak more forcibly for itself, than any
                written instrument proceeding from the same Parties could do?</p>
             <p>If however a Declaration of the Sovereigns is, in <metamark rend="+ mit Bleistift" place="margin">addition, deemed necessary</metamark> to enforce their Sentiments
@@ -827,13 +966,17 @@
                brought forward be convincing or not, it is at least sufficient to shew what an
                unbounded field for Agitation and Controversy the promulgation of such an Instrument
                as the <hi rendition="#u">Protocole Préliminaire</hi> must immediately open.</p>
-            <p><metamark rend="+ mit Bleistift" place="margin"><rs ref="#p.137">Your Lordship</rs>,
+            <p>
+                    <metamark rend="+ mit Bleistift" place="margin">
+                        <rs ref="#p.137">Your Lordship</rs>,
                   for the reasons above stated,</metamark> and many others of a most cogent nature,
                which it would swell this Communication too much<pb n="149r"/> to enumerate, will
                decline, in the name of Your Court, being an acceding Party to the Protocols in
                question.</p>
             <p>You will distinctly understand that this determination on the part of His Majesty’s
-               Government does not rest upon the <metamark rend="+ mit Bleistift" place="margin"><hi rendition="#u" hand="#AmB">Form or Phrases</hi></metamark> of the particular
+               Government does not rest upon the <metamark rend="+ mit Bleistift" place="margin">
+                        <hi rendition="#u" hand="#AmB">Form or Phrases</hi>
+                    </metamark> of the particular
                Instruments, <hi rendition="#u" hand="#AmB">and consequently is not susceptible of
                   being removed by any partial modification of their stipulations</hi>.</p>
             <p>They feel Themselves obliged to dissent from the fundamental Principle<pb n="149v"/>
@@ -915,7 +1058,10 @@
                public discussions throughout Europe, the effects of which in the present state of
                moral and political ferment no human foresight can estimate, and no Combination of
                its Powers may be able to controul.</p>
-            <p>Signed <persName ref="#p.9"><surname>Castlereagh</surname></persName></p>
+            <p>Signed <persName ref="#p.9">
+                        <surname>Castlereagh</surname>
+                    </persName>
+                </p>
          </div>
       </body>
       <back>

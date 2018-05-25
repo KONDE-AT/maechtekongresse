@@ -1,5 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -9,10 +11,13 @@
                <persName>
                   <surname>Schneider</surname>
                   <forename>Karin</forename>
-               </persName></editor>
+               </persName>
+                </editor>
          </titleStmt>
          <editionStmt>
-            <edition><date>2012-10-26</date></edition>
+            <edition>
+                    <date>2012-10-26</date>
+                </edition>
          </editionStmt>
          <publicationStmt>
             <publisher>Österreichische Akademie der Wissenschaften, Institut für Neuzeit- und
@@ -38,8 +43,11 @@
                   </msItem>
                </msContents>
                <physDesc>
-                  <p>Eigenhändiges Journal von <persName ref="#p.5"><forename>Friedrich</forename>
-                        <surname>von Gentz</surname></persName></p>
+                  <p>Eigenhändiges Journal von <persName ref="#p.5">
+                                <forename>Friedrich</forename>
+                        <surname>von Gentz</surname>
+                            </persName>
+                        </p>
                   <handDesc>
                      <handNote xml:id="A">Anonyme Hand</handNote>
                      <handNote xml:id="G">Friedrich Gentz</handNote>
@@ -49,8 +57,11 @@
 
                </physDesc>
                <history>
-                  <origin><placeName ref="#loc.60">Troppau</placeName><date when="1820-10-29">29.
-                        Oktober 1820</date></origin>
+                  <origin>
+                            <placeName ref="#loc.60">Troppau</placeName>
+                            <date when="1820-10-29">29.
+                        Oktober 1820</date>
+                        </origin>
                </history>
             </msDesc>
             <msDesc xml:id="m.2" type="Ausfertigung">
@@ -74,8 +85,11 @@
 
                </physDesc>
                <history>
-                  <origin><placeName ref="#loc.60">Troppau</placeName><date when="1820-10-29">29.
-                        Oktober 1820</date></origin>
+                  <origin>
+                            <placeName ref="#loc.60">Troppau</placeName>
+                            <date when="1820-10-29">29.
+                        Oktober 1820</date>
+                        </origin>
                </history>
             </msDesc>
             <msDesc xml:id="m.3" type="Abschrift">
@@ -100,8 +114,11 @@
 
                </physDesc>
                <history>
-                  <origin><placeName ref="#loc.9">Berlin</placeName><date when="1820-10-08">8.
-                        Oktober 1820</date></origin>
+                  <origin>
+                            <placeName ref="#loc.9">Berlin</placeName>
+                            <date when="1820-10-08">8.
+                        Oktober 1820</date>
+                        </origin>
                </history>
             </msDesc>
             <msDesc xml:id="m.4" type="Ausfertigung">
@@ -124,29 +141,41 @@
                   <p>Ausfertigung</p>
                </physDesc>
                <history>
-                  <origin><placeName ref="#loc.60">Troppau</placeName><date when="1815-10-27">27.
-                        Oktober 1820</date><date when="1820-10-29">29. Oktober 1820</date></origin>
+                  <origin>
+                            <placeName ref="#loc.60">Troppau</placeName>
+                            <date when="1815-10-27">27.
+                        Oktober 1820</date>
+                            <date when="1820-10-29">29. Oktober 1820</date>
+                        </origin>
                </history>
             </msDesc>
             <listWit corresp="#m.1">
                <head>Journal</head>
-               <witness corresp="#w.37"><bibl type="print">Alberti, Atti, S.
-                  338-339.</bibl></witness>
+               <witness corresp="#w.37">
+                        <bibl type="print">Alberti, Atti, S.
+                  338-339.</bibl>
+                    </witness>
             </listWit>
             <listWit corresp="#m.2">
                <head>Anlage 1: Preußische Denkschrift</head>
-               <witness corresp="#w.37"><bibl type="print">Alberti, Atti, S.
-                  339-340.</bibl></witness>
+               <witness corresp="#w.37">
+                        <bibl type="print">Alberti, Atti, S.
+                  339-340.</bibl>
+                    </witness>
             </listWit>
             <listWit corresp="#m.3">
                <head>Anlage 2: Instruktion für den preußischen diplomatischen Vertreter in
                   Wien</head>
-               <witness corresp="#w.37"><bibl type="print">Alberti, Atti, S.
-                  340-346.</bibl></witness>
+               <witness corresp="#w.37">
+                        <bibl type="print">Alberti, Atti, S.
+                  340-346.</bibl>
+                    </witness>
             </listWit>
             <listWit corresp="#m.4">
                <head>Anlage 3: Erklärung Russlands</head>
-               <witness corresp="#w.37"><bibl type="print">Alberti, Atti, S. 347.</bibl></witness>
+               <witness corresp="#w.37">
+                        <bibl type="print">Alberti, Atti, S. 347.</bibl>
+                    </witness>
             </listWit>
          </sourceDesc>
       </fileDesc>
@@ -158,7 +187,7 @@
          </appInfo>
          <styleDefDecl scheme="css"/>
          <tagsDecl>
-            <rendition xml:id="su" scheme="css">vertical-align:sub; font-size:.7em;</rendition>
+            <rendition xml:id="su" scheme="css">vertical-align:super; font-size:.7em;</rendition>
             <rendition xml:id="s" scheme="css">text-decoration:line-through;</rendition>
             <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
             <rendition xml:id="r" scheme="css">display:block; text-align:right;</rendition>
@@ -168,7 +197,9 @@
          <abstract>
             <p>Die <rs ref="#p.11 #p.136 #p.13 #p.14">Vertreter Preußens und Russlands</rs> geben
                Erklärungen betreffend die neapolitanische Frage ab. Verhandlung über den Vorschlag
-               des österreichischen Außenministers <persName ref="#p.8"><surname>Metternich</surname></persName>, kein Mitglied des Mächtekonzerts
+               des österreichischen Außenministers <persName ref="#p.8">
+                        <surname>Metternich</surname>
+                    </persName>, kein Mitglied des Mächtekonzerts
                möge isoliert in Verhandlungen mit der Regierung des <country>Königreichs beider
                   Sizilien</country> treten.</p>
          </abstract>
@@ -215,34 +246,53 @@
       <body>
          <div hand="#G" decls="#m.1">
             <pb n="7r"/>
-            <p><title><hi rendition="#u">Journal des Conférences</hi></title></p>
-            <p><title><hi rendition="#u"><choice>
+            <p>
+                    <title>
+                        <hi rendition="#u">Journal des Conférences</hi>
+                    </title>
+                </p>
+            <p>
+                    <title>
+                        <hi rendition="#u">
+                            <choice>
                         <abbr>Nro</abbr>
                         <expan>Numéro</expan>
-                     </choice> 2.</hi></title></p>
-            <p><hi rendition="#u">Dimanche <date when="1820-10-29">29 Octobre 1820</date>.</hi></p>
+                     </choice> 2.</hi>
+                    </title>
+                </p>
+            <p>
+                    <hi rendition="#u">Dimanche <date when="1820-10-29">29 Octobre 1820</date>.</hi>
+                </p>
 
-            <p><choice>
+            <p>
+                    <choice>
                   <abbr>Mr.</abbr>
                   <expan>Monsieur</expan>
-               </choice> le <persName ref="#p.11"><roleName>Prince</roleName>
-                  <surname>de Hardenberg</surname></persName>, Chancelier d’Etat de <choice>
+               </choice> le <persName ref="#p.11">
+                        <roleName>Prince</roleName>
+                  <surname>de Hardenberg</surname>
+                    </persName>, Chancelier d’Etat de <choice>
                   <abbr>S. M.</abbr>
                   <expan>Sa Majesté</expan>
                </choice> le <rs ref="#p.18">Roi de Prusse</rs>, et <choice>
                   <abbr>Mr.</abbr>
                   <expan>Monsieur</expan>
-               </choice> le <persName ref="#p.13"><roleName>Comte</roleName>
-                  <surname>de Nesselrode</surname></persName>, Secrétaire d’Etat de <choice>
+               </choice> le <persName ref="#p.13">
+                        <roleName>Comte</roleName>
+                  <surname>de Nesselrode</surname>
+                    </persName>, Secrétaire d’Etat de <choice>
                   <abbr>S. M.</abbr>
                   <expan>Sa Majesté</expan>
                </choice> l’<rs ref="#p.17">Empereur de Toutes les Russies</rs>, ont assisté à la
                séance de ce jour.</p>
-            <p><choice>
+            <p>
+                    <choice>
                   <abbr>Mr.</abbr>
                   <expan>Monsieur</expan>
-               </choice> le <persName ref="#p.8"><roleName>Prince</roleName>
-                  <surname>de Metternich</surname></persName> a demandé à <choice>
+               </choice> le <persName ref="#p.8">
+                        <roleName>Prince</roleName>
+                  <surname>de Metternich</surname>
+                    </persName> a demandé à <choice>
                   <abbr>Mrs.</abbr>
                   <expan>Messieurs</expan>
                </choice>
@@ -250,29 +300,39 @@
                   autres Cours</rs> s’Ils avoient quelques observations à communiquer sur les pièces
                dont le Cabinet Autrichien avoit fait part <ref target="Troppau_Prot_1.xml">à la
                   première séance</ref>.</p>
-            <p><choice>
+            <p>
+                    <choice>
                   <abbr>Mr.</abbr>
                   <expan>Monsieur</expan>
-               </choice> le <persName ref="#p.11"><roleName>Prince</roleName>
-                  <surname>de Hardenberg</surname></persName> a fait alors lecture des observations
+               </choice> le <persName ref="#p.11">
+                        <roleName>Prince</roleName>
+                  <surname>de Hardenberg</surname>
+                    </persName> a fait alors lecture des observations
                   <ref decls="#m.2">ci-jointes sub Litt A</ref>, ainsi que de l’instruction envoyée
-               par sa cour au <rs ref="#p.136">Ministre de Prusse à <placeName ref="#loc.7">Vienne</placeName></rs> en date du <date when="1820-10-08">8 Octobre</date>,
+               par sa cour au <rs ref="#p.136">Ministre de Prusse à <placeName ref="#loc.7">Vienne</placeName>
+                    </rs> en date du <date when="1820-10-08">8 Octobre</date>,
                   <ref decls="#m.3">laquelle se trouve également ci-jointe (sub B)</ref>.</p>
-            <p><choice>
+            <p>
+                    <choice>
                   <abbr>Mr.</abbr>
                   <expan>Monsieur</expan>
-               </choice> le <persName ref="#p.13"><roleName>Comte</roleName>
-                  <surname>de Nesselrode</surname></persName> a fait part, au nom du Cabinet de <choice>
+               </choice> le <persName ref="#p.13">
+                        <roleName>Comte</roleName>
+                  <surname>de Nesselrode</surname>
+                    </persName> a fait part, au nom du Cabinet de <choice>
                   <abbr>S. M.</abbr>
                   <expan>Sa Majesté</expan>
                </choice> l’<rs ref="#p.17">Empereur de Russie</rs>, d’une déclaration préalable,
                   <ref decls="#m.4">ci-jointe sub Litt C</ref>, annonçant de plus amples<pb n="7v"/>
                développemens sur les questions mises en avant par le Cabinet Autrichien.</p>
-            <p><choice>
+            <p>
+                    <choice>
                   <abbr>Mr.</abbr>
                   <expan>Monsieur</expan>
-               </choice> le <persName ref="#p.8"><roleName>Prince</roleName>
-                  <surname>de Metternich</surname></persName> a fixé l’attention de la conférence
+               </choice> le <persName ref="#p.8">
+                        <roleName>Prince</roleName>
+                  <surname>de Metternich</surname>
+                    </persName> a fixé l’attention de la conférence
                sur un objet que le Cabinet Autrichien regarde comme étant d’un intérêt commun et
                d’une haute importance.</p>
             <p>Les conférences ouvertes à <placeName ref="#loc.60">Troppau</placeName> dans une des
@@ -285,7 +345,8 @@
                avec tous les Ministères, et que par cette double tactique il se ménage les moyens de
                recevoir des rapports et des informations de ses agens avoués ou secrets.</p>
             <p>Les <rs ref="#p.144 #p.146 #p.147 #p.148 #p.149">Représentans des Cinq<pb n="8r"/>
-                  Cours résidant à <placeName ref="#loc.11">Naples</placeName></rs> ont dès les
+                  Cours résidant à <placeName ref="#loc.11">Naples</placeName>
+                    </rs> ont dès les
                premiers jours de Juillet pris la sage résolution de se constituer en conseil afin
                d’éviter qu’en aucune manière il put naître de la divergence ni dans leurs
                explications, ni dans leurs démarches respectives envers le gouvernement Napolitain.
@@ -311,26 +372,46 @@
                   <abbr>Mrs.</abbr>
                   <expan>Messieurs</expan>
                </choice> les <rs ref="#p.102 #p.135 #p.121 #p.11 #p.14 #p.136 #p.13 #p.137">Ministres des autres</rs> Cours <choice>
-                  <abbr>M<supplied>r.</supplied></abbr>
+                  <abbr>M<supplied>r.</supplied>
+                        </abbr>
                   <expan>Monsieur</expan>
-               </choice> le <persName ref="#p.8"><roleName>Prince</roleName>
-                  <surname>de Metternich</surname></persName> a fait consigner par écrit cette
+               </choice> le <persName ref="#p.8">
+                        <roleName>Prince</roleName>
+                  <surname>de Metternich</surname>
+                    </persName> a fait consigner par écrit cette
                proposition, telle qu’elle est insérée ici.</p>
-            <p rendition="#r"><add>Lu et certifié</add></p>
-            <p><add rendition="#r">à la Séance du <date when="1820-11-07">7 Novem<damage agent="binding"><supplied>bre</supplied></damage></date></add></p>
-            <signed rendition="#r"><persName ref="#p.5"><surname>Gentz</surname></persName></signed>
+            <p rendition="#r">
+                    <add>Lu et certifié</add>
+                </p>
+            <p>
+                    <add rendition="#r">à la Séance du <date when="1820-11-07">7 Novem<damage agent="binding">
+                                <supplied>bre</supplied>
+                            </damage>
+                        </date>
+                    </add>
+                </p>
+            <signed rendition="#r">
+                    <persName ref="#p.5">
+                        <surname>Gentz</surname>
+                    </persName>
+                </signed>
          </div>
 
          <div hand="#A" decls="#m.2">
             <pb n="9r"/>
-            <p><placeName ref="#loc.60">Troppau</placeName> ce <date when="1820-10-29">29 Octrobre
-                  1820</date></p>
+            <p>
+                    <placeName ref="#loc.60">Troppau</placeName> ce <date when="1820-10-29">29 Octrobre
+                  1820</date>
+                </p>
             <p>Le Cabinet Prussien a voué la plus sérieuse attention au contenu du Mémoire que <choice>
                   <abbr>Mr.</abbr>
                   <expan>Monsieur</expan>
-               </choice> le <persName ref="#p.8"><roleName>Prince</roleName>
-                  <surname>de Metternich</surname></persName> a présenté à la <ref target="Troppau_Prot_1.xml">Conférence le <date when="1820-10-23">23 de ce
-                     mois</date></ref>.</p>
+               </choice> le <persName ref="#p.8">
+                        <roleName>Prince</roleName>
+                  <surname>de Metternich</surname>
+                    </persName> a présenté à la <ref target="Troppau_Prot_1.xml">Conférence le <date when="1820-10-23">23 de ce
+                     mois</date>
+                    </ref>.</p>
             <p>Il en faudroit bien moins que les considérations exposées dans ce mémoire pour donner
                au Cabinet Prussien, s’il ne l’avoit déjà eue, la conviction entière que la
                révolution de <country>Naples</country> ne sauroit sous aucun rapport rester
@@ -340,7 +421,8 @@
                le principe de cette révolution, sur le moyen par lequel elle a été opérée, et sur
                les conséquences qu’on doit en redouter, se trouvant exprimée dans les instructions
                données au <rs ref="#p.136">Ministre de <rs ref="#p.18">Sa Majesté</rs> à la Cour de
-                     <placeName ref="#loc.7">Vienne</placeName></rs>, le Cabinet Prussien, pour ne
+                     <placeName ref="#loc.7">Vienne</placeName>
+                    </rs>, le Cabinet Prussien, pour ne
                pas se répéter inutilement, croit devoir aujourd’hui soumettre ces instructions dans
                toute leur étendue à Messieurs <rs ref="#p.8 #p.40 #p.102 #p.135 #p.121 #p.14 #p.13 #p.137">les Plénipotentiaires
                   actuellement réunis</rs>.</p>
@@ -379,7 +461,8 @@
                sacrifier son opinion particulière à l’accord commun, ne feroit aucune difficulté
                d’adopter la proposition qui réuniroit les suffrages des autres Cours alliées.</p>
             <p>Si après l’affranchissement du<pb n="10v"/>
-               <rs ref="#p.138">Souverain légitime de <country>Naples</country></rs> les bons
+               <rs ref="#p.138">Souverain légitime de <country>Naples</country>
+                    </rs> les bons
                offices des Puissances alliées peuvent être jugés nécessaires ou utiles pour rasseoir
                un régime légal sur des bases solides et équitables, la <country>Prusse</country> ne
                refusera pas les siens, et elle est dès aujourd’hui prête à ouvrir des délibérations
@@ -388,15 +471,21 @@
                   de Naples</country> une armée d’occupation au nom et sous la responsabilité de la
                totalité des Puissances alliées ; l’autre, de faire servir à cette même époque
                l’intervention des alliés à rétablir ou à déterminer pour l’avenir le sens et la
-               valeur <ref target="Troppau_Prot_1.xml">des stipulations secrèttes du <rs ref="#t.43">traité de 1815</rs></ref> entre Leurs Majestés l’<rs ref="#p.16">Empereur
+               valeur <ref target="Troppau_Prot_1.xml">des stipulations secrèttes du <rs ref="#t.43">traité de 1815</rs>
+                    </ref> entre Leurs Majestés l’<rs ref="#p.16">Empereur
                   d’Autriche</rs> et le <rs ref="#p.138">Roi des deux-Siciles</rs>.</p>
          </div>
 
          <div hand="#A" decls="#m.3">
             <pb n="11r"/>
-            <p><title>Instruction pour le <rs ref="#p.136">Ministre du <rs ref="#p.18">Roi</rs> à la
-                     cour de <placeName ref="#loc.7">Vienne</placeName></rs></title></p>
-            <p><placeName ref="#loc.9">Berlin</placeName> le <date when="1820-10-08">8 Octrobre
+            <p>
+                    <title>Instruction pour le <rs ref="#p.136">Ministre du <rs ref="#p.18">Roi</rs> à la
+                     cour de <placeName ref="#loc.7">Vienne</placeName>
+                        </rs>
+                    </title>
+                </p>
+            <p>
+                    <placeName ref="#loc.9">Berlin</placeName> le <date when="1820-10-08">8 Octrobre
                   1820</date>.</p>
             <p>Votre Excellence connait à fond l’impression que le <rs ref="#p.18">Roi</rs>, notre
                maître, avait conçue, et le jugement que <rs ref="#p.18">Sa Majesté</rs> a porté de
@@ -404,7 +493,8 @@
                l’exemple d’une poignée d’officiers conjurés et de soldats séduits, disposer non
                seulement de l’autorité du <rs ref="#p.150">Roi</rs> mais de l’ordre légal tout
                entier, attaquer la royauté bien plus encore que la personne du Roi, imposer à main
-               armée <rs xml:id="n.4">une constitution</rs><note type="editorial" target="#n.4">Zur
+               armée <rs xml:id="n.4">une constitution</rs>
+                    <note type="editorial" target="#n.4">Zur
                   spanischen Verfassung von Cádiz, veröffentlicht am 19. März 1812 und am 8. März
                   1820 durch König Ferdinand VII. erneut in Kraft gesetzt, vgl. Timmermann, Die
                   „Gemäßigte Monarchie“; BFSP Bd. 6 (1819/20), S. 237–279; Brand, Schlegelmilch,
@@ -506,7 +596,8 @@
             <p>L’<country>Autriche</country> a non seulement le droit, mais elle se reconnait aussi
                l’obligation de se charger de cette initiative. La défense légitime d’elle-même et
                les devoirs de<pb n="15r"/> l’<rs ref="#p.16">Empereur</rs>
-               <rs xml:id="n.6">comme Souverain de vastes et riches provinces en Italie</rs><note type="editorial" target="#n.6">1814 wurden die Lombardei und Venetien ein Teil des
+               <rs xml:id="n.6">comme Souverain de vastes et riches provinces en Italie</rs>
+                    <note type="editorial" target="#n.6">1814 wurden die Lombardei und Venetien ein Teil des
                   Kaisertums Österreich und bildeten das Königreich Lombardo-Venetien. Vgl.
                   Gottsmann, Malfèr, Die Vertretungskörperschaften; Helfert, Kaiser Franz von
                   Österreich; Rath, The Provisional Austrian Regime; Pesendorfer, Eiserne
@@ -514,7 +605,8 @@
                ont couvert le <country>royaume de Naples</country>, et de ne négliger aucune
                précaution pour arrêter la contagion de l’exemple. Les <rs ref="#t.43">traités
                   particuliers, qui lient l’<rs ref="#p.16">Empereur</rs> au <rs ref="#p.138">Roi de
-                     Naples</rs></rs>, ont d’ailleurs créé pour <rs ref="#p.16">Sa Majesté
+                     Naples</rs>
+                    </rs>, ont d’ailleurs créé pour <rs ref="#p.16">Sa Majesté
                   Impériale</rs> des obligations et des titres qui n’existent pas pour les autres
                Puissances.</p>
             <p>L’<country>Autriche</country> a reconnu dès le premier moment de l’explosion et la
@@ -589,10 +681,12 @@
                   moyens d’annoncer et de prouver<pb n="18r"/> aux ennemis de l’ordre social de la
                   manière la moins équivoque son inébranlable attachement aux principes
                   conservateurs qui servent aujourd’hui de base au système Européen, et sa ferme
-                  résolution de les défendre et de les soutenir à tout prix.</rs><note type="editorial" target="#n.7">Vgl. dazu russische Réponse aux communications de
+                  résolution de les défendre et de les soutenir à tout prix.</rs>
+                    <note type="editorial" target="#n.7">Vgl. dazu russische Réponse aux communications de
                   l’Autriche et de la France, en date du mois d’Aout 1820, à être adressée
                   circulairement aux Cours de Vienne, de Paris, de Londres et de Berlin, o. D.; in:
-                  ÖStA, HHStA, St.K., Kongressakten, Kart. 21, Fasz. 38, fol. 28–35.</note></p>
+                  ÖStA, HHStA, St.K., Kongressakten, Kart. 21, Fasz. 38, fol. 28–35.</note>
+                </p>
             <p>La <country>Russie</country> et la <country>Prusse</country>, ayant par la nature
                même de leurs gouvernemens les mains libres, peuvent et pourront s’expliquer sans
                réserve.</p>
@@ -603,9 +697,11 @@
                à leur langage public. Cependant la <country>France</country>, dans cette
                circonstance importante, n’a pas hésité un moment à se placer sur la même ligne avec
                les autres Puissances. <rs xml:id="n.8">Elle a été même la première à signaler la
-                  nature et l’étendue du danger et les moyens<pb n="18v"/> de le conjurer.</rs><note type="editorial" target="#n.8">Frankreich hatte bereits am 10. August 1820 die
+                  nature et l’étendue du danger et les moyens<pb n="18v"/> de le conjurer.</rs>
+                    <note type="editorial" target="#n.8">Frankreich hatte bereits am 10. August 1820 die
                   Einberufung eines Kongresses vorgeschlagen; vgl. Jarrett, The Congress of Vienna,
-                  S. 239.</note></p>
+                  S. 239.</note>
+                </p>
             <p>Le gouvernement Français, qui ne fait que sortir d’une lutte avec ses ennemis de
                l’intérieur où toute sa sagesse et toute sa fermeté ont à peine suffi pour assurer
                son triomphe, doit sans doute plus que personne avoir la mesure des dangers qui ne
@@ -625,7 +721,9 @@
                fermeté et une vigueur qui garantissent à l’Europe de quel œil il doit envisager les
                entreprises du même genre qui ont été conçues et exécutées ailleurs avec le plus
                déplorable succès. Après avoir si puissamment contribué à briser le joug que la
-                  <country>France</country> révolutionnaire et le despotisme de <persName ref="#p.50"><surname>Buonaparte</surname></persName> avaient imposé au continent
+                  <country>France</country> révolutionnaire et le despotisme de <persName ref="#p.50">
+                        <surname>Buonaparte</surname>
+                    </persName> avaient imposé au continent
                Européen, l’<country>Angleterre</country> restera fidèle à sa haute destination et
                concourra à sauver ce qui reste de liberté légale en Europe, et à préserver des
                horreurs de la licence et de l’anarchie des nations qui lui doivent en grande partie
@@ -697,7 +795,8 @@
                uniforme et propre à faire connaître l’accord entier des sentimens des Cours alliées
                par rapport aux causes et à la nature de la révolution de <country>Naples</country> ;
                et</p>
-            <p>2) Que <rs ref="#p.102 #p.137 #p.136 #p.121">les représentans de <rs ref="#p.16 #p.15 #p.130 #p.18 #p.17">ces mêmes Souverains</rs> à <placeName ref="#loc.7">Vienne</placeName></rs> soient chargés d’y ouvrir des conférences
+            <p>2) Que <rs ref="#p.102 #p.137 #p.136 #p.121">les représentans de <rs ref="#p.16 #p.15 #p.130 #p.18 #p.17">ces mêmes Souverains</rs> à <placeName ref="#loc.7">Vienne</placeName>
+                    </rs> soient chargés d’y ouvrir des conférences
                conjointement avec le Cabinet Autrichien et de déposer dans ce centre commun les
                idées, les vœux et les déterminations de leurs Cours respectives.</p>
             <p>Cette seconde partie des demandes de la Cour de <placeName ref="#loc.7">Vienne</placeName> a été remplie<pb n="22r"/> d’avance par la
@@ -717,25 +816,40 @@
 
          <div hand="#A" decls="#m.4">
             <pb n="23r"/>
-            <p><add hand="#AmB" place="top"><date when="1820-10-29">29/20</date></add></p>
-            <p><add place="top" hand="#AmB">C</add></p>
-            <p><placeName ref="#loc.60">Troppau</placeName>, le 17/<date when="1820-10-29">29
+            <p>
+                    <add hand="#AmB" place="top">
+                        <date when="1820-10-29">29/20</date>
+                    </add>
+                </p>
+            <p>
+                    <add place="top" hand="#AmB">C</add>
+                </p>
+            <p>
+                    <placeName ref="#loc.60">Troppau</placeName>, le 17/<date when="1820-10-29">29
                   Octobre 1820</date>.</p>
-            <p><choice>
+            <p>
+                    <choice>
                   <abbr>Mr.</abbr>
                   <expan>Monsieur</expan>
-               </choice> le <persName ref="#p.8"><roleName>Prince</roleName>
-                  <surname>de Metternich</surname></persName> demande si les communications qu’il a
-               faites dans <ref target="Troppau_Prot_1.xml">la conférence du <date when="1820-10-23"><choice>
+               </choice> le <persName ref="#p.8">
+                        <roleName>Prince</roleName>
+                  <surname>de Metternich</surname>
+                    </persName> demande si les communications qu’il a
+               faites dans <ref target="Troppau_Prot_1.xml">la conférence du <date when="1820-10-23">
+                            <choice>
                         <sic>20</sic>
                         <corr>23</corr>
-                     </choice> octobre</date></ref> donneront lieu à quelques observations de la
+                     </choice> octobre</date>
+                    </ref> donneront lieu à quelques observations de la
                part des Plénipotentiaires.</p>
-            <p><choice>
+            <p>
+                    <choice>
                   <abbr>Mr.</abbr>
                   <expan>Monsieur</expan>
-               </choice> le Secrétaire d’Etat <persName ref="#p.13"><roleName>Comte</roleName>
-                  <surname>de Nesselrode</surname></persName> déclare que l’<rs ref="#p.17">Empereur
+               </choice> le Secrétaire d’Etat <persName ref="#p.13">
+                        <roleName>Comte</roleName>
+                  <surname>de Nesselrode</surname>
+                    </persName> déclare que l’<rs ref="#p.17">Empereur
                   de Russie</rs> a pris connoissance du dernier mémoire Autrichien, et qu’il partage
                entièrement les vœux énoncés par la Cour de <placeName ref="#loc.7">Vienne</placeName>. D’accord avec <rs ref="#p.16" xml:id="n.9">Sa Majesté
                   Impériale et Royale Apostolique</rs>,<note type="editorial" target="#n.9">Ehrentitel des Kaisers von Österreich.</note> il considère comme un devoir sacré

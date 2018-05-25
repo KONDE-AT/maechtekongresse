@@ -1,5 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -385,7 +387,9 @@
             </place>
             <place xml:id="loc.79">
                <placeName>Acqui Terme</placeName>
-               <placeName><sic>Acqui</sic></placeName>
+               <placeName>
+                        <sic>Acqui</sic>
+                    </placeName>
                <idno type="URI">http://www.geonames.org/3183490/</idno>
             </place>
             <place xml:id="loc.80">
@@ -428,12 +432,16 @@
             </place>
             <place xml:id="loc.87">
                <placeName>Bad Kreuznach</placeName>
-               <placeName><sic>Kreuznach</sic></placeName>
+               <placeName>
+                        <sic>Kreuznach</sic>
+                    </placeName>
                <idno type="URI">http://www.geonames.org/2953416/</idno>
             </place>
             <place xml:id="loc.88">
                <placeName>Bad Dürkheim</placeName>
-               <placeName><sic>Dürkheim</sic></placeName>
+               <placeName>
+                        <sic>Dürkheim</sic>
+                    </placeName>
                <idno type="URI">http://www.geonames.org/2953522/</idno>
             </place>
          </listPlace>

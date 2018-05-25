@@ -1,5 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -9,10 +11,13 @@
                <persName>
                   <surname>Schneider</surname>
                   <forename>Karin</forename>
-               </persName></editor>
+               </persName>
+                </editor>
          </titleStmt>
          <editionStmt>
-            <edition><date>2017-03-13</date></edition>
+            <edition>
+                    <date>2017-03-13</date>
+                </edition>
          </editionStmt>
          <publicationStmt>
             <publisher>Österreichische Akademie der Wissenschaften, Institut für Neuzeit- und
@@ -50,8 +55,11 @@
 
                </physDesc>
                <history>
-                  <origin><placeName ref="#loc.65">Laibach</placeName><date when="1821-01-11">11.
-                        Jänner 1821</date></origin>
+                  <origin>
+                            <placeName ref="#loc.65">Laibach</placeName>
+                            <date when="1821-01-11">11.
+                        Jänner 1821</date>
+                        </origin>
                </history>
             </msDesc>
             <msDesc xml:id="m.2" type="Abschrift">
@@ -74,19 +82,26 @@
                   <p>Abschrift</p>
                </physDesc>
                <history>
-                  <origin><placeName ref="#loc.65">Laibach</placeName><date when="1821-01-11">11.
-                        Jänner 1821</date></origin>
+                  <origin>
+                            <placeName ref="#loc.65">Laibach</placeName>
+                            <date when="1821-01-11">11.
+                        Jänner 1821</date>
+                        </origin>
                </history>
             </msDesc>
             <listWit corresp="#m.1">
                <head>Journal</head>
-               <witness corresp="#w.37"><bibl type="print">Alberti, Atti, S.
-                  399-400.</bibl></witness>
+               <witness corresp="#w.37">
+                        <bibl type="print">Alberti, Atti, S.
+                  399-400.</bibl>
+                    </witness>
             </listWit>
             <listWit corresp="#m.2">
                <head>Anlage: Russische Erklärung</head>
-               <witness corresp="#w.37"><bibl type="print">Alberti, Atti, S.
-                  400-401.</bibl></witness>
+               <witness corresp="#w.37">
+                        <bibl type="print">Alberti, Atti, S.
+                  400-401.</bibl>
+                    </witness>
             </listWit>
          </sourceDesc>
       </fileDesc>
@@ -98,7 +113,7 @@
          </appInfo>
          <styleDefDecl scheme="css"/>
          <tagsDecl>
-            <rendition xml:id="su" scheme="css">vertical-align:sub; font-size:.7em;</rendition>
+            <rendition xml:id="su" scheme="css">vertical-align:super; font-size:.7em;</rendition>
             <rendition xml:id="s" scheme="css">text-decoration:line-through;</rendition>
             <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
             <rendition xml:id="r" scheme="css">display:block; text-align:right;</rendition>
@@ -153,22 +168,35 @@
       <body>
          <div hand="#A" decls="#m.1">
             <pb n="5r"/>            
-            <p><title>Journal des Conférences</title></p>
-            <p><title>tenues à <placeName ref="#loc.65">Laybach</placeName></title></p>
-            <p><title>depuis le <date when="1821-01-11">11 Janvier 1821</date></title></p>
-            <p><choice>
-                  <abbr>N<hi rendition="#su">o</hi></abbr>
+            <p>
+                    <title>Journal des Conférences</title>
+                </p>
+            <p>
+                    <title>tenues à <placeName ref="#loc.65">Laybach</placeName>
+                    </title>
+                </p>
+            <p>
+                    <title>depuis le <date when="1821-01-11">11 Janvier 1821</date>
+                    </title>
+                </p>
+            <p>
+                    <choice>
+                  <abbr>N<hi rendition="#su">o</hi>
+                        </abbr>
                   <expan>Numéro</expan>
                </choice> 1.</p>
             <p>Conférence du <date when="1821-01-11">11 Janiver 1821</date>.</p>
             <p>Conformément à la teneur du <ref target="Troppau_Prot_8.xml">Journal des Conférences
                   de <placeName ref="#loc.60">Troppau</placeName>
                   <choice>
-                     <abbr>N<hi rendition="#su">o</hi></abbr>
+                     <abbr>N<hi rendition="#su">o</hi>
+                            </abbr>
                      <expan>Numéro</expan>
-                  </choice> 8 en date du <date when="1820-12-24">24 Décembre</date></ref> le siège
+                  </choice> 8 en date du <date when="1820-12-24">24 Décembre</date>
+                    </ref> le siège
                des réunions ayant été transféré à <placeName ref="#loc.65">Laybach</placeName>, <choice>
-                  <abbr>M<hi rendition="#su">rs</hi></abbr>
+                  <abbr>M<hi rendition="#su">rs</hi>
+                        </abbr>
                   <expan>Messieurs</expan>
                </choice>
                <rs ref="#p.12 #p.160 #p.102 #p.135 #p.161 #p.14 #p.8 #p.13 #p.7 #p.2">les
@@ -183,8 +211,10 @@
                les Plénipotentiaires consigneraient leurs opinions dans des procès-verbaux ou
                protocoles formels revêtus de leurs signatures respectives suivant l’usage adopté de
                tout tems et dans toutes les réunions précédentes.</p>
-            <p><choice>
-                  <abbr>M<hi rendition="#su">rs</hi></abbr>
+            <p>
+                    <choice>
+                  <abbr>M<hi rendition="#su">rs</hi>
+                        </abbr>
                   <expan>Messieurs</expan>
                </choice>
                <rs ref="#p.8 #p.2 #p.102 #p.135 #p.160 #p.12">les Plénipotentiaires d’Autriche, de
@@ -201,39 +231,62 @@
                Ministère de Russie, il serait à désirer que celles suivies à <placeName ref="#loc.60">Troppau</placeName> fussent encore maintenues pour la conservation
                du système d’union et de solidarité générale qui règle heureusement les rapports des
                Etats Européens.</p>
-            <p><choice>
-                  <abbr>M<hi rendition="#su">rs</hi></abbr>
+            <p>
+                    <choice>
+                  <abbr>M<hi rendition="#su">rs</hi>
+                        </abbr>
                   <expan>Messieurs</expan>
-               </choice><rs ref="#p.13 #p.14 #p.7"> les Ministres de Russie</rs> ont répliqué que
+               </choice>
+                    <rs ref="#p.13 #p.14 #p.7"> les Ministres de Russie</rs> ont répliqué que
                   l’<rs ref="#p.17">Empereur</rs>, désirant toujours témoigner l’identité de ses
                sentimens et de ses vues avec les dispositions de <rs ref="#p.16 #p.18">ses augustes
                   Alliés</rs>, hésitera d’autant moins à adhérer de nouveau aux formes adoptées dans
                les discussions de <placeName ref="#loc.60">Troppau</placeName> que le seul motif
                unanimement reconnu et articulé qui porte les Cabinets à considérer ces formes comme
-               préférables, loin d’invalider le principe que <rs ref="#p.17"><choice>
+               préférables, loin d’invalider le principe que <rs ref="#p.17">
+                        <choice>
                      <abbr>S. M. I.</abbr>
                      <expan>Sa Majesté Impériale</expan>
-                  </choice></rs> a fait développer dans l’opinion susmentionnée, l’établit au
+                  </choice>
+                    </rs> a fait développer dans l’opinion susmentionnée, l’établit au
                contraire dans toute<pb n="8v"/> sa force, vu qu’elle n’emporte qu’une exception que
                l’on aime à regarder comme purement transitoire et momentanée.</p>
-            <p rendition="#r"><add hand="#G">Lu et Certifié</add></p>
-            <p rendition="#r"><add hand="#G">À la conférence du <date when="1821-01-12">12
-                     Janvier</date></add></p>
-            <signed rendition="#r"><persName ref="#p.5"><surname>Gentz</surname></persName></signed>
+            <p rendition="#r">
+                    <add hand="#G">Lu et Certifié</add>
+                </p>
+            <p rendition="#r">
+                    <add hand="#G">À la conférence du <date when="1821-01-12">12
+                     Janvier</date>
+                    </add>
+                </p>
+            <signed rendition="#r">
+                    <persName ref="#p.5">
+                        <surname>Gentz</surname>
+                    </persName>
+                </signed>
          </div>
 
          <div hand="#A" decls="#m.2">
             <pb n="6r"/>
-            <p><add place="top">Annexe au Journal <choice>
-                     <abbr>N<hi rendition="#su">o</hi></abbr>
+            <p>
+                    <add place="top">Annexe au Journal <choice>
+                     <abbr>N<hi rendition="#su">o</hi>
+                            </abbr>
                      <expan>Numéro</expan>
-                  </choice> 1.</add></p>
-            <p><title>Opinion du Ministère Russe sur les formes à suivre dans les délibérations de
-                     <placeName ref="#loc.65">Laybach</placeName></title></p>
-            <p><placeName ref="#loc.65">Laybach</placeName> le <date when="1821-01-11">11 Janvier
-                  1821</date></p>
+                  </choice> 1.</add>
+                </p>
+            <p>
+                    <title>Opinion du Ministère Russe sur les formes à suivre dans les délibérations de
+                     <placeName ref="#loc.65">Laybach</placeName>
+                    </title>
+                </p>
+            <p>
+                    <placeName ref="#loc.65">Laybach</placeName> le <date when="1821-01-11">11 Janvier
+                  1821</date>
+                </p>
             <p>Les travaux auxquels sont appelés <rs ref="#p.12 #p.160 #p.102 #p.135 #p.161 #p.14 #p.8 #p.13 #p.7 #p.2">les
-                  Plénipotentiaires des Puissances représentées à <placeName ref="#p.65">Laybach</placeName></rs> ne semblent pouvoir être que la continuation de ceux
+                  Plénipotentiaires des Puissances représentées à <placeName ref="#p.65">Laybach</placeName>
+                    </rs> ne semblent pouvoir être que la continuation de ceux
                dont la réunion de <placeName ref="#loc.60">Troppau</placeName> a posé les bases et
                tracé le plan général.</p>
             <p>Avant de s’appliquer sur le fond même des graves questions que les Plénipotentiaires
@@ -249,7 +302,8 @@
                mesures même que<pb n="6v"/> les Cabinets ont prises ne peuvent être considérées que
                comme préparatoires. Leur but et leur essence leur donnent à la fois ce caractère. Le
                Protocole préliminaire a été rédigé dans la vue de préparer un acte qui pût obtenir
-               la sanction de tous les Gouvernemens de l’Europe. L’<ref target="Troppau_Prot_4.xml">invitation de se rendre à <placeName ref="#loc.65">Laybach</placeName></ref> a
+               la sanction de tous les Gouvernemens de l’Europe. L’<ref target="Troppau_Prot_4.xml">invitation de se rendre à <placeName ref="#loc.65">Laybach</placeName>
+                    </ref> a
                été adressée au <rs ref="#p.138">Roi</rs> dans le dessein de préparer d’un côté une
                médiation qui réconciliât <country>Naples</country> avec les Puissances amies de
                l’ordre et du bien, de l’autre une réunion qui pût arrêter des mesures définitives.
@@ -278,7 +332,8 @@
                ayant été reconnues, les<pb n="7v"/> Puissances représentées à <placeName ref="#loc.65">Laybach</placeName> déclarent qu’elles se sont réunies aux termes
                des actes qui ont statué des réunions de Souverains et de Plénipotentiaires ; que les
                stipulations de ces actes ont été et seront toujours scrupuleusement observées ; que
-               la sécurité d’<rs xml:id="n.2">une de ces Puissances</rs><note type="editorial" target="#n.2">Österreich.</note> ayant été compromise par les événemens de
+               la sécurité d’<rs xml:id="n.2">une de ces Puissances</rs>
+                    <note type="editorial" target="#n.2">Österreich.</note> ayant été compromise par les événemens de
                   <country>Naples</country>, celle-ci a engagé ses alliés à délibérer avec elle sur
                ses propres intérêts, et que ces intérêts embrassant ceux de l’Italie entière, toutes
                les Cours de la Péninsule Italienne ont été invitées à prendre part aux

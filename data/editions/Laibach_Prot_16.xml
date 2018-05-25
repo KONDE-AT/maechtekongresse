@@ -1,5 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -10,10 +12,13 @@
                <persName>
                   <surname>Schneider</surname>
                   <forename>Karin</forename>
-               </persName></editor>
+               </persName>
+                </editor>
          </titleStmt>
          <editionStmt>
-            <edition><date>2017-03-13</date></edition>
+            <edition>
+                    <date>2017-03-13</date>
+                </edition>
          </editionStmt>
          <publicationStmt>
             <publisher>Österreichische Akademie der Wissenschaften, Institut für Neuzeit- und
@@ -54,8 +59,11 @@
 
                </physDesc>
                <history>
-                  <origin><placeName ref="#loc.65">Laibach</placeName><date when="1821-05-12">12.
-                        Mai 1821</date></origin>
+                  <origin>
+                            <placeName ref="#loc.65">Laibach</placeName>
+                            <date when="1821-05-12">12.
+                        Mai 1821</date>
+                        </origin>
                </history>
             </msDesc>
             <msDesc xml:id="m.2" type="Lithographie">
@@ -80,8 +88,11 @@
 
                </physDesc>
                <history>
-                  <origin><placeName ref="#loc.65">Laibach</placeName><date when="1821-05-12">12.
-                        Mai 1821</date></origin>
+                  <origin>
+                            <placeName ref="#loc.65">Laibach</placeName>
+                            <date when="1821-05-12">12.
+                        Mai 1821</date>
+                        </origin>
                </history>
             </msDesc>
             <msDesc xml:id="m.3" type="Abschrift">
@@ -105,8 +116,11 @@
 
                </physDesc>
                <history>
-                  <origin><placeName ref="#loc.65">Laibach</placeName><date when="1821-05-13">13.
-                        Mai 1821</date></origin>
+                  <origin>
+                            <placeName ref="#loc.65">Laibach</placeName>
+                            <date when="1821-05-13">13.
+                        Mai 1821</date>
+                        </origin>
                </history>
             </msDesc>
             <msDesc xml:id="m.4" type="Lithographie">
@@ -132,8 +146,11 @@
 
                </physDesc>
                <history>
-                  <origin><placeName ref="#loc.65">Laibach</placeName><date when="1821-05-12">12.
-                        Mai 1821</date></origin>
+                  <origin>
+                            <placeName ref="#loc.65">Laibach</placeName>
+                            <date when="1821-05-12">12.
+                        Mai 1821</date>
+                        </origin>
                </history>
             </msDesc>
             <msDesc xml:id="m.5" type="Abschrift">
@@ -170,90 +187,154 @@
                </msIdentifier>
                <msContents>
                   <msItem>
-                     <title>Anlage 5: Österreichisches Zirkular von <persName ref="#p.8"><surname>Metternich</surname></persName></title>
+                     <title>Anlage 5: Österreichisches Zirkular von <persName ref="#p.8">
+                                    <surname>Metternich</surname>
+                                </persName>
+                            </title>
                   </msItem>
                </msContents>
                <physDesc>
                   <p>Abschrift</p>
                </physDesc>
                <history>
-                  <origin><placeName ref="#loc.65">Laibach</placeName><date when="1821-05-14">14.
-                        Mai 1821</date></origin>
+                  <origin>
+                            <placeName ref="#loc.65">Laibach</placeName>
+                            <date when="1821-05-14">14.
+                        Mai 1821</date>
+                        </origin>
                </history>
             </msDesc>
             <listWit corresp="#m.1">
                <head>Journal</head>
-               <witness corresp="#w.37"><bibl type="print">Alberti, Atti, S.
-                  447-448.</bibl></witness>
+               <witness corresp="#w.37">
+                        <bibl type="print">Alberti, Atti, S.
+                  447-448.</bibl>
+                    </witness>
             </listWit>
             <listWit corresp="#m.2">
                <head>Anlage 1: Erklärung Österreichs, Preußens und Russlands</head>
-               <witness corresp="#w.26"><bibl type="print">Archive diplomatique/Diplomatisches
-                     Archiv, Bd. 2, S. 391–397;</bibl></witness>
-               <witness corresp="#w.5"><bibl type="print">BFSP Bd. 8 (1820/21), S.
-                  1199–1201;</bibl></witness>
-               <witness corresp="#w.25"><bibl type="print">Ghillany, Diplomatisches Handbuch, Bd. 2,
-                     S. 434–436;</bibl></witness>
-               <witness corresp="#w.16"><bibl type="print">Meyer, Staats-Acten, S.
-                  282–284;</bibl></witness>
-               <witness corresp="#w.19"><bibl type="print">Neumann, Recueil, Bd. 3, S.
-                     600–602;</bibl></witness>
-               <witness corresp="#w.14"><bibl type="print">Martens, Nouveau Recueil, Bd. 5, S.
-                     638–640;</bibl></witness>
-               <witness corresp="#w.31"><bibl type="print">Martens, Guide diplomatique, Bd. 2, S.
-                     14–16;</bibl></witness>
-               <witness corresp="#w.8"><bibl type="print">Angeberg, Congrès, Bd. 3, S.
-                     1811–1812;</bibl></witness>
-               <witness corresp="#w.27"><bibl type="print">Lesur, Annuaire historique, Bd. IV,
-                     642–643;</bibl></witness>
-               <witness corresp="#w.37"><bibl type="print">Alberti, Atti, S.
-                  448-450.</bibl></witness>
+               <witness corresp="#w.26">
+                        <bibl type="print">Archive diplomatique/Diplomatisches
+                     Archiv, Bd. 2, S. 391–397;</bibl>
+                    </witness>
+               <witness corresp="#w.5">
+                        <bibl type="print">BFSP Bd. 8 (1820/21), S.
+                  1199–1201;</bibl>
+                    </witness>
+               <witness corresp="#w.25">
+                        <bibl type="print">Ghillany, Diplomatisches Handbuch, Bd. 2,
+                     S. 434–436;</bibl>
+                    </witness>
+               <witness corresp="#w.16">
+                        <bibl type="print">Meyer, Staats-Acten, S.
+                  282–284;</bibl>
+                    </witness>
+               <witness corresp="#w.19">
+                        <bibl type="print">Neumann, Recueil, Bd. 3, S.
+                     600–602;</bibl>
+                    </witness>
+               <witness corresp="#w.14">
+                        <bibl type="print">Martens, Nouveau Recueil, Bd. 5, S.
+                     638–640;</bibl>
+                    </witness>
+               <witness corresp="#w.31">
+                        <bibl type="print">Martens, Guide diplomatique, Bd. 2, S.
+                     14–16;</bibl>
+                    </witness>
+               <witness corresp="#w.8">
+                        <bibl type="print">Angeberg, Congrès, Bd. 3, S.
+                     1811–1812;</bibl>
+                    </witness>
+               <witness corresp="#w.27">
+                        <bibl type="print">Lesur, Annuaire historique, Bd. IV,
+                     642–643;</bibl>
+                    </witness>
+               <witness corresp="#w.37">
+                        <bibl type="print">Alberti, Atti, S.
+                  448-450.</bibl>
+                    </witness>
             </listWit>
             <listWit corresp="#m.3">
                <head>Anlage 2: Russisches Zirkular</head>
-               <witness corresp="#w.5"><bibl type="print">BFSP Bd. 8 (1820/21), S.
-                  1196–1199;</bibl></witness>
-               <witness corresp="#w.25"><bibl type="print">Ghillany, Diplomatisches Handbuch, Bd. 2,
-                     S. 432–434;</bibl></witness>
-               <witness corresp="#w.27"><bibl type="print">Lesur, Annuaire historique, Bd. IV, S.
-                     646–648;</bibl></witness>
-               <witness corresp="#w.14"><bibl type="print">Martens, Nouveau Recueil, Bd. 5, S.
-                     634–638;</bibl></witness>
-               <witness corresp="#w.37"><bibl type="print">Alberti, Atti, S.
-                  450-452.</bibl></witness>
+               <witness corresp="#w.5">
+                        <bibl type="print">BFSP Bd. 8 (1820/21), S.
+                  1196–1199;</bibl>
+                    </witness>
+               <witness corresp="#w.25">
+                        <bibl type="print">Ghillany, Diplomatisches Handbuch, Bd. 2,
+                     S. 432–434;</bibl>
+                    </witness>
+               <witness corresp="#w.27">
+                        <bibl type="print">Lesur, Annuaire historique, Bd. IV, S.
+                     646–648;</bibl>
+                    </witness>
+               <witness corresp="#w.14">
+                        <bibl type="print">Martens, Nouveau Recueil, Bd. 5, S.
+                     634–638;</bibl>
+                    </witness>
+               <witness corresp="#w.37">
+                        <bibl type="print">Alberti, Atti, S.
+                  450-452.</bibl>
+                    </witness>
             </listWit>
             <listWit corresp="#m.4">
                <head>Anlage 3: Zirkulardepesche der drei Höfe, gemeinsam mit der <ref decls="#m.2">"Déclaration"</ref> an die jeweiligen diplomatischen Vertreter
                   gerichtet</head>
-               <witness corresp="#w.26"><bibl type="print">Archive diplomatique/Diplomatisches
-                     Archiv, Bd. 2, S. 397–410;</bibl></witness>
-               <witness corresp="#w.3"><bibl type="print">Bertier de Sauvigny, Sainte-Alliance, S.
-                     212–217;</bibl></witness>
-               <witness corresp="#w.8"><bibl type="print">Angeberg, Congrès, Bd. 3, S.
-                     1813–1817;</bibl></witness>
-               <witness corresp="#w.10"><bibl type="print">Metternich, Nachgelassene Papiere, Bd. 3,
-                     S. 480–488;</bibl></witness>
-               <witness corresp="#w.30"><bibl type="print">Bianchi, Storia documentata, Bd. 2, S.
-                     314–318;</bibl></witness>
-               <witness corresp="#w.5"><bibl type="print">BFSP Bd. 8 (1820/21), S.
-                  1201–1205;</bibl></witness>
-               <witness corresp="#w.25"><bibl type="print">Ghillany, Diplomatisches Handbuch, Bd. 2,
-                     S. 436–440;</bibl></witness>
-               <witness corresp="#w.2"><bibl type="print">Grewe, FHJG, S. 119–122
-                  (Auszug);</bibl></witness>
-               <witness corresp="#w.27"><bibl type="print">Lesur, Annuaire historique, Bd. 4,
-                     643–646;</bibl></witness>
-               <witness corresp="#w.14"><bibl type="print">Martens, Nouveau Recueil, Bd. 5, S.
-                     641–646;</bibl></witness>
-               <witness corresp="#w.16"><bibl type="print">Meyer, Staats-Acten, S.
-                  285–290;</bibl></witness>
-               <witness corresp="#w.37"><bibl type="print">Alberti, Atti, S.
-                  452-456.</bibl></witness>
+               <witness corresp="#w.26">
+                        <bibl type="print">Archive diplomatique/Diplomatisches
+                     Archiv, Bd. 2, S. 397–410;</bibl>
+                    </witness>
+               <witness corresp="#w.3">
+                        <bibl type="print">Bertier de Sauvigny, Sainte-Alliance, S.
+                     212–217;</bibl>
+                    </witness>
+               <witness corresp="#w.8">
+                        <bibl type="print">Angeberg, Congrès, Bd. 3, S.
+                     1813–1817;</bibl>
+                    </witness>
+               <witness corresp="#w.10">
+                        <bibl type="print">Metternich, Nachgelassene Papiere, Bd. 3,
+                     S. 480–488;</bibl>
+                    </witness>
+               <witness corresp="#w.30">
+                        <bibl type="print">Bianchi, Storia documentata, Bd. 2, S.
+                     314–318;</bibl>
+                    </witness>
+               <witness corresp="#w.5">
+                        <bibl type="print">BFSP Bd. 8 (1820/21), S.
+                  1201–1205;</bibl>
+                    </witness>
+               <witness corresp="#w.25">
+                        <bibl type="print">Ghillany, Diplomatisches Handbuch, Bd. 2,
+                     S. 436–440;</bibl>
+                    </witness>
+               <witness corresp="#w.2">
+                        <bibl type="print">Grewe, FHJG, S. 119–122
+                  (Auszug);</bibl>
+                    </witness>
+               <witness corresp="#w.27">
+                        <bibl type="print">Lesur, Annuaire historique, Bd. 4,
+                     643–646;</bibl>
+                    </witness>
+               <witness corresp="#w.14">
+                        <bibl type="print">Martens, Nouveau Recueil, Bd. 5, S.
+                     641–646;</bibl>
+                    </witness>
+               <witness corresp="#w.16">
+                        <bibl type="print">Meyer, Staats-Acten, S.
+                  285–290;</bibl>
+                    </witness>
+               <witness corresp="#w.37">
+                        <bibl type="print">Alberti, Atti, S.
+                  452-456.</bibl>
+                    </witness>
             </listWit>
             <listWit corresp="#m.5">
                <head>Anlage 4: Russisches Zirkular</head>
-               <witness corresp="#w.37"><bibl type="print">Alberti, Atti, S.
-                  456-460.</bibl></witness>
+               <witness corresp="#w.37">
+                        <bibl type="print">Alberti, Atti, S.
+                  456-460.</bibl>
+                    </witness>
             </listWit>
          </sourceDesc>
       </fileDesc>
@@ -265,7 +346,7 @@
          </appInfo>
          <styleDefDecl scheme="css"/>
          <tagsDecl>
-            <rendition xml:id="su" scheme="css">vertical-align:sub; font-size:.7em;</rendition>
+            <rendition xml:id="su" scheme="css">vertical-align:super; font-size:.7em;</rendition>
             <rendition xml:id="s" scheme="css">text-decoration:line-through;</rendition>
             <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
             <rendition xml:id="ow">overwritten</rendition>
@@ -309,8 +390,11 @@
       <body>
          <div>
             <pb n="126r"/>
-            <p><title>Journal de clôture des Conférences particulières de <placeName ref="#loc.65">Laybach</placeName>.</title></p>
-            <p hand="#G" rendition="#u"><placeName ref="#loc.65">Laybach</placeName> le <date when="1821-05-12">12 Mai 1821</date>.</p>
+            <p>
+                    <title>Journal de clôture des Conférences particulières de <placeName ref="#loc.65">Laybach</placeName>.</title>
+                </p>
+            <p hand="#G" rendition="#u">
+                    <placeName ref="#loc.65">Laybach</placeName> le <date when="1821-05-12">12 Mai 1821</date>.</p>
 
             <p>Les <rs ref="#p.8 #p.2 #p.136 #p.13 #p.14 #p.7">Plénipotentiaires des Cours
                   d’Autriche, de Prusse et de Russie</rs> voulant, au moment de leur séparation,
@@ -344,7 +428,8 @@
             <p>Les travaux de <placeName ref="#loc.65">Laybach</placeName> sont terminés, et une
                nouvelle réunion de Cabinets devant avoir lieu dans le courant de l’année 1822, les
                Cabinets Alliés se réfèrent à ce sujet aux stipulations arrêtées par le <ref target="Laibach_Prot_15.xml">Protocole du <date when="1821-02-26">26
-                     Février</date></ref>.</p>
+                     Février</date>
+                    </ref>.</p>
             <p>Article troisième</p>
             <p>Vu que les <rs ref="#p.16 #p.18 #p.17">Souverains Alliés</rs> ont dirigé leurs
                principaux efforts vers le rétablissement de l’ordre et de la paix dans plusieurs
@@ -362,24 +447,37 @@
                Ministres et Agens Prussiens en Italie seront conçues dans le sens des dites
                Circulaires.</p>
             <p>Article quatrième</p>
-            <p><rs xml:id="n.5">Les événemens heureux survenus en Italie</rs><note type="editorial" target="#n.5">Niederschlagung der Revolutionen im <country>Königreich beider
+            <p>
+                    <rs xml:id="n.5">Les événemens heureux survenus en Italie</rs>
+                    <note type="editorial" target="#n.5">Niederschlagung der Revolutionen im <country>Königreich beider
                      Sizilien</country> und im <country>Königreich
                   Sardinien-Piemont</country>.</note> ayant rendu sans objet pour le moment la
                présence des troupes que Sa Majesté l’<rs ref="#p.17">Empereur de toutes les
-                  Russies</rs> avoit mises en mouvement à la demande de <rs ref="#p.16" xml:id="n.6">Sa Majesté Impériale et Royale Apostolique</rs><note type="editorial" target="#n.6">Ehrentitel des Kaisers von Österreich.</note> pour le soutien de la
+                  Russies</rs> avoit mises en mouvement à la demande de <rs ref="#p.16" xml:id="n.6">Sa Majesté Impériale et Royale Apostolique</rs>
+                    <note type="editorial" target="#n.6">Ehrentitel des Kaisers von Österreich.</note> pour le soutien de la
                cause que les <rs ref="#p.16 #p.18 #p.17">Souverains Alliés</rs> défendent dans un
                même esprit de bienveillance, d’union et de paix, Sa Majesté l’<rs ref="#p.17">Empereur de toutes les Russies</rs> placera néanmoins dans les Provinces Russes,
                limitrophes de l’Empire Autrichien, une armée de cent vingt-trois mille hommes
                laquelle y sera maintenue jusqu’à la réunion des Monarques en 1822 pour servir
                d’appui à la conservation de la tranquillité générale.</p>
-            <p rendition="#r"><add hand="#G">Lu et certifié séance</add></p>
-            <p rendition="#r"><add hand="#G">tenante</add></p>
-            <signed rendition="#r"><persName ref="#p.5"><surname>Gentz</surname></persName></signed>
+            <p rendition="#r">
+                    <add hand="#G">Lu et certifié séance</add>
+                </p>
+            <p rendition="#r">
+                    <add hand="#G">tenante</add>
+                </p>
+            <signed rendition="#r">
+                    <persName ref="#p.5">
+                        <surname>Gentz</surname>
+                    </persName>
+                </signed>
          </div>
 
          <div hand="#A" decls="#m.2">
             <pb n="122/8r"/>
-            <p><title>Déclaration</title></p>
+            <p>
+                    <title>Déclaration</title>
+                </p>
             <p>L’Europe connaît les motifs de la résolution prise par les <rs ref="#p.16 #p.18 #p.17">Souverains alliés</rs> d’étouffer les complots et de faire
                cesser les troubles qui menaçaient l’existence de cette paix générale dont le
                rétablissement a coûté tant d’efforts et tant de sacrifices.</p>
@@ -389,7 +487,8 @@
                      Sardinien-Piemont</country> eine Revolution ausgebrochen, die rasch durch
                   österreichische Truppen niedergeschlagen wurde. Vgl. Späth, Revolution in Europa,
                   S. 150–165; Broers, Napoleonic Imperialism; Jarrett, The Congress of Vienna, S.
-                  270–284.</note></p>
+                  270–284.</note>
+                </p>
             <p>Ni les liens qui depuis tant de siècles unissent la maison régnante de Savoye à son
                peuple, ni les bienfaits d’une administration éclairée sous un <rs ref="#p.169">Prince</rs> sage et sous des lois paternelles, ni la triste perspective des maux
                auxquels la patrie allait être exposée, n’ont pu contenir les desseins des
@@ -450,23 +549,33 @@
                voulu annoncer au monde les principes qui les ont guidés. Ils sont décidés à ne
                jamais s’en écarter, et tous les amis du bien verront et trouveront constamment dans
                leur union une garantie assurée contre les tentatives des perturbateurs.</p>
-            <p>C’est dans ce but que <rs ref="#p.16 #p.18 #p.17"><choice>
+            <p>C’est dans ce but que <rs ref="#p.16 #p.18 #p.17">
+                        <choice>
                      <abbr>LL. MM. I.I. et R.R.</abbr>
                      <expan>Leurs Majestés Impériales et Royales</expan>
-                  </choice></rs> ont ordonné à leurs plénipotentiaires de signer et de publier la
+                  </choice>
+                    </rs> ont ordonné à leurs plénipotentiaires de signer et de publier la
                présente déclaration.</p>
-            <p><placeName ref="#loc.65">Laibach</placeName> le <date when="1821-05-12">12 Mai
+            <p>
+                    <placeName ref="#loc.65">Laibach</placeName> le <date when="1821-05-12">12 Mai
                   1821</date>.</p>
 
             <table rend="rules">
                <row>
                   <cell>Autriche</cell>
-                  <cell rend="Unterschriften"><persName ref="#p.8"><surname>Metternich</surname></persName></cell>
+                  <cell rend="Unterschriften">
+                            <persName ref="#p.8">
+                                <surname>Metternich</surname>
+                            </persName>
+                        </cell>
                </row>
                <row>
                   <cell/>
-                  <cell rend="Unterschriften">Le <persName ref="#p.2"><roleName>Baron</roleName>
-                        <surname>de Vincent</surname></persName></cell>
+                  <cell rend="Unterschriften">Le <persName ref="#p.2">
+                                <roleName>Baron</roleName>
+                        <surname>de Vincent</surname>
+                            </persName>
+                        </cell>
                </row>
                <row>
                   <cell/>
@@ -474,7 +583,11 @@
                </row>
                <row>
                   <cell>Prusse</cell>
-                  <cell rend="Unterschriften"><persName ref="#p.136"><surname>Krusemarck</surname></persName></cell>
+                  <cell rend="Unterschriften">
+                            <persName ref="#p.136">
+                                <surname>Krusemarck</surname>
+                            </persName>
+                        </cell>
                </row>
                <row>
                   <cell/>
@@ -482,16 +595,28 @@
                </row>
                <row>
                   <cell>Russie</cell>
-                  <cell rend="Unterschriften"><persName ref="#p.13"><surname>Nesselrode</surname></persName></cell>
+                  <cell rend="Unterschriften">
+                            <persName ref="#p.13">
+                                <surname>Nesselrode</surname>
+                            </persName>
+                        </cell>
                </row>
                <row>
                   <cell/>
-                  <cell rend="Unterschriften"><persName ref="#p.14"><surname>Capodistrias</surname></persName></cell>
+                  <cell rend="Unterschriften">
+                            <persName ref="#p.14">
+                                <surname>Capodistrias</surname>
+                            </persName>
+                        </cell>
                </row>
                <row>
                   <cell/>
-                  <cell rend="Unterschriften"><persName ref="#p.7"><surname>Pozzo di
-                        Borgo</surname></persName></cell>
+                  <cell rend="Unterschriften">
+                            <persName ref="#p.7">
+                                <surname>Pozzo di
+                        Borgo</surname>
+                            </persName>
+                        </cell>
                </row>
             </table>
          </div>
@@ -499,9 +624,16 @@
          <div hand="#A" decls="#m.3">
             <pb n="128r"/>
 
-            <p><add hand="#AmR" place="top">B.</add></p>
-            <p><title>Copie d’une Circulaire aux Missions de Russie</title></p>
-            <p><placeName ref="#loc.65">Laybach</placeName> ce <add hand="#A1" place="inspace">1/13</add><date when="1821-05-13"><add hand="#A1" place="inspace">May</add>
+            <p>
+                    <add hand="#AmR" place="top">B.</add>
+                </p>
+            <p>
+                    <title>Copie d’une Circulaire aux Missions de Russie</title>
+                </p>
+            <p>
+                    <placeName ref="#loc.65">Laybach</placeName> ce <add hand="#A1" place="inspace">1/13</add>
+                    <date when="1821-05-13">
+                        <add hand="#A1" place="inspace">May</add>
                   1821</date>.</p>
             <p>Il y a précisément un an que nous nous sommes vus forcés de faire connoître les
                principes que L’<rs ref="#p.17">Empereur</rs> avoit résolu de suivre à l’égard des
@@ -515,12 +647,17 @@
             <p>Par notre <rs xml:id="n.8">Circulaire du 27 <choice>
                      <abbr>Févr.</abbr>
                      <expan>Février</expan>
-                  </choice>/<date when="1821-03-11">11 Mars</date></rs><note type="editorial" target="#n.8">Abgedruckt in Vnešnjaja politika Rossii, Bd. 12, S. 41-44.</note>
+                  </choice>/<date when="1821-03-11">11 Mars</date>
+                    </rs>
+                    <note type="editorial" target="#n.8">Abgedruckt in Vnešnjaja politika Rossii, Bd. 12, S. 41-44.</note>
                nous Vous informions qu’attendu les déterminations prises sous ce rapport par Sa
                Majesté Impériale, Elle s’étoit décidée à prolonger Son séjour auprès de <rs xml:id="n.9" ref="#p.16">Sa<pb n="128v"/> Majesté Impériale et
-                  Royale-Apostolique</rs><note type="editorial" target="#n.9">Ehrentitel des Kaisers
+                  Royale-Apostolique</rs>
+                    <note type="editorial" target="#n.9">Ehrentitel des Kaisers
                   von Österreich.</note> malgré la clôture du Congrès de <placeName ref="#loc.65">Laybach</placeName>.</p>
-            <p>Nos <rs xml:id="n.10">dépêches du 8/<date when="1821-03-20">20 Mars</date></rs><note type="editorial" target="#n.10">Abgedruckt in Vnešnjaja politika Rossii, Bd. 12,
+            <p>Nos <rs xml:id="n.10">dépêches du 8/<date when="1821-03-20">20 Mars</date>
+                    </rs>
+                    <note type="editorial" target="#n.10">Abgedruckt in Vnešnjaja politika Rossii, Bd. 12,
                   S. 56-57.</note> Vous apprirent bientôt que la prévoyance de L’<rs ref="#p.17">Empereur</rs> n’avoit été que trop complètement justifiée et que, fidèle à Ses
                promesses, la Russie, sur la demande de L’Autriche et du <rs ref="#p.169">souverain
                   légitime du Royaume de Sardaigne</rs>, avoit fait marcher une armée de Cent mille
@@ -529,10 +666,12 @@
                      Sardinien-Piemont</country> eine Revolution ausgebrochen, die rasch durch
                   österreichische Truppen niedergeschlagen wurde. Vgl. Späth, Revolution in Europa,
                   S. 150–165; Broers, Napoleonic Imperialism; Jarrett, The Congress of Vienna, S.
-                  270–284.</note></p>
+                  270–284.</note>
+                </p>
             <p>D’heureux évènemens ont succédé à ceux qu’avoient provoqués les artisans de troubles
                et de discorde. Tout nous autorise à espérer que l’ordre achèvera de se rétablir dans
-               les Etats de <rs ref="#p.169"><choice>
+               les Etats de <rs ref="#p.169">
+                        <choice>
                      <abbr>S. M.</abbr>
                      <expan>Sa Majesté</expan>
                   </choice> Sarde</rs>. Le Gouvernement Royal y a profité de la proximité <rs xml:id="n.12">du Royaume Lombardo-Vénitien</rs>,<note type="editorial" target="#n.12">1814 wurden die Lombardei und Venetien ein Teil des
@@ -557,8 +696,10 @@
             <p>L’expérience de tous les âges et de tous les pays avertit les peuples des calamités
                qui forment l’inévitable cortège du crime et de la rébellion. Mais l’année dernière,
                ces hautes et éternelles leçons des siècles furent méconnues. Les catastrophes se
-               pressèrent avec une effrayante rapidité. <rs xml:id="n.14"><country>Naples</country>
-                  démontra jusqu’à l’évidence les dangers d’un pernicieux exemple.</rs><note type="editorial" target="#n.14">Am <date when="1820-07-02">2. Juli 1820</date>
+               pressèrent avec une effrayante rapidité. <rs xml:id="n.14">
+                        <country>Naples</country>
+                  démontra jusqu’à l’évidence les dangers d’un pernicieux exemple.</rs>
+                    <note type="editorial" target="#n.14">Am <date when="1820-07-02">2. Juli 1820</date>
                   meuterte die Militärgarnison in Nola, 35 km von <placeName ref="#loc.11">Neapel</placeName> entfernt. Das Datum gilt als Beginn der Revolution im
                      <country>Königreich beider Sizilien</country>. Vgl. Stites, The four Horsemen;
                   Davis, Naples and Napoleon; Gin, Sanfedisti, Carbonari, Magistrati del Re; Späth,
@@ -621,12 +762,17 @@
                nous avons eu la certitude que le gouvernement légitime avoit recouvré la plénitude
                de son autorité dans le <country>royaume de Sardaigne</country>.</p>
             <p>Ainsi, <choice>
-                  <abbr>M<hi rendition="#su">r</hi></abbr>
+                  <abbr>M<hi rendition="#su">r</hi>
+                        </abbr>
                   <expan>Monsieur</expan>
                </choice>, c’est avec la conscience d’avoir rempli les devoirs d’ami et d’allié,
                c’est avec le dessein de toujours les remplir, et la consolante persuasion d’avoir
                contribué à la tranquillité de L’Italie et de L’Europe que L’<rs ref="#p.17">Empereur</rs> va quitter <placeName ref="#loc.65">Laybach</placeName>.</p>
-            <p>Il partira le <add hand="#AmB" place="inspace"><del>12</del></add><add rendition="#ow">13</add> et se rendra par <placeName ref="#loc.70">Varsovie</placeName> à <placeName ref="#loc.10"><choice>
+            <p>Il partira le <add hand="#AmB" place="inspace">
+                        <del>12</del>
+                    </add>
+                    <add rendition="#ow">13</add> et se rendra par <placeName ref="#loc.70">Varsovie</placeName> à <placeName ref="#loc.10">
+                        <choice>
                      <abbr>S.</abbr>
                      <expan>Saint</expan>
                   </choice> Pétersbourg</placeName>, heureux de prêter Son assistance à Ses alliés
@@ -639,26 +785,32 @@
                instructions générales qu’ils ont reçues jusqu’à ce jour.</p>
             <p>La présente circulaire règlera leur langage sur les évènemens dont elle parle, et
                   L’<rs ref="#p.17">Empereur</rs> Vous autorise même, <choice>
-                  <abbr>M<hi rendition="#su">r</hi></abbr>
+                  <abbr>M<hi rendition="#su">r</hi>
+                        </abbr>
                   <expan>Monsieur</expan>
                </choice>, à en donner lecture et copie au Gouvernement auprès duquel Vous êtes
                accrédité.</p>
-            <p>Ce sera sur <placeName ref="#loc.10"><choice>
+            <p>Ce sera sur <placeName ref="#loc.10">
+                        <choice>
                      <abbr>St.</abbr>
                      <expan>Saint</expan>
                   </choice> Pétersbourg</placeName> que Vous voudrez bien diriger Vos prochains
                rapports.</p>
             <p>Recevez, <choice>
-                  <abbr>M<hi rendition="#su">r</hi></abbr>
+                  <abbr>M<hi rendition="#su">r</hi>
+                        </abbr>
                   <expan>Monsieur</expan>
                </choice>, l’assurance de ma considération très distinguée.</p>
          </div>
 
          <div decls="#m.4">
             <pb n="140r"/>
-            <p><placeName ref="#loc.65">Laybach</placeName> le <date when="1821-05-12">12 Mai
+            <p>
+                    <placeName ref="#loc.65">Laybach</placeName> le <date when="1821-05-12">12 Mai
                   1821</date>.</p>
-            <p><title>Dépêche circulaire</title></p>
+            <p>
+                    <title>Dépêche circulaire</title>
+                </p>
 
             <p>La réunion des <rs ref="#p.16 #p.18 #p.17">Monarques alliés</rs> et de leurs Cabinets
                à <placeName ref="#loc.60">Troppau</placeName>, arrêtée à la suite des <rs xml:id="n.16">événemens qui avaient renversé le Gouvernement légitime à
@@ -692,8 +844,10 @@
                aussi fragile dans sa construction que vicieux dans ses bases, ne reposant que sur
                l’astuce des uns et sur l’aveuglement momentané des autres, réprouvé par l’immense
                majorité de la nation, odieux même à l’armée formée pour le défendre, <rs xml:id="n.17">s’est écroulé au premier contact avec la force régulière qui était
-                  destinée à le renverser et qui n’a servi qu’à en démontrer le néant.</rs><note type="editorial" target="#n.17">Die österreichische Armee war am 24. März 1821 in
-                  Neapel eingezogen.</note></p>
+                  destinée à le renverser et qui n’a servi qu’à en démontrer le néant.</rs>
+                    <note type="editorial" target="#n.17">Die österreichische Armee war am 24. März 1821 in
+                  Neapel eingezogen.</note>
+                </p>
             <p>Le pouvoir légitime et rétabli ; les factions sont dispersées, le peuple Napolitain
                est délivré de la tyrannie de ces imposteurs audacieux qui, en le berçant des rêves
                d’une fausse liberté, exerçaient sur lui les vexations les plus cruelles, lui
@@ -709,7 +863,8 @@
                   institutions sages, les véritables intérêts de ses sujets et la prospérité
                   constante de son royaume</rs>.<note type="editorial" target="#n.18">Die Protokolle
                   dieser diplomatischen Konferenzen finden sich im ÖStA, HHStA, StK, Kongressakten,
-                  Kart. 23.</note></p>
+                  Kart. 23.</note>
+                </p>
             <p>Pendant le cours de ces grandes transactions on a vu éclater de plus d’un côté les
                effets de cette vaste conjuration, tramée depuis longtems contre tous les pouvoirs
                établis, et contre tous les droits consacrés par cet ordre social sous lequel
@@ -765,14 +920,16 @@
                   <country>Naples</country>, dans ceux du <country>Piémont</country>, dans ceux-même
                qui, sous des circonstances très différentes, mais par des combinaisons également
                criminelles, <rs xml:id="n.20">viennent de livrer la partie orientale de
-                  l’Europe</rs><note type="editorial" target="#n.20">1821 kam es in den beiden zum
+                  l’Europe</rs>
+                    <note type="editorial" target="#n.20">1821 kam es in den beiden zum
                   Osmanischen Reich gehörenden Fürstentümern Walachei und Moldawien zu Aufständen.
                   Vgl. Erbe, Erschütterung, S. 376; Berindei, Revoluţia română; Ders., Die
                   revolutionären Ereignisse von 1821; Calic, Südosteuropa, S. 237. Ebenfalls 1821
                   begann der Griechische Unabhängigkeitskrieg; vgl. Dakin, The Greek Struggle;
                   Clogg, Movement for Greek Independence; Prokesch-Osten, Geschichte des Abfalls der
                   Griechen.</note> à des convulsions incalculables.</p>
-            <p><rs ref="#p.16 #p.18 #p.17">Les Monarques</rs> sont d’autant plus décidés à ne pas
+            <p>
+                    <rs ref="#p.16 #p.18 #p.17">Les Monarques</rs> sont d’autant plus décidés à ne pas
                s’écarter de ce système qu’Ils regardent la fermeté, avec laquelle Ils l’ont maintenu
                dans une époque si critique, comme la véritable cause du succès dont Leurs efforts
                pour le rétablissement de l’ordre en Italie ont été accompagnés. Les gouvernemens de
@@ -787,7 +944,9 @@
                liait le salut de l’Italie aux déterminations <rs ref="#p.16 #p.18 #p.17">des
                   Monarques</rs>
                <rs xml:id="n.21">que le dénouement prompt et heureux de la révolte qui avait éclaté
-                  dans le <country>Piémont</country></rs><note type="editorial" target="#n.21">Im
+                  dans le <country>Piémont</country>
+                    </rs>
+                    <note type="editorial" target="#n.21">Im
                   März 1821 war im <country>Königreich Sardinien-Piemont</country> eine Revolution
                   ausgebrochen, die rasch durch österreichische Truppen niedergeschlagen wurde. Vgl.
                   Späth, Revolution in Europa, S. 150–165; Broers, Napoleonic Imperialism; Jarrett,
@@ -802,7 +961,8 @@
                ses vertus ; une partie considérable de troupes fut entraînée dans l’abîme par
                l’exemple et les intrigues d’un petit nombre d’ambitieux ; et le cri banal de la
                faction antisociale retentissait de la Capitale aux provinces.</p>
-            <p><rs ref="#p.16 #p.18 #p.17">Les Monarques</rs> réunis à <placeName ref="#loc.65">Laibach</placeName> ne tardèrent pas à y répondre. Leur union était du nombre de
+            <p>
+                    <rs ref="#p.16 #p.18 #p.17">Les Monarques</rs> réunis à <placeName ref="#loc.65">Laibach</placeName> ne tardèrent pas à y répondre. Leur union était du nombre de
                celles qui se fortifient et grandissent avec le danger ; Leur voix fut entendue.
                Aussitôt les Serviteurs fidèles du <rs ref="#p.169">Roi</rs>, sentant qu’ils
                n’étaient point abandonnés, employèrent ce qu’il leur restait de ressources pour
@@ -848,13 +1008,19 @@
                   connaissance<pb n="143r"/> du public de l’Europe les sentimens et les principes
                dont <rs ref="#p.16 #p.18 #p.17">les Augustes Souverains</rs> sont animés, et qui
                serviront constamment de guides à Leur politique.</p>
-            <p>Receves <supplied>...</supplied></p>
+            <p>Receves <supplied>...</supplied>
+                </p>
          </div>
 
          <div decls="#m.5" hand="#A">
             <pb n="144r"/>
-            <p><add place="top" hand="#AmR">D.</add></p>
-            <p><title><del rendition="#s">Projet de</del> Circulaire aux Ministres de l’<rs ref="#p.17">Empereur</rs> en Italie</title></p>
+            <p>
+                    <add place="top" hand="#AmR">D.</add>
+                </p>
+            <p>
+                    <title>
+                        <del rendition="#s">Projet de</del> Circulaire aux Ministres de l’<rs ref="#p.17">Empereur</rs> en Italie</title>
+                </p>
             <p>Après les soins que les Puissances alliées ont pris pour la pacification de la
                Péninsule Italienne, leur sollicitude devoit naturellement se porter sur les mesures
                les plus propres à consolider les heureux résultats de leurs communs efforts et à
@@ -910,7 +1076,8 @@
                autrichien indique les mesures par lesquelles il croit possible d’atteindre l’objet
                qu’il vient de signaler.</p>
             <p>Ces mesures sont :</p>
-            <p>À <country>Naples</country>, l’exécution franche de la loi fondamentale que <rs ref="#p.138"><choice>
+            <p>À <country>Naples</country>, l’exécution franche de la loi fondamentale que <rs ref="#p.138">
+                        <choice>
                      <abbr>S. M.</abbr>
                      <expan>Sa Majesté</expan>
                   </choice> Sicilienne</rs> a portée à la connoissance de ses alliés dans les
@@ -920,7 +1087,9 @@
                la suite la présence des troupes étrangères devienne superflue ; de l’autre, la
                formation <rs xml:id="n.24">d’une conférence de Ministres alliés semblable à celle
                   qui a<pb n="147r"/> été établie pour le <country>Royaume des
-                     Deux-Siciles</country></rs><note type="editorial" target="#n.24">Die Protokolle
+                     Deux-Siciles</country>
+                    </rs>
+                    <note type="editorial" target="#n.24">Die Protokolle
                   dieser diplomatischen Konferenzen finden sich im ÖStA, HHStA, StK, Kongressakten,
                   Kart. 23.</note> ;</p>
             <p>Dans le premier comme dans le second de ces deux Etats des rapports de confiance et
@@ -929,7 +1098,9 @@
                attentivement la situation où ils se trouvent, les réformes que peuvent exiger les
                besoins des peuples et les moyens de se préserver du double fléau des révolutions et
                des sectes dont elles sont l’ouvrage ; </p>
-            <p>Enfin la fixation de l’époque du <rs xml:id="n.25">congrès de <placeName ref="#loc.69">Florence</placeName></rs><note type="editorial" target="#n.25">Der Kongress fand schließlich nicht in Florenz, sondern in <placeName ref="#loc.68">Verona</placeName> statt; vgl. Edition Verona, bes. Abschnitt II
+            <p>Enfin la fixation de l’époque du <rs xml:id="n.25">congrès de <placeName ref="#loc.69">Florence</placeName>
+                    </rs>
+                    <note type="editorial" target="#n.25">Der Kongress fand schließlich nicht in Florenz, sondern in <placeName ref="#loc.68">Verona</placeName> statt; vgl. Edition Verona, bes. Abschnitt II
                   (Affaires d’Italie).</note> comme devant être celle où les Cours d’Italie se
                communiqueront réciproquement, ainsi qu’aux Puissances alliées, les plans de
                réorganisation qu’elles auront arrêtés, et prendront l’engage<pb n="147v"/>ment
@@ -941,24 +1112,32 @@
             <p>Vous aurez pu Vous convaincre, <choice>
                   <abbr>Mr.</abbr>
                   <expan>Monsieur</expan>
-               </choice><supplied>...</supplied>, par les communications que nous Vous avons
+               </choice>
+                    <supplied>...</supplied>, par les communications que nous Vous avons
                adressées depuis six mois que ce but étoit celui de l’<rs ref="#p.17">Empereur</rs>,
                celui que doivent poursuivre tous les amis du bien, celui que rappellent tous les
                actes de <placeName ref="#loc.60">Troppau</placeName> et de <placeName ref="#loc.65">Laybach</placeName>, celui enfin, vers lequel devoient marcher d’un pas constant
                et le Gouvernement Napolitain et <rs ref="#p.144 #p.148 #p.149">les Plénipotentiaires
-                  des Puissances alliées accrédités auprès de <rs ref="#p.138"><choice>
+                  des Puissances alliées accrédités auprès de <rs ref="#p.138">
+                            <choice>
                         <abbr>S. M.</abbr>
                         <expan>Sa Majesté</expan>
-                     </choice> Sicilienne</rs>.</rs></p>
+                     </choice> Sicilienne</rs>.</rs>
+                </p>
             <pb n="148r"/>
             <p>Nous nous référons sous ce rapport à la <rs xml:id="n.26">circulaire que Vous avez
                   reçue sous la date du 27 <choice>
                      <abbr>Févr.</abbr>
                      <expan>Février</expan>
-                  </choice>/<date when="1821-03-11">11 Mars</date></rs><note type="editorial" target="#n.26">Abgedruckt in Vnešnjaja politika Rossii, Bd. 12, S. 41-44.</note>,
+                  </choice>/<date when="1821-03-11">11 Mars</date>
+                    </rs>
+                    <note type="editorial" target="#n.26">Abgedruckt in Vnešnjaja politika Rossii, Bd. 12, S. 41-44.</note>,
                ainsi qu’aux instructions que l’<rs ref="#p.17">Empereur</rs> lui-même a données au
-               Lieutenant-Général <persName ref="#p.7"><surname>Pozzo di Borgo</surname></persName>
-               et <rs xml:id="n.27">dont Vous trouverez ci-près une copie</rs>.<note type="editorial" target="#n.27">Anlage liegt nicht ein.</note></p>
+               Lieutenant-Général <persName ref="#p.7">
+                        <surname>Pozzo di Borgo</surname>
+                    </persName>
+               et <rs xml:id="n.27">dont Vous trouverez ci-près une copie</rs>.<note type="editorial" target="#n.27">Anlage liegt nicht ein.</note>
+                </p>
             <p>Veuillez, <choice>
                   <abbr>Mr.</abbr>
                   <expan>Monsieur</expan>
@@ -980,7 +1159,9 @@
                   <abbr>Gl.</abbr>
                   <expan>Général</expan>
                </choice>
-               <persName ref="#p.7"><surname>Pozzo di Borgo</surname></persName>.</p>
+               <persName ref="#p.7">
+                        <surname>Pozzo di Borgo</surname>
+                    </persName>.</p>
             <p>Nul doute qu’il n’importe que cette même vérité soit appréciée par tous les
                Gouvernemens de la Péninsule, et qu’ils ne se trouvent tous dans la nécessité de
                suivre les conseils d’une prévoyante sagesse, afin d’accélérer<pb n="149r"/> le terme
@@ -1002,7 +1183,8 @@
                prétenderons diriger la marche de leur administration intérieure.</p>
             <p>Mais à cet égard nous sommes loin de nous dissimuler la situation de
                   l’<country>Autriche</country>. <rs xml:id="n.28">L’<country>Autriche</country>
-                  peut être considérée comme Puissance en partie Italienne.</rs><note type="editorial" target="#n.28">1814 wurden die Lombardei und Venetien ein Teil
+                  peut être considérée comme Puissance en partie Italienne.</rs>
+                    <note type="editorial" target="#n.28">1814 wurden die Lombardei und Venetien ein Teil
                   des Kaisertums Österreich und bildeten das Königreich Lombardo-Venetien. Vgl.
                   Gottsmann, Malfèr, Die Vertretungskörperschaften; Helfert, Kaiser Franz von
                   Öster-reich; Rath, The Provisional Austrian Regime; Pesendorfer, Eiserne
@@ -1027,7 +1209,9 @@
                   <abbr>Gl.</abbr>
                   <expan>Général</expan>
                </choice>
-               <persName ref="#p.7"><surname>Pozzo di Borgo</surname></persName>, cette instruction
+               <persName ref="#p.7">
+                        <surname>Pozzo di Borgo</surname>
+                    </persName>, cette instruction
                deviendra désormais la Vôtre, <choice>
                   <abbr>Mr.</abbr>
                   <expan>Monsieur</expan>
@@ -1039,11 +1223,20 @@
             <p>Au surplus l’<rs ref="#p.17">Empereur</rs> a consenti :</p>
             <p>1<hi rendition="#su">o</hi> À l’établissement auprès du Gouvernement Sarde d’une
                conférence semblable à celle qui s’est formée auprès du Gouvernement Napolitain.</p>
-            <p><addSpan spanTo="#a.1" place="margin"/><title><hi rendition="#u">Addition pour le <choice>
-                        <abbr>C<hi rendition="#su">te</hi></abbr>
+            <p>
+                    <addSpan spanTo="#a.1" place="margin"/>
+                    <title>
+                        <hi rendition="#u">Addition pour le <choice>
+                        <abbr>C<hi rendition="#su">te</hi>
+                                </abbr>
                         <expan>Comte</expan>
                      </choice>
-                     <persName ref="#p.173"><surname>Mocenigo</surname></persName></hi></title></p>
+                     <persName ref="#p.173">
+                                <surname>Mocenigo</surname>
+                            </persName>
+                        </hi>
+                    </title>
+                </p>
             <p>Vous prendrez part, <choice>
                   <abbr>Mr.</abbr>
                   <expan>Monsieur</expan>
@@ -1051,10 +1244,12 @@
                   <abbr>Cte</abbr>
                   <expan>Comte</expan>
                </choice>, aux délibérations de la Conférence avec Vos Collègues ; et comme au
-               Congrès de <placeName ref="#loc.65">Laybach</placeName> les <rs ref="#p.166 #p.167">Plénipotentiaires de <rs ref="#p.169 #p.172"><choice>
+               Congrès de <placeName ref="#loc.65">Laybach</placeName> les <rs ref="#p.166 #p.167">Plénipotentiaires de <rs ref="#p.169 #p.172">
+                            <choice>
                         <abbr>S. M.</abbr>
                         <expan>Sa Majesté</expan>
-                     </choice> Sarde</rs></rs> ont trouvé des gages de sécurité dans les plans
+                     </choice> Sarde</rs>
+                    </rs> ont trouvé des gages de sécurité dans les plans
                communiqués par <choice>
                   <abbr>S. M.</abbr>
                   <expan>Sa Majesté</expan>
@@ -1067,8 +1262,11 @@
                   <abbr>V. Exc.</abbr>
                   <expan>Votre Excellence</expan>
                </choice> que sont applicables les principes développés dans le rescrit au
-                  Lieutenant-Général<persName ref="#p.7"><surname> Pozzo di
-                  Borgo</surname></persName>.<anchor xml:id="a.1"/></p>
+                  Lieutenant-Général<persName ref="#p.7">
+                        <surname> Pozzo di
+                  Borgo</surname>
+                    </persName>.<anchor xml:id="a.1"/>
+                </p>
             <p>2<hi rendition="#su">o</hi> En ce qui concerne les armées d’occupation et leurs
                Chefs, la nécessité de faire naître entre ces derniers et les Gouvernemens respectifs
                des relations intimes et confiantes est si visible que nous croyons presque superflu
@@ -1076,10 +1274,12 @@
                toute leur influence à l’établissement et au maintien de ces rapports
                indispensables.</p>
             <p>3<hi rendition="#su">o</hi>
-               <rs ref="#p.17"><choice>
+               <rs ref="#p.17">
+                        <choice>
                      <abbr>S. M. I.</abbr>
                      <expan>Sa Majesté Impériale</expan>
-                  </choice></rs> est d’avis qu’il ne seroit pas moins nécessaire d’engager les Cours
+                  </choice>
+                    </rs> est d’avis qu’il ne seroit pas moins nécessaire d’engager les Cours
                d’Italie à préparer les changemens organiques et administratifs que<pb n="151r"/>
                réclame l’intérêt évident de paralyser les desseins des sectaires, et de fonder un
                état de choses qui puisse se soutenir par sa propre force.</p>
@@ -1131,12 +1331,19 @@
 
          <div hand="#A" decls="#m.6">
             <pb n="154r"/>
-            <p><add place="top">E.</add></p>
-            <p><title>Circulaire aux Missions Autrichiennes en Italie</title></p>
-            <p><placeName ref="#loc.65">Laybach</placeName>, le <date when="1821-05-14">14 Mai
+            <p>
+                    <add place="top">E.</add>
+                </p>
+            <p>
+                    <title>Circulaire aux Missions Autrichiennes en Italie</title>
+                </p>
+            <p>
+                    <placeName ref="#loc.65">Laybach</placeName>, le <date when="1821-05-14">14 Mai
                   1821</date>.</p>
-            <p><choice>
-                  <abbr>M<hi rendition="#su">r</hi></abbr>
+            <p>
+                    <choice>
+                  <abbr>M<hi rendition="#su">r</hi>
+                        </abbr>
                   <expan>Monsieur</expan>
                </choice>, </p>
             <p>Le but des conférences de <placeName ref="#loc.65">Laybach</placeName>, les affaires
@@ -1146,7 +1353,9 @@
                objet que depuis la clôture des conférences il n’a été pris aucune détermination qui
                ne fut en parfaite harmonie avec les principes arrêtés entre les Cabinets ; &amp; si
                les <rs ref="#p.16 #p.17">deux Empereurs</rs> ont prolongé leur séjour à <placeName ref="#loc.65">Laybach</placeName>, c’est uniquement par une suite naturelle de
-               leur sollicitude pour le repos de l’Italie qui s’est trouvé menacé par <rs xml:id="n.29">une nouvelle révolution en <country>Piémont</country></rs><note type="editorial" target="#n.29">Im März 1821 war im <country>Königreich
+               leur sollicitude pour le repos de l’Italie qui s’est trouvé menacé par <rs xml:id="n.29">une nouvelle révolution en <country>Piémont</country>
+                    </rs>
+                    <note type="editorial" target="#n.29">Im März 1821 war im <country>Königreich
                      Sardinien-Piemont</country> eine Revolution ausgebrochen, die rasch durch
                   österreichische Truppen niedergeschlagen wurde. Vgl. Späth, Revolution in Europa,
                   S. 150–165; Broers, Napoleonic Imperialism; Jarrett, The Congress of Vienna, S.
@@ -1177,15 +1386,21 @@
                situation géographique de Ses Etats plus spécialement appelé &amp; plus directement
                intéressé à veiller à sa tranquillité<pb n="155v"/> intérieure &amp; en même tems
                plus à même de connoître &amp; de juger ses véritables besoins. <rs xml:id="n.31">Vous trouverez ci-joint, <choice>
-                     <abbr>M<hi rendition="#su">r</hi></abbr>
+                     <abbr>M<hi rendition="#su">r</hi>
+                            </abbr>
                      <expan>Monsieur</expan>
-                  </choice>, le mémoire que j’ai été chargé par <rs ref="#p.16"><choice>
+                  </choice>, le mémoire que j’ai été chargé par <rs ref="#p.16">
+                            <choice>
                         <abbr>S. M. I.</abbr>
                         <expan>Sa Majesté Impériale</expan>
-                     </choice></rs> de rédiger sur cet objet.</rs><note type="editorial" target="#n.31">Anlage liegt nicht ein.</note> Les principes qui y sont développés
+                     </choice>
+                        </rs> de rédiger sur cet objet.</rs>
+                    <note type="editorial" target="#n.31">Anlage liegt nicht ein.</note> Les principes qui y sont développés
                &amp; les propositions qu’il renferme sur la marche à suivre avec les différens
-               gouvernemens de la Péninsule ont obtenu l’entière adhésion de l’<persName ref="#p.17"><roleName>Empereur</roleName>
-                  <forename>Alexandre</forename></persName>, &amp; ont servi de base aux
+               gouvernemens de la Péninsule ont obtenu l’entière adhésion de l’<persName ref="#p.17">
+                        <roleName>Empereur</roleName>
+                  <forename>Alexandre</forename>
+                    </persName>, &amp; ont servi de base aux
                instructions que ce Souverain vient de faire donner à ses Missions en Italie, <ref decls="#m.5">ainsi que Vous Vous en convaincrez par la copie ci-jointe de la
                   circulaire qui leur a été adressée</ref>. Si Vous la comparez au mémoire qui forme
                la première annexe, Vous verrez qu’il règne une parfaite identité de vues,
@@ -1197,22 +1412,28 @@
                intérêt commun à tous les gouvernemens de la Péninsule, puisqu’elle en fait elle-même
                partie. Les deux Cours Impériales sont au reste entièrement d’accord sur tous les
                points, nommément sur la nécessité d’exécuter franchement à <country>Naples</country>
-               <ref target="Laibach_Prot_12.xml">la loi fondamentale que <rs ref="#p.138"><choice>
+               <ref target="Laibach_Prot_12.xml">la loi fondamentale que <rs ref="#p.138">
+                            <choice>
                         <abbr>S. M.</abbr>
                         <expan>Sa Majesté</expan>
-                     </choice> Sicilienne</rs> a portée à la connoissance de ses Alliés à <placeName ref="#loc.65">Laybach</placeName></ref> ; sur celle d’adopter en
+                     </choice> Sicilienne</rs> a portée à la connoissance de ses Alliés à <placeName ref="#loc.65">Laybach</placeName>
+                    </ref> ; sur celle d’adopter en
                   <country>Piémont</country> un régime analogue dont l’effet soit de consolider
                l’administration intérieure de ce pays de manière à rendre l’occupation militaire
                inutile ; <rs xml:id="n.33">pour la formation d’une conférence de Ministres alliés à
                      <placeName ref="#loc.64">Turin</placeName> semblable à celle qui a été établie
-                     pour<pb n="156v"/> le <country>Royaume des deux-Siciles</country></rs><note type="editorial" target="#n.33">Die Protokolle dieser diplomatischen Konferenzen
+                     pour<pb n="156v"/> le <country>Royaume des deux-Siciles</country>
+                    </rs>
+                    <note type="editorial" target="#n.33">Die Protokolle dieser diplomatischen Konferenzen
                   finden sich im ÖStA, HHStA, StK, Kongressakten, Kart. 23.</note> ; sur
                l’importance enfin d’entretenir soigneusement dans ces deux Etats des rapports de
                confiance &amp; d’intimité entre le gouvernement &amp; le chef de l’armée
                d’occupation. <metamark spanTo="#mm02" rend="Bleistiftstrich" place="margin"/>Quant
                aux autres gouvernemens de l’Italie, les <rs ref="#p.16 #p.17">deux Empereurs</rs>
                désirent également que le tems qui va s’écouler entre le moment de leur départ de
-                  <placeName ref="#loc.65">Laybach</placeName> &amp; celui de leur <rs xml:id="n.34">réunion à <placeName ref="#loc.69">Florence</placeName></rs><note type="editorial" target="#n.34">Der Kongress fand schließlich nicht in <placeName ref="#loc.69">Florenz</placeName>, sondern in <placeName ref="#loc.68">Verona</placeName> statt; vgl. Edition Verona, bes. Abschnitt II (Affaires
+                  <placeName ref="#loc.65">Laybach</placeName> &amp; celui de leur <rs xml:id="n.34">réunion à <placeName ref="#loc.69">Florence</placeName>
+                    </rs>
+                    <note type="editorial" target="#n.34">Der Kongress fand schließlich nicht in <placeName ref="#loc.69">Florenz</placeName>, sondern in <placeName ref="#loc.68">Verona</placeName> statt; vgl. Edition Verona, bes. Abschnitt II (Affaires
                   d’Italie).</note> dans le courant de l’année 1822 soit mis à profit par ces mêmes
                Gouvernemens pour examiner avec soin leur situation intérieure, les réformes qu’elle
                peut exiger &amp; les mesures qui pourroient être jugées nécessaires pour les
@@ -1221,7 +1442,8 @@
                sollicitude aux différens objets que nous venons d’indiquer, de manière à pouvoir se
                communiquer réciproquement,<pb n="157r"/> ainsi qu’aux Puissances alliées, à l’époque
                du congrès de <placeName ref="#loc.69">Florence</placeName> les plans d’amélioration
-               qu’elles croiront devoir adopter pour leurs Etats respectifs.<anchor xml:id="mm02"/></p>
+               qu’elles croiront devoir adopter pour leurs Etats respectifs.<anchor xml:id="mm02"/>
+                </p>
             <p>Le mémoire Autrichien &amp; la circulaire du Cabinet Russe forment par conséquent un
                ensemble d’instructions complet qui ne peut Vous laisser aucun doute sur le vœu des
                deux Cours Impériales, sur la conduite &amp; le langage que leurs représentans en
@@ -1229,7 +1451,8 @@
                qu’ils doivent mettre dans leurs démarches, vu que l’initiative dans les questions
                d’Italie a été abandonnée à l’<country>Autriche</country>. Moins ces nuances seront
                sensibles, plus elles seront conformes à nos vœux. Le désire de l’<rs ref="#p.16">Empereur</rs> est donc, <choice>
-                  <abbr>M<hi rendition="#su">r</hi></abbr>
+                  <abbr>M<hi rendition="#su">r</hi>
+                        </abbr>
                   <expan>Monsieur</expan>
                </choice>, qu’avant d’aborder vis-à-vis<pb n="157v"/> de la cour auprès de laquelle
                Vous êtes accrédite une des questions qui Vous sont indiquées par les présentes
@@ -1250,8 +1473,10 @@
                expédiées simultanément si <choice>
                   <abbr>M.</abbr>
                   <expan>Monsieur</expan>
-               </choice> le <persName ref="#p.12"><roleName>Comte</roleName>
-                  <surname>de Bernstorff</surname></persName> se fut trouvé encore ici. Quant à la
+               </choice> le <persName ref="#p.12">
+                        <roleName>Comte</roleName>
+                  <surname>de Bernstorff</surname>
+                    </persName> se fut trouvé encore ici. Quant à la
                   <country>France</country> &amp; à l’<country>Angleterre</country> nous aimons à
                nous flatter que si ces deux puissances ne peuvent nous seconder directement, la
                conduite de leurs Ministres prouvera du moins que le Gouvernement français &amp; le
@@ -1259,19 +1484,23 @@
                s’affermisse en Italie.</p>
             <p>La présente dépêche circulaire que j’adresse simultanément à toutes nos Missions en
                Italie n’est pour Vous, <choice>
-                  <abbr>M<hi rendition="#su">r</hi></abbr>
+                  <abbr>M<hi rendition="#su">r</hi>
+                        </abbr>
                   <expan>Monsieur</expan>
                </choice>, qu’une confirmation de Vos instructions &amp; de celles dont <choice>
                   <abbr>M.</abbr>
                   <expan>Monsieur</expan>
-               </choice> le <persName ref="#p.2"><roleName>Baron</roleName>
-                  <surname>de Vincent</surname></persName> étoit muni. Je croirois superflu<pb n="158v"/> de Vous observer que les deux annexes de la présente dépêche étant
+               </choice> le <persName ref="#p.2">
+                        <roleName>Baron</roleName>
+                  <surname>de Vincent</surname>
+                    </persName> étoit muni. Je croirois superflu<pb n="158v"/> de Vous observer que les deux annexes de la présente dépêche étant
                uniquement destinées à Vous servir de direction, Vous ne pouvez pas Vous permettre
                d’en laisser prendre des copies.</p>
             <p>Recevez <choice>
                   <abbr>etc.</abbr>
                   <expan>et cetera</expan>
-               </choice></p>
+               </choice>
+                </p>
          </div>
       </body>
       <back>

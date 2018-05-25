@@ -1,5 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -10,10 +12,13 @@
                <persName>
                   <surname>Schneider</surname>
                   <forename>Karin</forename>
-               </persName></editor>
+               </persName>
+                </editor>
          </titleStmt>
          <editionStmt>
-            <edition><date>2017-03-13</date></edition>
+            <edition>
+                    <date>2017-03-13</date>
+                </edition>
          </editionStmt>
          <publicationStmt>
             <publisher>Österreichische Akademie der Wissenschaften, Institut für Neuzeit- und
@@ -35,7 +40,10 @@
                </msIdentifier>
                <msContents>
                   <msItem>
-                     <title>Stellungnahme <persName><surname ref="#p.10">Wellingtons</surname></persName></title>
+                     <title>Stellungnahme <persName>
+                                    <surname ref="#p.10">Wellingtons</surname>
+                                </persName>
+                            </title>
                   </msItem>
                </msContents>
                <physDesc>
@@ -63,16 +71,23 @@
 
                </physDesc>
                <history>
-                  <origin><placeName ref="#loc.68">Verona</placeName><date when="1822-11-20">20.
-                        November 1822</date></origin>
+                  <origin>
+                            <placeName ref="#loc.68">Verona</placeName>
+                            <date when="1822-11-20">20.
+                        November 1822</date>
+                        </origin>
                </history>
             </msDesc>
             <listWit corresp="#m.1">
                <head>Stellungnahme Wellingtons</head>
-               <witness corresp="#w.5"><bibl type="print">BFSP Bd. 10 (1822/23), S.
-                  10–12;</bibl></witness>
-               <witness corresp="#w.1"><bibl type="print">Wellington, Dispatches, Bd. 1, S.
-                     557–559.</bibl></witness>
+               <witness corresp="#w.5">
+                        <bibl type="print">BFSP Bd. 10 (1822/23), S.
+                  10–12;</bibl>
+                    </witness>
+               <witness corresp="#w.1">
+                        <bibl type="print">Wellington, Dispatches, Bd. 1, S.
+                     557–559.</bibl>
+                    </witness>
             </listWit>
          </sourceDesc>
       </fileDesc>
@@ -84,7 +99,7 @@
          </appInfo>
          <styleDefDecl scheme="css"/>
          <tagsDecl>
-            <rendition xml:id="su" scheme="css">vertical-align:sub; font-size:.7em;</rendition>
+            <rendition xml:id="su" scheme="css">vertical-align:super; font-size:.7em;</rendition>
             <rendition xml:id="s" scheme="css">text-decoration:line-through;</rendition>
             <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
             <rendition xml:id="ow">overwritten</rendition>
@@ -92,8 +107,12 @@
       </encodingDesc>
       <profileDesc>
          <abstract>
-            <p><persName ref="#p.10"><surname>Wellington</surname></persName> übermittelt seine in
-               der <ref target="Verona_I_16.xml">Sitzung vom <date when="1822-11-20">20. November</date></ref> angekündigte schriftliche
+            <p>
+                    <persName ref="#p.10">
+                        <surname>Wellington</surname>
+                    </persName> übermittelt seine in
+               der <ref target="Verona_I_16.xml">Sitzung vom <date when="1822-11-20">20. November</date>
+                    </ref> angekündigte schriftliche
                Stellungnahme, in welcher sich die britische Regierung
                gegen eine Einmischung in die inneren Angelegenheiten Spaniens ausspricht.</p>
          </abstract>
@@ -103,32 +122,41 @@
       <body>
          <div decls="#m.1" hand="#A">
             <pb n="379r"/>
-            <p><placeName ref="#loc.68">Verona</placeName>
-               <date when="1822-11-20"><choice>
-                     <abbr>Nov<hi rendition="#su">b</hi></abbr>
+            <p>
+                    <placeName ref="#loc.68">Verona</placeName>
+               <date when="1822-11-20">
+                        <choice>
+                     <abbr>Nov<hi rendition="#su">b</hi>
+                            </abbr>
                      <expan>November</expan>
                   </choice> 20<hi rendition="#su">th</hi> 1822</date>.</p>
             <p>When the Ministers of the five Courts last assembled on the 1<hi rendition="#su">st</hi> instant, the object of their common sollicitude was to allay the
                irritation existing in <country>Spain</country> against <country>France</country>,
                and to prevent a possible rupture between the two Powers.</p>
             <p>Although <choice>
-                  <abbr>H. My’<hi rendition="#su">s</hi></abbr>
+                  <abbr>H. My’<hi rendition="#su">s</hi>
+                        </abbr>
                   <expan>His Majesty's</expan>
                </choice>
                <choice>
-                  <abbr>Gov<hi rendition="#su">t</hi></abbr>
+                  <abbr>Gov<hi rendition="#su">t</hi>
+                        </abbr>
                   <expan>Government</expan>
                </choice> did not consider themselves sufficiently informed, either of what had
                already taken place between <country>France</country> and <country>Spain</country>,
                or of what<pb n="379v"/> might occasion a Rupture, to be able to answer in the
                affirmative <ref target="Verona_I_2.xml">the questions submitted to the Conference by <choice>
-                  <abbr>H. Ex<hi rendition="#su">y</hi></abbr>
+                  <abbr>H. Ex<hi rendition="#su">y</hi>
+                            </abbr>
                   <expan>His Excellency</expan>
-               </choice> the <rs ref="#p.174">Minister of France</rs></ref>, yet knowing the anxiety of
-               the <rs ref="#p.130">King</rs> my Master for the honor of <rs ref="#p.15" xml:id="n.1"><choice>
+               </choice> the <rs ref="#p.174">Minister of France</rs>
+                    </ref>, yet knowing the anxiety of
+               the <rs ref="#p.130">King</rs> my Master for the honor of <rs ref="#p.15" xml:id="n.1">
+                        <choice>
                      <abbr>H. M. C. M.</abbr>
                      <expan>His Most Christian Majesty</expan>
-                  </choice></rs>,<note type="editorial" target="#n.1">Ehrentitel des Königs von
+                  </choice>
+                    </rs>,<note type="editorial" target="#n.1">Ehrentitel des Königs von
                   Frankreich. </note> and for the preservation of the peace of the world, I was
                willing to enter into the consideration of the measures proposed, with a view to
                attain our common object.</p>
@@ -140,11 +168,14 @@
                Spanish Government on this occasion, should be communicated to me, in order that I
                might see whether, consistently with the view which the <rs ref="#p.130">King</rs>
                had invariably taken of the Affairs of Spain, and with the principles which had
-               governed <rs ref="#p.130"><choice>
+               governed <rs ref="#p.130">
+                        <choice>
                      <abbr>H. M’s</abbr>
                      <expan>His Majesty's</expan>
-                  </choice></rs> Conduct in relation to the internal concerns of other countries, <choice>
-                  <abbr>H. M.<hi rendition="#su">s</hi></abbr>
+                  </choice>
+                    </rs> Conduct in relation to the internal concerns of other countries, <choice>
+                  <abbr>H. M.<hi rendition="#su">s</hi>
+                        </abbr>
                   <expan>His Majesty's</expan>
                </choice> Government could take<pb n="380v"/> any part which might forward the common
                purpose of preserving the general tranquillity.</p>
@@ -152,27 +183,33 @@
                   <country>Spain</country> the sentiments of <rs ref="#p.16 #p.18 #p.17 #p.15">their
                   respective Sovereigns</rs> by <ref target="Verona_I_19.xml Verona_I_20.xml Verona_I_21.xml Verona_I_22.xml">dispatches addressed to
                   the <rs ref="#p.177 #p.178 #p.179 #p.123">Ministers of their several Courts
-                     residing at <placeName ref="#loc.24">Madrid</placeName></rs></ref>, instead of
+                     residing at <placeName ref="#loc.24">Madrid</placeName>
+                        </rs>
+                    </ref>, instead of
                by official notes, as a mode of communication less formal and affording greater
                facility of discussion.</p>
             <pb n="381r"/>
             <p>These dispatches, it appears, are to be communicated <hi rendition="#u">in
                   extenso</hi> to the Spanish <choice>
-                  <abbr>Gov<hi rendition="#su">t</hi></abbr>
+                  <abbr>Gov<hi rendition="#su">t</hi>
+                        </abbr>
                   <expan>Government</expan>
                </choice>.</p>
             <p>The origin, circumstances and consequences of the Spanish Revolution – the existing
                state of Affairs in <country>Spain</country> and the conduct of those who have been
                at the head of the Spanish <choice>
-                  <abbr>Gov<hi rendition="#su">t</hi></abbr>
+                  <abbr>Gov<hi rendition="#su">t</hi>
+                        </abbr>
                   <expan>Government</expan>
                </choice> may have endangered the safety of other Countries and may have excited the
                uneasiness of the Governments whose<pb n="381v"/> Ministers I am now addressing; and
                these <choice>
-                  <abbr>Gov<hi rendition="#su">ts</hi></abbr>
+                  <abbr>Gov<hi rendition="#su">ts</hi>
+                        </abbr>
                   <expan>Governments</expan>
                </choice> may think it necessary to address the Spanish <choice>
-                  <abbr>Gov<hi rendition="#su">t</hi></abbr>
+                  <abbr>Gov<hi rendition="#su">t</hi>
+                        </abbr>
                   <expan>Government</expan>
                </choice> upon the topicks referred to in these dispatches.</p>
             <p>These sentiments and opinions have certainly been entertained by the three Cabinets
@@ -187,7 +224,8 @@
                be delayed to a later period.</p>
             <p>They are certainly calculated to irritate the Government of Spain; to afford ground
                for a belief, that advantage has been taken of the irritation existing between that <choice>
-                  <abbr>Gov<hi rendition="#su">t</hi></abbr>
+                  <abbr>Gov<hi rendition="#su">t</hi>
+                        </abbr>
                   <expan>Government</expan>
                </choice> and <country>France</country> to call down upon <country>Spain</country>
                the power of the Alliance, and thus to embarrass still more the difficult position of
@@ -199,65 +237,83 @@
                   <country>Spain</country>.</p>
             <p>This occurrence cannot assist the cause of <country>France</country>. These questions
                will still stand upon their own ground, and the <choice>
-                  <abbr>Gov<hi rendition="#su">t</hi></abbr>
+                  <abbr>Gov<hi rendition="#su">t</hi>
+                        </abbr>
                   <expan>Government</expan>
                </choice> of France must decide them upon their own merits.</p>
             <p>But these communications<pb n="383v"/> are not only calculated to embarrass the
                French <choice>
-                  <abbr>Gov<hi rendition="#su">t</hi></abbr>
+                  <abbr>Gov<hi rendition="#su">t</hi>
+                        </abbr>
                   <expan>Government</expan>
                </choice>, but likewise that of the <rs ref="#p.130">King</rs> my Master.</p>
-            <p><rs ref="#p.130">His Majesty</rs> feels sincerely for the <rs ref="#p.30">King</rs>
+            <p>
+                    <rs ref="#p.130">His Majesty</rs> feels sincerely for the <rs ref="#p.30">King</rs>
                and the people of Spain, and He is anxious to see a termination of the evils and
                misfortunes by which that Country is afflicted, and that it should be prosperous and
                happy. <rs ref="#p.130">His Majesty</rs> likewise earnestly desires that the usual
                relations of amity and good neighbourhood may<pb n="384r"/> be reestablished between
                   <country>France</country> and <country>Spain</country>, and his <choice>
-                  <abbr>Gov<hi rendition="#su">t</hi></abbr>
+                  <abbr>Gov<hi rendition="#su">t</hi>
+                        </abbr>
                   <expan>Government</expan>
                </choice> would have been anxious to cooperate with those of His Allies in allaying
                the existing irritation, and in preventing a possible rupture.</p>
             <p>But <choice>
-                  <abbr>H. May<hi rendition="#su">s</hi></abbr>
+                  <abbr>H. May<hi rendition="#su">s</hi>
+                        </abbr>
                   <expan>His Majesty's</expan>
                </choice>
                <choice>
-                  <abbr>Gov<hi rendition="#su">t</hi></abbr>
+                  <abbr>Gov<hi rendition="#su">t</hi>
+                        </abbr>
                   <expan>Government</expan>
                </choice> are of opinion that to animadvert upon the internal transactions of an
                independent state, unless such transactions affect the essential interests of His
                Majesty’s subjects,<pb n="384v"/> is inconsistent with those principles on which <rs ref="#p.130">His Majesty</rs> has invariably acted on all questions relating to
                the internal concerns of other Countries; that such animadversions, if made, must
-               involve <rs ref="#p.130"><choice>
+               involve <rs ref="#p.130">
+                        <choice>
                      <abbr>H. M.</abbr>
                      <expan>His Majesty</expan>
-                  </choice></rs> in serious responsibility if they should produce any effect, and
+                  </choice>
+                    </rs> in serious responsibility if they should produce any effect, and
                must irritate, if they should not, and if addressed as proposed to the Spanish <choice>
-                  <abbr>Gov<hi rendition="#su">t</hi></abbr>
+                  <abbr>Gov<hi rendition="#su">t</hi>
+                        </abbr>
                   <expan>Government</expan>
                </choice>, are likely to be injurious to the best<pb n="385r"/> interests of
                   <country>Spain</country> and to produce the worst consequences upon the probable
                discussions between that Country and <country>France</country>.</p>
             <p>The King’s <choice>
-                  <abbr>Gov<hi rendition="#su">t</hi></abbr>
+                  <abbr>Gov<hi rendition="#su">t</hi>
+                        </abbr>
                   <expan>Government</expan>
                </choice> must therefore decline to advise <rs ref="#p.130">His Majesty</rs> to hold
                a common language with His Allies upon this occasion, and it is so necessary for <rs ref="#p.130">His <choice>
-                     <abbr>Maj<hi rendition="#su">ty</hi></abbr>
+                     <abbr>Maj<hi rendition="#su">ty</hi>
+                            </abbr>
                      <expan>Majesty</expan>
-                  </choice></rs> not to be supposed to participate in a measure of this description
+                  </choice>
+                    </rs> not to be supposed to participate in a measure of this description
                and calculated to produce such consequences, that His <choice>
-                  <abbr>Gov<hi rendition="#su">t</hi></abbr>
+                  <abbr>Gov<hi rendition="#su">t</hi>
+                        </abbr>
                   <expan>Government</expan>
                </choice> must equally<pb n="385v"/> refrain from advising <rs ref="#p.130">His <choice>
-                     <abbr>Maj<hi rendition="#su">ty</hi></abbr>
+                     <abbr>Maj<hi rendition="#su">ty</hi>
+                            </abbr>
                      <expan>Majesty</expan>
-                  </choice></rs> to direct that any communication should be made to the Spanish <choice>
-                  <abbr>Gov<hi rendition="#su">t</hi></abbr>
+                  </choice>
+                    </rs> to direct that any communication should be made to the Spanish <choice>
+                  <abbr>Gov<hi rendition="#su">t</hi>
+                        </abbr>
                   <expan>Government</expan>
                </choice> on the subject of its relations with <country>France</country>.</p>
-            <p><rs ref="#p.130">His Majesty</rs> therefore must limit his exertions and good offices
-               to the endeavours of <rs ref="#p.146">His Minister at <placeName ref="#loc.24">Madrid</placeName></rs> to allay the ferment, which these communications must
+            <p>
+                    <rs ref="#p.130">His Majesty</rs> therefore must limit his exertions and good offices
+               to the endeavours of <rs ref="#p.146">His Minister at <placeName ref="#loc.24">Madrid</placeName>
+                    </rs> to allay the ferment, which these communications must
                occasion, and to do all the good in his power.</p>
          </div>
       </body>

@@ -1,5 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -10,10 +12,13 @@
                <persName>
                   <surname>Schneider</surname>
                   <forename>Karin</forename>
-               </persName></editor>
+               </persName>
+                </editor>
          </titleStmt>
          <editionStmt>
-            <edition><date>2017-03-13</date></edition>
+            <edition>
+                    <date>2017-03-13</date>
+                </edition>
          </editionStmt>
          <publicationStmt>
             <publisher>Österreichische Akademie der Wissenschaften, Institut für Neuzeit- und
@@ -36,7 +41,8 @@
                <msContents>
                   <msItem>
                      <title>Note des französischen Kabinetts an den <rs ref="#p.123">Geschäftsträger
-                           in <placeName ref="#loc.24">Madrid</placeName></rs>
+                           in <placeName ref="#loc.24">Madrid</placeName>
+                                </rs>
                      </title>
                   </msItem>
                </msContents>
@@ -55,7 +61,9 @@
 
                </physDesc>
                <history>
-                  <origin><placeName ref="#loc.68">Verona</placeName></origin>
+                  <origin>
+                            <placeName ref="#loc.68">Verona</placeName>
+                        </origin>
                </history>
             </msDesc>
 
@@ -69,7 +77,7 @@
          </appInfo>
          <styleDefDecl scheme="css"/>
          <tagsDecl>
-            <rendition xml:id="su" scheme="css">vertical-align:sub; font-size:.7em;</rendition>
+            <rendition xml:id="su" scheme="css">vertical-align:super; font-size:.7em;</rendition>
             <rendition xml:id="s" scheme="css">text-decoration:line-through;</rendition>
             <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
             <rendition xml:id="ow">overwritten</rendition>
@@ -78,7 +86,8 @@
       <profileDesc>
          <abstract>
             <p>Das französische Kabinett beauftragt seinen <rs ref="#p.123">Geschäftsträger in
-                     <placeName ref="#loc.24">Madrid</placeName></rs>, der dortigen Regierung die
+                     <placeName ref="#loc.24">Madrid</placeName>
+                    </rs>, der dortigen Regierung die
                Besorgnis des <rs ref="#p.15">französischen Königs</rs> über die inneren Zustände
                Spaniens zu übermitteln, die auch die innere Stabilität Frankreichs bedrohen könnten.
                Für diesen Fall habe sich der <rs ref="#p.15">König</rs> in <placeName ref="#loc.68">Verona</placeName> der Unterstützung der dort versammelten Mächtevertreter
@@ -90,52 +99,74 @@
       <body>
          <div decls="#m.1" hand="#A">
             <pb n="259r"/>
-            <p><add place="top" hand="#M" rendition="#u"><choice>
-                     <abbr>Cab<hi rendition="#su">t</hi></abbr>
+            <p>
+                    <add place="top" hand="#M" rendition="#u">
+                        <choice>
+                     <abbr>Cab<hi rendition="#su">t</hi>
+                            </abbr>
                      <expan>Cabinet</expan>
-                  </choice> françois.</add></p>
-            <p><title>Cadre d’Instruction pour le <rs ref="#p.123">Ministre de France à <placeName ref="#loc.24">Madrid</placeName></rs></title>
+                  </choice> françois.</add>
+                </p>
+            <p>
+                    <title>Cadre d’Instruction pour le <rs ref="#p.123">Ministre de France à <placeName ref="#loc.24">Madrid</placeName>
+                        </rs>
+                    </title>
             </p>
-            <p><rs ref="#p.123"><choice>
+            <p>
+                    <rs ref="#p.123">
+                        <choice>
                      <abbr>M.</abbr>
                      <expan>Monsieur</expan>
                   </choice> le Comte</rs>, Vous savez que le <rs ref="#p.15">Roi</rs> n’a pu voir
                sans la plus vive douleur la situation où de fatales circonstances ont placé la
-               Monarchie Espagnole. <rs ref="#p.15"><choice>
+               Monarchie Espagnole. <rs ref="#p.15">
+                        <choice>
                      <abbr>S. M.</abbr>
                      <expan>Sa Majesté</expan>
-                  </choice></rs> a pensé que quelques explications franches entr’Elle et le <choice>
-                  <abbr>Gouvernem<hi rendition="#su">t</hi></abbr>
+                  </choice>
+                    </rs> a pensé que quelques explications franches entr’Elle et le <choice>
+                  <abbr>Gouvernem<hi rendition="#su">t</hi>
+                        </abbr>
                   <expan>Gouvernement</expan>
-               </choice> de <rs ref="#p.30" xml:id="n.1"><choice>
+               </choice> de <rs ref="#p.30" xml:id="n.1">
+                        <choice>
                      <abbr>S. M. C.</abbr>
                      <expan>Sa Majesté Catholique</expan>
-                  </choice></rs><note type="editorial" target="#n.1">Ehrentitel des Königs von
+                  </choice>
+                    </rs>
+                    <note type="editorial" target="#n.1">Ehrentitel des Königs von
                   Spanien.</note> pourroient influer <choice>
-                  <abbr>favorablem<hi rendition="#su">t</hi></abbr>
+                  <abbr>favorablem<hi rendition="#su">t</hi>
+                        </abbr>
                   <expan>favorablement</expan>
                </choice> sur cette situation, de même que sur les relations qui doivent exister
-               entre les deux Etats. Elle Vous charge donc, <rs ref="#p.123"><choice>
+               entre les deux Etats. Elle Vous charge donc, <rs ref="#p.123">
+                        <choice>
                      <abbr>M.</abbr>
                      <expan>Monsieur</expan>
                   </choice> le <choice>
-                     <abbr>C<hi rendition="#su">te</hi></abbr>
+                     <abbr>C<hi rendition="#su">te</hi>
+                            </abbr>
                      <expan>Comte</expan>
-                  </choice></rs>, de transmettre les observations &amp; les communications
+                  </choice>
+                    </rs>, de transmettre les observations &amp; les communications
                suivantes :</p>
             <p>Depuis le moment où la <country>France</country> a été rendue à Son <choice>
-                  <abbr>Gouvernem<hi rendition="#su">t</hi></abbr>
+                  <abbr>Gouvernem<hi rendition="#su">t</hi>
+                        </abbr>
                   <expan>Gouvernement</expan>
                </choice> légitime, Elle a mis tous ses soins à entretenir avec
                   l’<country>Espagne</country> les relations de bonne intelligence &amp; d’amitié
                qui doivent si <choice>
-                  <abbr>naturellem<hi rendition="#su">t</hi></abbr>
+                  <abbr>naturellem<hi rendition="#su">t</hi>
+                        </abbr>
                   <expan>naturellement</expan>
                </choice> unir les deux Etats. Les changemens qui ont eu lieu dans les Institutions
                Espagnoles ont été accompagnés de circonstances qui devaient fixer l’attention de
                l’Europe, la position de la<pb n="259v"/>
                <country>France</country> l’obligeoit à y prendre un intérêt particulier : Elle ne
-               pouvoit perdre de vue que la <rs xml:id="n.2">révolution d’Espagne</rs><note type="editorial" target="#n.2">Zur Revolution in <country>Spanien</country>, die
+               pouvoit perdre de vue que la <rs xml:id="n.2">révolution d’Espagne</rs>
+                    <note type="editorial" target="#n.2">Zur Revolution in <country>Spanien</country>, die
                   mit einem Militäraufstand am <date when="1820-01-01">1. Jänner 1820</date> ihren
                   Anfang nahm, vgl. Späth, Revolution in Europa, S. 117–128. </note> s’était faite
                sous la plus criminelle comme la plus dangereuse des influences, une insurrection
@@ -143,7 +174,8 @@
                qu’ils regardaient comme des améliorations. Heureuse des institutions que Son <rs ref="#p.15">Roi</rs> lui a données, la France croyoit ne devoir point s’immiscer
                dans les débats intérieurs d’un païs voisin quand ces débats surtout s’attachaient à
                des changemens dans les formes de son <choice>
-                  <abbr>Gouvernem<hi rendition="#su">t</hi></abbr>
+                  <abbr>Gouvernem<hi rendition="#su">t</hi>
+                        </abbr>
                   <expan>Gouvernement</expan>
                </choice>.</p>
             <p>Le choc des opinions anciennes et nouvelles a compliqué la révolution d’Espagne. Le
@@ -151,7 +183,8 @@
                fausses &amp; pernicieuses idées sur la nature de leurs droits, a été proclamé ;<pb n="260r"/> il a dû entraîner après lui de funestes dissentions. La guerre civile a
                éclaté, ce n’est principalement dans les provinces voisines des frontières de la
                   <country>France</country> qu’elle a porté ses ravages. Le <choice>
-                  <abbr>Gouvernem<hi rendition="#su">t</hi></abbr>
+                  <abbr>Gouvernem<hi rendition="#su">t</hi>
+                        </abbr>
                   <expan>Gouvernement</expan>
                </choice> du <rs ref="#p.15">Roi</rs> devait veiller à ce que ces luttes sanglantes
                ne vinssent pas troubler le repos &amp; compromettre la sureté des provinces
@@ -161,10 +194,12 @@
                danger nouveau.</p>
             <p>Les motifs même énoncés dans l’ordonnance qui l’a proclamée, les explications qui ont
                été <choice>
-                  <abbr>franchem<hi rendition="#su">t</hi></abbr>
+                  <abbr>franchem<hi rendition="#su">t</hi>
+                        </abbr>
                   <expan>franchement</expan>
                </choice> données au <choice>
-                  <abbr>Gouverne<hi rendition="#su">t</hi></abbr>
+                  <abbr>Gouverne<hi rendition="#su">t</hi>
+                        </abbr>
                   <expan>Gouvernement</expan>
                </choice> Espagnol, ont dû lui prouver qu’il n’avoit à prendre aucun ombrage de cette
                mesure de prudence consacrée par les<pb n="260v"/> exemples de tous les tems, ce qui
@@ -176,13 +211,15 @@
                &amp; d’affection, ils ont été moins appréciés.</p>
             <p>Les hommes qui, au milieu des troubles de leur patrie, font dégénérer en principes
                révolutionnaires les idées d’une sage liberté ont gratuitement supposé au <choice>
-                  <abbr>gouvernem<hi rendition="#su">t</hi></abbr>
+                  <abbr>gouvernem<hi rendition="#su">t</hi>
+                        </abbr>
                   <expan>gouvernement</expan>
                </choice> du <rs ref="#p.15">Roi</rs> l’intention d’empêcher le développement de ces
                idées en <country>Espagne</country>. Ils ont trouvé en <country>France</country> des
                esprits exaltés qui ont accueilli leurs préventions et qui, peut-être, ont fondé<pb n="261r"/> sur l’union des malveillans des deux païs de coupables espérances.</p>
             <p>L’effet <choice>
-                  <abbr>malheureusem<hi rendition="#su">t</hi></abbr>
+                  <abbr>malheureusem<hi rendition="#su">t</hi>
+                        </abbr>
                   <expan>malheureusement</expan>
                </choice> trop certain de pareilles menées est d’influer sur l’opinion publique.</p>
             <p>Dans les deux païs elle s’est égarée sur de tristes conjectures parmi lesquelles
@@ -191,7 +228,8 @@
                Ministère, celui des gazettes qu’il protège, n’ont donné à ces conjectures que trop
                de vraisemblance.</p>
             <p>Un tel état de choses est trop pénible au <choice>
-                  <abbr>Gouvernem<hi rendition="#su">t</hi></abbr>
+                  <abbr>Gouvernem<hi rendition="#su">t</hi>
+                        </abbr>
                   <expan>Gouvernement</expan>
                </choice> du <rs ref="#p.15">Roi</rs> pour ne pas exciter toute sa sollicitude. Les
                conséquences qu’il entraîne peuvent devenir assez dangereuses pour lui donner des
@@ -201,26 +239,32 @@
                   l’<country>Espagne</country> et de ceux qui semblent la menacer.</p>
             <p>Le fléau d’une guerre civile, la pénurie de ses finances, la séparation imminente de
                ses plus belles colonies avec lesquelles la <country>France</country> désireroit si <choice>
-                  <abbr>vivem<hi rendition="#su">t</hi></abbr>
+                  <abbr>vivem<hi rendition="#su">t</hi>
+                        </abbr>
                   <expan>vivement</expan>
                </choice> lui voir rétablir d’heureux rapports, tels sont les élémens principaux
                d’une situation assez périlleuse pour déterminer le <choice>
-                  <abbr>Gouvernem<hi rendition="#su">t</hi></abbr>
+                  <abbr>Gouvernem<hi rendition="#su">t</hi>
+                        </abbr>
                   <expan>Gouvernement</expan>
                </choice> espagnol à chercher <choice>
-                  <abbr>franchem<hi rendition="#su">t</hi></abbr>
+                  <abbr>franchem<hi rendition="#su">t</hi>
+                        </abbr>
                   <expan>franchement</expan>
                </choice> les moyens de ne pas la compliquer davantage.</p>
             <p>Il semble que l’un de ses soins à cet égard doit être de se rapprocher de la
                   <country>France</country> et, on peut le dire, de se rapprocher de l’Europe. Le <choice>
-                  <abbr>Gouv<hi rendition="#su">t</hi></abbr>
+                  <abbr>Gouv<hi rendition="#su">t</hi>
+                        </abbr>
                   <expan>Gouvernement</expan>
                </choice> espagnol sait que les grandes puissances de l’Europe se croient <choice>
-                  <abbr>solidairem<hi rendition="#su">t</hi></abbr>
+                  <abbr>solidairem<hi rendition="#su">t</hi>
+                        </abbr>
                   <expan>solidairement</expan>
                </choice> intéressées à maintenir une tranquillité qu’Elles ont<pb n="262r"/>
                reconquise au prix de tant de sang ; qu’Elles se sont <choice>
-                  <abbr>solemnellem<hi rendition="#su">t</hi></abbr>
+                  <abbr>solemnellem<hi rendition="#su">t</hi>
+                        </abbr>
                   <expan>solemnellement</expan>
                </choice> unies pour atteindre ce but ; et que, tenant à l’Alliance par des principes
                et des vues uniformes, chacune des Cours est forte de l’assentiment de toutes.</p>
@@ -229,27 +273,33 @@
                Ses intentions généreuses. <ref target="Verona_I_2.xml">Il a fait parler par Ses
                   Plénipotentiaires un langage qui ne pouvoit laisser aucun doute à Ses Alliés sur
                   Ses dispositions bienveillantes &amp; pacifiques envers
-                     l’<country>Espagne</country></ref>. Il a cherché avec eux par un franc &amp;
+                     l’<country>Espagne</country>
+                    </ref>. Il a cherché avec eux par un franc &amp;
                loyal examen de nouveaux moyens pour conserver la paix, et dans le cas (qu’Il était
                condamné à prévoir) où de funestes conseils, prévalant en <country>Espagne</country>,
                feraient attaquer ou menacer la <country>France</country>, il a désiré connoître ce
                qu’il devoit attendre<pb n="262v"/> de la solidarité de la <rs ref="#t.42">Grande
-                  Alliance</rs> si <rs ref="#p.15"><choice>
+                  Alliance</rs> si <rs ref="#p.15">
+                        <choice>
                      <abbr>S. M.</abbr>
                      <expan>Sa Majesté</expan>
-                  </choice></rs> avoit à repousser les dangers d’une injuste aggression. La
+                  </choice>
+                    </rs> avoit à repousser les dangers d’une injuste aggression. La
                confiance du <rs ref="#p.15">Roi</rs> n’a pas été trompée : l’appui le plus noble et
                le plus généreux lui a été assuré si les circonstances l’obligeoient à le
                réclamer.</p>
-            <p>Mais ces assurances données contre les chances d’un avenir que <rs ref="#p.15"><choice>
+            <p>Mais ces assurances données contre les chances d’un avenir que <rs ref="#p.15">
+                        <choice>
                      <abbr>S. M.</abbr>
                      <expan>Sa Majesté</expan>
-                  </choice></rs> se plait à considérer comme possible encore à éviter n’ont rien
+                  </choice>
+                    </rs> se plait à considérer comme possible encore à éviter n’ont rien
                changé au système de modération dont Elle fera toujours la règle de sa conduite, ni
                aux sentimens qu’Elle professe envers le <rs ref="#p.30">Roi</rs> &amp; la Nation
                Espagnole. C’est comme parent et comme ami que le <rs ref="#p.15">Roi</rs> cherche
                encore aujourd’hui tous les moyens de ramener au sein de la <choice>
-                  <abbr>g<hi rendition="#su">de</hi></abbr>
+                  <abbr>g<hi rendition="#su">de</hi>
+                        </abbr>
                   <expan>grande</expan>
                </choice> famille européenne un Pays que sa position, d’anciens exemples et le
                caractère énergique de ses habitans appellent aux plus hautes destinées.</p>
@@ -257,30 +307,40 @@
             <p>C’est pour atteindre un but aussi désirable que les puissances alliées sont convenues
                d’adresser par leurs agens en <country>Espagne</country> les remontrances les plus
                fortes sur les fâcheux résultats que peut avoir l’état où se trouve Son <choice>
-                  <abbr>Gouvernem<hi rendition="#su">t</hi></abbr>
+                  <abbr>Gouvernem<hi rendition="#su">t</hi>
+                        </abbr>
                   <expan>Gouvernement</expan>
                </choice>. C’est aussi dans cette intention que le <rs ref="#p.15">Roi</rs> a ordonné
-               que cette Dépêche Vous fût adressée. <rs ref="#p.15"><choice>
+               que cette Dépêche Vous fût adressée. <rs ref="#p.15">
+                        <choice>
                      <abbr>S. M.</abbr>
                      <expan>Sa Majesté</expan>
-                  </choice></rs> désire, <rs ref="#p.123"><choice>
-                     <abbr>M<hi rendition="#su">r</hi></abbr>
+                  </choice>
+                    </rs> désire, <rs ref="#p.123">
+                        <choice>
+                     <abbr>M<hi rendition="#su">r</hi>
+                            </abbr>
                      <expan>Monsieur</expan>
                   </choice> le <choice>
-                     <abbr>C<hi rendition="#su">te</hi></abbr>
+                     <abbr>C<hi rendition="#su">te</hi>
+                            </abbr>
                      <expan>Comte</expan>
-                  </choice></rs>, que Vous en donnies communication au <choice>
+                  </choice>
+                    </rs>, que Vous en donnies communication au <choice>
                   <abbr>Gouv.</abbr>
                   <expan>Gouvernement</expan>
                </choice> Espagnol ; Vous en pourrez <choice>
-                  <abbr>égalem<hi rendition="#su">t</hi></abbr>
+                  <abbr>égalem<hi rendition="#su">t</hi>
+                        </abbr>
                   <expan>également</expan>
                </choice> faire usage près de toutes les personnes en qui Vous reconnoîtres quelque
                influence, ne négligeant aucun moyen pour bien faire connoître que le désir le plus
-               ardent de <rs ref="#p.15"><choice>
+               ardent de <rs ref="#p.15">
+                        <choice>
                      <abbr>S. M.</abbr>
                      <expan>Sa Majesté</expan>
-                  </choice></rs> est celui qu’Elle partage avec tous les Souverains Ses Alliés est
+                  </choice>
+                    </rs> est celui qu’Elle partage avec tous les Souverains Ses Alliés est
                de voir la généreuse Nation espagnole trouver, dans son propre sein, un remède aux
                maux qui la déchirent.</p>
             <p>Cherchez à les éclairer<pb n="263v"/> sur ce que réclament leurs plus pressans

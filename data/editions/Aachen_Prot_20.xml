@@ -1,5 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -9,10 +11,13 @@
                <persName>
                   <surname>Schneider</surname>
                   <forename>Karin</forename>
-               </persName></editor>
+               </persName>
+                </editor>
          </titleStmt>
          <editionStmt>
-            <edition><date>2015-05-08</date></edition>
+            <edition>
+                    <date>2015-05-08</date>
+                </edition>
          </editionStmt>
          <publicationStmt>
             <publisher>Österreichische Akademie der Wissenschaften, Institut für Neuzeit- und
@@ -40,7 +45,8 @@
                <physDesc>
 
                   <p>Eigenhändiges Protokoll von <persName ref="#p.5">
-                        <surname>Gentz</surname></persName>.</p>
+                        <surname>Gentz</surname>
+                            </persName>.</p>
                   <handDesc>
                      <handNote xml:id="G">Friedrich Gentz</handNote>
                      <handNote xml:id="W">Nikolaus Wacken</handNote>
@@ -48,8 +54,10 @@
                   </handDesc>
                </physDesc>
                <history>
-                  <origin><placeName ref="#loc.1">Aachen</placeName>
-                     <date when="1818-10-29">29. Oktober 1818</date></origin>
+                  <origin>
+                            <placeName ref="#loc.1">Aachen</placeName>
+                     <date when="1818-10-29">29. Oktober 1818</date>
+                        </origin>
                </history>
             </msDesc>
             <msDesc xml:id="m.2" type="Abschrift">
@@ -77,7 +85,8 @@
                </physDesc>
                <history>
                   <origin>
-                     <date when="1817-04-01">1. April 1817</date></origin>
+                     <date when="1817-04-01">1. April 1817</date>
+                        </origin>
                </history>
             </msDesc>
             <msDesc xml:id="m.3" type="Abschrift">
@@ -114,7 +123,7 @@
          </appInfo>
          <styleDefDecl scheme="css"/>
          <tagsDecl>
-            <rendition xml:id="su" scheme="css">vertical-align:sub; font-size:.7em;</rendition>
+            <rendition xml:id="su" scheme="css">vertical-align:super; font-size:.7em;</rendition>
             <rendition xml:id="s" scheme="css">text-decoration:line-through;</rendition>
             <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
          </tagsDecl>
@@ -127,8 +136,11 @@
                badischen Hof vorgeschlagenen territorialen Maßnahmen und beschließen, im Streit
                zwischen <country>Dänemark</country> und <country>Schweden</country> um die Übernahme
                der norwegischen Schulden entsprechend dem <rs ref="#t.15">Vertrag von <placeName ref="#loc.27">Kiel</placeName> vom <date when="1814-01-14">14. Jänner
-                     1814</date></rs> vorerst freundschaftlich auf König <persName ref="#p.46"><forename>Karl XIV. Johann</forename>
-                  <roleName>von Schweden</roleName></persName> einzuwirken, um ihn zur Erfüllung
+                     1814</date>
+                    </rs> vorerst freundschaftlich auf König <persName ref="#p.46">
+                        <forename>Karl XIV. Johann</forename>
+                  <roleName>von Schweden</roleName>
+                    </persName> einzuwirken, um ihn zur Erfüllung
                seiner vertraglichen Pflichten zu bewegen.</p>
          </abstract>
          <particDesc>
@@ -168,16 +180,25 @@
       <body>
          <div hand="#G" decls="#m.1">
             <pb n="83r"/>
-            <p><add hand="#W" place="top">Protocole 20.</add></p>
-            <p><placeName ref="#loc.1">Aix-la-Chapelle</placeName> Le <date when="1818-10-29">29
+            <p>
+                    <add hand="#W" place="top">Protocole 20.</add>
+                </p>
+            <p>
+                    <placeName ref="#loc.1">Aix-la-Chapelle</placeName> Le <date when="1818-10-29">29
                   Octobre 1818</date>.</p>
-            <p><add hand="#W" place="margin">Entre les Cinq Cabinets</add></p>
-            <p><choice>
+            <p>
+                    <add hand="#W" place="margin">Entre les Cinq Cabinets</add>
+                </p>
+            <p>
+                    <choice>
                   <abbr>Mr.</abbr>
                   <expan>Monsieur</expan>
-               </choice> le <persName ref="#p.1"><roleName>Duc</roleName>
-                  <surname>de Richelieu</surname></persName> a présenté à la considération de la
-               Conférence <rs xml:id="n.1">la Note verbale ci-jointe</rs><note type="editorial" target="#n.1">Anlage liegt nicht ein.</note> relative au Duché de Bouillion,
+               </choice> le <persName ref="#p.1">
+                        <roleName>Duc</roleName>
+                  <surname>de Richelieu</surname>
+                    </persName> a présenté à la considération de la
+               Conférence <rs xml:id="n.1">la Note verbale ci-jointe</rs>
+                    <note type="editorial" target="#n.1">Anlage liegt nicht ein.</note> relative au Duché de Bouillion,
                d’après laquelle <choice>
                   <abbr>S. A. S.</abbr>
                   <expan>Son Altesse Sérénissime</expan>
@@ -185,14 +206,18 @@
                <choice>
                   <abbr>Mr</abbr>
                   <expan>Monsieur</expan>
-               </choice> le <persName ref="#p.47"><roleName>Duc</roleName>
-                  <surname>de Bourbon</surname></persName> et Ses Cointéressés réclament la
+               </choice> le <persName ref="#p.47">
+                        <roleName>Duc</roleName>
+                  <surname>de Bourbon</surname>
+                    </persName> et Ses Cointéressés réclament la
                propriété du dit Duché de préférence à <choice>
                   <abbr>Mr.</abbr>
                   <expan>Monsieur</expan>
-               </choice> le <persName ref="#p.48"><roleName>Prince</roleName>
+               </choice> le <persName ref="#p.48">
+                        <roleName>Prince</roleName>
                   <forename>Charles</forename>
-                  <surname>de Rohan</surname></persName>, possesseur actuel moyennant la décision
+                  <surname>de Rohan</surname>
+                    </persName>, possesseur actuel moyennant la décision
                arbitrale prononcée en vertu de <rs ref="#t.12">l’art. 69 de l’acte du Congrès de
                   Vienne.</rs>
                <choice>
@@ -200,17 +225,23 @@
                   <expan>Messieurs</expan>
                </choice> les Ministres se sont réservés de prendre une résolution sur l’objet de
                cette pièce après avoir obtenu quelques éclaircissemens ultérieurs.</p>
-            <p><choice>
+            <p>
+                    <choice>
                   <abbr>Mr.</abbr>
                   <expan>Monsieur</expan>
-               </choice> le <persName ref="#p.14"><roleName>Comte</roleName>
-                  <surname>Capodistrias</surname></persName> a fait lecture de <rs xml:id="n.2">la
+               </choice> le <persName ref="#p.14">
+                        <roleName>Comte</roleName>
+                  <surname>Capodistrias</surname>
+                    </persName> a fait lecture de <rs xml:id="n.2">la
                      <del rendition="#s">Note</del>
                   <add place="margin">lettre confidentielle</add> ci-jointe de <choice>
                      <abbr>Mr.</abbr>
                      <expan>Monsieur</expan>
                   </choice>
-                  <persName ref="#p.26"><surname>de Berstedt</surname></persName></rs>,<note type="editorial" target="#n.2">Anlage liegt nicht ein. Die hier einliegenden
+                  <persName ref="#p.26">
+                            <surname>de Berstedt</surname>
+                        </persName>
+                    </rs>,<note type="editorial" target="#n.2">Anlage liegt nicht ein. Die hier einliegenden
                   "Observations préliminaires" sind vom 1817 verstorbenen badischen Innenminister
                   Karl Wilhelm Marschall von Biberstein unterzeichnet.</note> Ministre de <choice>
                   <abbr>S. A. R.</abbr>
@@ -225,18 +256,25 @@
                   <abbr>Mr.</abbr>
                   <expan>Monsieur</expan>
                </choice>
-               <persName ref="#p.26"><surname>de Berstedt</surname></persName>
-               <rs xml:id="n.4">la réponse également ci-jointe</rs>.<note type="editorial" target="#n.4">Anlage liegt nicht ein.</note></p>
-            <p><choice>
+               <persName ref="#p.26">
+                        <surname>de Berstedt</surname>
+                    </persName>
+               <rs xml:id="n.4">la réponse également ci-jointe</rs>.<note type="editorial" target="#n.4">Anlage liegt nicht ein.</note>
+                </p>
+            <p>
+                    <choice>
                   <abbr>Mr.</abbr>
                   <expan>Monsieur</expan>
-               </choice> le <persName ref="#p.13"><roleName>Comte</roleName>
-                  <surname>Nesselrode</surname></persName> a fait <ref decls="#m.3">le rapport
+               </choice> le <persName ref="#p.13">
+                        <roleName>Comte</roleName>
+                  <surname>Nesselrode</surname>
+                    </persName> a fait <ref decls="#m.3">le rapport
                   ci-joint</ref> sur les
                contestations qui se sont élevées entre la <country>Suède</country> et le
                   <country>Danemarc</country> au sujet de la dette de Norvège ; dette que la Suède
                se refuse de prendre à sa charge en contravention directe<pb n="83v"/> des
-               stipulations du <rs ref="#t.15">Traité de <placeName ref="#loc.27">Kiel</placeName></rs>. <choice>
+               stipulations du <rs ref="#t.15">Traité de <placeName ref="#loc.27">Kiel</placeName>
+                    </rs>. <choice>
                   <abbr>Mrs.</abbr>
                   <expan>Messieurs</expan>
                </choice> les Ministres, en reconnoissant que les Quatre Cours, qui ont concouru aux
@@ -252,31 +290,55 @@
                marche.</p>
             <signed>
                <list>
-                  <item><persName ref="#p.8">Metternich</persName></item>
-                  <item><persName ref="#p.1"><choice>
+                  <item>
+                            <persName ref="#p.8">Metternich</persName>
+                        </item>
+                  <item>
+                            <persName ref="#p.1">
+                                <choice>
                            <abbr>R</abbr>
                            <expan>Richelieu</expan>
-                        </choice></persName></item>
-                  <item><persName ref="#p.9">Castlereagh</persName></item>
-                  <item><persName ref="#p.10">Wellington</persName></item>
-                  <item><persName ref="#p.11">Hardenberg</persName></item>
-                  <item><persName ref="#p.12">Bernstorff</persName></item>
-                  <item><persName ref="#p.13">Nesselrode</persName></item>
-                  <item><persName ref="#p.14">Capodistrias</persName></item>
-               </list></signed>
+                        </choice>
+                            </persName>
+                        </item>
+                  <item>
+                            <persName ref="#p.9">Castlereagh</persName>
+                        </item>
+                  <item>
+                            <persName ref="#p.10">Wellington</persName>
+                        </item>
+                  <item>
+                            <persName ref="#p.11">Hardenberg</persName>
+                        </item>
+                  <item>
+                            <persName ref="#p.12">Bernstorff</persName>
+                        </item>
+                  <item>
+                            <persName ref="#p.13">Nesselrode</persName>
+                        </item>
+                  <item>
+                            <persName ref="#p.14">Capodistrias</persName>
+                        </item>
+               </list>
+                </signed>
          </div>
 
          <div hand="#A" decls="#m.2">
             <pb n="88r"/>
-            <p><add place="top">Copie. annexe Lit. <unclear>Z</unclear> ad <choice>
+            <p>
+                    <add place="top">Copie. annexe Lit. <unclear>Z</unclear> ad <choice>
                      <abbr>prot.</abbr>
                      <expan>protocol</expan>
                   </choice>
                   <choice>
-                     <abbr>n<hi rendition="#su">o</hi></abbr>
+                     <abbr>n<hi rendition="#su">o</hi>
+                            </abbr>
                      <expan>numéro</expan>
-                  </choice> 20.</add></p>
-            <p><title>Observations préliminaires</title></p>
+                  </choice> 20.</add>
+                </p>
+            <p>
+                    <title>Observations préliminaires</title>
+                </p>
             <p>Le Cercle du Mein &amp; de la Tauber, dont la cession est demandée au <rs ref="#p.22">Grand-Duc</rs>, contient 96.000 âmes et rapporte annuellement 450.000 <choice>
                   <abbr>fl.</abbr>
                   <expan>florins</expan>
@@ -295,20 +357,24 @@
                la Route militaire que l’on demande, charge très onéreuse pour un Pays, seraient
                adoucis par des compensations suffisantes.</p>
             <p>Examinons la valeur des Objets offerts en compensation :</p>
-            <p>1<hi rendition="#su">o</hi> La <rs xml:id="n.5">Principauté de Geroldsek</rs><note type="editorial" target="#n.5">Vgl. Köbler, Historisches Lexikon, S. 216.</note>
+            <p>1<hi rendition="#su">o</hi> La <rs xml:id="n.5">Principauté de Geroldsek</rs>
+                    <note type="editorial" target="#n.5">Vgl. Köbler, Historisches Lexikon, S. 216.</note>
                consiste en une pauvre Vallée, contenant à peine 3.000 à 4.000 âmes ; son Souverain
                n’en tirera pas un Sol de Revenus domaniaux ;</p>
             <pb n="89r"/>
             <p>2<hi rendition="#su">o</hi> Quant aux Objets offerts comme dévolus aux quatre
                Puissances par les <rs ref="#t.13">Traités conclus avec la <country>France</country>
-                  le <date when="1814-05-30">30 Mai 1814</date></rs> et <rs ref="#t.1">
-                  <date when="1815-11-20">20 Novembre 1815</date></rs> :</p>
+                  le <date when="1814-05-30">30 Mai 1814</date>
+                    </rs> et <rs ref="#t.1">
+                  <date when="1815-11-20">20 Novembre 1815</date>
+                    </rs> :</p>
             <p>a) Le Fort de <placeName ref="#loc.28">Kehl</placeName> et son territoire ont
                anciennement appartenus à la Maison de Bade. Ils ont été reconquis sur la
                   <country>France</country> – ils doivent donc revenir à leur ancien Maître d’après
                les Principes établis par les hautes puissances alliées ; d’ailleurs c’est un monceau
                de sable et de ruines inhabité et d’aucune valeur. La moitié du pont de <placeName ref="#loc.28">Kehl</placeName> appartient au <country>Grand-Duché de
-                  Bade</country>, d’abord comme Etat riverain et puis par la disposition du <rs ref="#t.1">traité de <placeName ref="#loc.2">Paris</placeName> du <date when="1815-11-20">20 Novembre 1815</date></rs>, Article 2 ;</p>
+                  Bade</country>, d’abord comme Etat riverain et puis par la disposition du <rs ref="#t.1">traité de <placeName ref="#loc.2">Paris</placeName> du <date when="1815-11-20">20 Novembre 1815</date>
+                    </rs>, Article 2 ;</p>
             <pb n="89v"/>
             <p>b) Les produits du droit de péage sur le Pont de <placeName ref="#loc.28">Kehl</placeName> sont attachés à la propriété du pont qu’il faut placer et
                entretenir ;</p>
@@ -316,17 +382,21 @@
                jusqu’à la frontière de <country>Hesse</country> sur la rive droite de ce fleuve
                appartient au <country>Grand-Duché de Bade</country> comme Etat riverain en vertu de
                l’article 5 du <rs ref="#t.13">Traité de <placeName ref="#loc.2">Paris</placeName> du
-                     <date when="1814-05-30">30 Mai 1814</date></rs>, confirmé par l’article 11 du
+                     <date when="1814-05-30">30 Mai 1814</date>
+                    </rs>, confirmé par l’article 11 du
                   <rs ref="#t.1">traité de <placeName ref="#loc.2">Paris</placeName> du <date when="1815-11-20">20 <choice>
                         <abbr>Nov.</abbr>
                         <expan>Novembre</expan>
-                     </choice> 1815</date></rs>.</p>
+                     </choice> 1815</date>
+                    </rs>.</p>
             <p>Conformément à ces traités, le <rs ref="#p.49">Plénipotentiaire de Bade</rs> a
                assisté aux <rs xml:id="n.6">Conférences qui se sont tenues à <placeName ref="#loc.7">Vienne</placeName> sur la navigation du Rhin</rs>,<note type="editorial" target="#n.6">Wiener Kongress, Kommission für die freie Flussschifffahrt; vgl.
                   Mayr, Aufbau und Arbeitsweise, S. 106–108.</note> et il en assiste encore un à
-                  <rs xml:id="n.7">celles qui se tiennent dans ce moment à <placeName ref="#loc.30">Mayence</placeName></rs>.<note type="editorial" target="#n.7">Zentralkommission für die Rheinschifffahrt, eingerichtet durch das am Wiener
+                  <rs xml:id="n.7">celles qui se tiennent dans ce moment à <placeName ref="#loc.30">Mayence</placeName>
+                    </rs>.<note type="editorial" target="#n.7">Zentralkommission für die Rheinschifffahrt, eingerichtet durch das am Wiener
                   Kongress verhandelte <rs ref="#t.23">Reglement über die freie Schifffahrt vom 24.
-                     März 1815.</rs></note> Au reste,<pb n="90r"/> le <rs ref="#p.22">Grand-Duc</rs>
+                     März 1815.</rs>
+                    </note> Au reste,<pb n="90r"/> le <rs ref="#p.22">Grand-Duc</rs>
                serait bien reconnaissant à chaque Gouvernement qui, contre la perception de ces
                Droits, vaudrait aussi se charger des rentes et pensions dont il est affecté en vertu
                de l’article 15 de l’<rs ref="#t.18">Acte de la Confédération Germanique</rs>, et des
@@ -334,12 +404,14 @@
                y sont attachés.</p>
             <p>La <rs xml:id="n.8">Feuille officielle imprimée du Gouvernement de
                      <country>Bade</country> de l’année passée n<hi rendition="#su">o</hi>
-                  17</rs><note type="editorial" target="#n.8">Vgl. Großherzoglich Badisches
+                  17</rs>
+                    <note type="editorial" target="#n.8">Vgl. Großherzoglich Badisches
                   Regierungs-Blatt, Nr. XVII, S. 69–80.</note> prouve que ces fraix pour cette année
                seules ont été évalués à 234.700 <choice>
                   <abbr>fl.</abbr>
                   <expan>florins</expan>
-               </choice></p>
+               </choice>
+                </p>
             <p>3<hi rendition="#su">o</hi> Le <rs ref="#p.22">Grand-Duc</rs> ne peut accepter la
                Rente offerte de 100.000 <choice>
                   <abbr>fl.</abbr>
@@ -356,23 +428,27 @@
                par les données que j’ai eu l’honneur de Vous présenter qu’ils se réduissent presque
                à rien.</p>
             <p>La demande qu’on fait ainsi au <rs ref="#p.22">Grand-Duc</rs> de céder la<pb n="91r"/> dixième partie de Ses Etats, sans lui rien offrir qui puisse mériter le nom de
-               Dédommagement, est basée sur le <rs ref="#t.19">traité de <placeName ref="#loc.25">Francfort</placeName> du <date when="1813-11-20">20 Novembre 1813</date></rs>.
+               Dédommagement, est basée sur le <rs ref="#t.19">traité de <placeName ref="#loc.25">Francfort</placeName> du <date when="1813-11-20">20 Novembre 1813</date>
+                    </rs>.
                Le <rs ref="#p.22">Grand-Duc</rs> ne peut s’expliquer sous quel point de vue on peut
-               revenir sur ce traité qui a éprouvé des modifications essentielles par le <rs ref="#t.20">traité d’accession du <date when="1815-05-15">15 Mai 1815</date></rs>,
+               revenir sur ce traité qui a éprouvé des modifications essentielles par le <rs ref="#t.20">traité d’accession du <date when="1815-05-15">15 Mai 1815</date>
+                    </rs>,
                garantissant l’existence politique du Grand-Duché, et surtout par l’<rs ref="#t.18">acte de la Confédération Germanique</rs>, garantissant l’intégrité territoriale à
                chacun de Ses membres. Les Cours de <placeName ref="#loc.7">Vienne</placeName> et de
                   <placeName ref="#loc.9">Berlin</placeName> font partie de cette Confédération ;
                les Cours de <placeName ref="#loc.10">S<hi rendition="#su">t</hi>
                   Petersbourg</placeName> et de <placeName ref="#loc.8">Londres</placeName> ont
                donné à Son Acte fondamental par l’article 118 du <rs ref="#t.12">traité général de
-                     <placeName ref="#loc.7">Vienne</placeName></rs> la même force et valeur que
+                     <placeName ref="#loc.7">Vienne</placeName>
+                    </rs> la même force et valeur que
                s’il était compris mot<pb n="91v"/> à mot dans ce traité. Le <rs ref="#p.22">Grand-Duc</rs> est par conséquent fondé à espérer avec une entière confiance que
                les grands monarques de l’Europe, conformément aux Sentimens de justice et de loyauté
                qui les animent, daigneront se convaincre que le <rs ref="#t.19">traité antérieur de
                      <placeName ref="#loc.25">Francfort</placeName> du <date when="1813-11-20">20 <choice>
                         <abbr>Nov.</abbr>
                         <expan>Novembre</expan>
-                     </choice> 1813</date></rs> est annulé par des actes obligatoires
+                     </choice> 1813</date>
+                    </rs> est annulé par des actes obligatoires
                postérieurs.</p>
             <p>Mais posons qu’il soit encore en vigueur, il s’agit d’examiner s’il est applicable
                aux demandes que l’on fait au <rs ref="#p.22">Grand-Duc</rs>. Pour cet effet <rs ref="#p.55">je</rs> me permets d’analyser les articles secrets de ce traité.</p>
@@ -381,7 +457,8 @@
                   <hi rendition="#u">de la force</hi> et <hi rendition="#u">de l’indépendance</hi>
                de ce pays.</p>
             <pb n="92r"/>
-            <p><hi rendition="#u">La Force</hi> d’une Confédération n’augmente pas quand un de ses
+            <p>
+                    <hi rendition="#u">La Force</hi> d’une Confédération n’augmente pas quand un de ses
                membres cède une partie de son territoire à l’autre, elle diminue au contraire quand
                l’Etat cédant est le moins fort et qu’il occupe, comme le <country>Grand-Duché de
                   Bade</country>, une grande étendue de frontières contre un voisin puissant,
@@ -395,8 +472,10 @@
                possessions d’un autre qui a bien mérité de la Confédération. Il serait même possible
                qu’un tel<pb n="92v"/> événement sapât les fondemens de cet édifice qui commence à
                s’élever.</p>
-            <p><hi rendition="#u">La force morale</hi> est le second principe de tout Etat fédéré,
-                  <rs xml:id="n.10">pour</rs><note type="editorial" target="#n.10">Eine Änderung im
+            <p>
+                    <hi rendition="#u">La force morale</hi> est le second principe de tout Etat fédéré,
+                  <rs xml:id="n.10">pour</rs>
+                    <note type="editorial" target="#n.10">Eine Änderung im
                   Schriftbild weist auf eine Unterbrechung des Schreibflusses hin.</note> ne pas
                dire le principal : rien, par conséquent, ne peut être plus pernicieux que de placer
                dans le Cœur de l’une ou de l’autre des Parties confédérées le germe du ressentiment
@@ -408,10 +487,12 @@
                sans en avoir été dédommagé jusqu’à présent, ne sont que trop connues.</p>
             <p>À la dernière invasion de <persName ref="#p.50">Napoléon</persName>, les troupes
                badoises, fortes de<pb n="93r"/> 27.000 <choice>
-                  <abbr>h<hi rendition="#su">s</hi></abbr>
+                  <abbr>h<hi rendition="#su">s</hi>
+                        </abbr>
                   <expan>hommes</expan>
                </choice>, ont paru les premières sur le champ d’honneur. Elles ont couvert pendant
-               cinq semaines et jusqu’à l’arrivée des troupes alliées la frontière du <rs xml:id="n.11">Haut-Rhin</rs><note type="editorial" target="#n.11">Département
+               cinq semaines et jusqu’à l’arrivée des troupes alliées la frontière du <rs xml:id="n.11">Haut-Rhin</rs>
+                    <note type="editorial" target="#n.11">Département
                   Haut-Rhin in der Region Grand Est.</note> ; elles ont tenu en échec trente mille
                ennemis qui auraient pu renforcer l’armée de <placeName ref="#loc.31">Waterloo</placeName> ; elles se sont couvertes de gloire devant <placeName ref="#loc.32">Strasbourg</placeName>. Le <rs ref="#p.22">Grand-Duc</rs> ne pourra
                plus désormais rendre ces Services signalés à la Confédération et à toute l’Europe
@@ -421,7 +502,8 @@
                faible, elles se serviront du pouvoir que leur a donné la providence pour le
                protéger.</p>
             <p>Je reviens à l’analyse des<pb n="93v"/> Articles secrets du <rs ref="#t.19">traité du
-                     <date when="1813-11-20">20 Novembre 1813</date></rs>. Je me permets de demander
+                     <date when="1813-11-20">20 Novembre 1813</date>
+                    </rs>. Je me permets de demander
                s’il est nécessaire <hi rendition="#u">pour le maintien de l’indépendance de
                   l’Allemagne</hi> de renforcer un Etat ambitieux, prépondérant déjà au midi de ce
                pays et qui n’a que trop manifesté son désir de jouer de plus en plus le rôle d’une
@@ -437,23 +519,28 @@
                frontières de la <country>France</country> ; elle séparerait le midi et le nord de
                l’Allemagne. Il serait superflu de détailler les Suites qui pourraient résulter d’un
                pareil événement.</p>
-            <p><hi rendition="#u">L’article 2</hi> promet au <rs ref="#p.22">Grand-Duc</rs> en
+            <p>
+                    <hi rendition="#u">L’article 2</hi> promet au <rs ref="#p.22">Grand-Duc</rs> en
                retour de ces cessions, si elles devenaient nécessaires, une indemnité compatible
                avec la masse des Objets qui seront disponibles à l’époque de la pacification, et la
                plus rapprochée des dimensions actuelles des Etats de <rs ref="#p.22">Son Altesse
                   Royale</rs>.</p>
             <p>Cet article parait supposer que la masse des dédommagemens pourrait ne pas être
                suffisante pour les dédommagemens à faire à l’époque de la pacification. Dans ce cas,
-               une ancienne loi applicable à tous les tems et toutes les nations, <rs xml:id="n.12"><hi rendition="#u">Lex rhodia de jactu</hi></rs>,<note type="editorial" target="#n.12">Gesetzliche Regelung der Gefahrengemeinschaft beim Seetransport im
+               une ancienne loi applicable à tous les tems et toutes les nations, <rs xml:id="n.12">
+                        <hi rendition="#u">Lex rhodia de jactu</hi>
+                    </rs>,<note type="editorial" target="#n.12">Gesetzliche Regelung der Gefahrengemeinschaft beim Seetransport im
                   römischen Rechtskreis: Schäden durch das Über-Bord-Werfen von Waren in
                   Gefahrensituationen müssen von allen Beteiligten gemeinsam getragen werden.
-                  Benannt nach der Insel Rhodos; vgl. Wagner, Die Lex Rhodia de iactu.</note><pb n="94v"/> aurait prescrit de partager la masse des dédommagemens en proportion des
+                  Benannt nach der Insel Rhodos; vgl. Wagner, Die Lex Rhodia de iactu.</note>
+                    <pb n="94v"/> aurait prescrit de partager la masse des dédommagemens en proportion des
                pertes. Mais l’époque de la pacification est passé : la masse, à l’acquisition de
                laquelle le <rs ref="#p.22">Grand-Duc</rs> a contribué avec les autres, a été plus
                que suffisante, elle a été employée à agrandir les uns, à dédommager pleinement les
                autres, il n’y a plus d’objet de partage, et l’indemnité la plus rapprochée des
                dimensions actuelles des Etats du <rs ref="#p.22">Grand-Duc</rs>, promise par
-               l’article 2 du <rs ref="#t.19">traité de <placeName ref="#loc.25">Francfort</placeName></rs>, se réduit en ce moment à presque rien. Les
+               l’article 2 du <rs ref="#t.19">traité de <placeName ref="#loc.25">Francfort</placeName>
+                    </rs>, se réduit en ce moment à presque rien. Les
                stipulations de ce traité ne peuvent donc plus s’exécuter de part et d’autre.</p>
             <p>Le <rs ref="#p.22">Grand-Duc</rs> supporterait-il seul l’onéreux de <rs ref="#t.19">ce traité</rs> qui obligeait aussi bien la <country>Hesse</country>, le
                   <country>Nassau</country> et plusieurs autres ? Les Souverains de ces Etats ne
@@ -462,23 +549,29 @@
                Allemagne ? – Non, le <rs ref="#p.22">Grand-Duc</rs> peut en appeler avec une
                confiance entière à l’esprit de justice qui caractérise les grands monarques aux
                Représentans desquels <rs ref="#p.55">j’</rs>ai l’honneur de parler !</p>
-            <p>Quant à la réversibilité, le <rs ref="#t.19">traité de <placeName ref="#loc.25">Francfort</placeName></rs> qui, conformément à l’invitation des <rs xml:id="n.13">quatre hautes puissances</rs>,<note type="editorial" target="#n.13">Österreich, Großbritannien, Preußen, Russland.</note>
+            <p>Quant à la réversibilité, le <rs ref="#t.19">traité de <placeName ref="#loc.25">Francfort</placeName>
+                    </rs> qui, conformément à l’invitation des <rs xml:id="n.13">quatre hautes puissances</rs>,<note type="editorial" target="#n.13">Österreich, Großbritannien, Preußen, Russland.</note>
                <hi rendition="#u">doit être seul</hi> la base de la négociation présente, n’en
                contient rien. Vous me dites, Messieurs, qu’elle a été stipulée par deux Actes : un
-                  <rs ref="#t.21">protocole du <date when="1815-11-03">3 Novembre 1815</date></rs>
-               et un <rs ref="#t.11">traité du <date when="1815-06-10">10 Juin 1815</date></rs>.</p>
+                  <rs ref="#t.21">protocole du <date when="1815-11-03">3 Novembre 1815</date>
+                    </rs>
+               et un <rs ref="#t.11">traité du <date when="1815-06-10">10 Juin 1815</date>
+                    </rs>.</p>
             <p>Le <rs ref="#p.22">Grand-Duc</rs> a déjà fait protester solemnellement<pb n="95v"/>
                contre cette réversibilité qui frappe deux de ses provinces. <rs ref="#p.55">Je</rs>
                suis chargé de renouveler hautement cette protestation devant Vos Excellences, et de
                demander la révocation pure et simple de ces deux Actes autant qu’ils contiennent des
                Stipulations contraires aux Droits de <rs ref="#p.22">Son Altesse Royale</rs>. Ils
                ont été conclus en secret, à l’insu des parties intéressées ; <rs ref="#t.11">celui
-                  du <date when="1815-06-10">10 Juin</date></rs> au même moment où le <rs ref="#p.22">Grand-Duc</rs> avait 27.000 <choice>
-                  <abbr>h<hi rendition="#su">s</hi></abbr>
+                  du <date when="1815-06-10">10 Juin</date>
+                    </rs> au même moment où le <rs ref="#p.22">Grand-Duc</rs> avait 27.000 <choice>
+                  <abbr>h<hi rendition="#su">s</hi>
+                        </abbr>
                   <expan>hommes</expan>
                </choice> de troupes rassemblées contre les armées françaises du Haut-Rhin ; 25 jours
                après le <rs ref="#t.20">Traité d’accession du <date when="1815-05-15">15 Mai
-                     1815</date></rs> qui garantit à <rs ref="#p.22">Son Altesse Royale</rs>
+                     1815</date>
+                    </rs> qui garantit à <rs ref="#p.22">Son Altesse Royale</rs>
                l’existence politique du Grand-Duché, et qui lui promet d’avoir particulièrement
                égard à Ses intérêts !</p>
             <p>Après que le lien féodal qui pouvait autrefois unir l’Empire d’Allemagne a été coupé,
@@ -488,30 +581,45 @@
                   <country>Würtemberg</country>. Les Cours ne peuvent pas être en contradiction avec
                elles-mêmes, et ceux qui ont garanti ce nouvel état de l’Allemagne ne peuvent pas
                vouloir le détruire.</p>
-            <p>Pour ce qui regarde les <rs xml:id="n.14">Comtes de Hochberg</rs>,<note type="editorial" target="#n.14"><persName ref="#p.51"><roleName>Großherzog</roleName>
-                     <forename>Ludwig I.</forename></persName> hatte, als er am <date when="1818-12-08">8. Dezember 1818</date> Großherzog wurde, keine legitimen
+            <p>Pour ce qui regarde les <rs xml:id="n.14">Comtes de Hochberg</rs>,<note type="editorial" target="#n.14">
+                        <persName ref="#p.51">
+                            <roleName>Großherzog</roleName>
+                     <forename>Ludwig I.</forename>
+                        </persName> hatte, als er am <date when="1818-12-08">8. Dezember 1818</date> Großherzog wurde, keine legitimen
                   Nachkommen. Die Erbfolge wurde zugunsten einer ursprünglich nicht standesgemäßen
                   Nebenlinie, den Grafen von Hochberg (seit 1817 Markgrafen von Baden) geregelt.
                      <country>Bayern</country> weigerte sich, diese Erbregelung anzuerkennen; vgl.
                   Erbe, Erschütterung, S. 172–173; Ullmann, Baden 1800 bis 1830. In: Handbuch der
                   Baden-Württembergischen Geschichte, S. 37–38; Huber, Deutsche
                   Verfassungsgeschichte, Bd. 1, S. 324–328; Sahrmann, Pfalz oder Salzburg, S.
-                  84–96.</note> feu le <persName ref="#p.52"><roleName>Grand-Duc</roleName>
-                  <forename>Charles-Frédéric</forename></persName> a pris un arrangement du
+                  84–96.</note> feu le <persName ref="#p.52">
+                        <roleName>Grand-Duc</roleName>
+                  <forename>Charles-Frédéric</forename>
+                    </persName> a pris un arrangement du
                consentement unanime <rs xml:id="n.15">des Princes, <rs ref="#p.22 #p.53">ses
-                     fils</rs></rs>,<note type="editorial" target="#n.15">Ludwig I. wurde am 8.
+                     fils</rs>
+                    </rs>,<note type="editorial" target="#n.15">Ludwig I. wurde am 8.
                   Dezember 1818 Großherzog von Baden; Leopold I. war ab 1830 bis zu seinem Tod
                   Großherzog von Baden.</note> en vertu duquel la succession dans le Grand-Duché
                leur a été assurée pour eux et pour leur descendance mâle au défaut de succession
                mâle dans la Maison régnante. Le <rs ref="#p.22">Grand-Duc</rs> régnant a reconnu ce
                Droit, il a porté, il y a deux ans, cet arrangement<pb n="96v"/> à la connaissance de
-                  l’<persName ref="#p.17"><roleName>Empereur</roleName>
-                  <forename>Alexandre</forename></persName>, <rs xml:id="n.16">Son
-                  beau-frère</rs>,<note type="editorial" target="#n.16"><persName ref="#p.17"><surname>Alexander I</surname></persName>. war mit <persName ref="#p.54"><forename>Elisabeth Alexejevna</forename>, geb. <foreign>Louise</foreign>
-                     <roleName>von Baden</roleName></persName>, verheiratet, einer Schwester
-                     <persName ref="#p.22"><roleName>Großherzogs</roleName>
+                  l’<persName ref="#p.17">
+                        <roleName>Empereur</roleName>
+                  <forename>Alexandre</forename>
+                    </persName>, <rs xml:id="n.16">Son
+                  beau-frère</rs>,<note type="editorial" target="#n.16">
+                        <persName ref="#p.17">
+                            <surname>Alexander I</surname>
+                        </persName>. war mit <persName ref="#p.54">
+                            <forename>Elisabeth Alexejevna</forename>, geb. <foreign>Louise</foreign>
+                     <roleName>von Baden</roleName>
+                        </persName>, verheiratet, einer Schwester
+                     <persName ref="#p.22">
+                            <roleName>Großherzogs</roleName>
                      <forename>Karl</forename>
-                     <roleName>von Baden</roleName></persName>.</note> en priant <rs ref="#p.17">Sa <choice>
+                     <roleName>von Baden</roleName>
+                        </persName>.</note> en priant <rs ref="#p.17">Sa <choice>
                      <abbr>Maj.</abbr>
                      <expan>Majesté</expan>
                   </choice> Impériale</rs> de lui accorder Sa puissante protection. <rs ref="#p.17">L’Empereur</rs> a donné son assentiment à cette demande ; le <rs ref="#p.22">Grand-Duc</rs>, pour prendre toutes les précautions, <rs xml:id="n.17">désire que
@@ -533,19 +641,32 @@
             <p>Voilà, Messieurs, les observations préliminaires que <rs ref="#p.55">j’</rs>ai cru
                devoir Vous présenter, soit pour rectifier mes propres idées, soit pour faire
                connaître d’avance les difficultés que présente la négociation en question.</p>
-            <signed><persName ref="#p.55"><surname>Marschall</surname></persName></signed>
+            <signed>
+                    <persName ref="#p.55">
+                        <surname>Marschall</surname>
+                    </persName>
+                </signed>
          </div>
 
          <div hand="#A" decls="#m.3">
             <pb n="84r"/>
-            <p><add place="margin"><title>Note verbale du Cabinet de <country>Russie</country> sur
+            <p>
+                    <add place="margin">
+                        <title>Note verbale du Cabinet de <country>Russie</country> sur
                      les Contestations entre la <country>Suède</country> et le
-                        <country>Danemarc</country></title></add></p>
-            <p><add place="margin">Annexe D au Protocole <choice>
-                     <abbr>N<hi rendition="#su">o</hi></abbr>
+                        <country>Danemarc</country>
+                        </title>
+                    </add>
+                </p>
+            <p>
+                    <add place="margin">Annexe D au Protocole <choice>
+                     <abbr>N<hi rendition="#su">o</hi>
+                            </abbr>
                      <expan>Numéro</expan>
-                  </choice> 20.</add></p>
-            <p>Les <rs xml:id="n.18">Conférences de <placeName ref="#loc.8">Londres</placeName></rs>,<note type="editorial" target="#n.18">Gemeint ist die
+                  </choice> 20.</add>
+                </p>
+            <p>Les <rs xml:id="n.18">Conférences de <placeName ref="#loc.8">Londres</placeName>
+                    </rs>,<note type="editorial" target="#n.18">Gemeint ist die
                   Botschafterkonferenz in <placeName ref="#loc.8">London</placeName>, welche sich
                   zwischen 1816 und 1819 vorwiegend mit der Abschaffung des Sklavenhandels und der
                   Piraterie im Mittelmeer befasste. Protokolle vgl. BFSP Bd. 6 (1818/19), S. 21–53;
@@ -563,9 +684,12 @@
                question sont incontestables, et que tous les argumens dont la
                   <country>Suède</country> a jusqu’ici appuyé son refus de prendre à sa charge la
                dette de la Norvège sont dénués de fondement de tout principe de justice, et
-               contraires aux stipulations du <rs ref="#t.15">Traité de <placeName ref="#loc.27">Kiel</placeName></rs>, confirmé et sanctionné par<pb n="84v"/> la <rs xml:id="n.19">déclaration du <rs ref="#p.56">Plénipotentiaire de
-                        <country>Suède</country></rs> au Congrès de Vienne</rs>.<note type="editorial" target="#n.19">Erklärung vom <date when="1815-06-07">7. Juni
-                     1815</date>; vgl. Angeberg, Bd. 2, S. 1357–1358.</note></p>
+               contraires aux stipulations du <rs ref="#t.15">Traité de <placeName ref="#loc.27">Kiel</placeName>
+                    </rs>, confirmé et sanctionné par<pb n="84v"/> la <rs xml:id="n.19">déclaration du <rs ref="#p.56">Plénipotentiaire de
+                        <country>Suède</country>
+                        </rs> au Congrès de Vienne</rs>.<note type="editorial" target="#n.19">Erklärung vom <date when="1815-06-07">7. Juni
+                     1815</date>; vgl. Angeberg, Bd. 2, S. 1357–1358.</note>
+                </p>
             <p>Si les Souverains et Ministres réunis à <placeName ref="#loc.1">Aix-la-Chapelle</placeName> adoptent ces conclusions de la Conférence de
                   <placeName ref="#loc.8">Londres</placeName>, et qu’ils se décident à donner à leur
                intervention une direction collective, un caractère officiel, et une impulsion
@@ -580,19 +704,25 @@
             <p>La Conférence de <placeName ref="#loc.8">Londres</placeName> a proposé d’ouvrir
                l’intervention collective par la remise <rs xml:id="n.20">d’une<pb n="85r"/> Note
                   dont elle envoie le projet</rs>.<note type="editorial" target="#n.20">Liegt nicht
-                  ein.</note></p>
+                  ein.</note>
+                </p>
             <p>Il parait qu’avant d’entreprendre cette carrière officielle, il y aurait encore une
                démarche confidentielle à tenter qui, par son caractère, serait différente de celles
                qui ont été faites jusqu’ici.</p>
             <p>On assure généralement qu’une des considérations qui particulièrement portent le
-                  <persName ref="#p.46"><roleName>Roi</roleName>
-                  <forename>Charles Jean</forename></persName> à persévérer dans sa marche
+                  <persName ref="#p.46">
+                        <roleName>Roi</roleName>
+                  <forename>Charles Jean</forename>
+                    </persName> à persévérer dans sa marche
                dilatoire, c’est l’espoir de voir les Puissances, appelées par les Traités à prêter à
                la partie adverse l’appui qu’elle réclame, se désunir sur quelqu’autre question d’un
                intérêt général et Européen.</p>
             <p>Lui prouver combien il se fait illusion, ce serait déjà employer un argument puissant
-               à ses yeux. Des lettres confidentielles que lui adresseraient <rs ref="#p.16 #p.17 #p.18">les trois Souverains réunis à <placeName ref="#loc.1">Aix-la-Chapelle</placeName></rs> conjointement avec <persName ref="#p.9"><roleName>Lord</roleName>
-                  <surname>Castlereagh</surname></persName> rempliraient peut-être le but. Ces
+               à ses yeux. Des lettres confidentielles que lui adresseraient <rs ref="#p.16 #p.17 #p.18">les trois Souverains réunis à <placeName ref="#loc.1">Aix-la-Chapelle</placeName>
+                    </rs> conjointement avec <persName ref="#p.9">
+                        <roleName>Lord</roleName>
+                  <surname>Castlereagh</surname>
+                    </persName> rempliraient peut-être le but. Ces
                lettres seraient destinées à exhorter <rs ref="#p.46">Sa Majesté</rs> par les
                représentations les plus amicales<pb n="85v"/> à abandonner enfin un système de
                tergiversation peu conforme aux principes de loyauté et de justice, sur lesquels doit
@@ -600,7 +730,8 @@
                faire connaître avec la plus grande franchise toutes les mesures auxquelles Elle
                s’expose en persévérant dans la marche qu’Elle a suivie jusqu’à présent. Pour ne Lui
                laisser aucun doute à cet égard, nos <rs ref="#p.57 #p.58 #p.59 #p.60">Ministres à
-                     <placeName ref="#loc.12">Stockholm</placeName></rs> pourraient être autorisés à
+                     <placeName ref="#loc.12">Stockholm</placeName>
+                    </rs> pourraient être autorisés à
                lui donner lecture d’une note collective qu’en cas de non-réussite de cette dernière
                explication confidentielle ils seraient chargés de remettre immédiatement au Cabinet
                Suédois.</p>
@@ -622,17 +753,23 @@
                   <country>Suède</country>. On y statuerait enfin les mesures à prendre d’un commun
                accord si le Cabinet Suédois persistait à se refuser à toute voie de
                conciliation.</p>
-            <p><choice>
-                  <abbr>M<hi rendition="#su">r</hi></abbr>
+            <p>
+                    <choice>
+                  <abbr>M<hi rendition="#su">r</hi>
+                        </abbr>
                   <expan>Monsieur</expan>
-               </choice> le <persName ref="#p.12"><roleName>Comte</roleName>
-                  <surname>de Bernstorff</surname></persName>, <rs xml:id="n.21">dans ses
-                  observations sur le rapport présenté par la Conférence de <placeName ref="#loc.8">Londres</placeName></rs>,<note type="editorial" target="#n.21"> Dokument liegt
+               </choice> le <persName ref="#p.12">
+                        <roleName>Comte</roleName>
+                  <surname>de Bernstorff</surname>
+                    </persName>, <rs xml:id="n.21">dans ses
+                  observations sur le rapport présenté par la Conférence de <placeName ref="#loc.8">Londres</placeName>
+                    </rs>,<note type="editorial" target="#n.21"> Dokument liegt
                   nicht ein.</note> a mis en avant une idée dont l’adoption contribuerait assurément
                à faciliter l’arrangement de cette affaire délicate, et fournirait en même temps à la
                   <country>Suède</country> une preuve non-équivoque des sentimens dont les
                Puissances sont animées à son égard. <choice>
-                  <abbr>M<hi rendition="#su">r</hi></abbr>
+                  <abbr>M<hi rendition="#su">r</hi>
+                        </abbr>
                   <expan>Monsieur</expan>
                </choice>
                <persName ref="#p.12">de Bernstorff</persName> suppose que la
@@ -640,7 +777,8 @@
                   <country>Danemarc</country>, vu son manque de crédit et de ressources pécuniaires,
                et il attribue en grande partie à cette cause la conduite qu’elle a tenue. <rs ref="#p.12">Il</rs> en conclut que le principal obstacle serait donc écarté du
                moment où les Puissances procureraient au <choice>
-                  <abbr>Gouv<hi rendition="#su">t</hi></abbr>
+                  <abbr>Gouv<hi rendition="#su">t</hi>
+                        </abbr>
                   <expan>Gouvernement</expan>
                </choice> Suédois la facilité de négocier<pb n="87r"/> un emprunt proportionné à la
                somme qu’il aurait à acquitter au <country>Danemarc</country>. Ce moyen serait sans

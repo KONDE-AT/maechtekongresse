@@ -1,5 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -10,10 +12,13 @@
                <persName>
                   <surname>Schneider</surname>
                   <forename>Karin</forename>
-               </persName></editor>
+               </persName>
+                </editor>
          </titleStmt>
          <editionStmt>
-            <edition><date>2017-03-13</date></edition>
+            <edition>
+                    <date>2017-03-13</date>
+                </edition>
          </editionStmt>
          <publicationStmt>
             <publisher>Österreichische Akademie der Wissenschaften, Institut für Neuzeit- und
@@ -40,7 +45,9 @@
                </msContents>
                <physDesc>
                   <p>Lithographie</p>
-                  <p>Procès-verbal liegt zweifach ein: handschriftlich von <persName ref="#p.5"><surname>Gentz</surname></persName> fol. II/53 und II/68, lithographiert
+                  <p>Procès-verbal liegt zweifach ein: handschriftlich von <persName ref="#p.5">
+                                <surname>Gentz</surname>
+                            </persName> fol. II/53 und II/68, lithographiert
                      fol. II/54; die Edition folgt der lithographierten Variante. Zählung mit rotem
                      Buntstift in der rechten oberen Ecke von fol. 53r: "5". Die Zählung ist
                      unrichtig, da das Geheimprotokoll vom <date when="1822-12-13">13. Dezember
@@ -59,8 +66,11 @@
 
                </physDesc>
                <history>
-                  <origin><placeName ref="#loc.68">Verona</placeName><date when="1822-12-11">11.
-                        Dezember 1822</date></origin>
+                  <origin>
+                            <placeName ref="#loc.68">Verona</placeName>
+                            <date when="1822-12-11">11.
+                        Dezember 1822</date>
+                        </origin>
                </history>
             </msDesc>
             <msDesc xml:id="m.2" type="Lithographie">
@@ -88,8 +98,10 @@
             </msDesc>
             <listWit corresp="#m.2">
                <head>Anlage: Erklärung Österreichs, Preußens und Russlands</head>
-               <witness corresp="#w.30"><bibl type="print">Bianchi, Storia documentata, Bd. 2, S.
-                     355–357.</bibl></witness>
+               <witness corresp="#w.30">
+                        <bibl type="print">Bianchi, Storia documentata, Bd. 2, S.
+                     355–357.</bibl>
+                    </witness>
             </listWit>
          </sourceDesc>
 
@@ -102,7 +114,7 @@
          </appInfo>
          <styleDefDecl scheme="css"/>
          <tagsDecl>
-            <rendition xml:id="su" scheme="css">vertical-align:sub; font-size:.7em;</rendition>
+            <rendition xml:id="su" scheme="css">vertical-align:super; font-size:.7em;</rendition>
             <rendition xml:id="s" scheme="css">text-decoration:line-through;</rendition>
             <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
             <rendition xml:id="ow">overwritten</rendition>
@@ -190,25 +202,44 @@
          <div decls="#m.1">
             <pb n="54r"/>
 
-            <p><add hand="#AmB" place="top"><date when="1822-12-11">11/12</date></add></p>
-            <p><add hand="#AmB" place="top" rendition="#u"><choice>
-                     <abbr>N<hi rend="#su">o</hi></abbr>
+            <p>
+                    <add hand="#AmB" place="top">
+                        <date when="1822-12-11">11/12</date>
+                    </add>
+                </p>
+            <p>
+                    <add hand="#AmB" place="top" rendition="#u">
+                        <choice>
+                     <abbr>N<hi rend="#su">o</hi>
+                            </abbr>
                      <expan>Numéro</expan>
-                  </choice> 1</add></p>
-            <p><title>Procès-Verbal</title></p>
-            <p><title>de la Conférence du <date when="1822-12-11">11 Décembre
-               1822</date>,</title></p>
-            <p><title>relativement aux affaires d’Italie</title></p>
-            <p><choice>
-                  <abbr>M<hi rendition="#su">ss</hi></abbr>
+                  </choice> 1</add>
+                </p>
+            <p>
+                    <title>Procès-Verbal</title>
+                </p>
+            <p>
+                    <title>de la Conférence du <date when="1822-12-11">11 Décembre
+               1822</date>,</title>
+                </p>
+            <p>
+                    <title>relativement aux affaires d’Italie</title>
+                </p>
+            <p>
+                    <choice>
+                  <abbr>M<hi rendition="#su">ss</hi>
+                        </abbr>
                   <expan>Messieurs</expan>
                </choice> les <rs ref="#p.8 #p.40 #p.137 #p.102 #p.180 #p.135 #p.175 #p.13 #p.35 #p.75">Plénipotentiaires d’Autriche, de France, de la Grande-Bretagne, de Prusse et de
                   Russie</rs> se sont réunis ce jour avec <choice>
-                  <abbr>M<hi rendition="#su">rs</hi></abbr>
+                  <abbr>M<hi rendition="#su">rs</hi>
+                        </abbr>
                   <expan>Messieurs</expan>
                </choice> les <rs ref="#p.182 #p.168 #p.185 #p.183 #p.186 #p.165 #p.184 #p.140 #p.164">Ministres des
                   Cours d’Italie</rs> pour porter à leur connaissance les résultats des
-               délibérations qui ont eu lieu sur les questions relatives aux <rs xml:id="n.1">mesures adoptées à l’époque du Congrès de <placeName ref="#loc.65">Laybach</placeName></rs><note type="editorial" target="#n.1">Vgl. Edition
+               délibérations qui ont eu lieu sur les questions relatives aux <rs xml:id="n.1">mesures adoptées à l’époque du Congrès de <placeName ref="#loc.65">Laybach</placeName>
+                    </rs>
+                    <note type="editorial" target="#n.1">Vgl. Edition
                   Laibach sowie zuletzt Jarrett, Congress of Vienna, S. 270–284.</note> pour
                l’occupation militaire d’une partie des Etats de <choice>
                   <abbr>S. M.</abbr>
@@ -223,7 +254,8 @@
                   <abbr>S. M.</abbr>
                   <expan>Sa Majesté</expan>
                </choice> le <rs ref="#p.172">Roi de Sardaigne</rs> et du consentement des Cours
-               signataires de la <rs ref="#t.46">Convention de <placeName ref="#loc.73">Novare</placeName></rs> du <date when="1821-07-24">24 Juillet 1821</date>,
+               signataires de la <rs ref="#t.46">Convention de <placeName ref="#loc.73">Novare</placeName>
+                    </rs> du <date when="1821-07-24">24 Juillet 1821</date>,
                cessera dans les termes spécifiés dans ledit Procès-Verbal.</p>
             <p>On a procédé ensuite à la Lecture du <ref target="Verona_II_3.xml">Procès-Verbal
                   ci-annexé</ref> (sub B) de la Conférence du <date when="1822-12-08">8
@@ -233,117 +265,202 @@
                   <abbr>S. M.</abbr>
                   <expan>Sa Majesté</expan>
                </choice> le <rs ref="#p.138">Roi des Deux-Siciles</rs> et du consentement des Cours
-               signataires de la <rs ref="#t.48">Convention de <placeName ref="#loc.11">Naples</placeName></rs> du <date when="1821-10-18">18 Octobre 1821</date>, il
+               signataires de la <rs ref="#t.48">Convention de <placeName ref="#loc.11">Naples</placeName>
+                    </rs> du <date when="1821-10-18">18 Octobre 1821</date>, il
                sera opéré dans le<pb n="54v"/> plus court délai possible une diminution jusqu’au
                nombre spécifié dans ledit Procès-verbal.</p>
             <p>Après ces communications, <choice>
-                  <abbr>M<hi rendition="#su">r</hi></abbr>
+                  <abbr>M<hi rendition="#su">r</hi>
+                        </abbr>
                   <expan>Monsieur</expan>
-               </choice> le <persName ref="#p.8"><roleName>Prince</roleName>
-                  <surname>de Metternich</surname></persName> a lu la <ref decls="#m.2">Déclaration
+               </choice> le <persName ref="#p.8">
+                        <roleName>Prince</roleName>
+                  <surname>de Metternich</surname>
+                    </persName> a lu la <ref decls="#m.2">Déclaration
                   ci-annexée (sub C)</ref>,
                adressée par les Cours d’Autriche, de Prusse et de Russie aux Cours d’Italie. <choice>
-                  <abbr>Ms<hi rendition="#su">s</hi></abbr>
+                  <abbr>Ms<hi rendition="#su">s</hi>
+                        </abbr>
                   <expan>Messieurs</expan>
                </choice> les <rs ref="#p.182 #p.168 #p.185 #p.183 #p.186 #p.165 #p.184 #p.140 #p.164">Plénipotentiaires de ces dernières Cours</rs> ont demandé communication de cette
                pièce, se réservant de porter les réponses qu’ils seraient autorisés à y faire au
                Procès-Verbal de la prochaine Conférence.</p>
             <table rend="rules">
                <row>
-                  <cell><unclear>I.</unclear>
-                     <persName ref="#p.164"><roleName><choice>
+                  <cell>
+                            <unclear>I.</unclear>
+                     <persName ref="#p.164">
+                                <roleName>
+                                    <choice>
                               <abbr>Card.</abbr>
                               <expan>Cardinal</expan>
-                           </choice></roleName>
-                        <surname>Spina</surname></persName></cell>
-                  <cell><persName ref="#p.185"><forename><choice>
+                           </choice>
+                                </roleName>
+                        <surname>Spina</surname>
+                            </persName>
+                        </cell>
+                  <cell>
+                            <persName ref="#p.185">
+                                <forename>
+                                    <choice>
                               <abbr>P.</abbr>
                               <expan>Paolo</expan>
-                           </choice></forename>
-                        <surname>Leardi</surname></persName>, Archevêque d’Ephèse, Nonce
+                           </choice>
+                                </forename>
+                        <surname>Leardi</surname>
+                            </persName>, Archevêque d’Ephèse, Nonce
                      Apostolique</cell>
                </row>
                <row>
-                  <cell><persName ref="#p.182"><surname>De La Tour</surname></persName></cell>
+                  <cell>
+                            <persName ref="#p.182">
+                                <surname>De La Tour</surname>
+                            </persName>
+                        </cell>
                   <cell/>
                </row>
                <row>
-                  <cell>Le <persName ref="#p.183"><roleName>Marquis</roleName>
-                        <surname>Mansi</surname></persName></cell>
-                  <cell><persName ref="#p.8"><surname>Metternich</surname></persName></cell>
+                  <cell>Le <persName ref="#p.183">
+                                <roleName>Marquis</roleName>
+                        <surname>Mansi</surname>
+                            </persName>
+                        </cell>
+                  <cell>
+                            <persName ref="#p.8">
+                                <surname>Metternich</surname>
+                            </persName>
+                        </cell>
                </row>
                <row>
-                  <cell>Le <persName ref="#p.165"><roleName>Marquis</roleName>
-                        <surname>Molza</surname></persName></cell>
+                  <cell>Le <persName ref="#p.165">
+                                <roleName>Marquis</roleName>
+                        <surname>Molza</surname>
+                            </persName>
+                        </cell>
                   <cell/>
                </row>
                <row>
-                  <cell><persName ref="#p.175"><surname>Hatzfeldt</surname></persName></cell>
+                  <cell>
+                            <persName ref="#p.175">
+                                <surname>Hatzfeldt</surname>
+                            </persName>
+                        </cell>
                   <cell/>
                </row>
                <row>
-                  <cell><persName ref="#p.135"><roleName>Comte</roleName>
-                        <surname>de La Ferronnay</surname></persName></cell>
+                  <cell>
+                            <persName ref="#p.135">
+                                <roleName>Comte</roleName>
+                        <surname>de La Ferronnay</surname>
+                            </persName>
+                        </cell>
                   <cell/>
                </row>
                <row>
-                  <cell>Le <persName ref="#p.102"><roleName><choice>
-                              <abbr>M<hi rendition="#su">is</hi></abbr>
+                  <cell>Le <persName ref="#p.102">
+                                <roleName>
+                                    <choice>
+                              <abbr>M<hi rendition="#su">is</hi>
+                                        </abbr>
                               <expan>Marquis</expan>
-                           </choice></roleName>
-                        <surname>de Caraman</surname></persName></cell>
+                           </choice>
+                                </roleName>
+                        <surname>de Caraman</surname>
+                            </persName>
+                        </cell>
                   <cell/>
                </row>
                <row>
-                  <cell>Le <persName ref="#p.168"><roleName>Prince</roleName>
-                        <forename>Neri</forename>-<surname>Corsini</surname></persName></cell>
+                  <cell>Le <persName ref="#p.168">
+                                <roleName>Prince</roleName>
+                        <forename>Neri</forename>-<surname>Corsini</surname>
+                            </persName>
+                        </cell>
                   <cell/>
                </row>
                <row>
-                  <cell>Le <persName ref="#p.180"><roleName><choice>
-                              <abbr>V<hi rendition="#su">te</hi></abbr>
+                  <cell>Le <persName ref="#p.180">
+                                <roleName>
+                                    <choice>
+                              <abbr>V<hi rendition="#su">te</hi>
+                                        </abbr>
                               <expan>Vicomte</expan>
-                           </choice></roleName>
-                        <surname>de Chateaubriant</surname></persName></cell>
+                           </choice>
+                                </roleName>
+                        <surname>de Chateaubriant</surname>
+                            </persName>
+                        </cell>
                   <cell/>
                </row>
                <row>
-                  <cell><persName ref="#p.186"><forename><choice>
+                  <cell>
+                            <persName ref="#p.186">
+                                <forename>
+                                    <choice>
                               <abbr>R.</abbr>
                               <expan>Raffaele</expan>
-                           </choice></forename>
-                        <surname>Mazio</surname></persName></cell>
+                           </choice>
+                                </forename>
+                        <surname>Mazio</surname>
+                            </persName>
+                        </cell>
                   <cell/>
                </row>
                <row>
-                  <cell>Le <persName ref="#p.184"><roleName>Comte</roleName>
-                        <surname>de Neipperg</surname></persName></cell>
+                  <cell>Le <persName ref="#p.184">
+                                <roleName>Comte</roleName>
+                        <surname>de Neipperg</surname>
+                            </persName>
+                        </cell>
                   <cell/>
                </row>
                <row>
-                  <cell>Le <persName ref="#p.40"><roleName>Baron</roleName>
-                        <surname>de Lebzeltern</surname></persName></cell>
+                  <cell>Le <persName ref="#p.40">
+                                <roleName>Baron</roleName>
+                        <surname>de Lebzeltern</surname>
+                            </persName>
+                        </cell>
                   <cell/>
                </row>
                <row>
-                  <cell><persName ref="#p.75"><surname>Lieven</surname></persName></cell>
+                  <cell>
+                            <persName ref="#p.75">
+                                <surname>Lieven</surname>
+                            </persName>
+                        </cell>
                   <cell/>
                </row>
                <row>
-                  <cell><persName ref="#p.35"><surname>Tatistscheff</surname></persName></cell>
+                  <cell>
+                            <persName ref="#p.35">
+                                <surname>Tatistscheff</surname>
+                            </persName>
+                        </cell>
                   <cell/>
                </row>
                <row>
-                  <cell><persName ref="#p.13"><surname>Nesselrode</surname></persName></cell>
+                  <cell>
+                            <persName ref="#p.13">
+                                <surname>Nesselrode</surname>
+                            </persName>
+                        </cell>
                   <cell/>
                </row>
                <row>
-                  <cell><persName ref="#p.140"><surname>Ruffo</surname></persName></cell>
+                  <cell>
+                            <persName ref="#p.140">
+                                <surname>Ruffo</surname>
+                            </persName>
+                        </cell>
                   <cell/>
                </row>
                <row>
-                  <cell cols="2"><persName ref="#p.137"><roleName>Vane
-                        Londonderry</roleName></persName></cell>
+                  <cell cols="2">
+                            <persName ref="#p.137">
+                                <roleName>Vane
+                        Londonderry</roleName>
+                            </persName>
+                        </cell>
                </row>
             </table>
          </div>
@@ -351,10 +468,15 @@
          <div>
             <pb n="60r"/>
 
-            <p><add place="top" hand="#A">C.</add></p>
+            <p>
+                    <add place="top" hand="#A">C.</add>
+                </p>
 
-            <p><title>Déclaration des Cours d’Autriche, de Prusse et de Russie à la Conférence du
-                     <date when="1822-12-11">11 Décembre 1822</date></title></p>
+            <p>
+                    <title>Déclaration des Cours d’Autriche, de Prusse et de Russie à la Conférence du
+                     <date when="1822-12-11">11 Décembre 1822</date>
+                    </title>
+                </p>
 
             <p>Les Cours Alliées réunies à <placeName ref="#loc.65">Laibach</placeName> adressèrent,
                avant de se séparer, à Leurs Missions accréditées près des Souverains de l’Italie une
@@ -433,11 +555,13 @@
             <p>Aucune circonstance ne saurait offrir une plus douce récompense aux <rs ref="#p.16 #p.18 #p.17">Monarques</rs> en retour de Leurs sentimens et de Leurs
                efforts que de voir apprécier la pureté de Leurs vues, <app>
                   <lem>et d’acquérir la conviction</lem>
-                  <rdg><subst>
+                  <rdg>
+                            <subst>
                         <del rendition="#s">et d’apprendre à l’époque, où les evacuations militaires
                            auront atteint leur complément</del>
                         <add place="margin">et d’acquérir la conviction</add>
-                     </subst></rdg>
+                     </subst>
+                        </rdg>
                </app> que les Gouvernemens de l’Italie, après avoir voué Leurs soins, les uns à
                réparer les calamités qui ont pesé sur Eux, les autres à se préserver de malheurs
                semblables, jouissent au sein de la paix des résultats de Leurs nobles travaux.</p>

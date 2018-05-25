@@ -1,5 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -10,10 +12,13 @@
                <persName>
                   <surname>Schneider</surname>
                   <forename>Karin</forename>
-               </persName></editor>
+               </persName>
+                </editor>
          </titleStmt>
          <editionStmt>
-            <edition><date>2017-03-13</date></edition>
+            <edition>
+                    <date>2017-03-13</date>
+                </edition>
          </editionStmt>
          <publicationStmt>
             <publisher>Österreichische Akademie der Wissenschaften, Institut für Neuzeit- und
@@ -35,7 +40,9 @@
                </msIdentifier>
                <msContents>
                   <msItem>
-                     <title>Note <persName ref="#p.8"><surname>Metternichs</surname></persName> an den Geschäftsträger in <placeName ref="#loc.24">Madrid</placeName>
+                     <title>Note <persName ref="#p.8">
+                                    <surname>Metternichs</surname>
+                                </persName> an den Geschäftsträger in <placeName ref="#loc.24">Madrid</placeName>
                      </title>
                   </msItem>
                </msContents>
@@ -55,23 +62,36 @@
 
                </physDesc>
                <history>
-                  <origin><placeName ref="#loc.68">Verona</placeName><date when="1822-12-14">14.
-                        Dezember 1822</date></origin>
+                  <origin>
+                            <placeName ref="#loc.68">Verona</placeName>
+                            <date when="1822-12-14">14.
+                        Dezember 1822</date>
+                        </origin>
                </history>
             </msDesc>
             <listWit corresp="#m.1">
                <head>Note des Fürsten Metternich an den Geschäftsträger in Madrid </head>
-               <witness corresp="#w.26"><bibl type="print">Archive diplomatique/Diplomatisches
-                     Archiv, Bd. 3, S. 441–445;</bibl></witness>
-               <witness corresp="#w.5"><bibl type="print">BFSP Bd. 10 (1822/23), S. 917–920 (Note
+               <witness corresp="#w.26">
+                        <bibl type="print">Archive diplomatique/Diplomatisches
+                     Archiv, Bd. 3, S. 441–445;</bibl>
+                    </witness>
+               <witness corresp="#w.5">
+                        <bibl type="print">BFSP Bd. 10 (1822/23), S. 917–920 (Note
                      hier datiert auf <date when="1822-12-02">2. Dezember
-                  1822</date>);</bibl></witness>
-               <witness corresp="#w.25"><bibl type="print">Ghillany, Diplomatisches Handbuch, Bd. 2,
-                     S. 450–453;</bibl></witness>
-               <witness corresp="#w.31"><bibl type="print">Martens, Guide diplomatique, Bd. 2, S.
-                     424–428;</bibl></witness>
-               <witness corresp="#w.14"><bibl type="print">Martens, Nouveau recueil, Bd. 6, S.
-                     190–195.</bibl></witness>
+                  1822</date>);</bibl>
+                    </witness>
+               <witness corresp="#w.25">
+                        <bibl type="print">Ghillany, Diplomatisches Handbuch, Bd. 2,
+                     S. 450–453;</bibl>
+                    </witness>
+               <witness corresp="#w.31">
+                        <bibl type="print">Martens, Guide diplomatique, Bd. 2, S.
+                     424–428;</bibl>
+                    </witness>
+               <witness corresp="#w.14">
+                        <bibl type="print">Martens, Nouveau recueil, Bd. 6, S.
+                     190–195.</bibl>
+                    </witness>
             </listWit>
          </sourceDesc>
       </fileDesc>
@@ -83,7 +103,7 @@
          </appInfo>
          <styleDefDecl scheme="css"/>
          <tagsDecl>
-            <rendition xml:id="su" scheme="css">vertical-align:sub; font-size:.7em;</rendition>
+            <rendition xml:id="su" scheme="css">vertical-align:super; font-size:.7em;</rendition>
             <rendition xml:id="s" scheme="css">text-decoration:line-through;</rendition>
             <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
             <rendition xml:id="ow">overwritten</rendition>
@@ -92,7 +112,8 @@
       <profileDesc>
          <abstract>
             <p>Die österreichische Regierung übermittelt ihrem <rs ref="#p.177">Geschäftsträger in
-                     <placeName ref="#loc.24">Madrid</placeName></rs> ihre Sichtweise der Revolution
+                     <placeName ref="#loc.24">Madrid</placeName>
+                    </rs> ihre Sichtweise der Revolution
                in <country>Spanien</country> und erklärt, dem Ende der politischen Isolation des
                Landes nur dann zuzustimmen, wenn der <rs ref="#p.30">König</rs> wieder volle
                Entscheidungsfreiheit erhalte.</p>
@@ -103,15 +124,23 @@
       <body>
          <div decls="#m.1">
             <pb n="238r"/>
-            <p><add hand="#M" place="top"><choice>
+            <p>
+                    <add hand="#M" place="top">
+                        <choice>
                      <abbr>Cab.</abbr>
                      <expan>Cabinet</expan>
-                  </choice> Autrichien</add></p>
-            <p><add place="top" hand="#M">Projet de dépêche ostensible au <persName ref="#p.177"><roleName>Comte</roleName>
-                     <surname>de Brunetti</surname></persName></add>
+                  </choice> Autrichien</add>
+                </p>
+            <p>
+                    <add place="top" hand="#M">Projet de dépêche ostensible au <persName ref="#p.177">
+                            <roleName>Comte</roleName>
+                     <surname>de Brunetti</surname>
+                        </persName>
+                    </add>
             </p>
             <p>La situation dans laquelle se trouve la Monarchie Espagnole <rs xml:id="n.1">à la
-                  suite des évènemens qui s’y sont passés depuis deux ans</rs><note type="editorial" target="#n.1">Zur Revolution in <country>Spanien</country>, die mit einem
+                  suite des évènemens qui s’y sont passés depuis deux ans</rs>
+                    <note type="editorial" target="#n.1">Zur Revolution in <country>Spanien</country>, die mit einem
                   Militäraufstand am <date when="1820-01-01">1. Jänner 1820</date> ihren Anfang
                   nahm, vgl. Späth, Revolution in Europa, S. 117–128. </note> était un objet de trop
                haute importance pour ne pas avoir sérieusement occupé les Cabinets réunis à
@@ -139,14 +168,18 @@
                Cette révolution, avant même d’être parvenue à sa maturité, a provoqué déjà de grands
                désastres dans d’autres pays ; c’est elle qui, par la contagion de ses principes et
                de ses exemples et par les intrigues de ses principaux artisans, a créé les
-               révolutions <rs xml:id="n.2">de <country>Naples</country></rs><note type="editorial" target="#n.2">Am <date when="1820-07-02">2. Juli 1820</date> meuterte die
+               révolutions <rs xml:id="n.2">de <country>Naples</country>
+                    </rs>
+                    <note type="editorial" target="#n.2">Am <date when="1820-07-02">2. Juli 1820</date> meuterte die
                   Militärgarnison in Nola, 35 km von <placeName ref="#loc.11">Neapel</placeName>
                   entfernt. Das Datum gilt als Beginn der Revolution im <country>Königreich beider
                      Sizilien</country>. Vgl. Stites, The four Horsemen; Davis, Naples and Napoleon;
                   Gin, Sanfedisti, Carbonari, Magistrati del Re; Späth, Revolution in Europa, S.
                   129–149. Zur Reaktion der Großmächte vgl. zuletzt Jarrett, The Congress of Vienna,
                   S. 248–285 sowie die Editionen der Dokumente der Kongresse von Troppau und
-                  Laibach. </note> et <rs xml:id="n.3">du <country>Piémont</country></rs><note type="editorial" target="#n.3">Im März 1821 war im <country>Königreich
+                  Laibach. </note> et <rs xml:id="n.3">du <country>Piémont</country>
+                    </rs>
+                    <note type="editorial" target="#n.3">Im März 1821 war im <country>Königreich
                      Sardinien-Piemont</country> eine Revolution ausgebrochen, die rasch durch
                   österreichische Truppen niedergeschlagen wurde. Vgl. Späth, Revolution in Europa,
                   S. 150–165; Broers, Napoleonic Imperialism; Jarrett, The Congress of Vienna, S.
@@ -155,9 +188,12 @@
                Puissances qui ont préservé l’Europe de ce nouvel incendie. Partout les funestes
                moyens employés en <country>Espagne</country> pour préparer et exécuter la révolution
                ont servi de modèle à ceux qui se flattaient de lui ouvrir de nouvelles conquêtes ;
-               partout la <rs xml:id="n.4">Constitution Espagnole</rs><note type="editorial" target="#n.4">Zur spanischen Verfassung von Cádiz, veröffentlicht am <date when="1812-03-19">19. März 1812</date> und am <date when="1820-03-08">8. März
-                     1820</date> durch <persName ref="#p.30"><roleName>König</roleName>
-                     <surname>Ferdinand VII.</surname></persName> erneut in Kraft gesetzt, vgl.
+               partout la <rs xml:id="n.4">Constitution Espagnole</rs>
+                    <note type="editorial" target="#n.4">Zur spanischen Verfassung von Cádiz, veröffentlicht am <date when="1812-03-19">19. März 1812</date> und am <date when="1820-03-08">8. März
+                     1820</date> durch <persName ref="#p.30">
+                            <roleName>König</roleName>
+                     <surname>Ferdinand VII.</surname>
+                        </persName> erneut in Kraft gesetzt, vgl.
                   Timmermann, Die „Gemäßigte Monarchie“; BFSP Bd. 6 (1819/20), S. 237–279; Brand,
                   Schlegelmilch, Kirsch (Hgg.), Quellen.</note> est devenue le point de réunion et
                le cri de guerre d’une faction conjurée contre la sûreté des Trônes et contre le
@@ -165,7 +201,8 @@
             <p>Le mouvement dangereux que la révolution d’Espagne avait imprimé à tout le midi de
                l’Europe a mis l’Autriche dans la pénible nécessité de recourir à des mesures peu
                d’accord avec la marche pacifique qu’elle aurait voulu invariablement poursuivre.
-               Elle a vu <rs xml:id="n.5">une partie de ses Etats</rs><note type="editorial" target="#n.5">1814 wurden die Lombardei und Venetien ein Teil des
+               Elle a vu <rs xml:id="n.5">une partie de ses Etats</rs>
+                    <note type="editorial" target="#n.5">1814 wurden die Lombardei und Venetien ein Teil des
                      <country>Kaisertums Österreich</country> und bildeten das Königreich
                   Lombardo-Venetien. Vgl. Gottsmann, Malfèr, Die Vertretungskörperschaften; Helfert,
                   Kaiser Franz von Österreich; Rath, The Provisional Austrian Regime; Pesendorfer,
@@ -174,7 +211,8 @@
                dirigeaient contre ses frontières. Ce n’est que par de grands efforts et de<pb n="239r"/> grands sacrifices que l’Autriche a pu rétablir la tranquillité en
                Italie et déjouer des projets dont le succès n’eût été rien moins qu’indifférent pour
                le sort de ses propres provinces.</p>
-            <p><rs ref="#p.16">Sa Majesté Impériale</rs> ne peut d’ailleurs que soutenir dans les
+            <p>
+                    <rs ref="#p.16">Sa Majesté Impériale</rs> ne peut d’ailleurs que soutenir dans les
                questions relatives à la révolution d’Espagne les mêmes principes qu’Elle a toujours
                hautement manifestés. Dans l’absence même de tout danger direct pour les peuples
                confiés à Ses soins, l’<rs ref="#p.16">Empereur</rs> n’hésitera jamais à désavouer et

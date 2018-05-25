@@ -1,5 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -10,10 +12,13 @@
                <persName>
                   <surname>Schneider</surname>
                   <forename>Karin</forename>
-               </persName></editor>
+               </persName>
+                </editor>
          </titleStmt>
          <editionStmt>
-            <edition><date>2017-03-13</date></edition>
+            <edition>
+                    <date>2017-03-13</date>
+                </edition>
          </editionStmt>
          <publicationStmt>
             <publisher>Österreichische Akademie der Wissenschaften, Institut für Neuzeit- und
@@ -35,7 +40,8 @@
                </msIdentifier>
                <msContents>
                   <msItem>
-                     <title>Sitzung vom <date when="1822-11-17">17. November 1822</date></title>
+                     <title>Sitzung vom <date when="1822-11-17">17. November 1822</date>
+                            </title>
                   </msItem>
                </msContents>
                <physDesc>
@@ -56,8 +62,11 @@
 
                </physDesc>
                <history>
-                  <origin><placeName ref="#loc.68">Verona</placeName><date when="1822-11-17">17.
-                        November 1822</date></origin>
+                  <origin>
+                            <placeName ref="#loc.68">Verona</placeName>
+                            <date when="1822-11-17">17.
+                        November 1822</date>
+                        </origin>
                </history>
             </msDesc>
 
@@ -71,7 +80,7 @@
          </appInfo>
          <styleDefDecl scheme="css"/>
          <tagsDecl>
-            <rendition xml:id="su" scheme="css">vertical-align:sub; font-size:.7em;</rendition>
+            <rendition xml:id="su" scheme="css">vertical-align:super; font-size:.7em;</rendition>
             <rendition xml:id="s" scheme="css">text-decoration:line-through;</rendition>
             <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
             <rendition xml:id="ow">overwritten</rendition>
@@ -95,33 +104,49 @@
          <div decls="#m.1">
             <pb n="231r"/>
 
-            <p><add place="top" hand="#AmB"><choice>
+            <p>
+                    <add place="top" hand="#AmB">
+                        <choice>
                      <abbr>N.</abbr>
                      <expan>Numéro</expan>
-                  </choice> 12</add></p>
-            <p><title>Précis</title></p>
-            <p><title>de la Conférence de Dimanche <date when="1822-11-17">17 Novembre
-                  1822</date>.</title></p>
+                  </choice> 12</add>
+                </p>
+            <p>
+                    <title>Précis</title>
+                </p>
+            <p>
+                    <title>de la Conférence de Dimanche <date when="1822-11-17">17 Novembre
+                  1822</date>.</title>
+                </p>
             <p>Messieurs les Plénipotentiaires d’Autriche, de France, de Prusse et de Russie se sont
                réunis aujourd’hui pour prendre en considération les différens cas où les engagemens
                éventuels pris avec la Cour de France par celles d’Autriche, de Prusse et de Russie,
                dans la supposition d’une guerre déclarée ou provoquée par le Gouvernement
                révolutionnaire de l’Espagne, deviendraient obligatoires pour les Puissances qui y
                ont pris part.</p>
-            <p><ref target="Verona_I_2.xml"><choice>
-                     <abbr>M<hi rendition="#su">r</hi></abbr>
+            <p>
+                    <ref target="Verona_I_2.xml">
+                        <choice>
+                     <abbr>M<hi rendition="#su">r</hi>
+                            </abbr>
                      <expan>Monsieur</expan>
-                  </choice> le <persName ref="#p.174"><roleName>Vicomte</roleName>
-                     <surname>de Montmorency</surname></persName> a d’abord énoncé trois cas qui lui
+                  </choice> le <persName ref="#p.174">
+                            <roleName>Vicomte</roleName>
+                     <surname>de Montmorency</surname>
+                        </persName> a d’abord énoncé trois cas qui lui
                   paraissaient de nature à rendre lesdits engagemens immédiatement
-                  obligatoires</ref> ; et <ref target="Verona_I_3.xml Verona_I_4.xml Verona_I_5.xml"><choice>
-                     <abbr>Ms<hi rendition="#su">s</hi></abbr>
+                  obligatoires</ref> ; et <ref target="Verona_I_3.xml Verona_I_4.xml Verona_I_5.xml">
+                        <choice>
+                     <abbr>Ms<hi rendition="#su">s</hi>
+                            </abbr>
                      <expan>Messieurs</expan>
                   </choice> les Plénipotentiaires des trois autres Cours ont admis en principe que
                   ces cas seront regardés comme entrainant l’application directe desdits
                   engagemens</ref>. </p>
-            <p><choice>
-                  <abbr>M<hi rendition="#su">r</hi></abbr>
+            <p>
+                    <choice>
+                  <abbr>M<hi rendition="#su">r</hi>
+                        </abbr>
                   <expan>Monsieur</expan>
                </choice> le <rs ref="#p.174">Vicomte</rs> a observé ensuite que, hors de ces cas
                prévus et définis, il pouvait s’en présenter plusieurs autres dans lesquels la
@@ -137,16 +162,22 @@
                allait préciser les termes, il leur paraîtrait juste et convenable que l’acte qui se
                rapporterait aux cas prévus et non-prévus dans lesquels ces engagemens deviendraient
                obligatoires fût rédigé sur un principe de réciprocité, en admettant que l’une et
-               l’autre Puissance pourrait également réclamer l’application des <rs xml:id="n.1"><hi rendition="#u">Casus foederis</hi></rs>
+               l’autre Puissance pourrait également réclamer l’application des <rs xml:id="n.1">
+                        <hi rendition="#u">Casus foederis</hi>
+                    </rs>
                <note type="editorial" target="#n.1">Lat.: Bündnisfall.</note> dont on serait
                convenu. <choice>
-                  <abbr>M<hi rendition="#su">ss</hi></abbr>
+                  <abbr>M<hi rendition="#su">ss</hi>
+                        </abbr>
                   <expan>Messieurs</expan>
                </choice> les Plénipotentiaires de Prusse, ainsi que <choice>
-                  <abbr>M<hi rendition="#su">r</hi></abbr>
+                  <abbr>M<hi rendition="#su">r</hi>
+                        </abbr>
                   <expan>Monsieur</expan>
-               </choice> le <persName ref="#p.8"><roleName>Prince</roleName>
-                  <surname>de Metternich</surname></persName>, ont appuyé cette observation.</p>
+               </choice> le <persName ref="#p.8">
+                        <roleName>Prince</roleName>
+                  <surname>de Metternich</surname>
+                    </persName>, ont appuyé cette observation.</p>
             <p>Le résultat de la délibération a été qu’il sera rédigé, dans le sens de ces
                différentes observations, pour être signé par Messieurs les Plénipotentiaires, un
                   <ref target="Verona_I_15.xml">acte en forme de procès-verbal</ref> où seront
