@@ -12,7 +12,7 @@
     <xsl:template match="/">
         <div class="page-header">
             <h2 align="center">
-                <xsl:for-each select="//tei:fileDesc/tei:titleStmt/tei:title">
+                <xsl:for-each select="//tei:fileDesc/tei:titleStmt/tei:title[@type='main']">
                     <xsl:apply-templates/>
                     <br/>
                 </xsl:for-each>
@@ -58,7 +58,7 @@
                                     <td>
                                         <xsl:for-each select="//tei:particDesc/tei:listPerson/tei:person">
                                             <xsl:apply-templates/>
-                                            <xsl:text> </xsl:text>
+                                            <xsl:text>· </xsl:text>
                                         </xsl:for-each>
                                     </td>
                                 </tr>
@@ -74,16 +74,21 @@
                                 </tr>
                             </xsl:if>
                             <tr>
-                                <th>Verantwortlich</th>
+                                <th>
+                                    <abbr title="//tei:editor">Herausgeber</abbr>
+                                </th>
                                 <td>
                                     <xsl:for-each select="//tei:author">
                                         <xsl:apply-templates/>
                                     </xsl:for-each>
-                                    <xsl:if test="//tei:publicationStmt/tei:publisher">
-                                    <xsl:text>Herausgeber: </xsl:text>
-                                    <xsl:for-each select="//tei:publicationStmt/tei:publisher">
+                                    <xsl:if test="//tei:titleStmt/tei:editor">
+                                        <xsl:for-each select="//tei:titleStmt/tei:editor">
                                         <xsl:apply-templates/>
                                     </xsl:for-each>
+                                        <xsl:text>, </xsl:text>
+                                        <xsl:for-each select="//tei:publicationStmt/tei:publisher">
+                                            <xsl:apply-templates/>
+                                        </xsl:for-each>
                                         <xsl:text>, </xsl:text>
                                         <xsl:for-each select="//tei:publicationStmt/tei:pubPlace">
                                             <xsl:apply-templates/>
@@ -465,27 +470,31 @@
             <xsl:attribute name="title">
                 <xsl:choose>
                     <xsl:when test="@place='margin'">
-                        <xsl:text>zeitgenössische Ergänzung am Rand</xsl:text>(<xsl:value-of select="./@place"/>).
+                        <xsl:text>zeitgenössische Ergänzung am Rand </xsl:text>(<xsl:value-of select="./@place"/>)
                     </xsl:when>
                     <xsl:when test="@place='above'">
-                        <xsl:text>zeitgenössische Ergänzung oberhalb</xsl:text>(<xsl:value-of select="./@place"/>)
+                        <xsl:text>zeitgenössische Ergänzung oberhalb </xsl:text>(<xsl:value-of select="./@place"/>)
                     </xsl:when>
                     <xsl:when test="@place='below'">
-                        <xsl:text>zeitgenössische Ergänzung unterhalb</xsl:text>(<xsl:value-of select="./@place"/>)
+                        <xsl:text>zeitgenössische Ergänzung unterhalb </xsl:text>(<xsl:value-of select="./@place"/>)
                     </xsl:when>
                     <xsl:when test="@place='inline'">
-                        <xsl:text>zeitgenössische Ergänzung in der gleichen Zeile</xsl:text>(<xsl:value-of select="./@place"/>)
+                        <xsl:text>zeitgenössische Ergänzung in der gleichen Zeile </xsl:text>(<xsl:value-of select="./@place"/>)
                     </xsl:when>
                     <xsl:when test="@place='top'">
-                        <xsl:text>zeitgenössische Ergänzung am oberen Blattrand</xsl:text>(<xsl:value-of select="./@place"/>)
+                        <xsl:text>zeitgenössische Ergänzung am oberen Blattrand </xsl:text>(<xsl:value-of select="./@place"/>)
                     </xsl:when>
                     <xsl:when test="@place='bottom'">
-                        <xsl:text>zeitgenössische Ergänzung am unteren Blattrand</xsl:text>(<xsl:value-of select="./@place"/>)
+                        <xsl:text>zeitgenössische Ergänzung am unteren Blattrand </xsl:text>(<xsl:value-of select="./@place"/>)
                     </xsl:when>
                     <xsl:otherwise>
-                        <xsl:text>zeitgenössische Ergänzung am unteren Blattrand</xsl:text>(<xsl:value-of select="./@place"/>)
+                        <xsl:text>zeitgenössische Ergänzung am unteren Blattrand </xsl:text>(<xsl:value-of select="./@place"/>)
                     </xsl:otherwise>
                 </xsl:choose>
+                <xsl:if test="@hand">
+                    <xsl:text>durch </xsl:text>
+                    <xsl:value-of select="./@hand"/>: <xsl:value-of select="*//tei:handNote[@xml:id='$handId']"/>
+                </xsl:if>
             </xsl:attribute>
             <xsl:text/>
             <xsl:apply-templates/>
