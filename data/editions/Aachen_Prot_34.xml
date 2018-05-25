@@ -1,8 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -241,12 +238,12 @@
          </appInfo>
          <styleDefDecl scheme="css"/>
          <tagsDecl>
-            <rendition xml:id="su">superscript</rendition>
-            <rendition xml:id="s">strikethrough</rendition>
-            <rendition xml:id="u">underline</rendition>
+            <rendition xml:id="su" scheme="css">vertical-align:sub; font-size:.7em;</rendition>
+            <rendition xml:id="s" scheme="css">text-decoration:line-through;</rendition>
+            <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
             <rendition xml:id="ow">overwritten</rendition>
             <rendition xml:id="i">italic</rendition>
-            <rendition xml:id="r">right</rendition>
+            <rendition xml:id="r" scheme="css">display:block; text-align:right;</rendition>
          </tagsDecl>
       </encodingDesc>
       <profileDesc>
@@ -312,12 +309,10 @@
                </choice> les <rs ref="#p.8 #p.9 #p.10 #p.11 #p.12 #p.13 #p.14">Ministres et
                   Plénipotentiaires des puissances cosignataires du <rs ref="#t.1">traité de paix du
                         <date when="1815-11-20">20 Novembre 1815</date></rs></rs> sa réponse à la
-               note qui lui avoit été adressée en conformité du <ref target="Aachen_Prot_22.xml"
-                  >Protocole du <date when="1818-11-04">4 de ce mois</date></ref>, <choice>
+               note qui lui avoit été adressée en conformité du <ref target="Aachen_Prot_22.xml">Protocole du <date when="1818-11-04">4 de ce mois</date></ref>, <choice>
                   <abbr>Mrs.</abbr>
                   <expan>Messieurs</expan>
-               </choice> les <rs ref="#p.8 #p.1 #p.9 #p.10 #p.11 #p.12 #p.13 #p.14"
-                  >Plénipotentiaires d’Autriche, de France, de la Grande-Bretagne, de Prusse et de
+               </choice> les <rs ref="#p.8 #p.1 #p.9 #p.10 #p.11 #p.12 #p.13 #p.14">Plénipotentiaires d’Autriche, de France, de la Grande-Bretagne, de Prusse et de
                   Russie</rs> se sont réunis ce fois pour arrêter <ref decls="#m.4">la rédaction
                   définitive du Protocole</ref> à signer à la suite de cette réponse, ainsi que <ref decls="#m.5">la
                   déclaration</ref> qui
@@ -369,8 +364,7 @@
                Protocole que <choice>
                   <abbr>Mrs.</abbr>
                   <expan>Messieurs</expan>
-               </choice> les Plénipotentiaires prendront en considération <ref
-                  target="Aachen_Prot_41.xml">à la séance prochaine</ref>.</p>
+               </choice> les Plénipotentiaires prendront en considération <ref target="Aachen_Prot_41.xml">à la séance prochaine</ref>.</p>
             <signed>
                <list>
                   <item><persName ref="#p.8">Metternich</persName></item>
@@ -390,8 +384,7 @@
                      <abbr>M.</abbr>
                      <expan>Monsieur</expan>
                   </choice> le <persName ref="#p.1"><roleName>Duc</roleName>
-                     <surname>de Richelieu</surname></persName> par les <rs
-                     ref="#p.8 #p.9 #p.10 #p.11 #p.12 #p.13 #p.14"><choice>
+                     <surname>de Richelieu</surname></persName> par les <rs ref="#p.8 #p.9 #p.10 #p.11 #p.12 #p.13 #p.14"><choice>
                         <abbr>Plénipot<hi rendition="#su">es</hi></abbr>
                         <expan>Plénipotentiaires</expan>
                      </choice> des Cours d’Autriche, de la Grande-Bretagne, de Prusse et de
@@ -409,14 +402,11 @@
                </choice> le <persName ref="#p.1"><roleName>Duc</roleName>
                   <surname>de Richelieu</surname></persName> la communication suivante :</p>
             <p>Appelés par l’article 5 du <rs ref="#t.1">traité du <date when="1815-11-20">20
-                     Novembre 1815</date></rs> à examiner, de concert avec Sa Majesté le <rs
-                  ref="#p.15">Roi de France</rs>, si l’occupation militaire d’une partie du
+                     Novembre 1815</date></rs> à examiner, de concert avec Sa Majesté le <rs ref="#p.15">Roi de France</rs>, si l’occupation militaire d’une partie du
                territoire françois, arrêtée par ledit traité, pouvoit cesser à la fin de la
                troisième année ou devoit se prolonger jusqu’à la fin de la cinquième, leurs Majestés
                   L'<rs ref="#p.16">Empereur d’Autriche</rs>, le <rs ref="#p.18">Roi de Prusse</rs>
-               et l'<rs ref="#p.17">Empereur de toutes les Russies</rs> se sont rendus à <placeName
-                  ref="#loc.1">Aix-la-Chapelle</placeName> et ont chargé <rs
-                  ref="#p.8 #p.11 #p.12 #p.13 #p.14">leurs<pb n="31v"/> Ministres</rs> de s’y réunir
+               et l'<rs ref="#p.17">Empereur de toutes les Russies</rs> se sont rendus à <placeName ref="#loc.1">Aix-la-Chapelle</placeName> et ont chargé <rs ref="#p.8 #p.11 #p.12 #p.13 #p.14">leurs<pb n="31v"/> Ministres</rs> de s’y réunir
                en conférence avec les <rs ref="#p.1 #p.9 #p.10">Plénipotentiaires de Leurs Majestés
                   le <rs ref="#p.15">Roi de France</rs> et le <rs ref="#p.19">Roi de la
                      Grande-Bretagne</rs></rs> afin de procéder à l’examen de cette question
@@ -424,14 +414,11 @@
             <p>L’attention des Ministres et Plénipotentiaire a dû se fixer avant tout dans cet
                examen sur l’état intérieur de la <country>France</country> ; elle a dû porter
                également sur l’exécution des engagemens contractés par le Gouvernement François
-               envers les Puissances co-signataires du <rs ref="#t.1">Traité du <date
-                     when="1815-11-20">20 Novembre 1815</date></rs>.</p>
+               envers les Puissances co-signataires du <rs ref="#t.1">Traité du <date when="1815-11-20">20 Novembre 1815</date></rs>.</p>
             <p>L’Etat intérieur de la <country>France</country> ayant été depuis longtems le sujet
-               des méditations suivies des cabinets ; et les <rs
-                  ref="#p.8 #p.1 #p.9 #p.10 #p.11 #p.12 #p.13 #p.14">Plénipotentiaires réunis à
+               des méditations suivies des cabinets ; et les <rs ref="#p.8 #p.1 #p.9 #p.10 #p.11 #p.12 #p.13 #p.14">Plénipotentiaires réunis à
                      <placeName ref="#loc.1">Aix-la-Chapelle</placeName></rs> s’étant mutuellement
-               communiqué les opinions qu’ils s’étoient formées à cet égard, <rs
-                  ref="#p.16 #p.17 #p.18 #p.19">les augustes Souverains</rs>,<pb n="32r"/> après les
+               communiqué les opinions qu’ils s’étoient formées à cet égard, <rs ref="#p.16 #p.17 #p.18 #p.19">les augustes Souverains</rs>,<pb n="32r"/> après les
                avoir pesées dans leur sagesse, ont reconnu avec satisfaction que l’ordre des choses
                heureusement établi en <country>France</country> par la restauration de la Monarchie
                légitime et constitutionnelle, et le succès qui a couronné jusqu’ici les soins
@@ -459,21 +446,18 @@
                   <abbr>arrangem<hi rendition="#su">ts</hi></abbr>
                   <expan>arrangements</expan>
                </choice> satisfaisans pour toutes les parties contractantes.</p>
-            <p>Tels étant les résultats de l’examen de ces graves questions, <rs
-                  ref="#p.16 #p.17 #p.18 #p.19">Leurs Majestés Impériales et Royales</rs> se sont
+            <p>Tels étant les résultats de l’examen de ces graves questions, <rs ref="#p.16 #p.17 #p.18 #p.19">Leurs Majestés Impériales et Royales</rs> se sont
                félicitées de n’avoir plus qu’à écouter ces sentimens et ces vœux personnels qui les
                portoient à mettre un terme à une mesure que des circonstances funestes et la
                nécessité de pourvoir à leur propre sûreté et à celle de l’Europe avoient seule pu
                leur dicter.</p>
             <p>Dès lors <rs ref="#p.16 #p.17 #p.18 #p.19">les augustes Souverains</rs> se sont
-               décidés à faire cesser l’occupation militaire du territoire François ; et la <rs
-                  ref="#t.10">Convention du <date when="1818-10-09">neuf Octobre</date></rs> a
+               décidés à faire cesser l’occupation militaire du territoire François ; et la <rs ref="#t.10">Convention du <date when="1818-10-09">neuf Octobre</date></rs> a
                sanctionné cette résolution. Ils regardent<pb n="39r"/> cet acte solemnel comme le
                complément de la paix générale.</p>
             <p>Considérant maintenant comme le premier de leurs devoirs celui de conserver à leurs
                Peuples les bienfaits que cette paix leur assure, et de maintenir dans leur intégrité
-               les transactions qui l’ont fondée et consolidée, <rs ref="#p.16 #p.17 #p.18 #p.19"
-                  >Leurs Majestés Impériales et Royales</rs> se flattent que <rs ref="#p.15">Sa
+               les transactions qui l’ont fondée et consolidée, <rs ref="#p.16 #p.17 #p.18 #p.19">Leurs Majestés Impériales et Royales</rs> se flattent que <rs ref="#p.15">Sa
                   Majesté Très Chrétienne</rs>, animée des mêmes sentimens, accueillera, avec
                l’intérêt qu’Elle attache à tout ce qui tend au bien de l’humanité et à la gloire et
                la prospérité de son Pays, la proposition que Leurs Majestés Impériales et Royales
@@ -481,8 +465,7 @@
                cesseront de vouer à l’accomplissement d’une œuvre<pb n="39v"/> aussi salutaire.</p>
             <p><rs ref="#p.8 #p.9 #p.10 #p.11 #p.12 #p.13 #p.14">Les Soussignés</rs>, chargés de
                prier Monsieur le <persName ref="#p.1"><roleName>Duc</roleName>
-                  <surname>de Richelieu</surname></persName> de porter ce vœu de <rs
-                  ref="#p.16 #p.17 #p.18 #p.19">leurs augustes Souverains</rs> à la connoissance du
+                  <surname>de Richelieu</surname></persName> de porter ce vœu de <rs ref="#p.16 #p.17 #p.18 #p.19">leurs augustes Souverains</rs> à la connoissance du
                   <rs ref="#p.15">Roi, son Maître</rs>, invitent en même tems <rs ref="#p.1">Son
                   Excellence</rs> à prendre part à leurs délibérations présentes et futures,
                consacrées au maintien de la paix, des traités sur lesquels elle repose, des droits
@@ -491,8 +474,7 @@
             <p>En transmettant à Monsieur le <persName ref="#p.1"><roleName>Duc</roleName>
                   <surname>de Richelieu</surname></persName> cette preuve solemnelle de la confiance
                que <rs ref="#p.16 #p.17 #p.18 #p.19">Leurs augustes Souverains</rs> ont placée dans
-               la sagesse du <rs ref="#p.15">Roi de France</rs> et dans la loyauté de la Nation<pb
-                  n="40r"/> Françoise, <rs ref="#p.8 #p.9 #p.10 #p.11 #p.12 #p.13 #p.14">les
+               la sagesse du <rs ref="#p.15">Roi de France</rs> et dans la loyauté de la Nation<pb n="40r"/> Françoise, <rs ref="#p.8 #p.9 #p.10 #p.11 #p.12 #p.13 #p.14">les
                   Soussignés</rs> ont l’ordre d’y ajouter l’expression de l’<choice>
                   <abbr>attachem<hi rendition="#su">t</hi></abbr>
                   <expan>attachement</expan>
@@ -500,8 +482,7 @@
                   et Royales</rs> professent envers la personne de <rs ref="#p.15">Sa Majesté Très
                   Chrétienne</rs> et sa famille et de la part sincère qu’Elles ne cessent de prendre
                au repos et au bonheur de son Royaume.</p>
-            <p>Ils ont l’honneur d’offrir en même tems à Monsieur le <persName ref="#p.1"
-                     ><roleName>Duc</roleName>
+            <p>Ils ont l’honneur d’offrir en même tems à Monsieur le <persName ref="#p.1"><roleName>Duc</roleName>
                   <surname>de Richelieu</surname></persName> l’assurance de leur considération toute
                particulière.</p>
             <p><placeName ref="#loc.1">Aix-la-Chapelle</placeName> le <date when="1818-11-04">4 <choice>
@@ -535,17 +516,14 @@
                      <expan>Messieurs</expan>
                   </choice> les <rs ref="#p.8 #p.9 #p.10 #p.11 #p.12 #p.13 #p.14">Ministres des
                      Cours d’Autriche, de la Grande-Bretagne, de Prusse et de Russie</rs>.</add></p>
-            <p><rs ref="#p.1">Le Soussigné</rs>, Ministre et Secrétaire d’Etat de <rs xml:id="n.7"
-                  >Sa Majesté Très Chrétienne</rs>,<note type="editorial" target="#n.7">Ehrentitel
-                  des Königs von Frankreich.</note> a reçu <ref decls="#m.2">la communication que <rs
-                     ref="#p.8 #p.9 #p.10 #p.11 #p.12 #p.13 #p.14">Leurs Excellences Messieurs les
+            <p><rs ref="#p.1">Le Soussigné</rs>, Ministre et Secrétaire d’Etat de <rs xml:id="n.7">Sa Majesté Très Chrétienne</rs>,<note type="editorial" target="#n.7">Ehrentitel
+                  des Königs von Frankreich.</note> a reçu <ref decls="#m.2">la communication que <rs ref="#p.8 #p.9 #p.10 #p.11 #p.12 #p.13 #p.14">Leurs Excellences Messieurs les
                      Ministres des Cabinets d’Autriche, de la Grande-Bretagne, de Prusse et de
                      Russie</rs> lui ont fait l’honneur de lui adresser <date when="1818-11-04">le
                      quatre de ce mois</date></ref> par ordre de <rs ref="#p.16 #p.17 #p.18 #p.19">leurs augustes
                   Souverains</rs>. Il s’est empressé d’en donner connaissance au
                   <rs ref="#p.15">Roi, Son Maître</rs>. <rs ref="#p.15">Sa Majesté</rs> a reçu avec
-               une véritable satisfaction cette nouvelle preuve de la confiance et de l’amitié <rs
-                  ref="#p.16 #p.17 #p.18 #p.19">des Souverains</rs> qui ont pris part aux
+               une véritable satisfaction cette nouvelle preuve de la confiance et de l’amitié <rs ref="#p.16 #p.17 #p.18 #p.19">des Souverains</rs> qui ont pris part aux
                délibérations d’<placeName ref="#loc.1">Aix-la-Chapelle</placeName>. La justice
                qu’ils rendent à ses soins constans pour le bonheur de la <country>France</country>
                et surtout à la loyauté de son peuple a vivement touché son cœur. En portant ses
@@ -566,23 +544,18 @@
                bien fondé des heureux résultats qu’une telle alliance aura pour le bien de
                l’humanité, <rs ref="#p.15">Sa Majesté Très Chrétienne</rs> accueille avec
                empressement la proposition qui lui est faite d’unir ses conseils et ses efforts à
-               ceux de leurs Majestés l’<rs ref="#p.16">Empereur d’Autriche</rs>, le <rs ref="#p.19"
-                  >Roi de la Grande-Bretagne</rs>, le <rs ref="#p.18">Roi de Prusse</rs> et l’<rs
-                  ref="#p.17">Empereur de toutes les Russies</rs> pour accomplir l’œuvre salutaire
-               qu’ils se proposent. En conséquence, Elle a autorisé <rs
-                  ref="#p.1">le Soussigné</rs> à prendre part à toutes<pb n="48r"/> les
+               ceux de leurs Majestés l’<rs ref="#p.16">Empereur d’Autriche</rs>, le <rs ref="#p.19">Roi de la Grande-Bretagne</rs>, le <rs ref="#p.18">Roi de Prusse</rs> et l’<rs ref="#p.17">Empereur de toutes les Russies</rs> pour accomplir l’œuvre salutaire
+               qu’ils se proposent. En conséquence, Elle a autorisé <rs ref="#p.1">le Soussigné</rs> à prendre part à toutes<pb n="48r"/> les
                délibérations de <rs ref="#p.8 #p.9 #p.10 #p.11 #p.12 #p.13 #p.14">leurs Ministres et
                   Plénipotentiaires</rs> dans le but de consolider la paix, d’assurer le maintien
                des traités sur lesquels elle repose, et de garantir les droits et les rapports
                mutuels établis par ces mêmes traités et reconnus par tous les Etats de l’Europe.</p>
-            <p><rs ref="#p.1">Le Soussigné</rs>, en priant <rs
-                  ref="#p.8 #p.9 #p.10 #p.11 #p.12 #p.13 #p.14">Leurs Excellences</rs> de vouloir
+            <p><rs ref="#p.1">Le Soussigné</rs>, en priant <rs ref="#p.8 #p.9 #p.10 #p.11 #p.12 #p.13 #p.14">Leurs Excellences</rs> de vouloir
                bien transmettre à <rs ref="#p.16 #p.17 #p.18 #p.19">leurs augustes Souverains</rs>
                l’expression des intentions et des sentimens du <rs ref="#p.15">Roi, son Maître</rs>,
                a l’honneur de leur offrir l’assurance de sa plus haute considération.</p>
             <signed>Richelieu</signed>
-            <dateline><placeName ref="#loc.1">Aix-la-Chapelle</placeName> le <date when="1818-11-12"
-                  >12 <choice>
+            <dateline><placeName ref="#loc.1">Aix-la-Chapelle</placeName> le <date when="1818-11-12">12 <choice>
                      <abbr>9<hi rendition="#su">bre</hi></abbr>
                      <expan>Novembre</expan>
                   </choice> 1818</date>.</dateline>
@@ -592,32 +565,24 @@
             <pb n="162r"/>
             <p><add hand="#AmT" place="top">3</add></p>
             <p><title>Protocole</title></p>
-            <p><title>signé à <placeName ref="#loc.1">Aix-la-Chapelle</placeName> le <date
-                     when="1818-11-15">15 novembre 1818</date> par <rs
-                     ref="#p.8 #p.1 #p.9 #p.10 #p.11 #p.12 #p.13 #p.14">les Plénipotentiaires des
+            <p><title>signé à <placeName ref="#loc.1">Aix-la-Chapelle</placeName> le <date when="1818-11-15">15 novembre 1818</date> par <rs ref="#p.8 #p.1 #p.9 #p.10 #p.11 #p.12 #p.13 #p.14">les Plénipotentiaires des
                      cours d’Autriche, de France, de la Grande-Bretagne, de Prusse et de
                   Russie</rs></title></p>
             <p>Les <rs ref="#p.8 #p.1 #p.9 #p.10 #p.11 #p.12 #p.13 #p.14">Ministres d’Autriche, de
                   France, de la Grande-Bretagne, de Prusse et de Russie</rs>, à la suite de
-               l’échange des ratifications de la <rs ref="#t.10">convention signée le <date
-                     when="1818-10-09">9 octobre</date></rs> relativement à l’évacuation du
+               l’échange des ratifications de la <rs ref="#t.10">convention signée le <date when="1818-10-09">9 octobre</date></rs> relativement à l’évacuation du
                territoire français par les troupes étrangères, et après s’être adressé, de part et
-               d’autre, les <rs xml:id="n.9">notes ci-jointes en copie</rs>,<note type="editorial"
-                  target="#n.9">Wohl Anlagen 1 und 2.</note> se sont réunis en conférence pour
+               d’autre, les <rs xml:id="n.9">notes ci-jointes en copie</rs>,<note type="editorial" target="#n.9">Wohl Anlagen 1 und 2.</note> se sont réunis en conférence pour
                prendre en considération les rapports qui, dans l’état actuel des choses, doivent
                s’établir entre la <country>France</country> et <rs xml:id="n.10">les Puissances
                   co-signataires du <rs ref="#t.1">traité de paix du <date when="1815-11-20">20
-                        novembre 1815</date></rs></rs><note type="editorial" target="#n.10"
-                  >Österreich, Großbritannien, Preußen, Russland.</note> ; rapports qui, en assurant
+                        novembre 1815</date></rs></rs><note type="editorial" target="#n.10">Österreich, Großbritannien, Preußen, Russland.</note> ; rapports qui, en assurant
                à la <country>France</country> la place qui lui appartient dans le système de
                l’Europe, la lieront étroitement aux vues pacifiques et bienveillantes que partagent
                tous les Souverains, et consolideront ainsi la tranquillité générale.</p>
             <p>Après avoir mûrement approfondi les principes conservateurs des grands intérêts qui
                constituent l’ordre de choses rétabli en Europe sous les auspices de la Providence
-               divine moyennant le <rs ref="#t.13">traité de <placeName ref="#loc.2"
-                     >Paris</placeName> du <date when="1814-05-30">30 mai 1814</date></rs>, le <rs
-                  ref="#t.12">recès de <placeName ref="#loc.7">Vienne</placeName></rs>, et le <rs
-                  ref="#t.1">traité de paix de l’année 1815</rs>, les Cours signataires du présent
+               divine moyennant le <rs ref="#t.13">traité de <placeName ref="#loc.2">Paris</placeName> du <date when="1814-05-30">30 mai 1814</date></rs>, le <rs ref="#t.12">recès de <placeName ref="#loc.7">Vienne</placeName></rs>, et le <rs ref="#t.1">traité de paix de l’année 1815</rs>, les Cours signataires du présent
                acte ont unanimement reconnu et déclarent en conséquence :</p>
             <p>1<hi rendition="#su">o</hi> Qu’elles sont fermement décidées à ne s’écarter ni dans
                leurs relations mutuelles, ni dans celles qui les lient aux autres états, du principe
@@ -635,8 +600,7 @@
                l’Europe et qui peut seul en assurer la durée ;</p>
             <p>4<hi rendition="#su">o</hi> Que si, pour mieux atteindre le but ci-dessus énoncé, les
                Puissances qui ont concouru<pb n="164v"/> au présent acte jugeaient nécessaire
-               d’établir des réunions particulières, soit entre <rs
-                  ref="#p.16 #p.15 #p.17 #p.18 #p.19">les augustes Souverains</rs> eux-mêmes, soit
+               d’établir des réunions particulières, soit entre <rs ref="#p.16 #p.15 #p.17 #p.18 #p.19">les augustes Souverains</rs> eux-mêmes, soit
                entre leurs Ministres et Plénipotentiaires respectifs, pour y traiter en commun de
                leurs propres intérêts, en tant qu’ils se rapportent à l’objet de leurs délibérations
                actuelles ; l’époque et l’endroit de ces réunions<pb n="162v"/> seront chaque fois
@@ -647,30 +611,21 @@
                réserve expresse de leur droit d’y participer directement, ou par leurs
                plénipotentiaires ;</p>
             <p>5<hi rendition="#su">o</hi> Que les résolutions consignées au présent acte seront
-               portées à la connaissance de toutes les Cours européennes par la <ref decls="#m.5"
-                  >déclaration ci-jointe</ref>, laquelle sera considérée comme sanctionnée par le protocole et en
+               portées à la connaissance de toutes les Cours européennes par la <ref decls="#m.5">déclaration ci-jointe</ref>, laquelle sera considérée comme sanctionnée par le protocole et en
                faisant partie.</p>
             <p>Fait quintuple et réciproquement échangé en original entre les cabinets
                signataires.</p>
             <p>À <placeName ref="#loc.1">Aix-la-Chapelle</placeName> le <date when="1818-11-15">15
                   novembre 1818</date>.</p>
             <p><hi rendition="#i #r">(Signé)</hi></p>
-            <p><hi rendition="#r"><persName ref="#p.8"
-                  ><surname>Metternich</surname></persName>.</hi></p>
-            <p><hi rendition="#r"><persName ref="#p.1"
-               ><surname>Richelieu</surname></persName>.</hi></p>
-            <p><hi rendition="#r"><persName ref="#p.8"
-                  ><surname>Castlereagh</surname></persName>.</hi></p>
-            <p><hi rendition="#r"><persName ref="#p.10"
-                  ><surname>Wellington</surname></persName>.</hi></p>
-            <p><hi rendition="#r"><persName ref="#p.11"
-                  ><surname>Hardenberg</surname></persName>.</hi></p>
-            <p><hi rendition="#r"><persName ref="#p.12"
-                  ><surname>Bernstorff</surname></persName>.</hi></p>
-            <p><hi rendition="#r"><persName ref="#p.13"
-                  ><surname>Nesselrode</surname></persName>.</hi></p>
-            <p><hi rendition="#r"><persName ref="#p.14"
-                  ><surname>Capodistrias</surname></persName>.</hi></p>
+            <p><hi rendition="#r"><persName ref="#p.8"><surname>Metternich</surname></persName>.</hi></p>
+            <p><hi rendition="#r"><persName ref="#p.1"><surname>Richelieu</surname></persName>.</hi></p>
+            <p><hi rendition="#r"><persName ref="#p.8"><surname>Castlereagh</surname></persName>.</hi></p>
+            <p><hi rendition="#r"><persName ref="#p.10"><surname>Wellington</surname></persName>.</hi></p>
+            <p><hi rendition="#r"><persName ref="#p.11"><surname>Hardenberg</surname></persName>.</hi></p>
+            <p><hi rendition="#r"><persName ref="#p.12"><surname>Bernstorff</surname></persName>.</hi></p>
+            <p><hi rendition="#r"><persName ref="#p.13"><surname>Nesselrode</surname></persName>.</hi></p>
+            <p><hi rendition="#r"><persName ref="#p.14"><surname>Capodistrias</surname></persName>.</hi></p>
          </div>
 
          <div type="print" decls="#m.5">
@@ -682,14 +637,12 @@
                nécessaires, <rs ref="#p.8 #p.1 #p.9 #p.10 #p.11 #p.12 #p.13 #p.14">les Ministres et
                   Plénipotentiaires de Leurs Majestés l’<rs ref="#p.16">Empereur d’Autriche</rs>, le
                      <rs ref="#p.15">Roi de France</rs>, le <rs ref="#p.19">Roi de
-                     Grande-Bretagne</rs>, le <rs ref="#p.18">Roi de Prusse</rs> et l’<rs
-                     ref="#p.17">Empereur de toutes les Russies</rs></rs> ont reçu de leurs
+                     Grande-Bretagne</rs>, le <rs ref="#p.18">Roi de Prusse</rs> et l’<rs ref="#p.17">Empereur de toutes les Russies</rs></rs> ont reçu de leurs
                Souverains l’ordre de porter à la connaissance de toutes les Cours de l’Europe les
                résultats de leur réunion à <placeName ref="#loc.1">Aix-la-Chapelle</placeName> et de
                faire, à cet effet, la déclaration suivante :</p>
             <p>La <rs ref="#t.10">convention du <date when="1818-10-09">neuf octobre</date></rs>,
-               qui a définitivement réglé l’exécution des engagemens consignés dans le <rs
-                  ref="#t.1">traité de paix du <date when="1815-11-20">20 novembre 1815</date></rs>,
+               qui a définitivement réglé l’exécution des engagemens consignés dans le <rs ref="#t.1">traité de paix du <date when="1815-11-20">20 novembre 1815</date></rs>,
                est considérée par <rs ref="#p.16 #p.15 #p.19 #p.18 #p.17">les Souverains</rs>, qui y
                ont concouru, comme l’accomplissement de l’œuvre de la paix, et comme le complément
                du système politique destiné a en assurer la solidité.</p>
@@ -728,22 +681,14 @@
             <p><placeName ref="#loc.1">Aix-la-Chapelle</placeName>, le <date when="1818-11-15">15
                   novembre 1818</date>.</p>
             <p><hi rendition="#i #r">(Signé)</hi></p>
-            <p><hi rendition="#r"><persName ref="#p.8"
-                  ><surname>Metternich</surname></persName>.</hi></p>
-            <p><hi rendition="#r"><persName ref="#p.1"
-               ><surname>Richelieu</surname></persName>.</hi></p>
-            <p><hi rendition="#r"><persName ref="#p.8"
-                  ><surname>Castlereagh</surname></persName>.</hi></p>
-            <p><hi rendition="#r"><persName ref="#p.10"
-                  ><surname>Wellington</surname></persName>.</hi></p>
-            <p><hi rendition="#r"><persName ref="#p.11"
-                  ><surname>Hardenberg</surname></persName>.</hi></p>
-            <p><hi rendition="#r"><persName ref="#p.12"
-                  ><surname>Bernstorff</surname></persName>.</hi></p>
-            <p><hi rendition="#r"><persName ref="#p.13"
-                  ><surname>Nesselrode</surname></persName>.</hi></p>
-            <p><hi rendition="#r"><persName ref="#p.14"
-                  ><surname>Capodistrias</surname></persName>.</hi></p>
+            <p><hi rendition="#r"><persName ref="#p.8"><surname>Metternich</surname></persName>.</hi></p>
+            <p><hi rendition="#r"><persName ref="#p.1"><surname>Richelieu</surname></persName>.</hi></p>
+            <p><hi rendition="#r"><persName ref="#p.8"><surname>Castlereagh</surname></persName>.</hi></p>
+            <p><hi rendition="#r"><persName ref="#p.10"><surname>Wellington</surname></persName>.</hi></p>
+            <p><hi rendition="#r"><persName ref="#p.11"><surname>Hardenberg</surname></persName>.</hi></p>
+            <p><hi rendition="#r"><persName ref="#p.12"><surname>Bernstorff</surname></persName>.</hi></p>
+            <p><hi rendition="#r"><persName ref="#p.13"><surname>Nesselrode</surname></persName>.</hi></p>
+            <p><hi rendition="#r"><persName ref="#p.14"><surname>Capodistrias</surname></persName>.</hi></p>
             <p><hi rendition="#i">Par <choice>
                      <abbr>Mrs.</abbr>
                      <expan>Messieurs</expan>
@@ -753,12 +698,10 @@
       </body>
       <back>
          <include xmlns="http://www.w3.org/2001/XInclude" href="listPlace.xml" xpointer="listPlace"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="listPerson.xml"
-            xpointer="listPerson"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listPerson.xml" xpointer="listPerson"/>
          <include xmlns="http://www.w3.org/2001/XInclude" href="listWit.xml" xpointer="listWit"/>
          <include xmlns="http://www.w3.org/2001/XInclude" href="listOrg.xml" xpointer="listOrg"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="listTreaties.xml"
-            xpointer="listTreaties"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listTreaties.xml" xpointer="listTreaties"/>
       </back>
    </text>
 </TEI>

@@ -1,8 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -171,24 +168,20 @@
          </appInfo>
          <styleDefDecl scheme="css"/>
          <tagsDecl>
-            <rendition xml:id="su">superscript</rendition>
-            <rendition xml:id="s">strikethrough</rendition>
-            <rendition xml:id="u">underline</rendition>
-            <rendition xml:id="r">right</rendition>
+            <rendition xml:id="su" scheme="css">vertical-align:sub; font-size:.7em;</rendition>
+            <rendition xml:id="s" scheme="css">text-decoration:line-through;</rendition>
+            <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
+            <rendition xml:id="r" scheme="css">display:block; text-align:right;</rendition>
          </tagsDecl>
       </encodingDesc>
       <profileDesc>
          <abstract>
-            <p>Der französische Vertreter <persName ref="#p.102"
-                  ><surname>Caraman</surname></persName> verliest zwei Schreiben betreffend eine
+            <p>Der französische Vertreter <persName ref="#p.102"><surname>Caraman</surname></persName> verliest zwei Schreiben betreffend eine
                persönliche Intervention <persName ref="#p.15"><roleName>König</roleName>
                   <forename>Ludwigs XVIII.</forename></persName> und den französischen Standpunkt
                hinsichtlich des separaten Vorgehens Österreichs, Preußens und Russlands, welches
-               ausdrücklich bedauert wird. <persName ref="#p.8"
-                  ><surname>Metternich</surname></persName> informiert die <rs
-                  ref="#p.102 #p.135 #p.137">Vertreter Frankreichs und Großbritanniens</rs> darüber,
-               dass die Regierungen Österreichs, Preußens und Russlands den <rs ref="#p.155"
-                  >Papst</rs> um Vermittlung bei den projektierten Maßnahmen betreffend das
+               ausdrücklich bedauert wird. <persName ref="#p.8"><surname>Metternich</surname></persName> informiert die <rs ref="#p.102 #p.135 #p.137">Vertreter Frankreichs und Großbritanniens</rs> darüber,
+               dass die Regierungen Österreichs, Preußens und Russlands den <rs ref="#p.155">Papst</rs> um Vermittlung bei den projektierten Maßnahmen betreffend das
                   <country>Königreich beider Sizilien</country> ersuchen werden.</p>
          </abstract>
          <particDesc>
@@ -271,10 +264,8 @@
                de <choice>
                   <abbr>S. M.</abbr>
                   <expan>Sa Majesté</expan>
-               </choice> le <rs ref="#p.15">Roi de France</rs> a envisagé <ref
-                  target="Troppau_Prot_1.xml Troppau_Prot_2.xm. Troppau_Prot_3.xml">les Mémoires
-                  remis à la Conférence par les Cabinets d’Autriche, de Prusse et de Russie le <date
-                     when="1820-10-23">23</date> et <date when="1820-10-29">29 Octobre</date> et
+               </choice> le <rs ref="#p.15">Roi de France</rs> a envisagé <ref target="Troppau_Prot_1.xml Troppau_Prot_2.xm. Troppau_Prot_3.xml">les Mémoires
+                  remis à la Conférence par les Cabinets d’Autriche, de Prusse et de Russie le <date when="1820-10-23">23</date> et <date when="1820-10-29">29 Octobre</date> et
                      <date when="1820-11-02">2 Novembre</date></ref>.</p>
             <p>Après la lecture de ces deux pièces, <choice>
                   <abbr>Mr.</abbr>
@@ -290,8 +281,7 @@
                tems ses idées sur la démarche en question, en le prévenant que ces idées lui étoient
                personnelles ; </p>
             <p>Que cette communication, portant sur des vues de conciliation et ayant eu lieu au
-               moment même où les Trois Cabinets s’occupoient de l’invitation à adresser au <rs
-                  ref="#p.138">Roi de Naples</rs>, le <rs ref="#p.8">Prince</rs>, ne pouvant pas
+               moment même où les Trois Cabinets s’occupoient de l’invitation à adresser au <rs ref="#p.138">Roi de Naples</rs>, le <rs ref="#p.8">Prince</rs>, ne pouvant pas
                faire connoître à <choice>
                   <abbr>Msr.</abbr>
                   <expan>Monseigneur</expan>
@@ -343,8 +333,7 @@
                </choice> les <rs ref="#p.102 #p.135 #p.137">Ministres de France et de
                   Grande-Bretagne</rs> que les Cabinets d’Autriche, de Prusse et de Russie, voulant
                épuiser toutes les chances de conciliation avant d’avoir recours à la force, venoient
-               de fixer leur attention sur une nouvelle démarche, tendant à faire intervenir le <rs
-                  ref="#p.155">Saint-Père</rs> comme Médiateur dans les mesures à prendre par
+               de fixer leur attention sur une nouvelle démarche, tendant à faire intervenir le <rs ref="#p.155">Saint-Père</rs> comme Médiateur dans les mesures à prendre par
                rapport à l’état actuel du <country>Royaume des Deux-Siciles</country>, et que ces
                Cabinets seroient incessamment à même d’in<pb n="81v"/>former la conférence de la
                marche qu’ils comptoient suivre pour cet effet.</p>
@@ -386,8 +375,7 @@
                maître, le titre de chef de la maison de Bourbon et des liens de parenté qui unissent
                Sa Majesté au <rs ref="#p.138">Roi des Deux-Siciles</rs> pour appuyer et faire
                adopter librement à<pb n="82v"/>
-               <country>Naples</country> les résolutions qui seraient prises à <placeName
-                  ref="#loc.60">Troppau</placeName>.</p>
+               <country>Naples</country> les résolutions qui seraient prises à <placeName ref="#loc.60">Troppau</placeName>.</p>
             <p>L’<rs ref="#p.102">Ambassadeur de France</rs> avait indiqué ce mode de négociation
                sans aucun ordre, sans aucune instruction de sa cour. Néanmoins, <choice>
                   <abbr>M<hi rendition="#su">r</hi></abbr>
@@ -398,8 +386,7 @@
                pensée, il se décida à lui en remettre l’exposé par écrit, et s’empressa de rendre
                compte à son Gouvernement de la démarche qu’il avait faite et des raisons qui le
                portaient à croire qu’elle serait prise en considération.</p>
-            <p>Postérieurement au départ de son courrier à la <ref target="Troppau_Prot_4.xml"
-                     >conférence<pb n="83r"/> du <date when="1820-11-19">19 Novembre</date></ref>,
+            <p>Postérieurement au départ de son courrier à la <ref target="Troppau_Prot_4.xml">conférence<pb n="83r"/> du <date when="1820-11-19">19 Novembre</date></ref>,
                ce <rs ref="#p.102">Ministre</rs> reçut communication du plan de conduite concerté et
                déjà arrêté par les Cabinets d’Autriche, de Prusse et de Russie, et dans lequel on
                établissait que toutes les voies de conciliation devaient être épuisées avant qu’on
@@ -440,8 +427,7 @@
             <p><rs ref="#p.102 #p.135">Les Plénipotentiaires français</rs><pb n="85r"/> portent
                cette déclaration aux actes de la conférence et se félicitent de pouvoir y joindre la
                réponse du Gouvernement du Roi aux mémoires présentés par les Cabinets d’Autriche, de
-               Prusse et de Russie dans <ref
-                  target="Troppau_Prot_1.xml Troppau_Prot_2.xml Troppau_Prot_3.xml">les séances des
+               Prusse et de Russie dans <ref target="Troppau_Prot_1.xml Troppau_Prot_2.xml Troppau_Prot_3.xml">les séances des
                      <date when="1820-10-23">23</date> et <date when="1820-10-29">29 Octobre</date>
                   et <date when="1820-11-07">7 Novembre</date> derniers</ref>.</p>
          </div>
@@ -450,15 +436,10 @@
             <pb n="86r"/>
             <p><add place="top">B.</add></p>
             <p>Le Gouvernement du Roi a examiné, avec toute l’attention que commande la gravité du
-               sujet, les <ref target="Troppau_Prot_1.xml"
-                  >mémoires remis aux conférences de <placeName ref="#loc.60">Troppau</placeName> le
-                  <date when="1820-10-23">23 Octobre</date> par le Cabinet Autrichien</ref>, <ref target="Troppau_Prot_2.xml">le <date
-                     when="1820-10-29">29</date> par le cabinet Prussien</ref> et <ref target="Troppau_Prot_3.xml">le <date
-                     when="1820-11-02">2 Novembre</date> par le cabinet Russe</ref>. L’accord de
+               sujet, les <ref target="Troppau_Prot_1.xml">mémoires remis aux conférences de <placeName ref="#loc.60">Troppau</placeName> le
+                  <date when="1820-10-23">23 Octobre</date> par le Cabinet Autrichien</ref>, <ref target="Troppau_Prot_2.xml">le <date when="1820-10-29">29</date> par le cabinet Prussien</ref> et <ref target="Troppau_Prot_3.xml">le <date when="1820-11-02">2 Novembre</date> par le cabinet Russe</ref>. L’accord de
                principes qui se rencontre dans ces trois pièces est une conséquence naturelle de
-               l’élévation de caractère et de la loyauté de sentimens qui distinguent <rs
-                  ref="#p.16 #p.18 #p.17">les Augustes Souverains</rs> réunis à <placeName
-                  ref="#loc.60">Troppau</placeName>. On remarquera que les mêmes principes ont été
+               l’élévation de caractère et de la loyauté de sentimens qui distinguent <rs ref="#p.16 #p.18 #p.17">les Augustes Souverains</rs> réunis à <placeName ref="#loc.60">Troppau</placeName>. On remarquera que les mêmes principes ont été
                   <rs xml:id="n.3">la base du mémoire qui a été remis aux Cours<pb n="86v"/> alliées
                   dans le courant du mois d’Août</rs>.<note type="editorial" target="#n.3">Mémoire
                   du Cabinet des Thuileries sur les évènemens à Naples, Paris August 1820; in: ÖStA,
@@ -482,8 +463,7 @@
             <p>L’<country>Autriche</country> est en mesure d’intervenir à main armée dans les
                affaires de Naples ; elle en a manifesté<pb n="87v"/> l’intention par les préparatifs
                qu’elle a faits dès le mois de Juillet ; les Puissances qui composent l’alliance,
-               voyant que la tranquillité de <rs xml:id="n.4">ses possessions en Italie</rs><note
-                  type="editorial" target="#n.4">1814 wurden die Lombardei und Venetien ein Teil des
+               voyant que la tranquillité de <rs xml:id="n.4">ses possessions en Italie</rs><note type="editorial" target="#n.4">1814 wurden die Lombardei und Venetien ein Teil des
                   Kaisertums Österreich und bildeten das Königreich Lombardo-Venetien. Vgl.
                   Gottsmann, Malfèr, Die Vertretungskörperschaften; Helfert, Kaiser Franz von
                   Österreich; Rath, The Provisional Austrian Regime; Pesendorfer, Eiserne
@@ -509,8 +489,7 @@
                n’ait pu entraîner l’unanimité dans la manière de les manifester et dans les actes
                qui doivent en dériver ; mais l’impossibilité de songer désormais à se servir de ce
                puissant moyen qui constitueroit le véritable <hi rendition="#u">appui moral</hi> à
-               donner à la Puissance agissante est trop <metamark rend="+ mit Bleistift"
-                  place="margin"><hi rendition="#u" hand="#AmB">complètement
+               donner à la Puissance agissante est trop <metamark rend="+ mit Bleistift" place="margin"><hi rendition="#u" hand="#AmB">complètement
                   démontrée</hi></metamark> pour qu’il puisse paroître de quelque utilité de s’y
                arrêter encore.</p>
             <p>Le défaut de concours d’une seule des Puissances rompant<pb n="89r"/> l’unanimité
@@ -524,14 +503,12 @@
             <p>Cependant il est des circonstances où le Gouvernement<pb n="89v"/> Français ne se
                croiroit pas obligé de suivre entièrement la marche de
                   l’<country>Angleterre</country> ; et si, par exemple, il étoit convenu par les
-               Puissances Alliées de continuer la réunion diplomatique de <placeName ref="#loc.60"
-                  >Troppau</placeName> et de charger les Plénipotentiaires de donner suite aux vues
+               Puissances Alliées de continuer la réunion diplomatique de <placeName ref="#loc.60">Troppau</placeName> et de charger les Plénipotentiaires de donner suite aux vues
                de conciliation qui pourroient précéder l’action de la force armée et, dans le cas où
                l’emploi de cette force ne pourroit pas être évité, de tâcher de modérer autant que
                possible les maux qu’entraîneroit le rétablissement de l’ordre social à
                   <country>Naples</country> s’il devoit s’opérer par ce moyen, alors le Gouvernement
-               Français ne <metamark rend="+ mit Bleistift" place="margin"><hi rendition="#u"
-                     hand="#AmB">croiroit pas devoir pousser le scrupule</hi></metamark> jusqu’à
+               Français ne <metamark rend="+ mit Bleistift" place="margin"><hi rendition="#u" hand="#AmB">croiroit pas devoir pousser le scrupule</hi></metamark> jusqu’à
                refuser de coopérer<pb n="90r"/> à cette œuvre salutaire, quand même
                   l’<country>Angleterre</country> ne pourroit pas y prendre part, et il croiroit, au
                contraire, devoir y participer.</p>
@@ -543,15 +520,12 @@
                   <country>Naples</country> que par le moyen de la force, il reconnoit qu’une fois
                cette expédition entreprise, toute l’Europe est intéressée à son succès, car
                l’hypothèse contraire entraîneroit évidemment les plus horribles conséquences. Mais
-               non seulement le succès doit être assuré, mais il faut encore en garantir<pb n="90v"
-               /> la durée. L’occupation militaire ne rempliroit pas ce but, car elle ne peut être
+               non seulement le succès doit être assuré, mais il faut encore en garantir<pb n="90v"/> la durée. L’occupation militaire ne rempliroit pas ce but, car elle ne peut être
                que temporaire ; or, il faut l’avouer, cette garantie ne peut se trouver que dans la
                nature du Gouvernement légitime ; mais pour qu’il puisse se soutenir, il faut qu’il
                soit appuyé du concours de tous les intérêts, de ceux du moins qui sont assez
                éclairés pour comprendre que leur existence est entièrement liée à celle du trône, et
-               le concours de tous ces intérêts amène nécessairement <metamark
-                  rend="+ mit Bleistift" place="margin"><hi rendition="#u" hand="#AmB"
-                     >l’établissement d’un Gouvernement libre</hi></metamark>. Si cette vérité est
+               le concours de tous ces intérêts amène nécessairement <metamark rend="+ mit Bleistift" place="margin"><hi rendition="#u" hand="#AmB">l’établissement d’un Gouvernement libre</hi></metamark>. Si cette vérité est
                une fois reconnue, les grandes difficultés s’applaniront, et nul doute que
                l’influence que les Puissances peuvent<pb n="91r"/> exercer sur le sort de
                   <country>Naples</country> ne soit aussi facile que salutaire, et partant de cette
@@ -569,8 +543,7 @@
                à l’alliance des cinq Puissances et de plus en plus convaincu que le maintien de
                cette alliance est le premier besoin de l’ordre social, il croit fermement qu’il est
                nécessaire d’étouffer la révolution dont <country>Naples</country> est le foyer ;
-               que, pour atteindre ce but, la force militaire peut devenir nécessaire ; qu’elle<pb
-                  n="92r"/> doit, suivant les circonstances, être plus ou moins développée et mise
+               que, pour atteindre ce but, la force militaire peut devenir nécessaire ; qu’elle<pb n="92r"/> doit, suivant les circonstances, être plus ou moins développée et mise
                en action ; mais que pour éviter la dissolution du corps social et les catastrophes
                qui menacent le Monarque et la Monarchie, il est à désirer que l’emploi des moyens
                militaires soit accompagné, ou même précédé, d’ouvertures pacifiques ; il pense
@@ -586,8 +559,7 @@
                persévérance de ses intentions pour le maintien de l’alliance et la défense des bases
                sur lesquelles reposent la paix et le bonheur du monde civilisé. S’il étoit question
                (ce que l’on ne suppose pas) d’une adhésion plus explicite aux propositions
-               développées dans les mémoires échangés à <placeName ref="#loc.60"
-               >Troppau</placeName>, le <rs ref="#p.15">Roi</rs> se réserve de faire dépendre cette
+               développées dans les mémoires échangés à <placeName ref="#loc.60">Troppau</placeName>, le <rs ref="#p.15">Roi</rs> se réserve de faire dépendre cette
                adhésion en premier lieu<pb n="93r"/> de la nature des moyens que les Cours Alliées
                présenteront pour arrêter l’explosion révolutionnaire dans les
                   <country>Deux-Siciles</country> et ensuite du but qu’elles se proposeront
@@ -612,13 +584,11 @@
                   Timmermann, Die „Gemäßigte Monarchie“; BFSP Bd. 6 (1819/20), S. 237–279; Brand,
                   Schlegelmilch, Kirsch (Hgg.), Quellen. Zur Revolution vgl. Späth, Revolution in
                   Europa, S. 117–128.</note>, <rs xml:id="n.6">ceux du <date when="1820-07-02">2
-                     Juillet</date> à Naples</rs><note type="editorial" target="#n.6">Am <date
-                     when="1820-07-02">2. Juli 1820</date> meuterte die Militärgarnison in Nola, 35
+                     Juillet</date> à Naples</rs><note type="editorial" target="#n.6">Am <date when="1820-07-02">2. Juli 1820</date> meuterte die Militärgarnison in Nola, 35
                   km von <placeName ref="#loc.11">Neapel</placeName> entfernt. Das Datum gilt als
                   Beginn der Revolution im <country>Königreich beider Sizilien</country>. Vgl.
                   Stites, The four Horsemen; Davis, Naples and Napoleon; Gin, Sanfedisti, Carbonari,
-                  Magistrati del Re; Späth, Revolution in Europa, S. 129–149.</note> , la <rs
-                  xml:id="n.7">catastrophe du Portugal</rs><note type="editorial" target="#n.7">In
+                  Magistrati del Re; Späth, Revolution in Europa, S. 129–149.</note> , la <rs xml:id="n.7">catastrophe du Portugal</rs><note type="editorial" target="#n.7">In
                   Portugal war am <date when="1280-08-24">24. August 1820</date> ebenfalls eine
                   Revolution ausgebrochen; vgl. Birmingham, A Concise History, S. 111–113.</note>
                devoient nécessairement faire naître dans tous les hommes qui veillent à la
@@ -626,8 +596,7 @@
                s’unir et de se concerter pour détourner de l’Europe tous les maux prêts à fondre sur
                elle.</p>
             <p><rs xml:id="n.8">Il étoit naturel que ce besoin et ce sentiment fussent plus vifs
-                  dans les gouvernemens qui naguères avoient vaincu la révolution</rs>,<note
-                  type="editorial" target="#n.8">Anspielung auf die Revolutionskriege und den Sieg
+                  dans les gouvernemens qui naguères avoient vaincu la révolution</rs>,<note type="editorial" target="#n.8">Anspielung auf die Revolutionskriege und den Sieg
                   über <persName ref="#p.50"><forename>Napoleon</forename></persName>.</note> et qui
                la voyoient aujourd’hui reparoître triumphante.</p>
             <p>Il étoit plus naturel encore que, pour la repousser <rs xml:id="n.9">une troisième
@@ -646,8 +615,7 @@
                   <rs ref="#p.50">l’homme de la révolution</rs>, le délivreroit également d’un
                pouvoir nouveau non moins tyrannique et non moins désastreux du pouvoir, du crime et
                de la révolte.</p>
-            <p>Tels ont été les motifs et le but de la réunion de <placeName ref="#loc.60"
-                  >Troppau</placeName>. Les uns doivent être si généralement sentis qu’ils ne
+            <p>Tels ont été les motifs et le but de la réunion de <placeName ref="#loc.60">Troppau</placeName>. Les uns doivent être si généralement sentis qu’ils ne
                demandent pas une plus longue explication. L’autre est si honorable et si utile que
                tous les vœux accompagnent,<pb n="95r"/> sans doute, les Cours Alliées dans leur
                noble entreprise.</p>
@@ -672,18 +640,15 @@
                l’idée de se nuire réciproquement.</p>
             <p>Ce fait irréfragable devoit être le point de départ des Cabinets Alliés. En
                conséquence, <rs ref="#p.8 #p.40 #p.11 #p.12 #p.136 #p.13 #p.14 #p.121">les
-                  Plénipotentiaires qui pouvoient recevoir à <placeName ref="#loc.60"
-                     >Troppau</placeName> même les ordres de <rs ref="#p.16 #p.18 #p.17">leurs
+                  Plénipotentiaires qui pouvoient recevoir à <placeName ref="#loc.60">Troppau</placeName> même les ordres de <rs ref="#p.16 #p.18 #p.17">leurs
                      Souverains</rs></rs> ont arrêté entr’eux, et soumis aux délibérations des Cours
-               de <placeName ref="#loc.2">Paris</placeName> et de <placeName ref="#loc.8"
-                  >Londres</placeName>, les principes à suivre envers les Etats qui subissent une
+               de <placeName ref="#loc.2">Paris</placeName> et de <placeName ref="#loc.8">Londres</placeName>, les principes à suivre envers les Etats qui subissent une
                altération violente dans la forme de leur régime intérieur, ainsi que les moyens,
                soit de <subst>
                   <del rendition="#s">persuasion</del>
                   <add place="above">conciliation</add>
                </subst>, <ref target="Troppau_Prot_4.xml">soit de force, propres à ramener au sein
-                  de l’alliance ceux de ces Etats sur lesquels on pourroit exercer une action<pb
-                     n="96r"/> salutaire et efficace</ref>.</p>
+                  de l’alliance ceux de ces Etats sur lesquels on pourroit exercer une action<pb n="96r"/> salutaire et efficace</ref>.</p>
             <p>Comme la révolution de <country>Naples</country> jette tous les jours des racines
                plus profondes, <subst>
                   <del rendition="#s">il a été proposé</del>
@@ -693,9 +658,7 @@
                      nécessité</add>
                </subst> de faire au <country>Royaume des Deux-Siciles</country> l’application
                immédiate des principes qui viennent d’être indiqués.</p>
-            <p>Afin d’entamer à son égard les mesures de conciliation, <rs
-                  rendition="#p.16 #p.18 #p.17">les Souverains présens à <placeName
-                     rendition="#loc.60">Troppau</placeName></rs> ont adressé à <rs ref="#p.138"><choice>
+            <p>Afin d’entamer à son égard les mesures de conciliation, <rs rendition="#p.16 #p.18 #p.17">les Souverains présens à <placeName rendition="#loc.60">Troppau</placeName></rs> ont adressé à <rs ref="#p.138"><choice>
                      <abbr>S. M.</abbr>
                      <expan>Sa Majesté</expan>
                   </choice> Sicilienne</rs> l’invitation de se <subst>
@@ -705,11 +668,8 @@
                été d’affranchir la volonté de <rs ref="#p.138">Sa Majesté</rs> et de l’engager à
                interposer Sa médiation entre Ses peuples égarés et les pays dont ils compromettent
                le repos.</p>
-            <p>Décidés à ne point reconnoître les gouvernemens enfantés par la sédition, <ref
-                  target="Troppau_Prot_4.xml"><rs ref="#p.16 #p.18 #p.17">les Souverains</rs> ne
-                  pouvoient entrer en rapport qu’avec la personne du <rs ref="#p.138">Roi</rs>. <rs
-                     ref="#p.144 #p.148 #p.149">Leurs Ministres à <placeName ref="#loc.11"
-                        >Naples</placeName></rs></ref> ont reçu des ordres analogues.</p>
+            <p>Décidés à ne point reconnoître les gouvernemens enfantés par la sédition, <ref target="Troppau_Prot_4.xml"><rs ref="#p.16 #p.18 #p.17">les Souverains</rs> ne
+                  pouvoient entrer en rapport qu’avec la personne du <rs ref="#p.138">Roi</rs>. <rs ref="#p.144 #p.148 #p.149">Leurs Ministres à <placeName ref="#loc.11">Naples</placeName></rs></ref> ont reçu des ordres analogues.</p>
             <pb n="96v"/>
             <p>La <country>France</country> et l’<country>Angleterre</country> ont été invitées à se
                joindre à cette démarche ; <subst>
@@ -720,12 +680,10 @@
                aux traités solemnellement ratifiés par ces deux puissances, et qu’elle offre le gage
                assuré des vues les plus justes et les plus pacifiques.</p>
             <p>Le système concerté entre l’Autriche, la Prusse et la Russie n’est point un système
-               nouveau ; il ne présente qu’une application fidèle des maximes consacrées par les <rs
-                  ref="#t.6 #t.42">transactions qui ont fondé l’alliance générale</rs>.</p>
+               nouveau ; il ne présente qu’une application fidèle des maximes consacrées par les <rs ref="#t.6 #t.42">transactions qui ont fondé l’alliance générale</rs>.</p>
             <p>Loin d’affoiblir l’union intime des Cours qui forment le centre de cette alliance, ce
                système ne peut que la fortifier et la consolider. Elle s’affermira comme elle s’est
-               établie, conçue par les mêmes Cabinets, et successivement adoptée par les<pb n="97r"
-               /> puissances qui en ont reconnu les avantages.</p>
+               établie, conçue par les mêmes Cabinets, et successivement adoptée par les<pb n="97r"/> puissances qui en ont reconnu les avantages.</p>
             <p>La réalité de ces avantages ne sauroit être révoquée en doute. Il est d’ailleurs
                hautement démontré que ce ne sont ni des pensées de conquête, ni le désir de porter
                atteinte à l’indépendance des autres gouvernemens dans ce qui concerne leur
@@ -742,12 +700,10 @@
       </body>
       <back>
          <include xmlns="http://www.w3.org/2001/XInclude" href="listPlace.xml" xpointer="listPlace"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="listPerson.xml"
-            xpointer="listPerson"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listPerson.xml" xpointer="listPerson"/>
          <include xmlns="http://www.w3.org/2001/XInclude" href="listWit.xml" xpointer="listWit"/>
          <include xmlns="http://www.w3.org/2001/XInclude" href="listOrg.xml" xpointer="listOrg"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="listTreaties.xml"
-            xpointer="listTreaties"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listTreaties.xml" xpointer="listTreaties"/>
       </back>
    </text>
 </TEI>

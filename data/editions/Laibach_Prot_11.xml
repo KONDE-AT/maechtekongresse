@@ -1,8 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -134,19 +131,16 @@
          </appInfo>
          <styleDefDecl scheme="css"/>
          <tagsDecl>
-            <rendition xml:id="su">superscript</rendition>
-            <rendition xml:id="s">strikethrough</rendition>
-            <rendition xml:id="u">underline</rendition>
-            <rendition xml:id="r">right</rendition>
+            <rendition xml:id="su" scheme="css">vertical-align:sub; font-size:.7em;</rendition>
+            <rendition xml:id="s" scheme="css">text-decoration:line-through;</rendition>
+            <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
+            <rendition xml:id="r" scheme="css">display:block; text-align:right;</rendition>
          </tagsDecl>
       </encodingDesc>
       <profileDesc>
          <abstract>
-            <p>Der österreichische Außenminister <persName ref="#p.8"
-                  ><surname>Metternich</surname></persName> verliest eine Denkschrift betreffend die
-               militärische Okkupation des <country>Königreichs beider Sizilien</country>. Die <rs
-                  ref="#p.13 #p.14 #p.7 #p.12 #p.160 #p.102 #p.135 #p.137 #p.161 #p.166 #p.167 #p.168 #p.165"
-                  >Vertreter Russlands, Preußens, Frankreichs, Großbritanniens, Sardinien-Piemonts,
+            <p>Der österreichische Außenminister <persName ref="#p.8"><surname>Metternich</surname></persName> verliest eine Denkschrift betreffend die
+               militärische Okkupation des <country>Königreichs beider Sizilien</country>. Die <rs ref="#p.13 #p.14 #p.7 #p.12 #p.160 #p.102 #p.135 #p.137 #p.161 #p.166 #p.167 #p.168 #p.165">Vertreter Russlands, Preußens, Frankreichs, Großbritanniens, Sardinien-Piemonts,
                   der Toskana und Modenas</rs> nehmen dazu Stellung.</p>
          </abstract>
          <particDesc>
@@ -219,8 +213,7 @@
                      <abbr>Nr.</abbr>
                      <expan>Numéro</expan>
                   </choice> XI.</title></p>
-            <p rendition="#u"><placeName ref="#loc.65">Laybach</placeName> le <date
-                  when="1821-02-02">2 Février 1821</date></p>
+            <p rendition="#u"><placeName ref="#loc.65">Laybach</placeName> le <date when="1821-02-02">2 Février 1821</date></p>
             <p><choice>
                   <abbr>Mr.</abbr>
                   <expan>Monsieur</expan>
@@ -248,8 +241,7 @@
             <p>Que dans le cas prévu par l’article 6 des dites propositions, <choice>
                   <abbr>S. M.</abbr>
                   <expan>Sa Majesté</expan>
-               </choice> l’<rs ref="#p.17">Empereur</rs> est prête à partager avec <rs
-                  ref="#p.16 #p.18">Ses Augustes Alliés</rs> la garantie d’un emprunt que des
+               </choice> l’<rs ref="#p.17">Empereur</rs> est prête à partager avec <rs ref="#p.16 #p.18">Ses Augustes Alliés</rs> la garantie d’un emprunt que des
                prêteurs pourroient demander pour fournir au <country>Royaume des<pb n="85v"/>
                   Deux-Siciles</country> les ressources pécuniaires dont la nécessité seroit
                reconnue ;</p>
@@ -267,8 +259,7 @@
                   <abbr>S. M.</abbr>
                   <expan>Sa Majesté</expan>
                </choice> le <rs ref="#p.18">Roi de Prusse</rs> accéderoit aux propositions qui
-               venoient d’être communiquées par le Cabinet d’Autriche <add hand="#G" place="margin"
-                  >pour ce qui regardoit l’occupation Militaire du <country>Royaume de
+               venoient d’être communiquées par le Cabinet d’Autriche <add hand="#G" place="margin">pour ce qui regardoit l’occupation Militaire du <country>Royaume de
                      Naples</country>, et qu’Elle</add> rendroit en même tems une entière justice au
                noble désintéressement dont <choice>
                   <abbr>S. M.</abbr>
@@ -281,8 +272,7 @@
                   <abbr>Mr.</abbr>
                   <expan>Monsieur</expan>
                </choice> le <persName ref="#p.160"><roleName>Comte</roleName>
-                  <persName>de Blacas</persName></persName> a témoigné combien le <rs ref="#p.15"
-                  >Roi</rs>, Son maître, seroit sensible au désintéressement de <choice>
+                  <persName>de Blacas</persName></persName> a témoigné combien le <rs ref="#p.15">Roi</rs>, Son maître, seroit sensible au désintéressement de <choice>
                   <abbr>S. M.</abbr>
                   <expan>Sa Majesté</expan>
                </choice> l’<rs ref="#p.16">Empereur</rs> qui le portoit à renoncer à toute espèce
@@ -297,8 +287,7 @@
                </choice> le <persName ref="#p.160"><roleName>Comte</roleName>
                   <surname>de Blacas</surname></persName> a ajouté que si les circonstances
                rendoient des mesures coercitives nécessaires, la <country>France</country> ne
-               pourroit jamais prendre <add hand="#G" place="above">aucune</add> part à <del
-                  rendition="#s">aucune</del><add hand="#G" place="above">la</add> guerre contre
+               pourroit jamais prendre <add hand="#G" place="above">aucune</add> part à <del rendition="#s">aucune</del><add hand="#G" place="above">la</add> guerre contre
                   <country>Naples</country>.</p>
             <p><rs ref="#p.137"><choice>
                      <abbr>Mr.</abbr>
@@ -332,9 +321,7 @@
                   <expan>Monsieur</expan>
                </choice> le <persName ref="#p.8"><roleName>Prince</roleName>
                   <surname>de Metternich</surname></persName> venoit de communiquer au Congrès
-               parcequ’ils n’avaient pas pour objet la demande d’une intervention directe au <rs
-                  ref="#p.169">Roi</rs>, Son Maître ; mais qu’il ne doutoit pas que cet <rs
-                  ref="#p.169">Auguste Souverain</rs> n’appréciât infiniment les vues sages,
+               parcequ’ils n’avaient pas pour objet la demande d’une intervention directe au <rs ref="#p.169">Roi</rs>, Son Maître ; mais qu’il ne doutoit pas que cet <rs ref="#p.169">Auguste Souverain</rs> n’appréciât infiniment les vues sages,
                généreuses et désintéressées autant que bien conformes à l’intérêt général de
                l’Italie que <rs ref="#p.16" xml:id="n.3"><choice>
                      <abbr>S. M. I. et R. A.</abbr>
@@ -360,18 +347,14 @@
             <p><placeName ref="#loc.65">Laibach</placeName> le <date when="1821-01-29">29 Janvier
                   1821</date>.</p>
             <p>1<hi rendition="#su">o</hi> L’armée autrichienne qui se porte vers le
-                  <country>Royaume de Naples</country>, soit que le succès de la démarche que le <rs
-                  ref="#p.138">Roi</rs> va faire de l’aveu et avec l’appui de <rs
-                  ref="#p.16 #p.18 #p.17">Ses augustes alliés</rs> la mette dans le cas d’entrer en
+                  <country>Royaume de Naples</country>, soit que le succès de la démarche que le <rs ref="#p.138">Roi</rs> va faire de l’aveu et avec l’appui de <rs ref="#p.16 #p.18 #p.17">Ses augustes alliés</rs> la mette dans le cas d’entrer en
                amie dans ce Royaume, soit que le refus d’une soumission spontanée rende tout
                dénouement pacifique impossible, opérera dans l’un et l’autre cas sous la solidarité
                des Puissances alliées, telle qu’elle se trouve définie par les transactions de
-                  <placeName ref="#loc.60">Troppau</placeName> et de <placeName ref="#loc.65"
-                  >Laibach</placeName>.</p>
+                  <placeName ref="#loc.60">Troppau</placeName> et de <placeName ref="#loc.65">Laibach</placeName>.</p>
             <p>Elle ne reconnoîtra d’autres ennemis que ceux qui résistant à la volonté prononcée de
                leur <rs ref="#p.138">Roi</rs>, tenteroient de l’arrêter dans sa marche.</p>
-            <p>2<hi rendition="#su">o</hi> L’armée est ainsi l’auxiliaire du <rs ref="#p.138"
-                  >Roi</rs> et destinée à protéger tout ce qui veut la paix et le bon ordre à
+            <p>2<hi rendition="#su">o</hi> L’armée est ainsi l’auxiliaire du <rs ref="#p.138">Roi</rs> et destinée à protéger tout ce qui veut la paix et le bon ordre à
                   <placeName ref="#loc.11">Naples</placeName> et dans le reste du Royaume.</p>
             <pb n="89v"/>
             <p>3<hi rendition="#su">o</hi> L’<rs ref="#p.16">Empereur</rs> désirant ne pas créer des
@@ -403,13 +386,10 @@
                      <country>Frankreichs</country> nach den Bestimmungen des <rs ref="#t.1">Zweiten
                      Pariser Friedens</rs> vom <date when="1815-11-20">20. November
                   1815</date>.</note></p>
-            <p>À cet effet, une <rs ref="#t.45">convention</rs> sera signée entre l’<rs ref="#p.16"
-                  >Empereur</rs> et le <rs ref="#p.138">Roi</rs> avec la participation des cours
+            <p>À cet effet, une <rs ref="#t.45">convention</rs> sera signée entre l’<rs ref="#p.16">Empereur</rs> et le <rs ref="#p.138">Roi</rs> avec la participation des cours
                alliées.</p>
             <p>La durée de l’occupation sera fixée à 3 années.</p>
-            <p><rs xml:id="n.5">Les Cabinets se réuniront dans le courant de l’année 1822</rs><note
-                  type="editorial" target="#n.5">1822 trat der Kongress von <placeName ref="#loc.68"
-                     >Verona</placeName> zusammen.</note><pb n="90v"/> pour prendre conjointement
+            <p><rs xml:id="n.5">Les Cabinets se réuniront dans le courant de l’année 1822</rs><note type="editorial" target="#n.5">1822 trat der Kongress von <placeName ref="#loc.68">Verona</placeName> zusammen.</note><pb n="90v"/> pour prendre conjointement
                avec <rs ref="#p.138">Sa Majesté Sicilienne</rs> en considération la position
                intérieure du Royaume, afin de décider si ce terme de 3 années pourra être maintenu
                ou s’il doit être prolongé à un laps de tems ultérieur, mais également déterminé.</p>
@@ -456,9 +436,7 @@
                généreuses et bienveillantes dispositions des Puissances Alliées, soit que par une
                aveugle résistance ils provoquent l’emploi de la force des armes.</p>
             <p>L’<rs ref="#p.17">Empereur</rs> a trouvé ces propositions conformes aux<pb n="93v"/>
-               principes arrêtés par les Puissances Alliées dans Leur réunion de <placeName
-                  ref="#loc.60">Troppau</placeName> et consignés au <ref target="Troppau_Prot_4.xml"
-                  >Journal <add place="above"><choice>
+               principes arrêtés par les Puissances Alliées dans Leur réunion de <placeName ref="#loc.60">Troppau</placeName> et consignés au <ref target="Troppau_Prot_4.xml">Journal <add place="above"><choice>
                         <abbr>N<hi rendition="#su">o</hi></abbr>
                         <expan>Numéro</expan>
                      </choice></add> IV de la Conférence du 7/<date when="1820-11-19">19 Novembre
@@ -495,12 +473,10 @@
       </body>
       <back>
          <include xmlns="http://www.w3.org/2001/XInclude" href="listPlace.xml" xpointer="listPlace"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="listPerson.xml"
-            xpointer="listPerson"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listPerson.xml" xpointer="listPerson"/>
          <include xmlns="http://www.w3.org/2001/XInclude" href="listWit.xml" xpointer="listWit"/>
          <include xmlns="http://www.w3.org/2001/XInclude" href="listOrg.xml" xpointer="listOrg"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="listTreaties.xml"
-            xpointer="listTreaties"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listTreaties.xml" xpointer="listTreaties"/>
       </back>
    </text>
 </TEI>

@@ -1,8 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -92,9 +89,9 @@
          </appInfo>
          <styleDefDecl scheme="css"/>
          <tagsDecl>
-            <rendition xml:id="su">superscript</rendition>
-            <rendition xml:id="s">strikethrough</rendition>
-            <rendition xml:id="u">underline</rendition>
+            <rendition xml:id="su" scheme="css">vertical-align:sub; font-size:.7em;</rendition>
+            <rendition xml:id="s" scheme="css">text-decoration:line-through;</rendition>
+            <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
             <rendition xml:id="ow">overwritten</rendition>
             <rendition xml:id="italic">italic</rendition>
             <rendition xml:id="allcaps">allcaps</rendition>
@@ -104,8 +101,7 @@
          <abstract>
             <p>Die <rs ref="#p.8 #p.1 #p.9 #p.10 #p.11 #p.12 #p.13 #p.14">Vertreter der Mächte</rs>
                regeln die Verlängerung der Zahlungsfrist für <country>Frankreich</country> und
-               beschließen, ein diesbezügliches Protokoll zu verfassen, welches an die <rs
-                  ref="#t.10">Konvention vom <date when="1818-10-09">9. Oktober 1818</date></rs> als
+               beschließen, ein diesbezügliches Protokoll zu verfassen, welches an die <rs ref="#t.10">Konvention vom <date when="1818-10-09">9. Oktober 1818</date></rs> als
                zusätzlicher Artikel angehängt wird.</p>
          </abstract>
          <particDesc>
@@ -157,14 +153,12 @@
                      <abbr>Mrs.</abbr>
                      <expan>Messieurs</expan>
                   </choice> les Plénipotentiaires</rs> ayant désiré que les motifs qui les ont
-               déterminés à prolonger les termes des payemens, stipulés dans la <rs ref="#t.10"
-                  >Convention du <date when="1818-10-09">9 Octobre</date></rs>, fussent développés
+               déterminés à prolonger les termes des payemens, stipulés dans la <rs ref="#t.10">Convention du <date when="1818-10-09">9 Octobre</date></rs>, fussent développés
                dans un Protocole séparé, cette pièce a été lue à la Conférence ; et ayant obtenu
                l’approbation unanime, on est convenu que, pour en faciliter la communication, elle
                seroit imprimée en forme d’un Extrait du Protocole. Et comme il a été jugé nécessaire
                de consigner dans un acte formel la résolution des puissances relativement à la dite
-               prolongation des termes des payemens, <rs
-                  ref="#p.8 #p.1 #p.9 #p.10 #p.11 #p.12 #p.13 #p.14"><choice>
+               prolongation des termes des payemens, <rs ref="#p.8 #p.1 #p.9 #p.10 #p.11 #p.12 #p.13 #p.14"><choice>
                      <abbr>Mrs.</abbr>
                      <expan>Messieurs</expan>
                   </choice> les Plénipotentiaires</rs> ont adopté pour cet effet la forme d’un
@@ -190,8 +184,7 @@
                      du <date when="1818-10-09">9 Octobre</date></rs></title></p>
             <p><placeName ref="#loc.1">Aix-la-Chapelle</placeName> le <date when="1818-11-19">19
                   Novembre 1818</date>.</p>
-            <p>Les Hautes parties signataires de la <rs ref="#t.10">Convention du <date
-                     when="1818-10-09">9 Octobre</date></rs>, ayant reconnu d’un commun accord que,
+            <p>Les Hautes parties signataires de la <rs ref="#t.10">Convention du <date when="1818-10-09">9 Octobre</date></rs>, ayant reconnu d’un commun accord que,
                vu les circonstances qui ont influé en dernier lieu sur l’état de la circulation et
                la valeur des rentes à <placeName ref="#loc.2">Paris</placeName>, il est de leur
                intérêt réciproque d’admettre dans les termes des payemens, stipulés par les articles
@@ -203,8 +196,7 @@
                dans la <rs ref="#t.10">convention du <date when="1818-10-09">9 Octobre</date></rs>,
                ni a aucune autre disposition de ce traité ; lequel toutefois ne sera exécuté qu’avec
                les modifications ci-dessus mentionnées.</p>
-            <p>Le présent Protocole aura la force et valeur d’un article additionnel à la <rs
-                  ref="#t.10">convention du <date when="1818-10-09">9 Octobre</date></rs> et sera
+            <p>Le présent Protocole aura la force et valeur d’un article additionnel à la <rs ref="#t.10">convention du <date when="1818-10-09">9 Octobre</date></rs> et sera
                considéré comme tel, et signé Quintuple par les Hautes puissances signataires de
                cette convention.</p>
             <signed>
@@ -221,12 +213,10 @@
       </body>
       <back>
          <include xmlns="http://www.w3.org/2001/XInclude" href="listPlace.xml" xpointer="listPlace"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="listPerson.xml"
-            xpointer="listPerson"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listPerson.xml" xpointer="listPerson"/>
          <include xmlns="http://www.w3.org/2001/XInclude" href="listWit.xml" xpointer="listWit"/>
          <include xmlns="http://www.w3.org/2001/XInclude" href="listOrg.xml" xpointer="listOrg"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="listTreaties.xml"
-            xpointer="listTreaties"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listTreaties.xml" xpointer="listTreaties"/>
       </back>
    </text>
 </TEI>

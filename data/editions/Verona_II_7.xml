@@ -1,8 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -43,8 +40,7 @@
                </msContents>
                <physDesc>
                   <p>Lithographie</p>
-                  <p>Procès-Verbal liegt zweifach ein: handschriftliches Konzept von <persName
-                        ref="#p.5"><surname>Gentz</surname></persName> fol. II/70, lithographiert
+                  <p>Procès-Verbal liegt zweifach ein: handschriftliches Konzept von <persName ref="#p.5"><surname>Gentz</surname></persName> fol. II/70, lithographiert
                      fol. II/71; die Edition folgt der lithographierten Variante. Zählung mit rotem
                      Buntstift rechts oben auf fol. 70r: "6".</p>
 
@@ -205,17 +201,16 @@
          </appInfo>
          <styleDefDecl scheme="css"/>
          <tagsDecl>
-            <rendition xml:id="su">superscript</rendition>
-            <rendition xml:id="s">strikethrough</rendition>
-            <rendition xml:id="u">underline</rendition>
+            <rendition xml:id="su" scheme="css">vertical-align:sub; font-size:.7em;</rendition>
+            <rendition xml:id="s" scheme="css">text-decoration:line-through;</rendition>
+            <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
             <rendition xml:id="ow">overwritten</rendition>
          </tagsDecl>
       </encodingDesc>
       <profileDesc>
          <abstract>
             <p>Die <rs ref="#p.168 #p.185 #p.183 #p.186 #p.165 #p.164">Vertreter der italienischen
-                  Höfe</rs> verlesen ihre Entgegnungen auf die in der <ref target="Verona_II_5">Sitzung vom <date
-                  when="1822-12-11">11. Dezember</date></ref> zur Kenntnis gebrachte Erklärung der
+                  Höfe</rs> verlesen ihre Entgegnungen auf die in der <ref target="Verona_II_5">Sitzung vom <date when="1822-12-11">11. Dezember</date></ref> zur Kenntnis gebrachte Erklärung der
                alliierten Bevollmächtigten.</p>
          </abstract>
          <particDesc>
@@ -254,17 +249,14 @@
             <p><title>de la seconde Conférence realtive aux affaires d’Italie.</title></p>
             <p><placeName ref="#loc.68">Vérone</placeName> le <date when="1822-12-13">13 Décembre
                   1822</date>.</p>
-            <p>La Conférence de ce jour a commencé par la lecture du <ref target="Verona_II_5.xml"
-                  >Procès-Verbal de celle du <date when="1822-12-11">11 Décembre</date></ref>.</p>
+            <p>La Conférence de ce jour a commencé par la lecture du <ref target="Verona_II_5.xml">Procès-Verbal de celle du <date when="1822-12-11">11 Décembre</date></ref>.</p>
             <p>À la suite de cette lecture, <choice>
                   <abbr>Ms<hi rendition="#su">s</hi></abbr>
                   <expan>Messieurs</expan>
                </choice> les <rs ref="#p.168 #p.185 #p.183 #p.186 #p.165 #p.164">Plénipotentiaires
-                  des Cours d’Italie</rs> ont remis, en réponse à la déclaration des <rs
-                  ref="#p.8 #p.40 #p.13 #p.35 #p.75 #p.175">Ministres d’Autriche, de Russie et de
+                  des Cours d’Italie</rs> ont remis, en réponse à la déclaration des <rs ref="#p.8 #p.40 #p.13 #p.35 #p.75 #p.175">Ministres d’Autriche, de Russie et de
                   Prusse</rs>, consignée au Procès-verbal précédent, les <rs xml:id="n.1"><ref target="#m.2 #m.3 #m.4 #m.5 #m.6">notes qui
-                  se trouvent ci-annexées sub A–E</ref></rs>.<note type="editorial" target="#n.1">Der Vertreter Parmas, <persName ref="#p.184"
-                        ><surname>Neipperg</surname></persName>, legt zwar eine Note vor, scheint
+                  se trouvent ci-annexées sub A–E</ref></rs>.<note type="editorial" target="#n.1">Der Vertreter Parmas, <persName ref="#p.184"><surname>Neipperg</surname></persName>, legt zwar eine Note vor, scheint
                   jedoch nicht unter den Sitzungsteilnehmern auf.</note>
             </p>
             <p><choice>
@@ -348,9 +340,7 @@
             <p>Les sentimens exprimés par la <ref target="Verona_II_5.xml">Déclaration des Cours
                   d’Autriche, de Prusse et de Russie à la Conférence du <date when="1822-12-11">11
                      courant</date></ref> sont en harmonie avec les principes généreux que ces
-               Puissances ont mis en pratique en faveur de l’Italie. Celle-ci dut son salut <rs
-                  xml:id="n.2">en 1820</rs><note type="editorial" target="#n.2">Am <date
-                     when="1820-07-02">2. Juli 1820</date> meuterte die Militärgarnison in Nola, 35
+               Puissances ont mis en pratique en faveur de l’Italie. Celle-ci dut son salut <rs xml:id="n.2">en 1820</rs><note type="editorial" target="#n.2">Am <date when="1820-07-02">2. Juli 1820</date> meuterte die Militärgarnison in Nola, 35
                   km von <placeName ref="#loc.11">Neapel</placeName> entfernt. Das Datum gilt als
                   Beginn der Revolution im <country>Königreich beider Sizilien</country>. Vgl.
                   Stites, The four Horsemen; Davis, Naples and Napoleon; Gin, Sanfedisti, Carbonari,
@@ -371,14 +361,12 @@
                prévenu le désir des Puissances de sorte que pour se conformer à leur vœu, ce
                Gouvernement n’a qu’à suivre invariablement la marche qu’il a adoptée depuis
                plusieurs années.</p>
-            <p>L’Etat de l’Eglise jouit maintenant d’une parfaite tranquillité. L’amour pour le <rs
-                  ref="#p.155">Souverain</rs>, ce sentiment qui ne se commande pas et que le Peuple
+            <p>L’Etat de l’Eglise jouit maintenant d’une parfaite tranquillité. L’amour pour le <rs ref="#p.155">Souverain</rs>, ce sentiment qui ne se commande pas et que le Peuple
                montre toujours et<pb n="72v"/> partout pour le <rs ref="#p.155">Saint Père</rs>, en
                est le plus sûr garant.</p>
             <p>Une telle affection est l’effet des vertus apostoliques du <rs ref="#p.155">Souverain
                   Pontife</rs> et de la sagesse de Son Gouvernement. Les soins redoublés pour
-               diriger l’instruction publique vers son but véritable, la loi dite <rs xml:id="n.3"
-                  >Motu proprio du <date when="1816-07-06"><choice>
+               diriger l’instruction publique vers son but véritable, la loi dite <rs xml:id="n.3">Motu proprio du <date when="1816-07-06"><choice>
                         <sic>16</sic>
                         <corr>6</corr>
                      </choice> Juillet 1816</date></rs><note type="editorial" target="#n.3">Moto
@@ -420,8 +408,7 @@
                   <rs ref="#p.170">Son Altesse Impériale et Royale</rs> comme la garantie la plus
                solide de la tranquillité future et du bien-être de la Péninsule Italienne.</p>
             <p>Quant à l’objet de la circulaire adressée par les Cours de Russie, d’Autriche et de
-               Prusse à Leurs Ministres près les Gouvernements d’Italie en 1821 <ref
-                  target="Verona_II_5.xml">et dont on a répété le contenu dans la dernière
+               Prusse à Leurs Ministres près les Gouvernements d’Italie en 1821 <ref target="Verona_II_5.xml">et dont on a répété le contenu dans la dernière
                   Conférence</ref>, <rs ref="#p.170">Son Altesse Impériale et Royale</rs> ne pourra
                qu’applaudir aux principes salutaires qui y sont rappelés. Ces principes sont
                entièrement partagés par Elle.</p>
@@ -471,8 +458,7 @@
                   <abbr>M<hi rendition="#su">gr</hi></abbr>
                   <expan>Monseigneur</expan>
                </choice> l’Archiduc <rs ref="#p.171">Duc de Modène</rs>, Son Auguste Maître, les
-                  <ref target="Verona_II_5.xml">communications faites à la Conférence du jour <date
-                     when="1822-12-11">11 Décembre</date></ref>, est autorisé à faire la Déclaration
+                  <ref target="Verona_II_5.xml">communications faites à la Conférence du jour <date when="1822-12-11">11 Décembre</date></ref>, est autorisé à faire la Déclaration
                suivante.</p>
             <p>L’Archiduc <rs ref="#p.171">Duc de Modène</rs>, appréciant les motifs des arrangemens
                pris avec <choice>
@@ -482,8 +468,7 @@
                      <abbr>S. M.</abbr>
                      <expan>Sa Majesté</expan>
                   </choice> Sicilienne</rs>, n’a aucune remarque à faire là-dessus.</p>
-            <p>L’Archiduc <rs ref="#p.171">Duc de Modène</rs> voit avec reconnaissance que les <rs
-                  ref="#p.16 #p.17 #p.18">Monarques Alliés</rs> consacrent toujours Leurs
+            <p>L’Archiduc <rs ref="#p.171">Duc de Modène</rs> voit avec reconnaissance que les <rs ref="#p.16 #p.17 #p.18">Monarques Alliés</rs> consacrent toujours Leurs
                sollicitudes à la conservation de l’ordre et de la tranquillité en Italie, et
                s’empressera toujours à y coopérer de Son côté par l’introduction dans Ses Etats des
                améliorations les plus propres à obtenir ce but, et par le meilleur accord avec les
@@ -493,8 +478,7 @@
                de la part de <choice>
                   <abbr>S. A. R.</abbr>
                   <expan>Son Altesse Royale</expan>
-               </choice> Madame l’<persName ref="#p.187"
-                     ><roleName>Archiduchesse</roleName><forename>
+               </choice> Madame l’<persName ref="#p.187"><roleName>Archiduchesse</roleName><forename>
                   Marie-Béatrix</forename></persName>, Duchesse de Masse et de Carrare.</p>
             <p>De Son côté, l’Archiduc <rs ref="#p.171">Duc de Modène</rs>, persuadé de la nécessité
                d’affermir les principes de l’ordre public, serait d’avis qu’il faudrait s’occuper
@@ -525,10 +509,8 @@
                aux poursuites de la justice sortant de l’Etat auquel ils appartiennent, et surtout
                jusqu’à ce que les <rs xml:id="n.4">révolutions d’<country>Espagne</country> et de
                      <country>Portugal</country></rs><note type="editorial" target="#n.4">Zur
-                  Revolution in <country>Spanien</country>, die mit einem Militäraufstand am <date
-                     when="1820-01-01">1. Jänner 1820</date> ihren Anfang nahm, vgl. Späth,
-                  Revolution in Europa, S. 117–128. In <country>Portugal</country> war am <date
-                     when="1820-08-24">24. August 1820</date> eine Revolution ausgebrochen; vgl.
+                  Revolution in <country>Spanien</country>, die mit einem Militäraufstand am <date when="1820-01-01">1. Jänner 1820</date> ihren Anfang nahm, vgl. Späth,
+                  Revolution in Europa, S. 117–128. In <country>Portugal</country> war am <date when="1820-08-24">24. August 1820</date> eine Revolution ausgebrochen; vgl.
                   Birmingham, A Concise History, S. 111–113. </note> ne soient comprimées, car il ne
                serait pas possible de garantir à l’avenir l’Italie de leur pernicieuse influence
                dont <choice>
@@ -542,11 +524,9 @@
             <p><title>Déclaration de <choice>
                      <abbr>M<hi rendition="#su">r</hi></abbr>
                      <expan>Monsieur</expan>
-                  </choice> le <rs ref="#p.184">Plénipotentiaire</rs> de Sa Majesté Madame l’Archiduchesse <rs ref="#p.188"
-                     >Duchesse de Parme</rs></title>
+                  </choice> le <rs ref="#p.184">Plénipotentiaire</rs> de Sa Majesté Madame l’Archiduchesse <rs ref="#p.188">Duchesse de Parme</rs></title>
             </p>
-            <p rendition="#u"><placeName ref="#loc.68">Vérone</placeName> le <date when="1822-12-13"
-                  >13 Décembre 1822</date>.</p>
+            <p rendition="#u"><placeName ref="#loc.68">Vérone</placeName> le <date when="1822-12-13">13 Décembre 1822</date>.</p>
             <p>Le <rs ref="#p.184">Soussigné</rs>, Chevalier d’honneur de <choice>
                   <abbr>S. M.</abbr>
                   <expan>Sa Majesté</expan>
@@ -575,10 +555,8 @@
                reconnaissance bien profond les sollicitudes constantes des Hautes Puissances Alliées
                pour le maintien de la paix générale en Europe et de la tranquillité particulière de
                l’Italie.</p>
-            <p><rs xml:id="n.5">Pendant les troubles éclatés à <country>Naples</country></rs><note
-                  type="editorial" target="#n.5">Am <date when="1820-07-02">2. Juli 1820</date>
-                  meuterte die Militärgarnison in Nola, 35 km von <placeName ref="#loc.11"
-                     >Neapel</placeName> entfernt. Das Datum gilt als Beginn der Revolution im
+            <p><rs xml:id="n.5">Pendant les troubles éclatés à <country>Naples</country></rs><note type="editorial" target="#n.5">Am <date when="1820-07-02">2. Juli 1820</date>
+                  meuterte die Militärgarnison in Nola, 35 km von <placeName ref="#loc.11">Neapel</placeName> entfernt. Das Datum gilt als Beginn der Revolution im
                      <country>Königreich beider Sizilien</country>. Vgl. Stites, The four Horsemen;
                   Davis, Naples and Napoleon; Gin, Sanfedisti, Carbonari, Magistrati del Re; Späth,
                   Revolution in Europa, S. 129–149. Zur Reaktion der Großmächte vgl. zuletzt
@@ -606,8 +584,7 @@
                   </choice></rs> et composé des premiers Magistrats et des grands Propriétaires
                Nobles du Pays, un Sistème municipal<pb n="80v"/> qui laisse aux Communes une grande
                latitude dans leur administration particulière, la diminution des impôts, la
-               liquidation de la dette publique de deux millions et demi de francs dont <rs
-                  ref="#p.188"><choice>
+               liquidation de la dette publique de deux millions et demi de francs dont <rs ref="#p.188"><choice>
                      <abbr>S. M.</abbr>
                      <expan>Sa Majesté</expan>
                   </choice></rs> s’est chargée et qui sera acquittée l’année 1826, la création d’un
@@ -658,11 +635,8 @@
                   <expan>Sa Majesté</expan>
                </choice>
                <rs ref="#p.189">la Duchesse</rs> ne pourra apprendre qu’avec beaucoup de
-               satisfaction et le plus vif intérêt les résolutions qui ont été communiquées à <rs
-                  ref="#p.183">Son Plénipotentiaire</rs> dans la <ref target="Verona_II_5.xml"
-                  >Conférence du <date when="1822-12-11">11 Décembre</date></ref>, et ne pourra voir
-               dans ces résolutions que le fruit des sages mesures adoptées par <rs
-                  ref="#p.138 #p.172">Leurs Majestés Sicilienne et Sarde</rs> pour combattre la
+               satisfaction et le plus vif intérêt les résolutions qui ont été communiquées à <rs ref="#p.183">Son Plénipotentiaire</rs> dans la <ref target="Verona_II_5.xml">Conférence du <date when="1822-12-11">11 Décembre</date></ref>, et ne pourra voir
+               dans ces résolutions que le fruit des sages mesures adoptées par <rs ref="#p.138 #p.172">Leurs Majestés Sicilienne et Sarde</rs> pour combattre la
                révolution et ramener le bonheur dans Leurs Etats, et les soins généreux et
                bienveillans des hautes Puissances alliées pour la prospérité des Trônes et celle des
                Peuples d’Italie.</p>
@@ -691,18 +665,15 @@
                reconnaissance pour le témoignage de confiance qu’Elles viennent de donner aux
                Souverains d’Italie, et pour les soins qu’Elles ne cessent de vouer à consolider un
                ordre de choses sur lesquelles repose le bonheur des Gouvernans et des Gouvernés.</p>
-            <p rendition="#u"><placeName ref="#loc.68">Vérone</placeName> le <date when="1822-12-13"
-                  >13 Décembre 1822</date>.</p>
+            <p rendition="#u"><placeName ref="#loc.68">Vérone</placeName> le <date when="1822-12-13">13 Décembre 1822</date>.</p>
          </div>
       </body>
       <back>
          <include xmlns="http://www.w3.org/2001/XInclude" href="listPlace.xml" xpointer="listPlace"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="listPerson.xml"
-            xpointer="listPerson"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listPerson.xml" xpointer="listPerson"/>
          <include xmlns="http://www.w3.org/2001/XInclude" href="listWit.xml" xpointer="listWit"/>
          <include xmlns="http://www.w3.org/2001/XInclude" href="listOrg.xml" xpointer="listOrg"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="listTreaties.xml"
-            xpointer="listTreaties"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listTreaties.xml" xpointer="listTreaties"/>
       </back>
    </text>
 </TEI>

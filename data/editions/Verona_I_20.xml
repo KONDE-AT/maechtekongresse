@@ -1,8 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -72,9 +69,9 @@
          </appInfo>
          <styleDefDecl scheme="css"/>
          <tagsDecl>
-            <rendition xml:id="su">superscript</rendition>
-            <rendition xml:id="s">strikethrough</rendition>
-            <rendition xml:id="u">underline</rendition>
+            <rendition xml:id="su" scheme="css">vertical-align:sub; font-size:.7em;</rendition>
+            <rendition xml:id="s" scheme="css">text-decoration:line-through;</rendition>
+            <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
             <rendition xml:id="ow">overwritten</rendition>
          </tagsDecl>
       </encodingDesc>
@@ -84,8 +81,7 @@
                      <placeName ref="#loc.24">Madrid</placeName></rs>, der dortigen Regierung die
                Besorgnis des <rs ref="#p.15">französischen Königs</rs> über die inneren Zustände
                Spaniens zu übermitteln, die auch die innere Stabilität Frankreichs bedrohen könnten.
-               Für diesen Fall habe sich der <rs ref="#p.15">König</rs> in <placeName ref="#loc.68"
-                  >Verona</placeName> der Unterstützung der dort versammelten Mächtevertreter
+               Für diesen Fall habe sich der <rs ref="#p.15">König</rs> in <placeName ref="#loc.68">Verona</placeName> der Unterstützung der dort versammelten Mächtevertreter
                versichert.</p>
          </abstract>
       </profileDesc>
@@ -98,8 +94,7 @@
                      <abbr>Cab<hi rendition="#su">t</hi></abbr>
                      <expan>Cabinet</expan>
                   </choice> françois.</add></p>
-            <p><title>Cadre d’Instruction pour le <rs ref="#p.123">Ministre de France à <placeName
-                        ref="#loc.24">Madrid</placeName></rs></title>
+            <p><title>Cadre d’Instruction pour le <rs ref="#p.123">Ministre de France à <placeName ref="#loc.24">Madrid</placeName></rs></title>
             </p>
             <p><rs ref="#p.123"><choice>
                      <abbr>M.</abbr>
@@ -140,14 +135,12 @@
                Espagnoles ont été accompagnés de circonstances qui devaient fixer l’attention de
                l’Europe, la position de la<pb n="259v"/>
                <country>France</country> l’obligeoit à y prendre un intérêt particulier : Elle ne
-               pouvoit perdre de vue que la <rs xml:id="n.2">révolution d’Espagne</rs><note
-                  type="editorial" target="#n.2">Zur Revolution in <country>Spanien</country>, die
+               pouvoit perdre de vue que la <rs xml:id="n.2">révolution d’Espagne</rs><note type="editorial" target="#n.2">Zur Revolution in <country>Spanien</country>, die
                   mit einem Militäraufstand am <date when="1820-01-01">1. Jänner 1820</date> ihren
                   Anfang nahm, vgl. Späth, Revolution in Europa, S. 117–128. </note> s’était faite
                sous la plus criminelle comme la plus dangereuse des influences, une insurrection
                militaire. Elle a toutefois respecté le mouvement qui portoit les esprits vers ce
-               qu’ils regardaient comme des améliorations. Heureuse des institutions que Son <rs
-                  ref="#p.15">Roi</rs> lui a données, la France croyoit ne devoir point s’immiscer
+               qu’ils regardaient comme des améliorations. Heureuse des institutions que Son <rs ref="#p.15">Roi</rs> lui a données, la France croyoit ne devoir point s’immiscer
                dans les débats intérieurs d’un païs voisin quand ces débats surtout s’attachaient à
                des changemens dans les formes de son <choice>
                   <abbr>Gouvernem<hi rendition="#su">t</hi></abbr>
@@ -155,8 +148,7 @@
                </choice>.</p>
             <p>Le choc des opinions anciennes et nouvelles a compliqué la révolution d’Espagne. Le
                dogme fatal qui a répandu tant de maux sur l’Europe, en suggérant aux Peuples de
-               fausses &amp; pernicieuses idées sur la nature de leurs droits, a été proclamé ;<pb
-                  n="260r"/> il a dû entraîner après lui de funestes dissentions. La guerre civile a
+               fausses &amp; pernicieuses idées sur la nature de leurs droits, a été proclamé ;<pb n="260r"/> il a dû entraîner après lui de funestes dissentions. La guerre civile a
                éclaté, ce n’est principalement dans les provinces voisines des frontières de la
                   <country>France</country> qu’elle a porté ses ravages. Le <choice>
                   <abbr>Gouvernem<hi rendition="#su">t</hi></abbr>
@@ -188,8 +180,7 @@
                   <expan>gouvernement</expan>
                </choice> du <rs ref="#p.15">Roi</rs> l’intention d’empêcher le développement de ces
                idées en <country>Espagne</country>. Ils ont trouvé en <country>France</country> des
-               esprits exaltés qui ont accueilli leurs préventions et qui, peut-être, ont fondé<pb
-                  n="261r"/> sur l’union des malveillans des deux païs de coupables espérances.</p>
+               esprits exaltés qui ont accueilli leurs préventions et qui, peut-être, ont fondé<pb n="261r"/> sur l’union des malveillans des deux païs de coupables espérances.</p>
             <p>L’effet <choice>
                   <abbr>malheureusem<hi rendition="#su">t</hi></abbr>
                   <expan>malheureusement</expan>
@@ -301,12 +292,10 @@
       </body>
       <back>
          <include xmlns="http://www.w3.org/2001/XInclude" href="listPlace.xml" xpointer="listPlace"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="listPerson.xml"
-            xpointer="listPerson"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listPerson.xml" xpointer="listPerson"/>
          <include xmlns="http://www.w3.org/2001/XInclude" href="listWit.xml" xpointer="listWit"/>
          <include xmlns="http://www.w3.org/2001/XInclude" href="listOrg.xml" xpointer="listOrg"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="listTreaties.xml"
-            xpointer="listTreaties"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listTreaties.xml" xpointer="listTreaties"/>
       </back>
    </text>
 </TEI>

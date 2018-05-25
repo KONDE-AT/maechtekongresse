@@ -1,8 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -87,9 +84,9 @@
          </appInfo>
          <styleDefDecl scheme="css"/>
          <tagsDecl>
-            <rendition xml:id="su">superscript</rendition>
-            <rendition xml:id="s">strikethrough</rendition>
-            <rendition xml:id="u">underline</rendition>
+            <rendition xml:id="su" scheme="css">vertical-align:sub; font-size:.7em;</rendition>
+            <rendition xml:id="s" scheme="css">text-decoration:line-through;</rendition>
+            <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
             <rendition xml:id="ow">overwritten</rendition>
          </tagsDecl>
       </encodingDesc>
@@ -111,8 +108,7 @@
                      <abbr>Nov<hi rendition="#su">b</hi></abbr>
                      <expan>November</expan>
                   </choice> 20<hi rendition="#su">th</hi> 1822</date>.</p>
-            <p>When the Ministers of the five Courts last assembled on the 1<hi rendition="#su"
-                  >st</hi> instant, the object of their common sollicitude was to allay the
+            <p>When the Ministers of the five Courts last assembled on the 1<hi rendition="#su">st</hi> instant, the object of their common sollicitude was to allay the
                irritation existing in <country>Spain</country> against <country>France</country>,
                and to prevent a possible rupture between the two Powers.</p>
             <p>Although <choice>
@@ -129,8 +125,7 @@
                   <abbr>H. Ex<hi rendition="#su">y</hi></abbr>
                   <expan>His Excellency</expan>
                </choice> the <rs ref="#p.174">Minister of France</rs></ref>, yet knowing the anxiety of
-               the <rs ref="#p.130">King</rs> my Master for the honor of <rs ref="#p.15"
-                  xml:id="n.1"><choice>
+               the <rs ref="#p.130">King</rs> my Master for the honor of <rs ref="#p.15" xml:id="n.1"><choice>
                      <abbr>H. M. C. M.</abbr>
                      <expan>His Most Christian Majesty</expan>
                   </choice></rs>,<note type="editorial" target="#n.1">Ehrentitel des Königs von
@@ -155,8 +150,7 @@
                purpose of preserving the general tranquillity.</p>
             <p>The Ministers of the Allied Courts have thought proper to make known to
                   <country>Spain</country> the sentiments of <rs ref="#p.16 #p.18 #p.17 #p.15">their
-                  respective Sovereigns</rs> by <ref
-                  target="Verona_I_19.xml Verona_I_20.xml Verona_I_21.xml Verona_I_22.xml">dispatches addressed to
+                  respective Sovereigns</rs> by <ref target="Verona_I_19.xml Verona_I_20.xml Verona_I_21.xml Verona_I_22.xml">dispatches addressed to
                   the <rs ref="#p.177 #p.178 #p.179 #p.123">Ministers of their several Courts
                      residing at <placeName ref="#loc.24">Madrid</placeName></rs></ref>, instead of
                by official notes, as a mode of communication less formal and affording greater
@@ -232,8 +226,7 @@
                   <expan>Government</expan>
                </choice> are of opinion that to animadvert upon the internal transactions of an
                independent state, unless such transactions affect the essential interests of His
-               Majesty’s subjects,<pb n="384v"/> is inconsistent with those principles on which <rs
-                  ref="#p.130">His Majesty</rs> has invariably acted on all questions relating to
+               Majesty’s subjects,<pb n="384v"/> is inconsistent with those principles on which <rs ref="#p.130">His Majesty</rs> has invariably acted on all questions relating to
                the internal concerns of other Countries; that such animadversions, if made, must
                involve <rs ref="#p.130"><choice>
                      <abbr>H. M.</abbr>
@@ -249,8 +242,7 @@
                   <abbr>Gov<hi rendition="#su">t</hi></abbr>
                   <expan>Government</expan>
                </choice> must therefore decline to advise <rs ref="#p.130">His Majesty</rs> to hold
-               a common language with His Allies upon this occasion, and it is so necessary for <rs
-                  ref="#p.130">His <choice>
+               a common language with His Allies upon this occasion, and it is so necessary for <rs ref="#p.130">His <choice>
                      <abbr>Maj<hi rendition="#su">ty</hi></abbr>
                      <expan>Majesty</expan>
                   </choice></rs> not to be supposed to participate in a measure of this description
@@ -265,19 +257,16 @@
                   <expan>Government</expan>
                </choice> on the subject of its relations with <country>France</country>.</p>
             <p><rs ref="#p.130">His Majesty</rs> therefore must limit his exertions and good offices
-               to the endeavours of <rs ref="#p.146">His Minister at <placeName ref="#loc.24"
-                     >Madrid</placeName></rs> to allay the ferment, which these communications must
+               to the endeavours of <rs ref="#p.146">His Minister at <placeName ref="#loc.24">Madrid</placeName></rs> to allay the ferment, which these communications must
                occasion, and to do all the good in his power.</p>
          </div>
       </body>
       <back>
          <include xmlns="http://www.w3.org/2001/XInclude" href="listPlace.xml" xpointer="listPlace"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="listPerson.xml"
-            xpointer="listPerson"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listPerson.xml" xpointer="listPerson"/>
          <include xmlns="http://www.w3.org/2001/XInclude" href="listWit.xml" xpointer="listWit"/>
          <include xmlns="http://www.w3.org/2001/XInclude" href="listOrg.xml" xpointer="listOrg"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="listTreaties.xml"
-            xpointer="listTreaties"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listTreaties.xml" xpointer="listTreaties"/>
       </back>
    </text>
 </TEI>

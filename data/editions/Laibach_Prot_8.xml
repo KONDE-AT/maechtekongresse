@@ -1,8 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -44,8 +41,7 @@
                   <p>Eigenhändiges Journal von <persName ref="#p.5"><forename>Friedrich</forename>
                         <surname>Gentz</surname></persName></p>
                   <p><persName ref="#p.168"><surname>Corsini</surname></persName> auf
-                     Teilnehmerliste von <persName ref="#p.8"
-                        ><surname>Metternich</surname></persName> ergänzt.</p>
+                     Teilnehmerliste von <persName ref="#p.8"><surname>Metternich</surname></persName> ergänzt.</p>
 
                   <handDesc>
                      <handNote xml:id="A">Anonyme Hand</handNote>
@@ -165,22 +161,19 @@
          </appInfo>
          <styleDefDecl scheme="css"/>
          <tagsDecl>
-            <rendition xml:id="su">superscript</rendition>
-            <rendition xml:id="s">strikethrough</rendition>
-            <rendition xml:id="u">underline</rendition>
-            <rendition xml:id="r">right</rendition>
+            <rendition xml:id="su" scheme="css">vertical-align:sub; font-size:.7em;</rendition>
+            <rendition xml:id="s" scheme="css">text-decoration:line-through;</rendition>
+            <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
+            <rendition xml:id="r" scheme="css">display:block; text-align:right;</rendition>
          </tagsDecl>
       </encodingDesc>
       <profileDesc>
          <abstract>
-            <p>Die Journale der sieben ersten Sitzungen werden in Anwesenheit der <rs
-                  ref="#p.164 #p.165 #p.166 #p.167 #p.168">Bevollmächtigten der italienischen
-                  Höfe</rs> verlesen. Der päpstliche Bevollmächtigte, <persName ref="#p.164"
-                     ><roleName>Kardinal</roleName>
+            <p>Die Journale der sieben ersten Sitzungen werden in Anwesenheit der <rs ref="#p.164 #p.165 #p.166 #p.167 #p.168">Bevollmächtigten der italienischen
+                  Höfe</rs> verlesen. Der päpstliche Bevollmächtigte, <persName ref="#p.164"><roleName>Kardinal</roleName>
                   <forename>Giuseppe</forename>
                   <surname>Spina</surname></persName>, verliest eine Erklärung; Entgegnung des
-               russischen Vertreters <persName ref="#p.14"
-                  ><surname>Kapodistrias</surname></persName> sowie des britischen Gesandten
+               russischen Vertreters <persName ref="#p.14"><surname>Kapodistrias</surname></persName> sowie des britischen Gesandten
                   <persName ref="#p.137"><surname>Stewart</surname></persName>. Verlesung je einer
                britischen, sardischen, toskanischen und modenesischen Deklaration.</p>
          </abstract>
@@ -254,8 +247,7 @@
                      <abbr>Nr</abbr>
                      <expan>Numéro</expan>
                   </choice> VIII.</title></p>
-            <p rendition="#u"><placeName ref="#loc.65">Laybach</placeName> le <date
-                  when="1821-01-26">26 Janvier 1821</date></p>
+            <p rendition="#u"><placeName ref="#loc.65">Laybach</placeName> le <date when="1821-01-26">26 Janvier 1821</date></p>
 
             <p>Son Eminence <choice>
                   <abbr>Msgr.</abbr>
@@ -278,9 +270,7 @@
             <p>Pour les mettre au fait des explications réciproques qui depuis l’arrivée de <choice>
                   <abbr>S. M.</abbr>
                   <expan>Sa Majesté</expan>
-               </choice> le <rs ref="#p.138">Roi des Deux-Siciles</rs> à <placeName ref="#loc.65"
-                  >Laybach</placeName> ont eu lieu entre ce Monarque et les <rs
-                  ref="#p.16 #p.18 #p.17">Souverains Alliés</rs>, et des résultats auxquels ont
+               </choice> le <rs ref="#p.138">Roi des Deux-Siciles</rs> à <placeName ref="#loc.65">Laybach</placeName> ont eu lieu entre ce Monarque et les <rs ref="#p.16 #p.18 #p.17">Souverains Alliés</rs>, et des résultats auxquels ont
                conduit les délibérations de <rs ref="#p.8 #p.2 #p.12 #p.7 #p.13 #p.14">leurs
                   Plénipotentiaires</rs> au Congrès, <choice>
                   <abbr>Mr.</abbr>
@@ -311,8 +301,7 @@
                      Cours<pb n="30v"/> d’Italie</rs>, si directement et si fortement intéressées à
                la situation présente et au sort futur du dit Royaume, en autant qu’ils se
                trouveroient d’accord avec la ligne de conduite observée jusqu’ici dans cette affaire
-               et que leurs instructions les y autoriseroient, énonçassent l’assentiment de <rs
-                  ref="#p.155 #p.169 #p.170 #p.171">leurs Souverains</rs> respectifs.</p>
+               et que leurs instructions les y autoriseroient, énonçassent l’assentiment de <rs ref="#p.155 #p.169 #p.170 #p.171">leurs Souverains</rs> respectifs.</p>
             <p><choice>
                   <abbr>Mr.</abbr>
                   <expan>Monsieur</expan>
@@ -326,24 +315,18 @@
                   déclaration</ref> dont la
                teneur suit :</p>
             <p>Les puissances alliées ont invité <rs ref="#p.155">Sa Sainteté</rs> par l’organe de
-                  <rs ref="#p.156 #p.157 #p.158">leurs Ministres à <placeName ref="#loc.6"
-                     >Rome</placeName></rs> à envoyer au Congrès de <placeName ref="#loc.65"
-                  >Laybach</placeName> une personne revêtue de Sa confiance, à l’effet <ref
-                  target="Troppau_Prot_6.xml"><quote>« de se concerter sur les principes à adopter
+                  <rs ref="#p.156 #p.157 #p.158">leurs Ministres à <placeName ref="#loc.6">Rome</placeName></rs> à envoyer au Congrès de <placeName ref="#loc.65">Laybach</placeName> une personne revêtue de Sa confiance, à l’effet <ref target="Troppau_Prot_6.xml"><quote>« de se concerter sur les principes à adopter
                         <metamark rend="Bleistiftstrich" place="margin">pour assurer aux Peuples du
                            <country>Royaume de Naples</country> un gouvernement stable qui offre une
                         garantie d’une tranquillité permanente et générale, sans blesser les
                         intérêts des autres Etats de la Péninsule</metamark> »</quote></ref>. Ce
                n’est que pour cet objet que <rs ref="#p.155">Sa Sainteté</rs> a honoré de Sa
                confiance le <persName ref="#p.164"><roleName>Cardinal</roleName>
-                  <surname>Spina</surname></persName>, Légat<pb n="31r"/> à <placeName ref="#loc.67"
-                  >Bologne</placeName>, et l’a envoyé à <placeName ref="#loc.65"
-               >Laybach</placeName>. Les instructions qu’Il a reçues n’ont pas d’autre but. Le
+                  <surname>Spina</surname></persName>, Légat<pb n="31r"/> à <placeName ref="#loc.67">Bologne</placeName>, et l’a envoyé à <placeName ref="#loc.65">Laybach</placeName>. Les instructions qu’Il a reçues n’ont pas d’autre but. Le
                   <persName ref="#p.164"><roleName>Cardinal</roleName>
                   <surname>Spina</surname></persName> n’est donc point autorisé à donner son avis
                sur les affaires qui ont été traitées dans les conférences, et Il doit d’autant plus
-               Se renfermer dans la ligne de Ses instructions qu’Il connoît la ferme volonté du <rs
-                  ref="#p.155">Saint-Père</rs> de garder, en sa qualité de Souverain temporel, la
+               Se renfermer dans la ligne de Ses instructions qu’Il connoît la ferme volonté du <rs ref="#p.155">Saint-Père</rs> de garder, en sa qualité de Souverain temporel, la
                plus exacte neutralité. Au reste, <rs ref="#p.155">Sa Sainteté</rs> ne peut qu’être
                touchée de l’intérêt que les puissances Alliées mettent à assurer la tranquillité de
                l’Italie, et Elle ne cessera, comme Vicaire d’un Dieu de paix et comme Père commun
@@ -355,21 +338,17 @@
                   <abbr>Mr.</abbr>
                   <expan>Monsieur</expan>
                </choice> le <persName ref="#p.14"><roleName>Comte</roleName>
-                  <surname>de Capodistrias</surname></persName> a fait sur la déclaration de<pb
-                  n="31v"/>
+                  <surname>de Capodistrias</surname></persName> a fait sur la déclaration de<pb n="31v"/>
                <rs ref="#p.164">Son Eminence</rs> les observations suivantes :</p>
             <p><rs ref="#p.155">Sa Sainteté</rs>, en envoyant <choice>
                   <abbr>Msgr.</abbr>
                   <expan>Monseigneur</expan>
-               </choice> le <rs ref="#p.164">Cardinal</rs> à <placeName ref="#loc.65"
-                  >Laybach</placeName> pour y prendre part aux délibérations qui auroient pour objet
+               </choice> le <rs ref="#p.164">Cardinal</rs> à <placeName ref="#loc.65">Laybach</placeName> pour y prendre part aux délibérations qui auroient pour objet
                l’établissement dans le <country>Royaume de Naples</country> d’un ordre de choses
                compatible avec la sureté et la tranquillité de l’Italie, paroît par ce fait même
                avoir admis que les changemens opérés à <placeName ref="#loc.11">Naples</placeName> à
                la suite <rs xml:id="n.2">des évènemens du <date when="1820-07-02">2
-                  Juillet</date></rs><note type="editorial" target="#n.2">Am <date when="1820-07-02"
-                     >2. Juli 1820</date> meuterte die Militärgarnison in Nola, 35 km von <placeName
-                     ref="#loc.11">Neapel</placeName> entfernt. Das Datum gilt als Beginn der
+                  Juillet</date></rs><note type="editorial" target="#n.2">Am <date when="1820-07-02">2. Juli 1820</date> meuterte die Militärgarnison in Nola, 35 km von <placeName ref="#loc.11">Neapel</placeName> entfernt. Das Datum gilt als Beginn der
                   Revolution im <country>Königreich beider Sizilien</country>. Vgl. Stites, The four
                   Horsemen; Davis, Naples and Napoleon; Gin, Sanfedisti, Carbonari, Magistrati del
                   Re; Späth, Revolution in Europa, S. 129–149.</note> sont contraires au repos et au
@@ -395,8 +374,7 @@
                   <expan>Messieurs</expan>
                </choice>
                <rs ref="#p.165 #p.166 #p.167 #p.168">les Plénipotentiaires des Etats d’Italie</rs>
-               que, non-obstant la ligne de conduite adoptée dans ces questions par le <rs
-                  ref="#p.130">Roi</rs>, Son Maitre, et dont il avoit eu l’honneur de les informer,
+               que, non-obstant la ligne de conduite adoptée dans ces questions par le <rs ref="#p.130">Roi</rs>, Son Maitre, et dont il avoit eu l’honneur de les informer,
                Sa Majesté ne regardoit qu’avec la plus grande peine et sollicitude une révolution
                portant évidemment le caractère d’une conspiration occulte et d’une révolte Militaire
                contre un Gouvernement doux et paternel. Il a ajouté qu’il ne doutoit point que le
@@ -410,8 +388,7 @@
                   <surname>de Saint-Marsan</surname></persName>,<pb n="32v"/> Plénipotentiaire de <choice>
                   <abbr>S. M.</abbr>
                   <expan>Sa Majesté</expan>
-               </choice> le <rs ref="#p.169">Roi de Sardaigne</rs>, a fait ensuite <ref decls="#m.3"
-                  >une déclaration</ref> en
+               </choice> le <rs ref="#p.169">Roi de Sardaigne</rs>, a fait ensuite <ref decls="#m.3">une déclaration</ref> en
                ces termes :</p>
             <p>Au premier moment où la révolte de <country>Naples</country> a éclaté, <choice>
                   <abbr>S. M.</abbr>
@@ -472,8 +449,7 @@
                      <abbr>S. A. I. R.</abbr>
                      <expan>Son Altesse Impériale Royale</expan>
                   </choice></rs> avoit envisagé la révolution de <country>Naples</country> sous le
-               même aspect sous lequel l’ont regardée les puissances réunies à <placeName
-                  ref="#loc.60">Troppau</placeName> et ici ;</p>
+               même aspect sous lequel l’ont regardée les puissances réunies à <placeName ref="#loc.60">Troppau</placeName> et ici ;</p>
             <p>Qu’il a vu arriver avec la plus grande satisfaction en Italie une armée Autrichienne
                dont la présence a rassuré les Gouvernemens et réprimé les Malveillans ;</p>
             <p>Que le <rs ref="#p.170">Grand-Duc</rs>, quoique rassuré par la fidélité de son
@@ -519,8 +495,7 @@
                les esprits et arrêté les progrès de la révolution ; et Elle n’a non seulement rien à
                remarquer sur les mesures adoptées par les puissances Alliées pour remettre l’ordre à
                   <country>Naples</country>, mais Elle s’empresse de leur exprimer son entière
-               adhésion, reconnoissant dans la droiture du procédé des <rs ref="#p.16 #p.18 #p.17"
-                  >Monarques Alliés</rs> et dans la sagesse de leurs déterminations l’intérêt qu’Ils
+               adhésion, reconnoissant dans la droiture du procédé des <rs ref="#p.16 #p.18 #p.17">Monarques Alliés</rs> et dans la sagesse de leurs déterminations l’intérêt qu’Ils
                prennent à la tranquillité de l’Italie et les égards éclairés qu’Ils ont voués à la
                situation de <rs ref="#p.138"><choice>
                      <abbr>S. M.</abbr>
@@ -536,9 +511,7 @@
                      <abbr>S. M.</abbr>
                      <expan>Sa Majesté</expan>
                   </choice> Sicilienne</rs> on adressera, conformément au Journal des Conférences,
-               aux <rs ref="#p.144 #p.148 #p.149">agens diplomatiques des <rs
-                     ref="#p.16 #p.18 #p.17">Souverains Alliés</rs> à <placeName ref="#loc.11"
-                     >Naples</placeName></rs>.</p>
+               aux <rs ref="#p.144 #p.148 #p.149">agens diplomatiques des <rs ref="#p.16 #p.18 #p.17">Souverains Alliés</rs> à <placeName ref="#loc.11">Naples</placeName></rs>.</p>
             <p rendition="#r"><add>Lu et Certifié</add></p>
             <p rendition="#r"><add>À la Conférence du <date when="1821-01-28">28
                   Janvier</date></add></p>
@@ -549,18 +522,11 @@
             <pb n="33r"/>
             <p><title>Note verbale</title></p>
             <p>Les Puissances Alliées ont invité <rs ref="#p.155">Sa Sainteté</rs>, par l’organe de
-                  <rs ref="#p.156 #p.157 #p.158">leur Ministres à <placeName ref="#loc.6"
-                     >Rome</placeName></rs>, à envoyer au Congrès de <placeName ref="#loc.65"
-                  >Laybach</placeName> une personne revêtue de sa confiance, à l’effet <hi
-                  rendition="#u">de se concerter sur les principes à adopter pour assurer aux
+                  <rs ref="#p.156 #p.157 #p.158">leur Ministres à <placeName ref="#loc.6">Rome</placeName></rs>, à envoyer au Congrès de <placeName ref="#loc.65">Laybach</placeName> une personne revêtue de sa confiance, à l’effet <hi rendition="#u">de se concerter sur les principes à adopter pour assurer aux
                   Peuples du <country>Royaume de Naples</country> un gouvernement stable qui offre
                   une garantie d’une tranquillité permanente et générale, sans blesser les intérêts
-                  des autres Etats de la Péninsule</hi>. Ce n’est que pour cet objet que <rs
-                  ref="#p.155">Sa Sainteté</rs> a honoré de sa confiance le <persName ref="#p.164"
-                     ><roleName>Cardinal</roleName>
-                  <surname>Spina</surname></persName>, Légat à <placeName ref="#loc.67"
-                  >Bologne</placeName>, et l’a envoyé à <placeName ref="#loc.65"
-               >Laybach</placeName>. Les instructions qu’il a reçu n’ont pas d’autre but. Le
+                  des autres Etats de la Péninsule</hi>. Ce n’est que pour cet objet que <rs ref="#p.155">Sa Sainteté</rs> a honoré de sa confiance le <persName ref="#p.164"><roleName>Cardinal</roleName>
+                  <surname>Spina</surname></persName>, Légat à <placeName ref="#loc.67">Bologne</placeName>, et l’a envoyé à <placeName ref="#loc.65">Laybach</placeName>. Les instructions qu’il a reçu n’ont pas d’autre but. Le
                   <persName ref="#p.164"><roleName>Cardinal</roleName>
                   <surname>Spina</surname></persName> n’est donc point autorisé à donner son avis
                sur les affaires qui ont été traitées dans les conférences, et il doit d’autant plus
@@ -583,8 +549,7 @@
             <pb n="34r"/>
             <p>Au premier moment où <rs xml:id="n.5">la révolte de <country>Naples</country></rs> a
                   éclaté,<note type="editorial" target="#n.5">Am <date when="1820-07-02">2. Juli
-                     1820</date> meuterte die Militärgarnison in Nola, 35 km von <placeName
-                     ref="#loc.11">Neapel</placeName> entfernt. Das Datum gilt als Beginn der
+                     1820</date> meuterte die Militärgarnison in Nola, 35 km von <placeName ref="#loc.11">Neapel</placeName> entfernt. Das Datum gilt als Beginn der
                   Revolution im <country>Königreich beider Sizilien</country>. Vgl. Stites, The four
                   Horsemen; Davis, Naples and Napoleon; Gin, Sanfedisti, Carbonari, Magistrati del
                   Re; Späth, Revolution in Europa, S. 129–149.</note>
@@ -615,8 +580,7 @@
                   <abbr>S. M.</abbr>
                   <expan>Sa Majesté</expan>
                </choice> l’<rs ref="#p.16">Empereur</rs>.</p>
-            <p>Elle n’a ensuite pas mis en doute que les Puissances réunies à <placeName
-                  ref="#loc.60">Troppau</placeName> auraient donné dans cette grave et importante
+            <p>Elle n’a ensuite pas mis en doute que les Puissances réunies à <placeName ref="#loc.60">Troppau</placeName> auraient donné dans cette grave et importante
                circonstance une nouvelle preuve du parfait accord qui règne<pb n="34v"/> entr’elles,
                et de leur ferme volonté de concourir de tous leurs puissans moyens à maintenir la
                paix en Europe, l’indépendance et la stabilité des trônes. Elle a senti l’immense
@@ -688,8 +652,7 @@
                         <abbr>S. A. R.</abbr>
                         <expan>Son Altesse Royale</expan>
                      </choice> l’<rs ref="#p.171">Archiduc Duc de Modène</rs></rs>,</title></p>
-            <p><title>à insérer dans le Journal du Congrès de <placeName ref="#loc.65"
-                     >Laybach</placeName> du <date when="1821-01-26">26 Janvier
+            <p><title>à insérer dans le Journal du Congrès de <placeName ref="#loc.65">Laybach</placeName> du <date when="1821-01-26">26 Janvier
                1821</date></title></p>
             <p>Le <persName ref="#p.165"><roleName>Marquis</roleName>
                   <surname>Molza</surname></persName>, Plénipotentiaire de <choice>
@@ -719,12 +682,10 @@
       </body>
       <back>
          <include xmlns="http://www.w3.org/2001/XInclude" href="listPlace.xml" xpointer="listPlace"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="listPerson.xml"
-            xpointer="listPerson"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listPerson.xml" xpointer="listPerson"/>
          <include xmlns="http://www.w3.org/2001/XInclude" href="listWit.xml" xpointer="listWit"/>
          <include xmlns="http://www.w3.org/2001/XInclude" href="listOrg.xml" xpointer="listOrg"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="listTreaties.xml"
-            xpointer="listTreaties"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listTreaties.xml" xpointer="listTreaties"/>
       </back>
    </text>
 </TEI>

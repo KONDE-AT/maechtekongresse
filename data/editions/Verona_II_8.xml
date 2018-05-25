@@ -1,8 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -43,8 +40,7 @@
                </msContents>
                <physDesc>
                   <p>Lithographie</p>
-                  <p>Procès-Verbal liegt zweifach ein: handschriftliche Variante von <persName
-                        ref="#p.5"><surname>Gentz</surname></persName> fol. II/87 und 93,
+                  <p>Procès-Verbal liegt zweifach ein: handschriftliche Variante von <persName ref="#p.5"><surname>Gentz</surname></persName> fol. II/87 und 93,
                      lithographiert fol. II/89; die Edition folgt der lithographierten Variante.
                      Zählung mit rotem Buntstift oben auf fol. 87r: "7".</p>
 
@@ -99,9 +95,9 @@
          </appInfo>
          <styleDefDecl scheme="css"/>
          <tagsDecl>
-            <rendition xml:id="su">superscript</rendition>
-            <rendition xml:id="s">strikethrough</rendition>
-            <rendition xml:id="u">underline</rendition>
+            <rendition xml:id="su" scheme="css">vertical-align:sub; font-size:.7em;</rendition>
+            <rendition xml:id="s" scheme="css">text-decoration:line-through;</rendition>
+            <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
             <rendition xml:id="ow">overwritten</rendition>
          </tagsDecl>
       </encodingDesc>
@@ -164,8 +160,7 @@
             <p><placeName ref="#loc.68">Vérone</placeName> le <date when="1822-12-14">14 Décembre
                   1822</date>.</p>
             <p>Monsieur le <persName ref="#p.182"><roleName>Comte</roleName>
-                  <surname>de La Tour</surname></persName>, Plénipotentiaire de Sa Majesté le <rs
-                  ref="#p.172">Roi de Sardaigne</rs>, a présenté la <ref decls="#m.2">Note
+                  <surname>de La Tour</surname></persName>, Plénipotentiaire de Sa Majesté le <rs ref="#p.172">Roi de Sardaigne</rs>, a présenté la <ref decls="#m.2">Note
                   ci-jointe</ref> pour informer <choice>
                   <abbr>Mrs.</abbr>
                   <expan>Messieurs</expan>
@@ -173,20 +168,16 @@
                   Cours alliées</rs> de l’inutilité des démarches faites jusqu’ici près de la
                   <country>Confédération suisse</country> pour en obtenir l’éloignement des
                Individus condamnés dans les Etats de <rs ref="#p.172">Sa Majesté Sarde</rs> par
-               suite de la <rs xml:id="n.2">révolte de l’an dernier</rs>,<note type="editorial"
-                  target="#n.2">Im März 1821 war im <country>Königreich Sardinien-Piemont</country>
+               suite de la <rs xml:id="n.2">révolte de l’an dernier</rs>,<note type="editorial" target="#n.2">Im März 1821 war im <country>Königreich Sardinien-Piemont</country>
                   eine Revolution ausgebrochen, die rasch durch österreichische Truppen
                   niedergeschlagen wurde. Vgl. Späth, Revolution in Europa, S. 150–165; Broers,
                   Napoleonic Imperialism; Jarrett, The Congress of Vienna, S. 270–284.</note> et qui
                se sont réfugiés sur le territoire suisse. Cette mesure étant jugée par Sa Majesté le
                   <rs ref="#p.172">Roi de Sardaigne</rs> indispensablement nécessaire pour la
-               tranquillité de Son Royaume, <rs ref="#p.172">Sa Majesté</rs> demande à <rs
-                  ref="#p.16 #p.17 #p.18">Ses augustes alliés</rs> d’adopter tous les moyens qui
+               tranquillité de Son Royaume, <rs ref="#p.172">Sa Majesté</rs> demande à <rs ref="#p.16 #p.17 #p.18">Ses augustes alliés</rs> d’adopter tous les moyens qui
                leur paroîtront convenables dans leur sagesse, afin de déterminer le Gouvernement
-               fédéral de la <country>Suisse</country> à satisfaire aux justes vœux de <rs
-                  ref="#p.172">Sa Majesté Sarde</rs>.</p>
-            <p>Messieurs les Plénipotentiaires ont reconnu que la proposition de Sa Majesté le <rs
-                  ref="#p.172">Roi de Sardaigne</rs> était complètement justifiée par les
+               fédéral de la <country>Suisse</country> à satisfaire aux justes vœux de <rs ref="#p.172">Sa Majesté Sarde</rs>.</p>
+            <p>Messieurs les Plénipotentiaires ont reconnu que la proposition de Sa Majesté le <rs ref="#p.172">Roi de Sardaigne</rs> était complètement justifiée par les
                circonstances alléguées dans la Note de <choice>
                   <abbr>M<hi rendition="#su">r</hi></abbr>
                   <expan>Monsieur</expan>
@@ -200,9 +191,7 @@
                bannis pour délits politiques feroient dans un pays limitrophe, serait en droit de
                faire la même démarche et de demander la même assistance aux Puissances alliées.</p>
             <p>Et afin d’examiner et d’arrêter les moyens d’exécution les plus propres à remplir le
-               but que les Cours alliées ont en vue on est convenu d’adresser aux <rs
-                  ref="#p.2 #p.4 #p.7">Ministres de ces Cours accrédités près Sa Majesté le <rs
-                     ref="#p.15">Roi de France</rs></rs> des Instructions qui les mettront en état
+               but que les Cours alliées ont en vue on est convenu d’adresser aux <rs ref="#p.2 #p.4 #p.7">Ministres de ces Cours accrédités près Sa Majesté le <rs ref="#p.15">Roi de France</rs></rs> des Instructions qui les mettront en état
                de se concerter avec le Ministère Français sur les moyens les plus prompts et les
                plus efficaces pour répondre à la demande de Sa Majesté le <rs ref="#p.172">Roi de
                   Sardaigne</rs>, ainsi que pour appliquer la marche que l’on adoptera pour cet
@@ -236,29 +225,24 @@
                   des Piémontais fugitifs</title></p>
             <p>Les démarches que le <rs ref="#p.172">Roi de Sardaigne</rs> ordonna à Son Ministère
                des Affaires étrangères et à Sa Légation en <country>Suisse</country> pour que les
-               moteurs et les complices de la <rs xml:id="n.3">révolte de l’an dernier</rs><note
-                  type="editorial" target="#n.3">Im März 1821 war im <country>Königreich
+               moteurs et les complices de la <rs xml:id="n.3">révolte de l’an dernier</rs><note type="editorial" target="#n.3">Im März 1821 war im <country>Königreich
                      Sardinien-Piemont</country> eine Revolution ausgebrochen, die rasch durch
                   österreichische Truppen niedergeschlagen wurde. Vgl. Späth, Revolution in Europa,
                   S. 150–165; Broers, Napoleonic Imperialism; Jarrett, The Congress of Vienna, S.
                   270–284.</note> qui s’étoient réfugiés dans le territoire de la Confédération en
                fussent éloignés, sont d’autant plus connues de tous Ses augustes alliés que Leurs
-               Majestés les <rs ref="#p.16 #p.17">Empereurs d’Autriche et de Russie</rs> et le <rs
-                  ref="#p.18">Roi de Prusse</rs> les firent appuyer dans le temps par des notes
+               Majestés les <rs ref="#p.16 #p.17">Empereurs d’Autriche et de Russie</rs> et le <rs ref="#p.18">Roi de Prusse</rs> les firent appuyer dans le temps par des notes
                présentées collectivement en leur nom.</p>
             <p>Ni les unes, ni les autres n’ayant eu jusqu’ici le résultat qu’on devait en attendre,
                le <rs ref="#p.172">Roi de Sardaigne</rs> sent trop combien la tranquillité de
                l’Europe est liée à celle de Son Royaume et des Etats environnant, et désire trop
-               vivement tout ce qui peut concourir au but constant et magnanime des <rs
-                  ref="#p.16 #p.17 #p.18">Monarques Ses Alliés</rs> pour ne pas saisir l’heureuse
-               circonstance de la réunion de leurs Cabinets au Congrès de <placeName ref="#loc.68"
-                  >Vérone</placeName> afin de solliciter toute l’énergie ainsi que tout le poids de
+               vivement tout ce qui peut concourir au but constant et magnanime des <rs ref="#p.16 #p.17 #p.18">Monarques Ses Alliés</rs> pour ne pas saisir l’heureuse
+               circonstance de la réunion de leurs Cabinets au Congrès de <placeName ref="#loc.68">Vérone</placeName> afin de solliciter toute l’énergie ainsi que tout le poids de
                leur coopération pour l’accomplissement d’une mesure si essentielle à la sûreté
                générale.</p>
             <p>Hautement réclamée par l’intérêt des Souverains et des Peuples, elle ne l’est pas
                moins par un véritable sentiment d’humanité envers cette jeunesse partout si aisée à
-               séduire que de perfides insinuations pourroient à l’avenir entraîner au crime ;<pb
-                  n="91v"/> elle est même salutaire aux individus contre lesquels elle est réclamée,
+               séduire que de perfides insinuations pourroient à l’avenir entraîner au crime ;<pb n="91v"/> elle est même salutaire aux individus contre lesquels elle est réclamée,
                puisqu’elle les priveroit de la funeste facilité de devenir plus coupables. En
                arrêtant de dangereuses communications, en réprimant l’audace des factieux, et en
                soutenant le courage des hommes bien intentionnés, cette mesure, si elle reçoit
@@ -266,8 +250,7 @@
                malheurs au nombre desquels on doit sans doute mettre en première ligne la triste
                nécessité de punir.</p>
             <p>Des tentatives réitérées dont on a eu connoissance de la part de ces réfugiés, toutes
-               vaines qu’elles ont été, n’en ont pas moins justifié la prévoyance du <rs
-                  ref="#p.172">Roi</rs> et celle des <rs ref="#p.16 #p.17 #p.18">Monarques qui
+               vaines qu’elles ont été, n’en ont pas moins justifié la prévoyance du <rs ref="#p.172">Roi</rs> et celle des <rs ref="#p.16 #p.17 #p.18">Monarques qui
                   avoient assisté au Congrès de <placeName ref="#loc.65">Laibach</placeName></rs>,
                et on doit s’attendre à les voir sans cesse se renouveler tant que la
                   <country>Suisse</country>, région centrale et attigue au
@@ -292,10 +275,8 @@
             <p><rs ref="#p.182">Le Soussigné</rs>, Ministre et Premier secrétaire d’Etat pour les
                affaires étrangères de Sa Majesté le <rs ref="#p.172">Roi de Sardaigne</rs>, en
                présentant par ordre de Son Auguste Maître cet exposé aux Cabinets réunis à
-                  <placeName ref="#loc.68">Vérone</placeName>, a l’honneur de Les assurer que <rs
-                  ref="#p.172">Sa Majesté</rs> attend avec une entière confiance et recevra avec
-               autant de reconnoissance la communication des moyens que <rs ref="#p.16 #p.17 #p.18"
-                  >Leurs Souverains</rs> adopteront dans leur sagesse tant pour obtenir complètement
+                  <placeName ref="#loc.68">Vérone</placeName>, a l’honneur de Les assurer que <rs ref="#p.172">Sa Majesté</rs> attend avec une entière confiance et recevra avec
+               autant de reconnoissance la communication des moyens que <rs ref="#p.16 #p.17 #p.18">Leurs Souverains</rs> adopteront dans leur sagesse tant pour obtenir complètement
                l’éloignement des Fugitifs piémontais à une grande distance de Ses Etats que pour les
                mettre ensuite dans l’impossibilité d’ourdir, quoique de loin, de nouvelles
                trâmes.</p>
@@ -303,12 +284,10 @@
       </body>
       <back>
          <include xmlns="http://www.w3.org/2001/XInclude" href="listPlace.xml" xpointer="listPlace"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="listPerson.xml"
-            xpointer="listPerson"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listPerson.xml" xpointer="listPerson"/>
          <include xmlns="http://www.w3.org/2001/XInclude" href="listWit.xml" xpointer="listWit"/>
          <include xmlns="http://www.w3.org/2001/XInclude" href="listOrg.xml" xpointer="listOrg"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="listTreaties.xml"
-            xpointer="listTreaties"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listTreaties.xml" xpointer="listTreaties"/>
       </back>
    </text>
 </TEI>

@@ -1,8 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -43,8 +40,7 @@
                </msContents>
                <physDesc>
                   <p>Ausfertigung</p>
-                  <p>Schriftstück liegt zweifach ein: Von <persName ref="#p.5"
-                           ><surname>Gentz</surname></persName> korrigiertes Konzept fol. 233;
+                  <p>Schriftstück liegt zweifach ein: Von <persName ref="#p.5"><surname>Gentz</surname></persName> korrigiertes Konzept fol. 233;
                      Reinschrift fol. 235. Die Transkription folgt der Fassung von fol. 235. Das
                      Schriftstück enthält auch die Zusammenfassungen der Sitzungen vom 18. und 20.
                      November 1822.</p>
@@ -113,17 +109,15 @@
          </appInfo>
          <styleDefDecl scheme="css"/>
          <tagsDecl>
-            <rendition xml:id="su">superscript</rendition>
-            <rendition xml:id="s">strikethrough</rendition>
-            <rendition xml:id="u">underline</rendition>
+            <rendition xml:id="su" scheme="css">vertical-align:sub; font-size:.7em;</rendition>
+            <rendition xml:id="s" scheme="css">text-decoration:line-through;</rendition>
+            <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
             <rendition xml:id="ow">overwritten</rendition>
          </tagsDecl>
       </encodingDesc>
       <profileDesc>
          <abstract>
-            <p>Die <rs
-                  ref="#p.8 #p.40 #p.174 #p.102 #p.135 #p.180 #p.12 #p.175 #p.13 #p.7 #p.35 #p.75"
-                  >Gesandten Österreichs, Frankreichs, Preußens und Russlands</rs> unterzeichnen den
+            <p>Die <rs ref="#p.8 #p.40 #p.174 #p.102 #p.135 #p.180 #p.12 #p.175 #p.13 #p.7 #p.35 #p.75">Gesandten Österreichs, Frankreichs, Preußens und Russlands</rs> unterzeichnen den
                Procès-verbal. Nach Rücksprache mit <persName ref="#p.10">
                   <surname>Wellington</surname></persName> wird über die Abfassung eines umfassenden
                Protokolls (protocole général) betreffend die spanische Frage entschieden werden.</p>
@@ -145,9 +139,7 @@
             <p>Ce soir, <choice>
                   <abbr>MM.</abbr>
                   <expan>Messieurs</expan>
-               </choice> les <rs
-                  ref="#p.8 #p.40 #p.174 #p.102 #p.135 #p.180 #p.12 #p.175 #p.13 #p.7 #p.35 #p.75"
-                  >Plénipotentiaires des Cours d’Autriche, de France, de Prusse et de Russie</rs>
+               </choice> les <rs ref="#p.8 #p.40 #p.174 #p.102 #p.135 #p.180 #p.12 #p.175 #p.13 #p.7 #p.35 #p.75">Plénipotentiaires des Cours d’Autriche, de France, de Prusse et de Russie</rs>
                ont procédé à la signature de l’<ref decls="#m.2">acte en forme de
                   procès-verbale</ref> dont
                la rédaction avoit été arrêtée <ref target="Verona_I_14.xml">dans la conférence
@@ -171,14 +163,10 @@
                   </choice> 13</add></p>
             <p>
                <hi rendition="#u"><title>Procès-Verbal</title></hi>,</p>
-            <p>signé par Messieurs les <rs
-                  ref="#p.8 #p.40 #p.174 #p.102 #p.135 #p.180 #p.12 #p.175 #p.13 #p.7 #p.35 #p.75"
-                  >Plénipotentiaires d’Autriche, de France, de Prusse et de Russie</rs></p>
+            <p>signé par Messieurs les <rs ref="#p.8 #p.40 #p.174 #p.102 #p.135 #p.180 #p.12 #p.175 #p.13 #p.7 #p.35 #p.75">Plénipotentiaires d’Autriche, de France, de Prusse et de Russie</rs></p>
             <p><placeName ref="#loc.68">Vérone</placeName>, le <date when="1822-11-19">19 Novembre
                   1822</date>.</p>
-            <p>Les <rs
-                  ref="#p.8 #p.40 #p.174 #p.102 #p.135 #p.180 #p.12 #p.175 #p.13 #p.7 #p.35 #p.75"
-                  >Plénipotentiaires d’Autriche, de France, de Prusse et de Russie</rs>, ayant jugé
+            <p>Les <rs ref="#p.8 #p.40 #p.174 #p.102 #p.135 #p.180 #p.12 #p.175 #p.13 #p.7 #p.35 #p.75">Plénipotentiaires d’Autriche, de France, de Prusse et de Russie</rs>, ayant jugé
                nécessaire de déterminer les cas dans lesquels les engagemens éventuels pris avec la
                Cour de France par les Cours d’Autriche, de Prusse et de Russie dans la supposition
                d’une guerre déclarée ou provoquée par le Gouvernement <app>
@@ -232,8 +220,7 @@
             <table rend="rules">
                <row>
                   <cell><persName ref="#p.8"><surname>Metternich</surname></persName></cell>
-                  <cell><persName ref="#p.174"><surname ref="#p.174"
-                        >Montmorency</surname></persName></cell>
+                  <cell><persName ref="#p.174"><surname ref="#p.174">Montmorency</surname></persName></cell>
                   <cell><persName ref="#p.12"><surname>Bernstorff</surname></persName></cell>
                   <cell><persName ref="#p.13"><surname>Nesselrode</surname></persName></cell>
                </row>
@@ -268,12 +255,10 @@
       </body>
       <back>
          <include xmlns="http://www.w3.org/2001/XInclude" href="listPlace.xml" xpointer="listPlace"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="listPerson.xml"
-            xpointer="listPerson"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listPerson.xml" xpointer="listPerson"/>
          <include xmlns="http://www.w3.org/2001/XInclude" href="listWit.xml" xpointer="listWit"/>
          <include xmlns="http://www.w3.org/2001/XInclude" href="listOrg.xml" xpointer="listOrg"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="listTreaties.xml"
-            xpointer="listTreaties"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listTreaties.xml" xpointer="listTreaties"/>
       </back>
    </text>
 </TEI>

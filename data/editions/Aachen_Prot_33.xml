@@ -1,8 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -135,9 +132,9 @@
          </appInfo>
          <styleDefDecl scheme="css"/>
          <tagsDecl>
-            <rendition xml:id="su">superscript</rendition>
-            <rendition xml:id="s">strikethrough</rendition>
-            <rendition xml:id="u">underline</rendition>
+            <rendition xml:id="su" scheme="css">vertical-align:sub; font-size:.7em;</rendition>
+            <rendition xml:id="s" scheme="css">text-decoration:line-through;</rendition>
+            <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
             <rendition xml:id="ow">overwritten</rendition>
          </tagsDecl>
       </encodingDesc>
@@ -145,8 +142,7 @@
          <abstract>
             <p>Die Geheimprotokolle vom <date when="1818-11-15">15. November 1818</date> betreffend
                die <rs ref="#t.6">Quadrupelallianz vom <date when="1815-11-20">20. November
-                     1815</date></rs> sowie den Bündnisfall werden von den <rs
-                  ref="#p.8 #p.9 #p.10 #p.11 #p.12 #p.13 #p.14">Gesandten Österreichs,
+                     1815</date></rs> sowie den Bündnisfall werden von den <rs ref="#p.8 #p.9 #p.10 #p.11 #p.12 #p.13 #p.14">Gesandten Österreichs,
                   Großbritannniens, Preußens und Russlands</rs> redigiert sowie paraphiert.</p>
          </abstract>
          <particDesc>
@@ -212,8 +208,7 @@
             <p><choice>
                   <abbr>Mrs</abbr>
                   <expan>Messieurs</expan>
-               </choice> les <rs ref="#p.8 #p.9 #p.10 #p.11 #p.12 #p.13 #p.14"
-                  >Plénipotentiaires</rs> ont paraphé de même <ref decls="#m.3">le
+               </choice> les <rs ref="#p.8 #p.9 #p.10 #p.11 #p.12 #p.13 #p.14">Plénipotentiaires</rs> ont paraphé de même <ref decls="#m.3">le
                   Protocole</ref>
                renfermant les dispositions d’après lesquelles le <rs xml:id="n.3">casus
                   foederis</rs>,<note type="editorial" target="#n.3">Lat.: Bündnisfall.</note> prévu
@@ -243,8 +238,7 @@
             <p><add hand="#AmrB" place="top">17.</add></p>
             <p><title>Protocole,</title></p>
             <p><title>réservé à la connoissance des Puissances Signataires</title></p>
-            <p><title>du <rs ref="#t.6">traité de la Quadruple Alliance</rs> du <date
-                     when="1818-11-15"><subst>
+            <p><title>du <rs ref="#t.6">traité de la Quadruple Alliance</rs> du <date when="1818-11-15"><subst>
                         <del rendition="#ow">20</del>
                         <add>15</add>
                      </subst> Novembre <subst>
@@ -252,12 +246,10 @@
                         <add>1818</add>
                      </subst></date></title></p>
             <p>Conformément à la réserve insérée dans le <ref target="Aachen_Prot_3.xml">Protocole
-                  du <date when="1818-10-01">premier Octobre</date></ref>, les <rs
-                  ref="#p.8 #p.9 #p.10 #p.11 #p.12 #p.13 #p.14">Ministres &amp; Plénipotentiaires
+                  du <date when="1818-10-01">premier Octobre</date></ref>, les <rs ref="#p.8 #p.9 #p.10 #p.11 #p.12 #p.13 #p.14">Ministres &amp; Plénipotentiaires
                   des cours d’Autriche, de la Grande-Bretagne, de Prusse &amp; de Russie</rs> se
                sont réunis en conférence pour discuter les grands intérêts que les hautes parties
-               contractantes ont eu en vue en stipulant les Articles 5 &amp; 6 du <rs ref="#t.6"
-                  >traité de la Quadruple Alliance du <date when="1815-11-20">20 Novembre
+               contractantes ont eu en vue en stipulant les Articles 5 &amp; 6 du <rs ref="#t.6">traité de la Quadruple Alliance du <date when="1815-11-20">20 Novembre
                      1815</date></rs>, et pour délibérer sur les moyens d’appliquer les principes
                &amp; les dispositions du dit traité à la situation dans laquelle, après l’évacuation
                du territoire de <country>France</country>, le Gouvernement français se trouvera
@@ -265,8 +257,7 @@
                Et ayant examiné &amp; approfondi dans tous ses rapports cette importante question au
                moyen d’un échange de Communications confidentielles, les quatre Cours ont
                unanimement reconnu</p>
-            <p>1. Que les engagemens Sanctionnés par les articles 1, 2, 3 &amp; 4 du <rs ref="#t.6"
-                  >traité de la Quadruple Alliance</rs> ne sont applicables dans l’état actuel des
+            <p>1. Que les engagemens Sanctionnés par les articles 1, 2, 3 &amp; 4 du <rs ref="#t.6">traité de la Quadruple Alliance</rs> ne sont applicables dans l’état actuel des
                choses qu’au seul cas d’une guerre contre la <country>France</country>, tel qu’il est
                prévu &amp; défini par le dit traité ;</p>
             <p>2. Qu’il est du devoir &amp; de la religion des Cours Alliées de maintenir dans toute
@@ -281,8 +272,7 @@
                   <country>France</country>, considérée comme partie essentielle du Système
                Européen ;</p>
             <p>4. Que l’union intime<pb n="168v"/> entre les quatre Cabinets, consacrée par
-               l’article 6 du <rs ref="#t.6">traité de Quadruple Alliance du <date when="1815-11-20"
-                     >20 <choice>
+               l’article 6 du <rs ref="#t.6">traité de Quadruple Alliance du <date when="1815-11-20">20 <choice>
                         <abbr>9<hi rendition="#su">bre</hi></abbr>
                         <expan>Novembre</expan>
                      </choice> 1815</date></rs>, &amp; <rs ref="#t.9">renforcée par les liens de
@@ -297,8 +287,7 @@
             <p>5. Que les résolutions dérivant de cet apperçu de la question seront consignées au
                présent protocole pour autant qu’elles se rapportent au <rs xml:id="n.4">Casus
                   foederis et belli</rs>,<note type="editorial" target="#n.4">Lat.: Bündnis- und
-                  Kriegsfall.</note> prévu dans le <rs ref="#t.6">traité du <date when="1815-11-20"
-                     >20 <choice>
+                  Kriegsfall.</note> prévu dans le <rs ref="#t.6">traité du <date when="1815-11-20">20 <choice>
                         <abbr>9<hi rendition="#su">bre</hi></abbr>
                         <expan>Novembre</expan>
                      </choice> 1815</date></rs>, et <ref target="Aachen_Prot_34.xml">dans un
@@ -310,8 +299,7 @@
                bienveillantes &amp; amicales des<pb n="169v"/>
                <rs ref="#p.16 #p.17 #p.18 #p.19">quatre Souverains</rs> à l’égard de la
                   <country>France</country> ;</p>
-            <p>6. Que les engagemens renfermés dans les articles 1, 2, 3 &amp; 4 du <rs ref="#t.6"
-                  >traité de Quadruple Alliance du <date when="1815-11-20">20 <choice>
+            <p>6. Que les engagemens renfermés dans les articles 1, 2, 3 &amp; 4 du <rs ref="#t.6">traité de Quadruple Alliance du <date when="1815-11-20">20 <choice>
                         <abbr>9<hi rendition="#su">bre</hi></abbr>
                         <expan>Novembre</expan>
                      </choice> 1815</date></rs> étant éventuels &amp; portant sur un cas que les
@@ -322,8 +310,7 @@
                hostile envers la <country>France</country> ou alarmant pour les autres Etats ;</p>
             <pb n="170r"/>
             <p>7. Que quant au Protocole Séparé qui doit constater les relations futures de la
-                  <country>France</country> avec les quatre Puissances Signataires du <rs ref="#t.6"
-                  >traité de quadruple Alliance</rs>, les quatre Cours sont unanimement d’avis
+                  <country>France</country> avec les quatre Puissances Signataires du <rs ref="#t.6">traité de quadruple Alliance</rs>, les quatre Cours sont unanimement d’avis
                d’inviter les Plénipotentiaires de <rs ref="#p.15" xml:id="n.5">Sa Majesté Très
                   Chrétienne</rs><note type="editorial" target="#n.5">Ehrentitel des Königs von
                   Frankreich.</note> à prendre part à la rédaction &amp; à la Sanction de cet acte,
@@ -331,18 +318,14 @@
                   <country>France</country> au système général, désignera le but de cette union, en
                tracera les principes &amp; en déterminera les formes.</p>
             <p>Cette pièce, devant être portée à la Connoissance de tous les Etats qui ont accédé au
-                  <rs ref="#t.13">traité de <placeName ref="#loc.2">Paris</placeName> du <date
-                     when="1814-05-30">30 Mai 1814</date></rs>,<pb n="170v"/> au <rs ref="#t.12"
-                  >recès de <placeName ref="#loc.7">Vienne</placeName></rs> &amp; aux <rs
-                  ref="#t.1 #t.9">actes de <placeName ref="#loc.2">Paris</placeName> de l’année
+                  <rs ref="#t.13">traité de <placeName ref="#loc.2">Paris</placeName> du <date when="1814-05-30">30 Mai 1814</date></rs>,<pb n="170v"/> au <rs ref="#t.12">recès de <placeName ref="#loc.7">Vienne</placeName></rs> &amp; aux <rs ref="#t.1 #t.9">actes de <placeName ref="#loc.2">Paris</placeName> de l’année
                   1815</rs>, déclarera en outre en termes positifs que l’union des cinq Puissances
                n’a pour objet que de Contribuer au maintien de la tranquillité générale, fondée sur
                l’inviolabilité des droits que les transactions existantes assurent à chaque Etat
                Européen, &amp; consolidée par cet esprit de bienveillance mutuelle qui réunit
                aujourd’hui tous les Membres de la famille Européenne dans un seul &amp; même Système
                de paix.</p>
-            <p>En conséquence de ces considérations, <rs
-                  ref="#p.8 #p.9 #p.10 #p.11 #p.12 #p.13 #p.14">les Ministres des Cours d’Autriche,
+            <p>En conséquence de ces considérations, <rs ref="#p.8 #p.9 #p.10 #p.11 #p.12 #p.13 #p.14">les Ministres des Cours d’Autriche,
                   de la Grande-Bretagne, de Prusse &amp; de Russie</rs> déclarent : </p>
             <pb n="171r"/>
             <p>1. Que tous les engagemens Stipulés par le <rs ref="#t.6">traité de la Quadruple
@@ -368,9 +351,7 @@
                été arrêté que par l’intimité des rapports &amp; la pureté des Sentimens qui unissent
                   <rs ref="#p.16 #p.17 #p.18 #p.19">les quatre Souverains</rs> pour le bonheur du
                monde.</p>
-            <p>Fait quadruple à <placeName ref="#loc.1">Aix-la-Chapelle</placeName> le <date
-                  when="1818-11-15"><rs xml:id="n.6">15</rs> Novembre<note type="editorial"
-                     target="#n.6">Tagesdatum weist Korrekturen auf.</note> Mil huit cent
+            <p>Fait quadruple à <placeName ref="#loc.1">Aix-la-Chapelle</placeName> le <date when="1818-11-15"><rs xml:id="n.6">15</rs> Novembre<note type="editorial" target="#n.6">Tagesdatum weist Korrekturen auf.</note> Mil huit cent
                   dix-huit</date>.</p>
             <signed>
                <list>
@@ -393,26 +374,17 @@
                      d’alliance du <date when="1815-11-20"><choice>
                            <abbr>20 Nov<hi rendition="#su">r</hi></abbr>
                            <expan>Novembre</expan>
-                        </choice> 1815</date></rs></ref>, Messieurs les <rs ref="#p.8 #p.9 #p.10 #p.11 #p.12 #p.13 #p.14"
-                  >Plénipotentiaires d’Autriche, de Grande Bretagne, de Prusse et de Russie</rs> se
+                        </choice> 1815</date></rs></ref>, Messieurs les <rs ref="#p.8 #p.9 #p.10 #p.11 #p.12 #p.13 #p.14">Plénipotentiaires d’Autriche, de Grande Bretagne, de Prusse et de Russie</rs> se
                sont réunis par ordre de <rs ref="#p.16 #p.17 #p.18 #p.19">Leurs Souverains</rs> pour
                arrêter et déclarer ce qui suit :</p>
             <p>Vu les articles 3 et 4 du <rs ref="#t.6">traité de quadruple alliance</rs> et les
                articles 7, 8 et 12 du <rs ref="#t.37">Traité de Chaumont</rs>, il est entendu que,
                le cas prévu par les articles 1 et 2 du <rs ref="#t.6">traité de quadruple
-                  alliance</rs> échéant, le terme de deux mois, indiqué dans l’article 8 du <rs
-                  ref="#t.37">traité de Chaumont</rs>, comme celui où le corps auxiliaire serait
+                  alliance</rs> échéant, le terme de deux mois, indiqué dans l’article 8 du <rs ref="#t.37">traité de Chaumont</rs>, comme celui où le corps auxiliaire serait
                prêt à entrer en campagne, datera du jour où les hautes Puissances alliées auront
-               décidé à la suite du concert à établir ent’Elles que le <rs xml:id="n.8"><hi
-                     rendition="#u">Casus foederis</hi></rs><note type="editorial" target="#n.8"
-                  >Lat. Bündnisfall.</note> existe.</p>
+               décidé à la suite du concert à établir ent’Elles que le <rs xml:id="n.8"><hi rendition="#u">Casus foederis</hi></rs><note type="editorial" target="#n.8">Lat. Bündnisfall.</note> existe.</p>
             <pb n="110v"/>
-            <p>Après cette décision, le corps britannique se rassemblera à <placeName ref="#loc.46"
-                  >Bruxelles</placeName>, le corps prussien à <placeName ref="#loc.47"
-                  >Cologne</placeName>, le corps autrichien à <placeName ref="#loc.17"
-                  >Stuttgardt</placeName>, dans le terme fixé par l’article 8 du <rs ref="#t.37"
-                  >Traité de Chaumont</rs> comme ci-dessus expliqué, et le corps russe à <placeName
-                  ref="#loc.30">Mayence</placeName>, dans trois mois à dater de la même époque vu sa
+            <p>Après cette décision, le corps britannique se rassemblera à <placeName ref="#loc.46">Bruxelles</placeName>, le corps prussien à <placeName ref="#loc.47">Cologne</placeName>, le corps autrichien à <placeName ref="#loc.17">Stuttgardt</placeName>, dans le terme fixé par l’article 8 du <rs ref="#t.37">Traité de Chaumont</rs> comme ci-dessus expliqué, et le corps russe à <placeName ref="#loc.30">Mayence</placeName>, dans trois mois à dater de la même époque vu sa
                distance.</p>
             <p>Après avoir réglé ces points, <choice>
                   <abbr>Mrs.</abbr>
@@ -442,8 +414,7 @@
                   <abbr>Mrs.</abbr>
                   <expan>Messieurs</expan>
                </choice> les <rs ref="#p.8 #p.11 #p.12">Plénipotentiaires d’Autriche et de
-                  Prusse</rs> ont également annoncé leur intention de communiquer aux <rs
-                  ref="#p.9 #p.10 #p.13 #p.14">Ministres des autres hautes puissances alliées</rs>
+                  Prusse</rs> ont également annoncé leur intention de communiquer aux <rs ref="#p.9 #p.10 #p.13 #p.14">Ministres des autres hautes puissances alliées</rs>
                les informations qu’ils pourront posséder sur les nouveaux ouvrages défensifs en état
                de construction ou à construire dans les autres pays limitrophes de la
                   <country>France</country>, dans lesquels la surveillance desdits ouvrages se
@@ -463,19 +434,13 @@
                   <abbr>S. M.</abbr>
                   <expan>Sa Majesté</expan>
                </choice> le <rs ref="#p.74">Roi des Pays-Bas</rs> de faire occuper, le casus
-               foederis ayant été déclaré échu, les forteresses d’<placeName ref="#loc.48"
-                  >Ostende</placeName>, <placeName ref="#loc.49">Nieuport</placeName>, <placeName
-                  ref="#loc.50">Ypres</placeName> et celles situées sur l’Escaut (avec exception de
+               foederis ayant été déclaré échu, les forteresses d’<placeName ref="#loc.48">Ostende</placeName>, <placeName ref="#loc.49">Nieuport</placeName>, <placeName ref="#loc.50">Ypres</placeName> et celles situées sur l’Escaut (avec exception de
                la citadelle de <placeName ref="#loc.51">Tournay</placeName> et de la place
                   d’<placeName ref="#loc.52">Anvers</placeName>) par les troupes de <rs ref="#p.19"><choice>
                      <abbr>S. M.</abbr>
                      <expan>Sa Majesté</expan>
-                  </choice> Britannique</rs>, et les citadelles de <placeName ref="#loc.53"
-                  >Huy</placeName>, <placeName ref="#loc.54">Namur</placeName> et <placeName
-                  ref="#loc.55">Dinant</placeName>, ainsi que les places de <placeName ref="#loc.56"
-                  >Charleroy</placeName>,<pb n="112r"/>
-               <placeName ref="#loc.57">Marienbourg</placeName> et <placeName ref="#loc.58"
-                  >Philippeville</placeName> par les troupes de <rs ref="#p.18"><choice>
+                  </choice> Britannique</rs>, et les citadelles de <placeName ref="#loc.53">Huy</placeName>, <placeName ref="#loc.54">Namur</placeName> et <placeName ref="#loc.55">Dinant</placeName>, ainsi que les places de <placeName ref="#loc.56">Charleroy</placeName>,<pb n="112r"/>
+               <placeName ref="#loc.57">Marienbourg</placeName> et <placeName ref="#loc.58">Philippeville</placeName> par les troupes de <rs ref="#p.18"><choice>
                      <abbr>S. M.</abbr>
                      <expan>Sa Majesté</expan>
                   </choice> Prussienne</rs>.</p>
@@ -496,12 +461,10 @@
       </body>
       <back>
          <include xmlns="http://www.w3.org/2001/XInclude" href="listPlace.xml" xpointer="listPlace"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="listPerson.xml"
-            xpointer="listPerson"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listPerson.xml" xpointer="listPerson"/>
          <include xmlns="http://www.w3.org/2001/XInclude" href="listWit.xml" xpointer="listWit"/>
          <include xmlns="http://www.w3.org/2001/XInclude" href="listOrg.xml" xpointer="listOrg"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="listTreaties.xml"
-            xpointer="listTreaties"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listTreaties.xml" xpointer="listTreaties"/>
       </back>
    </text>
 </TEI>

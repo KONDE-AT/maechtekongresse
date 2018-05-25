@@ -1,8 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -96,8 +93,7 @@
                   <msItem>
                      <title>Anlage 2: Schreiben <persName ref="#p.15"><forename>Ludwigs
                               XVIII.,</forename>
-                           <roleName>König von Frankreich</roleName></persName>, an <persName
-                           ref="#p.138"><forename>Ferdinand I.,</forename>
+                           <roleName>König von Frankreich</roleName></persName>, an <persName ref="#p.138"><forename>Ferdinand I.,</forename>
                            <roleName>König beider Sizilien</roleName></persName></title>
                   </msItem>
                </msContents>
@@ -121,8 +117,7 @@
             </listWit>
             <listWit corresp="#m.3">
                <head>Anlage 2: Schreiben <persName ref="#p.15"><forename>Ludwigs XVIII.,</forename>
-                     <roleName>König von Frankreich</roleName></persName>, an <persName ref="#p.138"
-                        ><forename>Ferdinand I.,</forename>
+                     <roleName>König von Frankreich</roleName></persName>, an <persName ref="#p.138"><forename>Ferdinand I.,</forename>
                      <roleName>König beider Sizilien</roleName></persName></head>
                <witness corresp="#w.5"><bibl type="print">BFSP Bd. 8 (1820/21), S.
                   1148–1149;</bibl></witness>
@@ -148,23 +143,21 @@
          </appInfo>
          <styleDefDecl scheme="css"/>
          <tagsDecl>
-            <rendition xml:id="su">superscript</rendition>
-            <rendition xml:id="s">strikethrough</rendition>
-            <rendition xml:id="u">underline</rendition>
-            <rendition xml:id="r">right</rendition>
+            <rendition xml:id="su" scheme="css">vertical-align:sub; font-size:.7em;</rendition>
+            <rendition xml:id="s" scheme="css">text-decoration:line-through;</rendition>
+            <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
+            <rendition xml:id="r" scheme="css">display:block; text-align:right;</rendition>
          </tagsDecl>
       </encodingDesc>
       <profileDesc>
          <abstract>
             <p>Die <rs ref="#p.8 #p.40 #p.11 #p.12 #p.136 #p.13 #p.14 #p.121">Vertreter Österreichs,
-                  Preußens und Russlands</rs> geben bekannt, dass die Konferenz nach <placeName
-                  ref="#loc.65">Laibach</placeName>/<placeName ref="#loc.65">Ljubljana</placeName>
+                  Preußens und Russlands</rs> geben bekannt, dass die Konferenz nach <placeName ref="#loc.65">Laibach</placeName>/<placeName ref="#loc.65">Ljubljana</placeName>
                verlegt wird, wo <persName ref="#p.138"><forename>Ferdinand I.,</forename>
                   <roleName>König beider Sizilien</roleName></persName>, in Kürze erwartet wird. Die
                   <rs ref="#p.102 #p.135">französischen Gesandten</rs> übermitteln eine Denkschrift
                betreffend das <ref target="Troppau_Prot_4.xml">Protocole préliminaire vom <date when="1820-11-19">19. November
-                  1820</date></ref> sowie einen Brief des französischen Königs <persName ref="#p.15"
-                     ><forename>Ludwig XVIII.</forename></persName> an den <rs ref="#p.138">König
+                  1820</date></ref> sowie einen Brief des französischen Königs <persName ref="#p.15"><forename>Ludwig XVIII.</forename></persName> an den <rs ref="#p.138">König
                   beider Sizilien</rs>.</p>
          </abstract>
          <particDesc>
@@ -235,11 +228,9 @@
                <rs ref="#p.138">Sa Majesté</rs> acceptoit l’invitation avec empressement, et Elle
                étoit prêt<damage agent="paper_damage"><supplied>e</supplied></damage> à s’embarquer
                pour se rend<damage agent="paper_damage"><supplied>re</supplied></damage> par mer à
-                  <placeName ref="#loc.66">Livourne</placeName>, et de là à <placeName ref="#loc.65"
-                  >Laybach</placeName>.</p>
+                  <placeName ref="#loc.66">Livourne</placeName>, et de là à <placeName ref="#loc.65">Laybach</placeName>.</p>
             <p>Comme dans ces circonstances les réunions qui jusqu’à présent avoient eu lieu ici
-               seront transférées à <placeName ref="#loc.65">Laybach</placeName> où <rs
-                  ref="#p.16 #p.18 #p.17">les Augustes Souverains</rs> vont se rendre incessamment,
+               seront transférées à <placeName ref="#loc.65">Laybach</placeName> où <rs ref="#p.16 #p.18 #p.17">les Augustes Souverains</rs> vont se rendre incessamment,
                il a été convenu de consigner ce changement dans le Journal de ce jour, lequel sera
                en même<pb n="191v"/> tems regardé comme l’acte de clôture des conférences tenues à
                   <placeName ref="#loc.60">Troppau</placeName>.</p>
@@ -268,8 +259,7 @@
          <div hand="#A" decls="#m.2">
             <pb n="312r"/>
             <p><add place="top"><date when="1820-12-24">24/12</date>.</add></p>
-            <p><title>Communication des Plénipotentiaires Français relativement au <ref
-                     target="Troppau_Prot_4.xml">protocole préliminaire</ref></title></p>
+            <p><title>Communication des Plénipotentiaires Français relativement au <ref target="Troppau_Prot_4.xml">protocole préliminaire</ref></title></p>
             <p><title>du <date when="1820-11-19">19 Novembre</date> et à la démarche faite auprès de
                      <rs ref="#p.138"><choice>
                         <abbr>S. M.</abbr>
@@ -278,15 +268,13 @@
             <p><placeName ref="#loc.60">Troppau</placeName> le <date when="1820-12-24">24 Décembre
                   1820</date></p>
             <p>Les <rs ref="#p.102 #p.135">Plénipotentiaires Français</rs> ont transmis à leur
-               Gouvernement le protocole préliminaire arrêté dans la conférence du <date
-                  when="1820-11-19">19 Novembre</date> et dans lequel sont exposées :</p>
+               Gouvernement le protocole préliminaire arrêté dans la conférence du <date when="1820-11-19">19 Novembre</date> et dans lequel sont exposées :</p>
             <p>1<hi rendition="#su">o</hi> Les bases projetées d’un plan général dont le but seroit
                de prévenir ou d’arrêter les boulversemens révolutionnaires ;</p>
             <p>2<hi rendition="#su">o</hi> La proposition des mesures à adopter envers le
                   <country>Royaume de Naples</country>.</p>
             <p>Le Gouvernement du <rs ref="#p.15">Roi</rs> a pesé et médité l’objet de cette
-               communication avec l’attention que demande la gravité des intérêts discutés<pb
-                  n="312v"/> par les Cabinets réunis, et avec le désir de maintenir dans toute sa
+               communication avec l’attention que demande la gravité des intérêts discutés<pb n="312v"/> par les Cabinets réunis, et avec le désir de maintenir dans toute sa
                force l’alliance qui s’est établie entre les principaux Gouvernemens de l’Europe.</p>
             <p>Il a vu, dans la première partie de ce protocole, l’intention bienfaisante d’épargner
                au Monde civilisé les révolutions et les malheurs qu’elles entrainent avec elles ;
@@ -325,12 +313,10 @@
                Nation sa tranquillité et son bonheur.</p>
             <p>Déjà <rs ref="#p.15">Sa Majesté</rs>, sur la première information qui lui a été
                transmise de la démarche tentée dans cette<pb n="314v"/> intention, a joint aussitôt
-               ses instances à celles de ses alliés, <ref decls="#m.3">en écrivant au <rs
-                     ref="#p.138">Roi de Naples</rs> une lettre que <rs ref="#p.102 #p.135">ses
+               ses instances à celles de ses alliés, <ref decls="#m.3">en écrivant au <rs ref="#p.138">Roi de Naples</rs> une lettre que <rs ref="#p.102 #p.135">ses
                      Ministres</rs> ont reçu ordre de communiquer à la conférence</ref>.</p>
             <p>Si, comme il l’espère, <rs ref="#p.138">Sa Majesté Sicilienne</rs> se rend à
-               l’invitation qui lui a été faite, et qu’une négociation puisse être entamée, Le <rs
-                  ref="#p.15">Roi</rs> emploira toute l’influence qu’il peut exercer pour qu’elle
+               l’invitation qui lui a été faite, et qu’une négociation puisse être entamée, Le <rs ref="#p.15">Roi</rs> emploira toute l’influence qu’il peut exercer pour qu’elle
                ait un résultat favorable.</p>
             <p>Les <rs ref="#p.102 #p.135">Plénipotentiaires français</rs> sont si intimement
                convaincus que ce vœu qu’ils expriment, de voir la réconciliation de
@@ -339,9 +325,7 @@
                qu’ils croient pouvoir prendre sur eux de déclarer que Sa Majesté est disposée à
                donner un assentiment complet à la nouvelle démarche que ses Alliés ont proposée dans
                le cas où la première viendroit à échouer.</p>
-            <p>Tel sera toujours l’esprit de concorde et d’union qui dirigera les conseils de <rs
-                  ref="#p.15">Sa Majesté</rs>, et c’est par son ordre exprès que <rs
-                  ref="#p.102 #p.135">les Plénipotentiaires français</rs> répètent encore aux
+            <p>Tel sera toujours l’esprit de concorde et d’union qui dirigera les conseils de <rs ref="#p.15">Sa Majesté</rs>, et c’est par son ordre exprès que <rs ref="#p.102 #p.135">les Plénipotentiaires français</rs> répètent encore aux
                Ministres des Puissances alliées que la <country>France</country> a pris pour règle
                immuable de sa conduite les <rs ref="#t.42">engagemens politiques qu’elle a
                   contractés à <placeName ref="#loc.1">Aix-la-Chapelle</placeName></rs>.</p>
@@ -392,8 +376,7 @@
                plutôt les sentimens dont j’étais animé, et de lui faire
                parvenir, dans l’effusion de la plus sincère amitié, les conseils que peut-être
                j’étais à plus d’un titre autorisé à lui offrir. Mais aujourd’hui je ne me crois plus
-               permis d’hésiter. Informé<pb n="320v"/> par mes alliés réunis à <placeName
-                  ref="#loc.60">Troppau</placeName> de l’invitation qu’ils ont fait parvenir à <choice>
+               permis d’hésiter. Informé<pb n="320v"/> par mes alliés réunis à <placeName ref="#loc.60">Troppau</placeName> de l’invitation qu’ils ont fait parvenir à <choice>
                   <abbr>V. M.</abbr>
                   <expan>Votre Majesté</expan>
                </choice>, je dois me joindre à ceux ; et comme membre d’une alliance dont le seul
@@ -440,12 +423,10 @@
       </body>
       <back>
          <include xmlns="http://www.w3.org/2001/XInclude" href="listPlace.xml" xpointer="listPlace"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="listPerson.xml"
-            xpointer="listPerson"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listPerson.xml" xpointer="listPerson"/>
          <include xmlns="http://www.w3.org/2001/XInclude" href="listWit.xml" xpointer="listWit"/>
          <include xmlns="http://www.w3.org/2001/XInclude" href="listOrg.xml" xpointer="listOrg"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="listTreaties.xml"
-            xpointer="listTreaties"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listTreaties.xml" xpointer="listTreaties"/>
       </back>
    </text>
 </TEI>

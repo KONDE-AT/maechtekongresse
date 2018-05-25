@@ -1,8 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -166,10 +163,10 @@
          </appInfo>
          <styleDefDecl scheme="css"/>
          <tagsDecl>
-            <rendition xml:id="su">superscript</rendition>
-            <rendition xml:id="s">strikethrough</rendition>
-            <rendition xml:id="u">underline</rendition>
-            <rendition xml:id="r">right</rendition>
+            <rendition xml:id="su" scheme="css">vertical-align:sub; font-size:.7em;</rendition>
+            <rendition xml:id="s" scheme="css">text-decoration:line-through;</rendition>
+            <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
+            <rendition xml:id="r" scheme="css">display:block; text-align:right;</rendition>
          </tagsDecl>
       </encodingDesc>
       <profileDesc>
@@ -222,8 +219,7 @@
          <div hand="#G" decls="#m.1">
             <pb n="2r"/>
             <p><title>Journal</title></p>
-            <p><title><hi rendition="#u">des Conférences de <placeName rendition="#loc.60"
-                        >Troppau</placeName></hi></title></p>
+            <p><title><hi rendition="#u">des Conférences de <placeName rendition="#loc.60">Troppau</placeName></hi></title></p>
             <p><title><choice>
                      <abbr>Nr.</abbr>
                      <expan>Numéro</expan>
@@ -242,24 +238,20 @@
                   <surname>de Caraman</surname></persName>, Ambassadeur de <choice>
                   <abbr>S. M.</abbr>
                   <expan>Sa Majesté</expan>
-               </choice> le <rs ref="#p.15">Roi de France</rs> à la cour de <placeName ref="#loc.7"
-                  >Vienne</placeName> ; et </p>
+               </choice> le <rs ref="#p.15">Roi de France</rs> à la cour de <placeName ref="#loc.7">Vienne</placeName> ; et </p>
             <p><choice>
                   <abbr>Mr.</abbr>
                   <expan>Monsieur</expan>
                </choice> le <persName ref="#p.135"><roleName>Comte</roleName>
-                  <surname>de la Ferronnays</surname></persName>, Ministre <add place="above"
-                  >Plénipotentiaire</add> de <choice>
+                  <surname>de la Ferronnays</surname></persName>, Ministre <add place="above">Plénipotentiaire</add> de <choice>
                   <abbr>S. M.</abbr>
                   <expan>Sa Majesté</expan>
-               </choice> le <rs ref="#p.15">Roi de France</rs> à la cour de <placeName ref="#loc.10"
-                  >St. Petersbourg</placeName> ;</p>
+               </choice> le <rs ref="#p.15">Roi de France</rs> à la cour de <placeName ref="#loc.10">St. Petersbourg</placeName> ;</p>
             <p><persName ref="#p.137"><forename>Lord</forename>
                   <surname>Stewart</surname></persName>, Ambassadeur de <choice>
                   <abbr>S. M.</abbr>
                   <expan>Sa Majesté</expan>
-               </choice> le <rs ref="#p.130">Roi de la Grande-Bretagne</rs> à la cour de <placeName
-                  ref="#loc.7">Vienne</placeName> ;</p>
+               </choice> le <rs ref="#p.130">Roi de la Grande-Bretagne</rs> à la cour de <placeName ref="#loc.7">Vienne</placeName> ;</p>
             <p><choice>
                   <abbr>Mr.</abbr>
                   <expan>Monsieur</expan>
@@ -275,25 +267,21 @@
                   <surname>de Lebzeltern</surname></persName>, Ministre Plénipotentiaire de <choice>
                   <abbr>S. M.</abbr>
                   <expan>Sa Majesté</expan>
-               </choice> l’<rs ref="#p.16">Empereur d’Autriche</rs> à la Cour de <placeName
-                  ref="#loc.10">St. Petersbourg</placeName> ;</p>
+               </choice> l’<rs ref="#p.16">Empereur d’Autriche</rs> à la Cour de <placeName ref="#loc.10">St. Petersbourg</placeName> ;</p>
             <pb n="2v"/>
             <p><choice>
                   <abbr>Mr.</abbr>
                   <expan>Monsieur</expan>
                </choice> le <persName ref="#p.136"><roleName>Général</roleName>
-                  <surname>de Krusemarck</surname></persName>, Ministre <add place="above"
-                  >Plénipotentiaire</add> de <choice>
+                  <surname>de Krusemarck</surname></persName>, Ministre <add place="above">Plénipotentiaire</add> de <choice>
                   <abbr>S. M.</abbr>
                   <expan>Sa Majesté</expan>
-               </choice> le <rs ref="#p.18">Roi de Prusse</rs> à la Cour de <placeName ref="#loc.7"
-                  >Vienne</placeName> ;</p>
+               </choice> le <rs ref="#p.18">Roi de Prusse</rs> à la Cour de <placeName ref="#loc.7">Vienne</placeName> ;</p>
             <p><choice>
                   <abbr>Mr.</abbr>
                   <expan>Monsieur</expan>
                </choice> le <persName ref="#p.121"><roleName>Comte</roleName>
-                  <surname>de Goloffkin</surname></persName>, Ministre <add place="above"
-                  >Plénipotentiaire</add> de <choice>
+                  <surname>de Goloffkin</surname></persName>, Ministre <add place="above">Plénipotentiaire</add> de <choice>
                   <abbr>S. M.</abbr>
                   <expan>Sa Majesté</expan>
                </choice> l’<rs ref="#p.17">Empereur de Toutes les Russies</rs> à la cour de
@@ -409,10 +397,8 @@
             <p><placeName ref="#loc.60">Troppau</placeName> le <date when="1820-10-23">23 Octobre
                   1820</date>.</p>
             <p>Le jugement que les Cabinets alliés ont porté sur <rs xml:id="n.3">la révolution de
-                     <country>Naples</country></rs>,<note type="editorial" target="#n.3">Am <date
-                     when="1820-07-02">2. Juli 1820</date> meuterte die Militärgarnison in
-                     <placeName ref="#loc.61">Nola</placeName>, 35 km von <placeName ref="#loc.11"
-                     >Neapel</placeName> entfernt. Das Datum gilt als Beginn der Revolution im
+                     <country>Naples</country></rs>,<note type="editorial" target="#n.3">Am <date when="1820-07-02">2. Juli 1820</date> meuterte die Militärgarnison in
+                     <placeName ref="#loc.61">Nola</placeName>, 35 km von <placeName ref="#loc.11">Neapel</placeName> entfernt. Das Datum gilt als Beginn der Revolution im
                   Königreich beider Sizilien. Vgl. Stites, The four Horsemen; Davis, Naples and
                   Napoleon; Gin, Sanfedisti, Carbonari, Magistrati del Re; Späth, Revolution in
                   Europa, S. 129–149.</note> tel qu’il s’est manifesté jusqu’à ce jour, a été
@@ -452,8 +438,7 @@
                droit, tout comme ce qu’il ferait ou ne ferait pas dans le second ne saurait être que
                l’effet de son libre arbitre et la suite d’un calcul très-légitime fondé sur le
                principe de sa propre conservation.</p>
-            <p>De ces observations générales nous passons à l’examen des questions relatives à la<pb
-                  n="36v"/> révolution de <country>Naples</country>.</p>
+            <p>De ces observations générales nous passons à l’examen des questions relatives à la<pb n="36v"/> révolution de <country>Naples</country>.</p>
             <p>Il s’agit avant tout de se rendre compte de la nature des événemens qui ont eu lieu
                dans ce Royaume au commencement du mois de Juillet dernier afin de décider dans
                laquelle des deux catégories que nous venons d’établir ils sont à classer.</p>
@@ -476,10 +461,8 @@
                sous le masque de la religion, de la morale et d’une fausse philantropie, a médité,
                entrepris et consommé la révolution en Juillet dernier.</p>
             <p>Faut-il des preuves de la vérité de ce fait ? <rs xml:id="FN.1">Elles se trouvent
-                  dans les actes mêmes du nouveau Gouvernement</rs><note type="author"
-                  target="#FN.1"><rs xml:id="n.4">I Circulaire du Ministre des affaires étrangères
-                     de <country>Naples</country>, en date du <date when="1820-07-09"
-                           ><supplied>9</supplied> Juillet 1820</date>.</rs></note>
+                  dans les actes mêmes du nouveau Gouvernement</rs><note type="author" target="#FN.1"><rs xml:id="n.4">I Circulaire du Ministre des affaires étrangères
+                     de <country>Naples</country>, en date du <date when="1820-07-09"><supplied>9</supplied> Juillet 1820</date>.</rs></note>
                <note type="editorial" target="#n.4">Abgedruckt bei Alberti, Atti, S. 329-330; vgl.
                   auch Circolare di S. E. il Duca di Campochiaro, Segretario die Stato, Ministro
                   degli affari esteri, ai Ministri e Residenti di Napoli presto le Corti estere, o.
@@ -487,8 +470,7 @@
                   341–342.</note> ; dans la séduction opérée par la secte sur les troupes royales ;
                dans les circonstances qui ont précédé,<pb n="37v"/> accompagné et suivi l’entrée de
                l’armée soi-disant constitutionnelle à <country>Naples</country> ; dans l’aveu public
-               des Carbonari comme dans le despotisme que cette secte exerce aujourd’hui sur le <rs
-                  ref="#p.138">Roi</rs>, sur le Gouvernement et sur toutes les classes de
+               des Carbonari comme dans le despotisme que cette secte exerce aujourd’hui sur le <rs ref="#p.138">Roi</rs>, sur le Gouvernement et sur toutes les classes de
                citoyens.</p>
             <p>Mais le triomphe de la secte borne-t-il ses efforts au seul <country>Royaume de
                   Naples</country> ; ou son danger s’étend-il hors de ses frontières ? Des preuves
@@ -497,9 +479,7 @@
                adhérens, partout où ils ont été atteints et saisis, ont été convaincus en justice de
                s’être occupés systématiquement et sans relâche du renversement des Gouvernemens dans
                le but de remplacer leur action par celle de la Carbonerie. Des procès instruits
-               antérieurement au bouleversement de <country>Naples</country> dans <rs xml:id="n.5"
-                  >les provinces italiennes de l’<rs ref="#p.16">Empereur</rs></rs><note
-                  type="editorial" target="#n.5">1814 wurden die Lombardei und Venetien ein Teil des
+               antérieurement au bouleversement de <country>Naples</country> dans <rs xml:id="n.5">les provinces italiennes de l’<rs ref="#p.16">Empereur</rs></rs><note type="editorial" target="#n.5">1814 wurden die Lombardei und Venetien ein Teil des
                   Kaisertums Österreich und bildeten das Königreich Lombardo-Venetien. Vgl.
                   Gottsmann, Malfèr, Die Vertretungskörperschaften; Helfert, Kaiser Franz von
                   Österreich; Rath, The Provisional Austrian Regime; Pesendorfer, Eiserne
@@ -518,8 +498,7 @@
                séduction des armées étrangères. </p>
             <p><rs xml:id="FN.2">C’est l’un de ses principaux coriphées qui a osé adresser peu après
                   les catastrophes des premiers jours de Juillet une proclamation à tous les peuples
-                  de l’Italie</rs><note type="author" target="#FN.2">II Proclamation du <rs
-                     ref="#p.139">Prince Pignatelli Strongoli</rs>.</note> cette pièce incendiaire a
+                  de l’Italie</rs><note type="author" target="#FN.2">II Proclamation du <rs ref="#p.139">Prince Pignatelli Strongoli</rs>.</note> cette pièce incendiaire a
                été envoyée sous la bande du Journal officiel du nouveau <choice>
                   <abbr>Gouvernem<hi rendition="#su">t</hi></abbr>
                   <expan>Gouvernement</expan>
@@ -528,13 +507,11 @@
             <p>De nombreuses publications paroissent chaque jour à <country>Naples</country> pour
                soutenir et fomenter l’esprit de révolte dans la presqu’île entière.</p>
             <p>Les Puissances enfin ont-Elles besoin d’autres preuves ? <rs xml:id="FN.3">C’est le
-                     <rs ref="#p.138">Roi</rs> Lui-même qui vient nous les fournir.</rs><note
-                  type="author" target="#FN.3"><rs xml:id="n.8">III Lettre du <rs ref="#p.138">Roi
+                     <rs ref="#p.138">Roi</rs> Lui-même qui vient nous les fournir.</rs><note type="author" target="#FN.3"><rs xml:id="n.8">III Lettre du <rs ref="#p.138">Roi
                         de Naples</rs> à <rs ref="#p.16"><choice>
                            <abbr>S. M. I</abbr>
                            <expan>Sa Majesté Impériale</expan>
-                        </choice></rs>, en date du <supplied>...</supplied>. Lettre de <rs
-                        ref="#p.138"><choice>
+                        </choice></rs>, en date du <supplied>...</supplied>. Lettre de <rs ref="#p.138"><choice>
                            <abbr>S. M.</abbr>
                            <expan>Sa Majesté</expan>
                         </choice></rs> au <rs ref="#p.140"><roleName>Prince</roleName>
@@ -552,11 +529,9 @@
                ami et allié, a pris les mesures que réclamait de Sa part le premier de Ses devoirs,
                la protection de Ses peuples. Convaincue que dans la position actuelle de l’Europe et
                de l’Italie des soins qui se renfermeraient uniquement dans l’intérieur d’un Etat ne
-               sauroient suffire à assurer le repos des Etats voisins et de l’Europe, <rs
-                  xml:id="FN.4"><rs ref="#p.16">Sa Majesté Impériale</rs> a déclaré aux Cours
+               sauroient suffire à assurer le repos des Etats voisins et de l’Europe, <rs xml:id="FN.4"><rs ref="#p.16">Sa Majesté Impériale</rs> a déclaré aux Cours
                   d’Italie Sa détermination à leur prêter toute l’aide et secours qu’elles pouvaient
-                  attendre et réclamer de Sa part.</rs><note type="author" target="#FN.4"><rs
-                     xml:id="n.9">IV Mémoire aux Cours d’Italie.</rs></note>
+                  attendre et réclamer de Sa part.</rs><note type="author" target="#FN.4"><rs xml:id="n.9">IV Mémoire aux Cours d’Italie.</rs></note>
                <note type="editorial" target="#n.9">Vgl. Memoire aurichienne adressée simultanement
                   aux Cours de Turin, de Rome, de Florence, de Modène, de Parme, de Luques; in:
                   ÖStA, HHStA, St.K., Kongressakten, Kart. 21, Fasz. 39, fol. 330–337; abgedruckt in
@@ -576,30 +551,25 @@
             <p>Le nouveau Gouvernement napolitain, à peine constitué, <rs xml:id="n.10">s’est
                   adressé à l’Empereur</rs>.<note type="editorial" target="#n.10">Schreiben liegt
                   nicht ein.</note> Regardant ce Gouvernement comme illégalement<pb n="39v"/>
-               institué, <rs ref="#p.16">Sa Majesté Impériale</rs> n’a point fait de réponse au <rs
-                  ref="#p.141">Vicaire Général</rs>. Le Gouvernement révolutionnaire a nommé depuis
+               institué, <rs ref="#p.16">Sa Majesté Impériale</rs> n’a point fait de réponse au <rs ref="#p.141">Vicaire Général</rs>. Le Gouvernement révolutionnaire a nommé depuis
                   <rs ref="#p.142">un nouvel Ambassadeur</rs> près de <rs ref="#p.16">Sa Majesté
                   Impériale</rs>. – Il n’a pas été admis.</p>
             <p>Les Cours de France, de Grande-Bretagne, de Prusse et de Russie ont, chacune de leur
-               côté, suivi en principe une marche uniforme. Si à <placeName ref="#loc.8"
-                  >Londres</placeName> et à <placeName ref="#loc.2">Paris</placeName> cette marche a
+               côté, suivi en principe une marche uniforme. Si à <placeName ref="#loc.8">Londres</placeName> et à <placeName ref="#loc.2">Paris</placeName> cette marche a
                présenté quelques modalités différentes, celles-ci n’ont encore porté que sur la
                forme, et les deux Cours, en les admettant, ont consulté leur situation
                particulière.</p>
             <p>Le séjour que le <persName ref="#p.143"><roleName>Prince</roleName>
-                  <surname>Cimitille</surname></persName> a fait à <placeName ref="#loc.7"
-                  >Vienne</placeName> a fourni au Cabinet autrichien une occasion naturelle
+                  <surname>Cimitille</surname></persName> a fait à <placeName ref="#loc.7">Vienne</placeName> a fourni au Cabinet autrichien une occasion naturelle
                d’énoncer Ses principes dans l’affaire napolitaine. <rs xml:id="n.11">La pièce qui
-                  les renferme a été communiquée aux quatre autres Cours.</rs><note type="editorial"
-                  target="#n.11">Möglicherweise Propositions adressées par l’Autriche aux Cours de
+                  les renferme a été communiquée aux quatre autres Cours.</rs><note type="editorial" target="#n.11">Möglicherweise Propositions adressées par l’Autriche aux Cours de
                   France, de Grande-Bretagne, die Prusse, de Russie, Wien 28. August 1820; in: ÖStA,
                   HHStA, St. K., Kongressakten, Kart. 21, Fasz. 38/2, fol. 4–8.</note> Ces principes
                sont en tous points conformes à ceux que nous venons de rappeler plus haut.</p>
             <p><rs ref="#p.142">Le Ministère napolitain</rs> vient enfin de faire une démarche
                vis-à-vis de nous laquelle <rs xml:id="FN.5">confirme<pb n="40r"/> les preuves de
                   l’état d’anarchie auquel est livré le Royaume, quelles que puissent être les
-                  apparences extérieures d’une tranquillité simulée</rs>.<note type="autor"
-                  target="#FN.5">V <rs xml:id="n.12">Rapport de <choice>
+                  apparences extérieures d’une tranquillité simulée</rs>.<note type="autor" target="#FN.5">V <rs xml:id="n.12">Rapport de <choice>
                         <abbr>Mr</abbr>
                         <expan>Monsieur</expan>
                      </choice>
@@ -611,14 +581,11 @@
                   fol. 105; abgedruck in Alberti, Atti, S. 334-335</note> Ce serait se faire
                toutefois une dangereuse illusion que d’admettre que <rs xml:id="n.13">l’ouverture du
                      <persName ref="#p.145"><roleName>Duc</roleName>
-                     <surname>de Campochiaro</surname></persName></rs><note type="editorial"
-                  target="#n.13">Wohl Schreiben des neapolitanischen Außenministers Campochiaro an
+                     <surname>de Campochiaro</surname></persName></rs><note type="editorial" target="#n.13">Wohl Schreiben des neapolitanischen Außenministers Campochiaro an
                   Kaiser Franz I., Neapel 1. Oktober 1820; abgedruckt in BFSP Bd. 8 (1820/21), S.
                   1135–1140; Martens, Supplément au Recueil, Bd. 9, S. 568–576.</note> serait dénuée
                de tout calcul personnel. La révolution de <country>Naples</country> a été protégée
-               dans son origine et soutenue depuis par le parti soi-disant <rs xml:id="n.14"
-                  >Muratiste</rs>,<note type="editorial" target="#n.14">Anhänger des von <persName
-                     ref="#p.50"><forename>Napoleon</forename></persName> eingesetzten und 1815
+               dans son origine et soutenue depuis par le parti soi-disant <rs xml:id="n.14">Muratiste</rs>,<note type="editorial" target="#n.14">Anhänger des von <persName ref="#p.50"><forename>Napoleon</forename></persName> eingesetzten und 1815
                   hingerichteten Königs von Neapel <persName><forename>Joachim</forename>
                      <surname>Murat</surname></persName> (1767–1815).</note> et qu’il est plus
                correct de désigner aujourd’hui sous le nom <hi rendition="#u">du parti
@@ -631,14 +598,12 @@
                tous les factieux dans tous les pays.</p>
             <p>Telle est la position des choses<pb n="40v"/> dans le moment où nous offrons ce
                tableau à nos alliés.</p>
-            <p>Il s’agit de l’étendre sur le plus prochain avenir, et le Cabinet de <rs ref="#p.16"
-                  >Sa Majesté Impériale et Royale Apostolique</rs> n’hésite pas à énoncer dans un
+            <p>Il s’agit de l’étendre sur le plus prochain avenir, et le Cabinet de <rs ref="#p.16">Sa Majesté Impériale et Royale Apostolique</rs> n’hésite pas à énoncer dans un
                aperçu succinct le point de vue suivant duquel il part dans une discussion aussi
                grave.</p>
             <p>1<hi rendition="#su">o</hi> Dans tout ce qui concerne la question napolitaine comme
                en toute autre, l’<rs ref="#p.16">Empereur</rs> regarde comme une base immuable et
-               comme une condition convenue de toute action morale ou matérielle le maintien des <rs
-                  ref="#t.37 #t.13 #t.1 #t.6 #t.9 #t.42">traités qui depuis l’année 1814 ont établi
+               comme une condition convenue de toute action morale ou matérielle le maintien des <rs ref="#t.37 #t.13 #t.1 #t.6 #t.9 #t.42">traités qui depuis l’année 1814 ont établi
                   la circonscription actuelle et les relations mutuelles des Etats</rs>.</p>
             <p>Quel que puisse être par conséquent le résultat des événemens que pourrait provoquer
                la subversion de <country>Naples</country>, <rs ref="#p.16"><choice>
@@ -670,8 +635,7 @@
                supérieur à la portée des factieux dans plusieurs autres parties de l’Italie. Le
                danger est augmenté encore par la nécessité même dans laquelle les révolutionnaires
                napolitains se trouvent de viser à englober dans leurs plans de destruction le reste
-               des Etats d’Italie. Cette situation a fait un devoir à la Cour de <placeName
-                  ref="#loc.7">Vienne</placeName> de rassembler dans ses propres frontières des
+               des Etats d’Italie. Cette situation a fait un devoir à la Cour de <placeName ref="#loc.7">Vienne</placeName> de rassembler dans ses propres frontières des
                forces militaires, calculées sur les besoins de l’intérieur, sur ceux possibles de
                protection et d’appui que pourroient être forcées à réclamer d’autres Cours d’Italie,
                sur la nécessité enfin d’une opération active contre le <country>Royaume de
@@ -709,8 +673,7 @@
             <p>La révolution de <country>Naples</country> est l’œuvre d’une secte et d’une foule
                d’intrigans qui se sont associés aux entreprises de cette secte. L’ensemble des faits
                le démontre ; le <rs ref="#p.138">Souverain</rs> Lui-même le certifie. Le pouvoir
-               légitime est captif ; il s’agit de briser ses chaines. C’est au <rs ref="#p.138"
-                  >Roi</rs> à décider ce qu’exigera à la suite de ce premier acte l’intérêt bien
+               légitime est captif ; il s’agit de briser ses chaines. C’est au <rs ref="#p.138">Roi</rs> à décider ce qu’exigera à la suite de ce premier acte l’intérêt bien
                entendu de sa couronne et de son pays. C’est à Lui seul à le
                prononcer, à Lui seul à l’établir. Mais pour arriver à ce dénouement légal il faut
                que le <rs ref="#p.138">Roi</rs> soit libre de Sa pensée et, de plus, qu’il soit
@@ -727,8 +690,7 @@
                demander le séjour pour un certain tems d’une force étrangère et tutélaire dans le
                Royaume. L’<rs ref="#p.16">Empereur</rs> sera prêt à la lui fournir, mais Il désire
                qu’elle n’y soit point établie au nom de l’Autriche seule. Ce qui a eu lieu en 1815
-               pourrait peut-être servir de modèle dans l’occasion présente. <rs
-                  ref="#t.1 #t.2 #t.3">L’armée auxiliaire, ses rapports avec le Gouvernement du pays
+               pourrait peut-être servir de modèle dans l’occasion présente. <rs ref="#t.1 #t.2 #t.3">L’armée auxiliaire, ses rapports avec le Gouvernement du pays
                   et sa retraite finale pourroient être réglés sur les mêmes bases sur lesquelles
                   l’armée d’occupation a été placée en <country>France</country> pendant le cours de
                   trois années.</rs></p>
@@ -744,8 +706,7 @@
                   présent Mémoire.</p>
             <p>Ces articles ont été réclamés par l’intérêt direct de <rs ref="#p.138">Sa Majesté
                   Sicilienne</rs>, par le repos de l’Italie, et ils sont en tous points conformes à
-               l’esprit de <rs xml:id="n.16">l’alliance à laquelle, depuis 1813</rs>,<note
-                  type="editorial" target="#n.16">Bezieht sich wohl auf die Allianzverträge von
+               l’esprit de <rs xml:id="n.16">l’alliance à laquelle, depuis 1813</rs>,<note type="editorial" target="#n.16">Bezieht sich wohl auf die Allianzverträge von
                   Teplitz, mit welchen im September und Oktober 1813 Österreich, Großbritannien,
                   Preußen und Russland Allianzverträge gegen das napoleonische Frankreich
                   abschlossen; vgl. Frehland-Wildeboer, Treue Freunde, S. 194–197.</note> l’Europe a
@@ -759,17 +720,14 @@
                      <abbr>S. M.</abbr>
                      <expan>Sa Majesté</expan>
                   </choice> napolitaine</rs>. La prévoyance qui les a dictés a été tellement
-               justifiée par la catastrophe du mois de Juillet dernier que le <rs ref="#p.138"
-                  >Roi</rs> eût pu trouver des reproches dans la mention qui en eût été faite dans
-               sa position actuelle ; la lettre du <rs ref="#p.138">Roi</rs> au <persName
-                  ref="#p.140"><roleName>Prince</roleName>
+               justifiée par la catastrophe du mois de Juillet dernier que le <rs ref="#p.138">Roi</rs> eût pu trouver des reproches dans la mention qui en eût été faite dans
+               sa position actuelle ; la lettre du <rs ref="#p.138">Roi</rs> au <persName ref="#p.140"><roleName>Prince</roleName>
                   <surname>de Ruffo</surname></persName> prouve au reste que, si ce Souverain n’a
                pas eu recours en tems utile à la teneur de Ses engagemens, la faute n’en a été qu’à
                Ses Ministres. Quant aux rebelles, <rs ref="#p.16">Sa Majesté Impériale</rs> eut
                trouvé au dessous de Sa dignité d’entrer vis-à-vis d’eux dans une explication
                quelconque. Ces articles n’ont d’ailleurs aucune valeur contre un Roi captif ; ils en
-               acquièrrent contre le Roi rendu à la liberté, et c’est alors seulement que <rs
-                  ref="#p.16">Sa Majesté Impériale</rs> est décidée à user des droits incontestables
+               acquièrrent contre le Roi rendu à la liberté, et c’est alors seulement que <rs ref="#p.16">Sa Majesté Impériale</rs> est décidée à user des droits incontestables
                qu’ils lui donnent. Cependant, fidèle au principe que nous venons<pb n="59r"/>
                d’indiquer, <rs ref="#p.16">Sa Majesté Impériale</rs> n’exercerait ces droits
                qu’après avoir mûrement concerté avec <rs ref="#p.15 #p.130 #p.18 #p.17">Ses augustes
@@ -789,11 +747,9 @@
             <p><hi rendition="#u">La première</hi> est celle où le pouvoir légitime à
                   <country>Naples</country> est placé hors de toute liberté et, par conséquent, hors
                de toute action.</p>
-            <p><hi rendition="#u">La seconde</hi>, au contraire, sera celle où le <rs ref="#p.138"
-                  >Roi</rs> sera devenu libre de sa pensée et de son action.</p>
+            <p><hi rendition="#u">La seconde</hi>, au contraire, sera celle où le <rs ref="#p.138">Roi</rs> sera devenu libre de sa pensée et de son action.</p>
             <p>Tout ce qui peut être difficile dans le choix des formes et peut-être même impossible
-               pour <rs xml:id="n.17">les Puissances constitutionelles</rs><note type="editorial"
-                  target="#n.17">Großbritannien und Frankreich.</note> dans la première de ces
+               pour <rs xml:id="n.17">les Puissances constitutionelles</rs><note type="editorial" target="#n.17">Großbritannien und Frankreich.</note> dans la première de ces
                périodes cesse de l’être dans la seconde sous le point de vue qui seroit le plus
                embarassant à établir et à défendre.</p>
          </div>
@@ -832,8 +788,7 @@
             <p>Et <choice>
                   <abbr>S. M.</abbr>
                   <expan>Sa Majesté</expan>
-               </choice> le <rs ref="#p.138">Roi des deux-Siciles</rs> au <persName ref="#p.140"
-                     ><roleName>Commandeur</roleName>
+               </choice> le <rs ref="#p.138">Roi des deux-Siciles</rs> au <persName ref="#p.140"><roleName>Commandeur</roleName>
                   <forename>Alvaro</forename>
                   <surname>Ruffo,</surname>
                   <roleName>des Princes de la Scaletta</roleName></persName> &amp; &amp; &amp;.,</p>
@@ -859,8 +814,7 @@
                   <expan>Sa Majesté</expan>
                </choice> le <rs ref="#p.138">Roi des deux-Siciles</rs> se garantissent
                réciproquement de la manière la plus absolue tous les Etats qu’Elles possèdent en
-               Italie suivant les stipulations du <rs ref="#t.12">traité général de <placeName
-                     ref="#loc.7">Vienne</placeName></rs>.</p>
+               Italie suivant les stipulations du <rs ref="#t.12">traité général de <placeName ref="#loc.7">Vienne</placeName></rs>.</p>
             <p>Art 3<hi rendition="#su">ième</hi></p>
             <p>Dans tous les cas où la presqu’Ile de l’Italie sera menacée d’une guerre, les deux
                hautes Parties contractantes<pb n="53v"/> emploi<supplied>e</supplied>ront, après
@@ -914,8 +868,7 @@
             <p>Fait à <placeName ref="#loc.7">Vienne</placeName> le <date when="1815-06-12">12 juin
                   de l’an de grâce Mil huit cent quinze</date>.</p>
             <p>Le <persName ref="#p.8"><roleName>Prince</roleName>
-                  <surname>de Metternich</surname></persName> Le <persName ref="#p.140"
-                     ><roleName>Commandeur</roleName>
+                  <surname>de Metternich</surname></persName> Le <persName ref="#p.140"><roleName>Commandeur</roleName>
                   <surname>Ruffo</surname></persName></p>
             <p><hi rendition="#u">Articles séparés &amp; secrets</hi></p>
             <p>Art 1<hi rendition="#su">er</hi></p>
@@ -932,13 +885,11 @@
                   <abbr>S. M.</abbr>
                   <expan>Sa Majesté</expan>
                </choice> le<rs ref="#p.138"> Roi des deux-Siciles</rs> que par une suite de
-               l’article six du <rs ref="#t.43">traité d’amitié et d’union du <date
-                     when="1815-06-12">douze juin Mil huit cent quinze</date></rs> Elles prennent
+               l’article six du <rs ref="#t.43">traité d’amitié et d’union du <date when="1815-06-12">douze juin Mil huit cent quinze</date></rs> Elles prennent
                l’engagement de ne contracter aucune alliance contraire au dit Traité et à la
                fédération défensive de l’Italie, de quelque nature qu’elle puisse être.</p>
             <p>Art 2<hi rendition="#su">e</hi></p>
-            <p>Les engagemens que <rs ref="#p.16 #p.138">Leurs Majestés</rs> prennent par <rs
-                  ref="#t.43">ce traité</rs> pour assurer la paix intérieure de l’Italie Leur
+            <p>Les engagemens que <rs ref="#p.16 #p.138">Leurs Majestés</rs> prennent par <rs ref="#t.43">ce traité</rs> pour assurer la paix intérieure de l’Italie Leur
                faisant un devoir de préserver Leurs Etats et sujets respectifs de nouvelles
                réactions et du danger d’imprudentes innovations qui en amèneroient le retour, il est
                entendu entre les hautes Parties contractantes que <choice>
@@ -968,19 +919,16 @@
             <p>Fait à <placeName ref="#loc.7">Vienne</placeName> le <date when="1815-06-12">douze
                   juin de l’an de grâce Mil huit cent quinze</date>.</p>
             <p>Le <persName ref="#p.8"><roleName>Prince</roleName>
-                  <surname>Metternich</surname></persName> Le <persName ref="#p.140"
-                     ><roleName>Commandeur</roleName>
+                  <surname>Metternich</surname></persName> Le <persName ref="#p.140"><roleName>Commandeur</roleName>
                   <surname>Ruffo</surname></persName></p>
          </div>
       </body>
       <back>
          <include xmlns="http://www.w3.org/2001/XInclude" href="listPlace.xml" xpointer="listPlace"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="listPerson.xml"
-            xpointer="listPerson"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listPerson.xml" xpointer="listPerson"/>
          <include xmlns="http://www.w3.org/2001/XInclude" href="listWit.xml" xpointer="listWit"/>
          <include xmlns="http://www.w3.org/2001/XInclude" href="listOrg.xml" xpointer="listOrg"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="listTreaties.xml"
-            xpointer="listTreaties"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listTreaties.xml" xpointer="listTreaties"/>
       </back>
    </text>
 </TEI>

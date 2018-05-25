@@ -1,8 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -72,9 +69,9 @@
          </appInfo>
          <styleDefDecl scheme="css"/>
          <tagsDecl>
-            <rendition xml:id="su">superscript</rendition>
-            <rendition xml:id="s">strikethrough</rendition>
-            <rendition xml:id="u">underline</rendition>
+            <rendition xml:id="su" scheme="css">vertical-align:sub; font-size:.7em;</rendition>
+            <rendition xml:id="s" scheme="css">text-decoration:line-through;</rendition>
+            <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
             <rendition xml:id="ow">overwritten</rendition>
          </tagsDecl>
       </encodingDesc>
@@ -129,8 +126,7 @@
                   <del rendition="#ow">43</del>42.</add></p>
             <p><placeName ref="#loc.1">Aix-la-Chapelle</placeName> le <date when="1818-11-21">21
                   Novembre</date></p>
-            <p><add place="margin"><hi rendition="#u"><persName ref="#p.50"
-                           ><surname>Bonaparte</surname></persName> à
+            <p><add place="margin"><hi rendition="#u"><persName ref="#p.50"><surname>Bonaparte</surname></persName> à
                      <choice>
                         <abbr>St.</abbr>
                         <expan>Sainte</expan>
@@ -141,8 +137,7 @@
                      <expan>Messieurs</expan>
                   </choice> les <rs ref="#p.13 #p.14">Plénipotentiaires de Russie</rs> ont donné
                   lecture d’un <ref target="Aachen_Prot_31.xml">Mémoire</ref></rs> destiné à faire connoître les points de
-               vue sous lesquels leur Cabinet envisage la position de <persName ref="#p.50"
-                     ><forename>Napoléon</forename>
+               vue sous lesquels leur Cabinet envisage la position de <persName ref="#p.50"><forename>Napoléon</forename>
                   <surname>Bonaparte</surname></persName> à l’Isle <del rendition="#s">d'Elba</del>
                de <choice>
                   <abbr>St.</abbr>
@@ -169,11 +164,9 @@
                apperçus présentés avec autant de vérité que de force dans le susdit Mémoire ; </p>
             <p>Ont unanimement reconnu et déclarent en conséquence :</p>
             <p>1. Que <persName ref="#p.50"><forename>Napoléon</forename>
-                  <surname>Bonaparte</surname></persName> s’est, par son propre fait, privé <pb
-                  n="244v"/>de tous les droits autres que ceux que l’humanité réclame en sa faveur,
+                  <surname>Bonaparte</surname></persName> s’est, par son propre fait, privé <pb n="244v"/>de tous les droits autres que ceux que l’humanité réclame en sa faveur,
                et que les mesures de précaution que le repos et le salut public peuvent exiger à son
-               égard sont entièrement soumises à la discrétion éclairée des <rs
-                  ref="#p.16 #p.19 #p.18 #p.17">Souverains Alliés</rs> ;</p>
+               égard sont entièrement soumises à la discrétion éclairée des <rs ref="#p.16 #p.19 #p.18 #p.17">Souverains Alliés</rs> ;</p>
             <p>2. Que la <rs ref="#t.31">convention du <date when="1815-08-02">2 Aout
                   1815</date></rs> le constitue expressément prisonnier des puissances signataires
                du <rs ref="#t.34">Traité du <date when="1815-03-25">25 Mars 1815</date></rs> ;</p>
@@ -182,27 +175,21 @@
                l’engagement contracté ou de s’exposer, par quelque considération que ce soit, à ce
                que l’effet de cet engagement puisse être frustré au détriment de la paix
                publique ;</p>
-            <p>4. Que les précautions ordonnées dans les <ref target="Aachen_Prot_31.xml"
-                  >instructions primitives du Gouvernement de <rs ref="#p.19"><choice>
+            <p>4. Que les précautions ordonnées dans les <ref target="Aachen_Prot_31.xml">instructions primitives du Gouvernement de <rs ref="#p.19"><choice>
                         <abbr>S. M.</abbr>
                         <expan>Sa Majesté</expan>
-                     </choice> Brittannique</rs>, et renouvelées dans la dépêche de <persName
-                     ref="#p.111"><roleName>Lord</roleName>
-                     <surname>Bathurst</surname></persName> à <persName ref="#p.108"
-                        ><roleName>Sir</roleName>
+                     </choice> Brittannique</rs>, et renouvelées dans la dépêche de <persName ref="#p.111"><roleName>Lord</roleName>
+                     <surname>Bathurst</surname></persName> à <persName ref="#p.108"><roleName>Sir</roleName>
                      <forename>Hudson</forename>
                      <surname>Lowe</surname></persName> du <date when="1818-09-01">1 Septembre
-                     1818</date></ref>, ont obtenu l’assentiment unanime des puis<pb n="245r"
-               />sances signataires de la susdite convention ; et qu’elles approuvent également les
+                     1818</date></ref>, ont obtenu l’assentiment unanime des puis<pb n="245r"/>sances signataires de la susdite convention ; et qu’elles approuvent également les
                ménagemens que l’humanité et la générosité peuvent suggérer dans l’exécution de ces
                instructions, vu la position où se trouve <choice>
                   <abbr>S. A. R.</abbr>
                   <expan>Son Altesse Royale</expan>
-               </choice> le <rs ref="#p.130">Prince Régent</rs> par le fait que <persName
-                  ref="#p.50"><surname>Bonaparte</surname></persName> s’est rendu au Gouvernement
+               </choice> le <rs ref="#p.130">Prince Régent</rs> par le fait que <persName ref="#p.50"><surname>Bonaparte</surname></persName> s’est rendu au Gouvernement
                Brittanique ;</p>
-            <p>5. Qu’aussi long tems que les Commissaires des puissances qui ont concouru au <rs
-                  ref="#t.31">traité du <date when="1815-08-02">2 Aout 1815</date></rs> prolongeront
+            <p>5. Qu’aussi long tems que les Commissaires des puissances qui ont concouru au <rs ref="#t.31">traité du <date when="1815-08-02">2 Aout 1815</date></rs> prolongeront
                leur séjour à l’isle de <choice>
                   <abbr>St.</abbr>
                   <expan>Sainte</expan>
@@ -229,12 +216,10 @@
       </body>
       <back>
          <include xmlns="http://www.w3.org/2001/XInclude" href="listPlace.xml" xpointer="listPlace"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="listPerson.xml"
-            xpointer="listPerson"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listPerson.xml" xpointer="listPerson"/>
          <include xmlns="http://www.w3.org/2001/XInclude" href="listWit.xml" xpointer="listWit"/>
          <include xmlns="http://www.w3.org/2001/XInclude" href="listOrg.xml" xpointer="listOrg"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="listTreaties.xml"
-            xpointer="listTreaties"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listTreaties.xml" xpointer="listTreaties"/>
       </back>
    </text>
 </TEI>

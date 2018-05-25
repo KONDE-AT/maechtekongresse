@@ -1,8 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -101,11 +98,11 @@
          </appInfo>
          <styleDefDecl scheme="css"/>
          <tagsDecl>
-            <rendition xml:id="su">superscript</rendition>
-            <rendition xml:id="s">strikethrough</rendition>
-            <rendition xml:id="u">underline</rendition>
-            <rendition xml:id="et">indented</rendition>
-            <rendition xml:id="r">right</rendition>
+            <rendition xml:id="su" scheme="css">vertical-align:sub; font-size:.7em;</rendition>
+            <rendition xml:id="s" scheme="css">text-decoration:line-through;</rendition>
+            <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
+            <rendition xml:id="et" scheme="css">display:block; margin-left:2em; text-indent:0;</rendition>
+            <rendition xml:id="r" scheme="css">display:block; text-align:right;</rendition>
          </tagsDecl>
       </encodingDesc>
       <profileDesc>
@@ -185,14 +182,12 @@
                      <abbr>Nr.</abbr>
                      <expan>Numéro</expan>
                   </choice> X.</title></p>
-            <p rendition="#u"><placeName ref="#loc.65">Laybach</placeName> le <date
-                  when="1821-01-30">30 Janvier 1821</date></p>
+            <p rendition="#u"><placeName ref="#loc.65">Laybach</placeName> le <date when="1821-01-30">30 Janvier 1821</date></p>
             <p>La séance de ce jour avoit pour objet de faire connoître à <choice>
                   <abbr>Mr.</abbr>
                   <expan>Monsieur</expan>
                </choice> le <persName ref="#p.142"><roleName>Duc</roleName>
-                  <surname>de Gallo</surname></persName>, conformément au vœu énoncé par <rs
-                  ref="#p.138">Sa Majesté Sicilienne</rs>, les déterminations des Cabinets Alliés
+                  <surname>de Gallo</surname></persName>, conformément au vœu énoncé par <rs ref="#p.138">Sa Majesté Sicilienne</rs>, les déterminations des Cabinets Alliés
                relativement à l’état actuel des choses dans le <country>Royaume des
                   Deux-Siciles</country>.</p>
             <p>Avant l’arrivée du <persName ref="#p.142"><roleName>Duc</roleName>
@@ -211,8 +206,7 @@
                   <surname>de Gallo</surname></persName> du <ref target="Laibach_Prot_7.xml">Journal <choice>
                      <abbr>Nr.</abbr>
                      <expan>Numéro</expan>
-                  </choice> VII</ref>, contenant la déclaration de <persName ref="#p.137"
-                     ><roleName>Lord</roleName>
+                  </choice> VII</ref>, contenant la déclaration de <persName ref="#p.137"><roleName>Lord</roleName>
                   <surname>Stewart</surname></persName>. Sur l’observation de plusieurs de <choice>
                   <abbr>Mrs.</abbr>
                   <expan>Messieurs</expan>
@@ -237,9 +231,7 @@
                   ci-jointe</ref>. Après la
                première partie de ce discours les pièces suivantes ont été lues :</p>
             <p>1. Instruction aux <rs ref="#p.149 #p.148 #p.144">Ministres de Russie et de Prusse,
-                  et au Chargé d’affaires d’Autriche à <placeName ref="#loc.11"
-                  >Naples</placeName></rs>, telle qu’elle se trouve consignée au <ref
-                  target="Laibach_Prot_9.xml">Journal <choice>
+                  et au Chargé d’affaires d’Autriche à <placeName ref="#loc.11">Naples</placeName></rs>, telle qu’elle se trouve consignée au <ref target="Laibach_Prot_9.xml">Journal <choice>
                      <abbr>Nr.</abbr>
                      <expan>Numéro</expan>
                   </choice> VIIII</ref> ;</p>
@@ -247,8 +239,7 @@
                      <abbr>Mrs.</abbr>
                      <expan>Messieurs</expan>
                   </choice> les <rs ref="#p.160 #p.102 #p.135">Plénipotentiaires de France</rs> au
-                     <rs ref="#p.162">Chargé d’affaires de leur cour</rs> à <placeName ref="#loc.11"
-                     >Naples</placeName></ref> ;</p>
+                     <rs ref="#p.162">Chargé d’affaires de leur cour</rs> à <placeName ref="#loc.11">Naples</placeName></ref> ;</p>
             <p rendition="#et">Après cette pièce, il a été fait communication à <choice>
                   <abbr>Mr.</abbr>
                   <expan>Monsieur</expan>
@@ -285,14 +276,12 @@
             <p rendition="#et">Qu’il avoit entendu avec la plus grande attention tout ce que l’on
                venoit de lui faire connoitre de la part de l’auguste Congrès ; qu’Il demanderoit les
                ordres du <rs ref="#p.138">Roi</rs>, Son Maître ; que <rs ref="#p.138">Sa
-                  Majesté</rs> lui avoit annoncé l’intention de l’envoyer à <placeName ref="#loc.11"
-                  >Naples</placeName> pour y porter la lettre du <rs ref="#p.138">Roi</rs> à <choice>
+                  Majesté</rs> lui avoit annoncé l’intention de l’envoyer à <placeName ref="#loc.11">Naples</placeName> pour y porter la lettre du <rs ref="#p.138">Roi</rs> à <choice>
                   <abbr>Msgr.</abbr>
                   <expan>Monseigneur</expan>
                </choice> le <rs ref="#p.141">Duc de Calabre</rs> ; qu’il étoit prêt à se charger de
                cette commission ; et qu’il feroit tout ce qui seroit en son pouvoir pour répondre
-               aux vœux du <rs ref="#p.138">Roi</rs>, Son Maître, et des <rs ref="#p.16 #p.18 #p.17"
-                  >Augustes Alliés de Sa Majesté</rs>.</p>
+               aux vœux du <rs ref="#p.138">Roi</rs>, Son Maître, et des <rs ref="#p.16 #p.18 #p.17">Augustes Alliés de Sa Majesté</rs>.</p>
 
             <p rendition="#r"><add hand="#G">Lu et certifié</add></p>
             <p rendition="#r"><add hand="#G">À la conférence du <date when="1821-02-02">2
@@ -310,20 +299,17 @@
                      <abbr>M</abbr>
                      <expan>Monsieur</expan>
                   </choice> le <persName ref="#p.142"><roleName>Duc</roleName>
-                     <surname>de Gallo</surname></persName> dans la séance du <date
-                     when="1821-01-30">30 Janvier 1821</date></title></p>
+                     <surname>de Gallo</surname></persName> dans la séance du <date when="1821-01-30">30 Janvier 1821</date></title></p>
             <p><choice>
                   <abbr>S. M.</abbr>
                   <expan>Sa Majesté</expan>
-               </choice> le <rs ref="#p.138">Roi des deux-Siciles</rs> a demandé à <rs
-                  ref="#p.16 #p.18 #p.17">ses augustes alliés</rs> que vous soyiez invité à la
+               </choice> le <rs ref="#p.138">Roi des deux-Siciles</rs> a demandé à <rs ref="#p.16 #p.18 #p.17">ses augustes alliés</rs> que vous soyiez invité à la
                Conférence de <rs ref="#p.8 #p.2 #p.12 #p.13 #p.14 #p.7">Leurs
                Plénipotentiaires</rs>, afin d’y recueillir la confirmation de ce qui a été dit et
                déclaré au <rs ref="#p.138">Roi</rs>, Votre Maître.</p>
             <p>Les Puissances alliées ne reconnaîtront jamais l’état des choses établi dans le
                   <country>Royaume des deux-Siciles</country> à la suite <rs xml:id="n.2">des
-                  évènemens du <date when="1820-07-06">6 Juillet</date></rs><note type="editorial"
-                  target="#n.2">Am <date when="1820-07-06">6. Juli 1820</date> entschloss sich der
+                  évènemens du <date when="1820-07-06">6 Juillet</date></rs><note type="editorial" target="#n.2">Am <date when="1820-07-06">6. Juli 1820</date> entschloss sich der
                   neapolitanische Hof, die Verfassung von Cádiz anzunehmen. Vgl. Stites, The four
                   Horsemen; Davis, Naples and Napoleon; Gin, Sanfedisti, Carbonari, Magistrati del
                   Re; Späth, Revolution in Europa, S. 129–149.</note> dernier, ni aucune de ses
@@ -331,9 +317,7 @@
                détermination invariable, fondée sur la conviction que cet état des choses est
                incompatible avec le repos et avec l’existence même des Etats voisins comme avec le
                maintien de la paix de l’Europe.</p>
-            <p>Nous allons vous donner communication des instructions que <rs
-                  ref="#p.144 #p.148 #p.149">les agens diplomatiques des Puissances à <placeName
-                     ref="#loc.11">Naples</placeName></rs> recevront en même tems que <choice>
+            <p>Nous allons vous donner communication des instructions que <rs ref="#p.144 #p.148 #p.149">les agens diplomatiques des Puissances à <placeName ref="#loc.11">Naples</placeName></rs> recevront en même tems que <choice>
                   <abbr>S. M.</abbr>
                   <expan>Sa Majesté</expan>
                </choice> le <rs ref="#p.138">Roi</rs> adressera Ses paroles paternelles<pb n="82v"/>
@@ -349,8 +333,7 @@
                paix et de bienveillance, base de la politique Européenne, et tous les amis sincères
                et éclairés du bonheur des peuples.</p>
             <p>Ces vœux ont pour objet que les habitans du <country>Royaume des
-                  deux-Siciles</country> écoutent la voix paternelle de leur <rs ref="#p.138"
-                  >Roi</rs>, et que par un désaveu franc et sincère ils mettent <rs ref="#p.138">Sa
+                  deux-Siciles</country> écoutent la voix paternelle de leur <rs ref="#p.138">Roi</rs>, et que par un désaveu franc et sincère ils mettent <rs ref="#p.138">Sa
                   Majesté</rs> en état de fonder leur bonheur futur sur des bases conformes à
                   leurs<pb n="83r"/> véritables intérêts et, par cela même, à la sureté et à la
                tranquillité des Etats voisins. Rentré ainsi dans le sein de l’alliance générale, le
@@ -364,12 +347,10 @@
       </body>
       <back>
          <include xmlns="http://www.w3.org/2001/XInclude" href="listPlace.xml" xpointer="listPlace"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="listPerson.xml"
-            xpointer="listPerson"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listPerson.xml" xpointer="listPerson"/>
          <include xmlns="http://www.w3.org/2001/XInclude" href="listWit.xml" xpointer="listWit"/>
          <include xmlns="http://www.w3.org/2001/XInclude" href="listOrg.xml" xpointer="listOrg"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="listTreaties.xml"
-            xpointer="listTreaties"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listTreaties.xml" xpointer="listTreaties"/>
       </back>
    </text>
 </TEI>

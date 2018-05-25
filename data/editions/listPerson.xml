@@ -1,8 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -18,7 +15,7 @@
     </teiHeader>
     <text>
         <body>
-            <listPerson xmlns="http://www.tei-c.org/ns/1.0" xml:id="listPerson">
+            <listPerson xml:id="listPerson">
                 <person xml:id="p.1">
                     <persName><forename>Armand Emmanuel</forename>
                         <surname>du Plessis</surname>
@@ -300,9 +297,7 @@
                     <death>1823</death>
                     <note>vgl. zu seiner Person Archivo Biográfico de España, Portugal e
                         Iberoamérica, I 558, 396–397, II 553, 237–240, IV 378, 378, auf World
-                        Biographical Information System <ref
-                            target="http://db.saur.de.uaccess.univie.ac.at/WBIS/basicSearch.jsf"
-                            >http://db.saur.de.uaccess.univie.ac.at/WBIS/basicSearch.jsf</ref>
+                        Biographical Information System <ref target="http://db.saur.de.uaccess.univie.ac.at/WBIS/basicSearch.jsf">http://db.saur.de.uaccess.univie.ac.at/WBIS/basicSearch.jsf</ref>
                         (eingesehen am 26. Juli 2017)</note>
                 </person>
                 <person xml:id="p.30">
@@ -455,8 +450,7 @@
                     <birth>1769</birth>
                     <death>1831</death>
                     <note>vgl. zu seiner Person Alopäus Franz David in der Erik-Amburger-Datenbank
-                        (Ausländer im vorrevolutionären Russland) auf <ref
-                            target="http://dokumente.ios-regensburg.de/amburger/index.php?id=94067">
+                        (Ausländer im vorrevolutionären Russland) auf <ref target="http://dokumente.ios-regensburg.de/amburger/index.php?id=94067">
                             http://dokumente.ios-regensburg.de/amburger/index.php?id=94067</ref>
                         (eingesehen am 28. Juni 2017).</note>
                     <idno type="URI">https://viaf.org/viaf/8135449/</idno>
@@ -603,10 +597,8 @@
                     <death>1836</death>
                     <note>russischer Botschafter in Stockholm; vgl. Johann Peter Suchtelen in der
                         David in der Erik-Amburger-Datenbank (Ausländer im vorrevolutionären
-                        Russland) auf <ref
-                            target="http://dokumente.ios-regensburg.de/amburger/index.php?id=89719&amp;mode=1"
-                            >
-                            >http://dokumente.ios-regensburg.de/amburger/index.php?id=89719&amp;mode=1</ref>
+                        Russland) auf <ref target="http://dokumente.ios-regensburg.de/amburger/index.php?id=89719&amp;mode=1">
+                            &gt;http://dokumente.ios-regensburg.de/amburger/index.php?id=89719&amp;mode=1</ref>
                         (eingesehen am 5. Juli 2017).</note>
                     <idno type="URI">https://viaf.org/viaf/40184228/</idno>
                 </person>
@@ -618,9 +610,7 @@
                     <death>1850</death>
                     <note>portugiesischer Außenminister; vgl. zu seiner Person Archivo Biográfico de
                         España, Portugal e Iberoamérica, I 702, 129–156, II 681, 407–411, IV 469,
-                        442–445, auf World Biographical Information System <ref
-                            target="http://db.saur.de.uaccess.univie.ac.at/WBIS/basicSearchResult.jsf"
-                            >http://db.saur.de.uaccess.univie.ac.at/WBIS/basicSearchResult.jsf</ref>
+                        442–445, auf World Biographical Information System <ref target="http://db.saur.de.uaccess.univie.ac.at/WBIS/basicSearchResult.jsf">http://db.saur.de.uaccess.univie.ac.at/WBIS/basicSearchResult.jsf</ref>
                         (eingesehen am 26. Juli 2017); Schneider, Werner, Europa in Wien, S.
                         253–254.</note>
                     <idno type="URI">https://viaf.org/viaf/28369126/</idno>
@@ -662,9 +652,7 @@
                     <death>1839</death>
                     <note>russischer Botschafter in London; vgl. zu seiner Person den Eintrag zu
                         Graf Lieven/Fürst Lieven Christoph Heinrich in der Erik-Amburger-Datenbank
-                        (Ausländer im vorrevolutionären Russland) auf <ref
-                            target="http://dokumente.ios-regensburg.de/amburger/index.php?id=71688&amp;mode=1"
-                            >http://dokumente.ios-regensburg.de/amburger/index.php?id=71688&amp;mode=1</ref>
+                        (Ausländer im vorrevolutionären Russland) auf <ref target="http://dokumente.ios-regensburg.de/amburger/index.php?id=71688&amp;mode=1">http://dokumente.ios-regensburg.de/amburger/index.php?id=71688&amp;mode=1</ref>
                         (eingesehen am 6. Juli 2017).</note>
                     <idno type="URI">https://viaf.org/viaf/25368257/</idno>
                 </person>
@@ -846,8 +834,7 @@
                     <birth>1714</birth>
                     <death>1767</death>
                     <note>vgl. Haggenmacher, Vattel. In: Historisches Lexikon der Schweiz, online
-                            <ref target="http://www.hls-dhs-dss.ch/textes/d/D15917.php"
-                            >http://www.hls-dhs-dss.ch/textes/d/D15917.php</ref> (eingesehen am 16.
+                            <ref target="http://www.hls-dhs-dss.ch/textes/d/D15917.php">http://www.hls-dhs-dss.ch/textes/d/D15917.php</ref> (eingesehen am 16.
                         Juni 2017).</note>
                     <idno type="URI">https://viaf.org/viaf/71465252/</idno>
                 </person>
@@ -969,9 +956,7 @@
                     <death>1849</death>
                     <note>Gesandter Russlands in den Vereinigten Staaten von Amerika; vgl.
                         Russisches Biographisches Archiv &amp; Biographisches Archiv der Sowjetunion
-                        R 371, 438–451; RS 57, 250, auf World Biographical Information System, <ref
-                            target="http://db.saur.de.uaccess.univie.ac.at/WBIS/basicSearchResult.jsf"
-                            >http://db.saur.de.uaccess.univie.ac.at/WBIS/basicSearchResult.jsf</ref>
+                        R 371, 438–451; RS 57, 250, auf World Biographical Information System, <ref target="http://db.saur.de.uaccess.univie.ac.at/WBIS/basicSearchResult.jsf">http://db.saur.de.uaccess.univie.ac.at/WBIS/basicSearchResult.jsf</ref>
                         (eingesehen am 19. Juli 2017).</note>
                     <idno type="URI">https://viaf.org/viaf/57044598/</idno>
                 </person>
@@ -1125,9 +1110,7 @@
                         in Wien, Mitglied der russischen Delegation beim Kongress von Troppau; vgl.
                         zu seiner Person Russisches Biographisches Archiv &amp; Biographisches
                         Archiv der Sowjetunion (RBA &amp; BASU), R 131, 254–256; RS 17, 289–293, auf
-                        World Biographical Information System, <ref
-                            target="http://db.saur.de.uaccess.univie.ac.at/WBIS/basicSearchResult.jsf"
-                            >
+                        World Biographical Information System, <ref target="http://db.saur.de.uaccess.univie.ac.at/WBIS/basicSearchResult.jsf">
                             http://db.saur.de.uaccess.univie.ac.at/WBIS/basicSearchResult.jsf</ref>
                         (eingesehen am 12. Juli 2017).</note>
                     <idno type="URI">https://viaf.org/viaf/311466653/</idno>
@@ -1139,9 +1122,7 @@
                     <death>1819</death>
                     <note>Gesandter Preußens im Kurfürstentum Hessen; vgl. zu seiner Person Eintrag
                         Haenlein, Conrad Sigmund Carl von. In: Hessische Biographie
-                        (Landesgeschichtliches Informationssystem Hessen) auf <ref
-                            target="http://www.lagis-hessen.de/de/subjects/idrec/sn/bio/id/3231"
-                            >http://www.lagis-hessen.de/de/subjects/idrec/sn/bio/id/3231</ref>
+                        (Landesgeschichtliches Informationssystem Hessen) auf <ref target="http://www.lagis-hessen.de/de/subjects/idrec/sn/bio/id/3231">http://www.lagis-hessen.de/de/subjects/idrec/sn/bio/id/3231</ref>
                         (eingesehen am 12. Juli 2014).</note>
                     <idno type="URI">https://viaf.org/viaf/39769875/</idno>
                 </person>
@@ -1172,9 +1153,7 @@
                     <death>1863</death>
                     <note>Gesandter Russlands in München; vgl. zu seiner Person den Eintrag zu Graf
                         v. d. Pahlen Friedrich Alexander in der Erik-Amburger-Datenbank (Ausländer
-                        im vorrevolutionären Russland) auf <ref
-                            target="http://dokumente.ios-regensburg.de/amburger/?id=74164"
-                            >http://dokumente.ios-regensburg.de/amburger/?id=74164</ref> (eingesehen
+                        im vorrevolutionären Russland) auf <ref target="http://dokumente.ios-regensburg.de/amburger/?id=74164">http://dokumente.ios-regensburg.de/amburger/?id=74164</ref> (eingesehen
                         am 16. Juli 2017).</note>
                 </person>
                 <person xml:id="p.126">
@@ -1297,13 +1276,11 @@
                     <persName><forename>Charles William</forename>
                         <roleName>Lord</roleName>
                         <surname>Stewart</surname>
-                        <surname>Vane</surname><roleName>3<hi
-                            rendition="#su">rd</hi> Marquess of Londonderry</roleName></persName>
+                        <surname>Vane</surname><roleName>3<hi rendition="#su">rd</hi> Marquess of Londonderry</roleName></persName>
                     <birth>1778</birth>
                     <death>1854</death>
                     <note>britischer Botschafter in Wien, Mitglied der britischen Delegation bei den
-                        Kongress von Troppau, Laibach und Verona, ab 1822 Charles William Vane, 3<hi
-                            rendition="#su">rd</hi> Marquess of Londonderry vgl. zu seiner Person
+                        Kongress von Troppau, Laibach und Verona, ab 1822 Charles William Vane, 3<hi rendition="#su">rd</hi> Marquess of Londonderry vgl. zu seiner Person
                         Lloyd, Heersom, Vane [formerly Stewart], Charles William. In: ODNB, Bd. 56,
                         S. 95–98; Schneider, Werner, Europa in Wien, S. 292–293.</note>
                     <idno type="URI">https://viaf.org/viaf/8284837/</idno>
@@ -1315,9 +1292,7 @@
                     <death>1825</death>
                     <note>1759-1806 Ferdinand IV. von Neapel, 1769-1815 Ferdinand III. von Sizilien,
                         ab 1815/16 König beider Sizilien vgl. de Maio, Ferdinando I di Bourbone, re
-                        delle due Sicilie, auf <ref
-                            target="http://www.treccani.it/enciclopedia/ferdinando-i-di-borbone-re-delle-due-sicilie_(Dizionario-Biografico"
-                            >http://www.treccani.it/enciclopedia/ferdinando-i-di-borbone-re-delle-due-sicilie_(Dizionario-Biografico</ref>)
+                        delle due Sicilie, auf <ref target="http://www.treccani.it/enciclopedia/ferdinando-i-di-borbone-re-delle-due-sicilie_(Dizionario-Biografico">http://www.treccani.it/enciclopedia/ferdinando-i-di-borbone-re-delle-due-sicilie_(Dizionario-Biografico</ref>)
                         (eingesehen am 31. Juli 2017).</note>
                     <idno type="URI">https://viaf.org/viaf/16073751/</idno>
                 </person>
@@ -1328,9 +1303,7 @@
                     <birth>1775</birth>
                     <death>1853</death>
                     <note>; vgl. zu seiner Person Covino, Pignatelli, Francesco, principe di
-                        Prignatelli, auf <ref
-                            target="http://www.treccani.it/enciclopedia/pignatelli-francesco-principe-di-strongoli_(Dizionario-Biografico)/"
-                            >http://www.treccani.it/enciclopedia/pignatelli-francesco-principe-di-strongoli_(Dizionario-Biografico)/</ref>
+                        Prignatelli, auf <ref target="http://www.treccani.it/enciclopedia/pignatelli-francesco-principe-di-strongoli_(Dizionario-Biografico)/">http://www.treccani.it/enciclopedia/pignatelli-francesco-principe-di-strongoli_(Dizionario-Biografico)/</ref>
                         (eingesehen am 28. Juli 2017).</note>
                     <idno type="URI">https://viaf.org/viaf/90340572/</idno>
                 </person>
@@ -1352,9 +1325,7 @@
                     <birth>1777</birth>
                     <death>1830</death>
                     <note> ab 1825 Franz/Francesco I., König beider Sizilien; vgl. zu seiner Person
-                        de Majo, Francesco I di Borbone, re delle Due Sicilie, auf <ref
-                            target="http://www.treccani.it/enciclopedia/francesco-i-di-borbone-re-delle-due-sicilie_(Dizionario-Biografico)/"
-                            >http://www.treccani.it/enciclopedia/francesco-i-di-borbone-re-delle-due-sicilie_(Dizionario-Biografico)/</ref>
+                        de Majo, Francesco I di Borbone, re delle Due Sicilie, auf <ref target="http://www.treccani.it/enciclopedia/francesco-i-di-borbone-re-delle-due-sicilie_(Dizionario-Biografico)/">http://www.treccani.it/enciclopedia/francesco-i-di-borbone-re-delle-due-sicilie_(Dizionario-Biografico)/</ref>
                         (eingesehen am 31. Juli 2017).</note>
                     <idno type="URI">https://viaf.org/viaf/268727865/</idno>
                 </person>
@@ -1364,9 +1335,7 @@
                         <roleName>duca di Gallo</roleName></persName>
                     <birth>1753</birth>
                     <death>1833</death>
-                    <note>vgl. zu seiner Person Sperber, Mastrilli Marzio, auf <ref
-                            target="http://www.treccani.it/enciclopedia/marzio-mastrilli_(Dizionario-Biografico"
-                            >http://www.treccani.it/enciclopedia/marzio-mastrilli_(Dizionario-Biografico</ref>
+                    <note>vgl. zu seiner Person Sperber, Mastrilli Marzio, auf <ref target="http://www.treccani.it/enciclopedia/marzio-mastrilli_(Dizionario-Biografico">http://www.treccani.it/enciclopedia/marzio-mastrilli_(Dizionario-Biografico</ref>
                         (eingesehen am 31. Juli 2017).</note>
                     <idno type="URI">https://viaf.org/viaf/188669354/</idno>
                 </person>
@@ -1378,9 +1347,7 @@
                     <birth>1755</birth>
                     <death>1848</death>
                     <note>vgl. zu seiner Person Sperber, Cimitile, Fabio Albertini principe di, auf
-                            <ref
-                            target="http://www.treccani.it/enciclopedia/fabio-albertini-principe-di-cimitile_%28Dizionario-Biografico%29/"
-                            >http://www.treccani.it/enciclopedia/fabio-albertini-principe-di-cimitile_%28Dizionario-Biografico%29/</ref>
+                            <ref target="http://www.treccani.it/enciclopedia/fabio-albertini-principe-di-cimitile_%28Dizionario-Biografico%29/">http://www.treccani.it/enciclopedia/fabio-albertini-principe-di-cimitile_%28Dizionario-Biografico%29/</ref>
                         (eingesehen am 31. Juli 2017).</note>
                     <idno type="URI">https://viaf.org/viaf/88968739/</idno>
                 </person>
@@ -1400,9 +1367,7 @@
                     </persName>
                     <birth>1761</birth>
                     <death>1836</death>
-                    <note>neapolitanischer Außenminister. Vgl. Sperber, Mormile, Ottavio, auf <ref
-                            target="http://www.treccani.it/enciclopedia/ottavio-mormile_(Dizionario-Biografico"
-                            >http://www.treccani.it/enciclopedia/ottavio-mormile_(Dizionario-Biografico</ref>
+                    <note>neapolitanischer Außenminister. Vgl. Sperber, Mormile, Ottavio, auf <ref target="http://www.treccani.it/enciclopedia/ottavio-mormile_(Dizionario-Biografico">http://www.treccani.it/enciclopedia/ottavio-mormile_(Dizionario-Biografico</ref>
                         (eingesehen am 31. Juli 2017); Schneider, Werner, Europa in Wien, S.
                         126–127.</note>
                     <idno type="URI">https://viaf.org/viaf/147145542441396640420/</idno>
@@ -1464,9 +1429,7 @@
                     <birth>1783</birth>
                     <death>1855</death>
                     <note>neapolitanischer Offizier, einer der Anführer der Revolte von 1820; vgl.
-                        de Majo, Pepe, Guglielmo, auf <ref
-                            target="http://www.treccani.it/enciclopedia/guglielmo-pepe_(Dizionario-Biografico"
-                            >http://www.treccani.it/enciclopedia/guglielmo-pepe_(Dizionario-Biografico</ref>)
+                        de Majo, Pepe, Guglielmo, auf <ref target="http://www.treccani.it/enciclopedia/guglielmo-pepe_(Dizionario-Biografico">http://www.treccani.it/enciclopedia/guglielmo-pepe_(Dizionario-Biografico</ref>)
                         (eingesehen am 1. August 2017).</note>
                     <idno type="URI">https://viaf.org/viaf/19791309/</idno>
                 </person>
@@ -1476,9 +1439,7 @@
                     <birth>1783</birth>
                     <death>1861</death>
                     <note>Priester, einer der Anführer der Revolte von 1820; vgl. Parrella,
-                        Minichini, Luigi, auf <ref
-                            target="http://www.treccani.it/enciclopedia/luigi-minichini_(Dizionario-Biografico"
-                            >http://www.treccani.it/enciclopedia/luigi-minichini_(Dizionario-Biografico</ref>)
+                        Minichini, Luigi, auf <ref target="http://www.treccani.it/enciclopedia/luigi-minichini_(Dizionario-Biografico">http://www.treccani.it/enciclopedia/luigi-minichini_(Dizionario-Biografico</ref>)
                         (eingesehen am 1. August 2017).</note>
                     <idno type="URI">https://viaf.org/viaf/65297956/</idno>
                 </person>
@@ -1489,9 +1450,7 @@
                     <birth>1784</birth>
                     <death>1867</death>
                     <note>neapolitanischer Offizier und Funktionsträger; vgl. de Lorenzo,
-                        Filangieri, Carlo, auf <ref
-                            target="http://www.treccani.it/enciclopedia/carlo-filangieri_(Dizionario-Biografico"
-                            >http://www.treccani.it/enciclopedia/carlo-filangieri_(Dizionario-Biografico</ref>)
+                        Filangieri, Carlo, auf <ref target="http://www.treccani.it/enciclopedia/carlo-filangieri_(Dizionario-Biografico">http://www.treccani.it/enciclopedia/carlo-filangieri_(Dizionario-Biografico</ref>)
                         (eingesehen am 1. August 2017).</note>
                     <idno type="URI">https://viaf.org/viaf/30289514/</idno>
                 </person>
@@ -1501,9 +1460,7 @@
                     <birth>1774</birth>
                     <death>1853</death>
                     <note>neapolitanischer Kriegsminister; vgl. Sperber, Carrascosa, Michele, auf
-                            <ref
-                            target="http://www.treccani.it/enciclopedia/michele-carrascosa_(Dizionario-Biografico"
-                            >http://www.treccani.it/enciclopedia/michele-carrascosa_(Dizionario-Biografico</ref>)
+                            <ref target="http://www.treccani.it/enciclopedia/michele-carrascosa_(Dizionario-Biografico">http://www.treccani.it/enciclopedia/michele-carrascosa_(Dizionario-Biografico</ref>)
                         (eingesehen am 1. August 2017).</note>
                     <idno type="URI">https://viaf.org/viaf/3384114/</idno>
                 </person>
@@ -1583,9 +1540,7 @@
                     <birth>1784</birth>
                     <death>1855</death>
                     <note> 1821 Chargé d'affaires in Neapel; vgl. zu seiner Person Archives
-                        Biographiques Françaises (ABF), II 266, 424, auf <ref
-                            target="http://db.saur.de.uaccess.univie.ac.at/WBIS/basicSearchResult.jsf"
-                            >http://db.saur.de.uaccess.univie.ac.at/WBIS/basicSearchResult.jsf</ref>
+                        Biographiques Françaises (ABF), II 266, 424, auf <ref target="http://db.saur.de.uaccess.univie.ac.at/WBIS/basicSearchResult.jsf">http://db.saur.de.uaccess.univie.ac.at/WBIS/basicSearchResult.jsf</ref>
                         (eingesehen am 4. August 2017).</note>
                 </person>
                 <person xml:id="p.163">
@@ -1705,9 +1660,7 @@
                     <death>1839</death>
                     <note>1821 russischer Gesandter in Turin; vgl. zu seiner Person den Eintrag Graf
                         Mocenigo Georgij Dmitrievič in der Erik-Amburger-Datenbank (Ausländer im
-                        vorrevolutionären Russland) auf <ref
-                            target="http://dokumente.ios-regensburg.de/amburger/index.php?id=91103&amp;mode=1"
-                            >http://dokumente.ios-regensburg.de/amburger/index.php?id=91103&amp;mode=1</ref>
+                        vorrevolutionären Russland) auf <ref target="http://dokumente.ios-regensburg.de/amburger/index.php?id=91103&amp;mode=1">http://dokumente.ios-regensburg.de/amburger/index.php?id=91103&amp;mode=1</ref>
                         (eingesehen am 7. August 2017).</note>
                 </person>
                 <person xml:id="p.174">
@@ -1739,9 +1692,7 @@
                     <birth>1768</birth>
                     <note>1822 spanischer Gesander in London (?); vgl. zu seiner Person Archivo
                         Biográfico de España, Portugal e Iberoamérica (ABEPI) I 468,11–12; II 473,
-                        25; IV 318, 9, auf World Biographical Information System <ref
-                            target="http://db.saur.de.uaccess.univie.ac.at/WBIS/basicSearchResult.jsf"
-                            > http://db.saur.de.uaccess.univie.ac.at/WBIS/basicSearchResult.jsf
+                        25; IV 318, 9, auf World Biographical Information System <ref target="http://db.saur.de.uaccess.univie.ac.at/WBIS/basicSearchResult.jsf"> http://db.saur.de.uaccess.univie.ac.at/WBIS/basicSearchResult.jsf
                         </ref> (eingesehen am 17. August 2017).</note>
                 </person>
                 <person xml:id="p.177">

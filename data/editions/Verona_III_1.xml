@@ -1,8 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -43,8 +40,7 @@
                </msContents>
                <physDesc>
                   <p>Lithographie</p>
-                  <p>Précis liegt zweifach ein: handschriftliches Konzept von <persName ref="#p.5"
-                           ><surname>Gentz</surname></persName> fol. III/5, lithographiert fol.
+                  <p>Précis liegt zweifach ein: handschriftliches Konzept von <persName ref="#p.5"><surname>Gentz</surname></persName> fol. III/5, lithographiert fol.
                      III/6; die Edition folgt der lithographierten Variante. Zählung mit rotem
                      Buntstift rechts oben auf fol. 5r: "1".</p>
 
@@ -170,9 +166,9 @@
          </appInfo>
          <styleDefDecl scheme="css"/>
          <tagsDecl>
-            <rendition xml:id="su">superscript</rendition>
-            <rendition xml:id="s">strikethrough</rendition>
-            <rendition xml:id="u">underline</rendition>
+            <rendition xml:id="su" scheme="css">vertical-align:sub; font-size:.7em;</rendition>
+            <rendition xml:id="s" scheme="css">text-decoration:line-through;</rendition>
+            <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
             <rendition xml:id="ow">overwritten</rendition>
          </tagsDecl>
       </encodingDesc>
@@ -214,24 +210,20 @@
 
             <p><add place="top" rendition="#u">IV. Conférence.</add></p>
             <p><title>Précis</title></p>
-            <p><title>de la Conférence tenue à <placeName ref="#loc.68">Vérone</placeName> le <date
-                     when="1822-11-09">9 Novembre 1822</date>.</title></p>
+            <p><title>de la Conférence tenue à <placeName ref="#loc.68">Vérone</placeName> le <date when="1822-11-09">9 Novembre 1822</date>.</title></p>
             <p>Afin de reprendre le fil des <rs xml:id="n.1">Conférences qui ont eu lieu à
                      <placeName ref="#loc.7">Vienne</placeName> pendant le mois de Juillet sur les
                   affaires d’Orient</rs>,<note type="editorial" target="#n.1">Précis der
                   vorhergehenden Konferenzen sind abgedruckt in Prokesch-Osten, Geschichte des
                   Abfalls, Bd. 3, S. 393–398.</note> la réunion de ce jour a commencé par la lecture
-               du <rs xml:id="n.2"><ref target="#m.2">Précis de ce qui s’était passé à la Conférence du <date
-                     when="1822-07-27">27 Juillet</date></ref></rs>.<note type="editorial" target="#n.2"
-                  >Zur Orientfrage vgl. zuletzt Šedivý, Metternich. Für die in
+               du <rs xml:id="n.2"><ref target="#m.2">Précis de ce qui s’était passé à la Conférence du <date when="1822-07-27">27 Juillet</date></ref></rs>.<note type="editorial" target="#n.2">Zur Orientfrage vgl. zuletzt Šedivý, Metternich. Für die in
                      <placeName ref="#loc.68">Verona</placeName> verhandelten Probleme und
                   Zusammenhänge vgl. bes. S. 59–105.</note>
             </p>
             <p><choice>
                   <abbr>M<hi rendition="#su">r</hi></abbr>
                   <expan>Monsieur</expan>
-               </choice> le Conseiller intime actuel de <persName ref="#p.35"
-                     ><surname>Tatistcheff</surname></persName> a donné ensuite lecture d’une
+               </choice> le Conseiller intime actuel de <persName ref="#p.35"><surname>Tatistcheff</surname></persName> a donné ensuite lecture d’une
                déclaration que, par ordre de <rs ref="#p.17">Sa Majesté Impériale de toutes les
                   Russies</rs>, il a déposée au Procès-Verbal, <ref target="#m.3">telle qu’elle est
                   ci-jointe sub <choice>
@@ -243,10 +235,8 @@
                   <abbr>M<hi rendition="#su">r</hi></abbr>
                   <expan>Monsieur</expan>
                </choice> le <persName ref="#p.8"><roleName>Prince</roleName>
-                  <surname>de Metternich</surname></persName> a répondu à cette <ref target="#m.4"
-                  >déclaration par celle du Cabinet de <rs ref="#p.16" xml:id="n.4">Sa Majesté
-                     Impériale Royale Apostolique</rs><note type="editorial" target="#n.4"
-                     >Ehrentitel des Kaisers von Österreich.</note> laquelle se trouve ci-annexée
+                  <surname>de Metternich</surname></persName> a répondu à cette <ref target="#m.4">déclaration par celle du Cabinet de <rs ref="#p.16" xml:id="n.4">Sa Majesté
+                     Impériale Royale Apostolique</rs><note type="editorial" target="#n.4">Ehrentitel des Kaisers von Österreich.</note> laquelle se trouve ci-annexée
                   sub <choice>
                      <abbr>Litt.</abbr>
                      <expan>Littera</expan>
@@ -263,13 +253,11 @@
                   <abbr>M<hi rendition="#su">r</hi></abbr>
                   <expan>Monsieur</expan>
                </choice> le <persName ref="#p.102"><roleName>Marquis</roleName>
-                  <surname>de Caraman</surname></persName>, Ambassadeur de Sa Majesté le <rs
-                  ref="#p.15">Roi de France</rs>, et <choice>
+                  <surname>de Caraman</surname></persName>, Ambassadeur de Sa Majesté le <rs ref="#p.15">Roi de France</rs>, et <choice>
                   <abbr>M<hi rendition="#su">r</hi></abbr>
                   <expan>Monsieur</expan>
                </choice> le <persName ref="#p.175"><roleName>Prince</roleName>
-                  <surname>de Hatzfeldt</surname></persName>, Ministre Plénipotentiaire du <rs
-                  ref="#p.18">Roi de Prusse</rs>, ont déclaré que les intentions de leurs Cabinets
+                  <surname>de Hatzfeldt</surname></persName>, Ministre Plénipotentiaire du <rs ref="#p.18">Roi de Prusse</rs>, ont déclaré que les intentions de leurs Cabinets
                respectifs relativement aux questions traitées dans les deux susdites pièces, leur
                étant connues, ils croyaient ne pas pouvoir douter qu’ils ne seraient entièrement
                satisfaits des communications qui venaient d’avoir lieu.</p>
@@ -288,8 +276,7 @@
                réponse à la lettre confidentielle de <persName ref="#p.58"><roleName>Lord</roleName>
                   <surname>Strangford</surname></persName> du <date when="1822-06-25">25 Juin</date>
                relative aux différentes démarches à faire auprès de la Porte par les Ministres des
-               Cours alliées à <placeName ref="#loc.81">Constantinople</placeName>. <rs ref="#p.8"
-                  >Son Altesse</rs> a également communiqué l’Instruction qu’Elle se proposait
+               Cours alliées à <placeName ref="#loc.81">Constantinople</placeName>. <rs ref="#p.8">Son Altesse</rs> a également communiqué l’Instruction qu’Elle se proposait
                d’adresser à <choice>
                   <abbr>Mr.</abbr>
                   <expan>Monsieur</expan>
@@ -317,16 +304,13 @@
                      France</rs></rs> et <choice>
                   <abbr>M<hi rendition="#su">r</hi></abbr>
                   <expan>Monsieur</expan>
-               </choice> le <rs ref="#p.175">Ministre plénipotentiaire de Sa Majesté le <rs
-                     ref="#p.18">Roi de Prusse</rs></rs> se sont exprimés de la même manière pour ce
+               </choice> le <rs ref="#p.175">Ministre plénipotentiaire de Sa Majesté le <rs ref="#p.18">Roi de Prusse</rs></rs> se sont exprimés de la même manière pour ce
                qui regarde les intentions de leurs Cours respectives, et se sont engagés à adresser
-                  aux<pb n="3v"/> Missions de ces Cours à <placeName ref="#loc.81"
-                  >Constantinople</placeName> l’invitation de procéder en tout conformément aux
+                  aux<pb n="3v"/> Missions de ces Cours à <placeName ref="#loc.81">Constantinople</placeName> l’invitation de procéder en tout conformément aux
                instructions qu’allait recevoir <choice>
                   <abbr>Mr.</abbr>
                   <expan>Monsieur</expan>
-               </choice> l’<rs xml:id="n.6" ref="#p.190">Internonce</rs><note type="editorial"
-                  target="#n.6">Der österreichische Gesandte in Konstantinopel trug den Titel
+               </choice> l’<rs xml:id="n.6" ref="#p.190">Internonce</rs><note type="editorial" target="#n.6">Der österreichische Gesandte in Konstantinopel trug den Titel
                   „Internuntius“. </note> de <rs ref="#p.16" xml:id="n.7">Sa Majesté Impériale et
                   Royale Apostolique</rs>.<note type="editorial" target="#n.7">Ehrentitel des
                   Kaisers von Österreich.</note>
@@ -339,8 +323,7 @@
                suffisantes pour parler au nom de Sa Cour, et sans prendre sur lui d’entrer dans tous
                les détails des pièces qui venoient d’être lues, Il en approuvait toutefois
                généralement les principes et la marche.</p>
-            <p>Il a été conclu de faire partir la réponse à <persName ref="#p.58"
-                     ><forename>Lord</forename>
+            <p>Il a été conclu de faire partir la réponse à <persName ref="#p.58"><forename>Lord</forename>
                   <surname>Strangford</surname></persName> et l’Instruction pour <choice>
                   <abbr>Mr.</abbr>
                   <expan>Monsieur</expan>
@@ -356,38 +339,30 @@
                      <placeName ref="#loc.7">Vienne</placeName> sur les Affaires d’Orient.</title>
                <placeName ref="#loc.68">Vérone</placeName> le <supplied>...</supplied> Novembre
                1822.</p>
-            <p>Le <rs ref="#p.35">Plénipotentiaire de Russie</rs> a reçu de l’<rs ref="#p.17"
-                  >Empereur</rs>, Son Maître, l’ordre de faire la déclaration suivante :</p>
-            <p>La dernière conférence des Plénipotentiaires réunis à <placeName ref="#loc.7"
-                  >Vienne</placeName> dans le but de discuter les mesures à prendre pour engager la
+            <p>Le <rs ref="#p.35">Plénipotentiaire de Russie</rs> a reçu de l’<rs ref="#p.17">Empereur</rs>, Son Maître, l’ordre de faire la déclaration suivante :</p>
+            <p>La dernière conférence des Plénipotentiaires réunis à <placeName ref="#loc.7">Vienne</placeName> dans le but de discuter les mesures à prendre pour engager la
                Porte à faire droit aux demandes de la <country>Russie</country> avait eu pour
                résultat un heureux et complet accord sur tous les points indiqués par <choice>
                   <abbr>M<hi rendition="#su">r</hi></abbr>
                   <expan>Monsieur</expan>
                </choice> le <persName ref="#p.8"><roleName>Prince</roleName>
-                  <surname>de Metternich</surname></persName> dans sa communication en date du <date
-                  when="1822-07-31">31 Juillet</date>, comme devant servir de bases au
-               rétablissement des relations diplomatiques entre le Cabinet de <placeName
-                  ref="#loc.10"><choice>
+                  <surname>de Metternich</surname></persName> dans sa communication en date du <date when="1822-07-31">31 Juillet</date>, comme devant servir de bases au
+               rétablissement des relations diplomatiques entre le Cabinet de <placeName ref="#loc.10"><choice>
                      <abbr>S<hi rendition="#su">t</hi></abbr>
                      <expan>Saint</expan>
-                  </choice> Petersbourg</placeName> et le <rs xml:id="n.8">Divan</rs>.<note
-                  type="editorial" target="#n.8">Staatsrat des Osmanischen Reichs. Vgl. zum
+                  </choice> Petersbourg</placeName> et le <rs xml:id="n.8">Divan</rs>.<note type="editorial" target="#n.8">Staatsrat des Osmanischen Reichs. Vgl. zum
                   russisch-osmanischen Konflikt zuletzt Jarrett, Congress of Vienna, 293–307;
                   Šedivý, Metternich, S. 63–86.</note>
             </p>
             <p>Cette pièce, rédigée lorsque les dispositions du Gouvernement Turc, semblaient
                autoriser l’espoir d’un prompt rapprochement, ne parvint à sa destination qu’au
                moment où la Porte eut manifesté l’intention déplorable de persévérer dans le système
-               qui avait <rs xml:id="n.9">obligé l’<rs ref="#p.17">Empereur</rs> à rappeler <rs
-                     ref="#p.191">Son Ministre</rs></rs>,<note type="editorial" target="#n.9"
-                  >Ursache für den Abzug des Botschafters war die im folgenden erwähnte Sperre des
+               qui avait <rs xml:id="n.9">obligé l’<rs ref="#p.17">Empereur</rs> à rappeler <rs ref="#p.191">Son Ministre</rs></rs>,<note type="editorial" target="#n.9">Ursache für den Abzug des Botschafters war die im folgenden erwähnte Sperre des
                   Schwarzen Meers für russische Handelsschiffe durch die Hohe Pforte.</note> et qui,
                loin de redresser, ne pouvait qu’aggraver et accroître Ses trop légitimes griefs.</p>
             <p>La longanimité de <rs ref="#p.17">Sa Majesté Impériale</rs> venoit<pb n="9v"/> encore
                une fois d’être méconnue par le Divan, et dans la <rs xml:id="n.10">Conférence du
-                     <date when="1822-07-26">26 Juillet</date></rs><note type="editorial"
-                  target="#n.10">Vgl. Memorandum sur la conférence de l’Ambassadeur d’Angleterre
+                     <date when="1822-07-26">26 Juillet</date></rs><note type="editorial" target="#n.10">Vgl. Memorandum sur la conférence de l’Ambassadeur d’Angleterre
                   avec les Ministres de la Porte, dat. 27. Juli 1822; abgedruckt in Prokesch-Osten,
                   Geschichte des Abfalls, Bd. 3, S. 374–390.</note> les Ministres Turcs, comme s’ils
                eussent résolu de vouer à un oubli total les faits les plus notoires, avaient avancé
@@ -399,15 +374,13 @@
                force des armes, une justice que la persuasion ne pouvait obtenir.</p>
             <p>Ils avaient prétendu que toutes les obligations que les Traités imposent à la Porte
                envers <rs ref="#p.17">Sa Majesté Impériale</rs> étoient complètement remplies,
-               tandis que des Troupes turques couvroient les <rs xml:id="n.11"
-                  >Principautés</rs><note type="editorial" target="#n.11">1821 kam es in den beiden
+               tandis que des Troupes turques couvroient les <rs xml:id="n.11">Principautés</rs><note type="editorial" target="#n.11">1821 kam es in den beiden
                   zum Osmanischen Reich gehörenden Fürstentümern Walachei und Moldau zu Aufständen.
                   Vgl. Erbe, Erschütterung, S. 376; Berindei, Revoluţia română; Ders., Die
                   revolutionären Ereignisse von 1821; Calic, Südosteuropa, S. 237.</note> ; tandis
                qu’elles y commettaient tous les jours d’affreux désordres, que tous les jours la
                Religion et Ses Ministres avaient à y gémir de nouveaux malheurs et qu’aujourd’hui
-               même on y voit encore fumer <rs xml:id="n.12">les ruines de la ville de <placeName
-                     ref="#loc.82">Yassy</placeName></rs>.<note type="editorial" target="#n.12">Die
+               même on y voit encore fumer <rs xml:id="n.12">les ruines de la ville de <placeName ref="#loc.82">Yassy</placeName></rs>.<note type="editorial" target="#n.12">Die
                   Hauptstadt Modawiens wurde im Zuge des Aufstands 1822 von osmanischen Truppen
                   gestürmt; vgl. Calic, Südosteuropa, S. 236 </note>
             </p>
@@ -432,8 +405,7 @@
             <p>La Porte, au lieu de s’y montrer sensible, adoptait pour la navigation de la mer
                noire des mesures qui allaient fermer au Commerce russe une partie de ses plus
                importans marchés.</p>
-            <p>Quelque tristes, quelque décourageans que fussent de tels résultats, l’<rs
-                  ref="#p.17">Empereur</rs> s’était plu à croire que l’unanimité qui avait présidé
+            <p>Quelque tristes, quelque décourageans que fussent de tels résultats, l’<rs ref="#p.17">Empereur</rs> s’était plu à croire que l’unanimité qui avait présidé
                aux délibérations des <rs ref="#p.8 #p.35 #p.175 #p.102 #p.137">Plénipotentiaires
                   réunis à <placeName ref="#loc.7">Vienne</placeName></rs>, que l’empressement avec
                lequel toutes les Puissances alliées avaient<pb n="10v"/> reconnu encore une fois et
@@ -443,8 +415,7 @@
                nouvelles démarches qui en seroient la suite, dissiperoient l’aveuglement de la Porte
                et amèneroient enfin le terme d’une longue et pénible discussion.</p>
             <p>Malheureusement l’attente de <rs ref="#p.17">Sa Majesté Impériale</rs> est bien loin
-               de s’être réalisée. Dans la <rs xml:id="n.13">conférence du <date when="1822-08-27"
-                     >27 Août</date></rs><note type="editorial" target="#n.13">Abgedruckt in
+               de s’être réalisée. Dans la <rs xml:id="n.13">conférence du <date when="1822-08-27">27 Août</date></rs><note type="editorial" target="#n.13">Abgedruckt in
                   Prokesch-Osten, Geschichte des Abfalls, Bd. 3, S. 406–427.</note> les Turcs ont
                persisté dans leurs erreurs ; ils ont même élevé un grief au sujet duquel la
                   <country>Russie</country> ne saurait donner d’explication trop précise ni trop
@@ -453,14 +424,12 @@
                      <abbr>S<hi rendition="#su">t</hi></abbr>
                      <expan>Saint</expan>
                   </choice> Petersbourg</placeName> et sur ses agens un reproche de complicité dans
-                  l’<rs xml:id="n.14">insurrection de la Grèce</rs>.<note type="editorial"
-                  target="#n.14">1821 begann der Griechische Unabhängigkeitskrieg; vgl. Dakin, The
+                  l’<rs xml:id="n.14">insurrection de la Grèce</rs>.<note type="editorial" target="#n.14">1821 begann der Griechische Unabhängigkeitskrieg; vgl. Dakin, The
                   Greek Struggle; Clogg, Movement for Greek Independence; Prokesch-Osten, Geschichte
                   des Abfalls der Griechen.</note> Mais comment sauroit-Elle se méprendre sur
                l’authenticité des preuves dont la réunion démontre que cette insurrection
                désastreuse est l’œuvre des sectes qui ont attiré le <rs xml:id="n.15">même fléau sur
-                     l’<country>Espagne</country> et sur le <country>Portugal</country></rs><note
-                  type="editorial" target="#n.15">Zur Revolution in <country>Spanien</country>, die
+                     l’<country>Espagne</country> et sur le <country>Portugal</country></rs><note type="editorial" target="#n.15">Zur Revolution in <country>Spanien</country>, die
                   mit einem Militäraufstand am <date when="1820-01-01"> 1. Jänner 1820</date> ihren
                   Anfang nahm, vgl. Späth, Revolution in Europa, S. 117–128. In
                      <country>Portugal</country> war am <date when="1820-08-24">24. August
@@ -469,29 +438,24 @@
                prêtes à l’exciter encore partout où on leur laissera apparoître le plus léger espoir
                de succès ? Le Divan peut-il avoir oublié que <rs ref="#p.17">Sa Majesté
                   Impériale</rs> avait donné l’ordre de faire marcher Ses Troupes contre<pb n="11r"/>
-               <rs xml:id="n.16">les révolutionnaires de <country>Naples</country></rs><note
-                  type="editorial" target="#n.16">Am <date when="1820-07-02">2. Juli 1820</date>
-                  meuterte die Militärgarnison in Nola, 35 km von <placeName ref="#loc.11"
-                     >Neapel</placeName> entfernt. Das Datum gilt als Beginn der Revolution im
+               <rs xml:id="n.16">les révolutionnaires de <country>Naples</country></rs><note type="editorial" target="#n.16">Am <date when="1820-07-02">2. Juli 1820</date>
+                  meuterte die Militärgarnison in Nola, 35 km von <placeName ref="#loc.11">Neapel</placeName> entfernt. Das Datum gilt als Beginn der Revolution im
                      <country>Königreich beider Sizilien</country>. Vgl. Stites, The four Horsemen;
                   Davis, Naples and Napoleon; Gin, Sanfedisti, Carbonari, Magistrati del Re; Späth,
                   Revolution in Europa, S. 129–149. Zur Reaktion der Großmächte vgl. zuletzt
                   Jarrett, The Congress of Vienna, S. 248–285 sowie die Editionen der Dokumente der
-                  Kongresse von Troppau und Laibach.</note> et du <rs xml:id="n.17"
-                     ><country>Piémont</country></rs><note type="editorial" target="#n.17">Im März
+                  Kongresse von Troppau und Laibach.</note> et du <rs xml:id="n.17"><country>Piémont</country></rs><note type="editorial" target="#n.17">Im März
                   1821 war im <country>Königreich Sardinien-Piemont</country> eine Revolution
                   ausgebrochen, die rasch durch österreichische Truppen niedergeschlagen wurde. Vgl.
                   Späth, Revolution in Europa, S. 150–165; Broers, Napoleonic Imperialism; Jarrett,
                   The Congress of Vienna, S. 270–284.</note> quand Elle apprit par les troubles des
                Principautés qu’ils avaient transporté leurs complots en Orient ? Les Ministres
                Ottomans ne se rappellent-ils pas <rs xml:id="n.18">la déclaration dont ces troubles
-                  et leur auteur ont été l’objet</rs> ?<note type="editorial" target="#n.18"
-                  >Eventuell das Protocole préliminaire vom <date when="1820-11-19">19. November
+                  et leur auteur ont été l’objet</rs> ?<note type="editorial" target="#n.18">Eventuell das Protocole préliminaire vom <date when="1820-11-19">19. November
                      1820</date>; vgl. Grewe, Fontes, Bd. 3/1, S. 110–113; Näf, Europapolitik, S.
                   31–33; Bertier de Sauvigny, Sainte-Alliance, S. 204–207; Vnešnjaja politika
                   Rossii, Bd. 11, S. 589–591; Edition Troppau, Dokument Nr. 4, Anlage 1.</note>
-               Ignorent-ils les ouvertures faites à cette époque par le <persName ref="#p.192"
-                     ><roleName>Baron</roleName>
+               Ignorent-ils les ouvertures faites à cette époque par le <persName ref="#p.192"><roleName>Baron</roleName>
                   <surname>de Stroganoff</surname></persName> et la gratitude que la Porte Elle-même
                en a exprimée ? Ignorent-ils que depuis lors l’<rs ref="#p.17">Empereur</rs> n’a
                cessé de flétrir la cause des révolutions, qu’Il souhaite ardemment le rétablissement
@@ -522,14 +486,11 @@
             <p>Ou bien la Porte consentiroit à une négociation directe entre des Plénipotentiaires
                russes, alliés et ottomans relativement aux garanties que recevroient les Grecs en
                rentrant sous la souveraineté du Grand Seigneur, garanties qui auroient pour but de
-               leur assurer la pleine et paisible jouissance des avantages mentionnés dans le <rs
-                  xml:id="n.19">Mémorandum Autrichien du <date when="1822-04-19">19 Avril
+               leur assurer la pleine et paisible jouissance des avantages mentionnés dans le <rs xml:id="n.19">Mémorandum Autrichien du <date when="1822-04-19">19 Avril
                      1822</date></rs><note type="editorial" target="#n.19">Abgedruckt in Metternich,
                   Nachgelassene Papiere, Bd. 3, S 539–545.</note> ;</p>
-            <p>Ou bien il faudroit qu’une <hi rendition="#u">série de faits</hi> prouvât <rs
-                  xml:id="n.20">que la Porte respecte une religion placée par la lettre des Traités
-                  sous la protection de la <country>Russie</country></rs><note type="editorial"
-                  target="#n.20">Seit dem Friedensvertrag von Küçük Kaynarca von 1774 fungierte das
+            <p>Ou bien il faudroit qu’une <hi rendition="#u">série de faits</hi> prouvât <rs xml:id="n.20">que la Porte respecte une religion placée par la lettre des Traités
+                  sous la protection de la <country>Russie</country></rs><note type="editorial" target="#n.20">Seit dem Friedensvertrag von Küçük Kaynarca von 1774 fungierte das
                   russische Kaiserreich als Schutzmacht der orthodoxen Christen im
                      <country>Osmanischen Reich</country>; vgl. Duchhardt, Balance of Power, S.
                   402–405; Calic, Südosteuropa, S. 252.</note> et qu’Elle cherche à rétablir la
@@ -543,8 +504,7 @@
                <hi rendition="#u"> Principautés de Valachie et de Moldavie</hi>
             </p>
             <p>La Porte ferait une démarche directe auprès de la <country>Russie</country> pour lui
-               notifier l’entière évacuation des deux Principautés et la nomination des <rs
-                  xml:id="n.21">Hospodars</rs>.<note type="editorial" target="#n.21">Titel der
+               notifier l’entière évacuation des deux Principautés et la nomination des <rs xml:id="n.21">Hospodars</rs>.<note type="editorial" target="#n.21">Titel der
                   Fürsten in Moldau und der Walachei.</note>
             </p>
             <pb n="12r"/>
@@ -571,9 +531,7 @@
             <p>Ou bien elle respecteroit le pavillon dont ces navires se couvroient auparavant,
                cette coutume étant consacrée par une longue pratique et la Porte s’y opposant
                aujourd’hui pour la première fois.</p>
-            <p>Après avoir fait connoître les conditions ci-dessus énoncées, il ne reste au <rs
-                  ref="#p.35">Plénipotentiaire russe</rs> qu’à exprimer les vœux que forme <rs
-                  ref="#p.17">Sa Majesté Impériale</rs> pour que Ses Alliés parviennent par la
+            <p>Après avoir fait connoître les conditions ci-dessus énoncées, il ne reste au <rs ref="#p.35">Plénipotentiaire russe</rs> qu’à exprimer les vœux que forme <rs ref="#p.17">Sa Majesté Impériale</rs> pour que Ses Alliés parviennent par la
                continuation de Leurs bons offices, à faire exécuter à la Porte ce que la
                   <country>Russie</country> lui demande et ce que lui demandent également ses
                véritables intérêts.</p>
@@ -582,8 +540,7 @@
          <div decls="#m.4">
             <pb n="22r"/>
             <p><add place="top">B.</add></p>
-            <p><title>Déclaration du Cabinet d’Autriche au Protocole de la Conférence du <date
-                     when="1822-11-09">9 Novembre 1822</date> sur les Affaires d’Orient</title></p>
+            <p><title>Déclaration du Cabinet d’Autriche au Protocole de la Conférence du <date when="1822-11-09">9 Novembre 1822</date> sur les Affaires d’Orient</title></p>
             <p>Le <rs ref="#p.8">Ministre d’Autriche</rs> ayant eu confidentiellement connaissance
                de la déclaration que <choice>
                   <abbr>M<hi rendition="#su">r</hi></abbr>
@@ -600,11 +557,9 @@
                erreur sur les causes du fléau qui désole ses provinces ; si, entraînée par cette
                erreur, elle a pu prêter même des armes à ses véritables ennemis, il est du devoir
                des Cabinets alliés de dissiper un aveuglement aussi funeste par tous les moyens qui
-               peuvent se trouver en Leur pouvoir. Le Cabinet de <placeName ref="#loc.7"
-                  >Vienne</placeName> se croit d’autant plus appelé à contribuer à ce que ce but
+               peuvent se trouver en Leur pouvoir. Le Cabinet de <placeName ref="#loc.7">Vienne</placeName> se croit d’autant plus appelé à contribuer à ce que ce but
                salutaire soit atteint qu’il a l’avantage particulier de pouvoir lier ses
-               représentations à des démarches qui ont précédé les troubles actuels dans<pb n="22v"
-               /> l’<country>Empire Ottoman</country>.</p>
+               représentations à des démarches qui ont précédé les troubles actuels dans<pb n="22v"/> l’<country>Empire Ottoman</country>.</p>
             <p>Bien antérieurement à l’époque où <rs xml:id="n.23">la révolte a éclaté dans cet
                   Empire</rs>,<note type="editorial" target="#n.23">1821 kam es in den beiden zum
                   Osmanischen Reich gehörenden Fürstentümern Walachei und Moldau zu Aufständen. Vgl.
@@ -619,11 +574,9 @@
                moyens même qu’ils avaient organisés pour assurer le succès de leurs trames.</p>
             <p>Dans son incurie habituelle, le Divan fut loin de répondre à des avertissemens aussi
                salutaires par les égards qu’ils méritaient.</p>
-            <p>Le <rs xml:id="n.24">Reis-Effendi</rs><note type="editorial" target="#n.24"
-                  >Bezeichnung für den Osmanischen Außenminister, 1822 Dschanib Effendi; vgl.
+            <p>Le <rs xml:id="n.24">Reis-Effendi</rs><note type="editorial" target="#n.24">Bezeichnung für den Osmanischen Außenminister, 1822 Dschanib Effendi; vgl.
                   Prokesch-Osten, Geschichte des Abfalls der Griechen, Bd. 1, S. 165.</note> alors
-               en fonction, interpellé enfin par l’<rs ref="#p.190" xml:id="n.25"
-                  >Internonce</rs>,<note type="editorial" target="#n.25">Bezeichnung für den
+               en fonction, interpellé enfin par l’<rs ref="#p.190" xml:id="n.25">Internonce</rs>,<note type="editorial" target="#n.25">Bezeichnung für den
                   österreichischen Gesandten an der Hohen Pforte.</note> se contenta de répondre à
                ce Ministre que ce qui pouvait offrir des motifs d’inquiétude peut-être justes aux
                Puissances Chrétiennes, n’était point de nature à devoir alarmer le Ministère de la
@@ -631,13 +584,10 @@
                   <placeName ref="#loc.7">Vienne</placeName> et à démontrer l’étendue des illusions
                auxquelles le Gouvernement Ottoman s’était abandonné.</p>
             <p>Bien décidé à remplir sans réserve un devoir qu’indépendamment de tant d’autres
-               considérations puissantes la justice et la vérité seules imposeraient à <rs
-                  xml:id="n.26" ref="#p.16">Sa Majesté Impériale et Royale Apostolique</rs>,<note
-                  type="editorial" target="#n.26">Ehrentitel des Kaisers von Österreich.</note>
+               considérations puissantes la justice et la vérité seules imposeraient à <rs xml:id="n.26" ref="#p.16">Sa Majesté Impériale et Royale Apostolique</rs>,<note type="editorial" target="#n.26">Ehrentitel des Kaisers von Österreich.</note>
                l’Empereur croirait manquer toutefois à ce que lui inspirent Sa confiance et Son
                amitié pour Son Auguste Ami et Allié si, en chargeant Son Cabinet du soin de
-               détromper et d’éclairer les Ministres de la Porte, Il ne lui enjoignait en<pb n="23r"
-               /> même temps d’éviter que Ses paroles pussent être envisagées par ces Ministres
+               détromper et d’éclairer les Ministres de la Porte, Il ne lui enjoignait en<pb n="23r"/> même temps d’éviter que Ses paroles pussent être envisagées par ces Ministres
                comme tendant à disculper la marche politique d’un Monarque, élevé au-dessus de
                toutes les atteintes même de l’erreur et de la malveillance.</p>
             <p>C’est à l’histoire qu’il doit être réservé de retracer la somme des bienfaits dont
@@ -645,16 +595,13 @@
                   Impériale de toutes les Russies</rs> dans une crise où le sentiment de Sa force
                n’a pu être contrebalancé que par des calculs d’un ordre supérieur, les seuls dignes
                de Son grand et noble caractère !</p>
-            <p>En exprimant sur ce sujet délicat la véritable pensée de l’<rs ref="#p.16"
-                  >Empereur</rs>, le Cabinet d’Autriche se déclare en même temps prêt à faire
+            <p>En exprimant sur ce sujet délicat la véritable pensée de l’<rs ref="#p.16">Empereur</rs>, le Cabinet d’Autriche se déclare en même temps prêt à faire
                connaître à <placeName ref="#loc.81">Constantinople</placeName> et à soutenir par ses
                meilleurs offices les conditions auxquelles <rs ref="#p.17">Sa Majesté <choice>
                      <abbr>Imp<hi rendition="#su">le</hi></abbr>
                      <expan>Impériale</expan>
                   </choice> de toutes les Russies</rs> attache le rétablissement de Ses relations
-               diplomatiques ordinaires avec la Porte et le renvoi de Ses Agens dans les <rs
-                  xml:id="n.27">Principautés sur le Danube</rs>.<note type="editorial"
-                  target="#n.27">Fürstentümer Moldau und Walachei.</note>
+               diplomatiques ordinaires avec la Porte et le renvoi de Ses Agens dans les <rs xml:id="n.27">Principautés sur le Danube</rs>.<note type="editorial" target="#n.27">Fürstentümer Moldau und Walachei.</note>
             </p>
             <p><rs ref="#p.16">Sa Majesté Impériale et Royale Apostolique</rs> se flatte que Ses
                Augustes Alliés voudront combiner Leurs efforts avec les Siens pour amener dans le
@@ -666,12 +613,10 @@
       </body>
       <back>
          <include xmlns="http://www.w3.org/2001/XInclude" href="listPlace.xml" xpointer="listPlace"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="listPerson.xml"
-            xpointer="listPerson"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listPerson.xml" xpointer="listPerson"/>
          <include xmlns="http://www.w3.org/2001/XInclude" href="listWit.xml" xpointer="listWit"/>
          <include xmlns="http://www.w3.org/2001/XInclude" href="listOrg.xml" xpointer="listOrg"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="listTreaties.xml"
-            xpointer="listTreaties"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listTreaties.xml" xpointer="listTreaties"/>
       </back>
    </text>
 </TEI>

@@ -1,8 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -42,8 +39,7 @@
                </msContents>
                <physDesc>
                   <p>Lithographie</p>
-                  <p>Das Schlusszirkular liegt mehrfach ein: Konzept, von <persName ref="#p.5"
-                           ><surname>Gentz</surname></persName> korrigiert, fol. IX/3–12;
+                  <p>Das Schlusszirkular liegt mehrfach ein: Konzept, von <persName ref="#p.5"><surname>Gentz</surname></persName> korrigiert, fol. IX/3–12;
                      handschriftlich von <persName ref="#p.5"><surname>Gentz</surname></persName>,
                      fol. IX/25–33; lithographierte Schlussfassung fol. IX/24 und 35–37, sowie fol.
                      IX/40–43; deutsche Übersetzung fol. IX/14–23. Beiliegend kurzes
@@ -59,8 +55,7 @@
                      de <placeName ref="#loc.10"><choice>
                            <abbr>St</abbr>
                            <expan>Saint</expan>
-                        </choice> Petersbourg</placeName> et de <placeName ref="#loc.9"
-                        >Berlin</placeName> ont résolu de rompre toute relation diplomatique avec le
+                        </choice> Petersbourg</placeName> et de <placeName ref="#loc.9">Berlin</placeName> ont résolu de rompre toute relation diplomatique avec le
                      Gouvernement de fait séant à <placeName ref="#loc.24">Madrid</placeName>.</p>
 
                   <handDesc>
@@ -97,8 +92,7 @@
                </msContents>
                <physDesc>
                   <p>Lithographie und Konzept</p>
-                  <p>Das Konzept liegt mehrfach ein: Konzept, von <persName ref="#p.5"
-                           ><surname>Gentz</surname></persName> korrigiert, fol. IX/3–12;
+                  <p>Das Konzept liegt mehrfach ein: Konzept, von <persName ref="#p.5"><surname>Gentz</surname></persName> korrigiert, fol. IX/3–12;
                      handschriftlich von <persName ref="#p.5"><surname>Gentz</surname></persName>,
                      fol. IX/25–33. Vermerk von anderer Hand auf fol. IX/3r: "<choice>
                         <abbr>NB</abbr>
@@ -116,8 +110,7 @@
                      de <placeName ref="#loc.10"><choice>
                            <abbr>St</abbr>
                            <expan>Saint</expan>
-                        </choice> Petersbourg</placeName> et de <placeName ref="#loc.9"
-                        >Berlin</placeName> ont résolu de rompre toute relation diplomatique avec le
+                        </choice> Petersbourg</placeName> et de <placeName ref="#loc.9">Berlin</placeName> ont résolu de rompre toute relation diplomatique avec le
                      Gouvernement de fait séant à <placeName ref="#loc.24">Madrid</placeName>.</p>
 
                </physDesc>
@@ -151,9 +144,9 @@
          </appInfo>
          <styleDefDecl scheme="css"/>
          <tagsDecl>
-            <rendition xml:id="su">superscript</rendition>
-            <rendition xml:id="s">strikethrough</rendition>
-            <rendition xml:id="u">underline</rendition>
+            <rendition xml:id="su" scheme="css">vertical-align:sub; font-size:.7em;</rendition>
+            <rendition xml:id="s" scheme="css">text-decoration:line-through;</rendition>
+            <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
             <rendition xml:id="ow">overwritten</rendition>
          </tagsDecl>
       </encodingDesc>
@@ -179,17 +172,12 @@
                   1822</date>.</p>
 
             <p>Mon <supplied>...</supplied></p>
-            <p>Vous avez été instruit par les pièces qui Vous furent adressées au moment de la <ref
-                  target="Laibach_Prot_16.xml">clôture des Conférences de <placeName ref="#loc.65"
-                     >Laibach</placeName> au mois de Mai 1821</ref> que la réunion des <rs
-                  ref="#p.16 #p.18 #p.17">Monarques Alliés</rs> et de Leurs Cabinets se
+            <p>Vous avez été instruit par les pièces qui Vous furent adressées au moment de la <ref target="Laibach_Prot_16.xml">clôture des Conférences de <placeName ref="#loc.65">Laibach</placeName> au mois de Mai 1821</ref> que la réunion des <rs ref="#p.16 #p.18 #p.17">Monarques Alliés</rs> et de Leurs Cabinets se
                renouvèlerait dans le courant de l’année 1822, et que l’on y prendrait en
                considération le terme à fixer aux mesures qui, sur les propositions des Cours de
-                  <placeName ref="#loc.11">Naples</placeName> et de <placeName ref="#loc.64"
-                  >Turin</placeName>, et de l’aveu de toutes les Cours d’Italie, avaient été jugées
+                  <placeName ref="#loc.11">Naples</placeName> et de <placeName ref="#loc.64">Turin</placeName>, et de l’aveu de toutes les Cours d’Italie, avaient été jugées
                nécessaires pour raffermir la tranquillité de la Péninsule <rs xml:id="n.1">après les
-                  funestes évènemens des années 1820 et 1821</rs>.<note type="editorial"
-                  target="#n.1">Am <date when="1820-07-02">2. Juli 1820</date> meuterte die
+                  funestes évènemens des années 1820 et 1821</rs>.<note type="editorial" target="#n.1">Am <date when="1820-07-02">2. Juli 1820</date> meuterte die
                   Militärgarnison in Nola, 35 km von <placeName ref="#loc.11">Neapel</placeName>
                   entfernt. Das Datum gilt als Beginn der Revolution im <country>Königreich beider
                      Sizilien</country>. Vgl. Stites, The four Horsemen; Davis, Naples and Napoleon;
@@ -203,8 +191,7 @@
             </p>
             <p>Cette réunion vient d’avoir lieu, et nous allons Vous en faire connaître les
                principaux résultats.</p>
-            <p>D’après la <rs ref="#t.46">Convention signée à <placeName ref="#loc.73"
-                     >Novare</placeName> le <date when="1821-07-24">24 Juillet 1821</date></rs>,
+            <p>D’après la <rs ref="#t.46">Convention signée à <placeName ref="#loc.73">Novare</placeName> le <date when="1821-07-24">24 Juillet 1821</date></rs>,
                l’occupation d’une ligne militaire dans le <country>Piémont</country> par un corps de
                troupes auxiliaires avait été éventuellement fixée à une année de durée, sauf à
                examiner lors de la réunion de 1822 si la situation du Pays permettrait de la faire
@@ -222,29 +209,23 @@
                </choice> le <rs ref="#p.172">Roi de Sardaigne</rs> ayant indiqué Elle-même les
                termes qu’Elle jugeait convenable de fixer pour la retraite successive des Troupes
                auxiliaires, les <rs ref="#p.16 #p.18 #p.17">Souverains alliés</rs> ont accédé à Ses
-               propositions, <ref target="Verona_II_1.xml">et il a été arrêté par une <rs
-                     ref="#t.47">nouvelle Convention</rs> que la sortie de ces troupes du
+               propositions, <ref target="Verona_II_1.xml">et il a été arrêté par une <rs ref="#t.47">nouvelle Convention</rs> que la sortie de ces troupes du
                      <country>Piémont</country> commencerait dès le <date when="1822-12-31">31
-                     Décembre de l’année présente</date>, et serait définitivement terminée par<pb
-                     n="24v"/> la remise de la forteresse d’<placeName ref="#loc.74"
-                     >Alessandrie</placeName> au <date when="1823-09-30">30 Septembre
+                     Décembre de l’année présente</date>, et serait définitivement terminée par<pb n="24v"/> la remise de la forteresse d’<placeName ref="#loc.74">Alessandrie</placeName> au <date when="1823-09-30">30 Septembre
                   1823</date></ref>.</p>
             <p>D’un autre côté, <choice>
                   <abbr>S. M.</abbr>
                   <expan>Sa Majesté</expan>
                </choice> le <rs ref="#p.138">Roi des Deux-Siciles</rs> a fait déclarer aux Trois
-               Cours qui avaient eu part à la <rs ref="#t.48">Convention signée à <placeName
-                     ref="#loc.11">Naples</placeName> le <date when="1821-10-18">18
+               Cours qui avaient eu part à la <rs ref="#t.48">Convention signée à <placeName ref="#loc.11">Naples</placeName> le <date when="1821-10-18">18
                   Octobre</date></rs> que l’état actuel de Son pays Lui permettait de proposer une
                diminution dans le nombre des Troupes auxiliaires stationnées dans différentes
-               parties du Royaume. <ref target="Verona_II_3.xml">Les <rs ref="#p.16 #p.18 #p.17"
-                     >Souverains Alliés</rs> n’ont pas hésité à se prêter à cette proposition ; et
+               parties du Royaume. <ref target="Verona_II_3.xml">Les <rs ref="#p.16 #p.18 #p.17">Souverains Alliés</rs> n’ont pas hésité à se prêter à cette proposition ; et
                   l’armée d’occupation du <country>Royaume des Deux-Siciles</country> sera dans le
                   plus court délai diminuée de dix-sept mille hommes.</ref>
             </p>
             <p>Ainsi s’est réalisée, autant que les évènemens ont répondu aux vœux des Monarques, la
-               déclaration faite au moment de la clôture du Congrès de <placeName ref="#loc.65"
-                  >Laibach</placeName> : <ref target="Laibach_Prot_16.xml"><quote>« Que loin de
+               déclaration faite au moment de la clôture du Congrès de <placeName ref="#loc.65">Laibach</placeName> : <ref target="Laibach_Prot_16.xml"><quote>« Que loin de
                      vouloir prolonger au-delà des limites d’une stricte nécessité Leur intervention
                      dans les affaires d’Italie, <rs ref="#p.16 #p.18 #p.17">Leurs Majestés</rs>
                      désiraient bien sincèrement que l’état des choses qui Leur avait imposé ce
@@ -258,8 +239,7 @@
                révolution ; prévenir les désordres, les crimes, les calamités innombrables qu’elle
                appellait sur l’Italie toute entière ; y rétablir l’ordre et la paix ; fournir aux
                Gouvernemens légitimes l’appui qu’ils étaient en droit de réclamer – tel a été
-               l’unique objet des pensées et des efforts des <rs ref="#p.16 #p.18 #p.17"
-                  >Monarques</rs>. À mesure que cet objet s’accomplit, Ils retirent et retireront
+               l’unique objet des pensées et des efforts des <rs ref="#p.16 #p.18 #p.17">Monarques</rs>. À mesure que cet objet s’accomplit, Ils retirent et retireront
                des secours qu’un besoin trop réel avait seul pu provoquer et justifier ; heureux de
                   pouvoir<pb n="35r"/> abandonner aux Princes que la Providence en a chargés, le
                soin de veiller à la sûreté et à la tranquillité de Leurs peuples, et d’enlever ainsi
@@ -274,11 +254,9 @@
             <p>Un évènement d’une importance majeure avait éclaté vers la fin de cette dernière
                réunion. Ce que le génie révolutionnaire avait commencé dans la Péninsule
                Occidentale, ce qu’il avait tenté en Italie, <rs xml:id="n.2">il était parvenu à
-                  l’exécuter aux extrémités orientales de l’Europe</rs>.<note type="editorial"
-                  target="#n.2">1821 begann der Griechische Unabhängigkeitskrieg gegen die
+                  l’exécuter aux extrémités orientales de l’Europe</rs>.<note type="editorial" target="#n.2">1821 begann der Griechische Unabhängigkeitskrieg gegen die
                   Osmanische Herrschaft; vgl. Dakin, The Greek Struggle; Clogg, Movement for Greek
-                  Independence. </note> À l’époque même où les révoltes militaires de <placeName
-                  ref="#loc.11">Naples</placeName> et de <placeName ref="#loc.64">Turin</placeName>
+                  Independence. </note> À l’époque même où les révoltes militaires de <placeName ref="#loc.11">Naples</placeName> et de <placeName ref="#loc.64">Turin</placeName>
                cédèrent à l’approche d’une force régulière, le brandon de l’insurrection fut lancé
                au milieu de l’<country>Empire Ottoman</country>. La coïncidence des évènemens ne
                pouvait laisser aucun doute sur l’identité de leur origine. Le même mal se
@@ -287,8 +265,7 @@
                commun d’où il était sorti. Les hommes qui avaient dirigé ce mouvement s’étaient
                flattés d’en tirer parti pour semer la division dans les conseils des Puissances, et
                pour neutraliser les forces que de nouveaux dangers pouvaient appeler sur d’autres
-               points de l’Europe. Cet espoir fut trompé. Les <rs ref="#p.16 #p.18 #p.17"
-                  >Monarques</rs>, décidés à repousser le principe de la révolte en quelque lieu et
+               points de l’Europe. Cet espoir fut trompé. Les <rs ref="#p.16 #p.18 #p.17">Monarques</rs>, décidés à repousser le principe de la révolte en quelque lieu et
                sous quelque forme qu’il se montrât, se hâtèrent de le frapper d’une égale et unanime
                réprobation. Invariablement occupés du grand<pb n="35v"/> objet de Leurs sollicitudes
                communes, Ils surent résister à toute considération qui aurait pu les détourner de
@@ -299,20 +276,17 @@
                pendant cette époque, une des plus mémorables de leur Alliance, ayant placé les
                questions de l’Orient sur une base d’unanimité et d’accord complètement
                satisfaisante, Leur réunion à <placeName ref="#loc.68">Vérone</placeName> n’a eu qu’à
-               consacrer et à confirmer ces résultats, et <ref
-                  target="Verona_III_1.xml Verona_III_2.xml Verona_III_3.xml">les Puissances amies
+               consacrer et à confirmer ces résultats, et <ref target="Verona_III_1.xml Verona_III_2.xml Verona_III_3.xml">les Puissances amies
                   de la <country>Russie</country> peuvent se flatter qu’elle feront disparaître par
                   des démarches communes les obstacles qui ont pu retarder l’accomplissement
                   définitif de Leurs vœux</ref>. </p>
-            <p>D’autres évènemens dignes de toute la sollicitude des <rs ref="#p.16 #p.18 #p.17"
-                  >Monarques</rs> ont fixé Leurs vues sur la position déplorable de la Péninsule
+            <p>D’autres évènemens dignes de toute la sollicitude des <rs ref="#p.16 #p.18 #p.17">Monarques</rs> ont fixé Leurs vues sur la position déplorable de la Péninsule
                occidentale de l’Europe.</p>
             <p><rs xml:id="n.3">L’<country>Espagne</country> subit le sort réservé à tous les pays
                   qui ont eu le malheur de chercher le bien dans les voies qui n’y conduisent
                   jamais. Elle parcourt aujourd’hui le cercle fatal de sa révolution ; d’une
                   révolution que des hommes égarés ou pervers ont prétendu représenter comme un
-                  bienfait, comme le triomphe même d’un siècle de lumières.</rs><note
-                  type="editorial" target="#n.3">Zur Revolution in <country>Spanien</country>, die
+                  bienfait, comme le triomphe même d’un siècle de lumières.</rs><note type="editorial" target="#n.3">Zur Revolution in <country>Spanien</country>, die
                   mit einem Militäraufstand am <date when="1820-01-01">1. Jänner 1820</date> ihren
                   Anfang nahm, vgl. Späth, Revolution in Europa, S. 117–128. </note> Tous les
                Gouvernemens ont été témoins des efforts que ces hommes ont faits pour persuader à
@@ -350,12 +324,10 @@
                était permis de rester spectateurs tranquilles, de prêter même par la présence de
                leurs Représentans la fausse couleur d’une approbation tacite aux actes d’une faction
                déterminée à tout entreprendre pour conserver son funeste pouvoir. Leur décision n’a
-               pu être douteuse. <ref
-                  target="Verona_I_19.xml Verona_I_20.xml Verona_I_21.xml Verona_I_22.xml">Leurs
+               pu être douteuse. <ref target="Verona_I_19.xml Verona_I_20.xml Verona_I_21.xml Verona_I_22.xml">Leurs
                   Missions ont reçu l’ordre de quitter la Péninsule.</ref>
             </p>
-            <p>Quelques puissent être les suites de cette démarche, les <rs ref="#p.16 #p.18 #p.17"
-                  >Monarques</rs> auront prouvé à l’Europe que rien ne peut Les engager à reculer
+            <p>Quelques puissent être les suites de cette démarche, les <rs ref="#p.16 #p.18 #p.17">Monarques</rs> auront prouvé à l’Europe que rien ne peut Les engager à reculer
                devant une détermination sanctionnée par Leur conviction intime. Plus, Ils vouent
                d’amitié à <rs ref="#p.150" xml:id="n.4"><choice>
                      <abbr>S. M.</abbr>
@@ -377,8 +349,7 @@
                est également en harmonie avec l’indépendance et la force des Gouvernemens, et avec
                les intérêts bien-entendus des peuples. Ils ne regardent comme ennemis<pb n="37r"/>
                que ceux qui conspirent contre l’autorité légitime des uns, et en imposent à la bonne
-               foi des autres pour les entraîner dans un abîme commun. Les vœux des <rs
-                  ref="#p.16 #p.18 #p.17">Monarques</rs> ne sont dirigés que vers la paix ; mais
+               foi des autres pour les entraîner dans un abîme commun. Les vœux des <rs ref="#p.16 #p.18 #p.17">Monarques</rs> ne sont dirigés que vers la paix ; mais
                cette paix, bien que solidement établie entre les Puissances, ne peut répandre sur la
                Société la plénitude de ses bienfaits, tant que la fermentation qui agite encore les
                esprits dans plus d’un pays sera entretenue par les suggestions perfides et par les
@@ -406,8 +377,7 @@
                mains est un dépôt sacré dont Ils ont à rendre compte et à Leurs peuples et à la
                postérité, et qu’Ils encourent une responsabilité sévère en se livrant à des erreurs,
                ou en écoutant des conseils qui tôt ou tard les mettraient dans l’impossibilité de
-               sauver Leurs sujets des malheurs qu’Ils Leur auraient préparés Eux-mêmes. Les <rs
-                  ref="#p.16 #p.18 #p.17">Monarques</rs> aiment à croire que partout Ils trouveront
+               sauver Leurs sujets des malheurs qu’Ils Leur auraient préparés Eux-mêmes. Les <rs ref="#p.16 #p.18 #p.17">Monarques</rs> aiment à croire que partout Ils trouveront
                dans ceux qui sont appelés à exercer l’autorité suprême, sous quelque forme que ce
                soit, de véritables Alliés ; des Alliés ne respectant pas moins l’esprit et les
                principes que la lettre et les stipulations positives des actes qui forment
@@ -428,17 +398,12 @@
                      <abbr>NB</abbr>
                      <expan>Nota Bene</expan>
                   </choice>: n'a pas été expédié.</add></p>
-            <p>Vous avez été instruit par les pièces qui Vous furent adressées au moment de la <ref
-                  target="Laibach_Prot_16.xml">clôture des Conférences de <placeName ref="#loc.65"
-                     >Laibach</placeName> au mois de Mai 1821</ref> que la réunion des <rs
-                  ref="#p.16 #p.18 #p.17">Monarques Alliés</rs> et de Leurs Cabinets se
+            <p>Vous avez été instruit par les pièces qui Vous furent adressées au moment de la <ref target="Laibach_Prot_16.xml">clôture des Conférences de <placeName ref="#loc.65">Laibach</placeName> au mois de Mai 1821</ref> que la réunion des <rs ref="#p.16 #p.18 #p.17">Monarques Alliés</rs> et de Leurs Cabinets se
                renouvelleroit dans le courant de l’année 1822, et que l’on y prendroit en
                considération le terme à fixer aux mesures qui, sur les propositions des cours de
-                  <placeName ref="#loc.11">Naples</placeName> et de <placeName ref="#loc.64"
-                  >Turin</placeName>, et de l’aveu de toutes les cours d’Italie, avoient été jugées
+                  <placeName ref="#loc.11">Naples</placeName> et de <placeName ref="#loc.64">Turin</placeName>, et de l’aveu de toutes les cours d’Italie, avoient été jugées
                nécessaires pour raffermir la tranquillité de la Péninsule après <rs xml:id="n.5">les
-                  funestes évènemens des années 1820 et 1821.</rs><note type="editorial"
-                  target="#n.5">Am <date when="1820-07-02">2. Juli 1820</date> meuterte die
+                  funestes évènemens des années 1820 et 1821.</rs><note type="editorial" target="#n.5">Am <date when="1820-07-02">2. Juli 1820</date> meuterte die
                   Militärgarnison in Nola, 35 km von <placeName ref="#loc.11">Neapel</placeName>
                   entfernt. Das Datum gilt als Beginn der Revolution im <country>Königreich beider
                      Sizilien</country>. Vgl. Stites, The four Horsemen; Davis, Naples and Napoleon;
@@ -452,8 +417,7 @@
             </p>
             <p>Cette réunion vient d’avoir lieu, et nous allons Vous en faire connoître les
                principaux résultats.</p>
-            <p>D’après la <rs ref="#t.46">convention<pb n="25v"/> signée à <placeName ref="#loc.73"
-                     >Novare</placeName> le <date when="1821-07-24">24 Juillet 1821</date></rs>,
+            <p>D’après la <rs ref="#t.46">convention<pb n="25v"/> signée à <placeName ref="#loc.73">Novare</placeName> le <date when="1821-07-24">24 Juillet 1821</date></rs>,
                l’occupation d’une ligne militaire dans le <country>Piémont</country> par un corps de
                troupes auxiliaires avoit été éventuellement fixée à une année de durée, sauf à
                examiner lors de la réunion de 1822 si la situation du pays permettroit de la faire
@@ -473,8 +437,7 @@
                   <expan>Sa Majesté</expan>
                </choice> le <rs ref="#p.172">Roi de Sardaigne</rs> ayant indiqué Elle-même les
                termes qu’Elle jugeoit convenable de fixer pour la retraite successive des troupes
-               auxiliaires, les Souverains Alliés ont accédé à Ses propositions, <ref
-                  target="Verona_II_1.xml">et il a été arrêté par <rs ref="#t.47">une nouvelle
+               auxiliaires, les Souverains Alliés ont accédé à Ses propositions, <ref target="Verona_II_1.xml">et il a été arrêté par <rs ref="#t.47">une nouvelle
                      convention</rs> que la sortie de ces troupes du <country>Piémont</country>
                   commenceroit dès le <date when="1822-12-31">31 Décembre de l’année
                   présente</date>, et seroit définitivement terminée au <date when="1823-09-30">30
@@ -483,34 +446,27 @@
                   <abbr>S. M.</abbr>
                   <expan>Sa Majesté</expan>
                </choice> le <rs ref="#p.138">Roi des Deux-Siciles</rs> a fait déclarer aux Trois
-               Cours qui avoient eu part à la <rs ref="#t.48">convention signée à <placeName
-                     ref="#loc.11">Naples</placeName> le <date when="1821-10-18">18 Octobre
+               Cours qui avoient eu part à la <rs ref="#t.48">convention signée à <placeName ref="#loc.11">Naples</placeName> le <date when="1821-10-18">18 Octobre
                      1821</date></rs>, que l’état actuel de Son pays Lui permettoit de proposer une
                diminution dans le nombre des troupes auxiliaires, stati<pb n="26v"/>onnées dans
-               différentes parties du Royaume. <ref target="Verona_II_3.xml">Les <rs
-                     ref="#p.16 #p.18 #p.17">Souverains Alliés</rs> n’ont pas hésité à se prêter à
+               différentes parties du Royaume. <ref target="Verona_II_3.xml">Les <rs ref="#p.16 #p.18 #p.17">Souverains Alliés</rs> n’ont pas hésité à se prêter à
                   cette proposition ; et l’armée d’occupation du <country>Royaume des
                      Deux-Siciles</country> sera dans le plus court délai possible réduite à
                   Trente-Cinq Mille hommes.</ref>
             </p>
-            <p>C’est ainsi que s’est réalisée, autant que les évènemens ont répondu aux vœux des <rs
-                  ref="#p.16 #p.18 #p.17">Monarques</rs>, la déclaration faite au moment de la
-               clôture du Congrès de <placeName ref="#loc.65">Laybach</placeName> : <ref
-                  target="Laibach_Prot_16.xml"><quote>« Que loin de vouloir prolonger au-delà des
+            <p>C’est ainsi que s’est réalisée, autant que les évènemens ont répondu aux vœux des <rs ref="#p.16 #p.18 #p.17">Monarques</rs>, la déclaration faite au moment de la
+               clôture du Congrès de <placeName ref="#loc.65">Laybach</placeName> : <ref target="Laibach_Prot_16.xml"><quote>« Que loin de vouloir prolonger au-delà des
                      limites d’une stricte nécessité Leur intervention dans les affaires d’Italie,
                      Leurs Majestés désiroient bien sincèrement que l’état des choses qui Leur avoit
                      imposé ce pénible devoir, vînt à cesser le plutôt possible, et ne se
-                     reproduisit jamais. »</quote></ref> – C’est ainsi que s’évanouissent<pb n="27r"
-               /> les fausses alarmes, les interprétations hostiles, les prédictions sinistres que
+                     reproduisit jamais. »</quote></ref> – C’est ainsi que s’évanouissent<pb n="27r"/> les fausses alarmes, les interprétations hostiles, les prédictions sinistres que
                l’ignorance et la mauvaise foi avoient fait retenir en Europe pour égarer l’opinion
-               des peuples sur les intentions franches et loyales des <rs ref="#p.16 #p.18 #p.17"
-                  >Monarques Alliés</rs> ! Aucune vue sécrète, aucun calcul d’ambition ni d’intérêt
+               des peuples sur les intentions franches et loyales des <rs ref="#p.16 #p.18 #p.17">Monarques Alliés</rs> ! Aucune vue sécrète, aucun calcul d’ambition ni d’intérêt
                n’avoit eu part aux résolutions qu’une nécessité impérieuse Leur dicta en 1821 ;
                résister à la révolution, prévenir les désordres, les crimes, les calamités
                innombrables qu’elle préparoit à l’Italie toute entière ; rétablir l’ordre et la
                paix ; fournir aux gouvernemens légitimes l’appui qu’ils étoient en droit de réclamer
-               – tel fut l’unique objet des pensées et des efforts des <rs ref="#p.16 #p.18 #p.17"
-                  >Monarques</rs>. À mesure que cet objet s’accomplit, Ils retirent et continueront
+               – tel fut l’unique objet des pensées et des efforts des <rs ref="#p.16 #p.18 #p.17">Monarques</rs>. À mesure que cet objet s’accomplit, Ils retirent et continueront
                à retirer des secours qu’un besoin réel<pb n="27v"/> avoit seul pu provoquer et
                justifier ; heureux de pouvoir abandonner aux Princes que la Providence en a chargés,
                le soin de veiller à la sureté et à la tranquillité de Leurs peuples, et d’ôter ainsi
@@ -518,20 +474,15 @@
                des doutes et des soupçons sur l’indépendance des Souverains de l’Italie.</p>
             <p>Le but du Congrès de <placeName ref="#loc.68">Vérone</placeName>, tel qu’un
                engagement positif l’avoit désigné, eut été rempli par les résolutions adoptées dans
-               l’intérêt du bien-être de l’Italie. Mais les <rs ref="#p.16 #p.18 #p.17"
-                  >Souverains</rs> et les Cabinets réunis n’ont pu se refuser à porter leurs regards
-               sur deux complications graves dont le développement les avoit con<pb n="28r"
-               />stamment occupés depuis la réunion de <placeName ref="#loc.65"
-               >Laybach</placeName>.</p>
+               l’intérêt du bien-être de l’Italie. Mais les <rs ref="#p.16 #p.18 #p.17">Souverains</rs> et les Cabinets réunis n’ont pu se refuser à porter leurs regards
+               sur deux complications graves dont le développement les avoit con<pb n="28r"/>stamment occupés depuis la réunion de <placeName ref="#loc.65">Laybach</placeName>.</p>
             <p>Un évènement d’une conséquence majeure avoit éclaté vers la fin de cette dernière
                réunion. Ce que le génie révolutionnaire avoit commencé dans la Péninsule
                Occidentale, ce qu’il avoit conçu et entrepris en Italie, <rs xml:id="n.6">il parvint
-                  encore à l’exécuter aux extrémités orientales de l’Europe.</rs><note
-                  type="editorial" target="#n.6">1821 begann der Griechische Unabhängigkeitskrieg
+                  encore à l’exécuter aux extrémités orientales de l’Europe.</rs><note type="editorial" target="#n.6">1821 begann der Griechische Unabhängigkeitskrieg
                   gegen die Osmanische Herrschaft; vgl. Dakin, The Greek Struggle; Clogg, Movement
                   for Greek Independence.</note> À l’époque même où les révoltes militaires de
-                  <placeName ref="#loc.11">Naples</placeName> et de <placeName ref="#loc.64"
-                  >Turin</placeName> cédèrent à l’approche d’une force régulière, le brandon de
+                  <placeName ref="#loc.11">Naples</placeName> et de <placeName ref="#loc.64">Turin</placeName> cédèrent à l’approche d’une force régulière, le brandon de
                l’insurrection se trouva jetté dans l’<country>Empire Ottoman</country>. La
                coïncidence des évènemens ne pouvoit laisser aucun doute sur l’identité de leur
                origine. Le même mal se reproduisant sur tant de points à la fois, et partout,
@@ -550,23 +501,20 @@
                soutirèrent les droits et plaidèrent la cause des malheureuses victimes d’une
                entreprise aussi insensée que coupable.</p>
             <p>Les nombreuses communications confidentielles, qui ont eu lieu entre les cinq Cours
-               pendant une des époques les plus mémorables de leur alliance, <ref
-                  target="Verona_III_1.xml Verona_III_2.xml Verona_III_3.xml">ayant placé les
+               pendant une des époques les plus mémorables de leur alliance, <ref target="Verona_III_1.xml Verona_III_2.xml Verona_III_3.xml">ayant placé les
                   questions de l’orient sur une base d’unanimité et d’accord complètement
                   satisfaisante, leur réunion à <placeName ref="#loc.68">Vérone</placeName> n’a eu
                   qu’à consacrer et à confirmer ces résultats, et Elles se flattent de faire
                   disparoître par les démarches communes les obstacles<pb n="29v"/> qui ont pu
                   encore retarder l’accomplissement définitif de leurs vœux</ref>. </p>
-            <p>Un autre objet digne de fixer toute la sollicitude des <rs ref="#p.16 #p.18 #p.17"
-                  >Monarques</rs> et des cabinets leur a été offert par la position déplorable des
+            <p>Un autre objet digne de fixer toute la sollicitude des <rs ref="#p.16 #p.18 #p.17">Monarques</rs> et des cabinets leur a été offert par la position déplorable des
                choses dans la Péninsule occidentale de l’Europe.</p>
             <p><rs xml:id="n.7">L’<country>Espagne</country>, condamnée à subir le sort réservé à
                   toutes les révolutions, parcourt maintenant les phases funestes de la sienne ;
                   d’une révolution que des hommes égarés ou pervers ont prétendu représenter aux
                   peuples de l’Europe comme un bienfait, comme le triomphe même d’un siècle de
                   lumières.</rs><note type="editorial" target="#n.7">Zur Revolution in
-                     <country>Spanien</country>, die mit einem Militäraufstand am <date
-                     when="1820-01-01">1. Jänner 1820</date> ihren Anfang nahm, vgl. Späth,
+                     <country>Spanien</country>, die mit einem Militäraufstand am <date when="1820-01-01">1. Jänner 1820</date> ihren Anfang nahm, vgl. Späth,
                   Revolution in Europa, S. 117–128.</note> Tous les gouvernemens ont été témoins des
                efforts que ces hommes ont faits pour persuader à leurs contemporains que cette
                révolution étoit le fruit nécessaire<pb n="30r"/> et heureux des progrès de la
@@ -598,18 +546,15 @@
                présente.</p>
             <p>Les <rs ref="#p.16 #p.18 #p.17">Monarques</rs> n’auroient pu, sans méconnoître leurs
                devoirs et sans abjurer leurs sentimens, contempler avec indifférence tant de maux
-               accumulés sur un pays, et accompagnés de tant de dangers pour les autres.<pb n="31v"
-               /> N’ayant à consulter dans cette grave question que leur propre jugement et leur
+               accumulés sur un pays, et accompagnés de tant de dangers pour les autres.<pb n="31v"/> N’ayant à consulter dans cette grave question que leur propre jugement et leur
                propre conscience, Ils ont dû se demander si, dans un état de choses que chaque jour
                menace de rendre plus cruel et plus alarmant, il leur étoit permis de rester
                spectateurs tranquilles, de prêter même par la présence de leurs Représentans la
                fausse couleur d’une approbation tacite aux actes d’une faction déterminée à tout
                entreprendre pour conserver son fatal pouvoir ? Leur décision n’a pas été douteuse.
-                  <ref target="Verona_I_19.xml Verona_I_20.xml Verona_I_21.xml Verona_I_22.xml"
-                  >Leurs missions ont reçu l’ordre de quitter la péninsule.</ref>
+                  <ref target="Verona_I_19.xml Verona_I_20.xml Verona_I_21.xml Verona_I_22.xml">Leurs missions ont reçu l’ordre de quitter la péninsule.</ref>
             </p>
-            <p>Quelques puissent être les suites de cette détermination, les <rs
-                  ref="#p.16 #p.18 #p.17">Monarques</rs> auront prouvé à l’Europe qu’Ils ne
+            <p>Quelques puissent être les suites de cette détermination, les <rs ref="#p.16 #p.18 #p.17">Monarques</rs> auront prouvé à l’Europe qu’Ils ne
                reculeront jamais devant<pb n="32r"/> ce que leur conviction intime leur a signalé
                comme juste et salutaire. Plus Ils vouent d’amitié à <rs xml:id="n.8" ref="#p.150"><choice>
                      <abbr>S. M.</abbr>
@@ -633,8 +578,7 @@
                que désirant Eux-mêmes de faire jouir Leurs peuples de tout ce que le<pb n="33r"/>
                développement de l’esprit humain peut produire de véritables améliorations et de
                nouvelles sources de prospérité, Ils ne prétendront jamais arrêter les progrès des
-               autres nations dans quelque carrière que ce soit. Les vœux des <rs
-                  ref="#p.16 #p.18 #p.17">Monarques</rs> sont dirigés vers la paix ; toutes leurs
+               autres nations dans quelque carrière que ce soit. Les vœux des <rs ref="#p.16 #p.18 #p.17">Monarques</rs> sont dirigés vers la paix ; toutes leurs
                démarches, tous leurs efforts ne tendent qu’à la consolider. Mais cette paix, quoique
                bien établie et garantie entre les puissances par les transactions politiques des
                dernières années, cette paix ne peut répandre la plénitude de ses bienfaits sur les
@@ -654,12 +598,10 @@
       </body>
       <back>
          <include xmlns="http://www.w3.org/2001/XInclude" href="listPlace.xml" xpointer="listPlace"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="listPerson.xml"
-            xpointer="listPerson"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listPerson.xml" xpointer="listPerson"/>
          <include xmlns="http://www.w3.org/2001/XInclude" href="listWit.xml" xpointer="listWit"/>
          <include xmlns="http://www.w3.org/2001/XInclude" href="listOrg.xml" xpointer="listOrg"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="listTreaties.xml"
-            xpointer="listTreaties"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listTreaties.xml" xpointer="listTreaties"/>
       </back>
    </text>
 </TEI>

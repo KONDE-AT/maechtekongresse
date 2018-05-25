@@ -1,8 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -181,10 +178,10 @@
          </appInfo>
          <styleDefDecl scheme="css"/>
          <tagsDecl>
-            <rendition xml:id="su">superscript</rendition>
-            <rendition xml:id="s">strikethrough</rendition>
-            <rendition xml:id="u">underline</rendition>
-            <rendition xml:id="r">right</rendition>
+            <rendition xml:id="su" scheme="css">vertical-align:sub; font-size:.7em;</rendition>
+            <rendition xml:id="s" scheme="css">text-decoration:line-through;</rendition>
+            <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
+            <rendition xml:id="r" scheme="css">display:block; text-align:right;</rendition>
          </tagsDecl>
       </encodingDesc>
       <profileDesc>
@@ -263,8 +260,7 @@
                      <abbr>Nr.</abbr>
                      <expan>Numéro</expan>
                   </choice> XIV.</title></p>
-            <p rendition="#u"><placeName ref="#loc.65">Laybach</placeName> le <date
-                  when="1821-02-22">22 Février 1821.</date></p>
+            <p rendition="#u"><placeName ref="#loc.65">Laybach</placeName> le <date when="1821-02-22">22 Février 1821.</date></p>
 
             <p><ref target="Laibach_Prot_13.xml"><choice>
                      <abbr>Mrs.</abbr>
@@ -282,25 +278,19 @@
             <p><choice>
                   <abbr>Mrs.</abbr>
                   <expan>Messieurs</expan>
-               </choice> les <rs ref="#p.8 #p.2 #p.102 #p.135 #p.160 #p.12 #p.136 #p.13 #p.14 #p.7"
-                  >Plénipotentiaires d’Autriche, de France, de Prusse et de Russie</rs> ont fait
+               </choice> les <rs ref="#p.8 #p.2 #p.102 #p.135 #p.160 #p.12 #p.136 #p.13 #p.14 #p.7">Plénipotentiaires d’Autriche, de France, de Prusse et de Russie</rs> ont fait
                aujourd’hui à ce même sujet, et déposé au Journal, les déclarations ci-annexées sub
                   <ref decls="#m.2">A</ref>, <ref decls="#m.3">B</ref>, <ref decls="#m.4">C</ref> et
                   <ref decls="#m.5">D</ref>.</p>
             <p><choice>
                   <abbr>Mr.</abbr>
                   <expan>Monsieur</expan>
-               </choice> le <rs ref="#p.161" xml:id="n.2">Ministre plénipotentiaire de <rs
-                     ref="#p.130">Sa Majesté Brittannique</rs></rs> à la cour de <placeName
-                  ref="#loc.7">Vienne</placeName><note type="editorial" target="#n.2"><persName
-                     ref="#p.137"><surname>Stewart</surname></persName> nimmt laut Anwesenheitsliste
-                  nicht an der Sitzung teil.</note> s’est référé aux <ref
-                  target="Laibach_Prot_7.xml">déclarations précédentes consignées au Journal des
+               </choice> le <rs ref="#p.161" xml:id="n.2">Ministre plénipotentiaire de <rs ref="#p.130">Sa Majesté Brittannique</rs></rs> à la cour de <placeName ref="#loc.7">Vienne</placeName><note type="editorial" target="#n.2"><persName ref="#p.137"><surname>Stewart</surname></persName> nimmt laut Anwesenheitsliste
+                  nicht an der Sitzung teil.</note> s’est référé aux <ref target="Laibach_Prot_7.xml">déclarations précédentes consignées au Journal des
                   conférences</ref> sur l’attitude de la <country>Grande-Bretagne</country> pour
                prouver qu’il n’est point autorisé à énoncer une opinion quelconque sur l’objet de la
                dite communication. En assurant qu’il<pb n="114v"/> s’empresseroit de la porter à la
-               connoissance de son Gouvernement, il a cru pouvoir ajouter que le <rs ref="#p.130"
-                  >Roi</rs>, son Auguste Maître, quoique fidèle à ses principes de non-intervention
+               connoissance de son Gouvernement, il a cru pouvoir ajouter que le <rs ref="#p.130">Roi</rs>, son Auguste Maître, quoique fidèle à ses principes de non-intervention
                dans cette affaire, n’en continueroit pas moins à former les vœux les plus sincères
                pour l’affermissement du bonheur de <rs ref="#p.138"><choice>
                      <abbr>S. M.</abbr>
@@ -316,18 +306,14 @@
             <pb n="116r"/>
             <p><add place="top">A.</add></p>
 
-            <p><title>Déclaration du Cabinet d’Autriche sur les communications faites au nom de <rs
-                     ref="#p.138"><choice>
+            <p><title>Déclaration du Cabinet d’Autriche sur les communications faites au nom de <rs ref="#p.138"><choice>
                         <abbr>S. M.</abbr>
                         <expan>Sa Majesté</expan>
                      </choice> Sicilienne</rs> à la <ref target="Laibach_Prot_12.xml">Conférence du
                         <date when="1821-02-20">20 Février</date></ref></title></p>
-            <p>Sa Majesté l’<rs ref="#p.16">Empereur d’Autriche</rs>, s’étant portée dès les <rs
-                  xml:id="n.3">déplorables Catastrophes survenues dans le <country>Royaume de
-                     Naples</country> au commencement du mois de Juillet dernier</rs><note
-                  type="editorial" target="#n.3">Am <date when="1820-07-02">2. Juli 1820</date>
-                  meuterte die Militärgarnison in Nola, 35 km von <placeName ref="#loc.11"
-                     >Neapel</placeName> entfernt. Das Datum gilt als Beginn der Revolution im
+            <p>Sa Majesté l’<rs ref="#p.16">Empereur d’Autriche</rs>, s’étant portée dès les <rs xml:id="n.3">déplorables Catastrophes survenues dans le <country>Royaume de
+                     Naples</country> au commencement du mois de Juillet dernier</rs><note type="editorial" target="#n.3">Am <date when="1820-07-02">2. Juli 1820</date>
+                  meuterte die Militärgarnison in Nola, 35 km von <placeName ref="#loc.11">Neapel</placeName> entfernt. Das Datum gilt als Beginn der Revolution im
                      <country>Königreich beider Sizilien</country>. Vgl. Stites, The four Horsemen;
                   Davis, Naples and Napoleon; Gin, Sanfedisti, Carbonari, Magistrati del Re; Späth,
                   Revolution in Europa, S. 129–149.</note> à toutes les mesures matérielles que les
@@ -357,8 +343,7 @@
             <p>Un aussi déplorable résultat n’a pu que raffermir l’<rs ref="#p.16">Empereur</rs>
                dans la conviction d’avoir rempli Ses devoirs par les mesures qu’Il n’a pas hésité à
                prendre de prime abord, qu’Il a graduellement renforcées, et qui ont été si noblement
-               soutenues par tout le poids de l’appui moral que les grands et puissans alliés de <rs
-                  ref="#p.16"><choice>
+               soutenues par tout le poids de l’appui moral que les grands et puissans alliés de <rs ref="#p.16"><choice>
                      <abbr>S. M.</abbr>
                      <expan>Sa Majesté</expan>
                   </choice> Impériale</rs> ont prêté à Ses efforts.</p>
@@ -374,16 +359,13 @@
                peuples, ni aucun des dangers auxquels ils peuvent être exposés.</p>
             <p>Le <rs ref="#p.138">Roi</rs> vient de fixer les premières bases sur lesquelles Il
                entend reconstruire Son Gouvernement.</p>
-            <p><ref target="Laibach_Prot_13.xml">Les <rs ref="#p.166 #p.167 #p.164 #p.168 #p.165"
-                     >Plénipotentiaires des <rs ref="#p.169 #p.155 #p.170 #p.171">Souverains
+            <p><ref target="Laibach_Prot_13.xml">Les <rs ref="#p.166 #p.167 #p.164 #p.168 #p.165">Plénipotentiaires des <rs ref="#p.169 #p.155 #p.170 #p.171">Souverains
                         d’Italie</rs></rs> ayant déclaré ne rien trouver dans ces bases qui fût
-                  contraire au maintien de la tranquillité générale de l’Italie</ref>, et l’<rs
-                  ref="#p.16">Empereur</rs> regardant <rs ref="#p.169 #p.155 #p.170 #p.171">ces
+                  contraire au maintien de la tranquillité générale de l’Italie</ref>, et l’<rs ref="#p.16">Empereur</rs> regardant <rs ref="#p.169 #p.155 #p.170 #p.171">ces
                   Princes</rs> comme les plus immédiatement intéressés aux conséquences que tout
                système de Gouvernement, adopté par l’un ou par l’autre des Etats d’Italie, doit
                nécessairement produire sur la Péninsule toute entière comme sur chacun de Ses Etats
-               en particulier ; trouvant de Son côté que les ouvertures faites au nom de <rs
-                  ref="#p.138"><choice>
+               en particulier ; trouvant de Son côté que les ouvertures faites au nom de <rs ref="#p.138"><choice>
                      <abbr>S. M.</abbr>
                      <expan>Sa Majesté</expan>
                   </choice> Sicilienne</rs> sont conformes à la stabilité future du Gouvernement et
@@ -410,8 +392,7 @@
                preuve de la confiance de <rs ref="#p.138"><choice>
                      <abbr>S. M.</abbr>
                      <expan>Sa Majesté</expan>
-                  </choice> Sicilienne</rs> envers les Puissances réunies au Congrès de <placeName
-                  ref="#loc.65">Laybach</placeName> ; ils doivent donc se borner à déclarer que le
+                  </choice> Sicilienne</rs> envers les Puissances réunies au Congrès de <placeName ref="#loc.65">Laybach</placeName> ; ils doivent donc se borner à déclarer que le
                   <rs ref="#p.15">Roi</rs>, leur Maître, qui s’intéressera constamment à la
                prospérité du <country><choice>
                      <abbr>Roy<hi rendition="#su">me</hi></abbr>
@@ -434,8 +415,7 @@
                   1821</date>.</p>
 
             <p>Les <rs ref="#p.12 #p.136">Plénipotentiaires de Sa Majesté le <rs ref="#p.18">Roi de
-                     Prusse</rs></rs> ont accueilli avec le plus vif intérêt <ref
-                  target="Laibach_Prot_12.xml">la communication des bases d’une loi fondamentale
+                     Prusse</rs></rs> ont accueilli avec le plus vif intérêt <ref target="Laibach_Prot_12.xml">la communication des bases d’une loi fondamentale
                   pour le <country>Royaume des deux-Siciles</country> que <choice>
                      <abbr>Mr.</abbr>
                      <expan>Monsieur</expan>
@@ -455,8 +435,7 @@
                fois de plus les sentimens invariables du <rs ref="#p.18">Roi</rs>, leur maître, en
                se rendant interprètes de la satisfaction que <rs ref="#p.18">Sa Majesté</rs>
                éprouvera à voir une œuvre qui porte dans son sein tous les germes des désordres, qui
-               lui ont donné naissance, remplacée par des institutions qui, fondées sur des<pb
-                  n="119v"/> bases essentiellement monarchiques propres à régler la marche de
+               lui ont donné naissance, remplacée par des institutions qui, fondées sur des<pb n="119v"/> bases essentiellement monarchiques propres à régler la marche de
                l’administration sur des principes justes et immuables et susceptibles de tous les
                développemens qui pourront être jugés nécessaires pour l’accomplissement entier des
                vues paternelles de <rs ref="#p.138">leur auguste Auteur</rs>, sont de nature à
@@ -467,19 +446,16 @@
          <div hand="#A" decls="#m.5">
             <pb n="120r"/>
             <p><add place="top">D.</add></p>
-            <p>L’<rs ref="#p.17">Empereur</rs> a pris connoissance des <ref
-                  target="Laibach_Prot_12.xml">communications faites par <choice>
+            <p>L’<rs ref="#p.17">Empereur</rs> a pris connoissance des <ref target="Laibach_Prot_12.xml">communications faites par <choice>
                      <abbr>M<hi rendition="#su">r</hi></abbr>
                      <expan>Monsieur</expan>
                   </choice> le <persName ref="#p.140"><roleName>Prince</roleName>
-                     <surname>de Ruffo</surname></persName> dans la séance du <date
-                     when="1820-02-20">20 Février</date></ref>, et <rs ref="#p.17">Sa Majesté</rs> a
+                     <surname>de Ruffo</surname></persName> dans la séance du <date when="1820-02-20">20 Février</date></ref>, et <rs ref="#p.17">Sa Majesté</rs> a
                vivement apprécié le témoignage de confiance que le <rs ref="#p.138">Roi</rs> a cru
                devoir donner à <rs ref="#p.16 #p.18 #p.17">Ses augustes alliés</rs>, en Les
                instruisant de Ses vues concernant la réorganisation politique de Ses Etats. L’ordre
                de choses à établir dans le <country>Royaume de Naples</country> à la suite des
-               troubles et des malheurs que <rs xml:id="n.4">les évènemens du <date
-                     when="1820-07-02">2 Juillet</date></rs><note type="editorial" target="#n.4">Am
+               troubles et des malheurs que <rs xml:id="n.4">les évènemens du <date when="1820-07-02">2 Juillet</date></rs><note type="editorial" target="#n.4">Am
                      <date when="1820-07-02">2. Juli 1820</date> meuterte die Militärgarnison in
                   Nola, 35 km von <placeName ref="#loc.11">Neapel</placeName> entfernt. Das Datum
                   gilt als Beginn der Revolution im <country>Königreich beider Sizilien</country>.
@@ -501,35 +477,29 @@
                      <expan>Monsieur</expan>
                   </choice> le <persName ref="#p.140"><roleName>Prince</roleName>
                      <surname>de Ruffo</surname></persName>, sont de nature à répondre à l’attente
-                  légitime des autres Puissances de la Péninsule</ref>, l’<rs ref="#p.17"
-                  >Empereur</rs> forme, comme elles, les vœux les plus ardens pour que les<pb
-                  n="121r"/> effets de la nouvelle loi fondamentale du <country>Royaume des
+                  légitime des autres Puissances de la Péninsule</ref>, l’<rs ref="#p.17">Empereur</rs> forme, comme elles, les vœux les plus ardens pour que les<pb n="121r"/> effets de la nouvelle loi fondamentale du <country>Royaume des
                   Deux-Siciles</country> justifient les intentions sages et paternelles qui en ont
                déterminé l’adoption. L’<rs ref="#p.17">Empereur</rs> désire surtout que le
                développement et l’application des principes arrêtés par <rs ref="#p.138"><choice>
                      <abbr>S. M.</abbr>
                      <expan>Sa Majesté</expan>
-                  </choice> Sicilienne</rs> offrent le résultat indiqué en <ref
-                  target="Troppau_Prot_4.xml">l’<choice>
+                  </choice> Sicilienne</rs> offrent le résultat indiqué en <ref target="Troppau_Prot_4.xml">l’<choice>
                      <abbr>art.</abbr>
                      <expan>article</expan>
                   </choice> 4 du protocole du 7/<date when="1820-11-19">19 Novembre</date>, savoir :
                   l’établissement d’un ordre de choses, renfermant en lui-même les élémens de sa
                   stabilité, et qui puisse se soutenir sur ses propres bases sans l’appui d’une
                   force étrangère ; condition qui, aux yeux de <rs ref="#p.17">Sa Majesté
-                     Impériale</rs>, présentera toujours aux <rs ref="#p.169 #p.155 #p.170 #p.171"
-                     >Souverains d’Italie</rs> la meilleure garantie de la tranquillité comme de
+                     Impériale</rs>, présentera toujours aux <rs ref="#p.169 #p.155 #p.170 #p.171">Souverains d’Italie</rs> la meilleure garantie de la tranquillité comme de
                   l’indépendance de leurs Etats</ref>.</p>
          </div>
       </body>
       <back>
          <include xmlns="http://www.w3.org/2001/XInclude" href="listPlace.xml" xpointer="listPlace"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="listPerson.xml"
-            xpointer="listPerson"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listPerson.xml" xpointer="listPerson"/>
          <include xmlns="http://www.w3.org/2001/XInclude" href="listWit.xml" xpointer="listWit"/>
          <include xmlns="http://www.w3.org/2001/XInclude" href="listOrg.xml" xpointer="listOrg"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="listTreaties.xml"
-            xpointer="listTreaties"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listTreaties.xml" xpointer="listTreaties"/>
       </back>
    </text>
 </TEI>

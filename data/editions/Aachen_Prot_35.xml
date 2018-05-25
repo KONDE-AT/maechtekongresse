@@ -1,8 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -106,9 +103,9 @@
          </appInfo>
          <styleDefDecl scheme="css"/>
          <tagsDecl>
-            <rendition xml:id="su">superscript</rendition>
-            <rendition xml:id="s">strikethrough</rendition>
-            <rendition xml:id="u">underline</rendition>
+            <rendition xml:id="su" scheme="css">vertical-align:sub; font-size:.7em;</rendition>
+            <rendition xml:id="s" scheme="css">text-decoration:line-through;</rendition>
+            <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
             <rendition xml:id="ow">overwritten</rendition>
             <rendition xml:id="italic">italic</rendition>
             <rendition xml:id="allcaps">allcaps</rendition>
@@ -160,9 +157,7 @@
             <p><placeName ref="#loc.1">Aix-la-Chapelle</placeName> le <date when="1818-11-16">16
                   Novembre 1818</date></p>            
 
-            <p>À la suite du travail dont, conformément au <ref target="Aachen_Prot_17.xml"
-                  >Protocole des Conférences du <add hand="#W" place="inspace"><date
-                        when="1818-10-22">22 <choice>
+            <p>À la suite du travail dont, conformément au <ref target="Aachen_Prot_17.xml">Protocole des Conférences du <add hand="#W" place="inspace"><date when="1818-10-22">22 <choice>
                            <abbr>Octb.</abbr>
                            <expan>Octobre</expan>
                         </choice></date></add></ref>, une Commission particulière avoit été chargée
@@ -171,26 +166,22 @@
                   <ref decls="#m.2">les Huit articles ci-annexés</ref> ont été présentés aujourd’hui à la conférence. <choice>
                   <abbr>Mrs.</abbr>
                   <expan>Messieurs</expan>
-               </choice> les <rs ref="#p.9 #p.10">Plénipotentiaires de la Grande-Bretagne</rs>, <rs
-                  ref="#p.11 #p.12">de Prusse</rs> et <rs ref="#p.13 #p.14">de Russie</rs> ont
+               </choice> les <rs ref="#p.9 #p.10">Plénipotentiaires de la Grande-Bretagne</rs>, <rs ref="#p.11 #p.12">de Prusse</rs> et <rs ref="#p.13 #p.14">de Russie</rs> ont
                purement et simplement adopté les dispositions arrêtées par ces articles ; et <choice>
                   <abbr>Mr.</abbr>
                   <expan>Monsieur</expan>
                </choice> le <persName ref="#p.8"><roleName>Prince</roleName>
-                  <surname>de Metternich</surname></persName>, témoignant de même au nom de <rs
-                  ref="#p.16">Son Souverain</rs> des intentions favorables à cet égard, mais n’étant
+                  <surname>de Metternich</surname></persName>, témoignant de même au nom de <rs ref="#p.16">Son Souverain</rs> des intentions favorables à cet égard, mais n’étant
                pas encore autorisé à prendre part à la conclusion proposée, s’est réservé de faire
                connoître dans le plus court délai possible les ordres qu’il recevra par rapport à
                cette affaire ; <add place="margin">aussi-tôt que la résolution du Cabinet de Vienne
-                  sera connue, les Etats qui ont accédé aux <rs ref="#t.13 #t.1">traités du <date
-                        when="1814-05-30">30 Mai 1814</date> et du <date when="1815-11-20">20
+                  sera connue, les Etats qui ont accédé aux <rs ref="#t.13 #t.1">traités du <date when="1814-05-30">30 Mai 1814</date> et du <date when="1815-11-20">20
                         Novembre 1815</date></rs> seront invités à accéder également au présent
                   arrangement.</add>
             </p>
             <p>Quant aux Français qui jouissoient de dotations dont ils ont perdu la possession par
                l’effet des stipulations du <rs ref="#t.13">traité du <date when="1814-05-30">30 Mai
-                     1814</date></rs>, il a été convenu qu’étant en droit de réclamer les revenus<pb
-                  n="173v"/> de ces dotations jusqu’à cette époque, il sera donné aux anciens
+                     1814</date></rs>, il a été convenu qu’étant en droit de réclamer les revenus<pb n="173v"/> de ces dotations jusqu’à cette époque, il sera donné aux anciens
                Titulaires par les différens gouvernemens toutes les facilités convenables pour se
                faire payer des revenus des termes antérieurs qui n’auroient pas encore été
                acquittés ; et que dans les cas ou tout ou partie de ces revenus auroit été versé
@@ -212,16 +203,14 @@
 
          <div hand="#A" decls="#m.2">
             <pb n="174r"/>           
-            <p><add hand="#G" place="top">Articles annexés au Protocole des Conférences du <date
-                     when="1818-11-16">16 Novembre 1818</date>.</add></p>
+            <p><add hand="#G" place="top">Articles annexés au Protocole des Conférences du <date when="1818-11-16">16 Novembre 1818</date>.</add></p>
             <p>Article premier</p>
             <p>Les créances des sujets Français sur les Gouvernemens Etrangers, dont la validité
                auroit déjà été reconnue par les Commissaires Liquidateurs des Gouvernemens
                débiteurs, et dont l’état sera arrêté le <date when="1818-12-15">15 <choice>
                      <abbr>X<hi rendition="#su">bre</hi></abbr>
                      <expan>Décembre</expan>
-                  </choice> prochain</date>, seront payées à <placeName ref="#loc.2"
-                  >Paris</placeName> au <date when="1819-02-01">1<hi rendition="#su">er</hi> Février
+                  </choice> prochain</date>, seront payées à <placeName ref="#loc.2">Paris</placeName> au <date when="1819-02-01">1<hi rendition="#su">er</hi> Février
                   1819</date> ou plutôt si faire se peut, en inscriptions de rente au pair avec
                jouissance du <date when="1818-03-22">22 Mars 1818</date>, sous la condition
                toutefois que la différence entre le cours du jour du payement et le taux de <subst>
@@ -234,8 +223,7 @@
                </choice> sera bonifiée par lesdits Gouvernemens.</p>
             <p>Article 2<hi rendition="#su">e</hi></p>
             <p>Lors qu’une créance devait rapporter un intérêt, soit par sa nature, soit en vertu
-               des titres sur lesquels elle est fondée, ces intérêts seront capitalisés, et la<pb
-                  n="174v"/> somme qu’ils produiront sera ajoutée au principal pour être acquittée
+               des titres sur lesquels elle est fondée, ces intérêts seront capitalisés, et la<pb n="174v"/> somme qu’ils produiront sera ajoutée au principal pour être acquittée
                de la même manière.</p>
             <p>Article 3<hi rendition="#su">e</hi></p>
             <p>Il sera procédé à <placeName ref="#loc.2">Paris</placeName> à la liquidation des
@@ -255,8 +243,7 @@
                </choice> nommera un Commissaire qui liquidera, de concert avec un Commissaire
                Français, les réclamations présentées : En cas de partage entre les deux
                Commissaires, soit sur la validité, soit sur la fixation du montant de la créance,
-               chacun d’eux choisira un Commissaire parmi ceux des autres Gouvernemens ;<pb n="175r"
-               /> ces deux-ci en choisiront de concert un troisième, et ces cinq Commissaires réunis
+               chacun d’eux choisira un Commissaire parmi ceux des autres Gouvernemens ;<pb n="175r"/> ces deux-ci en choisiront de concert un troisième, et ces cinq Commissaires réunis
                prononceront définitivement à la majorité des voix.</p>
             <p>Article 5<hi rendition="#su">e</hi></p>
             <p>La liquidation des réclamations formées par des sujets Français d’après l’article 3
@@ -290,12 +277,10 @@
       </body>
       <back>
          <include xmlns="http://www.w3.org/2001/XInclude" href="listPlace.xml" xpointer="listPlace"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="listPerson.xml"
-            xpointer="listPerson"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listPerson.xml" xpointer="listPerson"/>
          <include xmlns="http://www.w3.org/2001/XInclude" href="listWit.xml" xpointer="listWit"/>
          <include xmlns="http://www.w3.org/2001/XInclude" href="listOrg.xml" xpointer="listOrg"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="listTreaties.xml"
-            xpointer="listTreaties"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listTreaties.xml" xpointer="listTreaties"/>
       </back>
    </text>
 </TEI>

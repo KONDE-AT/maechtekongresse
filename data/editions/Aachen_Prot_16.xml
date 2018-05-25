@@ -1,8 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -75,8 +72,7 @@
                   <p>Protokoll von <persName ref="#p.6"><surname>Wacken</surname></persName></p>
                   <p>Anlage liegt zweifach, als Original (fol. I/65–67) und als Abschrift (fol.
                      I/61–63) ein. Die Edition folgt dem Original. Auf der Abschrift Vermerk
-                        <persName ref="#p.8"><surname>Metternichs</surname></persName>: <hi
-                        rendition="#u">"Principes arrêtés"</hi> auf dem Korrekturrand von fol.
+                        <persName ref="#p.8"><surname>Metternichs</surname></persName>: <hi rendition="#u">"Principes arrêtés"</hi> auf dem Korrekturrand von fol.
                      I/61r.</p>
                </physDesc>
                <history>
@@ -102,16 +98,15 @@
          </appInfo>
          <styleDefDecl scheme="css"/>
          <tagsDecl>
-            <rendition xml:id="su">superscript</rendition>
-            <rendition xml:id="s">strikethrough</rendition>
-            <rendition xml:id="u">underline</rendition>
+            <rendition xml:id="su" scheme="css">vertical-align:sub; font-size:.7em;</rendition>
+            <rendition xml:id="s" scheme="css">text-decoration:line-through;</rendition>
+            <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
          </tagsDecl>
       </encodingDesc>
       <profileDesc>
          <abstract>
             <p>Die <rs ref="#p.8 #p.11 #p.13 #p.12 #p.14 #p.9">Vertreter der alliierten Mächte</rs>
-               unterzeichnen ein Protokoll betreffend die Interpretation der <rs ref="#t.1 #t.6"
-                  >Verträge von 1815</rs> nach dem Abzug der Besatzungstruppen aus
+               unterzeichnen ein Protokoll betreffend die Interpretation der <rs ref="#t.1 #t.6">Verträge von 1815</rs> nach dem Abzug der Besatzungstruppen aus
                   <country>Frankreich</country>.</p>
          </abstract>
          <particDesc>
@@ -184,8 +179,7 @@
 
          <div hand="#W" decls="#m.2">
             <pb n="65r"/>
-            <p hand="#A"><placeName ref="#loc.1">Aix-la-Chapelle</placeName> Le <date
-                  when="1818-10-19">19 Octobre</date></p>         
+            <p hand="#A"><placeName ref="#loc.1">Aix-la-Chapelle</placeName> Le <date when="1818-10-19">19 Octobre</date></p>         
 
             <p>Les engagemens consignés dans les articles 2, 3 et 4 <add place="above">et 5</add> du
                   <rs ref="#t.6">Traité de la quadruple alliance du <date when="1815-11-20">8/20
@@ -200,17 +194,13 @@
                s’occuper les bases suivantes :</p>
             <pb n="65v"/>
             <p><hi rendition="#u">Pour le premier objet</hi></p>
-            <p>Conserver dans toute sa force et valeur la quadruple alliance pour le <rs
-                  xml:id="n.1">casus foederis</rs><note type="editorial" target="#n.1">Lat.:
-                  Bündnisfall.</note> tel qu’il est défini dans le <rs ref="#t.6">traité du <date
-                     when="1815-11-20">20 Novembre 1815</date></rs> ; statuer la partie
+            <p>Conserver dans toute sa force et valeur la quadruple alliance pour le <rs xml:id="n.1">casus foederis</rs><note type="editorial" target="#n.1">Lat.:
+                  Bündnisfall.</note> tel qu’il est défini dans le <rs ref="#t.6">traité du <date when="1815-11-20">20 Novembre 1815</date></rs> ; statuer la partie
                règlementaire des mesures militaires que les Puissances se sont engagées à exécuter
                dans le cas échéant ; </p>
-            <p>Considérer les actes des Conférences d’<placeName ref="#loc.1"
-                  >Aix-la-Chapelle</placeName> qui se réfèrent à cette dernière disposition comme
+            <p>Considérer les actes des Conférences d’<placeName ref="#loc.1">Aix-la-Chapelle</placeName> qui se réfèrent à cette dernière disposition comme
                secrets.</p>
-            <p><rs xml:id="n.2"><hi rendition="#u">Pour le second objet</hi></rs><note
-                  type="editorial" target="#n.2"> "NB. Dans la Séance du 19 <choice>
+            <p><rs xml:id="n.2"><hi rendition="#u">Pour le second objet</hi></rs><note type="editorial" target="#n.2"> "NB. Dans la Séance du 19 <choice>
                      <abbr>Oct.</abbr>
                      <expan>Octobre</expan>
                   </choice> le <rs ref="#p.8"><choice>
@@ -219,8 +209,7 @@
                      </choice> Autrichien</rs> a proposé que cet article fût rédigé ainsi :
                   « Conserver également la quadruple alliance dans sa partie morale et maintenir en
                   conséquence le principe d’union entre les 4 Cours statué etc. etc. etc. »" bei der
-                  abschriftlichen Variante von <persName ref="#p.8"
-                     ><surname>Metternich</surname></persName> auf Korrekturrand ergänzt.</note></p>
+                  abschriftlichen Variante von <persName ref="#p.8"><surname>Metternich</surname></persName> auf Korrekturrand ergänzt.</note></p>
             <p>Conserver également dans toute sa pureté le principe moral de l’union entre les
                quatre Cabinets, statué par l’article VI du <rs ref="#t.6">dit traité</rs>, et faire
                de ce principe l’application la plus conforme à l’affermissement du système général ; </p>
@@ -243,8 +232,7 @@
                      <expan>Monsieur</expan>
                   </choice> le <persName ref="#p.1"><roleName>Duc</roleName>
                      <surname>de Richelieu</surname></persName></ref>, et devant être communiqué à
-               tous les Etats qui ont accédé au <rs ref="#t.12">Recès de Vienne</rs> et aux <rs
-                  ref="#t.1 #t.9">actes de Paris de l’année 1815</rs> ; l’objet de ce Protocole
+               tous les Etats qui ont accédé au <rs ref="#t.12">Recès de Vienne</rs> et aux <rs ref="#t.1 #t.9">actes de Paris de l’année 1815</rs> ; l’objet de ce Protocole
                sera</p>
             <pb n="66v"/>
             <p>1<hi rendition="#su">o</hi> D’exposer les motifs de l’association de la
@@ -279,12 +267,10 @@
       </body>
       <back>
          <include xmlns="http://www.w3.org/2001/XInclude" href="listPlace.xml" xpointer="listPlace"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="listPerson.xml"
-            xpointer="listPerson"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listPerson.xml" xpointer="listPerson"/>
          <include xmlns="http://www.w3.org/2001/XInclude" href="listWit.xml" xpointer="listWit"/>
          <include xmlns="http://www.w3.org/2001/XInclude" href="listOrg.xml" xpointer="listOrg"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="listTreaties.xml"
-            xpointer="listTreaties"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listTreaties.xml" xpointer="listTreaties"/>
       </back>
    </text>
 </TEI>

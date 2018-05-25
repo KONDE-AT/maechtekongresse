@@ -1,8 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -124,16 +121,15 @@
          </appInfo>
          <styleDefDecl scheme="css"/>
          <tagsDecl>
-            <rendition xml:id="su">superscript</rendition>
-            <rendition xml:id="s">strikethrough</rendition>
-            <rendition xml:id="et">indented</rendition>
+            <rendition xml:id="su" scheme="css">vertical-align:sub; font-size:.7em;</rendition>
+            <rendition xml:id="s" scheme="css">text-decoration:line-through;</rendition>
+            <rendition xml:id="et" scheme="css">display:block; margin-left:2em; text-indent:0;</rendition>
          </tagsDecl>
       </encodingDesc>
       <profileDesc>
          <abstract>
             <p>Die <rs ref="#p.8 #p.10 #p.11 #p.13 #p.12 #p.14 #p.9">Vertreter der alliierten
-                  Mächte</rs> und der franzöische Premierminister <persName ref="#p.1"
-                     ><surname>Richelieu</surname></persName> verhandeln über die Höhe der
+                  Mächte</rs> und der franzöische Premierminister <persName ref="#p.1"><surname>Richelieu</surname></persName> verhandeln über die Höhe der
                Entschädigungszahlungen sowie über deren Zahlungsmodalitäten.</p>
          </abstract>
          <particDesc>
@@ -204,9 +200,7 @@
                   <abbr>Mr.</abbr>
                   <expan>Monsieur</expan>
                </choice> le <persName ref="#p.11"><roleName>Prince</roleName>
-                  <surname>de Hardenberg</surname></persName> a fait ensuite lecture <rs
-                     xml:id="n.1"> des observations ci-annexées</rs> <note type="editorial" target="#n.1"
-                     >Anlage liegt nicht ein.</note> sur la <rs ref="#t.7">convention
+                  <surname>de Hardenberg</surname></persName> a fait ensuite lecture <rs xml:id="n.1"> des observations ci-annexées</rs> <note type="editorial" target="#n.1">Anlage liegt nicht ein.</note> sur la <rs ref="#t.7">convention
                      conclue<pb n="8v"/> le <date when="1818-04-25">25 Avril
                1818</date></rs>relativement aux réclamations particulières à la charge de la
                   <country>France</country> ; observations à la suite desquelles <choice>
@@ -266,10 +260,8 @@
                Russie</rs>.</add></p>
 
             <p>Le <rs ref="#p.1">Soussigné</rs>, Plénipotentiaire de <rs xml:id="n.2">
-               <rs ref="#p.15">Sa Majesté Très Chrétienne</rs></rs>, <note type="editorial"
-                     target="#n.2"> Ehrentitel des Königs von Frankreich</note> a l’honneur de
-               présenter à Leurs Excellences, Messieurs <rs
-                  ref="#p.8 #p.10 #p.11 #p.13 #p.12 #p.14 #p.9">les Plénipotentiaires des Cours
+               <rs ref="#p.15">Sa Majesté Très Chrétienne</rs></rs>, <note type="editorial" target="#n.2"> Ehrentitel des Königs von Frankreich</note> a l’honneur de
+               présenter à Leurs Excellences, Messieurs <rs ref="#p.8 #p.10 #p.11 #p.13 #p.12 #p.14 #p.9">les Plénipotentiaires des Cours
                   d’Autriche, de la Grande-Bretagne, de Prusse et de Russie</rs>, les observations
                suivantes relativement aux dépenses d’entretien de l’armée d’occupation :</p>
             <p>Le <rs ref="#t.8">procès-verbal du <date when="1815-10-13">13 Octobre
@@ -307,11 +299,9 @@
                   traité</rs> lui-même. En effet les notes du <date when="1818-11-20">20 <choice>
                      <abbr>9<hi rendition="#su">bre</hi></abbr>
                      <expan>Novembre</expan>
-                  </choice></date>, que le <rs ref="#p.1">Soussigné</rs> a rappelées à <rs
-                  ref="#p.8 #p.10 #p.11 #p.13 #p.12 #p.14 #p.9">Leurs Excellences</rs>, déclarent
+                  </choice></date>, que le <rs ref="#p.1">Soussigné</rs> a rappelées à <rs ref="#p.8 #p.10 #p.11 #p.13 #p.12 #p.14 #p.9">Leurs Excellences</rs>, déclarent
                que <quote>« tout ce qui regarde l’entretien de l’armée d’occupation sera réglé
-                  conformément aux dispositions du <rs ref="#t.8">procès-verbal du <date
-                        when="1815-10-13">13 <choice>
+                  conformément aux dispositions du <rs ref="#t.8">procès-verbal du <date when="1815-10-13">13 <choice>
                            <abbr>8<hi rendition="#su">bre</hi></abbr>
                            <expan>Octobre</expan>
                         </choice></date></rs> »</quote>.</p>
@@ -324,8 +314,7 @@
                année. Elle a fait face à toutes les dépenses, sans même s’arrêter au maximum de Cent
                cinquante millions si positivement fixé dans la confiance où Elle étoit que, soit par
                une compensation au moment du règlement définitif des comptes, soit que par une
-               réduction progressive dans le nombre des troupes, le niveau seroit rétabli<pb n="14v"
-               /> entre les dépenses réelles et la somme qu’Elle s’étoit engagée à fournir.</p>
+               réduction progressive dans le nombre des troupes, le niveau seroit rétabli<pb n="14v"/> entre les dépenses réelles et la somme qu’Elle s’étoit engagée à fournir.</p>
             <p>Or, quoique les Puissances alliées ayent d’après l’esprit du traité retiré une partie
                de leurs troupes, les dépenses faites pour l’armée d’occupation ne s’en élèveront pas
                moins au <date when="1818-12-01">1<hi rendition="#su">er</hi>
@@ -346,8 +335,7 @@
             <p>D’après <rs ref="#t.8">le même procès-verbal</rs>
                <rs ref="#p.1">le Soussigné</rs> se trouve obligé de former une seconde demande.
                   Le<pb n="15r"/> remboursement du déficit annuel de Vingt millions, auquel la
-                  <country>France</country> étoit tenu, ne devoit avoir lieu que dans la 4<hi
-                  rendition="#su">e</hi> et la 5<hi rendition="#su">e</hi> année, et pouvoit être
+                  <country>France</country> étoit tenu, ne devoit avoir lieu que dans la 4<hi rendition="#su">e</hi> et la 5<hi rendition="#su">e</hi> année, et pouvoit être
                reculé jusqu’à la 6<hi rendition="#su">e</hi>. La <country>France</country> auroit pu
                user du bénéfice de cette disposition, et il s’ensuit qu’en payant la solde sur le
                pied de Trente millions par an, ainsi qu’Elle y étoit autorisée, Elle auroit eu un
@@ -364,12 +352,10 @@
                   Puissances<pb n="15v"/> alliées, et le désir de consolider la réconciliation des
                Peuples, les porteront sans doute à ne refuser aucun des moyens que donne le texte du
                traité pour alléger le poids des sacrifices de la <country>France</country>.</p>
-            <p><rs ref="#p.1">Le Soussigné</rs> a l’honneur de renouveler à <rs
-                  ref="#p.8 #p.10 #p.11 #p.13 #p.12 #p.14 #p.9">Leurs Excellences</rs> l’assurance
+            <p><rs ref="#p.1">Le Soussigné</rs> a l’honneur de renouveler à <rs ref="#p.8 #p.10 #p.11 #p.13 #p.12 #p.14 #p.9">Leurs Excellences</rs> l’assurance
                de sa haute considération.</p>
             <signed>Richelieu</signed>
-            <dateline><placeName ref="#loc.1">Aix-la-Chapelle</placeName>, le <date
-                  when="1818-10-02">2 <choice>
+            <dateline><placeName ref="#loc.1">Aix-la-Chapelle</placeName>, le <date when="1818-10-02">2 <choice>
                      <abbr>8<hi rendition="#su">bre</hi></abbr>
                      <expan>Octobre</expan>
                   </choice> 1818</date>.</dateline>
@@ -390,8 +376,7 @@
                            <expan>Numéro</expan>
                         </choice> 5 du <date when="1818-10-03">3 Octobre</date>.</add>
                   </subst></add></p>
-            <p><add place="top">À Son Excellence Monsieur le <persName ref="#p.1"
-                        ><roleName>Duc</roleName>
+            <p><add place="top">À Son Excellence Monsieur le <persName ref="#p.1"><roleName>Duc</roleName>
                      <surname>de Richelieu</surname></persName>.</add></p>
             <p><add hand="#W"><placeName ref="#loc.1">Aix-La-Chapelle</placeName>
                   <date when="1818-10-08">8 Octobre 1818</date></add></p>
@@ -402,8 +387,7 @@
                   <abbr>LL. MM.</abbr>
                   <expan>Leurs Majestés</expan>
                </choice> l’<rs ref="#p.16">Empereur d’Autriche</rs>, le <rs ref="#p.19">Roi de la
-                  Grande-Bretagne</rs>, le <rs ref="#p.18">Roi de Prusse</rs> et <rs ref="#p.17"
-                  >l’Empereur de Toutes les Russies</rs>, ont l’honneur de présenter à <choice>
+                  Grande-Bretagne</rs>, le <rs ref="#p.18">Roi de Prusse</rs> et <rs ref="#p.17">l’Empereur de Toutes les Russies</rs>, ont l’honneur de présenter à <choice>
                   <abbr>S. E.</abbr>
                   <expan>Son Excellence</expan>
                </choice>
@@ -415,8 +399,7 @@
                   verbale qu’Il leur a adressée en date du <date when="1818-10-02">2 Octobre</date>
                      relativement aux dépenses d’entretien de l’armée d’occupation</rs>, les observations
                suivantes :</p>
-            <p>L’article 2 de <rs ref="#t.3">la convention additionnelle</rs> du <rs ref="#t.1"
-                  >traité du <date when="1815-11-20">20 Novembre 1815</date></rs>, laquelle a réglé
+            <p>L’article 2 de <rs ref="#t.3">la convention additionnelle</rs> du <rs ref="#t.1">traité du <date when="1815-11-20">20 Novembre 1815</date></rs>, laquelle a réglé
                les détails relatifs à l’armée d’occupation, a stipulé que le logement, le chauffage,
                l’éclairage, les vivres et les fourages seroient fournis en nature par le
                Gouvernement Français, et que, quant à la solde, l’équippement, l’habillement et
@@ -448,13 +431,11 @@
                n’ont jamais pris l’engagement de compenser à la <country>France</country> la
                différence en sus qui pourroit avoir lieu entre cette somme généralement et vaguement
                énoncée et la dépense réelle de l’entretien de l’armée d’occupation.</p>
-            <p>Il est vrai que le Gouvernement Français ayant déclaré aux <rs
-                  ref="#p.8 #p.11 #p.13 #p.12 #p.14 #p.9 #">Ministres des Cours Alliées</rs> que la
+            <p>Il est vrai que le Gouvernement Français ayant déclaré aux <rs ref="#p.8 #p.11 #p.13 #p.12 #p.14 #p.9 #">Ministres des Cours Alliées</rs> que la
                   <country>France</country> ne pouvoit pas payer au delà de 270 Millions par an, y
                compris les 140 Millions payables à titre de contribution de guerre, il fut arrêté
                par le <rs ref="#t.8">protocole du <date when="1815-10-13">13 Octobre</date></rs> que
-               dans les trois premières années la <country>France</country> ne payeroit du <rs
-                  ref="#p.10">Chef de l’armée d’occupation</rs> que 130 Millions ; qu’afin de
+               dans les trois premières années la <country>France</country> ne payeroit du <rs ref="#p.10">Chef de l’armée d’occupation</rs> que 130 Millions ; qu’afin de
                rétablir le niveau entre cette somme et la dépense réelle, les puissances
                diminueroient successivement le nombre de leurs troupes et que, dans le cas que cette
                diminution ne pourroit<pb n="10v"/> avoir lieu, la <country>France</country>
@@ -471,8 +452,7 @@
                établis dans le <rs ref="#t.8">protocole du <date when="1815-10-13"> 13
                      Octobre</date></rs>. Aussi les puissances Alliées n’ont-elles pas hésité à
                reconnoître que la <country>France</country> n’étant tenue aux termes de ce protocole
-               qu’à rembourser dans les deux dernières années, ou même dans la sixième, l’ex<pb
-                  n="11r"/>cédent de dépense à titre de solde sur les 30 Millions auxquels on avoit
+               qu’à rembourser dans les deux dernières années, ou même dans la sixième, l’ex<pb n="11r"/>cédent de dépense à titre de solde sur les 30 Millions auxquels on avoit
                limité ses payemens pendant les trois premières années, il étoit juste de lui tenir
                compte de l’intérêt de tout payement en sus des 30 Millions qu’elle auroit
                effectivement fourni pendant ces mêmes années.</p>
@@ -497,8 +477,7 @@
                   <expan>Monsieur</expan>
                </choice> le <persName ref="#p.1"><roleName>Duc</roleName>
                   <surname>de Richelieu</surname></persName> combien il seroit difficile, pour ne
-               pas dire impossible, <rs xml:id="n.3">aux puissances signataires </rs><note
-                     type="editorial" target="#n.3">Österreich, Frankreich, Großbritannien, Preußen,
+               pas dire impossible, <rs xml:id="n.3">aux puissances signataires </rs><note type="editorial" target="#n.3">Österreich, Frankreich, Großbritannien, Preußen,
                      Russland</note> du <rs ref="#t.1">Traité du <date when="1815-11-20">20
                      Novembre 1815</date></rs> de répondre par des argumens solides aux reproches
                qu’elles auroient infailliblement encourues de la part de toutes les puissances
@@ -509,8 +488,7 @@
                </choice> le <persName ref="#p.1"><roleName>Duc</roleName>
                   <surname>de Richelieu</surname></persName> l’avis unanime des Quatre cours que la
                dite réclamation ne sauroit être admise.</p>
-            <p>C’est avec un sincère regret<pb n="12r"/> que les <rs
-                  ref="#p.8 #p.11 #p.13 #p.12 #p.14 #p.9 #">Soussignés</rs> s’acquittent du devoir
+            <p>C’est avec un sincère regret<pb n="12r"/> que les <rs ref="#p.8 #p.11 #p.13 #p.12 #p.14 #p.9 #">Soussignés</rs> s’acquittent du devoir
                de porter cet avis à la connoissance de <choice>
                   <abbr>Mr.</abbr>
                   <expan>Monsieur</expan>
@@ -519,8 +497,7 @@
                l’assurance de leur haute considération.</p>
             <signed>
                <list>
-                  <item><rs xml:id="n.4"><persName ref="#p.8">Metternich</persName></rs><note
-                           type="editorial" target="#n.4">Ursprünglich erfolgte die Unterschrift
+                  <item><rs xml:id="n.4"><persName ref="#p.8">Metternich</persName></rs><note type="editorial" target="#n.4">Ursprünglich erfolgte die Unterschrift
                            Metternichs mit Bleistift. Die Zeilen für die Unterschriften wurden mit
                            einem Punkt (Tinte) markiert.</note></item>
                   <item><persName ref="#p.9">Castlereagh</persName></item>

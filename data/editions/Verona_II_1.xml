@@ -1,8 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -123,9 +120,9 @@
          </appInfo>
          <styleDefDecl scheme="css"/>
          <tagsDecl>
-            <rendition xml:id="su">superscript</rendition>
-            <rendition xml:id="s">strikethrough</rendition>
-            <rendition xml:id="u">underline</rendition>
+            <rendition xml:id="su" scheme="css">vertical-align:sub; font-size:.7em;</rendition>
+            <rendition xml:id="s" scheme="css">text-decoration:line-through;</rendition>
+            <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
             <rendition xml:id="ow">overwritten</rendition>
          </tagsDecl>
       </encodingDesc>
@@ -182,37 +179,29 @@
             <p><placeName ref="#loc.68">Vérone</placeName> le <date when="1822-12-02">2 Décembre
                   1822</date>.</p>
             <p>Messieurs les <rs ref="#p.8 #p.40 #p.13 #p.35 #p.175">Ministres d’Autriche, de Russie
-                  et de Prusse</rs> se sont réunis avec Monsieur le <persName ref="#p.182"
-                     ><roleName>Comte</roleName>
-                  <surname>de La Tour</surname></persName>, Plénipotentiaire de Sa Majesté le <rs
-                  ref="#p.172">Roi de Sardaigne</rs>, pour prendre en considération, conformément à
-               l’article 8 de la <rs ref="#t.46">Convention signée à <placeName ref="#loc.73"
-                     >Novare</placeName> le <date when="1821-07-24">24 Juillet 1821</date></rs>,</p>
+                  et de Prusse</rs> se sont réunis avec Monsieur le <persName ref="#p.182"><roleName>Comte</roleName>
+                  <surname>de La Tour</surname></persName>, Plénipotentiaire de Sa Majesté le <rs ref="#p.172">Roi de Sardaigne</rs>, pour prendre en considération, conformément à
+               l’article 8 de la <rs ref="#t.46">Convention signée à <placeName ref="#loc.73">Novare</placeName> le <date when="1821-07-24">24 Juillet 1821</date></rs>,</p>
             <p>Si la situation actuelle du <country>Piémont</country> exige de prolonger, ou permet
                de faire cesser l’occupation militaire de ce pays par un corps auxiliaire, telle
                qu’elle avait été arrêtée par les stipulations de ladite Convention ?</p>
             <p>Monsieur le <persName ref="#p.182"><roleName>Comte</roleName>
-                  <surname>de La Tour</surname></persName> a fait lecture du <ref decls="#m.2"
-                  >mémoire ci-annexé</ref>, offrant un tableau complet de la situation militaire,
+                  <surname>de La Tour</surname></persName> a fait lecture du <ref decls="#m.2">mémoire ci-annexé</ref>, offrant un tableau complet de la situation militaire,
                morale et administrative du <country>Piémont</country>, situation qui, d’après
                l’exposé de ce Mémoire, est telle que Sa Majesté le <rs ref="#p.172">Roi</rs> se
                croit autorisé à prononcer que l’ouvrage de la<pb n="3v"/> régénération de ce pays
                est achevé, que <rs ref="#p.172">Sa Majesté</rs> peut répondre de sa tranquillité, et
                que le temps est venu où l’occupation militaire peut cesser.</p>
             <p>Le <rs ref="#p.8">Ministre d’Autriche</rs> a déclaré qu’il se chargeoit, avec un
-               sentiment de satisfaction véritable, de placer sous les yeux de l’<rs ref="#p.16"
-                  >Empereur</rs>, Son Maître, le Mémoire dont Monsieur le <persName ref="#p.182"
-                     ><roleName>Comte</roleName>
+               sentiment de satisfaction véritable, de placer sous les yeux de l’<rs ref="#p.16">Empereur</rs>, Son Maître, le Mémoire dont Monsieur le <persName ref="#p.182"><roleName>Comte</roleName>
                   <surname>de La Tour</surname></persName> venait de faire lecture ; que les liens
                d’une amitié sincère qui unissent <rs xml:id="n.2" ref="#p.16">Sa Majesté Impériale
                   et Royale Apostolique</rs><note type="editorial" target="#n.2">Ehrentitel des
                   Kaisers von Österreich.</note> et <rs ref="#p.172">Sa Majesté Sarde</rs>, ainsique
                l’intérêt réciproque des peuples que la Providence a confiés aux deux Monarques, sont
                trop étroits et trop positifs pour que le bien-être de l’un des Etats ne tourne à la
-               satisfaction du Souverain et au bien-être de l’autre Etat. L’<rs ref="#p.16"
-                  >Empereur</rs>, en se prêtant à la suite des <rs xml:id="n.3">déplorables
-                  catastrophes qui en 1821 ont répandu le deuil sur la Monarchie Sarde</rs>,<note
-                  type="editorial" target="#n.3">Im März 1821 war im <country>Königreich
+               satisfaction du Souverain et au bien-être de l’autre Etat. L’<rs ref="#p.16">Empereur</rs>, en se prêtant à la suite des <rs xml:id="n.3">déplorables
+                  catastrophes qui en 1821 ont répandu le deuil sur la Monarchie Sarde</rs>,<note type="editorial" target="#n.3">Im März 1821 war im <country>Königreich
                      Sardinien-Piemont</country> eine Revolution ausgebrochen, die rasch durch
                   österreichische Truppen niedergeschlagen wurde. Vgl. Späth, Revolution in Europa,
                   S. 150–165; Broers, Napoleonic Imperialism; Jarrett, The Congress of Vienna, S.
@@ -225,20 +214,15 @@
                espoir est rempli. Grâces aux soins éclairés que Sa Majesté le <rs ref="#p.172">Roi
                   de Sardaigne</rs> a voués à la réorganisation de Sa Monarchie, à ceux qu’Elle a
                portés sur les branches les plus essentielles<pb n="4r"/> de Son administration, le
-               tableau de la situation actuelle du <country>Piémont</country>, tel que <rs
-                  ref="#p.172">Sa Majesté</rs> vient de le faire mettre sous les yeux de cette
+               tableau de la situation actuelle du <country>Piémont</country>, tel que <rs ref="#p.172">Sa Majesté</rs> vient de le faire mettre sous les yeux de cette
                Conférence, répond parfaitement à l’attente de l’<rs ref="#p.16">Empereur</rs> ; et
-               si en 1821 <rs ref="#p.16">Sa Majesté Impériale</rs> a été à même de fournir à <rs
-                  ref="#p.172">Sa Majesté Sarde</rs> des preuves convaincantes de Son empressement à
+               si en 1821 <rs ref="#p.16">Sa Majesté Impériale</rs> a été à même de fournir à <rs ref="#p.172">Sa Majesté Sarde</rs> des preuves convaincantes de Son empressement à
                satisfaire aux devoirs de l’amitié et du bon voisinage, <rs ref="#p.16">Sa Majesté
-                  Impériale</rs> se félicitera de pouvoir prouver aujourd’hui à Sa Majesté le <rs
-                  ref="#p.172">Roi</rs> la confiance qu’Elle place dans la sagesse et dans la
+                  Impériale</rs> se félicitera de pouvoir prouver aujourd’hui à Sa Majesté le <rs ref="#p.172">Roi</rs> la confiance qu’Elle place dans la sagesse et dans la
                fermeté de Ses vues.</p>
             <p>Messieurs les <rs ref="#p.13 #p.35">Plénipotentiaires de Russie</rs> ont déclaré
-               qu’ils s’empresseroient de porter le Mémoire présenté par Monsieur le <persName
-                  ref="#p.182"><roleName>Comte</roleName>
-                  <surname>de La Tour</surname></persName> à la connoissance de l’<rs ref="#p.17"
-                  >Empereur</rs>, leur Maître ; que <rs ref="#p.17">Sa Majesté Impériale</rs> se
+               qu’ils s’empresseroient de porter le Mémoire présenté par Monsieur le <persName ref="#p.182"><roleName>Comte</roleName>
+                  <surname>de La Tour</surname></persName> à la connoissance de l’<rs ref="#p.17">Empereur</rs>, leur Maître ; que <rs ref="#p.17">Sa Majesté Impériale</rs> se
                féliciteroit d’y trouver le tableau fidèle des progrès d’une restauration
                qu’appelloient Ses vœux les plus sincères ; qu’ayant toujours désiré que de vraies
                améliorations et le raffermissement de la tranquillité publique pussent rendre
@@ -249,15 +233,11 @@
                secours étranger ; que l’<rs ref="#p.17">Empereur</rs> applaudissait à ces heureux
                résultats ; et qu’en accédant à toutes les stipulations relatives à l’évacuation des
                   points<pb n="4v"/> militaires qui avoient été occupés dans le
-                  <country>Piémont</country> par les Troupes autrichiennes, l’<rs ref="#p.17"
-                  >Empereur</rs> souhaitait ardemment que le bonheur des Etats de <rs ref="#p.172"
-                  >Sa Majesté Sarde</rs> pût toujours répondre aux généreuses intentions et aux
+                  <country>Piémont</country> par les Troupes autrichiennes, l’<rs ref="#p.17">Empereur</rs> souhaitait ardemment que le bonheur des Etats de <rs ref="#p.172">Sa Majesté Sarde</rs> pût toujours répondre aux généreuses intentions et aux
                plans salutaires que le <rs ref="#p.172">Roi</rs> venoit de communiquer à Ses
                Alliés.</p>
-            <p>Monsieur le <rs ref="#p.175">Plénipotentiaire de Prusse</rs> a observé que le <rs
-                  ref="#p.18">Roi</rs>, Son Maître, aurait une satisfaction toute particulière à
-               puiser dans le Mémoire présenté par Monsieur le <persName ref="#p.182"
-                     ><roleName>Comte</roleName>
+            <p>Monsieur le <rs ref="#p.175">Plénipotentiaire de Prusse</rs> a observé que le <rs ref="#p.18">Roi</rs>, Son Maître, aurait une satisfaction toute particulière à
+               puiser dans le Mémoire présenté par Monsieur le <persName ref="#p.182"><roleName>Comte</roleName>
                   <surname>de La Tour</surname></persName> la consolante conviction que le moment
                était arrivé où rien n’empêchoit plus que <rs ref="#p.172">Sa Majesté Sarde</rs> ne
                recueillît dans le Soulagement qu’Elle désiroit procurer à Ses peuples le prix des
@@ -272,9 +252,7 @@
                Sa demande, l’occupation du <country>Piémont</country> cessera d’avoir lieu d’après
                le mode indiqué par l’article suivant ;</p>
             <p>2<hi rendition="#su">o</hi> Que la sortie des Troupes autrichiennes<pb n="5r"/> aura
-               lieu à trois différentes reprises, savoir : quatre mille hommes le <date
-                  when="1822-12-31">31 Décembre 1822</date> ; trois mille au <date when="1823-03-31"
-                  >31 Mars 1823</date>, et les cinq mille restans au bout de six autres mois ; de
+               lieu à trois différentes reprises, savoir : quatre mille hommes le <date when="1822-12-31">31 Décembre 1822</date> ; trois mille au <date when="1823-03-31">31 Mars 1823</date>, et les cinq mille restans au bout de six autres mois ; de
                façon que l’évacuation totale du <country>Piémont</country> et la remise de la
                forteresse d’<placeName ref="#loc.74">Alexandrie</placeName>, qui devra être évacuée
                la dernière, ait définitivement lieu le <date when="1823-09-30">30 Septembre
@@ -320,8 +298,7 @@
             <p>Par l’<choice>
                   <abbr>Art<hi rendition="#su">e</hi></abbr>
                   <expan>Article</expan>
-               </choice> 8 de la <rs ref="#t.46">Convention de <placeName ref="#loc.73"
-                     >Novare</placeName></rs> il a été stipulé qu’à la première réunion fixée alors
+               </choice> 8 de la <rs ref="#t.46">Convention de <placeName ref="#loc.73">Novare</placeName></rs> il a été stipulé qu’à la première réunion fixée alors
                au mois de Septembre 1822 les <rs ref="#p.16 #p.17 #p.18">Souverains Alliés</rs>
                prendront en considération avec <choice>
                   <abbr>S. M.</abbr>
@@ -334,8 +311,7 @@
                qui signalèrent les premiers jours de Son Règne, le <rs ref="#p.172">Roi</rs> ne
                craint pas d’aborder cette question délicate et importante avec sincérité et
                franchise.</p>
-            <p>Pour être en état d’éclairer la conscience de Ses Alliés, le <rs ref="#p.172"
-                  >Roi</rs> a voulu se former lui-même une opinion sûre et positive. Fermant
+            <p>Pour être en état d’éclairer la conscience de Ses Alliés, le <rs ref="#p.172">Roi</rs> a voulu se former lui-même une opinion sûre et positive. Fermant
                l’oreille aux insinuations de l’orgueil national, de l’opinion générale, mais
                uniquement pénétré de la nécessité de réunir tous les efforts de n’épargner aucun
                sacrifice pour combattre et détruire la révolution, le <rs ref="#p.172">Roi</rs> n’a
@@ -352,8 +328,7 @@
                cause la situation du <country>Piémont</country>.</p>
             <p>Le résultat de cet examen ne saurait être douteux ; le <rs ref="#p.172">Roi</rs>
                l’attend avec confiance de la loyauté, de la justice de Ses Alliés.</p>
-            <p>La <rs xml:id="n.4">révolution de Mars 1821</rs><note type="editorial" target="#n.4"
-                  >Im März 1821 war im <country>Königreich Sardinien-Piemont</country> eine
+            <p>La <rs xml:id="n.4">révolution de Mars 1821</rs><note type="editorial" target="#n.4">Im März 1821 war im <country>Königreich Sardinien-Piemont</country> eine
                   Revolution ausgebrochen, die rasch durch österreichische Truppen niedergeschlagen
                   wurde. Vgl. Späth, Revolution in Europa, S. 150–165; Broers, Napoleonic
                   Imperialism; Jarrett, The Congress of Vienna, S. 270–284.</note> avait violé
@@ -374,8 +349,7 @@
                l’affection de l’immense majorité de Ses peuples et de l’assistance de Ses Alliés, le
                   <rs ref="#p.172">Roi</rs> ne se laissa pas effrayer par ces déplorables résultats
                de la plus criminelle entreprise.</p>
-            <p>Convaincu que le premier besoin d’une société quelconque est la justice, le <rs
-                  ref="#p.172">Roi</rs> voulut que la régénération de Son Royaume commençât par la
+            <p>Convaincu que le premier besoin d’une société quelconque est la justice, le <rs ref="#p.172">Roi</rs> voulut que la régénération de Son Royaume commençât par la
                punition des coupables.</p>
             <p>Ses intentions Royales furent remplies : les tribunaux chargés de l’exécution de Ses
                volontés jugèrent dans l’espace de peu de mois cinq cent vingt-trois individus ; de
@@ -404,8 +378,7 @@
                tout ce qui avait trahi ses devoirs fût puni, que tout ce qui s’y était soustrait fût
                désormais indigne de faire partie de l’armée.</p>
             <p>Une Commission militaire fut chargée d’examiner la conduite de tous les officiers qui
-               n’avaient pas fait partie de l’armée Royale de <placeName ref="#loc.73"
-                  >Novare</placeName>.</p>
+               n’avaient pas fait partie de l’armée Royale de <placeName ref="#loc.73">Novare</placeName>.</p>
             <p>Ils furent divisés en cinq Classes : les Commandans des Corps et les Officiers
                supérieurs qui ont porté les armes contre leur Souverain. Les officiers qui se sont
                révoltés contre leurs chefs formèrent la première ; ils furent renvoyés aux tribunaux
@@ -418,8 +391,7 @@
             <p>Les officiers subalternes, qui ont obéi à l’autorité illégitime sans porter les armes
                contre leur Souverain, furent rangés dans la 4<hi rendition="#su">e</hi> Classe : Ils
                furent tous démissionnés à l’exception de ceux qui, par des circonstances
-               particulières, ayant été jugés dignes d’être recommandés à la clémence du <rs
-                  ref="#p.172">Roi</rs>, ont été rétablis sur les rôles de l’Armée. On rangea dans
+               particulières, ayant été jugés dignes d’être recommandés à la clémence du <rs ref="#p.172">Roi</rs>, ont été rétablis sur les rôles de l’Armée. On rangea dans
                la cinquième tous les officiers qui, sans un motif légitime, n’avaient pas rejoint
                l’armée de <placeName ref="#loc.73">Novare</placeName> : ceux-ci furent mis à la
                retraite avec ou sans pension selon les circonstances.</p>
@@ -477,11 +449,9 @@
                conservé.</p>
             <p>On procéda alors à l’organisation définitive de l’armée. Deux régimens de cavalerie
                qui avaient honteusement trahi leur devoir furent dissouts et remplacés par les
-               Dragons de Genevois. Aux Brigades de Montferrat, <placeName ref="#loc.75"
-                  >Saluces</placeName>, <placeName ref="#loc.74">Alexandrie</placeName> et
+               Dragons de Genevois. Aux Brigades de Montferrat, <placeName ref="#loc.75">Saluces</placeName>, <placeName ref="#loc.74">Alexandrie</placeName> et
                   <placeName ref="#loc.76">Gênes</placeName>, qui avaient été dissoutes, on
-               substitua celles de <placeName ref="#loc.77">Casal</placeName>, <placeName
-                  ref="#loc.78">Pignerol</placeName>, <placeName ref="#loc.79">Acqui</placeName> et
+               substitua celles de <placeName ref="#loc.77">Casal</placeName>, <placeName ref="#loc.78">Pignerol</placeName>, <placeName ref="#loc.79">Acqui</placeName> et
                   <placeName ref="#loc.80">Savone</placeName>. On fixa le nombre d’hommes dont elles
                devaient être composées pendant l’occupation, ainsi que celui auquel elles seraient
                portées pour être sur le pied de guerre. Elles sont au complet pour le premier état,
@@ -503,27 +473,23 @@
             <p>Après avoir ainsi organisé l’armée, on pensa aux moyens de lui conserver l’esprit de
                fidélité et d’honneur qui fait sa première force ; on établit pour cela des moyens de
                répression et de police.</p>
-            <p>Les premiers se trouvèrent tout naturellement dans la publication d’un <rs
-                  xml:id="n.5">Code pénal militaire</rs>,<note type="editorial" target="#n.5">Code
+            <p>Les premiers se trouvèrent tout naturellement dans la publication d’un <rs xml:id="n.5">Code pénal militaire</rs>,<note type="editorial" target="#n.5">Code
                   Pénal Militaire Sarde en date du 27 aout 1822 (Chambery 1822).</note> déjà en
                partie préparé sous le règne du <persName ref="#p.169"><roleName>Roi</roleName>
                   <forename>Victor-Emanuel</forename></persName> ; l’expérience de quelques mois a
                sanctionné cette institution importante ; le temps seul fera connaître les
                améliorations dont elle peut être susceptible.</p>
             <p>La Police des Régimens et Brigades fut confiée aux Colonels et Commandans de Corps.
-               Investis d’un grand pouvoir, jouissant de toute la confiance du <rs ref="#p.172"
-                  >Roi</rs>, le Gouvernement fait peser sur eux la plus grande responsabilité : il
+               Investis d’un grand pouvoir, jouissant de toute la confiance du <rs ref="#p.172">Roi</rs>, le Gouvernement fait peser sur eux la plus grande responsabilité : il
                exige des renseignemens exacts et périodiques sur la conduite des officiers,
                bas-officiers et soldats ; mais il s’empresse en même temps d’accueillir les mesures
                qu’ils proposent, et d’éloigner les individus qu’ils signalent comme mauvais.</p>
-            <p>Le succès le plus complet a jusqu’à présent couronné<pb n="11v"/> les efforts de <rs
-                  ref="#p.172">Sa Majesté</rs> : Sur onze cent officiers en service actif,
+            <p>Le succès le plus complet a jusqu’à présent couronné<pb n="11v"/> les efforts de <rs ref="#p.172">Sa Majesté</rs> : Sur onze cent officiers en service actif,
                quarante-cinq seulement ont été notés défavorablement, encore aucun fait, aucun
                propos n’est cité à leur charge. Ce petit nombre d’individus moins bons, car on ne
                peut encore les juger mauvais, sont tellement disséminés dans les Corps qu’ils ne
                peuvent y avoir la moindre influence. Dans quelques mois d’ici, leur conduite sera
-               définitivement jugée : rien n’empêche cependant d’affirmer dès à présent que <rs
-                  ref="#p.172">Sa Majesté</rs> connaît l’esprit de Son armée, et qu’Elle peut
+               définitivement jugée : rien n’empêche cependant d’affirmer dès à présent que <rs ref="#p.172">Sa Majesté</rs> connaît l’esprit de Son armée, et qu’Elle peut
                compter sur Sa fidélité et son dévouement.</p>
             <p>Le <ref decls="#m.3">tableau ci-joint</ref> en indique la force ; à mesure que les
                ressources ou les besoins de l’Etat l’exigeront, on appelera les Contingens
@@ -535,8 +501,7 @@
                   <rs ref="#p.172">Roi</rs> furent dirigés vers la destruction et la répression de
                ces élémens corrompus que la révolution avait introduits dans l’Etat.</p>
             <p>La conduite des Employés de l’Etat fut sévèrement scrutée par une Commission
-               d’enquête afin que dans une mesure aussi extraordinaire il se glissât le moins<pb
-                  n="14r"/> d’arbitraire possible ; une seconde Commission fut établie pour réviser,
+               d’enquête afin que dans une mesure aussi extraordinaire il se glissât le moins<pb n="14r"/> d’arbitraire possible ; une seconde Commission fut établie pour réviser,
                confirmer ou annuler les décisions de la première.</p>
             <p>L’ancienne police n’avait pas répondu aux vues qui avaient présidé à son
                institution : elle fut cassée. On en créa une nouvelle : plusieurs classes de
@@ -560,8 +525,7 @@
                   Majesté</rs> s’est occupée de rétablir l’enseignement et l’éducation publique sur
                les bases de la Religion et des saines doctrines. Des règlemens nouveaux ont été
                publiés sur cette matière si délicate et si importante, et ils commencent déjà à
-               recevoir leur exécution. Obligé de sacrifier la perfection à la célérité, le <rs
-                  ref="#p.172">Roi</rs> ne regarde pas cette branche comme définitivement organisée.
+               recevoir leur exécution. Obligé de sacrifier la perfection à la célérité, le <rs ref="#p.172">Roi</rs> ne regarde pas cette branche comme définitivement organisée.
                Il se propose de profiter des leçons de l’expérience pour la porter au plus haut
                point de perfection possible, sans jamais s’écarter cependant du double principe de
                baser l’éducation de la jeunesse sur les doctrines religieuses, et de ne pas
@@ -573,8 +537,7 @@
                occupé en même temps de la réorganisation du Gouvernement ou, si l’on peut se servir
                de ce terme, de la machine administrative.</p>
             <p>Fermement décidé à ne jamais admettre aucune institution dont le but évident ou caché
-               tendrait à<pb n="15r"/> restreindre ou à limiter l’autorité Royale, le <rs
-                  ref="#p.172">Roi</rs> s’est montré d’autre part disposé à accueillir tous les vœux
+               tendrait à<pb n="15r"/> restreindre ou à limiter l’autorité Royale, le <rs ref="#p.172">Roi</rs> s’est montré d’autre part disposé à accueillir tous les vœux
                de Son peuple à satisfaire à tous ses besoins réels.</p>
             <p>Sans prendre aucun engagement formel et public, mais par le seul acte de Sa volonté
                constante et ferme, le <rs ref="#p.172">Roi</rs>, dès les premiers jours de Son
@@ -615,8 +578,7 @@
                vont recevoir dans le plus court délai une organisation complète.</p>
             <p>Les autres branches de l’administration qui se trouvaient portées à un état
                d’organisation satisfaisant<pb n="16r"/> ont été conservées avec soin.</p>
-            <p>La Marine Royale, institution naissante du <persName ref="#p.169"
-                     ><roleName>Roi</roleName>
+            <p>La Marine Royale, institution naissante du <persName ref="#p.169"><roleName>Roi</roleName>
                   <forename>Victor</forename></persName>, reçut chaque jour des augmentations. Dans
                ces mois derniers, le pavillon Sarde a flotté sur les côtes de Maroc, et un
                arrangement favorable avec cette Régence Africaine a été le premier fruit de cette
@@ -626,8 +588,7 @@
                nouvelle vie.</p>
             <p>L’opinion publique ne pouvait être négligée par le Gouvernement : mettant de côté ces
                moyens trop connus et presqu’usés avec lesquels les partis ou les Gouvernemens d’un
-               jour cherchent à en créer une factice et par conséquent peu durable, le <rs
-                  ref="#p.172">Roi</rs> a laissé aux actes de Son Gouvernement, à Ses dispositions
+               jour cherchent à en créer une factice et par conséquent peu durable, le <rs ref="#p.172">Roi</rs> a laissé aux actes de Son Gouvernement, à Ses dispositions
                bienfaisantes et paternelles, au temps enfin, le soin de ramener cette petite portion
                de Ses sujets que la révolution avait égarée. Il s’est borné à exercer sur eux une
                surveillance sévère, à porter sur le reste de Ses sujets une attention suivie, mais
@@ -673,23 +634,20 @@
                avec les principes invariables de Sa conduite et les bases fondamentales de la
                Monarchie.</p>
             <p>Le <rs ref="#p.172">Roi</rs> peut donc se dire avec conviction, Il peut l’avancer
-               sans hésitation à Ses <rs ref="#p.16 #p.17 #p.18">Augustes Alliés</rs> : <hi
-                  rendition="#u">L’ouvrage de la régénération du <country>Piémont</country> est
+               sans hésitation à Ses <rs ref="#p.16 #p.17 #p.18">Augustes Alliés</rs> : <hi rendition="#u">L’ouvrage de la régénération du <country>Piémont</country> est
                   terminé. Le temps est venu où l’armée d’occupation, ce secours sollicité par
                   moi-même lors du besoin, n’est plus nécessaire : l’occupation peut cesser dès
                   l’instant. Je<pb n="17v"/> réponds de la tranquillité de mes Etats.</hi>
             </p>
             <p>Tel est le langage que le <rs ref="#p.172">Roi</rs> tiendrait s’Il n’écoutait que Sa
                conviction personnelle, si dans une cause qui intéresse peut-être l’Europe entière il
-               devait se borner à rendre une justice entière et complète à Ses sujets. Mais le <rs
-                  ref="#p.172">Roi</rs> n’ignore pas que de la tranquillité du
+               devait se borner à rendre une justice entière et complète à Ses sujets. Mais le <rs ref="#p.172">Roi</rs> n’ignore pas que de la tranquillité du
                   <country>Piémont</country> peut, jusqu’à un certain point, dépendre celle du reste
                de l’Europe ; Il se dit que le désir bien légitime de soulager Ses peuples d’un
                fardeau qui n’est plus nécessaire ne doit pas l’emporter sur les dangers qui
                résulteraient de la précipitation dans une matière aussi grave qu’importante.</p>
             <p>Pour concilier ces grands intérêts, pour donner une nouvelle preuve de Son désir de
-               tout sacrifier au bien général, le <rs ref="#p.172">Roi</rs> propose à Ses <rs
-                  ref="#p.16 #p.17 #p.18">Augustes Alliés</rs> :</p>
+               tout sacrifier au bien général, le <rs ref="#p.172">Roi</rs> propose à Ses <rs ref="#p.16 #p.17 #p.18">Augustes Alliés</rs> :</p>
             <p>1<hi rendition="#su">o</hi> De déclarer que, vu l’état satisfaisant de réorganisation
                dans lequel se trouvent les Etats du <rs ref="#p.172">Roi</rs>, et sur Sa demande,
                l’occupation du <country>Piémont</country> cessera d’avoir lieu d’après le mode porté
@@ -701,8 +659,7 @@
                   Mil huit cent vingt-trois</date>, et les Cinq Mille restans au bout de six autres
                mois ; de façon que l’évacuation totale du <country>Piémont</country> et la remise de
                la forteresse d’<placeName ref="#loc.74">Alexandrie</placeName>, qui devra être
-               évacuée la dernière, ait définitivement<pb n="18r"/> lieu le <date when="1823-09-30"
-                  >trente Septembre Mil huit cent vingt-trois</date> ;</p>
+               évacuée la dernière, ait définitivement<pb n="18r"/> lieu le <date when="1823-09-30">trente Septembre Mil huit cent vingt-trois</date> ;</p>
             <p>3<hi rendition="#su">o</hi> Que les dispositions de la <rs ref="#t.46">Convention de
                      <placeName ref="#loc.73">Novare</placeName></rs> relatives soit à la proportion
                des différentes armes dont doit être composée l’armée d’occupation, soit aux
@@ -713,11 +670,9 @@
                qu’en numéraire, continueront à être observées en autant qu’elles sont compatibles
                avec les dispositions de l’article précédent, et de façon que les payemens à faire
                &amp; les fournitures à livrer subissent aux époques précitées une diminution
-               proportionnée au nombre des troupes qui quitteront les Etats du <rs ref="#p.172"
-                  >Roi</rs>.</p>
+               proportionnée au nombre des troupes qui quitteront les Etats du <rs ref="#p.172">Roi</rs>.</p>
             <p>Pour consentir à prolonger ainsi d’un an (puisque trois mois sont déjà écoulés depuis
-               l’époque fixée par la <rs ref="#t.46">Convention de <placeName ref="#loc.73"
-                     >Novare</placeName></rs> pour l’examen de cette question) la continuation du
+               l’époque fixée par la <rs ref="#t.46">Convention de <placeName ref="#loc.73">Novare</placeName></rs> pour l’examen de cette question) la continuation du
                fardeau imposé à Ses peuples, le <rs ref="#p.172">Roi</rs> a eu besoin de détourner
                Sa pensée de l’état actuel de Ses finances ; Il a dû s’abstenir surtout de considérer
                la situation affligeante des propriétaires forcés à supporter, malgré la baisse
@@ -1056,12 +1011,10 @@
       </body>
       <back>
          <include xmlns="http://www.w3.org/2001/XInclude" href="listPlace.xml" xpointer="listPlace"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="listPerson.xml"
-            xpointer="listPerson"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listPerson.xml" xpointer="listPerson"/>
          <include xmlns="http://www.w3.org/2001/XInclude" href="listWit.xml" xpointer="listWit"/>
          <include xmlns="http://www.w3.org/2001/XInclude" href="listOrg.xml" xpointer="listOrg"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="listTreaties.xml"
-            xpointer="listTreaties"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listTreaties.xml" xpointer="listTreaties"/>
       </back>
    </text>
 </TEI>

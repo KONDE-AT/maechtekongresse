@@ -1,8 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -111,21 +108,17 @@
          </appInfo>
          <styleDefDecl scheme="css"/>
          <tagsDecl>
-            <rendition xml:id="su">superscript</rendition>
-            <rendition xml:id="s">strikethrough</rendition>
-            <rendition xml:id="u">underline</rendition>
-            <rendition xml:id="r">right</rendition>
+            <rendition xml:id="su" scheme="css">vertical-align:sub; font-size:.7em;</rendition>
+            <rendition xml:id="s" scheme="css">text-decoration:line-through;</rendition>
+            <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
+            <rendition xml:id="r" scheme="css">display:block; text-align:right;</rendition>
          </tagsDecl>
       </encodingDesc>
       <profileDesc>
          <abstract>
-            <p>Der neapolitanische Gesandte <persName ref="#p.140"
-                  ><surname>Ruffo</surname></persName> übermittelt das Schreiben des <rs
-                  ref="#p.138">Königs beider Sizilien</rs> an <rs ref="#p.141">seinen Sohn</rs>. Die
+            <p>Der neapolitanische Gesandte <persName ref="#p.140"><surname>Ruffo</surname></persName> übermittelt das Schreiben des <rs ref="#p.138">Königs beider Sizilien</rs> an <rs ref="#p.141">seinen Sohn</rs>. Die
                   <rs ref="#p.8 #p.2 #p.12 #p.13 #p.14 #p.7">Gesandten der Mächte</rs> informieren
-                  <persName ref="#p.140"><surname>Ruffo</surname></persName>, dass die <rs
-                  ref="#p.144 #p.148 #p.149">diplomatischen Vertreter in <placeName ref="#loc.11"
-                     >Neapel</placeName></rs> Instruktionen betreffend den Stand der Verhandlungen
+                  <persName ref="#p.140"><surname>Ruffo</surname></persName>, dass die <rs ref="#p.144 #p.148 #p.149">diplomatischen Vertreter in <placeName ref="#loc.11">Neapel</placeName></rs> Instruktionen betreffend den Stand der Verhandlungen
                erhalten werden. <persName ref="#p.140"><surname>Ruffo</surname></persName>
                unterrichtet die Gesandten von der Absicht des <rs ref="#p.138">Königs</rs>,
                   <persName ref="#p.142"><forename>Marzio</forename>
@@ -205,15 +198,10 @@
                   <abbr>M<hi rendition="#su">r</hi></abbr>
                   <expan>Monsieur</expan>
                </choice> le <persName ref="#p.140"><roleName>Prince</roleName>
-                  <surname>de Ruffo</surname></persName> que, conformément au désir que <rs
-                  ref="#p.138"><choice>
+                  <surname>de Ruffo</surname></persName> que, conformément au désir que <rs ref="#p.138"><choice>
                      <abbr>S. M.</abbr>
                      <expan>Sa Majesté</expan>
-                  </choice> Sicilienne</rs> avait témoigné dans sa <ref target="Laibach_Prot_5.xml"
-                  >déclaration du <date when="1821-01-19">19</date></ref>, la lettre du <rs
-                  ref="#p.138">Roi</rs> sera accompagnée d’Instructions adressées aux <rs
-                  ref="#p.144 #p.148 #p.149">Ministres ou Agens diplomatiques résidant à <placeName
-                     ref="#loc.11">Naples</placeName></rs> ; instructions dans lesquelles on fera
+                  </choice> Sicilienne</rs> avait témoigné dans sa <ref target="Laibach_Prot_5.xml">déclaration du <date when="1821-01-19">19</date></ref>, la lettre du <rs ref="#p.138">Roi</rs> sera accompagnée d’Instructions adressées aux <rs ref="#p.144 #p.148 #p.149">Ministres ou Agens diplomatiques résidant à <placeName ref="#loc.11">Naples</placeName></rs> ; instructions dans lesquelles on fera
                entrer la substance de ce qui se trouve consigné dans les Journaux des Conférences
                précédentes et dont les dits agens feront usage pour coopérer aux succès de la
                démarche du <rs ref="#p.138">Roi</rs>.</p>
@@ -227,11 +215,9 @@
                </choice> le <rs ref="#p.138">Roi</rs> avait l’intention d’appeler auprès de sa
                personne le <persName ref="#p.142"><roleName>Duc de Gallo</roleName></persName> pour
                que la Conférence lui fasse directement connaître les déterminations qui ont motivé
-               la démarche du <rs ref="#p.138">Roi</rs> envers le <persName ref="#p.141"
-                        ><roleName>Duc<pb n="19v"/> de Calabre</roleName></persName>, après quoi le
+               la démarche du <rs ref="#p.138">Roi</rs> envers le <persName ref="#p.141"><roleName>Duc<pb n="19v"/> de Calabre</roleName></persName>, après quoi le
                   <persName ref="#p.142"><roleName>Duc de Gallo</roleName></persName> se rendrait à
-                  <placeName ref="#loc.11">Naples</placeName> en même tems que la lettre du <rs
-                  ref="#p.138">Roi</rs> y serait envoyée.</p>
+                  <placeName ref="#loc.11">Naples</placeName> en même tems que la lettre du <rs ref="#p.138">Roi</rs> y serait envoyée.</p>
             <p>Il a été répondu à <choice>
                   <abbr>M<hi rendition="#su">r</hi></abbr>
                   <expan>Monsieur</expan>
@@ -266,13 +252,10 @@
                dettato dai più sacri doveri.</p>
             <p>Fin dai miei primi abboccamenti coi <rs ref="#p.16 #p.18 #p.17">Sovrani</rs>, ed in
                seguito delle communicazioni che furono fatte delle deliberazioni che hanno avuto
-               luogo dalla parte dei Gabinetti riuniti a <placeName ref="#loc.60"
-                  >Troppau</placeName>, non mi è restato più dubbio alcuno sulla maniera colla quale
+               luogo dalla parte dei Gabinetti riuniti a <placeName ref="#loc.60">Troppau</placeName>, non mi è restato più dubbio alcuno sulla maniera colla quale
                le Potenza giudicano <rs xml:id="n.2">gli avvenimenti accaduti in
                      <country>Napoli</country> dal <date when="1820-07-02">2 di
-                  Luglio</date></rs><note type="editorial" target="#n.2">Am <date when="1820-07-02"
-                     >2. Juli 1820</date> meuterte die Militärgarnison in Nola, 35 km von <placeName
-                     ref="#loc.11">Neapel</placeName> entfernt. Das Datum gilt als Beginn der
+                  Luglio</date></rs><note type="editorial" target="#n.2">Am <date when="1820-07-02">2. Juli 1820</date> meuterte die Militärgarnison in Nola, 35 km von <placeName ref="#loc.11">Neapel</placeName> entfernt. Das Datum gilt als Beginn der
                   Revolution im <country>Königreich beider Sizilien</country>. Vgl. Stites, The four
                   Horsemen; Davis, Naples and Napoleon; Gin, Sanfedisti, Carbonari, Magistrati del
                   Re; Späth, Revolution in Europa, S. 129–149.</note> fino a questo giorno. Le ho
@@ -294,8 +277,7 @@
                colla mia intervenzione. Devo però avvertirvi che i Monarchi esiggono alcune garanzie
                giudicate momentaneamente necessarie per mantener la tranquillità degli stati
                vicini.</p>
-            <p>In quanto al sistema che deve succedere all’attuale stato di cose, i <rs
-                  ref="#p.16 #p.18 #p.17">sovrani</rs> mi han fatto conoscere il punto di vista
+            <p>In quanto al sistema che deve succedere all’attuale stato di cose, i <rs ref="#p.16 #p.18 #p.17">sovrani</rs> mi han fatto conoscere il punto di vista
                generale, sotto cui essi riguardono tal questione.</p>
             <p>Essi considerano come un oggetto della più alta importanza per la sicurezza e la
                tranquillità degli stati vicini del mio Regno, e per conseguenza per l’Europa
@@ -321,12 +303,10 @@
       </body>
       <back>
          <include xmlns="http://www.w3.org/2001/XInclude" href="listPlace.xml" xpointer="listPlace"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="listPerson.xml"
-            xpointer="listPerson"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listPerson.xml" xpointer="listPerson"/>
          <include xmlns="http://www.w3.org/2001/XInclude" href="listWit.xml" xpointer="listWit"/>
          <include xmlns="http://www.w3.org/2001/XInclude" href="listOrg.xml" xpointer="listOrg"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="listTreaties.xml"
-            xpointer="listTreaties"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listTreaties.xml" xpointer="listTreaties"/>
       </back>
    </text>
 </TEI>

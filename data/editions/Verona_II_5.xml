@@ -1,8 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -43,8 +40,7 @@
                </msContents>
                <physDesc>
                   <p>Lithographie</p>
-                  <p>Procès-verbal liegt zweifach ein: handschriftlich von <persName ref="#p.5"
-                           ><surname>Gentz</surname></persName> fol. II/53 und II/68, lithographiert
+                  <p>Procès-verbal liegt zweifach ein: handschriftlich von <persName ref="#p.5"><surname>Gentz</surname></persName> fol. II/53 und II/68, lithographiert
                      fol. II/54; die Edition folgt der lithographierten Variante. Zählung mit rotem
                      Buntstift in der rechten oberen Ecke von fol. 53r: "5". Die Zählung ist
                      unrichtig, da das Geheimprotokoll vom <date when="1822-12-13">13. Dezember
@@ -106,19 +102,16 @@
          </appInfo>
          <styleDefDecl scheme="css"/>
          <tagsDecl>
-            <rendition xml:id="su">superscript</rendition>
-            <rendition xml:id="s">strikethrough</rendition>
-            <rendition xml:id="u">underline</rendition>
+            <rendition xml:id="su" scheme="css">vertical-align:sub; font-size:.7em;</rendition>
+            <rendition xml:id="s" scheme="css">text-decoration:line-through;</rendition>
+            <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
             <rendition xml:id="ow">overwritten</rendition>
          </tagsDecl>
       </encodingDesc>
       <profileDesc>
          <abstract>
-            <p>Die <rs ref="#p.8 #p.40 #p.137 #p.102 #p.180 #p.135 #p.175 #p.13 #p.35 #p.75"
-                  >Vertreter Österreichs, Großbritanniens, Frankreichs, Preußens und Russlands</rs>
-               informieren die <rs
-                  ref="#p.182 #p.168 #p.185 #p.183 #p.186 #p.165 #p.184 #p.140 #p.164"
-                  >Bevollmächtigten der italienischen Höfe</rs> über die Verhandlungsergebnisse
+            <p>Die <rs ref="#p.8 #p.40 #p.137 #p.102 #p.180 #p.135 #p.175 #p.13 #p.35 #p.75">Vertreter Österreichs, Großbritanniens, Frankreichs, Preußens und Russlands</rs>
+               informieren die <rs ref="#p.182 #p.168 #p.185 #p.183 #p.186 #p.165 #p.184 #p.140 #p.164">Bevollmächtigten der italienischen Höfe</rs> über die Verhandlungsergebnisse
                hinsichtlich des Truppenabzugs aus dem <country>Königreich
                   Sardinien-Piemont</country> sowie der Truppenreduktion im <country>Königreich
                   beider Sizilien</country>. Verlesung einer an die italienischen Höfe gerichteten
@@ -209,18 +202,13 @@
             <p><choice>
                   <abbr>M<hi rendition="#su">ss</hi></abbr>
                   <expan>Messieurs</expan>
-               </choice> les <rs
-                  ref="#p.8 #p.40 #p.137 #p.102 #p.180 #p.135 #p.175 #p.13 #p.35 #p.75"
-                  >Plénipotentiaires d’Autriche, de France, de la Grande-Bretagne, de Prusse et de
+               </choice> les <rs ref="#p.8 #p.40 #p.137 #p.102 #p.180 #p.135 #p.175 #p.13 #p.35 #p.75">Plénipotentiaires d’Autriche, de France, de la Grande-Bretagne, de Prusse et de
                   Russie</rs> se sont réunis ce jour avec <choice>
                   <abbr>M<hi rendition="#su">rs</hi></abbr>
                   <expan>Messieurs</expan>
-               </choice> les <rs
-                  ref="#p.182 #p.168 #p.185 #p.183 #p.186 #p.165 #p.184 #p.140 #p.164">Ministres des
+               </choice> les <rs ref="#p.182 #p.168 #p.185 #p.183 #p.186 #p.165 #p.184 #p.140 #p.164">Ministres des
                   Cours d’Italie</rs> pour porter à leur connaissance les résultats des
-               délibérations qui ont eu lieu sur les questions relatives aux <rs xml:id="n.1"
-                  >mesures adoptées à l’époque du Congrès de <placeName ref="#loc.65"
-                     >Laybach</placeName></rs><note type="editorial" target="#n.1">Vgl. Edition
+               délibérations qui ont eu lieu sur les questions relatives aux <rs xml:id="n.1">mesures adoptées à l’époque du Congrès de <placeName ref="#loc.65">Laybach</placeName></rs><note type="editorial" target="#n.1">Vgl. Edition
                   Laibach sowie zuletzt Jarrett, Congress of Vienna, S. 270–284.</note> pour
                l’occupation militaire d’une partie des Etats de <choice>
                   <abbr>S. M.</abbr>
@@ -229,16 +217,13 @@
                   <abbr>S. M.</abbr>
                   <expan>Sa Majesté</expan>
                </choice> le <rs ref="#p.138">Roi des deux-Siciles</rs>. </p>
-            <p>Pour cet effet il a d’abord été donné lecture du <ref target="Verona_II_2.xml"
-                  >Procès-verbal ci-annexé</ref> (sub A) de la Conférence du <date when="1822-12-05"
-                  >5 Décembre</date>, constatant les résolutions adoptées par les Cours alliées à
+            <p>Pour cet effet il a d’abord été donné lecture du <ref target="Verona_II_2.xml">Procès-verbal ci-annexé</ref> (sub A) de la Conférence du <date when="1822-12-05">5 Décembre</date>, constatant les résolutions adoptées par les Cours alliées à
                l’égard de l’occupation militaire du <country>Piémont</country> laquelle, sur la
                proposition de <choice>
                   <abbr>S. M.</abbr>
                   <expan>Sa Majesté</expan>
                </choice> le <rs ref="#p.172">Roi de Sardaigne</rs> et du consentement des Cours
-               signataires de la <rs ref="#t.46">Convention de <placeName ref="#loc.73"
-                     >Novare</placeName></rs> du <date when="1821-07-24">24 Juillet 1821</date>,
+               signataires de la <rs ref="#t.46">Convention de <placeName ref="#loc.73">Novare</placeName></rs> du <date when="1821-07-24">24 Juillet 1821</date>,
                cessera dans les termes spécifiés dans ledit Procès-Verbal.</p>
             <p>On a procédé ensuite à la Lecture du <ref target="Verona_II_3.xml">Procès-Verbal
                   ci-annexé</ref> (sub B) de la Conférence du <date when="1822-12-08">8
@@ -248,8 +233,7 @@
                   <abbr>S. M.</abbr>
                   <expan>Sa Majesté</expan>
                </choice> le <rs ref="#p.138">Roi des Deux-Siciles</rs> et du consentement des Cours
-               signataires de la <rs ref="#t.48">Convention de <placeName ref="#loc.11"
-                     >Naples</placeName></rs> du <date when="1821-10-18">18 Octobre 1821</date>, il
+               signataires de la <rs ref="#t.48">Convention de <placeName ref="#loc.11">Naples</placeName></rs> du <date when="1821-10-18">18 Octobre 1821</date>, il
                sera opéré dans le<pb n="54v"/> plus court délai possible une diminution jusqu’au
                nombre spécifié dans ledit Procès-verbal.</p>
             <p>Après ces communications, <choice>
@@ -261,9 +245,7 @@
                adressée par les Cours d’Autriche, de Prusse et de Russie aux Cours d’Italie. <choice>
                   <abbr>Ms<hi rendition="#su">s</hi></abbr>
                   <expan>Messieurs</expan>
-               </choice> les <rs
-                  ref="#p.182 #p.168 #p.185 #p.183 #p.186 #p.165 #p.184 #p.140 #p.164"
-                  >Plénipotentiaires de ces dernières Cours</rs> ont demandé communication de cette
+               </choice> les <rs ref="#p.182 #p.168 #p.185 #p.183 #p.186 #p.165 #p.184 #p.140 #p.164">Plénipotentiaires de ces dernières Cours</rs> ont demandé communication de cette
                pièce, se réservant de porter les réponses qu’ils seraient autorisés à y faire au
                Procès-Verbal de la prochaine Conférence.</p>
             <table rend="rules">
@@ -381,8 +363,7 @@
             <p>À l’époque où cette démarche fut conçue, deux grands exemples venaient d’ajouter aux
                leçons de l’expérience. <rs xml:id="n.3">À <country>Naples</country> et en
                      <country>Piémont</country> le génie du mal avait eu le pouvoir d’envahir et de
-                  renverser l’autorité légitime</rs>,<note type="editorial" target="#n.3">Am <date
-                     when="1820-07-02">2. Juli 1820</date> meuterte die Militärgarnison in Nola, 35
+                  renverser l’autorité légitime</rs>,<note type="editorial" target="#n.3">Am <date when="1820-07-02">2. Juli 1820</date> meuterte die Militärgarnison in Nola, 35
                   km von <placeName ref="#loc.11">Neapel</placeName> entfernt. Das Datum gilt als
                   Beginn der Revolution im <country>Königreich beider Sizilien</country>. Vgl.
                   Stites, The four Horsemen; Davis, Naples and Napoleon; Gin, Sanfedisti, Carbonari,
@@ -395,8 +376,7 @@
                   Congress of Vienna, S. 270–284. </note> de mettre en problème l’existence de
                l’ordre social en Italie – la contagion venait nul doute du dehors ; mais si elle
                n’avait point trouvé sur les lieux des élémens favorables à son développement,
-               celui-ci aurait-il été aussi rapide &amp; aussi complet ? Les <rs
-                  ref="#p.16 #p.18 #p.17">Monarques</rs>, qui avaient soudé la profondeur du mal,
+               celui-ci aurait-il été aussi rapide &amp; aussi complet ? Les <rs ref="#p.16 #p.18 #p.17">Monarques</rs>, qui avaient soudé la profondeur du mal,
                n’hésitèrent pas à l’attaquer de front, à refouler la révolution et à arracher ces
                Etats aux horreurs de l’anarchie pour les replacer sous l’égide tutélaire de leurs
                Souverains légitimes.</p>
@@ -447,12 +427,10 @@
             <p>Ces vœux et ces sollicitudes sont tellement conformes au principe de solidarité qui
                rend aujourd’hui le bien comme le mal commun à tous les membres de la grande famille
                Européenne ; ils sont dictés par une amitié si franche et si véritable pour les Cours
-               de l’Italie qu’ils ne sauraient se ralentir et que les missions des <rs
-                  ref="#p.16 #p.18 #p.17">Souverains alliés</rs> reçoivent l’ordre de continuer à
+               de l’Italie qu’ils ne sauraient se ralentir et que les missions des <rs ref="#p.16 #p.18 #p.17">Souverains alliés</rs> reçoivent l’ordre de continuer à
                les exprimer aux Gouvernemens près desquels elles ont l’honneur d’être
                accréditées.</p>
-            <p>Aucune circonstance ne saurait offrir une plus douce récompense aux <rs
-                  ref="#p.16 #p.18 #p.17">Monarques</rs> en retour de Leurs sentimens et de Leurs
+            <p>Aucune circonstance ne saurait offrir une plus douce récompense aux <rs ref="#p.16 #p.18 #p.17">Monarques</rs> en retour de Leurs sentimens et de Leurs
                efforts que de voir apprécier la pureté de Leurs vues, <app>
                   <lem>et d’acquérir la conviction</lem>
                   <rdg><subst>
@@ -467,12 +445,10 @@
       </body>
       <back>
          <include xmlns="http://www.w3.org/2001/XInclude" href="listPlace.xml" xpointer="listPlace"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="listPerson.xml"
-            xpointer="listPerson"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listPerson.xml" xpointer="listPerson"/>
          <include xmlns="http://www.w3.org/2001/XInclude" href="listWit.xml" xpointer="listWit"/>
          <include xmlns="http://www.w3.org/2001/XInclude" href="listOrg.xml" xpointer="listOrg"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="listTreaties.xml"
-            xpointer="listTreaties"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listTreaties.xml" xpointer="listTreaties"/>
       </back>
    </text>
 </TEI>

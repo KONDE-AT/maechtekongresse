@@ -1,8 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -110,9 +107,9 @@
          </appInfo>
          <styleDefDecl scheme="css"/>
          <tagsDecl>
-            <rendition xml:id="su">superscript</rendition>
-            <rendition xml:id="s">strikethrough</rendition>
-            <rendition xml:id="u">underline</rendition>
+            <rendition xml:id="su" scheme="css">vertical-align:sub; font-size:.7em;</rendition>
+            <rendition xml:id="s" scheme="css">text-decoration:line-through;</rendition>
+            <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
             <rendition xml:id="ow">overwritten</rendition>
          </tagsDecl>
       </encodingDesc>
@@ -120,8 +117,7 @@
          <abstract>
             <p>Der <rs ref="#p.138">König beider Sizilien</rs> ersucht das österreichische Kabinett,
                nach dem Ende der offiziellen militärischen Besatzung des <country>Königreichs beider
-                  Sizilien</country> 1824 Truppen zur Verfügung zu stellen. Die <rs
-                  ref="#p.8 #p.13 #p.35 #p.12">Vertreter Österreichs, Russlands und Preußens</rs>
+                  Sizilien</country> 1824 Truppen zur Verfügung zu stellen. Die <rs ref="#p.8 #p.13 #p.35 #p.12">Vertreter Österreichs, Russlands und Preußens</rs>
                erklären sich bereit, im Fall eine Notwendigkeit dazu bestünde, gemeinsam über
                entsprechende Maßnahmen zu beraten. Beschluss, dieses Protokoll geheim zu halten.</p>
          </abstract>
@@ -171,8 +167,7 @@
                </choice> le <persName ref="#p.140"><roleName>Prince</roleName>
                   <surname>de Ruffo</surname></persName> a fait lecture de la <ref decls="#m.2">note
                   ci-annexée</ref>, par
-               laquelle <rs ref="#p.138">Sa Majesté Sicilienne</rs> l’a chargé de prévenir Ses <rs
-                  ref="#p.16 #p.18 #p.17">Augustes Alliés</rs>,</p>
+               laquelle <rs ref="#p.138">Sa Majesté Sicilienne</rs> l’a chargé de prévenir Ses <rs ref="#p.16 #p.18 #p.17">Augustes Alliés</rs>,</p>
             <p>Que dans le cas, où Elle le trouveroit nécessaire, Elle
                demanderoit à <choice>
                   <abbr>S. M.</abbr>
@@ -197,8 +192,7 @@
                      <expan>Sa Majesté</expan>
                   </choice> Sicilienne</rs>, ne cesseroit de se livrer à l’espoir que la présence de
                Ses troupes dans le <country>Royaume des Deux-Siciles</country> ne se prolongeroit
-               point au delà du terme indiqué dans la <rs ref="#t.48">Convention du <date
-                     when="1821-10-18">18 Octobre 1821</date></rs> ;</p>
+               point au delà du terme indiqué dans la <rs ref="#t.48">Convention du <date when="1821-10-18">18 Octobre 1821</date></rs> ;</p>
             <p>Que si toutefois l’hypothèse pénible mise en avant dans la note de <choice>
                   <abbr>Mr.</abbr>
                   <expan>Monsieur</expan>
@@ -206,8 +200,7 @@
                   <surname>de Ruffo</surname></persName> devroit se réaliser, <rs ref="#p.16"><choice>
                      <abbr>S. M.</abbr>
                      <expan>Sa Majesté</expan>
-                  </choice> Impériale</rs> ne se refuseroit pas à prendre en considération avec <rs
-                  ref="#p.18 #p.17">Ses Augustes Alliés</rs> le parti qu’il seroit convenable de
+                  </choice> Impériale</rs> ne se refuseroit pas à prendre en considération avec <rs ref="#p.18 #p.17">Ses Augustes Alliés</rs> le parti qu’il seroit convenable de
                prendre dans une supposition pareille.</p>
             <p><choice>
                   <abbr>Mr.</abbr>
@@ -286,8 +279,7 @@
                         <abbr>Mr.</abbr>
                         <expan>Monsieur</expan>
                      </choice> le <persName ref="#p.140"><roleName>Prince</roleName>
-                        <surname>Ruffo</surname></persName> à la conférence particulière du <date
-                        when="1822-12-13">13 Décembre 1822</date></title></add>
+                        <surname>Ruffo</surname></persName> à la conférence particulière du <date when="1822-12-13">13 Décembre 1822</date></title></add>
             </p>
             <p><rs ref="#p.138">Sa Majesté Sicilienne</rs>, qui voue à tant de titres une confiance
                absolue à <rs ref="#p.16 #p.18 #p.17">Ses bons et intimes Alliés</rs>, a chargé <choice>
@@ -306,8 +298,7 @@
                rétablissement de l’ordre dans Ses états. L’expérience des cinq années qui ont suivi
                la restauration de 1815 jusqu’à l’époque de la <rs xml:id="n.2">révolution de
                   1820</rs><note type="editorial" target="#n.2">Am <date when="1820-07-02">2. Juli
-                     1820</date> meuterte die Militärgarnison in Nola, 35 km von <placeName
-                     ref="#loc.11">Neapel</placeName> entfernt. Das Datum gilt als Beginn der
+                     1820</date> meuterte die Militärgarnison in Nola, 35 km von <placeName ref="#loc.11">Neapel</placeName> entfernt. Das Datum gilt als Beginn der
                   Revolution im <country>Königreich beider Sizilien</country>. Vgl. Stites, The four
                   Horsemen; Davis, Naples and Napoleon; Gin, Sanfedisti, Carbonari, Magistrati del
                   Re; Späth, Revolution in Europa, S. 129–149. Zur Reaktion der Großmächte vgl.
@@ -322,8 +313,7 @@
                l’agitation contagieuse des <rs xml:id="n.3">commotions populaires de
                   l’Espagne</rs><note type="editorial" target="#n.3">Zur Revolution in
                      <country>Spanien</country> vgl. Späth, Revolution in Europa, S. 117–128. </note>
-               <rs xml:id="n.4">et de la <country>Grèce</country></rs>.<note type="editorial"
-                  target="#n.4">1821 begann der Griechische Unabhängigkeitskrieg gegen die
+               <rs xml:id="n.4">et de la <country>Grèce</country></rs>.<note type="editorial" target="#n.4">1821 begann der Griechische Unabhängigkeitskrieg gegen die
                   Osmanische Herrschaft; vgl. Dakin, The Greek Struggle; Clogg, Movement for Greek
                   Independence.</note> L’ébranlement général des opinions et des principes rend les
                hommes dignes de confiance rares et difficiles à trouver. De là naissent
@@ -367,12 +357,10 @@
       </body>
       <back>
          <include xmlns="http://www.w3.org/2001/XInclude" href="listPlace.xml" xpointer="listPlace"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="listPerson.xml"
-            xpointer="listPerson"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listPerson.xml" xpointer="listPerson"/>
          <include xmlns="http://www.w3.org/2001/XInclude" href="listWit.xml" xpointer="listWit"/>
          <include xmlns="http://www.w3.org/2001/XInclude" href="listOrg.xml" xpointer="listOrg"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="listTreaties.xml"
-            xpointer="listTreaties"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listTreaties.xml" xpointer="listTreaties"/>
       </back>
    </text>
 </TEI>

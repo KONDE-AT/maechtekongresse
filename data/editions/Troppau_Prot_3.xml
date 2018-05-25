@@ -1,8 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -289,13 +286,13 @@
          </appInfo>
          <styleDefDecl scheme="css"/>
          <tagsDecl>
-            <rendition xml:id="su">superscript</rendition>
-            <rendition xml:id="s">strikethrough</rendition>
-            <rendition xml:id="u">underline</rendition>
+            <rendition xml:id="su" scheme="css">vertical-align:sub; font-size:.7em;</rendition>
+            <rendition xml:id="s" scheme="css">text-decoration:line-through;</rendition>
+            <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
             <rendition xml:id="du">doubleunderline</rendition>
             <rendition xml:id="ow">overwritten</rendition>
-            <rendition xml:id="et">indented</rendition>
-            <rendition xml:id="r">right</rendition>
+            <rendition xml:id="et" scheme="css">display:block; margin-left:2em; text-indent:0;</rendition>
+            <rendition xml:id="r" scheme="css">display:block; text-align:right;</rendition>
          </tagsDecl>
       </encodingDesc>
       <profileDesc>
@@ -305,12 +302,9 @@
                der Regierung in <placeName ref="#loc.11">Neapel</placeName>
                aufzunehmen. <persName ref="#p.8"><surname>Metternich</surname></persName> informiert
                die <rs ref="#p.137 #p.102 #p.135">Vertreter Großbritanniens und Frankreichs</rs>
-               über bereits geführte vertrauliche Verhandlungen mit den <rs
-                  ref="#p.121 #p.13 #p.14 #p.11 #p.12 #p.136">Vertretern Russlands und Preußens</rs>
+               über bereits geführte vertrauliche Verhandlungen mit den <rs ref="#p.121 #p.13 #p.14 #p.11 #p.12 #p.136">Vertretern Russlands und Preußens</rs>
                betreffend eine gemeinsame Vorgehensweise gegen die revolutionäre Regierung in
-                  <placeName ref="#loc.11">Neapel</placeName>. <persName ref="#p.8"
-                     ><surname>Metternich</surname></persName> und die <rs ref="#p.121 #p.13 #p.14"
-                  >russischen Vertreter</rs> verlesen die Anlagen zu diesem Protokoll.</p>
+                  <placeName ref="#loc.11">Neapel</placeName>. <persName ref="#p.8"><surname>Metternich</surname></persName> und die <rs ref="#p.121 #p.13 #p.14">russischen Vertreter</rs> verlesen die Anlagen zu diesem Protokoll.</p>
          </abstract>
          <particDesc>
             <listPerson>
@@ -376,8 +370,7 @@
                </choice> le <persName ref="#p.8"><roleName>Prince</roleName>
                   <surname>de Metternich</surname></persName> pour engager les Cinq Cours à se
                promettre réciproquement de n’entamer aucune explication isolée avec le Gouvernement
-               Napolitain ou avec ses agens durant la réunion de <placeName ref="#loc.60"
-                  >Troppau</placeName>. <choice>
+               Napolitain ou avec ses agens durant la réunion de <placeName ref="#loc.60">Troppau</placeName>. <choice>
                   <abbr>Mrs.</abbr>
                   <expan>Messieurs</expan>
                </choice> les <rs ref="#p.121 #p.13 #p.14">Ministres de Russie</rs> ayant annoncé
@@ -428,8 +421,7 @@
                </choice> le <persName ref="#p.13"><roleName>Comte</roleName>
                   <surname>de Nesselrode</surname></persName> a fait lecture de la réponse du
                Cabinet de Russie au <ref target="Troppau_Prot_1.xml">Mémoire présenté par le Cabinet
-                  d’Autriche dans la première conférence</ref>, et aux <ref
-                  target="Troppau_Prot_2.xml">communications faites par le Cabinet de Prusse au
+                  d’Autriche dans la première conférence</ref>, et aux <ref target="Troppau_Prot_2.xml">communications faites par le Cabinet de Prusse au
                   sujet de ce Mémoire</ref>. <ref decls="#m.3">Cette réponse se trouve ci-jointe sub
                   Litt. B.</ref></p>
             <p><choice>
@@ -453,8 +445,7 @@
                   <expan>Messieurs</expan>
                </choice> les <rs ref="#p.121 #p.13 #p.14">Ministres de Russie</rs> ont déduit le
                droit et l’obligation morale des puissances d’intervenir dans les affaires de
-                  <country>Naples</country> des <rs ref="#t.37 #t.13">transactions de 1814</rs>, <rs
-                  ref="#t.1 #t.6 #t.9">1815</rs> et <rs ref="#t.42">1818</rs>, ainsi que du
+                  <country>Naples</country> des <rs ref="#t.37 #t.13">transactions de 1814</rs>, <rs ref="#t.1 #t.6 #t.9">1815</rs> et <rs ref="#t.42">1818</rs>, ainsi que du
                parallèle établi avec autant de justesse que de sagacité entre les évènemens de 1815
                et ceux de nos jours ; qu’il reconnoit également tout ce qu’il peut y avoir d’utile
                dans l’idée de consigner dans un acte formel le point de vue sous lequel seroit
@@ -469,27 +460,22 @@
                   <expan>Monsieur</expan>
                </choice> le <persName ref="#p.8"><roleName>Prince</roleName>
                   <surname>de Metternich</surname></persName> a lu les deux pièces annexées sub Litt
-               C et D, ayant pour titre la première : <ref decls="#m.4"><hi rendition="#u"
-                     >Observations du Cabinet d’Autriche sur l’interprétation des
+               C et D, ayant pour titre la première : <ref decls="#m.4"><hi rendition="#u">Observations du Cabinet d’Autriche sur l’interprétation des
                   traités</hi></ref> ; la
                seconde <ref decls="#m.5"><hi rendition="#u">Apperçu sommaire au sujet de la réponse
                      du Cabinet de Russie</hi></ref>.</p>
-            <p>À cette lecture a succédé celle des <ref decls="#m.6"><hi rendition="#u"
-                     >Eclaircissemens supplémentaires du Cabinet de Russie à sa réponse au Mémoire
+            <p>À cette lecture a succédé celle des <ref decls="#m.6"><hi rendition="#u">Eclaircissemens supplémentaires du Cabinet de Russie à sa réponse au Mémoire
                      du Cabinet Autrichien et aux communications du Cabinet Prussien</hi></ref> ; pièce, qui se trouve
                annexée sub Litt. E.</p>
             <p><choice>
                   <abbr>Mr.</abbr>
                   <expan>Monsieur</expan>
                </choice> le <persName ref="#p.8"><roleName>Prince</roleName>
-                  <surname>de Metternich</surname></persName> a fait part enfin des <ref decls="#m.7"
-                     ><hi rendition="#u">Propositions du Cabinet d’Autriche</hi></ref> à la suite des susdits
-               Eclaircissemens supplémentaires, ainsi que de la <ref decls="#m.8"><hi rendition="#u"
-                     >Déclaration du Cabinet de Russie au sujet de ces dernières<pb n="28v"/>
+                  <surname>de Metternich</surname></persName> a fait part enfin des <ref decls="#m.7"><hi rendition="#u">Propositions du Cabinet d’Autriche</hi></ref> à la suite des susdits
+               Eclaircissemens supplémentaires, ainsi que de la <ref decls="#m.8"><hi rendition="#u">Déclaration du Cabinet de Russie au sujet de ces dernières<pb n="28v"/>
                      propositions</hi></ref>. Ces deux pièces sont consignées ci-joint sub Litt. F et G.</p>
             <p rendition="#r"><add>Lu et certifié</add></p>
-            <p><add rendition="#r">à la Séance du <date when="1820-11-08">8 Nove<damage
-                        agent="binding"><supplied>mbre</supplied></damage></date></add></p>
+            <p><add rendition="#r">à la Séance du <date when="1820-11-08">8 Nove<damage agent="binding"><supplied>mbre</supplied></damage></date></add></p>
             <signed rendition="#r"><persName ref="#p.5"><surname>Gentz</surname></persName></signed>
          </div>
 
@@ -502,12 +488,10 @@
                   <choice>
                      <abbr>n.</abbr>
                      <expan>numéro</expan>
-                  </choice> 3 <date when="1820-11-07">7/11</date></add><add hand="#AmT" place="top"
-                  >A</add></p>
+                  </choice> 3 <date when="1820-11-07">7/11</date></add><add hand="#AmT" place="top">A</add></p>
             <p><add hand="#AmB" place="top"><date when="1820-11-07">7/11</date></add></p>
             <p><title>Note de la Cour de Russie <del rendition="#s">à insérer au Journal des
-                     Conférences</del><addSpan spanTo="#a.1" hand="#G"/><hi rendition="#u"
-                     >relativement à la proposition faite par</hi></title></p>
+                     Conférences</del><addSpan spanTo="#a.1" hand="#G"/><hi rendition="#u">relativement à la proposition faite par</hi></title></p>
             <p><title><hi rendition="#u"><choice>
                         <abbr>Mr.</abbr>
                         <expan>Monsieur</expan>
@@ -515,19 +499,15 @@
                         <surname>de Metternich</surname></persName></hi><hi rendition="#u"> dans la
                         <ref target="Troppau_Prot_2.xml">conférence du 17/<date when="1820-10-29">29
                            Octobre</date></ref></hi><anchor xml:id="a.1"/></title></p>
-            <p><placeName ref="#loc.60">Troppau</placeName>, le <add hand="#A1" place="inspace"
-                  >26</add> Octobre/<date when="1820-11-07"><add hand="#A1" place="inspace">7</add>
+            <p><placeName ref="#loc.60">Troppau</placeName>, le <add hand="#A1" place="inspace">26</add> Octobre/<date when="1820-11-07"><add hand="#A1" place="inspace">7</add>
                   Novembre 1820</date>.</p>
             <p>Le Ministère Russe a rendu compte à l’<rs ref="#p.17">Empereur</rs> de la proposition
                articulée par <choice>
                   <abbr>Mr.</abbr>
                   <expan>Monsieur</expan>
                </choice> le <persName ref="#p.8"><roleName>Prince</roleName>
-                  <surname>de Metternich</surname></persName> dans la Conférence du 17/<date
-                  when="1820-10-29">29 Octobre</date> pour engager les Cours de France, de la
-               Grande-Bretagne, de Prusse et de Russie « à se promettre réciproquement que, <hi
-                  rendition="#u">durant la réunion de <placeName ref="#loc.60"
-                  >Troppau</placeName></hi>, aucune des cinq Cours n’entamera isolément une
+                  <surname>de Metternich</surname></persName> dans la Conférence du 17/<date when="1820-10-29">29 Octobre</date> pour engager les Cours de France, de la
+               Grande-Bretagne, de Prusse et de Russie « à se promettre réciproquement que, <hi rendition="#u">durant la réunion de <placeName ref="#loc.60">Troppau</placeName></hi>, aucune des cinq Cours n’entamera isolément une
                explication quelconque avec le Gouvernement Napolitain ou avec ses agens ; que,
                conformément à cette promesse, elles concentreront dans les présentes Conférences les
                informations qui leur arriveroient de <country>Naples</country>, de même que les
@@ -536,22 +516,17 @@
                portées à la connoissance de la Conférence ».</p>
             <p>L’<rs ref="#p.17">Empereur</rs> a donné au Ministère Russe l’ordre de déclarer :</p>
             <p>Qu’ayant constamment et scrupuleusement suivi envers Ses Alliés, à dater du jour de
-                  l’<rs ref="#t.6 #t.42 #t.9">alliance générale</rs>, et dans toutes les affaires<pb
-                  n="30v"/> d’intérêt commun, la marche proposée par le Cabinet de <placeName
-                  ref="#loc.7">Vienne</placeName> ;</p>
+                  l’<rs ref="#t.6 #t.42 #t.9">alliance générale</rs>, et dans toutes les affaires<pb n="30v"/> d’intérêt commun, la marche proposée par le Cabinet de <placeName ref="#loc.7">Vienne</placeName> ;</p>
             <p>Que s’étant surtout fait une loi de ne pas s’écarter de cette marche depuis que des
-               événemens déplorables sont venus prouver aux <rs ref="#p.16 #p.15 #p.130 #p.18 #p.17"
-                  >Monarques Alliés</rs> la nécessité de resserrer les liens qui les unissent, et
+               événemens déplorables sont venus prouver aux <rs ref="#p.16 #p.15 #p.130 #p.18 #p.17">Monarques Alliés</rs> la nécessité de resserrer les liens qui les unissent, et
                d’identifier plus évidemment encore leur langage et leur politique ;</p>
             <p>Que d’ailleurs <rs ref="#p.16 #p.15 #p.130 #p.18 #p.17">ces Monarques</rs> ayant
                spontanément adopté ce système dès la première nouvelle de <rs xml:id="n.9">la
-                  catastrophe du <date when="1820-07-02">2 Juillet</date></rs>,<note
-                  type="editorial" target="#n.9">Am 2. Juli 1820 meuterte die Militärgarnison in
+                  catastrophe du <date when="1820-07-02">2 Juillet</date></rs>,<note type="editorial" target="#n.9">Am 2. Juli 1820 meuterte die Militärgarnison in
                   Nola, 35 km von Neapel entfernt. Das Datum gilt als Beginn der Revolution im
                   Königreich beider Sizilien. Vgl. Stites, The four Horsemen; Davis, Naples and
                   Napoleon; Gin, Sanfedisti, Carbonari, Magistrati del Re; Späth, Revolution in
-                  Europa, S. 129–149.</note> et se trouvant réunis à <placeName ref="#loc.60"
-                  >Troppau</placeName>, afin de rendre plus éclatante et plus durable cette
+                  Europa, S. 129–149.</note> et se trouvant réunis à <placeName ref="#loc.60">Troppau</placeName>, afin de rendre plus éclatante et plus durable cette
                uniformité de principes et d’action,</p>
             <p>L’<rs ref="#p.17">Empereur</rs> adhère pleinement à la proposition faite par <choice>
                   <abbr>Mr.</abbr>
@@ -573,27 +548,21 @@
 
          <div hand="#A" decls="#m.3">
             <pb n="32r"/>
-            <p><add hand="#AmB" place="top"><date when="1820-11-02">2/11</date></add><add
-                  hand="#AmT" place="top">B</add></p>
+            <p><add hand="#AmB" place="top"><date when="1820-11-02">2/11</date></add><add hand="#AmT" place="top">B</add></p>
             <p><title>Réponse du Cabinet de Russie <del rendition="#s">aux Communications faites par
-                     les Cabinets d’Autriche et de Prusse dans les conférences du 11/<date
-                        when="1820-10-23">23</date> et du 17/<date when="1820-10-29">29
+                     les Cabinets d’Autriche et de Prusse dans les conférences du 11/<date when="1820-10-23">23</date> et du 17/<date when="1820-10-29">29
                         Octobre</date>.</del><addSpan spanTo="#a.2" hand="#G"/>au Mémoire
                   présenté</title></p>
             <p><title>par le Cabinet d’Autriche dans la <ref target="Troppau_Prot_1.xml">conférence
                      du <date when="1820-10-23">11/23</date></ref>,</title></p>
             <p><title>et aux communications faites par le Cabinet de Prusse</title></p>
-            <p><title>dans la <ref target="Troppau_Prot_2.xml">conférence du 17/<date
-                        when="1820-10-29">29 Octobre</date></ref><anchor xml:id="a.2"/></title></p>
-            <p><placeName ref="#loc.60">Troppau</placeName>, <add hand="#A1" place="inspace"
-                  >21</add> Octobre/<date when="1820-11-02"><add hand="#A1" place="inspace">2</add>
+            <p><title>dans la <ref target="Troppau_Prot_2.xml">conférence du 17/<date when="1820-10-29">29 Octobre</date></ref><anchor xml:id="a.2"/></title></p>
+            <p><placeName ref="#loc.60">Troppau</placeName>, <add hand="#A1" place="inspace">21</add> Octobre/<date when="1820-11-02"><add hand="#A1" place="inspace">2</add>
                   Novembre 1820</date>.</p>
             <p>L’opinion que le Cabinet de Russie soumet aujourd’hui aux Cabinets alliés sera le
-               développement de la déclaration qu’il a donnée au nom et par ordre de l’<rs
-                  ref="#p.17">Empereur</rs> dans la conférence du 17/<date when="1820-10-29">29
+               développement de la déclaration qu’il a donnée au nom et par ordre de l’<rs ref="#p.17">Empereur</rs> dans la conférence du 17/<date when="1820-10-29">29
                   Octobre</date>.</p>
-            <p>Cette déclaration ne rappelant elle-même que les vœux formés par <rs
-                  ref="#p.16 #p.15 #p.130 #p.18">les augustes alliés de <rs ref="#p.17">Sa Majesté
+            <p>Cette déclaration ne rappelant elle-même que les vœux formés par <rs ref="#p.16 #p.15 #p.130 #p.18">les augustes alliés de <rs ref="#p.17">Sa Majesté
                      Impériale</rs></rs>, ces vœux se reproduiront dans les observations qui vont
                suivre, et l’on essayera simplement de les représenter sous des formes qui en
                facilitent l’accomplissement prompt, unanime, immanquable.</p>
@@ -603,8 +572,7 @@
                but la pensée des Cabinets alliés, pour guide les leçons de l’expérience.</p>
             <p>Animés des plus généreuses intentions et pleins d’une prévoyante sollicitude, ces
                Cabinets posent en principe que si naguères <hi rendition="#u">leur union intime</hi>
-               a triomphé de la révolution française en armes, c’est maintenant aussi <hi
-                  rendition="#u">cette union seule</hi> qui peut réprimer par sa force morale une
+               a triomphé de la révolution française en armes, c’est maintenant aussi <hi rendition="#u">cette union seule</hi> qui peut réprimer par sa force morale une
                révolution nouvelle, la révolution qui s’est opérée dans les esprits et qui,
                abandonnée à elle-même, perpétueroit en Europe les troubles et les
                bouleversemens.</p>
@@ -656,8 +624,7 @@
                actes auxquels l’Europe doit sa réorganisation religieuse et sociale.</p>
             <p>Nous partirons des mêmes considérations, et aussi pénétrés que
                   l’<country>Autriche</country> de toute leur importance nous adopterons la division
-                  <ref target="Troppau_Prot_1.xml">du mémoire de la Cour de <placeName ref="#loc.7"
-                     >Vienne</placeName></ref>, et nous examinerons :</p>
+                  <ref target="Troppau_Prot_1.xml">du mémoire de la Cour de <placeName ref="#loc.7">Vienne</placeName></ref>, et nous examinerons :</p>
             <pb n="35r"/>
             <p>1<hi rendition="#su">o</hi> De quelle manière les Puissances alliées peuvent
                conserver une complètte unanimité de principes dans la nouvelle lutte qu’elles ont à
@@ -680,8 +647,7 @@
                affaires intérieures d’un Etat qui troubloit alors la paix et la sécurité
                générales.</p>
             <p>Reportons-nous au mois de Mars 1815. La révolution avoit reparu en
-                  <country>France</country>, personifiée dans <persName ref="#p.50"
-                     ><surname>Buonaparte</surname></persName> ; aussitôt un <rs ref="#t.34">traité
+                  <country>France</country>, personifiée dans <persName ref="#p.50"><surname>Buonaparte</surname></persName> ; aussitôt un <rs ref="#t.34">traité
                   formel arma les Monarques alliés contre la <country>France</country></rs>, mais
                pour son intégrité, pour son repos, pour ses institutions.</p>
             <p>De nouveaux succès couronnèrent les nouveaux efforts des alliés, et les mêmes vues
@@ -690,8 +656,7 @@
             <p>Le <rs ref="#t.6">traité d’alliance du <date when="1815-11-20">20
                   Novembre</date></rs> fut conclu ; les termes en sont clairs, et si, pour mieux
                apprécier cet acte, on consulte la note par laquelle il fut communiqué à la Cour des
-               Tuileries au nom des parties contractantes, on se convaincra que le <hi
-                  rendition="#u">casus fœderis et belli</hi>, statué par le traité en question,
+               Tuileries au nom des parties contractantes, on se convaincra que le <hi rendition="#u">casus fœderis et belli</hi>, statué par le traité en question,
                embrassoit deux hypothèses : celle où la nation renverseroit le trône de la Dynastie
                légitime, et celle où la Dynastie renverseroit la loi fondamentale qui avoit
                réconcilié en <country>France</country> le présent avec le passé.</p>
@@ -711,31 +676,25 @@
                si l’insurrection et le crime obtiennent un triomphe durable dans le midi de
                l’Europe, y a-t-il un seul de ses Gouvernemens qui soit en sureté, y en a-t-il un qui
                puisse se fier à la stabilité des transactions<pb n="37r"/> les plus formelles ?</p>
-            <p>À mesure que l’on poursuit cette comparaison l’analogie augmente. En 1814, <rs
-                  ref="#p.16 #p.19 #p.18 #p.17">les Souverains alliés</rs> étoient parvenus à
-               rétablir l’indépendance et des Gouvernemens et des nations. La <rs xml:id="n.11"
-                  >révolution de 1815</rs><note type="editorial" target="#n.11">Napoleons Herrschaft
+            <p>À mesure que l’on poursuit cette comparaison l’analogie augmente. En 1814, <rs ref="#p.16 #p.19 #p.18 #p.17">les Souverains alliés</rs> étoient parvenus à
+               rétablir l’indépendance et des Gouvernemens et des nations. La <rs xml:id="n.11">révolution de 1815</rs><note type="editorial" target="#n.11">Napoleons Herrschaft
                   der 100 Tage.</note> devoit avoir pour effet nécessaire d’anéantir l’une et
                l’autre.</p>
             <p>Cet effet doit aussi être celui de la révolution de 1820, et même il s’est déjà
-               manifesté. Dira-t-on que le <rs ref="#p.150">Roi d’Espagne</rs> et le <rs
-                  ref="#p.138">Roi de Naples</rs> aient exercé une volonté libre en soumettant leurs
-               peuples au régime de la <rs xml:id="n.12">Constitution des Cortès de 1812</rs> ?<note
-                  type="editorial" target="#n.12">Zur spanischen Verfassung von Cádiz,
+               manifesté. Dira-t-on que le <rs ref="#p.150">Roi d’Espagne</rs> et le <rs ref="#p.138">Roi de Naples</rs> aient exercé une volonté libre en soumettant leurs
+               peuples au régime de la <rs xml:id="n.12">Constitution des Cortès de 1812</rs> ?<note type="editorial" target="#n.12">Zur spanischen Verfassung von Cádiz,
                   veröffentlicht am 19. März 1812 und am 8. März 1820 durch König Ferdinand VII.
                   erneut in Kraft gesetzt, vgl. Timmermann, Die „Gemäßigte Monarchie“; BFSP Bd. 6
                   (1819/20), S. 237–279; Brand, Schlegelmilch, Kirsch (Hgg.), Quellen. Zur
                   Revolution vgl. Späth, Revolution in Europa, S. 117–128.</note> Il faudroit pour
                cela faire abstraction d’une notoriété non seulement publique mais Européenne ; il
                faudroit oublier qu’en 1814 la nation Espagnole avoit ardemment souhaité la réforme
-               de cette loi récente, et que <country>les Deux-Siciles</country> en ignoroient<pb
-                  n="37v"/> les dispositions ; il faudroit même faire injure au bon sens de ces
+               de cette loi récente, et que <country>les Deux-Siciles</country> en ignoroient<pb n="37v"/> les dispositions ; il faudroit même faire injure au bon sens de ces
                peuples pour croire qu’ils aient désiré un mode d’administration semblable à celui
                que sanctionne un acte dont chaque article trahit l’ignorance des principes
                généralement avoués de tout Gouvernement représentatif.</p>
             <p>Si les <rs xml:id="n.13">révoltes du <date when="1820-03-08">8 Mars</date> et du
-                     <date when="1820-07-02">2 Juillet</date></rs><note type="editorial"
-                  target="#n.13">Am 8. März 1820 setzte <rs ref="#p.150">König Ferdinand VII.</rs>
+                     <date when="1820-07-02">2 Juillet</date></rs><note type="editorial" target="#n.13">Am 8. März 1820 setzte <rs ref="#p.150">König Ferdinand VII.</rs>
                   mittels eines Manifests die Verfassung von 1812 wieder in Kraft. Am 2. Juli 1820
                   meuterte die Militärgarnison in Nola, 35 km von Neapel entfernt. Das Datum gilt
                   als Beginn der Revolution im <country>Königreich beider Sizilien</country>. Vgl.
@@ -765,8 +724,7 @@
                   sectes</rs><note type="editorial" target="#n.14">Anspielung auf die Carbonari,
                   vgl. z. B. Falcionelli, Les sociétés secrètes italiennes; Rath, The
                   Carbonari.</note> qui cherchent à susciter des troubles domestiques dans d’autres
-               Etats. <quote><rs xml:id="n.15">« Or », dit <persName ref="#p.94"
-                           ><surname>Vattel</surname></persName>, « s’il étoit quelque part une
+               Etats. <quote><rs xml:id="n.15">« Or », dit <persName ref="#p.94"><surname>Vattel</surname></persName>, « s’il étoit quelque part une
                      nation inquiète et malfaisante, toujours prête à nuire aux autres, à les
                      traverser, <hi rendition="#du">à leur susciter des troubles domestiques</hi>,
                         <hi rendition="#u">il n’est pas douteux que toutes ne fussent en droit de se
@@ -779,15 +737,13 @@
                   Monarques alliés</rs> qui auroit pour but de délivrer les deux Péninsules du fléau
                et du despotisme des insurrections.</p>
             <p>En démontrant que cette intervention seroit juste et légitime, nous avons démontré
-               qu’elle étoit utile et nécessaire, et que par conséquent <rs
-                  ref="#p.16 #p.130 #p.15 #p.18 #p.17">les Monarques alliés</rs> étoient tenus de
+               qu’elle étoit utile et nécessaire, et que par conséquent <rs ref="#p.16 #p.130 #p.15 #p.18 #p.17">les Monarques alliés</rs> étoient tenus de
                l’interposer.</p>
             <p>Ils y sont tenus dans l’intérêt des pays que vient désoler encore une fois la
                révolution avec le cortège de tous les maux qu’elle entraîne.</p>
             <p>Ils y sont tenus dans leur propre intérêt ; car reconnoître ailleurs les résultats de
                la révolte seroit en signer chez eux dès à présent les fatales conséquences.</p>
-            <p>Cette obligation est même d’autant plus sacrée qu’elle paroit facile à remplir dès<pb
-                  n="39v"/> qu’on la déduit des <rs ref="t.37 #t.13 #t.1 #t.6 #t.9 #t.42">actes et
+            <p>Cette obligation est même d’autant plus sacrée qu’elle paroit facile à remplir dès<pb n="39v"/> qu’on la déduit des <rs ref="t.37 #t.13 #t.1 #t.6 #t.9 #t.42">actes et
                   traités conclus en 1814, <supplied>18</supplied>15 et
                   <supplied>18</supplied>18</rs>.</p>
             <p>Nous ne saurions, en effet, nous dissimuler que la forme du Gouvernement anglais
@@ -798,8 +754,7 @@
                   </choice> Très Chrétienne</rs>.<note type="editorial" target="#n.16">Ehrentitel
                   des Königs von Frankreich.</note></p>
             <p>C’est aussi pour mettre ces deux Cabinets en mesure de rester fidèles aux principes
-               de l’alliance dans la grande question qui nous occupe que les Cours de <placeName
-                  ref="#loc.7">Vienne</placeName>, de <placeName ref="#loc.9">Berlin</placeName> et
+               de l’alliance dans la grande question qui nous occupe que les Cours de <placeName ref="#loc.7">Vienne</placeName>, de <placeName ref="#loc.9">Berlin</placeName> et
                de <placeName ref="#loc.10">St. Pétersbourg</placeName> semblent devoir la regarder
                comme résolue par les traités existans.</p>
             <p>L’<country>Angleterre</country> témoigneroit par son silence qu’elle se range à cet
@@ -824,13 +779,11 @@
                   de s’unir à ces Puissances pour combattre cette même révolution lorsqu’elle
                   bouleverse d’autres contrées. »</quote></p>
             <p>Nous espérons avoir établi, en n’invoquant que des principes de droit reconnus et
-               déjà mis une fois en action, la <hi rendition="#u">légitimité</hi>, la <hi
-                  rendition="#u">nécessité</hi> et la <hi rendition="#u">possibilité</hi> d’une
+               déjà mis une fois en action, la <hi rendition="#u">légitimité</hi>, la <hi rendition="#u">nécessité</hi> et la <hi rendition="#u">possibilité</hi> d’une
                intervention commune des Puissances alliées, motivée par le ferme dessein d’arrêter
                le torrent révolutionaire.</p>
             <p>Nous nous renfermerons dans le même cercle en discutant les moyens de concilier au
-               plan que les Puissances alliées pourroient se tracer le suffrage de tous les<pb
-                  n="41r"/> hommes qu’anime encore le noble désir de consolider et de défendre des
+               plan que les Puissances alliées pourroient se tracer le suffrage de tous les<pb n="41r"/> hommes qu’anime encore le noble désir de consolider et de défendre des
                institutions sages et réparatrices.</p>
             <p><hi rendition="#u">Secondement. Système de conduite.</hi></p>
             <p>Il résulte de notre manière de voir si elle est adoptée par les Cabinets alliés :</p>
@@ -846,8 +799,7 @@
             <p>3<hi rendition="#su">o</hi> Que les engagemens cités devant toujours faire la base
                des mesures énergiques que les Puissances alliées se verroient dans le cas de
                prendre ; ces mesures ne tendroient par là même qu’au maintien inviolable de l’état
-               de possession territoriale et de l’ordre politique établi par <rs
-                  ref="#t.37 #t.13 #t.1 #t.6 #t.9 #t.42">les traités de 1814,
+               de possession territoriale et de l’ordre politique établi par <rs ref="#t.37 #t.13 #t.1 #t.6 #t.9 #t.42">les traités de 1814,
                      <supplied>18</supplied>15 et <supplied>18</supplied>18</rs>.</p>
             <p>C’est assurément dans ces vues <ref target="Troppau_Prot_1.xml">que le Cabinet de
                      <placeName ref="#loc.7">Vienne</placeName> partage en trois périodes les
@@ -873,8 +825,7 @@
                renverser par une insurrection, ou le malheur plus grand encore de la légitimer,
                seroit envisagé par les Cours alliées comme placé hors de l’alliance.</p>
             <p><hi rendition="#u">Seconde période et seconde conclusion.</hi></p>
-            <p>Une semblable déclaration, quelle qu’en soit la forme, n’est point, aux yeux de l’<rs
-                  ref="#p.17">Empereur</rs>, le seul <hi rendition="#u">appui moral</hi> que les
+            <p>Une semblable déclaration, quelle qu’en soit la forme, n’est point, aux yeux de l’<rs ref="#p.17">Empereur</rs>, le seul <hi rendition="#u">appui moral</hi> que les
                Cours alliées doivent prêter à l’<country>Autriche</country> pour opérer la
                délivrance de <country>Naples</country>.</p>
             <p>Nous avons observé que toute action isolée donneroit à croire que l’alliance générale
@@ -887,20 +838,15 @@
                Deux-Siciles</country>.</p>
             <p>C’est ici que le Cabinet de <placeName ref="#loc.10">St. Pétersbourg</placeName>
                rappellera les explications qu’il a eues avec le Ministre d’Espagne lorsque la Cour
-               de <placeName ref="#loc.24">Madrid</placeName> notifia à l’<persName ref="#p.17"
-                  >Empereur</persName> l’adoption de la constitution de 1812. La <rs xml:id="n.17"
-                  >note du <date when="1820-04-20">20 Avril</date> et le mémoire y relatif</rs><note
-                  type="editorial" target="#n.17">Nesselrode an Zéa Bermudez, St. Petersburg 2.
+               de <placeName ref="#loc.24">Madrid</placeName> notifia à l’<persName ref="#p.17">Empereur</persName> l’adoption de la constitution de 1812. La <rs xml:id="n.17">note du <date when="1820-04-20">20 Avril</date> et le mémoire y relatif</rs><note type="editorial" target="#n.17">Nesselrode an Zéa Bermudez, St. Petersburg 2.
                   April/2. Mai 1820 und russisches Memoire, gerichtet an die diplomatischen
                   Vertreter, St. Petersburg, 18./30. April 1820; abgedruckt in BFSP Bd. 7 (1819/20),
                   S. 941–947.</note> ont été portés à la connoissance des Cabinets alliés, et celui
                de <placeName ref="#loc.10">St. Péterbourg</placeName> les a vus adhérer tous aux
                principes développés dans ces deux pièces. Le seul regret qu’ils exprimèrent à cette
                époque fut de ne pouvoir accueillir toutes nos propositions pour rendre plus
-               imposante, par son uniformité, la réprobation du scandale donné au monde le <date
-                  when="1820-03-08">8 Mars</date>.</p>
-            <p>Les motifs qu’ils alléguèrent alors<pb n="43v"/> n’existent plus. L’<rs ref="#p.17"
-                  >Empereur</rs> proposoit à Ses alliés une réunion. Cette réunion s’est effectuée.
+               imposante, par son uniformité, la réprobation du scandale donné au monde le <date when="1820-03-08">8 Mars</date>.</p>
+            <p>Les motifs qu’ils alléguèrent alors<pb n="43v"/> n’existent plus. L’<rs ref="#p.17">Empereur</rs> proposoit à Ses alliés une réunion. Cette réunion s’est effectuée.
                On avoit craint de prononcer dans des termes trop forts la condamnation de la révolte
                parceque, si l’<country>Espagne</country>, opprimée par les rebelles, s’étoit montrée
                inaccessible aux conseils de la sagesse et avoit articulé une réponse offensante, les
@@ -910,8 +856,7 @@
                nom de l’Europe. Pour que les situations du Gouvernement Napolitain et du
                Gouvernement Espagnol fussent absolument semblables à l’égard des Puissances alliées,
                le premier, par sa note du <date when="1820-10-15">15 Octobre</date>, comme le
-               second, par <rs xml:id="n.18">ses circulaires</rs>,<note type="editorial"
-                  target="#n.18">Vgl. z. B. Circolare di <choice>
+               second, par <rs xml:id="n.18">ses circulaires</rs>,<note type="editorial" target="#n.18">Vgl. z. B. Circolare di <choice>
                      <abbr>S. E.</abbr>
                      <expan>Sua Eccellenza</expan>
                   </choice> il <persName ref="#p.145"><roleName>Duca</roleName>
@@ -919,21 +864,18 @@
                   degli affari esteri, ai Ministri e Residenti di Napoli presto le Corti estere, o.
                   D. [Juli 1820], in: ÖStA, HHStA, St.K., Kongressakten, Kart. 21, Fasz. 39, fol.
                   341–342.</note> invite les Puissances à juger les événemens qui ont eu lieu, et à
-               expliquer le renvoi de ses agens diplomatiques. L’<country>Autriche</country><pb
-                  n="44r"/> en particulier est sommée de faire connoître les motifs de ses armemens
+               expliquer le renvoi de ses agens diplomatiques. L’<country>Autriche</country><pb n="44r"/> en particulier est sommée de faire connoître les motifs de ses armemens
                en Italie.</p>
             <p>Cette interpellation ne peut rester sans réponse, et la réponse devroit, ce semble,
                ne laisser aucun doute au Gouvernement Napolitain sur la nécessité où se trouvent les
                Monarques de ne pas plus composer avec la révolution d’aujourd’hui qu’ils n’ont
                composé avec celle de 1815, et d’apporter au <country>Royaume des
                   deux-Siciles</country> tous les remèdes qui sont en leur pouvoir.</p>
-            <p>En développant les motifs de cette nécessité sous le point de vue <hi rendition="#u"
-                  >seul</hi> du droit, les Monarques engageroient <rs ref="#p.138"><choice>
+            <p>En développant les motifs de cette nécessité sous le point de vue <hi rendition="#u">seul</hi> du droit, les Monarques engageroient <rs ref="#p.138"><choice>
                      <abbr>S. M.</abbr>
                      <expan>Sa Majesté</expan>
                   </choice> Sicilienne</rs> et Ses conseils à prendre sans perte de temps les
-               mesures suggérées le <date when="1820-04-20">20 Avril</date> à <rs ref="#p.150"
-                  xml:id="n.19"><choice>
+               mesures suggérées le <date when="1820-04-20">20 Avril</date> à <rs ref="#p.150" xml:id="n.19"><choice>
                      <abbr>S. M.</abbr>
                      <expan>Sa Majesté</expan>
                   </choice> Catholique</rs>.<note type="editorial" target="#n.19">Ehrentitel des
@@ -960,10 +902,8 @@
                   porteroit alors le nom d’armée Européenne, seroit marqué par une proclamation qui
                   annonceroit aux peuples des Deux-Siciles l’unique motif comme l’unique but de sa
                   marche, et la promesse de respecter l’intégrité du Royaume, de consolider son
-                  indépendance politique et nationale, et d’y établir, de concert avec le <rs
-                     ref="#p.138">Roi</rs>, un mode de Gouvernement qui puisse<pb n="45v"/> assurer
-                  à tous ses sujets la paisible jouissance de cette double liberté.</rs><note
-                  type="author" target="#n.20">
+                  indépendance politique et nationale, et d’y établir, de concert avec le <rs ref="#p.138">Roi</rs>, un mode de Gouvernement qui puisse<pb n="45v"/> assurer
+                  à tous ses sujets la paisible jouissance de cette double liberté.</rs><note type="author" target="#n.20">
                   <p>Nous sommes persuadés qu’il ne seroit ni utile, ni convenable de séparer la
                      nation du <rs ref="#p.138">Roi</rs> ou de la Dynastie des deux-Siciles. Un
                      triste exemple est trop rapproché de nous ; nous croyons même que les
@@ -973,11 +913,8 @@
                         </choice> Sicilienne</rs> à la Cour d’Autriche ne donnent aucun droit, ne
                      présentent aucun moyen d’action aux Puissances alliées.</p><p>Elles ne leur
                      donnent aucun droit ; car dans toute sa correspondance <rs ref="#p.138">ce
-                        Monarque</rs> ne mentionne jamais les obligations <ref
-                        target="Troppau_Prot_1.xml">qu’il a contractées envers
-                           l’<country>Autriche</country> par le <rs ref="#t.43">traité du <date
-                              when="1815-06-12">12 <del rendition="#ow">Juillet</del><add hand="#A1"
-                                 >Juin</add>1815</date></rs></ref>, et n’exprime nulle part le désir
+                        Monarque</rs> ne mentionne jamais les obligations <ref target="Troppau_Prot_1.xml">qu’il a contractées envers
+                           l’<country>Autriche</country> par le <rs ref="#t.43">traité du <date when="1815-06-12">12 <del rendition="#ow">Juillet</del><add hand="#A1">Juin</add>1815</date></rs></ref>, et n’exprime nulle part le désir
                      d’appeler à son secours une armée étrangère.</p><p>Elles ne leur présentent
                      aucun moyen d’action ; car si l’on alléguoit ce motif à l’appui d’une
                      intervention quelconque, on sépareroit le <rs ref="#p.138">Roi</rs> de ses
@@ -987,8 +924,7 @@
                      inspirer aux Napolitains une véritable affection, un respect sincère envers un
                         <rs ref="#p.141">Prince</rs> qui auroit ratifié d’une part, sous le sceau
                      terrible du serment, les actes de la rébellion, et qui invoqueroit, de l’autre,
-                     l’assistance de l’étranger ? – En consultant toutes les lettres secrètes du <rs
-                        ref="#p.138">Roi</rs>, on ne pourroit profiter que du vœu qu’il témoigne
+                     l’assistance de l’étranger ? – En consultant toutes les lettres secrètes du <rs ref="#p.138">Roi</rs>, on ne pourroit profiter que du vœu qu’il témoigne
                      d’introduire dans ses Etats, avec le consentement de
                         l’<country>Autriche</country> et de l’<country>Angleterre</country>, un
                      régime plus favorable au bien-être de ses peuples et à la sécurité de la
@@ -1002,8 +938,7 @@
                nom, au moins pourroient-elles, l’une et l’autre, se rendre garantes de
                l’accomplissement des promesses de leurs alliés, et fixer l’époque de cet
                accomplissement comme le terme de l’occupation militaire.</p>
-            <p>Dans la seconde hypothèse, il dépendroit des Cours de <placeName ref="#loc.2"
-                  >Paris</placeName> et de <placeName ref="#loc.8">Londres</placeName> de prendre
+            <p>Dans la seconde hypothèse, il dépendroit des Cours de <placeName ref="#loc.2">Paris</placeName> et de <placeName ref="#loc.8">Londres</placeName> de prendre
                part aux négociations qui s’entameroient entre le <rs ref="#p.138">Roi</rs> et les
                alliés, et d’ajouter dans la balance le poids de leurs institutions légales et des
                obligations qu’elles leur imposent.</p>
@@ -1033,8 +968,7 @@
                remplir la seconde période, les élémens de toutes les décisions que nécessiteroit la
                dernière.</p>
             <pb n="47v"/>
-            <p>Telle est l’opinion que le Cabinet de Russie est chargé par l’<rs ref="#p.17"
-                  >Empereur</rs> de soumettre aux Cours d’Autriche, de France, de la Grande-Bretagne
+            <p>Telle est l’opinion que le Cabinet de Russie est chargé par l’<rs ref="#p.17">Empereur</rs> de soumettre aux Cours d’Autriche, de France, de la Grande-Bretagne
                et de Prusse.</p>
             <p><rs ref="#p.17">Sa Majesté Impériale</rs> attend d’elles une juste réciprocité. Elle
                les engage à lui communiquer leurs apperçus, certaine d’y retrouver les inspirations
@@ -1047,25 +981,20 @@
 
          <div hand="#A" decls="#m.4">
             <pb n="50r"/>
-            <p><add hand="#AmB" place="top"><date when="1820-11-05">5/11</date></add><add
-                  hand="#AmT" place="top">C</add></p>
-            <p><title>Observations <add hand="#G" place="inline">du Cabinet de <placeName
-                        ref="#loc.7">Vienne</placeName></add> sur l’interprétation des
+            <p><add hand="#AmB" place="top"><date when="1820-11-05">5/11</date></add><add hand="#AmT" place="top">C</add></p>
+            <p><title>Observations <add hand="#G" place="inline">du Cabinet de <placeName ref="#loc.7">Vienne</placeName></add> sur l’interprétation des
                   Traités</title></p>
             <p><placeName ref="#loc.60">Troppau</placeName> le <date when="1820-11-05">5 Novembre
                   1820</date>.</p>
             <p>Le Cabinet de Russie a mis en premier ligne parmi les bases, sur lesquelles Il
                établit non seulement le droit, mais aussi l’obligation des Puissances alliées
-               d’intervenir dans les affaires de <country>Naples</country>, les <rs
-                  ref="#t.37 #t.13 #t.1 #t.6 #t.9 #t.42">traités de 1814, 1815, et 1818.</rs></p>
+               d’intervenir dans les affaires de <country>Naples</country>, les <rs ref="#t.37 #t.13 #t.1 #t.6 #t.9 #t.42">traités de 1814, 1815, et 1818.</rs></p>
             <p>Le Cabinet d’Autriche reconnaît tout le mérite de cette déduction dont les principes
                sont entièrement d’accord avec ceux qu’il professe lui-même. Il croit cependant, pour
                obvier à toute méprise dans une question aussi importante, devoir s’arrêter un moment
-               à la distinction qui doit avoir lieu entre la <hi rendition="#u">lettre</hi> et <hi
-                  rendition="#u">l’esprit</hi> d’un traité.</p>
+               à la distinction qui doit avoir lieu entre la <hi rendition="#u">lettre</hi> et <hi rendition="#u">l’esprit</hi> d’un traité.</p>
             <p>La lettre, le texte d’un traité, est toujours impérieusement obligatoire. Lorsque le
-                  <rs xml:id="n.22"><hi rendition="#u">Casus foederis</hi></rs>,<note
-                  type="editorial" target="#n.22">Lat.: Bündnisfall.</note> prévu par le traité, se
+                  <rs xml:id="n.22"><hi rendition="#u">Casus foederis</hi></rs>,<note type="editorial" target="#n.22">Lat.: Bündnisfall.</note> prévu par le traité, se
                réalise, il ne peut y avoir aucun doute sur l’obligation des parties contractantes de
                remplir promptement et complètement les termes de leurs engagemens.</p>
             <p>L’esprit d’un traité au contraire, portant non sur des cas strictement prévus, mais
@@ -1084,8 +1013,7 @@
                possible.</p>
             <p>Mais il croit que, pour prévenir les objections et des difficultés qui pourraient
                naître à ce sujet, il est nécessaire de ne pas confondre les obligations proprement
-               dites qui résultent des stipulations précises avec l’extension plus ou moins<pb
-                  n="51r"/> volontaire que l’on peut donner aux engagemens d’un traité, en
+               dites qui résultent des stipulations précises avec l’extension plus ou moins<pb n="51r"/> volontaire que l’on peut donner aux engagemens d’un traité, en
                consultant l’esprit dans lequel il a été conçu ; il s’abandonne à cette remarque dans
                le désir de ne pas engager la poursuite d’un objet, aussi digne de la sollicitude des
                Cabinets que conforme aux intérêts de la société entière, dans des discussions
@@ -1094,15 +1022,12 @@
 
          <div hand="#A" decls="#m.5">
             <pb n="52r"/>
-            <p><add hand="#AmB" place="top"><date when="1820-11-05">5/11</date></add><add
-                  hand="#AmT" place="top">D</add></p>
+            <p><add hand="#AmB" place="top"><date when="1820-11-05">5/11</date></add><add hand="#AmT" place="top">D</add></p>
             <p><add hand="#AmB1" place="bottom">Kongressakten 38</add></p>
             <p><title>Apperçu sommaire <add hand="#G" place="inline">au sujet de</add> la
                   réponse</title></p>
-            <p><title>de Cabinet de Russie <add hand="#G" place="inline">du 21 Octobre/<date
-                        when="1820-11-02">2 Novembre</date></add></title></p>
-            <p><add hand="#G" place="margin"><placeName ref="#loc.60">Troppau</placeName> le <date
-                     when="1820-11-05">5 Novembre 1820</date>.</add></p>
+            <p><title>de Cabinet de Russie <add hand="#G" place="inline">du 21 Octobre/<date when="1820-11-02">2 Novembre</date></add></title></p>
+            <p><add hand="#G" place="margin"><placeName ref="#loc.60">Troppau</placeName> le <date when="1820-11-05">5 Novembre 1820</date>.</add></p>
             <p>Cette pièce est entièrement conforme à notre pensée dans les deux points essentiels
                suivans :</p>
             <p>1<hi rendition="#su">o</hi> Nécessité d’une forte action morale pour opposer une
@@ -1121,8 +1046,7 @@
             <p>C’est dans ce but que nous consignons ici les observations suivantes :</p>
             <p>L’<country>Autriche</country> borne le <hi rendition="#u">droit</hi> de<pb n="52v"/>
                l’intervention des étrangers dans les affaires de <country>Naples</country> au seul
-               fait de rétablir l’action libre et par conséquent le pouvoir du <rs ref="#p.138"
-                  >Roi</rs> légitime, et de détruire ainsi l’édifice révolutionnaire lequel s’est
+               fait de rétablir l’action libre et par conséquent le pouvoir du <rs ref="#p.138">Roi</rs> légitime, et de détruire ainsi l’édifice révolutionnaire lequel s’est
                élevé par ses propres forces sur le terrain usurpé du pouvoir légitime.</p>
             <p><hi rendition="#u">Le soutien à accorder en suite au pouvoir légitime rentré dans ses
                   droits</hi>, ainsi que les conseils à lui donner, n’est qu’une conséquence du
@@ -1150,8 +1074,7 @@
                      consulter, car je Vous regarde comme mes amis éclairés. Placez-moi non pour mon
                      intérêt seul, mais pour Votre propre intérêt, qui se confond avec le mien, dans
                      une situation qui assure à ma pensée sa liberté et à ma volonté son action.
-                     Mais croyez-moi ; tout ce que Vous voyez n’est que l’œuvre d’une faction ;<pb
-                        n="53v"/> cette faction nous opprime, moi et mon peuple. Il faut la
+                     Mais croyez-moi ; tout ce que Vous voyez n’est que l’œuvre d’une faction ;<pb n="53v"/> cette faction nous opprime, moi et mon peuple. Il faut la
                      renverser. Dès ce moment, il fera jour pour Vous comme pour moi. Je Vous confie
                      ce secret, car je ne puis l’annoncer au monde, vu que l’homme placé sous le
                      glaive peut mourir, mais ne peut parler. Venez, et nous parlerons ; déblayez le
@@ -1164,8 +1087,7 @@
             <p>Voilà la pensée toute entière de l’<country>Autriche</country> et le principe comme
                le but de son action.</p>
             <p>Le Cabinet de Russie de son côté propose :</p>
-            <p>1<hi rendition="#su">o</hi> D’engager (préalablement à toute opération militaire) <hi
-                  rendition="#u"><rs ref="#p.138"><choice>
+            <p>1<hi rendition="#su">o</hi> D’engager (préalablement à toute opération militaire) <hi rendition="#u"><rs ref="#p.138"><choice>
                         <abbr>S. M.</abbr>
                         <expan>Sa Majesté</expan>
                      </choice> Sicilienne</rs> et ses Conseils</hi> à prendre sans perte de tems les
@@ -1178,9 +1100,7 @@
                conseil ou des <persName ref="#p.151"><surname>Pepe</surname></persName>, des
                   <persName ref="#p.152"><surname>Minicchini</surname></persName> et autres Chefs de
                la Secte, ou des <persName ref="#p.145"><surname>Campochiaro</surname></persName>,
-               des <persName ref="#p.153"><surname>Filangieri</surname></persName>, des <persName
-                  ref="#p.154"><surname>Carascosa</surname></persName> de la <rs xml:id="n.25"
-                  >faction Muratiste</rs>.<note type="editorial" target="#n.25">Anhänger des von
+               des <persName ref="#p.153"><surname>Filangieri</surname></persName>, des <persName ref="#p.154"><surname>Carascosa</surname></persName> de la <rs xml:id="n.25">faction Muratiste</rs>.<note type="editorial" target="#n.25">Anhänger des von
                      <persName ref="#p.50"><forename>Napoleon</forename></persName> eingesetzten und
                   1815 hingerichteten Königs von Neapel Joachim Murat (1767–1815).</note> Toute
                détermination du <rs ref="#p.138">Roi</rs> prise dans un conseil pareil serait donc
@@ -1199,8 +1119,7 @@
             <p>Le Cabinet de Russie propose en outre</p>
             <pb n="54v"/>
             <p>2<hi rendition="#su">o</hi>
-               <hi rendition="#u">De comprendre dans les mesures à suggérer au <rs ref="#p.138"
-                     >Roi</rs> l’établissement d’un ordre de choses qui garantirait la réalisation
+               <hi rendition="#u">De comprendre dans les mesures à suggérer au <rs ref="#p.138">Roi</rs> l’établissement d’un ordre de choses qui garantirait la réalisation
                   d’un vœu authentiquement national.</hi></p>
             <p>Nous ne croyons ni utile, ni même possible (vu les principes desquels nous partons)
                de mettre en avant une condition pareille. Voici nos raisons : </p>
@@ -1234,8 +1153,7 @@
 
          <div hand="#A" decls="#m.6">
             <pb n="56r"/>
-            <p><add hand="#AmB" place="top"><date when="1820-11-06">6/11</date></add><add
-                  hand="#AmT" place="top">E</add></p>
+            <p><add hand="#AmB" place="top"><date when="1820-11-06">6/11</date></add><add hand="#AmT" place="top">E</add></p>
             <p><title><subst>
                      <del rendition="#s">Observations</del>
                      <add hand="#M" place="above">Eclaircissemens</add>
@@ -1248,26 +1166,21 @@
                            <expan>Cabinet</expan>
                         </choice> Prussien</add>
                   </subst></title></p>
-            <p><placeName ref="#loc.60">Troppau</placeName> le <add hand="#A1" place="inspace"
-                  >25</add> Octobre/<date when="1820-11-06"><add hand="#A1" place="inspace">6</add>
+            <p><placeName ref="#loc.60">Troppau</placeName> le <add hand="#A1" place="inspace">25</add> Octobre/<date when="1820-11-06"><add hand="#A1" place="inspace">6</add>
                   Novembre 1820</date>.</p>
             <p>En déposant la présente réponse aux actes des Conférences, le Cabinet de Russie se
                fait un devoir de déclarer qu’il en a donné communication préalable et confidentielle
-               aux Cabinets de <placeName ref="#loc.7">Vienne</placeName> et de <placeName
-                  ref="#loc.9">Berlin</placeName>.</p>
+               aux Cabinets de <placeName ref="#loc.7">Vienne</placeName> et de <placeName ref="#loc.9">Berlin</placeName>.</p>
             <p>Quoique celui de <placeName ref="#loc.7">Vienne</placeName> ait adhéré à l’ensemble
                des principes et des propositions consignés dans la dite réponse, il nous a néanmoins
                demandé quelques éclaircissemens sur les points suivans :</p>
             <p>Après avoir établi d’abord une judicieuse et incontestable distinction entre les
                droits et obligations qui résultent <hi rendition="#u">de la lettre</hi> des traités
                et les droits et obligations qu’on peut déduire <hi rendition="#u">de l’esprit</hi>
-               des mêmes traités, le Ministère Autrichien reconnoit avec le Cabinet de <placeName
-                  ref="#loc.10">St. Pétersbourg</placeName> que la lettre des transactions, citées
+               des mêmes traités, le Ministère Autrichien reconnoit avec le Cabinet de <placeName ref="#loc.10">St. Pétersbourg</placeName> que la lettre des transactions, citées
                dans le<pb n="56v"/>
                <ref decls="#m.3">Mémoire de la Cour de Russie</ref>,
-               <hi rendition="#u">n’oblige</hi> point explicitement les Puissances Alliées à <hi
-                  rendition="#u">combattre</hi> la révolution, mais que fidèles à <hi rendition="#u"
-                  >l’esprit</hi> d’union, dans le quel ces transactions ont été conçues, les
+               <hi rendition="#u">n’oblige</hi> point explicitement les Puissances Alliées à <hi rendition="#u">combattre</hi> la révolution, mais que fidèles à <hi rendition="#u">l’esprit</hi> d’union, dans le quel ces transactions ont été conçues, les
                Puissances <hi rendition="#u">peuvent et doivent</hi> faire aujourd’hui cause commune
                contre cet ennemi commun.</p>
             <p>Le Ministère de Sa Majesté l’<rs ref="#p.17">Empereur</rs> partage entièrement cette
@@ -1278,19 +1191,16 @@
                pourroient, dans aucun cas, agir collectivement contre la révolution de
                   <country>Naples</country>, sans être convenues d’avance<pb n="57r"/> par un acte
                formel des <hi rendition="#u">obligations expresses</hi> qu’elles auroient à remplir,
-               en fesant toute-fois dériver ces obligations de l’esprit des <rs ref="#t.6 #t.42"
-                  >Traités sur lesquels se fonde l’alliance générale</rs>.</p>
+               en fesant toute-fois dériver ces obligations de l’esprit des <rs ref="#t.6 #t.42">Traités sur lesquels se fonde l’alliance générale</rs>.</p>
             <p>Le Cabinet de <placeName ref="#loc.10">S<hi rendition="#su">t</hi>
                   Pétersbourg</placeName> croit devoir ajouter qu’il est entendu que celles des
-               Cours Alliées qui jugeroient ne pouvoir point admettre cette interprétation de <hi
-                  rendition="#u">l’esprit des Traités</hi> ne seroient point considérées pour cela,
+               Cours Alliées qui jugeroient ne pouvoir point admettre cette interprétation de <hi rendition="#u">l’esprit des Traités</hi> ne seroient point considérées pour cela,
                comme ayant renoncé aux droits et aux engagemens stipulés et définis par la lettre
                des actes en question, savoir du <rs ref="#t.1">Traité du <date when="1815-11-20">20 <choice>
                         <abbr>Nov.</abbr>
                         <expan>Novembre</expan>
                      </choice> 1815</date></rs> et des <rs ref="#t.42">transactions complémentaires
-                     d’<placeName ref="#loc.1">Aix-la-Chapelle</placeName> du 3/<date
-                     when="1818-11-15">15 Novembre 1818</date></rs>.</p>
+                     d’<placeName ref="#loc.1">Aix-la-Chapelle</placeName> du 3/<date when="1818-11-15">15 Novembre 1818</date></rs>.</p>
             <p>Le Ministère Autrichien a désiré ensuite apprendre ce que la Russie regardoit comme
                   <hi rendition="#u">un vœu authentiquement national</hi>.</p>
             <pb n="57v"/>
@@ -1299,8 +1209,7 @@
                nous sembloit essentiel d’établir que le vœu auquel <rs ref="#p.138"><choice>
                      <abbr>S. M.</abbr>
                      <expan>Sa Majesté</expan>
-                  </choice> Sicilienne</rs> auroit résolu de déférer, ne fût pas le vœu d’un <hi
-                  rendition="#u">parti</hi> ou d’une <hi rendition="#u">faction</hi>, mais un vœu
+                  </choice> Sicilienne</rs> auroit résolu de déférer, ne fût pas le vœu d’un <hi rendition="#u">parti</hi> ou d’une <hi rendition="#u">faction</hi>, mais un vœu
                réel, un vœu légitimement exprimé, et qui pût recevoir la sanction du pouvoir royal,
                pouvoir dont les droits imprescriptibles et la liberté doivent être mis hors de
                doute.</p>
@@ -1363,8 +1272,7 @@
             <p><title>Déclaration du Cabinet de Russie sur les propositions</title></p>
             <p><title>faites par le Cabinet d’Autriche le <date when="1820-11-06">6 Novembre
                      1820</date></title></p>
-            <p><placeName ref="#loc.60">Troppau</placeName> le <add hand="#AmB" place="inspace"
-                  >26</add> Octobre/<date when="1820-11-07"><add place="inspace" hand="#A">7</add>
+            <p><placeName ref="#loc.60">Troppau</placeName> le <add hand="#AmB" place="inspace">26</add> Octobre/<date when="1820-11-07"><add place="inspace" hand="#A">7</add>
                   Novembre 1820</date>.</p>
             <p>Le Ministère Russe a mis sous les yeux de l’<rs ref="#p.17">Empereur</rs> les <ref decls="#m.7">contre-observations que <choice>
                      <abbr>M<hi rendition="#su">r</hi></abbr>
@@ -1372,8 +1280,7 @@
                   </choice> le <persName ref="#p.8"><roleName>Prince</roleName>
                      <surname>de Metternich</surname></persName> vient de communiquer à la
                   Conférence</ref>
-               relativement au <ref decls="#m.3">mémoire présenté par la Russie le 21 Octobre/<date
-                     when="1820-11-02">2 Novembre</date></ref>, et <ref decls="#m.6">aux éclaircissemens
+               relativement au <ref decls="#m.3">mémoire présenté par la Russie le 21 Octobre/<date when="1820-11-02">2 Novembre</date></ref>, et <ref decls="#m.6">aux éclaircissemens
                   supplémentaires</ref>
                qui concernent les vœux que les Cours alliées doivent former par rapport à la
                restauration du Gouvernement des <country>Deux-Siciles</country>.</p>
@@ -1392,12 +1299,10 @@
       </body>
       <back>
          <include xmlns="http://www.w3.org/2001/XInclude" href="listPlace.xml" xpointer="listPlace"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="listPerson.xml"
-            xpointer="listPerson"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listPerson.xml" xpointer="listPerson"/>
          <include xmlns="http://www.w3.org/2001/XInclude" href="listWit.xml" xpointer="listWit"/>
          <include xmlns="http://www.w3.org/2001/XInclude" href="listOrg.xml" xpointer="listOrg"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="listTreaties.xml"
-            xpointer="listTreaties"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listTreaties.xml" xpointer="listTreaties"/>
       </back>
    </text>
 </TEI>

@@ -1,8 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -43,8 +40,7 @@
                <physDesc>
 
                   <p> Eigenhändiges Protokoll von <persName ref="#p.5">
-                        <surname>Gentz</surname></persName> und <persName ref="#p.6"
-                           ><surname>Wacken</surname></persName>.</p>
+                        <surname>Gentz</surname></persName> und <persName ref="#p.6"><surname>Wacken</surname></persName>.</p>
                   <handDesc>
                      <handNote xml:id="G">Friedrich Gentz</handNote>
                      <handNote xml:id="W">Nikolaus Wacken</handNote>
@@ -93,20 +89,18 @@
          </appInfo>
          <styleDefDecl scheme="css"/>
          <tagsDecl>
-            <rendition xml:id="su">superscript</rendition>
-            <rendition xml:id="s">strikethrough</rendition>
-            <rendition xml:id="u">underline</rendition>
+            <rendition xml:id="su" scheme="css">vertical-align:sub; font-size:.7em;</rendition>
+            <rendition xml:id="s" scheme="css">text-decoration:line-through;</rendition>
+            <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
          </tagsDecl>
       </encodingDesc>
       <profileDesc>
          <abstract>
             <p>Die <rs ref="#p.8 #p.10 #p.11 #p.13 #p.12 #p.14 #p.9">Vertreter der alliierten
-                  Mächte</rs> schreiben die Grundsätze der in der <ref target="Aachen_Prot_6.xml"
-                  >Sitzung am <date when="1818-10-08">8. Oktober 1818</date></ref> abgeschlossenen
+                  Mächte</rs> schreiben die Grundsätze der in der <ref target="Aachen_Prot_6.xml">Sitzung am <date when="1818-10-08">8. Oktober 1818</date></ref> abgeschlossenen
                Verhandlungen betreffend die französischen Entschädigungszahlungen fest. Der Abzug
                der Besatzungstruppen aus <country>Frankreich</country> gilt mit der Räumung der
-               Städte <placeName ref="#loc.3">Valenciennes</placeName> und <placeName ref="#loc.4"
-                  >Cambrai</placeName> als abgeschlossen.</p>
+               Städte <placeName ref="#loc.3">Valenciennes</placeName> und <placeName ref="#loc.4">Cambrai</placeName> als abgeschlossen.</p>
          </abstract>
          <particDesc>
             <listPerson>
@@ -141,8 +135,7 @@
                   <expan>Messieurs</expan>
                </choice>
                <rs ref="#p.8 #p.10 #p.11 #p.13 #p.12 #p.14 #p.9 #p.1">les Ministres des Cinq
-                  cours</rs> se sont réunis aujourd’hui pour prendre en considération le <rs
-                  ref="#t.10">projet de Convention relatif à l’évacuation du Territoire
+                  cours</rs> se sont réunis aujourd’hui pour prendre en considération le <rs ref="#t.10">projet de Convention relatif à l’évacuation du Territoire
                   Français</rs>. Après avoir successivement examiné et discuté les Huit articles,
                ainsi que le préambule de ce projet de convention, <choice>
                   <abbr>Mrs.</abbr>
@@ -202,16 +195,10 @@
             <p>Et attendu qu’il est fixé par l’article 6 de la <rs ref="#t.10">Convention</rs> que
                les traites pour les 165 millions <pb n="30v"/> millions, de même que les
                inscriptions de rentes pour les cent millions valeur effective seront délivrés par le
-               trésor Royal de France aux Commissaires des quatre Cours <quote>« à <hi
-                     rendition="#u">l’époque</hi> de l’évacuation complètte et définitive du
-                  territoire français »</quote>, les <rs
-                  ref="#p.8 #p.10 #p.11 #p.13 #p.12 #p.14 #p.9">Ministres des quatre Cours</rs> ont
-               cru devoir pour plus de précision désigner explicitement cette <hi rendition="#u"
-                  >époque</hi> en déclarant que ce seroit celle où les places de <placeName
-                  ref="#loc.3">Valenciennes</placeName> et de <placeName ref="#loc.4"
-                  >Cambray</placeName> seront évacuées. Cette explication a fait le sujet d’une Note
-               qui, séance tenant, a été adressée par les <rs
-                  ref="#p.8 #p.10 #p.11 #p.13 #p.12 #p.14 #p.9">Ministres des quatre Cours</rs> à <choice>
+               trésor Royal de France aux Commissaires des quatre Cours <quote>« à <hi rendition="#u">l’époque</hi> de l’évacuation complètte et définitive du
+                  territoire français »</quote>, les <rs ref="#p.8 #p.10 #p.11 #p.13 #p.12 #p.14 #p.9">Ministres des quatre Cours</rs> ont
+               cru devoir pour plus de précision désigner explicitement cette <hi rendition="#u">époque</hi> en déclarant que ce seroit celle où les places de <placeName ref="#loc.3">Valenciennes</placeName> et de <placeName ref="#loc.4">Cambray</placeName> seront évacuées. Cette explication a fait le sujet d’une Note
+               qui, séance tenant, a été adressée par les <rs ref="#p.8 #p.10 #p.11 #p.13 #p.12 #p.14 #p.9">Ministres des quatre Cours</rs> à <choice>
                   <abbr>M</abbr>
                   <expan>Monsieur</expan>
                </choice> le <persName ref="#p.1"><roleName>Duc</roleName>

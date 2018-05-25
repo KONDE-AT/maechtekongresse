@@ -1,8 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -10,8 +7,7 @@
                concernant <choice>
                   <abbr>M<hi rendition="#su">me</hi></abbr>
                   <expan>Madame</expan>
-               </choice> la <rs ref="#p.202">Princesse de Montfort</rs> et le <persName ref="#p.126"
-                     ><roleName>Prince</roleName>
+               </choice> la <rs ref="#p.202">Princesse de Montfort</rs> et le <persName ref="#p.126"><roleName>Prince</roleName>
                   <surname>Jérôme</surname></persName> son époux et <choice>
                   <abbr>M<hi rendition="#su">r</hi></abbr>
                   <expan>Monsieur</expan>
@@ -51,8 +47,7 @@
                      <title>Protocole du <date when="1822-11-21">21 Novembre</date> concernant <choice>
                            <abbr>M<hi rendition="#su">me</hi></abbr>
                            <expan>Madame</expan>
-                        </choice> la <rs ref="#p.202">Princesse de Montfort</rs> et le <persName
-                           ref="#p.126"><roleName>Prince</roleName>
+                        </choice> la <rs ref="#p.202">Princesse de Montfort</rs> et le <persName ref="#p.126"><roleName>Prince</roleName>
                            <surname>Jérôme</surname></persName> son époux et <choice>
                            <abbr>M<hi rendition="#su">r</hi></abbr>
                            <expan>Monsieur</expan>
@@ -90,27 +85,23 @@
          </appInfo>
          <styleDefDecl scheme="css"/>
          <tagsDecl>
-            <rendition xml:id="su">superscript</rendition>
-            <rendition xml:id="s">strikethrough</rendition>
-            <rendition xml:id="u">underline</rendition>
+            <rendition xml:id="su" scheme="css">vertical-align:sub; font-size:.7em;</rendition>
+            <rendition xml:id="s" scheme="css">text-decoration:line-through;</rendition>
+            <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
             <rendition xml:id="ow">overwritten</rendition>
          </tagsDecl>
       </encodingDesc>
       <profileDesc>
          <abstract>
             <p>Der Antrag von <rs ref="#p.202"><forename>Katherina</forename>, <roleName>Prinzessin
-                     von Montfort</roleName></rs>, und ihres Gatten <rs ref="#p.126"
-                     ><forename>Jérôme</forename>, <roleName>Prinz von Montfort</roleName></rs>,
-               ihren Wohnsitz von <placeName ref="#loc.86">Triest</placeName> nach <placeName
-                  ref="#loc.6">Rom</placeName> zu verlegen, wird von den <rs
-                  ref="#p.8 #p.12 #p.13 #p.10 #p.174">Bevollmächtigten der alliierten Mächte</rs>
+                     von Montfort</roleName></rs>, und ihres Gatten <rs ref="#p.126"><forename>Jérôme</forename>, <roleName>Prinz von Montfort</roleName></rs>,
+               ihren Wohnsitz von <placeName ref="#loc.86">Triest</placeName> nach <placeName ref="#loc.6">Rom</placeName> zu verlegen, wird von den <rs ref="#p.8 #p.12 #p.13 #p.10 #p.174">Bevollmächtigten der alliierten Mächte</rs>
                bewilligt. Die österreichische Regierung wird die dafür notwendigen Reisepässe
                ausstellen. In <placeName ref="#loc.6">Rom</placeName> werden sie von der päpstlichen
                Regierung sowie den Repräsentanten der alliierten Höfe überwacht werden. Ebenso wird
                   <persName ref="#p.203"><forename>Napoleon Archille</forename>
                   <surname>Murat</surname></persName> gestattet, in die <country>Vereinigten Staaten
-                  von Amerika</country> zu reisen. Er wird einen Reisepass nach <placeName
-                  ref="#loc.39">Hamburg</placeName> erhalten; eine Rückkehr nach Europa ist ihm nur
+                  von Amerika</country> zu reisen. Er wird einen Reisepass nach <placeName ref="#loc.39">Hamburg</placeName> erhalten; eine Rückkehr nach Europa ist ihm nur
                mit Erlaubnis der alliierten Mächte gestattet.</p>
          </abstract>
          <particDesc>
@@ -158,19 +149,16 @@
                   <expan>Son Altesse Royale</expan>
                </choice> la <persName ref="#p.202"><roleName>Princesse</roleName>
                   <forename>Cathérine</forename>
-                  <surname>de Montfort</surname></persName> et par le <persName ref="#p.126"
-                     ><roleName>Prince</roleName>
+                  <surname>de Montfort</surname></persName> et par le <persName ref="#p.126"><roleName>Prince</roleName>
                   <forename>Jérôme</forename>
                   <surname>de Montfort</surname></persName>, son époux, de transporter momentanément
-               leur résidence de <placeName ref="#loc.86">Trieste</placeName> à <placeName
-                  ref="#loc.6">Rome</placeName>, ont reconnu que dans les circonstances présentes
+               leur résidence de <placeName ref="#loc.86">Trieste</placeName> à <placeName ref="#loc.6">Rome</placeName>, ont reconnu que dans les circonstances présentes
                aucune considération grave ne s’opposait à l’accomplissement de ce désir.</p>
             <p>En conséquence ils sont convenus que la Cour d’Autriche feroit délivrer à <choice>
                   <abbr>Mad<hi rendition="#su">me</hi></abbr>
                   <expan>Madame</expan>
                </choice> la <persName ref="#p.202"><roleName>Princesse de
-                  Montfort</roleName></persName> et au <persName ref="#p.126"
-                     ><roleName>Prince</roleName>
+                  Montfort</roleName></persName> et au <persName ref="#p.126"><roleName>Prince</roleName>
                   <forename>Jérôme</forename></persName>, son époux, les passeports nécessaires pour
                se rendre à <placeName ref="#loc.6">Rome</placeName>
                <add hand="#A1" place="end">où ils seroient soumis pendant leur séjour à la
@@ -191,35 +179,29 @@
                <persName ref="#p.203"><forename>Achille</forename>
                   <surname>Murat</surname></persName> de se rendre en Amérique, n’ont vu aucun
                inconvénient à lui en faciliter les moyens, et ont décidé qu’il lui seroit délivré à
-               cet effet des passeports qui lui fixeroient la ville de <placeName ref="#loc.39"
-                  >Hambourg</placeName> pour lieu d’embarquement, contre un engagement de Sa part de
+               cet effet des passeports qui lui fixeroient la ville de <placeName ref="#loc.39">Hambourg</placeName> pour lieu d’embarquement, contre un engagement de Sa part de
                ne point retourner en Europe sans une autorisation spéciale des hautes Cours
                alliées.</p>
             <table rend="rules">
                <row>
                   <cell>Signé</cell>
-                  <cell><add hand="#A1"><persName ref="#p.8"
-                           ><surname>Metternich</surname></persName></add></cell>
+                  <cell><add hand="#A1"><persName ref="#p.8"><surname>Metternich</surname></persName></add></cell>
                </row>
                <row>
                   <cell/>
-                  <cell><add hand="#A1"><persName ref="#p.174"
-                           ><surname>Montmorency</surname></persName></add></cell>
+                  <cell><add hand="#A1"><persName ref="#p.174"><surname>Montmorency</surname></persName></add></cell>
                </row>
                <row>
                   <cell/>
-                  <cell><add hand="#A1"><persName ref="#p.10"
-                           ><surname>Wellington</surname></persName></add></cell>
+                  <cell><add hand="#A1"><persName ref="#p.10"><surname>Wellington</surname></persName></add></cell>
                </row>
                <row>
                   <cell/>
-                  <cell><add hand="#A1"><persName ref="#p.12"
-                           ><surname>Bernstorff</surname></persName></add></cell>
+                  <cell><add hand="#A1"><persName ref="#p.12"><surname>Bernstorff</surname></persName></add></cell>
                </row>
                <row>
                   <cell/>
-                  <cell><add hand="#A1"><persName ref="#p.13"
-                           ><surname>Nesselrode</surname></persName></add>
+                  <cell><add hand="#A1"><persName ref="#p.13"><surname>Nesselrode</surname></persName></add>
                   </cell>
                </row>
             </table>
@@ -227,12 +209,10 @@
       </body>
       <back>
          <include xmlns="http://www.w3.org/2001/XInclude" href="listPlace.xml" xpointer="listPlace"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="listPerson.xml"
-            xpointer="listPerson"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listPerson.xml" xpointer="listPerson"/>
          <include xmlns="http://www.w3.org/2001/XInclude" href="listWit.xml" xpointer="listWit"/>
          <include xmlns="http://www.w3.org/2001/XInclude" href="listOrg.xml" xpointer="listOrg"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="listTreaties.xml"
-            xpointer="listTreaties"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listTreaties.xml" xpointer="listTreaties"/>
       </back>
    </text>
 </TEI>

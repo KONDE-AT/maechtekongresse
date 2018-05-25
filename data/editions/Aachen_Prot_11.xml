@@ -1,8 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -120,17 +117,16 @@
          </appInfo>
          <styleDefDecl scheme="css"/>
          <tagsDecl>
-            <rendition xml:id="su">superscript</rendition>
-            <rendition xml:id="s">strikethrough</rendition>
-            <rendition xml:id="u">underline</rendition>
+            <rendition xml:id="su" scheme="css">vertical-align:sub; font-size:.7em;</rendition>
+            <rendition xml:id="s" scheme="css">text-decoration:line-through;</rendition>
+            <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
          </tagsDecl>
       </encodingDesc>
       <profileDesc>
          <abstract>
             <p>Die <rs ref="#p.8 #p.10 #p.11 #p.13 #p.12 #p.14 #p.9">Vertreter der alliierten
                   Mächte</rs> befassen sich mit dem Durchmarsch bayerischer Truppen durch badisches
-               Territorium und beschließen, zwischen den Höfen in <placeName ref="#loc.19"
-                  >Karlsruhe</placeName> und <placeName ref="#loc.16">München</placeName> zu
+               Territorium und beschließen, zwischen den Höfen in <placeName ref="#loc.19">Karlsruhe</placeName> und <placeName ref="#loc.16">München</placeName> zu
                vermitteln. Anschließend Verhandlung über die zukünftigen Beziehungen der alliierten
                Mächte zu <country>Frankreich</country> sowie den anderen europäischen
                Regierungen.</p>
@@ -156,11 +152,9 @@
          <div hand="#G" decls="#m.1">
             <pb n="47r"/>
             <p><add place="top" hand="#W"><hi rendition="#u">Protocole 11</hi></add></p>
-            <p><add><placeName ref="#loc.1">Aix-la-Chapelle</placeName> le <date when="1818-10-14"
-                     >14 Octobre</date></add></p>
+            <p><add><placeName ref="#loc.1">Aix-la-Chapelle</placeName> le <date when="1818-10-14">14 Octobre</date></add></p>
 
-            <p>Les Protocoles <ref target="Aachen_Prot_8.xml Aachen_Prot_9.xml Aachen_Prot_10.xml"
-                  >des trois dernières séances</ref> ont été lus, approuvés et signés.</p>
+            <p>Les Protocoles <ref target="Aachen_Prot_8.xml Aachen_Prot_9.xml Aachen_Prot_10.xml">des trois dernières séances</ref> ont été lus, approuvés et signés.</p>
             <p>On s’est occupé de la démarche que <choice>
                   <abbr>S. A. R.</abbr>
                   <expan>Son Altesse Royale</expan>
@@ -187,8 +181,7 @@
                   <country>France</country> que vis-à-vis des autres puissances de l’Europe. Un <ref decls="#m.3">projet de Protocole</ref>, présenté <pb n="47v"/>par <choice>
                   <abbr>Mr.</abbr>
                   <expan>Monsieur</expan>
-               </choice> le Comte de <persName ref="#p.14"
-                  ><surname>Capodistrias</surname></persName>, a servi de base à cette <subst>
+               </choice> le Comte de <persName ref="#p.14"><surname>Capodistrias</surname></persName>, a servi de base à cette <subst>
                   <del rendition="#s">déliberation</del>
                   <add>discussion</add>
                </subst>.</p>
@@ -249,35 +242,27 @@
                   </choice>
                   <rs ref="#p.16">l’Empereur d’Autriche</rs></add></p>
 
-            <p><rs ref="#p.26">Le soussigné</rs> est chargé par Son Altesse royale <rs ref="#p.22"
-                  >le Grand-Duc</rs>, son maître, d’entretenir Son Altesse le <persName ref="#p.8"
-                     ><roleName>Prince</roleName>
+            <p><rs ref="#p.26">Le soussigné</rs> est chargé par Son Altesse royale <rs ref="#p.22">le Grand-Duc</rs>, son maître, d’entretenir Son Altesse le <persName ref="#p.8"><roleName>Prince</roleName>
                   <surname>de Metternich</surname></persName>, Ministre d’état &amp; des
-               conférences, dirigeant le département des affaires étrangères de Sa Majesté <rs
-                  ref="#p.16">l’Empereur d’Autriche</rs>, d’un arrangement que les relations toutes
+               conférences, dirigeant le département des affaires étrangères de Sa Majesté <rs ref="#p.16">l’Empereur d’Autriche</rs>, d’un arrangement que les relations toutes
                particulières du Grand-Duché réclament au cas que les troupes alliées devroient
                effectivement quitter la <country>France</country>.</p>
             <p>Il est probable qu’outre les Autrichiens, les Wurtembergeois &amp; une colonne de
                Russes les Bavarois voudront également prendre leur direction par le Grand-Duché en
-               passant par <placeName ref="#loc.20">Germersheim</placeName> &amp; <placeName
-                  ref="#loc.21">Bruchsal</placeName>, ou par <placeName ref="#loc.22"
-                  >Mannheim</placeName> et <placeName ref="#loc.23">Heidelberg</placeName>.</p>
+               passant par <placeName ref="#loc.20">Germersheim</placeName> &amp; <placeName ref="#loc.21">Bruchsal</placeName>, ou par <placeName ref="#loc.22">Mannheim</placeName> et <placeName ref="#loc.23">Heidelberg</placeName>.</p>
             <p>Son Altesse Royale <rs ref="#p.22">le Grand-Duc</rs>, en donnant d’avance les ordres
                nécessaires pour la marche &amp; la nourriture des troupes, a toute fois réfléchi sur
                les inconvéniens graves &amp; inévitables qui pourroient résulter en ce moment d’un
                passage de troupes bavaroises par le <country>Grand-Duché de Bade</country>.</p>
             <p><rs xml:id="n.1">Quoique les affaires territoriales ayant été réservé jusqu’à présent
-               exclusivement aux Cabinets des quatre grandes cours</rs>,<note type="editorial"
-                     target="#n.1">Erbe, Erschütterung, S. 172–173; Handbuch der
+               exclusivement aux Cabinets des quatre grandes cours</rs>,<note type="editorial" target="#n.1">Erbe, Erschütterung, S. 172–173; Handbuch der
                      Baden-Württembergischen Geschichte, Bd. 3, S. 37–38; Huber, Deutsche
                      Verfassungsgeschichte, Bd. 1, S. 324–328.</note> il n’en a pas moins
                transpiré assez pour qu’une opinion publique se soit établie qui, dans le pays même
                dont le Souverain se trouve si vivement attaqué, a dû prendre le caractère de la
                haine la plus prononcée.</p>
-            <p><rs ref="#p.26">Le soussigné</rs> peut bien se dispenser d’exposer à <rs ref="#p.8"
-                  >Son Altesse</rs> toutes les suites funestes &amp; vraiment incalculables qui
-               pourroient résulter d’un froissement inévitable tant entre les militaires des deux<pb
-                  n="48v"/> côtés qu’entre les Soldats bavarois &amp; les habitans, et peut-être
+            <p><rs ref="#p.26">Le soussigné</rs> peut bien se dispenser d’exposer à <rs ref="#p.8">Son Altesse</rs> toutes les suites funestes &amp; vraiment incalculables qui
+               pourroient résulter d’un froissement inévitable tant entre les militaires des deux<pb n="48v"/> côtés qu’entre les Soldats bavarois &amp; les habitans, et peut-être
                même par des menées secrètes qui, dans les liaisons d’un tems passé, pourroient bien
                trouver des facilités.</p>
             <p><rs ref="#p.22">Son Altesse royale</rs> n’a que trop bien prouvé combien Elle est
@@ -299,8 +284,7 @@
                      <abbr>B<hi rendition="#su">on</hi></abbr>
                      <expan>Baron</expan>
                   </choice> de Berstett</persName></signed>
-            <dateline>Favorite pres <placeName ref="#loc.18">Rastatt</placeName> le <date
-                  when="1818-09-29">29 <choice>
+            <dateline>Favorite pres <placeName ref="#loc.18">Rastatt</placeName> le <date when="1818-09-29">29 <choice>
                      <abbr>Sept.</abbr>
                      <expan>Septembre</expan>
                   </choice> 1818</date>.</dateline>
@@ -310,13 +294,11 @@
             <pb n="58r"/>
             <p><title>Projet de Protocole</title></p>
             <p>Conformément à la réserve insérée dans le <ref target="Aachen_Prot_3.xml">Protocole
-                  du <date when="1818-10-01">1 Octobre</date>/19 Septembre</ref>, <rs
-                  ref="#p.8 #p.10 #p.11 #p.13 #p.12 #p.14 #p.9">les Ministres et
+                  du <date when="1818-10-01">1 Octobre</date>/19 Septembre</ref>, <rs ref="#p.8 #p.10 #p.11 #p.13 #p.12 #p.14 #p.9">les Ministres et
                   Plénipotentiaires</rs> des quatre Cabinets se sont réunis en conférence à l’effet
                de discuter les grands objets que leurs Cours ont eus en vue en stipulant l’article
                VI du <rs ref="#t.6">Traité de la quadruple Alliance du <date when="1815-11-20">8/20
-                     Novembre 1815</date></rs>, et afin de convenir sur le mode d’<hi rendition="#u"
-                  >appliquer les principes</hi> et dispositions de cet article à l’état des choses
+                     Novembre 1815</date></rs>, et afin de convenir sur le mode d’<hi rendition="#u">appliquer les principes</hi> et dispositions de cet article à l’état des choses
                qui suivra l’évacuation de la <country>France</country> et à la situation où ce
                gouvernement, comme membre de l’association générale, se trouvera placé conséquemment
                envers les Puissances alliées.</p>
@@ -336,12 +318,10 @@
                formel, de manière à ce que, le cas échéant, la quadruple Alliance puisse, sans
                retard et à l’aide du concours unanime de tous les Etats Européens, ramener la
                   <country>France</country> aux termes du droit.</p>
-            <p>2<hi rendition="#su">o</hi> Les réunions des Souverains ayant un double but : <hi
-                  rendition="# u">l’exécution du <rs ref="#t.6">Traité d’Alliance</rs> et la
+            <p>2<hi rendition="#su">o</hi> Les réunions des Souverains ayant un double but : <hi rendition="# u">l’exécution du <rs ref="#t.6">Traité d’Alliance</rs> et la
                   consolidation des rapports qui unissent les Souverains pour le bonheur du
                   Monde</hi>, savoir :</p>
-            <p>a) Un état de choses en <country>France</country> qui menace le <rs xml:id="n.2"
-               >casus foederis</rs> <note type="editorial" target="#n.2">Lat. Bündnisfall</note>
+            <p>a) Un état de choses en <country>France</country> qui menace le <rs xml:id="n.2">casus foederis</rs> <note type="editorial" target="#n.2">Lat. Bündnisfall</note>
                ou qui le constitue ;</p>
             <p>b) Les progrès de la paix générale dont jouit l’Europe ;</p>
             <p>Les quatre Cabinets sont également convenus de confirmer cette disposition de manière
@@ -357,8 +337,7 @@
             <p>4<hi rendition="#su">o</hi> La <country>France</country>, contribuant essentiellement
                à un pareil état de choses par le maintien de sa Royauté légitime et
                constitutionnelle, sera la première à prendre part de droit à ces Réunions.</p>
-            <p>Elles auront pour objet les intérêts mutuels des cinq Puissances et présenteront<pb
-                  n="60r"/> à l’Europe, dans l’unité et l’accord qui caractérisent leurs principes,
+            <p>Elles auront pour objet les intérêts mutuels des cinq Puissances et présenteront<pb n="60r"/> à l’Europe, dans l’unité et l’accord qui caractérisent leurs principes,
                le moyen le plus sûr et le plus facile pour la conciliation des différends que les
                Etats n’auroient pu accommoder entr’eux.</p>
             <p>5<hi rendition="#su">o</hi> En déclarant que par ces réunions il ne sera nullement
@@ -367,10 +346,7 @@
                sans y être formellement invités par eux, et sans les admettre à leurs entrevues.</p>
             <p>Cette déclaration préservatrice des droits et des possessions de tous les
                gouvernemens associés à l’alliance générale servira à placer dans tout son jour
-               l’influence inaltérable que les stipulations du <rs ref="#t.12">Recès de <placeName
-                     ref="#loc.7">Vienne</placeName></rs><pb n="60v"/> et celles du <rs ref="#t.1"
-                  >traité de <placeName ref="#loc.2">Paris</placeName> du <date when="1815-11-20"
-                     >8/20 Novembre 1815</date></rs> sont appelées à exercer sur les rapports
+               l’influence inaltérable que les stipulations du <rs ref="#t.12">Recès de <placeName ref="#loc.7">Vienne</placeName></rs><pb n="60v"/> et celles du <rs ref="#t.1">traité de <placeName ref="#loc.2">Paris</placeName> du <date when="1815-11-20">8/20 Novembre 1815</date></rs> sont appelées à exercer sur les rapports
                mutuels entre tous les Etats : rapports qui, quoique susceptibles d’être affermis et
                perfectionnés dans leur ensemble par le moyen des réunions successives, sont
                néanmoins originairement garantis par les stipulations primitives et fondamentales

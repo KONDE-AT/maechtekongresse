@@ -1,8 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -101,19 +98,17 @@
          </appInfo>
          <styleDefDecl scheme="css"/>
          <tagsDecl>
-            <rendition xml:id="su">superscript</rendition>
-            <rendition xml:id="s">strikethrough</rendition>
-            <rendition xml:id="u">underline</rendition>
-            <rendition xml:id="r">right</rendition>
+            <rendition xml:id="su" scheme="css">vertical-align:sub; font-size:.7em;</rendition>
+            <rendition xml:id="s" scheme="css">text-decoration:line-through;</rendition>
+            <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
+            <rendition xml:id="r" scheme="css">display:block; text-align:right;</rendition>
          </tagsDecl>
       </encodingDesc>
       <profileDesc>
          <abstract>
             <p>Die <rs ref="#p.12 #p.160 #p.102 #p.135 #p.161 #p.14 #p.8 #p.13 #p.7 #p.2">Vertreter
                   der Mächte</rs> einigen sich über die äußeren Formen, die bei den Verhandlungen in
-                  <placeName ref="#loc.65">Laibach</placeName>/<placeName ref="#loc.65"
-                  >Ljubljana</placeName> zu beachten sind und beschließen, die in <placeName
-                  ref="#loc.60">Troppau</placeName>/<placeName ref="#loc.60">Opava</placeName>
+                  <placeName ref="#loc.65">Laibach</placeName>/<placeName ref="#loc.65">Ljubljana</placeName> zu beachten sind und beschließen, die in <placeName ref="#loc.60">Troppau</placeName>/<placeName ref="#loc.60">Opava</placeName>
                angewendeten Formalia beizubehalten.</p>
          </abstract>
          <particDesc>
@@ -177,8 +172,7 @@
                   <expan>Messieurs</expan>
                </choice>
                <rs ref="#p.12 #p.160 #p.102 #p.135 #p.161 #p.14 #p.8 #p.13 #p.7 #p.2">les
-                  Plénipotentiaires des Cours alliées présens</rs>, les <rs ref="#p.13 #p.14 #p.7"
-                  >Ministres du Cabinet de Russie</rs> ont fixé l’attention de la conférence sur la
+                  Plénipotentiaires des Cours alliées présens</rs>, les <rs ref="#p.13 #p.14 #p.7">Ministres du Cabinet de Russie</rs> ont fixé l’attention de la conférence sur la
                forme et l’ordre à suivre dans les travaux<pb n="5v"/> qui doivent être la
                continuation de ceux dont la réunion de <placeName ref="#loc.60">Troppau</placeName>
                a posé les bases et tracé le plan général.</p>
@@ -204,8 +198,7 @@
                de voir assister la <country>Grande-Bretagne</country> aux travaux ultérieurs de la
                présente réunion ainsi qu’Elle avait assisté à son début. Ils ajoutent que comme on
                ne pouvait se flatter d’obtenir cet avantage sous les formes proposées par le
-               Ministère de Russie, il serait à désirer que celles suivies à <placeName
-                  ref="#loc.60">Troppau</placeName> fussent encore maintenues pour la conservation
+               Ministère de Russie, il serait à désirer que celles suivies à <placeName ref="#loc.60">Troppau</placeName> fussent encore maintenues pour la conservation
                du système d’union et de solidarité générale qui règle heureusement les rapports des
                Etats Européens.</p>
             <p><choice>
@@ -239,18 +232,15 @@
                      <placeName ref="#loc.65">Laybach</placeName></title></p>
             <p><placeName ref="#loc.65">Laybach</placeName> le <date when="1821-01-11">11 Janvier
                   1821</date></p>
-            <p>Les travaux auxquels sont appelés <rs
-                  ref="#p.12 #p.160 #p.102 #p.135 #p.161 #p.14 #p.8 #p.13 #p.7 #p.2">les
-                  Plénipotentiaires des Puissances représentées à <placeName ref="#p.65"
-                     >Laybach</placeName></rs> ne semblent pouvoir être que la continuation de ceux
+            <p>Les travaux auxquels sont appelés <rs ref="#p.12 #p.160 #p.102 #p.135 #p.161 #p.14 #p.8 #p.13 #p.7 #p.2">les
+                  Plénipotentiaires des Puissances représentées à <placeName ref="#p.65">Laybach</placeName></rs> ne semblent pouvoir être que la continuation de ceux
                dont la réunion de <placeName ref="#loc.60">Troppau</placeName> a posé les bases et
                tracé le plan général.</p>
             <p>Avant de s’appliquer sur le fond même des graves questions que les Plénipotentiaires
                ont à examiner et à résoudre, le Ministère Russe commencera par fixer leur attention
                sur les formes et le mode de procéder qui pourraient être adoptés dans leurs
                délibérations actuelles.</p>
-            <p>À cet égard il observera d’abord que les Conférences de <placeName ref="#loc.60"
-                  >Troppau</placeName>, n’ayant été que préliminaires, ne devoient pas
+            <p>À cet égard il observera d’abord que les Conférences de <placeName ref="#loc.60">Troppau</placeName>, n’ayant été que préliminaires, ne devoient pas
                nécessairement être revêtues de formes solennelles. Ainsi les Cabinets ont ils
                consigné leurs opinions dans un simple <hi rendition="#u">Journal</hi> et non dans
                des <hi rendition="#u">Procès-verbaux</hi> ou <hi rendition="#u">Protocoles
@@ -259,8 +249,7 @@
                mesures même que<pb n="6v"/> les Cabinets ont prises ne peuvent être considérées que
                comme préparatoires. Leur but et leur essence leur donnent à la fois ce caractère. Le
                Protocole préliminaire a été rédigé dans la vue de préparer un acte qui pût obtenir
-               la sanction de tous les Gouvernemens de l’Europe. L’<ref target="Troppau_Prot_4.xml"
-                  >invitation de se rendre à <placeName ref="#loc.65">Laybach</placeName></ref> a
+               la sanction de tous les Gouvernemens de l’Europe. L’<ref target="Troppau_Prot_4.xml">invitation de se rendre à <placeName ref="#loc.65">Laybach</placeName></ref> a
                été adressée au <rs ref="#p.138">Roi</rs> dans le dessein de préparer d’un côté une
                médiation qui réconciliât <country>Naples</country> avec les Puissances amies de
                l’ordre et du bien, de l’autre une réunion qui pût arrêter des mesures définitives.
@@ -278,8 +267,7 @@
                malheurs que peut receler l’avenir, puisqu’ils n’auraient résolu de le diriger que
                pour satisfaire à leurs mutuelles convenances.</p>
             <p>Espérant que les Puissances réunies partageront à cet égard sa sollicitude, le
-               Ministère Russe leur propose d’ouvrir les conférences de <placeName ref="#loc.65"
-                  >Laybach</placeName> en déclarant :</p>
+               Ministère Russe leur propose d’ouvrir les conférences de <placeName ref="#loc.65">Laybach</placeName> en déclarant :</p>
             <p>Que les Conférences de <placeName ref="#loc.60">Troppau</placeName> n’étaient que
                préliminaires et préparatoires, et qu’on n’a pu d’autant moins y délibérer dans les
                formes accoutumées que parmi les Plénipotentiaires des Puissances intervenantes
@@ -287,12 +275,10 @@
                recevoir des instructions peu précises et peu positives ;</p>
             <p>Que maintenant ces questions ayant été discutées, l’objet des délibérations se
                trouvant clairement défini et la nature ainsi que les bornes de tous les devoirs
-               ayant été reconnues, les<pb n="7v"/> Puissances représentées à <placeName
-                  ref="#loc.65">Laybach</placeName> déclarent qu’elles se sont réunies aux termes
+               ayant été reconnues, les<pb n="7v"/> Puissances représentées à <placeName ref="#loc.65">Laybach</placeName> déclarent qu’elles se sont réunies aux termes
                des actes qui ont statué des réunions de Souverains et de Plénipotentiaires ; que les
                stipulations de ces actes ont été et seront toujours scrupuleusement observées ; que
-               la sécurité d’<rs xml:id="n.2">une de ces Puissances</rs><note type="editorial"
-                  target="#n.2">Österreich.</note> ayant été compromise par les événemens de
+               la sécurité d’<rs xml:id="n.2">une de ces Puissances</rs><note type="editorial" target="#n.2">Österreich.</note> ayant été compromise par les événemens de
                   <country>Naples</country>, celle-ci a engagé ses alliés à délibérer avec elle sur
                ses propres intérêts, et que ces intérêts embrassant ceux de l’Italie entière, toutes
                les Cours de la Péninsule Italienne ont été invitées à prendre part aux
@@ -307,12 +293,10 @@
       </body>
       <back>
          <include xmlns="http://www.w3.org/2001/XInclude" href="listPlace.xml" xpointer="listPlace"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="listPerson.xml"
-            xpointer="listPerson"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listPerson.xml" xpointer="listPerson"/>
          <include xmlns="http://www.w3.org/2001/XInclude" href="listWit.xml" xpointer="listWit"/>
          <include xmlns="http://www.w3.org/2001/XInclude" href="listOrg.xml" xpointer="listOrg"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="listTreaties.xml"
-            xpointer="listTreaties"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listTreaties.xml" xpointer="listTreaties"/>
       </back>
    </text>
 </TEI>

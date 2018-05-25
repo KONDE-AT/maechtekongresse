@@ -1,8 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -109,9 +106,9 @@
          </appInfo>
          <styleDefDecl scheme="css"/>
          <tagsDecl>
-            <rendition xml:id="su">superscript</rendition>
-            <rendition xml:id="s">strikethrough</rendition>
-            <rendition xml:id="u">underline</rendition>
+            <rendition xml:id="su" scheme="css">vertical-align:sub; font-size:.7em;</rendition>
+            <rendition xml:id="s" scheme="css">text-decoration:line-through;</rendition>
+            <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
             <rendition xml:id="ow">overwritten</rendition>
          </tagsDecl>
       </encodingDesc>
@@ -166,15 +163,13 @@
             <p><add hand="#W" place="margin">avec une Annexe</add></p>
             <p><placeName ref="#loc.1">Aix-la-Chapelle</placeName> le <date when="1818-11-04">4
                   Novembre</date>.</p>
-            <p><rs xml:id="n.1">À la suite des communications faites à la <ref
-                     target="Aachen_Prot_19_xml">Conférence le <date when="1818-10-24">24
+            <p><rs xml:id="n.1">À la suite des communications faites à la <ref target="Aachen_Prot_19_xml">Conférence le <date when="1818-10-24">24
                         Octobre</date></ref>, <persName ref="#p.9"><roleName>Lord</roleName>
                      <surname>Castlereagh</surname></persName> a développé aujourd’hui ses
                   propositions relatives à l’abolition de la Traite des Nègres ; propositions dont
                   le but est, d’un côté, de compléter et d’étendre les mesures adoptées jusqu’ici
                   pour parvenir à l’extinction définitive de ce commerce, et de l’autre côté
-                  d’assurer l’exécution et l’efficacité de ces mesures.</rs><note type="editorial"
-                  target="#n.1">Vgl. Fladeland, Abolitionist Pressures, S. 367–369; Webster, Foreign
+                  d’assurer l’exécution et l’efficacité de ces mesures.</rs><note type="editorial" target="#n.1">Vgl. Fladeland, Abolitionist Pressures, S. 367–369; Webster, Foreign
                   Policy, Bd. 2, S. 463–464; Kielstra, The Politics of Slave Trade, bes. S.
                   86–91.</note></p>
             <p>Quant au premier objet, <persName ref="#p.9"><roleName>Lord</roleName>
@@ -188,14 +183,9 @@
                      <abbr>S. M.</abbr>
                      <expan>Sa Majesté</expan>
                   </choice> Très Fidele</rs>,<note type="editorial" target="#n.2">Ehrentitel des
-                  portugiesischen Königs.</note> en Lui rappelant la part qu’Elle a eue à la <rs
-                  ref="#t.22">déclaration de <placeName ref="#loc.7">Vienne</placeName> du <date
-                     when="1815-02-08">8 février 1815</date></rs>, à fixer sans plus de délai
+                  portugiesischen Königs.</note> en Lui rappelant la part qu’Elle a eue à la <rs ref="#t.22">déclaration de <placeName ref="#loc.7">Vienne</placeName> du <date when="1815-02-08">8 février 1815</date></rs>, à fixer sans plus de délai
                l’époque de l’abolition définitive de la Traite dans la totalité de ses possessions ;
-               époque qui, d’après les engagemens pris par les <rs ref="#p.71 #p.72 #p.73"
-                  >Plénipotentiaires de <rs ref="#p.28">Sa dite Majesté</rs></rs> à <placeName
-                  ref="#loc.7">Vienne</placeName> et consignée au <rs ref="#t.1">Protocole du <date
-                     when="1815-11-20">20 Novembre 1815</date></rs>, ne pourroit<pb n="111v"/>
+               époque qui, d’après les engagemens pris par les <rs ref="#p.71 #p.72 #p.73">Plénipotentiaires de <rs ref="#p.28">Sa dite Majesté</rs></rs> à <placeName ref="#loc.7">Vienne</placeName> et consignée au <rs ref="#t.1">Protocole du <date when="1815-11-20">20 Novembre 1815</date></rs>, ne pourroit<pb n="111v"/>
                outrepasser l’année 1823, mais que les Souverains Alliés désireroient dans l’intérêt
                de cette grande cause voir coïncider avec <rs ref="#t.14">celle que <choice>
                      <abbr>S. M.</abbr>
@@ -212,18 +202,14 @@
                   <rs ref="#p.71 #p.72 #p.73">les Plénipotentiaires de <rs ref="#p.28" xml:id="n.3"><choice>
                            <abbr>S. M.</abbr>
                            <expan>Sa Majesté</expan>
-                        </choice> Très Fidele</rs></rs><note type="editorial" target="#n.3"
-                     >Ehrentitel des portugiesischen Königs</note> émise à <placeName ref="#loc.7"
-                     >Vienne</placeName> le <date when="1815-02-06">6 février 1815</date></rs><note
-                  type="editorial" target="#n.4">Vgl. Angeberg, Congrès, Bd. 1, S. 704–705.</note>
+                        </choice> Très Fidele</rs></rs><note type="editorial" target="#n.3">Ehrentitel des portugiesischen Königs</note> émise à <placeName ref="#loc.7">Vienne</placeName> le <date when="1815-02-06">6 février 1815</date></rs><note type="editorial" target="#n.4">Vgl. Angeberg, Congrès, Bd. 1, S. 704–705.</note>
                <quote>« qu’Ils étoient forcés d’exiger comme une condition indispensable pour
                   l’abolition finale que <rs ref="#p.19"><choice>
                         <abbr>S. M.</abbr>
                         <expan>Sa Majesté</expan>
                      </choice> Britannique</rs> se prêtât de Son côté aux changemens qu’ils avoient
                   proposés dans le système Commercial entre le <country>Portugal</country> et la
-                     <country>Grande-Bretagne</country> »</quote>, a renouvelé l’assurance que <rs
-                  ref="#p.19"><choice>
+                     <country>Grande-Bretagne</country> »</quote>, a renouvelé l’assurance que <rs ref="#p.19"><choice>
                      <abbr>S. M.</abbr>
                      <expan>Sa Majesté</expan>
                   </choice> le Roi de la Grande-Bretagne</rs> étoit prête à accéder à toutes les
@@ -241,9 +227,7 @@
             <p>Quant au second objet, <persName ref="#p.9"><roleName>Lord</roleName>
                   <surname>Castlereagh</surname></persName> a communiqué un Mémorandum renfermant
                des éclaircissemens sur un projet de Traité général conforme à ceux conclus en 1817
-               entre la Grande-Bretagne, <rs ref="#t.14">l’<country>Espagne</country></rs>, <rs
-                  ref="#t.16">le <country>Portugal</country></rs> et le <rs ref="#t.17"
-                     ><country>Royaume des Pays-Bas</country></rs>, établissant le droit de visite
+               entre la Grande-Bretagne, <rs ref="#t.14">l’<country>Espagne</country></rs>, <rs ref="#t.16">le <country>Portugal</country></rs> et le <rs ref="#t.17"><country>Royaume des Pays-Bas</country></rs>, établissant le droit de visite
                contre les vaisseaux évidemment suspects de se livrer à la traite en contravention
                directe des lois déjà existantes, ou à porter plus tard par les différens Etats.
                Persuadé qu’après les explications données et les modifications proposées dans le dit
@@ -256,8 +240,7 @@
                succès de l’abolition et à l’accepter, ou, si non, à y substituer du moins quelque
                contre-projet propre à<pb n="134v"/> prévenir efficacement l’abus que le Commerce
                clandestin ne manqueroit pas de faire du Pavillon des puissances qui répugneroient à
-               concourir à la susdite mesure générale. Le Mémorandum de <persName ref="#p.9"
-                     ><roleName>Lord</roleName>
+               concourir à la susdite mesure générale. Le Mémorandum de <persName ref="#p.9"><roleName>Lord</roleName>
                   <surname>Castlereagh</surname></persName>
                <ref decls="#m.2">a été consigné au Protocole sub <choice>
                      <abbr>Lit.</abbr>
@@ -289,21 +272,15 @@
 
          <div hand="#A" decls="#m.2">
             <pb n="112r"/>
-            <p><add place="top">Annexé au Protocole d’<placeName ref="#loc.1"
-                     >Aix-la-Chapelle</placeName> du <date when="1818-11-04">4 Novembre 1818</date>
+            <p><add place="top">Annexé au Protocole d’<placeName ref="#loc.1">Aix-la-Chapelle</placeName> du <date when="1818-11-04">4 Novembre 1818</date>
                   sub <choice>
                      <abbr>n.</abbr>
                      <expan>numéro</expan>
                   </choice> 23.</add></p>
             <p>1<hi rendition="#su">st</hi> As to the Right <hi rendition="#u">of Visit</hi></p>
-            <p>None of the three Conventions signed by <country>Great Britain</country> with <rs
-                  ref="#t.14"><country>Spain</country></rs>, <rs ref="#t.16"
-                     ><country>Portugal</country></rs> and <rs ref="#t.17"
-                     ><country>Holland</country></rs>, give this right to all Kings Ships
-               indiscriminately. In all it is confined to Kings Ships, having the <hi rendition="#u"
-                  >express Instructions</hi> and Authority, as specified in the Treaty.</p>
-            <p>The Provision is, in all cases, reciprocal,<pb n="112v"/> but the <rs ref="#.17"
-                  >Treaty with the <country>Netherlands</country></rs> restricts the exercise of
+            <p>None of the three Conventions signed by <country>Great Britain</country> with <rs ref="#t.14"><country>Spain</country></rs>, <rs ref="#t.16"><country>Portugal</country></rs> and <rs ref="#t.17"><country>Holland</country></rs>, give this right to all Kings Ships
+               indiscriminately. In all it is confined to Kings Ships, having the <hi rendition="#u">express Instructions</hi> and Authority, as specified in the Treaty.</p>
+            <p>The Provision is, in all cases, reciprocal,<pb n="112v"/> but the <rs ref="#.17">Treaty with the <country>Netherlands</country></rs> restricts the exercise of
                this right to any number of Ships of each Power, not exceeding 12 in the whole. Each
                Power, as soon as it grants these Instructions to any of its ships of war, is bound
                to notify to the other the name of the Vessel so authorized to visit.</p>
@@ -340,8 +317,7 @@
             <p>The mixed Commission has no other Authority, than summarily to decide, whether the
                ship has been properly detained, or not, for having slaves illicitly on board. If
                this is decided in the Affirmative,<pb n="115v"/> the ship and cargo (if any on
-               board) are forfeited, the proceeds to be equally divided between the <hi
-                  rendition="#u">two States</hi>; the Slaves to be provided for by the State in
+               board) are forfeited, the proceeds to be equally divided between the <hi rendition="#u">two States</hi>; the Slaves to be provided for by the State in
                whose Territory the Condemnation takes place.</p>
             <p>If the mixed Commission orders the Vessel to be released, it is required at the same
                moment to award such pecuniary<pb n="116r"/> compensation to the owners for such
@@ -365,16 +341,14 @@
                   <expan>videlicet</expan>
                </choice> that so long as either Power might lawfully trade in Slaves to the South of
                the Equator, no detention should take place within those Limits.</p>
-            <p>In the <rs ref="#t.17">Convention with <country>Holland</country></rs>, <rs
-                  xml:id="n.5">a Line is drawn from the Straits of<pb n="117v"/> Gibraltar to a
+            <p>In the <rs ref="#t.17">Convention with <country>Holland</country></rs>, <rs xml:id="n.5">a Line is drawn from the Straits of<pb n="117v"/> Gibraltar to a
                   Point in the <country><choice>
                         <abbr>U.</abbr>
                         <expan>United</expan>
                      </choice> States</country></rs>,<note type="editorial" target="#n.5">Artikel
                   III, Absatz 1 des Vertrags: 37 ° nördlicher Breite.</note> so as to except out of
                the operation of the Convention what may be called the European Seas.</p>
-            <p>In all the <rs ref="#t.14 #t.16 #t.17">three Conventions</rs>, the whole range<pb
-                  n="118r"/> of voyage, from the Coast of Africa to the opposite Shores of America,
+            <p>In all the <rs ref="#t.14 #t.16 #t.17">three Conventions</rs>, the whole range<pb n="118r"/> of voyage, from the Coast of Africa to the opposite Shores of America,
                including the <choice>
                   <abbr>W.</abbr>
                   <expan>West</expan>
@@ -390,8 +364,7 @@
                having little or no Trade on that coast, instead of immediately going to the
                   expense<pb n="119v"/> of constituting commissions, might reserve the Power of
                doing so whenever she thought fit; or might be enabled, if she should prefer it, to
-               appoint the Commissaries of any other State to take cognisance in her name, of any<pb
-                  n="120r"/> cases in which the property of Austrian subjects might be
+               appoint the Commissaries of any other State to take cognisance in her name, of any<pb n="120r"/> cases in which the property of Austrian subjects might be
                concerned.</p>
             <p>The fourth head seems most susceptible of comment, as it admits the possibility of
                search on the other side of the Atlantick and in the<pb n="120v"/> West Indian Seas,
@@ -403,13 +376,11 @@
                conceives, imaginary Inconvenien<supplied>ce</supplied> – considering that so urgent
                a claim upon her humanity would not only justify, but impose upon her<pb n="121v"/>
                as a moral duty even a greater sacrifice.</p>
-            <p>But notwithstanding what <country>Great Britain</country> has already done in the <rs
-                  ref="#t.14 #t.16 #t.17">treaties with the three Powers</rs>, with whom she has
+            <p>But notwithstanding what <country>Great Britain</country> has already done in the <rs ref="#t.14 #t.16 #t.17">treaties with the three Powers</rs>, with whom she has
                contracted, and is ready to do with all other civilized States, namely, to run some
                risk of<pb n="122r"/> Inconvenience for so noble a purpose, there is a distinction
                which may reasonably be taken between giving effect to this system upon the Coast of
-               Africa, and for a certain distance, <rs xml:id="n.6">say 200 Leagues</rs><note
-                  type="editorial" target="#n.6">1 Meile = 1760 Yards = 1609,344 Meter; vgl. Weights
+               Africa, and for a certain distance, <rs xml:id="n.6">say 200 Leagues</rs><note type="editorial" target="#n.6">1 Meile = 1760 Yards = 1609,344 Meter; vgl. Weights
                   &amp; Measures Act 1985, Schedule I, Part VI;<ref target="commentary-c1337053">
                      http://www.legislation.gov.uk/ukpga/1985/72/schedules#commentary-c1337053</ref>
                   (eingesehen am 11. Dezember 2012).</note> from that particular Coast, and the
@@ -428,8 +399,7 @@
                this moment, emancipated from the Traffick by the Laws of all States having
                Colonies.</p>
             <pb n="124r"/>
-            <p><rs xml:id="n.8">2<hi rendition="#su">dly</hi> By the <rs xml:id="n.7"><rs
-                        ref="#t.14"><date when="1820-05-20">20<hi rendition="#su">th</hi> May
+            <p><rs xml:id="n.8">2<hi rendition="#su">dly</hi> By the <rs xml:id="n.7"><rs ref="#t.14"><date when="1820-05-20">20<hi rendition="#su">th</hi> May
                            1820</date></rs></rs><note type="editorial" target="#n.7">Artikel 1,
                      Vertrag zwischen Großbritannien und Spanien zur Abschaffung des Sklavenhandels,
                      Madrid 23. September 1817: Der König von Spanien verpflichtet sich in seinem
@@ -451,12 +421,10 @@
                   Flag<pb n="125r"/> of the smallest Power might, in legal Theory, cover these
                Transactions, but, where the Property is not belonging to a Subject of that Power,
                but of a State that has abolished, the Flag of that Power, so used in fraud, would be
-               no Cover, and the Property thus masked would be condemned, whilst the Sovereign,<pb
-                  n="125v"/> whose Flag was thus prostituted, neither could nor would complain.</p>
+               no Cover, and the Property thus masked would be condemned, whilst the Sovereign,<pb n="125v"/> whose Flag was thus prostituted, neither could nor would complain.</p>
             <p>But so long as any of the Great Powers, such as <country>France</country>, having a
                considerable Extent of Commerce on those Coasts, shall refuse themselves to the
-               System, not only their Example will discourage other States, whose Interest is<pb
-                  n="126r"/> merely nominal, from taking a part, but it will furnish the Illicit
+               System, not only their Example will discourage other States, whose Interest is<pb n="126r"/> merely nominal, from taking a part, but it will furnish the Illicit
                Slave Trader with a Flag, not only so much to be respected in itself, but so
                presumeably to be found on the Coast for purposes of Innocent Commerce, that no
                Commissioned Officer will <hi rendition="#u">run the risk</hi> of looking into such a
@@ -498,9 +466,7 @@
                from the common effort, more especially if imitated by <country>Russia</country>,
                   <country>Austria</country>, and <country>Prussia</country>, will not only
                disappoint all the hopes which the world has been<pb n="130v"/> taught to form, with
-               respect to the Labours of the <rs xml:id="n.9">Conference established in <placeName
-                     ref="#loc.8">London</placeName>, <rs ref="#t.1">under the 3<hi rendition="#su"
-                        >d</hi> additional <choice>
+               respect to the Labours of the <rs xml:id="n.9">Conference established in <placeName ref="#loc.8">London</placeName>, <rs ref="#t.1">under the 3<hi rendition="#su">d</hi> additional <choice>
                         <abbr>Art.</abbr>
                         <expan>Article</expan>
                      </choice> of the Treaty of <choice>
@@ -517,23 +483,19 @@
                of a restricted visit of their Merchant Ships bend to the greater Claims of Humanity;
                the other, of States<pb n="131v"/> considering the former objection as so far
                paramount, as not to admit of any Qualification, even for the indisputable advantage
-               of a Cause, to the importance of which they have at <placeName ref="#loc.7"
-                  >Vienna</placeName> given a not less solemn sanction. This must materially retard
+               of a Cause, to the importance of which they have at <placeName ref="#loc.7">Vienna</placeName> given a not less solemn sanction. This must materially retard
                the Ultimate Success of<pb n="132r"/> the Measure, and it may in the interval keep
                alive an inconvenient degree of controversy &amp; Agitation upon a subject which has
                contributed above all others seriously to excite the Moral &amp; Religious Sentiments
-               of all Nations, but especially of the British People, where the Question has long<pb
-                  n="132v"/> been regarded as One of the deepest Interest.</p>
+               of all Nations, but especially of the British People, where the Question has long<pb n="132v"/> been regarded as One of the deepest Interest.</p>
          </div>
       </body>
       <back>
          <include xmlns="http://www.w3.org/2001/XInclude" href="listPlace.xml" xpointer="listPlace"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="listPerson.xml"
-            xpointer="listPerson"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listPerson.xml" xpointer="listPerson"/>
          <include xmlns="http://www.w3.org/2001/XInclude" href="listWit.xml" xpointer="listWit"/>
          <include xmlns="http://www.w3.org/2001/XInclude" href="listOrg.xml" xpointer="listOrg"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="listTreaties.xml"
-            xpointer="listTreaties"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listTreaties.xml" xpointer="listTreaties"/>
       </back>
    </text>
 </TEI>

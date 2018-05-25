@@ -1,8 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -39,16 +36,13 @@
                </msIdentifier>
                <msContents>
                   <msItem>
-                     <title>Antwort der russischen Bevollmächtigten auf die Vorschläge <persName
-                           ref="#p.8"><surname>Metternichs</surname></persName> vom <date
-                           when="1822-10-31">31. Oktober 1822</date>
+                     <title>Antwort der russischen Bevollmächtigten auf die Vorschläge <persName ref="#p.8"><surname>Metternichs</surname></persName> vom <date when="1822-10-31">31. Oktober 1822</date>
                      </title>
                   </msItem>
                </msContents>
                <physDesc>
                   <p>Ausfertigung</p>
-                  <p>Dokument liegt in einem Umschlag mit der Aufschrift von der Hand <persName
-                        ref="#p.8"><surname>Metternichs</surname></persName>: "No 8. Projets des
+                  <p>Dokument liegt in einem Umschlag mit der Aufschrift von der Hand <persName ref="#p.8"><surname>Metternichs</surname></persName>: "No 8. Projets des
                      réponses des Cabinets à la proposition autrichienne".</p>
 
                   <handDesc>
@@ -83,9 +77,9 @@
          </appInfo>
          <styleDefDecl scheme="css"/>
          <tagsDecl>
-            <rendition xml:id="su">superscript</rendition>
-            <rendition xml:id="s">strikethrough</rendition>
-            <rendition xml:id="u">underline</rendition>
+            <rendition xml:id="su" scheme="css">vertical-align:sub; font-size:.7em;</rendition>
+            <rendition xml:id="s" scheme="css">text-decoration:line-through;</rendition>
+            <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
             <rendition xml:id="ow">overwritten</rendition>
          </tagsDecl>
       </encodingDesc>
@@ -94,8 +88,7 @@
             <p>Die <rs ref="#p.13">russischen Vertreter</rs> erklären, der <rs ref="#p.17">Zar</rs>
                begrüße die Vorschläge des österreichischen Kabinetts zur schnellstmöglichen
                Beendigung der Revolution in <country>Spanien</country> und schlagen vor, sich
-               bereits über weitere Maßnahmen zu einigen, falls das von den <rs ref="#p.8"
-                  >Vertretern Österreichs</rs> angeregte Vorgehen sich als nicht zielführend
+               bereits über weitere Maßnahmen zu einigen, falls das von den <rs ref="#p.8">Vertretern Österreichs</rs> angeregte Vorgehen sich als nicht zielführend
                erweisen sollte. Zudem plädieren sie, in Anlehnung an die Vorschläge Österreichs, für
                Separatnoten der Mächte an die spanische Regierung.</p>
          </abstract>
@@ -106,14 +99,12 @@
          <div decls="#m.1" hand="#A">
             <pb n="181r"/>
 
-            <p><title>Réponse des <rs ref="#p.13">Plénipotentiaires de Russie</rs> aux <ref
-                     target="Verona_I_7.xml">propositions faites par le Cabinet Autrichien à la
+            <p><title>Réponse des <rs ref="#p.13">Plénipotentiaires de Russie</rs> aux <ref target="Verona_I_7.xml">propositions faites par le Cabinet Autrichien à la
                      Conférence du <date when="1822-10-31">31 Octobre</date></ref></title>
             </p>
             <p><placeName ref="#loc.68">Vérone</placeName>, le 21 Octobre/<date when="1822-11-02">2
                   Novembre 1822</date>.</p>
-            <p>À la suite des propositions faites par le Cabinet Autrichien, les <rs ref="#p.13"
-                  >Plénipotentiaires de Russie</rs> ont déclaré :</p>
+            <p>À la suite des propositions faites par le Cabinet Autrichien, les <rs ref="#p.13">Plénipotentiaires de Russie</rs> ont déclaré :</p>
             <p>« Que l’<rs ref="#p.17">Empereur</rs>, leur Maître, ne pourroit que Se féliciter de
                voir la Cour de <placeName ref="#loc.7">Vienne</placeName> signaler la nécessité
                d’une démarche dont l’objet seroit de hâter le terme de la révolution en
@@ -128,32 +119,26 @@
             <p>Qu’en conséquence il leur paroît nécessaire de prévoir dès à présent le cas où la
                démarche proposée par l’<country>Autriche</country> seroit infructueuse ; </p>
             <p>De définir l’attitude que prendroit chacune des Puissances intervenantes si les
-               représentations de <rs ref="#p.177 #p.123 #p.178 #p.179">leurs Ministres à <placeName
-                     ref="#loc.24">Madrid</placeName></rs> n’étoient pas écoutées ; </p>
-            <p>D’utiliser, en un mot, l’importante époque du Congrès de <placeName ref="#loc.68"
-                  >Vérone</placeName> pour<pb n="182r"/> arrêter avec précision le plan de conduite
+               représentations de <rs ref="#p.177 #p.123 #p.178 #p.179">leurs Ministres à <placeName ref="#loc.24">Madrid</placeName></rs> n’étoient pas écoutées ; </p>
+            <p>D’utiliser, en un mot, l’importante époque du Congrès de <placeName ref="#loc.68">Vérone</placeName> pour<pb n="182r"/> arrêter avec précision le plan de conduite
                à suivre par ces Puissances dans toutes les circonstances que pourront amener leurs
                explications avec le Gouvernement Espagnol et les déterminations qu’il aura
                provoquées de leur part. »</p>
-            <p>Pour ce qui est du mode de la démarche en question, les <rs ref="#p.13"
-                  >Plénipotentiaires de Russie</rs> ont été d’avis qu’une déclaration faite au moyen
+            <p>Pour ce qui est du mode de la démarche en question, les <rs ref="#p.13">Plénipotentiaires de Russie</rs> ont été d’avis qu’une déclaration faite au moyen
                de notes séparées, mais uniformes quant au point de départ &amp; au but offriroit le
                plus de facilité.</p>
             <p>C’est sur cette dernière base et dans la vue de réaliser aussi complètement que
-               possible les idées<pb n="182v"/> qu’ils venoient d’indiquer que les <rs ref="#p.13"
-                  >Plénipotentiaires de Russie</rs> ont témoigné être prêts à se concerter avec ceux
+               possible les idées<pb n="182v"/> qu’ils venoient d’indiquer que les <rs ref="#p.13">Plénipotentiaires de Russie</rs> ont témoigné être prêts à se concerter avec ceux
                des autres Cours alliées sur la suite à donner aux propositions du Cabinet de
                   <placeName ref="#loc.7">Vienne</placeName>.</p>
          </div>
       </body>
       <back>
          <include xmlns="http://www.w3.org/2001/XInclude" href="listPlace.xml" xpointer="listPlace"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="listPerson.xml"
-            xpointer="listPerson"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listPerson.xml" xpointer="listPerson"/>
          <include xmlns="http://www.w3.org/2001/XInclude" href="listWit.xml" xpointer="listWit"/>
          <include xmlns="http://www.w3.org/2001/XInclude" href="listOrg.xml" xpointer="listOrg"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="listTreaties.xml"
-            xpointer="listTreaties"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listTreaties.xml" xpointer="listTreaties"/>
       </back>
    </text>
 </TEI>

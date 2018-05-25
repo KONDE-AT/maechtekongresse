@@ -1,8 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -103,30 +100,22 @@
          </appInfo>
          <styleDefDecl scheme="css"/>
          <tagsDecl>
-            <rendition xml:id="su">superscript</rendition>
-            <rendition xml:id="s">strikethrough</rendition>
-            <rendition xml:id="u">underline</rendition>
-            <rendition xml:id="r">right</rendition>
+            <rendition xml:id="su" scheme="css">vertical-align:sub; font-size:.7em;</rendition>
+            <rendition xml:id="s" scheme="css">text-decoration:line-through;</rendition>
+            <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
+            <rendition xml:id="r" scheme="css">display:block; text-align:right;</rendition>
          </tagsDecl>
       </encodingDesc>
       <profileDesc>
          <abstract>
             <p>Die <rs ref="#p.160 #p.102 #p.135">Vertreter Frankreichs</rs> stimmen den Ergebnissen
-               der vorhergegangenen sechs Konferenzen zu. Der britische Gesandte <persName
-                  ref="#p.137"><surname>Stewart</surname></persName> erklärt, dass er nicht
-               autorisiert sei, an den Verhandlungen in <placeName ref="#loc.65"
-                  >Laibach</placeName>/<placeName ref="#loc.65">Ljubljana</placeName> teilzunehmen.
+               der vorhergegangenen sechs Konferenzen zu. Der britische Gesandte <persName ref="#p.137"><surname>Stewart</surname></persName> erklärt, dass er nicht
+               autorisiert sei, an den Verhandlungen in <placeName ref="#loc.65">Laibach</placeName>/<placeName ref="#loc.65">Ljubljana</placeName> teilzunehmen.
                Die <rs ref="#p.8 #p.2 #p.12 #p.13 #p.14 #p.7 #p.160 #p.102 #p.135">Vertreter der
-                  Mächte</rs> beschließen, umgehend mit der Redaktion der Instruktionen für die <rs
-                  ref="#p.144 #p.147 #p.148 #p.149">österreichischen, französischen, preußischen und
-                  russischen diplomatischen Vertreter in <placeName ref="#loc.11"
-                  >Neapel</placeName></rs> zu beginnen. Der neapolitanische Gesandte <persName
-                  ref="#p.140"><surname>Ruffo</surname></persName> kündigt an, dass der <rs
-                  ref="#p.138">König beider Sizilien</rs> den <persName ref="#p.142"><roleName>duca
+                  Mächte</rs> beschließen, umgehend mit der Redaktion der Instruktionen für die <rs ref="#p.144 #p.147 #p.148 #p.149">österreichischen, französischen, preußischen und
+                  russischen diplomatischen Vertreter in <placeName ref="#loc.11">Neapel</placeName></rs> zu beginnen. Der neapolitanische Gesandte <persName ref="#p.140"><surname>Ruffo</surname></persName> kündigt an, dass der <rs ref="#p.138">König beider Sizilien</rs> den <persName ref="#p.142"><roleName>duca
                      di Gallo</roleName></persName> zu sich rufen wird, um ihm jene Befehle zukommen
-               zu lassen, die sich aus der <ref target="Laibach_Prot_6.xml">Sitzung vom <date
-                     when="1821-01-22">22. Jänner</date></ref> ergeben. Die <rs
-                  ref="#p.8 #p.2 #p.12 #p.13 #p.14 #p.7 #p.160 #p.102 #p.135">Vertreter der
+               zu lassen, die sich aus der <ref target="Laibach_Prot_6.xml">Sitzung vom <date when="1821-01-22">22. Jänner</date></ref> ergeben. Die <rs ref="#p.8 #p.2 #p.12 #p.13 #p.14 #p.7 #p.160 #p.102 #p.135">Vertreter der
                   Mächte</rs> beschließen, die Bevollmächtigten der italienischen Höfe zur nächsten
                Sitzung zuzulassen und ihnen die Journale der vorhergehenden Sitzungen zukommen zu
                lassen.</p>
@@ -221,9 +210,7 @@
                </choice> le <rs ref="#p.130">Roi</rs>, son Maître, n’a pas jugé convenable à
                l’attitude dans laquelle<pb n="26v"/> Elle s’est placée relativement aux questions
                qui s’y traitent, de nommer un Plénipotentiaire à ces Conférences.</p>
-            <p>On est convenu de faire rédiger incessamment des instructions aux <rs
-                  ref="#p.144 #p.148 #p.149">agens diplomatiques résidant à <placeName ref="#loc.11"
-                     >Naples</placeName></rs> lesquelles renfermeront la substance de ce qui se
+            <p>On est convenu de faire rédiger incessamment des instructions aux <rs ref="#p.144 #p.148 #p.149">agens diplomatiques résidant à <placeName ref="#loc.11">Naples</placeName></rs> lesquelles renfermeront la substance de ce qui se
                trouve consigné dans le Journal des six premières Conférences.</p>
             <p><choice>
                   <abbr>M<hi rendition="#su">r</hi></abbr>
@@ -237,15 +224,13 @@
                   <expan>Monsieur</expan>
                </choice> le <rs ref="#p.142"><roleName>Duc</roleName>
                   <surname>de Gallo</surname></rs> pour lui donner ses ordres en conséquence de ce
-               qui avait été arrêté à <ref target="Laibach_Prot_6.xml">la Conférence du <date
-                     when="1821-01-22">22 de ce mois</date></ref>.</p>
+               qui avait été arrêté à <ref target="Laibach_Prot_6.xml">la Conférence du <date when="1821-01-22">22 de ce mois</date></ref>.</p>
             <p>La conférence a en outre arrêté que <choice>
                   <abbr>MM.</abbr>
                   <expan>Messieurs</expan>
                </choice> les Ministres des Cours d’Italie, arrivés ici en qualité de
                Plénipotentiaires à la suite de l’invitation adressée à leurs Cours respectives
-               d’après <ref target="Troppau_Prot_8.xml">la détermination prise à <placeName
-                     ref="#loc.60">Troppau</placeName> le <date when="1820-12-24">24 Décembre <choice>
+               d’après <ref target="Troppau_Prot_8.xml">la détermination prise à <placeName ref="#loc.60">Troppau</placeName> le <date when="1820-12-24">24 Décembre <choice>
                         <abbr>a. p.</abbr>
                         <expan>an passé</expan>
                      </choice></date></ref>, seront invités à la conférence de demain pour prendre
@@ -286,12 +271,10 @@
       </body>
       <back>
          <include xmlns="http://www.w3.org/2001/XInclude" href="listPlace.xml" xpointer="listPlace"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="listPerson.xml"
-            xpointer="listPerson"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listPerson.xml" xpointer="listPerson"/>
          <include xmlns="http://www.w3.org/2001/XInclude" href="listWit.xml" xpointer="listWit"/>
          <include xmlns="http://www.w3.org/2001/XInclude" href="listOrg.xml" xpointer="listOrg"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="listTreaties.xml"
-            xpointer="listTreaties"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listTreaties.xml" xpointer="listTreaties"/>
       </back>
    </text>
 </TEI>

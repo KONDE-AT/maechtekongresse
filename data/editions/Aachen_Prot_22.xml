@@ -1,8 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -79,8 +76,7 @@
                         <abbr>N<hi rendition="#su">o</hi></abbr>
                         <expan>Numéro</expan>
                      </choice> 22 relatif à l’alliance".</p>
-                  <p>Auf fol. I/108v Vermerk: "Apperçu sommaire de la Position des Choses. Le <date
-                        when="1818-11-01">1<hi rendition="#su">er</hi>
+                  <p>Auf fol. I/108v Vermerk: "Apperçu sommaire de la Position des Choses. Le <date when="1818-11-01">1<hi rendition="#su">er</hi>
                         <choice>
                            <abbr>Nov<hi rendition="#su">e</hi></abbr>
                            <expan>Novembre</expan>
@@ -107,9 +103,9 @@
          </appInfo>
          <styleDefDecl scheme="css"/>
          <tagsDecl>
-            <rendition xml:id="su">superscript</rendition>
-            <rendition xml:id="s">strikethrough</rendition>
-            <rendition xml:id="u">underline</rendition>
+            <rendition xml:id="su" scheme="css">vertical-align:sub; font-size:.7em;</rendition>
+            <rendition xml:id="s" scheme="css">text-decoration:line-through;</rendition>
+            <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
             <rendition xml:id="ow">overwritten</rendition>
          </tagsDecl>
       </encodingDesc>
@@ -117,13 +113,10 @@
          <abstract>
             <p>Die <rs ref="#p.8 #p.11 #p.13 #p.12 #p.14 #p.9 #p.10">Vertreter der alliierten
                   Mächte</rs> beraten über den Wortlaut des <rs ref="#t.6">Vertrags zur
-                  Quadrupelallianz</rs> und erteilen dem britischen Bevollmächtigen <persName
-                  ref="#p.10"><surname>Wellington</surname></persName> den Auftrag, dem
-               französischen Premierminister <persName ref="#p.1"
-                  ><surname>Richelieu</surname></persName> ausgewählte Dokumente zu übermitteln. Die
+                  Quadrupelallianz</rs> und erteilen dem britischen Bevollmächtigen <persName ref="#p.10"><surname>Wellington</surname></persName> den Auftrag, dem
+               französischen Premierminister <persName ref="#p.1"><surname>Richelieu</surname></persName> ausgewählte Dokumente zu übermitteln. Die
                vorliegende Zusammenfassung der diesbezüglichen Verhandlungen durch die
-               österreichische Delegation hat keinen Einfluss auf die Bestimmungen des <ref
-                  target="Aachen_Prot_16.xml">Protokolls vom <date when="1818-10-19">19. Oktober
+               österreichische Delegation hat keinen Einfluss auf die Bestimmungen des <ref target="Aachen_Prot_16.xml">Protokolls vom <date when="1818-10-19">19. Oktober
                      1818</date></ref>.</p>
          </abstract>
          <particDesc>
@@ -176,8 +169,7 @@
                   <country>France</country> que vis-à-vis des autres Etats de l’Europe, différens
                projets de rédaction ont été discutés dans les <rs xml:id="n.1">séances du 31
                   Octobre, 1</rs><note type="editorial" target="#n.1">Sitzungsprotokolle vom 31.
-                  Oktober sowie vom 1. November 1818 liegen nicht ein.</note> et <ref
-                  target="Aachen_Prot_21.xml">3 Novembre</ref>.</p>
+                  Oktober sowie vom 1. November 1818 liegen nicht ein.</note> et <ref target="Aachen_Prot_21.xml">3 Novembre</ref>.</p>
             <p>Dans celle du 4 Novembre, <choice>
                   <abbr>Mr.</abbr>
                   <expan>Monsieur</expan>
@@ -222,8 +214,7 @@
                   <abbr>Mr.</abbr>
                   <expan>Monsieur</expan>
                </choice> le <persName ref="#p.8"><roleName>Prince</roleName>
-                  <surname>de Metternic</surname>h</persName>, on invalidoit le <ref
-                  target="Aachen_Prot_16.xml">Protocole du <date when="1818-10-19">19
+                  <surname>de Metternic</surname>h</persName>, on invalidoit le <ref target="Aachen_Prot_16.xml">Protocole du <date when="1818-10-19">19
                   Octobre</date></ref>, dans lequel se trouvoient posés, de l’assentiment unanime de
                la Conférence, les principes à suivre pour la rédaction des Quatre Projets qu’on
                vient d’admettre, et dont <choice>
@@ -262,8 +253,7 @@
 
          <div hand="#A" decls="#m.2">
             <pb n="105r"/>
-            <p><add hand="#W" place="margin">Joint au Protocole d’<placeName ref="#loc.1"
-                     >Aix-la-Chapelle</placeName> du <date when="1818-11-04">4 <choice>
+            <p><add hand="#W" place="margin">Joint au Protocole d’<placeName ref="#loc.1">Aix-la-Chapelle</placeName> du <date when="1818-11-04">4 <choice>
                         <abbr>9<hi rendition="#su">bre</hi></abbr>
                         <expan>Novembre</expan>
                      </choice></date></add></p>
@@ -272,8 +262,7 @@
             <p>I. Principes</p>
             <p>1. </p>
             <p>Il existe une alliance ; la quadruple.</p>
-            <p>Le <rs xml:id="n.2"><hi rendition="#u">casus foederis</hi></rs><note type="editorial"
-                  target="#n.2">Lat.: Bündnisfall.</note> de cette alliance est spécialement
+            <p>Le <rs xml:id="n.2"><hi rendition="#u">casus foederis</hi></rs><note type="editorial" target="#n.2">Lat.: Bündnisfall.</note> de cette alliance est spécialement
                applicable à la <country>France</country>.</p>
             <p>La sureté des quatre Cours contractantes exige qu’il soit explicitement maintenu.</p>
             <p>L’intérêt bien entendu de la <country>France</country> l’exige de son côté.</p>
@@ -284,8 +273,7 @@
                <hi rendition="#u">tranquille et placée sous un Roi légitime et sous ses formes
                   constitutionelles.</hi></p>
             <p>Les moyens d’atteindre ce double but doivent être cherchés dans le choix des formes
-               et dans la rédaction des transactions politiques, à arrêter à la réunion d’<placeName
-                  ref="#loc.1">Aix-la-Chapelle</placeName>.</p>
+               et dans la rédaction des transactions politiques, à arrêter à la réunion d’<placeName ref="#loc.1">Aix-la-Chapelle</placeName>.</p>
             <pb n="105v"/>
             <p>2.</p>
             <p>La <country>France</country> toutefois ne se trouve pas encore placée dans l’attitude
@@ -301,9 +289,7 @@
             <p>Ce but ne sauroit être atteint dans la forme d’un traité d’alliance :</p>
             <p>1<hi rendition="#su">o</hi> Parcequ’il n’est pas dans l’intérêt d’un système de paix
                que l’on crée de nouvelles alliances ;</p>
-            <p>2<hi rendition="#su">o</hi> Parcequ’un traité d’alliance exige un <rs xml:id="n.3"
-                     ><hi rendition="#u">casus foederis</hi></rs><note type="editorial"
-                  target="#n.3">Lat.: Bündnisfall.</note>.</p>
+            <p>2<hi rendition="#su">o</hi> Parcequ’un traité d’alliance exige un <rs xml:id="n.3"><hi rendition="#u">casus foederis</hi></rs><note type="editorial" target="#n.3">Lat.: Bündnisfall.</note>.</p>
             <p>Or la possibilité d’en établir<pb n="106r"/> un entre les cinq Cours relativement à
                elles-mêmes n’existe pas ; et vouloir en établir un sur le maintien du repos dans des
                Etats non-admis à l’alliance seroit chose absurde.</p>
@@ -336,8 +322,7 @@
             <p>1<hi rendition="#su">o</hi></p>
             <p>La sanction de la quadruple alliance<pb n="107r"/> doit avoir lieu entre les quatre
                Cours.</p>
-            <p>L’acte qui renferme cette sanction doit être communiqué confidentiellement au <rs
-                  ref="#p.15">Roi de France</rs>.</p>
+            <p>L’acte qui renferme cette sanction doit être communiqué confidentiellement au <rs ref="#p.15">Roi de France</rs>.</p>
             <p>2<hi rendition="#su">o</hi></p>
             <p>L’établissement du concert diplomatique entre les cinq Cours.</p>
             <p>3<hi rendition="#su">o</hi></p>
@@ -359,12 +344,10 @@
       </body>
       <back>
          <include xmlns="http://www.w3.org/2001/XInclude" href="listPlace.xml" xpointer="listPlace"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="listPerson.xml"
-            xpointer="listPerson"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listPerson.xml" xpointer="listPerson"/>
          <include xmlns="http://www.w3.org/2001/XInclude" href="listWit.xml" xpointer="listWit"/>
          <include xmlns="http://www.w3.org/2001/XInclude" href="listOrg.xml" xpointer="listOrg"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="listTreaties.xml"
-            xpointer="listTreaties"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listTreaties.xml" xpointer="listTreaties"/>
       </back>
    </text>
 </TEI>

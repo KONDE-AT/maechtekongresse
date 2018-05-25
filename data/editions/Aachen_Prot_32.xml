@@ -1,8 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -42,8 +39,7 @@
                </msContents>
                <physDesc>
 
-                  <p> Eigenhändiges Protokoll von <persName ref="#p.5"
-                        ><surname>Gentz</surname></persName>.</p>
+                  <p> Eigenhändiges Protokoll von <persName ref="#p.5"><surname>Gentz</surname></persName>.</p>
                   <p>Die Anlagen liegen in einer Schleife mit der Aufschrift "Protocole <choice>
                         <abbr>n<hi rendition="#su">o</hi></abbr>
                         <expan>numéro</expan>
@@ -160,13 +156,10 @@
                <physDesc>
 
                   <p>Abschrift</p>
-                  <p>Auf fol. II/125r folgende Erläuterung von <persName ref="#p.6"
-                           ><surname>Wacken</surname></persName>: "Dans le <ref
-                        target="Aachen_Prot_14.xml">Protocole du <date when="1818-10-17">17 <choice>
+                  <p>Auf fol. II/125r folgende Erläuterung von <persName ref="#p.6"><surname>Wacken</surname></persName>: "Dans le <ref target="Aachen_Prot_14.xml">Protocole du <date when="1818-10-17">17 <choice>
                               <abbr>8<hi rend="#su">bre</hi></abbr>
                               <expan>Octobre</expan>
-                           </choice></date></ref> il a été résolu d’inviter le <rs ref="#p.22"
-                        >Grand-Duc de Bade</rs> à faire connoître le sacrifice additionnel qu’il
+                           </choice></date></ref> il a été résolu d’inviter le <rs ref="#p.22">Grand-Duc de Bade</rs> à faire connoître le sacrifice additionnel qu’il
                      veut offrir, et à envoyer en même temps <rs ref="#p.26">son Ministre</rs> à
                         <placeName ref="#loc.1">Aix-la Chapelle</placeName>. Il a été écrit en
                      conséquence au <persName ref="#p.26"><roleName><choice>
@@ -174,8 +167,7 @@
                               <expan>Baron</expan>
                            </choice></roleName>
                         <surname>de Berstett</surname></persName>.</p>
-                  <p>Le Mémoire du Ministère de Russie est le même qui a été consigné au <ref
-                        target="Aachen_Prot_28.xml">Protocole du 10 Novembre (sub <choice>
+                  <p>Le Mémoire du Ministère de Russie est le même qui a été consigné au <ref target="Aachen_Prot_28.xml">Protocole du 10 Novembre (sub <choice>
                            <abbr>n<hi rendition="#su">o</hi></abbr>
                            <expan>numéro</expan>
                         </choice> 28)</ref>.</p>
@@ -386,23 +378,20 @@
          </appInfo>
          <styleDefDecl scheme="css"/>
          <tagsDecl>
-            <rendition xml:id="su">superscript</rendition>
-            <rendition xml:id="s">strikethrough</rendition>
-            <rendition xml:id="u">underline</rendition>
+            <rendition xml:id="su" scheme="css">vertical-align:sub; font-size:.7em;</rendition>
+            <rendition xml:id="s" scheme="css">text-decoration:line-through;</rendition>
+            <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
             <rendition xml:id="ow">overwritten</rendition>
          </tagsDecl>
       </encodingDesc>
       <profileDesc>
          <abstract>
-            <p>Der britische Vertreter <persName ref="#p.10"
-                  ><surname>Wellington</surname></persName> berichtet über kriminelle Verschwörungen
+            <p>Der britische Vertreter <persName ref="#p.10"><surname>Wellington</surname></persName> berichtet über kriminelle Verschwörungen
                in den <country>Niederlanden</country>. Anschließend Verlesung eines Protokolls
-               betreffend die Wünsche der mediatisierten Fürsten und Grafen. Die <rs
-                  ref="#p.1 #p.8 #p.9 #p.10 #p.11 #p.12 #p.13 #p.14">Vertreter der Mächte</rs>
+               betreffend die Wünsche der mediatisierten Fürsten und Grafen. Die <rs ref="#p.1 #p.8 #p.9 #p.10 #p.11 #p.12 #p.13 #p.14">Vertreter der Mächte</rs>
                beraten über strittige Angelegenheiten innerhalb des Deutschen Bundes: den
                territorialen Konflikt zwischen dem <country>Großherzogtum Baden</country> und dem
-                  <country>Königreich Bayern</country>, den Zoll von <placeName ref="#loc.33"
-                  >Elsfleth</placeName> und die Ansprüchen des <rs ref="#p.76">Herzogs von
+                  <country>Königreich Bayern</country>, den Zoll von <placeName ref="#loc.33">Elsfleth</placeName> und die Ansprüchen des <rs ref="#p.76">Herzogs von
                   Oldenburg</rs>, die Klage des <persName ref="#p.80"><roleName>Prinzen</roleName>
                   <surname>Windisch-Graetz</surname></persName> gegen den <rs ref="#p.81">König von
                   Württemberg</rs>, den Konflikt zwischen dem <rs ref="#p.78">Landgrafen von
@@ -411,8 +400,7 @@
                die Beschwerden ehemaliger Grundbesitzer im <country>Königreich Westphalen</country>
                im nunmehrigen <country>Kurfürstentum Hessen</country>. Der französische
                Premierminister <persName ref="#p.1"><surname>Richelieu</surname></persName>
-               thematisiert die Gefahren der Piraterie im Atlantik; die <rs
-                  ref="#p.1 #p.8 #p.9 #p.10 #p.11 #p.12 #p.13 #p.14">Vertreter der Mächte</rs>
+               thematisiert die Gefahren der Piraterie im Atlantik; die <rs ref="#p.1 #p.8 #p.9 #p.10 #p.11 #p.12 #p.13 #p.14">Vertreter der Mächte</rs>
                beschließen, eine diesbezüglich Note an die Regierung der <country>Vereinigten
                   Staaten von Amerika</country> zu richten.</p>
          </abstract>
@@ -480,15 +468,13 @@
                   séance du <date when="1818-11-07">7 de ce mois</date></ref>, et <ref decls="#m.2">
                   les résolutions prises dans la même séance. </ref>
             </p>
-            <label hand="#W" place="margin">vote du Cabinet de <placeName ref="#loc.9"
-                  >Berlin</placeName> sur l’affaire de <country>Bade</country></label>
+            <label hand="#W" place="margin">vote du Cabinet de <placeName ref="#loc.9">Berlin</placeName> sur l’affaire de <country>Bade</country></label>
             <p><choice>
                   <abbr>Mrs.</abbr>
                   <expan>Messieurs</expan>
                </choice> les <rs ref="#p.11 #p.12">Plénipotentiaires de Prusse</rs> ont fait
                connoître le Vote de leur Cabinet sur <rs xml:id="n.2"> la question des arrangemens
-                  Territoriaux entre le <rs ref="#p.99">Roi de Bavière</rs> et le <rs ref="#p.22"
-                     >Grand-Duc de Bade</rs>. </rs><note type="editorial" target="#n.2">Vgl. Huber,
+                  Territoriaux entre le <rs ref="#p.99">Roi de Bavière</rs> et le <rs ref="#p.22">Grand-Duc de Bade</rs>. </rs><note type="editorial" target="#n.2">Vgl. Huber,
                   Deutsche Verfassungsgeschichte, Bd. 1, S. 324–328.</note>
                <ref decls="#m.5 #m.6"> Ce Vote se trouve annexé au présent Protocole. </ref>
             </p>
@@ -497,9 +483,7 @@
                   <expan>Monsieur</expan>
                </choice> le <persName ref="#p.12"><roleName>Comte</roleName>
                   <surname>de Bernstorff</surname></persName> a lu le <ref decls="#m.7"> projet de
-                  Protocole ci-joint </ref> sur l’affaire du péage d’<placeName ref="#loc.33"
-                  >Elsfleth</placeName> dans ses rapports avec les réclamations du <rs ref="#p.76"
-                  >Duc d’Oldenbourg</rs>. Ce projet a été adopté à l’unanimité,<pb n="112v"/> et il
+                  Protocole ci-joint </ref> sur l’affaire du péage d’<placeName ref="#loc.33">Elsfleth</placeName> dans ses rapports avec les réclamations du <rs ref="#p.76">Duc d’Oldenbourg</rs>. Ce projet a été adopté à l’unanimité,<pb n="112v"/> et il
                a été arrêté en conséquence que la démarche à faire auprès de la Diète Germanique
                seroit confiée aux <rs ref="#p.25 #p.113 #p.114 #p.115 #p.39">Ministres des Cours
                   résidans à <placeName ref="#loc.25">Francfort</placeName></rs>. <choice>
@@ -507,13 +491,9 @@
                   <expan>Monsieur</expan>
                </choice> le <persName ref="#p.8"><roleName>Prince</roleName>
                   <surname>de Metternich</surname></persName> a pris en outre l’engagement de
-               recommander les intérêts du <rs ref="#p.76">Duc d’Oldenbourg</rs> au nom de <rs
-                  ref="#p.16">son Souverain</rs>, et de la manière la plus pressante, au <rs
-                  ref="#p.25">Ministre d’Autriche présidant le Diète</rs>, et de l’inviter à prendre
-               toutes les mesures propres à ame<damage agent="paper_damage"
-                  ><supplied>ner</supplied></damage> les résultats que la conférence a envisagés
-               comme seuls propres à régler l’affaire du péage d’<placeName ref="#loc.33"
-                  >Elsfleth</placeName> d’une manière satisfaisante pour toutes les parties
+               recommander les intérêts du <rs ref="#p.76">Duc d’Oldenbourg</rs> au nom de <rs ref="#p.16">son Souverain</rs>, et de la manière la plus pressante, au <rs ref="#p.25">Ministre d’Autriche présidant le Diète</rs>, et de l’inviter à prendre
+               toutes les mesures propres à ame<damage agent="paper_damage"><supplied>ner</supplied></damage> les résultats que la conférence a envisagés
+               comme seuls propres à régler l’affaire du péage d’<placeName ref="#loc.33">Elsfleth</placeName> d’une manière satisfaisante pour toutes les parties
                intéressées.</p>
             <p><choice>
                   <abbr>Mr.</abbr>
@@ -523,23 +503,19 @@
                         <expan>Comte</expan>
                      </choice></roleName>
                   <surname>Nesselrode</surname></persName> a communiqué de même l’opinion du Cabinet
-               de Russie sur le mémoire présenté aux Souverains par le <persName ref="#p.80"
-                     ><roleName>Prince</roleName>
+               de Russie sur le mémoire présenté aux Souverains par le <persName ref="#p.80"><roleName>Prince</roleName>
                   <surname>de Windischgratz</surname></persName>, concernant ses réclamations contre <choice>
                   <abbr>S. M.</abbr>
                   <expan>Sa Majesté</expan>
                </choice> le <rs ref="#p.81">Roi de Würtemberg</rs>. On est unanimement convenu de
                charger, <rs xml:id="n.5">
                   <add place="margin">moyennant l’instruction ci-jointe,</add>
-               </rs><note type="editorial" target="#n.5">Anlage liegt nicht ein</note> les <rs
-                  ref="#p.84 #p.85 #p.86 #p.87 #p.88">Ministres des Cinq cours accrédités auprès de
+               </rs><note type="editorial" target="#n.5">Anlage liegt nicht ein</note> les <rs ref="#p.84 #p.85 #p.86 #p.87 #p.88">Ministres des Cinq cours accrédités auprès de
                   celle de <placeName ref="#loc.17">Stuttgart</placeName></rs>
                <subst>
                   <del rendition="#s">de faire les démarches nécessaires</del>
                   <add place="margin">d’employer leurs meilleurs offices et leurs soins</add>
-               </subst> pour déterminer le <rs ref="#p.81">Roi de Würtemberg</rs> à la levée du<pb
-                  n="154r"/> séquestre mis sur les possessions du <persName ref="#p.80"
-                     ><roleName>Prince</roleName>
+               </subst> pour déterminer le <rs ref="#p.81">Roi de Würtemberg</rs> à la levée du<pb n="154r"/> séquestre mis sur les possessions du <persName ref="#p.80"><roleName>Prince</roleName>
                   <surname>de Windischgratz</surname></persName>, et à un arrangement propre à
                terminer ses réclamations.</p>
             <p><choice>
@@ -549,21 +525,18 @@
                   <surname>Nesselrode</surname></persName> a ensuite proposé relativement aux
                demandes du <rs ref="#p.78">Landgrave de Hesse-Hombourg</rs> de charger, quant à ses
                intérêts de famille avec les autres branches de sa maison, les <rs xml:id="n.6">
-                  <rs ref="#p.83 #p.39">Ministres des puissances accrédités à <placeName
-                        ref="#loc.34">Darmstadt</placeName></rs>
+                  <rs ref="#p.83 #p.39">Ministres des puissances accrédités à <placeName ref="#loc.34">Darmstadt</placeName></rs>
                </rs><note type="editorial" target="#n.6">Österreich nahm erst 1853 diplomatische
                   Beziehungen zum Hof von Darmstadt auf; vgl. Bringmann, Handbuch, S. 290.
                   Frankreich: comte de Salignac-Fénélon; vgl. Bringmann, Handbuch, S. 183.
                   Großbritannien nahm erst 1852 diplomatische Beziehungen zum Hof von Darmstadt auf;
                   vgl. Bringmann, Handbuch, S. 196. Russland wurde in Darmstadt bis 1850 durch den
                   Gesandten beim Deutschen Bundestag vertreten; Bringmann, Handbuch, S. 341.</note>
-               de faire en sa faveur les démarches les plus efficaces auprès du <rs ref="#p.79"
-                  >Grand-Duc de Hesse</rs> et, quant à la voix que le <rs ref="#p.78">Landgrave</rs>
+               de faire en sa faveur les démarches les plus efficaces auprès du <rs ref="#p.79">Grand-Duc de Hesse</rs> et, quant à la voix que le <rs ref="#p.78">Landgrave</rs>
                réclame à la Diète germanique, de faire valoir par les Ministres résidans à
                   <placeName ref="#loc.25">Francfort</placeName> les bons offices des Souverains, et
                l’intérêt qu’Ils prennent à tout ce qui regarde cette maison. <rs xml:id="n.7"> Les
-                  instructions à adresser aux Ministres sont annexées au Protocole. </rs><note
-                  type="editorial" target="#n.7">Anlage liegt nicht ein.</note>
+                  instructions à adresser aux Ministres sont annexées au Protocole. </rs><note type="editorial" target="#n.7">Anlage liegt nicht ein.</note>
             </p>
             <p><choice>
                   <abbr>Mr.</abbr>
@@ -574,17 +547,13 @@
                            <del rendition="#ow">Prince</del>
                            <add>Princesse</add>
                         </subst></roleName>
-                     <surname>de La Tour et Taxis</surname></persName>,</ref> en réponse <ref
-                  target="Aachen_Prot_26.xml">au Mémoire par lequel celui-ci a demandé le
-                  rétablissement de sa Souveraineté moyennant un arrangement avec le <rs ref="#p.89"
-                        ><roleName>Prince</roleName>
-                     <surname>de Hohenzollern-Siegmaringen</surname></rs></ref>. <rs
-                  ref="#p.11 #p.12 #p.13 #p.14"><choice>
+                     <surname>de La Tour et Taxis</surname></persName>,</ref> en réponse <ref target="Aachen_Prot_26.xml">au Mémoire par lequel celui-ci a demandé le
+                  rétablissement de sa Souveraineté moyennant un arrangement avec le <rs ref="#p.89"><roleName>Prince</roleName>
+                     <surname>de Hohenzollern-Siegmaringen</surname></rs></ref>. <rs ref="#p.11 #p.12 #p.13 #p.14"><choice>
                      <abbr>Mrs.</abbr>
                      <expan>Messieurs</expan>
                   </choice> les Plénipotentiaires de Prusse et de <pb n="154v"/>Russie</rs> en ont
-               pris connoissance pour répondre de leur côté au <persName ref="#p.82"
-                     ><roleName>Prince</roleName>
+               pris connoissance pour répondre de leur côté au <persName ref="#p.82"><roleName>Prince</roleName>
                   <surname>de La Tour et Taxis</surname></persName>.</p>
             <p><choice>
                   <abbr>Mr.</abbr>
@@ -608,8 +577,7 @@
                   <abbr>Mrs.</abbr>
                   <expan>Messieurs</expan>
                </choice> les Ministres soumettroient à <rs ref="#p.16 #p.17 #p.18 #p.19">leurs
-                  Souverains</rs> d’adresser à l’<rs ref="#p.21">Electeur de Hesse</rs> des <ref
-                  decls="#m.10"> lettres de cabinet pour le presser d’aviser aux moyens de mettre
+                  Souverains</rs> d’adresser à l’<rs ref="#p.21">Electeur de Hesse</rs> des <ref decls="#m.10"> lettres de cabinet pour le presser d’aviser aux moyens de mettre
                   fin aux plaintes des Pétitionaires ; </ref>
             </p>
             <p>2. Que, dans le cas que cette intervention resteroit sans effet, on feroit les
@@ -623,8 +591,7 @@
                   </choice> le <persName ref="#p.1"><roleName>Duc</roleName>
                      <surname>de Richelieu</surname></persName> a fait part de ses observations
                   ci-annexées sur les dangers dont la navigation et le commerce de l’Europe sont
-                  menacés par la piraterie qui s’exerce dans l’océan à la faveur des troubles <pb
-                     n="155r"/>qui agitent l’Amérique Méridionale. </ref>
+                  menacés par la piraterie qui s’exerce dans l’océan à la faveur des troubles <pb n="155r"/>qui agitent l’Amérique Méridionale. </ref>
                <del rendition="#s"><add hand="#W" place="margin"> Ce Mémoire est le même qui a été
                      annexé (sous le titre de Note sur les Pirates de l’Océan atlantique) au
                      Protocole du <date when="1818-11-13">[13] <choice>
@@ -679,12 +646,10 @@
                sur <ref decls="#m.3"> le Mémoire ci-joint en copie, </ref> présenté aux Souverains
                et Ministres réunis à <placeName ref="#loc.1">Aix-la-Chapelle</placeName> par les
                Princes <persName ref="#p.116"><forename>Guillaume</forename>
-                  <surname>de Bentheim et Steinfurt</surname></persName> et <persName ref="#p.117"
-                     ><forename>George</forename>
+                  <surname>de Bentheim et Steinfurt</surname></persName> et <persName ref="#p.117"><forename>George</forename>
                   <surname>de Löwenstein-Wertheim</surname></persName>, au nom et par autorisation
                des Princes et Comtes d’Allemagne médiatisés, réclamant l’exécution des articles par
-               lesquels <rs xml:id="n.13"> l’<rs ref="#t.12 #t.18">acte du Congrès de <placeName
-                        ref="#loc.7">Vienne</placeName></rs>
+               lesquels <rs xml:id="n.13"> l’<rs ref="#t.12 #t.18">acte du Congrès de <placeName ref="#loc.7">Vienne</placeName></rs>
                </rs><note type="editorial" target="#n.13">Art. 6 und 14 der Deutschen Bundesakte und
                   Art. 58 der Wiener Kongressakte vom 9. Juni 1815.</note> a déterminé les droits et
                prérogatives dont Ils doivent jouir dans l’ordre actuel des choses, et notamment de
@@ -703,8 +668,7 @@
                germanique.</p>
             <p>Il a établi, à cet effet, les points de vues suivans :</p>
             <p>1<hi rendition="#su">o</hi> L’<rs ref="#t.18">acte de la Fédération germanique</rs> a
-               été conclu par les Princes Souverains de l’Allemagne, et il fait partie du <rs
-                  ref="#t.12">Recès du Congrès</rs>. Le pacte fédéral est inviolable dans ses
+               été conclu par les Princes Souverains de l’Allemagne, et il fait partie du <rs ref="#t.12">Recès du Congrès</rs>. Le pacte fédéral est inviolable dans ses
                stipulations positives, ainsi que le sont toutes les transactions du Congrès de
                   <placeName ref="#loc.7">Vienne</placeName>. La perte qu’ont faite les anciens
                Princes et Etats de l’Empire<pb n="116r"/> médiatisés de leur indépendance a été
@@ -714,8 +678,7 @@
             <p><rs xml:id="n.14"> Plusieurs Souverains de l’Allemagne ont rempli les engagemens
                   solemnels qu’ils avaient contractés en faveur d’une classe qui constitue la haute
                   noblesse de l’Allemagne, et qui est d’autant plus digne de tous les égards qu’elle
-                  a été victime des événemens désastreux des derniers tems. </rs><note
-                  type="editorial" target="#n.14">Vgl. Gollwitzer, Standesherren, bes. S.
+                  a été victime des événemens désastreux des derniers tems. </rs><note type="editorial" target="#n.14">Vgl. Gollwitzer, Standesherren, bes. S.
                   46–115.</note> La <country>Prusse</country> a donné, la première, cet exemple de
                justice ; elle ne s’est pas bornée à assurer aux Maisons médiatisées, placées sous sa
                Souveraineté, ce que leur accorde l’acte fédératif ; – elle est allée<pb n="116v"/>
@@ -734,10 +697,8 @@
             <p>L’<rs ref="#p.16">Empereur d’Autriche</rs> a cru devoir énoncer vis-à-vis de la
                Confédération, avant la clôture de sa dernière session, Ses sentimens de sollicitude
                à cet égard. <rs xml:id="n.15"> La Diète a procédé de suite à la nomination d’une
-                  Commission chargée de l’examen de ces justes représentations. </rs><note
-                  type="editorial" target="#n.15">Vgl. Protokolle der Deutschen Bundesversammlung,
-                  Bd. 6 (1818), S. 183–193; online auf <ref
-                     target="http://publikationen.ub.uni-frankfurt.de/volltexte/2010/115320/">
+                  Commission chargée de l’examen de ces justes représentations. </rs><note type="editorial" target="#n.15">Vgl. Protokolle der Deutschen Bundesversammlung,
+                  Bd. 6 (1818), S. 183–193; online auf <ref target="http://publikationen.ub.uni-frankfurt.de/volltexte/2010/115320/">
                      http://publikationen.ub.uni-frankfurt.de/volltexte/2010/115320/</ref>
                   (eingesehen am 27. Juli 2017).</note> Elle ne tardera pas à faire son rapport
                après l’ouverture de la nouvelle session.</p>
@@ -762,9 +723,7 @@
                Puissances peuvent attendre les décisions prochaines de la Diète germanique, en
                considérant celle-ci comme l’instance la plus naturelle et la plus à portée de juger
                de la véritable position des choses ; qu’en attendant, Elles chargent néanmoins leurs
-                  <rs ref="#p.24 #p.122 #p.39 #p.83"><rs ref="#p.84 #p.85 #p.86 #p.87 #p.88"
-                     >Ministres près les Cours de <placeName ref="#loc.17"
-                     >Stuttgardt</placeName></rs>, <rs xml:id="n.16" ref="#p.119 #p.120 #p.121">de
+                  <rs ref="#p.24 #p.122 #p.39 #p.83"><rs ref="#p.84 #p.85 #p.86 #p.87 #p.88">Ministres près les Cours de <placeName ref="#loc.17">Stuttgardt</placeName></rs>, <rs xml:id="n.16" ref="#p.119 #p.120 #p.121">de
                         <placeName ref="#loc.19">Carlsruhe</placeName>
                   </rs><note type="editorial" target="#n.16">Großherzogtum Baden. Österreich: Der
                      Posten des österreichischen Gesandten in Karlsruhe war zwischen 16. März und
@@ -785,8 +744,7 @@
                   196. Russland wurde in Darmstadt bis 1850 durch den Gesandten beim Deutschen
                   Bundestag vertreten; Bringmann, Handbuch, S. 341.</note> de faire une démarche
                amicale et confidentielle envers ces Souverains pour les engager à procéder vis-à-vis
-               de leurs médiatisés dans un esprit de justice qui, attendu leurs engagemens<pb
-                  n="118v"/> solemnels, ne pourra qu’être d’accord avec leurs propres intérêts.</p>
+               de leurs médiatisés dans un esprit de justice qui, attendu leurs engagemens<pb n="118v"/> solemnels, ne pourra qu’être d’accord avec leurs propres intérêts.</p>
             <p>2<hi rendition="#su">o</hi> La question de savoir si on doit accorder quelques voix
                collectives aux anciens Etats de l’Empire médiatisés, étant réservée par l’article VI
                de l’<rs ref="#t.18">acte de la Confédération</rs> à la décision de la Diète et étant
@@ -803,14 +761,12 @@
                </subst>. <rs xml:id="n.18">Il suffit de citer la maison de Fürstenberg qui possédait
                   dix fois plus de sujets que celle de Hohenzollern-Sigmaringen et qui conserve
                   encore aujourd’hui un revenu dix fois plus considérable que ce Prince sous la
-                  souveraineté duquel la maison de Fürstenberg est placée.</rs><note
-                  type="editorial" target="#n.18">Vgl. dazu z. B. Asch, Fürstenberg; Wilts,
+                  souveraineté duquel la maison de Fürstenberg est placée.</rs><note type="editorial" target="#n.18">Vgl. dazu z. B. Asch, Fürstenberg; Wilts,
                   Ausgelöscht.</note></p>
             <p>Si les médiatisés ont perdu leur indépendance, du moins désirent-ils que les Princes,
                leurs égaux en naissance, ne perdent pas le souvenir de l’ancien lustre de leurs
                maisons, et n’ayant pu sauver tous leurs droits utiles, il est naturel qu’ils doivent
-               tenir doublement à l’existence de prérogatives honorifiques. L’article XIV de l’<rs
-                  ref="#t.18">acte fédératif</rs> garantit aux<pb n="119v"/> médiatisés leurs droits
+               tenir doublement à l’existence de prérogatives honorifiques. L’article XIV de l’<rs ref="#t.18">acte fédératif</rs> garantit aux<pb n="119v"/> médiatisés leurs droits
                d’égalité de naissance avec les Maisons souveraines ; ils craignent que même cet
                article ne finisse par tomber en désuétude si les souvenirs de leur existence
                indépendante et souveraine dont ils ne sont plus en possession ne sont point
@@ -828,10 +784,8 @@
             <p>L’<rs ref="#p.17">Empereur</rs> et le <rs ref="#p.18">Roi de Prusse</rs>, animés du
                même esprit de bienveillance pour les médiatisés, n’ont pas hésité à se prononcer de
                tout tems dans le sens le plus conforme à leurs réclamations relativement à
-               l’application de la réserve de l’art. VI. Mais la loi ne pouvant être portée qu’à <hi
-                  rendition="#u">l’unanimité</hi> des votans, il n’est que trop à craindre que les
-               désirs de tant de victimes d’un bouleversement, opéré par la seule lubie de <persName
-                  ref="#p.50"><surname>Bonaparte</surname></persName>, ne puissent<pb n="120v"/> se
+               l’application de la réserve de l’art. VI. Mais la loi ne pouvant être portée qu’à <hi rendition="#u">l’unanimité</hi> des votans, il n’est que trop à craindre que les
+               désirs de tant de victimes d’un bouleversement, opéré par la seule lubie de <persName ref="#p.50"><surname>Bonaparte</surname></persName>, ne puissent<pb n="120v"/> se
                réaliser que très difficilement. La conduite de l’affaire est délicate ; elle exige
                même dans l’intérêt de son succès de grands ménagemens ; le choix du moment où elle
                pourrait être traitée à <placeName ref="#loc.25">Francfort</placeName> ne peut être
@@ -842,8 +796,7 @@
                offices aux soins que l’<country>Autriche</country> et la <country>Prusse</country>
                sont appelées en vertu de leur plein droit à faire valoir vis-à-vis de ces mêmes
                Cours. Il s’agirait à cet effet de munir ces Ministres d’ordres éventuels, desquels
-               ils n’auraient à faire usage qu’en suite de l’impulsion qui leur serait donnée<pb
-                  n="121r"/> par leurs collègues d’<country>Autriche</country> et de
+               ils n’auraient à faire usage qu’en suite de l’impulsion qui leur serait donnée<pb n="121r"/> par leurs collègues d’<country>Autriche</country> et de
                   <country>Prusse</country>.</p>
             <p><rs ref="#p.8 #p.9 #p.10 #p.11 #p.12 #p.13 #p.14 #p.1">Messieurs les
                   Plénipotentiaires</rs>, ayant tous été d’avis qu’il était juste de s’occuper des
@@ -852,11 +805,9 @@
                restés aux médiatisés après la perte de leur souveraineté – ont arrêté :</p>
             <p>1<hi rendition="#su">o</hi> Qu’il soit adressé aux Ministres d’Autriche, de
                Grande-Bretagne, de Prusse et de Russie, accrédités auprès des Cours d’Allemagne,
-                  <ref decls="#m.4">des instructions</ref> énonçant le vœu des <rs
-                  ref="#p.16 #p.17 #p.18 #p.19">quatre Souverains</rs> pour que les dispositions qui
+                  <ref decls="#m.4">des instructions</ref> énonçant le vœu des <rs ref="#p.16 #p.17 #p.18 #p.19">quatre Souverains</rs> pour que les dispositions qui
                ont réglé les droits et les rapports des médiatisés dans les Etats de la
-               Confédération Germanique soient maintenues dans leur plénitude sans restriction<pb
-                  n="121v"/> ni modification arbitraire ; et autorisent lesdits Ministres à rappeler
+               Confédération Germanique soient maintenues dans leur plénitude sans restriction<pb n="121v"/> ni modification arbitraire ; et autorisent lesdits Ministres à rappeler
                là où il serait nécessaire que les Souverains qui ont signé l’<rs ref="#t.12">acte du
                   Congrès</rs> ont le droit et le devoir de veiller à l’exécution de cet acte ;</p>
             <p>2<hi rendition="#su">o</hi> Que par les mêmes instructions les Ministres des quatre
@@ -889,13 +840,10 @@
             <pb n="114r"/>
             <p><title>Demande des Princes et Comtes Médiatisés</title></p>
             <p>Les Princes <persName ref="#p.117"><forename>George</forename>
-                  <surname>de Löwenstein-Wertheim-Freudenberg</surname></persName> et <persName
-                  ref="#p.116"><forename>Guillaume</forename>
+                  <surname>de Löwenstein-Wertheim-Freudenberg</surname></persName> et <persName ref="#p.116"><forename>Guillaume</forename>
                   <surname>de Bentheim et Steinfurt</surname></persName> réclament, au nom et par
                autorisation des Princes et Etats médiatisés, la concession d’un certain nombre de
-               voix à la Diète Germanique. Ils désirent que cette disposition, promise par l’<rs
-                  ref="#t.18">acte de la Confédération Germanique</rs>, soit réalisée <quote><rs
-                     xml:id="n.20">« dans le plus court délai possible, d’une manière conforme au
+               voix à la Diète Germanique. Ils désirent que cette disposition, promise par l’<rs ref="#t.18">acte de la Confédération Germanique</rs>, soit réalisée <quote><rs xml:id="n.20">« dans le plus court délai possible, d’une manière conforme au
                      nombre des maisons qui doivent avoir part à cette prérogative ; à l’étendue de
                      leurs possessions actuelles ; à leur ancienne position dans l’Empire ; aux
                      droits qui, même dans le nouvel ordre des choses, leur ont été réservés pour
@@ -908,27 +856,20 @@
             <pb n="123r"/>
             <p><add hand="#W" place="top">Annexé au Protocole sur l’affaire des médiatisés, lequel
                   est consigné au Protocole du <date when="1818-11-14">14 Novembre</date>.</add></p>
-            <p><title>Les Ministres des Cinq Cours à leurs Envoyés respectifs à <rs
-                     ref="#p.36 #p.123 #p.114 #p.124 #p.125"><placeName ref="#loc.16"
-                        >Munich</placeName>,</rs>
-                  <rs ref="#p.84 #p.85 #p.86 #p.87 #p.88"><placeName ref="#loc.17"
-                        >Stuttgard</placeName></rs>, <rs ref="p.119 #p.120 #p.121" xml:id="n.21"
-                        ><placeName ref="#loc.19">Carlsruhe</placeName></rs>,<note type="editorial"
-                     target="#n.21"> Der Posten des österreichischen Gesandten in Karlsruhe war
+            <p><title>Les Ministres des Cinq Cours à leurs Envoyés respectifs à <rs ref="#p.36 #p.123 #p.114 #p.124 #p.125"><placeName ref="#loc.16">Munich</placeName>,</rs>
+                  <rs ref="#p.84 #p.85 #p.86 #p.87 #p.88"><placeName ref="#loc.17">Stuttgard</placeName></rs>, <rs ref="p.119 #p.120 #p.121" xml:id="n.21"><placeName ref="#loc.19">Carlsruhe</placeName></rs>,<note type="editorial" target="#n.21"> Der Posten des österreichischen Gesandten in Karlsruhe war
                      zwischen 16. März und 21. Dezember 1818 vakant; anschließend übernahm Anton
                      Karl Fürst Pálffy von Eröd (*1793) den Posten; vgl. Bringmann, Handbuch, S.
                      294. Großbritannien nahm erst 1841 diplomatische Beziehungen zum Großherzogtum
                      Baden auf; vgl. Bringmann, Handbuch, S. 198.</note>
-                  <rs ref="#p.83 #p.39" xml:id="n.22"><placeName ref="#loc.34"
-                     >Darmstadt</placeName></rs><note type="editorial" target="#n.22">Österreich
+                  <rs ref="#p.83 #p.39" xml:id="n.22"><placeName ref="#loc.34">Darmstadt</placeName></rs><note type="editorial" target="#n.22">Österreich
                      nahm erst 1853 diplomatische Beziehungen zum Hof von Darmstadt auf; vgl.
                      Bringmann, Handbuch, S. 290. Frankreich: comte de Salignac-Fénélon; vgl.
                      Bringmann, Handbuch, S. 183. Großbritannien nahm erst 1852 diplomatische
                      Beziehungen zum Hof von Darmstadt auf; vgl. Bringmann, Handbuch, S. 196.
                      Russland wurde in Darmstadt bis 1850 durch den Gesandten beim Deutschen
                      Bundestag vertreten, hier Iwan/Johann Ossipowitsch Freiherr von Anstett</note>
-                  &amp; <rs ref="#p.24 #p.122 #p.39" xml:id="n.23"><placeName ref="#loc.45"
-                        >Cassel</placeName></rs><note type="editorial" target="#n.23">Frankreich
+                  &amp; <rs ref="#p.24 #p.122 #p.39" xml:id="n.23"><placeName ref="#loc.45">Cassel</placeName></rs><note type="editorial" target="#n.23">Frankreich
                      nahm erst 1822 diplomatische Beziehungen zum Hof von Kassel auf; vgl.
                      Bringmann, Handbuch, S. 187. Großbritannien hatte zwischen 1806 und 1826 keine
                      diplomatischen Beziehungen; vgl. Bringmann, Handbuch, S. 198. Russland: Betreut
@@ -954,8 +895,7 @@
                favorablement accueillis par les Cabinets, et ils sont convenus de donner suite à la
                pétition.</p>
             <pb n="123v"/>
-            <p>La <ref decls="#m.2">Copie ci-jointe du Protocole signé dans la séance du <date
-                     when="1818-11-14">14 <choice>
+            <p>La <ref decls="#m.2">Copie ci-jointe du Protocole signé dans la séance du <date when="1818-11-14">14 <choice>
                         <abbr>9<hi rendition="#su">bre</hi></abbr>
                         <expan>Novembre</expan>
                      </choice></date></ref> Vous prouvera, <choice>
@@ -972,8 +912,7 @@
             <p>Il serait superflu de Vous rendre attentif à la séparation que Nous avons faite des
                demandes que forment les médiatisés. La distinction que Vous trouverez établie entre
                les deux questions – celle des droits <hi rendition="#u">explicitement consacrées par
-                     l’<rs ref="#t.18">acte fédératif</rs></hi> d’avec le cas réservé <hi
-                  rendition="#u">au libre arbitre</hi><pb n="124r"/> des Princes Souverains
+                     l’<rs ref="#t.18">acte fédératif</rs></hi> d’avec le cas réservé <hi rendition="#u">au libre arbitre</hi><pb n="124r"/> des Princes Souverains
                d’Allemagne – est simple ; elle est une conséquence de la nature même des
                stipulations de l’<rs ref="#t.18">acte fédératif</rs>, et il est de l’intérêt des
                médiatisés que l’on ne confonde ni les termes, ni les époques des deux affaires.</p>
@@ -988,8 +927,7 @@
             <p>Pour <hi rendition="#u">Munic.</hi></p>
             <p>Nous nous bornons en conséquence à vous transmettre les directions suivantes.</p>
             <p>1<hi rendition="#su">o</hi> De regarder la première partie du protocole comme
-               n’exigeant aucune démarche près de la Cour de <placeName ref="#loc.16"
-                  >Munich</placeName>, l’objet qu’elle concerne étant réglé dans le <country>Roiaume
+               n’exigeant aucune démarche près de la Cour de <placeName ref="#loc.16">Munich</placeName>, l’objet qu’elle concerne étant réglé dans le <country>Roiaume
                   de Bavière</country> à la satisfaction des Princes &amp; Etats médiatisés.</p>
             <p>2<hi rendition="#su">o</hi> (<choice>
                   <abbr>V.</abbr>
@@ -1045,12 +983,10 @@
                   </choice> Prussienne</rs>, vivement pénétrée du sentiment de l’urgente nécessité
                de terminer le plutôt possible la <rs xml:id="n.25">contestation au sujet des
                   arrangemens territoriaux</rs><note type="editorial" target="#n.25">Vgl. Huber,
-                  Deutsche Verfassungsgeschichte, Bd. 1, S. 324–328.</note> entre le <rs ref="#p.99"
-                  >Roi de Bavière</rs> et le <rs ref="#p.22">Grand-Duc de Bade</rs>, et convaincue
+                  Deutsche Verfassungsgeschichte, Bd. 1, S. 324–328.</note> entre le <rs ref="#p.99">Roi de Bavière</rs> et le <rs ref="#p.22">Grand-Duc de Bade</rs>, et convaincue
                que tous les moyens de conciliation tendent à engager la Cour de Bade à de plus
                grands sacrifices ont été épuisés, n’hésite pas à accéder aux arrangemens qui
-               viennent d’être confidentiellement concertés entre le cabinet russe et le <rs
-                  ref="#p.26">Plénipotentiaire du <rs ref="#p.22">Grand-Duc</rs></rs>.</p>
+               viennent d’être confidentiellement concertés entre le cabinet russe et le <rs ref="#p.26">Plénipotentiaire du <rs ref="#p.22">Grand-Duc</rs></rs>.</p>
             <p>Que la position de la <country>Prusse</country> vis-à-vis de la
                   <country>Bavière</country> n’étant pas dans toutes ses nuances celle de ses
                Alliés, <rs ref="#p.18"><choice>
@@ -1077,8 +1013,7 @@
                         <expan>Sa Majesté</expan>
                      </choice> le Roi de Bavière</rs></title></p>
             <p>Monsieur <rs ref="#p.99">Mon Frère</rs>, Les résultats de la longue et pénible
-               négociation entre les Cours alliées et celle de Bade vont être soumis à <rs
-                  ref="#p.99">Votre Majesté</rs>. J’éprouve le besoin de m’en expliquer franchement
+               négociation entre les Cours alliées et celle de Bade vont être soumis à <rs ref="#p.99">Votre Majesté</rs>. J’éprouve le besoin de m’en expliquer franchement
                avec Elle. Lorsqu’en 1816, en accédant à <rs ref="#t.27">Son traité avec
                   l’Autriche</rs>, je crus devoir m’abstenir de munir de ma garantie les
                dispositions renfermées dans les articles additionnels de ce traité, je fus déterminé
@@ -1094,14 +1029,11 @@
                compter, Sire, que Vous rendiez justice aux motifs qui m’ont
                guidé, et à la marche que j’ai suivie.</p>
             <p>Fidèle à mes engagemens, j’ai donné aux bons offices et aux
-               moyens de persuasion que j’ai employé conjointement avec <rs
-                  ref="#p.16 #p.17 #p.19">les Souverains</rs>, mes Alliés, à ménager à <rs
-                  ref="#p.99"><choice>
+               moyens de persuasion que j’ai employé conjointement avec <rs ref="#p.16 #p.17 #p.19">les Souverains</rs>, mes Alliés, à ménager à <rs ref="#p.99"><choice>
                      <abbr>V. M.</abbr>
                      <expan>Votre Majesté</expan>
                   </choice></rs> des résultats satisfaisans toute l’extension dont ils ont été
-               susceptibles. Si ces résultats ne répondent pas entièrement aux vœux de <rs
-                  ref="#p.99"><choice>
+               susceptibles. Si ces résultats ne répondent pas entièrement aux vœux de <rs ref="#p.99"><choice>
                      <abbr>V. M.</abbr>
                      <expan>Votre Majesté</expan>
                   </choice></rs>, nous avons, <rs ref="#p.16 #p.17 #p.18 #p.19">mes Alliés et
@@ -1122,19 +1054,14 @@
 
          <div hand="#A" decls="#m.7">
             <pb n="130r"/>
-            <p><title>Projet de Protocole touchant le péage d’<placeName ref="#loc.33"
-                     >Elsfleth</placeName></title></p>
+            <p><title>Projet de Protocole touchant le péage d’<placeName ref="#loc.33">Elsfleth</placeName></title></p>
             <p>Après avoir délibéré sur <ref target="Aachen_Prot_26.xml">la proposition faite par le
-                  Cabinet Russe relativement au péage d’<placeName ref="#loc.33"
-                     >Elsfleth</placeName></ref>, <choice>
+                  Cabinet Russe relativement au péage d’<placeName ref="#loc.33">Elsfleth</placeName></ref>, <choice>
                   <abbr>M<hi rendition="#su">ss</hi></abbr>
                   <expan>Messieurs</expan>
                </choice> les Plénipotentiaires des Cinq Cours, considérant :</p>
             <p>Que d’un côté le <rs ref="#p.76">Duc d’Oldenbourg</rs>, frustré par la force des
-               événemens d’une partie considérable du bénéfice que lui avaient assuré le <rs
-                  ref="#t.24" xml:id="n.27">recès de l’Empire de 1803</rs><note type="editorial"
-                  target="#n.27">Vgl. § 8.</note> et le <rs ref="#t.25">traité du <date
-                     when="1803-04-06">6 Avril</date> de la même année</rs>, peut-être regardé comme
+               événemens d’une partie considérable du bénéfice que lui avaient assuré le <rs ref="#t.24" xml:id="n.27">recès de l’Empire de 1803</rs><note type="editorial" target="#n.27">Vgl. § 8.</note> et le <rs ref="#t.25">traité du <date when="1803-04-06">6 Avril</date> de la même année</rs>, peut-être regardé comme
                autorisé à réclamer une indemnité supplémentaire ; et </p>
             <p>Que de l’autre côté la décision d’une affaire qui a déjà provoqué de la part d’autres
                membres de la Confédération Germanique une plainte de lésion de droits ou d’intérêts
@@ -1153,8 +1080,7 @@
                   d’<placeName ref="#loc.33">Elsfleth</placeName>, Elles ont jugé qu’il n’appartient
                qu’à la Diète seule de décider la question et d’aviser aux moyens de terminer par la
                voie d’une Commission médiatrice le différend qui s’est élevé au sujet de ce péage
-               entre le <rs ref="#p.76">Duc d’Oldenbourg</rs> et la Ville de <placeName
-                  ref="#loc.35">Brème</placeName>.</p>
+               entre le <rs ref="#p.76">Duc d’Oldenbourg</rs> et la Ville de <placeName ref="#loc.35">Brème</placeName>.</p>
          </div>
 
          <div hand="#M" decls="#m.8">
@@ -1190,9 +1116,7 @@
                Sa Majesté n’hésite néanmoins pas à vous <subst>
                   <del rendition="#s">informer</del>
                   <add place="above">prévenir</add>
-               </subst>, Madame, que pour sa part Elle ne s’opposera pas à <del rendition="#s"
-                  >l’exécution</del> l’accomplissement des désirs de la Maison de La Tour et que <rs
-                  ref="#p.25 #p.115">son Ministre à la Diète</rs> recevra l’ordre de voter en sa
+               </subst>, Madame, que pour sa part Elle ne s’opposera pas à <del rendition="#s">l’exécution</del> l’accomplissement des désirs de la Maison de La Tour et que <rs ref="#p.25 #p.115">son Ministre à la Diète</rs> recevra l’ordre de voter en sa
                faveur.</p>
             <p>Sa Majesté m’a ordonné de faire connaître cette détermination dès-à-présent aux
                Ministres de Prusse près les Cours d’Allemagne afin qu’ils<pb n="131v"/> en fassent
@@ -1218,11 +1142,8 @@
             <p>Depuis trop longtems, l’Allemagne entière retentit des cris des acquéreurs dépossédés
                des domaines vendus dans le <rs xml:id="n.28">ci-devant Royaume de
                   Westphalie</rs>.<note type="editorial" target="#n.28">Das Königreich Westphalen
-                  wurde 1807 nach dem Frieden von Tilsit durch <persName ref="#p.50"
-                     >Napoleon</persName> begründet und von dessen Bruder <persName ref="#p.126"
-                        ><forename>Jérôme</forename></persName> (1784–1860) regiert. Es umfasste
-                  zahlreiche ehemalige Reichsgebiete, Hauptstad war <placeName ref="#loc.45"
-                     >Kassel</placeName>; vgl. Todorov, L’administration; Bethan, Napoleons
+                  wurde 1807 nach dem Frieden von Tilsit durch <persName ref="#p.50">Napoleon</persName> begründet und von dessen Bruder <persName ref="#p.126"><forename>Jérôme</forename></persName> (1784–1860) regiert. Es umfasste
+                  zahlreiche ehemalige Reichsgebiete, Hauptstad war <placeName ref="#loc.45">Kassel</placeName>; vgl. Todorov, L’administration; Bethan, Napoleons
                   Königreich Westphalen; Dethlefs, Owzar, Weiß (Hg.), Modell und Wirklichkeit;
                   Köbler, Historisches Lexikon, S. 782–783; Berding, Westphalie. In: Tulard (Hg.),
                   Dictionnaire Napoléon, S. 1746–1750.</note></p>
@@ -1233,21 +1154,18 @@
                s’accordent à exiger que les droits et les obligations, fondés par la législation de
                ce Royaume durant son existence réelle, soient maintenus et respectés.</p>
             <p>Il est vrai que ces droits et ces obligations n’ont été explicitement réservés ou
-               déterminés ni par le <rs ref="#t.13">traité de <placeName ref="#loc.2"
-                     >Paris</placeName> de 1814</rs>, ni par l’<rs ref="#t.12">acte final du Congrès
+               déterminés ni par le <rs ref="#t.13">traité de <placeName ref="#loc.2">Paris</placeName> de 1814</rs>, ni par l’<rs ref="#t.12">acte final du Congrès
                   de <placeName ref="#loc.7">Vienne</placeName></rs>.</p>
             <p>Mais dans un cas où les principes de justice et de droit n’ont pu être<pb n="133v"/>
                douteux, des stipulations expresses ont pu être censées superflues.</p>
             <p>S’il s’agit d’ailleurs de connoître les principes et les vues qui à ces différentes
                époques ont guidé les Puissances contractantes, ils peuvent être interprétés par
-               l’analogie que présentent et l’article 27 du <rs ref="#t.13">traité de <placeName
-                     ref="#loc.2">Paris</placeName> de 1814</rs> qui assure aux sujets français la
+               l’analogie que présentent et l’article 27 du <rs ref="#t.13">traité de <placeName ref="#loc.2">Paris</placeName> de 1814</rs> qui assure aux sujets français la
                possession paisible des domaines qu’ils auroient acquis à titre onéreux dans les pays
                cédés par la <country>France</country>, et l’<choice>
                   <abbr>art<hi rendition="#su">e</hi></abbr>
                   <expan>article</expan>
-               </choice> 41 de l’<rs ref="#t.12">acte final du congrès de <placeName ref="#loc.7"
-                     >Vienne</placeName></rs> qui met à couvert les droits des acquéreurs de
+               </choice> 41 de l’<rs ref="#t.12">acte final du congrès de <placeName ref="#loc.7">Vienne</placeName></rs> qui met à couvert les droits des acquéreurs de
                domaines dans la principauté de Fulde et dans le Comté de Hanau.</p>
             <p>La suppression du Royaume de Westphalie et la réintégration des Princes dont les
                dépouilles avaient servi à composer ce Royaume éphémère ayant été le fruit des
@@ -1270,11 +1188,9 @@
                   Integrationsproblemen der am Wiener Kongress im Westen neu erworbener Gebiete vgl.
                   Mieck, Preußen von 1807 bis 1850. In: Handbuch der preußischen Geschichte, Bd. 2,
                   S. 97–101.</note></p>
-            <p>L’<rs ref="#p.21">Electeur de Hesse</rs> a suivi une marche toute opposée. <rs
-                  xml:id="n.30">Il était à peine rentré dans son pays lorsqu’il déclara toute vente
+            <p>L’<rs ref="#p.21">Electeur de Hesse</rs> a suivi une marche toute opposée. <rs xml:id="n.30">Il était à peine rentré dans son pays lorsqu’il déclara toute vente
                   ou donation de domaines, faite durant l’occupation ennemie, nulle et non avenue,
-                  et se remit forcément en possession de ces biens aliénés</rs>.<note
-                  type="editorial" target="#n.30">Verordnung vom <date when="1814-01-14">14. Jänner
+                  et se remit forcément en possession de ces biens aliénés</rs>.<note type="editorial" target="#n.30">Verordnung vom <date when="1814-01-14">14. Jänner
                      1814</date>, „wodurch die während der feindlichen Besetzung vorgegangenen
                   Veräusserungen und Verschenkungen der Kammer-Güter und Gefälle für nichtig erklärt
                   werden. In: Sammlung von Gesetzen, Verordnungen, Ausschreiben, Bd. 1, S.
@@ -1287,9 +1203,7 @@
             <p>Rebutés par le Gouvernement, renvoyés par les tribunaux, <rs xml:id="n.31">écoutés
                   sans effet par la Diète</rs>,<note type="editorial" target="#n.31">Vgl. Protokolle
                   der Deutschen Bundesversammlung Bd. 2, S. 178–186. Nachträgliche Aktenstücke, Bd.
-                  2, S. 212–300; online auf <ref
-                     target="http://publikationen.ub.uni-frankfurt.de/volltexte/2010/115320/"
-                     >http://publikationen.ub.uni-frankfurt.de/volltexte/2010/115320/</ref>
+                  2, S. 212–300; online auf <ref target="http://publikationen.ub.uni-frankfurt.de/volltexte/2010/115320/">http://publikationen.ub.uni-frankfurt.de/volltexte/2010/115320/</ref>
                   (eingesehen am 27. Juli 2017).</note> les réclamans dépossédés se promettent le
                dernier moyen de salut de l’intervention des Puissances que, au défaut de l’appui
                qu’ils sollicitent, ils regarderaient, non sans quelque fondement, comme les auteurs
@@ -1298,8 +1212,7 @@
                tout en annonçant une disposition équitable à accorder aux acquéreurs des domaines
                aliénés dans ces pays des dédommagemens ou des soulagemens, destinés à prévenir de
                leur part des plaintes de la même nature, n’en ont pas moins<pb n="135v"/> énoncé des
-               principes susceptibles de servir d’appui ou de prétexte au système adopté par l’<rs
-                  ref="#p.21">Electeur</rs>.</p>
+               principes susceptibles de servir d’appui ou de prétexte au système adopté par l’<rs ref="#p.21">Electeur</rs>.</p>
             <p>La dissolution du Royaume de Westphalie ayant fait naître nombre de difficultés ou de
                réclamations d’une nature semblable, telles <choice>
                   <abbr>p. ex.</abbr>
@@ -1323,8 +1236,7 @@
                proposer :</p>
             <p>1<hi rendition="#su">o</hi> Que les <rs ref="#p.16 #p.17 #p.18 #p.19">quatre
                   Souverains</rs><pb n="136v"/> adressent à l’<rs ref="#p.21">Electeur de
-               Hesse</rs>, soit par des lettres de cabinet, soit par le canal de <rs
-                  ref="#p.24 #p.122 #p.39" xml:id="n.32">leurs Ministres accrédités auprès de
+               Hesse</rs>, soit par des lettres de cabinet, soit par le canal de <rs ref="#p.24 #p.122 #p.39" xml:id="n.32">leurs Ministres accrédités auprès de
                   Lui</rs>,<note type="editorial" target="#n.32">Frankreich nahm erst 1822
                   diplomatische Beziehungen zum Hof von Kassel auf; vgl. Bringmann, Handbuch, S.
                   187. Großbritannien hatte zwischen 1806 und 1826 keine diplomatischen Beziehungen
@@ -1334,8 +1246,7 @@
                persuader d’aviser aux moyens de faire cesser des cris qui sèment l’alarme et la
                méfiance en Allemagne, et par lesquels, s’ils se prolongeaient, ces Souverains se
                croiraient eux-mêmes compromis ;</p>
-            <p>2<hi rendition="#su">o</hi> Que pour le cas que cette intervention auprès de l’<rs
-                  ref="#p.21">Electeur</rs> restât sans effet, l’<country>Autriche</country> et la
+            <p>2<hi rendition="#su">o</hi> Que pour le cas que cette intervention auprès de l’<rs ref="#p.21">Electeur</rs> restât sans effet, l’<country>Autriche</country> et la
                   <country>Prusse</country> s’engagent à employer toute leur influence sur leurs
                Co-Etats de la Confédération Germanique pour porter la Diète à user de tous les
                moyens dont sa compétence peut lui permettre de disposer dans le cas d’un déni de
@@ -1351,8 +1262,7 @@
                      <expan>numéro</expan>
                   </choice> 32.</add></p>
             <p><title>Projet d’instruction aux <rs ref="#p.24 #p.122 #p.39" xml:id="n.33">Ministres
-                     des Souverains alliés à la Cour de <placeName ref="#loc.45"
-                     >Cassel</placeName></rs><note type="editorial" target="#n.33"> Frankreich nahm
+                     des Souverains alliés à la Cour de <placeName ref="#loc.45">Cassel</placeName></rs><note type="editorial" target="#n.33"> Frankreich nahm
                      erst 1822 diplomatische Beziehungen zum Hof von Kassel auf; vgl. Bringmann,
                      Handbuch, S. 187. Großbritannien hatte zwischen 1806 und 1826 keine
                      diplomatischen Beziehungen mit dem Kurfürstentum Hessen; vgl. Bringmann,
@@ -1369,8 +1279,7 @@
                         <abbr>B<hi rendition="#su">on</hi></abbr>
                         <expan>Baron</expan>
                      </choice></roleName>
-                  <surname>de Wacquant</surname></persName> etc. <placeName ref="#loc.45"
-                  >Cassel</placeName></p>
+                  <surname>de Wacquant</surname></persName> etc. <placeName ref="#loc.45">Cassel</placeName></p>
             <p><placeName ref="#loc.1">Aix-la-Chapelle</placeName> le <date when="1818-11-20">20 <choice>
                      <abbr>9<hi rendition="#su">bre</hi></abbr>
                      <expan>Novembre</expan>
@@ -1383,9 +1292,7 @@
                         <abbr>mp.</abbr>
                         <expan>manu propria</expan>
                      </choice></unclear></add></p>
-            <p>Votre Excellence reçoit <rs xml:id="n.34">ci-joint une lettre</rs><note
-                  type="editorial" target="#n.34">Anlage liegt nicht ein.</note> de l’<rs
-                  ref="#p.16">Empereur</rs> pour l’<rs ref="#p.21">Electeur de Hesse</rs> que je La
+            <p>Votre Excellence reçoit <rs xml:id="n.34">ci-joint une lettre</rs><note type="editorial" target="#n.34">Anlage liegt nicht ein.</note> de l’<rs ref="#p.16">Empereur</rs> pour l’<rs ref="#p.21">Electeur de Hesse</rs> que je La
                prie de faire parvenir à <choice>
                   <abbr>S. A. R.</abbr>
                   <expan>Son Altesse Royale</expan>
@@ -1414,13 +1321,10 @@
             <p>Les Cours alliées ne sont pas plus disposées que l’<rs ref="#p.21">Electeur</rs> à
                admettre le principe que le Souverain légitime d’un pays envahi par des<pb n="140r"/>
                forces étrangères soit tenu à reconnoître la légalité des actes d’un Gouvernement
-               usurpateur ou d’une autorité arbitraire ou provisoire. Mais le <rs xml:id="n.35"
-                  >Royaume de Westphalie</rs><note type="editorial" target="#n.35">Das Königreich
-                  Westphalen wurde 1807 nach dem Frieden von Tilsit durch <persName ref="#p.50"
-                        ><forename>Napoleon</forename></persName> begründet und von dessen Bruder
+               usurpateur ou d’une autorité arbitraire ou provisoire. Mais le <rs xml:id="n.35">Royaume de Westphalie</rs><note type="editorial" target="#n.35">Das Königreich
+                  Westphalen wurde 1807 nach dem Frieden von Tilsit durch <persName ref="#p.50"><forename>Napoleon</forename></persName> begründet und von dessen Bruder
                      <persName ref="#p.126"><forename>Jérôme</forename></persName> (1784–1860)
-                  regiert. Es umfasste zahlreiche ehemalige Reichsgebiete, Hauptstad war <placeName
-                     ref="#loc.45">Kassel</placeName>; vgl. Todorov, L’administration. Bethan,
+                  regiert. Es umfasste zahlreiche ehemalige Reichsgebiete, Hauptstad war <placeName ref="#loc.45">Kassel</placeName>; vgl. Todorov, L’administration. Bethan,
                   Napoleons Königreich Westphalen. Dethlefs, Owzar, Weiß, Modell und Wirklichkeit.
                   Köbler, Historisches Lexikon, S. 782–783.</note> ne s’est pas trouvé dans cette
                cathégorie. Ce Royaume ayant été fondé et ayant existé en vertu de traités publics et
@@ -1440,21 +1344,17 @@
                devenue légale, et n’ait donné à la législation du pays une action dont les effets ne
                sauroient plus être annullés sans une injustice manifeste et les plus violens
                bouleversements. D’ailleurs, ce n’est pas l’<rs ref="#p.21">Electeur</rs> qui a
-                  reconquis<pb n="141r"/> Ses Etats. C’est aux <rs ref="#p.16 #p.17 #p.18 #p.19"
-                  >Souverains alliés</rs> que la providence a accordé la satisfaction de l’y
+                  reconquis<pb n="141r"/> Ses Etats. C’est aux <rs ref="#p.16 #p.17 #p.18 #p.19">Souverains alliés</rs> que la providence a accordé la satisfaction de l’y
                ramener. <ref decls="#m.9">Ils se sont sincèrement félicités d’avoir pu lui rendre ce
                   service, mais, je le répète, ils n’ont pas entendu voir dans sa réintégration
                   l’extinction de droits et d’obligations placés sous la sauvegarde des
                loix.</ref></p>
             <p>Il est vrai que ces droits et ces obligations n’ont été explicitement réservés ou
-               déterminés ni par le <rs ref="#t.13">traité de <placeName ref="#loc.2"
-                     >Paris</placeName> de 1814</rs>, ni par l’<rs ref="#t.12">acte final du congrès
+               déterminés ni par le <rs ref="#t.13">traité de <placeName ref="#loc.2">Paris</placeName> de 1814</rs>, ni par l’<rs ref="#t.12">acte final du congrès
                   de <placeName ref="#loc.7">Vienne</placeName></rs>.</p>
             <p>Mais dans un cas où les principes de justice et de droit n’ont pu être douteux, des
                stipulations expresses ont pu être censées superflues.</p>
-            <p>L’article 27 du susdit <rs ref="#t.13">traité de <placeName ref="#loc.2"
-                     >Paris</placeName></rs>, et l’article 41 du <rs ref="#t.12">recès de <placeName
-                     ref="#loc.7">Vienne</placeName></rs>, présentent d’ailleurs une analogie qui
+            <p>L’article 27 du susdit <rs ref="#t.13">traité de <placeName ref="#loc.2">Paris</placeName></rs>, et l’article 41 du <rs ref="#t.12">recès de <placeName ref="#loc.7">Vienne</placeName></rs>, présentent d’ailleurs une analogie qui
                met dans une grande évidence les vues et les<pb n="141v"/> principes par lesquels, à
                ces différentes époques, les Cours alliées se sont laissées guider.</p>
             <p>C’est donc incontestablement à ces Cours qu’il appartient de s’employer à faire
@@ -1509,12 +1409,10 @@
                      <abbr>S. M. T. F.</abbr>
                      <expan>Sa Majesté Très Fidèle</expan>
                   </choice></rs><note type="editorial" target="#n.37">Ehrentitel des Königs von
-                  Portugal.</note>, vient d’appeler l’attention des Cabinets réunis à <placeName
-                  ref="#loc.1">Aix-la-Chapelle</placeName> sur les dangers dont le commerce et la
+                  Portugal.</note>, vient d’appeler l’attention des Cabinets réunis à <placeName ref="#loc.1">Aix-la-Chapelle</placeName> sur les dangers dont le commerce et la
                navigation de toutes les nations se trouvent menacés par la multitude de pirates qui
                infestent l’océan à la faveur des troubles qui agitent les Colonies Espagnoles en
-               Amérique. Il expose que ces Corsaires, munis de lettres de marque de <hi
-                  rendition="#u">Gouvernemens non reconnus,</hi> et dont quelques-uns même ne
+               Amérique. Il expose que ces Corsaires, munis de lettres de marque de <hi rendition="#u">Gouvernemens non reconnus,</hi> et dont quelques-uns même ne
                tiennent leur commission que de chefs insurgés qui ne possèdent pas même un seul
                port, sont armés pour la plupart dans des pays éloignés de ceux dont ils arborent le
                pavillon, et sont montés par des équipages composés de gens de toutes nations hors de
@@ -1533,8 +1431,7 @@
                entreprendre de la discuter.</p>
             <p>Il demande :</p>
             <pb n="146r"/>
-            <p>1<hi rendition="#su">o</hi> Qu’il soit envoyé des instructions aux <rs
-                  ref="#p.103 #p.104 #p.105 #p.106" xml:id="n.39">Ministres des cinq Cours à
+            <p>1<hi rendition="#su">o</hi> Qu’il soit envoyé des instructions aux <rs ref="#p.103 #p.104 #p.105 #p.106" xml:id="n.39">Ministres des cinq Cours à
                   Washington</rs><note type="editorial" target="#n.39">Österreich nahm offiziell
                   erst 1838 diplomatische Beziehungen zu den Vereinigten Staaten von Amerika auf;
                   vgl. Matsch, Wien – Washington, S. 3.</note> pour agir d’accord avec le Ministre
@@ -1542,8 +1439,7 @@
                      <abbr>S. M. T. F.</abbr>
                      <expan>Sa Majesté Très Fidèle</expan>
                   </choice></rs> à l’effet d’obtenir le renouvellement de <rs xml:id="n.40">l’acte
-                  du <date when="1817-03-03">3 mars 1817</date></rs>,<note type="editorial"
-                  target="#n.40">Act of Congress of The United States, „more effecutally to preserve
+                  du <date when="1817-03-03">3 mars 1817</date></rs>,<note type="editorial" target="#n.40">Act of Congress of The United States, „more effecutally to preserve
                   the Neutral Relations of The United States“. BFSP Bd. 4 (1816/17), S. 839–841.
                   Wurde mit dem Act of Congress vom 20. April 1818 wieder außer Kraft gesetzt; vgl.
                   ebd.</note> d’après lequel tout armement de corsaire dans les
@@ -1581,10 +1477,8 @@
                cours de toutes les guerres régulières, chaque Etat a le droit d’interdire l’entrée
                et la vente dans ses ports des prises et des cargaisons qui en proviennent, et c’est
                ce qui a lieu presque généralement pour éviter des contestations toujours
-               désagréables et souvent dangereuses. <metamark rend="Bleistiftmarkierung"
-                  place="margin">À plus forte raison peut-on en agir de même à l’égard de prises
-                  faites par des Pirates.</metamark><note place="foot" xml:id="ftn876" n="876"><p
-                     rend="footnote text"> À plus forte raison peut-on en agir de même à l’égard de
+               désagréables et souvent dangereuses. <metamark rend="Bleistiftmarkierung" place="margin">À plus forte raison peut-on en agir de même à l’égard de prises
+                  faites par des Pirates.</metamark><note place="foot" xml:id="ftn876" n="876"><p rend="footnote text"> À plus forte raison peut-on en agir de même à l’égard de
                      prises faites par des Pirates. <hi rend="italic">auf Korrekturrand mit
                         Bleistift markiert.</hi></p></note> Des ordres à cet effet ont déjà été
                donnés depuis<pb n="137v"/> longtemps par le <choice>
@@ -1610,21 +1504,17 @@
             <p>Ensuite par qui cette haute Police sera-t-elle exercée ? Sera-ce par toutes les
                Puissances, même par celles qui n’auroient reçu aucun dommage ou seulement par la
                partie lésée ?</p>
-            <p>Dans tous les cas et sous quelque point de vue qu’on envisage la mesure proposée,<pb
-                  n="148v"/> Elle a donc trop ou trop peu d’extension.</p>
+            <p>Dans tous les cas et sous quelque point de vue qu’on envisage la mesure proposée,<pb n="148v"/> Elle a donc trop ou trop peu d’extension.</p>
             <p>Trop, si l’on veut que les Etats auxquels les Corsaires qui y sont désignés
                n’auroient encore causé aucun dommage les traitent comme Pirates, puisque, par là, on
                s’exposeroit à compromettre tous les bâtimens appartenant à ces Etats et qui sans
                cela n’auroient couru aucun danger.</p>
             <p>Trop peu, si on ne traite pas avec la même rigueur tous ceux, quelqu’ils soyent et de
                quelque pays qu’ils viennent qui commettroient des violences contraires à la sûreté
-               de la navigation. On ne voit pas pourquoi, par exemple, les Corsaires qui<pb n="149r"
-               /> s’étoient établis à l’<rs xml:id="n.41">isle d’Amelia</rs><note type="editorial"
-                  target="#n.41">Amelia Island, Teil der Sea Islands, die sich entlang der US-Küste
+               de la navigation. On ne voit pas pourquoi, par exemple, les Corsaires qui<pb n="149r"/> s’étoient établis à l’<rs xml:id="n.41">isle d’Amelia</rs><note type="editorial" target="#n.41">Amelia Island, Teil der Sea Islands, die sich entlang der US-Küste
                   von South Carolina nach Florida erstrecken. 1817 war die Insel Ausgangspunkt von
                   Operationen des französischen Freibeuters Louis-Michel Aury.</note> n’auroient pas
-               dû subir le même traitement que ceux qui se disent autorisés par <persName
-                  ref="#p.127"><surname>Artigas</surname></persName>.</p>
+               dû subir le même traitement que ceux qui se disent autorisés par <persName ref="#p.127"><surname>Artigas</surname></persName>.</p>
             <p>En approfondissant la question, on voit donc que la dernière proposition du Ministre
                Portugais n’est point exécutable dans l’état actuel des choses. Pour qu’elle le
                devînt, il faudrait qu’elle s’appliquât à tous les Corsaires, et que les Puissances
@@ -1655,12 +1545,10 @@
       </body>
       <back>
          <include xmlns="http://www.w3.org/2001/XInclude" href="listPlace.xml" xpointer="listPlace"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="listPerson.xml"
-            xpointer="listPerson"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listPerson.xml" xpointer="listPerson"/>
          <include xmlns="http://www.w3.org/2001/XInclude" href="listWit.xml" xpointer="listWit"/>
          <include xmlns="http://www.w3.org/2001/XInclude" href="listOrg.xml" xpointer="listOrg"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="listTreaties.xml"
-            xpointer="listTreaties"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listTreaties.xml" xpointer="listTreaties"/>
       </back>
    </text>
 </TEI>

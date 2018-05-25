@@ -1,8 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -125,8 +122,7 @@
                </msIdentifier>
                <msContents>
                   <msItem>
-                     <title>Anlage 3: Zirkulardepesche der drei Höfe, gemeinsam mit der <ref
-                           decls="#m.2">"Déclaration"</ref> an die jeweiligen diplomatischen
+                     <title>Anlage 3: Zirkulardepesche der drei Höfe, gemeinsam mit der <ref decls="#m.2">"Déclaration"</ref> an die jeweiligen diplomatischen
                         Vertreter gerichtet</title>
                   </msItem>
                </msContents>
@@ -174,8 +170,7 @@
                </msIdentifier>
                <msContents>
                   <msItem>
-                     <title>Anlage 5: Österreichisches Zirkular von <persName ref="#p.8"
-                              ><surname>Metternich</surname></persName></title>
+                     <title>Anlage 5: Österreichisches Zirkular von <persName ref="#p.8"><surname>Metternich</surname></persName></title>
                   </msItem>
                </msContents>
                <physDesc>
@@ -228,8 +223,7 @@
                   450-452.</bibl></witness>
             </listWit>
             <listWit corresp="#m.4">
-               <head>Anlage 3: Zirkulardepesche der drei Höfe, gemeinsam mit der <ref decls="#m.2"
-                     >"Déclaration"</ref> an die jeweiligen diplomatischen Vertreter
+               <head>Anlage 3: Zirkulardepesche der drei Höfe, gemeinsam mit der <ref decls="#m.2">"Déclaration"</ref> an die jeweiligen diplomatischen Vertreter
                   gerichtet</head>
                <witness corresp="#w.26"><bibl type="print">Archive diplomatique/Diplomatisches
                      Archiv, Bd. 2, S. 397–410;</bibl></witness>
@@ -271,11 +265,11 @@
          </appInfo>
          <styleDefDecl scheme="css"/>
          <tagsDecl>
-            <rendition xml:id="su">superscript</rendition>
-            <rendition xml:id="s">strikethrough</rendition>
-            <rendition xml:id="u">underline</rendition>
+            <rendition xml:id="su" scheme="css">vertical-align:sub; font-size:.7em;</rendition>
+            <rendition xml:id="s" scheme="css">text-decoration:line-through;</rendition>
+            <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
             <rendition xml:id="ow">overwritten</rendition>
-            <rendition xml:id="r">right</rendition>
+            <rendition xml:id="r" scheme="css">display:block; text-align:right;</rendition>
          </tagsDecl>
       </encodingDesc>
       <profileDesc>
@@ -315,23 +309,19 @@
       <body>
          <div>
             <pb n="126r"/>
-            <p><title>Journal de clôture des Conférences particulières de <placeName ref="#loc.65"
-                     >Laybach</placeName>.</title></p>
-            <p hand="#G" rendition="#u"><placeName ref="#loc.65">Laybach</placeName> le <date
-                  when="1821-05-12">12 Mai 1821</date>.</p>
+            <p><title>Journal de clôture des Conférences particulières de <placeName ref="#loc.65">Laybach</placeName>.</title></p>
+            <p hand="#G" rendition="#u"><placeName ref="#loc.65">Laybach</placeName> le <date when="1821-05-12">12 Mai 1821</date>.</p>
 
             <p>Les <rs ref="#p.8 #p.2 #p.136 #p.13 #p.14 #p.7">Plénipotentiaires des Cours
                   d’Autriche, de Prusse et de Russie</rs> voulant, au moment de leur séparation,
                constater aux yeux de l’Europe les principes et la marche que leurs Cabinets
-               respectifs ont suivis dans les délibérations de <placeName ref="#loc.60"
-                  >Troppau</placeName> et de <placeName ref="#loc.65">Laybach</placeName> ;</p>
+               respectifs ont suivis dans les délibérations de <placeName ref="#loc.60">Troppau</placeName> et de <placeName ref="#loc.65">Laybach</placeName> ;</p>
             <p>Voulant en outre préciser et faire connoître les déterminations communes qu’ils ont
                prises jusqu’au terme de leur prochaine réunion, sont convenus de consigner dans le
                présent Protocole, servant de clôture à leurs Conférences particulières, les articles
                suivans :</p>
             <p>Article premier</p>
-            <p>Les Cours d’Autriche, de Prusse et de Russie publieront la <ref decls="#m.2"
-                  >déclaration ci-jointe sub <choice>
+            <p>Les Cours d’Autriche, de Prusse et de Russie publieront la <ref decls="#m.2">déclaration ci-jointe sub <choice>
                      <abbr>Litt.</abbr>
                      <expan>Littera</expan>
                   </choice> A</ref>.</p>
@@ -353,39 +343,32 @@
             <p>Article deuxième</p>
             <p>Les travaux de <placeName ref="#loc.65">Laybach</placeName> sont terminés, et une
                nouvelle réunion de Cabinets devant avoir lieu dans le courant de l’année 1822, les
-               Cabinets Alliés se réfèrent à ce sujet aux stipulations arrêtées par le <ref
-                  target="Laibach_Prot_15.xml">Protocole du <date when="1821-02-26">26
+               Cabinets Alliés se réfèrent à ce sujet aux stipulations arrêtées par le <ref target="Laibach_Prot_15.xml">Protocole du <date when="1821-02-26">26
                      Février</date></ref>.</p>
             <p>Article troisième</p>
             <p>Vu que les <rs ref="#p.16 #p.18 #p.17">Souverains Alliés</rs> ont dirigé leurs
                principaux efforts vers le rétablissement de l’ordre et de la paix dans plusieurs
                Etats de la Péninsule Italienne, et vu qu’il importe d’assurer la pacification
                intérieure de cette partie du Continent d’après les règles de justice et de saine
-               politique qui ont servi de bases à toutes les déterminations des <rs
-                  ref="#p.16 #p.18 #p.17">Souverains Alliés</rs>, les Cabinets d’Autriche et de
+               politique qui ont servi de bases à toutes les déterminations des <rs ref="#p.16 #p.18 #p.17">Souverains Alliés</rs>, les Cabinets d’Autriche et de
                Russie sont convenus d’adresser à leurs Ministres et Agens respectifs en Italie les
                   Circulaires ci-joints (<choice>
                      <abbr>Litt.</abbr>
                      <expan>Litteris</expan>
                   </choice> <ref decls="#m.5">D</ref>, <ref decls="#m.6">E</ref>), ayant pour but de leur prescrire une marche uniforme et
                l’observation des principes et des dispositions consignés dans les Protocoles des
-               Conférences de <placeName ref="#loc.60">Troppau</placeName> et de <placeName
-                  ref="#loc.65">Laybach</placeName>.</p>
+               Conférences de <placeName ref="#loc.60">Troppau</placeName> et de <placeName ref="#loc.65">Laybach</placeName>.</p>
             <p>Le <rs ref="#p.136">Plénipotentiaire de Prusse</rs> déclare que les instructions des
                Ministres et Agens Prussiens en Italie seront conçues dans le sens des dites
                Circulaires.</p>
             <p>Article quatrième</p>
-            <p><rs xml:id="n.5">Les événemens heureux survenus en Italie</rs><note type="editorial"
-                  target="#n.5">Niederschlagung der Revolutionen im <country>Königreich beider
+            <p><rs xml:id="n.5">Les événemens heureux survenus en Italie</rs><note type="editorial" target="#n.5">Niederschlagung der Revolutionen im <country>Königreich beider
                      Sizilien</country> und im <country>Königreich
                   Sardinien-Piemont</country>.</note> ayant rendu sans objet pour le moment la
                présence des troupes que Sa Majesté l’<rs ref="#p.17">Empereur de toutes les
-                  Russies</rs> avoit mises en mouvement à la demande de <rs ref="#p.16" xml:id="n.6"
-                  >Sa Majesté Impériale et Royale Apostolique</rs><note type="editorial"
-                  target="#n.6">Ehrentitel des Kaisers von Österreich.</note> pour le soutien de la
+                  Russies</rs> avoit mises en mouvement à la demande de <rs ref="#p.16" xml:id="n.6">Sa Majesté Impériale et Royale Apostolique</rs><note type="editorial" target="#n.6">Ehrentitel des Kaisers von Österreich.</note> pour le soutien de la
                cause que les <rs ref="#p.16 #p.18 #p.17">Souverains Alliés</rs> défendent dans un
-               même esprit de bienveillance, d’union et de paix, Sa Majesté l’<rs ref="#p.17"
-                  >Empereur de toutes les Russies</rs> placera néanmoins dans les Provinces Russes,
+               même esprit de bienveillance, d’union et de paix, Sa Majesté l’<rs ref="#p.17">Empereur de toutes les Russies</rs> placera néanmoins dans les Provinces Russes,
                limitrophes de l’Empire Autrichien, une armée de cent vingt-trois mille hommes
                laquelle y sera maintenue jusqu’à la réunion des Monarques en 1822 pour servir
                d’appui à la conservation de la tranquillité générale.</p>
@@ -397,21 +380,18 @@
          <div hand="#A" decls="#m.2">
             <pb n="122/8r"/>
             <p><title>Déclaration</title></p>
-            <p>L’Europe connaît les motifs de la résolution prise par les <rs
-                  ref="#p.16 #p.18 #p.17">Souverains alliés</rs> d’étouffer les complots et de faire
+            <p>L’Europe connaît les motifs de la résolution prise par les <rs ref="#p.16 #p.18 #p.17">Souverains alliés</rs> d’étouffer les complots et de faire
                cesser les troubles qui menaçaient l’existence de cette paix générale dont le
                rétablissement a coûté tant d’efforts et tant de sacrifices.</p>
             <p>Au moment même où leur généreuse détermination s’accomplissait dans le
                   <country>Royaume de Naples</country>, <rs xml:id="n.7">une rébellion d’un genre
-                  plus odieux encore, s’il était possible, éclata dans le Piémont</rs>.<note
-                  type="editorial" target="#n.7">Im März 1821 war im <country>Königreich
+                  plus odieux encore, s’il était possible, éclata dans le Piémont</rs>.<note type="editorial" target="#n.7">Im März 1821 war im <country>Königreich
                      Sardinien-Piemont</country> eine Revolution ausgebrochen, die rasch durch
                   österreichische Truppen niedergeschlagen wurde. Vgl. Späth, Revolution in Europa,
                   S. 150–165; Broers, Napoleonic Imperialism; Jarrett, The Congress of Vienna, S.
                   270–284.</note></p>
             <p>Ni les liens qui depuis tant de siècles unissent la maison régnante de Savoye à son
-               peuple, ni les bienfaits d’une administration éclairée sous un <rs ref="#p.169"
-                  >Prince</rs> sage et sous des lois paternelles, ni la triste perspective des maux
+               peuple, ni les bienfaits d’une administration éclairée sous un <rs ref="#p.169">Prince</rs> sage et sous des lois paternelles, ni la triste perspective des maux
                auxquels la patrie allait être exposée, n’ont pu contenir les desseins des
                pervers.</p>
             <p>Le plan d’une subversion générale était tracé. Dans cette vaste combinaison contre le
@@ -448,8 +428,7 @@
                comme une attaque contre leur indépendance. Dès-lors la guerre a cessé ; dès-lors les
                Etats que la révolte avait atteints n’ont plus été que des Etats amis pour les
                Puissances qui n’avaient jamais désiré que leur tranquillité et leur bien-être.</p>
-            <p>Au milieu de ces graves conjonctures, et dans une position aussi délicate, les <rs
-                  ref="#p.16 #p.18 #p.17">Souverains alliés</rs>, d’accord avec <choice>
+            <p>Au milieu de ces graves conjonctures, et dans une position aussi délicate, les <rs ref="#p.16 #p.18 #p.17">Souverains alliés</rs>, d’accord avec <choice>
                   <abbr>LL. MM.</abbr>
                   <expan>Leurs Majestés</expan>
                </choice> le <rs ref="#p.138">Roi des deux-Siciles</rs> et le <rs ref="#p.169">Roi de
@@ -459,8 +438,7 @@
                placées sur les points convenables, dans l’unique vue de protéger le libre exercice
                de l’autorité légitime, et de l’aider à préparer sous cette égide les bienfaits qui
                doivent effacer la trace de si grands malheurs.</p>
-            <p>La justice et le désintéressement qui ont présidé aux délibérations des <rs
-                  ref="#p.16 #p.18 #p.17">Monarques alliés</rs> régleront toujours leur politique. À
+            <p>La justice et le désintéressement qui ont présidé aux délibérations des <rs ref="#p.16 #p.18 #p.17">Monarques alliés</rs> régleront toujours leur politique. À
                l’avenir, comme par le passé, elle aura<pb n="123r"/> toujours pour but la
                conservation de l’indépendance et des droits de chaque Etat, tels qu’ils sont
                reconnus et définis par les traités existans. Le résultat même d’un aussi dangereux
@@ -483,8 +461,7 @@
             <table rend="rules">
                <row>
                   <cell>Autriche</cell>
-                  <cell rend="Unterschriften"><persName ref="#p.8"
-                        ><surname>Metternich</surname></persName></cell>
+                  <cell rend="Unterschriften"><persName ref="#p.8"><surname>Metternich</surname></persName></cell>
                </row>
                <row>
                   <cell/>
@@ -497,8 +474,7 @@
                </row>
                <row>
                   <cell>Prusse</cell>
-                  <cell rend="Unterschriften"><persName ref="#p.136"
-                        ><surname>Krusemarck</surname></persName></cell>
+                  <cell rend="Unterschriften"><persName ref="#p.136"><surname>Krusemarck</surname></persName></cell>
                </row>
                <row>
                   <cell/>
@@ -506,13 +482,11 @@
                </row>
                <row>
                   <cell>Russie</cell>
-                  <cell rend="Unterschriften"><persName ref="#p.13"
-                        ><surname>Nesselrode</surname></persName></cell>
+                  <cell rend="Unterschriften"><persName ref="#p.13"><surname>Nesselrode</surname></persName></cell>
                </row>
                <row>
                   <cell/>
-                  <cell rend="Unterschriften"><persName ref="#p.14"
-                        ><surname>Capodistrias</surname></persName></cell>
+                  <cell rend="Unterschriften"><persName ref="#p.14"><surname>Capodistrias</surname></persName></cell>
                </row>
                <row>
                   <cell/>
@@ -527,41 +501,31 @@
 
             <p><add hand="#AmR" place="top">B.</add></p>
             <p><title>Copie d’une Circulaire aux Missions de Russie</title></p>
-            <p><placeName ref="#loc.65">Laybach</placeName> ce <add hand="#A1" place="inspace"
-                  >1/13</add><date when="1821-05-13"><add hand="#A1" place="inspace">May</add>
+            <p><placeName ref="#loc.65">Laybach</placeName> ce <add hand="#A1" place="inspace">1/13</add><date when="1821-05-13"><add hand="#A1" place="inspace">May</add>
                   1821</date>.</p>
             <p>Il y a précisément un an que nous nous sommes vus forcés de faire connoître les
                principes que L’<rs ref="#p.17">Empereur</rs> avoit résolu de suivre à l’égard des
                Etats qui, au malheur de subir une révolution criminelle et violente, joindroient
                celui d’en sanctionner les fatales conséquences.</p>
-            <p>Depuis cette époque, et à dater de l’ouverture des Conférences de <placeName
-                  ref="#loc.60">Troppau</placeName> et de <placeName ref="#loc.65"
-                  >Laybach</placeName>, nos communications successives ont dû prouver à tous les
+            <p>Depuis cette époque, et à dater de l’ouverture des Conférences de <placeName ref="#loc.60">Troppau</placeName> et de <placeName ref="#loc.65">Laybach</placeName>, nos communications successives ont dû prouver à tous les
                ministres et agens de L’<rs ref="#p.17">Empereur</rs> dans l’étranger non seulement
                que les principes de <rs ref="#p.17">Sa Majesté Impériale</rs> ne varieroient pas,
                mais encore que <rs ref="#p.17">notre Auguste Maître</rs> seroit toujours prêt à
-               concourir de tous Ses moyens au succès des mesures qu’Il avoit arrêtées avec <rs
-                  ref="#p.16 #p.18">Ses alliés</rs> dans l’intérêt général du repos de L’Europe.</p>
+               concourir de tous Ses moyens au succès des mesures qu’Il avoit arrêtées avec <rs ref="#p.16 #p.18">Ses alliés</rs> dans l’intérêt général du repos de L’Europe.</p>
             <p>Par notre <rs xml:id="n.8">Circulaire du 27 <choice>
                      <abbr>Févr.</abbr>
                      <expan>Février</expan>
-                  </choice>/<date when="1821-03-11">11 Mars</date></rs><note type="editorial"
-                  target="#n.8">Abgedruckt in Vnešnjaja politika Rossii, Bd. 12, S. 41-44.</note>
+                  </choice>/<date when="1821-03-11">11 Mars</date></rs><note type="editorial" target="#n.8">Abgedruckt in Vnešnjaja politika Rossii, Bd. 12, S. 41-44.</note>
                nous Vous informions qu’attendu les déterminations prises sous ce rapport par Sa
-               Majesté Impériale, Elle s’étoit décidée à prolonger Son séjour auprès de <rs
-                  xml:id="n.9" ref="#p.16">Sa<pb n="128v"/> Majesté Impériale et
+               Majesté Impériale, Elle s’étoit décidée à prolonger Son séjour auprès de <rs xml:id="n.9" ref="#p.16">Sa<pb n="128v"/> Majesté Impériale et
                   Royale-Apostolique</rs><note type="editorial" target="#n.9">Ehrentitel des Kaisers
-                  von Österreich.</note> malgré la clôture du Congrès de <placeName ref="#loc.65"
-                  >Laybach</placeName>.</p>
-            <p>Nos <rs xml:id="n.10">dépêches du 8/<date when="1821-03-20">20 Mars</date></rs><note
-                  type="editorial" target="#n.10">Abgedruckt in Vnešnjaja politika Rossii, Bd. 12,
-                  S. 56-57.</note> Vous apprirent bientôt que la prévoyance de L’<rs ref="#p.17"
-                  >Empereur</rs> n’avoit été que trop complètement justifiée et que, fidèle à Ses
+                  von Österreich.</note> malgré la clôture du Congrès de <placeName ref="#loc.65">Laybach</placeName>.</p>
+            <p>Nos <rs xml:id="n.10">dépêches du 8/<date when="1821-03-20">20 Mars</date></rs><note type="editorial" target="#n.10">Abgedruckt in Vnešnjaja politika Rossii, Bd. 12,
+                  S. 56-57.</note> Vous apprirent bientôt que la prévoyance de L’<rs ref="#p.17">Empereur</rs> n’avoit été que trop complètement justifiée et que, fidèle à Ses
                promesses, la Russie, sur la demande de L’Autriche et du <rs ref="#p.169">souverain
                   légitime du Royaume de Sardaigne</rs>, avoit fait marcher une armée de Cent mille
                hommes, afin de prévenir les funestes et trop probables effets <rs xml:id="n.11">de
-                  la révolte militaire qui venoit d’éclater dans le Piémont</rs>.<note
-                  type="editorial" target="#n.11">Im März 1821 war im <country>Königreich
+                  la révolte militaire qui venoit d’éclater dans le Piémont</rs>.<note type="editorial" target="#n.11">Im März 1821 war im <country>Königreich
                      Sardinien-Piemont</country> eine Revolution ausgebrochen, die rasch durch
                   österreichische Truppen niedergeschlagen wurde. Vgl. Späth, Revolution in Europa,
                   S. 150–165; Broers, Napoleonic Imperialism; Jarrett, The Congress of Vienna, S.
@@ -571,9 +535,7 @@
                les Etats de <rs ref="#p.169"><choice>
                      <abbr>S. M.</abbr>
                      <expan>Sa Majesté</expan>
-                  </choice> Sarde</rs>. Le Gouvernement Royal y a profité de la proximité <rs
-                  xml:id="n.12">du Royaume Lombardo-Vénitien</rs>,<note type="editorial"
-                  target="#n.12">1814 wurden die Lombardei und Venetien ein Teil des
+                  </choice> Sarde</rs>. Le Gouvernement Royal y a profité de la proximité <rs xml:id="n.12">du Royaume Lombardo-Vénitien</rs>,<note type="editorial" target="#n.12">1814 wurden die Lombardei und Venetien ein Teil des
                      <country>Kaisertums Österreich</country> und bildeten das Königreich
                   Lombardo-Venetien. Vgl. Gottsmann, Malfèr, Die Vertretungskörperschaften; Helfert,
                   Kaiser Franz von Österreich; Rath, The Provisional Austrian Regime; Pesendorfer,
@@ -590,45 +552,37 @@
                autre part, plus la résolution de les faire agir étoit énergique, plus a été utile et
                vive l’impression produite par la seule nouvelle de leur mouvement, et plus il est
                essentiel aux yeux de L’<rs ref="#p.17">Empereur</rs> que tous les Cabinets de
-               L’Europe connoissent et apprécient les graves considérations qui ont porté <rs
-                  ref="#p.17">Sa Majesté Impériale</rs> à recourir à la force des armes et les
+               L’Europe connoissent et apprécient les graves considérations qui ont porté <rs ref="#p.17">Sa Majesté Impériale</rs> à recourir à la force des armes et les
                intentions nobles et pures qui en auroient toujours dirigé et modéré l’emploi.</p>
             <p>L’expérience de tous les âges et de tous les pays avertit les peuples des calamités
                qui forment l’inévitable cortège du crime et de la rébellion. Mais l’année dernière,
                ces hautes et éternelles leçons des siècles furent méconnues. Les catastrophes se
                pressèrent avec une effrayante rapidité. <rs xml:id="n.14"><country>Naples</country>
-                  démontra jusqu’à l’évidence les dangers d’un pernicieux exemple.</rs><note
-                  type="editorial" target="#n.14">Am <date when="1820-07-02">2. Juli 1820</date>
-                  meuterte die Militärgarnison in Nola, 35 km von <placeName ref="#loc.11"
-                     >Neapel</placeName> entfernt. Das Datum gilt als Beginn der Revolution im
+                  démontra jusqu’à l’évidence les dangers d’un pernicieux exemple.</rs><note type="editorial" target="#n.14">Am <date when="1820-07-02">2. Juli 1820</date>
+                  meuterte die Militärgarnison in Nola, 35 km von <placeName ref="#loc.11">Neapel</placeName> entfernt. Das Datum gilt als Beginn der Revolution im
                      <country>Königreich beider Sizilien</country>. Vgl. Stites, The four Horsemen;
                   Davis, Naples and Napoleon; Gin, Sanfedisti, Carbonari, Magistrati del Re; Späth,
                   Revolution in Europa, S. 129–149.</note> Devenu lui-même le foyer de la révolution
                et le centre de l’activité des sectes, cet Etat menaça l’Italie d’une
                   conflagration<pb n="129v"/> générale, et l’<country>Autriche</country>, voyant une
-               partie de ses provinces exposée à un imminent péril, réclama d’abord l’<hi
-                  rendition="#u">appui moral</hi> de ses <rs ref="#p.18 #p.17">alliés</rs>. Ami
+               partie de ses provinces exposée à un imminent péril, réclama d’abord l’<hi rendition="#u">appui moral</hi> de ses <rs ref="#p.18 #p.17">alliés</rs>. Ami
                sincère de <rs ref="#p.16">Sa Majesté Impériale et Royale-Apostolique</rs> et
                convaincu comme Elle des maux qui auroient encore une fois accablé le monde si
-               l’oubli de tous les devoirs avoit pu obtenir l’apologie d’un triomphe durable, L’<rs
-                  ref="#p.17">Empereur</rs> embrassa avec franchise une cause que Sa conscience Lui
+               l’oubli de tous les devoirs avoit pu obtenir l’apologie d’un triomphe durable, L’<rs ref="#p.17">Empereur</rs> embrassa avec franchise une cause que Sa conscience Lui
                disoit être celle de L’Europe, des lois et des traités. Il fit plus. Comme une intime
                union a été établie par des actes solemnels entre toutes les Puissances Européennes,
                   L’<rs ref="#p.17">Empereur</rs> offrit à <rs ref="#p.16 #p.18">Ses alliés</rs> le
                secours de Ses armes pour le cas où des bouleversemens nouveaux feroient craindre de
-               nouveaux dangers. Nous avons déjà vu comment se vérifièrent les pressentimens de <rs
-                  ref="#p.17">Sa Majesté Impériale</rs>. Des sectaires, agissant dans les ténèbres
+               nouveaux dangers. Nous avons déjà vu comment se vérifièrent les pressentimens de <rs ref="#p.17">Sa Majesté Impériale</rs>. Des sectaires, agissant dans les ténèbres
                dont ils ont besoin pour couvrir leurs coupables projets, excitèrent en Piémont une
                insurrection qui pouvoit par ses suites retarder les progrès du bien dans les
-               Deux-Siciles, et en compromettant l’armée qui s’avançoit vers <placeName
-                  ref="#loc.11">Naples</placeName> encourager la révolte dans tout<pb n="130r"/> le
+               Deux-Siciles, et en compromettant l’armée qui s’avançoit vers <placeName ref="#loc.11">Naples</placeName> encourager la révolte dans tout<pb n="130r"/> le
                reste de la Péninsule ; déjà même d’alarmans symptômes autorisoient des inquiétudes
                pour d’autres contrées ; dès lors les troupes Russes durent marcher. Elles marchaient
                en effet ; Elles marchaient non pour étendre la Puissance de la Russie ou porter la
                plus légère atteinte à l’état de possession territoriale, garanti à tous les
                gouvernements de L’Europe par les <rs ref="#t.12 #t.9 #t.42">traités conclus depuis
-                  l’année 1814</rs>, mais pour secourir les alliés de L’<rs ref="#p.17"
-                  >Empereur</rs> et, ainsi que nous l’avons dit plus haut, sur la demande expresse
+                  l’année 1814</rs>, mais pour secourir les alliés de L’<rs ref="#p.17">Empereur</rs> et, ainsi que nous l’avons dit plus haut, sur la demande expresse
                de <rs ref="#p.16">Sa Majesté Impériale et Royale-Apostolique</rs> et <choice>
                   <abbr>S. A. R.</abbr>
                   <expan>Son Altesse Royale</expan>
@@ -639,8 +593,7 @@
                que ce fût, mais pour favoriser le rétablissement de l’ordre dans les pays où des
                hommes de malheurs ont fini par rendre indispensable l’assistance d’une force
                étrangère.</p>
-            <p>Telle a été, telle sera toujours l’unique<pb n="130v"/> intention de L’<rs
-                  ref="#p.17">Empereur</rs> si jamais Il se trouvoit encore dans la nécessité de
+            <p>Telle a été, telle sera toujours l’unique<pb n="130v"/> intention de L’<rs ref="#p.17">Empereur</rs> si jamais Il se trouvoit encore dans la nécessité de
                mettre Ses armées en mouvement.</p>
             <p>Aucune charge ne seroit même résulté de leur passage, ni de leur présence momentanée.
                Elles auroient traversé paisiblement les immenses espaces qui les séparent de
@@ -653,8 +606,7 @@
                le soin, n’ont été et ne seront les mobiles de la politique de <rs ref="#p.17">Sa
                   Majesté Impériale</rs>.</p>
             <p>Des faits irréfragables attestent aujourd’hui la sincérité de ce langage.</p>
-            <p>La malveillance prêtoit à la Russie des vues hostiles contre la Porte. <rs
-                  xml:id="n.15">Des troubles se sont manifestés en Valachie et en
+            <p>La malveillance prêtoit à la Russie des vues hostiles contre la Porte. <rs xml:id="n.15">Des troubles se sont manifestés en Valachie et en
                   Moldavie</rs>,<note type="editorial" target="#n.15">1821 kam es in den beiden zum
                      <country>Osmanischen Reich</country> gehörenden Fürstentümern Walachei und
                   Moldawien zu Aufständen. Vgl. Erbe, Erschütterung, S. 376; Berindei, Revoluţia
@@ -673,11 +625,8 @@
                   <expan>Monsieur</expan>
                </choice>, c’est avec la conscience d’avoir rempli les devoirs d’ami et d’allié,
                c’est avec le dessein de toujours les remplir, et la consolante persuasion d’avoir
-               contribué à la tranquillité de L’Italie et de L’Europe que L’<rs ref="#p.17"
-                  >Empereur</rs> va quitter <placeName ref="#loc.65">Laybach</placeName>.</p>
-            <p>Il partira le <add hand="#AmB" place="inspace"><del>12</del></add><add
-                  rendition="#ow">13</add> et se rendra par <placeName ref="#loc.70"
-                  >Varsovie</placeName> à <placeName ref="#loc.10"><choice>
+               contribué à la tranquillité de L’Italie et de L’Europe que L’<rs ref="#p.17">Empereur</rs> va quitter <placeName ref="#loc.65">Laybach</placeName>.</p>
+            <p>Il partira le <add hand="#AmB" place="inspace"><del>12</del></add><add rendition="#ow">13</add> et se rendra par <placeName ref="#loc.70">Varsovie</placeName> à <placeName ref="#loc.10"><choice>
                      <abbr>S.</abbr>
                      <expan>Saint</expan>
                   </choice> Pétersbourg</placeName>, heureux de prêter Son assistance à Ses alliés
@@ -712,11 +661,9 @@
             <p><title>Dépêche circulaire</title></p>
 
             <p>La réunion des <rs ref="#p.16 #p.18 #p.17">Monarques alliés</rs> et de leurs Cabinets
-               à <placeName ref="#loc.60">Troppau</placeName>, arrêtée à la suite des <rs
-                  xml:id="n.16">événemens qui avaient renversé le Gouvernement légitime à
+               à <placeName ref="#loc.60">Troppau</placeName>, arrêtée à la suite des <rs xml:id="n.16">événemens qui avaient renversé le Gouvernement légitime à
                   Naples</rs>,<note type="editorial" target="#n.16">Am <date when="1820-07-02">2.
-                     Juli 1820</date> meuterte die Militärgarnison in Nola, 35 km von <placeName
-                     ref="#loc.11">Neapel</placeName> entfernt. Das Datum gilt als Beginn der
+                     Juli 1820</date> meuterte die Militärgarnison in Nola, 35 km von <placeName ref="#loc.11">Neapel</placeName> entfernt. Das Datum gilt als Beginn der
                   Revolution im <country>Königreich beider Sizilien</country>. Vgl. Stites, The four
                   Horsemen; Davis, Naples and Napoleon; Gin, Sanfedisti, Carbonari, Magistrati del
                   Re; Späth, Revolution in Europa, S. 129–149.</note> était destinée à fixer le
@@ -724,8 +671,7 @@
                événemens, à se concerter sur une marche commune, et à combiner dans un esprit de
                justice, de conservation et de modération des mesures propres à garantir l’Italie
                d’un bouleversement général, et les états voisins des plus imminens dangers. Grâces à
-               l’heureuse conformité de vues et de dispositions qui régnait entre les <rs
-                  ref="#p.16 #p.18 #p.17">trois Augustes Souverains</rs>, cette première tâche fut
+               l’heureuse conformité de vues et de dispositions qui régnait entre les <rs ref="#p.16 #p.18 #p.17">trois Augustes Souverains</rs>, cette première tâche fut
                bientôt remplie. Des principes clairement énoncés et réciproquement embrassés avec
                toute la sincérité d’une conviction intime conduisirent à des résolutions analogues,
                et les bases établies dès les premières conférences ont été invariablement suivies
@@ -733,9 +679,7 @@
                remarquables.</p>
             <p>Transférée à <placeName ref="#loc.65">Laibach</placeName>, cette réunion prit un
                caractère plus prononcé par la présence et le concours du <rs ref="#p.138">Roi des
-                  deux-Siciles</rs>, et par <ref target="Laibach_Prot_11.xml Laibach_Prot_12.xml"
-                  >l’assentiment unanime avec lequel les <rs ref="#p.169 #p.155 #p.170 #p.171"
-                     >Princes d’Italie</rs> accédèrent au système adopté par les cabinets
+                  deux-Siciles</rs>, et par <ref target="Laibach_Prot_11.xml Laibach_Prot_12.xml">l’assentiment unanime avec lequel les <rs ref="#p.169 #p.155 #p.170 #p.171">Princes d’Italie</rs> accédèrent au système adopté par les cabinets
                   alliés</ref>. <rs ref="#p.16 #p.18 #p.17">Les Monarques</rs> se convainquirent que
                les gouvernemens les plus immédiatement intéressés aux destinées de la Péninsule
                rendaient justice à la pureté de Leurs intentions, et qu’un Souverain placé dans la
@@ -747,10 +691,8 @@
             <p>L’effet de ces mesures n’a pas tardé à se manifester. L’édifice élevé par la révolte,
                aussi fragile dans sa construction que vicieux dans ses bases, ne reposant que sur
                l’astuce des uns et sur l’aveuglement momentané des autres, réprouvé par l’immense
-               majorité de la nation, odieux même à l’armée formée pour le défendre, <rs
-                  xml:id="n.17">s’est écroulé au premier contact avec la force régulière qui était
-                  destinée à le renverser et qui n’a servi qu’à en démontrer le néant.</rs><note
-                  type="editorial" target="#n.17">Die österreichische Armee war am 24. März 1821 in
+               majorité de la nation, odieux même à l’armée formée pour le défendre, <rs xml:id="n.17">s’est écroulé au premier contact avec la force régulière qui était
+                  destinée à le renverser et qui n’a servi qu’à en démontrer le néant.</rs><note type="editorial" target="#n.17">Die österreichische Armee war am 24. März 1821 in
                   Neapel eingezogen.</note></p>
             <p>Le pouvoir légitime et rétabli ; les factions sont dispersées, le peuple Napolitain
                est délivré de la tyrannie de ces imposteurs audacieux qui, en le berçant des rêves
@@ -759,8 +701,7 @@
                et marchaient à grands pas vers l’irréparable ruine d’un pays dont ils ne cessaient
                de se dire les régénérateurs.</p>
             <p>Cette restauration importante est consommée autant qu’elle a pu et qu’elle a dû
-               l’être par les conseils et les efforts des puissances alliées. <rs xml:id="n.18"
-                  >Aujourd’hui que le <rs ref="#p.138">Roi des deux-Siciles</rs> est investi de
+               l’être par les conseils et les efforts des puissances alliées. <rs xml:id="n.18">Aujourd’hui que le <rs ref="#p.138">Roi des deux-Siciles</rs> est investi de
                   nouveau de la plénitude de ses droits, <rs ref="#p.16 #p.18 #p.17">les
                      Monarques</rs> se bornent à seconder de Leurs vœux les plus ardens les
                   résolutions que <rs ref="#p.138">ce Souverain</rs> va adopter pour reconstruire
@@ -808,8 +749,7 @@
                différentes Les ont constamment animés ; et si ce repos que les gouvernemens et les
                peuples avaient le droit de croire assuré par la pacification de l’Europe n’a point
                pu opérer tout le bien qui devait en résulter, c’est que les gouvernemens ont dû
-               concentrer toutes leurs pensées sur les moyens d’opposer des digues aux progrès<pb
-                  n="141v"/> d’une faction qui, répandant autour d’elle l’erreur, le mécontentement,
+               concentrer toutes leurs pensées sur les moyens d’opposer des digues aux progrès<pb n="141v"/> d’une faction qui, répandant autour d’elle l’erreur, le mécontentement,
                le fanatisme des innovations, eut bientôt mis en problème l’existence d’un ordre
                public quelconque. Les changemens utiles ou nécessaires dans la législation et dans
                l’administration des états ne doivent émaner que de la volonté libre, de l’impulsion
@@ -862,8 +802,7 @@
                ses vertus ; une partie considérable de troupes fut entraînée dans l’abîme par
                l’exemple et les intrigues d’un petit nombre d’ambitieux ; et le cri banal de la
                faction antisociale retentissait de la Capitale aux provinces.</p>
-            <p><rs ref="#p.16 #p.18 #p.17">Les Monarques</rs> réunis à <placeName ref="#loc.65"
-                  >Laibach</placeName> ne tardèrent pas à y répondre. Leur union était du nombre de
+            <p><rs ref="#p.16 #p.18 #p.17">Les Monarques</rs> réunis à <placeName ref="#loc.65">Laibach</placeName> ne tardèrent pas à y répondre. Leur union était du nombre de
                celles qui se fortifient et grandissent avec le danger ; Leur voix fut entendue.
                Aussitôt les Serviteurs fidèles du <rs ref="#p.169">Roi</rs>, sentant qu’ils
                n’étaient point abandonnés, employèrent ce qu’il leur restait de ressources pour
@@ -874,8 +813,7 @@
                peu de jours ; et il n’est resté de cette révolution, calculée sur la chute de plus
                d’un gouvernement que les souvenirs honteux emportés par ses coupables auteurs.</p>
             <p>C’est ainsi qu’en suivant sans déviation les principes établis et la ligne de
-               conduite tracée dès les premiers jours de leur réunion, les <rs
-                  ref="#p.16 #p.18 #p.17">Monarques alliés</rs> sont parvenus à pacifier l’Italie.
+               conduite tracée dès les premiers jours de leur réunion, les <rs ref="#p.16 #p.18 #p.17">Monarques alliés</rs> sont parvenus à pacifier l’Italie.
                Leur objet direct est atteint. Aucune des démarches qui y ont abouti n’a démenti les
                déclarations que la vérité et la bonne foi leur avaient inspirées. Ils y resteront
                fidèles, quelque nouvelle épreuve que la Providence puisse leur avoir réservée. Plus
@@ -892,10 +830,8 @@
                   Kongress von <placeName ref="#loc.68">Verona</placeName> statt. Vgl. Edition
                   Verona, zum Folgenden insbesondere Abschnitt II (Affaires d’Italie).</note> On y
                prendra en considération le terme à fixer aux mesures qui, de l’aveu de toutes les
-               Cours d’Italie, et particulièrement de celles de <placeName ref="#loc.11"
-                  >Naples</placeName> et de <placeName ref="#loc.64">Turin</placeName>, ont été
-               jugées nécessaires pour raffermir la tranquillité de la Péninsule. <rs
-                  ref="#p.16 #p.18 #p.17">Les Monarques</rs> et Leurs Cabinets apporteront à
+               Cours d’Italie, et particulièrement de celles de <placeName ref="#loc.11">Naples</placeName> et de <placeName ref="#loc.64">Turin</placeName>, ont été
+               jugées nécessaires pour raffermir la tranquillité de la Péninsule. <rs ref="#p.16 #p.18 #p.17">Les Monarques</rs> et Leurs Cabinets apporteront à
                l’examen de cette question le même esprit qui les a dirigés jusqu’ici. Des motifs
                d’une gravité incontestable, et pleinement justifiés par les résultats, avaient
                déterminé les Souverains à intervenir dans les affaires de l’Italie ; Ils sont loin
@@ -918,15 +854,12 @@
          <div decls="#m.5" hand="#A">
             <pb n="144r"/>
             <p><add place="top" hand="#AmR">D.</add></p>
-            <p><title><del rendition="#s">Projet de</del> Circulaire aux Ministres de l’<rs
-                     ref="#p.17">Empereur</rs> en Italie</title></p>
+            <p><title><del rendition="#s">Projet de</del> Circulaire aux Ministres de l’<rs ref="#p.17">Empereur</rs> en Italie</title></p>
             <p>Après les soins que les Puissances alliées ont pris pour la pacification de la
                Péninsule Italienne, leur sollicitude devoit naturellement se porter sur les mesures
                les plus propres à consolider les heureux résultats de leurs communs efforts et à
                faire jouir l’Italie d’une tranquillité réelle et durable.</p>
-            <p>Cette grave question avoit déjà été agitée entre les Cabinets réunis à <placeName
-                  ref="#loc.60">Troppau</placeName> et à <placeName ref="#loc.65"
-                  >Laybach</placeName>. Elle a été reprise en considération par ceux de Russie et
+            <p>Cette grave question avoit déjà été agitée entre les Cabinets réunis à <placeName ref="#loc.60">Troppau</placeName> et à <placeName ref="#loc.65">Laybach</placeName>. Elle a été reprise en considération par ceux de Russie et
                d’Autriche qui, avant de se séparer, ont résolu d’adopter à cet égard un système de
                conduite uniforme que nous nous empressons de Vous faire connoître.</p>
             <p>Les Puissances alliées se proposent et doivent nécessairement se proposer un double
@@ -942,12 +875,9 @@
                doit être de profiter du moment actuel pour se <hi rendition="#u">préserver</hi> à
                jamais des calamités qui leur présageoient dans un prochain avenir une trop probable
                ruine.</p>
-            <p>C’étoit par conséquent sur des mesures que l’on peut appeler ; les unes : <hi
-                  rendition="#u">mesures de<pb n="145r"/> réparation</hi> ; les autres : <hi
-                  rendition="#u">mesures de préservation</hi>, que devoit se porter principalement
+            <p>C’étoit par conséquent sur des mesures que l’on peut appeler ; les unes : <hi rendition="#u">mesures de<pb n="145r"/> réparation</hi> ; les autres : <hi rendition="#u">mesures de préservation</hi>, que devoit se porter principalement
                l’attention des Puissances alliées.</p>
-            <p>Déjà Elles s’étoient empressées d’offrir aux <rs ref="#p.172 #p.155 #p.170 #p.171"
-                  >Princes d’Italie</rs> les gages de sureté dont ils avoient besoin pour s’occuper
+            <p>Déjà Elles s’étoient empressées d’offrir aux <rs ref="#p.172 #p.155 #p.170 #p.171">Princes d’Italie</rs> les gages de sureté dont ils avoient besoin pour s’occuper
                efficacement, soit à faire disparoître les traces des malheurs passés, soit à
                prévenir toute catastrophe nouvelle. Mais il leur restoit encore à discuter le point
                important de la coopération morale dont Elles pourroient charger leurs Ministres
@@ -957,8 +887,7 @@
                ici le résumé, et dont les idées principales constituent<pb n="145v"/> la base
                commune des instructions que reçoivent les Ministres de Russie et d’Autriche.</p>
             <p>Après avoir fait sentir toute l’étendue des services que les Puissances alliées ont
-               eu le bonheur de rendre à l’Italie, le Cabinet de <placeName ref="#loc.7"
-                  >Vienne</placeName> démontre combien il est naturel et légitime que les Puissances
+               eu le bonheur de rendre à l’Italie, le Cabinet de <placeName ref="#loc.7">Vienne</placeName> démontre combien il est naturel et légitime que les Puissances
                désirent de voir la paix intérieure de cette contrée suffisamment affermie pour se
                maintenir sans le secours d’une force étrangère.</p>
             <p>Il remonte ensuite aux causes des commotions révolutionnaires qui ont agité la
@@ -981,8 +910,7 @@
                autrichien indique les mesures par lesquelles il croit possible d’atteindre l’objet
                qu’il vient de signaler.</p>
             <p>Ces mesures sont :</p>
-            <p>À <country>Naples</country>, l’exécution franche de la loi fondamentale que <rs
-                  ref="#p.138"><choice>
+            <p>À <country>Naples</country>, l’exécution franche de la loi fondamentale que <rs ref="#p.138"><choice>
                      <abbr>S. M.</abbr>
                      <expan>Sa Majesté</expan>
                   </choice> Sicilienne</rs> a portée à la connoissance de ses alliés dans les
@@ -1001,16 +929,12 @@
                attentivement la situation où ils se trouvent, les réformes que peuvent exiger les
                besoins des peuples et les moyens de se préserver du double fléau des révolutions et
                des sectes dont elles sont l’ouvrage ; </p>
-            <p>Enfin la fixation de l’époque du <rs xml:id="n.25">congrès de <placeName
-                     ref="#loc.69">Florence</placeName></rs><note type="editorial" target="#n.25"
-                  >Der Kongress fand schließlich nicht in Florenz, sondern in <placeName
-                     ref="#loc.68">Verona</placeName> statt; vgl. Edition Verona, bes. Abschnitt II
+            <p>Enfin la fixation de l’époque du <rs xml:id="n.25">congrès de <placeName ref="#loc.69">Florence</placeName></rs><note type="editorial" target="#n.25">Der Kongress fand schließlich nicht in Florenz, sondern in <placeName ref="#loc.68">Verona</placeName> statt; vgl. Edition Verona, bes. Abschnitt II
                   (Affaires d’Italie).</note> comme devant être celle où les Cours d’Italie se
                communiqueront réciproquement, ainsi qu’aux Puissances alliées, les plans de
                réorganisation qu’elles auront arrêtés, et prendront l’engage<pb n="147v"/>ment
                d’accomplir ces vues salutaires.</p>
-            <p>Nous allons successivement Vous informer de l’opinion de l’<rs ref="#p.17"
-                  >Empereur</rs> sur les principaux points du mémoire présenté par le Cabinet de
+            <p>Nous allons successivement Vous informer de l’opinion de l’<rs ref="#p.17">Empereur</rs> sur les principaux points du mémoire présenté par le Cabinet de
                   <placeName ref="#loc.7">Vienne</placeName>.</p>
             <p>Rien de plus judicieux à la fois et de plus sage que le but auquel tendent les vœux
                de l’Autriche.</p>
@@ -1020,8 +944,7 @@
                </choice><supplied>...</supplied>, par les communications que nous Vous avons
                adressées depuis six mois que ce but étoit celui de l’<rs ref="#p.17">Empereur</rs>,
                celui que doivent poursuivre tous les amis du bien, celui que rappellent tous les
-               actes de <placeName ref="#loc.60">Troppau</placeName> et de <placeName ref="#loc.65"
-                  >Laybach</placeName>, celui enfin, vers lequel devoient marcher d’un pas constant
+               actes de <placeName ref="#loc.60">Troppau</placeName> et de <placeName ref="#loc.65">Laybach</placeName>, celui enfin, vers lequel devoient marcher d’un pas constant
                et le Gouvernement Napolitain et <rs ref="#p.144 #p.148 #p.149">les Plénipotentiaires
                   des Puissances alliées accrédités auprès de <rs ref="#p.138"><choice>
                         <abbr>S. M.</abbr>
@@ -1032,12 +955,10 @@
                   reçue sous la date du 27 <choice>
                      <abbr>Févr.</abbr>
                      <expan>Février</expan>
-                  </choice>/<date when="1821-03-11">11 Mars</date></rs><note type="editorial"
-                  target="#n.26">Abgedruckt in Vnešnjaja politika Rossii, Bd. 12, S. 41-44.</note>,
+                  </choice>/<date when="1821-03-11">11 Mars</date></rs><note type="editorial" target="#n.26">Abgedruckt in Vnešnjaja politika Rossii, Bd. 12, S. 41-44.</note>,
                ainsi qu’aux instructions que l’<rs ref="#p.17">Empereur</rs> lui-même a données au
                Lieutenant-Général <persName ref="#p.7"><surname>Pozzo di Borgo</surname></persName>
-               et <rs xml:id="n.27">dont Vous trouverez ci-près une copie</rs>.<note
-                  type="editorial" target="#n.27">Anlage liegt nicht ein.</note></p>
+               et <rs xml:id="n.27">dont Vous trouverez ci-près une copie</rs>.<note type="editorial" target="#n.27">Anlage liegt nicht ein.</note></p>
             <p>Veuillez, <choice>
                   <abbr>Mr.</abbr>
                   <expan>Monsieur</expan>
@@ -1047,8 +968,7 @@
                particulière.</p>
             <p>Comme l’Autriche ces Puissances avoient reconnu que des Gouvernemens, dont les uns
                avoient été renversés, les autres mis à deux doigts de leur perte par l’apparition
-               soudaine de quelques soldats rebelles, devoient nécessairement s’efforcer<pb n="148v"
-               /> de prendre une assiette plus ferme et d’adopter des principes d’administration
+               soudaine de quelques soldats rebelles, devoient nécessairement s’efforcer<pb n="148v"/> de prendre une assiette plus ferme et d’adopter des principes d’administration
                dont l’influence pût <hi rendition="#u">réparer</hi> partout où de tristes débris
                attestoient de récentes calamités, et <hi rendition="#u">préserver</hi> partout où
                l’existence secrète des causes du péril pouvoit trop facilement en occasionner le
@@ -1082,8 +1002,7 @@
                prétenderons diriger la marche de leur administration intérieure.</p>
             <p>Mais à cet égard nous sommes loin de nous dissimuler la situation de
                   l’<country>Autriche</country>. <rs xml:id="n.28">L’<country>Autriche</country>
-                  peut être considérée comme Puissance en partie Italienne.</rs><note
-                  type="editorial" target="#n.28">1814 wurden die Lombardei und Venetien ein Teil
+                  peut être considérée comme Puissance en partie Italienne.</rs><note type="editorial" target="#n.28">1814 wurden die Lombardei und Venetien ein Teil
                   des Kaisertums Österreich und bildeten das Königreich Lombardo-Venetien. Vgl.
                   Gottsmann, Malfèr, Die Vertretungskörperschaften; Helfert, Kaiser Franz von
                   Öster-reich; Rath, The Provisional Austrian Regime; Pesendorfer, Eiserne
@@ -1100,8 +1019,7 @@
                </choice>, à titre d’alliés de cette Puissance, nous pouvons nous joindre à elle pour
                exprimer les mêmes souhaits ; nous pouvons parler au nom du légitime désir de
                conserver à l’Europe la tranquillité dont elle jouit.</p>
-            <p>Or, comme tel est l’esprit de l’instruction adressée par l’<rs ref="#p.17"
-                  >Empereur</rs> au <choice>
+            <p>Or, comme tel est l’esprit de l’instruction adressée par l’<rs ref="#p.17">Empereur</rs> au <choice>
                   <abbr>Leut.</abbr>
                   <expan>Lieutenant</expan>
                </choice>
@@ -1114,8 +1032,7 @@
                   <abbr>Mr.</abbr>
                   <expan>Monsieur</expan>
                </choice>, et Vous voudrez vous y conformer avec la plus scrupuleuse exactitude
-               toutes les fois que Vous serez dans le cas d’être consulté sur l’opinion de l’<rs
-                  ref="#p.17">Empereur</rs> par le Gouvernement auprès duquel Vous êtes accrédité,
+               toutes les fois que Vous serez dans le cas d’être consulté sur l’opinion de l’<rs ref="#p.17">Empereur</rs> par le Gouvernement auprès duquel Vous êtes accrédité,
                ou que Vous croirez devoir Vous-même appeler son attention sur des mesures qui
                paroîtroient indispensables.</p>
             <pb n="150v"/>
@@ -1134,8 +1051,7 @@
                   <abbr>Cte</abbr>
                   <expan>Comte</expan>
                </choice>, aux délibérations de la Conférence avec Vos Collègues ; et comme au
-               Congrès de <placeName ref="#loc.65">Laybach</placeName> les <rs ref="#p.166 #p.167"
-                  >Plénipotentiaires de <rs ref="#p.169 #p.172"><choice>
+               Congrès de <placeName ref="#loc.65">Laybach</placeName> les <rs ref="#p.166 #p.167">Plénipotentiaires de <rs ref="#p.169 #p.172"><choice>
                         <abbr>S. M.</abbr>
                         <expan>Sa Majesté</expan>
                      </choice> Sarde</rs></rs> ont trouvé des gages de sécurité dans les plans
@@ -1171,11 +1087,9 @@
                de l’<rs ref="#p.17">Empereur</rs>, ne nous expose point au reproche de rechercher
                une influence exclusive. L’invitation dont il s’agit devra, par conséquent, être
                revêtue des formes les plus confidentielles, n’offrir que la preuve d’une sincère
-               amitié et ne venir qu’à la suite de celle qui aura été adressée par les <rs
-                  ref="#p.8 #p.2">Ministres d’Autriche</rs>.</p>
+               amitié et ne venir qu’à la suite de celle qui aura été adressée par les <rs ref="#p.8 #p.2">Ministres d’Autriche</rs>.</p>
             <p>4<hi rendition="#su">o</hi> Quant à l’idée que les plans de réorganisation soient
-               communiqués réciproquement à l’époque du Congrès de <placeName ref="#loc.69"
-                  >Florence</placeName>, cette idée nous semble entièrement conforme au succès
+               communiqués réciproquement à l’époque du Congrès de <placeName ref="#loc.69">Florence</placeName>, cette idée nous semble entièrement conforme au succès
                   des<pb n="151v"/> mesures que les Gouvernemens d’Italie auront résolu d’adopter.
                Trop de rapports existent entr’eux, trop d’identité se manifeste dans les projets des
                révolutionnaires qu’ils ont à combattre pour qu’ils ne sentent pas l’avantage
@@ -1183,8 +1097,7 @@
             <p>Nous nous abstenons, <choice>
                   <abbr>Mr.</abbr>
                   <expan>Monsieur</expan>
-               </choice>, de Vous signaler encore une fois l’importance de la tâche que l’<rs
-                  ref="#p.17">Empereur</rs> Vous confie.</p>
+               </choice>, de Vous signaler encore une fois l’importance de la tâche que l’<rs ref="#p.17">Empereur</rs> Vous confie.</p>
             <p>La force des armes a été mise en œuvre. L’emploi en avoit été légitimé par le danger
                qu’auroient couru tous les Gouvernemens d’Italie et peut-être tous les Gouvernemens
                de l’Europe si la puissance publique étoit restée aux mains des artisans de troubles
@@ -1202,8 +1115,7 @@
                et qui, nous ne saurions assez<pb n="152v"/> le répéter, doit toujours avoir pour
                objet d’assurer à la Péninsule une tranquillité indépendante de toute assistance
                extérieure et à l’abri de toute nouvelle secousse révolutionnaire.</p>
-            <p>La présente instruction circulaire a été communiquée au Cabinet de <placeName
-                  ref="#loc.7">Vienne</placeName> et va l’être aux autres Cabinets alliés.</p>
+            <p>La présente instruction circulaire a été communiquée au Cabinet de <placeName ref="#loc.7">Vienne</placeName> et va l’être aux autres Cabinets alliés.</p>
             <p>Nous espérons que la <country>Prusse</country> munira Ses Ministres des mêmes ordres,
                et quelles que soient les résolutions de l’<country>Angleterre</country> et de la
                   <country>France</country>, nous aimons à croire que si elles ne peuvent nous
@@ -1233,11 +1145,8 @@
                Plénipotentiaires. Il seroit donc d’autant plus superflu de vouloir revenir sur cet
                objet que depuis la clôture des conférences il n’a été pris aucune détermination qui
                ne fut en parfaite harmonie avec les principes arrêtés entre les Cabinets ; &amp; si
-               les <rs ref="#p.16 #p.17">deux Empereurs</rs> ont prolongé leur séjour à <placeName
-                  ref="#loc.65">Laybach</placeName>, c’est uniquement par une suite naturelle de
-               leur sollicitude pour le repos de l’Italie qui s’est trouvé menacé par <rs
-                  xml:id="n.29">une nouvelle révolution en <country>Piémont</country></rs><note
-                  type="editorial" target="#n.29">Im März 1821 war im <country>Königreich
+               les <rs ref="#p.16 #p.17">deux Empereurs</rs> ont prolongé leur séjour à <placeName ref="#loc.65">Laybach</placeName>, c’est uniquement par une suite naturelle de
+               leur sollicitude pour le repos de l’Italie qui s’est trouvé menacé par <rs xml:id="n.29">une nouvelle révolution en <country>Piémont</country></rs><note type="editorial" target="#n.29">Im März 1821 war im <country>Königreich
                      Sardinien-Piemont</country> eine Revolution ausgebrochen, die rasch durch
                   österreichische Truppen niedergeschlagen wurde. Vgl. Späth, Revolution in Europa,
                   S. 150–165; Broers, Napoleonic Imperialism; Jarrett, The Congress of Vienna, S.
@@ -1245,9 +1154,7 @@
                honorable qu’ils s’étoient imposée. <rs ref="#p.16 #p.17">Les deux augustes
                   Monarques</rs> n’ont pas voulu se séparer avant d’avoir pris toutes les mesures
                propres à étouffer le mal dans sa naissance. La providence a béni leurs efforts
-               généreux ; en moins de cinq semaines les gouvernemens révolutionnaires de <placeName
-                  ref="#loc.11">Naples</placeName> &amp; de <placeName ref="#loc.64"
-                  >Turin</placeName> ont été anéantis, les chefs des rebelles ont été forcés de
+               généreux ; en moins de cinq semaines les gouvernemens révolutionnaires de <placeName ref="#loc.11">Naples</placeName> &amp; de <placeName ref="#loc.64">Turin</placeName> ont été anéantis, les chefs des rebelles ont été forcés de
                chercher leur salut dans la fuite. Deux Etats, livrés par ces Chefs criminels aux
                horreurs de l’anarchie, ont été rendus <rs ref="#p.138 #p.169 #p.172">à leurs
                   Souverains légitimes</rs>, &amp; l’Italie entière a été sauvée du bouleversement
@@ -1261,31 +1168,25 @@
                peuvent seules prévenir de nouvelles explosions pour l’avenir. C’est dans cette
                conviction intime qu’ils ont cru devoir s’occuper avec une sollicitude particulière
                de cet objet important avant de se séparer, &amp; qu’ils se sont décidés à prendre en
-               mûre considération le plan de conduite à suivre vis-à-vis des Princes d’Italie. L’<rs
-                  ref="#p.16">Empereur</rs> a cru devoir prendre à cet égard l’initiative vis-à-vis
+               mûre considération le plan de conduite à suivre vis-à-vis des Princes d’Italie. L’<rs ref="#p.16">Empereur</rs> a cru devoir prendre à cet égard l’initiative vis-à-vis
                de <rs ref="#p.17">Son auguste Allié</rs>. Elle lui appartenoit à plusieurs titres :
-               comme <rs xml:id="n.30">Prince possessionné en Italie</rs>,<note type="editorial"
-                  target="#n.30">1814 wurden die Lombardei und Venetien ein Teil des Kaisertums
+               comme <rs xml:id="n.30">Prince possessionné en Italie</rs>,<note type="editorial" target="#n.30">1814 wurden die Lombardei und Venetien ein Teil des Kaisertums
                   Österreich und bildeten das Königreich Lombardo-Venetien. Vgl. Gottsmann, Malfèr,
                   Die Vertretungskörperschaften; Helfert, Kaiser Franz von Österreich; Rath, The
                   Provisional Austrian Regime; Pesendorfer, Eiserne Krone.</note> comme étant par la
                situation géographique de Ses Etats plus spécialement appelé &amp; plus directement
                intéressé à veiller à sa tranquillité<pb n="155v"/> intérieure &amp; en même tems
-               plus à même de connoître &amp; de juger ses véritables besoins. <rs xml:id="n.31"
-                  >Vous trouverez ci-joint, <choice>
+               plus à même de connoître &amp; de juger ses véritables besoins. <rs xml:id="n.31">Vous trouverez ci-joint, <choice>
                      <abbr>M<hi rendition="#su">r</hi></abbr>
                      <expan>Monsieur</expan>
                   </choice>, le mémoire que j’ai été chargé par <rs ref="#p.16"><choice>
                         <abbr>S. M. I.</abbr>
                         <expan>Sa Majesté Impériale</expan>
-                     </choice></rs> de rédiger sur cet objet.</rs><note type="editorial"
-                  target="#n.31">Anlage liegt nicht ein.</note> Les principes qui y sont développés
+                     </choice></rs> de rédiger sur cet objet.</rs><note type="editorial" target="#n.31">Anlage liegt nicht ein.</note> Les principes qui y sont développés
                &amp; les propositions qu’il renferme sur la marche à suivre avec les différens
-               gouvernemens de la Péninsule ont obtenu l’entière adhésion de l’<persName ref="#p.17"
-                     ><roleName>Empereur</roleName>
+               gouvernemens de la Péninsule ont obtenu l’entière adhésion de l’<persName ref="#p.17"><roleName>Empereur</roleName>
                   <forename>Alexandre</forename></persName>, &amp; ont servi de base aux
-               instructions que ce Souverain vient de faire donner à ses Missions en Italie, <ref
-                  decls="#m.5">ainsi que Vous Vous en convaincrez par la copie ci-jointe de la
+               instructions que ce Souverain vient de faire donner à ses Missions en Italie, <ref decls="#m.5">ainsi que Vous Vous en convaincrez par la copie ci-jointe de la
                   circulaire qui leur a été adressée</ref>. Si Vous la comparez au mémoire qui forme
                la première annexe, Vous verrez qu’il règne une parfaite identité de vues,
                d’intentions &amp; de principes dans ces deux pièces &amp; que les nuances qui se
@@ -1299,25 +1200,19 @@
                <ref target="Laibach_Prot_12.xml">la loi fondamentale que <rs ref="#p.138"><choice>
                         <abbr>S. M.</abbr>
                         <expan>Sa Majesté</expan>
-                     </choice> Sicilienne</rs> a portée à la connoissance de ses Alliés à <placeName
-                     ref="#loc.65">Laybach</placeName></ref> ; sur celle d’adopter en
+                     </choice> Sicilienne</rs> a portée à la connoissance de ses Alliés à <placeName ref="#loc.65">Laybach</placeName></ref> ; sur celle d’adopter en
                   <country>Piémont</country> un régime analogue dont l’effet soit de consolider
                l’administration intérieure de ce pays de manière à rendre l’occupation militaire
                inutile ; <rs xml:id="n.33">pour la formation d’une conférence de Ministres alliés à
                      <placeName ref="#loc.64">Turin</placeName> semblable à celle qui a été établie
-                     pour<pb n="156v"/> le <country>Royaume des deux-Siciles</country></rs><note
-                  type="editorial" target="#n.33">Die Protokolle dieser diplomatischen Konferenzen
+                     pour<pb n="156v"/> le <country>Royaume des deux-Siciles</country></rs><note type="editorial" target="#n.33">Die Protokolle dieser diplomatischen Konferenzen
                   finden sich im ÖStA, HHStA, StK, Kongressakten, Kart. 23.</note> ; sur
                l’importance enfin d’entretenir soigneusement dans ces deux Etats des rapports de
                confiance &amp; d’intimité entre le gouvernement &amp; le chef de l’armée
                d’occupation. <metamark spanTo="#mm02" rend="Bleistiftstrich" place="margin"/>Quant
                aux autres gouvernemens de l’Italie, les <rs ref="#p.16 #p.17">deux Empereurs</rs>
                désirent également que le tems qui va s’écouler entre le moment de leur départ de
-                  <placeName ref="#loc.65">Laybach</placeName> &amp; celui de leur <rs xml:id="n.34"
-                  >réunion à <placeName ref="#loc.69">Florence</placeName></rs><note
-                  type="editorial" target="#n.34">Der Kongress fand schließlich nicht in <placeName
-                     ref="#loc.69">Florenz</placeName>, sondern in <placeName ref="#loc.68"
-                     >Verona</placeName> statt; vgl. Edition Verona, bes. Abschnitt II (Affaires
+                  <placeName ref="#loc.65">Laybach</placeName> &amp; celui de leur <rs xml:id="n.34">réunion à <placeName ref="#loc.69">Florence</placeName></rs><note type="editorial" target="#n.34">Der Kongress fand schließlich nicht in <placeName ref="#loc.69">Florenz</placeName>, sondern in <placeName ref="#loc.68">Verona</placeName> statt; vgl. Edition Verona, bes. Abschnitt II (Affaires
                   d’Italie).</note> dans le courant de l’année 1822 soit mis à profit par ces mêmes
                Gouvernemens pour examiner avec soin leur situation intérieure, les réformes qu’elle
                peut exiger &amp; les mesures qui pourroient être jugées nécessaires pour les
@@ -1326,17 +1221,14 @@
                sollicitude aux différens objets que nous venons d’indiquer, de manière à pouvoir se
                communiquer réciproquement,<pb n="157r"/> ainsi qu’aux Puissances alliées, à l’époque
                du congrès de <placeName ref="#loc.69">Florence</placeName> les plans d’amélioration
-               qu’elles croiront devoir adopter pour leurs Etats respectifs.<anchor xml:id="mm02"
-               /></p>
+               qu’elles croiront devoir adopter pour leurs Etats respectifs.<anchor xml:id="mm02"/></p>
             <p>Le mémoire Autrichien &amp; la circulaire du Cabinet Russe forment par conséquent un
                ensemble d’instructions complet qui ne peut Vous laisser aucun doute sur le vœu des
                deux Cours Impériales, sur la conduite &amp; le langage que leurs représentans en
-               Italie doivent tenir pour répondre à l’honorable confiance dont <rs ref="#p.16 #p.17"
-                  >leurs Souverains respectifs</rs> les honorent, sur les seules nuances enfin
+               Italie doivent tenir pour répondre à l’honorable confiance dont <rs ref="#p.16 #p.17">leurs Souverains respectifs</rs> les honorent, sur les seules nuances enfin
                qu’ils doivent mettre dans leurs démarches, vu que l’initiative dans les questions
                d’Italie a été abandonnée à l’<country>Autriche</country>. Moins ces nuances seront
-               sensibles, plus elles seront conformes à nos vœux. Le désire de l’<rs ref="#p.16"
-                  >Empereur</rs> est donc, <choice>
+               sensibles, plus elles seront conformes à nos vœux. Le désire de l’<rs ref="#p.16">Empereur</rs> est donc, <choice>
                   <abbr>M<hi rendition="#su">r</hi></abbr>
                   <expan>Monsieur</expan>
                </choice>, qu’avant d’aborder vis-à-vis<pb n="157v"/> de la cour auprès de laquelle
@@ -1349,8 +1241,7 @@
                &amp; leur appui ; que Vous Vous communiquiez avec une entière confiance le plus ou
                le moins d’accueil qui pourroit être fait à Vos ouvertures ; que Vous évitiez avec le
                plus grand soin tout ce qui pourroit leur donner le caractère de l’ingérence ; que
-               Vous ayez enfin celui de les rattacher constamment aux décisions prises à <placeName
-                  ref="#loc.65">Laybach</placeName>, &amp; de les motiver sur le vif intérêt que les
+               Vous ayez enfin celui de les rattacher constamment aux décisions prises à <placeName ref="#loc.65">Laybach</placeName>, &amp; de les motiver sur le vif intérêt que les
                   <rs ref="#p.16 #p.18 #p.17">augustes Souverains alliés</rs> prennent au bien-être
                de tous les Gouvernemens de la Péninsule Italienne dont Ils désirent sincèrement
                   la<pb n="158r"/> consolidation &amp; l’indépendance.</p>
@@ -1374,8 +1265,7 @@
                   <abbr>M.</abbr>
                   <expan>Monsieur</expan>
                </choice> le <persName ref="#p.2"><roleName>Baron</roleName>
-                  <surname>de Vincent</surname></persName> étoit muni. Je croirois superflu<pb
-                  n="158v"/> de Vous observer que les deux annexes de la présente dépêche étant
+                  <surname>de Vincent</surname></persName> étoit muni. Je croirois superflu<pb n="158v"/> de Vous observer que les deux annexes de la présente dépêche étant
                uniquement destinées à Vous servir de direction, Vous ne pouvez pas Vous permettre
                d’en laisser prendre des copies.</p>
             <p>Recevez <choice>
@@ -1386,12 +1276,10 @@
       </body>
       <back>
          <include xmlns="http://www.w3.org/2001/XInclude" href="listPlace.xml" xpointer="listPlace"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="listPerson.xml"
-            xpointer="listPerson"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listPerson.xml" xpointer="listPerson"/>
          <include xmlns="http://www.w3.org/2001/XInclude" href="listWit.xml" xpointer="listWit"/>
          <include xmlns="http://www.w3.org/2001/XInclude" href="listOrg.xml" xpointer="listOrg"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="listTreaties.xml"
-            xpointer="listTreaties"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="listTreaties.xml" xpointer="listTreaties"/>
       </back>
    </text>
 </TEI>
