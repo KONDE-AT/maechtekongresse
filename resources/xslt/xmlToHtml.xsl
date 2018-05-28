@@ -164,11 +164,18 @@
                                 <xsl:if test=".//tei:history/tei:origin">
                                 <tr>
                                     <th>
-                                        <abbr title="//tei:history/tei:origin">Datum/Ort</abbr>
+                                        <abbr title="//tei:history/tei:origin">Ort/Datum</abbr>
                                     </th>
                                     <td>
-                                        <xsl:value-of select=".//tei:history/tei:origin/tei:placeName"/>,
+                                        <xsl:value-of select=".//tei:history/tei:origin/tei:placeName"/>
+                                        <xsl:if test="not(.//tei:history/tei:origin/tei:placeName)">
+                                            <xsl:text>o.O.</xsl:text>
+                                        </xsl:if>
+                                        <xsl:text>, </xsl:text>
                                         <xsl:value-of select="format-date(xs:date(.//tei:history/tei:origin/tei:date[1]/@when), '[D]. [M02]. [Y0001]')"/>
+                                        <xsl:if test="not(.//tei:history/tei:origin/tei:date/@when)">
+                                            <xsl:text>o.D.</xsl:text>
+                                        </xsl:if>
                                     </td>
                                 </tr>
                             </xsl:if>
@@ -326,18 +333,20 @@
                     <xsl:apply-templates/>
                 </i>
             </xsl:when>
-            <xsl:otherwise>
+            <xsl:otherwise><!-- style durchreichen -->
                 <span>
                     <xsl:choose>
                         <xsl:when test="@rend">
+                            <xsl:variable name="style" select="substring-after(@rend, '#')"/>
                             <xsl:attribute name="style">
-                                <xsl:value-of select="root()//tei:rend[@xml:id=current()/@rend]"/>
+                                <xsl:value-of select="root()//tei:rend[@xml:id=current()/$style]"/>
                             </xsl:attribute>
                             <xsl:apply-templates/>
                         </xsl:when>
                         <xsl:when test="@rendition">
+                            <xsl:variable name="style" select="substring-after(@rendition, '#')"/>
                             <xsl:attribute name="style">
-                                <xsl:value-of select="root()//tei:rendition[@xml:id=current()/@rendition]"/>
+                                <xsl:value-of select="root()//tei:rendition[@xml:id=current()/$style]"/>
                             </xsl:attribute>
                             <xsl:apply-templates/>
                         </xsl:when>

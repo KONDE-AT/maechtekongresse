@@ -197,6 +197,9 @@ declare function app:listPers($node as node(), $model as map(*)) {
         else
         "-"
         return
+    let $notiz := $person/tei:note/text()    
+    let $notizlink := if ($notiz != '') then "Notiz" else ""
+        return    
         <tr>
             <td>
                 <a href="{concat($hitHtml,data($person/@xml:id))}">{$person/tei:persName/tei:surname}</a>
@@ -206,6 +209,7 @@ declare function app:listPers($node as node(), $model as map(*)) {
             </td>
             <td><a href="{concat($hitHtml,data($person/@xml:id))}">{$person/tei:persName/tei:roleName}</a></td>
             <td><a href="{concat($hitHtml,data($person/@xml:id))}">{$person/tei:birth}–{$person/tei:death}</a></td>
+            <td><a href="{concat($hitHtml,data($person/@xml:id))}" title="{$notiz}">{$notizlink}</a></td>
             <td>
                 {$gnd_link}
             </td>
