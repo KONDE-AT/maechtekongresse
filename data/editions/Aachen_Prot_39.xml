@@ -230,13 +230,14 @@
                qu’il soit enjoint aux <rs ref="#p.101 #p.102 #p.38 #p.75">Ministres des Cours
                   prenant part aux <rs xml:id="n.2">Conférences de <placeName ref="#loc.8">Londres</placeName>
                         </rs>
+                    </rs>
                         <note type="editorial" target="#n.2">Gemeint ist
                      die Botschafterkonferenz in London, welche sich zwischen 1816 und 1819
                      vorwiegend mit der Abschaffung des Sklavenhandels und der Piraterie im
                      Mittelmeer befasste. Protokolle vgl. BFSP Bd. 6 (1818/19), S. 21–53; Clarke,
                      Papers presented to Parliament 1819, Bd. 1, S. 153–233; Anderson, Rise, S.
                      237.</note>
-                    </rs> de donner suite à leurs délibérations sur cette question, sans
+                     de donner suite à leurs délibérations sur cette question, sans
                attendre l’effet que pourroit produire la démarche solemnelle que les Souverains
                viennent de faire envers <choice>
                   <abbr>S. M.</abbr>
@@ -796,11 +797,11 @@
          </div>
       </body>
       <back>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="listPlace.xml" xpointer="listPlace"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="listPerson.xml" xpointer="listPerson"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="listWit.xml" xpointer="listWit"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="listOrg.xml" xpointer="listOrg"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="listTreaties.xml" xpointer="listTreaties"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/listPlace.xml" xpointer="listPlace"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/listPerson.xml" xpointer="listPerson"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/listWit.xml" xpointer="listWit"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/listOrg.xml" xpointer="listOrg"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/listTreaties.xml" xpointer="listTreaties"/>
       </back>
    </text>
 </TEI>

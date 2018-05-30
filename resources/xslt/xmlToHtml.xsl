@@ -147,7 +147,7 @@
                                             <xsl:attribute name="href">
                                                 <xsl:value-of select="$divlink"/>
                                             </xsl:attribute>
-                                        <xsl:value-of select="//tei:text/tei:body/tei:div[@decls = concat('#',$msDivId)]/*/tei:title"/>
+                                            <xsl:value-of select="//tei:text/tei:body/tei:div[@decls = concat('#',$msDivId)]/*/string-join(tei:title//text()[not(parent::note)], '')"/>
                                         </a>
                                     </td>
                                 </tr>
@@ -161,7 +161,7 @@
                                         </td>
                                     </tr>
                                 </xsl:if>
-                                <xsl:if test=".//tei:history/tei:origin">
+                                
                                 <tr>
                                     <th>
                                         <abbr title="//tei:history/tei:origin">Ort/Datum</abbr>
@@ -178,7 +178,7 @@
                                         </xsl:if>
                                     </td>
                                 </tr>
-                            </xsl:if>
+                            
                             <xsl:if test=".//tei:msIdentifier">
                                 <tr>
                                     <th>
@@ -609,6 +609,9 @@
     </xsl:template>
     <xsl:template match="tei:cell">
         <xsl:element name="td">
+            <xsl:if test="not(string(number(.))='NaN')">
+                <xsl:attribute name="style">text-align:right</xsl:attribute>
+            </xsl:if>
             <xsl:apply-templates/>
         </xsl:element>
     </xsl:template><!-- Überschriften -->
