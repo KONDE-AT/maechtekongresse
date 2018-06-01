@@ -6,7 +6,7 @@ body{
     display:flex;
     flex-direction:column;
     height:100%;
-    background:ddddff;
+    background-color:#fdfdfd;
 }
 header{
     flex:0 0 auto;
@@ -20,6 +20,22 @@ header{
 span.data-hr {
     background-color: #ffff00;
 }
+
+.shortRdg {
+    color:red;    
+}
+
+.fullRdg {display:none;}
+               .shortRdg:hover { position: relative; }
+               .shortRdg:hover .fullRdg {    display: block; 
+                    text-decoration: none;
+                    color: black;
+                    width: 50em;
+                    border: 1px solid black;
+                    background: white;
+                    position: absolute;
+                    padding: 0.5em; 
+                    left: inherit; }
 
 footer{
     flex:0 0 auto;

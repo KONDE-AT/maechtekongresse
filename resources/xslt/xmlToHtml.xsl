@@ -525,6 +525,24 @@
             <xsl:text/>
             <xsl:apply-templates/>
         </xsl:element>
+    </xsl:template><!-- app/rdg tooltip testing -->
+    <xsl:template match="tei:app">
+        <xsl:variable name="handId" select="substring-after(tei:rdg/tei:add/@hand, '#')"/>
+        <xsl:element name="a">
+            <xsl:attribute name="class">shortRdg</xsl:attribute>
+            <xsl:attribute name="href">#</xsl:attribute>
+            <xsl:attribute name="data-toggle">tooltip</xsl:attribute>
+            <xsl:attribute name="data-placement">top</xsl:attribute>
+            <xsl:attribute name="title">
+                <xsl:value-of select="string-join(tei:rdg/concat(root()//tei:handNote[@xml:id=$handId], '] ', normalize-space(.)),' ')"/>
+            </xsl:attribute>
+            <xsl:apply-templates select="./tei:lem"/>
+            <xsl:element name="span">
+                <xsl:attribute name="class">fullRdg</xsl:attribute>
+                <xsl:attribute name="style">display:none</xsl:attribute>
+                <xsl:value-of select="string-join(tei:rdg/concat(tei:add/@hand, '] ', normalize-space(.)),' ')"/>
+            </xsl:element>
+        </xsl:element>
     </xsl:template>
     <!-- damage supplied -->
     <xsl:template match="tei:damage">
