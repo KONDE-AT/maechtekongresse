@@ -808,11 +808,19 @@
          </div>
       </body>
       <back>
+<<<<<<< HEAD
          <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/listPlace.xml" xpointer="listPlace"/>
          <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/listPerson.xml" xpointer="listPerson"/>
          <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/listWit.xml" xpointer="listWit"/>
          <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/listOrg.xml" xpointer="listOrg"/>
          <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/listTreaties.xml" xpointer="listTreaties"/>
+=======
+         <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/list(Place).xml" xpointer="listPlace"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/list(Person).xml" xpointer="listPerson"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/list(Wit).xml" xpointer="listWit"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/list(Org).xml" xpointer="listOrg"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/list(Treaties).xml" xpointer="listTreaties"/>
+>>>>>>> 9f05418a5bf625110915393f31be5e78dddde945
       </back>
    </text>
 </TEI>
