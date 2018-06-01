@@ -1127,30 +1127,29 @@
                armes.</p>
             <p>Fait à <placeName ref="#loc.7">Vienne</placeName> le <date when="1815-06-12">douze
                   juin de l’an de grâce Mil huit cent quinze</date>.</p>
-            <p>Le <persName ref="#p.8">
+            <signed>
+            <list>
+               <item>
+            Le <persName ref="#p.8">
                         <roleName>Prince</roleName>
                   <surname>Metternich</surname>
-                    </persName> Le <persName ref="#p.140">
+                    </persName> 
+                  </item>
+               <item>Le <persName ref="#p.140">
                         <roleName>Commandeur</roleName>
                   <surname>Ruffo</surname>
                     </persName>
-                </p>
+               </item>
+            </list>
+            </signed>
          </div>
       </body>
       <back>
-<<<<<<< HEAD
-         <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/listPlace.xml" xpointer="listPlace"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/listPerson.xml" xpointer="listPerson"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/listWit.xml" xpointer="listWit"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/listOrg.xml" xpointer="listOrg"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/listTreaties.xml" xpointer="listTreaties"/>
-=======
-         <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/list(Place).xml" xpointer="listPlace"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/list(Person).xml" xpointer="listPerson"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/list(Wit).xml" xpointer="listWit"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/list(Org).xml" xpointer="listOrg"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/list(Treaties).xml" xpointer="listTreaties"/>
->>>>>>> 9f05418a5bf625110915393f31be5e78dddde945
+         <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/listplace.xml" xpointer="listPlace"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/listperson.xml" xpointer="listPerson"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/listwit.xml" xpointer="listWit"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/listorg.xml" xpointer="listOrg"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/listtreaties.xml" xpointer="listTreaties"/>
       </back>
    </text>
 </TEI>

@@ -658,7 +658,7 @@
                             Novembre 1818</date> sub n<hi rendition="#su">o</hi> 28.</add>
                 </p>
                 <p>
-                    <title>Mémoire sur la question relative à <rs xml:id="n.10"> l’affaire de Bade
+                    <title>Mémoire sur la question relative à <rs xml:id="n.10">l’affaire de Bade
                             </rs>
                         <note type="editorial" target="#n.10">Vgl. Huber, Deutsche
                             Verfassungsgeschichte, Bd. 1, S. 172–186.</note> et vote du Cabinet de
@@ -1209,19 +1209,11 @@
             </div>
         </body>
         <back>
-<<<<<<< HEAD
-            <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/listPlace.xml" xpointer="listPlace"/>
-            <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/listPerson.xml" xpointer="listPerson"/>
-            <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/listWit.xml" xpointer="listWit"/>
-            <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/listOrg.xml" xpointer="listOrg"/>
-            <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/listTreaties.xml" xpointer="listTreaties"/>
-=======
-            <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/list(Place).xml" xpointer="listPlace"/>
-            <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/list(Person).xml" xpointer="listPerson"/>
-            <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/list(Wit).xml" xpointer="listWit"/>
-            <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/list(Org).xml" xpointer="listOrg"/>
-            <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/list(Treaties).xml" xpointer="listTreaties"/>
->>>>>>> 9f05418a5bf625110915393f31be5e78dddde945
+            <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/listplace.xml" xpointer="listPlace"/>
+            <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/listperson.xml" xpointer="listPerson"/>
+            <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/listwit.xml" xpointer="listWit"/>
+            <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/listorg.xml" xpointer="listOrg"/>
+            <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/listtreaties.xml" xpointer="listTreaties"/>
         </back>
     </text>
 </TEI>

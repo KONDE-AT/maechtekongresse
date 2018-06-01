@@ -147,7 +147,7 @@
                                             <xsl:attribute name="href">
                                                 <xsl:value-of select="$divlink"/>
                                             </xsl:attribute>
-                                            <xsl:value-of select="//tei:text/tei:body/tei:div[@decls = concat('#',$msDivId)]/*/string-join(tei:title//text()[not(parent::note)], '')"/>
+                                            <xsl:value-of select="//tei:text/tei:body/tei:div[@decls = concat('#',$msDivId)]/*/string-join(tei:title//text()[not(ancestor::note)], '')"/>
                                         </a>
                                     </td>
                                 </tr>
@@ -437,7 +437,7 @@
                     <xsl:attribute name="href">
                        show.html?document=<xsl:value-of select="@target"/>
                     </xsl:attribute>
-                    <xsl:value-of select="."/>
+                    <xsl:apply-templates/>
                 </xsl:element>
             </xsl:when>
             <xsl:otherwise>
@@ -445,7 +445,7 @@
                     <xsl:attribute name="href">
                         <xsl:value-of select="@target"/>
                     </xsl:attribute>
-                    <xsl:value-of select="."/>
+                    <xsl:apply-templates/>
                 </xsl:element>
             </xsl:otherwise>
         </xsl:choose>
@@ -479,7 +479,7 @@
                     <xsl:value-of select="substring-after(data(@ref), '#')"/>
                     <xsl:value-of select="@key"/>
                 </xsl:attribute>
-                <xsl:value-of select="."/>
+                <xsl:apply-templates/>
             </xsl:element>
         </strong>
     </xsl:template>
@@ -525,7 +525,28 @@
             <xsl:text/>
             <xsl:apply-templates/>
         </xsl:element>
-    </xsl:template><!-- choice -->
+    </xsl:template>
+    <!-- damage supplied -->
+    <xsl:template match="tei:damage">
+        <xsl:element name="span">
+            <xsl:attribute name="style">color:blue</xsl:attribute>
+            <xsl:attribute name="title">
+                <xsl:value-of select="@agent"/>
+            </xsl:attribute>
+            <xsl:text> […]</xsl:text>
+            <xsl:apply-templates/>
+        </xsl:element>
+    </xsl:template>
+    <xsl:template match="tei:supplied">
+        <xsl:element name="span">
+            <xsl:attribute name="style">color:blue</xsl:attribute>
+            <xsl:attribute name="title">editorische Ergänzung</xsl:attribute>
+            <xsl:text>‹</xsl:text>
+            <xsl:apply-templates/>
+            <xsl:text>›</xsl:text>
+        </xsl:element>
+    </xsl:template>
+    <!-- choice -->
     <xsl:template match="tei:choice">
         <xsl:choose>
             <xsl:when test="tei:sic and tei:corr">

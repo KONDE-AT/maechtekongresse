@@ -169,16 +169,14 @@
          <div hand="#A" decls="#m.1">
             <pb n="5r"/>            
             <p>
-                    <title>Journal des Conférences</title>
+               <title>
+                        <p>Journal des Conférences</p>
+                      <p>tenues à <placeName ref="#loc.65">Laybach</placeName>
                 </p>
             <p>
-                    <title>tenues à <placeName ref="#loc.65">Laybach</placeName>
-                    </title>
-                </p>
-            <p>
-                    <title>depuis le <date when="1821-01-11">11 Janvier 1821</date>
-                    </title>
-                </p>
+depuis le <date when="1821-01-11">11 Janvier 1821</date>
+            </p>                    </title>
+            </p>
             <p>
                     <choice>
                   <abbr>N<hi rendition="#su">o</hi>
@@ -285,7 +283,7 @@
                   1821</date>
                 </p>
             <p>Les travaux auxquels sont appelés <rs ref="#p.12 #p.160 #p.102 #p.135 #p.161 #p.14 #p.8 #p.13 #p.7 #p.2">les
-                  Plénipotentiaires des Puissances représentées à <placeName ref="#p.65">Laybach</placeName>
+                  Plénipotentiaires des Puissances représentées à <placeName ref="#loc.65">Laybach</placeName>
                     </rs> ne semblent pouvoir être que la continuation de ceux
                dont la réunion de <placeName ref="#loc.60">Troppau</placeName> a posé les bases et
                tracé le plan général.</p>
@@ -347,19 +345,11 @@
          </div>
       </body>
       <back>
-<<<<<<< HEAD
-         <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/listPlace.xml" xpointer="listPlace"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/listPerson.xml" xpointer="listPerson"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/listWit.xml" xpointer="listWit"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/listOrg.xml" xpointer="listOrg"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/listTreaties.xml" xpointer="listTreaties"/>
-=======
-         <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/list(Place).xml" xpointer="listPlace"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/list(Person).xml" xpointer="listPerson"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/list(Wit).xml" xpointer="listWit"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/list(Org).xml" xpointer="listOrg"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/list(Treaties).xml" xpointer="listTreaties"/>
->>>>>>> 9f05418a5bf625110915393f31be5e78dddde945
+         <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/listplace.xml" xpointer="listPlace"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/listperson.xml" xpointer="listPerson"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/listwit.xml" xpointer="listWit"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/listorg.xml" xpointer="listOrg"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/listtreaties.xml" xpointer="listTreaties"/>
       </back>
    </text>
 </TEI>
