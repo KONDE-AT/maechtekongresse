@@ -242,13 +242,17 @@ declare function app:listPlace($node as node(), $model as map(*)) {
  : creates a basic table of contents derived from the documents stored in '/data/editions'
  :)
 declare function app:toc($node as node(), $model as map(*)) {
-
+    
+    let $filterstring := (request:get-parameter("filterstring", ""))
     let $collection := request:get-parameter("collection", "")
     let $docs := if ($collection)
-        then
-            collection(concat($config:app-root, '/data/', $collection, '/'))//tei:TEI
-        else
-            collection(concat($config:app-root, '/data/editions/'))//tei:TEI
+            then
+                collection(concat($config:app-root, '/data/', $collection, '/'))//tei:TEI
+            else if ($collection)
+            then
+                collection(concat($config:app-root, '/data/', $collection, '/'))//tei:TEI
+            else
+                collection(concat($config:app-root, '/data/editions/'))//tei:TEI
     for $title in $docs
         let $idno := $title//tei:publicationStmt/tei:idno//translate(text(),'_',' ')
         let $date := if ($title//tei:title[2][@type='main']//text()) 
@@ -262,7 +266,8 @@ declare function app:toc($node as node(), $model as map(*)) {
                 <a href="{app:hrefToDoc($title, $collection)}">{app:getDocName($title)}</a>
             else
                 <a href="{app:hrefToDoc($title)}">{app:getDocName($title)}</a>
-        return
+        where if ($filterstring) then starts-with($idno, $filterstring) else $idno
+        return  
         <tr>
            <td>{$idno}</td>
            <td><a href="{app:hrefToDoc($title, $collection)}">{$date}</a></td>
