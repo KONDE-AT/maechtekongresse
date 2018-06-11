@@ -244,13 +244,13 @@
                 </h3>
             </div>
             <div class="panel-body">
-                <xsl:if test="//tei:div/tei:head">
+                <xsl:if test="//tei:div//tei:title">
                     <h3 id="clickme">
                         <abbr title="Click to display Table of Contents">[Table of Contents]</abbr>
                     </h3>
                     <div id="headings" class="readmore">
                         <ul>
-                            <xsl:for-each select="/tei:TEI/tei:text/tei:body//tei:div/tei:head">
+                            <xsl:for-each select="/tei:TEI/tei:text/tei:body//tei:div//tei:title">
                                 <li>
                                     <a>
                                         <xsl:attribute name="href">
@@ -528,21 +528,23 @@
     </xsl:template><!-- app/rdg tooltip testing -->
     <xsl:template match="tei:app">
         <xsl:variable name="handId" select="substring-after(tei:rdg/tei:add/@hand, '#')"/>
-        <xsl:element name="a">
-            <xsl:attribute name="class">shortRdg</xsl:attribute>
-            <xsl:attribute name="href">#</xsl:attribute>
-            <xsl:attribute name="data-toggle">tooltip</xsl:attribute>
-            <xsl:attribute name="data-placement">top</xsl:attribute>
-            <xsl:attribute name="title">
-                <xsl:value-of select="string-join(tei:rdg/concat(root()//tei:handNote[@xml:id=$handId], '] ', normalize-space(.)),' ')"/>
-            </xsl:attribute>
             <xsl:apply-templates select="./tei:lem"/>
+            <xsl:element name="a">
+                <xsl:attribute name="style">font-size:7pt;vertical-align:super;</xsl:attribute>
+                <xsl:attribute name="class">shortRdg</xsl:attribute>
+                <xsl:attribute name="href">#</xsl:attribute>
+                <xsl:attribute name="data-toggle">tooltip</xsl:attribute>
+                <xsl:attribute name="data-placement">top</xsl:attribute>
+                <xsl:attribute name="title">
+                    <xsl:value-of select="string-join(tei:rdg/concat(root()//tei:handNote[@xml:id=$handId], '] ', normalize-space(.)),' ')"/>
+                </xsl:attribute>
+                <xsl:text>[Variante]</xsl:text>
+            </xsl:element>
             <xsl:element name="span">
                 <xsl:attribute name="class">fullRdg</xsl:attribute>
                 <xsl:attribute name="style">display:none</xsl:attribute>
-                <xsl:value-of select="string-join(tei:rdg/concat(tei:add/@hand, '] ', normalize-space(.)),' ')"/>
+                <xsl:value-of select="concat(tokenize(./tei:lem,' ')[1], ' … ', tokenize(./tei:lem,' ')[last()]), string-join(tei:rdg/concat(tei:add/@hand, '] ', normalize-space(.)),' ')"/>
             </xsl:element>
-        </xsl:element>
     </xsl:template>
     <!-- damage supplied -->
     <xsl:template match="tei:damage">
@@ -654,7 +656,7 @@
             <xsl:apply-templates/>
         </xsl:element>
     </xsl:template><!-- Überschriften -->
-    <xsl:template match="tei:head">
+    <xsl:template match="tei:title">
         <xsl:if test="@xml:id[starts-with(.,'org') or starts-with(.,'ue')]">
             <a>
                 <xsl:attribute name="name">
