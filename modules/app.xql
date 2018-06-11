@@ -12,7 +12,8 @@ declare variable $app:placeIndex := $config:app-root||'/data/indices/listplace.x
 declare variable $app:personIndex := $config:app-root||'/data/indices/listperson.xml';
 declare variable $app:orgIndex := $config:app-root||'/data/indices/listorg.xml';
 declare variable $app:workIndex := $config:app-root||'/data/indices/listwork.xml';
-declare variable $app:treatiesIndex := $config:app-root||'data/indices/listtreaties.xml';
+declare variable $app:treatiesIndex := $config:app-root||'/data/indices/listtreaties.xml';
+declare variable $app:listWittnes := $config:app-root||'/data/indices/listwit.xml';
 
 declare function functx:contains-case-insensitive
   ( $arg as xs:string? ,
@@ -327,6 +328,32 @@ let $params :=
 return
     transform:transform($xml, $xsl, $params)
 };
+
+(:~
+ : creates a basic treaty-index derived from the  '/data/indices/listtreaties.xml'
+ :)
+declare function app:listTreaties($node as node(), $model as map(*)) {
+    let $hitHtml := "hits.html?searchkey="
+    for $item in doc($app:treatiesIndex)//tei:listBibl//tei:bibl
+       return
+            <tr>
+                <td>{$item}</td>
+            </tr>
+};
+
+
+(:~
+ : creates a basic wittnes-index derived from the  '/data/indices/listwit.xml'
+ :)
+declare function app:listWit($node as node(), $model as map(*)) {
+    let $hitHtml := "hits.html?searchkey="
+    for $item in doc($app:listWittnes)//tei:bibl
+       return
+            <tr>
+                <td>{$item}</td>
+            </tr>
+};
+
 
 (:~
  : creates a basic work-index derived from the  '/data/indices/listbibl.xml'
