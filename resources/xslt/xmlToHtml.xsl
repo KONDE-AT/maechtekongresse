@@ -467,7 +467,7 @@
             </li>
         </xsl:for-each>
     </xsl:template>
-    <!-- reference strings   --> <!--generic, referring to persons, places, witnesses etc. -->
+    <!-- reference strings   --> <!-- generic, referring to persons, places, witnesses etc. -->
     <xsl:template match="tei:*[@ref or @key]">
         <strong>
             <xsl:element name="a">

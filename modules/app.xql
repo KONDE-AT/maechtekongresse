@@ -210,7 +210,7 @@ declare function app:listPers($node as node(), $model as map(*)) {
                 <a href="{concat($hitHtml,data($person/@xml:id))}">{$person/tei:persName/tei:forename}</a>
             </td>
             <td><a href="{concat($hitHtml,data($person/@xml:id))}">{$person/tei:persName/tei:roleName}</a></td>
-            <td><a href="{concat($hitHtml,data($person/@xml:id))}">{$person/tei:birth}–{$person/tei:death}</a></td>
+            <td>{$person/tei:birth}–{$person/tei:death}</td>
             <td><a href="{concat($hitHtml,data($person/@xml:id))}" title="{$notiz}">{$notizlink}</a></td>
             <td>
                 {$gnd_link}
