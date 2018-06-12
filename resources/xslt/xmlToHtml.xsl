@@ -468,7 +468,21 @@
         </xsl:for-each>
     </xsl:template>
     <!-- reference strings   --> <!-- generic, referring to persons, places, witnesses etc. -->
-    <xsl:template match="tei:*[@ref or @key]">
+    
+    <xsl:template match="tei:persName[@ref]">
+        <strong>
+            <xsl:element name="a">
+                <xsl:attribute name="class">reference</xsl:attribute>
+                <xsl:attribute name="data-type">listperson.xml</xsl:attribute>
+                <xsl:attribute name="data-key">
+                    <xsl:value-of select="substring-after(data(@ref), '#')"/>
+                    <xsl:value-of select="@key"/>
+                </xsl:attribute>
+                <xsl:apply-templates/>
+            </xsl:element>
+        </strong>
+    </xsl:template>
+    <xsl:template match="tei:rs[@ref or @key]">
         <strong>
             <xsl:element name="a">
                 <xsl:attribute name="class">reference</xsl:attribute>
