@@ -256,7 +256,7 @@ declare function app:toc($node as node(), $model as map(*)) {
                 collection(concat($config:app-root, '/data/editions/'))//tei:TEI
     for $title in $docs
         let $idno := $title//tei:publicationStmt/tei:idno//translate(text(),'_',' ')
-        let $datum := data($title//tei:msDesc[1]//tei:origin[1]/tei:date[1]/@when)
+        let $datum := data($title//tei:msDesc[1]//tei:origin[1]/tei:date[1]/format-date(xs:date(@when), '[D02].[M02].[Y0001]'))
         let $date := if ($title//tei:title[2][@type='main']//text()) 
             then 
                 concat($title//tei:title[1][@type='main']//text(), ' – ',  $title//tei:title[2][@type='main']//text())
