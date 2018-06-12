@@ -14,6 +14,7 @@ declare variable $app:orgIndex := $config:app-root||'/data/indices/listorg.xml';
 declare variable $app:workIndex := $config:app-root||'/data/indices/listwork.xml';
 declare variable $app:treatiesIndex := $config:app-root||'/data/indices/listtreaties.xml';
 declare variable $app:listWittnes := $config:app-root||'/data/indices/listwit.xml';
+declare variable $app:defaultXsl := doc($config:app-root||'/resources/xslt/xmlToHtml.xsl');
 
 declare function functx:contains-case-insensitive
   ( $arg as xs:string? ,
@@ -283,22 +284,38 @@ declare function app:toc($node as node(), $model as map(*)) {
 :)
 declare function app:XMLtoHTML ($node as node(), $model as map (*), $query as xs:string?) {
 let $ref := xs:string(request:get-parameter("document", ""))
+let $refname := substring-before($ref, '.xml')
 let $xmlPath := concat(xs:string(request:get-parameter("directory", "editions")), '/')
 let $xml := doc(replace(concat($config:app-root,'/data/', $xmlPath, $ref), '/exist/', '/db/'))
-let $xslPath := concat(xs:string(request:get-parameter("stylesheet", "xmlToHtml")), '.xsl')
-let $xsl := doc(replace(concat($config:app-root,'/resources/xslt/', $xslPath), '/exist/', '/db/'))
 let $collection := functx:substring-after-last(util:collection-name($xml), '/')
+let $xslPath := xs:string(request:get-parameter("stylesheet", ""))
+let $xsl := if($xslPath eq "")
+    then
+        if(doc($config:app-root||'/resources/xslt/'||$collection||'.xsl'))
+            then
+                doc($config:app-root||'/resources/xslt/'||$collection||'.xsl')
+        else if(doc($config:app-root||'/resources/xslt/'||$refname||'.xsl'))
+            then
+                doc($config:app-root||'/resources/xslt/'||$refname||'.xsl')
+        else
+            $app:defaultXsl
+    else
+        if(doc($config:app-root||'/resources/xslt/'||$xslPath||'.xsl'))
+            then
+                doc($config:app-root||'/resources/xslt/'||$xslPath||'.xsl')
+            else
+                $app:defaultXsl
 let $path2source := string-join(('../../../../exist/restxq', $config:app-name, $collection, $ref, 'xml'), '/')
 let $params :=
 <parameters>
     <param name="app-name" value="{$config:app-name}"/>
     <param name="collection-name" value="{$collection}"/>
     <param name="path2source" value="{$path2source}"/>
-   {for $p in request:get-parameter-names()
-    let $val := request:get-parameter($p,())
-   (: where  not($p = ("document","directory","stylesheet")):)
-    return
-       <param name="{$p}"  value="{$val}"/>
+   {
+        for $p in request:get-parameter-names()
+            let $val := request:get-parameter($p,())
+                return
+                   <param name="{$p}"  value="{$val}"/>
    }
 </parameters>
 return
