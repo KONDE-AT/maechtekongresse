@@ -4,8 +4,8 @@
     <xsl:param name="entiyID"/>
     <xsl:variable name="entity" as="node()">
         <xsl:choose>
-            <xsl:when test="not(empty(//tei:place[@xml:id=$entiyID][1]))">
-                <xsl:value-of select="//tei:place[@xml:id=$entiyID][1]"/>
+            <xsl:when test="not(empty(//tei:placeName[@xml:id=$entiyID][1]))">
+                <xsl:value-of select="//tei:placeName[@xml:id=$entiyID][1]"/>
             </xsl:when>
             <xsl:otherwise>
                 <xsl:value-of select="false()"/>
@@ -19,7 +19,7 @@
                     <div class="modal-content">
                         <xsl:choose>
                             <xsl:when test="$entity">
-                                <xsl:variable name="entity" select="//tei:place[@xml:id=$entiyID]"/>
+                                <xsl:variable name="entity" select="//tei:placeName[@xml:id=$entiyID]"/>
                                 <div class="modal-header">
                                     <button type="button" class="close" data-dismiss="modal">
                                         <span class="fa fa-times"/>

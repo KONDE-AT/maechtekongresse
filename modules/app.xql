@@ -161,7 +161,7 @@ let $href := concat('show.html','?document=', app:getDocName($node), '&amp;direc
         <td>{app:getDocName($hit)}</td>
     </tr>
  else
-    <div>Nothing to search for</div>
+    <div>Kein Suchausdruck angegeben</div>
  };
 
 declare function app:indexSearch_hits($node as node(), $model as map(*),  $searchkey as xs:string?, $path as xs:string?){
@@ -391,7 +391,7 @@ declare function app:listBibl($node as node(), $model as map(*)) {
         then
             <a href="{$ext}">{$ext}</a>
         else
-            'no normdata provided'
+            'keine Normdaten angegeben'
    return
         <tr>
             <td>
@@ -418,7 +418,7 @@ declare function app:listOrg($node as node(), $model as map(*)) {
         then
             <a href="{$gnd}">{$gnd}</a>
         else
-            'no normdata provided'
+            'keine Normdaten angegeben'
    return
         <tr>
             <td>

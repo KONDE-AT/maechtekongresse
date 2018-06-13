@@ -27,6 +27,8 @@
                                     <xsl:choose>
                                         <xsl:when test="//$entity//tei:surname[1]/text()">
                                             <xsl:value-of select="$entity//tei:surname[1]/text()"/>
+                                            <xsl:text>, </xsl:text>
+                                            <xsl:value-of select="$entity//tei:forename[1]/text()"/>
                                         </xsl:when>
                                         <xsl:otherwise>
                                             <xsl:value-of select="$entity//tei:persName[1]"/>
@@ -39,7 +41,7 @@
                                             <xsl:value-of select="concat('hits.html?searchkey=', $entiyID)"/>
                                         </xsl:attribute>
                                         <xsl:attribute name="target">_blank</xsl:attribute>
-                                        mentioned in
+                                        Klicken für alle Erwähnungen
                                     </a>
                                 </h4>
                             </div>
@@ -66,7 +68,7 @@
                                             <xsl:when test="$entity//tei:roleName">
                                                 <tr>
                                                     <th>
-                                                        role name(s)
+                                                        Titel, Funktionen, Rollen
                                                     </th>
                                                     <td>
                                                         <xsl:for-each select="$entity//tei:roleName">
@@ -81,7 +83,7 @@
                                             <xsl:when test="$entity//tei:birth and $entity//tei:death">
                                                 <tr>
                                                     <th>
-                                                        birth and death
+                                                        Lebensdaten
                                                     </th>
                                                     <td>
                                                        <xsl:value-of select="$entity//tei:birth"/>
@@ -93,7 +95,7 @@
                                             <xsl:when test="$entity//tei:birth">
                                                 <tr>
                                                     <th>
-                                                        birth
+                                                        Geburt
                                                     </th>
                                                     <td>
                                                         <xsl:value-of select="$entity//tei:birth"/>
@@ -103,7 +105,7 @@
                                             <xsl:when test="$entity//tei:death">
                                                 <tr>
                                                     <th>
-                                                        death
+                                                        Tod
                                                     </th>
                                                     <td>
                                                         <xsl:value-of select="$entity//tei:death"/>
@@ -127,13 +129,13 @@
                                     </xsl:if>
                                 </table>
                                 <div>
-                                    <h4 data-toggle="collapse" data-target="#more"> more (tei structure)</h4>
+                                    <h4 data-toggle="collapse" data-target="#more"> mehr (TEI Datenstruktur)</h4>
                                     <div id="more" class="collapse">
                                         <xsl:choose>
-                                            <xsl:when test="//*[contains(@xml:id, $entiyID) or contains(@id, $entiyID)]">
-                                                <xsl:apply-templates select="//*[contains(@xml:id, $entiyID) or contains(@id, $entiyID)]" mode="start"/>
+                                            <xsl:when test="//*[@xml:id=$entiyID or @id=$entiyID]">
+                                                <xsl:apply-templates select="//*[@xml:id=$entiyID or @id=$entiyID]" mode="start"/>
                                             </xsl:when>
-                                            <xsl:otherwise>Looks like there exists no index entry for ID<strong>
+                                            <xsl:otherwise>Kein Registereintrag für ID<strong>
                                                 <xsl:value-of select="concat(' ', $entiyID)"/>
                                             </strong> 
                                             </xsl:otherwise>
@@ -148,16 +150,16 @@
                                     <span class="fa fa-times"/>
                                 </button>
                                 <h3 class="modal-title">
-                                    Looks like there doesn't exist an index entry <strong>
+                                    Kein Registereintrag <strong>
                                         <xsl:value-of select="$entiyID"/>
-                                    </strong> for the entity you were looking for  
+                                    </strong> für die gesuchte ID  
                                 </h3>
                                 
                             </div>
                         </xsl:otherwise>
                     </xsl:choose>
                     <div class="modal-footer">
-                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Schließen</button>
                     </div>
                 </div>
             </div>

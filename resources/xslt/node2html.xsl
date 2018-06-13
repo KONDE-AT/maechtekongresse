@@ -40,8 +40,8 @@
                         </div>
                         <div class="modal-body">
                             <xsl:choose>
-                                <xsl:when test="//*[contains(@xml:id, $entityID) or contains(@id, $entityID)]">
-                                    <xsl:apply-templates select="//*[contains(@xml:id, $entityID) or contains(@id, $entityID)]" mode="start"/>
+                                <xsl:when test="//*[@xml:id=$entityID or @id=$entityID]">
+                                    <xsl:apply-templates select="//*[@xml:id=$entityID or @id=$entityID]" mode="start"/>
                                 </xsl:when>
                                 <xsl:otherwise>Looks like there is no index entry for ID<strong>
                                         <xsl:value-of select="concat(' ', $entityID)"/>
