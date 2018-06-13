@@ -264,7 +264,7 @@ declare function app:toc($node as node(), $model as map(*)) {
                 $title//tei:title[1][@type='main']//text()
             return    
         let $texts := for $x in $title//tei:msDesc[position()>1]//tei:title
-            where count($title//tei:msDesc[position()>1]//tei:title) > 1
+            (: where count($title//tei:msDesc[position()>1]//tei:title) > 1 :)
             return
                 <li>{$x/text()}</li>
         where if ($filterstring) then starts-with($idno, $filterstring) else $idno

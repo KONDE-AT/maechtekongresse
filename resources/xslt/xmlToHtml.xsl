@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns="http://www.w3.org/1999/xhtml" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" exclude-result-prefixes="tei" version="2.0"><!-- <xsl:strip-space elements="*"/>-->
+    <xsl:import href="shared/base.xsl"/>
     <xsl:param name="document"/>
     <xsl:param name="app-name"/>
     <xsl:param name="collection-name"/>
     <xsl:param name="path2source"/>
-    <xsl:param name="ref"/><!--
+    <xsl:param name="ref"/>
+    <!--
 ##################################
 ### Seitenlayout und -struktur ###
 ##################################
@@ -719,4 +721,28 @@
         </xsl:element>
     </xsl:template>
     <xsl:template match="tei:back"/><!-- ignoring complete back, whose include references were adjusted for avoiding oXygen complaining -->
+<!-- The generic approach of handing down durchreichen rendition attributes is resulting in numerous errors. To be implemented differently. -->
+<!--    <xsl:template match="//*[@rend] | //*[@rendition]">
+    <span>
+        <xsl:choose>
+            <xsl:when test="@rend">
+                <xsl:variable name="style" select="substring-after(@rend, '#')"/>
+                <xsl:attribute name="style">
+                    <xsl:value-of select="root()//tei:rend[@xml:id=current()/$style]"/>
+                </xsl:attribute>
+                <xsl:apply-templates/>
+            </xsl:when>
+            <xsl:when test="@rendition">
+                <xsl:variable name="style" select="substring-after(@rendition, '#')"/>
+                <xsl:attribute name="style">
+                    <xsl:value-of select="root()//tei:rendition[@xml:id=current()/$style]"/>
+                </xsl:attribute>
+                <xsl:apply-templates/>
+            </xsl:when>
+            <xsl:otherwise>
+                <xsl:apply-templates/>
+            </xsl:otherwise>
+        </xsl:choose>
+    </span>
+</xsl:template>-->
 </xsl:stylesheet>
