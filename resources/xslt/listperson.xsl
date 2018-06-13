@@ -27,8 +27,10 @@
                                     <xsl:choose>
                                         <xsl:when test="//$entity//tei:surname[1]/text()">
                                             <xsl:value-of select="$entity//tei:surname[1]/text()"/>
-                                            <xsl:text>, </xsl:text>
-                                            <xsl:value-of select="$entity//tei:forename[1]/text()"/>
+                                            <xsl:if test="$entity//tei:forename[1]/text()">
+                                                <xsl:text>, </xsl:text>
+                                                <xsl:value-of select="$entity//tei:forename[1]/text()"/>
+                                            </xsl:if>
                                         </xsl:when>
                                         <xsl:otherwise>
                                             <xsl:value-of select="$entity//tei:persName[1]"/>
@@ -86,9 +88,7 @@
                                                         Lebensdaten
                                                     </th>
                                                     <td>
-                                                       <xsl:value-of select="$entity//tei:birth"/>
-                                                        <br/>
-                                                        <xsl:value-of select="$entity//tei:death"/>
+                                                       <xsl:value-of select="$entity//tei:birth"/>–<xsl:value-of select="$entity//tei:death"/>
                                                     </td>
                                                 </tr>
                                             </xsl:when>
