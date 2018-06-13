@@ -19,7 +19,7 @@
                     <div class="modal-content">
                         <xsl:choose>
                             <xsl:when test="$entity">
-                                <xsl:variable name="entity" select="//tei:place[@xml:id=$entiyID]"/>
+                                <xsl:variable name="entity" select="//tei:placeName[@xml:id=$entiyID]"/>
                                 <div class="modal-header">
                                     <button type="button" class="close" data-dismiss="modal">
                                         <span class="fa fa-times"/>

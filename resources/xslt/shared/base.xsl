@@ -171,25 +171,27 @@
             </xsl:element>
         </strong>
     </xsl:template>
-    <xsl:template match="tei:persName[@key]">
+    <xsl:template match="tei:persName[@key] | tei:persName[@ref]">
         <strong>
             <xsl:element name="a">
                 <xsl:attribute name="class">reference</xsl:attribute>
                 <xsl:attribute name="data-type">listperson.xml</xsl:attribute>
                 <xsl:attribute name="data-key">
                     <xsl:value-of select="@key"/>
+                    <xsl:value-of select="@ref"/>
                 </xsl:attribute>
                 <xsl:value-of select="."/>
             </xsl:element>
         </strong>
     </xsl:template>
-    <xsl:template match="tei:placeName[@key]">
+    <xsl:template match="tei:placeName[@key] | tei:placeName[@ref]">
         <strong>
             <xsl:element name="a">
                 <xsl:attribute name="class">reference</xsl:attribute>
                 <xsl:attribute name="data-type">listplace.xml</xsl:attribute>
                 <xsl:attribute name="data-key">
                     <xsl:value-of select="@key"/>
+                    <xsl:value-of select="@ref"/>
                 </xsl:attribute>
                 <xsl:value-of select="."/>
             </xsl:element>

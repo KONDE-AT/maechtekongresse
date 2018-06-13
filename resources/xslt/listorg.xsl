@@ -49,7 +49,7 @@
                                     <xsl:if test="count($entity//tei:orgName) &gt; 1">
                                         <xsl:for-each select="$entity//tei:orgName[position()&gt;1]">
                                             <tr>
-                                                <th>alternative names</th>
+                                                <th>alternative Namen</th>
                                                 <td>
                                                     <xsl:value-of select="."/>
                                                 </td>
@@ -72,13 +72,13 @@
                                     </xsl:if>
                                 </table>
                                 <div>
-                                    <h4 data-toggle="collapse" data-target="#more"> more (tei structure)</h4>
+                                    <h4 data-toggle="collapse" data-target="#more"> mehr (TEI Datenstruktur)</h4>
                                     <div id="more" class="collapse">
                                         <xsl:choose>
-                                            <xsl:when test="//*[contains(@xml:id, $entiyID) or contains(@id, $entiyID)]">
-                                                <xsl:apply-templates select="//*[contains(@xml:id, $entiyID) or contains(@id, $entiyID)]" mode="start"/>
+                                            <xsl:when test="//*[@xml:id=$entiyID or @id=$entiyID]">
+                                                <xsl:apply-templates select="//*[@xml:id=$entiyID or @id=$entiyID]" mode="start"/>
                                             </xsl:when>
-                                            <xsl:otherwise>Looks like there exists no index entry for ID<strong>
+                                            <xsl:otherwise>Kein Registereintrag für ID<strong>
                                                 <xsl:value-of select="concat(' ', $entiyID)"/>
                                             </strong> 
                                             </xsl:otherwise>
@@ -89,7 +89,7 @@
                         </xsl:when>
                     </xsl:choose>
                     <div class="modal-footer">
-                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Schließen</button>
                     </div>
                 </div>
             </div>
