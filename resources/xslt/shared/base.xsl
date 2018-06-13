@@ -177,8 +177,8 @@
                 <xsl:attribute name="class">reference</xsl:attribute>
                 <xsl:attribute name="data-type">listperson.xml</xsl:attribute>
                 <xsl:attribute name="data-key">
-                    <xsl:value-of select="@key"/>
-                    <xsl:value-of select="@ref"/>
+                    <xsl:value-of select="substring-after(data(@ref), '#')"/>
+                    <xsl:value-of select="substring-after(data(@key), '#')"/>
                 </xsl:attribute>
                 <xsl:value-of select="."/>
             </xsl:element>
@@ -190,20 +190,21 @@
                 <xsl:attribute name="class">reference</xsl:attribute>
                 <xsl:attribute name="data-type">listplace.xml</xsl:attribute>
                 <xsl:attribute name="data-key">
-                    <xsl:value-of select="@key"/>
-                    <xsl:value-of select="@ref"/>
+                    <xsl:value-of select="substring-after(data(@ref), '#')"/>
+                    <xsl:value-of select="substring-after(data(@key), '#')"/>
                 </xsl:attribute>
                 <xsl:value-of select="."/>
             </xsl:element>
         </strong>
     </xsl:template>
-    <xsl:template match="tei:region[@key] | tei:country[@key]">
+    <xsl:template match="tei:region[@key] | tei:country[@key] | tei:region[@ref] | tei:country[@ref]">
         <strong>
             <xsl:element name="a">
                 <xsl:attribute name="class">reference</xsl:attribute>
                 <xsl:attribute name="data-type">listplace.xml</xsl:attribute>
                 <xsl:attribute name="data-key">
-                    <xsl:value-of select="@key"/>
+                    <xsl:value-of select="substring-after(data(@ref), '#')"/>
+                    <xsl:value-of select="substring-after(data(@key), '#')"/>
                 </xsl:attribute>
                 <xsl:value-of select="."/>
             </xsl:element>
