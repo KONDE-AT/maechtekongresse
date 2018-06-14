@@ -78,7 +78,7 @@
 
          <abstract>
             <p>Eröffnung der Beratungen und Erörterung der Frage, ob die militärische Besetzung
-                  <country>Frankreichs</country> entsprechend dem <rs ref="#t.1"> Vertrag vom <date when="1815-11-20">20. November 1815</date>
+                  <country>Frankreichs</country> entsprechend dem <rs ref="#t.1" type="treaties"> Vertrag vom <date when="1815-11-20">20. November 1815</date>
                     </rs> beendet wird. Der französische
                Premierminister <persName ref="#p.1">Richelieu</persName> legt einen Vorschlag zur
                Regelung der 1815 festgelegten finanziellen Klauseln vor.</p>
@@ -147,10 +147,10 @@
             <p>Les Cabinets d’<country>Autriche</country>, de <country>Grande-Bretagne</country>, de
                   <country>Prusse</country> et de <country>Russie</country> étant convenus de se
                réunir à <placeName ref="#loc.1">Aix-la-Chapelle</placeName> pour examiner dans le
-               sens de l’article V du <rs ref="#t.1">Traité de <placeName ref="#loc.2">Paris</placeName> du <date when="1815-11-20">20 Novembre 1815</date>
+               sens de l’article V du <rs ref="#t.1" type="treaties">Traité de <placeName ref="#loc.2">Paris</placeName> du <date when="1815-11-20">20 Novembre 1815</date>
                     </rs>:
                s’il y a lieu à continuer ou à faire cesser l’occupation Militaire d’une partie du
-               territoire Français après les trois premières années ; et <rs ref="#p.2 #p.3 #p.4 #p.7">les Ministres des Quatre puissances accrédités à
+               territoire Français après les trois premières années ; et <rs ref="#p.2 #p.3 #p.4 #p.7" type="person">les Ministres des Quatre puissances accrédités à
                      <placeName ref="#loc.2">Paris</placeName>
                     </rs>ayant, par ordre de leurs Cours,
                invité <choice>
@@ -250,7 +250,7 @@
                </choice>, leurs conférences dans <rs xml:id="n.1"> une salle de l’Hôtel occupé par <choice>
                      <abbr>Mr.</abbr>
                      <expan>Monsieur</expan>
-                  </choice> le <rs ref="#p.11">Chancelier-d’Etat de Prusse</rs>
+                  </choice> le <rs ref="#p.11" type="person">Chancelier-d’Etat de Prusse</rs>
                </rs>
                     <note type="editorial" target="#n.1"> Karl August Fürst Hardenberg war auf dem
                   Großen Markt Nr. 910, im Hotel der Witwe Bettendorf, abgestiegen; vgl. Taack, Die
@@ -266,22 +266,22 @@
                     </persName>, portant la parole au nom de <choice>
                   <abbr>S. M.</abbr>
                   <expan>Sa Majesté</expan>
-               </choice> le <rs ref="#p.15">Roi de France</rs>, a énoncé le vœu que, vu l’état de ce
-               Royaume, et l’exécution fidèle des stipulations du <rs ref="#t.1">traité du <date when="1815-11-20">20 Novembre</date>
+               </choice> le <rs ref="#p.15" type="person">Roi de France</rs>, a énoncé le vœu que, vu l’état de ce
+               Royaume, et l’exécution fidèle des stipulations du <rs ref="#t.1" type="treaties">traité du <date when="1815-11-20">20 Novembre</date>
                     </rs>, les Quatre Cours Alliées convinssent
                avec <rs xml:id="n.2">
                   <choice>
                      <abbr>S. M.</abbr>
                      <expan>Sa Majesté</expan>
                   </choice>
-                  <rs ref="#p.15">Très Chrétienne</rs>
+                  <rs ref="#p.15" type="person">Très Chrétienne</rs>
                     </rs>
                <note type="editorial" target="#n.2"> Ehrentitel des Königs von Frankreich.</note> de
                faire cesser le plutôt possible l’occupation Militaire, arrêtée par l’article V du
-                  <rs ref="#t.1">Traité de <placeName ref="#loc.2">Paris</placeName> de
+                  <rs ref="#t.1" type="treaties">Traité de <placeName ref="#loc.2">Paris</placeName> de
                1815</rs>.</p>
             <p>
-                    <rs ref="#p.13 #p.14 #p.11 #p.10 #p.12 #p.8 #p.9">
+                    <rs ref="#p.13 #p.14 #p.11 #p.10 #p.12 #p.8 #p.9" type="person">
                         <choice>
                      <abbr>Mrs.</abbr>
                      <expan>Messieurs</expan>
@@ -291,7 +291,7 @@
                </choice> le <persName ref="#p.1">
                         <roleName>Duc</roleName>
                   <surname>de Richelieu</surname>
-                    </persName> les dispositions amicales dont <rs ref="#p.16 #p.17 #p.18 #p.19">leurs Augustes Souverains</rs> sont animés pour <rs ref="#p.15">Sa Majesté Très Chrétienne</rs>, et l’intérêt qu’Ils portent à la
+                    </persName> les dispositions amicales dont <rs ref="#p.16 #p.17 #p.18 #p.19" type="person">leurs Augustes Souverains</rs> sont animés pour <rs ref="#p.15" type="person">Sa Majesté Très Chrétienne</rs>, et l’intérêt qu’Ils portent à la
                prospérité de <pb n="3r"/> Son Royaume, se sont engagés à s’occuper sans délai de la
                proposition de <choice>
                   <abbr>Mr.</abbr>
@@ -302,8 +302,8 @@
                     </persName> et à délibérer, de concert avec <choice>
                   <abbr>Mr.</abbr>
                   <expan>Monsieur</expan>
-               </choice> le <rs ref="#p.1">Duc</rs>, sur les moyens de satisfaire au désir de Sa
-               Majesté le<rs ref="#p.15"> Roi de France</rs> d’une manière compatible avec
+               </choice> le <rs ref="#p.1" type="person">Duc</rs>, sur les moyens de satisfaire au désir de Sa
+               Majesté le<rs ref="#p.15" type="person"> Roi de France</rs> d’une manière compatible avec
                l’exécution complète des Traités.</p>
             <p>
                     <choice>
@@ -313,7 +313,7 @@
                         <roleName>Duc</roleName>
                   <surname>de Richelieu</surname>
                     </persName> a fait connoître en même tems les bases
-               des arrangemens propres à compléter l’exécution des clauses pécuniaires <add place="above">pécuniaires</add> du <rs ref="#t.1">Traité du <date when="1815-11-20">20 Novembre</date>
+               des arrangemens propres à compléter l’exécution des clauses pécuniaires <add place="above">pécuniaires</add> du <rs ref="#t.1" type="treaties">Traité du <date when="1815-11-20">20 Novembre</date>
                     </rs>.<del rendition="#s">Ces clauses,
                   telles qu’elles se trouvent spécifiées dans <rs xml:id="n.3"> l’annexe de ce
                      Protocole</rs>
