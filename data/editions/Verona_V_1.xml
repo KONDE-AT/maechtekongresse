@@ -1,7 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -164,7 +162,7 @@
       </encodingDesc>
       <profileDesc>
          <abstract>
-            <p>Auf Initiative <persName ref="#p.10">Wellingtons</persName> fassen die <rs ref="#p.102 #p.180 #p.135 #p.175 #p.40 #p.75 #p.8 #p.13 #p.35 #p.10">Vertreter der
+            <p>Auf Initiative <persName ref="#p.10">Wellingtons</persName> fassen die <rs ref="#p.102 #p.180 #p.135 #p.175 #p.40 #p.75 #p.8 #p.13 #p.35 #p.10" type="person">Vertreter der
                   Mächte</rs> den Beschluss, eine offizielle Erklärung zur Ächtung des
                Sklavenhandels abzugeben. Eine weitere Denkschrift <persName ref="#p.10">Wellingtons</persName> befasst sich mit dem Problem der Piraterie im westlichen
                Antlantik und den Maßnahmen zur Anerkennung der Unabhängigkeit ehemaliger spanischer
@@ -224,7 +222,7 @@
                     </title>
                 </p>
             <p>
-                    <title>aux mesures adoptées par <rs ref="#p.130">Sa Majesté Britannique</rs> contre
+                    <title>aux mesures adoptées par <rs ref="#p.130" type="person">Sa Majesté Britannique</rs> contre
                   les</title>
                 </p>
             <p>
@@ -238,7 +236,7 @@
                   <abbr>M<hi rendition="#su">ss</hi>
                         </abbr>
                   <expan>Messieurs</expan>
-               </choice> les <rs ref="#p.102 #p.180 #p.135 #p.175 #p.40 #p.75 #p.8 #p.13 #p.35 #p.10">Plénipotentiaires d’Autriche, de France, de Grande-Bretagne, de Prusse et de
+               </choice> les <rs ref="#p.102 #p.180 #p.135 #p.175 #p.40 #p.75 #p.8 #p.13 #p.35 #p.10" type="person">Plénipotentiaires d’Autriche, de France, de Grande-Bretagne, de Prusse et de
                   Russie</rs> se sont réunis ce jour pour prendre connaissance de deux
                communications que <choice>
                   <abbr>M<hi rendition="#su">r</hi>
@@ -276,7 +274,7 @@
                     </persName> a déclaré au nom de <choice>
                   <abbr>S. M.</abbr>
                   <expan>Sa Majesté</expan>
-               </choice> l’<rs ref="#p.17">Empereur de toutes les Russies</rs> que <rs ref="#p.17">Sa Majesté <choice>
+               </choice> l’<rs ref="#p.17" type="person">Empereur de toutes les Russies</rs> que <rs ref="#p.17" type="person">Sa Majesté <choice>
                      <abbr>Imp<hi rendition="#su">le</hi>
                             </abbr>
                      <expan>Impériale</expan>
@@ -291,11 +289,11 @@
                   <abbr>M<hi rendition="#su">ss</hi>
                         </abbr>
                   <expan>Messieurs</expan>
-               </choice> les <rs ref="#p.8 #p.40 #p.102 #p.180 #p.135 #p.175">Plénipotentiaires
-                  d’Autriche, de France et de Prusse</rs> ont également déclaré que <rs ref="#p.16 #p.15 #p.18">leurs Souverains</rs>
+               </choice> les <rs ref="#p.8 #p.40 #p.102 #p.180 #p.135 #p.175" type="person">Plénipotentiaires
+                  d’Autriche, de France et de Prusse</rs> ont également déclaré que <rs ref="#p.16 #p.15 #p.18" type="person">leurs Souverains</rs>
                     <pb n="4v"/> persistaient dans les
                principes en faveur desquels Ils s’étaient prononcés dès le Congrès de <placeName ref="#loc.7">Vienne</placeName> ; et on est convenu de consacrer de nouveau ces
-               principes par une déclaration analogue à <rs ref="#t.22">celle du <date when="1815-02-08">8 Février 1815</date>
+               principes par une déclaration analogue à <rs ref="#t.22" type="treaties">celle du <date when="1815-02-08">8 Février 1815</date>
                     </rs>.</p>
             <p>Quant aux mesures particulières proposées par <choice>
                   <abbr>M<hi rendition="#su">r</hi>
@@ -308,7 +306,7 @@
                   <abbr>M<hi rendition="#su">ss</hi>
                         </abbr>
                   <expan>Messieurs</expan>
-               </choice> les <rs ref="#p.102 #p.135 #p.180">Plénipotentiaires de France</rs> se sont
+               </choice> les <rs ref="#p.102 #p.135 #p.180" type="person">Plénipotentiaires de France</rs> se sont
                réservés d’en faire l’objet de Leurs réflexions, et de soumettre les résultats de ces
                réflexions à une Conférence prochaine.</p>
             <p>La seconde communication de <choice>
@@ -318,7 +316,7 @@
                </choice> le <persName ref="#p.10">
                         <roleName>Duc</roleName>
                   <surname>de Wellington</surname>
-                    </persName> portait sur les mesures que <rs ref="#p.130">
+                    </persName> portait sur les mesures que <rs ref="#p.130" type="person">
                         <choice>
                      <abbr>S. M.</abbr>
                      <expan>Sa Majesté</expan>
@@ -331,7 +329,7 @@
                   <abbr>M<hi rendition="#su">ss</hi>
                         </abbr>
                   <expan>Messieurs</expan>
-               </choice> les <rs ref="#p.102 #p.180 #p.135 #p.175 #p.40 #p.75 #p.8 #p.13 #p.35">Plénipotentiaires des autres Cours</rs> ont annoncé qu’ils s’occuperont également
+               </choice> les <rs ref="#p.102 #p.180 #p.135 #p.175 #p.40 #p.75 #p.8 #p.13 #p.35" type="person">Plénipotentiaires des autres Cours</rs> ont annoncé qu’ils s’occuperont également
                de cette pièce, afin de s’expliquer sur les questions qu’elle embrasse dans la
                prochaine Conférence laquelle a été fixée à mercredi, <date when="1822-11-27">27 de
                   ce mois</date>.</p>
@@ -413,7 +411,7 @@
          <div decls="#m.2">
             <pb n="7r"/>
             <p>
-                    <rs ref="#p.10">Those Minister, who had the honor of representing <rs ref="#p.19 #p.130">His Britannic Majesty</rs> at the Conferences at <placeName ref="#loc.7">Vienna</placeName>, at <placeName ref="#loc.2">Paris</placeName>,
+                    <rs ref="#p.10" type="person">Those Minister, who had the honor of representing <rs ref="#p.19 #p.130" type="person">His Britannic Majesty</rs> at the Conferences at <placeName ref="#loc.7">Vienna</placeName>, at <placeName ref="#loc.2">Paris</placeName>,
                   and at <placeName ref="#loc.1">Aix-la-Chapelle</placeName>
                     </rs>, called the
                attention of the Sovereigns and of their Ministers upon each of those occasions to
@@ -424,12 +422,12 @@
                   120–124.</note>
             </p>
             <p>In the year 1815, after a solemn deliberation, in which the Ministers representing
-               the eight Powers, which signed the <rs ref="#t.13">Treaty of Paris of May 1814</rs>,
-               took a part, <rs ref="#t.22">they<pb n="7v"/> unanimously expressed their desire to
+               the eight Powers, which signed the <rs ref="#t.13" type="treaties">Treaty of Paris of May 1814</rs>,
+               took a part, <rs ref="#t.22" type="treaties">they<pb n="7v"/> unanimously expressed their desire to
                   put an end to a scourge which had so long desolated Africa, degraded Europe, and
                   afflicted humanity</rs>.</p>
             <p>Of these eight Powers, seven have passed laws, having for their object entirely to
-               prevent the subjects of their several States from engaging in this traffic. <rs ref="#t.39 #t.16">One only (<country>Portugal</country>) still permits it in Its’
+               prevent the subjects of their several States from engaging in this traffic. <rs ref="#t.39 #t.16" type="treaties">One only (<country>Portugal</country>) still permits it in Its’
                   own Territories and Factories South of the Equator, but has prohibited the Trade
                   by Its’ subjects north of the Equator;</rs> and all the Maritime Powers of Europe,
                and the United States of America, as well as the South American Governments, with the
@@ -443,7 +441,7 @@
                Rivers and Ports of Africa North of the Equator, to purchase Slaves between July 1820
                and October 1821. Each of these<pb n="8v"/> was calculated to carry off from five to
                six hundred Slaves!</p>
-            <p>Surely then, it is time that the <rs ref="#p.16 #p.17 #p.18 #p.15">Sovereigns, whose
+            <p>Surely then, it is time that the <rs ref="#p.16 #p.17 #p.18 #p.15" type="person">Sovereigns, whose
                   Ministers assist at this Conference</rs>, should mark their continued sense of the
                horrors of this trade, and should take some measures, which shall be effectual to put
                an end to a traffic so revolting, as that the very mention of its result is
@@ -468,7 +466,7 @@
                have too much respect for the Flag of France to venture, excepting in cases of
                extraordinary suspicion, to search the vessels which sail under Its protection.</p>
             <p>
-                    <rs ref="#t.14 #t.17 #t.16">An endeavor has recently been made to improve these
+                    <rs ref="#t.14 #t.17 #t.16" type="treaties">An endeavor has recently been made to improve these
                   treaties with <country>Spain</country>, the <country>Netherlands</country>, and
                      <country>Portugal</country>
                     </rs>; but no improvement of the measures to be
@@ -518,9 +516,9 @@
                cent</hi>.</p>
             <p>
                     <sic>
-                        <rs ref="#p.15" xml:id="n.4">His most Christian Majesty</rs>
+                        <rs ref="#p.15" type="person" xml:id="n.4">His most Christian Majesty</rs>
                     </sic>,<note type="editorial" target="#n.4">Ehrentitel des Königs von Frankreich.</note> having
-               in the year 1815 voluntarily abolished the Slave trade by <rs ref="#.49">His
+               in the year 1815 voluntarily abolished the Slave trade by <rs ref="#t.49" type="treaties">His
                   declaration published on the <date when="1815-03-29">
                             <supplied>29<hi rendition="#su">th</hi> of march</supplied>
                         </date>
@@ -530,7 +528,7 @@
                passed to carry into execution His Royal declaration, and the stipulation of His
                treaty – having besides employed a squadron to cruize off the Coasts of Africa, with
                a view to prevent the Contraband trade in Slaves by the use of His Flag, it cannot be
-               supposed that <rs ref="#p.15">His Most Christian Majesty</rs> is not sincere in His
+               supposed that <rs ref="#p.15" type="person">His Most Christian Majesty</rs> is not sincere in His
                desire to effect the abolition. But there exists<pb n="13v"/> no public Sentiment in
                   <country>France</country> on this subject; and the real miseries entailed upon a
                whole Continent by the continuance of the Slave trade principally by the fraudulent
@@ -538,7 +536,7 @@
                cover, are generally unknown in that Country. It is believed, certainly erroneously,
                that the views of <country>Great-Britain</country> in the abolition are interested,
                and quite distinct from those of humanity; and <ref target="Aachen_Prot_30.xml">the
-                     <rs ref="#p.1">late respectable Minister of France</rs> told us at <placeName ref="#loc.1">Aix-la-Chapelle</placeName>
+                     <rs ref="#p.1" type="person">late respectable Minister of France</rs> told us at <placeName ref="#loc.1">Aix-la-Chapelle</placeName>
                     </ref>, that an erroneous opinion
                prevailed in <country>France</country>, that the abolition of the Slave trade had
                been imposed upon <country>France</country> as the price of Peace.</p>
@@ -549,7 +547,7 @@
                legislature, however well-inclined to endeavor to put down this evil, and however
                they may wish to put an end to a source of perpetual discussion with His Majesty’s
                Government.</p>
-            <p>His Majesty’s Government cannot but feel, that notwithstanding the <rs ref="#t.22">declaration of the Congress of <placeName ref="#loc.7">Vienna</placeName> of
+            <p>His Majesty’s Government cannot but feel, that notwithstanding the <rs ref="#t.22" type="treaties">declaration of the Congress of <placeName ref="#loc.7">Vienna</placeName> of
                   1815</rs>, They still stand alone in this question in Europe. Upon them has fallen
                the burthen of the execution of all the Treaties with the<pb n="14v"/> Maritime
                Powers for putting down the Slave Trade; and upon them the odium of soliciting those
@@ -565,20 +563,20 @@
                persevere in their endeavors to effect its total abolition.</p>
             <p>It is at present obviously carried on to the Northward of the Equator solely by
                Contraband, and in a considerable degree, under the French Flag, and by a fraudulent
-               use of that Flag, notwithstanding the measures adopted by <rs ref="#p.15">His Most
+               use of that Flag, notwithstanding the measures adopted by <rs ref="#p.15" type="person">His Most
                   Christian Majesty</rs> to carry into execution His Treaty with His Allies, His own
                Royal declaration and the Law of France.</p>
             <pb n="15v"/>
-            <p>There is no article or stipulation of the Treaties with the <rs ref="#p.15">King of
+            <p>There is no article or stipulation of the Treaties with the <rs ref="#p.15" type="person">King of
                   France</rs>, whether regarding the political or pecuniary Interests of any Power
                in Europe, or even of any Individual, which has not been strictly carried into
                execution.</p>
             <p>Shall it then be said, that the Powers of Europe are indifferent to the complete
                execution of those stipulations alone which regard the Interests of humanity, and
-               that, rather than urge <rs ref="#p.15">His Most Christian Majesty</rs> to adopt those
+               that, rather than urge <rs ref="#p.15" type="person">His Most Christian Majesty</rs> to adopt those
                measures which are necessary effectually to put down the Slave Trade, They will
                suffer this disgrace to human nature to exist?</p>
-            <p>The additional Article of the <rs ref="#t.1">Treaty<pb n="16r"/> of Paris of <date when="1815-11-20">November 20<hi rendition="#su">th</hi> 1815</date>
+            <p>The additional Article of the <rs ref="#t.1" type="treaties">Treaty<pb n="16r"/> of Paris of <date when="1815-11-20">November 20<hi rendition="#su">th</hi> 1815</date>
                     </rs> does
                not describe any particular measure, or set of measures to be adopted to effect its
                purpose, but states that “the Contracting Parties engage to renew conjointly their
@@ -588,7 +586,7 @@
             <p>The following appear to be the measures, which the Allied Powers might adopt or
                recommend, which would have the effect of checking, if not of entirely putting<pb n="16v"/> down the Slave Trade:</p>
             <p>- A declaration on the part of the Powers whose Ministers are now assembled at
-                  <placeName ref="#loc.68">Verona</placeName>, renewing the <rs ref="#t.22">denunciation of the Slave Trade of the Congress of <placeName ref="#loc.7">Vienna</placeName>
+                  <placeName ref="#loc.68">Verona</placeName>, renewing the <rs ref="#t.22" type="treaties">denunciation of the Slave Trade of the Congress of <placeName ref="#loc.7">Vienna</placeName>
                     </rs>, and exhorting the Maritime Powers, who have abolished
                the Trade, to concert measures among themselves for proclaiming and treating it as
                Piracy, with a view of founding upon the aggregate of such separate engagements
@@ -598,7 +596,7 @@
                assembled, that they withdraw the protection of their Flags from those Persons, not
                natives of their dominions respectively, who shall be found making use of such Flag
                to cover a Trade in Slaves.</p>
-            <p>- A Declaration on the part of the <rs ref="#p.16 #p.17 #p.18 #p.15 #p.130">Allied
+            <p>- A Declaration on the part of the <rs ref="#p.16 #p.17 #p.18 #p.15 #p.130" type="person">Allied
                   Sovereigns</rs> that they would refuse admission into their dominions of the
                produce of Colonies belonging to Powers who should not have abolished the Slave
                Trade. This measure will apply entirely to <country>Portugal</country>, and the now
@@ -609,7 +607,7 @@
                Treaty and to Law, to that part of the Coast. </p>
             <p>These Traders, when likely to be detected with Slaves on board, shew the French Flag,
                and thus escape the Penalties which the Law would inflict upon them.</p>
-            <p>To join with His Majesty in entreating <rs ref="#p.15">His Most Christian
+            <p>To join with His Majesty in entreating <rs ref="#p.15" type="person">His Most Christian
                   Majesty</rs> to adopt some of those measures for putting down the Slave Trade,
                which had been<pb n="18r"/> found effectual in other countries.</p>
             <p>The Measures, which depend upon His Most Christian Majesty’s Government independently
@@ -618,20 +616,20 @@
                Slaves, whereby to ascertain at all times, whether any newly imported Slaves have
                been purchased on any Plantation. The effect of this measure would not be confined to
                the Check it would give to the importation of Slaves. It would manifest in a still
-               stronger degree the determination of the <rs ref="#p.15">King</rs> to put an end to
+               stronger degree the determination of the <rs ref="#p.15" type="person">King</rs> to put an end to
                the Traffic; and It would stimulate<pb n="18v"/> the Governors and officers in the
                Colonies to attend to the strict execution of the Laws on the subject.</p>
             <p>It must be observed that the <ref target="Aachen_Prot_30.xml">measure was suggested
                   at the late Congress of <placeName ref="#loc.1">Aix-la-Chapelle</placeName> by the
-                     <rs ref="#p.1">late Minister of France</rs>
+                     <rs ref="#p.1" type="person">late Minister of France</rs>
                     </ref>, but has not yet been ordered
                by an “<hi rendition="#u">ordonnance</hi>”.</p>
-            <p>2<hi rendition="#su">o</hi> That <rs ref="#p.15">His Most Christian Majesty</rs>
+            <p>2<hi rendition="#su">o</hi> That <rs ref="#p.15" type="person">His Most Christian Majesty</rs>
                should encourage the capture of Slave Ships fraudulently carrying on a Contraband
                Trade under the French Flag, by the grant of the vessel and Equipment in the way of
                Prize to the Captors, and of Head Money for the Negroes captured.</p>
             <p>This measure would have the same effect in stimulating to the performance<pb n="19r"/> of their duty those charged with the task of putting down this trade, by shewing
-               them <rs ref="#p.15">His Most Christian Majesty</rs>’s continued determination that
+               them <rs ref="#p.15" type="person">His Most Christian Majesty</rs>’s continued determination that
                it should be put down.</p>
             <p>It is not doubted that these measures, by drawing the public attention in
                   <country>France</country> to this question, would soon rouse the public spirit
@@ -654,9 +652,9 @@
             <p>From a period commencing during the state war with <country>France</country>, His
                Majesty’s subjects have had commercial relations with the provinces in South America,
                heretofore forming part of the dominion of <country>Spain</country>, with the consent
-               of the Government and of the <rs ref="#p.150">King of Spain</rs>; and those
+               of the Government and of the <rs ref="#p.150" type="person">King of Spain</rs>; and those
                relations, as well as those which exist between His Majesty’s subjects and all parts
-               of the world, have long rendered it necessary that <rs ref="#p.130">His Majesty</rs>
+               of the world, have long rendered it necessary that <rs ref="#p.130" type="person">His Majesty</rs>
                should so far recognise the existence <hi rendition="#u">de facto</hi> of the
                Governments formed in those several provinces, as to negociate with them by means of
                the Officers commanding His fleets and Ships, regarding the Interests of His
@@ -682,15 +680,15 @@
                   366–368.</note>
                <rs xml:id="n.7" ref="#p.150">His Catholic Majesty</rs>
                     <note type="editorial" target="#n.7">Ehrentitel des Königs von Spanien.</note> having thought proper to
-               direct that a Note should be presented to His Majesty’s Government to make<pb n="70r"/> known to <rs ref="#p.130">His Majesty</rs>
+               direct that a Note should be presented to His Majesty’s Government to make<pb n="70r"/> known to <rs ref="#p.130" type="person">His Majesty</rs>
                <rs xml:id="n.8">that <country>Spain</country> was about to enter upon a course of
                   measures in relation to those provinces, having for their object their
                   pacification and their continued Union with that Country</rs>,<note type="editorial" target="#n.8">Spanische Denkschrift betreffend die Befriedung
                   Südamerikas, Mai 1822; vgl. BFSP Bd. 9 (1821/22), S. 889–894.</note>
-               <rs ref="#p.130">His Majesty</rs> directed that an answer should be returned, stating
+               <rs ref="#p.130" type="person">His Majesty</rs> directed that an answer should be returned, stating
                His wish to witness an amicable termination of the differences existing between
                   <country>Spain</country> and Her Colonies of America, the readiness of His
-               Government to receive from the Government of Spain such further explanation as <rs ref="#p.150">
+               Government to receive from the Government of Spain such further explanation as <rs ref="#p.150" type="person">
                         <choice>
                      <abbr>H. C. M.</abbr>
                      <expan>His Catholic Majesty</expan>
@@ -700,7 +698,7 @@
                the impossibility that so large a portion of the world could long continue without
                some recognised relations, without disturbing the Intercourse of civilised<pb n="70v"/> Society.</p>
             <p>To this Note no answer has been received; and the time is approaching at which it
-               will be necessary for <rs ref="#p.130">His Majesty</rs> to take some further steps
+               will be necessary for <rs ref="#p.130" type="person">His Majesty</rs> to take some further steps
                upon this subject.</p>
             <p>The utter relaxation of the Authority of <country>Spain</country> over the whole of
                this part of the world, and the appearance of so many new Flags in the American Seas
@@ -713,7 +711,7 @@
                Government, which have produced promises of redress – but no redress has
                followed.</p>
             <p>
-                    <rs ref="#p.130">His Majesty</rs> has been at length obliged to undertake the task,
+                    <rs ref="#p.130" type="person">His Majesty</rs> has been at length obliged to undertake the task,
                but it is impossible to expect that this intolerable Evil should be thoroughly
                extirpated without the cooperation of the Local authorities, occupying the Ports and
                Coasts of that part of the Continent of <choice>
@@ -723,22 +721,22 @@
                recognition of the existence <hi rendition="#u">de facto</hi> of some one or more of
                these self created Governments.</p>
             <p>
-                    <rs ref="#p.130">His Majesty</rs>, as the Ally of <rs ref="#p.150">His Catholic
+                    <rs ref="#p.130" type="person">His Majesty</rs>, as the Ally of <rs ref="#p.150" type="person">His Catholic
                   Majesty</rs>, has for many years been disposed to exert the Influence of His
                Government to effect a pacification between <country>Spain</country> and Her<pb n="71v"/> Colonies on terms of mutual liberality and advantage; and, in the
                earnest pursuit of this friendly purpose, has refused for His subjects every
                commercial advantage which either party was disposed to concede to them.</p>
             <p>
-                    <rs ref="#p.150">
+                    <rs ref="#p.150" type="person">
                         <choice>
                      <abbr>H. C. M.</abbr>
                      <expan>His Catholic Majesty</expan>
                   </choice>
                     </rs>’s Government have more than once acknowledged their obligations to
-                  <rs ref="#p.130">His Majesty</rs> in this respect. </p>
-            <p>On the same principle, <rs ref="#p.130">His Majesty</rs> would have been highly
+                  <rs ref="#p.130" type="person">His Majesty</rs> in this respect. </p>
+            <p>On the same principle, <rs ref="#p.130" type="person">His Majesty</rs> would have been highly
                gratified if He could have received the intelligence of the termination of these
-               differences, and that <rs ref="#p.150">
+               differences, and that <rs ref="#p.150" type="person">
                         <choice>
                      <abbr>H. C. M.</abbr>
                      <expan>His Catholic Majesty</expan>
@@ -747,10 +745,10 @@
                unnecessary the measures for the protection of His subjects which the progress of
                Events, the rapid growth, and existing magnitude of the unredressed Evils, under
                which His Majesty’s subjects are suffering<pb n="72r"/> in the pursuit of their
-               lawful occupations, have rendered it absolutely necessary for <rs ref="#p.130">His
+               lawful occupations, have rendered it absolutely necessary for <rs ref="#p.130" type="person">His
                   Majesty</rs> to adopt for their protection.</p>
             <p>
-                    <rs ref="#p.130">His Majesty</rs> has apprised the Government of <rs ref="#p.150">
+                    <rs ref="#p.130" type="person">His Majesty</rs> has apprised the Government of <rs ref="#p.150" type="person">
                         <choice>
                      <abbr>H. C. M.</abbr>
                      <expan>His Catholic Majesty</expan>
@@ -767,7 +765,7 @@
          <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/listwit.xml" xpointer="listWit"/>
          <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/listorg.xml" xpointer="listOrg"/>
          <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/listtreaties.xml" xpointer="listTreaties"/>
-
+         
       </back>
    </text>
 </TEI>

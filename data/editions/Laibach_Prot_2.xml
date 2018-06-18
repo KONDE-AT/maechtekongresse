@@ -89,8 +89,8 @@
             <p>Der österreichische Außenminister <persName ref="#p.8">
                         <surname>Metternich</surname>
                     </persName> informiert über die Gespräche, die
-               zwischen dem <rs ref="#p.138">König beider Sizilien</rs> und den in <placeName ref="#loc.65">Laibach</placeName>/<placeName ref="#loc.65">Ljubljana</placeName>
-               anwesenden <rs ref="#p.16 #p.18 #p.17">alliierten Monarchen</rs> stattgefunden haben.
+               zwischen dem <rs ref="#p.138" type="person">König beider Sizilien</rs> und den in <placeName ref="#loc.65">Laibach</placeName>/<placeName ref="#loc.65">Ljubljana</placeName>
+               anwesenden <rs ref="#p.16 #p.18 #p.17" type="person">alliierten Monarchen</rs> stattgefunden haben.
                   <persName ref="#p.140">
                         <forename>Alvaro</forename>
                   <surname>Ruffo</surname>
@@ -166,12 +166,12 @@
                         <roleName>Prince</roleName>
                   <surname>de Metternich</surname>
                     </persName> a présenté à la Conférence un résumé
-               des communications qui, depuis l’arrivée du <rs ref="#p.138">Roi de Naples</rs> à
-                  <placeName ref="#loc.65">Laybach</placeName>, ont eu lieu entre <rs ref="#p.138">Sa Majesté</rs> et <rs ref="#p.16 #p.18 #p.17">les Souverains alliés</rs>. <rs ref="#p.138">
+               des communications qui, depuis l’arrivée du <rs ref="#p.138" type="person">Roi de Naples</rs> à
+                  <placeName ref="#loc.65">Laybach</placeName>, ont eu lieu entre <rs ref="#p.138" type="person">Sa Majesté</rs> et <rs ref="#p.16 #p.18 #p.17" type="person">les Souverains alliés</rs>. <rs ref="#p.138" type="person">
                         <choice>
                      <abbr>S. M.</abbr>
                      <expan>Sa Majesté</expan>
-                  </choice> Sicilienne</rs> a demandé aux <rs ref="#p.16 #p.18 #p.17">Souverains
+                  </choice> Sicilienne</rs> a demandé aux <rs ref="#p.16 #p.18 #p.17" type="person">Souverains
                   alliés</rs> de lui faire connaître leurs intentions relativement aux affaires de
                Son Royaume par <choice>
                   <abbr>M<hi rendition="#su">r</hi>
@@ -182,7 +182,7 @@
                   <surname>de Gallo</surname>
                     </persName> qu’Elle adresserait pour cet effet à la
                Conférence de leurs plénipo<pb n="9v"/>tentiaires.</p>
-            <p>Il a été répondu à <rs ref="#p.138">Sa Majesté</rs> que <rs ref="#p.16 #p.18 #p.17">les Souverains</rs> n’ayant pas reconnu et étant décidés à ne pas reconnaître le
+            <p>Il a été répondu à <rs ref="#p.138" type="person">Sa Majesté</rs> que <rs ref="#p.16 #p.18 #p.17" type="person">les Souverains</rs> n’ayant pas reconnu et étant décidés à ne pas reconnaître le
                Gouvernement actuellement établi à <country>Naples</country>, la Conférence ne
                pouvait traiter d’affaire ni avec <choice>
                   <abbr>M<hi rendition="#su">r</hi>
@@ -193,8 +193,8 @@
                   <surname>de Gallo</surname>
                     </persName>, ni avec aucun individu attaché par des
                places ou des fonctions au régime actuel.</p>
-            <p>En suite de cette réponse le <rs ref="#p.138">Roi de Naples</rs> a fait annoncer aux
-                  <rs ref="#p.16 #p.18 #p.17">Souverains</rs> que ne pouvant, après leur
+            <p>En suite de cette réponse le <rs ref="#p.138" type="person">Roi de Naples</rs> a fait annoncer aux
+                  <rs ref="#p.16 #p.18 #p.17" type="person">Souverains</rs> que ne pouvant, après leur
                déclaration, proposer aucun autre organe pour entrer en communication régulière avec
                les Cabinets de Ses augustes Alliés, il allait charger de Ses ordres <choice>
                   <abbr>M<hi rendition="#su">r</hi>
@@ -206,7 +206,7 @@
                     </persName> et le nommer Son Plénipotentiaire aux
                Conférences.</p>
             <p>
-                    <rs ref="#p.16 #p.18 #p.17">Les Souverains</rs> ont fait répondre à <rs ref="#p.138">Sa Majesté</rs> que comme il n’y avait, de leur côté, aucune objection contre le
+                    <rs ref="#p.16 #p.18 #p.17" type="person">Les Souverains</rs> ont fait répondre à <rs ref="#p.138" type="person">Sa Majesté</rs> que comme il n’y avait, de leur côté, aucune objection contre le
                choix de <choice>
                   <abbr>M<hi rendition="#su">r</hi>
                         </abbr>
@@ -236,7 +236,7 @@
                à titre de Plénipotentiaire de <choice>
                   <abbr>S. M.</abbr>
                   <expan>Sa Majesté</expan>
-               </choice> le <rs ref="#p.138">Roi des Deux-Siciles</rs>. »</p>
+               </choice> le <rs ref="#p.138" type="person">Roi des Deux-Siciles</rs>. »</p>
             <p rendition="#r">
                     <add hand="#G">Lu et Certifié</add>
                 </p>
@@ -256,7 +256,7 @@
          <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/listperson.xml" xpointer="listPerson"/>
          <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/listwit.xml" xpointer="listWit"/>
          <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/listorg.xml" xpointer="listOrg"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/listwork.xml" xpointer="listTreaties"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/listtreaties.xml" xpointer="listTreaties"/>
       </back>
    </text>
 </TEI>

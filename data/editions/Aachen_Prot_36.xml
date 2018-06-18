@@ -1,7 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -130,8 +128,8 @@
       </encodingDesc>
       <profileDesc>
          <abstract>
-            <p>Die <rs ref="p.8 #p.1 #p.9 #p.11 #p.12 #p.13 #p.14">Vertreter der Mächte</rs>
-               beschließen, den Kindern der ehemaligen <rs ref="#p.128">Königin von Schweden</rs>,
+            <p>Die <rs ref="p.#8 #p.1 #p.9 #p.11 #p.12 #p.13 #p.14">Vertreter der Mächte</rs>
+               beschließen, den Kindern der ehemaligen <rs ref="#p.128" type="person">Königin von Schweden</rs>,
                insbesondere aber ihrem Sohn <persName ref="#p.129">
                         <forename>Gustav</forename>
                     </persName>, eine Entschädigung zukommen zu
@@ -211,13 +209,13 @@
                     </persName>, Son fils. Et <choice>
                   <abbr>Mrs.</abbr>
                   <expan>Messieurs</expan>
-               </choice> les <rs ref="#p.8 #p.1 #p.9 #p.11 #p.12 #p.13 #p.14">Plénipotentiaires</rs>
+               </choice> les <rs ref="#p.8 #p.1 #p.9 #p.11 #p.12 #p.13 #p.14" type="person">Plénipotentiaires</rs>
                ayant unanimement admis le principe et les motifs sur lesquels doit porter cette
                mesure de générosité Royale, sont convenus d’envoyer copie du présent Protocole et de
-               la pièce y annexée sous le sceau du secret à <placeName ref="#loc.25">Francfort</placeName> pour y être déposé entre les mains du <rs ref="#p.39">Ministre de <choice>
+               la pièce y annexée sous le sceau du secret à <placeName ref="#loc.25">Francfort</placeName> pour y être déposé entre les mains du <rs ref="#p.39" type="person">Ministre de <choice>
                      <abbr>S. M.</abbr>
                      <expan>Sa Majesté</expan>
-                  </choice> l’<rs ref="#p.17">Empereur de Russie</rs> près la Diète Germanique</rs>,
+                  </choice> l’<rs ref="#p.17" type="person">Empereur de Russie</rs> près la Diète Germanique</rs>,
                lequel tiendra le protocole ouvert pour en remplir les blancs d’après les
                instructions que les Cabinets, prenant part à cet acte, s’engagent à faire parvenir à
                   <placeName ref="#loc.25">Francfort</placeName> dans la terme de deux mois.</p>
@@ -262,9 +260,9 @@
                   <forename>Frédérique</forename>
                     </persName> dans la vue de réclamer en faveur de
                Ses enfans les dispositions généreuses de Leurs Majestés Impériales et Royales, les
-                  <rs ref="#p.8 #p.1 #p.9 #p.11 #p.12 #p.13 #p.14">Plénipotentiaires d’Autriche, de
+                  <rs ref="#p.8 #p.1 #p.9 #p.11 #p.12 #p.13 #p.14" type="person">Plénipotentiaires d’Autriche, de
                   France, de la Grande-Bretagne, de Prusse et de Russie</rs> se sont réunis en
-               Conférence à l’effet d’aviser aux moyens de remplir les intentions de <rs ref="#p.16 #p.15 #p.19 #p.18 #p.17">leurs Augustes Maîtres</rs> quant à
+               Conférence à l’effet d’aviser aux moyens de remplir les intentions de <rs ref="#p.16 #p.15 #p.19 #p.18 #p.17" type="person">leurs Augustes Maîtres</rs> quant à
                l’établissement, soit foncier, soit pécuniaire, sollicité pour les enfans de <choice>
                   <abbr>S. M.</abbr>
                   <expan>Sa Majesté</expan>
@@ -276,10 +274,10 @@
                   <forename>Gustave</forename>
                     </persName>, son fils.</p>
             <p>Après avoir examiné et reconnu la convenance d’une mesure de libéralité à l’avantage
-               de la <rs ref="#p.128">Reine</rs> dans la<pb n="179v"/> personne du <persName ref="#p.129">
+               de la <rs ref="#p.128" type="person">Reine</rs> dans la<pb n="179v"/> personne du <persName ref="#p.129">
                         <roleName>Prince</roleName>
                   <forename>Gustave</forename>
-                    </persName>, <rs ref="#p.8 #p.1 #p.9 #p.11 #p.12 #p.13 #p.14">les Ministres et Plénipotentiaires
+                    </persName>, <rs ref="#p.8 #p.1 #p.9 #p.11 #p.12 #p.13 #p.14" type="person">les Ministres et Plénipotentiaires
                </rs>respectifs ont, en vertu d’autorisations expresses,
                   arrêté<supplied>es</supplied> les dispositions retracées ci-après :</p>
             <p>a. Il sera formé <hi rendition="#u">un fonds</hi> de dotation, composé des
@@ -290,13 +288,13 @@
                     <choice>
                   <abbr>S. M.</abbr>
                   <expan>Sa Majesté</expan>
-               </choice> l’<rs ref="#p.16">Empereur d’Autriche</rs> ...<supplied/>
+               </choice> l’<rs ref="#p.16" type="person">Empereur d’Autriche</rs> ...<supplied/>
                 </p>
             <p>
                     <choice>
                   <abbr>S. M.</abbr>
                   <expan>Sa Majesté</expan>
-               </choice> le <rs ref="#p.15">Roi de France</rs>
+               </choice> le <rs ref="#p.15" type="person">Roi de France</rs>
                <supplied>...</supplied>
                 </p>
             <p>
@@ -304,21 +302,21 @@
                   <abbr>S. M.</abbr>
                   <expan>Sa Majesté</expan>
                </choice>
-               <rs ref="#p.19">Britannique</rs>
+               <rs ref="#p.19" type="person">Britannique</rs>
                <supplied>...</supplied>
                 </p>
             <p>
                     <choice>
                   <abbr>S. M.</abbr>
                   <expan>Sa Majesté</expan>
-               </choice> le <rs ref="#p.18">Roi de Prusse</rs>
+               </choice> le <rs ref="#p.18" type="person">Roi de Prusse</rs>
                <supplied>...</supplied>
                 </p>
             <p>
                     <choice>
                   <abbr>S M.</abbr>
                   <expan>Sa Majesté</expan>
-               </choice> l’<rs ref="#p.17">Empereur de Russie</rs>
+               </choice> l’<rs ref="#p.17" type="person">Empereur de Russie</rs>
                <supplied>...</supplied>
                 </p>
             <pb n="180r"/>
@@ -345,7 +343,7 @@
                </choice> la <persName ref="#p.128">
                         <roleName>Reine</roleName>
                   <forename>Fréderique</forename>
-                    </persName> et <rs ref="#p.129">son fils</rs> du
+                    </persName> et <rs ref="#p.129" type="person">son fils</rs> du
                revenu des fonds<pb n="180v"/> ci-dessus spécifiés au taux de 4 pour cent.</p>
             <p>e. Le soin d’effectuer l’acquisition du fonds de terre, d’en acquitter la valeur
                d’après les ordres des Gouvernemens contribuans, et de mettre au temps fixé le
@@ -354,7 +352,7 @@
                   <forename>Gustave</forename>
                     </persName> en possession de la dotation qui lui est
                assurée ; toutes ces mesures d’exécution réclamées par la teneur du présent
-               protocole, sont déférées et commises aux <rs ref="#p.25 #p.26 #p.114 #p.115 #p.39">Ministres des Cours signataires respectivement accrédités à <placeName ref="#loc.25">Francfort <choice>
+               protocole, sont déférées et commises aux <rs ref="#p.25 #p.26 #p.114 #p.115 #p.39" type="person">Ministres des Cours signataires respectivement accrédités à <placeName ref="#loc.25">Francfort <choice>
                         <abbr>s/M</abbr>
                         <expan>sur Main</expan>
                      </choice>
@@ -370,7 +368,6 @@
          <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/listwit.xml" xpointer="listWit"/>
          <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/listorg.xml" xpointer="listOrg"/>
          <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/listtreaties.xml" xpointer="listTreaties"/>
-
       </back>
    </text>
 </TEI>

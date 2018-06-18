@@ -109,11 +109,11 @@
       </encodingDesc>
       <profileDesc>
          <abstract>
-            <p>Die <rs ref="#p.8 #p.40 #p.175 #p.13 #p.35 #p.75">Vertreter Österreich, Preußen und
-                  Russlands</rs> informieren die <rs ref="#p.137 #p.102 #p.180 #p.135">Gesandten
+            <p>Die <rs ref="#p.8 #p.40 #p.175 #p.13 #p.35 #p.75" type="person">Vertreter Österreich, Preußen und
+                  Russlands</rs> informieren die <rs ref="#p.137 #p.102 #p.180 #p.135" type="person">Gesandten
                   Großbritanniens und Frankreichs</rs> über die Reduktion der Besatzungstruppen im
-                  <country>Königreich beider Sizilien</country>. Der <rs ref="#p.140">Bevollmächtigte des Königreichs beider Sizilien</rs> bringt die Absicht seines
-                  <rs ref="#p.138">Königs</rs> zur Kenntnis, Schweizer Regimenter in Dienst zu
+                  <country>Königreich beider Sizilien</country>. Der <rs ref="#p.140" type="person">Bevollmächtigte des Königreichs beider Sizilien</rs> bringt die Absicht seines
+                  <rs ref="#p.138" type="person">Königs</rs> zur Kenntnis, Schweizer Regimenter in Dienst zu
                nehmen und ersucht dabei um die Unterstützung der alliierten Höfe. Diese wird in
                Aussicht gestellt.</p>
          </abstract>
@@ -174,7 +174,7 @@
                 </p>
             <p>
                     <title>Procès-verbal de la Conférence du <date when="1822-12-08">8 Décembre</date>
-                  entre Messieurs les <rs ref="#p.8 #p.40 #p.137 #p.102 #p.180 #p.135 #p.175 #p.13 #p.35 #p.75">Plénipotentiaires des Cours d'Autriche, de France, de Grande-Bretagne, de
+                  entre Messieurs les <rs ref="#p.8 #p.40 #p.137 #p.102 #p.180 #p.135 #p.175 #p.13 #p.35 #p.75" type="person">Plénipotentiaires des Cours d'Autriche, de France, de Grande-Bretagne, de
                      Prusse et de Russie</rs>.</title>
                 </p>
             <p>
@@ -190,15 +190,15 @@
             <p>Dans la Conférence de ce soir il a été fait communication à <choice>
                   <abbr>Mrs.</abbr>
                   <expan>Messieurs</expan>
-               </choice> les <rs ref="#p.137 #p.102 #p.180 #p.135">Plénipotentiaires de France et de
+               </choice> les <rs ref="#p.137 #p.102 #p.180 #p.135" type="person">Plénipotentiaires de France et de
                   la Grande-Bretagne</rs> du <ref target="Verona_II_3.xml">Procès-Verbal
                   ci-joint</ref> de la Conférence qui a eu lieu ce matin relativement à la
                diminution des Troupes auxiliaires dans le <country>Royaume des
                   Deux-Siciles</country> entre <choice>
                   <abbr>Mrs.</abbr>
                   <expan>Messieurs</expan>
-               </choice> les <rs ref="#p.8 #p.40 #p.175 #p.13 #p.35">Plénipotentiaires des Cours
-                  signataires de la <rs ref="#t.48">Convention de <placeName ref="#loc.11">Naples</placeName>
+               </choice> les <rs ref="#p.8 #p.40 #p.175 #p.13 #p.35" type="person">Plénipotentiaires des Cours
+                  signataires de la <rs ref="#t.48" type="treaties">Convention de <placeName ref="#loc.11">Naples</placeName>
                         </rs>
                     </rs> du <date when="1821-10-18">18 Octobre
                   1821</date>. </p>
@@ -209,8 +209,8 @@
                </choice> le <persName ref="#p.140">
                         <roleName>Prince</roleName>
                   <surname>de Ruffo</surname>
-                    </persName> a fait part en même temps par la <ref decls="#m.2">Note ci-annexée</ref> de la résolution du <rs ref="#p.138">Roi</rs>,
-               son Maître, d’engager à son service des Régimens suisses, et du désir de <rs ref="#p.138">
+                    </persName> a fait part en même temps par la <ref decls="#m.2">Note ci-annexée</ref> de la résolution du <rs ref="#p.138" type="person">Roi</rs>,
+               son Maître, d’engager à son service des Régimens suisses, et du désir de <rs ref="#p.138" type="person">
                         <choice>
                      <abbr>S. M.</abbr>
                      <expan>Sa Majesté</expan>
@@ -220,10 +220,10 @@
                   <abbr>Gouvernem<hi rendition="#su">t</hi>
                         </abbr>
                   <expan>Gouvernement</expan>
-               </choice> du <rs ref="#p.138">Roi</rs> a déjà faites et celles qu’il se propose
+               </choice> du <rs ref="#p.138" type="person">Roi</rs> a déjà faites et celles qu’il se propose
                encore de faire.</p>
             <p>Messieurs les Plénipotentiaires ont déclaré qu’Ils étoient persuadés que Leurs Hautes
-               Cours n’hésiteroient pas à se rendre à la proposition de <rs ref="#p.138">Sa Majesté
+               Cours n’hésiteroient pas à se rendre à la proposition de <rs ref="#p.138" type="person">Sa Majesté
                   Sicilienne</rs>.</p>
             <table rend="rules">
                <row>
@@ -323,7 +323,7 @@
                      <choice>
                         <abbr>Mr.</abbr>
                         <expan>Monsieur</expan>
-                     </choice> le <rs ref="#p.137">Plénipotentiaire de la Grande-Bretagne</rs>
+                     </choice> le <rs ref="#p.137" type="person">Plénipotentiaire de la Grande-Bretagne</rs>
                      n’étant point autorisé à entrer dans les discussions, a signé les Protocoles vu
                      qu’ils ne se rapportent qu’à de simples communications.</lem>
                   <rdg>
@@ -332,7 +332,7 @@
                         <choice>
                            <abbr>Mr.</abbr>
                            <expan>Monsieur</expan>
-                        </choice> le <rs ref="#p.137">Plénipotentiaire de la Grande-Bretagne</rs>
+                        </choice> le <rs ref="#p.137" type="person">Plénipotentiaire de la Grande-Bretagne</rs>
                         n’étant point autorisé à entrer dans les discussions, a signé les Protocoles
                         vu qu’ils ne se rapportent qu’à de simples communications.</add>
                         </rdg>
@@ -356,7 +356,7 @@
                     </title>
                 </p>
             <p>
-                    <rs ref="#p.138">
+                    <rs ref="#p.138" type="person">
                         <choice>
                      <abbr>S. M.</abbr>
                      <expan>Sa Majesté</expan>
@@ -365,7 +365,7 @@
                semé le trouble dans Ses états, a pris la résolution d’engager à Son service des
                régimens suisses.</p>
             <p>Habituée à compter sur l’appui de Ses Alliés dans tout ce qui peut contribuer au
-               prompt rétablissement de l’ordre dans Son royaume, <rs ref="#p.138">
+               prompt rétablissement de l’ordre dans Son royaume, <rs ref="#p.138" type="person">
                         <choice>
                      <abbr>S. M.</abbr>
                      <expan>Sa Majesté</expan>
@@ -383,9 +383,9 @@
                   <abbr>gouv<hi rendition="#su">t</hi>
                         </abbr>
                   <expan>gouvernement</expan>
-               </choice> du <rs ref="#p.138">Roi</rs>, et celles qu’il a encore le projet de
+               </choice> du <rs ref="#p.138" type="person">Roi</rs>, et celles qu’il a encore le projet de
                faire.</p>
-            <p>En mettant à exécution cet ordre de <rs ref="#p.138">son Souverain</rs>, <choice>
+            <p>En mettant à exécution cet ordre de <rs ref="#p.138" type="person">son Souverain</rs>, <choice>
                   <abbr>M<hi rendition="#su">r</hi>
                         </abbr>
                   <expan>Monsieur</expan>
@@ -394,7 +394,7 @@
                   <surname>de Ruffo</surname>
                     </persName> espère que les cabinets alliés voudront
                d’autant plus accéder à cette demande qu’elle appartient à l’ensemble des mesures que
-                  <rs ref="#p.138">
+                  <rs ref="#p.138" type="person">
                         <choice>
                      <abbr>S. M.</abbr>
                      <expan>Sa Majesté</expan>

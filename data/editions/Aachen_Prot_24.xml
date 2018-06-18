@@ -1,7 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -73,11 +71,11 @@
                </msIdentifier>
                <msContents>
                   <msItem>
-                     <title>Anlage: Schreiben der <rs ref="#p.16 #p.17 #p.18">Herrscher von
+                     <title>Anlage: Schreiben der <rs ref="#p.16 #p.17 #p.18" type="person">Herrscher von
                            Österreich, Preußen und Russland</rs> sowie <persName ref="#p.9">
                                     <roleName>Lord</roleName>
                            <surname>Castlereagh</surname>
-                                </persName> an den <rs ref="p.74">König der
+                                </persName> an den <rs ref="#p.74" type="person">König der
                            Niederlande</rs>
                             </title>
                   </msItem>
@@ -114,7 +112,7 @@
       </encodingDesc>
       <profileDesc>
          <abstract>
-            <p>Die <rs ref="#p.8 #p.13 #p.12 #p.14 #p.9 #p.10 #p.1">Vertreter der Mächte</rs>
+            <p>Die <rs ref="#p.8 #p.13 #p.12 #p.14 #p.9 #p.10 #p.1" type="person">Vertreter der Mächte</rs>
                verhandeln über die Territorialstreitigkeiten zwischen dem <persName ref="#p.47">
                         <roleName>Herzog von Bourbon</roleName>
                     </persName> und dem <persName ref="#p.48">
@@ -123,7 +121,7 @@
                   <surname>de Rohan</surname>
                     </persName> hinsichtlich des Herzogtums Bouillon sowie
                die Entschädigungszahlungen der <country>Niederlande</country> an das Haus Rohan als
-               Abgeltung von Souveränitätsrechten; in der zweiten Angelegenheit schlagen die <rs ref="#p.8 #p.13 #p.12 #p.14 #p.9 #p.10 #p.1">Vertreter der Mächte</rs> die
+               Abgeltung von Souveränitätsrechten; in der zweiten Angelegenheit schlagen die <rs ref="#p.8 #p.13 #p.12 #p.14 #p.9 #p.10 #p.1" type="person">Vertreter der Mächte</rs> die
                Einrichtung einer Schiedskommission vor. Anschließend Verhandlungen der offenen
                Territorialfragen betreffend das Großherzogtum <country>Baden</country>.</p>
          </abstract>
@@ -202,12 +200,12 @@
                   <country>Royaume des Pays-Bas</country>, il a été reconnu <rs xml:id="n.1">que
                   l’indemnité qu’en vertu des stipulations positives des Traités</rs>
                     <note type="editorial" target="#n.1">Vgl. dazu Angeberg, Congrès, Bd. 2, S. 1416–1417;
-                  Stauber, Freie und vertrauliche Erörterungen, S. 68–69.</note> le <rs ref="#p.74">Roi des Pays-Bas</rs> doit au <persName ref="#p.48">
+                  Stauber, Freie und vertrauliche Erörterungen, S. 68–69.</note> le <rs ref="#p.74" type="person">Roi des Pays-Bas</rs> doit au <persName ref="#p.48">
                         <roleName>Prince</roleName>
                   <surname>de Rohan</surname>
                     </persName> pour les droits de Souveraineté transférés
                à la couronne des Pays-Bas ne pouvant être l’objet d’une négociation diplomatique,
-                  <rs ref="#p.74">Sa Majesté</rs> sera invitée à porter cette question à la décision
+                  <rs ref="#p.74" type="person">Sa Majesté</rs> sera invitée à porter cette question à la décision
                d’une commission arbitrale, composée de Jurisconsultes nommés de part et d’autre dans
                les formes reçues, pour arriver<pb n="135v"/> le plus promptement possible à un
                résultat conforme à la teneur des dits Traités.</p>
@@ -272,13 +270,13 @@
                     <placeName ref="#loc.1">Aix-la-Chapelle</placeName> le <date when="1818-11-14">14 Novembre 1818</date>.</p>
 
             <p>
-                    <title>Lettre des <rs ref="#p.16 #p.17 #p.18">trois Souverains</rs> et <hi rendition="#u">in simili</hi> de <persName ref="#p.9">
+                    <title>Lettre des <rs ref="#p.16 #p.17 #p.18" type="person">trois Souverains</rs> et <hi rendition="#u">in simili</hi> de <persName ref="#p.9">
                             <roleName>Lord</roleName>
                      <surname>Castlereagh</surname>
                         </persName> à <choice>
                      <abbr>S. M.</abbr>
                      <expan>Sa Majesté</expan>
-                  </choice> le <rs ref="#p.74">Roi du Pays-bas, Duc de Luxembourg</rs>
+                  </choice> le <rs ref="#p.74" type="person">Roi du Pays-bas, Duc de Luxembourg</rs>
                     </title>
                 </p>
             <p>
@@ -287,7 +285,7 @@
                     </add>
                 </p>
             <p>
-                    <hi rendition="#u">à <rs ref="#p.74">Sa Majesté le Roi des Pays-bas, <del rendition="#s">Duc Grand</del> Duc de Luxembourg</rs>, Monsieur Mon
+                    <hi rendition="#u">à <rs ref="#p.74" type="person">Sa Majesté le Roi des Pays-bas, <del rendition="#s">Duc Grand</del> Duc de Luxembourg</rs>, Monsieur Mon
                   Frère</hi>
                 </p>
             <p>Monsieur Mon Frère, <rs xml:id="n.3">Différentes Notes ont été
@@ -305,8 +303,8 @@
                   perte des revenus provenant des droits de souveraineté.</rs>
                     <note type="editorial" target="#n.3">Vgl. Stauber, Freie und vertrauliche Erörterungen, S. 68–69.</note>
                Votre Majesté est cependant autant convaincue que Mes alliés et Moi le sommes que
-               l’intention des Puissances signataires du <rs ref="#t.12">Recès de <placeName ref="#loc.7">Vienne</placeName>
-                    </rs>, ainsi que du <rs ref="#t.1">traité de
+               l’intention des Puissances signataires du <rs ref="#t.12" type="treaties">Recès de <placeName ref="#loc.7">Vienne</placeName>
+                    </rs>, ainsi que du <rs ref="#t.1" type="treaties">traité de
                      <placeName ref="#loc.2">Paris</placeName> du <date when="1815-11-20">20 <choice>
                         <abbr>9<hi rendition="#su">bre</hi>
                                 </abbr>
@@ -324,14 +322,14 @@
                </choice> n’est pas moins persuadée qu’il est de l’intérêt général de voir remplir
                cette condition d’indemnité sous laquelle la souveraineté de Bouillon a été cédée par
                les alliés au <country>Royaume des Pays-bas</country>. Nous avons donc cru, Mes
-               alliés et Moi, ne pouvoir mieux rencontrer les intentions de <rs ref="#p.74">
+               alliés et Moi, ne pouvoir mieux rencontrer les intentions de <rs ref="#p.74" type="person">
                         <choice>
                      <abbr>V. M</abbr>
                      <expan>Votre Majesté</expan>
                   </choice>
                     </rs> qu’en Lui proposant, dans le but d’accélérer la conclusion de cet
                arrangement équitable, de porter cette question à la décision d’une commission
-               arbitrale, composée de jurisconsultes nommés de la part de <rs ref="#p.74">
+               arbitrale, composée de jurisconsultes nommés de la part de <rs ref="#p.74" type="person">
                         <choice>
                      <abbr>V. M</abbr>
                      <expan>Votre Majesté</expan>
@@ -342,13 +340,13 @@
                   <surname>de Rohan</surname>
                     </persName>,<pb n="136v"/> pour arriver de cette
                manière le plus promptement possible à un résultat conforme à la teneur et à l’esprit
-               des Traités. Nous aimons à Nous flatter que <rs ref="#p.74">
+               des Traités. Nous aimons à Nous flatter que <rs ref="#p.74" type="person">
                         <choice>
                      <abbr>V. M</abbr>
                      <expan>Votre Majesté</expan>
                   </choice>
                     </rs> donnera d’autant plus volontiers les mains aux voies d’un prononcé
-               arbitral que cette mesure reste dans l’analogie de la disposition portée par le <rs ref="#t.12">Recès du Congrès</rs>, et que la détermination de <rs ref="#p.74">
+               arbitral que cette mesure reste dans l’analogie de la disposition portée par le <rs ref="#t.12" type="treaties">Recès du Congrès</rs>, et que la détermination de <rs ref="#p.74" type="person">
                         <choice>
                      <abbr>V. M</abbr>
                      <expan>Votre Majesté</expan>
@@ -359,7 +357,7 @@
                   modération, pour ne pas m’être empressé à me rendre garant de votre assentiment à
                   cette proposition.</add>
                 </p>
-            <p>Sur ce je prie <rs ref="#p.74">
+            <p>Sur ce je prie <rs ref="#p.74" type="person">
                         <choice>
                      <abbr>V. M</abbr>
                      <expan>Votre Majesté</expan>
@@ -367,7 +365,7 @@
                     </rs> d’agréer l’assurance des sentimens de confiance et de la
                considération très distinguées avec laquelle je ne cesserai d’être</p>
             <p>Monsieur Mon Frère</p>
-            <p>de <rs ref="#p.74">Votre Majesté</rs>
+            <p>de <rs ref="#p.74" type="person">Votre Majesté</rs>
                 </p>
             <p>Le Bon frère.</p>
          </div>
@@ -378,7 +376,6 @@
          <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/listwit.xml" xpointer="listWit"/>
          <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/listorg.xml" xpointer="listOrg"/>
          <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/listtreaties.xml" xpointer="listTreaties"/>
-
       </back>
    </text>
 </TEI>
