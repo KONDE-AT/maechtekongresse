@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <author><forename>Karin</forename>
+               <surname>Schneider</surname></author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>2018-06-21</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Österreichische Akademie der Wissenschaften, Institut für Neuzeit- und
+               Zeitgeschichtsforschung</publisher>
+            <pubPlace>Wien</pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Converted from a Word document</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <appInfo>
+            <application ident="TEI_fromDOCX" version="2.15.0" xml:id="docxtotei">
+               <label>DOCX to TEI</label>
+            </application>
+         </appInfo>
+         <styleDefDecl scheme="css"/>
+         <tagsDecl>
+            <rendition xml:id="su" scheme="css">vertical-align:super; font-size:.7em;</rendition>
+            <rendition xml:id="s" scheme="css">text-decoration:line-through;</rendition>
+            <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
+            <rendition xml:id="i" scheme="css">front-style: italic;</rendition>
+            <rendition xml:id="ow">overwritten</rendition>
+            <rendition xml:id="du">double underline</rendition>
+            <rendition xml:id="k">kurrent</rendition>
+         </tagsDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <listChange>
+            <change>
+               <date>2018-06-27T09:55:57Z</date>
+               <name>Karin</name>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <div>
+               <head>Danksagung</head>
+               <p>Die Erarbeitung der vorliegenden Edition wäre ohne die Inspiration, Hilfe und
+                  Unterstützung zahlreicher Personen nicht möglich gewesen. Sie hat eine lange
+                  Genese und geht letztlich auf eine Projektidee zurück, die Brigitte Mazohl, Helmut
+                  Rumpler und Reinhard Stauber etwa 2006 entwickelten. Anlässlich des bevorstehenden
+                  200-Jahr-Jubiläums des Wiener Kongresses sollte dieses Ereignis von mehreren
+                  Forschungsinitiativen aus unterschiedlichen Perspektiven beleuchtet werden. Das
+                  Resultat dieser Kooperation war der sogenannte <rs xml:id="n.1">„Projektverbund
+                     Wiener Kongress“, unter dessen Dach sich mehrere vom FWF geförderte Projekte
+                     versammelten.</rs><note target="#n.1" type="editorial"> Vgl. <ref type="url"
+                        >http://www.wiener-kongress.at/index.php/de/</ref>. </note>
+               </p>
+               <p>Reinhard Stauber fungierte als Leiter des Projekts „Der Wiener Kongress und sein
+                  europäisches Friedenssystem“ (P 21177; 2009–2013), während dessen Laufzeit
+                  maßgebliche Grundlagen für die nun vorliegende Edition erarbeitet werden konnten.
+                  Die Fertigstellung erfolgte im Rahmen des von mir geleiteten und ebenfalls vom FWF
+                  finanzierten Projekts „Die Kongresse von Troppau und Laibach 1820/21 (P 28448). </p>
+               <p>Eine besondere Herausforderung stellte die Vielsprachigkeit der Quellen dar. Bei
+                  der Endredaktion unterstützten mich daher mehrere <hi rendition="#i">native
+                     speaker</hi>, ohne deren Hilfe zahlreiche Fehler und Unstimmigkeiten unentdeckt
+                  geblieben wären. Mein großer Dank gilt daher Francesca Brunet, Stephan Buchon,
+                  William D. Godsey und Friedrich Kolm, die die italienischen, französischen,
+                  englischen und deutschen Texte gelesen und gegebenenfalls korrigiert haben.
+                  Allfällige immer noch vorhandene Fehler fallen in meinen Zuständigkeitsbereich. </p>
+               <p>Die Veröffentlichung der Dokumente zu den Mächtekongressen im Format einer online
+                  Edition wäre ohne die Infrastruktur des Instituts für Neuzeit- und
+                  Zeitgeschichteforschung (INZ) beziehungsweise des Austrian Center for Digital
+                  Humanities (ACDH) der Österreichischen Akademie der Wissenschaften nicht möglich
+                  gewesen. Mein besonderer Dank gilt Stephan Kurz vom INZ, der in nie erlahmender
+                  Geduld meine zahlreichen Fragen beantwortete, Bedienungsfehler korrigierte,
+                  ständig auftauchende Änderungswünsche umsetzte und mir generell beim Kampf mit der
+                  Technik zur Seite stand. Daniel Schopper brachte mir erstmals XML näher, und von
+                  Peter Andorfer stammen die <hi rendition="#i">stylesheets</hi>, welche dem Layout
+                  der Edition zugrunde liegen.</p>
+               <p>Schließlich sind noch die Mitarbeiterinnen und Mitarbeiter des Österreichischen
+                  Staatsarchivs, Haus-, Hof- und Staatsarchiv, zu nennen, die mir bei Fragen zur
+                  Überlieferungsgeschichte beistanden und nicht müde wurden, die relevanten
+                  Archivalien immer wieder auszuheben. </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

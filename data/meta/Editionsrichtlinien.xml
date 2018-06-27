@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Editionsrichtlinien</title>
+            <author><forename>Karin</forename>
+               <surname>Schneider</surname></author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>2010-09-28T18:34:00</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Österreichische Akademie der Wissenschaften, Institut für Neuzeit- und
+               Zeitgeschichtsforschung</publisher>
+            <pubPlace>Wien</pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Written by OpenOffice</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <appInfo>
+            <application ident="TEI_fromDOCX" version="2.15.0" xml:id="docxtotei">
+               <label>DOCX to TEI</label>
+            </application>
+         </appInfo>
+         <styleDefDecl scheme="css"/>
+         <tagsDecl>
+            <rendition xml:id="su" scheme="css">vertical-align:super; font-size:.7em;</rendition>
+            <rendition xml:id="s" scheme="css">text-decoration:line-through;</rendition>
+            <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
+            <rendition xml:id="i" scheme="css">front-style: italic;</rendition>
+            <rendition xml:id="ow">overwritten</rendition>
+            <rendition xml:id="du">double underline</rendition>
+            <rendition xml:id="k">kurrent</rendition>
+         </tagsDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <listChange>
+            <change>
+               <name>Karin Schneider</name>
+               <date>2018-06-25T11:25:00</date>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <head>Editionsrichtlinien</head>
+            <p><rs xml:id="n.1">Die schriftliche Hinterlassenschaft der Mächtekongresse von Aachen
+                  (1818), Troppau/Opava (1820), Laibach/Ljubljana (1821) und Verona (1822) befindet
+                  sich im Österreichischen Staatsarchiv (ÖStA), Abteilung Haus-, Hof- und
+                  Staatsarchiv (HHStA), Reihe Staatskanzlei (St.K.) Kongressakten.</rs><note
+                  target="#n.1" type="editorial"> In den Abschnitten zu den Bestandsbeschreibungen
+                  der einzelnen Kongresse finden sich hierzu nähere Ausführungen. Dem Sprachgebrauch
+                  der ersten Hälfte des 19. Jahrhunderts folgend werden in der Edition sowie den
+                  Begleittexten durchgehend die Bezeichnungen Troppau für Opava und Laibach für
+                  Ljubljana verwendet.</note> Diese Archivalien bilden die Grundlage der
+               vorliegenden Edition.</p>
+            <p>Ursprünglich war eine Drucklegung der Dokumente vorgesehen. Die technischen
+               Möglichkeiten einer Online-Edition haben sich jedoch in den letzten Jahren stark
+               entwickelt, sodass nach der Fertigstellung des Manuskripts beschlossen wurde, die
+               Dokumente online zugänglich zu machen. </p>
+            <p>Die Edition gliedert sich in vier Abschnitte. Jeweils eine dieser Sektionen ist einem
+               der vier Kongresse gewidmet. Die Ordnung der Dokumente folgt grundsätzlich der
+               archivalischen Überlieferung, die sich im Wesentlichen chronologisch nach dem Datum
+               der Verhandlungsprotokolle richtet. Eine Ausnahme stellt die schriftliche
+               Hinterlassenschaft des Kongresses von Verona dar. Hier sind die Dokumente thematisch,
+               dann chronologisch geordnet. Diese zusätzliche Ordnungsebene wurde in die Struktur
+               der Edition übernommen. Im Gegensatz zu den Kongressen von Aachen, Troppau und
+               Laibach wurden die Unterlagen zum Kongress von Verona nur teilweise nach Protokollen
+               (sowie Anlagen) einerseits und Akten andererseits sortiert. Daher musste insbesondere
+               in Abteilung I, <hi rendition="#i">Affaires d’Espange</hi>, eine Dokumentenauswahl
+               getroffen werden. Grundlage hierfür war zum einen eine zeitgenössische
+               Dokumentenaufstellung, welche 21 Stücke umfasst, sowie der Befund der
+               lithographierten Texte. Auf dieser Basis wurden 22 Dokumente bzw. Dokumentenkomplexe
+               – meist Sitzungsprotokolle mit Anlagen oder sonstige sich aufeinander beziehende
+               Texte – für die Edition ausgewählt. <rs xml:id="n.2">Diese Auswahl kann den Verlauf
+                  der Verhandlungen betreffend Spanien nicht vollständig dokumentieren, da nicht
+                  alle Sitzungen schriftlich dokumentiert wurden.</rs><note target="#n.2"
+                  type="editorial"> So wird in einem <ref target="Verona_I_2.xml">Précis des
+                     communications verbales</ref> eine "réunion confidentielle" am 20. Oktober 1822
+                  erwähnt, über welche keine weiteren Unterlagen überliefert sind.</note>
+            </p>
+            <p>Bei der Edition wird kein sprachwissenschaftlicher, sondern ein historischer Anspruch
+               verfolgt. Die Wiedergabe der Dokumente erfolgt im Wesentlichen nach den <rs
+                  xml:id="n.3">„Richtlinien für die äußere Textgestaltung bei Herausgabe von Quellen
+                  zur neueren deutschen Geschichte“</rs><note target="#n.3" type="editorial">
+                  Schultze, Richtlinien.</note>, <rs xml:id="n.4">soweit dies bei einer
+                  Online-Edition möglich ist.</rs><note target="#n.4" type="editorial"> Punkt 10 der
+                  Richtlinien beispielsweise, der sich mit der Gestaltung des Anmerkungsapparats
+                  befasst, kann bei einer Online-Edition keine Berücksichtigung finden.</note> Dies
+               gilt für die französischsprachigen englischsprachigen und deutschsprachigen Texte,
+               die in ihrer vollen Länge ediert wurden. In folgenden Punkten wurde von den Vorgaben
+               abgewichen:</p>
+            <p>- Die Schreibweise in den Texten wurde nicht modernisiert, sondern folgt dem
+               ursprünglichen Buchstabenbestand. Dies gilt auch für die Groß- und Kleinschreibung,
+               (heute nicht mehr übliche) Zusammenziehungen wie etwa <hi rendition="#i">parceque
+               </hi>sowie Eigennamen. Mittelbuchstaben wurden als Kleinbuchstaben wiedergegeben.
+               Aufgrund der zahlreichen verschiedenen Hände war allerdings nicht immer genau zu
+               unterscheiden, ob es sich um einen Mittel-, Groß- oder Kleinbuchstaben handelt. In
+               Zweifelsfällen wurde in Hinblick auf den Kontext (Eigennamen, Anreden, gewisse
+               Buchstaben wie beispielsweise <hi rendition="#i">s</hi> werden mit Vorliebe als
+               Mittel- oder Großbuchstaben) sowie auf die Position auf dem Blatt (in ersten Zeilen
+               werden aus ästhetischen Gründen immer wieder Großbuchstaben verwendet) entschieden.
+               Eine gewisse Willkür war daher unvermeidbar. Offenkundige Schreib- und
+               Flüchtigkeitsfehler wurden stillschweigend korrigiert; bei zweifelhaften Fällen
+               findet sich hingegen ein Vermerk im textkritischen Anmerkungsapparat.</p>
+            <p>- Streichungen und Ergänzungen innerhalb der Dokumente wurden in aussagekräftigen
+               Fällen im Anmerkungsapparat berücksichtigt.</p>
+            <p>- Zahlzeichen wurden aus der Vorlage übernommen. Gegebenenfalls wurden bei
+               Jahreszahlen die fehlenden Jahrhundert-Angaben sowie bei Zahlen bei der
+               Tausender-Stelle ein Punkt ergänzt. </p>
+            <p>- Unterführungszeichen wurden dann übernommen, wenn das Textbild dies erlaubt;
+               ansonsten werden die in der Vorlage unterführten Wörter ausgeschrieben.</p>
+            <p>- Einem archivalischen Kontext entstammende Anmerkungen und Zeichen auf den
+               Dokumenten, wie etwa Stempel oder Signaturen, wurden in der Edition nicht
+               berücksichtigt.</p>
+            <p>- Die Interpunktion wurde, um die Lesbarkeit zu verbessern, stillschweigend
+               modernisiert und dem heutigen Gebrauch angenähert. Aus demselben Grund wurden
+               fehlende Bindestriche, z. B. bei <hi rendition="#i">peut-être</hi>, ergänzt sowie die
+               Akzentsetzung modernisiert.</p>
+            <p>- Abkürzungen wurden aufgelöst und in der Online-Edition entsprechend
+               ausgezeichnet.</p>
+            <p>- Zahlreiche Dokumente liegen mehrfach ein. In diesen Fällen wurde für die Edition
+               das Original herangezogen. Eine Ausnahme stellt hier die schriftliche Überlieferung
+               des Kongresses von Verona dar. Jene Dokumente, welche die offizielle Lesart der
+               Verhandlungen abbildeten, wurden 1822 lithographiert. Daher wurde bei der Edition
+               dieser Variante vor den handschriftlich kopierten Texten der Vorzug gegeben. In
+               aussagekräftigen Fällen wird in Anmerkungen auf Unterschiede zwischen den Varianten
+               hingewiesen.</p>
+            <p>- Einige Dokumente innerhalb der schriftlichen Überlieferungen sind nicht, wie
+               bereits angedeutet, in französischer Sprache abgefasst. Insbesondere
+               englischsprachige, aber auch italienischsprachige Denkschriften und Briefe wurden
+               teilweise übersetzt. Diese Übersetzungen bilden mit den Originalen einen Teil der
+               Kongressdokumente. Bei der vorliegenden Edition wurde in diesem Fall aber stets auf
+               das Dokument in der Originalsprache zurückgegriffen. Auf allfällig einliegende
+               Übersetzungen wird bei der Edition jedoch hingewiesen.</p>
+            <p>- Die von Schultze vorgeschlagenen Überlieferungsformen wurden um die Bezeichnungen
+               „Originalprotokoll“, „Übersetzung“ und „Lithographie“ erweitert. Die Unterscheidung
+               zwischen Ausfertigung und Abschrift ist insbesondere bei Denkschriften/Memoranden
+               fließend.</p>
+            <p>- Personen und Orte, aber auch die erwähnten zwischenstaatlichen Verträge, wurden in
+               jeweils eigenen Registern erfasst.</p>
+         </div>
+      </body>
+   </text>
+</TEI>
