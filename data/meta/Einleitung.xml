@@ -1,11 +1,13 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title>Einleitung</title>
-            <author><forename>Karin</forename>
-               <surname>Schneider</surname></author>
+            <author>
+                    <forename>Karin</forename>
+               <surname>Schneider</surname>
+                </author>
          </titleStmt>
          <editionStmt>
             <edition>
@@ -55,15 +57,16 @@
                   von Aachen, Troppau, Laibach und Verona</head>
                <div>
                   <head>1. Einführung</head>
-                  <p><rs xml:id="n.1">Die Napoleonischen Kriege brachten eine Wende im
+                  <p>
+                            <rs xml:id="n.1">Die Napoleonischen Kriege brachten eine Wende im
                         Selbstverständnis europäischer Mächtepolitik. Nach 25 Jahren Krieg war das
                         Ziel des Wiener Kongresses die Schaffung einer stabilen Friedensordnung, die
-                        dem Kontinent Ruhe und Stabilität verschaffen sollte.</rs><note
-                        target="#n.1" type="editorial"> Vgl. dazu grundlegend Schroeder,
+                        dem Kontinent Ruhe und Stabilität verschaffen sollte.</rs>
+                            <note target="#n.1" type="editorial"> Vgl. dazu grundlegend Schroeder,
                         Transformation. Vgl. auch Schneider, Der Wiener Kongress, bes. S. 187–191. </note>
                      <rs xml:id="n.2">Diese Friedensordnung war eng verbunden mit der Formierung des
-                        sogenannten Europäischen Mächtekonzerts.</rs><note type="editorial"
-                        target="#n.2"> Zur Begriffsbildung vgl. Baumgart, Europäisches Konzert und
+                        sogenannten Europäischen Mächtekonzerts.</rs>
+                            <note type="editorial" target="#n.2"> Zur Begriffsbildung vgl. Baumgart, Europäisches Konzert und
                         nationale Bewegung, S. 151–161. Zum Mächtekonzert vgl. Schulz, Normen und
                         Praxis; Jarrett, The Congress of Vienna and its Legacy; Pyta, Das
                         europäische Mächtekonzert; de Sédouy, Le concert européen; Pyta, Konzert der
@@ -75,23 +78,25 @@
                      wenigen und kurzen, territorial begrenzten kriegerischen Auseinandersetzungen
                      an den Peripherien Europas beeinträchtigt wurde. <rs xml:id="n.3">Eine Zäsur
                         bedeutete in dieser Hinsicht erst der Krimkrieg (1853–1856), der als
-                        gesamteuropäischer Konflikt zu bewerten ist.</rs><note target="#n.3"
-                        type="editorial"> Vgl. dazu Schroeder, Austria, Great Britain, and the
+                        gesamteuropäischer Konflikt zu bewerten ist.</rs>
+                            <note target="#n.3" type="editorial"> Vgl. dazu Schroeder, Austria, Great Britain, and the
                         Crimean War. Auch die Ereignisse des Jahres 1848 stellten das Europäische
                         Mächtekonzert auf die Probe; vgl. dazu Hahn, Die Revolutionen von 1848. </note>
                      <rs xml:id="n.4">Doch auch in der zweiten Hälfte des 19. Jahrhunderts hatte das
                         Europäische Mächtekonzert weiterhin Bestand und nahm bis zum Beginn des
                         Ersten Weltkriegs 1914 in unterschiedlicher Intensität und mit schwankendem
                         Erfolg seine Rolle als Ordnungsfaktor in den internationalen Beziehungen
-                        wahr.</rs><note target="#n.4" type="editorial"> Vgl. Schulz, Normen und
+                        wahr.</rs>
+                            <note target="#n.4" type="editorial"> Vgl. Schulz, Normen und
                         Praxis, bes. S. 684. </note>
                   </p>
-                  <p><rs xml:id="n.5">Diese intensivierte diplomatische Zusammenarbeit ist auf einen
+                  <p>
+                            <rs xml:id="n.5">Diese intensivierte diplomatische Zusammenarbeit ist auf einen
                         Wandel im Verständnis von Außenpolitik bei den verantwortlichen
                         Protagonisten zurückzuführen. An die Stelle von Machtpolitik sei eine bisher
                         nicht im selben Ausmaß praktizierte Kooperation getreten, welche durch die
-                        Erfahrungen aus den Napoleonischen Kriegen motiviert worden wäre.</rs><note
-                        target="#n.5" type="editorial"> Vgl. dazu grundlegend Schroeder,
+                        Erfahrungen aus den Napoleonischen Kriegen motiviert worden wäre.</rs>
+                            <note target="#n.5" type="editorial"> Vgl. dazu grundlegend Schroeder,
                         Transformation. Kulturgeschichtliche Ansätze haben für diesen Wandel in der
                         politischen Mentalität die Begriffe „Generation“ und „Erinnerung“ fruchtbar
                         gemacht. Zum Begriff der Erfahrung als historische Kategorie vgl. Pyta,
@@ -105,29 +110,27 @@
                         Großbritannien, Preußen und Russland vom 20. November 1815</rs>; die 1818
                      gegründete <rs ref="#t.42" type="treaties">Quintupelallianz</rs>, die sich
                      unter Einbeziehung Frankreichs binnen kürzester Zeit als Europäisches
-                     Mächtekonzert konkretisierte; schließlich die 1815 durch <rs xml:id="n.6"
-                           ><persName ref="#p.17"><roleName>Zar</roleName>
-                           <forename>Alexander I.</forename></persName> initiierte <rs ref="#t.9"
-                           type="treaties">Heilige Allianz</rs></rs>,<note target="#n.6"
-                        type="editorial"> Vgl. dazu Schubert, Pyta, Die Heilige Allianz; Ghervas,
+                     Mächtekonzert konkretisierte; schließlich die 1815 durch <rs xml:id="n.6">
+                                <persName ref="#p.17">
+                                    <roleName>Zar</roleName>
+                           <forename>Alexander I.</forename>
+                                </persName> initiierte <rs ref="#t.9" type="treaties">Heilige Allianz</rs>
+                            </rs>,<note target="#n.6" type="editorial"> Vgl. dazu Schubert, Pyta, Die Heilige Allianz; Ghervas,
                         Réinventer la tradition; Menger, Die Heilige Allianz.</note> der beinahe
-                     alle europäische Staaten beitraten und so eine <ref target="Troppau_Prot_6.xml"
-                        >„famille européenne“</ref> bildeten.</p>
+                     alle europäische Staaten beitraten und so eine <ref target="Troppau_Prot_6.xml">„famille européenne“</ref> bildeten.</p>
                   <p>Der zentrale Punkt in der Konzeption des Allianzsystems war die intensive
                      schriftliche und vor allem persönliche Kommunikation der europäischen
-                     Staatsmänner und Monarchen. Er wurde im <rs ref="#t.6" type="treaties"
-                        >Allianzvertrag vom 20. November 1815</rs> fixiert. Artikel 6 legte fest,
+                     Staatsmänner und Monarchen. Er wurde im <rs ref="#t.6" type="treaties">Allianzvertrag vom 20. November 1815</rs> fixiert. Artikel 6 legte fest,
                      dass zu bestimmten Zeiten Gipfeltreffen zwischen Vertretern Österreichs,
-                     Großbritanniens, Preußens und Russlands stattfinden sollten: <rs xml:id="n.7"
-                        >„To facilitate and to secure the execution of the present Treaty, and to
+                     Großbritanniens, Preußens und Russlands stattfinden sollten: <rs xml:id="n.7">„To facilitate and to secure the execution of the present Treaty, and to
                         consolidate the connections, which at the present moment so closely unite
                         the 4 Sovereigns for the happiness of the World, the High Contracting
                         Parties have agreed to renew their Meetings at fixed periods, [...] for the
                         purpose of consulting upon their common interests, and for the
                         considerations of the measures which at each of those periods shall be
                         considered the most salutary, for the repose and prosperity of Nations, and
-                        for the maintenance of the peace of Europe.“</rs><note target="#n.7"
-                        type="editorial">Zitiert nach British and Foreign State Papers, Bd. 3, S.
+                        for the maintenance of the peace of Europe.“</rs>
+                            <note target="#n.7" type="editorial">Zitiert nach British and Foreign State Papers, Bd. 3, S.
                         273–280, hier S. 279.</note> Damit wurden zwei qualitativ unterschiedliche
                      Ziele verfolgt: Auf politischer Ebene dienten die Zusammenkünfte dazu, den
                      primären Zweck der Allianz – die Einhegung und Stabilisierung Frankreichs – zu
@@ -139,47 +142,43 @@
                      Mächte geschaffen und ein qualitativer Sprung gegenüber früheren
                      Friedensschlüssen gegeben.</p>
                   <p>Initiator dieser neuen Variante zwischenstaatlicher Kooperation war der
-                     britische Außenminister <persName ref="#p.9"><forename>Robert</forename>
+                     britische Außenminister <persName ref="#p.9">
+                                <forename>Robert</forename>
                         <surname>Stewart</surname>, <roleName>Viscount
-                        Castlereagh</roleName></persName>. Er war der Ansicht, dass viele
+                        Castlereagh</roleName>
+                            </persName>. Er war der Ansicht, dass viele
                      Missverständnisse und Probleme im diplomatischen Verkehr <rs xml:id="n.8">„by
                         bringing the respective parties into unrestricted communications common to
                         them all, and embracing in confidential and united discussions all the great
-                        points in which they were severally interested“</rs><note target="#n.8"
-                        type="editorial"> Zitiert nach Webster, The Foreign Policy of Castlereagh,
+                        points in which they were severally interested“</rs>
+                            <note target="#n.8" type="editorial"> Zitiert nach Webster, The Foreign Policy of Castlereagh,
                         Bd. 2, S. 56.</note> verhindert werden könnten. Daher verfasste er auch das
                      erste Konzept für den gegenständlichen Paragraphen des Vertrags.</p>
                   <p>Zeitgleich mit dem <rs ref="#t.6" type="treaties">Vertrag zur
                         Quadrupelallianz</rs> wurde der Zeitpunkt der ersten Zusammenkunft der
-                     Mächte festgelegt: Im ebenfalls am 20. November 1815 ratifizierten <rs
-                        ref="#t.1" type="treaties">Zweiten Pariser Frieden</rs> wurde der früheste
+                     Mächte festgelegt: Im ebenfalls am 20. November 1815 ratifizierten <rs ref="#t.1" type="treaties">Zweiten Pariser Frieden</rs> wurde der früheste
                      Termin für den Abzug der alliierten Besatzungstruppen aus Frankreich nach dem
                      Ablauf von drei Jahren, somit Ende 1818, fixiert.</p>
                </div>
                <div>
                   <head>2. Der Kongress von Aachen</head>
-                  <p>Der <rs xml:id="n.9">Kongress von Aachen</rs><note target="#n.9"
-                        type="editorial"> Vgl. Jarrett, The Congress of Vienna, S. 180–205; Webster,
+                  <p>Der <rs xml:id="n.9">Kongress von Aachen</rs>
+                            <note target="#n.9" type="editorial"> Vgl. Jarrett, The Congress of Vienna, S. 180–205; Webster,
                         The Foreign Policy of Castlereagh, Bd. 2, S. 119–172; Koschier, Der Aachener
                         Mächtekongress; Taack, Die Affären gehen gut.</note> war die erste
-                     Mächtezusammenkunft, die auf der Basis von Artikel 6 des <rs ref="#t.6"
-                        type="treaties">Vertrags zur Quadrupelallianz</rs> einberufen wurde. Das
+                     Mächtezusammenkunft, die auf der Basis von Artikel 6 des <rs ref="#t.6" type="treaties">Vertrags zur Quadrupelallianz</rs> einberufen wurde. Das
                      zentrale Thema des Treffens war der Abzug der alliierten Besatzungstruppen, die
                      seit dem Jahr 1815 in Frankreich stationiert waren. Die Vertreter Österreichs,
-                     Großbritanniens, Russlands und Preußens kamen am <ref
-                        target="Aachen_Prot_1.xml">29. September 1818</ref> in Aachen zusammen und
+                     Großbritanniens, Russlands und Preußens kamen am <ref target="Aachen_Prot_1.xml">29. September 1818</ref> in Aachen zusammen und
                      einigten sich in der <ref target="Aachen_Prot_3.xml">dritten Sitzung am 1.
                         Oktober 1818</ref> auf den Abzug der Truppen. Darüber hinaus erklärten sie
                      sich dazu bereit, den Status Frankreichs im europäischen Staatensystem neu zu
-                     überdenken. Die finanziellen Fragen konnten bis zum <rs ref="#t.10"
-                        type="treaties">9. Oktober geregelt werden; die genauen Bestimmungen
+                     überdenken. Die finanziellen Fragen konnten bis zum <rs ref="#t.10" type="treaties">9. Oktober geregelt werden; die genauen Bestimmungen
                         diesbezüglich wurden in einem eigenen Vertrag fixiert</rs>. Die formelle
-                     Aufnahme Frankreichs in die Allianz der Mächte erfolgte in der <ref
-                        target="Aachen_Prot_34.xml">34. Sitzung am 15. November 1818</ref>.
+                     Aufnahme Frankreichs in die Allianz der Mächte erfolgte in der <ref target="Aachen_Prot_34.xml">34. Sitzung am 15. November 1818</ref>.
                      Gleichzeitig wurde nicht nur eine Erklärung veröffentlicht, welche die
                      Ergebnisse der Beratungen einem breiten Publikum bekannt machte, sondern die
-                     alliierten Mächte schlossen auch einen <ref target="Aachen_Prot_33.xml"
-                        >Geheimvertrag, mit welchem sie sich erneut gegen ein allfälliges
+                     alliierten Mächte schlossen auch einen <ref target="Aachen_Prot_33.xml">Geheimvertrag, mit welchem sie sich erneut gegen ein allfälliges
                         revolutionäres Frankreich verbündeten</ref>. Damit prolongierten sie die
                      Bestimmungen der <rs ref="#t.6" type="treaties">Quadrupelallianz</rs> und
                      zeigten zugleich das immer noch schwelende Misstrauen gegenüber Frankreich.</p>
@@ -213,13 +212,13 @@
                      dem Wiener Kongress eine Rolle gespielt hatten, in anderen Punkten wurde den
                      Mächten die Rolle eines Schiedsgerichts oder einer Beschwerdeinstanz
                      zugesprochen, indem strittigen Fragen zur Mediation vorgelegt wurden.</p>
-                  <p>Abseits der offiziellen Verhandlungen legte die russische Delegation den <rs
-                        xml:id="n.10"><ref target="Aachen_Dok_50.xml">Vorschlag zur Schaffung einer
+                  <p>Abseits der offiziellen Verhandlungen legte die russische Delegation den <rs xml:id="n.10">
+                                <ref target="Aachen_Dok_50.xml">Vorschlag zur Schaffung einer
                            Allianz aller europäischen Staaten vor</ref>, welche über den politischen
                         und territorialen <hi rendition="#i">status quo</hi> wachen sollte. Dieser
                         Plan wurde jedoch während des Kongresses nicht auf die Agenda gesetzt und
-                        war daher kein Teil der offiziellen Verhandlungen.</rs><note target="#n.10"
-                        type="editorial"> Vgl. dazu Jarrett, The Congress of Vienna, S. 184–190;
+                        war daher kein Teil der offiziellen Verhandlungen.</rs>
+                            <note target="#n.10" type="editorial"> Vgl. dazu Jarrett, The Congress of Vienna, S. 184–190;
                         Webster, The Foreing Policy of Castlereagh, S. 142–166; Schmalz, Versuch
                         einer gesamteuropäischen Organisation, S. 39–44.</note>
                   </p>
@@ -233,67 +232,74 @@
                      und beunruhigten durch ihre Aktivitäten die Staatsmänner des Mächtekonzerts.
                      Diese befürchteten ein Übergreifen der Unruhen auf benachbarte Staaten; die
                      Furcht vor von Geheimgesellschaften lancierten Aufständen und die Möglichkeit
-                     neuer Revolutionskriege, aber auch machtpolitische Überlegungen führten zur <rs
-                        xml:id="n.11">Einberufung des Kongresses von Troppau auf Basis von Artikel 6
-                        der <rs ref="#t.6" type="treaties">Quadrupelallianz</rs></rs><note
-                        target="#n.11" type="editorial"> Vgl. dazu Jarrett, The Congress of Vienna,
+                     neuer Revolutionskriege, aber auch machtpolitische Überlegungen führten zur <rs xml:id="n.11">Einberufung des Kongresses von Troppau auf Basis von Artikel 6
+                        der <rs ref="#t.6" type="treaties">Quadrupelallianz</rs>
+                            </rs>
+                            <note target="#n.11" type="editorial"> Vgl. dazu Jarrett, The Congress of Vienna,
                         S. 223–247; Webster, The Foreign Policy of Castlereagh, S. 226–284;
                         Schroeder, Metternich's Diplomacy at Its Zenith, S. 25–59.</note> und unter
-                     Einbeziehung von Frankreich. Im Zentrum der Debatte stand die <rs xml:id="n.12"
-                        >Revolution im Königreich beider Sizilien, die am 2. Juli 1820 mit einem
-                        Militäraufstand in der Stadt Nola ihren Anfang genommen hatte.</rs><note
-                        target="#n.12" type="editorial"> Vgl. Romani, The Neapolitan Revolution;
+                     Einbeziehung von Frankreich. Im Zentrum der Debatte stand die <rs xml:id="n.12">Revolution im Königreich beider Sizilien, die am 2. Juli 1820 mit einem
+                        Militäraufstand in der Stadt Nola ihren Anfang genommen hatte.</rs>
+                            <note target="#n.12" type="editorial"> Vgl. Romani, The Neapolitan Revolution;
                         Späth, Revolution in Europa, S. 139–149.</note>
                   </p>
                   <p>Die Verhandlungen und Gespräche ab 1820 zeigen die Vielschichtigkeit und
                      Komplexität der europäischen Staatenbeziehungen in dieser Epoche, die nicht nur
                      von außen-, sondern auch von innenpolitischen Erwägungen der einzelnen
                      Regierungen bestimmt wurden. So waren sowohl die britische als auch die
-                     französische Regierung in dieser Phase politisch geschwächt: <rs xml:id="n.13"
-                        >In Großbritannien litt die Bevölkerung unter der hohen Steuerlast,
+                     französische Regierung in dieser Phase politisch geschwächt: <rs xml:id="n.13">In Großbritannien litt die Bevölkerung unter der hohen Steuerlast,
                         wirtschaftlicher Stagnation und Arbeitslosigkeit sowie steigenden
                         Brotpreisen aufgrund von Missernten. Der Scheidungsskandal des britischen
                         Königs George VI., der die Trennung von seiner Gemahlin Caroline von
                         Braunschweig anstrebte, war schließlich der Anlass für massive
-                        Unruhen.</rs><note type="editorial" target="#n.13"> Vgl. Smith, George IV;
+                        Unruhen.</rs>
+                            <note type="editorial" target="#n.13"> Vgl. Smith, George IV;
                         Feuerstein-Praßer, Caroline von Braunschweig. </note>
                      <rs xml:id="n.14">Frankreich dagegen war nach dem Ende der Napoleonischen Zeit
                         innenpolitisch zerrissen: Royalisten und Liberale kämpften verbissen um die
                         politische Vorherrschaft, ohne dass König Louis XVIII. maßgeblich zur
-                        Beruhigung der politischen Lage beitragen konnte.</rs><note target="#n.14"
-                        type="editorial"> Démier, La France de la restauration; de Waresquiel,
+                        Beruhigung der politischen Lage beitragen konnte.</rs>
+                            <note target="#n.14" type="editorial"> Démier, La France de la restauration; de Waresquiel,
                         Benoît, Histoire de la Restauration; Marcowitz, Großmacht auf Bewährung. </note>
                      <rs xml:id="n.15">Zudem sorgten Anschläge wie etwa auf den duc de Berry und
                         Umsturzversuche wie die Cato Street Verschwörung, die das Ziel verfolgte die
-                        gesamte britische Regierung zu ermorden, europaweit für Unruhe.</rs><note
-                        target="#n.15" type="editorial">Roullet, Récit historique; Stanhope, The
-                        Cato Street Conspiracy.</note></p>
+                        gesamte britische Regierung zu ermorden, europaweit für Unruhe.</rs>
+                            <note target="#n.15" type="editorial">Roullet, Récit historique; Stanhope, The
+                        Cato Street Conspiracy.</note>
+                        </p>
                   <p>Diese latent bedrohliche Lage führte bei der britischen Regierung zur
                      Zurückhaltung bei potentiell schwierigen außenpolitischen Themen, wie etwa
                      einer militärischen Intervention in einem von einer Revolution betroffenen
-                     Land. Zwar befürwortete die Regierung, respektive Außenminister <persName
-                        ref="#p.9"><roleName>Castlereagh</roleName></persName>, diese Maßnahme, doch
+                     Land. Zwar befürwortete die Regierung, respektive Außenminister <persName ref="#p.9">
+                                <roleName>Castlereagh</roleName>
+                            </persName>, diese Maßnahme, doch
                      war sie zu schwach um diese Haltung auch offiziell zu vertreten. Die Regierung
                      in Paris wiederum versuchte vorerst erfolglos, Frankreich auch außenpolitisches
                      Gewicht zu verleihen indem sie sich einmal an Russland, dann an Großbritannien
                      anlehnte.</p>
                   <p>Österreich, Preußen und Russland entsandten bevollmächtigte Delegationen zu den
-                        <rs ref="#n.16">Verhandlungen.</rs><note type="editorial" target="#n.16"> Zu
+                        <rs ref="#n.16">Verhandlungen.</rs>
+                            <note type="editorial" target="#n.16"> Zu
                         den Verhandlungen vgl. Jarrett, The Congress of Vienna, S. 248–270; Webster,
                         The Foreign Policy of Castlereagh, S. 285–311; Schmalz, Versuch einer
                         gesamteuropäischen Organisation, S. 59–92; Schroeder, Metternich's Diplomacy
                         at Its Zenith, S. 60–103; de Sédouy, Le concert européen, S. 107–114;
                         Bertier de Sauvigny, Metternich et la France, Bd. 2, S. 359–416.</note>
-                     Zudem waren <persName ref="#p.16"><roleName>Kaiser</roleName>
-                        <forename>Franz I.</forename></persName>, <persName ref="#p.18"
-                           ><roleName>König</roleName>
-                        <forename>Friedrich Wilhelm III.</forename></persName> und <persName
-                        ref="#p.17"><roleName>Zar</roleName>
-                        <forename>Alexander I.</forename></persName> persönlich in der schlesischen
+                     Zudem waren <persName ref="#p.16">
+                                <roleName>Kaiser</roleName>
+                        <forename>Franz I.</forename>
+                            </persName>, <persName ref="#p.18">
+                                <roleName>König</roleName>
+                        <forename>Friedrich Wilhelm III.</forename>
+                            </persName> und <persName ref="#p.17">
+                                <roleName>Zar</roleName>
+                        <forename>Alexander I.</forename>
+                            </persName> persönlich in der schlesischen
                      Kleinstadt anwesend. Großbritannien hatte sich schon im Vorfeld gegen einen
                      Mächtekongress und ein europäische Behandlung der Revolution in Süditalien
-                     ausgesprochen. Stattdessen befürwortete <persName ref="#p.9"
-                           ><roleName>Castlereagh</roleName></persName> einen Alleingang
+                     ausgesprochen. Stattdessen befürwortete <persName ref="#p.9">
+                                <roleName>Castlereagh</roleName>
+                            </persName> einen Alleingang
                      Österreichs, das von den Ereignissen angesichts der geographischen Nähe des zum
                      Kaisertum zählenden Königreichs Lombardo-Venetien direkt von den Ereignissen
                      betroffen war. Daher hatte der britische Gesandte keinerlei
@@ -306,8 +312,8 @@
                      gegebenenfalls von Russland unterstützt, sowie die Beseitigung der Verfassung.
                      Mediationsvorschlägen, wie etwa eine Vermittlung durch den Papst oder den König
                      Ludwig XVIII. von Frankreich, konnten sich nicht durchsetzen.</p>
-                  <p>Aufsehen erregte das <ref target="Troppau_Prot_4.xml"><hi rendition="#i"
-                           >Protocole préliminare</hi> vom 19. November 1820</ref>. Diese
+                  <p>Aufsehen erregte das <ref target="Troppau_Prot_4.xml">
+                                <hi rendition="#i">Protocole préliminare</hi> vom 19. November 1820</ref>. Diese
                      Übereinkunft war in separaten Konferenzen durch die Bevollmächtigten
                      Österreichs, Preußens und Russlands erarbeitet worden und postulierte ein
                      Interventionsrecht in allen europäischen Staaten, in welchen eine Revolution
@@ -316,12 +322,12 @@
                      Interventionsrechts im Königreich beider Sizilien. Dieser Vorschlag stieß auf
                      heftigen Protest der Vertreter Frankreichs und Großbritanniens. Das Thema einer
                      Garantieerklärung gegen Regierungswechsel, die durch als illegitim
-                     qualifizierte Mittel herbeigeführt wurden, blieb virulent. <rs xml:id="n.17"
-                        >Zwar wurde diese Frage in den offiziellen Verhandlungen nicht mehr
-                        angesprochen, doch arbeitete <persName ref="#p.8"
-                              ><surname>Metternich</surname></persName> eine Denkschrift dazu aus,
-                        die in den Kongressakten einliegt.</rs><note target="#n.17" type="editorial"
-                        > Vgl. ÖStA, HHStA, St.K. Kongressakten, Kart. 21, Fasz. 39, fol. 195–227 (2
+                     qualifizierte Mittel herbeigeführt wurden, blieb virulent. <rs xml:id="n.17">Zwar wurde diese Frage in den offiziellen Verhandlungen nicht mehr
+                        angesprochen, doch arbeitete <persName ref="#p.8">
+                                    <surname>Metternich</surname>
+                                </persName> eine Denkschrift dazu aus,
+                        die in den Kongressakten einliegt.</rs>
+                            <note target="#n.17" type="editorial"> Vgl. ÖStA, HHStA, St.K. Kongressakten, Kart. 21, Fasz. 39, fol. 195–227 (2
                         Fassungen). Die Akten wurden nicht in die Edition aufgenommen. Die
                         Denkschrift wird ausführlich analysiert von Schroeder, Metternich's
                         Diplomacy at Its Zenith, S. 87–91.</note>
@@ -337,9 +343,10 @@
                      Bevollmächtigte aus den anderen italienischen Herrschaftsgebieten teil, da auch
                      diese Territorien durch den Ausbruch der Revolution im Königreich beider
                      Sizilien direkt betroffen waren.</p>
-                  <p><rs xml:id="n.18">In Laibach zeigte sich die Kluft zwischen den Mitgliedern des
-                        europäischen Mächtekonzerts deutlich.</rs><note target="#n.18"
-                        type="editorial"> Vgl. dazu Jarrett, The Congress of Vienna, S. 270–281;
+                  <p>
+                            <rs xml:id="n.18">In Laibach zeigte sich die Kluft zwischen den Mitgliedern des
+                        europäischen Mächtekonzerts deutlich.</rs>
+                            <note target="#n.18" type="editorial"> Vgl. dazu Jarrett, The Congress of Vienna, S. 270–281;
                         Webster, The Foreign Policy of Castlereagh, S. 312–345; Schroeder,
                         Metternich's Diplomacy at Its Zenith, S. 104–128; de Sédouy, Le concert
                         européen, S. 114–125; Bertier de Sauvigny, Metternich et la France, Bd. 2,
@@ -350,14 +357,17 @@
                      Großbritannien weiterhin für eine militärische Intervention im Königreich
                      beider Sizilien votierte – doch sollte diese nicht auf Basis eines Beschlusses
                      des Mächtekonzerts, sondern informell durch Österreich erfolgten.</p>
-                  <p><rs xml:id="n.19">Die Meinungsverschiedenheiten zwischen den Mächtevertretern
+                  <p>
+                            <rs xml:id="n.19">Die Meinungsverschiedenheiten zwischen den Mächtevertretern
                         waren auch die Ursache für die „Erfindung“ von Sitzungen in Laibach, die in
                         dieser Form nie stattfanden. Die Protokolle der ersten sechs Sitzungen
-                        wurden von <persName ref="#p.5"><forename>Friedrich</forename>
-                           <surname>Gentz</surname></persName> um den 20. Jänner 1820 verfasst. Sie
+                        wurden von <persName ref="#p.5">
+                                    <forename>Friedrich</forename>
+                           <surname>Gentz</surname>
+                                </persName> um den 20. Jänner 1820 verfasst. Sie
                         beinhalteten einen bereinigten Verlauf der Verhandlungen und trugen dazu
-                        bei, die festgefahrenen Gespräche wieder in Schwung zu bringen.</rs><note
-                        target="#n.19" type="editorial"> Detailliert beschrieben bei Bertier de
+                        bei, die festgefahrenen Gespräche wieder in Schwung zu bringen.</rs>
+                            <note target="#n.19" type="editorial"> Detailliert beschrieben bei Bertier de
                         Sauvigny, Metternich et la France, Bd. 2, S. 443–448. Gute Zusammenfassung
                         bei Jarrett, Congress of Vienna, S. 272–274.</note>
                   </p>
@@ -373,12 +383,11 @@
                   <p>Ab Februar 1821 drehten sich die Gespräche in Laibach um die Frage der inneren
                      Verfassung des Königreichs beider Sizilien nach der Niederschlagung der
                      Revolution. König Ferdinand I. legte diesbezüglich einen Reformvorschlag vor,
-                     der von den Diplomaten und Staatsmännern diskutiert und angenommen wurde. <rs
-                        xml:id="n.20">Eine Kommission, zusammengesetzt aus Vertretern der Mächte und
+                     der von den Diplomaten und Staatsmännern diskutiert und angenommen wurde. <rs xml:id="n.20">Eine Kommission, zusammengesetzt aus Vertretern der Mächte und
                         neapolitanischen Funktionären, würde die Umsetzung dieser Verbesserungen,
                         welche in Zukunft die Ruhe und den Frieden nicht nur in Italien, sondern
-                        dadurch auch in Europa garantieren sollte, überwachen.</rs><note
-                        target="#n.20" type="editorial"> Vgl. dazu den Quellenbestand im ÖStA,
+                        dadurch auch in Europa garantieren sollte, überwachen.</rs>
+                            <note target="#n.20" type="editorial"> Vgl. dazu den Quellenbestand im ÖStA,
                         HHStA, St.K., Kongressakten, Kart. 23.</note> Schließlich wurde beschlossen,
                      im Laufe des Jahres 1822 neuerlich eine Mächtekonferenz einzuberufen, auf
                      welcher über das Ende der militärischen Okkupation im Königreich beider
@@ -396,8 +405,8 @@
                      Zustände, welche – folgt man der Sichtweise der französischen Regierung – die
                      Ruhe und Sicherheit in Frankreich gefährdeten. <rs xml:id="n.22">Zudem war im
                         Frühjahr 1821 im Königreich Sardinien-Piemont ein Aufstand ausgebrochen, der
-                        von österreichischen Truppen umgehend niedergeschlagen worden war.</rs><note
-                        target="#n.22" type="editorial"> Ebd., S. 281–284; Broers, Napoleonic
+                        von österreichischen Truppen umgehend niedergeschlagen worden war.</rs>
+                            <note target="#n.22" type="editorial"> Ebd., S. 281–284; Broers, Napoleonic
                         Imperialism, S. 480–524; Ders., The Restoration in Piedmont-Sardinia.
                      </note> In der Folge wurde auch in diesem Herrschaftsgebiet eine
                      österreichische Besatzungsarmee stationiert.</p>
@@ -416,9 +425,9 @@
                      Intervention im Nachbarland zu. Während Frankreich in Troppau und Laibach
                      aufgrund seiner innenpolitischen Probleme kaum eigenständig agierte und keine
                      Akzente setzten konnte, trat die Pariser Regierung 1822 energisch auf. Nun
-                     wurden die innenpolitischen Konflikte nach außen getragen: <rs xml:id="n.23"
-                        >1823 marschierten ein französisches Heer in Spanien ein und beendete das
-                        konstitutionelle Experiment.</rs><note target="#n.23" type="editorial">
+                     wurden die innenpolitischen Konflikte nach außen getragen: <rs xml:id="n.23">1823 marschierten ein französisches Heer in Spanien ein und beendete das
+                        konstitutionelle Experiment.</rs>
+                            <note target="#n.23" type="editorial">
                         Bernecker, Spanische Geschichte, S. 61–62.</note>
                   </p>
                   <p>Doch ähnlich wie in Aachen standen auch in Verona noch weitere politische,
@@ -432,41 +441,51 @@
                </div>
                <div>
                   <head>5. Ausblick</head>
-                  <p>Der Kongress in Verona war die letzte auf Basis von Artikel 6 des <rs
-                        ref="#t.6" type="treaties">Vertrags zur Quadrupelallianz</rs> einberufene
+                  <p>Der Kongress in Verona war die letzte auf Basis von Artikel 6 des <rs ref="#t.6" type="treaties">Vertrags zur Quadrupelallianz</rs> einberufene
                      Mächteversammlung. Sieben Jahren nach ihrem Beginn hatte diese Form der
                      Konsultationspraxis ihr Ende gefunden. Die Gründe dafür sind vielfältig. Zum
                      einen sind sie im Ableben maßgeblicher Protagonisten und Verfechter dieser Art
-                     des diplomatischen Austauschs zu suchen: der britische Außenminister <persName
-                        ref="#p.9"><roleName>Castlereagh</roleName></persName> nahm sich 1822 das
-                     Leben, und <persName ref="#p.17"><roleName>Zar</roleName>
-                        <forename>Alexander I.</forename></persName> starb 1825. Die Politik von
-                        <persName ref="#p.9"><roleName>Castlereaghs</roleName></persName> Nachfolger
-                        <persName ref="#p.205"><forename>George</forename>
-                        <surname>Canning</surname></persName> orientierte sich nicht mehr im selben
+                     des diplomatischen Austauschs zu suchen: der britische Außenminister <persName ref="#p.9">
+                                <roleName>Castlereagh</roleName>
+                            </persName> nahm sich 1822 das
+                     Leben, und <persName ref="#p.17">
+                                <roleName>Zar</roleName>
+                        <forename>Alexander I.</forename>
+                            </persName> starb 1825. Die Politik von
+                        <persName ref="#p.9">
+                                <roleName>Castlereaghs</roleName>
+                            </persName> Nachfolger
+                        <persName ref="#p.205">
+                                <forename>George</forename>
+                        <surname>Canning</surname>
+                            </persName> orientierte sich nicht mehr im selben
                      Ausmaß an europäischen Erfordernissen. Er galt als Gegner der Idee des
                      europäischen Mächtekonzerts und verfolgte primär Interessen Großbritanniens,
-                     dessen Einfluss insbesondere in Südamerika er ausdehnte. <persName ref="#p.205"
-                           ><surname>Canning</surname></persName> war zudem ein strikter Verfechter
+                     dessen Einfluss insbesondere in Südamerika er ausdehnte. <persName ref="#p.205">
+                                <surname>Canning</surname>
+                            </persName> war zudem ein strikter Verfechter
                      des Nicht-Interventionsprinzips und orientierte sich in seiner Politik am
-                     ‚Willen der Nation’. Die Außenpolitik von <persName ref="#p.206"
-                           ><roleName>Zar</roleName>
-                        <forename>Nikolaus I.</forename></persName> war ähnlich ausgerichtet: Das
-                     Ziel war die Ausdehnung des russischen Einflusses im Vorderen Orient, <rs
-                        xml:id="n.24">was das Ende der auf politische Stabilität und Beibehaltung
-                        des <hi rendition="#i">status quo</hi> gerichteten Politik <persName
-                           ref="#p.17"><forename>Alexanders I.</forename></persName>
-                        bedeutete.</rs><note target="#n.24" type="editorial"> Pyta, Idee und
+                     ‚Willen der Nation’. Die Außenpolitik von <persName ref="#p.206">
+                                <roleName>Zar</roleName>
+                        <forename>Nikolaus I.</forename>
+                            </persName> war ähnlich ausgerichtet: Das
+                     Ziel war die Ausdehnung des russischen Einflusses im Vorderen Orient, <rs xml:id="n.24">was das Ende der auf politische Stabilität und Beibehaltung
+                        des <hi rendition="#i">status quo</hi> gerichteten Politik <persName ref="#p.17">
+                                    <forename>Alexanders I.</forename>
+                                </persName>
+                        bedeutete.</rs>
+                            <note target="#n.24" type="editorial"> Pyta, Idee und
                         Wirklichkeit der "Heiligen Allianz".</note> Auch der Griechische
                      Unabhängigkeitskrieg stellte das Europäische Mächtekonzert auf eine harte
                      Probe, da in diesem Fall die außenpolitischen Interessen einander diametral
-                     gegenüberstanden: <rs xml:id="n.25">Während <persName ref="#p.8"
-                              ><surname>Metternich</surname></persName> die Stabilität im Nahen
+                     gegenüberstanden: <rs xml:id="n.25">Während <persName ref="#p.8">
+                                    <surname>Metternich</surname>
+                                </persName> die Stabilität im Nahen
                         Osten zu erhalten suchte und daher das Osmanische Reich diplomatisch
                         unterstützte, verfolgten insbesondere Russland und Frankreich, aber auch
                         Großbritannien ihre nationalstaatlichen und hegemonistischen Interessen, die
-                        sie auf eine Schwächung der Hohen Pforte abzielten.</rs><note target="#n.25"
-                        type="editorial"> Šedivý, Metternich.</note>
+                        sie auf eine Schwächung der Hohen Pforte abzielten.</rs>
+                            <note target="#n.25" type="editorial"> Šedivý, Metternich.</note>
                   </p>
                   <p>Dennoch kam die Praxis multilateraler Konsultation zwischen den europäischen
                      Staaten nicht zum Erliegen. <rs xml:id="n.26">Im Verlauf des 19. Jahrhunderts
@@ -480,7 +499,8 @@
                         und funktionierte das Europäische Mächtekonzert zumindest bis zum Ausbruch
                         des Krimkriegs. Doch auch danach kam es weiterhin zu Konferenzen zu und
                         internationaler Kooperation, bis der Erste Weltkrieg eine endgültige Zäsur
-                        brachte.</rs><note target="#n.26" type="editorial"> Schulz, Normen und
+                        brachte.</rs>
+                            <note target="#n.26" type="editorial"> Schulz, Normen und
                         Praxis.</note>
                   </p>
                   <p>Das Allianz- und Bündnissystem, das die Staaten Europas nach dem Wiener
@@ -493,12 +513,13 @@
                         Völkerbundsrats wider, der aus fünf ständigen Mitgliedern sowie mehreren
                         nicht-ständigen Mitgliedern zusammengesetzt war und sich in regelmäßigen
                         Abständen traf, um unter anderem Fragen der Friedenssicherung zu
-                        besprechen.</rs><note target="#n.27" type="editorial"> Pfeil, Der
+                        besprechen.</rs>
+                            <note target="#n.27" type="editorial"> Pfeil, Der
                         Völkerbund, S. 45–62.</note>
                      <rs xml:id="n.28">Nach 1945 fand der Völkerbundsrat im Sicherheitsrat der
                         Vereinten Nationen seinen Nachfolger, der im Wesentlichen dessen
-                        Organisationsstruktur und die Aufgaben übernahm.</rs><note target="#n.28"
-                        type="editorial"> Jarrett, The Congress of Vienna, S. 370–371.</note>
+                        Organisationsstruktur und die Aufgaben übernahm.</rs>
+                            <note target="#n.28" type="editorial"> Jarrett, The Congress of Vienna, S. 370–371.</note>
                   </p>
                   <p>Das Europäische Mächtekonzert manifestierte sich in verschiedenen Ausprägungen
                      und findet bis heute seine Nachfolger. <rs xml:id="n.29">Die flexible, der
@@ -507,7 +528,8 @@
                         Kooperation auf unterschiedlichen Ebenen – von den Monarchentreffen und
                         Mächtekonferenzen des Wiener Systems über institutionalisierte
                         Botschafterkonferenzen bis hin zur Konsultationspraxis in Phasen der
-                        Krise.</rs><note target="#n.29" type="editorial"> Schulz, Normen und Praxis.
+                        Krise.</rs>
+                            <note target="#n.29" type="editorial"> Schulz, Normen und Praxis.
                         Baumgart, Europäisches Konzert und nationale Bewegung.</note> Im Fokus
                      dieser Edition stehen die Mächtekonferenzen, die zwischen 1818 und 1822
                      einberufen wurden, um über aktuelle politische Probleme zu beraten. Ihre
@@ -519,16 +541,11 @@
          </div>
       </body>
       <back>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/listplace.xml"
-            xpointer="listPlace"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/listperson.xml"
-            xpointer="listPerson"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/listwit.xml"
-            xpointer="listWit"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/listorg.xml"
-            xpointer="listOrg"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/listtreaties.xml"
-            xpointer="listTreaties"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/listplace.xml" xpointer="listPlace"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/listperson.xml" xpointer="listPerson"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/listwit.xml" xpointer="listWit"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/listorg.xml" xpointer="listOrg"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/listtreaties.xml" xpointer="listTreaties"/>
       </back>
    </text>
 </TEI>

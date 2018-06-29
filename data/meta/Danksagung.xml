@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title/>
-            <author><forename>Karin</forename>
-               <surname>Schneider</surname></author>
+            <title>Danksagung</title>
+            <author>
+                    <persName>
+                        <forename>Karin</forename>
+               <surname>Schneider</surname>
+                    </persName>
+                </author>
          </titleStmt>
          <editionStmt>
             <edition>
@@ -59,9 +63,9 @@
                   200-Jahr-Jubiläums des Wiener Kongresses sollte dieses Ereignis von mehreren
                   Forschungsinitiativen aus unterschiedlichen Perspektiven beleuchtet werden. Das
                   Resultat dieser Kooperation war der sogenannte <rs xml:id="n.1">„Projektverbund
-                     Wiener Kongress“, unter dessen Dach sich mehrere vom FWF geförderte Projekte
-                     versammelten.</rs><note target="#n.1" type="editorial"> Vgl. <ref type="url"
-                        >http://www.wiener-kongress.at/index.php/de/</ref>. </note>
+                     Wiener Kongress“, unter dessen Dach sich mehrere vom <ref target="http://www.fwf.ac.at">FWF</ref> geförderte Projekte
+                     versammelten.</rs>
+                        <note target="#n.1" type="editorial"> Vgl. <ref type="url" target="http://www.wiener-kongress.at/">http://www.wiener-kongress.at/</ref>. </note>
                </p>
                <p>Reinhard Stauber fungierte als Leiter des Projekts „Der Wiener Kongress und sein
                   europäisches Friedenssystem“ (P 21177; 2009–2013), während dessen Laufzeit
@@ -76,17 +80,17 @@
                   englischen und deutschen Texte gelesen und gegebenenfalls korrigiert haben.
                   Allfällige immer noch vorhandene Fehler fallen in meinen Zuständigkeitsbereich. </p>
                <p>Die Veröffentlichung der Dokumente zu den Mächtekongressen im Format einer online
-                  Edition wäre ohne die Infrastruktur des Instituts für Neuzeit- und
-                  Zeitgeschichteforschung (INZ) beziehungsweise des Austrian Center for Digital
-                  Humanities (ACDH) der Österreichischen Akademie der Wissenschaften nicht möglich
+                  Edition wäre ohne die Infrastruktur des <ref target="http://www.oeaw.ac.at/inz/">Instituts für Neuzeit- und
+                     Zeitgeschichteforschung (INZ)</ref> beziehungsweise des <ref target="https://www.oeaw.ac.at/acdh/">Austrian Center for Digital
+                        Humanities (ACDH)</ref> der Österreichischen Akademie der Wissenschaften nicht möglich
                   gewesen. Mein besonderer Dank gilt Stephan Kurz vom INZ, der in nie erlahmender
                   Geduld meine zahlreichen Fragen beantwortete, Bedienungsfehler korrigierte,
                   ständig auftauchende Änderungswünsche umsetzte und mir generell beim Kampf mit der
                   Technik zur Seite stand. Daniel Schopper brachte mir erstmals XML näher, und von
                   Peter Andorfer stammen die <hi rendition="#i">stylesheets</hi>, welche dem Layout
                   der Edition zugrunde liegen.</p>
-               <p>Schließlich sind noch die Mitarbeiterinnen und Mitarbeiter des Österreichischen
-                  Staatsarchivs, Haus-, Hof- und Staatsarchiv, zu nennen, die mir bei Fragen zur
+               <p>Schließlich sind noch die Mitarbeiterinnen und Mitarbeiter des <ref target="http://oesta.gv.at/">Österreichischen
+                  Staatsarchivs</ref>, Haus-, Hof- und Staatsarchiv, zu nennen, die mir bei Fragen zur
                   Überlieferungsgeschichte beistanden und nicht müde wurden, die relevanten
                   Archivalien immer wieder auszuheben. </p>
             </div>
