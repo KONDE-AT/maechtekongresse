@@ -11,7 +11,7 @@ $.urlParam = function(name){
 
 /*http://stackoverflow.com/questions/5448545/how-to-retrieve-get-parameters-from-javascript*/
 function findGetParameter(parameterName) {
-    var result = null,
+    var result ;
         tmp = [];
     var items = location.search.substr(1).split("&");
     for (var index = 0; index < items.length; index++) {
