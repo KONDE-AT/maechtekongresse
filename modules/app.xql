@@ -249,9 +249,6 @@ declare function app:toc($node as node(), $model as map(*)) {
     let $docs := if ($collection)
             then
                 collection(concat($config:app-root, '/data/', $collection, '/'))//tei:TEI
-            else if ($collection)
-            then
-                collection(concat($config:app-root, '/data/', $collection, '/'))//tei:TEI
             else
                 collection(concat($config:app-root, '/data/editions/'))//tei:TEI
     for $title in $docs
@@ -260,18 +257,22 @@ declare function app:toc($node as node(), $model as map(*)) {
         let $date := if ($title//tei:title[2][@type='main']//text()) 
             then 
                 concat($title//tei:title[1][@type='main']//text(), ' – ',  $title//tei:title[2][@type='main']//text())
+            else if ($title//tei:title[1][@type='main']//text())
+                then
+                    $title//tei:title[1][@type='main']//text()
             else
-                $title//tei:title[1][@type='main']//text()
-            return    
+                $title//tei:title//text()
+                
         let $texts := for $x in $title//tei:msDesc[position()>1]//tei:title
-            (: where count($title//tei:msDesc[position()>1]//tei:title) > 1 :)
-            return
-                <p>{$x/text()}</p>
-        where if ($filterstring) then starts-with($idno, $filterstring) else $idno
+                    (: where count($title//tei:msDesc[position()>1]//tei:title) > 1 :)
+                    return
+                        <p>{$x/text()}</p>
+        where if ($filterstring) then starts-with($idno, $filterstring) else $title
         return  
         <tr>
-           <td>{$idno}</td>
-           <td><a href="{app:hrefToDoc($title, $collection)}">{$date}</a></td>
+            <td>{$idno}</td>
+            <td>
+                <a href="{app:hrefToDoc($title, $collection)}">{$date}</a></td>
             <td>{$texts}</td>
             <td>{$datum}</td>
         </tr>
