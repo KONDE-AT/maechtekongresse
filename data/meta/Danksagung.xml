@@ -20,6 +20,8 @@
             <publisher>Österreichische Akademie der Wissenschaften, Institut für Neuzeit- und
                Zeitgeschichtsforschung</publisher>
             <pubPlace>Wien</pubPlace>
+            <availability>           <licence>https://creativecommons.org/licenses/by-sa/4.0/legalcode.de</licence>         </availability>
+            <idno>M_03</idno>
          </publicationStmt>
          <sourceDesc>
             <p>Converted from a Word document</p>
@@ -36,7 +38,7 @@
             <rendition xml:id="su" scheme="css">vertical-align:super; font-size:.7em;</rendition>
             <rendition xml:id="s" scheme="css">text-decoration:line-through;</rendition>
             <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
-            <rendition xml:id="i" scheme="css">front-style: italic;</rendition>
+            <rendition xml:id="i" scheme="css">font-style: italic;</rendition>
             <rendition xml:id="ow">overwritten</rendition>
             <rendition xml:id="du">double underline</rendition>
             <rendition xml:id="k">kurrent</rendition>
@@ -68,10 +70,10 @@
                         <note target="#n.1" type="editorial"> Vgl. <ref type="url" target="http://www.wiener-kongress.at/">http://www.wiener-kongress.at/</ref>. </note>
                </p>
                <p>Reinhard Stauber fungierte als Leiter des Projekts „Der Wiener Kongress und sein
-                  europäisches Friedenssystem“ (P 21177; 2009–2013), während dessen Laufzeit
+                  europäisches Friedenssystem“ (<ref type="url" target="https://pf.fwf.ac.at/de/wissenschaft-konkret/project-finder?search%5Bproject_number%5D=P+21177">P 21177; 2009–2013</ref>), während dessen Laufzeit
                   maßgebliche Grundlagen für die nun vorliegende Edition erarbeitet werden konnten.
                   Die Fertigstellung erfolgte im Rahmen des von mir geleiteten und ebenfalls vom FWF
-                  finanzierten Projekts „Die Kongresse von Troppau und Laibach 1820/21 (P 28448). </p>
+                  finanzierten Projekts „Die Kongresse von Troppau und Laibach 1820/21 (<ref type="url" target="https://pf.fwf.ac.at/de/wissenschaft-konkret/project-finder?search%5Bproject_number%5D=P+28448">P 28448</ref>). </p>
                <p>Eine besondere Herausforderung stellte die Vielsprachigkeit der Quellen dar. Bei
                   der Endredaktion unterstützten mich daher mehrere <hi rendition="#i">native
                      speaker</hi>, ohne deren Hilfe zahlreiche Fehler und Unstimmigkeiten unentdeckt
@@ -79,7 +81,7 @@
                   William D. Godsey und Friedrich Kolm, die die italienischen, französischen,
                   englischen und deutschen Texte gelesen und gegebenenfalls korrigiert haben.
                   Allfällige immer noch vorhandene Fehler fallen in meinen Zuständigkeitsbereich. </p>
-               <p>Die Veröffentlichung der Dokumente zu den Mächtekongressen im Format einer online
+               <p>Die Veröffentlichung der Dokumente zu den Mächtekongressen im Format einer Digitalen
                   Edition wäre ohne die Infrastruktur des <ref target="http://www.oeaw.ac.at/inz/">Instituts für Neuzeit- und
                      Zeitgeschichteforschung (INZ)</ref> beziehungsweise des <ref target="https://www.oeaw.ac.at/acdh/">Austrian Center for Digital
                         Humanities (ACDH)</ref> der Österreichischen Akademie der Wissenschaften nicht möglich
@@ -87,7 +89,7 @@
                   Geduld meine zahlreichen Fragen beantwortete, Bedienungsfehler korrigierte,
                   ständig auftauchende Änderungswünsche umsetzte und mir generell beim Kampf mit der
                   Technik zur Seite stand. Daniel Schopper brachte mir erstmals XML näher, und von
-                  Peter Andorfer stammen die <hi rendition="#i">stylesheets</hi>, welche dem Layout
+                  Peter Andorfer stammen neben vielem anderen die <hi rendition="#i">stylesheets</hi>, welche dem Layout
                   der Edition zugrunde liegen.</p>
                <p>Schließlich sind noch die Mitarbeiterinnen und Mitarbeiter des <ref target="http://oesta.gv.at/">Österreichischen
                   Staatsarchivs</ref>, Haus-, Hof- und Staatsarchiv, zu nennen, die mir bei Fragen zur
