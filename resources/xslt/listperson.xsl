@@ -96,7 +96,7 @@
                                             <xsl:when test="$entity//tei:birth">
                                                 <tr>
                                                     <th>
-                                                        Geburt
+                                                        *
                                                     </th>
                                                     <td>
                                                         <xsl:value-of select="$entity//tei:birth"/>
@@ -106,7 +106,7 @@
                                             <xsl:when test="$entity//tei:death">
                                                 <tr>
                                                     <th>
-                                                        Tod
+                                                        ✝
                                                     </th>
                                                     <td>
                                                         <xsl:value-of select="$entity//tei:death"/>

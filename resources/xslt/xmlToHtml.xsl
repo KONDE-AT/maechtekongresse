@@ -23,11 +23,11 @@
         <div class="regest">
             <div class="panel panel-default">
                 <div class="panel-heading">
-                    <h3 class="panel-title">
-                        <h2 align="center">Header/Metadaten</h2>
+                    <h3 class="panel-title" align="center" data-toggle="collapse" data-target="#metadata" title="Klicken für Zeigen/Verbergen">
+                        Header/Metadaten
                     </h3>
                 </div>
-                <div class="panel-body">
+                <div class="panel-body collapse" id="metadata">
                     <table class="table table-striped">
                         <tbody>
                             <tr>
@@ -239,16 +239,14 @@
         </div>
         <div class="panel panel-default">
             <div class="panel-heading">
-                <h3 class="panel-title">
-                    <h2 align="center">
-                        Body
-                    </h2>
+                <h3 class="panel-title" align="center">
+                    Text
                 </h3>
             </div>
             <div class="panel-body">
                 <xsl:if test="//tei:div//tei:title">
                     <h3 id="clickme">
-                        <abbr title="Click to display Table of Contents">[Table of Contents]</abbr>
+                        <abbr title="Für Abschnitte klicken">[Abschnitte]</abbr>
                     </h3>
                     <div id="headings" class="readmore">
                         <ul>
@@ -362,6 +360,12 @@
     </xsl:template>
     <!-- Div Titles (Beilagen/andere Dokumente) -->
     <xsl:template match="tei:p/tei:title">
+        <xsl:element name="a">
+            <xsl:attribute name="name">
+                <xsl:text>hd</xsl:text>
+            <xsl:number level="any"/>
+            </xsl:attribute>
+        </xsl:element>
         <xsl:element name="h3">
             <xsl:attribute name="style">margin-top:3em;margin-bottom:1em</xsl:attribute>
             <xsl:apply-templates/>
@@ -396,10 +400,12 @@
                     <xsl:attribute name="id">
                         <xsl:value-of select="$msId"/>
                     </xsl:attribute>
-                    <xsl:element name="p">
-                        <xsl:text>Hand von </xsl:text>
-                        <xsl:value-of select="root()//tei:handNote[@xml:id=$handId]"/>
-                    </xsl:element>
+                    <xsl:if test="root()//tei:handNote[@xml:id=$handId]">
+                        <xsl:element name="p">
+                            <xsl:text>Hand von </xsl:text>
+                            <xsl:value-of select="root()//tei:handNote[@xml:id=$handId]"/>
+                        </xsl:element>
+                    </xsl:if>
                     <xsl:apply-templates/>
                 </xsl:element>
             </xsl:when>
