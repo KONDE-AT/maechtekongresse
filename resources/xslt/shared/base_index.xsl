@@ -34,6 +34,7 @@
                                             <xsl:value-of select="concat('hits.html?searchkey=', $entiyID)"/>
                                         </xsl:attribute>
                                         <xsl:attribute name="target">_blank</xsl:attribute>
+                                        <xsl:attribute name="rel">noopener noreferrer</xsl:attribute>
                                         Klicken für alle Erwähnungen
                                     </a>
                                 </h4>

@@ -369,9 +369,9 @@ declare function app:listTreaties($node as node(), $model as map(*)) {
 (:~
  : creates a basic wittnes-index derived from the  '/data/indices/listwit.xml'
  :)
-declare function app:listWit($node as node(), $model as map(*)) {
+declare function app:listBibl($node as node(), $model as map(*)) {
     let $hitHtml := "hits.html?searchkey="
-    for $item in doc($app:listWittnes)//tei:bibl
+    for $item in doc($app:listWittnes)//tei:listWit//tei:bibl
        return
             <tr>
                 <td>{$item}</td>
@@ -382,7 +382,7 @@ declare function app:listWit($node as node(), $model as map(*)) {
 (:~
  : creates a basic work-index derived from the  '/data/indices/listbibl.xml'
  :)
-declare function app:listBibl($node as node(), $model as map(*)) {
+declare function app:listBibl2($node as node(), $model as map(*)) {
     let $hitHtml := "hits.html?searchkey="
     for $item in doc($app:workIndex)//tei:listBibl/tei:bibl
     let $author := normalize-space(string-join($item/tei:author//text(), ' '))

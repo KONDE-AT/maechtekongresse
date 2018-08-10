@@ -4,8 +4,8 @@
     <xsl:param name="entiyID"/>
     <xsl:variable name="entity" as="node()">
         <xsl:choose>
-            <xsl:when test="not(empty(//tei:place[@xml:id = $entiyID][1]))">
-                <xsl:value-of select="//tei:place[@xml:id = $entiyID][1]"/>
+            <xsl:when test="not(empty(//tei:bibl[@xml:id = $entiyID][1]))">
+                <xsl:value-of select="//tei:bibl[@xml:id = $entiyID][1]"/>
             </xsl:when>
             <xsl:otherwise>
                 <xsl:value-of select="false()"/>
@@ -19,13 +19,13 @@
                     <div class="modal-content">
                         <xsl:choose>
                             <xsl:when test="$entity">
-                                <xsl:variable name="entity" select="//tei:place[@xml:id = $entiyID]"/>
+                                <xsl:variable name="entity" select="//tei:bibl[@xml:id = $entiyID]"/>
                                 <div class="modal-header">
                                     <button type="button" class="close" data-dismiss="modal">
                                         <span class="fa fa-times"/>
                                     </button>
                                     <h3 class="modal-title">
-                                        <xsl:value-of select="$entity//tei:placeName[1]"/>  </h3>
+                                        <xsl:value-of select="$entity/text()"/>  </h3>
                                     <h4>
                                         <a>
                                             <xsl:attribute name="href">
@@ -38,23 +38,6 @@
                                 </div>
                                 <div class="modal-body">
                                     <table class="table table-boardered table-hover">
-                                        <xsl:if test="count($entity//tei:placeName) &gt; 1">
-                                            <tr>
-                                                <th>Name</th>
-                                                <td>
-                                                  <xsl:value-of select="$entity//tei:placeName[1]"/>
-                                                </td>
-                                            </tr>
-                                            <xsl:for-each select="$entity//tei:placeName[position() &gt; 1]">
-                                                <tr>
-                                                  <th>alternative Namen</th>
-                                                  <td>
-                                                  <xsl:value-of select="."/>
-                                                  </td>
-                                                </tr>
-                                            </xsl:for-each>
-                                        </xsl:if>
-
                                         <xsl:if test="$entity/tei:idno[@type = 'URI']">
                                             <tr>
                                                 <th>URL:</th>

@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Bestandsbeschreibung Verona</title>
+            <title type="main">Bestandsbeschreibung Verona</title>
             <author>
                     <forename>Karin</forename>
                <surname>Schneider</surname>
@@ -18,7 +18,7 @@
             <publisher>Österreichische Akademie der Wissenschaften, Institut für Neuzeit- und
                Zeitgeschichtsforschung</publisher>
             <pubPlace>Wien</pubPlace>
-            <availability>           <licence>https://creativecommons.org/licenses/by-sa/4.0/legalcode.de</licence>         </availability>
+            <availability>           <licence target="https://creativecommons.org/licenses/by-sa/4.0/legalcode.de">https://creativecommons.org/licenses/by-sa/4.0/legalcode.de</licence>         </availability>
             <idno>M_08</idno>
          </publicationStmt>
          <sourceDesc>
@@ -53,8 +53,6 @@
    </teiHeader>
    <text>
       <body>
-
-         <head>Bestandsbeschreibung Verona</head>
          <p>Die den Kongress von Verona dokumentierenden Texte befinden sich in der Reihe
             „Kongressakten“, Karton 23 und 24, Faszikel 43 und 44, im Bestand „Staatskanzlei“ im
             Österreichischen Staatsarchiv, Abteilung Haus-, Hof- und Staatsarchiv, in Wien. Sie
