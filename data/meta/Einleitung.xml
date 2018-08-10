@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Einleitung</title>
+             <title type="main">Einleitung</title>
             <author>
                     <forename>Karin</forename>
                <surname>Schneider</surname>
@@ -18,7 +18,7 @@
             <publisher>Österreichische Akademie der Wissenschaften, Institut für Neuzeit- und
                Zeitgeschichtsforschung</publisher>
             <pubPlace>Wien</pubPlace>
-             <availability>           <licence>https://creativecommons.org/licenses/by-sa/4.0/legalcode.de</licence>         </availability>
+             <availability>           <licence target="https://creativecommons.org/licenses/by-sa/4.0/legalcode.de">https://creativecommons.org/licenses/by-sa/4.0/legalcode.de</licence>         </availability>
              <idno>M_02</idno>
          </publicationStmt>
          <sourceDesc>
@@ -57,7 +57,7 @@
             <div>
                <head>Mächtekongresse 1818–1822. Die schriftliche Hinterlassenschaft der Kongresse
                   von Aachen, Troppau, Laibach und Verona</head>
-               <div>
+               <div type="section">
                   <head>1. Einführung</head>
                   <p>
                             <rs xml:id="n.1">Die Napoleonischen Kriege brachten eine Wende im
@@ -76,7 +76,7 @@
                      europäischen Großmächte prägte in den Jahrzehnten nach dem Wiener Kongress
                      1814/15 die europäischen Staatenbeziehungen und fungierte als kollektives
                      Sicherheitssystem zur Verhinderung weiterer kriegerischer Auseinandersetzungen.
-                     Tatsächlich kam es zu einer rund 50 Jahre dauernde Friedensperiode, die nur von
+                     Tatsächlich kam es zu einer rund 50 Jahre dauernden Friedensperiode, die nur von
                      wenigen und kurzen, territorial begrenzten kriegerischen Auseinandersetzungen
                      an den Peripherien Europas beeinträchtigt wurde. <rs xml:id="n.3">Eine Zäsur
                         bedeutete in dieser Hinsicht erst der Krimkrieg (1853–1856), der als
@@ -104,7 +104,7 @@
                         gemacht. Zum Begriff der Erfahrung als historische Kategorie vgl. Pyta,
                         Kulturgeschichtliche Annäherungen, bes. S. 17–21. Zur „Generation
                         Metternich“ siehe Externbrink, Kulturtransfer.</note> Normative Basis und
-                     zugleich Ausdruck dieser intensivierten Zusammenarbeit war das vielschichte
+                     zugleich Ausdruck dieser intensivierten Zusammenarbeit war das vielschichtige
                      Allianzsystem, das die europäischen Staaten seit 1814 miteinander verband.
                      Ausgehend vom <rs ref="#t.37" type="treaties">Vertrag von Chaumont vom 1. März
                         1814</rs> existierten in Europa drei einander ergänzende Allianzsysteme: Die
@@ -162,7 +162,7 @@
                      Termin für den Abzug der alliierten Besatzungstruppen aus Frankreich nach dem
                      Ablauf von drei Jahren, somit Ende 1818, fixiert.</p>
                </div>
-               <div>
+                <div type="section">
                   <head>2. Der Kongress von Aachen</head>
                   <p>Der <rs xml:id="n.9">Kongress von Aachen</rs>
                             <note target="#n.9" type="editorial"> Vgl. Jarrett, The Congress of Vienna, S. 180–205; Webster,
@@ -225,7 +225,7 @@
                         einer gesamteuropäischen Organisation, S. 39–44.</note>
                   </p>
                </div>
-               <div>
+                <div type="section">
                   <head>3. Die Kongresse von Troppau und Laibach</head>
                   <p>Im Laufe des Jahres 1820 brachen auf der Iberischen und der Italienischen
                      Halbinsel mehrere konstitutionelle Revolution aus. In Spanien, Portugal und im
@@ -395,7 +395,7 @@
                      welcher über das Ende der militärischen Okkupation im Königreich beider
                      Sizilien beraten werden sollte.</p>
                </div>
-               <div>
+                <div type="section">
                   <head>4. Der Kongress von Verona</head>
                   <p>Im Jahr 1822 <rs xml:id="n.21">kamen die Vertreter der Mächte in Verona
                         zusammen</rs>,<note target="#n.21" type="editorial">Vgl. Irby C., The
@@ -441,7 +441,7 @@
                      beziehungsweise der Aufenthaltsort von Mitgliedern der Familien Bonaparte und
                      Murat und Rechtsansprüche aus der Napoleonischen Zeit.</p>
                </div>
-               <div>
+                <div type="section">
                   <head>5. Ausblick</head>
                   <p>Der Kongress in Verona war die letzte auf Basis von Artikel 6 des <rs ref="#t.6" type="treaties">Vertrags zur Quadrupelallianz</rs> einberufene
                      Mächteversammlung. Sieben Jahren nach ihrem Beginn hatte diese Form der

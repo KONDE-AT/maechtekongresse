@@ -161,7 +161,14 @@
             <xsl:element name="a">
                 <xsl:attribute name="class">reference</xsl:attribute>
                 <xsl:attribute name="data-type">
-                    <xsl:value-of select="concat('list', data(@type), '.xml')"/>
+                    <xsl:choose>
+                        <xsl:when test="contains(@type,'multi-')">
+                            <xsl:value-of select="concat('list', substring-after(data(@type), 'multi-'), '.xml')"/>
+                        </xsl:when>
+                        <xsl:otherwise>
+                            <xsl:value-of select="concat('list', data(@type), '.xml')"/>
+                        </xsl:otherwise>
+                    </xsl:choose>
                 </xsl:attribute>
                 <xsl:attribute name="data-key">
                     <xsl:value-of select="substring-after(data(@ref), '#')"/>

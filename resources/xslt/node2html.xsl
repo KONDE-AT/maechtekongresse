@@ -34,6 +34,7 @@
                                                     <xsl:value-of select="concat('hits.html?searchkey=', $entityID)"/>
                                                 </xsl:attribute>
                                                 <xsl:attribute name="target">_blank</xsl:attribute>
+                                        <xsl:attribute name="rel">noopener noreferrer</xsl:attribute>
                                                 mentioned in
                                             </a>
                             </h4>

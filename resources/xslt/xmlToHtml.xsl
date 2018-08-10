@@ -114,12 +114,12 @@
                             </xsl:if>
                                 <tr>
                                     <th>
-                                        <abbr title="//tei:availability//tei:p[1]">License</abbr>
+                                        <abbr title="//tei:availability//tei:p[1]">Lizenz</abbr>
                                     </th>
                                     <xsl:choose>
                                         <xsl:when test="//tei:licence[@target]">
-                                         <td align="center">
-                                             <a class="navlink" target="_blank">
+                                         <td>
+                                             <a class="navlink" target="_blank" rel="noopener noreferrer">
                                                  <xsl:attribute name="href">
                                                      <xsl:value-of select="//tei:licence[1]/data(@target)"/>
                                                  </xsl:attribute>
@@ -476,21 +476,6 @@
             <xsl:element name="a">
                 <xsl:attribute name="class">reference</xsl:attribute>
                 <xsl:attribute name="data-type">listperson.xml</xsl:attribute>
-                <xsl:attribute name="data-key">
-                    <xsl:value-of select="substring-after(data(@ref), '#')"/>
-                    <xsl:value-of select="@key"/>
-                </xsl:attribute>
-                <xsl:apply-templates/>
-            </xsl:element>
-        </strong>
-    </xsl:template>
-    <xsl:template match="tei:rs[@ref or @key]">
-        <strong>
-            <xsl:element name="a">
-                <xsl:attribute name="class">reference</xsl:attribute>
-                <xsl:attribute name="data-type">
-                    <xsl:value-of select="concat('list', data(@type), '.xml')"/>
-                </xsl:attribute>
                 <xsl:attribute name="data-key">
                     <xsl:value-of select="substring-after(data(@ref), '#')"/>
                     <xsl:value-of select="@key"/>

@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Kurzeinleitung</title>
+            <title type="main">Kurzeinleitung</title>
             <author>
                     <forename>Karin</forename>
                <surname>Schneider</surname>
@@ -18,7 +18,7 @@
             <publisher>Österreichische Akademie der Wissenschaften, Institut für Neuzeit- und
                Zeitgeschichtsforschung</publisher>
             <pubPlace>Wien</pubPlace>
-            <availability>           <licence>https://creativecommons.org/licenses/by-sa/4.0/legalcode.de</licence>         </availability>
+            <availability>           <licence target="https://creativecommons.org/licenses/by-sa/4.0/legalcode.de">https://creativecommons.org/licenses/by-sa/4.0/legalcode.de</licence>         </availability>
             <idno>M_01</idno>
          </publicationStmt>
          <sourceDesc>
@@ -43,7 +43,7 @@
    </teiHeader>
    <text>
       <body>
-         <p>Die Kongresse von Aachen (1818), Troppau (1820), Laibach (1821) und Verona (1822) sind
+         <p>Die Kongresse von <ref target="toc.html?collection=editions&amp;filterstring=A">Aachen (1818)</ref>, <ref target="toc.html?collection=editions&amp;filterstring=T">Troppau (1820)</ref>, <ref target="toc.html?collection=editions&amp;filterstring=L">Laibach (1821)</ref> und <ref target="toc.html?collection=editions&amp;filterstring=V">Verona (1822)</ref> sind
             Ausdruck und Ergebnis einer im Vergleich zum 18. Jahrhundert neuen Konzeption von
             Außenpolitik: An die Stelle von zwischenstaatlicher Rivalität und Machtpolitik trat eine
             in diesem Ausmaß bisher nicht praktizierte zwischenstaatliche Kooperation. Die

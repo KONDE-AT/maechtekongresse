@@ -3,11 +3,11 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Bestandsbeschreibung Aachen</title>
+            <title type="main">Bestandsbeschreibung Aachen</title>
             <author>
                     <persName>
                         <forename>Karin</forename>
-               <surname>Schneider</surname>
+                        <surname>Schneider</surname>
                     </persName>
                 </author>
          </titleStmt>
@@ -20,7 +20,7 @@
             <publisher>Österreichische Akademie der Wissenschaften, Institut für Neuzeit- und
                Zeitgeschichtsforschung</publisher>
             <pubPlace>Wien</pubPlace>
-            <availability>           <licence>https://creativecommons.org/licenses/by-sa/4.0/legalcode.de</licence>         </availability>
+            <availability>           <licence target="https://creativecommons.org/licenses/by-sa/4.0/legalcode.de">https://creativecommons.org/licenses/by-sa/4.0/legalcode.de</licence>         </availability>
             <idno>M_05</idno>
          </publicationStmt>
          <sourceDesc>
@@ -55,7 +55,6 @@
    </teiHeader>
    <text>
       <body>
-         <head>Bestandsbeschreibung Aachen</head>
          <p>Die den Kongress von Aachen betreffenden Dokumente befinden sich in der Reihe
             „Kongressakten“, Karton 17 und 18, Faszikel 29 bis 32, im Bestand „Staatskanzlei“ im
             Österreichischen Staatsarchiv, Haus-, Hof- und Staatsarchiv in Wien.</p>

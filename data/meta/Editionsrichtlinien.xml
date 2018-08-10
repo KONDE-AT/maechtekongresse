@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Editionsrichtlinien</title>
+            <title type="main">Editionsrichtlinien</title>
             <author>
                     <persName>
                         <forename>Karin</forename>
@@ -20,7 +20,7 @@
             <publisher>Österreichische Akademie der Wissenschaften, Institut für Neuzeit- und
                Zeitgeschichtsforschung</publisher>
             <pubPlace>Wien</pubPlace>
-            <availability>           <licence>https://creativecommons.org/licenses/by-sa/4.0/legalcode.de</licence>         </availability>
+            <availability>           <licence target="https://creativecommons.org/licenses/by-sa/4.0/legalcode.de">https://creativecommons.org/licenses/by-sa/4.0/legalcode.de</licence>         </availability>
             <idno>M_04</idno>
          </publicationStmt>
          <sourceDesc>
@@ -56,7 +56,6 @@
    <text>
       <body>
          <div>
-            <head>Editionsrichtlinien</head>
             <p>
                     <rs xml:id="n.1">Die schriftliche Hinterlassenschaft der Mächtekongresse von Aachen
                   (1818), Troppau/Opava (1820), Laibach/Ljubljana (1821) und Verona (1822) befindet
