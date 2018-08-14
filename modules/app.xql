@@ -434,3 +434,28 @@ declare function app:listOrg($node as node(), $model as map(*)) {
         </tr>
 };
 
+(:~
+ : creates paging 
+ :)
+declare function app:Pagination($doc as node(), $fileIndex as node(), $sourceFile as xs:string) {
+
+    let $first := concat($fileIndex/tei:item[1]/@source, '.html')
+    let $last := concat($fileIndex/tei:item[last()]/@source, '.html')
+    let $previous := 
+        if ($sourceFile ne $first) then 
+            concat($doc/preceding-sibling::*[1]/@source, '.html')
+        else $first
+    let $next := 
+        if ($sourceFile ne $last) then 
+            concat($doc/following-sibling::*[1]/@source, '.html')
+        else $last
+    let $pagination := 
+        <list xmlns="http://www.tei-c.org/ns/1.0">
+            <item type="first" source="{$first}"/>
+            <item type="previous" source="{$previous}"/>
+            <item type="next" source="{$next}"/>
+            <item type="last" source="{$last}"/>
+        </list>
+
+    return $pagination
+};

@@ -13,10 +13,34 @@
 -->
     <xsl:template match="/">
         <div class="page-header">
-            <h2 align="center">
+            <style type="text/css"><!-- weird hack to display page title within the scrolltop div -->
+                <xsl:text>.apst-button:hover::after { content: "</xsl:text>
+                    <xsl:for-each select="//tei:fileDesc/tei:titleStmt/tei:title[@type='main']">
+                        <xsl:apply-templates/>
+                        <xsl:if test="position() != last()">
+                        <xsl:text> </xsl:text>
+                    </xsl:if>
+                    </xsl:for-each>
+                <xsl:text>";</xsl:text>
+            </style>
+            <ul id="ph" class="pager">
+                <xsl:for-each select="//tei:fileDesc/tei:titleStmt/tei:title[@type='main']">
+                    <li>
+                        <a href="#">
+                            <xsl:apply-templates/>
+                        <xsl:if test="position() != last()">
+                                <xsl:text> | </xsl:text>
+                            </xsl:if>
+                    </a>
+                    </li>
+                </xsl:for-each>
+            </ul>
+            <h2 style="text-align:center">
                 <xsl:for-each select="//tei:fileDesc/tei:titleStmt/tei:title[@type='main']">
                     <xsl:apply-templates/>
-                    <br/>
+                    <xsl:if test="position() != last()">
+                        <br/>
+                    </xsl:if>
                 </xsl:for-each>
             </h2>
         </div>
@@ -250,7 +274,7 @@
                     </h3>
                     <div id="headings" class="readmore">
                         <ul>
-                            <xsl:for-each select="/tei:TEI/tei:text/tei:body//tei:div//tei:title">
+                            <xsl:for-each select="/tei:TEI/tei:text/tei:body//tei:div//tei:title[not(@type = ('sub', 'desc'))]">
                                 <li>
                                     <a>
                                         <xsl:attribute name="href">
@@ -264,7 +288,8 @@
                                             <xsl:apply-templates select=".//tei:orig"/>
                                         </xsl:when>
                                         <xsl:otherwise>
-                                            <xsl:value-of select="."/>
+<!--                                            <xsl:value-of select="."/>-->
+                                            <xsl:apply-templates/>
                                         </xsl:otherwise>
                                     </xsl:choose>
                                     
@@ -679,11 +704,20 @@
             </xsl:attribute>
             <xsl:text> </xsl:text>
         </a>
-        <h3>
-            <div>
-                <xsl:apply-templates/>
-            </div>
-        </h3>
+        <xsl:choose>
+            <xsl:when test="@type='sub' or 'desc'">
+                <h4>
+                    <xsl:apply-templates/>
+                </h4>
+            </xsl:when>
+            <xsl:otherwise>
+                <h3>
+                    <div>
+                        <xsl:apply-templates/>
+                    </div>
+                </h3>
+            </xsl:otherwise>
+        </xsl:choose>
     </xsl:template><!--  Quotes / Zitate -->
     <xsl:template match="tei:q">
         <xsl:element name="i">
