@@ -1,10 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns="http://www.w3.org/1999/xhtml" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" exclude-result-prefixes="tei" version="2.0"><!-- <xsl:strip-space elements="*"/>-->
     <xsl:import href="shared/base.xsl"/>
     <xsl:param name="document"/>
     <xsl:param name="app-name"/>
     <xsl:param name="collection-name"/>
     <xsl:param name="path2source"/>
+    <xsl:param name="prev-doc"/>
+    <xsl:param name="next-doc"/>
     <xsl:param name="ref"/>
     <!--
 ##################################
@@ -12,6 +13,8 @@
 ##################################
 -->
     <xsl:template match="/">
+        <xsl:value-of select="$prev-doc"/>
+        <xsl:value-of select="$next-doc"/>
         <div class="page-header">
             <style type="text/css"><!-- weird hack to display page title within the scrolltop div -->
                 <xsl:text>.apst-button:hover::after { content: "</xsl:text>
