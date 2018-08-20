@@ -12,19 +12,23 @@
                   <surname>Schneider</surname>
                   <forename>Karin</forename>
                </persName>
-                </editor>
+            </editor>
          </titleStmt>
          <editionStmt>
             <edition>
-                    <date>2017-03-13</date>
-                </edition>
+               <date>2017-03-13</date>
+            </edition>
          </editionStmt>
          <publicationStmt>
             <publisher>Österreichische Akademie der Wissenschaften, Institut für Neuzeit- und
                Zeitgeschichtsforschung</publisher>
             <pubPlace>Wien</pubPlace>
             <idno>L_12</idno>
-                 <availability>           <licence target="https://creativecommons.org/licenses/by-sa/4.0/legalcode.de">https://creativecommons.org/licenses/by-sa/4.0/legalcode.de</licence>         </availability> </publicationStmt>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-sa/4.0/legalcode.de"
+                  >https://creativecommons.org/licenses/by-sa/4.0/legalcode.de</licence>
+            </availability>
+         </publicationStmt>
          <sourceDesc>
             <msDesc xml:id="m.1" type="Originaljournal">
                <msIdentifier>
@@ -45,17 +49,15 @@
                <physDesc>
                   <p>Journal</p>
                   <p>
-                            <persName ref="#p.137">
-                                <surname>Stewart</surname>
-                            </persName> in der
-                     Anwesenheitsliste gestrichen.</p>
+                     <persName ref="#p.137">
+                        <surname>Stewart</surname>
+                     </persName> in der Anwesenheitsliste gestrichen.</p>
                   <p>
-                            <persName ref="#p.136">
-                                <surname>Krusemarck</surname>
-                            </persName> von <persName ref="#p.5">
-                                <surname>Gentz</surname>
-                            </persName> nachträglich in der
-                     Anwesenheitsliste ergänzt.</p>
+                     <persName ref="#p.136">
+                        <surname>Krusemarck</surname>
+                     </persName> von <persName ref="#p.5">
+                        <surname>Gentz</surname>
+                     </persName> nachträglich in der Anwesenheitsliste ergänzt.</p>
                   <handDesc>
                      <handNote xml:id="A">Anonyme Hand</handNote>
                      <handNote xml:id="A1">Weitere anonyme Hand</handNote>
@@ -68,10 +70,9 @@
                </physDesc>
                <history>
                   <origin>
-                            <placeName ref="#loc.65">Laibach</placeName>
-                            <date when="1821-02-20">20.
-                        Februar 1821</date>
-                        </origin>
+                     <placeName ref="#loc.65">Laibach</placeName>
+                     <date when="1821-02-20">20. Februar 1821</date>
+                  </origin>
                </history>
             </msDesc>
             <msDesc xml:id="m.2" type="Ausfertigung">
@@ -136,38 +137,36 @@
                </msContents>
                <physDesc>
                   <p>Ausfertigung von <persName ref="#p.6">
-                                <forename>Nikolaus</forename>
+                        <forename>Nikolaus</forename>
                         <surname>Wacken</surname>
-                            </persName>
-                        </p>
+                     </persName>
+                  </p>
 
                </physDesc>
             </msDesc>
             <listWit corresp="#m.1">
                <head>Journal</head>
                <witness corresp="#w.37">
-                        <bibl type="print">Alberti, Atti, S.
-                  436-437.</bibl>
-                    </witness>
+                  <bibl type="print">Alberti, Atti, S. 436-437.</bibl>
+               </witness>
             </listWit>
             <listWit corresp="#m.2">
                <head>Anlage 1: Erklärung des Kirchenstaats</head>
                <witness corresp="#w.37">
-                        <bibl type="print">Alberti, Atti, S. 438.</bibl>
-                    </witness>
+                  <bibl type="print">Alberti, Atti, S. 438.</bibl>
+               </witness>
             </listWit>
             <listWit corresp="#m.3">
                <head>Anlage 2: Toskanische Erklärung</head>
                <witness corresp="#w.37">
-                        <bibl type="print">Alberti, Atti, S. 438.</bibl>
-                    </witness>
+                  <bibl type="print">Alberti, Atti, S. 438.</bibl>
+               </witness>
             </listWit>
             <listWit corresp="#m.4">
                <head>Anlage 3: Modenesische Erklärung</head>
                <witness corresp="#w.37">
-                        <bibl type="print">Alberti, Atti, S.
-                  438-439.</bibl>
-                    </witness>
+                  <bibl type="print">Alberti, Atti, S. 438-439.</bibl>
+               </witness>
             </listWit>
          </sourceDesc>
       </fileDesc>
@@ -187,15 +186,15 @@
       </encodingDesc>
       <profileDesc>
          <abstract>
-            <p>Erklärungen der <rs ref="#p.164 #p.165 #p.168" type="multi-person">Vertreter des Kirchenstaats, der
-                  Toskana und Modenas</rs> hinsichtlich der österreichischen Denkschrift betreffend
-               die militärische Okkupation des <country>Königreichs beider Sizilien</country>. Der
-               neapolitanische Gesandte <persName ref="#p.140">
-                        <surname>Ruffo</surname>
-                    </persName>
-               informiert die <rs ref="#p.8 #p.2 #p.12 #p.13 #p.14 #p.7" type="multi-person">Vertreter der Mächte</rs>
-               über die vom <rs ref="#p.138" type="person">König beider Sizilien</rs> beschlossenen Reformen in
-               seinem Herrschaftsgebiet.</p>
+            <p>Erklärungen der <rs ref="#p.164 #p.165 #p.168" type="multi-person">Vertreter des
+                  Kirchenstaats, der Toskana und Modenas</rs> hinsichtlich der österreichischen
+               Denkschrift betreffend die militärische Okkupation des <country>Königreichs beider
+                  Sizilien</country>. Der neapolitanische Gesandte <persName ref="#p.140">
+                  <surname>Ruffo</surname>
+               </persName> informiert die <rs ref="#p.8 #p.2 #p.12 #p.13 #p.14 #p.7"
+                  type="multi-person">Vertreter der Mächte</rs> über die vom <rs ref="#p.138"
+                  type="person">König beider Sizilien</rs> beschlossenen Reformen in seinem
+               Herrschaftsgebiet.</p>
          </abstract>
          <particDesc>
             <listPerson>
@@ -264,45 +263,43 @@
             <pb n="95r"/>
 
             <p>
-                    <title rendition="#u">Journal des Conférences</title>
-                </p>
-            <p>
-                    <title rendition="#u">
-                        <choice>
+               <title rendition="#u">Journal des Conférences<lb/>
+                  <choice>
                      <abbr>Nr.</abbr>
                      <expan>Numéro</expan>
                   </choice> XII.</title>
-                </p>
+            </p>
             <p rendition="#u">
-                    <placeName ref="#loc.65">Laybach</placeName> le <date when="1821-02-20">20 Février 1821</date>
-                </p>
+               <placeName ref="#loc.65">Laybach</placeName> le <date when="1821-02-20">20 Février
+                  1821</date>
+            </p>
 
             <p>À la suite du <ref target="Laibach_Prot_11.xml">Journal de la dernière
-                  conférence</ref>, lequel a été lu et approuvé dans celle de ce jour, <add hand="#G" place="inline">
-                        <choice>
+                  conférence</ref>, lequel a été lu et approuvé dans celle de ce jour, <add
+                  hand="#G" place="inline">
+                  <choice>
                      <abbr>Msgr.</abbr>
                      <expan>Monseigneur</expan>
                   </choice> le <persName ref="#p.164">
-                            <roleName>Cardinal</roleName>
+                     <roleName>Cardinal</roleName>
                      <surname>Spina</surname>
-                        </persName>, Légat de <rs ref="#p.155" type="person">Sa
-                  Sainteté</rs>
-                    </add>, <choice>
+                  </persName>, Légat de <rs ref="#p.155" type="person">Sa Sainteté</rs>
+               </add>, <choice>
                   <abbr>Mr.</abbr>
                   <expan>Monsieur</expan>
                </choice> le <persName ref="#p.168">
-                        <roleName>Prince</roleName>
+                  <roleName>Prince</roleName>
                   <surname>de Corsini</surname>
-                    </persName>, Plénipotentiaire de <choice>
+               </persName>, Plénipotentiaire de <choice>
                   <abbr>S. A. I. R.</abbr>
                   <expan>Son Altesse Impériale Royale</expan>
                </choice> le <rs ref="#p.170" type="person">Grand-Duc de Toscane</rs>, et <choice>
                   <abbr>Mr.</abbr>
                   <expan>Monsieur</expan>
                </choice> le <persName ref="#p.165">
-                        <roleName>Marquis</roleName>
+                  <roleName>Marquis</roleName>
                   <surname>de Molza</surname>
-                    </persName>, Plénipotentiaire de <choice>
+               </persName>, Plénipotentiaire de <choice>
                   <abbr>S. A. R.</abbr>
                   <expan>Son Altesse Royale</expan>
                </choice> le <rs ref="#p.171" type="person">Duc de Modène</rs>, ont donné lecture des <subst>
@@ -310,26 +307,29 @@
                   <add hand="#G" place="above">trois</add>
                </subst> pièces ci-jointes <ref decls="#m.2">sub A</ref>
                <del rendition="#s">et</del>, <ref decls="#m.3">B</ref>, <add place="above" hand="#G">
-                        <ref decls="#m.4">C</ref>
-                    </add> relatives aux <ref target="Laibach_Prot_11.xml">
-                        <add hand="#G" place="above">pro</add>positions du
-                  Cabinet d’Autriche, telles qu’elles se trouvent consignées au Journal du <date when="1821-02-02">2 de ce mois</date>
-                    </ref>.</p>
+                  <ref decls="#m.4">C</ref>
+               </add> relatives aux <ref target="Laibach_Prot_11.xml">
+                  <add hand="#G" place="above">pro</add>positions du Cabinet d’Autriche, telles
+                  qu’elles se trouvent consignées au Journal du <date when="1821-02-02">2 de ce
+                     mois</date>
+               </ref>.</p>
             <p>
-                    <choice>
+               <choice>
                   <abbr>Mr.</abbr>
                   <expan>Monsieur</expan>
                </choice> le <persName ref="#p.140">
-                        <roleName>Prince</roleName>
+                  <roleName>Prince</roleName>
                   <surname>de Ruffo</surname>
-                    </persName>, après avoir informé la conférence qu’il
-               étoit chargé d’une communication de la part de <choice>
+               </persName>, après avoir informé la conférence qu’il étoit chargé d’une communication
+               de la part de <choice>
                   <abbr>S. M.</abbr>
                   <expan>Sa Majesté</expan>
-               </choice> le <rs ref="#p.138" type="person">Roi des Deux-Siciles</rs>, a fait, au nom de <rs ref="#p.138" type="person">Sa Majesté</rs>, la déclaration suivante :</p>
-            <p>Le <rs ref="#p.138" type="person">Roi</rs>, sans cesse occupé du bonheur de Ses peuples, a réfléchi
-               longtems sur les principes à adopter pour reconstruire le Gouvernement de Son Royaume
-               aussitôt que la tranquillité y sera<pb n="95v"/> suffisamment rétablie.</p>
+               </choice> le <rs ref="#p.138" type="person">Roi des Deux-Siciles</rs>, a fait, au nom
+               de <rs ref="#p.138" type="person">Sa Majesté</rs>, la déclaration suivante :</p>
+            <p>Le <rs ref="#p.138" type="person">Roi</rs>, sans cesse occupé du bonheur de Ses
+               peuples, a réfléchi longtems sur les principes à adopter pour reconstruire le
+               Gouvernement de Son Royaume aussitôt que la tranquillité y sera<pb n="95v"/>
+               suffisamment rétablie.</p>
             <p>Après avoir envisagé cette question importante sous toutes ses différentes faces, <choice>
                   <abbr>S. M.</abbr>
                   <expan>Sa Majesté</expan>
@@ -337,10 +337,10 @@
             <p>1. De séparer l’administration de Naples de celle de la Sicile, en conservant
                soigneusement tous les liens qui les unissent sous un même sceptre ;</p>
             <p>2. De donner à Son Conseil d’Etat dans l’une et l’autre partie du Royaume
-               l’organisation la plus efficace et la plus propre à éclairer <rs ref="#p.138" type="person">Sa
-                  Majesté</rs> sur les besoins et les intérêts de Ses peuples et sur les mesures
-               nécessaires pour assurer en même tems la marche régulière du Gouvernement et le
-               bien-être du pays ;</p>
+               l’organisation la plus efficace et la plus propre à éclairer <rs ref="#p.138"
+                  type="person">Sa Majesté</rs> sur les besoins et les intérêts de Ses peuples et
+               sur les mesures nécessaires pour assurer en même tems la marche régulière du
+               Gouvernement et le bien-être du pays ;</p>
             <p>3. D’établir dans les deux parties du Royaume un corps consultatif, servant de
                garantie à ce que les projets de haute législation, avant<pb n="96r"/> de passer en
                loi, et les mesures d’administration générale, avant d’être définitivement arrêtées,
@@ -351,197 +351,211 @@
             <p>5. De régler enfin l’administration communale d’après les principes les plus
                favorables au bien-être des communes et à la conservation de leur patrimoine.</p>
             <p>
-                    <rs ref="#p.138" type="person">
-                        <choice>
+               <rs ref="#p.138" type="person">
+                  <choice>
                      <abbr>S. M.</abbr>
                      <expan>Sa Majesté</expan>
                   </choice>
-                    </rs>, pleinement convaincue qu’un mode de Gouvernement fondé sur ces
-               bases garantira également la tranquillité et l’ordre de Son Royaume et le bonheur de
-               ses fidèles sujets, ne peut pas mettre en doute que <rs ref="#p.16 #p.18 #p.17" type="multi-person">Ses
-                  Augustes Alliés</rs> ne ren<pb n="96v"/>dent une entière justice aux intentions et
-               aux vues qui l’ont guidée. C’est dans la persuasion que, par l’adoption des bases
-               citées ci-dessus, <rs ref="#p.138" type="person">
-                        <choice>
+               </rs>, pleinement convaincue qu’un mode de Gouvernement fondé sur ces bases garantira
+               également la tranquillité et l’ordre de Son Royaume et le bonheur de ses fidèles
+               sujets, ne peut pas mettre en doute que <rs ref="#p.16 #p.18 #p.17"
+                  type="multi-person">Ses Augustes Alliés</rs> ne ren<pb n="96v"/>dent une entière
+               justice aux intentions et aux vues qui l’ont guidée. C’est dans la persuasion que,
+               par l’adoption des bases citées ci-dessus, <rs ref="#p.138" type="person">
+                  <choice>
                      <abbr>S. M.</abbr>
                      <expan>Sa Majesté</expan>
                   </choice>
-                    </rs> contribuera également au maintien de la tranquillité intérieure de
-               la péninsule italienne que le <rs ref="#p.138" type="person">Roi</rs> a ordonné à <rs ref="#p.140" type="person">Son Plénipotentiaire</rs> de les faire connoître à <rs ref="#p.16 #p.18 #p.17" type="multi-person">Ses augustes alliés</rs>. <rs ref="#p.138" type="person">Sa Majesté</rs> aime à se flatter
-               qu’ils apprécieront cette preuve de Sa confiance, et que les Princes d’Italie
-               reconnoîtront dans les principes qu’Elle a eus en vue dans cette grave circonstance
-               un nouveau témoignage de sa constante sollicitude à cimenter les rapports de bon
-               voisinage si heureusement établis avec eux.</p>
+               </rs> contribuera également au maintien de la tranquillité intérieure de la péninsule
+               italienne que le <rs ref="#p.138" type="person">Roi</rs> a ordonné à <rs ref="#p.140"
+                  type="person">Son Plénipotentiaire</rs> de les faire connoître à <rs
+                  ref="#p.16 #p.18 #p.17" type="multi-person">Ses augustes alliés</rs>. <rs
+                  ref="#p.138" type="person">Sa Majesté</rs> aime à se flatter qu’ils apprécieront
+               cette preuve de Sa confiance, et que les Princes d’Italie reconnoîtront dans les
+               principes qu’Elle a eus en vue dans cette grave circonstance un nouveau témoignage de
+               sa constante sollicitude à cimenter les rapports de bon voisinage si heureusement
+               établis avec eux.</p>
             <p>
-                    <rs ref="#p.138" type="person">Sa Majesté</rs> doit observer en même tems qu’Elle ne peut que
-               remettre le développement ultérieur de ces bases et la rédaction des<pb n="97r"/>
-               actes qui en seront les résultats à l’époque heureuse où, entourée d’un Conseil
-               choisi parmi les hommes les plus intègres et les plus sages de ses Etats, Elle pourra
-               vouer de nouveau tous Ses soins aux grands intérêts de Son pays et à la prospérité de
-               Ses sujets.</p>
+               <rs ref="#p.138" type="person">Sa Majesté</rs> doit observer en même tems qu’Elle ne
+               peut que remettre le développement ultérieur de ces bases et la rédaction des<pb
+                  n="97r"/> actes qui en seront les résultats à l’époque heureuse où, entourée d’un
+               Conseil choisi parmi les hommes les plus intègres et les plus sages de ses Etats,
+               Elle pourra vouer de nouveau tous Ses soins aux grands intérêts de Son pays et à la
+               prospérité de Ses sujets.</p>
             <p>
-                    <choice>
+               <choice>
                   <abbr>Mrs.</abbr>
                   <expan>Messieurs</expan>
                </choice> les Plénipotentiaires des autres Puissances se sont réservés de prendre en
-               considération les ouvertures faites au nom de <rs ref="#p.138" type="person">Sa Majesté
-                  Sicilienne</rs> et d’énoncer leur opinion dans une conférence subséquente.</p>
+               considération les ouvertures faites au nom de <rs ref="#p.138" type="person">Sa
+                  Majesté Sicilienne</rs> et d’énoncer leur opinion dans une conférence
+               subséquente.</p>
             <p rendition="#r">
-                    <add hand="#G">Lu et certifié</add>
-                </p>
+               <add hand="#G">Lu et certifié</add>
+            </p>
             <p rendition="#r">
-                    <add hand="#G">à la conférence du <date when="1821-02-21">21
-                     février</date>
-                    </add>
-                </p>
+               <add hand="#G">à la conférence du <date when="1821-02-21">21 février</date>
+               </add>
+            </p>
             <signed rendition="#r">
-                    <persName ref="#p.5">
-                        <surname>Gentz</surname>
-                    </persName>
-                </signed>
+               <persName ref="#p.5">
+                  <surname>Gentz</surname>
+               </persName>
+            </signed>
          </div>
 
          <div hand="#A" decls="#m.2">
             <pb n="99r"/>
             <p>
-                    <add place="top">A.</add>
-                </p>
+               <add place="top">A.</add>
+            </p>
             <p>
-                    <title>Déclaration de <choice>
+               <title>Déclaration de <choice>
                      <abbr>Mgr</abbr>
                      <expan>Monseigneur</expan>
                   </choice> le <persName ref="#p.164">
-                            <roleName>Cardinal</roleName>
+                     <roleName>Cardinal</roleName>
                      <surname>Spina</surname>
-                        </persName>, légat de <rs ref="#p.155" type="person">Sa
-                  Sainteté</rs>
-                    </title>
-                </p>
+                  </persName>, légat de <rs ref="#p.155" type="person">Sa Sainteté</rs>
+               </title>
+            </p>
             <p>Le <persName ref="#p.164">
-                        <roleName>Cardinal</roleName>
+                  <roleName>Cardinal</roleName>
                   <surname>Spina</surname>
-                    </persName> s’est empressé de faire connoître à <rs ref="#p.155" type="person">Sa Sainteté</rs>
+               </persName> s’est empressé de faire connoître à <rs ref="#p.155" type="person">Sa
+                  Sainteté</rs>
                <hi rendition="#u">Le Point de vue sur L’Armée d’Occupation</hi> qui a été L’objet de
                La <ref target="Laibach_Prot_11.xml">Conférence du <del rendition="#s">30
                      Janvier</del>
-                        <add hand="#AmB" place="above">
-                            <date when="1821-02-02">2
-                        Février</date>
-                        </add>
-                    </ref>.</p>
+                  <add hand="#AmB" place="above">
+                     <date when="1821-02-02">2 Février</date>
+                  </add>
+               </ref>.</p>
             <p>Le <persName ref="#p.164">
-                        <roleName>Cardinal</roleName>
+                  <roleName>Cardinal</roleName>
                   <surname>Spina</surname>
-                    </persName> ne doute pas que Le <rs ref="#p.155" type="person">S<hi rendition="#su">t</hi> Père</rs> ne se réunisse aux autres Puissances à rendre
-               hommage aux mesures de générosité et de justice que <rs ref="#p.16" type="person" xml:id="n.2">
-                        <choice>
+               </persName> ne doute pas que Le <rs ref="#p.155" type="person">S<hi rendition="#su"
+                     >t</hi> Père</rs> ne se réunisse aux autres Puissances à rendre hommage aux
+               mesures de générosité et de justice que <rs ref="#p.16" type="person" xml:id="n.2">
+                  <choice>
                      <abbr>S. M. I. R. A.</abbr>
                      <expan>Sa Majesté Impériale Royale Apostolique</expan>
                   </choice>
-                    </rs>
-                    <note type="editorial" target="#n.2">Ehrentitel des Kaisers von
-                  Österreich.</note> a cru, dans Sa haute sagesse, d’adopter soit pour Le
-                  <country>Royaume de Naples</country>, soit pour Les autres Etats de l’Italie.</p>
+               </rs>
+               <note type="editorial" target="#n.2">Ehrentitel des Kaisers von Österreich.</note> a
+               cru, dans Sa haute sagesse, d’adopter soit pour Le <country>Royaume de
+                  Naples</country>, soit pour Les autres Etats de l’Italie.</p>
             <p>En attendant, Le <persName ref="#p.164">
-                        <roleName>Cardinal</roleName>
+                  <roleName>Cardinal</roleName>
                   <surname>Spina</surname>
-                    </persName> s’honore de réunir ses sentiments respectueux
-               à ceux qui ont été manifesté dans La Conférence par Les Plénipotentiaires des autres
-               Cours d’Italie.</p>
+               </persName> s’honore de réunir ses sentiments respectueux à ceux qui ont été
+               manifesté dans La Conférence par Les Plénipotentiaires des autres Cours d’Italie.</p>
          </div>
 
          <div hand="#A" decls="#m.3">
             <pb n="101r"/>
 
             <p>
-                    <add place="top">B.</add>
-                </p>
+               <add place="top">B.</add>
+            </p>
 
             <p>
-                    <add hand="#W" place="top">Déclaration de Monsieur le <persName ref="#p.168">
-                            <roleName>Prince</roleName>
+               <add hand="#W" place="top">Déclaration de Monsieur le <persName ref="#p.168">
+                     <roleName>Prince</roleName>
                      <surname>de Corsini</surname>
-                        </persName>, Plénipotentiaire de Toscane</add>
-                </p>
+                  </persName>, Plénipotentiaire de Toscane</add>
+            </p>
             <p>
-                    <title>Note pour le Journal des Conférences</title>
-                </p>
+               <title>Note pour le Journal des Conférences</title>
+            </p>
             <p>
-                    <rs ref="#p.168" type="person">Le Ministre Plénipotentiaire de la Cour de Toscane</rs> a déclaré
-               qu’il s’est fait un devoir de porter à la connoissance de <choice>
+               <rs ref="#p.168" type="person">Le Ministre Plénipotentiaire de la Cour de
+                  Toscane</rs> a déclaré qu’il s’est fait un devoir de porter à la connoissance de <choice>
                   <abbr>S. A. I et R<hi rendition="#su">e</hi>
-                        </abbr>
+                  </abbr>
                   <expan>Son Altesse Impériale et Royale</expan>
-               </choice> Le <rs ref="#p.170" type="person">Grand-Duc</rs>, son Auguste Maître, le <ref target="Laibach_Prot_11.xml">Mémoire intitulé « <hi rendition="#u">Points de vue
-                     sur l’armée d’occupation</hi> »</ref>
+               </choice> Le <rs ref="#p.170" type="person">Grand-Duc</rs>, son Auguste Maître, le
+                  <ref target="Laibach_Prot_11.xml">Mémoire intitulé « <hi rendition="#u">Points de
+                     vue sur l’armée d’occupation</hi> »</ref>
                <add hand="#G" place="margin">que <choice>
                      <abbr>Mr.</abbr>
                      <expan>Monsieur</expan>
                   </choice> le <persName ref="#p.8">
-                            <roleName>Prince</roleName>
+                     <roleName>Prince</roleName>
                      <surname>de Metternich</surname>
-                        </persName> a présenté au nom de <rs ref="#p.16" type="person">Son Auguste Souverain</rs>
-                    </add> ;</p>
+                  </persName> a présenté au nom de <rs ref="#p.16" type="person">Son Auguste
+                     Souverain</rs>
+               </add> ;</p>
             <p>Qu’il est convaincu d’avance que <rs ref="#p.170" type="person">
-                        <choice>
+                  <choice>
                      <abbr>S. A. I et R<hi rendition="#su">e</hi>
-                            </abbr>
+                     </abbr>
                      <expan>Son Altesse Impériale et Royale</expan>
                   </choice>
-                    </rs>, conformément aux sentimens qu’elle a déjà fait exprimer en Son Nom
-               à l’égard de l’occupation militaire du <country>Royaume de Naples</country>, ne
-               pourra que trouver très sagement combinées les mesures adoptées pour en assurer et en
+               </rs>, conformément aux sentimens qu’elle a déjà fait exprimer en Son Nom à l’égard
+               de l’occupation militaire du <country>Royaume de Naples</country>, ne pourra que
+               trouver très sagement combinées les mesures adoptées pour en assurer et en
                régulariser l’exécution ;</p>
-            <p>Que le <rs ref="#p.170" type="person">Grand-Duc</rs>, connoissant depuis longtems les principes de
-               justice et de désintéressement par lesquels <choice>
+            <p>Que le <rs ref="#p.170" type="person">Grand-Duc</rs>, connoissant depuis longtems les
+               principes de justice et de désintéressement par lesquels <choice>
                   <abbr>S. M.</abbr>
                   <expan>Sa Majesté</expan>
-               </choice> L’<rs ref="#p.16" type="person">Empereur<pb n="101v"/> d’Autriche</rs> a été guidé dans
-               toutes ses démarches de concert avec <rs ref="#p.18 #p.17" type="multi-person">ses augustes alliés</rs>,
-               n’a jamais pu douter des égards que l’on aurait eu envers les états intermédiaires à
-               l’occasion du passage des Troupes, ni de l’indemnité complète qu’on leur aurait
-               assuré pour toutes les dépenses que ce passage pourrait causer ;</p>
-            <p>Que néanmoins le <rs ref="#p.170" type="person">Grand-Duc</rs> sera fort aisé de trouver une
-               nouvelle garantie de ce résultat dans le <add hand="#G" place="inline">susdit</add>
-               Mémoire, <del rendition="#s" hand="#G">qui forme l’annexe du Journal des
-                  Conférences</del> et ne pourra qu’être très reconnoissant aux dispositions aussi
-               équitables que bienfesantes qui y sont annoncées.</p>
+               </choice> L’<rs ref="#p.16" type="person">Empereur<pb n="101v"/> d’Autriche</rs> a
+               été guidé dans toutes ses démarches de concert avec <rs ref="#p.18 #p.17"
+                  type="multi-person">ses augustes alliés</rs>, n’a jamais pu douter des égards que
+               l’on aurait eu envers les états intermédiaires à l’occasion du passage des Troupes,
+               ni de l’indemnité complète qu’on leur aurait assuré pour toutes les dépenses que ce
+               passage pourrait causer ;</p>
+            <p>Que néanmoins le <rs ref="#p.170" type="person">Grand-Duc</rs> sera fort aisé de
+               trouver une nouvelle garantie de ce résultat dans le <add hand="#G" place="inline"
+                  >susdit</add> Mémoire, <del rendition="#s" hand="#G">qui forme l’annexe du Journal
+                  des Conférences</del> et ne pourra qu’être très reconnoissant aux dispositions
+               aussi équitables que bienfesantes qui y sont annoncées.</p>
          </div>
 
          <div hand="#W" decls="#m.4">
             <pb n="102r"/>
             <p>
-                    <add place="top" hand="#AmB">C.</add>
-                </p>
+               <add place="top" hand="#AmB">C.</add>
+            </p>
             <p>
-                    <title>Déclaration de Monsieur le <persName ref="#p.165">
-                            <roleName>Marquis</roleName>
+               <title>Déclaration de Monsieur le <persName ref="#p.165">
+                     <roleName>Marquis</roleName>
                      <surname>de Molza</surname>
-                        </persName>
-                    </title>
-                </p>
-            <p>Ayant rendu compte à Son Altesse Royale l’Archiduc <rs ref="#p.171" type="person">Duc de
-                  Modène</rs> des dispositions de <rs ref="#p.16" type="person" xml:id="n.3">Sa Majesté Impériale
-                  et Royale Apostolique</rs>,<note type="editorial" target="#n.3">Ehrentitel des
-                  Kaisers von Österreich.</note> contenues dans la pièce intitulée « Point de vue
-               sur l’armée d’occupation » communiquée à la <ref target="Laibach_Prot_11.xml">Conférence dans la séance du <date when="1821-02-02">2 Février</date>
-                    </ref>, <rs ref="#p.171" type="person">Son Altesse Royale</rs>, mon Auguste Maître, m’a ordonné de déclarer
-               qu’Il reconnait les nobles mesures adoptées par <rs ref="#p.16" type="person">Sa Majesté</rs> comme
-               les plus propres aux circonstances pour la tranquillité de l’Italie, et qu’Il est
-               pénétré de reconnaissance, comme Il croit que le seront tous les Princes d’Italie,
-               pour les généreuses dispositions de <rs ref="#p.16" type="person">Sa Majesté</rs> à vouloir
-               soutenir Elle seule les dépenses de l’armement.</p>
-            <p>Comme <rs ref="#p.171" type="person">Son Altesse Royale</rs> souhaite que cet hommage de Sa
-               reconnaissance soit connu de tous les Cabinets réunis à <placeName ref="#loc.65">Laybach</placeName>, je demande que la présente Déclaration soit insérée au
-               Journal des Conférences.</p>
+                  </persName>
+               </title>
+            </p>
+            <p>Ayant rendu compte à Son Altesse Royale l’Archiduc <rs ref="#p.171" type="person">Duc
+                  de Modène</rs> des dispositions de <rs ref="#p.16" type="person" xml:id="n.3">Sa
+                  Majesté Impériale et Royale Apostolique</rs>,<note type="editorial" target="#n.3"
+                  >Ehrentitel des Kaisers von Österreich.</note> contenues dans la pièce intitulée
+               « Point de vue sur l’armée d’occupation » communiquée à la <ref
+                  target="Laibach_Prot_11.xml">Conférence dans la séance du <date when="1821-02-02"
+                     >2 Février</date>
+               </ref>, <rs ref="#p.171" type="person">Son Altesse Royale</rs>, mon Auguste Maître,
+               m’a ordonné de déclarer qu’Il reconnait les nobles mesures adoptées par <rs
+                  ref="#p.16" type="person">Sa Majesté</rs> comme les plus propres aux circonstances
+               pour la tranquillité de l’Italie, et qu’Il est pénétré de reconnaissance, comme Il
+               croit que le seront tous les Princes d’Italie, pour les généreuses dispositions de
+                  <rs ref="#p.16" type="person">Sa Majesté</rs> à vouloir soutenir Elle seule les
+               dépenses de l’armement.</p>
+            <p>Comme <rs ref="#p.171" type="person">Son Altesse Royale</rs> souhaite que cet hommage
+               de Sa reconnaissance soit connu de tous les Cabinets réunis à <placeName
+                  ref="#loc.65">Laybach</placeName>, je demande que la présente Déclaration soit
+               insérée au Journal des Conférences.</p>
          </div>
       </body>
       <back>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/listplace.xml" xpointer="listPlace"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/listperson.xml" xpointer="listPerson"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/listwit.xml" xpointer="listWit"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/listorg.xml" xpointer="listOrg"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/listtreaties.xml" xpointer="listTreaties"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/listplace.xml"
+            xpointer="listPlace"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/listperson.xml"
+            xpointer="listPerson"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/listwit.xml"
+            xpointer="listWit"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/listorg.xml"
+            xpointer="listOrg"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/listtreaties.xml"
+            xpointer="listTreaties"/>
 
       </back>
    </text>

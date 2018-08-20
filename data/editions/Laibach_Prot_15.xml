@@ -12,19 +12,23 @@
                   <surname>Schneider</surname>
                   <forename>Karin</forename>
                </persName>
-                </editor>
+            </editor>
          </titleStmt>
          <editionStmt>
             <edition>
-                    <date>2017-03-13</date>
-                </edition>
+               <date>2017-03-13</date>
+            </edition>
          </editionStmt>
          <publicationStmt>
             <publisher>Österreichische Akademie der Wissenschaften, Institut für Neuzeit- und
                Zeitgeschichtsforschung</publisher>
             <pubPlace>Wien</pubPlace>
             <idno>L_15</idno>
-                 <availability>           <licence target="https://creativecommons.org/licenses/by-sa/4.0/legalcode.de">https://creativecommons.org/licenses/by-sa/4.0/legalcode.de</licence>         </availability> </publicationStmt>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-sa/4.0/legalcode.de"
+                  >https://creativecommons.org/licenses/by-sa/4.0/legalcode.de</licence>
+            </availability>
+         </publicationStmt>
          <sourceDesc>
             <msDesc xml:id="m.1" type="Originaljournal">
                <msIdentifier>
@@ -57,18 +61,17 @@
                </physDesc>
                <history>
                   <origin>
-                            <placeName ref="#loc.65">Laibach</placeName>
-                            <date when="1821-02-26">26.
-                        Februar 1821</date>
-                        </origin>
+                     <placeName ref="#loc.65">Laibach</placeName>
+                     <date when="1821-02-26">26. Februar 1821</date>
+                  </origin>
                </history>
             </msDesc>
             <listWit corresp="#m.1">
-                    <head>Journal</head>
-                    <witness corresp="#w.37">
-                        <bibl type="print">Alberti, Atti, S. 446.</bibl>
-                    </witness>
-                </listWit>
+               <head>Journal</head>
+               <witness corresp="#w.37">
+                  <bibl type="print">Alberti, Atti, S. 446.</bibl>
+               </witness>
+            </listWit>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
@@ -87,7 +90,8 @@
       </encodingDesc>
       <profileDesc>
          <abstract>
-            <p>Die Vertreter der Mächte beschließen, die Verhandlungen in <placeName ref="#loc.65">Laibach</placeName>/<placeName ref="#loc.65">Ljubljana</placeName> zu beenden und
+            <p>Die Vertreter der Mächte beschließen, die Verhandlungen in <placeName ref="#loc.65"
+                  >Laibach</placeName>/<placeName ref="#loc.65">Ljubljana</placeName> zu beenden und
                sich in zwei Jahren in <placeName ref="#loc.69">Florenz</placeName> erneut zu einem
                Kongress zu versammeln.</p>
          </abstract>
@@ -156,56 +160,53 @@
          <div hand="#A" decls="#m.1">
             <pb n="122/1r"/>
             <p>
-                    <title rendition="#u">Journal des Conférences.</title>
-                </p>
-            <p>
-                    <title rendition="#u">
-                        <choice>
+               <title rendition="#u">Journal des Conférences.<lb/>
+                  <choice>
                      <abbr>Nr.</abbr>
                      <expan>Numéro</expan>
                   </choice> XV.</title>
-                </p>
+            </p>
             <p rendition="#u">
-                    <placeName ref="#loc.65">Laybach</placeName> le <date when="1821-02-26">26 Février 1821.</date>
-                </p>
+               <placeName ref="#loc.65">Laybach</placeName> le <date when="1821-02-26">26 Février
+                  1821.</date>
+            </p>
             <p>Sur la proposition faite par <choice>
                   <abbr>Mr.</abbr>
                   <expan>Monsieur</expan>
                </choice> le <persName ref="#p.8">
-                        <roleName>Prince</roleName>
+                  <roleName>Prince</roleName>
                   <surname>de Metternich</surname>
-                    </persName> au nom des Cabinets d’Autriche, de
-               Prusse et de Russie,</p>
+               </persName> au nom des Cabinets d’Autriche, de Prusse et de Russie,</p>
             <p>
-                    <choice>
+               <choice>
                   <abbr>Mrs.</abbr>
                   <expan>Messieurs</expan>
                </choice> les Plénipotentiaires des puissances assemblées en Congrès, considérant que
                le principal objet de leur réunion se trouve aussi complètement atteint qu’il pouvoit
                l’être par la voie des négociations, et qu’il ne se présente en ce moment aucune
                question qui exige des délibérations ultérieures de leur part,</p>
-            <p>Considérant en outre que par les pièces portées au <ref target="Laibach_Prot_11.xml">Journal de la conférence du <date when="1821-02-02">2 Février</date>
-                    </ref> il a
-               été statué une nouvelle réunion dans le courant de l’année 1822 pour délibérer sur la
-               question si le terme assigné à l’occupation militaire du <country>Royaume de
-                  Naples</country> doit être prorogé ou maintenu,</p>
+            <p>Considérant en outre que par les pièces portées au <ref target="Laibach_Prot_11.xml"
+                  >Journal de la conférence du <date when="1821-02-02">2 Février</date>
+               </ref> il a été statué une nouvelle réunion dans le courant de l’année 1822 pour
+               délibérer sur la question si le terme assigné à l’occupation militaire du
+                  <country>Royaume de Naples</country> doit être prorogé ou maintenu,</p>
             <p>Ont arrêté que le présent Congrès est clos et terminé, et qu’ils se réuniront de
                nouveau au mois<pb n="122/1v"/> de Septembre de <rs xml:id="n.1">l’année 1822 dans la
                   ville de <placeName ref="#loc.69">Florence</placeName>
-                    </rs>.<note type="editorial" target="#n.1">Der Kongress 1822 fand in Verona statt; vgl. Edition <placeName ref="#loc.68">Verona</placeName>.</note>
-                </p>
+               </rs>.<note type="editorial" target="#n.1">Der Kongress 1822 fand in Verona statt;
+                  vgl. Edition <placeName ref="#loc.68">Verona</placeName>.</note>
+            </p>
             <p>
-                    <choice>
+               <choice>
                   <abbr>Mrs.</abbr>
                   <expan>Messieurs</expan>
-               </choice> les <rs ref="#p.102 #p.135 #p.160" type="multi-person">Plénipotentiaires Français</rs>, en se
-               référant à leur déclaration consignée au <ref target="Laibach_Prot_11.xml">Journal du
-                     <date when="1821-02-02">2 Février</date>
-                    </ref>, ont accédé aux présentes
-               résolutions pour ce qui regarde la clôture du Congrès. Quant à la réunion de l’année
-               prochaine, Ils se sont réservés d’en informer leur cour, et ils ne doutent pas que
-                  <rs ref="#p.15" type="person" xml:id="n.2">
-                        <choice>
+               </choice> les <rs ref="#p.102 #p.135 #p.160" type="multi-person">Plénipotentiaires
+                  Français</rs>, en se référant à leur déclaration consignée au <ref
+                  target="Laibach_Prot_11.xml">Journal du <date when="1821-02-02">2 Février</date>
+               </ref>, ont accédé aux présentes résolutions pour ce qui regarde la clôture du
+               Congrès. Quant à la réunion de l’année prochaine, Ils se sont réservés d’en informer
+               leur cour, et ils ne doutent pas que <rs ref="#p.15" type="person" xml:id="n.2">
+                  <choice>
                      <abbr>S. M.</abbr>
                      <expan>Sa Majesté</expan>
                   </choice> Très Chrétienne</rs>,<note type="editorial" target="#n.2">Ehrentitel des
@@ -214,26 +215,32 @@
             <p>En conséquence, le présent procès-verbal ayant été lu et approuvé séance tenante, le
                Journal des conférences est également clos et terminé.</p>
             <p rendition="#r">
-                    <add hand="#G">Lu et certifié</add>
-                </p>
+               <add hand="#G">Lu et certifié</add>
+            </p>
             <p rendition="#r">
-                    <add hand="#G">
-                        <placeName ref="#loc.65">Laybach</placeName> le <date when="1821-02-26">26 Février 1821</date>
-                    </add>
-                </p>
+               <add hand="#G">
+                  <placeName ref="#loc.65">Laybach</placeName> le <date when="1821-02-26">26 Février
+                     1821</date>
+               </add>
+            </p>
             <signed rendition="#r">
-                    <persName ref="#p.5">
-                        <surname>Gentz</surname>
-                    </persName>
-                </signed>
+               <persName ref="#p.5">
+                  <surname>Gentz</surname>
+               </persName>
+            </signed>
          </div>
       </body>
       <back>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/listplace.xml" xpointer="listPlace"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/listperson.xml" xpointer="listPerson"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/listwit.xml" xpointer="listWit"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/listorg.xml" xpointer="listOrg"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/listtreaties.xml" xpointer="listTreaties"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/listplace.xml"
+            xpointer="listPlace"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/listperson.xml"
+            xpointer="listPerson"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/listwit.xml"
+            xpointer="listWit"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/listorg.xml"
+            xpointer="listOrg"/>
+         <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/listtreaties.xml"
+            xpointer="listTreaties"/>
       </back>
    </text>
 </TEI>
