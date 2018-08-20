@@ -309,9 +309,8 @@ let $xsl := if($xslPath eq "")
             else
                 $app:defaultXsl
 let $path2source := string-join(('../../../../exist/restxq', $config:app-name, $collection, $ref, 'xml'), '/')
-let $log := console:log(app:related-docs(base-uri($xml)))
-let $prev-doc := app:prev-doc(base-uri($xml))
-let $next-doc := app:next-doc(base-uri($xml))
+let $prev-doc := if ($collection = 'editions') then app:prev-doc(base-uri($xml)) else ()
+let $next-doc := if ($collection = 'editions') then app:next-doc(base-uri($xml)) else ()
 let $params :=
 <parameters>
     <param name="app-name" value="{$config:app-name}"/>
