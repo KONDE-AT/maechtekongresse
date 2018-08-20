@@ -5,6 +5,8 @@ declare namespace functx = 'http://www.functx.com';
 import module namespace templates="http://exist-db.org/xquery/templates" ;
 import module namespace config="http://www.digital-archiv.at/ns/kongress/config" at "config.xqm";
 import module namespace kwic = "http://exist-db.org/xquery/kwic" at "resource:org/exist/xquery/lib/kwic.xql";
+import module namespace console = "http://exist-db.org/xquery/console";
+import module namespace r = "http://joewiz.org/ns/xquery/roman-numerals" at "roman-numerals.xqm";
 
 declare variable  $app:editions := $config:app-root||'/data/editions';
 declare variable  $app:indices := $config:app-root||'/data/indices';
@@ -307,10 +309,15 @@ let $xsl := if($xslPath eq "")
             else
                 $app:defaultXsl
 let $path2source := string-join(('../../../../exist/restxq', $config:app-name, $collection, $ref, 'xml'), '/')
+let $log := console:log(app:related-docs(base-uri($xml)))
+let $prev-doc := app:prev-doc(base-uri($xml))
+let $next-doc := app:next-doc(base-uri($xml))
 let $params :=
 <parameters>
     <param name="app-name" value="{$config:app-name}"/>
     <param name="collection-name" value="{$collection}"/>
+    <param name="prev-doc" value="{$prev-doc}"/>
+    <param name="next-doc" value="{$next-doc}"/>
     <param name="path2source" value="{$path2source}"/>
    {
         for $p in request:get-parameter-names()
@@ -458,4 +465,38 @@ declare function app:Pagination($doc as node(), $fileIndex as node(), $sourceFil
         </list>
 
     return $pagination
+};
+
+
+declare %private function app:related-docs($xmlPath as xs:string) {
+    let $doc-name := util:document-name($xmlPath)
+    let $doc-name-filter := substring-before($doc-name,'_')
+    return
+        for $doc in xmldb:get-child-resources(functx:substring-before-last($xmlPath, "/"))
+        let $o1 := tokenize($doc,"_")[2][not(.=('Prot','Dok'))],   
+            $o2 := replace(tokenize($doc,"_")[3],"\.xml","")
+        where starts-with($doc, $doc-name-filter)
+        order by if ($o1) then r:roman-numeral-to-integer($o1) else 0, xs:integer($o2) ascending
+        return $doc
+};
+
+(:~
+ : returns the name of the next document  
+ :)
+declare function app:next-doc($xmlPath as xs:string) {
+    let $doc-name := util:document-name($xmlPath)
+    let $r := app:related-docs($xmlPath)
+    let $i := index-of($r, $doc-name)
+    return if (count($r) gt $i) then $r[$i + 1] else () 
+};
+
+
+(:~
+ : returns the name of the previous document  
+ :)
+declare function app:prev-doc($xmlPath as xs:string) {
+    let $doc-name := util:document-name($xmlPath)
+    let $r := app:related-docs($xmlPath)
+    let $i := index-of($r, $doc-name)
+    return if ($i gt 1) then $r[$i - 1] else ()  
 };
