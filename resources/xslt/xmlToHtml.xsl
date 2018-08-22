@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns="http://www.w3.org/1999/xhtml" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" exclude-result-prefixes="tei" version="2.0"><!-- <xsl:strip-space elements="*"/>-->
     <xsl:import href="shared/base.xsl"/>
     <xsl:param name="document"/>
@@ -13,8 +14,6 @@
 ##################################
 -->
     <xsl:template match="/">
-        <xsl:value-of select="$prev-doc"/>
-        <xsl:value-of select="$next-doc"/>
         <div class="page-header">
             <style type="text/css"><!-- weird hack to display page title within the scrolltop div -->
                 <xsl:text>.apst-button:hover::after { content: "</xsl:text>
@@ -26,18 +25,36 @@
                     </xsl:for-each>
                 <xsl:text>";</xsl:text>
             </style>
-            <ul id="ph" class="pager">
-                <xsl:for-each select="//tei:fileDesc/tei:titleStmt/tei:title[@type='main']">
-                    <li>
-                        <a href="#">
-                            <xsl:apply-templates/>
-                        <xsl:if test="position() != last()">
-                                <xsl:text> | </xsl:text>
-                            </xsl:if>
+            <nav class="navbar" id="ph">
+                <ul class="nav navbar-nav pager nav-pills">
+                <li>
+                    <a>
+                        <xsl:attribute name="href">
+                            <xsl:value-of select="concat('show.html?document=', $prev-doc)"/>
+                        </xsl:attribute> 
+                        <xsl:attribute name="class">btn btnPrev</xsl:attribute>
+                        <xsl:attribute name="title">
+                                <xsl:value-of select="//tei:fileDesc/tei:titleStmt/tei:title[@type='main'][1]"/>
+                            </xsl:attribute>
+                        Vorheriges Dokument
                     </a>
-                    </li>
-                </xsl:for-each>
+                </li>
+                </ul>
+                <ul class="nav navbar-nav pager nav-pills navbar-right">
+                    <li>
+                    <a>
+                            <xsl:attribute name="href">
+                                <xsl:value-of select="concat('show.html?document=', $next-doc)"/>
+                            </xsl:attribute> 
+                            <xsl:attribute name="class">btn btnNext</xsl:attribute>
+                            <xsl:attribute name="title">
+                                <xsl:value-of select="//tei:fileDesc/tei:titleStmt/tei:title[@type='main'][1]"/>
+                            </xsl:attribute>
+                        Nächstes Dokument
+                    </a>
+                </li>
             </ul>
+            </nav>
             <h2 style="text-align:center">
                 <xsl:for-each select="//tei:fileDesc/tei:titleStmt/tei:title[@type='main']">
                     <xsl:apply-templates/>

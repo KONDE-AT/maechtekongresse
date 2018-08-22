@@ -15,14 +15,12 @@ header{
 }
 
 #ph{
-border-bottom:1px solid #333; 
-    padding:2px 20px; 
-    position:fixed; 
-    bottom:1%; 
+    padding:0px 20px 30px; 
+    position:fixed;
+    top:5%; 
     left:0; 
     z-index:2000; 
     width:100%;
-  background: #eeeeee;
 }
 
 #splash {
