@@ -74,34 +74,7 @@
              -o-transform: rotate(-45deg);
         transform: rotate(-45deg);
 }
-.apst-button:hover {
-    width: 500px; 
-    font-size: 1em;
-    font-decoration: bold;
-    margin: 22px;
-    background-color: #555;
-    -webkit-border-radius: 15px;
-    -moz-border-radius: 15px;
-    -ms-border-radius: 15px;
-    -o-border-radius: 15px;
-    border-radius: 15px
-}
-.apst-button:hover::before {
-    border-color: #000;
-    left: -70px;
-}
-.apst-button:hover::after {
-    content: "";
-    color: #fff; 
-    margin: 12px;
-    left: 92px;
-    border-color: #fff;
-    -webkit-border-radius: 12px;
-    -moz-border-radius: 12px;
-    -ms-border-radius: 12px;
-    -o-border-radius: 12px;
-    border-radius: 12px
-}
+
 
 @media only screen and (max-width : 640px) {
     .apst-center {

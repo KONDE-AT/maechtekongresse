@@ -10,19 +10,11 @@
         }
     </style>
     <script id="item-template" type="text/x-handlebars-template">
-        <table class="table table-bordered table-hover table-condensed">
             {{#if doctitle}}
-            <tr>
-                <th colspan="3" class="description">{{doctitle}}</th>
-            </tr>
+            <a href="{{backlink}}">{{doctitle}}</a>
+        <br/>
             {{/if}}
-            <tr>
-                <th>zum Dokument</th>
-                <td>
-                    <a href="{{backlink}}">click to follow</a>
-                </td>
-           </tr>
-        </table>
+            <a href="{{backlink}}">{{showdate}}</a>
     </script>
         <div id="visualization">
            
@@ -53,7 +45,7 @@
                  axis: 5   // minimal margin between items and the axis
                 },
                 orientation: 'top',
-                start: new Date(1812,01,01),
+                start: new Date(1816,01,01),
                 end: new Date(1826,01,01)
             };
             var timeline = new vis.Timeline(container, data.item, options);

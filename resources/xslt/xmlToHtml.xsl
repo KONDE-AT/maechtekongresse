@@ -23,16 +23,6 @@
 -->
     <xsl:template match="/">
         <div class="page-header">
-            <style type="text/css"><!-- weird hack to display page title within the scrolltop div -->
-                <xsl:text>.apst-button:hover::after { content: "</xsl:text>
-                    <xsl:for-each select="//tei:fileDesc/tei:titleStmt/tei:title[@type='main']">
-                        <xsl:apply-templates/>
-                        <xsl:if test="position() != last()">
-                        <xsl:text> </xsl:text>
-                    </xsl:if>
-                    </xsl:for-each>
-                <xsl:text>";</xsl:text>
-            </style>
             <nav class="navbar" id="ph">
                 <xsl:if test="$prev-doc-name != ''">
                 <ul class="nav navbar-nav pager nav-pills">
