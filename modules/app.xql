@@ -289,7 +289,8 @@ declare function app:XMLtoHTML ($node as node(), $model as map (*), $query as xs
 let $ref := xs:string(request:get-parameter("document", ""))
 let $refname := substring-before($ref, '.xml')
 let $xmlPath := concat(xs:string(request:get-parameter("directory", "editions")), '/')
-let $xml := doc(replace(concat($config:app-root,'/data/', $xmlPath, $ref), '/exist/', '/db/'))
+let $xmlFullPath := replace(concat($config:app-root,'/data/', $xmlPath, $ref), '/exist/', '/db/')
+let $xml := doc($xmlFullPath)
 let $collection := functx:substring-after-last(util:collection-name($xml), '/')
 let $xslPath := xs:string(request:get-parameter("stylesheet", ""))
 let $xsl := if($xslPath eq "")
@@ -315,9 +316,11 @@ let $params :=
 <parameters>
     <param name="app-name" value="{$config:app-name}"/>
     <param name="collection-name" value="{$collection}"/>
-    <param name="prev-doc" value="{$prev-doc}"/>
-    <param name="next-doc" value="{$next-doc}"/>
+    <param name="prev-doc-name" value="{$prev-doc}"/>
+    <param name="next-doc-name" value="{$next-doc}"/>
     <param name="path2source" value="{$path2source}"/>
+    <param name="xmlFullPath" value="{$xmlFullPath}"/>
+    <param name="ref" value="{$ref}"/>
    {
         for $p in request:get-parameter-names()
             let $val := request:get-parameter($p,())

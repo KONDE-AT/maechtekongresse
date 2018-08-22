@@ -5,9 +5,17 @@
     <xsl:param name="app-name"/>
     <xsl:param name="collection-name"/>
     <xsl:param name="path2source"/>
-    <xsl:param name="prev-doc"/>
-    <xsl:param name="next-doc"/>
+    <xsl:param name="prev-doc-name"/>
     <xsl:param name="ref"/>
+    <xsl:variable name="prev-doc-path" select="if ($ref != '' and $prev-doc-name != '') then replace($xmlFullPath, $ref, $prev-doc-name) else ()"/>
+    <xsl:param name="next-doc-name"/>
+    <xsl:variable name="next-doc-path" select="if ($ref != '' and $next-doc-name != '') then replace($xmlFullPath, $ref, $next-doc-name) else ()"/>
+    <xsl:param name="xmlFullPath"/>
+    <xsl:variable name="prev-doc" select="if ($prev-doc-name != '' and doc-available($prev-doc-path)) then doc($prev-doc-path) else ()"/>
+    <xsl:variable name="next-doc" select="if ($next-doc-name != '' and doc-available($next-doc-path)) then doc($next-doc-path) else ()"/>
+    <xsl:variable name="prev-doc-title" select="$prev-doc//tei:title[1]"/>
+    <xsl:variable name="next-doc-title" select="$next-doc//tei:title[1]"/>
+    
     <!--
 ##################################
 ### Seitenlayout und -struktur ###
