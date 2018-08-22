@@ -13,8 +13,8 @@
     <xsl:param name="xmlFullPath"/>
     <xsl:variable name="prev-doc" select="if ($prev-doc-name != '' and doc-available($prev-doc-path)) then doc($prev-doc-path) else ()"/>
     <xsl:variable name="next-doc" select="if ($next-doc-name != '' and doc-available($next-doc-path)) then doc($next-doc-path) else ()"/>
-    <xsl:variable name="prev-doc-title" select="$prev-doc//tei:title[1]"/>
-    <xsl:variable name="next-doc-title" select="$next-doc//tei:title[1]"/>
+    <xsl:variable name="prev-doc-title" select="$prev-doc//tei:title[@type='main'][1]"/>
+    <xsl:variable name="next-doc-title" select="$next-doc//tei:title[@type='main'][1]"/>
     
     <!--
 ##################################
@@ -34,34 +34,38 @@
                 <xsl:text>";</xsl:text>
             </style>
             <nav class="navbar" id="ph">
+                <xsl:if test="$prev-doc-name != ''">
                 <ul class="nav navbar-nav pager nav-pills">
                 <li>
                     <a>
                         <xsl:attribute name="href">
-                            <xsl:value-of select="concat('show.html?document=', $prev-doc)"/>
+                            <xsl:value-of select="concat('show.html?document=', $prev-doc-name)"/>
                         </xsl:attribute> 
                         <xsl:attribute name="class">btn btnPrev</xsl:attribute>
                         <xsl:attribute name="title">
-                                <xsl:value-of select="//tei:fileDesc/tei:titleStmt/tei:title[@type='main'][1]"/>
+                                <xsl:value-of select="$prev-doc-title"/>
                             </xsl:attribute>
                         Vorheriges Dokument
                     </a>
                 </li>
                 </ul>
+                </xsl:if>
+                <xsl:if test="$next-doc-name != ''">
                 <ul class="nav navbar-nav pager nav-pills navbar-right">
                     <li>
                     <a>
                             <xsl:attribute name="href">
-                                <xsl:value-of select="concat('show.html?document=', $next-doc)"/>
+                                <xsl:value-of select="concat('show.html?document=', $next-doc-name)"/>
                             </xsl:attribute> 
                             <xsl:attribute name="class">btn btnNext</xsl:attribute>
                             <xsl:attribute name="title">
-                                <xsl:value-of select="//tei:fileDesc/tei:titleStmt/tei:title[@type='main'][1]"/>
+                                <xsl:value-of select="$next-doc-title"/>
                             </xsl:attribute>
                         Nächstes Dokument
                     </a>
                 </li>
-            </ul>
+                </ul>
+                </xsl:if>
             </nav>
             <h2 style="text-align:center">
                 <xsl:for-each select="//tei:fileDesc/tei:titleStmt/tei:title[@type='main']">
