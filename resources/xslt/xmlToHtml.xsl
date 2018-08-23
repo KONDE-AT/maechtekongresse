@@ -269,15 +269,24 @@
                             </xsl:if>
                                 <xsl:if test="..//tei:listWit[@corresp=$divlink]/tei:witness">
                                     <xsl:variable name="witId" select="substring-after(root()//tei:listWit[@corresp=$divlink]/tei:witness/@corresp, '#')"/>
-                                <tr>
+                                    <tr>
                                     <th>
-                                        <abbr title="//tei:listWit">vgl. gedruckte Quelle</abbr>
+                                        <abbr> 
+                                            <xsl:attribute name="title">//tei:listWit <xsl:value-of select="$witId"/>
+                                            </xsl:attribute>
+                                            vgl. gedruckte Quelle</abbr>
                                     </th>
                                     <td>
-                                        <xsl:apply-templates select="root()//tei:listWit/tei:witness[@xml:id=$witId]"/>
-                                        <xsl:value-of select="normalize-space(substring-after(..//tei:listWit[@corresp=$divlink]/tei:witness[@corresp=concat('#', $witId)], 'S.'))"/>
+                                        <xsl:for-each select="root()//tei:listWit/tei:witness[@xml:id=$witId]">
+                                            <xsl:variable name="witId" select="substring-after(root()//tei:listWit[@corresp=$divlink]/tei:witness/@corresp, '#')"/>
+                                            <a>
+                                                <xsl:attribute name="href">../pages/bibl.html</xsl:attribute>
+                                                <xsl:apply-templates select="root()//tei:listWit/tei:witness[@xml:id=$witId]"/>
+                                            </a>
+                                            <xsl:value-of select="normalize-space(substring-after(root()//tei:listWit[@corresp=$divlink]/tei:witness[@corresp=concat('#', $witId)], 'S.'))"/>
+                                        </xsl:for-each>
                                     </td>
-                                </tr>
+                                    </tr>
                             </xsl:if>    
                             </xsl:for-each>
                         </tbody>
