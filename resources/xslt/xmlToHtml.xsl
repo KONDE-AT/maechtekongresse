@@ -267,17 +267,15 @@
                                     </td>
                                 </tr>
                             </xsl:if>
-                                <xsl:if test="..//tei:listWit[@corresp=$msDivId]/tei:witness">
-                                    <xsl:variable name="witId" select="root()//tei:listWit[@corresp=$msDivId]/tei:witness/@corresp"/>
+                                <xsl:if test="..//tei:listWit[@corresp=$divlink]/tei:witness">
+                                    <xsl:variable name="witId" select="substring-after(root()//tei:listWit[@corresp=$divlink]/tei:witness/@corresp, '#')"/>
                                 <tr>
                                     <th>
                                         <abbr title="//tei:listWit">vgl. gedruckte Quelle</abbr>
-                                       <!-- msDivId=<xsl:value-of select="$msDivId"/>
-                                        witId=<xsl:value-of select="$witId"/>-->
                                     </th>
                                     <td>
-                                        <xsl:apply-templates select="root()//tei:sourceDesc//tei:listWit/tei:witness[@xml:id=$witId]"/>
-                                        <xsl:value-of select="//tei:witness[@xml:id=$witId]"/>
+                                        <xsl:apply-templates select="root()//tei:listWit/tei:witness[@xml:id=$witId]"/>
+                                        <xsl:value-of select="normalize-space(substring-after(..//tei:listWit[@corresp=$divlink]/tei:witness[@corresp=concat('#', $witId)], 'S.'))"/>
                                     </td>
                                 </tr>
                             </xsl:if>    
