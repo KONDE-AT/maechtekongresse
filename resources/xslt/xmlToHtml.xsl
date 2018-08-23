@@ -240,7 +240,7 @@
                                                 </xsl:attribute>
                                                 <xsl:value-of select="."/>
                                             </abbr>
-                                            <br/>
+                                            <xsl:if test="position() != last()">, </xsl:if>
                                         </xsl:for-each><!--<xsl:apply-templates select="//tei:msIdentifier"/>-->
                                     </td>
                                 </tr>
@@ -267,6 +267,20 @@
                                     </td>
                                 </tr>
                             </xsl:if>
+                                <xsl:if test="..//tei:listWit[@corresp=$msDivId]/tei:witness">
+                                    <xsl:variable name="witId" select="root()//tei:listWit[@corresp=$msDivId]/tei:witness/@corresp"/>
+                                <tr>
+                                    <th>
+                                        <abbr title="//tei:listWit">vgl. gedruckte Quelle</abbr>
+                                       <!-- msDivId=<xsl:value-of select="$msDivId"/>
+                                        witId=<xsl:value-of select="$witId"/>-->
+                                    </th>
+                                    <td>
+                                        <xsl:apply-templates select="root()//tei:sourceDesc//tei:listWit/tei:witness[@xml:id=$witId]"/>
+                                        <xsl:value-of select="//tei:witness[@xml:id=$witId]"/>
+                                    </td>
+                                </tr>
+                            </xsl:if>    
                             </xsl:for-each>
                         </tbody>
                     </table>
@@ -523,9 +537,21 @@
         </xsl:for-each>
     </xsl:template>
     <!-- reference strings   --> <!-- generic, referring to persons, places, witnesses etc. -->
-    
+    <xsl:template match="tei:witness[@corresp]">
+        <xsl:element name="strong">
+            <xsl:element name="a">
+                <xsl:attribute name="class">reference</xsl:attribute>
+                <xsl:attribute name="data-type">listwit.xml</xsl:attribute>
+                <xsl:attribute name="data-key">
+                    <xsl:value-of select="substring-after(data(@corresp), '#')"/>
+                    <xsl:value-of select="@key"/>
+                </xsl:attribute>
+                <xsl:apply-templates/>
+            </xsl:element>
+        </xsl:element>
+    </xsl:template>    
     <xsl:template match="tei:persName[@ref]">
-        <strong>
+        <xsl:element name="strong">
             <xsl:element name="a">
                 <xsl:attribute name="class">reference</xsl:attribute>
                 <xsl:attribute name="data-type">listperson.xml</xsl:attribute>
@@ -535,7 +561,7 @@
                 </xsl:attribute>
                 <xsl:apply-templates/>
             </xsl:element>
-        </strong>
+        </xsl:element>
     </xsl:template>
 <!-- additions -->
     <xsl:template match="tei:add">
@@ -672,7 +698,7 @@
     </xsl:template>
     <!-- Bücher -->
     <xsl:template match="tei:bibl">
-        <xsl:element name="strong">
+        <xsl:element name="span">
             <xsl:apply-templates/>
         </xsl:element>
     </xsl:template><!-- Seitenzahlen -->

@@ -476,12 +476,14 @@
                 </tr>
             </thead>
             <tbody>
+                <xsl:if test="./tei:locus">
                 <tr>
                     <th>locus</th>
                     <td>
                         <xsl:apply-templates select="./tei:locus"/>
                     </td>
                 </tr>
+                </xsl:if>
                 <xsl:if test="./tei:note">
                     <tr>
                         <th>notes</th>
