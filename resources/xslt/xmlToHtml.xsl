@@ -183,10 +183,27 @@
                                         </xsl:otherwise>
                                     </xsl:choose>
                                 </tr>
+                        </tbody>
+                    </table>
                             <xsl:for-each select="//tei:sourceDesc/tei:msDesc"><!-- Split -->
                                 <xsl:variable name="msDivId" select="@xml:id"/>  
                                 <xsl:variable name="divlink" select="concat('#',$msDivId)"/>
-                                <tr style="background-color:#ccc;">
+                                <xsl:element name="div">
+                                    <xsl:attribute name="class">panel-body</xsl:attribute>
+                                    <xsl:attribute name="data-toggle">collapse</xsl:attribute>
+                                    <xsl:attribute name="data-target">
+                                <xsl:value-of select="$divlink"/>
+                            </xsl:attribute>
+                                    <xsl:attribute name="title">Klicken für Zeigen/Verbergen</xsl:attribute>         
+                                    Dokumententeil
+                                    <table class="table table-striped collapse in">
+                                        <xsl:attribute name="id">
+                                            <xsl:value-of select="$msDivId"/>
+                                        </xsl:attribute>
+
+                                        <tbody>
+                                    
+                                    <tr style="background-color:#ccc;">
                                     <th>
                                         <abbr title="//tei:text/tei:body/tei:div[@decls]">Bezeichnung</abbr>
                                     </th>
@@ -209,7 +226,6 @@
                                         </td>
                                     </tr>
                                 </xsl:if>
-                                
                                 <tr>
                                     <th>
                                         <abbr title="//tei:history/tei:origin">Ort/Datum</abbr>
@@ -226,7 +242,6 @@
                                         </xsl:if>
                                     </td>
                                 </tr>
-                            
                             <xsl:if test=".//tei:msIdentifier">
                                 <tr>
                                     <th>
@@ -266,9 +281,10 @@
                                         <xsl:apply-templates select=".//tei:physDesc"/>
                                     </td>
                                 </tr>
-                            </xsl:if>
+                                </xsl:if>
                                 <xsl:if test="..//tei:listWit[@corresp=$divlink]/tei:witness">
-                                    <xsl:variable name="witId" select="substring-after(root()//tei:listWit[@corresp=$divlink]/tei:witness/@corresp, '#')"/>
+                                    <xsl:for-each select="root()//tei:listWit[@corresp=$divlink]/tei:witness/@corresp">
+                                    <xsl:variable name="witId" select="substring-after(., '#')"/>
                                     <tr>
                                     <th>
                                         <abbr> 
@@ -278,19 +294,21 @@
                                     </th>
                                     <td>
                                         <xsl:for-each select="root()//tei:listWit/tei:witness[@xml:id=$witId]">
-                                            <xsl:variable name="witId" select="substring-after(root()//tei:listWit[@corresp=$divlink]/tei:witness/@corresp, '#')"/>
                                             <a>
-                                                <xsl:attribute name="href">../pages/bibl.html</xsl:attribute>
+                                                <xsl:attribute name="href">../pages/bibl.html#myTable=f<xsl:value-of select="$witId"/>
+                                                            </xsl:attribute>
                                                 <xsl:apply-templates select="root()//tei:listWit/tei:witness[@xml:id=$witId]"/>
                                             </a>
                                             <xsl:value-of select="normalize-space(substring-after(root()//tei:listWit[@corresp=$divlink]/tei:witness[@corresp=concat('#', $witId)], 'S.'))"/>
                                         </xsl:for-each>
                                     </td>
                                     </tr>
-                            </xsl:if>    
+                                </xsl:for-each>
+                                </xsl:if>  
+                                        </tbody>
+                                    </table>
+                                </xsl:element>                                
                             </xsl:for-each>
-                        </tbody>
-                    </table>
                     <div class="panel-footer">
                         <p style="text-align:center;">
                             <a>

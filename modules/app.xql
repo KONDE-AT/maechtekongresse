@@ -380,10 +380,15 @@ declare function app:listTreaties($node as node(), $model as map(*)) {
  :)
 declare function app:listBibl($node as node(), $model as map(*)) {
     let $hitHtml := "hits.html?searchkey="
-    for $item in doc($app:listWittnes)//tei:listWit//tei:bibl
+    for $item in doc($app:listWittnes)//tei:listWit//tei:witness
+    let $biblTxt := $item/tei:bibl
+    let $witId := $item/string(@xml:id)
        return
             <tr>
-                <td>{$item}</td>
+                <td>
+                    {$witId}
+                </td>
+                <td>{$biblTxt}</td>
             </tr>
 };
 
