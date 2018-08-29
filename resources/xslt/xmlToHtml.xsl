@@ -122,10 +122,10 @@
                                 TEI Quelldaten ansehen
                             </a>
                         </p>
+                        <p style="text-align:center;">
+                            <a data-toggle="collapse" data-target="#metadata" title="Klicken für Zeigen/Verbergen">vollständige Header/Metadaten anzeigen</a>
+                        </p>
                     </div>
-                </div>
-                    <div class="panel panel-heading">
-                        <h3 class="panel-title" align="center" data-toggle="collapse" data-target="#metadata" title="Klicken für Zeigen/Verbergen">vollständige Header/Metadaten anzeigen</h3>
                     </div>
                 <div class="panel-body collapse" id="metadata">
                         <xsl:for-each select="//tei:sourceDesc/tei:msDesc"><!-- Split -->
@@ -139,8 +139,10 @@
                                 <table class="table table-striped">
                                     <tbody>
                                         <tr style="background-color:#ccc;">
+                                            <xsl:choose>
+                                                <xsl:when test="//tei:text/tei:body/tei:div[@decls]/*/tei:title">
                                             <th>
-                                                <abbr title="//tei:text/tei:body/tei:div[@decls]">Bezeichnung</abbr>
+                                                <abbr title="//tei:text/tei:body/tei:div[@decls]/*/tei:title">Bezeichnung</abbr>
                                             </th>
                                             <td style="font-weight:bold;">
                                                 <a>
@@ -150,6 +152,21 @@
                                                     <xsl:value-of select="//tei:text/tei:body/tei:div[@decls = concat('#',$msDivId)]/*/string-join(tei:title//text()[not(ancestor-or-self::tei:note)], '')"/>
                                                 </a>
                                             </td>
+                                                </xsl:when>
+                                                <xsl:otherwise>
+                                                    <th>
+                                                        <abbr title="//msDesc/msContents/msItem">Bezeichnung</abbr>
+                                                    </th>
+                                                    <td style="font-weight:bold;">
+                                                        <a>
+                                                            <xsl:attribute name="href">
+                                                                <xsl:value-of select="$divlink"/>
+                                                            </xsl:attribute>
+                                                            <xsl:value-of select="root()//msDesc[@xml:id = concat('#',$msDivId)]/msContents/msItem/*/string-join(tei:title//text()[not(ancestor-or-self::tei:note)], '')"/>
+                                                        </a>
+                                                    </td>
+                                                </xsl:otherwise>
+                                            </xsl:choose>
                                         </tr>
                                         <xsl:if test="./@type">
                                             <tr>
