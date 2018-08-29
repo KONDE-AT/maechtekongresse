@@ -87,7 +87,7 @@
     </xsl:template><!-- Verweise auf andere Dokumente   -->
     <xsl:template match="tei:ref">
         <xsl:choose>
-            <xsl:when test="@target[ends-with(.,'.xml')]">
+            <xsl:when test="@target[contains(.,'.xml')]">
                 <xsl:element name="a">
                     <xsl:attribute name="href">
                        show.html?ref=<xsl:value-of select="tokenize(./@target, '/')[4]"/>
