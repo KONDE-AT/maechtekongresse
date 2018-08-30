@@ -107,4 +107,15 @@
             </small>: <xsl:value-of select="."/>
         </li>
     </xsl:template>
+    
+    <xsl:template match="//idno[@type='URI']">
+        <li>
+            <a>
+                <xsl:attribute name="href">
+                    <xsl:value-of select="."/>
+                </xsl:attribute>
+                <xsl:value-of select="."/>
+            </a>
+        </li>
+    </xsl:template>
 </xsl:stylesheet>

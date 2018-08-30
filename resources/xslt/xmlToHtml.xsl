@@ -119,7 +119,7 @@
                                 <xsl:attribute name="href">
                                     <xsl:value-of select="$path2source"/>
                                 </xsl:attribute>
-                                TEI Quelldaten ansehen
+                                TEI Quelldaten anzeigen
                             </a>
                         </p>
                         <p style="text-align:center;">
@@ -293,8 +293,8 @@
                                             <xsl:apply-templates select=".//tei:orig"/>
                                         </xsl:when>
                                         <xsl:otherwise>
-<!--                                            <xsl:value-of select="."/>-->
-                                            <xsl:apply-templates/>
+                                            <xsl:value-of select="string-join(.//text()[not(ancestor-or-self::tei:note or ancestor-or-self::tei:expan)], '')"/>
+<!--                                            <xsl:apply-templates select=".//*[not(self::tei:note)]"/>-->
                                         </xsl:otherwise>
                                     </xsl:choose>
                                 </li>
@@ -543,8 +543,9 @@
                     </xsl:attribute>
                     <xsl:if test="root()//tei:handNote[@xml:id=$handId]">
                         <xsl:element name="p">
+                            <xsl:attribute name="title">//tei:handNote</xsl:attribute>
                             <em>
-                            <xsl:text>Hand von </xsl:text>
+                            <xsl:text>Hand: </xsl:text>
                             <xsl:value-of select="root()//tei:handNote[@xml:id=$handId]"/>
                         </em>
                         </xsl:element>
@@ -587,6 +588,14 @@
                 <xsl:element name="a">
                     <xsl:attribute name="href">
                        show.html?document=<xsl:value-of select="@target"/>
+                    </xsl:attribute>
+                    <xsl:apply-templates/>
+                </xsl:element>
+            </xsl:when>
+            <xsl:when test="@decls[contains(.,'#m.')]">
+                <xsl:element name="a">
+                    <xsl:attribute name="href">
+                        <xsl:value-of select="@decls"/>
                     </xsl:attribute>
                     <xsl:apply-templates/>
                 </xsl:element>

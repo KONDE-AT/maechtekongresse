@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:xs="http://www.w3.org/2001/XMLSchema" exclude-result-prefixes="xs" version="2.0">
     <!-- created 2017-07-12 editor:DK = Dario Kampkaspar, dario.kampkaspar@oeaw.ac.at -->
-    
+    <xsl:import href="shared/base_index.xsl"/>
     <xsl:output method="html" indent="yes"/>
     <xsl:param name="entityID" as="xs:string"/>
     <xsl:param name="render" select="false()" as="xs:boolean"/>
