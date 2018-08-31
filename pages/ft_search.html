@@ -3,7 +3,7 @@
 
     <div class="panel panel-default">
         <div class="panel-heading" style="text-align:center;">
-            <h1>Search results</h1>
+            <h1>Suchresultate</h1>
         </div>
         <div class="panel-body">
             <table id="myTable" class="table table-striped table-condensed table-hover">
@@ -22,6 +22,9 @@
     </div>
     <script>var table = $('#myTable').DataTable({
             keepConditions: true,
+            language: {
+              "url": "//cdn.datatables.net/plug-ins/9dcbecd42ad/i18n/German.json"
+            },
             dom: 'Bfrtip',
             buttons: [
                 'copy', 'excel', 'pdf'
