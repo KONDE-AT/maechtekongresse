@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns="http://www.w3.org/1999/xhtml" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" exclude-result-prefixes="tei" version="2.0"><!-- <xsl:strip-space elements="*"/>-->
     <xsl:import href="shared/base.xsl"/>
+    <xsl:output indent="no"/>
     <xsl:param name="document"/>
     <xsl:param name="app-name"/>
     <xsl:param name="collection-name"/>
@@ -16,6 +17,8 @@
     <xsl:variable name="prev-doc-title" select="$prev-doc//tei:title[@type='main'][1]"/>
     <xsl:variable name="next-doc-title" select="$next-doc//tei:title[@type='main'][1]"/>
     
+    <xsl:strip-space elements="note ref rs abbr persName author add hi choice expan orgName tei:note tei:ref tei:rs tei:abbr tei:persName tei:author tei:add tei:hi tei:choice tei:expan tei:orgName"/>
+<!--    <xsl:preserve-space elements="persName roleName surname listPerson choice"/>-->
     <!--
 ##################################
 ### Seitenlayout und -struktur ###
