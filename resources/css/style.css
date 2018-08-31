@@ -18,10 +18,13 @@ header{
 #ph{
     padding:0px 20px 30px; 
     position:fixed;
+    width: 104vw;
+            left: 50%;
+            right: 50%;
+            margin-left: -52vw;
+            margin-right: -52vw;
     top:5%; 
-    left:0; 
-    z-index:2; 
-    width:100%;
+    z-index:2;
 }
 
 .splash {
