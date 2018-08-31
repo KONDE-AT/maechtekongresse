@@ -1,4 +1,5 @@
 /* Application styles could go here */
+
 html{
     height:100%;
 }
@@ -23,18 +24,16 @@ header{
     width:100%;
 }
 
-#splash {
-    margin-bottom: 0px;
-    color: #fff;
+.splash {
     background: url('../../resources/img/map.svg') center no-repeat; 
-    background-size: cover; 
+    background-position: top;
+    background-size: contain; 
     position:absolute; 
-    height: 16em;
-    overflow: hidden;
-    text-align:center;
-    top:0;
-    left:0;
-    z-index:100;
+    z-index:0;
+}
+
+.transl {
+    background:rgba(156,255,255,0.2);
 }
 
 .main-content{
@@ -84,3 +83,21 @@ footer{
 }
 footer .poweredby { float: right; margin: 33px 10px 0 0;}
 footer .poweredby img { width: 120px; }
+
+h1,h2 {
+    font-family: Brandonbld,sans-serif;
+    text-transform: uppercase;
+}
+
+@font-face {
+  font-family: "Brandonbld";
+  font-style: normal;
+  font-weight: 400;
+  src: url("https://www.oeaw.ac.at/typo3conf/ext/oeaw_website/Resources/Public/Fonts/Brandon_bldWeb.woff") format("woff");
+}
+
+@media (min-width: 1200px) {
+    .container{
+        max-width: 900px;
+    }
+}
