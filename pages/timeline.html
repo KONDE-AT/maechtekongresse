@@ -7,6 +7,11 @@
     <style type="text/css">
         #visualization {
             position: relative;
+            width: 96vw;
+            left: 50%;
+            right: 50%;
+            margin-left: -48vw;
+            margin-right: -48vw;
         }
     </style>
     <script id="item-template" type="text/x-handlebars-template">
@@ -45,8 +50,8 @@
                  axis: 5   // minimal margin between items and the axis
                 },
                 orientation: 'top',
-                start: new Date(1816,01,01),
-                end: new Date(1826,01,01)
+                start: new Date(1817,01,01),
+                end: new Date(1825,01,01)
             };
             var timeline = new vis.Timeline(container, data.item, options);
         });

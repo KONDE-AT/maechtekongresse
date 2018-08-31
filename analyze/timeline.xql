@@ -12,7 +12,7 @@ let $data := <data>{
     let $backlink := concat(app:hrefToDoc($x),'&amp;directory=editions')
     let $doctitle := if (contains($x//root()//tei:fileDesc/tei:titleStmt/tei:title[@type='main'][1], 'Protokoll der '))
         then string-join($x//root()//tei:fileDesc/tei:titleStmt/substring-after(tei:title[@type='main'][1], 'Protokoll der '), ' ')
-        else concat('Kongress von Verona: ', string-join($x//root()//tei:fileDesc/tei:titleStmt/tei:title[@type='main'], ' '))
+        else concat('', string-join($x//root()//tei:fileDesc/tei:titleStmt/tei:title[@type='main'], ' '))
     let $content := $doctitle
     let $date := data($x//@when[1])
     let $year := year-from-date(xs:date($date))
