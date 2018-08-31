@@ -542,12 +542,12 @@
             </div>
          </div>
       </body>
-      <back>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/listplace.xml" xpointer="listPlace"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/listperson.xml" xpointer="listPerson"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/listwit.xml" xpointer="listWit"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/listorg.xml" xpointer="listOrg"/>
-         <include xmlns="http://www.w3.org/2001/XInclude" href="../indices/listtreaties.xml" xpointer="listTreaties"/>
+      <back xmlns:xi="http://www.w3.org/2001/XInclude">
+         <xi:include href="../indices/listplace.xml" xpointer="listPlace"/>
+         <xi:include href="../indices/listperson.xml" xpointer="listPerson"/>
+         <xi:include href="../indices/listwit.xml" xpointer="listWit"/>
+         <xi:include href="../indices/listorg.xml" xpointer="listOrg"/>
+         <xi:include href="../indices/listtreaties.xml" xpointer="listTreaties"/>
       </back>
    </text>
 </TEI>
