@@ -10,7 +10,7 @@
                     <tr align="center" font-size="1.0em">
                         <th>Titel</th>
                         <th>Trefferanzahl</th>
-                        <th>KWIC/Doc-ID</th>
+                        <th title="keyword in context">KWIC/Doc-ID</th>
                     </tr>
                 </thead>
                 <tr data-template="app:indexSearch_hits"/>
@@ -19,6 +19,9 @@
     </div>
     <script>var table = $('#myTable').DataTable({
              keepConditions: true,
+             language: {
+             "url": "//cdn.datatables.net/plug-ins/9dcbecd42ad/i18n/German.json"
+             },
              dom: 'Bfrtip',
              buttons: [
                 'copy', 'excel', 'pdf'
