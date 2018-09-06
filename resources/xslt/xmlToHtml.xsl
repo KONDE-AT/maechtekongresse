@@ -17,7 +17,8 @@
     <xsl:variable name="prev-doc-title" select="$prev-doc//tei:title[@type='main'][1]"/>
     <xsl:variable name="next-doc-title" select="$next-doc//tei:title[@type='main'][1]"/>
     
-    <xsl:strip-space elements="note ref rs abbr persName author add hi choice expan orgName tei:note tei:ref tei:rs tei:abbr tei:persName tei:author tei:add tei:hi tei:choice tei:expan tei:orgName"/>
+    <xsl:strip-space elements="*"/>
+    <!--<xsl:strip-space elements="note ref rs abbr persName author add hi choice expan orgName tei:note tei:ref tei:rs tei:abbr tei:persName tei:author tei:add tei:hi tei:choice tei:expan tei:orgName"/>-->
 <!--    <xsl:preserve-space elements="persName roleName surname listPerson choice"/>-->
     <!--
 ##################################
@@ -657,6 +658,16 @@
             </xsl:element>
         </xsl:element>
     </xsl:template>
+    
+    <!--<tei:persName xml:space="preserve"><tei:forename>bla</tei:forename> <tei:surname>blo</tei:surname></tei:persName>-->
+    <!--<xsl:template match="tei:persName/*">
+        <xsl:value-of select="."/>
+        <xsl:if test="following-sibling::*">
+            <xsl:text> </xsl:text>
+        </xsl:if>
+    </xsl:template>-->
+    
+    
 <!-- additions -->
     <xsl:template match="tei:add">
         <xsl:element name="span">
