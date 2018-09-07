@@ -9,9 +9,8 @@
             <title type="sub">Digitale Edition</title>
             <editor>
                <persName>
-                  <surname>Schneider</surname>
-                  <forename>Karin</forename>
-               </persName>
+                        <surname>Schneider</surname> <forename>Karin</forename>
+                    </persName>
                 </editor>
          </titleStmt>
          <editionStmt>
@@ -43,8 +42,7 @@
                   </msItem>
                </msContents>
                <physDesc>
-
-                  <p> Eigenhändiges Protokoll von <persName ref="#p.5">
+                  <p>Eigenhändiges Protokoll von <persName ref="#p.5">
                         <surname>Gentz</surname>
                             </persName> und <persName ref="#p.6">
                                 <surname>Wacken</surname>
@@ -62,7 +60,6 @@
                         Oktober 1818</date>
                         </origin>
                </history>
-
             </msDesc>
             <msDesc xml:id="m.2" type="Ausfertigung">
                <msIdentifier>
@@ -161,14 +158,14 @@
             <p>
                     <add place="top">7</add>
                 </p>
-            <p> À <placeName ref="#loc.1">Aix-la-Chapelle</placeName> Le</p>
+            <p>À <placeName ref="#loc.1">Aix-la-Chapelle</placeName> Le</p>
             <p>
-                    <date when="1818-10-09"> 9 Octobre 1818</date>
+                    <date when="1818-10-09">9 Octobre 1818</date>
             </p>
             <p>
                <add place="margin">(Entre les 5 Cabinets)</add>
                 </p>
-            <p>La discussion des arrangemens pécuniaires entre les Quatre Cours Alliées et la
+            <p xml:space="preserve">La discussion des arrangemens pécuniaires entre les Quatre Cours Alliées et la
                   <country>France</country> ayant été terminée dans les dernières conférences, <choice>
                   <abbr>Mrs.</abbr>
                   <expan>Messieurs</expan>
@@ -184,7 +181,7 @@
                et paraphé le tout pour le faire expédier selon les formes d’usage ; et afin de
                terminer le plutôt possible cette affaire importante, il a été convenu d’y consacrer
                une seconde séance dans la soirée.</p>
-            <p>En conséquence de quoi <choice>
+            <p xml:space="preserve">En conséquence de quoi <choice>
                   <abbr>Mrs</abbr>
                   <expan>Messieurs</expan>
                </choice>
@@ -277,7 +274,7 @@
                         <roleName>Duc</roleName>
                   <surname>de Richelieu</surname>
                     </persName>, en l’invitant à vouloir bien leur
-               donner acte de cette déclaration. <rs xml:id="n.1"> Cette Note est annexée au présent
+               donner acte de cette déclaration. <rs xml:id="n.1">Cette Note est annexée au présent
                   Protocole.</rs>
                <note type="editorial" target="#n.1"> Erwähnte Anlage liegt nicht ein.</note>
             </p>

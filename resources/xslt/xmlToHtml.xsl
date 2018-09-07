@@ -896,11 +896,20 @@
         <xsl:element name="p">
             <xsl:apply-templates/>
         </xsl:element>
+    </xsl:template><!-- Substitutions -->
+    <xsl:template match="tei:subst">
+        <xsl:apply-templates/>
     </xsl:template><!-- Durchstreichungen -->
     <xsl:template match="tei:del">
         <xsl:element name="strike">
             <xsl:apply-templates/>
         </xsl:element>
+    </xsl:template>
+    <xsl:template match="tei:country">
+        <span>
+            <xsl:attribute name="style">color:purple</xsl:attribute>
+                <xsl:apply-templates/>
+        </span>
     </xsl:template>
     <xsl:template match="tei:signed/tei:list/tei:item">
         <xsl:element name="p">

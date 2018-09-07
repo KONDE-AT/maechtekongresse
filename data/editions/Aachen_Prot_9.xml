@@ -9,9 +9,8 @@
             <title type="sub">Digitale Edition</title>
             <editor>
                <persName>
-                  <surname>Schneider</surname>
-                  <forename>Karin</forename>
-               </persName>
+                        <surname>Schneider</surname> <forename>Karin</forename>
+                    </persName>
                 </editor>
          </titleStmt>
          <editionStmt>
@@ -164,30 +163,27 @@
                     </persName> et <persName ref="#p.20">
                         <surname>Baring</surname>
                     </persName>.</p>
-            <p>
+            <p xml:space="preserve">
                     <choice>
                   <abbr>Mrs.</abbr>
                   <expan>Messieurs</expan>
                </choice>
                <rs ref="#p.8 #p.10 #p.11 #p.13 #p.12 #p.14 #p.9" type="multi-person">les Ministres</rs> ont délibéré
-               ensuite <rs xml:id="n.1">
-                  sur la lettre adressée aux Quatre Cabinets par le <rs ref="#p.22" type="person">Grand-Duc
+               ensuite <rs xml:id="n.1">sur la lettre adressée aux Quatre Cabinets par le <rs ref="#p.22" type="person">Grand-Duc
                         de Bade</rs> pour les engager à prononcer définitivement sur ses intérêts
-                  tant de famille que de territoire.</rs>
-                  <note type="editorial" target="#n.1">Vgl. Dokumente Nr. 10, 11, 14, 20, 28, 32, 41; Erbe,
+                  tant de famille que de territoire.</rs><note type="editorial" target="#n.1">Vgl. Dokumente Nr. 10, 11, 14, 20, 28, 32, 41; Erbe,
                      Erschütterung, S. 172–173; Ullmann, Baden 1800 bis 1830. In: Handbuch der
                      Baden-Württembergischen Geschichte, Bd. 3, S. 37–38. Huber, Deutsche
                      Verfassungsgeschichte, Bd. 1, S. 324–328; Sahrmann, Pfalz oder Salzburg, S.
                      84–96.</note>
                </p>
-            <p>Pendant le reste de la séance, <choice>
+            <p xml:space="preserve">Pendant le reste de la séance, <choice>
                   <abbr>Mrs</abbr>
                   <expan>Messieurs</expan>
                </choice>
                <rs ref="#p.8 #p.10 #p.11 #p.13 #p.12 #p.14 #p.9" type="multi-person">les Ministres</rs> se sont occupés
                de questions relatives au <rs ref="#t.6" type="treaties">Traité d’Alliance du
-                  <date when="1815-11-20">20 Novembre 1815</date>
-                    </rs> et aux mesures à adopter pour
+                  <date when="1815-11-20">20 Novembre 1815</date></rs> et aux mesures à adopter pour
                déterminer de la manière la plus conforme à l’intérêt commun de l’Europe les
                relations futures entre les Quatre puissances Alliées et la
                <country>France</country>.</p>

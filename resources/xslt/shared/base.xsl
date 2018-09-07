@@ -176,7 +176,8 @@
                     <xsl:value-of select="substring-after(data(@ref), '#')"/>
                     <xsl:value-of select="@key"/>
                 </xsl:attribute>
-                <xsl:value-of select="."/>
+<!--                <xsl:value-of select="."/>-->
+                <xsl:apply-templates/>
             </xsl:element>
         </strong>
     </xsl:template>
@@ -218,6 +219,16 @@
                 <xsl:value-of select="."/>
             </xsl:element>
         </strong>
+    </xsl:template>
+    <xsl:template match="tei:date">
+        <xsl:element name="span">
+            <xsl:attribute name="style">
+                <xsl:text>color:green;</xsl:text>
+            </xsl:attribute>
+            <xsl:attribute name="title">ISO: <xsl:value-of select="@when"/>
+            </xsl:attribute>
+            <xsl:apply-templates/>
+        </xsl:element>
     </xsl:template><!-- additions -->
     <xsl:template match="tei:add">
         <xsl:element name="span">

@@ -9,9 +9,8 @@
             <title type="sub">Digitale Edition</title>
             <editor>
                <persName>
-                  <surname>Schneider</surname>
-                  <forename>Karin</forename>
-               </persName>
+                        <surname>Schneider</surname> <forename>Karin</forename>
+                    </persName>
             </editor>
          </titleStmt>
          <editionStmt>
@@ -25,8 +24,7 @@
             <pubPlace>Wien</pubPlace>
             <idno>L_15</idno>
             <availability>
-               <licence target="https://creativecommons.org/licenses/by-sa/4.0/legalcode.de"
-                  >https://creativecommons.org/licenses/by-sa/4.0/legalcode.de</licence>
+               <licence target="https://creativecommons.org/licenses/by-sa/4.0/legalcode.de">https://creativecommons.org/licenses/by-sa/4.0/legalcode.de</licence>
             </availability>
          </publicationStmt>
          <sourceDesc>
@@ -90,8 +88,7 @@
       </encodingDesc>
       <profileDesc>
          <abstract>
-            <p>Die Vertreter der Mächte beschließen, die Verhandlungen in <placeName ref="#loc.65"
-                  >Laibach</placeName>/<placeName ref="#loc.65">Ljubljana</placeName> zu beenden und
+            <p>Die Vertreter der Mächte beschließen, die Verhandlungen in <placeName ref="#loc.65">Laibach</placeName>/<placeName ref="#loc.65">Ljubljana</placeName> zu beenden und
                sich in zwei Jahren in <placeName ref="#loc.69">Florenz</placeName> erneut zu einem
                Kongress zu versammeln.</p>
          </abstract>
@@ -185,8 +182,7 @@
                le principal objet de leur réunion se trouve aussi complètement atteint qu’il pouvoit
                l’être par la voie des négociations, et qu’il ne se présente en ce moment aucune
                question qui exige des délibérations ultérieures de leur part,</p>
-            <p>Considérant en outre que par les pièces portées au <ref target="Laibach_Prot_11.xml"
-                  >Journal de la conférence du <date when="1821-02-02">2 Février</date>
+            <p>Considérant en outre que par les pièces portées au <ref target="Laibach_Prot_11.xml">Journal de la conférence du <date when="1821-02-02">2 Février</date>
                </ref> il a été statué une nouvelle réunion dans le courant de l’année 1822 pour
                délibérer sur la question si le terme assigné à l’occupation militaire du
                   <country>Royaume de Naples</country> doit être prorogé ou maintenu,</p>
@@ -201,8 +197,7 @@
                   <abbr>Mrs.</abbr>
                   <expan>Messieurs</expan>
                </choice> les <rs ref="#p.102 #p.135 #p.160" type="multi-person">Plénipotentiaires
-                  Français</rs>, en se référant à leur déclaration consignée au <ref
-                  target="Laibach_Prot_11.xml">Journal du <date when="1821-02-02">2 Février</date>
+                  Français</rs>, en se référant à leur déclaration consignée au <ref target="Laibach_Prot_11.xml">Journal du <date when="1821-02-02">2 Février</date>
                </ref>, ont accédé aux présentes résolutions pour ce qui regarde la clôture du
                Congrès. Quant à la réunion de l’année prochaine, Ils se sont réservés d’en informer
                leur cour, et ils ne doutent pas que <rs ref="#p.15" type="person" xml:id="n.2">
@@ -231,16 +226,11 @@
          </div>
       </body>
       <back>
-         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../indices/listplace.xml"
-            xpointer="listPlace"/>
-         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../indices/listperson.xml"
-            xpointer="listPerson"/>
-         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../indices/listwit.xml"
-            xpointer="listWit"/>
-         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../indices/listorg.xml"
-            xpointer="listOrg"/>
-         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../indices/listtreaties.xml"
-            xpointer="listTreaties"/>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../indices/listplace.xml" xpointer="listPlace"/>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../indices/listperson.xml" xpointer="listPerson"/>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../indices/listwit.xml" xpointer="listWit"/>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../indices/listorg.xml" xpointer="listOrg"/>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../indices/listtreaties.xml" xpointer="listTreaties"/>
       </back>
    </text>
 </TEI>

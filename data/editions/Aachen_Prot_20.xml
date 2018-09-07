@@ -9,9 +9,8 @@
             <title type="sub">Digitale Edition</title>
             <editor>
                <persName>
-                  <surname>Schneider</surname>
-                  <forename>Karin</forename>
-               </persName>
+                        <surname>Schneider</surname> <forename>Karin</forename>
+                    </persName>
                 </editor>
          </titleStmt>
          <editionStmt>
@@ -189,7 +188,7 @@
             <p>
                     <add hand="#W" place="margin">Entre les Cinq Cabinets</add>
                 </p>
-            <p>
+            <p xml:space="preserve">
                     <choice>
                   <abbr>Mr.</abbr>
                   <expan>Monsieur</expan>
@@ -216,8 +215,7 @@
                </choice> le <persName ref="#p.48">
                         <roleName>Prince</roleName>
                   <forename>Charles</forename>
-                  <surname>de Rohan</surname>
-                    </persName>, possesseur actuel moyennant la décision
+                  <surname>de Rohan</surname></persName>, possesseur actuel moyennant la décision
                arbitrale prononcée en vertu de <rs ref="#t.12" type="treaties">l’art. 69 de l’acte du Congrès de
                   Vienne.</rs>
                <choice>
@@ -325,14 +323,13 @@
 
          <div hand="#A" decls="#m.2">
             <pb n="88r"/>
-            <p>
+            <p xml:space="preserve">
                     <add place="top">Copie. annexe Lit. <unclear>Z</unclear> ad <choice>
                      <abbr>prot.</abbr>
                      <expan>protocol</expan>
                   </choice>
                   <choice>
-                     <abbr>n<hi rendition="#su">o</hi>
-                            </abbr>
+                     <abbr>n<hi rendition="#su">o</hi></abbr>
                      <expan>numéro</expan>
                   </choice> 20.</add>
                 </p>
@@ -549,7 +546,7 @@
                Allemagne ? – Non, le <rs ref="#p.22" type="person">Grand-Duc</rs> peut en appeler avec une
                confiance entière à l’esprit de justice qui caractérise les grands monarques aux
                Représentans desquels <rs ref="#p.55" type="person">j’</rs>ai l’honneur de parler !</p>
-            <p>Quant à la réversibilité, le <rs ref="#t.19" type="treaties">traité de <placeName ref="#loc.25">Francfort</placeName>
+            <p xml:space="preserve">Quant à la réversibilité, le <rs ref="#t.19" type="treaties">traité de <placeName ref="#loc.25">Francfort</placeName>
                     </rs> qui, conformément à l’invitation des <rs xml:id="n.13">quatre hautes puissances</rs>,<note type="editorial" target="#n.13">Österreich, Großbritannien, Preußen, Russland.</note>
                <hi rendition="#u">doit être seul</hi> la base de la négociation présente, n’en
                contient rien. Vous me dites, Messieurs, qu’elle a été stipulée par deux Actes : un

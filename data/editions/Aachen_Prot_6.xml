@@ -9,9 +9,8 @@
             <title type="sub">Digitale Edition</title>
             <editor>
                <persName>
-                  <surname>Schneider</surname>
-                  <forename>Karin</forename>
-               </persName>
+                        <surname>Schneider</surname> <forename>Karin</forename>
+                    </persName>
                 </editor>
          </titleStmt>
          <editionStmt>
@@ -283,7 +282,7 @@
                         </item>
                </list>
                 </signed>
-            <note place="margin" hand="#G">
+            <note place="margin" hand="#G" type="author">
                     <p>
                         <hi rendition="#u">Note</hi> du <date when="1818-10-09">9 Octobre</date>
                     </p>
@@ -393,7 +392,7 @@
                millions de francs par an. Quant aux demandes en sus de cette somme, il ne devoit y
                être satisfait que dans le courant de la sixième année.</p>
             <pb n="26v"/>
-            <p>7<hi rendition="#su">o</hi>
+            <p xml:space="preserve">7<hi rendition="#su">o</hi>
                <rs ref="#p.1" type="person">Le Ministre de <country>France</country>
                     </rs> prétend que <rs ref="#t.8" type="treaties">l’annexe au Protocole du <date when="1815-10-13">13 <choice>
                         <abbr>8<hi rendition="#su">bre</hi>
@@ -403,12 +402,8 @@
                         </date>
                     </rs> renferme des engagemens non moins obligatoires que toute
                autre partie des actes qui ont précédé le <rs ref="#t.1" type="treaties">traité du <date when="1815-11-20">20 <choice>
-                        <abbr>9<hi rendition="#su">bre</hi>
-                                </abbr>
-                        <expan>Novembre</expan>
-                     </choice>
-                        </date>
-                    </rs>, et que ce traité même ; et que les frais d’entretien de
+                        <abbr>9<hi rendition="#su">bre</hi></abbr>
+                        <expan>Novembre</expan></choice></date></rs>, et que ce traité même ; et que les frais d’entretien de
                l’armée excédant la somme fixée, c’est aux Alliés à porter cette charge.</p>
             <p>8<hi rendition="#su">o</hi> En examinant cette question dans ses détails, l’on se
                rappelera que depuis 1815 il y a eu deux années de calamités extraordinaires,
@@ -471,7 +466,7 @@
                   <abbr>dernièrem<hi rendition="#su">t</hi>
                         </abbr>
                   <expan>dernièrement</expan>
-               </choice>.</p>
+                    </choice>.</p>
             <p>16<hi rendition="#su">o</hi> Elle payera de même dans le courant de 1819 une somme de
                280 millions, formant le total de l’indemnité pour les années 1819 et 1820.</p>
             <p>17<hi rendition="#su">o</hi> La <country>France</country> auroit eu, conformément aux
@@ -479,10 +474,10 @@
                jusqu’à la 5<hi rendition="#su">e</hi> année, l’acquittement de la solde excédant 30
                millions par an pendant les années 1817 et 1818, ainsi que celui de l’arriéré de 26
                millions acquitté <choice>
-                  <abbr>dernièrem<hi rendition="#su">t </hi>
+                  <abbr>dernièrem<hi rendition="#su">t</hi>
                         </abbr>
                   <expan>dernièrement</expan>
-               </choice>; elle peut, à mon avis, prétendre aux intérêts de ces sommes à compter des
+               </choice> ; elle peut, à mon avis, prétendre aux intérêts de ces sommes à compter des
                époques respectives de leur payement jusqu’à la 5<hi rendition="#su">e</hi>
                année.</p>
          </div>
