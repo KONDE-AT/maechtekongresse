@@ -121,7 +121,7 @@
             <p>
                     <add place="top">2.</add>
                 </p>
-            <p>À <placeName ref="#loc.1">Aix-la-Chapelle</placeName>
+            <p xml:space="preserve">À <placeName ref="#loc.1">Aix-la-Chapelle</placeName>
                <date when="1818-09-30">Le 30 Septembre 1818</date>
             </p>
             <p>
@@ -136,7 +136,7 @@
                réunis pour délibérer sur la proposition faite par<choice>
                   <abbr> Mr.</abbr>
                   <expan>Monsieur</expan>
-               </choice> le <persName ref="#p.1">
+               </choice> le <persName ref="#p.1" xml:space="preserve">
                         <roleName>Duc</roleName>
                   <surname>de Richelieu</surname>
                     </persName> au nom et par ordre de <choice>
@@ -147,14 +147,11 @@
                l’article V du <rs ref="#t.1" type="treaties">Traité du <date when="1815-11-20">20 Novembre
                      1815</date>
                     </rs>.</p>
-            <p>La question d’un terme à mettre à cette occupation Militaire ayant été depuis
+            <p xml:space="preserve">La question d’un terme à mettre à cette occupation Militaire ayant été depuis
                longtems le sujet des méditations suivies de chacun des Quatre Cabinets réunis, <choice>
-                  <abbr>
-                            <choice>
+                  <abbr><choice>
                         <sic>Mr.</sic>
-                        <corr>Mrs.</corr>
-                     </choice>
-                        </abbr>
+                        <corr>Mrs.</corr></choice></abbr>
                   <expan>Messieurs</expan>
                </choice>
                <rs ref="#p.8 #p.9 #p.10 #p.11 #p.12 #p.13 #p.14" type="multi-person">les Ministres</rs> se sont
@@ -172,9 +169,7 @@
                     </persName>
                <ref target="Aachen_Prot_1.xml">pour les arrangemens pécuniairespropres à compléter
                   l’exécution des clauses du <rs ref="#t.1" type="treaties">Traité du <date when="1815-11-20">20
-                        Novembre</date>
-                        </rs>
-                    </ref>, <choice>
+                        Novembre</date></rs></ref>, <choice>
                   <abbr>Mrs.</abbr>
                   <expan>Messieurs</expan>
                </choice> les Ministres<pb n="4v"/> ont invité <choice>

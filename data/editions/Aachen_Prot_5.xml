@@ -190,7 +190,7 @@
             <p>
                     <add place="top">5.</add>
                 </p>
-            <p>À <placeName ref="#loc.1">Aix-la-Chapelle</placeName>
+            <p xml:space="preserve">À <placeName ref="#loc.1">Aix-la-Chapelle</placeName>
                <date when="1818-10-03">le 3 Octobre 1818</date>
             </p>
             <p>
@@ -200,7 +200,7 @@
                     <choice>
                   <abbr>Mr.</abbr>
                   <expan>Monsieur</expan>
-               </choice> le <persName ref="#p.1">
+               </choice> le <persName ref="#p.1" xml:space="preserve">
                         <roleName>Duc</roleName>
                   <surname>de Richelieu</surname>
                     </persName>, revenant sur la demande précédemment
@@ -222,7 +222,7 @@
                cette demande. <rs ref="#m.2" type="m">Cette pièce, annexée au Protocole</rs>, a été remise à <choice>
                   <abbr>Mr.</abbr>
                   <expan>Monsieur</expan>
-               </choice> le <persName ref="#p.10">
+               </choice> le <persName ref="#p.10" xml:space="preserve">
                         <roleName>Duc</roleName>
                   <surname>de Wellington</surname>
                     </persName> qui s’est chargé de communiquer à la
@@ -233,13 +233,13 @@
                   Cours</rs> se sont réservés d’adresser leur réponse à <choice>
                   <abbr>Mr.</abbr>
                   <expan>Monsieur</expan>
-               </choice> le <persName ref="#p.1">
+               </choice> le <persName ref="#p.1" xml:space="preserve">
                         <roleName>Duc</roleName>
                   <surname>de Richelieu</surname>
                     </persName> aussitôt que l’avis de <choice>
                   <abbr>Mr.</abbr>
                   <expan>Monsieur</expan>
-               </choice> le <persName ref="#p.10">
+               </choice> le <persName ref="#p.10" xml:space="preserve">
                         <roleName>Duc</roleName>
                   <surname>de Wellington</surname>
                     </persName> leur sera connu.</p>
@@ -247,13 +247,13 @@
                     <choice>
                   <abbr>Mr.</abbr>
                   <expan>Monsieur</expan>
-               </choice> le <persName ref="#p.11">
+               </choice> le <persName ref="#p.11" xml:space="preserve">
                         <roleName>Prince</roleName>
                   <surname>de Hardenberg</surname>
                     </persName> a fait ensuite lecture <rs xml:id="n.1"> des observations ci-annexées</rs> <note type="editorial" target="#n.1">Anlage liegt nicht ein.</note> sur la <rs ref="#t.7" type="treaties">convention
                      conclue<pb n="8v"/> le <date when="1818-04-25">25 Avril
                1818</date>
-                    </rs>relativement aux réclamations particulières à la charge de la
+                    </rs> relativement aux réclamations particulières à la charge de la
                   <country>France</country> ; observations à la suite desquelles <choice>
                   <abbr>Mr.</abbr>
                   <expan>Monsieur</expan>
@@ -267,7 +267,7 @@
             <p>Il a été représenté à <choice>
                   <abbr>Mr.</abbr>
                   <expan>Monsieur</expan>
-               </choice> le <persName ref="#p.11">
+               </choice> le <persName ref="#p.11" xml:space="preserve">
                         <roleName>Prince</roleName>
                   <surname>de Hardenberg</surname>
                     </persName> que <rs ref="#t.7" type="treaties">les dispositions de
@@ -279,7 +279,7 @@
                politique, elle feroit un mauvais effet sur l’opinion. <choice>
                   <abbr>Mr.</abbr>
                   <expan>Monsieur</expan>
-               </choice> le <persName ref="#p.11">
+               </choice> le <persName ref="#p.11" xml:space="preserve">
                         <roleName>Prince</roleName>
                   <surname>de Hardenberg</surname>
                     </persName> a toutefois demandé que sa proposition
@@ -344,7 +344,7 @@
 
             <p>Le <rs ref="#p.1" type="person">Soussigné</rs>, Plénipotentiaire de <rs xml:id="n.2">
                <rs ref="#p.15" type="person">Sa Majesté Très Chrétienne</rs>
-                    </rs>, <note type="editorial" target="#n.2"> Ehrentitel des Königs von Frankreich</note> a l’honneur de
+                    </rs>,<note type="editorial" target="#n.2"> Ehrentitel des Königs von Frankreich</note> a l’honneur de
                présenter à Leurs Excellences, Messieurs <rs ref="#p.8 #p.10 #p.11 #p.13 #p.12 #p.14 #p.9" type="multi-person">les Plénipotentiaires des Cours
                   d’Autriche, de la Grande-Bretagne, de Prusse et de Russie</rs>, les observations
                suivantes relativement aux dépenses d’entretien de l’armée d’occupation :</p>
@@ -408,13 +408,11 @@
                réduction progressive dans le nombre des troupes, le niveau seroit rétabli<pb n="14v"/> entre les dépenses réelles et la somme qu’Elle s’étoit engagée à fournir.</p>
             <p>Or, quoique les Puissances alliées ayent d’après l’esprit du traité retiré une partie
                de leurs troupes, les dépenses faites pour l’armée d’occupation ne s’en élèveront pas
-               moins au <date when="1818-12-01">1<hi rendition="#su">er</hi>
+               moins au <date when="1818-12-01" xml:space="preserve">1<hi rendition="#su">er</hi>
                   <choice>
-                     <abbr>X<hi rendition="#su">bre</hi>
-                            </abbr>
+                     <abbr>X<hi rendition="#su">bre</hi></abbr>
                      <expan>Décembre</expan>
-                  </choice>
-                    </date> prochain à quatre cent quatre-vingt-huit millions Trois cent
+                  </choice></date> prochain à quatre cent quatre-vingt-huit millions Trois cent
                Trente-deux mille francs.</p>
             <p>Le Gouvernement François est donc fondé à demander formellement qu’une compensation
                soit établie de manière à ramener cette somme à celle de quatre cent cinquante
@@ -426,7 +424,7 @@
                reconnoissant la scrupuleuse exactitude apportée par la <country>France</country>
                dans l’exécution des obligations les plus onéreuses, Elles voudront de leur côté
                accomplir sans restrictions leurs promesses.</p>
-            <p>D’après <rs ref="#t.8" type="treaties">le même procès-verbal</rs>
+            <p xml:space="preserve">D’après <rs ref="#t.8" type="treaties">le même procès-verbal</rs>
                <rs ref="#p.1" type="person">le Soussigné</rs> se trouve obligé de former une seconde demande.
                   Le<pb n="15r"/> remboursement du déficit annuel de Vingt millions, auquel la
                   <country>France</country> étoit tenu, ne devoit avoir lieu que dans la 4<hi rendition="#su">e</hi> et la 5<hi rendition="#su">e</hi> année, et pouvoit être
@@ -451,7 +449,7 @@
                     <rs ref="#p.1" type="person">Le Soussigné</rs> a l’honneur de renouveler à <rs ref="#p.8 #p.10 #p.11 #p.13 #p.12 #p.14 #p.9" type="multi-person">Leurs Excellences</rs> l’assurance
                de sa haute considération.</p>
             <signed>Richelieu</signed>
-            <dateline>
+            <dateline xml:space="preserve">
                     <placeName ref="#loc.1">Aix-la-Chapelle</placeName>, le <date when="1818-10-02">2 <choice>
                      <abbr>8<hi rendition="#su">bre</hi>
                             </abbr>
@@ -481,36 +479,34 @@
                     </add>
                 </p>
             <p>
-                    <add place="top">À Son Excellence Monsieur le <persName ref="#p.1">
+                    <add place="top">À Son Excellence Monsieur le <persName ref="#p.1" xml:space="preserve">
                             <roleName>Duc</roleName>
-                     <surname>de Richelieu</surname>
-                        </persName>.</add>
+                     <surname>de Richelieu</surname></persName>.</add>
                 </p>
             <p>
-                    <add hand="#W">
+                    <add hand="#W" xml:space="preserve">
                         <placeName ref="#loc.1">Aix-La-Chapelle</placeName>
-                  <date when="1818-10-08">8 Octobre 1818</date>
-                    </add>
+                  <date when="1818-10-08">8 Octobre 1818</date></add>
                 </p>
             <p>
                <add place="margin">(Par les Quatre Cours)</add>
                 </p>
-            <p>Les <rs ref="#p.8 #p.11 #p.13 #p.12 #p.14 #p.9 #" type="multi-person">Soussignés</rs>, Ministres et
+            <p xml:space="preserve">Les <rs ref="#p.8 #p.11 #p.13 #p.12 #p.14 #p.9 #" type="multi-person">Soussignés</rs>, Ministres et
                Plénipotentiaires de <choice>
                   <abbr>LL. MM.</abbr>
                   <expan>Leurs Majestés</expan>
                </choice> l’<rs ref="#p.16" type="person">Empereur d’Autriche</rs>, le <rs ref="#p.19" type="person">Roi de la
-                  Grande-Bretagne</rs>, le <rs ref="#p.18" type="person">Roi de Prusse</rs> et <rs ref="#p.17" type="person">l’Empereur de Toutes les Russies</rs>, ont l’honneur de présenter à <choice>
+                  Grande-Bretagne</rs>, le <rs ref="#p.18" type="person">Roi de Prusse</rs> et <rs ref="#p.17" type="person">l’Empereur de Toutes les Russies</rs>, 
+               ont l’honneur de présenter à <choice>
                   <abbr>S. E.</abbr>
                   <expan>Son Excellence</expan>
-               </choice>
+               </choice> 
                <choice>
                   <abbr>Mr.</abbr>
                   <expan>Monsieur</expan>
                </choice> le <persName ref="#p.1">
                         <roleName>Duc</roleName>
-                  <surname>de Richelieu</surname>
-                    </persName>, en réponse <rs ref="#m.2" type="m"> à la note
+                  <surname>de Richelieu</surname></persName>, en réponse <rs ref="#m.2" type="m">à la note
                   verbale qu’Il leur a adressée en date du <date when="1818-10-02">2 Octobre</date>
                      relativement aux dépenses d’entretien de l’armée d’occupation</rs>, les observations
                suivantes :</p>
@@ -586,7 +582,7 @@
                rétabli si l’occupation Militaire avoit duré cinq ans. Les cours alliées se
                félicitent trop de la résolution qui rend une compensation pareille impossible pour
                pousser plus loin ces calculs hypothétiques.</p>
-            <p>L’exposé que l’on vient de présenter prouvera à <choice>
+            <p xml:space="preserve">L’exposé que l’on vient de présenter prouvera à <choice>
                   <abbr>S. E.</abbr>
                   <expan>Son Excellence</expan>
                </choice>
@@ -597,8 +593,7 @@
                         <roleName>Duc</roleName>
                   <surname>de Richelieu</surname>
                     </persName> combien il seroit difficile, pour ne
-               pas dire impossible, <rs xml:id="n.3">aux puissances signataires </rs>
-                    <note type="editorial" target="#n.3">Österreich, Frankreich, Großbritannien, Preußen,
+               pas dire impossible, <rs xml:id="n.3">aux puissances signataires</rs><note type="editorial" target="#n.3">Österreich, Frankreich, Großbritannien, Preußen,
                      Russland</note> du <rs ref="#t.1" type="treaties">Traité du <date when="1815-11-20">20
                      Novembre 1815</date>
                     </rs> de répondre par des argumens solides aux reproches
@@ -616,10 +611,9 @@
                de porter cet avis à la connoissance de <choice>
                   <abbr>Mr.</abbr>
                   <expan>Monsieur</expan>
-               </choice> le <persName ref="#p.1">
+               </choice> le <persName ref="#p.1" xml:space="preserve">
                         <roleName>Duc</roleName>
-                  <surname>de Richelieu</surname>
-                    </persName>, en renouvelant à Son Excellence
+                  <surname>de Richelieu</surname></persName>, en renouvelant à Son Excellence
                l’assurance de leur haute considération.</p>
             <signed>
                <list>

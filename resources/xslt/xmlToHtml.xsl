@@ -19,7 +19,7 @@
     
     <xsl:strip-space elements="*"/>
     <!--<xsl:strip-space elements="note ref rs abbr persName author add hi choice expan orgName tei:note tei:ref tei:rs tei:abbr tei:persName tei:author tei:add tei:hi tei:choice tei:expan tei:orgName"/>-->
-<!--    <xsl:preserve-space elements="persName roleName surname listPerson choice"/>-->
+    <xsl:preserve-space elements="tei:persName tei:roleName tei:surname"/>
     <!--
 ##################################
 ### Seitenlayout und -struktur ###
@@ -99,7 +99,7 @@
                                         <xsl:for-each select="//tei:particDesc/tei:listPerson/tei:person">
                                             <xsl:apply-templates/>
                                             <xsl:if test="position() != last()">
-                                                <xsl:text>· </xsl:text>
+                                                <xsl:text> · </xsl:text>
                                             </xsl:if>
                                         </xsl:for-each>
                                     </td>
@@ -666,7 +666,19 @@
             <xsl:text> </xsl:text>
         </xsl:if>
     </xsl:template>-->
-    
+    <xsl:template match="tei:orgName[@ref]">
+        <xsl:element name="strong">
+            <xsl:element name="a">
+                <xsl:attribute name="class">reference</xsl:attribute>
+                <xsl:attribute name="data-type">listorg.xml</xsl:attribute>
+                <xsl:attribute name="data-key">
+                    <xsl:value-of select="substring-after(data(@ref), '#')"/>
+                    <xsl:value-of select="@key"/>
+                </xsl:attribute>
+                <xsl:apply-templates/>
+            </xsl:element>
+        </xsl:element>
+    </xsl:template>
     
 <!-- additions -->
     <xsl:template match="tei:add">
