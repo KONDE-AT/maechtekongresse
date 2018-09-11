@@ -6,6 +6,9 @@
     <xsl:param name="collection-name"/>
     <xsl:param name="path2source"/>
     <xsl:param name="ref"/>
+    
+    <xsl:strip-space elements="*"/>
+    <xsl:preserve-space elements="p tei:p tei:title tei:persName tei:roleName tei:surname tei:rs"/>
     <!--
 ##################################
 ### Seitenlayout und -struktur ###

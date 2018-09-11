@@ -37,9 +37,9 @@
             <rendition xml:id="s" scheme="css">text-decoration:line-through;</rendition>
             <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
             <rendition xml:id="i" scheme="css">front-style: italic;</rendition>
-            <rendition xml:id="ow">overwritten</rendition>
-            <rendition xml:id="du">double underline</rendition>
-            <rendition xml:id="k">kurrent</rendition>
+            <rendition xml:id="ow" scheme="css">text-decoration:line-through;text-decoration-style:double;</rendition>
+            <rendition xml:id="du" scheme="css">border-bottom: 3px double;</rendition>
+            <rendition xml:id="k" scheme="css">font-style: oblique;letter-spacing:1px</rendition>
          </tagsDecl>
       </encodingDesc>
       <revisionDesc>
@@ -117,7 +117,7 @@
                 <note target="#n.3" type="editorial"> Zuvor reichten die Angaben über die
                Teilnehmer über beide Blatthälften.</note> oben die <rs xml:id="n.4">Überschrift <hi rendition="#i">Journals des Conférences</hi>
                 </rs>
-            <note target="#n.4" type="editorial">Beim <ref target="Laibach_Prot_1.xml">ersten
+                <note target="#n.4" type="editorial">Beim <ref target="Laibach_Prot_1.xml">ersten
                   Protokoll</ref> noch etwas abweichend und unrichtig: "Journal des Conférences
                tenues à Laybach depuis le 11 Janvier 1821".</note> mit der Zählung in arabischen
             Ziffern sowie dem Datum <hi rendition="#i">Conférence du [...]</hi>. Unter der Rubrik

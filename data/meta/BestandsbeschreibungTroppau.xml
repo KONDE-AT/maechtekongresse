@@ -36,9 +36,9 @@
             <rendition xml:id="s" scheme="css">text-decoration:line-through;</rendition>
             <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
             <rendition xml:id="i" scheme="css">front-style: italic;</rendition>
-            <rendition xml:id="ow">overwritten</rendition>
-            <rendition xml:id="du">double underline</rendition>
-            <rendition xml:id="k">kurrent</rendition>
+            <rendition xml:id="ow" scheme="css">text-decoration:line-through;text-decoration-style:double;</rendition>
+            <rendition xml:id="du" scheme="css">border-bottom: 3px double;</rendition>
+            <rendition xml:id="k" scheme="css">font-style: oblique;letter-spacing:1px</rendition>
          </tagsDecl>
       </encodingDesc>
       <revisionDesc>
@@ -74,14 +74,14 @@
             knapp gehalten und sind dem Typus eines Verlaufsprotokoll zuzuordnen. <rs xml:id="n.2">Da die britischen und französischen Teilnehmer nicht zu Verhandlungen bevollmächtigt
                waren, sondern nur als Beobachter fungierten, tragen sie nicht die Bezeichnung <hi rendition="#i">Protocole</hi>, sondern <hi rendition="#i">Journal</hi>. Damit wird
                auf ihren halb-offiziellen Status unterstrichen.</rs>
-            <note type="editorial" target="#n.2"> Vgl. <ref target="Troppau_Prot_1.xml">Journal 1
+                <note type="editorial" target="#n.2"> Vgl. <ref target="Troppau_Prot_1.xml">Journal 1
                   vom 23. Oktober 1820</ref>.</note>
          </p>
          <p>Die Gestaltung sowie der Aufbau der <hi rendition="#i">Journaux</hi> ist homogen: Die
             Blätter sind halbbrüchig beschrieben. <rs xml:id="n.3">Die Überschrift auf der ersten
                Seite oben rechts lautet stets: <hi rendition="#i">Journal des Conférences</hi>
                 </rs>
-            <note target="#n.3" type="editorial"> Im <ref target="Troppau_Prot_1.xml">Journal
+                <note target="#n.3" type="editorial"> Im <ref target="Troppau_Prot_1.xml">Journal
                   1</ref> noch <hi rendition="#i">Journal des Conférences de Troppau</hi>. </note>.
             Darunter folgen, in zwei Zeilen, die Nummerierung in römischen Zahlzeichen sowie der
             Wochentag und das Datum.</p>

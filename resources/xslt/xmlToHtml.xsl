@@ -848,7 +848,14 @@
     <xsl:template match="tei:table">
         <xsl:element name="table">
             <xsl:attribute name="class">
-                <xsl:text>table table-striped table-condensed table-hover</xsl:text>
+                <xsl:choose>
+                    <xsl:when test="@rend='rules'">
+                        <xsl:text>table table-bordered table-condensed table-hover</xsl:text>
+                    </xsl:when>
+                    <xsl:otherwise>
+                        <xsl:text>table table-bordered table-striped table-condensed table-hover</xsl:text>                        
+                    </xsl:otherwise>
+                </xsl:choose>
             </xsl:attribute>
             <xsl:element name="tbody">
                 <xsl:apply-templates/>
@@ -866,6 +873,15 @@
                 <xsl:attribute name="colspan">
                     <xsl:value-of select="./@cols"/>
                 </xsl:attribute>
+                <xsl:if test="number(@cols) gt 2">
+                    <xsl:attribute name="style">text-align:center</xsl:attribute>
+                </xsl:if>
+            </xsl:if>
+            <xsl:if test="./@rows">
+                <xsl:attribute name="rowspan">
+                    <xsl:value-of select="./@rows"/>
+                </xsl:attribute>
+                <xsl:attribute name="style">vertical-align:middle</xsl:attribute>
             </xsl:if>
             <xsl:if test="not(string(number(.))='NaN')">
                 <xsl:attribute name="style">text-align:right</xsl:attribute>

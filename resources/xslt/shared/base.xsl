@@ -283,7 +283,7 @@
     <xsl:template match="tei:table">
         <xsl:element name="table">
             <xsl:attribute name="class">
-                <xsl:text>table table-bordered table-striped table-condensed table-hover</xsl:text>
+                        <xsl:text>table table-bordered table-striped table-condensed table-hover</xsl:text>                        
             </xsl:attribute>
             <xsl:element name="tbody">
                 <xsl:apply-templates/>
@@ -297,7 +297,17 @@
     </xsl:template>
     <xsl:template match="tei:cell">
         <xsl:element name="td">
-            <xsl:apply-templates/>
+                <xsl:if test="./@cols">
+                    <xsl:attribute name="colspan">
+                    <xsl:value-of select="./@cols"/>
+                </xsl:attribute>
+                </xsl:if>
+                <xsl:if test="./@rows">
+                    <xsl:attribute name="rowspan">
+                    <xsl:value-of select="./@rows"/>
+                </xsl:attribute>
+                </xsl:if>
+                <xsl:apply-templates/>
         </xsl:element>
     </xsl:template><!-- Überschriften -->
     <xsl:template match="tei:head">
