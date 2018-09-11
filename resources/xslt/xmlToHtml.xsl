@@ -18,7 +18,6 @@
     <xsl:variable name="next-doc-title" select="$next-doc//tei:title[@type='main'][1]"/>
     
     <xsl:strip-space elements="*"/>
-    <!--<xsl:strip-space elements="note ref rs abbr persName author add hi choice expan orgName tei:note tei:ref tei:rs tei:abbr tei:persName tei:author tei:add tei:hi tei:choice tei:expan tei:orgName"/>-->
     <xsl:preserve-space elements="p tei:p tei:title tei:persName tei:roleName tei:surname tei:rs"/>
     <!--
 ##################################
