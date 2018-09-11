@@ -37,10 +37,10 @@ header{
 }
 
 .splash {
+height:60vw;
     background: url('../../resources/img/map.svg') center no-repeat; 
     background-position: top;
-    background-size: contain; 
-    position:absolute; 
+    background-size: auto; 
     z-index:0;
 }
 
