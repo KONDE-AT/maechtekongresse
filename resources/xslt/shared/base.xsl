@@ -479,7 +479,7 @@
             <xsl:number level="any" count="tei:msItem"/>
         </xsl:variable>
         <h5 id="msitem_{$x}">
-            Manuscript Item Nr: <xsl:value-of select="$x"/>
+            Manuscript Item Nr.: <xsl:value-of select="$x"/>
         </h5>
         <table class="table table-condensed table-bordered">
             <thead>

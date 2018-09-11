@@ -279,7 +279,7 @@
             <rendition xml:id="su" scheme="css">vertical-align:super; font-size:.7em;</rendition>
             <rendition xml:id="s" scheme="css">text-decoration:line-through;</rendition>
             <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
-            <rendition xml:id="ow">overwritten</rendition>
+            <rendition xml:id="ow" scheme="css">text-decoration:line-through;text-decoration-style:double;</rendition>
             <rendition xml:id="du">double underline</rendition>
             <rendition xml:id="k">kurrent</rendition>
          </tagsDecl>
@@ -713,7 +713,7 @@
                      </rs>
                         <note type="editorial" target="#n.13">Köbler, Historisches Lexikon, S.
                      791–792.</note> dans le pays d’Hanovre.</rs>
-               <note type="editorial" target="#n.14">Vgl. § 8 des <rs ref="#t.24" type="treaties">Hauptschlusses der
+                    <note type="editorial" target="#n.14">Vgl. § 8 des <rs ref="#t.24" type="treaties">Hauptschlusses der
                      außerordentlichen Reichsdeputation (Reichsdeputationshauptschluss) vom 25.
                      Februar 1803</rs>. § 8 regelt die Entschädigungen für den Herzog von
                   Holstein-Oldenburg für die Aufhebung des Zolls von Elsfleth.</note>
@@ -731,7 +731,7 @@
                indemniser le <rs ref="#p.76" type="person">Duc</rs> d’une perte de 130 à 150 mille écus que lui
                rapportait le péage.</p>
             <p>La <rs xml:id="n.17"> Ville de <placeName ref="#loc.35">Brême</placeName>
-               </rs>
+                    </rs>
                     <note type="editorial" target="#n.17">Vgl. Köbler, Historisches Lexikon, S.
                   95–96.</note> elle-même, qui mettait tous ses soins pour faire supprimer le péage,
                ne pouvait pas méconnaître la justice des objections énoncées par le <rs ref="#p.76" type="person">Duc</rs> ; un mémoire du Chargé<pb n="164r"/> d’Affaires de la Ville, daté de
@@ -1020,7 +1020,7 @@
                de se servir d’un droit de rétention qui<pb n="169v"/> est fondé dans la nature des
                choses, <rs xml:id="n.21">et dont l’une des parties peut se servir lorsque l’autre a
                   violé les stipulations d’un traité</rs> ?<rs xml:id="n.20">
-                  <note type="author" place="margin" target="#n.21">
+                        <note type="author" place="margin" target="#n.21">
                      <persName ref="#p.94">
                                 <surname>Vattel</surname>
                             </persName> dans son Droit des
@@ -1031,7 +1031,7 @@
                            répondent à l’article violé ; de ce qu’elle avait promis en considération
                            d’une chose que l’on n’a point accomplie</hi>. »</quote>
                         </note>
-               </rs>
+                    </rs>
                     <note type="editorial" target="#n.20">Die zitierte Passage findet sich in Emer
                   de Vattel, Droit des gens ou Principes de la loi naturelle appliqués à la conduite
                   et aux affaires des nations et des souverains. 1. Auflage London 1758, Livre IV,
@@ -1155,7 +1155,7 @@
             <p>
                     <rs xml:id="n.24">
                   <title>Seigneurie de Kniphausen</title>
-               </rs>
+                    </rs>
                     <note type="editorial" target="#n.24">Köbler, Historisches Lexikon, S.
                   339–340.</note>
             </p>

@@ -19,7 +19,7 @@
     
     <xsl:strip-space elements="*"/>
     <!--<xsl:strip-space elements="note ref rs abbr persName author add hi choice expan orgName tei:note tei:ref tei:rs tei:abbr tei:persName tei:author tei:add tei:hi tei:choice tei:expan tei:orgName"/>-->
-    <xsl:preserve-space elements="tei:persName tei:roleName tei:surname"/>
+    <xsl:preserve-space elements="p tei:p tei:title tei:persName tei:roleName tei:surname tei:rs"/>
     <!--
 ##################################
 ### Seitenlayout und -struktur ###
@@ -204,13 +204,23 @@
                                                     <abbr title="//tei:msIdentifier">Signatur</abbr>
                                                 </th>
                                                 <td>
-                                                    <xsl:for-each select=".//tei:msIdentifier/child::*">
-                                                        <abbr>
-                                                            <xsl:attribute name="title">
-                                                                <xsl:value-of select="name()"/>
-                                                            </xsl:attribute>
-                                                            <xsl:value-of select="."/>
-                                                        </abbr>
+                                                    <xsl:for-each select=".//tei:msIdentifier/child::*"><!-- XXX todo -->
+                                                        <xsl:choose>
+                                                            <xsl:when test="tei:idno/tei:idno">
+                                                                <xsl:for-each select=".">AAA
+                                                                    <xsl:apply-templates/>
+                                                                    <xsl:text>, </xsl:text>
+                                                                </xsl:for-each>
+                                                            </xsl:when>
+                                                            <xsl:otherwise>
+                                                                <abbr>
+                                                                    <xsl:attribute name="title">
+                                                                        <xsl:value-of select="name()"/>
+                                                                    </xsl:attribute>
+                                                                    <xsl:value-of select="."/>
+                                                                </abbr>
+                                                            </xsl:otherwise>
+                                                        </xsl:choose>
                                                         <xsl:if test="position() != last()">, </xsl:if>
                                                     </xsl:for-each><!--<xsl:apply-templates select="//tei:msIdentifier"/>-->
                                                 </td>
@@ -255,6 +265,7 @@
                                                                 </xsl:attribute>
                                                                 <xsl:apply-templates select="root()//tei:listWit/tei:witness[@xml:id=$witId]"/>
                                                             </a>
+                                                            <xsl:text> S. </xsl:text>
                                                             <xsl:value-of select="normalize-space(substring-after(root()//tei:listWit[@corresp=$divlink]/tei:witness[@corresp=concat('#', $witId)], 'S.'))"/>
                                                         </xsl:for-each>
                                                     </td>
@@ -278,33 +289,32 @@
             </div>
             <div class="panel panel-body">
                 <xsl:if test="//tei:div//tei:title">
+                    
                     <h3 id="clickme">
                         <abbr title="Für Abschnitte klicken">[Abschnitte]</abbr>
                     </h3>
+                    <xsl:for-each select="//tei:sourceDesc/tei:msDesc"><!-- Split -->
+                        <xsl:variable name="msDivId" select="@xml:id"/>  
+                        <xsl:variable name="divlink" select="concat('#',$msDivId)"/>
+                        
                     <div id="headings" class="readmore">
                         <ul>
-                            <xsl:for-each select="/tei:TEI/tei:text/tei:body//tei:div//tei:title[not(@type = ('sub', 'desc'))]">
+<!--                            <xsl:for-each select="/tei:TEI/tei:text/tei:body//tei:div//tei:title[not(@type = ('sub', 'desc'))]">-->
+                                <xsl:for-each select="//tei:sourceDesc/tei:msDesc/tei:msContents/tei:msItem/tei:title">
                                 <li>
                                     <a>
                                         <xsl:attribute name="href">
-                                            <xsl:text>#hd</xsl:text>
-                                            <xsl:number level="any"/>
+<!--                                            <xsl:text>#m.</xsl:text>-->
+                                            <xsl:value-of select="$divlink"/>
                                         </xsl:attribute>
-                                        <xsl:number level="multiple" count="tei:div" format="1.1. "/>
+<!--                                        <xsl:number level="multiple" count="tei:div" format="1.1. "/>-->
+                                            <xsl:value-of select="string-join(.//text()[not(ancestor-or-self::tei:note or ancestor-or-self::tei:expan)], ' ')"/>
                                     </a>
-                                    <xsl:choose>
-                                        <xsl:when test=".//tei:orig">
-                                            <xsl:apply-templates select=".//tei:orig"/>
-                                        </xsl:when>
-                                        <xsl:otherwise>
-                                            <xsl:value-of select="string-join(.//text()[not(ancestor-or-self::tei:note or ancestor-or-self::tei:expan)], '')"/>
-<!--                                            <xsl:apply-templates select=".//*[not(self::tei:note)]"/>-->
-                                        </xsl:otherwise>
-                                    </xsl:choose>
                                 </li>
                             </xsl:for-each>
                         </ul>
                     </div>
+                    </xsl:for-each>
                 </xsl:if>
 
                 <div>
@@ -679,7 +689,12 @@
             </xsl:element>
         </xsl:element>
     </xsl:template>
-    
+    <xsl:template match="tei:dateline">
+        <xsl:element name="p">
+            <xsl:attribute name="style">text-align:right;</xsl:attribute>
+            <xsl:apply-templates/>
+        </xsl:element>
+    </xsl:template>
 <!-- additions -->
     <xsl:template match="tei:add">
         <xsl:element name="span">
@@ -847,6 +862,11 @@
     </xsl:template>
     <xsl:template match="tei:cell">
         <xsl:element name="td">
+            <xsl:if test="./@cols">
+                <xsl:attribute name="colspan">
+                    <xsl:value-of select="./@cols"/>
+                </xsl:attribute>
+            </xsl:if>
             <xsl:if test="not(string(number(.))='NaN')">
                 <xsl:attribute name="style">text-align:right</xsl:attribute>
             </xsl:if>
@@ -908,6 +928,7 @@
     <xsl:template match="tei:country">
         <span>
             <xsl:attribute name="style">color:purple</xsl:attribute>
+            <xsl:attribute name="title">//country</xsl:attribute>
                 <xsl:apply-templates/>
         </span>
     </xsl:template>
@@ -918,7 +939,10 @@
             </xsl:attribute>
             <xsl:apply-templates/>
         </xsl:element>
-    </xsl:template>
+    </xsl:template><!-- attempting to match spaces around guillemets -->
+<!--    <xsl:template match="text()[matches(.,'(?<=«) (?=»)')]">
+         
+    </xsl:template>-->
     <xsl:template match="tei:back"/><!-- ignoring complete back, whose include references were adjusted for avoiding oXygen complaining -->
 <!-- The generic approach of handing down durchreichen rendition attributes is resulting in numerous errors. To be implemented differently. -->
 <!--    <xsl:template match="//*[@rend] | //*[@rendition]">

@@ -131,7 +131,7 @@
             <rendition xml:id="su" scheme="css">vertical-align:super; font-size:.7em;</rendition>
             <rendition xml:id="s" scheme="css">text-decoration:line-through;</rendition>
             <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
-            <rendition xml:id="ow">overwritten</rendition>
+            <rendition xml:id="ow" scheme="css">text-decoration:line-through;text-decoration-style:double;</rendition>
          </tagsDecl>
       </encodingDesc>
       <profileDesc>
@@ -256,7 +256,7 @@
                des <rs xml:id="n.3">
                         <hi rendition="#u">Casus foederis</hi>
                     </rs>
-               <note type="editorial" target="#n.3">Lat.: Bündnisfall.</note> prévus et définis, et
+                    <note type="editorial" target="#n.3">Lat.: Bündnisfall.</note> prévus et définis, et
                exigeant comme tel l’application directe des engagemens pris par les Hautes
                Puissances.</p>
             <p>(Signatures)</p>

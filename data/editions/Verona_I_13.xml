@@ -82,7 +82,7 @@
             <rendition xml:id="su" scheme="css">vertical-align:super; font-size:.7em;</rendition>
             <rendition xml:id="s" scheme="css">text-decoration:line-through;</rendition>
             <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
-            <rendition xml:id="ow">overwritten</rendition>
+            <rendition xml:id="ow" scheme="css">text-decoration:line-through;text-decoration-style:double;</rendition>
          </tagsDecl>
       </encodingDesc>
       <profileDesc>
@@ -161,7 +161,7 @@
                l’autre Puissance pourrait également réclamer l’application des <rs xml:id="n.1">
                         <hi rendition="#u">Casus foederis</hi>
                     </rs>
-               <note type="editorial" target="#n.1">Lat.: Bündnisfall.</note> dont on serait
+                    <note type="editorial" target="#n.1">Lat.: Bündnisfall.</note> dont on serait
                convenu. <choice>
                   <abbr>M<hi rendition="#su">ss</hi>
                         </abbr>

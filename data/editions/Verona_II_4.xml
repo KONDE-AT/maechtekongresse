@@ -105,7 +105,7 @@
             <rendition xml:id="su" scheme="css">vertical-align:super; font-size:.7em;</rendition>
             <rendition xml:id="s" scheme="css">text-decoration:line-through;</rendition>
             <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
-            <rendition xml:id="ow">overwritten</rendition>
+            <rendition xml:id="ow" scheme="css">text-decoration:line-through;text-decoration-style:double;</rendition>
          </tagsDecl>
       </encodingDesc>
       <profileDesc>
@@ -194,8 +194,8 @@
                   <abbr>Mrs.</abbr>
                   <expan>Messieurs</expan>
                </choice> les <rs ref="#p.8 #p.40 #p.175 #p.13 #p.35" type="multi-person">Plénipotentiaires des Cours signataires de la <rs ref="#t.48" type="multi-treaties">Convention de <placeName ref="#loc.11">Naples</placeName>
-                  </rs>
-               </rs> du <date when="1821-10-18">18 Octobre 1821</date>. </p>
+                        </rs>
+                    </rs> du <date when="1821-10-18">18 Octobre 1821</date>. </p>
             <p>
                <choice>
                   <abbr>Mr.</abbr>
@@ -203,7 +203,7 @@
                </choice> le <persName ref="#p.140">
                   <roleName>Prince</roleName>
                   <surname>de Ruffo</surname>
-               </persName> a fait part en même temps par la <ref decls="#m.2">Note ci-annexée</ref>
+                    </persName> a fait part en même temps par la <ref decls="#m.2">Note ci-annexée</ref>
                de la résolution du <rs ref="#p.138" type="person">Roi</rs>, son Maître, d’engager à
                son service des Régimens suisses, et du désir de <rs ref="#p.138" type="person">
                   <choice>
@@ -229,29 +229,29 @@
                   <cell>
                      <persName ref="#p.8">
                         <surname>Metternich</surname>
-                     </persName>
+                            </persName>
                   </cell>
                   <cell>
                      <persName ref="#p.137">
                         <roleName>Vane Londonderry</roleName>
-                     </persName>
+                            </persName>
                   </cell>
                   <cell>
                      <persName ref="#p.140">
                         <surname>Ruffo</surname>
-                     </persName>
+                            </persName>
                   </cell>
                </row>
                <row>
                   <cell>
                      <persName ref="#p.40">
                         <surname>Lebzeltern</surname>
-                     </persName>
+                            </persName>
                   </cell>
                   <cell>
                      <persName ref="#p.175">
                         <surname>Hatzfeldt</surname>
-                     </persName>
+                            </persName>
                   </cell>
                   <cell/>
                </row>
@@ -265,12 +265,12 @@
                            </choice>
                         </roleName>
                         <surname>de Caraman</surname>
-                     </persName>
+                            </persName>
                   </cell>
                   <cell>
                      <persName ref="#p.13">
                         <surname>Nesselrode</surname>
-                     </persName>
+                            </persName>
                   </cell>
                   <cell/>
                </row>
@@ -285,12 +285,12 @@
                            </choice>
                         </roleName>
                         <surname>de la Ferronnay</surname>
-                     </persName>
+                            </persName>
                   </cell>
                   <cell>
                      <persName ref="#p.75">
                         <surname>Lieven</surname>
-                     </persName>
+                            </persName>
                   </cell>
                   <cell/>
                </row>
@@ -298,12 +298,12 @@
                   <cell>
                      <persName ref="#p.180">
                         <surname>Chateaubriand</surname>
-                     </persName>
+                            </persName>
                   </cell>
                   <cell>
                      <persName ref="#p.35">
                         <surname>Tatistcheff</surname>
-                     </persName>
+                            </persName>
                   </cell>
                   <cell/>
                </row>
@@ -372,7 +372,7 @@
                </choice> le <persName ref="#p.140">
                   <roleName>Prince</roleName>
                   <surname>de Ruffo</surname>
-               </persName> de prier les Cabinets alliés de vouloir bien interposer leurs bons
+                    </persName> de prier les Cabinets alliés de vouloir bien interposer leurs bons
                offices près de la Confédération Suisse afin qu’elle appuye de Son assentiment et de
                Son autorité près des Cantons les capitulations particulières qu’a déjà faites le <choice>
                   <abbr>gouv<hi rendition="#su">t</hi>
@@ -388,7 +388,7 @@
                </choice> le <persName ref="#p.140">
                   <roleName>Prince</roleName>
                   <surname>de Ruffo</surname>
-               </persName> espère que les cabinets alliés voudront d’autant plus accéder à cette
+                    </persName> espère que les cabinets alliés voudront d’autant plus accéder à cette
                demande qu’elle appartient à l’ensemble des mesures que <rs ref="#p.138" type="person">
                   <choice>
                      <abbr>S. M.</abbr>

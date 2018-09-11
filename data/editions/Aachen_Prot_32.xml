@@ -436,7 +436,7 @@
             <rendition xml:id="su" scheme="css">vertical-align:super; font-size:.7em;</rendition>
             <rendition xml:id="s" scheme="css">text-decoration:line-through;</rendition>
             <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
-            <rendition xml:id="ow">overwritten</rendition>
+            <rendition xml:id="ow" scheme="css">text-decoration:line-through;text-decoration-style:double;</rendition>
          </tagsDecl>
       </encodingDesc>
       <profileDesc>
@@ -601,7 +601,7 @@
                </choice> le <rs ref="#p.81" type="person">Roi de Würtemberg</rs>. On est unanimement convenu de
                charger, <rs xml:id="n.5">
                   <add place="margin">moyennant l’instruction ci-jointe,</add>
-               </rs>
+                    </rs>
                     <note type="editorial" target="#n.5">Anlage liegt nicht ein</note> les <rs ref="#p.84 #p.85 #p.86 #p.87 #p.88" type="multi-person">Ministres des Cinq cours accrédités auprès de
                   celle de <placeName ref="#loc.17">Stuttgart</placeName>
                     </rs>
@@ -625,7 +625,7 @@
                intérêts de famille avec les autres branches de sa maison, les <rs xml:id="n.6">
                   <rs ref="#p.83 #p.39" type="multi-person">Ministres des puissances accrédités à <placeName ref="#loc.34">Darmstadt</placeName>
                         </rs>
-               </rs>
+                    </rs>
                     <note type="editorial" target="#n.6">Österreich nahm erst 1853 diplomatische
                   Beziehungen zum Hof von Darmstadt auf; vgl. Bringmann, Handbuch, S. 290.
                   Frankreich: comte de Salignac-Fénélon; vgl. Bringmann, Handbuch, S. 183.
@@ -818,7 +818,7 @@
                des Princes et Comtes d’Allemagne médiatisés, réclamant l’exécution des articles par
                lesquels <rs xml:id="n.13"> l’<rs ref="#t.12 #t.18" type="multi-treaties">acte du Congrès de <placeName ref="#loc.7">Vienne</placeName>
                         </rs>
-               </rs>
+                    </rs>
                     <note type="editorial" target="#n.13">Art. 6 und 14 der Deutschen Bundesakte und
                   Art. 58 der Wiener Kongressakte vom 9. Juni 1815.</note> a déterminé les droits et
                prérogatives dont Ils doivent jouir dans l’ordre actuel des choses, et notamment de
@@ -903,7 +903,7 @@
                         <rs ref="#p.84 #p.85 #p.86 #p.87 #p.88" type="multi-person">Ministres près les Cours de <placeName ref="#loc.17">Stuttgardt</placeName>
                         </rs>, <rs xml:id="n.16" ref="#p.119 #p.120 #p.121">de
                         <placeName ref="#loc.19">Carlsruhe</placeName>
-                  </rs>
+                        </rs>
                         <note type="multi-editorial" target="#n.16">Großherzogtum Baden. Österreich: Der
                      Posten des österreichischen Gesandten in Karlsruhe war zwischen 16. März und
                      21. Dezember 1818 vakant; anschließend übernahm Anton Karl Fürst Pálffy von

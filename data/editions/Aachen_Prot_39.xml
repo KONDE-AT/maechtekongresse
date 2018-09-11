@@ -125,7 +125,7 @@
             <rendition xml:id="su" scheme="css">vertical-align:super; font-size:.7em;</rendition>
             <rendition xml:id="s" scheme="css">text-decoration:line-through;</rendition>
             <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
-            <rendition xml:id="ow">overwritten</rendition>
+            <rendition xml:id="ow" scheme="css">text-decoration:line-through;text-decoration-style:double;</rendition>
          </tagsDecl>
       </encodingDesc>
       <profileDesc>
@@ -230,7 +230,7 @@
                   prenant part aux <rs xml:id="n.2">Conférences de <placeName ref="#loc.8">Londres</placeName>
                         </rs>
                     </rs>
-                        <note type="editorial" target="#n.2">Gemeint ist
+                    <note type="editorial" target="#n.2">Gemeint ist
                      die Botschafterkonferenz in London, welche sich zwischen 1816 und 1819
                      vorwiegend mit der Abschaffung des Sklavenhandels und der Piraterie im
                      Mittelmeer befasste. Protokolle vgl. BFSP Bd. 6 (1818/19), S. 21–53; Clarke,

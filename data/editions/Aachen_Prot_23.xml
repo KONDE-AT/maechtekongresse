@@ -128,7 +128,7 @@
             <rendition xml:id="su" scheme="css">vertical-align:super; font-size:.7em;</rendition>
             <rendition xml:id="s" scheme="css">text-decoration:line-through;</rendition>
             <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
-            <rendition xml:id="ow">overwritten</rendition>
+            <rendition xml:id="ow" scheme="css">text-decoration:line-through;text-decoration-style:double;</rendition>
          </tagsDecl>
       </encodingDesc>
       <profileDesc>
@@ -227,13 +227,12 @@
                      <abbr>S. M.</abbr>
                      <expan>Sa Majesté</expan>
                   </choice> le <rs ref="#p.30" type="person">Roi d’Espagne</rs> avoit adoptée</rs>, en fixant au
-                  <date when="18120-05-30">30 Mai 1820</date> le terme final de la Traite. Cette
+                  <date when="1820-05-30">30 Mai 1820</date> le terme final de la Traite. Cette
                proposition a été reçue à l’unanimité.</p>
-            <p>
+            <p xml:space="preserve">
                     <persName ref="#p.9">
                         <roleName>Lord</roleName>
-                  <surname>Castlereagh</surname>
-                    </persName>, en portant l’attention de la Conférence
+                  <surname>Castlereagh</surname></persName>, en portant l’attention de la Conférence
                à <rs xml:id="n.4">la déclaration de <choice>
                      <abbr>Mrs</abbr>
                      <expan>Messieurs</expan>
@@ -242,11 +241,7 @@
                                 <choice>
                            <abbr>S. M.</abbr>
                            <expan>Sa Majesté</expan>
-                        </choice> Très Fidele</rs>
-                        </rs>
-                        <note type="editorial" target="#n.3">Ehrentitel des portugiesischen Königs</note> émise à <placeName ref="#loc.7">Vienne</placeName> le <date when="1815-02-06">6 février 1815</date>
-                    </rs>
-                    <note type="editorial" target="#n.4">Vgl. Angeberg, Congrès, Bd. 1, S. 704–705.</note>
+                        </choice> Très Fidele</rs></rs><note type="editorial" target="#n.3">Ehrentitel des portugiesischen Königs</note> émise à <placeName ref="#loc.7">Vienne</placeName> le <date when="1815-02-06">6 février 1815</date></rs><note type="editorial" target="#n.4">Vgl. Angeberg, Congrès, Bd. 1, S. 704–705.</note>
                <quote>« qu’Ils étoient forcés d’exiger comme une condition indispensable pour
                   l’abolition finale que <rs ref="#p.19" type="person">
                             <choice>
@@ -484,7 +479,7 @@
                which may reasonably be taken between giving effect to this system upon the Coast of
                Africa, and for a certain distance, <rs xml:id="n.6">say 200 Leagues</rs>
                     <note type="editorial" target="#n.6">1 Meile = 1760 Yards = 1609,344 Meter; vgl. Weights
-                  &amp; Measures Act 1985, Schedule I, Part VI;<ref target="commentary-c1337053">
+                  &amp; Measures Act 1985, Schedule I, Part VI;<ref target="http://www.legislation.gov.uk/ukpga/1985/72/schedules#commentary-c1337053">
                      http://www.legislation.gov.uk/ukpga/1985/72/schedules#commentary-c1337053</ref>
                   (eingesehen am 11. Dezember 2012).</note> from that particular Coast, and the
                extending the same over the entire surface<pb n="122v"/> of the Atlantick and West

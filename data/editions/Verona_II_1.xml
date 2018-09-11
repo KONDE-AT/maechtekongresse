@@ -33,7 +33,7 @@
                   <collection>HHStA, Staatskanzlei, Kongressakten</collection>
                   <idno>
                      <idno type="Karton">Kart. 24</idno>
-                     <idno type="Faszikel"> Fasz. 44 (alt)</idno>
+                     <idno type="Faszikel">Fasz. 44 (alt)</idno>
                      <idno type="Folia">II/3-5, II/19-22</idno>
                   </idno>
                </msIdentifier>
@@ -132,7 +132,7 @@
             <rendition xml:id="su" scheme="css">vertical-align:super; font-size:.7em;</rendition>
             <rendition xml:id="s" scheme="css">text-decoration:line-through;</rendition>
             <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
-            <rendition xml:id="ow">overwritten</rendition>
+            <rendition xml:id="ow" scheme="css">text-decoration:line-through;text-decoration-style:double;</rendition>
          </tagsDecl>
       </encodingDesc>
       <profileDesc>
@@ -176,22 +176,21 @@
       <body>
          <div decls="#m.1">
             <pb n="3r"/>
-
             <p>
-                    <title>Procès-verbal de la Conférence du <date when="1822-12-02">2 Décembre</date>,
-                  entre Messieurs les <rs ref="#p.8 #p.40 #p.13 #p.35 #p.175" type="multi-person">Ministres d'Autriche,
+                    <title>Procès-verbal de la Conférence du <date when="1822-12-02">2 Décembre</date>, 
+                  entre Messieurs les <rs ref="#p.8 #p.40 #p.13 #p.35 #p.175" type="multi-person">Ministres d’Autriche,
                      de Russie et de Prusse</rs>
                      <lb/>et <lb/>Monsieur le <persName ref="#p.182">
                             <roleName>Comte</roleName>
                      <surname>de la Tour</surname>
-                        </persName>, premier Secrétaire d'État pour les
+                        </persName>, premier Secrétaire d’État pour les
                   affaires étrangères et Plénipotentiaire de Sa Majesté le <rs ref="#p.172" type="person">Roi de
                      Sardaigne</rs>
                     </title>
                 </p>
-            <p>
+            <dateline>
                     <placeName ref="#loc.68">Vérone</placeName> le <date when="1822-12-02">2 Décembre
-                  1822</date>.</p>
+                  1822</date>.</dateline>
             <p>Messieurs les <rs ref="#p.8 #p.40 #p.13 #p.35 #p.175" type="multi-person">Ministres d’Autriche, de Russie
                   et de Prusse</rs> se sont réunis avec Monsieur le <persName ref="#p.182">
                         <roleName>Comte</roleName>
@@ -981,7 +980,9 @@
                   <cell>3.100</cell>
                </row>
             </table>
-            <p>Récapitulation</p>
+            <p>
+                    <title type="sub">Récapitulation</title>
+                </p>
             <table rend="rules">
                <row>
                   <cell/>

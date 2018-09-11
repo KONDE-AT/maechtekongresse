@@ -235,7 +235,7 @@
             <rendition xml:id="su" scheme="css">vertical-align:super; font-size:.7em;</rendition>
             <rendition xml:id="s" scheme="css">text-decoration:line-through;</rendition>
             <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
-            <rendition xml:id="ow">overwritten</rendition>
+            <rendition xml:id="ow" scheme="css">text-decoration:line-through;text-decoration-style:double;</rendition>
          </tagsDecl>
       </encodingDesc>
       <profileDesc>
@@ -428,7 +428,7 @@
                     </rs>, elle a renoncé à
                la stipulation de 1814 qui lui avait donné un délai de cinq années pour effectuer la
                cessation de la Traite. <rs xml:id="n.7"> Elle a déclaré le <date when="1815-07-30">30 Juillet 1815</date>
-               </rs>
+                    </rs>
                     <note type="editorial" target="#n.7">Vgl. Schreiben Talleyrands an Castlereagh,
                   Paris, 30. Juli 1815, abgedruckt in Hertslet (Hg.), Complete Collection, Bd. 3, S.
                   96–98.</note> qu’à partir de ce jour la Traite<pb n="44v"/> cesserait, de sa part,
@@ -511,7 +511,7 @@
                         <abbr>S. M.</abbr>
                         <expan>Sa Majesté</expan>
                      </choice> Très Chrétienne</rs>
-               </rs>
+                    </rs>
                     <note type="editorial" target="#n.11">Ehrentitel des Königs von
                   Frankreich.</note> suivrait avec empressement un tel exemple si, portant
                exclusivement ses regards sur le but de l’Entreprise, il pouvait ne point apercevoir,
@@ -776,7 +776,7 @@
                      <abbr>S. M.</abbr>
                      <expan>Sa Majesté</expan>
                   </choice> l’Empereur</rs> est prêt à prendre part aux démarches que les <rs ref="#p.17 #p.18 #p.19" type="multi-person">Souverains alliés</rs> vont faire auprès du <rs xml:id="n.14"> Cabinet de <placeName ref="#loc.26">Rio Janeiro</placeName>
-               </rs>
+                    </rs>
                     <note type="editorial" target="#n.14">Der portugiesische Hof war auf der Flucht
                   vor Napoleon 1808 nach Rio de Janeiro übersiedelt und kehrte erst 1821 nach Europa
                   zurück; vgl. Manchester, The Transfer; Wilcken, A Colony; Kleinlercher,

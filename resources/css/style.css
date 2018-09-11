@@ -2,6 +2,7 @@
 
 html{
     height:100%;
+    font-family:serif;
 }
 body{
     display:flex;
@@ -51,6 +52,8 @@ span.data-hr {
     color:red;    
 }
 
+td {border-left: 1px;}
+
 hr {
     display: block;
     height: 1px;
@@ -99,8 +102,8 @@ h1,h2 {
   src: url("https://www.oeaw.ac.at/typo3conf/ext/oeaw_website/Resources/Public/Fonts/Brandon_bldWeb.woff") format("woff");
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1024px) {
     .container{
-        max-width: 900px;
+        max-width: 860px;
     }
 }

@@ -49,13 +49,13 @@
                   <p>
                      <persName ref="#p.137">
                         <surname>Stewart</surname>
-                     </persName> in der Anwesenheitsliste gestrichen.</p>
+                            </persName> in der Anwesenheitsliste gestrichen.</p>
                   <p>
                      <persName ref="#p.136">
                         <surname>Krusemarck</surname>
-                     </persName> von <persName ref="#p.5">
+                            </persName> von <persName ref="#p.5">
                         <surname>Gentz</surname>
-                     </persName> nachträglich in der Anwesenheitsliste ergänzt.</p>
+                            </persName> nachträglich in der Anwesenheitsliste ergänzt.</p>
                   <handDesc>
                      <handNote xml:id="A">Anonyme Hand</handNote>
                      <handNote xml:id="A1">Weitere anonyme Hand</handNote>
@@ -159,7 +159,7 @@
                   <p>Abschrift (?) von <persName ref="#p.5">
                         <forename>Friedrich</forename>
                         <surname>Gentz</surname>
-                     </persName>
+                            </persName>
                   </p>
                </physDesc>
 
@@ -207,7 +207,7 @@
             <rendition xml:id="su" scheme="css">vertical-align:super; font-size:.7em;</rendition>
             <rendition xml:id="s" scheme="css">text-decoration:line-through;</rendition>
             <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
-            <rendition xml:id="ow">overwritten</rendition>
+            <rendition xml:id="ow" scheme="css">text-decoration:line-through;text-decoration-style:double;</rendition>
             <rendition xml:id="r" scheme="css">display:block; text-align:right;</rendition>
          </tagsDecl>
       </encodingDesc>
@@ -303,7 +303,7 @@
                </choice> le <persName ref="#p.8">
                   <roleName>Prince</roleName>
                   <surname>de Metternich</surname>
-               </persName> a invité d’abord <choice>
+                    </persName> a invité d’abord <choice>
                   <abbr>Mrs.</abbr>
                   <expan>Messieurs</expan>
                </choice> les <rs ref="#p.166 #p.167 #p.168 #p.164 #p.165" type="multi-person">Ministres des Cours d’Italie</rs> à faire connoître leur opinion au sujet de
@@ -330,7 +330,7 @@
                </choice> le <persName ref="#p.164">
                   <roleName>Cardinal</roleName>
                   <surname>Spina</surname>
-               </persName> et <choice>
+                    </persName> et <choice>
                   <abbr>Mr.</abbr>
                   <expan>Monsieur</expan>
                </choice> le <persName ref="#p.165">
@@ -368,7 +368,7 @@
             <signed rendition="#r">
                <persName ref="#p.5">
                   <surname>Gentz</surname>
-               </persName>
+                    </persName>
             </signed>
          </div>
 
@@ -400,7 +400,7 @@
                      <abbr>S. M.</abbr>
                      <expan>Sa Majesté</expan>
                   </choice>
-               </rs> est convaincue que cette tranquillité ne saurait être troublée tant que les
+                    </rs> est convaincue que cette tranquillité ne saurait être troublée tant que les
                Gouvernemens Monarchiques légitimes de l’Italie seront maintenus, et que leur marche
                sera éclairée et secondée par des institutions propres à<pb n="106v"/> mettre dans le
                plus grand jour leurs véritables intérêts, inséparables du bonheur des peuples.</p>
@@ -415,7 +415,7 @@
                         <abbr>S. M.</abbr>
                         <expan>Sa Majesté</expan>
                      </choice> Sicilienne</rs>
-               </rs> si, comme il n’en doutera pas d’après l’exposé même de ce projet,
+                    </rs> si, comme il n’en doutera pas d’après l’exposé même de ce projet,
                l’organisation du Corps Consultatif, dont il y est fait mention, aura lieu avec des
                formes Monarchiques. Il ne pourra que le considérer comme propre à assurer la
                tranquillité des autres Etats de l’Italie et formera les vœux les plus ardens pour
@@ -464,19 +464,19 @@
                      <abbr>S. M</abbr>
                      <expan>Sa Majesté</expan>
                   </choice>
-               </rs> a daigné en donner fournira à <rs ref="#p.170" type="person">
+                    </rs> a daigné en donner fournira à <rs ref="#p.170" type="person">
                   <choice>
                      <abbr>S. A. I. et R<hi rendition="#su">l</hi>
                      </abbr>
                      <expan>Son Altesse Impériale et Royale</expan>
                   </choice>
-               </rs> et aux <rs ref="#p.155 #p.169 #p.171" type="multi-person">Souverains
+                    </rs> et aux <rs ref="#p.155 #p.169 #p.171" type="multi-person">Souverains
                   d’Italie</rs> une nouvelle preuve de la sagesse des principes que <rs ref="#p.138" type="person">
                   <choice>
                      <abbr>S. M.</abbr>
                      <expan>Sa Majesté</expan>
                   </choice>
-               </rs> a suivis dans l’adoption de ces bases.</p>
+                    </rs> a suivis dans l’adoption de ces bases.</p>
             <p>Dans cet apperçu je n’ai pas eu lieu de rien remarquer qui ne se trouve pas en<pb n="108v"/> harmonie avec les formes des Gouvernemens d’Italie ou qui puisse
                compromettre leur sûreté et la tranquillité de la Péninsule Italienne.</p>
             <p>Le <rs ref="#p.170" type="person">Grand-Duc</rs>, Mon Maître, aura sans doute une
@@ -489,7 +489,7 @@
                      <abbr>S. M.</abbr>
                      <expan>Sa Majesté</expan>
                   </choice>
-               </rs> va donner aux bases de son Gouvernement et que les mesures complémentaires
+                    </rs> va donner aux bases de son Gouvernement et que les mesures complémentaires
                qu’Elle va prendre pour l’organisation des Corps consultatifs à instituer répondront
                entièrement aux principes et aux formes Monarchiques qui ont servi de fondement à la
                première conception<pb n="109r"/> du plan de son Gouvernement intérieur.</p>
@@ -499,7 +499,7 @@
                      <abbr>S. M.</abbr>
                      <expan>Sa Majesté</expan>
                   </choice>
-               </rs> atteindra le but salutaire qu’Elle et ses <rs ref="#p.16 #p.18 #p.17" type="multi-person">augustes alliés</rs> se sont proposés, de donner au
+                    </rs> atteindra le but salutaire qu’Elle et ses <rs ref="#p.16 #p.18 #p.17" type="multi-person">augustes alliés</rs> se sont proposés, de donner au
                Gouvernement napolitain toute la stabilité désirable et aux Intérêts bien entendus
                des Peuples de ce Royaume une nouvelle garantie, en assurant en même tems la
                tranquillité de cet État et celle de toute l’Italie.</p>
@@ -522,7 +522,7 @@
             <p>Le <persName rendition="#p.164">
                   <roleName>Cardinal</roleName>
                   <surname>Spina</surname>
-               </persName> a lu avec la plus grande attention la déclaration de <choice>
+                    </persName> a lu avec la plus grande attention la déclaration de <choice>
                   <abbr>S. M.</abbr>
                   <expan>Sa Majesté</expan>
                </choice> le <rs rendition="#p.138">Roi des deux-Siciles</rs>, <ref target="Laibach_Prot_12.xml">présentée par <rs ref="#p.140" type="person">son
@@ -530,7 +530,7 @@
             <p>Le <persName ref="#p.164">
                   <roleName>Cardinal</roleName>
                   <surname>Spina</surname>
-               </persName> n’étant pas muni des pleins pouvoirs de la part de <rs ref="#p.155" type="person">Sa Sainteté</rs>, il ne peut que porter à sa connoissance la
+                    </persName> n’étant pas muni des pleins pouvoirs de la part de <rs ref="#p.155" type="person">Sa Sainteté</rs>, il ne peut que porter à sa connoissance la
                déclaration de <rs ref="#p.138" type="person">Sa Majesté</rs>, et il mettra le plus
                grand empressement à La Lui faire parvenir. Mais les sentiments exprimés par <choice>
                   <abbr>S. M.</abbr>
@@ -540,7 +540,7 @@
                Monarchique de son Royaume sont si sages que le <persName ref="#p.164">
                   <roleName>Cardinal</roleName>
                   <surname>Spina</surname>
-               </persName> se croit assez autorisé pour déclarer en son particulier qu’il ne trouve
+                    </persName> se croit assez autorisé pour déclarer en son particulier qu’il ne trouve
                dans la Déclaration portée<pb n="110v"/> à la Conférence aucun principe qui puisse
                blesser les droits et les intérêts des Etats du <choice>
                   <abbr>S<hi rendition="#su">t</hi>
@@ -553,7 +553,7 @@
             <p>Le <persName ref="#p.164">
                   <roleName>Cardinal</roleName>
                   <surname>Spina</surname>
-               </persName> aime encore à se flatter qu’à L’heureuse époque dans laquelle <rs ref="#p.138" type="person">Sa Majesté</rs> pourra donner un développement
+                    </persName> aime encore à se flatter qu’à L’heureuse époque dans laquelle <rs ref="#p.138" type="person">Sa Majesté</rs> pourra donner un développement
                ultérieur aux bases adoptées Elle le faira connoître à <rs ref="#p.155" type="person">Sa Sainteté</rs> pour que les actes, qui en seront le résultat, ne puissent
                d’aucune manière porter attente aux rapports de voisinage qui existent entre<pb n="111r"/> les deux Etats, et qui ont été jusqu’à présent parfaitement conservé
                entre <rs ref="#p.155" type="person">Sa Sainteté</rs> et <choice>
@@ -575,11 +575,11 @@
                   </choice> le <persName ref="#p.165">
                      <roleName>Marquis</roleName>
                      <surname>de Molza</surname>
-                  </persName>
+                        </persName>
                </title>
             </p>
             <p>Le <rs ref="#p.165" type="person">Plénipotentiaire de Son Altesse Royale le <rs ref="#p.171" type="person">Duc de Modène</rs>
-               </rs>, après avoir porté à la connoissance de Son Auguste Maître la communication de
+                    </rs>, après avoir porté à la connoissance de Son Auguste Maître la communication de
                   <rs ref="#p.138" type="person">
                   <choice>
                      <abbr>S. M.</abbr>
@@ -589,14 +589,14 @@
                      <abbr>S. A. R.</abbr>
                      <expan>Son Altesse Royale</expan>
                   </choice>
-               </rs> n’a aucune remarque à faire sur les bases énoncées dans la même communication
+                    </rs> n’a aucune remarque à faire sur les bases énoncées dans la même communication
                si, comme il ne doute pas, l’organisation du Corps Consultatif a lieu avec des formes
                Monarchiques, et si les développemens que <rs ref="#p.138" type="person">
                   <choice>
                      <abbr>S. M.</abbr>
                      <expan>Sa Majesté</expan>
                   </choice>
-               </rs> donnera à ces bases ont pour but d’écarter soigneusement tout ce qui pourroit
+                    </rs> donnera à ces bases ont pour but d’écarter soigneusement tout ce qui pourroit
                faire croire à la faction qui a opéré la révolte que l’on eut transigé avec Elle,
                puisque cela seul pourroit avoir des conséquences fâcheuses pour la tranquillité de
                l’Italie.</p>
@@ -605,7 +605,7 @@
                      <abbr>S. A. R.</abbr>
                      <expan>Son Altesse Royale</expan>
                   </choice>
-               </rs>, appréciant les soins que <rs ref="#p.138" type="person">
+                    </rs>, appréciant les soins que <rs ref="#p.138" type="person">
                   <choice>
                      <abbr>S. M.</abbr>
                      <expan>Sa Majesté</expan>

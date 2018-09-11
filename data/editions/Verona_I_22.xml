@@ -103,7 +103,7 @@
             <rendition xml:id="su" scheme="css">vertical-align:super; font-size:.7em;</rendition>
             <rendition xml:id="s" scheme="css">text-decoration:line-through;</rendition>
             <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
-            <rendition xml:id="ow">overwritten</rendition>
+            <rendition xml:id="ow" scheme="css">text-decoration:line-through;text-decoration-style:double;</rendition>
          </tagsDecl>
       </encodingDesc>
       <profileDesc>
@@ -313,7 +313,7 @@
                               <corr>8</corr>
                            </choice> Mars</date>
                             </rs>
-                     <note type="editorial" target="#n.5">
+                            <note type="editorial" target="#n.5">
                                 <persName ref="#p.30">
                                     <roleName>König</roleName>
                            <forename>Ferdinand</forename>
@@ -335,7 +335,7 @@
                                     <corr>8</corr>
                                  </choice> Mars</date>
                                     </rs>
-                           <note type="editorial" target="#n.5a">
+                                    <note type="editorial" target="#n.5a">
                                         <persName ref="#p.30">
                                             <roleName>König</roleName>
                                  <forename>Ferdinand</forename>
