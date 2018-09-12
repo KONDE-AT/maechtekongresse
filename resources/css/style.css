@@ -3,9 +3,9 @@
 html{
     height:100%;
 }
-p{
-    font-family: Palatino, Palatino Linotype, Palatino LT STD, Book Antiqua, Georgia, serif!important;
-    font-size:2rem;
+.ed{
+    font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif!important;
+    font-size:1.8rem;
 }
 body{
     display:flex;
@@ -35,6 +35,18 @@ header{
     width: 160%;
     margin: 0 -10em;
 }
+
+.hr {
+    font-size:smaller;
+    text-align:right;
+    display:block;
+    margin-top:3em;
+    margin-bottom:5em;
+    border-top:1px solid #ccc;
+    border-spacing:10px;
+}
+
+
 
 .splash {
 height:60vw;
@@ -99,7 +111,7 @@ footer .poweredby { float: right; margin: 33px 10px 0 0;}
 footer .poweredby img { width: 120px; }
 
 h1,h2 {
-    font-family: Gill,GillSans,Gill Sans,Trebuchet,Trebuchet MS,Helvetica,Arial,sans-serif;
+    font-family: Gill,GillSans,"Gill Sans",Trebuchet,"Trebuchet MS",Helvetica,Arial,sans-serif;
     font-weight:bold;
 }
 /* 

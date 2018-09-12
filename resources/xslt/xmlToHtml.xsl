@@ -85,7 +85,9 @@
                                         <abbr title="//tei:abstract">Regest</abbr>
                                     </th>
                                     <td>
-                                        <xsl:apply-templates select="//tei:abstract"/>
+                                        <em>
+                                            <xsl:apply-templates select="//tei:abstract"/>
+                                        </em>
                                     </td>
                                 </tr>
                             </xsl:if>
@@ -834,10 +836,9 @@
         </xsl:element>
     </xsl:template><!-- Seitenzahlen -->
     <xsl:template match="tei:pb">
-        <xsl:element name="hr"/>
-        <xsl:element name="div">
-            <xsl:attribute name="style">
-                <xsl:text>text-align:right;</xsl:text>
+        <xsl:element name="span">
+            <xsl:attribute name="class">
+                <xsl:text>hr</xsl:text>
             </xsl:attribute>
             <xsl:text>[Bl. </xsl:text>
             <xsl:value-of select="@n"/>
@@ -929,6 +930,9 @@
     </xsl:template><!-- Absätze    -->
     <xsl:template match="tei:p">
         <xsl:element name="p">
+            <xsl:if test="ancestor::tei:text">
+                <xsl:attribute name="class">ed</xsl:attribute>
+            </xsl:if>
             <xsl:apply-templates/>
         </xsl:element>
     </xsl:template><!-- Substitutions -->
