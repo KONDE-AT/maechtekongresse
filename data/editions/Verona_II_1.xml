@@ -176,8 +176,8 @@
       <body>
          <div decls="#m.1">
             <pb n="3r"/>
-            <p>
-                    <title>Procès-verbal de la Conférence du <date when="1822-12-02">2 Décembre</date>, 
+            
+                    <head>Procès-verbal de la Conférence du <date when="1822-12-02">2 Décembre</date>, 
                   entre Messieurs les <rs ref="#p.8 #p.40 #p.13 #p.35 #p.175" type="multi-person">Ministres d’Autriche,
                      de Russie et de Prusse</rs>
                      <lb/>et <lb/>Monsieur le <persName ref="#p.182">
@@ -186,11 +186,11 @@
                         </persName>, premier Secrétaire d’État pour les
                   affaires étrangères et Plénipotentiaire de Sa Majesté le <rs ref="#p.172" type="person">Roi de
                      Sardaigne</rs>
-                    </title>
-                </p>
-            <dateline>
+                    </head>
+                
+            <opener><dateline>
                     <placeName ref="#loc.68">Vérone</placeName> le <date when="1822-12-02">2 Décembre
-                  1822</date>.</dateline>
+                  1822</date>.</dateline></opener>
             <p>Messieurs les <rs ref="#p.8 #p.40 #p.13 #p.35 #p.175" type="multi-person">Ministres d’Autriche, de Russie
                   et de Prusse</rs> se sont réunis avec Monsieur le <persName ref="#p.182">
                         <roleName>Comte</roleName>
