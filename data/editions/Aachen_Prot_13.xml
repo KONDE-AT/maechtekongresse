@@ -122,15 +122,15 @@
       <body>
          <div hand="#G" decls="#m.1">
             <pb n="53r"/>
-            <p>
+            <head>
                     <add hand="#W" place="top">Protocole <del rendition="#s">11</del> 13.</add>
-                </p>
-            <p>
+                </head>
+            <opener><dateline>
                     <add hand="#W">
                         <placeName ref="#loc.1">Aix-la-Chapelle</placeName>
                     </add>
-                </p>
-            <opener><dateline>
+                </dateline><!-- Zeilenumbruch hier -->
+            <dateline>
                     <add hand="#W">Le <date when="1818-10-17">17 Octobre 1818</date>.</add>
                 </dateline></opener>
             <p>

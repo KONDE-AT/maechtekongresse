@@ -119,11 +119,11 @@
       <body>
          <div hand="#G" decls="#m.1">
             <pb n="2r"/>
-            <p>
+            <head>
                     <add place="top" hand="#W">Protocole des Conferences <del rendition="s">speciales</del> d’<placeName ref="#loc.1">Aix-la-Chapelle</placeName>
                     </add>
-                </p>
-            <p>
+                </head><!-- Zeilenumbruch -->
+            <head>
                     <add hand="#W" place="top">
                         <choice>
                      <abbr>n<hi rendition="#su">o</hi>
@@ -131,7 +131,7 @@
                      <expan>numéro</expan>
                   </choice> 1<hi rendition="#su">o</hi>
                     </add>
-                </p>
+                </head>
             
             <opener><dateline>
                   <date when="1818-09-29">Le <del rendition="s">30</del>
