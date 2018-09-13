@@ -160,12 +160,14 @@
             <head>
                     <add place="top">6.</add>
                 </head>
-            <opener><dateline>
+            <opener>
+                    <dateline>
                     <placeName ref="#loc.1">Aix-la-Chapelle</placeName>
                 </dateline>
             <dateline>
                     <date when="1818-10-08">Le 8 Octobre 1818</date>
-            </dateline></opener><!-- zwischen Ort und Datum ist ein Zeilenumbruch - wird der so mit dargestell? -->
+            </dateline>
+                </opener><!-- zwischen Ort und Datum ist ein Zeilenumbruch - wird der so mit dargestell? -->
             <p>
                <add place="margin">Entre les 4 Cabinets</add>
                 </p>

@@ -149,9 +149,11 @@
                   <del rendition="#s">14</del>
                   <del rendition="#s">16</del> 17.</add>
                 </head>
-            <opener><dateline>
+            <opener>
+                    <dateline>
                     <placeName ref="#loc.1">Aix-la-Chapelle</placeName> le <date when="1818-10-22">22
-                  Octobre 1818</date>.</dateline></opener>
+                  Octobre 1818</date>.</dateline>
+                </opener>
 
             <p>
                     <add hand="#W" place="margin">(Entre les cinq Cabinets)</add>
@@ -345,12 +347,14 @@
                         </abbr>
                   <expan>numéro</expan>
                </choice> 17.</p>
-            <opener><dateline>
+            <opener>
+                    <dateline>
                     <date when="1818-10-22">22 <choice>
                      <abbr>8bre</abbr>
                      <expan>Octobre</expan>
                   </choice>
-                    </date>.</dateline></opener>
+                    </date>.</dateline>
+                </opener>
             <anchor xml:id="a.1"/>
             <p>Tous les engagemens contractés par la <country>France</country>, tant envers les
                différentes Puissances de l’Europe qu’envers leurs sujets, ont été remplis. La <ref target="Aachen_Prot_34.xml">Convention qui vient d’être conclue</ref> y a mis le

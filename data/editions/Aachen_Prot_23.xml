@@ -184,9 +184,11 @@
             <p>
                     <add hand="#W" place="margin">avec une Annexe</add>
                 </p>
-            <opener><dateline>
+            <opener>
+                    <dateline>
                     <placeName ref="#loc.1">Aix-la-Chapelle</placeName> le <date when="1818-11-04">4
-                  Novembre</date>.</dateline></opener>
+                  Novembre</date>.</dateline>
+                </opener>
             <p>
                     <rs xml:id="n.1">À la suite des communications faites à la <ref target="Aachen_Prot_19_xml">Conférence le <date when="1818-10-24">24
                         Octobre</date>

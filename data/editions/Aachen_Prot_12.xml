@@ -124,10 +124,12 @@
             <head>
                     <add hand="#W" place="top">Protocole 12.</add>
                 </head>
-            <opener><dateline>
+            <opener>
+                    <dateline>
                     <placeName ref="#loc.1">Aix-la-Chapelle</placeName> le <date when="1818-10-15">15
                   Octobre 1818</date>
-                </dateline></opener>
+                </dateline>
+                </opener>
 
             <p>
                     <add hand="#W" place="margin">entre les quatre Cabinets</add>

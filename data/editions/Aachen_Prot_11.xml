@@ -183,11 +183,13 @@
                         <hi rendition="#u">Protocole 11</hi>
                     </add>
                 </head>
-            <opener><dateline>
+            <opener>
+                    <dateline>
                     <add>
                         <placeName ref="#loc.1">Aix-la-Chapelle</placeName> le <date when="1818-10-14">14 Octobre</date>
                     </add>
-                </dateline></opener>
+                </dateline>
+                </opener>
 
             <p>Les Protocoles <ref target="Aachen_Prot_8.xml Aachen_Prot_9.xml Aachen_Prot_10.xml">des trois dernières séances</ref> ont été lus, approuvés et signés.</p>
             <p xml:space="preserve">On s’est occupé de la démarche que <choice>
@@ -287,7 +289,8 @@
                      <expan>Octobre</expan>
                   </choice> entre les 4 Cabinets</add>
                 </p>
-            <opener><dateline xml:space="preserve">
+            <opener>
+                    <dateline xml:space="preserve">
                     <add hand="#M" place="top">
                         <choice>
                      <abbr>Praes.</abbr>
@@ -300,7 +303,8 @@
                      <abbr>M</abbr>
                      <expan>Metternich</expan>
                   </choice>.</add>
-                </dateline></opener>
+                </dateline>
+                </opener>
             <p xml:space="preserve">
                     <add place="bottom">à Son Altesse le
                      <persName ref="#p.8">

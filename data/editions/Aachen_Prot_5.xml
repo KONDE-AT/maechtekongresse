@@ -189,9 +189,11 @@
             <head>
                     <add place="top">5.</add>
                 </head>
-            <opener><dateline xml:space="preserve">À <placeName ref="#loc.1">Aix-la-Chapelle</placeName>
+            <opener>
+                    <dateline xml:space="preserve">À <placeName ref="#loc.1">Aix-la-Chapelle</placeName>
                <date when="1818-10-03">le 3 Octobre 1818</date>
-            </dateline></opener>
+            </dateline>
+                </opener>
             <p>
                <add hand="W" place="margin">entre les Cinq Cabinets</add>
                 </p>
@@ -477,9 +479,13 @@
                      <surname>de Richelieu</surname></persName>.</add>
                 </p>
             <p>
-                    <opener><dateline><add hand="#W" xml:space="preserve"><!-- passt das so? -->
+                    <opener>
+                        <dateline>
+                            <add hand="#W" xml:space="preserve"><!-- passt das so? -->
                         <placeName ref="#loc.1">Aix-La-Chapelle</placeName>
-                  <date when="1818-10-08">8 Octobre 1818</date></add></dateline></opener>
+                  <date when="1818-10-08">8 Octobre 1818</date></add>
+                        </dateline>
+                    </opener>
                 </p>
             <p>
                <add place="margin">(Par les Quatre Cours)</add>

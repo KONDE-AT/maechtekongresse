@@ -125,14 +125,16 @@
             <head>
                     <add hand="#W" place="top">Protocole <del rendition="#s">11</del> 13.</add>
                 </head>
-            <opener><dateline>
+            <opener>
+                    <dateline>
                     <add hand="#W">
                         <placeName ref="#loc.1">Aix-la-Chapelle</placeName>
                     </add>
                 </dateline><!-- Zeilenumbruch hier -->
             <dateline>
                     <add hand="#W">Le <date when="1818-10-17">17 Octobre 1818</date>.</add>
-                </dateline></opener>
+                </dateline>
+                </opener>
             <p>
                     <add hand="#W" place="margin">(Entre des 5 Cabinets)</add>
                 </p>
