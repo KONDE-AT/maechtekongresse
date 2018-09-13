@@ -290,32 +290,25 @@
             </div>
             <div class="panel panel-body">
                 <xsl:if test="//tei:div//tei:title">
-                    
                     <h3 id="clickme">
                         <abbr title="Für Abschnitte klicken">[Abschnitte]</abbr>
                     </h3>
-                    <xsl:for-each select="//tei:sourceDesc/tei:msDesc"><!-- Split -->
-                        <xsl:variable name="msDivId" select="@xml:id"/>  
-                        <xsl:variable name="divlink" select="concat('#',$msDivId)"/>
-                        
                     <div id="headings" class="readmore">
                         <ul>
-<!--                            <xsl:for-each select="/tei:TEI/tei:text/tei:body//tei:div//tei:title[not(@type = ('sub', 'desc'))]">-->
-                                <xsl:for-each select="//tei:sourceDesc/tei:msDesc/tei:msContents/tei:msItem/tei:title">
+                            <xsl:for-each select="/tei:TEI/tei:text/tei:body//tei:div">
+                                <xsl:variable name="msIdlink" select="@decls"/>
+                                <xsl:variable name="msId" select="substring-after($msIdlink,'#')"/>
                                 <li>
                                     <a>
                                         <xsl:attribute name="href">
-<!--                                            <xsl:text>#m.</xsl:text>-->
-                                            <xsl:value-of select="$divlink"/>
+                                            <xsl:value-of select="$msIdlink"/>
                                         </xsl:attribute>
-<!--                                        <xsl:number level="multiple" count="tei:div" format="1.1. "/>-->
-                                            <xsl:value-of select="string-join(.//text()[not(ancestor-or-self::tei:note or ancestor-or-self::tei:expan)], ' ')"/>
+                                        <xsl:value-of select="root()//tei:msDesc[@xml:id=$msId]//tei:title"/>
                                     </a>
                                 </li>
                             </xsl:for-each>
                         </ul>
                     </div>
-                    </xsl:for-each>
                 </xsl:if>
 
                 <div>
@@ -692,6 +685,7 @@
     </xsl:template>
     <xsl:template match="tei:dateline">
         <xsl:element name="p">
+            <xsl:attribute name="class">ed</xsl:attribute>
             <xsl:attribute name="style">text-align:right;</xsl:attribute>
             <xsl:apply-templates/>
         </xsl:element>
@@ -959,8 +953,11 @@
             <xsl:apply-templates/>
         </xsl:element>
     </xsl:template><!-- attempting to match spaces around guillemets -->
-<!--    <xsl:template match="text()[matches(.,'(?<=«) (?=»)')]">
-         
+<!--    <xsl:template match="//text()[matches(.,'« ')]">
+        <xsl:text>« </xsl:text>
+    </xsl:template>
+    <xsl:template match="//text()[matches(.,' »')]">
+        <xsl:text> »</xsl:text>
     </xsl:template>-->
     <xsl:template match="tei:back"/><!-- ignoring complete back, whose include references were adjusted for avoiding oXygen complaining -->
 <!-- The generic approach of handing down durchreichen rendition attributes is resulting in numerous errors. To be implemented differently. -->
