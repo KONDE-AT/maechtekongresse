@@ -178,9 +178,11 @@
                      <expan>Numéro</expan>
                   </choice> 22.</add>
                 </head>
-            <opener><dateline>
+            <opener>
+                    <dateline>
                     <placeName ref="#loc.1">Aix-la-Chapelle</placeName> Le <date when="1818-11-04">4
-                  Novembre 1818</date>.</dateline></opener>
+                  Novembre 1818</date>.</dateline>
+                </opener>
             <p>
                     <add hand="#W" place="margin">Entre les 4 Cabinets</add>
                 </p>
@@ -326,7 +328,9 @@
             
                     <head>Apperçu sommaire de la position des choses</head>
                 
-            <opener><dateline>Le <date when="1818-11-01">1 Novembre 1818</date>.</dateline></opener>
+            <opener>
+                    <dateline>Le <date when="1818-11-01">1 Novembre 1818</date>.</dateline>
+                </opener>
             <p>I. Principes</p>
             <p>1. </p>
             <p>Il existe une alliance ; la quadruple.</p>

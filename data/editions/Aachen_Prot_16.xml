@@ -161,10 +161,12 @@
             <head>
                     <add hand="#W" place="top">Protocole n. <del rendition="#s">13</del> 16.</add>
                 </head>
-            <opener><dateline>
+            <opener>
+                    <dateline>
                     <placeName ref="#loc.1">Aix-la-Chapelle</placeName> le <date when="1818-10-19">19
                   Octobre 1818</date>
-                </dateline></opener>
+                </dateline>
+                </opener>
             <p>
                     <add hand="#W" place="margin">Entre les 4 Cabinets</add>
                 </p>
@@ -227,9 +229,11 @@
 
          <div hand="#W" decls="#m.2">
             <pb n="65r"/>
-            <opener hand="#A"><dateline>
+            <opener hand="#A">
+                    <dateline>
                     <placeName ref="#loc.1">Aix-la-Chapelle</placeName> Le <date when="1818-10-19">19 Octobre</date>
-                </dateline></opener>         
+                </dateline>
+                </opener>         
 
             <p>Les engagemens consignés dans les articles 2, 3 et 4 <add place="above">et 5</add> du
                   <rs ref="#t.6" type="treaties">Traité de la quadruple alliance du <date when="1815-11-20">8/20

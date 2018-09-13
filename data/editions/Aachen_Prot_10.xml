@@ -209,10 +209,12 @@
             <head>
                     <add place="top" rendition="#u">10</add>
                 </head>
-            <opener><dateline>
+            <opener>
+                    <dateline>
                     <placeName ref="#loc.1">Aix-la-Chapelle</placeName> le <date when="1818-10-13"> 13
                   Octobre 1818</date>
-            </dateline></opener>
+            </dateline>
+                </opener>
             <p>
                <add hand="#.W" place="margin">Entre les 4 Cours</add>
                 </p>
@@ -353,11 +355,13 @@
 
          <div hand="#W" decls="#m.2">
             <pb n="44r"/>
-            <opener><dateline>
+            <opener>
+                    <dateline>
                     <placeName ref="#loc.1">Aix-La-Chapelle</placeName> le <date when="1818-10-15">15. <choice>
                      <abbr>Oct.</abbr>
                      <expan>Octobre</expan>
-                  </choice> 1818</date>.</dateline></opener>
+                  </choice> 1818</date>.</dateline>
+                </opener>
             
                <head>
                         <del rendition="#s">Projet de</del> Circulaire des 4 Ministres d’<choice>
@@ -536,8 +540,10 @@
                     <head>(Protocole separé)</head>
                 
 
-            <opener><dateline>À <placeName ref="#loc.1">Aix-la-Chapelle</placeName> le <date when="1818-10-11">11
-                  Octobre 1818</date>.</dateline></opener>
+            <opener>
+                    <dateline>À <placeName ref="#loc.1">Aix-la-Chapelle</placeName> le <date when="1818-10-11">11
+                  Octobre 1818</date>.</dateline>
+                </opener>
 
             <p xml:space="preserve">La conférence ayant été informée de l’intention de <choice>
                   <abbr>S. A. R.</abbr>

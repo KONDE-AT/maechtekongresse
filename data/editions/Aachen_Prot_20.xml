@@ -182,9 +182,11 @@
             <head>
                     <add hand="#W" place="top">Protocole 20.</add>
                 </head>
-            <opener><dateline>
+            <opener>
+                    <dateline>
                     <placeName ref="#loc.1">Aix-la-Chapelle</placeName> Le <date when="1818-10-29">29
-                  Octobre 1818</date>.</dateline></opener>
+                  Octobre 1818</date>.</dateline>
+                </opener>
             <p>
                     <add hand="#W" place="margin">Entre les Cinq Cabinets</add>
                 </p>
@@ -642,12 +644,14 @@
          <div hand="#A" decls="#m.3">
             <pb n="84r"/>
             
-                    <head><add place="margin">
+                    <head>
+                    <add place="margin">
                         Note verbale du Cabinet de <country>Russie</country> sur
                      les Contestations entre la <country>Suède</country> et le
                         <country>Danemarc</country>
                         
-                    </add></head>
+                    </add>
+                </head>
                 
             <p>
                     <add place="margin">Annexe D au Protocole <choice>

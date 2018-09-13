@@ -197,9 +197,11 @@
                      <expan>Numéro</expan>
                   </choice> 25.</add>
                 </head>
-            <opener><dateline>
+            <opener>
+                    <dateline>
                     <placeName ref="#loc.1">Aix-la-Chapelle</placeName> le <date when="1818-11-07">7
-                  Novembre 1818</date>.</dateline></opener>
+                  Novembre 1818</date>.</dateline>
+                </opener>
             <p>
                     <add hand="#W" place="margin">Entre les Cinq Cabinets</add>
                 </p>
@@ -446,10 +448,12 @@
             
                     <head>Analyse du Traité principal au sujet des Barbaresques</head>
                 
-            <opener><dateline>
+            <opener>
+                    <dateline>
                     <placeName ref="#loc.1">Aix-la-Chapelle</placeName> le <supplied>28</supplied>
                Octobre/ <date when="1818-11-07">7 Novembre 1818</date>
-                </dateline></opener>
+                </dateline>
+                </opener>
             <p>Le <rs xml:id="n.8">traité principal au sujet des Barbaresques,</rs>
                     <note type="editorial" target="#n.8">Vgl. Humboldt, Projet d’Alliance. Klose, Enforcing
                   abolition, S. 115–116.</note> fruit des <rs xml:id="n.9">Conférences de <placeName ref="#loc.8">Londres</placeName>

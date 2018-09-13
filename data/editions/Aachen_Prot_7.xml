@@ -158,10 +158,12 @@
             <head>
                     <add place="top">7</add>
                 </head>
-            <opener><dateline>À <placeName ref="#loc.1">Aix-la-Chapelle</placeName> Le</dateline>
+            <opener>
+                    <dateline>À <placeName ref="#loc.1">Aix-la-Chapelle</placeName> Le</dateline>
             <dateline><!-- Zeilenumbruch darstellbar? -->
                     <date when="1818-10-09">9 Octobre 1818</date>
-            </dateline></opener>
+            </dateline>
+                </opener>
             <p>
                <add place="margin">(Entre les 5 Cabinets)</add>
                 </p>

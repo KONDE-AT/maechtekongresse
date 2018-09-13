@@ -137,10 +137,12 @@
             <head>
                     <add hand="#W" place="top">Protocole <del rendition="#s">16</del> 19.</add>
                 </head>
-            <opener><dateline>
+            <opener>
+                    <dateline>
                     <placeName ref="#loc.1">Aix-la-Chapelle</placeName> le <date when="1818-10-24">24
                   Octobre 1818</date>
-                </dateline></opener>
+                </dateline>
+                </opener>
             <p>
                     <add hand="#W" place="margin">Entre les Cinq Cabinets</add>
                 </p>
