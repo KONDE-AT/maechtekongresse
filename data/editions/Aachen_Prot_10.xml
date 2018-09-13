@@ -209,10 +209,10 @@
             <p>
                     <add place="top" rendition="#u">10</add>
                 </p>
-            <p>
+            <opener><dateline>
                     <placeName ref="#loc.1">Aix-la-Chapelle</placeName> le <date when="1818-10-13"> 13
                   Octobre 1818</date>
-            </p>
+            </dateline></opener>
             <p>
                <add hand="#.W" place="margin">Entre les 4 Cours</add>
                 </p>
@@ -353,13 +353,13 @@
 
          <div hand="#W" decls="#m.2">
             <pb n="44r"/>
-            <p>
+            <opener><dateline>
                     <placeName ref="#loc.1">Aix-La-Chapelle</placeName> le <date when="1818-10-15">15. <choice>
                      <abbr>Oct.</abbr>
                      <expan>Octobre</expan>
-                  </choice> 1818</date>.</p>
-            <p>
-               <title>
+                  </choice> 1818</date>.</dateline></opener>
+            
+               <head>
                         <del rendition="#s">Projet de</del> Circulaire des 4 Ministres d’<choice>
                      <abbr>A.</abbr>
                      <expan>Autriche</expan>
@@ -373,8 +373,8 @@
                      <abbr>R</abbr>
                      <expan>Russie</expan>
                   </choice> aux Envoyés respectifs des Cours de <placeName ref="#loc.7">Vienne</placeName>, <placeName ref="#loc.8">Londres</placeName>, <placeName ref="#loc.9">Berlin</placeName> et <placeName ref="#loc.10">Pétersbourg</placeName>
-                    </title>
-                </p>
+                    </head>
+                
             <p xml:space="preserve">accrédités près les Cours accedantes au <rs ref="#t.1" type="treaties">Traité de <placeName ref="#loc.2">Paris</placeName>
                du <date when="1815-11-20">20 <choice>
                         <abbr>9<hi rendition="#su">bre</hi></abbr>
@@ -532,12 +532,12 @@
 
          <div hand="#G" decls="#m.3">
             <pb n="36r"/>
-            <p>
-                    <title>(Protocole separé)</title>
-                </p>
+            
+                    <head>(Protocole separé)</head>
+                
 
-            <p>À <placeName ref="#loc.1">Aix-la-Chapelle</placeName> le <date when="1818-10-11">11
-                  Octobre 1818</date>.</p>
+            <opener><dateline>À <placeName ref="#loc.1">Aix-la-Chapelle</placeName> le <date when="1818-10-11">11
+                  Octobre 1818</date>.</dateline></opener>
 
             <p xml:space="preserve">La conférence ayant été informée de l’intention de <choice>
                   <abbr>S. A. R.</abbr>

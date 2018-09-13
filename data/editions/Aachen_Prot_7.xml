@@ -158,10 +158,10 @@
             <p>
                     <add place="top">7</add>
                 </p>
-            <p>À <placeName ref="#loc.1">Aix-la-Chapelle</placeName> Le</p>
-            <p>
+            <opener><dateline>À <placeName ref="#loc.1">Aix-la-Chapelle</placeName> Le</dateline>
+            <dateline><!-- Zeilenumbruch darstellbar? -->
                     <date when="1818-10-09">9 Octobre 1818</date>
-            </p>
+            </dateline></opener>
             <p>
                <add place="margin">(Entre les 5 Cabinets)</add>
                 </p>
@@ -280,11 +280,11 @@
          </div>
          <div hand="#G" decls="#m.2">
             <pb n="31r"/>
-            <p>
-                    <title>Supplément au Protocole du <date when="1818-10-09">9
+            
+                    <head>Supplément au Protocole du <date when="1818-10-09">9
                Octobre</date>
-                    </title>
-                </p>
+                    </head>
+                
             <p>Pendant la discussion qui a eu lieu à la conférence du <date when="1818-10-09">9
                   Octobre</date> sur les articles de la <rs ref="#t.10" type="treaties">convention</rs> relative à
                l’évacuation du Territoire Français et aux arrangemens pécuniaires entre la

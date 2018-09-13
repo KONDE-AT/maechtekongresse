@@ -183,11 +183,11 @@
                         <hi rendition="#u">Protocole 11</hi>
                     </add>
                 </p>
-            <p>
+            <opener><dateline>
                     <add>
                         <placeName ref="#loc.1">Aix-la-Chapelle</placeName> le <date when="1818-10-14">14 Octobre</date>
                     </add>
-                </p>
+                </dateline></opener>
 
             <p>Les Protocoles <ref target="Aachen_Prot_8.xml Aachen_Prot_9.xml Aachen_Prot_10.xml">des trois dernières séances</ref> ont été lus, approuvés et signés.</p>
             <p xml:space="preserve">On s’est occupé de la démarche que <choice>
@@ -287,7 +287,7 @@
                      <expan>Octobre</expan>
                   </choice> entre les 4 Cabinets</add>
                 </p>
-            <p xml:space="preserve">
+            <opener><dateline xml:space="preserve">
                     <add hand="#M" place="top">
                         <choice>
                      <abbr>Praes.</abbr>
@@ -300,7 +300,7 @@
                      <abbr>M</abbr>
                      <expan>Metternich</expan>
                   </choice>.</add>
-                </p>
+                </dateline></opener>
             <p xml:space="preserve">
                     <add place="bottom">à Son Altesse le
                      <persName ref="#p.8">
@@ -374,9 +374,9 @@
 
          <div hand="#A" decls="#m.3">
             <pb n="58r"/>
-            <p>
-                    <title>Projet de Protocole</title>
-                </p>
+            
+                    <head>Projet de Protocole</head>
+                
             <p>Conformément à la réserve insérée dans le <ref target="Aachen_Prot_3.xml">Protocole
                   du <date when="1818-10-01">1 Octobre</date>/19 Septembre</ref>, <rs ref="#p.8 #p.10 #p.11 #p.13 #p.12 #p.14 #p.9" type="multi-person">les Ministres et
                   Plénipotentiaires</rs> des quatre Cabinets se sont réunis en conférence à l’effet

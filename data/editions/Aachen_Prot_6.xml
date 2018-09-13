@@ -160,12 +160,12 @@
             <p>
                     <add place="top">6.</add>
                 </p>
-            <p>
+            <opener><dateline>
                     <placeName ref="#loc.1">Aix-la-Chapelle</placeName>
-                </p>
-            <p>
+                </dateline>
+            <dateline>
                     <date when="1818-10-08">Le 8 Octobre 1818</date>
-            </p>
+            </dateline></opener><!-- zwischen Ort und Datum ist ein Zeilenumbruch - wird der so mit dargestell? -->
             <p>
                <add place="margin">Entre les 4 Cabinets</add>
                 </p>
@@ -324,10 +324,10 @@
                 </p>
 
             <p>
-                    <title>Observations concernant la demande de la France que l’indemnité pécuniaire
+                    <head>Observations concernant la demande de la France que l’indemnité pécuniaire
                   soit diminuée de 38 millions de francs – demande fondée sur ce que les frais de
                   l’armée d’occupation pendant trois ans ont excédé d’une somme pareille celle de
-                  450 millions</title>
+                  450 millions</head>
                 </p>
             <p>1<hi rendition="#su">o</hi> Par l’Art. 2 de <rs ref="#t.3" type="treaties">la Convention pour la mise
                   à exécution de l’Art. 5</rs> du <rs ref="#t.1" type="treaties">traité principal</rs> (savoir de la
