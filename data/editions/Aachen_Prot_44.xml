@@ -150,15 +150,15 @@
       <body>
          <div hand="#G" decls="#m.1">
             <pb n="246"/>
-            <p>
+            <head>
                     <add hand="#W" place="top">Protocole <choice>
                      <abbr>N.</abbr>
                      <expan>Numéro</expan>
                   </choice> 4<del rendition="#s">4</del>3.</add>
-                </p>
-            <p>
+                </head>
+            <opener><dateline>
                     <placeName ref="#loc.1">Aix-la-Chapelle</placeName> le <date when="1818-11-21">21
-                  Novembre</date>.</p>
+                  Novembre</date>.</dateline></opener>
             <p>
                     <add place="margin">
                         <hi rendition="#u">Affaire de Monaco</hi>
@@ -226,17 +226,17 @@
                         </supplied>
                     </add>
                 </p>
-            <p>
-                    <title>Dépêche aux <rs ref="#p.2 #p.3 #p.4 #p.7" type="multi-person">Ministres d’Autriche, de
+            
+                    <head>Dépêche aux <rs ref="#p.2 #p.3 #p.4 #p.7" type="multi-person">Ministres d’Autriche, de
                      Grande-Bretagne, de Prusse et de Russie à <placeName ref="#loc.2">Paris</placeName>
                         </rs>
-                    </title>
-                </p>
-            <p>
+                    </head>
+                
+            <opener><dateline>
                     <placeName ref="#loc.1">Aix-la-Chapelle</placeName> le <date when="1818-11-21">21 <choice>
                      <abbr>Nov.</abbr>
                      <expan>Novembre</expan>
-                  </choice> 1818</date>.</p>
+                  </choice> 1818</date>.</dateline></opener>
             <p>Des habitans de la <country>Principauté de Monaco</country> se sont adressés depuis
                quelque tems à plusieurs Cours pour porter plainte contre le système de Gouvernement
                établi par <rs ref="#p.133" type="person">leur Prince</rs>, et pour réclamer l’intervention de ces
