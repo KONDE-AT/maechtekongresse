@@ -179,12 +179,12 @@
       <body>
          <div hand="#G" decls="#m.1">
             <pb n="83r"/>
-            <p>
+            <head>
                     <add hand="#W" place="top">Protocole 20.</add>
-                </p>
-            <p>
+                </head>
+            <opener><dateline>
                     <placeName ref="#loc.1">Aix-la-Chapelle</placeName> Le <date when="1818-10-29">29
-                  Octobre 1818</date>.</p>
+                  Octobre 1818</date>.</dateline></opener>
             <p>
                     <add hand="#W" place="margin">Entre les Cinq Cabinets</add>
                 </p>
@@ -330,9 +330,9 @@
                      <expan>numéro</expan>
                   </choice> 20.</add>
                 </p>
-            <p>
-                    <title>Observations préliminaires</title>
-                </p>
+            
+                    <head>Observations préliminaires</head>
+                
             <p>Le Cercle du Mein &amp; de la Tauber, dont la cession est demandée au <rs ref="#p.22" type="person">Grand-Duc</rs>, contient 96.000 âmes et rapporte annuellement 450.000 <choice>
                   <abbr>fl.</abbr>
                   <expan>florins</expan>
@@ -641,14 +641,14 @@
 
          <div hand="#A" decls="#m.3">
             <pb n="84r"/>
-            <p>
-                    <add place="margin">
-                        <title>Note verbale du Cabinet de <country>Russie</country> sur
+            
+                    <head><add place="margin">
+                        Note verbale du Cabinet de <country>Russie</country> sur
                      les Contestations entre la <country>Suède</country> et le
                         <country>Danemarc</country>
-                        </title>
-                    </add>
-                </p>
+                        
+                    </add></head>
+                
             <p>
                     <add place="margin">Annexe D au Protocole <choice>
                      <abbr>N<hi rendition="#su">o</hi>

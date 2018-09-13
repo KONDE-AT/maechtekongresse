@@ -190,16 +190,16 @@
       <body>
          <div hand="#G" decls="#m.1">
             <pb n="139r"/>
-            <p>
+            <head>
                     <add hand="#W" place="top">
                         <choice>
                      <abbr>N.</abbr>
                      <expan>Numéro</expan>
                   </choice> 25.</add>
-                </p>
-            <p>
+                </head>
+            <opener><dateline>
                     <placeName ref="#loc.1">Aix-la-Chapelle</placeName> le <date when="1818-11-07">7
-                  Novembre 1818</date>.</p>
+                  Novembre 1818</date>.</dateline></opener>
             <p>
                     <add hand="#W" place="margin">Entre les Cinq Cabinets</add>
                 </p>
@@ -291,9 +291,9 @@
                     <add hand="#W" place="top">Protocole du <date when="1818-11-07">7
                   Novembre</date>.</add>
                 </p>
-            <p>
-                    <title>Opinion du Cabinet de Russie sur la traite des Nègres</title>
-                </p>
+            
+                    <head>Opinion du Cabinet de Russie sur la traite des Nègres</head>
+                
             <p>
                     <rs xml:id="n.5">Le Cabinet de Russie a mis sous les yeux de <rs ref="#p.17" type="person">l’Empereur</rs> et pris d’après Ses ordres en mûre considération <ref target="Aachen_Prot_19.xml Aachen_Prot_23.xml">les diverses communications
                      faites aux conférences d’<placeName ref="#loc.1">Aix-la-Chapelle</placeName>
@@ -443,13 +443,13 @@
                      <expan>numéro</expan>
                   </choice> 25 du <date when="1818-11-07">7 Novembre</date>.</add>
                 </p>
-            <p>
-                    <title>Analyse du Traité principal au sujet des Barbaresques</title>
-                </p>
-            <p>
+            
+                    <head>Analyse du Traité principal au sujet des Barbaresques</head>
+                
+            <opener><dateline>
                     <placeName ref="#loc.1">Aix-la-Chapelle</placeName> le <supplied>28</supplied>
                Octobre/ <date when="1818-11-07">7 Novembre 1818</date>
-                </p>
+                </dateline></opener>
             <p>Le <rs xml:id="n.8">traité principal au sujet des Barbaresques,</rs>
                     <note type="editorial" target="#n.8">Vgl. Humboldt, Projet d’Alliance. Klose, Enforcing
                   abolition, S. 115–116.</note> fruit des <rs xml:id="n.9">Conférences de <placeName ref="#loc.8">Londres</placeName>

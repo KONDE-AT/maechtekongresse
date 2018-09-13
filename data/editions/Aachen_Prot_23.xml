@@ -175,18 +175,18 @@
       <body>
          <div hand="#G" decls="#m.1">
             <pb n="111r"/>
-            <p>
+            <head>
                     <add hand="#W" place="top"/>
                     <choice>
                   <abbr>n.</abbr>
                   <expan>numéro</expan>
-               </choice> 23.</p>
+               </choice> 23.</head>
             <p>
                     <add hand="#W" place="margin">avec une Annexe</add>
                 </p>
-            <p>
+            <opener><dateline>
                     <placeName ref="#loc.1">Aix-la-Chapelle</placeName> le <date when="1818-11-04">4
-                  Novembre</date>.</p>
+                  Novembre</date>.</dateline></opener>
             <p>
                     <rs xml:id="n.1">À la suite des communications faites à la <ref target="Aachen_Prot_19_xml">Conférence le <date when="1818-10-24">24
                         Octobre</date>
@@ -347,13 +347,13 @@
 
          <div hand="#A" decls="#m.2">
             <pb n="112r"/>
-            <p>
+            <head>
                     <add place="top">Annexé au Protocole d’<placeName ref="#loc.1">Aix-la-Chapelle</placeName> du <date when="1818-11-04">4 Novembre 1818</date>
                   sub <choice>
                      <abbr>n.</abbr>
                      <expan>numéro</expan>
                   </choice> 23.</add>
-                </p>
+                </head>
             <p>1<hi rendition="#su">st</hi> As to the Right <hi rendition="#u">of Visit</hi>
                 </p>
             <p>None of the three Conventions signed by <country>Great Britain</country> with <rs ref="#t.14" type="treaties">

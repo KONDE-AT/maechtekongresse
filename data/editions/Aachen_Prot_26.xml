@@ -334,16 +334,16 @@
       <body>
          <div hand="#G" decls="#m.1">
             <pb n="156r"/>
-            <p>
+            <head>
                     <add hand="#W" place="top">
                         <choice>
                      <abbr>N.</abbr>
                      <expan>Numéro</expan>
                   </choice> 26.</add>
-                </p>
-            <p>
+                </head>
+            <opener><dateline>
                     <placeName ref="#loc.1">Aix-la-Chapelle</placeName> le <date when="1818-11-07">7
-                  Novembre</date>.</p>
+                  Novembre</date>.</dateline></opener>
             <p>
                     <add hand="#W" place="margin">Entre les cinq Puissances</add>
                 </p>
@@ -479,10 +479,10 @@
                   </choice> 26.</add>
                 </p>
 
-            <p>
-                    <title>Exécution de l’Article 50 du <rs ref="#t.12" type="treaties">Recès de Vienne</rs>
-                    </title>
-                </p>
+            
+                    <head>Exécution de l’Article 50 du <rs ref="#t.12" type="treaties">Recès de Vienne</rs>
+                    </head>
+                
             <p>L’<choice>
                   <abbr>Art.</abbr>
                   <expan>Article</expan>
@@ -565,10 +565,10 @@
                      <expan>numéro</expan>
                   </choice> 26.</add>
                 </p>
-            <p>
-                    <title>Intérêts du <rs ref="#p.76" type="person">Duc d’Oldenbourg</rs>
-                    </title>
-                </p>
+            
+                    <head>Intérêts du <rs ref="#p.76" type="person">Duc d’Oldenbourg</rs>
+                    </head>
+                
             <p>Indépendamment des arrangemens territoriaux dont le <rs ref="#p.76" type="person">Duc
                   d’Oldenbourg</rs> réclame la fixation définitive, <choice>
                   <abbr>S. A. S.</abbr>
@@ -668,11 +668,11 @@
 
          <div hand="#A" decls="#m.4">
             <pb n="162r"/>
-            <p>
-                    <title>Réclamation du <rs ref="#p.76" type="person">Duc d’Oldenbourg</rs>
+            
+                    <head>Réclamation du <rs ref="#p.76" type="person">Duc d’Oldenbourg</rs>
                      <lb/>Affaire du péage d’<placeName ref="#loc.33">Elsfleth</placeName>
-                    </title>
-                </p>
+                    </head>
+                
             <p>Le péage d’<placeName ref="#loc.33">Elsfleth</placeName> est supprimé à perpétuité
                par le <rs ref="#t.24" type="treaties">recès de la députation de l’Empire de 1803</rs>. Par une <rs ref="#t.25" type="treaties">Convention particulière</rs> il a été stipulé que le <rs ref="#p.76" type="person">Duc d’Oldenbourg</rs> en conserverait l’administration et la perception pendant
                dix ans, s’engageant à ne prolonger celle-ci sous aucun prétexte au delà du <date when="1813-01-01">1<hi rendition="#su">er</hi> Janvier 1813</date>. – Cependant il
@@ -1152,13 +1152,13 @@
                   </choice> 26.</add>
                 </p>
 
-            <p>
-                    <title>
+            
+                    <head>
                         <rs xml:id="n.24">Seigneurie de Kniphausen</rs>
-                    </title>
+                    </head>
                     <note type="editorial" target="#n.24">Köbler, Historisches Lexikon, S.
                339–340.</note>
-                </p>
+                
             <p>Elle fesoit originairement partie de la <rs xml:id="n.25">Seigneurie de Jever.</rs>
                     <note type="editorial" target="#n.25">Köbler, Historisches Lexikon, S.
                   319–320.</note>
@@ -1223,10 +1223,10 @@
 
          <div hand="#W" decls="#m.6">
             <pb n="177r"/>
-            <p>
-                    <title>Intérêts du <rs ref="#p.78" type="person">Landgrave de Hesse-Hombourg</rs>
-                    </title>
-                </p>
+            
+                    <head>Intérêts du <rs ref="#p.78" type="person">Landgrave de Hesse-Hombourg</rs>
+                    </head>
+                
             <p>En soumettant aux Souverains réunis à <placeName ref="#loc.1">Aix-la-Chapelle</placeName> ses vœux relativement à l’exécution de <sic>l’article
                   5</sic> du <rs ref="#t.12" type="treaties">Recès de <placeName ref="#loc.7">Vienne</placeName>
                     </rs>, le <rs ref="#p.78" type="person">Landgrave de Hesse-Hombourg</rs>
@@ -1254,13 +1254,13 @@
                      <expan>Numéro</expan>
                   </choice> 26.</add>
                 </p>
-            <p>
-                    <title>Demande du <persName ref="#p.82">
+            
+                    <head>Demande du <persName ref="#p.82">
                             <roleName>Prince</roleName>
                      <surname>de la Tour et Taxis</surname>
                         </persName>
-                    </title>
-                </p>
+                    </head>
+                
             <p>Médiatisé par l’<rs ref="#t.26" type="treaties">acte de la Confédération rhénane</rs>, le <persName ref="#p.82">
                         <roleName>Prince</roleName>
                   <surname>de la Tour et Taxis</surname>
@@ -1336,9 +1336,9 @@
                         <forename>Thérèse</forename>
                     </persName>
                 </p>
-            <p>le <date when="1818-10-17">17</date> et <date when="1818-10-18">18 octobre
+            <closer><dateline>le <date when="1818-10-17">17</date> et <date when="1818-10-18">18 octobre
                   1818</date>
-                </p>
+                </dateline></closer>
             <p>
                     <choice>
                   <abbr>P.S.</abbr>
@@ -1365,9 +1365,9 @@
 
          <div hand="#A" decls="#m.9">
             <pb n="182r"/>
-            <p>
-                    <title>Mémoire,</title>
-                </p>
+            
+                    <head>Mémoire,</head>
+                
             <p>La <rs xml:id="n.29"> maison de la Tour et Taxis, </rs>
                     <note type="editorial" target="#n.29">Vgl. Behringer, Thurn und Taxis.</note> investie d’un grand
                institut national qui faisait partie de l’ancienne constitution de l’Empire, n’a pu
@@ -1413,9 +1413,9 @@
                maison souveraine de Sigmaringen, et mettra toute sa gloire à se rendre digne d’une
                admission qui, en la comblant de bonheur, serait en même tems un témoignage honorable
                de l’intérêt que l’Allemagne entière a de tout tems bien voulu lui accorder.</p>
-            <p>
+            <closer><dateline>
                     <placeName ref="#loc.1">Aix-la-Chapelle</placeName> le <date when="1818-10-19">19
-                  Octobre 1818</date>.</p>
+                  Octobre 1818</date>.</dateline></closer>
          </div>
       </body>
       <back>

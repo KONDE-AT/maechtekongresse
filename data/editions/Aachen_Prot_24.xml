@@ -160,14 +160,14 @@
       <body>
          <div hand="#G" decls="#m.1">
             <pb n="135r"/>
-            <p>
+            <head>
                     <add hand="#W" place="top">Protocole <del rendition="#s">22</del>
                   <del rendition="#s">23</del> 24.</add>
-                </p>
-            <p>
+                </head>
+            <opener><dateline>
                     <placeName ref="#loc.1">Aix-la-Chapelle</placeName> le <date when="1818-11-05">5
                   Novembre 1818</date>
-                </p>
+                </dateline></opener>
             <p>
                     <add hand="#W" place="margin">Entre les cinq Cabinets</add>
                 </p>
@@ -241,14 +241,14 @@
 
          <div hand="#W" decls="#m.2">
             <pb n="135r"/>
-            <p>
+            <head>
                     <add hand="#W" place="top">
                         <hi rendition="#u">Annexé au Protocole <choice>
                         <abbr>n</abbr>
                         <expan>numéro</expan>
                      </choice> 24 du <date when="1818-11-05">5 Novembre</date>.</hi>
                     </add>
-                </p>
+                </head>
             <p>
                     <add place="margin">
                         <choice>
@@ -267,8 +267,8 @@
                      <surname>Clancarty</surname>
                         </persName>.</add>
                 </p>
-            <p hand="#A">
-                    <placeName ref="#loc.1">Aix-la-Chapelle</placeName> le <date when="1818-11-14">14 Novembre 1818</date>.</p>
+            <opener hand="#A"><dateline>
+                    <placeName ref="#loc.1">Aix-la-Chapelle</placeName> le <date when="1818-11-14">14 Novembre 1818</date>.</dateline></opener>
 
             <p>
                     <title>Lettre des <rs ref="#p.16 #p.17 #p.18" type="multi-person">trois Souverains</rs> et <hi rendition="#u">in simili</hi> de <persName ref="#p.9">

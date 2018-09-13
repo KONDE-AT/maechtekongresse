@@ -171,16 +171,16 @@
       <body>
          <div hand="#G" decls="#m.1">
             <pb n="103r"/>
-            <p>
+            <head>
                     <add hand="#W" place="top">
                         <choice>
                      <abbr>N.</abbr>
                      <expan>Numéro</expan>
                   </choice> 22.</add>
-                </p>
-            <p>
+                </head>
+            <opener><dateline>
                     <placeName ref="#loc.1">Aix-la-Chapelle</placeName> Le <date when="1818-11-04">4
-                  Novembre 1818</date>.</p>
+                  Novembre 1818</date>.</dateline></opener>
             <p>
                     <add hand="#W" place="margin">Entre les 4 Cabinets</add>
                 </p>
@@ -323,10 +323,10 @@
                         </date>
                     </add>
                 </p>
-            <p>
-                    <title>Apperçu sommaire de la position des choses</title>
-                </p>
-            <p>Le <date when="1818-11-01">1 Novembre 1818</date>.</p>
+            
+                    <head>Apperçu sommaire de la position des choses</head>
+                
+            <opener><dateline>Le <date when="1818-11-01">1 Novembre 1818</date>.</dateline></opener>
             <p>I. Principes</p>
             <p>1. </p>
             <p>Il existe une alliance ; la quadruple.</p>

@@ -177,18 +177,18 @@
       <body>
          <div hand="#G" decls="#m.1">
             <pb n="99r"/>
-            <p>
+            <head>
                     <add hand="#W" place="top">
                         <choice>
                      <abbr>n.</abbr>
                      <expan>numéro</expan>
                   </choice> 21.</add>
-                </p>
-            <p>
+                </head>
+            <opener><dateline>
                     <placeName ref="#loc.1">Aix-la-Chapelle</placeName> le <date when="1818-11-03">
                         <del rendition="#ow">4</del>
                   <add>3</add> Novembre</date>
-                </p>
+                </dateline></opener>
             <p>
                     <add hand="#W" place="margin">Entre les Cinq Cabinets</add>
                 </p>
@@ -322,10 +322,10 @@
 
          <div hand="#A" decls="#m.2">
             <pb n="100r"/>
-            <p>
+            <head>
                     <add place="top">Annexe A du protocole du <date when="1818-11-03">3
                   Novembre</date>.</add>
-                </p>
+                </head>
             <p>Il paroit résulter de l’effet opéré sur la place de <placeName ref="#loc.2">Paris</placeName> par l’exécution ou la connoissance des dernières mesures prises
                pour les arrangemens pécuniaires conclus entre les Gouvernemens étrangers et la
                   <country>France</country> que les termes de payemens des 265 millions, à fournir
@@ -364,9 +364,9 @@
                conformément à l’art. 6, soient payées en effet sur les différentes places qui
                pourroient être à la convenance des gouvernemens intéressés, de manière à opérer les
                payemens en évitant l’obligation de déplacer une trop grande masse de numéraire.</p>
-            <p>
+            <closer><dateline>
                     <placeName ref="#loc.1">Aix-la-Chapelle</placeName> le <date when="1818-11-03">3
-                  Novembre 1818</date>.</p>
+                  Novembre 1818</date>.</dateline></closer>
          </div>
       </body>
       <back>
