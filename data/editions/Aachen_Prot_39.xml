@@ -176,17 +176,17 @@
       <body>
          <div hand="#G" decls="#m.1">
             <pb n="196r"/>
-            <p>
+            <head>
                     <add hand="#W" place="top">Protocole <choice>
                      <abbr>N<hi rendition="#su">o</hi>
                             </abbr>
                      <expan>Numéro</expan>
                   </choice>
                   <del rendition="#s">39</del> 38.</add>
-                </p>
-            <p>
+                </head>
+            <opener><dateline>
                     <placeName ref="#loc.1">Aix-la-Chapelle</placeName> le <date when="1818-11-19">19
-                  Novembre</date>.</p>
+                  Novembre</date>.</dateline></opener>
             <p>
                     <add place="margin">
                         <hi rendition="u">Traite des Nègres</hi>
@@ -322,13 +322,13 @@
                      <expan>Numéro</expan>
                   </choice> 38.</add>
                 </p>
-            <p>
-                    <title>
+            
+                    <head>
                         <hi rendition="#u">Memorandum Anglais</hi>
                      <lb/>
                         <hi rendition="#u">Traite des Négres</hi>
-                    </title>
-                </p>
+                    </head>
+                
             <p>Les <rs ref="#p.9 #p.10" type="multi-person">plénipotentiaires de la Grande-Bretagne</rs>, après avoir
                examiné <choice>
                   <abbr>attentivem<hi rendition="#su">t</hi>

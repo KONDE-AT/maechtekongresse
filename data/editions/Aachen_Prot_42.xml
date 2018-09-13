@@ -148,16 +148,16 @@
       <body>
          <div hand="#G" decls="#m.1">
             <pb n="240r"/>
-            <p>
+            <head>
                     <add hand="#W" place="top">Protocole <choice>
                      <abbr>N<hi rendition="#su">o</hi>
                             </abbr>
                      <expan>Numéro</expan>
                   </choice>
                   <del rendition="#ow">42</del>41.</add>
-                </p>
-            <p>
-                    <placeName rendition="#loc.1">Aix-la-Chapelle</placeName> le <date when="1818-11-20">20 Novembre</date>.</p>
+                </head>
+            <opener><dateline>
+                    <placeName rendition="#loc.1">Aix-la-Chapelle</placeName> le <date when="1818-11-20">20 Novembre</date>.</dateline></opener>
 
             <p>
                     <add hand="#W" place="margin">
@@ -266,13 +266,13 @@
                      <expan>Numéro</expan>
                   </choice> 41.</add>
                 </p>
-            <p>
-                    <title>
+            
+                    <head>
                         <rs xml:id="n.6">Seigneurie de Kniphausen</rs>
                         <note type="editorial" target="#n.6">Köbler, Historisches Lexikon, S. 339–340.</note>
-                    </title>
+                    </head>
                     
-                </p>
+                
             <p>La conférence connoit déjà les vicissitudes singulières qu’a essuyées la Seigneurie
                de Kniphausen, propriété du <persName ref="#p.91">
                         <roleName>Comte</roleName>

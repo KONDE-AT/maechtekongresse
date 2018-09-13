@@ -288,20 +288,21 @@
       <body>
          <div hand="#G" decls="#m.1">
             <pb n="37r"/>
-            <p>
+            <head>
                     <add hand="#W" place="top">
                         <choice>
                      <abbr>N.</abbr>
                      <expan>Numéro</expan>
                   </choice> 30.</add>
-                </p>
-            <p>
-                    <add hand="#W" place="margin">Entre les cinq Puissances</add>
-                </p>
-            <p>
+                </head>
+           
+            <opener><dateline>
                     <placeName ref="#loc.1">Aix-la-Chapelle</placeName> Le <date when="1818-11-11">11
                   Novembre</date>
-                </p>
+                </dateline></opener>
+            <p>
+               <add hand="#W" place="margin">Entre les cinq Puissances</add>
+            </p>
             <p>
                     <add hand="#W" place="margin">avec cinq Annexes</add>
                 </p>
@@ -406,11 +407,11 @@
                   </choice> 30 du <date when="1818-11-11">11 Novembre 1818</date>.</add>
                 </p>
 
-            <p>
-                    <title>
+            
+                    <head>
                         <hi rendition="#u">Traite des Noirs</hi>
-                    </title>
-                </p>
+                    </head>
+                
             <p>La <country>France</country> a prouvé de la manière la plus évidente qu’elle voulait
                concourir efficacement à <rs xml:id="n.6"> l’abolition complètte de la Traite des
                   Noirs. </rs>
@@ -741,10 +742,10 @@
                      <expan>numéro</expan>
                   </choice> 30.</add>
                 </p>
-            <p>
-                    <title>Opinion du Cabinet d’Autriche sur la question de la Traite des
-               Nègres</title>
-                </p>
+            
+                    <head>Opinion du Cabinet d’Autriche sur la question de la Traite des
+               Nègres</head>
+                
             <p>Depuis que <rs xml:id="n.13"> l’abolition de la traite des Nègres est devenue l’objet
                   des délibérations communes des puissances de l’Europe, </rs>
                     <note type="editorial" target="#n.13">Vgl. Fladeland, Abolitionist Pressures, S. 367–369; Webster,
@@ -834,9 +835,9 @@
                   </choice> 30.</add>
                 </p>
 
-            <p>
-                    <title>Traite des Nègres</title>
-                </p>
+            
+                    <head>Traite des Nègres</head>
+                
             <p>Invariablement attaché aux principes de morale et d’humanité qui depuis longtems
                avoient réclamé l’abolition de la traite des Nègres, et fidèle aux <rs ref="#t.22" type="treaties">engagemens qu’il a pris à cet effet</rs>, le Gouvernement Prussien est
                constamment prêt à concourir à tout ce qui peut servir à l’accomplissement définitif
@@ -911,10 +912,10 @@
                   <surname>de Palmella</surname>
                     </persName>
                 </signed>
-            <dateline>
+            <closer><dateline>
                     <placeName ref="#loc.2">Paris</placeName> le <date when="1818-11-07">7
                   Novembre 1818</date>
-                </dateline>
+                </dateline></closer>
          </div>
       </body>
       <back>

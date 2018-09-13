@@ -502,15 +502,15 @@
       <body>
          <div hand="#G" decls="#m.1">
             <pb n="112r"/>
-            <p>
+            <head>
                     <add hand="#W" place="top">Protocole <choice>
                      <abbr>no</abbr>
                      <expan>numéro</expan>
                   </choice> 32. avec huit Annèxes.</add>
-                </p>
-            <p>
+                </head>
+            <opener><dateline>
                     <placeName ref="#loc.1">Aix-la-Chapelle</placeName> le <date when="1818-11-14">14
-                  Novembre</date>.</p>
+                  Novembre</date>.</dateline></opener>
             <p>
                     <add hand="#W" place="margin">Entre les Cinq Puissances</add>
                 </p>
@@ -794,14 +794,14 @@
                      <expan>numéro</expan>
                   </choice> 32 du <date when="1818-11-14">14 Novembre</date>.</add>
                 </p>
-            <p>
+            <opener><dateline>
                     <placeName ref="#loc.1">Aix-la-Chapelle</placeName> le <date when="1818-11-07">7
-                  Novembre 1818</date>.</p>
-            <p>
-                    <title>
+                  Novembre 1818</date>.</dateline></opener>
+            
+                    <head>
                         <hi rendition="#u">Affaire des Médiatisés</hi>
-                    </title>
-                </p>
+                    </head><!-- währe wohl kein Konflikt, wenn head vor opener wäre - ist er aber im Original nicht.... -->
+                
             <p>Monsieur le <persName ref="#p.13">
                         <roleName>Comte</roleName>
                   <surname>de Nesselrode</surname>
@@ -1041,9 +1041,9 @@
 
          <div hand="#A" decls="#m.3">
             <pb n="114r"/>
-            <p>
-                    <title>Demande des Princes et Comtes Médiatisés</title>
-                </p>
+            
+                    <head>Demande des Princes et Comtes Médiatisés</head>
+                
             <p>Les Princes <persName ref="#p.117">
                         <forename>George</forename>
                   <surname>de Löwenstein-Wertheim-Freudenberg</surname>
@@ -1072,8 +1072,8 @@
                     <add hand="#W" place="top">Annexé au Protocole sur l’affaire des médiatisés, lequel
                   est consigné au Protocole du <date when="1818-11-14">14 Novembre</date>.</add>
                 </p>
-            <p>
-                    <title>Les Ministres des Cinq Cours à leurs Envoyés respectifs à <rs ref="#p.36 #p.123 #p.114 #p.124 #p.125" type="multi-person">
+           
+                    <head>Les Ministres des Cinq Cours à leurs Envoyés respectifs à <rs ref="#p.36 #p.123 #p.114 #p.124 #p.125" type="multi-person">
                             <placeName ref="#loc.16">Munich</placeName>,</rs>
                   <rs ref="#p.84 #p.85 #p.86 #p.87 #p.88" type="multi-person">
                             <placeName ref="#loc.17">Stuttgard</placeName>
@@ -1103,14 +1103,14 @@
                      diplomatischen Beziehungen; vgl. Bringmann, Handbuch, S. 198. Russland: Betreut
                      vom russischen Bundestagsgesandten Iwan/Johann Ossipowitsch Freiherr von
                      Anstett (1766/1770–1835).</note>
-                    </title>
-                </p>
-            <p>
+                    </head>
+                
+            <opener><dateline>
                     <placeName ref="#loc.1">Aix-la-Chapelle</placeName> le <date when="1818-11-21">21 <choice>
                      <abbr>9<hi rendition="#su">bre</hi>
                             </abbr>
                      <expan>Novembre</expan>
-                  </choice> 1818</date>.</p>
+                  </choice> 1818</date>.</dateline></opener>
             <p>
                     <choice>
                   <abbr>M<hi rendition="#su">r</hi>
@@ -1233,12 +1233,12 @@
                      <expan>numéro</expan>
                   </choice> 32.</add>
                 </p>
-            <p>
-                    <title>Insertion de Protocole</title>
-                </p>
-            <p>
+            
+                    <head>Insertion de Protocole</head>
+                
+           <opener><dateline>
                     <date when="1818-11-14">14 Novembre 1818</date>
-                </p>
+                </dateline></opener>
             <p>
                     <choice>
                   <abbr>Mess<hi rendition="#su">rs</hi>
@@ -1285,14 +1285,14 @@
 
          <div hand="#A" decls="#m.6">
             <pb n="128r"/>
-            <p>
-                    <title>Projet de lettre de Cabinet à <rs ref="#p.99" type="person">
+            
+                    <head>Projet de lettre de Cabinet à <rs ref="#p.99" type="person">
                             <choice>
                         <abbr>S. M</abbr>
                         <expan>Sa Majesté</expan>
                      </choice> le Roi de Bavière</rs>
-                    </title>
-                </p>
+                    </head>
+                
             <p>Monsieur <rs ref="#p.99" type="person">Mon Frère</rs>, Les résultats de la longue et pénible
                négociation entre les Cours alliées et celle de Bade vont être soumis à <rs ref="#p.99" type="person">Votre Majesté</rs>. J’éprouve le besoin de m’en expliquer franchement
                avec Elle. Lorsqu’en 1816, en accédant à <rs ref="#t.27" type="treaties">Son traité avec
@@ -1341,10 +1341,10 @@
 
          <div hand="#A" decls="#m.7">
             <pb n="130r"/>
-            <p>
-                    <title>Projet de Protocole touchant le péage d’<placeName ref="#loc.33">Elsfleth</placeName>
-                    </title>
-                </p>
+            
+                    <head>Projet de Protocole touchant le péage d’<placeName ref="#loc.33">Elsfleth</placeName>
+                    </head>
+                
             <p>Après avoir délibéré sur <ref target="Aachen_Prot_26.xml">la proposition faite par le
                   Cabinet Russe relativement au péage d’<placeName ref="#loc.33">Elsfleth</placeName>
                     </ref>, <choice>
@@ -1385,8 +1385,8 @@
                      <expan>numéro</expan>
                   </choice> 32 du <date when="1818-11-14">14 Novembre</date>.</add>
                 </p>
-            <p>
-                    <title>Lettre de <choice>
+           
+                    <head>Lettre de <choice>
                      <abbr>M</abbr>
                      <expan>Monsieur</expan>
                   </choice> le <persName ref="#p.11">
@@ -1409,12 +1409,12 @@
                             <roleName>Princesse</roleName>
                      <surname>de La Tour-Taxis</surname>
                         </persName>
-                    </title>
-                </p>
-            <p>
+                    </head>
+                
+            <opener><dateline>
                     <placeName ref="#loc.1">Aix-la-Capelle</placeName> le <date when="1818-11-13">13
                   Novembre 1818</date>
-                </p>
+                </dateline></opener>
             <p>Madame</p>
             <p>J’ai rendu compte au <rs ref="#p.18" type="person">Roi</rs>/à l’<rs ref="#p.16" type="person">Empereur</rs>
                <ref target="Aachen_Prot_26.xml">des vœux de la Maison de la Tour-Taxis</ref>.</p>
@@ -1454,9 +1454,9 @@
                      <expan>Numéro</expan>
                   </choice> 32.</add>
                 </p>
-            <p>
-                    <title>Acquéreurs de domaines hessois</title>
-                </p>
+            
+                    <head>Acquéreurs de domaines hessois</head>
+                
             <p>Depuis trop longtems, l’Allemagne entière retentit des cris des acquéreurs dépossédés
                des domaines vendus dans le <rs xml:id="n.28">ci-devant Royaume de
                   Westphalie</rs>.<note type="editorial" target="#n.28">Das Königreich Westphalen
@@ -1592,8 +1592,8 @@
                      <expan>numéro</expan>
                   </choice> 32.</add>
                 </p>
-            <p>
-                    <title>Projet d’instruction aux <rs ref="#p.24 #p.122 #p.39" type="multi-person" xml:id="n.33">Ministres
+            
+                    <head>Projet d’instruction aux <rs ref="#p.24 #p.122 #p.39" type="multi-person" xml:id="n.33">Ministres
                      des Souverains alliés à la Cour de <placeName ref="#loc.45">Cassel</placeName>
                         </rs>
                         <note type="editorial" target="#n.33"> Frankreich nahm
@@ -1602,8 +1602,8 @@
                      diplomatischen Beziehungen mit dem Kurfürstentum Hessen; vgl. Bringmann,
                      Handbuch, S. 198. Russland: Betreut vom russischen Bundestagsgesandten
                      Iwan/Johann Ossipowitsch Freiherr von Anstett.</note>
-                    </title>
-                </p>
+                    </head>
+                
             <p hand="#A1">à <choice>
                   <abbr>S E</abbr>
                   <expan>Son Excellence</expan>
@@ -1623,13 +1623,13 @@
                   <surname>de Wacquant</surname>
                     </persName> etc. <placeName ref="#loc.45">Cassel</placeName>
                 </p>
-            <p>
+            <opener><dateline>
                     <placeName ref="#loc.1">Aix-la-Chapelle</placeName> le <date when="1818-11-20">20 <choice>
                      <abbr>9<hi rendition="#su">bre</hi>
                             </abbr>
                      <expan>Novembre</expan>
                   </choice> 1818</date>
-                </p>
+                </dateline></opener>
             <p>
                     <add hand="#A1" place="margin">
                         <unclear>
@@ -1763,9 +1763,9 @@
                      <expan>numéro</expan>
                   </choice> 32 du <date when="1818-11-14">14 Novembre 1818</date>.</add>
                 </p>
-            <p>
-                    <title>Note sur les Pirates de l’Océan atlantique</title>
-                </p>
+            
+                    <head>Note sur les Pirates de l’Océan atlantique</head>
+                
             <p>
                     <choice>
                   <abbr>M<hi rendition="#su">r</hi>

@@ -235,16 +235,16 @@
         <body>
             <div hand="#G" decls="#m.1">
                 <pb n="4r"/>
-                <p>
+                <head>
                     <add hand="#W" place="top">
                         <choice>
                             <abbr>N.</abbr>
                             <expan>Numéro</expan>
                         </choice> 28.</add>
-                </p>
-                <p>
+                </head>
+                <opener><dateline>
                     <placeName ref="#loc.1">Aix-la-Chapelle</placeName> le <date when="1818-11-10">10
-                        Novembre</date>.</p>
+                        Novembre</date>.</dateline></opener>
                 <p>
                     <add hand="#W" place="margin">Entre les cinq Cabinets</add>
                 </p>
@@ -394,12 +394,12 @@
                         <surname>de Berstett</surname>
                     </persName>
                 </p>
-                <p>
+                <closer><dateline>
                     <placeName ref="#loc.1">Aix-la-Chapelle</placeName> le <date when="1818-11-09">9 <choice>
                             <abbr>9<hi rendition="#su">bre</hi>
                             </abbr>
                             <expan>Novembre</expan>
-                        </choice> 1818</date>.</p>
+                        </choice> 1818</date>.</dateline></closer>
             </div>
 
             <div decls="#m.3">
@@ -410,13 +410,13 @@
                             <expan>numéro</expan>
                         </choice> 28.</add>
                 </p>
-                <p>
-                    <title>Mémoire confidentiel</title>
-                </p>
-                <p>
+                
+                    <head>Mémoire confidentiel</head>
+                
+                <opener><dateline>
                     <placeName ref="#loc.1">Aix-la-Chapelle</placeName> le <date when="1818-11-08">8
                         Novembre 1818</date>
-                </p>
+                </dateline></opener>
                 <p>La conférence des Ministres a cru devoir déclarer que <rs xml:id="n.6">
                         <ref decls="#m.4">les offres faits par le <rs ref="#p.26" type="person">Ministre de
                                 Bade</rs> au nom de sa Cour le <date when="1818-10-28">28 Octobre
@@ -656,14 +656,14 @@
                     <add hand="W" place="top">Annexé au Protocole du <date when="1818-11-10">10
                             Novembre 1818</date> sub n<hi rendition="#su">o</hi> 28.</add>
                 </p>
-                <p>
-                    <title>Mémoire sur la question relative à <rs xml:id="n.10">l’affaire de Bade
+                
+                    <head>Mémoire sur la question relative à <rs xml:id="n.10">l’affaire de Bade
                             </rs>
                         <note type="editorial" target="#n.10">Vgl. Huber, Deutsche
                             Verfassungsgeschichte, Bd. 1, S. 172–186.</note> et vote du Cabinet de
-                        Russie</title>
-                </p>
-                <p>
+                        Russie</head>
+                
+                <opener><dateline>
                     <placeName ref="#loc.1">Aix-la-Chapelle</placeName> le <rs xml:id="n.10a">28 <choice>
                             <abbr>8<hi rendition="#su">bre</hi>
                             </abbr>
@@ -676,7 +676,7 @@
                     </rs>
                     <note type="editorial" target="#n.10a">Datumsberechnung stimmt nicht. Entweder 29.
                         Oktober/8. November 1818, oder 31. Oktober/10. November 1818.</note>
-                </p>
+                </dateline></opener>
                 
                 <p>En accueillant les vœux que <choice>
                         <abbr>S. A. R.</abbr>
@@ -1141,16 +1141,16 @@
 
             <div decls="#m.5">
                 <pb n="26r"/>
-                <p>
-                    <title>Projet de Lettre de Cabinet à <choice>
+                
+                    <head>Projet de Lettre de Cabinet à <choice>
                             <abbr>S. M.</abbr>
                             <expan>Sa Majesté</expan>
                         </choice> le <rs ref="#p.99" type="person">Roi de Bavière</rs>
-                    </title>
-                </p>
-                <p>
+                    </head>
+                
+                <opener><dateline>
                     <placeName ref="#loc.1">Aix-la-Chapelle</placeName> le <supplied>...</supplied>
-                    Octobre/ <supplied>...</supplied> Novembre 1818</p>
+                    Octobre/ <supplied>...</supplied> Novembre 1818</dateline></opener>
                 <p>Monsieur mon frère, Les déterminations arrêtées en commun par <rs ref="#p.16 #p.17 #p.18 #p.19" type="multi-person">les Souverains Amis et Alliés</rs> de <rs ref="#p.99" type="person">
                         <choice>
                             <abbr>V. M.</abbr>

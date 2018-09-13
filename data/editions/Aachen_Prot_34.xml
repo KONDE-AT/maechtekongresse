@@ -350,15 +350,15 @@
       <body>
          <div hand="#G" decls="#m.1">
             <pb n="159r"/>
-            <p>
+            <head>
                     <add hand="#W" place="top">Protocole <choice>
                      <abbr>n</abbr>
                      <expan>numéro</expan>
                   </choice> 34.</add>
-                </p>
-            <p>
+                </head>
+            <opener><dateline>
                     <placeName ref="#loc.1">Aix-la-Chapelle</placeName> le <date when="1818-11-15">15
-                  Novembre 1818</date>.</p>
+                  Novembre 1818</date>.</dateline></opener>
             <p>
                     <add hand="#W" place="margin">Entre les cinq Cours</add>
                 </p>
@@ -482,8 +482,8 @@
 
          <div hand="#A" decls="#m.2">
             <pb n="31r"/>
-            <p>
-                    <title>Note adressée à <choice>
+            
+                    <head>Note adressée à <choice>
                      <abbr>M.</abbr>
                      <expan>Monsieur</expan>
                   </choice> le <persName ref="#p.1">
@@ -496,10 +496,10 @@
                         <expan>Plénipotentiaires</expan>
                      </choice> des Cours d’Autriche, de la Grande-Bretagne, de Prusse et de
                      Russie</rs>
-                    </title>
-                </p>
-            <p hand="#G">Le <date when="1818-11-04">4 Novembre 1818</date>
-                </p>
+                    </head>
+                
+            <opener hand="#G"><dateline>Le <date when="1818-11-04">4 Novembre 1818</date>
+                </dateline></opener>
             <p>
                     <rs ref="#p.8 #p.9 #p.10 #p.11 #p.12 #p.13 #p.14" type="multi-person">Les Soussignés, Ministres des
                   Cabinets d’Autriche, de la Grande-Bretagne, de Prusse et de Russie,</rs> ont reçu
@@ -654,11 +654,11 @@
 
          <div hand="#A" decls="#m.3">
             <pb n="43r"/>
-            <p>
+            <opener><dateline>
                     <add hand="#AmB" place="top">
                         <date when="1818-11-12">12/11</date>
                     </add>
-                </p>
+                </dateline></opener>
             <p>
                     <add place="bottom">
                         <choice>
@@ -730,12 +730,12 @@
             <p>
                     <add hand="#AmT" place="top">3</add>
                 </p>
-            <p>
-                    <title>Protocole <lb/>signé à <placeName ref="#loc.1">Aix-la-Chapelle</placeName> le <date when="1818-11-15">15 novembre 1818</date> par <rs ref="#p.8 #p.1 #p.9 #p.10 #p.11 #p.12 #p.13 #p.14" type="multi-person">les Plénipotentiaires des
+            
+                    <head>Protocole <lb/>signé à <placeName ref="#loc.1">Aix-la-Chapelle</placeName> le <date when="1818-11-15">15 novembre 1818</date> par <rs ref="#p.8 #p.1 #p.9 #p.10 #p.11 #p.12 #p.13 #p.14" type="multi-person">les Plénipotentiaires des
                      cours d’Autriche, de France, de la Grande-Bretagne, de Prusse et de
                   Russie</rs>
-                    </title>
-                </p>
+                    </head>
+                
             <p>Les <rs ref="#p.8 #p.1 #p.9 #p.10 #p.11 #p.12 #p.13 #p.14" type="multi-person">Ministres d’Autriche, de
                   France, de la Grande-Bretagne, de Prusse et de Russie</rs>, à la suite de
                l’échange des ratifications de la <rs ref="#t.10" type="treaties">convention signée le <date when="1818-10-09">9 octobre</date>
@@ -789,66 +789,58 @@
                faisant partie.</p>
             <p>Fait quintuple et réciproquement échangé en original entre les cabinets
                signataires.</p>
-            <p>À <placeName ref="#loc.1">Aix-la-Chapelle</placeName> le <date when="1818-11-15">15
-                  novembre 1818</date>.</p>
-            <p>
+            <closer><dateline>À <placeName ref="#loc.1">Aix-la-Chapelle</placeName> le <date when="1818-11-15">15
+                  novembre 1818</date>.</dateline></closer>
+            <signed>
                     <hi rendition="#i #r">(Signé)</hi>
-                </p>
-            <p>
+                <lb/>
                     <hi rendition="#r">
                         <persName ref="#p.8">
                             <surname>Metternich</surname>
                         </persName>.</hi>
-                </p>
-            <p>
+                <lb/>
                     <hi rendition="#r">
                         <persName ref="#p.1">
                             <surname>Richelieu</surname>
                         </persName>.</hi>
-                </p>
-            <p>
+                <lb/>
                     <hi rendition="#r">
                         <persName ref="#p.8">
                             <surname>Castlereagh</surname>
                         </persName>.</hi>
-                </p>
-            <p>
+                <lb/>
                     <hi rendition="#r">
                         <persName ref="#p.10">
                             <surname>Wellington</surname>
                         </persName>.</hi>
-                </p>
-            <p>
+                <lb/>
                     <hi rendition="#r">
                         <persName ref="#p.11">
                             <surname>Hardenberg</surname>
                         </persName>.</hi>
-                </p>
-            <p>
+                <lb/>
                     <hi rendition="#r">
                         <persName ref="#p.12">
                             <surname>Bernstorff</surname>
                         </persName>.</hi>
-                </p>
-            <p>
+                <lb/>
                     <hi rendition="#r">
                         <persName ref="#p.13">
                             <surname>Nesselrode</surname>
                         </persName>.</hi>
-                </p>
-            <p>
+                <lb/>
                     <hi rendition="#r">
                         <persName ref="#p.14">
                             <surname>Capodistrias</surname>
                         </persName>.</hi>
-                </p>
+                </signed>
          </div>
 
          <div type="print" decls="#m.5">
             <pb n="163r"/>
-            <p>
-                    <title>Déclaration</title>
-                </p>
+            
+                    <head>Déclaration</head>
+                
             <p>À l’époque où la pacification de l’Europe est achevée par <rs ref="#t.10" type="treaties">la
                   résolution de retirer les troupes étrangères du territoire français</rs>, et où
                cessent les mesures de précaution que des événemens déplorables avaient rendu
@@ -900,72 +892,63 @@
                consacrer désormais tous leurs efforts à protéger les arts de la paix, à accroître la
                prospérité intérieure de leurs états, et à réveiller ces sentiments de religion et de
                morale dont le malheur des tems n’a que trop affaibli l’empire.</p>
-            <p>
+            <closer><dateline>
                     <placeName ref="#loc.1">Aix-la-Chapelle</placeName>, le <date when="1818-11-15">15
-                  novembre 1818</date>.</p>
-            <p>
+                  novembre 1818</date>.</dateline></closer>
+            <signed>
                     <hi rendition="#i #r">(Signé)</hi>
-                </p>
-            <p>
+                <lb/>
                     <hi rendition="#r">
                         <persName ref="#p.8">
                             <surname>Metternich</surname>
                         </persName>.</hi>
-                </p>
-            <p>
+                <lb/>
                     <hi rendition="#r">
                         <persName ref="#p.1">
                             <surname>Richelieu</surname>
                         </persName>.</hi>
-                </p>
-            <p>
+                <lb/>
                     <hi rendition="#r">
                         <persName ref="#p.8">
                             <surname>Castlereagh</surname>
                         </persName>.</hi>
-                </p>
-            <p>
+                <lb/>
                     <hi rendition="#r">
                         <persName ref="#p.10">
                             <surname>Wellington</surname>
                         </persName>.</hi>
-                </p>
-            <p>
+                <lb/>
                     <hi rendition="#r">
                         <persName ref="#p.11">
                             <surname>Hardenberg</surname>
                         </persName>.</hi>
-                </p>
-            <p>
+                <lb/>
                     <hi rendition="#r">
                         <persName ref="#p.12">
                             <surname>Bernstorff</surname>
                         </persName>.</hi>
-                </p>
-            <p>
+                <lb/>
                     <hi rendition="#r">
                         <persName ref="#p.13">
                             <surname>Nesselrode</surname>
                         </persName>.</hi>
-                </p>
-            <p>
+                <lb/>
                     <hi rendition="#r">
                         <persName ref="#p.14">
                             <surname>Capodistrias</surname>
                         </persName>.</hi>
-                </p>
-            <p>
+                <lb/>
                     <hi rendition="#i">Par <choice>
                      <abbr>Mrs.</abbr>
                      <expan>Messieurs</expan>
                   </choice> les Plénipotentiaires,</hi>
-                </p>
-            <p>
+                <lb/>
+           
                     <hi rendition="#r">
                         <persName ref="#p.5">
                             <surname>Gentz</surname>
                         </persName>.</hi>
-                </p>
+                </signed>
          </div>
       </body>
       <back>

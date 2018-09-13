@@ -197,16 +197,16 @@
       <body>
          <div hand="#G" decls="#m.1">
             <pb n="157r"/>
-            <p>
+            <head>
                     <add hand="#W" place="top">Protocole <choice>
                      <abbr>n.</abbr>
                      <expan>numéro</expan>
                   </choice> 33 du <date when="1818-11-15">15 Novembre</date>.</add>
-                </p>
-            <p>
+                </head>
+            <opener><dateline>
                     <placeName ref="#loc.1">Aix-la-Chapelle</placeName> le <date when="1818-11-15">15
                   Novembre 1818</date>
-                </p>
+                </dateline></opener>
             <p>
                     <add place="margin">
                         <hi rendition="#u">Protocole des Quatre puissances</hi>
@@ -282,8 +282,8 @@
             <p>
                     <add hand="#AmrB" place="top">17.</add>
                 </p>
-            <p>
-                    <title>Protocole, <lb/>réservé à la connoissance des Puissances Signataires <lb/>du <rs ref="#t.6" type="treaties">traité de la Quadruple Alliance</rs> du <date when="1818-11-15">
+            
+                    <head>Protocole, <lb/>réservé à la connoissance des Puissances Signataires <lb/>du <rs ref="#t.6" type="treaties">traité de la Quadruple Alliance</rs> du <date when="1818-11-15">
                             <subst>
                         <del rendition="#ow">20</del>
                         <add>15</add>
@@ -292,8 +292,8 @@
                         <add>1818</add>
                      </subst>
                         </date>
-                    </title>
-                </p>
+                    </head>
+                
             <p>Conformément à la réserve insérée dans le <ref target="Aachen_Prot_3.xml">Protocole
                   du <date when="1818-10-01">premier Octobre</date>
                     </ref>, les <rs ref="#p.8 #p.9 #p.10 #p.11 #p.12 #p.13 #p.14" type="multi-person">Ministres &amp; Plénipotentiaires
@@ -416,9 +416,9 @@
                été arrêté que par l’intimité des rapports &amp; la pureté des Sentimens qui unissent
                   <rs ref="#p.16 #p.17 #p.18 #p.19" type="multi-person">les quatre Souverains</rs> pour le bonheur du
                monde.</p>
-            <p>Fait quadruple à <placeName ref="#loc.1">Aix-la-Chapelle</placeName> le <date when="1818-11-15">
+            <closer><dateline>Fait quadruple à <placeName ref="#loc.1">Aix-la-Chapelle</placeName> le <date when="1818-11-15">
                         <rs xml:id="n.6">15</rs> Novembre<note type="editorial" target="#n.6">Tagesdatum weist Korrekturen auf.</note> Mil huit cent
-                  dix-huit</date>.</p>
+                  dix-huit</date>.</dateline></closer>
             <signed>
                <list>
                   <item>
@@ -448,9 +448,9 @@
 
          <div hand="#A" decls="#m.3">
             <pb n="110r"/>
-            <p>
+           <opener> <dateline>
                     <placeName ref="#loc.1">Aix-la-Chapelle</placeName> le <date when="1818-11-15">15
-                  Novembre</date>.</p>
+                  Novembre</date>.</dateline></opener>
             <p>Conformément aux dispositions consignées <ref decls="#m.2">au Protocole de ce jour,
                   réservé à la connoissance des puissances signataires du <rs ref="#t.6" type="treaties">Traité
                      d’alliance du <date when="1815-11-20">

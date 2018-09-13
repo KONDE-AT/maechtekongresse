@@ -347,16 +347,16 @@
       <body>
          <div hand="#G" decls="#m.1">
             <pb n="59r"/>
-            <p>
+            <head>
                <add hand="#W" place="top">Protocole <choice>
                      <abbr>n.</abbr>
                      <expan>numéro</expan>
                   </choice> 31. avec 5 annexes.</add>
-            </p>
-            <p>
+            </head>
+            <opener><dateline>
                <placeName ref="#loc.1">Aix-la-Chapelle</placeName> le <date when="1818-11-13">13
                   Novembre</date>
-            </p>
+            </dateline></opener>
 
             <p>
                <choice>
@@ -491,7 +491,7 @@
          <div hand="#A" decls="#m.2">
             <pb n="63r"/>
             <p>
-               <title>
+               <head>
                   <add place="inline">1<hi rendition="#su">er</hi>
                   </add> Projet de dépêche des cinq Cours à leurs Ministres près les Etats-unis
                   d’Amérique <add hand="#AmB" place="margin">(avec les Corrections indiquées par
@@ -504,7 +504,7 @@
                            </choice>
                         </surname>
                             </persName> et dans la supposition d’une démarche Collective)</add>
-               </title>
+               </head>
             </p>
             <p>Monsieur <supplied>...</supplied>, la Cour de Portugal ayant appelé, <rs xml:id="n.7"> par l’office dont copie est ci-jointe, </rs>
                     <note type="editorial" target="#n.7">Anlage liegt nicht ein.</note> l’attention des
@@ -614,9 +614,9 @@
                      <expan>numéro</expan>
                   </choice> 31 du <date when="1818-11-13">13 Novembre 1818</date>.</add>
             </p>
-            <p>
-               <title>Vote du Cabinet Autrichien sur les Barbaresques</title>
-            </p>
+            
+               <head>Vote du Cabinet Autrichien sur les Barbaresques</head>
+            
             <p>Le Cabinet Autrichien a voué depuis longtems l’attention la plus suivie à la
                recherche des moyens de réprimer la piraterie des Barbaresques. Il a cru devoir
                attendre l’époque des premières Conférences pour soumettre aux Cabinets réunis les
@@ -821,9 +821,9 @@
                     <note type="editorial" target="#n.20">Vermerk weist Korrekturen auf, die nicht
                   gedeutet werden können.</note>
             </p>
-            <p>
-               <title>Mémoire sur la répression des Pirates de la Méditerranée</title>
-            </p>
+            
+               <head>Mémoire sur la répression des Pirates de la Méditerranée</head>
+            
             <p>
                <add place="margin">Remise par <choice>
                      <abbr>M<hi rendition="#su">r</hi>
@@ -1638,15 +1638,15 @@
                   </choice> 31 du <date when="1818-11-13"/>.</add>
             </p>
 
-            <p>
-               <title>Projet de Note à remettre au Ministère de <choice>
+            
+               <head>Projet de Note à remettre au Ministère de <choice>
                      <abbr>S. M.</abbr>
                      <expan>Sa Majesté</expan>
                   </choice> le <rs ref="#p.46" type="person">Roi de Suède</rs> par les<rs ref="#p.57 #p.58 #p.59 #p.60" type="multi-person"> Ministres d’Autriche, de la
                      Grande Bretagne, de Prusse et de Russie à <placeName ref="#loc.12">Stockholm</placeName>
                         </rs>
-               </title>
-            </p>
+               </head>
+            
             <p>Le Soussigné a l’ordre de <choice>
                   <abbr>S. M.</abbr>
                   <expan>Sa Majesté</expan>
@@ -1880,8 +1880,8 @@
                      </choice> 1818</date>.</add>
             </p>
 
-            <p>
-               <title>À <choice>
+            
+               <head>À <choice>
                      <abbr>M<hi rendition="#su">r</hi>
                      </abbr>
                      <expan>Monsieur</expan>
@@ -1898,8 +1898,8 @@
                      <abbr>S. M.</abbr>
                      <expan>Sa Majesté</expan>
                   </choice> le <rs ref="#p.46" type="person">Roi de Suède</rs>
-               </title>
-            </p>
+               </head>
+            
             <p>Vous êtes informé qu’à la suite des instances réitérées, mais toujours infructueuses,
                faites par les<rs xml:id="n.39"> quatre Cours alliées </rs>
                     <note type="editorial" target="#n.39">Österreich, Großbritannien, Preußen,
@@ -2099,17 +2099,17 @@
 
          <div hand="#A" decls="#m.8">
             <pb n="107r"/>
-            <p>
-               <title>Lettre de Cabinet à <choice>
+            
+               <head>Lettre de Cabinet à <choice>
                      <abbr>S. M.</abbr>
                      <expan>Sa Majesté</expan>
                   </choice> le <rs ref="#p.46" type="person">Roi de Suède et de Norvège</rs>
-               </title>
-            </p>
-            <p>
+               </head>
+            
+            <opener><dateline>
                <placeName ref="#loc.1">Aix-la-Chapelle</placeName> le <date when="1818-11-14">14
                   Novembre 1818</date>
-            </p>
+            </dateline></opener>
             <p>Monsieur mon Frère, l’œuvre de la pacification générale que l’Europe voit terminer
                aujourd’hui par le moyen des réunions d’<placeName ref="#loc.1">Aix-la-Chapelle</placeName>, est le motif qui porte les <rs ref="#p.16 #p.17 #p.18 #p.19" type="multi-person">Souverains</rs> amis et alliés
                de <choice>

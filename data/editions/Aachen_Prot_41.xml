@@ -238,19 +238,19 @@
       <body>
          <div hand="#G" decls="#m.1">
             <pb n="224r"/>
-            <p>
+            <head>
                     <add hand="#W" place="top">Protocole <choice>
                      <abbr>N<hi rendition="#su">o</hi>
                             </abbr>
                      <expan>Numéro</expan>
                   </choice> 40.</add>
-                </p>
-            <p>
+                </head>
+            <opener><dateline>
                     <placeName ref="#loc.1">Aix-la-Chapelle</placeName> le <date when="1818-11-20">
                         <subst>
                      <del rendition="#s">19</del>
                      <add place="above">20</add>
-                  </subst> Novembre</date>.</p>
+                  </subst> Novembre</date>.</dateline></opener>
             <p>
                     <add place="margin">
                         <hi rendition="u">Affaire de Bade</hi>
@@ -314,9 +314,9 @@
 
          <div hand="#A" decls="#m.2">
             <pb n="220r"/>
-            <p hand="#G">
+            <opener hand="#G"><dateline>
                     <placeName ref="#loc.1">Aix-la-Chapelle</placeName> le <date when="1818-11-20">20 Novembre 1818</date>
-                </p>
+                </dateline></opener>
             <p>En conséquence du <ref target="Aachen_Prot_14.xml">Protocole du <date when="1818-10-17">17 <choice>
                         <abbr>8<hi rendition="#su">bre</hi>
                                 </abbr>
@@ -522,8 +522,8 @@
             <p>
                     <add place="top" rendition="#u">Copie <gap/>C.</add>
                 </p>
-            <p>
-                    <title>Apperçu historique des négociations qui ont eu lieu entre les Cabinets de
+            
+                    <head>Apperçu historique des négociations qui ont eu lieu entre les Cabinets de
                      <placeName ref="#loc.7">Vienne</placeName>, <lb/>de <placeName ref="#loc.8">Londres</placeName>, de <placeName ref="#loc.9">Berlin</placeName> et de <placeName ref="#loc.10">
                             <choice>
                         <abbr>S<hi rendition="#su">t</hi>
@@ -532,8 +532,8 @@
                      </choice> Petersbourg</placeName> pour amener l’accomplissement des
                   actes <lb/>relatifs aux arrangemens territoriaux dans le midi de l’Allemagne, présenté
                   aux <lb/>Conférences d’<placeName ref="#loc.1">Aix-la-Chapelle</placeName> par la
-                  Russie</title>
-                </p>
+                  Russie</head>
+                
             <p>Le Congrès de <placeName ref="#loc.7">Vienne</placeName> devait mettre à exécution le
                   <rs ref="#t.40" type="treaties">traité de <placeName ref="#loc.59">Ried</placeName>
                     </rs>, comme
@@ -699,16 +699,16 @@
                     <add hand="#W" place="top">Annexé au Protocole du <date when="1818-11-20">20 Novembre
                      1818</date>.</add>
                 </p>
-            <p>
-                    <title>
+            
+                    <head>
                         <rs ref="#p.9 #p.10" type="multi-person">Les plénipotentiaires de la <choice>
                         <abbr>G<hi rendition="#su">de</hi>
                                 </abbr>
                         <expan>Grande</expan>
                      </choice>-Bretagne</rs> désirent émettre au nom de leur Cour <lb/>le vote suivant relativement à la question de
                <country>Bade</country>
-                    </title>
-                </p>
+                    </head>
+                
             <p>Les puissances signataires du <rs ref="#t.19" type="treaties">traité de <placeName ref="#loc.25">Francfort</placeName>
                     </rs> ont demandé au <rs ref="#p.22" type="person">
                         <choice>
@@ -927,11 +927,11 @@
 
          <div hand="#W" decls="#m.5">
             <pb n="230r"/>
-            <p>
-                    <rs ref="#t.27" type="treaties">
-                        <title>Articles additionnels et secrets</title>
-                    </rs>
-                </p>
+            
+                    <head><rs ref="#t.27" type="treaties">
+                        Articles additionnels et secrets
+                    </rs></head>
+                
             <p>Article I.</p>
             <p>
                     <rs ref="#p.16" type="person">Sa Majesté Impériale et royale apostolique</rs>, pour Elle-même et au
@@ -975,9 +975,9 @@
                ratifiés, et les ratifications en seront échangées en même temps.</p>
             <p>En foi de quoi les plénipotentiaires respectifs les ont signés et y ont apposé le
                cachet de leurs armes.</p>
-            <p>Fait à <placeName ref="#loc.16">Munic</placeName> le <date when="1816-04-14">
+            <closer><dateline>Fait à <placeName ref="#loc.16">Munic</placeName> le <date when="1816-04-14">
                         <add hand="#A1" place="inspace">Quatorze</add> Avril, l’an de grâce Mil huit cent
-                  seize</date>.</p>
+                  seize</date>.</dateline></closer>
             <signed>
                     <rs xml:id="n.19">Le <persName ref="#p.24">
                             <roleName>Baron</roleName>
