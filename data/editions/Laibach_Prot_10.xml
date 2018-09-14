@@ -193,17 +193,17 @@
       <body>
          <div hand="#A" decls="#m.1">
             <pb n="81r"/>
-            <p>
-               <title rendition="#u">Journal des Conférences<lb/>
+            
+               <head rendition="#u">Journal des Conférences<lb/>
                   <choice>
                      <abbr>Nr.</abbr>
                      <expan>Numéro</expan>
-                  </choice> X.</title>
-            </p>
-            <p rendition="#u">
+                  </choice> X.</head>
+            
+            <opener><dateline rendition="#u">
                <placeName ref="#loc.65">Laybach</placeName> le <date when="1821-01-30">30 Janvier
                   1821</date>
-            </p>
+            </dateline></opener>
             <p>La séance de ce jour avoit pour objet de faire connoître à <choice>
                   <abbr>Mr.</abbr>
                   <expan>Monsieur</expan>
@@ -354,22 +354,22 @@
 
          <div hand="#W" decls="#m.2">
             <pb n="82r"/>
-            <p>
-               <title>Allocution de <choice>
+            
+               <head>Allocution de <choice>
                      <abbr>M.</abbr>
                      <expan>Monsieur</expan>
                   </choice> le <persName ref="#p.8">
                      <roleName>Prince</roleName>
                      <surname>de Metternich</surname>
-                        </persName>, au nom de la Conférence, à <choice>
+                        </persName>, au nom de la Conférence,<lb/> à <choice>
                      <abbr>M</abbr>
                      <expan>Monsieur</expan>
                   </choice> le <persName ref="#p.142">
                      <roleName>Duc</roleName>
                      <surname>de Gallo</surname>
                         </persName> dans la séance du <date when="1821-01-30">30 Janvier 1821</date>
-               </title>
-            </p>
+               </head>
+            
             <p>
                <choice>
                   <abbr>S. M.</abbr>

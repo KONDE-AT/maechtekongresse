@@ -191,15 +191,15 @@
       <body>
          <div hand="#A" decls="#m.1">
             <pb n="26r"/>
-            <p>
-                    <title>Journal des Conférences <lb/>
+            
+                    <head>Journal des Conférences <lb/>
                         <choice>
                      <abbr>N<hi rendition="#su">o</hi>
                             </abbr>
                      <expan>Numéro</expan>
-                  </choice> 7.</title>
-                </p>
-            <p>Conférence du <date when="1821-01-25">25 Janvier</date>.</p>
+                  </choice> 7.</head>
+                
+            <opener><dateline>Conférence du <date when="1821-01-25">25 Janvier</date>.</dateline></opener>
             <p>On a fait lecture dans cette séance des Journaux des six Conférences précédentes, et
                la rédaction a été définitivement approuvée et arrêtée par <choice>
                   <abbr>M.M.</abbr>
@@ -302,12 +302,12 @@
                      <expan>Numéro</expan>
                   </choice> 7.</add>
                 </p>
-            <p hand="#A1">
-                    <title rendition="#u">Note verbale</title>
-                </p>
-            <p>
+            
+                    <head hand="#A1" rendition="#u">Note verbale</head>
+                
+            <opener><dateline>
                     <placeName ref="#loc.65">Laybach</placeName> le <date when="1821-01-25">25 Janvier
-                  1821</date>.</p>
+                  1821</date>.</dateline></opener>
             <p>Les <rs ref="#p.160 #p.102 #p.135" type="multi-person">Plénipotentiaires Français</rs>, toujours
                empressés de contribuer à ce qui peut maintenir la parfaite harmonie qui existe entre
                les Puissances, ont pris sur eux de donner leur assentiment au contenu des journaux

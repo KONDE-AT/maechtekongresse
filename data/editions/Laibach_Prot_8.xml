@@ -263,17 +263,17 @@
       <body>
          <div hand="#G" decls="#m.1">
             <pb n="30r"/>
-            <p>
-               <title rendition="#u">Journal des Conférences<lb/>
+            
+               <head rendition="#u">Journal des Conférences<lb/>
                   <choice>
                      <abbr>Nr</abbr>
                      <expan>Numéro</expan>
-                  </choice> VIII.</title>
-            </p>
-            <p rendition="#u">
+                  </choice> VIII.</head>
+            
+            <opener><dateline rendition="#u">
                <placeName ref="#loc.65">Laybach</placeName> le <date when="1821-01-26">26 Janvier
                   1821</date>
-            </p>
+            </dateline></opener>
 
             <p>Son Eminence <choice>
                   <abbr>Msgr.</abbr>
@@ -598,9 +598,9 @@
 
          <div hand="#A" decls="#m.2">
             <pb n="33r"/>
-            <p>
-               <title>Note verbale</title>
-            </p>
+            
+               <head>Note verbale</head>
+            
             <p>Les Puissances Alliées ont invité <rs ref="#p.155" type="person">Sa Sainteté</rs>,
                par l’organe de <rs ref="#p.156 #p.157 #p.158" type="multi-person">leur Ministres à
                      <placeName ref="#loc.6">Rome</placeName>
@@ -708,11 +708,11 @@
 
          <div hand="#A" decls="#m.4">
             <pb n="36r"/>
-            <p>
-               <title>Note pour le journal de la Conférence du <date when="1821-01-26">26 Janvier
+            
+               <head>Note pour le journal de la Conférence du <date when="1821-01-26">26 Janvier
                      1821</date>
-               </title>
-            </p>
+               </head>
+            
             <p>Le <rs ref="#p.168" type="person">Ministre Plénipotentiaire de <choice>
                      <abbr>S. A. I. et R.</abbr>
                      <expan>Son Altesse Impériale et Royale</expan>
@@ -754,14 +754,14 @@
 
          <div hand="#A" decls="#m.5">
             <pb n="38r"/>
-            <p>
-               <title>Déclaration du <rs ref="#p.165" type="person">Plénipotentiaire de <choice>
+            
+               <head>Déclaration du <rs ref="#p.165" type="person">Plénipotentiaire de <choice>
                         <abbr>S. A. R.</abbr>
                         <expan>Son Altesse Royale</expan>
                      </choice> l’<rs ref="#p.171" type="person">Archiduc Duc de Modène</rs>
                         </rs>, <lb/>à insérer dans le Journal du Congrès de <placeName ref="#loc.65">Laybach</placeName> du <date when="1821-01-26">26 Janvier 1821</date>
-               </title>
-            </p>
+               </head>
+            
             <p>Le <persName ref="#p.165">
                   <roleName>Marquis</roleName>
                   <surname>Molza</surname>

@@ -387,13 +387,13 @@
    </teiHeader>
    <text>
       <body>
-         <div>
+         <div decls="#m.1">
             <pb n="126r"/>
-            <p>
-                    <title>Journal de clôture des Conférences particulières de <placeName ref="#loc.65">Laybach</placeName>.</title>
-                </p>
-            <p hand="#G" rendition="#u">
-                    <placeName ref="#loc.65">Laybach</placeName> le <date when="1821-05-12">12 Mai 1821</date>.</p>
+            
+                    <head>Journal de clôture des Conférences particulières de <placeName ref="#loc.65">Laybach</placeName>.</head>
+                
+            <opener hand="#G"><dateline rendition="#u">
+                    <placeName ref="#loc.65">Laybach</placeName> le <date when="1821-05-12">12 Mai 1821</date>.</dateline></opener>
 
             <p>Les <rs ref="#p.8 #p.2 #p.136 #p.13 #p.14 #p.7" type="multi-person">Plénipotentiaires des Cours
                   d’Autriche, de Prusse et de Russie</rs> voulant, au moment de leur séparation,
@@ -474,9 +474,9 @@
 
          <div hand="#A" decls="#m.2">
             <pb n="122/8r"/>
-            <p>
-                    <title>Déclaration</title>
-                </p>
+            
+                    <head>Déclaration</head>
+                
             <p>L’Europe connaît les motifs de la résolution prise par les <rs ref="#p.16 #p.18 #p.17" type="multi-person">Souverains alliés</rs> d’étouffer les complots et de faire
                cesser les troubles qui menaçaient l’existence de cette paix générale dont le
                rétablissement a coûté tant d’efforts et tant de sacrifices.</p>
@@ -626,14 +626,14 @@
             <p>
                     <add hand="#AmR" place="top">B.</add>
                 </p>
-            <p>
-                    <title>Copie d’une Circulaire aux Missions de Russie</title>
-                </p>
-            <p>
+            
+                    <head>Copie d’une Circulaire aux Missions de Russie</head>
+                
+            <opener><dateline>
                     <placeName ref="#loc.65">Laybach</placeName> ce <add hand="#A1" place="inspace">1/13</add>
                     <date when="1821-05-13">
                         <add hand="#A1" place="inspace">May</add>
-                  1821</date>.</p>
+                  1821</date>.</dateline></opener>
             <p>Il y a précisément un an que nous nous sommes vus forcés de faire connoître les
                principes que L’<rs ref="#p.17" type="person">Empereur</rs> avoit résolu de suivre à l’égard des
                Etats qui, au malheur de subir une révolution criminelle et violente, joindroient
@@ -804,12 +804,12 @@
 
          <div decls="#m.4">
             <pb n="140r"/>
-            <p>
+            <opener><dateline>
                     <placeName ref="#loc.65">Laybach</placeName> le <date when="1821-05-12">12 Mai
-                  1821</date>.</p>
-            <p>
-                    <title>Dépêche circulaire</title>
-                </p>
+                  1821</date>.</dateline></opener>
+            
+                    <head>Dépêche circulaire</head>
+                
 
             <p>La réunion des <rs ref="#p.16 #p.18 #p.17" type="multi-person">Monarques alliés</rs> et de leurs Cabinets
                à <placeName ref="#loc.60">Troppau</placeName>, arrêtée à la suite des <rs xml:id="n.16">événemens qui avaient renversé le Gouvernement légitime à
@@ -1016,10 +1016,10 @@
             <p>
                     <add place="top" hand="#AmR">D.</add>
                 </p>
-            <p>
-                    <title>
-                        <del rendition="#s">Projet de</del> Circulaire aux Ministres de l’<rs ref="#p.17" type="person">Empereur</rs> en Italie</title>
-                </p>
+            
+                    <head>
+                        <del rendition="#s">Projet de</del> Circulaire aux Ministres de l’<rs ref="#p.17" type="person">Empereur</rs> en Italie</head>
+                
             <p>Après les soins que les Puissances alliées ont pris pour la pacification de la
                Péninsule Italienne, leur sollicitude devoit naturellement se porter sur les mesures
                les plus propres à consolider les heureux résultats de leurs communs efforts et à
@@ -1333,12 +1333,12 @@
             <p>
                     <add place="top">E.</add>
                 </p>
-            <p>
-                    <title>Circulaire aux Missions Autrichiennes en Italie</title>
-                </p>
-            <p>
+            
+                    <head>Circulaire aux Missions Autrichiennes en Italie</head>
+                
+            <opener><dateline>
                     <placeName ref="#loc.65">Laybach</placeName>, le <date when="1821-05-14">14 Mai
-                  1821</date>.</p>
+                  1821</date>.</dateline></opener>
             <p>
                     <choice>
                   <abbr>M<hi rendition="#su">r</hi>

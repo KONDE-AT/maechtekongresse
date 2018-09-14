@@ -277,17 +277,17 @@
       <body>
          <div hand="#A" decls="#m.1">
             <pb n="104r"/>
-            <p>
-               <title rendition="#u">Journal des Conférences.<lb/>
+            
+               <head rendition="#u">Journal des Conférences.<lb/>
                   <choice>
                      <abbr>Nr.</abbr>
                      <expan>Numéro</expan>
-                  </choice> XIII.</title>
-            </p>
-            <p rendition="#u">
+                  </choice> XIII.</head>
+            
+            <opener><dateline rendition="#u">
                <placeName ref="#loc.65">Laybach</placeName> le <date when="1821-02-21">21 Février
                   1821</date>
-            </p>
+            </dateline></opener>
 
             <p>Après la lecture du <ref target="Laibach_Prot_12.xml">Journal de la conférence
                   d’hier</ref>, renfermant la communication faite au nom de <choice>
@@ -435,17 +435,17 @@
                <add place="top">B.</add>
             </p>
 
-            <p>
-               <title>Déclaration du <rs ref="#p.168" type="person">Ministre Plénipotentiaire de la
-                     Cour de Toscane</rs>, à insérer dans le Journal <choice>
+            
+               <head>Déclaration du <rs ref="#p.168" type="person">Ministre Plénipotentiaire de la
+                     Cour de Toscane</rs>,<lb/> à insérer dans le Journal <choice>
                      <abbr>N</abbr>
                      <expan>Numéro</expan>
                   </choice>
                   <subst>
                      <del>12</del>
                      <add hand="#AmB" rendition="#ow">13</add>
-                  </subst> de la Conférence</title>
-            </p>
+                  </subst> de la Conférence</head>
+            
             <p>
                <choice>
                   <abbr>S. A. I. et R<hi rendition="#su">le</hi>
@@ -568,16 +568,16 @@
                <add place="top">D.</add>
             </p>
 
-            <p>
-               <title>Déclaration de <choice>
+            
+               <head>Déclaration de <choice>
                      <abbr>Msr.</abbr>
                      <expan>Monseigneur</expan>
                   </choice> le <persName ref="#p.165">
                      <roleName>Marquis</roleName>
                      <surname>de Molza</surname>
                         </persName>
-               </title>
-            </p>
+               </head>
+            
             <p>Le <rs ref="#p.165" type="person">Plénipotentiaire de Son Altesse Royale le <rs ref="#p.171" type="person">Duc de Modène</rs>
                     </rs>, après avoir porté à la connoissance de Son Auguste Maître la communication de
                   <rs ref="#p.138" type="person">

@@ -167,22 +167,22 @@
       <body>
          <div hand="#A" decls="#m.1">
             <pb n="5r"/>            
-            <p>
-               <title>
-                        <p>Journal des Conférences</p>
-                      <p>tenues à <placeName ref="#loc.65">Laybach</placeName>
-                </p>
-            <p>
+            
+               <head>
+                        Journal des Conférences<lb/>
+                      tenues à <placeName ref="#loc.65">Laybach</placeName>
+                
+            <lb/>
 depuis le <date when="1821-01-11">11 Janvier 1821</date>
-            </p>                    </title>
-            </p>
-            <p>
+                                
+            
+            <lb/>
                     <choice>
                   <abbr>N<hi rendition="#su">o</hi>
                         </abbr>
                   <expan>Numéro</expan>
-               </choice> 1.</p>
-            <p>Conférence du <date when="1821-01-11">11 Janiver 1821</date>.</p>
+                    </choice> 1.</head>
+            <opener><dateline>Conférence du <date when="1821-01-11">11 Janiver 1821</date>.</dateline></opener>
             <p xml:space="preserve">Conformément à la teneur du <ref target="Troppau_Prot_8.xml">Journal des Conférences
                   de <placeName ref="#loc.60">Troppau</placeName> 
                   <choice>
@@ -271,15 +271,15 @@ depuis le <date when="1821-01-11">11 Janvier 1821</date>
                      <expan>Numéro</expan>
                   </choice> 1.</add>
                 </p>
-            <p>
-                    <title>Opinion du Ministère Russe sur les formes à suivre dans les délibérations de
+            
+                    <head>Opinion du Ministère Russe sur les formes à suivre dans les délibérations de
                      <placeName ref="#loc.65">Laybach</placeName>
-                    </title>
-                </p>
-            <p>
+                    </head>
+                
+            <opener><dateline>
                     <placeName ref="#loc.65">Laybach</placeName> le <date when="1821-01-11">11 Janvier
                   1821</date>
-                </p>
+                </dateline></opener>
             <p>Les travaux auxquels sont appelés <rs ref="#p.12 #p.160 #p.102 #p.135 #p.161 #p.14 #p.8 #p.13 #p.7 #p.2" type="multi-person">les
                   Plénipotentiaires des Puissances représentées à <placeName ref="#loc.65">Laybach</placeName>
                     </rs> ne semblent pouvoir être que la continuation de ceux

@@ -258,17 +258,17 @@
          <div hand="#A" decls="#m.1">
             <pb n="95r"/>
 
-            <p>
-               <title rendition="#u">Journal des Conférences<lb/>
+            
+               <head rendition="#u">Journal des Conférences<lb/>
                   <choice>
                      <abbr>Nr.</abbr>
                      <expan>Numéro</expan>
-                  </choice> XII.</title>
-            </p>
-            <p rendition="#u">
+                  </choice> XII.</head>
+            
+            <opener><dateline rendition="#u">
                <placeName ref="#loc.65">Laybach</placeName> le <date when="1821-02-20">20 Février
                   1821</date>
-            </p>
+            </dateline></opener>
 
             <p>À la suite du <ref target="Laibach_Prot_11.xml">Journal de la dernière
                   conférence</ref>, lequel a été lu et approuvé dans celle de ce jour, <add hand="#G" place="inline">
@@ -398,16 +398,16 @@
             <p>
                <add place="top">A.</add>
             </p>
-            <p>
-               <title>Déclaration de <choice>
+            
+               <head>Déclaration de <choice>
                      <abbr>Mgr</abbr>
                      <expan>Monseigneur</expan>
                   </choice> le <persName ref="#p.164">
                      <roleName>Cardinal</roleName>
                      <surname>Spina</surname>
-                        </persName>, légat de <rs ref="#p.155" type="person">Sa Sainteté</rs>
-               </title>
-            </p>
+                        </persName>,<lb/> légat de <rs ref="#p.155" type="person">Sa Sainteté</rs>
+               </head>
+            
             <p>Le <persName ref="#p.164">
                   <roleName>Cardinal</roleName>
                   <surname>Spina</surname>
@@ -451,11 +451,11 @@
                <add hand="#W" place="top">Déclaration de Monsieur le <persName ref="#p.168">
                      <roleName>Prince</roleName>
                      <surname>de Corsini</surname>
-                        </persName>, Plénipotentiaire de Toscane</add>
+                        </persName>,<lb/> Plénipotentiaire de Toscane</add>
             </p>
-            <p>
-               <title>Note pour le Journal des Conférences</title>
-            </p>
+            
+               <head>Note pour le Journal des Conférences</head>
+            
             <p>
                <rs ref="#p.168" type="person">Le Ministre Plénipotentiaire de la Cour de
                   Toscane</rs> a déclaré qu’il s’est fait un devoir de porter à la connoissance de <choice>
@@ -504,13 +504,13 @@
             <p>
                <add place="top" hand="#AmB">C.</add>
             </p>
-            <p>
-               <title>Déclaration de Monsieur le <persName ref="#p.165">
+            
+               <head>Déclaration de Monsieur le <persName ref="#p.165">
                      <roleName>Marquis</roleName>
                      <surname>de Molza</surname>
                         </persName>
-               </title>
-            </p>
+               </head>
+            
             <p>Ayant rendu compte à Son Altesse Royale l’Archiduc <rs ref="#p.171" type="person">Duc
                   de Modène</rs> des dispositions de <rs ref="#p.16" type="person" xml:id="n.3">Sa
                   Majesté Impériale et Royale Apostolique</rs>,<note type="editorial" target="#n.3">Ehrentitel des Kaisers von Österreich.</note> contenues dans la pièce intitulée

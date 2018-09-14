@@ -463,19 +463,19 @@
    </teiHeader>
    <text>
       <body>
-         <div>
+         <div decls="#m.1">
             <pb n="45r"/>
-            <p>
-               <title rendition="#u">Journal des Conférences<lb/>
+            
+               <head rendition="#u">Journal des Conférences<lb/>
                   <choice>
                      <abbr>Nr.</abbr>
                      <expan>Numéro</expan>
-                  </choice> IX.</title>
-            </p>
-            <p rendition="#u">
+                  </choice> IX.</head>
+            
+            <opener><dateline rendition="#u">
                <placeName ref="#loc.65">Laybach</placeName> le <date when="1821-01-28">28 Janvier
                   1821</date>
-            </p>
+            </dateline></opener>
 
             <p>Après la lecture du Journal de la conférence du <date when="1821-01-26">26 de ce
                   mois</date>, <choice>
@@ -600,16 +600,16 @@
             <p>
                <add place="top">A</add>
             </p>
-            <p>
-               <title>Instruction pour <rs ref="#p.144 #p.148 #p.149" type="multi-person">les
+            
+               <head>Instruction pour <rs ref="#p.144 #p.148 #p.149" type="multi-person">les
                      Ministres et Chargés d’affaires d’Autriche, de Prusse et de Russie à <placeName ref="#loc.11">Naples</placeName>
                         </rs>
-               </title>
-            </p>
-            <p>
-               <placeName ref="#loc.65">Laibach</placeName>
+               </head>
+            
+            <opener><dateline>
+               <placeName ref="#loc.65">Laibach</placeName><lb/>
                <date when="1821-01-31">31 Janvier 1821</date>
-            </p>
+            </dateline></opener>
             <p>Pour vous mettre en état de bien saisir l’objet de la commission importante que <rs ref="#p.16 #p.18 #p.17" type="multi-person">Sa Majesté</rs> vous confie par les
                présentes et que vous remplirez de concert avec les Ministres &amp; &amp;, nous
                allons vous instruire des explications réciproques qui, depuis l’arrivée du <rs ref="#p.138" type="person">Roi de Naples</rs> à <placeName ref="#loc.65">Laibach</placeName>, ont eu lieu entre ce Monarque et les <rs ref="#p.16 #p.18 #p.17" type="multi-person">Souverains alliés</rs>, ainsi que des
@@ -894,8 +894,8 @@
             <p>
                <add place="top">B</add>
             </p>
-            <p>
-               <title>Dépêche de <choice>
+           
+               <head>Dépêche de <choice>
                      <abbr>MM</abbr>
                      <expan>Messieurs</expan>
                   </choice>
@@ -907,12 +907,12 @@
                   <persName ref="#p.162">
                      <surname>de Fontenay</surname>
                         </persName>, Chargé d’affaires de France à <placeName ref="#loc.11">Naples</placeName>
-               </title>
-            </p>
-            <p>
+               </head>
+            
+            <<opener>dateline>
                <placeName ref="#loc.65">Laybach</placeName> le <date when="1821-01-31">31 Janvier
                   1821</date>
-            </p>
+            </dateline></opener>
             <p>Nous vous envoyons, Monsieur, <rs xml:id="n.7">la copie de la lettre</rs>
                     <note type="editorial" target="#n.7">Schreiben liegt nicht ein; vgl. aber dazu <ref decls="#m.7">Anlage 6</ref>, den vertraulichen Brief des Königs an seinen Sohn
                   sowie <ref target="Laibach_Prot_6.xml">Dokument Nr. 6, Anlage</ref>.</note> que
@@ -966,23 +966,23 @@
             <p>
                <add place="top">C</add>
             </p>
-            <p>
-               <title>Dépêche à <choice>
+            
+               <head>Dépêche à <choice>
                      <abbr>M<hi rendition="#su">r</hi>
                      </abbr>
                      <expan>Monsieur</expan>
                   </choice> le <persName ref="#p.149">
                      <roleName>Comte</roleName>
                      <surname>de Stackelberg</surname>
-                        </persName>, qui sera expédiée avec les instructions communes que doivent recevoir
+                        </persName>,<lb/> qui sera expédiée avec les instructions communes que doivent recevoir
                   les <rs ref="#p.144 #p.148" type="multi-person">Ministres et Agens des Cours
                      Alliées résidans à <placeName ref="#loc.11">Naples</placeName>
                         </rs>
-               </title>
-            </p>
-            <p>
+               </head>
+            
+            <opener><dateline>
                <placeName ref="#loc.65">Laybach</placeName> le <date when="1821-01-31">31 Janvier
-                  1821</date>.</p>
+                  1821</date>.</dateline></opener>
             <p>Monsieur le Comte,</p>
             <p>L’<rs ref="#p.17" type="person">Empereur</rs> a été satisfait d’apprendre que <rs ref="#p.149" type="person">
                   <choice>
@@ -1183,14 +1183,14 @@
                <add hand="#W" place="top">Sous-Annèxe de la Lettre C.</add>
             </p>
 
-            <p>
-               <title>Copie du Rescrit au <persName ref="#p.149">
+            
+               <head>Copie du Rescrit au <persName ref="#p.149">
                      <roleName>Comte</roleName>
                      <surname>de Stackelberg</surname>
                         </persName>
-               </title>
-            </p>
-            <p>Donné à <placeName ref="#loc.60">Troppau</placeName>, le 10/<date when="1810-11-22">22 Novembre</date> 1820.</p>
+               </head>
+            
+            <opener><dateline>Donné à <placeName ref="#loc.60">Troppau</placeName>, le 10/<date when="1810-11-22">22 Novembre</date> 1820.</dateline></opener>
             <p>Monsieur le Conseiller privé actuel, <persName ref="#p.149">
                   <roleName>Comte</roleName>
                   <surname>de Stackelberg</surname>
@@ -1337,15 +1337,15 @@
             <p>
                <add place="top">D</add>
             </p>
-            <p>
-               <title>Dépêche au <persName ref="#p.149">
+            
+               <head>Dépêche au <persName ref="#p.149">
                      <roleName>Comte</roleName>
                      <surname>de Stackelberg</surname>
                         </persName> à <hi rendition="#u">
                      <placeName ref="#loc.11">Naples</placeName>
                   </hi>
-               </title>
-            </p>
+               </head>
+            
             <p>in simili :</p>
             <p>à <choice>
                   <abbr>Mr.</abbr>
@@ -1360,9 +1360,9 @@
                   <surname>de Ramdohr</surname>
                     </persName>
             </p>
-            <p>
+            <opener><dateline>
                <placeName ref="#loc.65">Laybach</placeName>, le <date when="1821-01-31">
-                  <add hand="#W" place="inspace">31 Janvier</add> 1821</date>.</p>
+                  <add hand="#W" place="inspace">31 Janvier</add> 1821</date>.</dateline></opener>
             <p>Aux instructions que nous transmettons à <rs ref="#p.149" type="person">
                   <choice>
                      <abbr>V. Exc.</abbr>
@@ -1503,8 +1503,8 @@
 
          <div hand="#A" decls="#m.7">
             <pb n="72r"/>
-            <p>
-               <title>Carissimo Figlio</title>,</p>
+            
+               <head>Carissimo Figlio</head>,
             <p>Nella lettera ostensibile che oggi vi scrivo, vi prevengo che nel caso anche in cui
                fossero adempiti i voti dei <rs ref="#p.16 #p.18 #p.17" type="multi-person">Monarchi</rs>, miei Alleati, in favore del mantenimento della pace, essi esiggono
                alcune garanzie giudicate necessarie alla tranquillità degli stati vicini. Mi rimane
@@ -1537,8 +1537,8 @@
             <p>
                <add place="top">E</add>
             </p>
-            <p>
-               <title>Dépêche de <choice>
+            
+               <head>Dépêche de <choice>
                      <abbr>M</abbr>
                      <expan>Monsieur</expan>
                   </choice> le <persName ref="#p.8">
@@ -1547,12 +1547,12 @@
                         </persName> au <persName ref="#p.144">
                      <roleName>Sieur</roleName>
                      <surname>Menz</surname>
-                        </persName>, Chargé d’affaires d’Autriche à <placeName ref="#loc.11">Naples</placeName>
-               </title>
-            </p>
-            <p>
+                        </persName>,<lb/> Chargé d’affaires d’Autriche à <placeName ref="#loc.11">Naples</placeName>
+               </head>
+            
+            <opener><dateline>
                <placeName ref="#loc.65">Laibach</placeName> le <date when="1821-01-31">31 Janvier
-                  1821</date>.</p>
+                  1821</date>.</dateline></opener>
             <p>Monsieur</p>
             <p>La dépêche précédente étant non seulement ostensible pour <choice>
                   <abbr>Mgr</abbr>
@@ -1636,8 +1636,8 @@
             <p>
                <add place="top">F</add>
             </p>
-            <p>
-               <title>Dépêche de <choice>
+            
+               <head>Dépêche de <choice>
                      <abbr>M</abbr>
                      <expan>Monsieur</expan>
                   </choice> le <persName ref="#p.8">
@@ -1646,13 +1646,13 @@
                         </persName> au <persName ref="#p.144">
                      <roleName>Sieur</roleName>
                      <surname>Menz</surname>
-                        </persName>, Chargé d’affaires d’Autriche à <placeName ref="#loc.11">Naples</placeName>
-               </title>
-            </p>
-            <p>
+                        </persName>,<lb/> Chargé d’affaires d’Autriche à <placeName ref="#loc.11">Naples</placeName>
+               </head>
+            
+            <opener><dateline>
                <placeName ref="#loc.65">Laibach</placeName> le <date when="1821-01-31">31 Janvier
                   1821</date>
-            </p>
+            </dateline></opener>
             <p>In simili</p>
             <p>
                <choice>
