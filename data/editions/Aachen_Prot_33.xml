@@ -203,10 +203,12 @@
                      <expan>numéro</expan>
                   </choice> 33 du <date when="1818-11-15">15 Novembre</date>.</add>
                 </head>
-            <opener><dateline>
+            <opener>
+                    <dateline>
                     <placeName ref="#loc.1">Aix-la-Chapelle</placeName> le <date when="1818-11-15">15
                   Novembre 1818</date>
-                </dateline></opener>
+                </dateline>
+                </opener>
             <p>
                     <add place="margin">
                         <hi rendition="#u">Protocole des Quatre puissances</hi>
@@ -416,9 +418,11 @@
                été arrêté que par l’intimité des rapports &amp; la pureté des Sentimens qui unissent
                   <rs ref="#p.16 #p.17 #p.18 #p.19" type="multi-person">les quatre Souverains</rs> pour le bonheur du
                monde.</p>
-            <closer><dateline>Fait quadruple à <placeName ref="#loc.1">Aix-la-Chapelle</placeName> le <date when="1818-11-15">
+            <closer>
+                    <dateline>Fait quadruple à <placeName ref="#loc.1">Aix-la-Chapelle</placeName> le <date when="1818-11-15">
                         <rs xml:id="n.6">15</rs> Novembre<note type="editorial" target="#n.6">Tagesdatum weist Korrekturen auf.</note> Mil huit cent
-                  dix-huit</date>.</dateline></closer>
+                  dix-huit</date>.</dateline>
+                </closer>
             <signed>
                <list>
                   <item>
@@ -450,7 +454,8 @@
             <pb n="110r"/>
            <opener> <dateline>
                     <placeName ref="#loc.1">Aix-la-Chapelle</placeName> le <date when="1818-11-15">15
-                  Novembre</date>.</dateline></opener>
+                  Novembre</date>.</dateline>
+                </opener>
             <p>Conformément aux dispositions consignées <ref decls="#m.2">au Protocole de ce jour,
                   réservé à la connoissance des puissances signataires du <rs ref="#t.6" type="treaties">Traité
                      d’alliance du <date when="1815-11-20">

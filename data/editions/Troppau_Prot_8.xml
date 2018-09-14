@@ -254,19 +254,24 @@
          <div hand="#G" decls="#m.1">
             <pb n="191r"/>
             
-                    <head><hi rendition="#u">Journal des Conférences</hi><lb/>
+                    <head>
+                    <hi rendition="#u">Journal des Conférences</hi>
+                    <lb/>
                 
             
                     <hi rendition="#u">
                         <choice>
                      <abbr>Nr.</abbr>
                      <expan>Numéro</expan>
-                  </choice> 8</hi></head>
+                  </choice> 8</hi>
+                </head>
                 
-            <opener><dateline>
+            <opener>
+                    <dateline>
                     <hi rendition="#u">Dimanche <date when="1820-12-24">24 Décembre 1820</date>
                     </hi>
-                </dateline></opener>
+                </dateline>
+                </opener>
             <p>
                     <choice>
                   <abbr>Mrs.</abbr>
@@ -340,10 +345,12 @@
                      </choice> Napolitaine</rs>
                     </head>
                 
-            <opener><dateline>
+            <opener>
+                    <dateline>
                     <placeName ref="#loc.60">Troppau</placeName> le <date when="1820-12-24">24 Décembre
                   1820</date>
-                </dateline></opener>
+                </dateline>
+                </opener>
             <p>Les <rs ref="#p.102 #p.135" type="multi-person">Plénipotentiaires Français</rs> ont transmis à leur
                Gouvernement le protocole préliminaire arrêté dans la conférence du <date when="1820-11-19">19 Novembre</date> et dans lequel sont exposées :</p>
             <p>1<hi rendition="#su">o</hi> Les bases projetées d’un plan général dont le but seroit
@@ -439,7 +446,8 @@
                     <head>Copie d’une lettre de <choice>
                      <abbr>S. M.</abbr>
                      <expan>Sa Majesté</expan>
-                  </choice> le <rs ref="#p.15" type="person">Roi de France</rs><lb/> au <rs ref="#p.138" type="person">Roi de
+                  </choice> le <rs ref="#p.15" type="person">Roi de France</rs>
+                    <lb/> au <rs ref="#p.138" type="person">Roi de
                      Naples</rs>
                     </head>
                 

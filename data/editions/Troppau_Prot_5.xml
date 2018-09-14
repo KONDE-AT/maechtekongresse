@@ -285,8 +285,12 @@
                         <expan>Numéro</expan>
                      </choice> V.</hi>
                     </head>
-                        <opener><dateline><hi rendition="#u">Jeudi <date when="1820-12-07">7 Décembre
-                  1820</date>.</hi></dateline></opener>
+                        <opener>
+                    <dateline>
+                        <hi rendition="#u">Jeudi <date when="1820-12-07">7 Décembre
+                  1820</date>.</hi>
+                    </dateline>
+                </opener>
                     
                 
             <p>
@@ -447,9 +451,11 @@
                         <date when="1820-12-07">7/12</date>
                     </add>
                 </p>
-            <opener><dateline>
+            <opener>
+                    <dateline>
                     <placeName ref="#loc.60">Troppau</placeName> le <date when="1820-12-07">7 Décembre
-                  1820</date>.</dateline></opener>
+                  1820</date>.</dateline>
+                </opener>
             <p>Les Cabinets d’Autriche, de Prusse et de Russie venaient d’exposer leurs premières
                opinions sur la grande question qui les occupe lorsque l’<rs ref="#p.102" type="person">Ambassadeur
                   de France près la Cour de <placeName ref="#loc.7">Vienne</placeName>

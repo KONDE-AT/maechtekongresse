@@ -482,8 +482,14 @@
     </xsl:template><!-- Absätze    -->
     <xsl:template match="tei:p">
         <xsl:element name="p">
+            <xsl:attribute name="class">ed</xsl:attribute>
             <xsl:apply-templates/>
         </xsl:element>
+    </xsl:template>
+    <xsl:template match="tei:item">
+        <li class="ed">
+            <xsl:apply-templates/>
+        </li>
     </xsl:template><!-- Durchstreichungen -->
     <xsl:template match="tei:del">
         <xsl:element name="strike">

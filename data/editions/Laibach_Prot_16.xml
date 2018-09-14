@@ -392,8 +392,10 @@
             
                     <head>Journal de clôture des Conférences particulières de <placeName ref="#loc.65">Laybach</placeName>.</head>
                 
-            <opener hand="#G"><dateline rendition="#u">
-                    <placeName ref="#loc.65">Laybach</placeName> le <date when="1821-05-12">12 Mai 1821</date>.</dateline></opener>
+            <opener hand="#G">
+                    <dateline rendition="#u">
+                    <placeName ref="#loc.65">Laybach</placeName> le <date when="1821-05-12">12 Mai 1821</date>.</dateline>
+                </opener>
 
             <p>Les <rs ref="#p.8 #p.2 #p.136 #p.13 #p.14 #p.7" type="multi-person">Plénipotentiaires des Cours
                   d’Autriche, de Prusse et de Russie</rs> voulant, au moment de leur séparation,
@@ -629,11 +631,13 @@
             
                     <head>Copie d’une Circulaire aux Missions de Russie</head>
                 
-            <opener><dateline>
+            <opener>
+                    <dateline>
                     <placeName ref="#loc.65">Laybach</placeName> ce <add hand="#A1" place="inspace">1/13</add>
                     <date when="1821-05-13">
                         <add hand="#A1" place="inspace">May</add>
-                  1821</date>.</dateline></opener>
+                  1821</date>.</dateline>
+                </opener>
             <p>Il y a précisément un an que nous nous sommes vus forcés de faire connoître les
                principes que L’<rs ref="#p.17" type="person">Empereur</rs> avoit résolu de suivre à l’égard des
                Etats qui, au malheur de subir une révolution criminelle et violente, joindroient
@@ -804,9 +808,11 @@
 
          <div decls="#m.4">
             <pb n="140r"/>
-            <opener><dateline>
+            <opener>
+                    <dateline>
                     <placeName ref="#loc.65">Laybach</placeName> le <date when="1821-05-12">12 Mai
-                  1821</date>.</dateline></opener>
+                  1821</date>.</dateline>
+                </opener>
             
                     <head>Dépêche circulaire</head>
                 
@@ -1336,9 +1342,11 @@
             
                     <head>Circulaire aux Missions Autrichiennes en Italie</head>
                 
-            <opener><dateline>
+            <opener>
+                    <dateline>
                     <placeName ref="#loc.65">Laybach</placeName>, le <date when="1821-05-14">14 Mai
-                  1821</date>.</dateline></opener>
+                  1821</date>.</dateline>
+                </opener>
             <p>
                     <choice>
                   <abbr>M<hi rendition="#su">r</hi>

@@ -156,8 +156,10 @@
                   </choice>
                   <del rendition="#ow">42</del>41.</add>
                 </head>
-            <opener><dateline>
-                    <placeName rendition="#loc.1">Aix-la-Chapelle</placeName> le <date when="1818-11-20">20 Novembre</date>.</dateline></opener>
+            <opener>
+                    <dateline>
+                    <placeName rendition="#loc.1">Aix-la-Chapelle</placeName> le <date when="1818-11-20">20 Novembre</date>.</dateline>
+                </opener>
 
             <p>
                     <add hand="#W" place="margin">
@@ -269,7 +271,7 @@
             
                     <head>
                         <rs xml:id="n.6">Seigneurie de Kniphausen</rs>
-                        <note type="editorial" target="#n.6">Köbler, Historisches Lexikon, S. 339–340.</note>
+                    <note type="editorial" target="#n.6">Köbler, Historisches Lexikon, S. 339–340.</note>
                     </head>
                     
                 

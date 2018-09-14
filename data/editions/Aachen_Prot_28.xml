@@ -242,9 +242,11 @@
                             <expan>Numéro</expan>
                         </choice> 28.</add>
                 </head>
-                <opener><dateline>
+                <opener>
+                    <dateline>
                     <placeName ref="#loc.1">Aix-la-Chapelle</placeName> le <date when="1818-11-10">10
-                        Novembre</date>.</dateline></opener>
+                        Novembre</date>.</dateline>
+                </opener>
                 <p>
                     <add hand="#W" place="margin">Entre les cinq Cabinets</add>
                 </p>
@@ -394,12 +396,14 @@
                         <surname>de Berstett</surname>
                     </persName>
                 </p>
-                <closer><dateline>
+                <closer>
+                    <dateline>
                     <placeName ref="#loc.1">Aix-la-Chapelle</placeName> le <date when="1818-11-09">9 <choice>
                             <abbr>9<hi rendition="#su">bre</hi>
                             </abbr>
                             <expan>Novembre</expan>
-                        </choice> 1818</date>.</dateline></closer>
+                        </choice> 1818</date>.</dateline>
+                </closer>
             </div>
 
             <div decls="#m.3">
@@ -413,10 +417,12 @@
                 
                     <head>Mémoire confidentiel</head>
                 
-                <opener><dateline>
+                <opener>
+                    <dateline>
                     <placeName ref="#loc.1">Aix-la-Chapelle</placeName> le <date when="1818-11-08">8
                         Novembre 1818</date>
-                </dateline></opener>
+                </dateline>
+                </opener>
                 <p>La conférence des Ministres a cru devoir déclarer que <rs xml:id="n.6">
                         <ref decls="#m.4">les offres faits par le <rs ref="#p.26" type="person">Ministre de
                                 Bade</rs> au nom de sa Cour le <date when="1818-10-28">28 Octobre
@@ -438,7 +444,7 @@
                 <p>Le <rs ref="#t.19" type="treaties">traité de <placeName ref="#loc.25">Francfort</placeName> du
                             <date when="1813-11-20">20 Novembre 1813</date>
                     </rs> a été adopté
-                    unanimement comme base de la négociation au <rs xml:id="n.7"> Protocole de
+                    unanimement comme base de la négociation au <rs xml:id="n.7">Protocole de
                             <placeName ref="#loc.25">Francfort</placeName>
                     </rs>
                     <note place="editorial" target="#n.7">Von den alliierten Mächten
@@ -459,7 +465,7 @@
                             <surname>von Anstett</surname>
                         </persName>. Erarbeitet den Frankfurter
                         Territorialrezess vom 20. Juli 1819; vgl. Huber, Deutsche
-                        Verfassungsgeschichte, Bd. 1, S. 579–582.</note>  ; c’est donc par la teneur
+                        Verfassungsgeschichte, Bd. 1, S. 579–582.</note> ; c’est donc par la teneur
                     des articles de ce traité que l’on doit interpréter tous les actes qui
                     pourroient renfermer quelques clauses onéreuses à la charge de
                         <country>Bade</country>. <rs ref="#t.19" type="treaties">Ce traité</rs> est commun à
@@ -659,11 +665,12 @@
                 
                     <head>Mémoire sur la question relative à <rs xml:id="n.10">l’affaire de Bade
                             </rs>
-                        <note type="editorial" target="#n.10">Vgl. Huber, Deutsche
+                    <note type="editorial" target="#n.10">Vgl. Huber, Deutsche
                             Verfassungsgeschichte, Bd. 1, S. 172–186.</note> et vote du Cabinet de
                         Russie</head>
                 
-                <opener><dateline>
+                <opener>
+                    <dateline>
                     <placeName ref="#loc.1">Aix-la-Chapelle</placeName> le <rs xml:id="n.10a">28 <choice>
                             <abbr>8<hi rendition="#su">bre</hi>
                             </abbr>
@@ -673,10 +680,11 @@
                                 </abbr>
                                 <expan>Novembre</expan>
                             </choice> 1818</date>
-                    </rs>
-                    <note type="editorial" target="#n.10a">Datumsberechnung stimmt nicht. Entweder 29.
+                        </rs>
+                        <note type="editorial" target="#n.10a">Datumsberechnung stimmt nicht. Entweder 29.
                         Oktober/8. November 1818, oder 31. Oktober/10. November 1818.</note>
-                </dateline></opener>
+                </dateline>
+                </opener>
                 
                 <p>En accueillant les vœux que <choice>
                         <abbr>S. A. R.</abbr>
@@ -1148,9 +1156,11 @@
                         </choice> le <rs ref="#p.99" type="person">Roi de Bavière</rs>
                     </head>
                 
-                <opener><dateline>
+                <opener>
+                    <dateline>
                     <placeName ref="#loc.1">Aix-la-Chapelle</placeName> le <supplied>...</supplied>
-                    Octobre/ <supplied>...</supplied> Novembre 1818</dateline></opener>
+                    Octobre/ <supplied>...</supplied> Novembre 1818</dateline>
+                </opener>
                 <p>Monsieur mon frère, Les déterminations arrêtées en commun par <rs ref="#p.16 #p.17 #p.18 #p.19" type="multi-person">les Souverains Amis et Alliés</rs> de <rs ref="#p.99" type="person">
                         <choice>
                             <abbr>V. M.</abbr>

@@ -245,12 +245,14 @@
                      <expan>Numéro</expan>
                   </choice> 40.</add>
                 </head>
-            <opener><dateline>
+            <opener>
+                    <dateline>
                     <placeName ref="#loc.1">Aix-la-Chapelle</placeName> le <date when="1818-11-20">
                         <subst>
                      <del rendition="#s">19</del>
                      <add place="above">20</add>
-                  </subst> Novembre</date>.</dateline></opener>
+                  </subst> Novembre</date>.</dateline>
+                </opener>
             <p>
                     <add place="margin">
                         <hi rendition="u">Affaire de Bade</hi>
@@ -314,9 +316,11 @@
 
          <div hand="#A" decls="#m.2">
             <pb n="220r"/>
-            <opener hand="#G"><dateline>
+            <opener hand="#G">
+                    <dateline>
                     <placeName ref="#loc.1">Aix-la-Chapelle</placeName> le <date when="1818-11-20">20 Novembre 1818</date>
-                </dateline></opener>
+                </dateline>
+                </opener>
             <p>En conséquence du <ref target="Aachen_Prot_14.xml">Protocole du <date when="1818-10-17">17 <choice>
                         <abbr>8<hi rendition="#su">bre</hi>
                                 </abbr>
@@ -928,9 +932,11 @@
          <div hand="#W" decls="#m.5">
             <pb n="230r"/>
             
-                    <head><rs ref="#t.27" type="treaties">
+                    <head>
+                    <rs ref="#t.27" type="treaties">
                         Articles additionnels et secrets
-                    </rs></head>
+                    </rs>
+                </head>
                 
             <p>Article I.</p>
             <p>
@@ -975,9 +981,11 @@
                ratifiés, et les ratifications en seront échangées en même temps.</p>
             <p>En foi de quoi les plénipotentiaires respectifs les ont signés et y ont apposé le
                cachet de leurs armes.</p>
-            <closer><dateline>Fait à <placeName ref="#loc.16">Munic</placeName> le <date when="1816-04-14">
+            <closer>
+                    <dateline>Fait à <placeName ref="#loc.16">Munic</placeName> le <date when="1816-04-14">
                         <add hand="#A1" place="inspace">Quatorze</add> Avril, l’an de grâce Mil huit cent
-                  seize</date>.</dateline></closer>
+                  seize</date>.</dateline>
+                </closer>
             <signed>
                     <rs xml:id="n.19">Le <persName ref="#p.24">
                             <roleName>Baron</roleName>

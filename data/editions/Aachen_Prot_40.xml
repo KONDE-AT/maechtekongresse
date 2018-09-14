@@ -141,13 +141,15 @@
                   </choice>
                   <del rendition="#s">40</del>39.</add>
                 </head>
-            <opener><dateline>
+            <opener>
+                    <dateline>
                     <placeName ref="#loc.1">Aix-la-Chapelle</placeName> le <date when="1818-11-20">
                         <subst>
                      <del rendition="#s">19</del>
                      <add place="above">20</add>
                   </subst> Novembre</date>
-                </dateline></opener>
+                </dateline>
+                </opener>
             <p>
                     <add place="margin">
                         <hi rendition="#u">Barbaresques</hi>

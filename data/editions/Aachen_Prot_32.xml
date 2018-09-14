@@ -508,9 +508,11 @@
                      <expan>numéro</expan>
                   </choice> 32. avec huit Annèxes.</add>
                 </head>
-            <opener><dateline>
+            <opener>
+                    <dateline>
                     <placeName ref="#loc.1">Aix-la-Chapelle</placeName> le <date when="1818-11-14">14
-                  Novembre</date>.</dateline></opener>
+                  Novembre</date>.</dateline>
+                </opener>
             <p>
                     <add hand="#W" place="margin">Entre les Cinq Puissances</add>
                 </p>
@@ -794,9 +796,11 @@
                      <expan>numéro</expan>
                   </choice> 32 du <date when="1818-11-14">14 Novembre</date>.</add>
                 </p>
-            <opener><dateline>
+            <opener>
+                    <dateline>
                     <placeName ref="#loc.1">Aix-la-Chapelle</placeName> le <date when="1818-11-07">7
-                  Novembre 1818</date>.</dateline></opener>
+                  Novembre 1818</date>.</dateline>
+                </opener>
             
                     <head>
                         <hi rendition="#u">Affaire des Médiatisés</hi>
@@ -1077,17 +1081,17 @@
                             <placeName ref="#loc.16">Munich</placeName>,</rs>
                   <rs ref="#p.84 #p.85 #p.86 #p.87 #p.88" type="multi-person">
                             <placeName ref="#loc.17">Stuttgard</placeName>
-                        </rs>, <rs ref="p.119 #p.120 #p.121" xml:id="n.21">
+                    </rs>, <rs ref="p.119 #p.120 #p.121" xml:id="n.21">
                             <placeName ref="#loc.19">Carlsruhe</placeName>
-                        </rs>, <note type="editorial" target="#n.21">Der Posten des österreichischen Gesandten in Karlsruhe war
+                    </rs>, <note type="editorial" target="#n.21">Der Posten des österreichischen Gesandten in Karlsruhe war
                      zwischen 16. März und 21. Dezember 1818 vakant; anschließend übernahm Anton
                      Karl Fürst Pálffy von Eröd (*1793) den Posten; vgl. Bringmann, Handbuch, S.
                      294. Großbritannien nahm erst 1841 diplomatische Beziehungen zum Großherzogtum
                      Baden auf; vgl. Bringmann, Handbuch, S. 198.</note>
                   <rs ref="#p.83 #p.39" type="multi-person" xml:id="n.22">
                             <placeName ref="#loc.34">Darmstadt</placeName>
-                        </rs>
-                        <note type="editorial" target="#n.22">Österreich
+                    </rs>
+                    <note type="editorial" target="#n.22">Österreich
                      nahm erst 1853 diplomatische Beziehungen zum Hof von Darmstadt auf; vgl.
                      Bringmann, Handbuch, S. 290. Frankreich: comte de Salignac-Fénélon; vgl.
                      Bringmann, Handbuch, S. 183. Großbritannien nahm erst 1852 diplomatische
@@ -1096,8 +1100,8 @@
                      Bundestag vertreten, hier Iwan/Johann Ossipowitsch Freiherr von Anstett</note>
                   &amp; <rs ref="#p.24 #p.122 #p.39" type="multi-person" xml:id="n.23">
                             <placeName ref="#loc.45">Cassel</placeName>
-                        </rs>
-                        <note type="editorial" target="#n.23">Frankreich
+                    </rs>
+                    <note type="editorial" target="#n.23">Frankreich
                      nahm erst 1822 diplomatische Beziehungen zum Hof von Kassel auf; vgl.
                      Bringmann, Handbuch, S. 187. Großbritannien hatte zwischen 1806 und 1826 keine
                      diplomatischen Beziehungen; vgl. Bringmann, Handbuch, S. 198. Russland: Betreut
@@ -1105,12 +1109,14 @@
                      Anstett (1766/1770–1835).</note>
                     </head>
                 
-            <opener><dateline>
+            <opener>
+                    <dateline>
                     <placeName ref="#loc.1">Aix-la-Chapelle</placeName> le <date when="1818-11-21">21 <choice>
                      <abbr>9<hi rendition="#su">bre</hi>
                             </abbr>
                      <expan>Novembre</expan>
-                  </choice> 1818</date>.</dateline></opener>
+                  </choice> 1818</date>.</dateline>
+                </opener>
             <p>
                     <choice>
                   <abbr>M<hi rendition="#su">r</hi>
@@ -1236,9 +1242,11 @@
             
                     <head>Insertion de Protocole</head>
                 
-           <opener><dateline>
+           <opener>
+                    <dateline>
                     <date when="1818-11-14">14 Novembre 1818</date>
-                </dateline></opener>
+                </dateline>
+                </opener>
             <p>
                     <choice>
                   <abbr>Mess<hi rendition="#su">rs</hi>
@@ -1392,11 +1400,11 @@
                   </choice> le <persName ref="#p.11">
                             <roleName>Prince</roleName>
                      <surname>de Hardenberg</surname>
-                        </persName> et <hi rendition="#u">in
+                    </persName> et <hi rendition="#u">in
                      simili</hi> du <persName ref="#p.8">
                             <roleName>Prince</roleName>
                      <surname>de Metternich</surname>
-                        </persName> à <choice>
+                    </persName> à <choice>
                      <abbr>S. A.</abbr>
                      <expan>Son Altesse</expan>
                   </choice>
@@ -1408,13 +1416,15 @@
                         </unclear> la <persName ref="#p.96">
                             <roleName>Princesse</roleName>
                      <surname>de La Tour-Taxis</surname>
-                        </persName>
+                    </persName>
                     </head>
                 
-            <opener><dateline>
+            <opener>
+                    <dateline>
                     <placeName ref="#loc.1">Aix-la-Capelle</placeName> le <date when="1818-11-13">13
                   Novembre 1818</date>
-                </dateline></opener>
+                </dateline>
+                </opener>
             <p>Madame</p>
             <p>J’ai rendu compte au <rs ref="#p.18" type="person">Roi</rs>/à l’<rs ref="#p.16" type="person">Empereur</rs>
                <ref target="Aachen_Prot_26.xml">des vœux de la Maison de la Tour-Taxis</ref>.</p>
@@ -1595,8 +1605,8 @@
             
                     <head>Projet d’instruction aux <rs ref="#p.24 #p.122 #p.39" type="multi-person" xml:id="n.33">Ministres
                      des Souverains alliés à la Cour de <placeName ref="#loc.45">Cassel</placeName>
-                        </rs>
-                        <note type="editorial" target="#n.33"> Frankreich nahm
+                    </rs>
+                    <note type="editorial" target="#n.33"> Frankreich nahm
                      erst 1822 diplomatische Beziehungen zum Hof von Kassel auf; vgl. Bringmann,
                      Handbuch, S. 187. Großbritannien hatte zwischen 1806 und 1826 keine
                      diplomatischen Beziehungen mit dem Kurfürstentum Hessen; vgl. Bringmann,
@@ -1623,13 +1633,15 @@
                   <surname>de Wacquant</surname>
                     </persName> etc. <placeName ref="#loc.45">Cassel</placeName>
                 </p>
-            <opener><dateline>
+            <opener>
+                    <dateline>
                     <placeName ref="#loc.1">Aix-la-Chapelle</placeName> le <date when="1818-11-20">20 <choice>
                      <abbr>9<hi rendition="#su">bre</hi>
                             </abbr>
                      <expan>Novembre</expan>
                   </choice> 1818</date>
-                </dateline></opener>
+                </dateline>
+                </opener>
             <p>
                     <add hand="#A1" place="margin">
                         <unclear>

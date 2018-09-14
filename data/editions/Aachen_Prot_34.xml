@@ -356,9 +356,11 @@
                      <expan>numéro</expan>
                   </choice> 34.</add>
                 </head>
-            <opener><dateline>
+            <opener>
+                    <dateline>
                     <placeName ref="#loc.1">Aix-la-Chapelle</placeName> le <date when="1818-11-15">15
-                  Novembre 1818</date>.</dateline></opener>
+                  Novembre 1818</date>.</dateline>
+                </opener>
             <p>
                     <add hand="#W" place="margin">Entre les cinq Cours</add>
                 </p>
@@ -489,7 +491,7 @@
                   </choice> le <persName ref="#p.1">
                             <roleName>Duc</roleName>
                      <surname>de Richelieu</surname>
-                        </persName> par les <rs ref="#p.8 #p.9 #p.10 #p.11 #p.12 #p.13 #p.14" type="multi-person">
+                    </persName> par les <rs ref="#p.8 #p.9 #p.10 #p.11 #p.12 #p.13 #p.14" type="multi-person">
                             <choice>
                         <abbr>Plénipot<hi rendition="#su">es</hi>
                                 </abbr>
@@ -498,8 +500,10 @@
                      Russie</rs>
                     </head>
                 
-            <opener hand="#G"><dateline>Le <date when="1818-11-04">4 Novembre 1818</date>
-                </dateline></opener>
+            <opener hand="#G">
+                    <dateline>Le <date when="1818-11-04">4 Novembre 1818</date>
+                </dateline>
+                </opener>
             <p>
                     <rs ref="#p.8 #p.9 #p.10 #p.11 #p.12 #p.13 #p.14" type="multi-person">Les Soussignés, Ministres des
                   Cabinets d’Autriche, de la Grande-Bretagne, de Prusse et de Russie,</rs> ont reçu
@@ -654,11 +658,13 @@
 
          <div hand="#A" decls="#m.3">
             <pb n="43r"/>
-            <opener><dateline>
+            <opener>
+                    <dateline>
                     <add hand="#AmB" place="top">
                         <date when="1818-11-12">12/11</date>
                     </add>
-                </dateline></opener>
+                </dateline>
+                </opener>
             <p>
                     <add place="bottom">
                         <choice>
@@ -789,8 +795,10 @@
                faisant partie.</p>
             <p>Fait quintuple et réciproquement échangé en original entre les cabinets
                signataires.</p>
-            <closer><dateline>À <placeName ref="#loc.1">Aix-la-Chapelle</placeName> le <date when="1818-11-15">15
-                  novembre 1818</date>.</dateline></closer>
+            <closer>
+                    <dateline>À <placeName ref="#loc.1">Aix-la-Chapelle</placeName> le <date when="1818-11-15">15
+                  novembre 1818</date>.</dateline>
+                </closer>
             <signed>
                     <hi rendition="#i #r">(Signé)</hi>
                 <lb/>
@@ -892,9 +900,11 @@
                consacrer désormais tous leurs efforts à protéger les arts de la paix, à accroître la
                prospérité intérieure de leurs états, et à réveiller ces sentiments de religion et de
                morale dont le malheur des tems n’a que trop affaibli l’empire.</p>
-            <closer><dateline>
+            <closer>
+                    <dateline>
                     <placeName ref="#loc.1">Aix-la-Chapelle</placeName>, le <date when="1818-11-15">15
-                  novembre 1818</date>.</dateline></closer>
+                  novembre 1818</date>.</dateline>
+                </closer>
             <signed>
                     <hi rendition="#i #r">(Signé)</hi>
                 <lb/>

@@ -284,10 +284,12 @@
                      <expan>Numéro</expan>
                   </choice> XIII.</head>
             
-            <opener><dateline rendition="#u">
+            <opener>
+                    <dateline rendition="#u">
                <placeName ref="#loc.65">Laybach</placeName> le <date when="1821-02-21">21 Février
                   1821</date>
-            </dateline></opener>
+            </dateline>
+                </opener>
 
             <p>Après la lecture du <ref target="Laibach_Prot_12.xml">Journal de la conférence
                   d’hier</ref>, renfermant la communication faite au nom de <choice>
@@ -575,7 +577,7 @@
                   </choice> le <persName ref="#p.165">
                      <roleName>Marquis</roleName>
                      <surname>de Molza</surname>
-                        </persName>
+                    </persName>
                </head>
             
             <p>Le <rs ref="#p.165" type="person">Plénipotentiaire de Son Altesse Royale le <rs ref="#p.171" type="person">Duc de Modène</rs>

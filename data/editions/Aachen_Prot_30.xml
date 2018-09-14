@@ -296,10 +296,12 @@
                   </choice> 30.</add>
                 </head>
            
-            <opener><dateline>
+            <opener>
+                    <dateline>
                     <placeName ref="#loc.1">Aix-la-Chapelle</placeName> Le <date when="1818-11-11">11
                   Novembre</date>
-                </dateline></opener>
+                </dateline>
+                </opener>
             <p>
                <add hand="#W" place="margin">Entre les cinq Puissances</add>
             </p>
@@ -912,10 +914,12 @@
                   <surname>de Palmella</surname>
                     </persName>
                 </signed>
-            <closer><dateline>
+            <closer>
+                    <dateline>
                     <placeName ref="#loc.2">Paris</placeName> le <date when="1818-11-07">7
                   Novembre 1818</date>
-                </dateline></closer>
+                </dateline>
+                </closer>
          </div>
       </body>
       <back>

@@ -414,18 +414,23 @@
         </a>
     </xsl:template>
     
-    <xsl:template match="tei:handDesc">
-        <xsl:for-each select="./tei:handNote">
-            <div>
-                <xsl:apply-templates/>
-            </div>
-        </xsl:for-each>
-    </xsl:template>
     
     <xsl:template match="tei:title">
         <strong>
             <xsl:apply-templates/>
         </strong>
+    </xsl:template>
+    
+    <xsl:template match="tei:list">
+        <ul>
+            <xsl:apply-templates/>
+        </ul>
+    </xsl:template>
+    
+    <xsl:template match="tei:item">
+        <li>
+            <xsl:apply-templates/>
+        </li>
     </xsl:template>
     
     <xsl:template match="tei:scriptDesc">

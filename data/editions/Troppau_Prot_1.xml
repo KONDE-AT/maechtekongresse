@@ -261,8 +261,10 @@
                      <expan>Numéro</expan>
                   </choice> 1 </head>
                 
-            <opener><dateline>Lundi <date when="1820-10-23">23 Octobre 1820</date>
-                </dateline></opener>
+            <opener>
+                    <dateline>Lundi <date when="1820-10-23">23 Octobre 1820</date>
+                </dateline>
+                </opener>
             <p>Aujourd’hui se sont réunis en conférence chez <choice>
                   <abbr>Mr.</abbr>
                   <expan>Monsieur</expan>
@@ -492,9 +494,11 @@
             
                     <head>Mémoire du Cabinet Autrichien</head>
                 
-            <opener><dateline>
+            <opener>
+                    <dateline>
                     <placeName ref="#loc.60">Troppau</placeName> le <date when="1820-10-23">23 Octobre
-                  1820</date>.</dateline></opener>
+                  1820</date>.</dateline>
+                </opener>
             <p>Le jugement que les Cabinets alliés ont porté sur <rs xml:id="n.3">la révolution de
                      <country>Naples</country>
                     </rs>,<note type="editorial" target="#n.3">Am <date when="1820-07-02">2. Juli 1820</date> meuterte die Militärgarnison in
@@ -916,7 +920,7 @@
                         <rs ref="#t.43" type="treaties">Traité d’alliance entre l’<country>Autriche</country> &amp;
                         <country>Naples</country> en date du <date when="1815-06-12">12 juin
                         1815</date>
-                        </rs>
+                    </rs>
                     </head>
                 
             <p>Articles secrets joints au dit Traité</p>

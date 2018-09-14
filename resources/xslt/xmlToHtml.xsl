@@ -80,16 +80,40 @@
                     <table class="table table-striped">
                         <tbody>
                             <xsl:if test="//tei:abstract">
-                                <tr>
-                                    <th>
-                                        <abbr title="//tei:abstract">Regest</abbr>
-                                    </th>
-                                    <td>
-                                        <em>
-                                            <xsl:apply-templates select="//tei:abstract"/>
-                                        </em>
-                                    </td>
-                                </tr>
+                                <xsl:choose>
+                                    <xsl:when test="count(//tei:abstract) &gt; 1">
+                                        <xsl:for-each select="//tei:abstract">
+                                            <xsl:variable name="x">
+                                                <xsl:number level="any" count="tei:abstract"/>
+                                            </xsl:variable>
+                                            <tr>
+                                                <th>
+                                                    <abbr title="//tei:abstract">Regest
+                                                        <xsl:text> Nr. </xsl:text>
+                                                            <xsl:value-of select="$x"/>
+                                                    </abbr>
+                                                </th>
+                                                <td>
+                                                    <em>
+                                                        <xsl:apply-templates select="//tei:abstract[position()=$x]"/>
+                                                    </em>
+                                                </td>
+                                            </tr>
+                                        </xsl:for-each>
+                                    </xsl:when>
+                                    <xsl:otherwise>
+                                        <tr>
+                                            <th>
+                                                <abbr title="//tei:abstract">Regest</abbr>
+                                            </th>
+                                            <td>
+                                                <em>
+                                                    <xsl:apply-templates select="//tei:abstract"/>
+                                                </em>
+                                            </td>
+                                        </tr>
+                                    </xsl:otherwise>
+                                </xsl:choose>
                             </xsl:if>
                             <xsl:if test="//tei:particDesc/tei:listPerson/tei:person">
                                 <tr>
@@ -143,36 +167,21 @@
                                 
                                 <table class="table table-striped">
                                     <tbody>
-                                        <tr style="background-color:#ccc;">
-                                            <xsl:choose>
-                                                <xsl:when test="//tei:text/tei:body/tei:div[@decls]/*/tei:title">
-                                            <th>
-                                                <abbr title="//tei:text/tei:body/tei:div[@decls]/*/tei:title">Bezeichnung</abbr>
-                                            </th>
-                                            <td style="font-weight:bold;">
-                                                <a>
-                                                    <xsl:attribute name="href">
-                                                        <xsl:value-of select="$divlink"/>
-                                                    </xsl:attribute>
-                                                    <xsl:value-of select="//tei:text/tei:body/tei:div[@decls = concat('#',$msDivId)]/*/string-join(tei:title//text()[not(ancestor-or-self::tei:note)], '')"/>
-                                                </a>
-                                            </td>
-                                                </xsl:when>
-                                                <xsl:otherwise>
-                                                    <th>
-                                                        <abbr title="//msDesc/msContents/msItem">Bezeichnung</abbr>
-                                                    </th>
-                                                    <td style="font-weight:bold;">
-                                                        <a>
-                                                            <xsl:attribute name="href">
-                                                                <xsl:value-of select="$divlink"/>
-                                                            </xsl:attribute>
-                                                            <xsl:value-of select="root()//msDesc[@xml:id = concat('#',$msDivId)]/msContents/msItem/*/string-join(tei:title//text()[not(ancestor-or-self::tei:note)], '')"/>
-                                                        </a>
-                                                    </td>
-                                                </xsl:otherwise>
-                                            </xsl:choose>
-                                        </tr>
+                                                <xsl:if test=".//tei:msContents">
+                                                    <tr style="background-color:#ccc;font-weight:bold;">
+                                                        <th>
+                                                            <abbr title="//tei:msContents">Bezeichnung</abbr>
+                                                        </th>
+                                                        <td>
+                                                            <a>
+                                                                <xsl:attribute name="href">
+                                                                    <xsl:value-of select="$divlink"/>
+                                                                </xsl:attribute>
+                                                                <xsl:apply-templates select=".//tei:msContents"/>
+                                                            </a>
+                                                        </td>
+                                                    </tr>
+                                                </xsl:if>
                                         <xsl:if test="./@type">
                                             <tr>
                                                 <th>
@@ -205,10 +214,10 @@
                                                     <abbr title="//tei:msIdentifier">Signatur</abbr>
                                                 </th>
                                                 <td>
-                                                    <xsl:for-each select=".//tei:msIdentifier/child::*"><!-- XXX todo -->
+                                                    <xsl:for-each select=".//tei:msIdentifier/descendant::*"><!-- XXX todo -->
                                                         <xsl:choose>
-                                                            <xsl:when test="tei:idno/tei:idno">
-                                                                <xsl:for-each select=".">AAA
+                                                            <xsl:when test=".[parent::tei:idno]">
+                                                                <xsl:for-each select=".">
                                                                     <xsl:apply-templates/>
                                                                     <xsl:text>, </xsl:text>
                                                                 </xsl:for-each>
@@ -227,21 +236,10 @@
                                                 </td>
                                             </tr>
                                         </xsl:if>
-                                        <xsl:if test=".//tei:msContents">
-                                            <tr>
-                                                <th>
-                                                    <abbr title="//tei:msContents">Stückbeschreibung</abbr>
-                                                </th>
-                                                <td>
-                                                    <xsl:apply-templates select=".//tei:msContents"/>
-                                                </td>
-                                            </tr>
-                                        </xsl:if>
                                         <xsl:if test=".//tei:physDesc">
                                             <tr>
                                                 <th>
-                                                    <abbr title="//tei:physDesc">Materialbeschreibung <br/>
-                                                        Hände
+                                                    <abbr title="//tei:physDesc">Stückbeschreibung 
                                                     </abbr>
                                                 </th>
                                                 <td>
@@ -289,7 +287,7 @@
                 </h3>
             </div>
             <div class="panel panel-body">
-                <xsl:if test="//tei:div//tei:title">
+                <xsl:if test="count(//tei:div) &gt; 1">
                     <h3 id="clickme">
                         <abbr title="Für Abschnitte klicken">[Abschnitte]</abbr>
                     </h3>
@@ -447,7 +445,9 @@
     ###  Formatierung ###
     #####################
 -->
-    
+    <xsl:template match="tei:msItem">
+        <xsl:value-of select="."/>
+    </xsl:template>
     <xsl:template match="tei:term">
         <span/>
     </xsl:template>
@@ -490,7 +490,7 @@
     </xsl:template>
     <!-- Div Titles (Beilagen/andere Dokumente) -->
     <xsl:template match="tei:p/tei:title">
-        <xsl:element name="hr"/>
+<!--        <xsl:element name="hr"/>-->
         <xsl:element name="a">
             <xsl:attribute name="name">
                 <xsl:text>hd</xsl:text>
@@ -628,11 +628,13 @@
             </li>
         </xsl:for-each>
     </xsl:template>
-    <xsl:template match="tei:physDesc/tei:handDesc/tei:handNote">
-        <xsl:for-each select=".">
-            <li>
+    <xsl:template match="tei:handDesc">
+        <xsl:text>Hände in diesem Dokument: </xsl:text>
+        <xsl:for-each select="./tei:handNote">
+            <span>
                 <xsl:apply-templates/>
-            </li>
+            </span>
+            <xsl:if test="position() != last()">, </xsl:if>
         </xsl:for-each>
     </xsl:template>
     <!-- reference strings   --> <!-- generic, referring to persons, places, witnesses etc. -->
