@@ -253,20 +253,20 @@
       <body>
          <div hand="#G" decls="#m.1">
             <pb n="191r"/>
-            <p>
-                    <hi rendition="#u">Journal des Conférences</hi>
-                </p>
-            <p>
+            
+                    <head><hi rendition="#u">Journal des Conférences</hi><lb/>
+                
+            
                     <hi rendition="#u">
                         <choice>
                      <abbr>Nr.</abbr>
                      <expan>Numéro</expan>
-                  </choice> 8</hi>
-                </p>
-            <p>
+                  </choice> 8</hi></head>
+                
+            <opener><dateline>
                     <hi rendition="#u">Dimanche <date when="1820-12-24">24 Décembre 1820</date>
                     </hi>
-                </p>
+                </dateline></opener>
             <p>
                     <choice>
                   <abbr>Mrs.</abbr>
@@ -330,20 +330,20 @@
                     <add place="top">
                         <date when="1820-12-24">24/12</date>.</add>
                 </p>
-            <p>
-                    <title>Communication des Plénipotentiaires Français relativement au <ref target="Troppau_Prot_4.xml">protocole préliminaire</ref>
+            
+                    <head>Communication des Plénipotentiaires Français relativement au <ref target="Troppau_Prot_4.xml">protocole préliminaire</ref>
                      <lb/>du <date when="1820-11-19">19 Novembre</date> et à la démarche faite auprès de
                      <rs ref="#p.138" type="person">
                             <choice>
                         <abbr>S. M.</abbr>
                         <expan>Sa Majesté</expan>
                      </choice> Napolitaine</rs>
-                    </title>
-                </p>
-            <p>
+                    </head>
+                
+            <opener><dateline>
                     <placeName ref="#loc.60">Troppau</placeName> le <date when="1820-12-24">24 Décembre
                   1820</date>
-                </p>
+                </dateline></opener>
             <p>Les <rs ref="#p.102 #p.135" type="multi-person">Plénipotentiaires Français</rs> ont transmis à leur
                Gouvernement le protocole préliminaire arrêté dans la conférence du <date when="1820-11-19">19 Novembre</date> et dans lequel sont exposées :</p>
             <p>1<hi rendition="#su">o</hi> Les bases projetées d’un plan général dont le but seroit
@@ -435,14 +435,14 @@
 
          <div hand="#A" decls="#m.3">
             <pb n="320r"/>
-            <p>
-                    <title>Copie d’une lettre de <choice>
+            
+                    <head>Copie d’une lettre de <choice>
                      <abbr>S. M.</abbr>
                      <expan>Sa Majesté</expan>
-                  </choice> le <rs ref="#p.15" type="person">Roi de France</rs> au <rs ref="#p.138" type="person">Roi de
+                  </choice> le <rs ref="#p.15" type="person">Roi de France</rs><lb/> au <rs ref="#p.138" type="person">Roi de
                      Naples</rs>
-                    </title>
-                </p>
+                    </head>
+                
             <p>Monsieur mon Frère</p>
             <p>Dans les graves circonstances où les événemens des cinq derniers mois ont placé les
                Etats que la providence a confiés aux soins de <rs ref="#p.138" type="person">

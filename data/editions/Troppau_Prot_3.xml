@@ -409,21 +409,21 @@
       <body>
          <div hand="#G" decls="#m.1">
             <pb n="26r"/>
-            <p>
-                    <title>
+            
+                    <head>
                         <hi rendition="#u">Journal des Conférences</hi>
                      <lb/>
                         <hi rendition="#u">
                             <choice>
                         <abbr>Nr.</abbr>
                         <expan>Numéro</expan>
-                     </choice> 3.</hi>
-                     <lb/>
-                        <hi rendition="#u">Mardi <date when="1820-11-07">7 Novembre
-                  1820</date>
-                        </hi>
-                    </title>
-                </p>
+                            </choice> 3.</hi></head>
+                     
+                        <opener><dateline><hi rendition="#u">Mardi <date when="1820-11-07">7 Novembre
+                  1820</date></hi>
+                        </dateline></opener>
+                    
+                
             <p>Après la lecture du <ref target="Troppau_Prot_2.xml">Journal de la dernière
                   conférence</ref>, <choice>
                   <abbr>Mrs.</abbr>
@@ -606,8 +606,8 @@
                         <date when="1820-11-07">7/11</date>
                     </add>
                 </p>
-            <p>
-                    <title>Note de la Cour de Russie <del rendition="#s">à insérer au Journal des
+            
+                    <head>Note de la Cour de Russie <del rendition="#s">à insérer au Journal des
                      Conférences</del>
                         <addSpan spanTo="#a.1" hand="#G"/>
                         <hi rendition="#u">relativement à la proposition faite par</hi>
@@ -627,12 +627,12 @@
                             </ref>
                         </hi>
                         <anchor xml:id="a.1"/>
-                    </title>
-                </p>
-            <p>
+                    </head>
+                
+            <opener><dateline>
                     <placeName ref="#loc.60">Troppau</placeName>, le <add hand="#A1" place="inspace">26</add> Octobre/<date when="1820-11-07">
                         <add hand="#A1" place="inspace">7</add>
-                  Novembre 1820</date>.</p>
+                  Novembre 1820</date>.</dateline></opener>
             <p>Le Ministère Russe a rendu compte à l’<rs ref="#p.17" type="person">Empereur</rs> de la proposition
                articulée par <choice>
                   <abbr>Mr.</abbr>
@@ -694,8 +694,8 @@
                     </add>
                     <add hand="#AmT" place="top">B</add>
                 </p>
-            <p>
-                    <title>Réponse du Cabinet de Russie <del rendition="#s">aux Communications faites par
+            
+                    <head>Réponse du Cabinet de Russie <del rendition="#s">aux Communications faites par
                      les Cabinets d’Autriche et de Prusse dans les conférences du 11/<date when="1820-10-23">23</date> et du 17/<date when="1820-10-29">29
                         Octobre</date>.</del>
                         <addSpan spanTo="#a.2" hand="#G"/>au Mémoire
@@ -704,12 +704,12 @@
                         </ref>, <lb/>et aux communications faites par le Cabinet de Prusse <lb/>dans la <ref target="Troppau_Prot_2.xml">conférence du 17/<date when="1820-10-29">29 Octobre</date>
                         </ref>
                         <anchor xml:id="a.2"/>
-                    </title>
-                </p>
-            <p>
+                    </head>
+                
+            <opener><dateline>
                     <placeName ref="#loc.60">Troppau</placeName>, <add hand="#A1" place="inspace">21</add> Octobre/<date when="1820-11-02">
                         <add hand="#A1" place="inspace">2</add>
-                  Novembre 1820</date>.</p>
+                  Novembre 1820</date>.</dateline></opener>
             <p>L’opinion que le Cabinet de Russie soumet aujourd’hui aux Cabinets alliés sera le
                développement de la déclaration qu’il a donnée au nom et par ordre de l’<rs ref="#p.17" type="person">Empereur</rs> dans la conférence du 17/<date when="1820-10-29">29
                   Octobre</date>.</p>
@@ -1190,14 +1190,14 @@
                     </add>
                     <add hand="#AmT" place="top">C</add>
                 </p>
-            <p>
-                    <title>Observations <add hand="#G" place="inline">du Cabinet de <placeName ref="#loc.7">Vienne</placeName>
+            
+                    <head>Observations <add hand="#G" place="inline">du Cabinet de <placeName ref="#loc.7">Vienne</placeName>
                         </add> sur l’interprétation des
-                  Traités</title>
-                </p>
-            <p>
+                  Traités</head>
+                
+            <opener><dateline>
                     <placeName ref="#loc.60">Troppau</placeName> le <date when="1820-11-05">5 Novembre
-                  1820</date>.</p>
+                  1820</date>.</dateline></opener>
             <p>Le Cabinet de Russie a mis en premier ligne parmi les bases, sur lesquelles Il
                établit non seulement le droit, mais aussi l’obligation des Puissances alliées
                d’intervenir dans les affaires de <country>Naples</country>, les <rs ref="#t.37 #t.13 #t.1 #t.6 #t.9 #t.42" type="multi-treaties">traités de 1814, 1815, et 1818.</rs>
@@ -1246,16 +1246,16 @@
             <p>
                     <add hand="#AmB1" place="bottom">Kongressakten 38</add>
                 </p>
-            <p>
-                    <title>Apperçu sommaire <add hand="#G" place="inline">au sujet de</add> la
+            
+                    <head>Apperçu sommaire <add hand="#G" place="inline">au sujet de</add> la
                   réponse <lb/>de Cabinet de Russie <add hand="#G" place="inline">du 21 Octobre/<date when="1820-11-02">2 Novembre</date>
                         </add>
-                    </title>
-                </p>
-            <p>
+                    </head>
+                
+            <opener><dateline>
                     <add hand="#G" place="margin">
                         <placeName ref="#loc.60">Troppau</placeName> le <date when="1820-11-05">5 Novembre 1820</date>.</add>
-                </p>
+                </dateline></opener>
             <p>Cette pièce est entièrement conforme à notre pensée dans les deux points essentiels
                suivans :</p>
             <p>1<hi rendition="#su">o</hi> Nécessité d’une forte action morale pour opposer une
@@ -1407,8 +1407,8 @@
                     </add>
                     <add hand="#AmT" place="top">E</add>
                 </p>
-            <p>
-                    <title>
+            
+                    <head>
                         <subst>
                      <del rendition="#s">Observations</del>
                      <add hand="#M" place="above">Eclaircissemens</add>
@@ -1421,12 +1421,12 @@
                            <expan>Cabinet</expan>
                         </choice> Prussien</add>
                   </subst>
-                    </title>
-                </p>
-            <p>
+                    </head>
+                
+            <opener><dateline>
                     <placeName ref="#loc.60">Troppau</placeName> le <add hand="#A1" place="inspace">25</add> Octobre/<date when="1820-11-06">
                         <add hand="#A1" place="inspace">6</add>
-                  Novembre 1820</date>.</p>
+                  Novembre 1820</date>.</dateline></opener>
             <p>En déposant la présente réponse aux actes des Conférences, le Cabinet de Russie se
                fait un devoir de déclarer qu’il en a donné communication préalable et confidentielle
                aux Cabinets de <placeName ref="#loc.7">Vienne</placeName> et de <placeName ref="#loc.9">Berlin</placeName>.</p>
@@ -1514,12 +1514,12 @@
             <p>
                     <add hand="#AmT" place="top">F</add>
                 </p>
-            <p>
-                    <title>Propositions du Cabinet d’Autriche à la suite des éclaircissemens
+            
+                    <head>Propositions du Cabinet d’Autriche à la suite des éclaircissemens
                   supplémentaires <lb/>du Cabinet de Russie, faites le <date when="1820-11-06">6 Novembre
                   1820</date>
-                    </title>
-                </p>
+                    </head>
+                
             <p>Le Cabinet d’Autriche propose aux Cours alliées de reconnaître</p>
             <p>1<hi rendition="#su">o</hi> Que le but de leur action, tant morale que matérielle, ne
                se borne pas seulement à rendre au pouvoir légitime la liberté de pensée et d’action,
@@ -1540,15 +1540,15 @@
             <p>
                     <add hand="#AmT" place="top">G</add>
                 </p>
-            <p>
-                    <title>Déclaration du Cabinet de Russie sur les propositions <lb/>faites par le Cabinet d’Autriche le <date when="1820-11-06">6 Novembre
+            
+                    <head>Déclaration du Cabinet de Russie sur les propositions <lb/>faites par le Cabinet d’Autriche le <date when="1820-11-06">6 Novembre
                      1820</date>
-                    </title>
-                </p>
-            <p>
+                    </head>
+                
+            <opener><dateline>
                     <placeName ref="#loc.60">Troppau</placeName> le <add hand="#AmB" place="inspace">26</add> Octobre/<date when="1820-11-07">
                         <add place="inspace" hand="#A">7</add>
-                  Novembre 1820</date>.</p>
+                  Novembre 1820</date>.</dateline></opener>
             <p>Le Ministère Russe a mis sous les yeux de l’<rs ref="#p.17" type="person">Empereur</rs> les <ref decls="#m.7">contre-observations que <choice>
                      <abbr>M<hi rendition="#su">r</hi>
                             </abbr>

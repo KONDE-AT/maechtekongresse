@@ -245,8 +245,8 @@
       <body>
          <div hand="#G" decls="#m.1">
             <pb n="7r"/>
-            <p>
-                    <title>
+            
+                    <head>
                         <hi rendition="#u">Journal des Conférences</hi>
                      <lb/>
                         <hi rendition="#u">
@@ -254,11 +254,11 @@
                         <abbr>Nro</abbr>
                         <expan>Numéro</expan>
                      </choice> 2.</hi>
-                    </title>
-                </p>
-            <p>
+                    </head>
+                
+            <opener><dateline>
                     <hi rendition="#u">Dimanche <date when="1820-10-29">29 Octobre 1820</date>.</hi>
-                </p>
+                </dateline></opener>
 
             <p>
                     <choice>
@@ -395,10 +395,10 @@
 
          <div hand="#A" decls="#m.2">
             <pb n="9r"/>
-            <p>
+            <opener><dateline>
                     <placeName ref="#loc.60">Troppau</placeName> ce <date when="1820-10-29">29 Octrobre
                   1820</date>
-                </p>
+                </dateline></opener>
             <p>Le Cabinet Prussien a voué la plus sérieuse attention au contenu du Mémoire que <choice>
                   <abbr>Mr.</abbr>
                   <expan>Monsieur</expan>
@@ -474,15 +474,15 @@
 
          <div hand="#A" decls="#m.3">
             <pb n="11r"/>
-            <p>
-                    <title>Instruction pour le <rs ref="#p.136" type="person">Ministre du <rs ref="#p.18" type="person">Roi</rs> à la
+            
+                    <head>Instruction pour le <rs ref="#p.136" type="person">Ministre du <rs ref="#p.18" type="person">Roi</rs> à la
                      cour de <placeName ref="#loc.7">Vienne</placeName>
                         </rs>
-                    </title>
-                </p>
-            <p>
+                    </head>
+                
+            <opener><dateline>
                     <placeName ref="#loc.9">Berlin</placeName> le <date when="1820-10-08">8 Octrobre
-                  1820</date>.</p>
+                  1820</date>.</dateline></opener>
             <p>Votre Excellence connait à fond l’impression que le <rs ref="#p.18" type="person">Roi</rs>, notre
                maître, avait conçue, et le jugement que <rs ref="#p.18" type="person">Sa Majesté</rs> a porté de
                la révolution d’<country>Espagne</country>, qui a offert à l’Europe surprise
@@ -820,9 +820,9 @@
             <p>
                     <add place="top" hand="#AmB">C</add>
                 </p>
-            <p>
+            <opener><dateline>
                     <placeName ref="#loc.60">Troppau</placeName>, le 17/<date when="1820-10-29">29
-                  Octobre 1820</date>.</p>
+                  Octobre 1820</date>.</dateline></opener>
             <p>
                     <choice>
                   <abbr>Mr.</abbr>

@@ -253,18 +253,18 @@
       <body>
          <div hand="#G" decls="#m.1">
             <pb n="129r"/>
-            <p>
+            <opener><dateline>
                     <placeName ref="#loc.60">Troppau</placeName> le <date when="1820-12-19">19 Décembre
                   1820</date>
-                </p>
-            <p>
-                    <hi rendition="#u">Journal des Conférences</hi>
-                </p>
-            <p>
+                </dateline></opener>
+            
+                    <head><hi rendition="#u">Journal des Conférences</hi><lb/>
+                
+            
                     <choice>
                   <abbr>Nro</abbr>
                   <expan>Numéro</expan>
-               </choice> VII</p>
+               </choice> VII</head>
             <p>La conférence de ce jour a eu pour but d’entendre la lecture des pièces que <choice>
                   <abbr>Mr.</abbr>
                   <expan>Monsieur</expan>
@@ -693,10 +693,10 @@
                   </choice> Apostolique</rs>, <ref decls="#m.5">la Copie d’une Dépêche</ref> qu’il vient de recevoir en
                date du <date when="1820-12-16">16 Décembre</date> ; il a l’honneur de la transmettre
                ci-jointe, en réitérant à Son Altesse les Assurances de Sa haute considération.</p>
-            <p>
+            <closer><dateline>
                     <placeName ref="#loc.7">Vienne</placeName> ce <date when="1820-12-29">29 Décembre
                   1820</date>
-                </p>
+                </dateline></closer>
          </div>
 
          <div hand="#A" decls="#m.5">
@@ -707,8 +707,8 @@
                      <expan>Protocol</expan>
                   </choice> VII.</add>
                 </p>
-            <p>Foreign Office <date when="1820-12-16">December 16 1820</date>
-                </p>
+            <opener><dateline>Foreign Office <date when="1820-12-16">December 16 1820</date>
+                </dateline></opener>
             <p>My <rs ref="#p.137" type="person">Lord</rs>
                 </p>
             <p>Your Excellency’s Dispatch <choice>

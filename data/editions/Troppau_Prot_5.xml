@@ -275,8 +275,8 @@
       <body>
          <div hand="#G" decls="#m.1">
             <pb n="80r"/>
-            <p>
-                    <title>
+            
+                    <head>
                         <hi rendition="#u">Journal des Conférences</hi>
                      <lb/>
                         <hi rendition="#u">
@@ -284,11 +284,11 @@
                         <abbr>Nr.</abbr>
                         <expan>Numéro</expan>
                      </choice> V.</hi>
-                     <lb/>
-                        <hi rendition="#u">Jeudi <date when="1820-12-07">7 Décembre
-                  1820</date>.</hi>
-                    </title>
-                </p>
+                    </head>
+                        <opener><dateline><hi rendition="#u">Jeudi <date when="1820-12-07">7 Décembre
+                  1820</date>.</hi></dateline></opener>
+                    
+                
             <p>
                     <choice>
                   <abbr>Mr.</abbr>
@@ -447,9 +447,9 @@
                         <date when="1820-12-07">7/12</date>
                     </add>
                 </p>
-            <p>
+            <opener><dateline>
                     <placeName ref="#loc.60">Troppau</placeName> le <date when="1820-12-07">7 Décembre
-                  1820</date>.</p>
+                  1820</date>.</dateline></opener>
             <p>Les Cabinets d’Autriche, de Prusse et de Russie venaient d’exposer leurs premières
                opinions sur la grande question qui les occupe lorsque l’<rs ref="#p.102" type="person">Ambassadeur
                   de France près la Cour de <placeName ref="#loc.7">Vienne</placeName>
@@ -680,8 +680,8 @@
             <p>
                     <add place="top">C.</add>
                 </p>
-            <p>
-                    <title>
+            
+                    <head>
                         <subst>
                      <del rendition="#s">Projet de dépêche Circulaire à adresser aux Ministres
                         d’Autriche, de Prusse et de Russie, près les Cours de etc. etc.</del>
@@ -691,8 +691,8 @@
                                 </hi>
                             </add>
                   </subst>
-                    </title>
-                </p>
+                    </head>
+                
             <p>Les <rs xml:id="n.5">évènemens du <date when="1820-03-08">8 Mars</date> en
                      <country>Espagne</country>
                     </rs>

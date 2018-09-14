@@ -251,18 +251,18 @@
       <body>
          <div hand="#G" decls="#m.1">
             <pb n="2r"/>
-            <p>
-                    <title>Journal <lb/>
+            
+                    <head>Journal <lb/>
                         <hi rendition="#u">des Conférences de <placeName rendition="#loc.60">Troppau</placeName>
                         </hi>
                      <lb/>
                         <choice>
                      <abbr>Nr.</abbr>
                      <expan>Numéro</expan>
-                  </choice> 1 </title>
-                </p>
-            <p>Lundi <date when="1820-10-23">23 Octobre 1820</date>
-                </p>
+                  </choice> 1 </head>
+                
+            <opener><dateline>Lundi <date when="1820-10-23">23 Octobre 1820</date>
+                </dateline></opener>
             <p>Aujourd’hui se sont réunis en conférence chez <choice>
                   <abbr>Mr.</abbr>
                   <expan>Monsieur</expan>
@@ -489,12 +489,12 @@
          <div hand="#A" decls="#m.2">
             <pb n="33r"/>
 
-            <p>
-                    <title>Mémoire du Cabinet Autrichien</title>
-                </p>
-            <p>
+            
+                    <head>Mémoire du Cabinet Autrichien</head>
+                
+            <opener><dateline>
                     <placeName ref="#loc.60">Troppau</placeName> le <date when="1820-10-23">23 Octobre
-                  1820</date>.</p>
+                  1820</date>.</dateline></opener>
             <p>Le jugement que les Cabinets alliés ont porté sur <rs xml:id="n.3">la révolution de
                      <country>Naples</country>
                     </rs>,<note type="editorial" target="#n.3">Am <date when="1820-07-02">2. Juli 1820</date> meuterte die Militärgarnison in
@@ -887,11 +887,11 @@
 
          <div hand="#A" decls="#m.3">
             <pb n="35r"/>
-            <p>
-                    <title>Remarque additionnelle au Mémoire du cabinet autrichien <lb/>en date de <placeName ref="#loc.60">Troppau</placeName>
+            
+                    <head>Remarque additionnelle au Mémoire du cabinet autrichien <lb/>en date de <placeName ref="#loc.60">Troppau</placeName>
                   <date when="1820-10-23">23 Octobre 1820</date>
-                    </title>
-                </p>
+                    </head>
+                
             <p>Nous croyons ne pas devoir omettre ici une remarque qui porte sur une considération
                importante.</p>
             <p>On doit reconnaître que le cabinet autrichien sépare ici deux périodes qu’il est
@@ -911,14 +911,14 @@
 
          <div hand="#A" decls="#m.4">
             <pb n="52r"/>
-            <p>
-                    <title>
+            
+                    <head>
                         <rs ref="#t.43" type="treaties">Traité d’alliance entre l’<country>Autriche</country> &amp;
                         <country>Naples</country> en date du <date when="1815-06-12">12 juin
                         1815</date>
                         </rs>
-                    </title>
-                </p>
+                    </head>
+                
             <p>Articles secrets joints au dit Traité</p>
             <pb n="53r"/>
             <p>Au Nom de la très-sainte et indivisible Trinité</p>

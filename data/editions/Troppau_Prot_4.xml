@@ -329,8 +329,8 @@
       <body>
          <div hand="#A" decls="#m.1">
             <pb n="63r"/>
-            <p>
-                    <title>
+            
+                    <head>
                         <hi rendition="#u">Journal des conférences</hi>
                      <lb/>
                         <hi rendition="#u">
@@ -339,10 +339,10 @@
                                 </abbr>
                         <expan>Numéro</expan>
                      </choice> 4</hi>
-                    </title>
-                </p>
-            <p>Dimanche <date when="1820-11-19">19 Novembre 1820</date>
-                </p>
+                    </head>
+                
+            <opener><dateline>Dimanche <date when="1820-11-19">19 Novembre 1820</date>
+                </dateline></opener>
             <p>
                     <choice>
                   <abbr>M<hi rendition="#su">rs</hi>
@@ -452,11 +452,11 @@
                      <expan>Littera</expan>
                   </choice> A.</add>
                 </p>
-            <p>
-                    <title>
+            
+                    <head>
                         <hi rendition="#u">Protocole préliminaire</hi>
-                    </title>
-                </p>
+                    </head>
+                
             <p>Les Cabinets alliés, s’étant réunis à <placeName ref="#loc.60">Troppau</placeName> à
                l’effet de prendre en mûre considération les dangers auxquels l’Europe se trouve
                exposée par suite des révolutions qu’un coupable oubli de tous les devoirs a fait
@@ -590,39 +590,35 @@
                déterminations à l’égard du présent Protocole préliminaire.</p>
             <p>Il sera en conséquence communiqué à ces Cabinets avec tous les développemens &amp;
                toutes les explications convenables.</p>
-            <p>Fait et signé à <placeName ref="#loc.60">Troppau</placeName> le <date when="1820-11-19">19 <choice>
+            <closer><dateline>Fait et signé à <placeName ref="#loc.60">Troppau</placeName> le <date when="1820-11-19">19 <choice>
                      <abbr>Nov.</abbr>
                      <expan>Novembre</expan>
                   </choice> 1820</date>
-                </p>
-            <p>signé: <rs xml:id="n.6">
+                </dateline></closer>
+            <signed>signé: <rs xml:id="n.6">
                         <persName ref="#p.8">
                             <surname>Metternich</surname>
                         </persName>
                     </rs>
-                </p>
-            <p>
+                <lb/>
                     <rs xml:id="n.7">
                         <persName ref="#p.11">
                             <surname>Hardenberg</surname>
                         </persName>
                     </rs>
-                </p>
-            <p>
+               <lb/>
                     <rs xml:id="n.8">
                         <persName ref="#p.12">
                             <surname>Bernstorff</surname>
                         </persName>
                     </rs>
-                </p>
-            <p>
+                <lb/>
                     <rs xml:id="n.9">
                         <persName ref="#p.13">
                             <surname>Nesselrode</surname>
                         </persName>
                     </rs>
-                </p>
-            <p>
+                <lb/>
                     <rs xml:id="n.10">
                         <persName ref="#p.14">
                             <surname>Capodistrias</surname>
@@ -630,7 +626,7 @@
                     </rs>
                     <note type="editorial" target="#n.6 #n.7 #n.8 #n.9 #n.10">Unterschriften abschriftlich
                   überliefert.</note>
-            </p>
+            </signed>
          </div>
 
          <div hand="#A" decls="#m.3">
@@ -642,13 +638,13 @@
                      <expan>Littera</expan>
                   </choice> B.</add>
                 </p>
-            <p>
-                    <title>Supplément au Protocole du <date when="1820-11-19">19 <choice>
+            
+                    <head>Supplément au Protocole du <date when="1820-11-19">19 <choice>
                         <abbr>Nov.</abbr>
                         <expan>Novembre</expan>
                      </choice> 1820</date>
-                    </title>
-                </p>
+                    </head>
+                
             <p>Conformément aux principes établis dans le <ref decls="#m.3">Protocole préliminaire
                   de ce jour</ref>, &amp; afin de donner suite à l’application de ces principes aux
                affaires de <country>Naples</country>, les Cabinets ayant signé le dit Protocole sont
@@ -708,39 +704,35 @@
             <p>On est convenu en outre d’informer de la présente démarche les Cours de <placeName ref="#loc.6">Rome</placeName>, de <placeName ref="#loc.64">Turin</placeName>, de
                   <country>Toscane</country>, comme étant particulièrement intéressées au
                développement des affaires de <country>Naples</country>.</p>
-            <p>Fait et signé à <placeName ref="#loc.60">Troppau</placeName> le <date when="1820-11-19">19 <choice>
+            <closer><dateline>Fait et signé à <placeName ref="#loc.60">Troppau</placeName> le <date when="1820-11-19">19 <choice>
                      <abbr>Nov.</abbr>
                      <expan>Novembre</expan>
                   </choice> 1820</date>
-                </p>
-            <p>signé: <rs xml:id="n.16">
+                </dateline></closer>
+            <signed>signé: <rs xml:id="n.16">
                         <persName ref="#p.8">
                             <surname>Metternich</surname>
                         </persName>
                     </rs>
-                </p>
-            <p>
+                <lb/>
                     <rs xml:id="n.17">
                         <persName ref="#p.11">
                             <surname>Hardenberg</surname>
                         </persName>
                     </rs>
-                </p>
-            <p>
+                <lb/>
                     <rs xml:id="n.18">
                         <persName ref="#p.12">
                             <surname>Bernstorff</surname>
                         </persName>
                     </rs>
-                </p>
-            <p>
+                <lb/>
                     <rs xml:id="n.19">
                         <persName ref="#p.13">
                             <surname>Nesselrode</surname>
                         </persName>
                     </rs>
-                </p>
-            <p>
+                <lb/>
                     <rs xml:id="n.20">
                         <persName ref="#p.14">
                             <surname>Capodistrias</surname>
@@ -748,7 +740,7 @@
                     </rs>
                     <note type="editorial" target="#n.16 #n.17 #n.18 #n.19 #n.20">Unterschriften abschriftlich
                   überliefert.</note>
-                </p>
+                </signed>
          </div>
 
          <div hand="#A" decls="#m.4">
@@ -760,16 +752,16 @@
                      <expan>Littera</expan>
                   </choice> C.</add>
                 </p>
-            <p>
-                    <title>Projet de lettre de Cabinet au <rs ref="#p.138" type="person">Roi des
+            
+                    <head>Projet de lettre de Cabinet au <rs ref="#p.138" type="person">Roi des
                   deux-Siciles</rs>
-                    </title>
-                </p>
-            <p>
+                    </head>
+                
+            <opener><dateline>
                     <placeName ref="#loc.60">Troppau</placeName> le <date when="1820-11-20">20 <choice>
                      <abbr>Nov.</abbr>
                      <expan>Novembre</expan>
-                  </choice> 1820</date>.</p>
+                  </choice> 1820</date>.</dateline></opener>
             <p>Monsieur mon Frère.</p>
             <p>De tristes circonstances ne m’ont pas permis de recevoir les lettres que <rs ref="#p.138" type="person">
                         <choice>
@@ -852,19 +844,19 @@
                      <expan>Littera</expan>
                   </choice> D.</add>
                 </p>
-            <p>
-                    <title>Instruction pour les <rs ref="#p.149 #p.148 #p.144" type="multi-person">Envoyés de Russie &amp; de
+            
+                    <head>Instruction pour les <rs ref="#p.149 #p.148 #p.144" type="multi-person">Envoyés de Russie &amp; de
                      Prusse et le Chargé d’affaires d’Autriche à <hi rendition="#u">
                                 <placeName ref="#loc.11">Naples</placeName>
                             </hi>
                         </rs>
-                    </title>
-                </p>
-            <p>
+                    </head>
+                
+            <opener><dateline>
                     <placeName ref="#loc.60">Troppau</placeName> le <date when="1820-11-22">22 <choice>
                      <abbr>Nov.</abbr>
                      <expan>Novembre</expan>
-                  </choice> 1820</date>.</p>
+                  </choice> 1820</date>.</dateline></opener>
             <p>Vous recevez ci-joint <ref decls="#m.4">une lettre authographe</ref>, adressée par
                   <rs ref="#p.16" type="person">
                         <choice>
