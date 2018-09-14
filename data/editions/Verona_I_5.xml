@@ -99,8 +99,8 @@
                     <add place="top" hand="#AmB">No. 5.</add>
                 </p>
 
-            <p>
-                    <title>Réponse confidentielle du Cabinet de <placeName ref="#loc.9">Berlin</placeName> au <ref target="Verona_I_2.xml">précis des communications
+            
+                    <head>Réponse confidentielle du Cabinet de <placeName ref="#loc.9">Berlin</placeName> au <ref target="Verona_I_2.xml">précis des communications
                      verbales faites par <choice>
                         <abbr>M<hi rendition="#su">r</hi>
                                 </abbr>
@@ -108,13 +108,13 @@
                      </choice> le <persName ref="#p.174">
                                 <roleName>Vicomte</roleName>
                         <surname>de Montmorency</surname>
-                            </persName> à la Conférence du <date when="1822-10-20">20 Octobre</date>
+                            </persName><lb/> à la Conférence du <date when="1822-10-20">20 Octobre</date>
                         </ref>
-                    </title>
-                </p>
-               <dateline>
+                    </head>
+                
+               <opener><dateline>
                     <placeName ref="#loc.68">Vérone</placeName> le <date when="1822-10-30">
-                        <add hand="#A" place="inspace">30</add> Octobre 1822</date>.</dateline> 
+                        <add hand="#A" place="inspace">30</add> Octobre 1822</date>.</dateline></opener> 
             <p>Le précis des communications verbales de <choice>
                   <abbr>Mr.</abbr>
                   <expan>Monsieur</expan>

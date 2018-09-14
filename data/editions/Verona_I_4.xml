@@ -103,20 +103,20 @@
             <p>
                     <add place="top">N. 4.</add>
                 </p>
-            <p>
-                    <title>Réponse confidentielle du Cabinet de Russie au <ref target="Verona_I_2.xml">précis des communications verbales faites par <choice>
+            
+                    <head>Réponse confidentielle du Cabinet de Russie au <ref target="Verona_I_2.xml">précis des communications verbales faites par <choice>
                         <abbr>Mr.</abbr>
                         <expan>Monsieur</expan>
                      </choice> le <persName ref="#p.174">
                                 <roleName>Vicomte</roleName>
                         <surname>de Montmorency</surname>
-                            </persName> à la Conférence du <date when="1822-10-20">20 Octobre</date>
+                            </persName><lb/> à la Conférence du <date when="1822-10-20">20 Octobre</date>
                         </ref>
-                    </title>
-               <placeName ref="#loc.68">Veróne</placeName> le <date when="1822-10-20">
+                    </head>
+               <opener><dateline><placeName ref="#loc.68">Veróne</placeName> le <date when="1822-10-20">
                         <add hand="#A" place="inspace">
                             <unclear>(20)</unclear>
-                        </add> Octobre 1822</date>. </p>
+                        </add> Octobre 1822</date>.</dateline></opener> 
             <p>Le <rs ref="#p.13" type="person">Plénipotentiaire de Russie</rs> a porté à la connoissance de l’<rs ref="#p.17" type="person">Empereur</rs>, Son Maître, le précis des communications verbales
                faites par Monsieur <rs ref="#p.174" type="person">le Ministre des Affaires étrangères</rs> de <rs ref="#p.15" type="person" xml:id="n.1">Sa Majesté Très Chrétienne</rs>
                     <note type="editorial" target="#n.1">Ehrentitel des Königs von Frankreich. </note> à la Conférence du

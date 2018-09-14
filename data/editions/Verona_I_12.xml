@@ -110,11 +110,11 @@
             <p>
                <add place="top" hand="#AmR">8</add>
             </p>
-            <p>
-               <title>
+            
+               <head>
                   <hi rendition="#u">Mémoire secret.</hi>
-                  <lb/>Coup d’œil sur la position de la question d’Espagne, le <date when="1822-11-15">15 Novembre 1822</date>.</title>
-            </p>
+                  <lb/>Coup d’œil sur la position de la question d’Espagne,</head> <opener><dateline>le <date when="1822-11-15">15 Novembre 1822</date>.</dateline></opener>
+            
             <p>Le temps qui vient de s’écouler à <placeName ref="#loc.68">Vérone</placeName> et les
                relations qui se sont établies entre les Cabinets m’ont mis à même de recueillir sur
                la situation des Cours relative à l’importante <rs xml:id="n.1">question
