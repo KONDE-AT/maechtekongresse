@@ -169,13 +169,13 @@
                         <date when="1822-12-14">14/12</date>
                     </add>
                 </p>
-            <p>
-                    <title>Procès-verbal <lb/>de la Conférence du <date when="1822-12-14">14 Décembre</date>, relative aux
-                  Individus condamnés et bannis pour délits politiques</title>
-                </p>
-            <p>
+            
+                    <head>Procès-verbal <lb/>de la Conférence du <date when="1822-12-14">14 Décembre</date>, relative aux
+                  Individus condamnés et bannis pour délits politiques</head>
+                
+            <opener><dateline>
                     <placeName ref="#loc.68">Vérone</placeName> le <date when="1822-12-14">14 Décembre
-                  1822</date>.</p>
+                  1822</date>.</dateline></opener>
             <p>Monsieur le <persName ref="#p.182">
                         <roleName>Comte</roleName>
                   <surname>de La Tour</surname>
@@ -277,8 +277,8 @@
 
          <div decls="#m.2">
             <pb n="91r"/>
-            <p>
-                    <title>Note de Monsieur le <persName ref="#p.182">
+            
+                    <head>Note de Monsieur le <persName ref="#p.182">
                             <roleName>Comte</roleName>
                      <surname>de La Tour</surname>
                         </persName>, Secrétaire d’Etat de <choice>
@@ -286,8 +286,8 @@
                      <expan>Sa Majesté</expan>
                   </choice> le <rs ref="#p.172" type="person">Roi de Sardaigne</rs>, sur les démarches à faire
                   auprès de la <country>Confédération suisse</country>, par rapport à l’éloignement
-                  des Piémontais fugitifs</title>
-                </p>
+                  des Piémontais fugitifs</head>
+                
             <p>Les démarches que le <rs ref="#p.172" type="person">Roi de Sardaigne</rs> ordonna à Son Ministère
                des Affaires étrangères et à Sa Légation en <country>Suisse</country> pour que les
                moteurs et les complices de la <rs xml:id="n.3">révolte de l’an dernier</rs>

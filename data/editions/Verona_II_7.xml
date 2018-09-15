@@ -301,12 +301,12 @@
                      <expan>Numéro</expan>
                   </choice> 2.</add>
                 </p>
-            <p>
-                    <title>Procès-Verbal <lb/>de la seconde Conférence realtive aux affaires d’Italie.</title>
-                </p>
-            <p>
+            
+                    <head>Procès-Verbal <lb/>de la seconde Conférence realtive aux affaires d’Italie.</head>
+                
+            <opener><dateline>
                     <placeName ref="#loc.68">Vérone</placeName> le <date when="1822-12-13">13 Décembre
-                  1822</date>.</p>
+                  1822</date>.</dateline></opener>
             <p>La Conférence de ce jour a commencé par la lecture du <ref target="Verona_II_5.xml">Procès-Verbal de celle du <date when="1822-12-11">11 Décembre</date>
                     </ref>.</p>
             <p>À la suite de cette lecture, <choice>
@@ -459,19 +459,19 @@
 
          <div decls="#m.2">
             <pb n="72r"/>
-            <p>
-                    <title>Déclaration de <choice>
+            
+                    <head>Déclaration de <choice>
                      <abbr>M<hi rendition="#su">ss</hi>
                             </abbr>
                      <expan>Messieurs</expan>
                   </choice> les <rs ref="#p.186 #p.185" type="multi-person">Plénipotentiaires de <rs ref="#p.155" type="multi-person">Sa
                         Sainteté</rs>
                         </rs>
-                    </title>
-            </p>
-            <p>
+                    </head>
+            
+            <opener><dateline>
                     <placeName ref="#loc.68">Vérone</placeName> le <date when="1822-12-13">13 Décembre
-                  1822</date>.</p>
+                  1822</date>.</dateline></opener>
             <p>Les sentimens exprimés par la <ref target="Verona_II_5.xml">Déclaration des Cours
                   d’Autriche, de Prusse et de Russie à la Conférence du <date when="1822-12-11">11
                      courant</date>
@@ -531,12 +531,12 @@
 
          <div decls="#m.3">
             <pb n="74r"/>
-            <p>
-                    <title>Déclaration du <rs ref="#p.168" type="person">Plénipotentiaire de Son Altesse Impériale et
+            
+                    <head>Déclaration du <rs ref="#p.168" type="person">Plénipotentiaire de Son Altesse Impériale et
                      Royale le <rs ref="#p.170" type="person">Grand-Duc de Toscane</rs>
                         </rs>
-                    </title>
-            </p>
+                    </head>
+            
             <p>Son Altesse Impériale et Royale le <rs ref="#p.170" type="person">Grand-Duc de Toscane</rs> sera
                très satisfait d’apprendre que des arrangemens aussi sages qu’équitables aient pu
                être conciliés pour la réduction progressive des Troupes autrichiennes stationnées
@@ -570,21 +570,21 @@
                apprécier infiniment ce nouveau témoignage de leur sincère intérêt pour la sûreté des
                Gouvernemens d’Italie et pour le bonheur des peuples que ces Gouvernemens sont
                destinés à régir.</p>
-            <p>
+            <closer><dateline>
                     <placeName ref="#loc.68">Vérone</placeName> le <date when="1822-12-13">13 Décembre
-                  1822</date>.</p>
-            <p>signé Le <persName ref="#p.168">
+                  1822</date>.</dateline></closer>
+            <signed>signé Le <persName ref="#p.168">
                         <roleName>Prince</roleName>
                   <forename>Neri</forename>
                   <surname>Corsini</surname>
                     </persName>
-                </p>
+                </signed>
          </div>
 
          <div decls="#m.4">
             <pb n="77r"/>
-            <p>
-                    <title>Déclaration de <choice>
+            
+                    <head>Déclaration de <choice>
                      <abbr>M<hi rendition="#su">r</hi>
                             </abbr>
                      <expan>Monsieur</expan>
@@ -596,7 +596,7 @@
                         <abbr>M<hi rendition="#su">gr</hi>
                                 </abbr>
                         <expan>Monseigneur</expan>
-                     </choice> l’Archiduc <rs ref="#p.171" type="person">Duc de Modène</rs>, et de <choice>
+                     </choice> l’Archiduc <rs ref="#p.171" type="person">Duc de Modène</rs>,<lb/> et de <choice>
                         <abbr>S. A. R.</abbr>
                         <expan>Son Altesse Royale</expan>
                      </choice>
@@ -607,8 +607,8 @@
                      </choice> l’Archiduchesse <rs ref="#p.187" type="person">Duchesse de Masse &amp;
                      Carrare</rs>
                         </rs>
-                    </title>
-            </p>
+                    </head>
+            
             <p>Le <persName ref="#p.165">
                         <roleName>Marquis</roleName>
                   <surname>Molza</surname>
@@ -694,16 +694,16 @@
 
          <div decls="#m.5">
             <pb n="80r"/>
-            <p>
-                    <title>Déclaration de <choice>
+            
+                    <head>Déclaration de <choice>
                      <abbr>M<hi rendition="#su">r</hi>
                             </abbr>
                      <expan>Monsieur</expan>
                   </choice> le <rs ref="#p.184" type="person">Plénipotentiaire</rs> de Sa Majesté Madame l’Archiduchesse <rs ref="#p.188" type="person">Duchesse de Parme</rs>
-                    </title>
-            </p>
-            <p rendition="#u">
-                    <placeName ref="#loc.68">Vérone</placeName> le <date when="1822-12-13">13 Décembre 1822</date>.</p>
+                    </head>
+            
+            <opener><dateline rendition="#u">
+                    <placeName ref="#loc.68">Vérone</placeName> le <date when="1822-12-13">13 Décembre 1822</date>.</dateline></opener>
             <p>Le <rs ref="#p.184" type="person">Soussigné</rs>, Chevalier d’honneur de <choice>
                   <abbr>S. M.</abbr>
                   <expan>Sa Majesté</expan>
@@ -805,17 +805,17 @@
                de son <rs ref="#p.188" type="person">Auguste Souveraine</rs> près des Membres d’une Conférence
                aussi illustre que respectable, et prie en même temps que sa note soit accueillie et
                insérée dans Ses actes.</p>
-            <p>Signé / Le <persName ref="#p.184">
+            <signed>Signé / Le <persName ref="#p.184">
                         <roleName>Comte</roleName>
                   <surname>de Neipperg</surname>
                     </persName>
-                </p>
+                </signed>
          </div>
 
          <div decls="#m.6">
             <pb n="83r"/>
-            <p>
-                    <title>Déclaration de <choice>
+            
+                    <head>Déclaration de <choice>
                      <abbr>M<hi rendition="#su">r</hi>
                             </abbr>
                      <expan>Monsieur</expan>
@@ -823,8 +823,8 @@
                             <roleName>Infante
                         Duchesse de Lucques</roleName>
                         </rs>
-                    </title>
-            </p>
+                    </head>
+            
             <p>Le <rs ref="#p.183" type="person">Plénipotentiaire de <choice>
                      <abbr>S. M.</abbr>
                      <expan>Sa Majesté</expan>
@@ -871,8 +871,8 @@
                reconnaissance pour le témoignage de confiance qu’Elles viennent de donner aux
                Souverains d’Italie, et pour les soins qu’Elles ne cessent de vouer à consolider un
                ordre de choses sur lesquelles repose le bonheur des Gouvernans et des Gouvernés.</p>
-            <p rendition="#u">
-                    <placeName ref="#loc.68">Vérone</placeName> le <date when="1822-12-13">13 Décembre 1822</date>.</p>
+            <closer><dateline rendition="#u">
+                    <placeName ref="#loc.68">Vérone</placeName> le <date when="1822-12-13">13 Décembre 1822</date>.</dateline></closer>
          </div>
       </body>
       <back>
