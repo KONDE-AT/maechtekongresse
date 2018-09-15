@@ -159,9 +159,9 @@
       <body>
          <div decls="#m.1" hand="#A">
             <pb n="17r"/>
-            <p rendition="#u">Protocole</p>
-            <p>
-                    <title>
+            <head rendition="#u">Protocole<lb/>
+            
+                    
                         <add hand="#A1">relatif au changement de domicile de <rs ref="#p.126 #p.202" type="multi-person">
                                 <choice>
                            <abbr>M<hi rendition="#su">r</hi>
@@ -176,8 +176,8 @@
                                 <forename>Achille</forename>
                         <surname>Murat</surname>
                             </persName>.</add>
-                    </title>
-            </p>
+                    </head>
+            
             <p>
                     <rs ref="#p.12 #p.8 #p.174 #p.13 #p.10" type="multi-person">Les Soussignés</rs> ayant pris en
                délibération la demande faite par <choice>
@@ -233,7 +233,7 @@
                cet effet des passeports qui lui fixeroient la ville de <placeName ref="#loc.39">Hambourg</placeName> pour lieu d’embarquement, contre un engagement de Sa part de
                ne point retourner en Europe sans une autorisation spéciale des hautes Cours
                alliées.</p>
-            <table rend="rules">
+            <signed><table rend="rules">
                <row>
                   <cell>Signé</cell>
                   <cell>
@@ -284,7 +284,7 @@
                             </add>
                   </cell>
                </row>
-            </table>
+            </table></signed>
          </div>
       </body>
       <back>
