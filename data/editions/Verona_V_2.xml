@@ -447,17 +447,17 @@
       <body>
          <div decls="#m.1">
             <pb n="75r"/>
-            <p>
-               <title type="desc">Procès-Verbal <lb/>de la Conférence du <date when="1822-11-28">28
-                     Novembre 1822</date>.</title>
-            </p>
-            <p>
-               <title type="sub">
+            
+               <head type="desc">Procès-Verbal <lb/>de la Conférence du <date when="1822-11-28">28
+                     Novembre 1822</date>.</head>
+            
+            
+               <head type="sub">
                   <rs xml:id="n.1">Traite des Nègres</rs>
                         <note type="editorial" target="#n.1">Vgl. Fladeland, Abolitionist Pressures;
                      Kielstra, The Politics of Slave Trade, bes. S. 120–124.</note>
-                  <lb/>Colonies Espagnoles d’Amérique</title>
-            </p>
+                  <lb/>Colonies Espagnoles d’Amérique</head>
+            
             <p>On s’est occupé dans cette Conférence des deux communications de <choice>
                   <abbr>M<hi rendition="#su">r</hi>
                   </abbr>
@@ -749,8 +749,8 @@
             <p>
                <add place="top">A.</add>
             </p>
-            <p>
-               <title>Réponse du Cabinet d’Autriche au <ref target="Verona_V_1.xml">Mémoire de <choice>
+            
+               <head>Réponse du Cabinet d’Autriche au <ref target="Verona_V_1.xml">Mémoire de <choice>
                         <abbr>M<hi rendition="#su">r</hi>
                         </abbr>
                         <expan>Monsieur</expan>
@@ -759,8 +759,8 @@
                         <surname>de Wellington</surname>
                             </persName> relativement à la <rs xml:id="n.6">traite des Nègres</rs>
                   </ref>
-               </title>
-            </p>
+               </head>
+            
             <p>
                <app>
                   <lem>Le <rs ref="#p.8" type="person">Ministre d’Autriche</rs>
@@ -837,15 +837,15 @@
             <p>
                <add place="top">B.</add>
             </p>
-            <p>
-               <title>Réponse de Messieurs les <rs ref="#p.102 #p.180 #p.135" type="multi-person">Plénipotentiaires de France</rs> au Mémoire de Monsieur le <persName ref="#p.10">
+            
+               <head>Réponse de Messieurs les <rs ref="#p.102 #p.180 #p.135" type="multi-person">Plénipotentiaires de France</rs> au Mémoire de Monsieur le <persName ref="#p.10">
                      <roleName>Duc</roleName>
                      <surname>de Wellington</surname>
                         </persName> relativement à la <rs xml:id="n.8">Traite des Nègres</rs>
-               </title>
+               </head>
                     <note type="editorial" target="#n.8">Vgl. Fladeland, Abolitionist Pressures;
                   Kielstra, The Politics of Slave Trade, bes. S. 120–124. </note>
-            </p>
+            
             <p>
                <ref target="Verona_V_1.xml">Le Mémoire, dont Sa Grace le <persName ref="#p.10">
                      <roleName>Duc</roleName>
@@ -1042,7 +1042,7 @@
                <add place="top">C.</add>
             </p>
             <p>
-               <title>Réponse de <choice>
+               <head>Réponse de <choice>
                      <abbr>M<hi rendition="#su">ss</hi>
                      </abbr>
                      <expan>Messieurs</expan>
@@ -1058,13 +1058,13 @@
                         </persName> relativement <hi rendition="#u">à <rs xml:id="n.14">la Traite des
                         Nègres</rs>
                   </hi>
-               </title>
+               </head>
                     <note type="editorial" target="#n.14">Vgl. Fladeland, Abolitionist Pressures;
                   Kielstra, The Politics of Slave Trade, bes. S. 120–124.</note>
             </p>
-            <p rendition="#u">
+            <opener><dateline rendition="#u">
                <placeName ref="#loc.68">Vérone</placeName> le <date when="1822-11-28">28 Novembre
-                  1822</date>.</p>
+                  1822</date>.</dateline></opener>
             <p>Les <rs ref="#p.175 #p.12" type="multi-person">Plénipotentiaires de <choice>
                      <abbr>S. M.</abbr>
                      <expan>Sa Majesté</expan>
@@ -1109,14 +1109,14 @@
             <p>
                <add place="top">D.</add>
             </p>
-            <p>
-               <title>Réponse du Cabinet de Russie au <ref target="Verona_V_1.xml">Mémoire
+            
+               <head>Réponse du Cabinet de Russie au <ref target="Verona_V_1.xml">Mémoire
                      Britannique sur la <rs xml:id="n.16">traite des Nègres</rs>
                   </ref>
-               </title>
+               </head>
                     <note type="editorial" target="#n.16">Vgl. Fladeland, Abolitionist Pressures;
                   Kielstra, The Politics of Slave Trade, bes. S. 120–124.</note>
-            </p>
+            
             <p>
                <ref target="Verona_V_1.xml">Le Mémoire, par lequel <choice>
                      <abbr>S. E.</abbr>
@@ -1249,14 +1249,14 @@
             <p>
                <add place="top">E.</add>
             </p>
-            <p>
-               <title>
+            
+               <head>
                   <hi rendition="#u">Résolutions</hi>
                   <lb/>relatives à l’abolition de la <rs xml:id="n.21">Traite des Nègres</rs>, <note type="editorial" target="#n.21">Vgl. Fladeland, Abolitionist Pressures;
                      Kielstra, The Politics of Slave Trade, bes. S. 120–124. </note>
                   <lb/>adoptées à la Conférence du <date when="1822-11-28">28 Novembre
-                  1822</date>.</title>
-            </p>
+                  1822</date>.</head>
+            
             <p>Les <rs ref="#p.8 #p.102 #p.180 #p.135 #p.10 #p.175 #p.12 #p.13 #p.75 #p.35" type="multi-person">Plénipotentiaires d’Autriche, de France, de la
                   Grande-Bretagne, de Prusse et de Russie</rs>, réunis en Congrès à <placeName ref="#loc.68">Vérone</placeName>,</p>
             <p>Considérant</p>
@@ -1337,10 +1337,10 @@
                <add place="top">F.</add>
             </p>
 
-            <p>
-               <title>Déclaration du Cabinet Autrichien,<lb/>en réponse à <ref target="Verona_V_1.xml">celle du Cabinet Britannique en date du <date when="1822-11-24">24 Novembre 1822</date>
-                  </ref>.</title>
-            </p>
+            
+               <head>Déclaration du Cabinet Autrichien,<lb/>en réponse à <ref target="Verona_V_1.xml">celle du Cabinet Britannique en date du <date when="1822-11-24">24 Novembre 1822</date>
+                  </ref>.</head>
+            
             <p>Le <rs ref="#p.8" type="person">Ministre d’Autriche</rs> a soumis à l’<rs ref="#p.16" type="person">Empereur</rs>, son Maître, la communication faite par <choice>
                   <abbr>M<hi rendition="#su">r</hi>
                   </abbr>
@@ -1409,14 +1409,14 @@
             <p>
                <add place="top">G.</add>
             </p>
-            <p>
-               <title>Déclaration du Cabinet de France<lb/>en réponse à <ref target="Verona_V_1.xml">celle du Cabinet Britannique en date du <date when="1822-11-24">24
+            
+               <head>Déclaration du Cabinet de France<lb/>en réponse à <ref target="Verona_V_1.xml">celle du Cabinet Britannique en date du <date when="1822-11-24">24
                         Novembre</date>
-                  </ref>.</title>
-            </p>
-            <p rendition="#u">
+                  </ref>.</head>
+            
+            <opener><dateline rendition="#u">
                <placeName ref="#loc.68">Vérone</placeName> le <date when="1822-11-26">26 Novembre
-                  1822</date>.</p>
+                  1822</date>.</dateline></opener>
             <p>Les <rs ref="#p.102 #p.180 #p.135" type="multi-person">Ministres Plénipotentiaires de
                      <rs xml:id="n.23" ref="#p.15">Sa Majesté Très Chrétienne</rs>
                     </rs>
@@ -1490,13 +1490,13 @@
             <p>
                <add place="top">H.</add>
             </p>
-            <p>
-               <title>Déclaration du Cabinet de Prusse,<lb/>en réponse à <ref target="Verona_V_1.xml">celle du Cabinet Britannique en date du <date when="1822-11-24">24 Novembre</date>
-                  </ref>.</title>
-            </p>
-            <p rendition="#u">
+            
+               <head>Déclaration du Cabinet de Prusse,<lb/>en réponse à <ref target="Verona_V_1.xml">celle du Cabinet Britannique en date du <date when="1822-11-24">24 Novembre</date>
+                  </ref>.</head>
+            
+            <opener><dateline rendition="#u">
                <placeName ref="#loc.68">Vérone</placeName> le <date when="1822-11-28">28 Novembre
-                  1822</date>.</p>
+                  1822</date>.</dateline></opener>
             <p>Les <rs xml:id="n.25" ref="#p.12 #p.175">Plénipotentiaires de <choice>
                      <abbr>S. M.</abbr>
                      <expan>Sa Majesté</expan>
@@ -1561,16 +1561,16 @@
                <add place="top">I.</add>
             </p>
 
-            <p>
-               <title>Réponse du Cabinet de Russie au Mémoire <lb/>confidentiel communiqué par Son
+            
+               <head>Réponse du Cabinet de Russie au Mémoire <lb/>confidentiel communiqué par Son
                   Excellence Monsieur le<lb/>
                   <persName ref="#p.10">
                      <roleName>Duc</roleName>
                      <surname>de Wellington</surname>
                         </persName> dans la <ref target="Verona_V_1.xml">Conférence du <date when="1822-11-24">24 Novembre 1822</date>
                   </ref>
-               </title>
-            </p>
+               </head>
+            
             <p>Les <rs ref="#p.13 #p.75 #p.35" type="multi-person">Plénipotentiaires de Russie</rs>
                se sont fait un devoir de mettre sous les yeux de <rs ref="#p.17" type="person">leur
                   Auguste Souverain</rs> le Mémoire confidentiel communiqué par Son Excellence
