@@ -159,28 +159,37 @@
     </xsl:template>
     
     <xsl:template match="tei:rs[@ref or @key]">
-        <strong>
-            <xsl:element name="a">
-                <xsl:attribute name="class">reference</xsl:attribute>
-                <xsl:attribute name="data-type">
-                    <xsl:choose>
-                        <xsl:when test="contains(@type,'multi-')">
-                            <xsl:value-of select="concat('list', substring-after(data(@type), 'multi-'), '.xml')"/>
-                        </xsl:when>
-                        <xsl:otherwise>
+        <xsl:choose>
+            <xsl:when test="starts-with(data(./@type), 'multi')">
+                <strong>
+                    <xsl:element name="a">
+                        <xsl:attribute name="class">reference-multi</xsl:attribute>
+                        <xsl:attribute name="data-key">
+                            <xsl:value-of select="string-join(tokenize(replace(data(@ref), '#', ''), ' '), '____')"/>
+                            <xsl:value-of select="@key"/>
+                        </xsl:attribute>
+                        <xsl:apply-templates/>
+                    </xsl:element>
+                </strong>
+            </xsl:when>
+            <xsl:otherwise>
+                <strong>
+                    <xsl:element name="a">
+                        <xsl:attribute name="class">reference</xsl:attribute>
+                        <xsl:attribute name="data-type">
                             <xsl:value-of select="concat('list', data(@type), '.xml')"/>
-                        </xsl:otherwise>
-                    </xsl:choose>
-                </xsl:attribute>
-                <xsl:attribute name="data-key">
-                    <xsl:value-of select="substring-after(data(@ref), '#')"/>
-                    <xsl:value-of select="@key"/>
-                </xsl:attribute>
-<!--                <xsl:value-of select="."/>-->
-                <xsl:apply-templates/>
-            </xsl:element>
-        </strong>
+                        </xsl:attribute>
+                        <xsl:attribute name="data-key">
+                            <xsl:value-of select="substring-after(data(@ref), '#')"/>
+                            <xsl:value-of select="@key"/>
+                        </xsl:attribute>
+                        <xsl:apply-templates/>
+                    </xsl:element>
+                </strong>
+            </xsl:otherwise>
+        </xsl:choose>
     </xsl:template>
+
     <xsl:template match="tei:persName[@key] | tei:persName[@ref]">
         <strong>
             <xsl:element name="a">

@@ -195,8 +195,18 @@
                 </div>
             </div>
 
-            <script>/*script for loading the content of the modal */
+            <script>
+                /*script for loading the content of the modal */
                 $(document).ready(function(){
+                    var multitrigger = $(".reference-multi");
+                    $(multitrigger).click(function(){
+                        var dataKey = $( this ).attr('data-key');
+                        console.log(dataKey);
+                        var url = "../analyze/multi-ix.xql?ix="+dataKey;
+                        $('#loadModal').load(url, function(){
+                            $('#myModal').modal('show');
+                        });
+                    });
                     var trigger = $('a[data-type]');
                     $(trigger).click(function(){
                         var dataType = $( this ).attr('data-type');
@@ -208,12 +218,13 @@
                             $('#myModal').modal('show');
                         });
                     });
-                });</script>
-                <script type="text/javascript">
+                });
+            </script>
+            <script type="text/javascript">
                 $(window).on('load', function(){
                     $('#myModal').modal('show');
                 });
-        </script>
+            </script>
         <!-- scroll-up-bottom -->
             <script type="text/javascript">
                    // http://www.jqueryscript.net/animation/jQuery-Plugin-For-Fixed-Positioned-Scroll-To-Top-Button-ap-scroll-top.html
