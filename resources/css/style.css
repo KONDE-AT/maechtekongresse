@@ -82,7 +82,7 @@ body{
     background:rgba(156,255,255,0.6);
 }
 .well,.panel {
-    opacity:0.9;
+    opacity:0.92;
 }
 
 .main-content{
@@ -96,7 +96,9 @@ span.data-hr {
 .shortRdg {
     color:red;    
 }
-
+.shortRdg:hover { position: relative; }
+.shortRdg:hover .fullRdg { display: block; text-decoration: none;color: black;width: 21em;border: 1px solid black;background: white;position: absolute;padding: 0.5em; left: inherit; }
+                
 td {border-left: 1px;}
 
 hr {

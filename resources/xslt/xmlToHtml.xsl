@@ -756,6 +756,9 @@
                 <xsl:attribute name="title">
                     <xsl:value-of select="string-join(tei:rdg/concat(root()//tei:handNote[@xml:id=$handId], '] ', normalize-space(.)),' ')"/>
                 </xsl:attribute>
+                <xsl:attribute name="data-original-title">
+                    <xsl:value-of select="string-join(tei:rdg/concat(root()//tei:handNote[@xml:id=$handId], '] ', normalize-space(.)),' ')"/>
+                </xsl:attribute>
                 <xsl:text>[Variante]</xsl:text>
             </xsl:element>
             <xsl:element name="span">
