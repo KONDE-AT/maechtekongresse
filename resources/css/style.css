@@ -55,11 +55,11 @@ body{
 /*    width: 160%;
     margin: 0 -10em;*/
     position:relative;
-    width: 80vw;
-            left: 40%;
-            right: 40%;
-            margin-left: -40vw;
-            margin-right: -40vw;
+    width: 90vw;
+            left: 45%;
+            right: 45%;
+            margin-left: -45vw;
+            margin-right: -45vw;
     top:5%; 
     z-index:99;
 }
@@ -76,14 +76,6 @@ body{
 
 .opener {
     margin: 1rem auto 4rem;
-}
-
-.splash {
-height:60vw;
-    background: url('../../resources/img/circles.svg') center no-repeat; 
-    background-position: top;
-    background-size: cover; 
-    z-index:0;
 }
 
 .transl {

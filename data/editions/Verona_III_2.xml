@@ -239,7 +239,8 @@
                     <add place="top">V<hi rendition="#su">me</hi> Conférence.</add>
                 </p>
             
-                    <head type="desc">Procès-verbal de La <lb/>Conférence du <date when="1822-11-26">26 Novembre 1822</date></head>
+                    <head type="desc">Procès-verbal de La <lb/>Conférence du <date when="1822-11-26">26 Novembre 1822</date>
+                </head>
                      <head type="sub">Affaires d'orient.</head>
                 
             <p>À la suite des déclarations consignées au <ref target="Verona_III_1.xml">procès-verbal de la Conférence du <date when="1822-11-09">9 <choice>
@@ -394,9 +395,11 @@
                Cours alliées pour obtenir enfin l’accomplissement des justes demandes du Cabinet de
                Russie, et pour écarter par là les griefs qui s’opposent encore au rétablissement des
                relations diplomatiques et amicales des deux Gouvernemens.</p>
-            <closer><dateline>
+            <closer>
+                    <dateline>
                     <placeName ref="#loc.68">Vérone</placeName>, le <date when="1822-11-26">26 Novembre
-                  1822</date>.</dateline></closer>
+                  1822</date>.</dateline>
+                </closer>
          </div>
 
          <div decls="#m.4">
