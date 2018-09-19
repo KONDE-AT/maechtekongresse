@@ -743,7 +743,10 @@
     </xsl:template><!-- app/rdg tooltip testing -->
     <xsl:template match="tei:app">
         <xsl:variable name="handId" select="substring-after(tei:rdg/tei:add/@hand, '#')"/>
-            <xsl:apply-templates select="./tei:lem"/>
+            <xsl:element name="span">
+                <xsl:attribute name="class">shortRdg</xsl:attribute>
+                <xsl:apply-templates select="./tei:lem"/>
+            </xsl:element>
             <xsl:element name="a">
                 <xsl:attribute name="style">font-size:7pt;vertical-align:super;</xsl:attribute>
                 <xsl:attribute name="class">shortRdg</xsl:attribute>

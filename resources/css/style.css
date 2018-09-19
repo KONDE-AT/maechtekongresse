@@ -7,13 +7,33 @@ html{
     font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif!important;
     font-size:1.8rem;
 }
+
+.footnotes .ed{
+    font-size:1.5rem;
+}
+
 body{
     display:flex;
     flex-direction:column;
     height:100%;
-    background-color:#fdfdfd;
 }
-header{
+.container::after{
+  content: "";
+  position: absolute;
+  top: 20rem;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  z-index:-3;
+  background-image:url('../../resources/img/bgmap90.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.4;
+}
+.begin::after{
+    background-image:none;
+}
+.header{
     flex:0 0 auto;
     background-color:#F8F8F8;
     color:#ffffff;
@@ -32,8 +52,16 @@ header{
 }
 
 .widetable{
-    width: 160%;
-    margin: 0 -10em;
+/*    width: 160%;
+    margin: 0 -10em;*/
+    position:relative;
+    width: 80vw;
+            left: 40%;
+            right: 40%;
+            margin-left: -40vw;
+            margin-right: -40vw;
+    top:5%; 
+    z-index:99;
 }
 /* HOW DO I REMOVE ALL OTHER CLASSES FROM ONE CLASS?! */
 .hr {
@@ -52,14 +80,17 @@ header{
 
 .splash {
 height:60vw;
-    background: url('../../resources/img/map.svg') center no-repeat; 
+    background: url('../../resources/img/circles.svg') center no-repeat; 
     background-position: top;
-    background-size: auto; 
+    background-size: cover; 
     z-index:0;
 }
 
 .transl {
-    background:rgba(156,255,255,0.2);
+    background:rgba(156,255,255,0.6);
+}
+.well,.panel {
+    opacity:0.9;
 }
 
 .main-content{
