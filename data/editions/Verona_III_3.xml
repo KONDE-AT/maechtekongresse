@@ -162,15 +162,15 @@
             <p>
                <add place="top" rendition="#u">VI. Conférence.</add>
             </p>
-            <p>
-               <title type="desc">Procès-Verbal <lb/>de la Conférence du <date when="1822-11-27">27 Novembre
-                     1822</date>.</title>
-                </p>
-            <p>
-                    <title type="sub">
+            
+               <head type="desc">Procès-Verbal <lb/>de la Conférence du <date when="1822-11-27">27 Novembre
+                     1822</date>.</head>
+                
+            
+                    <head type="sub">
                         <hi rendition="#u">Affaires d’Orient.</hi>
-                    </title>
-            </p>
+                    </head>
+            
             <p>
                <choice>
                   <abbr>M<hi rendition="#su">r</hi>
@@ -192,11 +192,11 @@
 
          <div decls="#m.2">
             <pb n="51r"/>
-            <p>
-               <title>Déclaration du <rs ref="#p.35" type="person">Plénipotentiaire de Russie</rs>
+            
+               <head>Déclaration du <rs ref="#p.35" type="person">Plénipotentiaire de Russie</rs>
                   au Protocole de la Conférence du <date when="1822-11-27">27 Novembre 1822</date>
-               </title>
-            </p>
+               </head>
+            
             <p>L’<rs ref="#p.17" type="person">Empereur</rs> a pris connaissance des réponses
                communiquées au nom des Cours Alliées à la déclaration faite par le <rs ref="#p.35" type="person">Plénipotentiaire de Russie</rs> dans la <ref target="Verona_III_1.xml">Conférence du <date when="1822-11-09">9 Novembre</date>
                </ref>. </p>

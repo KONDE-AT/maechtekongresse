@@ -238,10 +238,10 @@
             <p>
                     <add place="top">V<hi rendition="#su">me</hi> Conférence.</add>
                 </p>
-            <p>
-                    <title>Procès-verbal de La <lb/>Conférence du <date when="1822-11-26">26 Novembre 1822</date>
-                     <lb/>Affaire d'orient.</title>
-                </p>
+            
+                    <head type="desc">Procès-verbal de La <lb/>Conférence du <date when="1822-11-26">26 Novembre 1822</date></head>
+                     <head type="sub">Affaires d'orient.</head>
+                
             <p>À la suite des déclarations consignées au <ref target="Verona_III_1.xml">procès-verbal de la Conférence du <date when="1822-11-09">9 <choice>
                         <abbr>Nov.</abbr>
                         <expan>Novembre</expan>
@@ -312,11 +312,11 @@
             <p>
                     <add place="top">A.</add>
                 </p>
-            <p>
-                    <title>Déclaration du <rs ref="#p.102" type="person">Plénipotentiaire de France</rs> au Protocole
+            
+                    <head>Déclaration du <rs ref="#p.102" type="person">Plénipotentiaire de France</rs> au Protocole
                   de la Conférence du <date when="1822-11-26">26 Novembre 1822</date>
-                    </title>
-                </p>
+                    </head>
+                
             <p>Le <rs ref="#p.102" type="person">Soussigné</rs>, en répondant à la déclaration qui lui a été
                communiquée par <choice>
                   <abbr>M<hi rendition="#su">r</hi>
@@ -374,11 +374,11 @@
                         <expan>Novembre</expan>
                      </choice> 1822</date>.</add>
                 </p>
-            <p>
-                    <title>Déclaration du <rs ref="#p.175" type="person">Plénipotentiaire de Sa Majesté le <rs ref="#p.18" type="person">Roi de Prusse</rs>
+            
+                    <head>Déclaration du <rs ref="#p.175" type="person">Plénipotentiaire de Sa Majesté le <rs ref="#p.18" type="person">Roi de Prusse</rs>
                         </rs> au Protocole du <date when="1822-11-26">26 Novembre 1822</date>
-                    </title>
-                </p>
+                    </head>
+                
             <p>Le <rs ref="#p.175" type="person">Plénipotentiaire de Prusse</rs> pour les Affaires de l’Orient est
                autorisé à déclarer au Protocole de ce jour :</p>
             <p>Que Sa Majesté le <rs ref="#p.18" type="person">Roi</rs>, son auguste maître, reconnoissant toute
@@ -394,9 +394,9 @@
                Cours alliées pour obtenir enfin l’accomplissement des justes demandes du Cabinet de
                Russie, et pour écarter par là les griefs qui s’opposent encore au rétablissement des
                relations diplomatiques et amicales des deux Gouvernemens.</p>
-            <p>
+            <closer><dateline>
                     <placeName ref="#loc.68">Vérone</placeName>, le <date when="1822-11-26">26 Novembre
-                  1822</date>.</p>
+                  1822</date>.</dateline></closer>
          </div>
 
          <div decls="#m.4">
@@ -404,8 +404,8 @@
             <p>
                     <add place="top">C.</add>
                 </p>
-            <p>
-                    <title>Déclaration de <choice>
+            
+                    <head>Déclaration de <choice>
                      <abbr>Mons<hi rendition="#su">r</hi>
                             </abbr>
                      <expan>Monsieur</expan>
@@ -414,8 +414,8 @@
                      <surname>de Wellington</surname>
                         </persName> au Protocole de la Conférence du
                      <date when="1822-11-26">26 Novembre 1822</date>
-                    </title>
-                </p>
+                    </head>
+                
             <p>Le <rs ref="#p.10" type="person">Plénipotentiaire de <rs ref="#p.130" type="person">Sa Majesté
                   Britannique</rs>
                     </rs> a déjà, depuis son arrivée au Congrès, saisi une occasion
