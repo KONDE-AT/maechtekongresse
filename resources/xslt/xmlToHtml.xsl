@@ -428,14 +428,18 @@
                 <xsl:if test="//tei:titleStmt/tei:respStmt">
                     <tr>
                         <th>
-                            <abbr title="//tei:titleStmt/tei:respStmt">responsible</abbr>
+                            <abbr title="//tei:titleStmt/tei:respStmt">verantwortlich</abbr>
                         </th>
                         <td>
-                            <xsl:for-each select="//tei:titleStmt/tei:respStmt">
-                                <p>
+                                <ul>
+                            <xsl:for-each select="//tei:titleStmt/tei:respStmt/tei:resp">
+                                <li>
+                                            <xsl:if test="@role">
+                                                <xsl:value-of select="@role"/>: </xsl:if> 
                                     <xsl:apply-templates/>
-                                </p>
+                                </li>
                             </xsl:for-each>
+                                </ul>
                         </td>
                     </tr>
                 </xsl:if>
