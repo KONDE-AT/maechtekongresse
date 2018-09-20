@@ -10,7 +10,7 @@
                 <table id="myTable" class="table table-striped table-condensed table-hover">
                     <thead>
                         <tr>
-                            <th class="header">Ortsname (normalisiert)</th>
+                            <th>Ortsname (normalisiert)</th>
                             <th>Alternative Schreibweisen</th>
                             <th>Normdaten</th>
                             <th>Breite</th>
@@ -42,6 +42,14 @@
         var table = $('#myTable').DataTable({
         dom: 'Bfrtip',
         keepConditions: true,
+        responsive: true,
+        "columns": [
+        { "width": "20%" },
+        { "width": "20%" },
+        { "width": "20%" },
+        { "width": "5%" },
+        { "width": "5%" },
+        ],
         language: {
         "url": "//cdn.datatables.net/plug-ins/9dcbecd42ad/i18n/German.json"
         },

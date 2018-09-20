@@ -504,6 +504,29 @@
             <xsl:apply-templates/>
         </xsl:element>
     </xsl:template>
+    <xsl:template match="tei:list[@type='gloss']"><!-- reused from https://stackoverflow.com/questions/34855523/xslt-transforming-definition-lists-tei -->
+        <div class="glossary">
+            <xsl:apply-templates select="./tei:head"/>
+            <dl>
+                <xsl:apply-templates select="tei:label | tei:item"/>
+            </dl>
+        </div>
+    </xsl:template>
+    <xsl:template match="tei:list[@type='gloss']/tei:head">
+        <h4>
+            <xsl:value-of select="."/>
+        </h4>
+    </xsl:template>
+    <xsl:template match="tei:list[@type='gloss']/tei:label">
+        <dt>
+            <xsl:value-of select="."/>
+        </dt>
+    </xsl:template>
+    <xsl:template match="tei:list[@type='gloss']/tei:item">
+        <dd>
+            <xsl:apply-templates/>
+        </dd>
+    </xsl:template>
     <xsl:template match="tei:back"/><!-- ignoring complete back, whose include references were adjusted for avoiding oXygen complaining -->
 <!-- The generic approach of handing down durchreichen rendition attributes is resulting in numerous errors. To be implemented differently. -->
 <!--    <xsl:template match="//*[@rend] | //*[@rendition]">

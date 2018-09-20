@@ -360,6 +360,42 @@
                         </div>
                     </xsl:for-each>
                 </p>
+                <xsl:if test="tei:TEI/tei:text/tei:body//tei:app">
+                    <h4 title="Zur Überlieferung der Varianten siehe auch die Metadaten oben" data-toggle="collapse" data-target="#metadata" href="#metadata">Varianten</h4>
+                <p>
+                    <xsl:for-each select="tei:TEI/tei:text/tei:body//tei:app">
+                        <xsl:variable name="handId" select="substring-after(./tei:rdg//@hand, '#')"/>
+                        <div class="footnotes">
+                            <xsl:element name="a">
+                                <xsl:attribute name="name">
+                                    <xsl:text>fn</xsl:text>
+                                    <xsl:number level="any" format="i" count="tei:app"/>
+                                </xsl:attribute>
+                                <a>
+                                    <xsl:attribute name="href">
+                                        <xsl:text>#fna_</xsl:text>
+                                        <xsl:number level="any" format="i" count="tei:app"/>
+                                    </xsl:attribute>
+                                    <span style="font-size:7pt;vertical-align:super;">
+                                        <xsl:number level="any" format="i" count="tei:app"/>
+                                    </span>
+                                </a>
+                            </xsl:element>
+                            <xsl:text> </xsl:text>
+                            <xsl:if test="$handId">
+                                <xsl:text>Hand von </xsl:text>
+                                <xsl:element name="span">
+                                    <xsl:attribute name="title">//handNote: <xsl:value-of select="$handId"/>
+                                            </xsl:attribute>
+                                    <xsl:value-of select="root()//tei:handNote[@xml:id=$handId]"/>
+                                </xsl:element>
+                                <xsl:text>: </xsl:text>
+                            </xsl:if>
+                            <xsl:apply-templates select="//tei:rdg"/>
+                        </div>
+                    </xsl:for-each>
+                </p>
+                    </xsl:if>
             </div>
             </xsl:if>
         </div>     
@@ -745,11 +781,6 @@
         <xsl:variable name="handId" select="substring-after(tei:rdg/tei:add/@hand, '#')"/>
             <xsl:element name="span">
                 <xsl:attribute name="class">shortRdg</xsl:attribute>
-                <xsl:apply-templates select="./tei:lem"/>
-            </xsl:element>
-            <xsl:element name="a">
-                <xsl:attribute name="style">font-size:7pt;vertical-align:super;</xsl:attribute>
-                <xsl:attribute name="class">shortRdg</xsl:attribute>
                 <xsl:attribute name="href">#</xsl:attribute>
                 <xsl:attribute name="data-toggle">tooltip</xsl:attribute>
                 <xsl:attribute name="data-placement">top</xsl:attribute>
@@ -759,13 +790,34 @@
                 <xsl:attribute name="data-original-title">
                     <xsl:value-of select="string-join(tei:rdg/concat(root()//tei:handNote[@xml:id=$handId], '] ', normalize-space(.)),' ')"/>
                 </xsl:attribute>
-                <xsl:text>[Variante]</xsl:text>
+                <xsl:apply-templates select="./tei:lem"/>
+            </xsl:element>
+            <xsl:element name="a">
+                <xsl:attribute name="name">
+                    <xsl:text>fna_</xsl:text>
+                    <xsl:number level="any" format="i" count="tei:app"/>
+                </xsl:attribute>
+                <xsl:attribute name="href">
+                    <xsl:text>#fn</xsl:text>
+                    <xsl:number level="any" format="i" count="tei:app"/>
+                </xsl:attribute>
+                <xsl:attribute name="title">
+                    <xsl:value-of select="normalize-space(.)"/>
+                </xsl:attribute>
+                <span style="font-size:7pt;vertical-align:super;" class="shortRdg">
+                    <xsl:text>[Variante </xsl:text>
+                    <xsl:number level="any" format="i" count="tei:app"/>
+                    <xsl:text>]</xsl:text>
+                </span>
             </xsl:element>
             <xsl:element name="span">
                 <xsl:attribute name="class">fullRdg</xsl:attribute>
                 <xsl:attribute name="style">display:none</xsl:attribute>
                 <xsl:value-of select="concat(tokenize(./tei:lem,' ')[1], ' … ', tokenize(./tei:lem,' ')[last()]), string-join(tei:rdg/concat(tei:add/@hand, '] ', normalize-space(.)),' ')"/>
             </xsl:element>
+    </xsl:template>
+    <xsl:template match="tei:lem">
+        <xsl:apply-templates/>
     </xsl:template>
     <!-- damage supplied -->
     <xsl:template match="tei:damage">

@@ -3,11 +3,11 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title type="main">About your application</title>
+                <title type="main">Zur technischen Umsetzung</title>
                 <author>
                     <persName>
-                        <forename>forename</forename>
-                        <surname>surename</surname>
+                        <forename>Stephan</forename>
+                        <surname>Kurz</surname>
                     </persName>
                 </author>
             </titleStmt>
@@ -15,7 +15,7 @@
                 <publisher/>
                 <availability>
                        <licence target="https://creativecommons.org/licenses/by/4.0/">
-                           <p>The (CC BY 4.0)-License applies to this document.</p>
+                           <p>The (CC BY 4.0) licence applies to this document.</p>
                        </licence>
                    </availability>
             </publicationStmt>
@@ -27,8 +27,58 @@
     <text>
         <body>
             <div>
-                <head>About</head>
-                <p>Some place to write your project</p>
+                <head>Technisches</head>
+                <p>Die Umsetzung der Edition der Dokumente der Mächtekongresse wurde seit 
+                    <date when="2018-02-01">Februar 2018</date> am <ref target="https://www.oeaw.ac.at/inz/" type="URI">Institut für Neuzeit- und Zeitgeschichtsforschung</ref> der <ref target="https://www.oeaw.ac.at/" type="URI">Österreichischen Akademie der Wissenschaften</ref> intensiviert verfolgt. 
+                </p>
+                <p>Durch die Beteiligung am HRSM-Projekt <ref type="URI" target="http://www.digitale-edition.at/">Kompetenznetzwerk Digitale Edition (KONDE)</ref>
+                    fiel auf der Suche nach einer technischen Lösung
+                    für den Präsentationslayer zu den bereits weitgehend in getaggter und „fertig“ edierter Form vorliegenden Dokumente die Wahl auf 
+                    eine Umsetzung als Applikation für <ref type="URI" target="http://exist-db.org/">eXist-db</ref> (eine java-basierte XML-Serverlösung). Im Zusammenhang mit KONDE 
+                    wurde aufbauend auf den <ref type="URI" target="https://github.com/csae8092/posts/tree/master/digital-edition-web-app">Blogposts</ref> von Peter Andorfer zur Verwendung der <ref type="URI" target="https://github.com/KONDE-AT/dsebaseapp">dsebaseapp</ref> (dse = digital scholarly edition),
+                    die ihrerseits ihre Herkunft aus einer <ref type="URI" target="http://thun-korrespondenz.uibk.ac.at/">Briefedition</ref> nicht verleugnen kann, mit der Umsetzung begonnen. 
+                </p>
+                <list type="gloss">
+                    <head>Im Überblick</head>
+                    <label>XSL-Transformation</label>
+                    <item>Stephan Kurz, aufbauend auf umfangreichen Vorarbeiten von Peter Andorfer und Dario Kampkaspar (siehe die Dateien in <ref type="URI" target="../resources/xslt">$approot/resources/xslt</ref>)</item>
+                    <label>Hintergrundkarte</label>
+                    <item>basierend auf der CC-lizenzierten <ref type="URI" target="https://www.ieg-maps.uni-mainz.de/mapsp/mappEu820Serie2.htm">Karte von Kunz, Röss, Möschl</ref>. Bearbeitung mit <ref type="URI" target="https://inkscape.org/en/">Inkscape</ref> und Adobe Illustrator zur Vereinfachung der Pfade (72kb statt 800kb) Stephan Kurz</item>
+                    <label>Layout/CSS</label>
+                    <item>Peter Andorfer, Stephan Kurz, basierend auf <ref type="URI" target="http://getbootstrap.com/">Bootstrap 3</ref>
+                    </item>
+                    <label>Schriften</label>
+                    <item>Palatino als Corporate Identity-Schrift der ÖAW für die Editionsteile, Überschriften aus der Trebuchet MS</item>
+                    <label>Zeitleiste</label>
+                    <item>
+                        <ref type="URI" target="http://visjs.org/">vis.js</ref>
+                    </item>
+                    <label>Codierung in TEI und Edition</label>
+                    <item>Karin Schneider</item>
+                    <label>TEI-Korrekturen</label>
+                    <item>Daniel Schopper, Peter Andorfer, Stephan Kurz</item>
+                    <label>Lizenzen</label>
+                    <item>Editionstext: CC-BY-SA 4.0, Software, Applikation: MIT Lizenz</item>
+                    <label>Langzeitarchivierung der TEI-Daten</label>
+                    <item>ARCHE (in Vorbereitung)</item>
+                    <label>Technischer Support</label>
+                    <item>
+                        <ref type="URI" target="https://www.oeaw.ac.at/acdh/">ACDH-ÖAW</ref>
+                    </item>
+                </list>
+                <div>
+                    <head>Versionsgeschichte</head>
+                <list>
+                    <item>
+                            <date when="2018-09-23">2018-09-23</date> erste Veröffentlichung</item>
+                </list>
+                    <p>Aktuell befindet sich die Applikation im Status einer Public Beta; Kritik, Korrekturen, Verbesserungsvorschläge bitte an</p>
+                </div>
+                <div xml:id="contacts">
+                    <head>Kontakt</head>
+                    <p>
+                        <ref type="URI" target="mailto:karin.schneider@oeaw.ac.at">Karin Schneider</ref>, INZ</p>
+                </div>
             </div>
         </body>
     </text>
