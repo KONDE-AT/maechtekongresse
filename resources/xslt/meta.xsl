@@ -276,12 +276,18 @@
             </xsl:element>
         </strong>
     </xsl:template>
-
+    <xsl:template match="tei:country">
+        <span>
+            <xsl:attribute name="style">color:purple</xsl:attribute>
+            <xsl:attribute name="title">//country</xsl:attribute>
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
 <!-- additions -->
     <xsl:template match="tei:add">
         <xsl:element name="span">
-            <xsl:attribute name="style">
-                <xsl:text>color:blue;</xsl:text>
+            <xsl:attribute name="class">
+                <xsl:text>ergaenzt</xsl:text>
             </xsl:attribute>
             <xsl:attribute name="title">
                 <xsl:choose>
@@ -322,23 +328,42 @@
     </xsl:template><!-- app/rdg tooltip testing -->
     <xsl:template match="tei:app">
         <xsl:variable name="handId" select="substring-after(tei:rdg/tei:add/@hand, '#')"/>
+        <xsl:element name="span">
+            <xsl:attribute name="class">shortRdg</xsl:attribute>
+            <xsl:attribute name="href">#</xsl:attribute>
+            <xsl:attribute name="data-toggle">tooltip</xsl:attribute>
+            <xsl:attribute name="data-placement">top</xsl:attribute>
+            <xsl:attribute name="title">
+                <xsl:value-of select="string-join(tei:rdg/concat(root()//tei:handNote[@xml:id=$handId], '] ', normalize-space(.)),' ')"/>
+            </xsl:attribute>
+            <xsl:attribute name="data-original-title">
+                <xsl:value-of select="string-join(tei:rdg/concat(root()//tei:handNote[@xml:id=$handId], '] ', normalize-space(.)),' ')"/>
+            </xsl:attribute>
             <xsl:apply-templates select="./tei:lem"/>
-            <xsl:element name="a">
-                <xsl:attribute name="style">font-size:7pt;vertical-align:super;</xsl:attribute>
-                <xsl:attribute name="class">shortRdg</xsl:attribute>
-                <xsl:attribute name="href">#</xsl:attribute>
-                <xsl:attribute name="data-toggle">tooltip</xsl:attribute>
-                <xsl:attribute name="data-placement">top</xsl:attribute>
-                <xsl:attribute name="title">
-                    <xsl:value-of select="string-join(tei:rdg/concat(root()//tei:handNote[@xml:id=$handId], '] ', normalize-space(.)),' ')"/>
-                </xsl:attribute>
-                <xsl:text>[Variante]</xsl:text>
-            </xsl:element>
-            <xsl:element name="span">
-                <xsl:attribute name="class">fullRdg</xsl:attribute>
-                <xsl:attribute name="style">display:none</xsl:attribute>
-                <xsl:value-of select="concat(tokenize(./tei:lem,' ')[1], ' … ', tokenize(./tei:lem,' ')[last()]), string-join(tei:rdg/concat(tei:add/@hand, '] ', normalize-space(.)),' ')"/>
-            </xsl:element>
+        </xsl:element>
+        <xsl:element name="a">
+            <xsl:attribute name="name">
+                <xsl:text>fna_</xsl:text>
+                <xsl:number level="any" format="i" count="tei:app"/>
+            </xsl:attribute>
+            <xsl:attribute name="href">
+                <xsl:text>#fn</xsl:text>
+                <xsl:number level="any" format="i" count="tei:app"/>
+            </xsl:attribute>
+            <xsl:attribute name="title">
+                <xsl:value-of select="normalize-space(.)"/>
+            </xsl:attribute>
+            <span style="font-size:7pt;vertical-align:super;" class="shortRdg">
+                <xsl:text>[Variante </xsl:text>
+                <xsl:number level="any" format="i" count="tei:app"/>
+                <xsl:text>]</xsl:text>
+            </span>
+        </xsl:element>
+        <xsl:element name="span">
+            <xsl:attribute name="class">fullRdg</xsl:attribute>
+            <xsl:attribute name="style">display:none</xsl:attribute>
+            <xsl:value-of select="concat(tokenize(./tei:lem,' ')[1], ' … ', tokenize(./tei:lem,' ')[last()]), string-join(tei:rdg/concat(tei:add/@hand, '] ', normalize-space(.)),' ')"/>
+        </xsl:element>
     </xsl:template>
     <!-- damage supplied -->
     <xsl:template match="tei:damage">

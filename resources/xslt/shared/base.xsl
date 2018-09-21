@@ -234,8 +234,10 @@
             <xsl:attribute name="style">
                 <xsl:text>color:green;</xsl:text>
             </xsl:attribute>
-            <xsl:attribute name="title">ISO: <xsl:value-of select="@when"/>
-            </xsl:attribute>
+            <xsl:if test="@when">
+                <xsl:attribute name="title">ISO: <xsl:value-of select="@when"/>
+                </xsl:attribute>
+            </xsl:if>
             <xsl:apply-templates/>
         </xsl:element>
     </xsl:template><!-- additions -->
@@ -265,7 +267,7 @@
                         <xsl:text>zeitgenössische Ergänzung am unteren Blattrand</xsl:text>(<xsl:value-of select="./@place"/>)
                     </xsl:when>
                     <xsl:otherwise>
-                        <xsl:text>zeitgenössische Ergänzung am unteren Blattrand</xsl:text>(<xsl:value-of select="./@place"/>)
+                        <xsl:text>zeitgenössische Ergänzung</xsl:text>
                     </xsl:otherwise>
                 </xsl:choose>
             </xsl:attribute>
@@ -320,6 +322,8 @@
         </xsl:element>
     </xsl:template><!-- Überschriften -->
     <xsl:template match="tei:head">
+        <xsl:element name="div">
+                <xsl:attribute name="style">margin-bottom:1.8em;</xsl:attribute>
         <xsl:if test="@xml:id[starts-with(.,'org') or starts-with(.,'ue')]">
             <a>
                 <xsl:attribute name="name">
@@ -335,11 +339,21 @@
             </xsl:attribute>
             <xsl:text> </xsl:text>
         </a>
+        <xsl:choose>
+            <xsl:when test="./@type='sub'">
+                <h4>
+                    <xsl:apply-templates/>
+                </h4>
+            </xsl:when>
+            <xsl:otherwise>
         <h3>
             <div>
                 <xsl:apply-templates/>
             </div>
         </h3>
+            </xsl:otherwise>
+        </xsl:choose>
+        </xsl:element>
     </xsl:template><!--  Quotes / Zitate -->
     <xsl:template match="tei:q">
         <xsl:element name="i">

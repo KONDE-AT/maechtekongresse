@@ -38,8 +38,42 @@
                     wurde aufbauend auf den <ref type="URI" target="https://github.com/csae8092/posts/tree/master/digital-edition-web-app">Blogposts</ref> von Peter Andorfer zur Verwendung der <ref type="URI" target="https://github.com/KONDE-AT/dsebaseapp">dsebaseapp</ref> (dse = digital scholarly edition),
                     die ihrerseits ihre Herkunft aus einer <ref type="URI" target="http://thun-korrespondenz.uibk.ac.at/">Briefedition</ref> nicht verleugnen kann, mit der Umsetzung begonnen. 
                 </p>
+                <div>
+                    <head>Legende zur Darstellung</head>
+                    <list>
+                        <item>
+                            <date>grün</date>: Datumsangabe, ISO-Darstellung im title-Attribut (hover)</item>
+                        <item>
+                            <add>dunkelblau</add>: Hinzufügung</item>
+                        <item>
+                            <country>violett</country>: country-Tag, historische Daten sind nicht in das Ortsregister aufgenommen</item>
+                        <item>
+                            <app>
+                                <lem>grau</lem>
+                                <rdg>grau</rdg>
+                            </app>: Variante (siehe jeweils den Variantenapparat am Ende der Seite)</item>
+                        <item>
+                            <del>durchgestrichen</del>
+                        </item>
+                        <item>(selbsterklärend)</item>
+                        <item>
+                            <supplied>blau</supplied>: editorische Ergänzungen, Materialschäden</item>
+                    </list>
+                </div>
+                <div>
+                    <head>Apparate</head>
+                    <p>Der editorische Fußnotenapparat zählt mit arabischen Ziffern (1, 2, 3, …). Anmerkungen aus den edierten Texten, die im Original vorhanden sind, werden in einem separaten Apparat mit alphabetischer Zählung (a, b, c, …) verzeichnet. Ein dritter Apparat betrifft die Varianten, die im Lesetext lediglich durch graue Schrift angezeigt werden.</p>
+                </div>
+                <div>
+                    <head>Versionsgeschichte</head>
+                <list>
+                    <item>
+                            <date when="2018-09-23">2018-09-23</date> erste Veröffentlichung</item>
+                </list>
+                    <p>Aktuell befindet sich die Applikation im Status einer Public Beta; Kritik, Korrekturen, Verbesserungsvorschläge bitte an die Herausgeberin (Kontakt siehe unten).</p>
+                </div>
                 <list type="gloss">
-                    <head>Im Überblick</head>
+                    <head>Verantwortlichkeiten im Überblick</head>
                     <label>XSL-Transformation</label>
                     <item>Stephan Kurz, aufbauend auf umfangreichen Vorarbeiten von Peter Andorfer und Dario Kampkaspar (siehe die Dateien in <ref type="URI" target="../resources/xslt">$approot/resources/xslt</ref>)</item>
                     <label>Hintergrundkarte</label>
@@ -70,14 +104,6 @@
                         <ref type="URI" target="https://www.oeaw.ac.at/acdh/">ACDH-ÖAW</ref>
                     </item>
                 </list>
-                <div>
-                    <head>Versionsgeschichte</head>
-                <list>
-                    <item>
-                            <date when="2018-09-23">2018-09-23</date> erste Veröffentlichung</item>
-                </list>
-                    <p>Aktuell befindet sich die Applikation im Status einer Public Beta; Kritik, Korrekturen, Verbesserungsvorschläge bitte an</p>
-                </div>
                 <div xml:id="contacts">
                     <head>Kontakt</head>
                     <p>

@@ -741,8 +741,8 @@
 <!-- additions -->
     <xsl:template match="tei:add">
         <xsl:element name="span">
-            <xsl:attribute name="style">
-                <xsl:text>color:blue;</xsl:text>
+            <xsl:attribute name="class">
+                <xsl:text>ergaenzt</xsl:text>
             </xsl:attribute>
             <xsl:attribute name="title">
                 <xsl:choose>
@@ -765,7 +765,7 @@
                         <xsl:text>zeitgenössische Ergänzung am unteren Blattrand </xsl:text>(<xsl:value-of select="./@place"/>)
                     </xsl:when>
                     <xsl:otherwise>
-                        <xsl:text>zeitgenössische Ergänzung am unteren Blattrand </xsl:text>(<xsl:value-of select="./@place"/>)
+                        <xsl:text>zeitgenössische Ergänzung</xsl:text>
                     </xsl:otherwise>
                 </xsl:choose>
                 <xsl:if test="@hand">
@@ -976,11 +976,11 @@
                 </h4>
             </xsl:when>
             <xsl:otherwise>
-                <h3>
+                <h5>
                     <div>
                         <xsl:apply-templates/>
                     </div>
-                </h3>
+                </h5>
             </xsl:otherwise>
         </xsl:choose>
     </xsl:template><!--  Quotes / Zitate -->
@@ -996,6 +996,11 @@
         <xsl:element name="p">
             <xsl:if test="ancestor::tei:text">
                 <xsl:attribute name="class">ed</xsl:attribute>
+            </xsl:if>
+            <xsl:if test="./@rendition='#r'">
+                <xsl:attribute name="style">
+                    <xsl:text>text-align:right; margin-right:3rem;</xsl:text>
+                </xsl:attribute>
             </xsl:if>
             <xsl:apply-templates/>
         </xsl:element>
@@ -1015,13 +1020,29 @@
                 <xsl:apply-templates/>
         </span>
     </xsl:template>
-    <xsl:template match="tei:signed/tei:list/tei:item">
-        <xsl:element name="p">
-            <xsl:attribute name="style">
-                <xsl:text>text-align:right; margin-right:3em</xsl:text>
+    <xsl:template match="tei:signed">
+        <xsl:choose>
+            <xsl:when test="./tei:list">
+            <xsl:for-each select="./tei:list/tei:item">
+            <xsl:element name="p">
+            <xsl:attribute name="class">
+                <xsl:text>signed</xsl:text>
             </xsl:attribute>
             <xsl:apply-templates/>
         </xsl:element>
+        </xsl:for-each>
+            </xsl:when>
+            <xsl:otherwise>
+                <xsl:for-each select=".">
+                    <xsl:element name="p">
+                        <xsl:attribute name="class">
+                            <xsl:text>signed</xsl:text>
+                        </xsl:attribute>
+                        <xsl:apply-templates/>
+                    </xsl:element>
+                </xsl:for-each>
+            </xsl:otherwise>
+        </xsl:choose>
     </xsl:template><!-- attempting to match spaces around guillemets -->
 <!--    <xsl:template match="//text()[matches(.,'« ')]">
         <xsl:text>« </xsl:text>

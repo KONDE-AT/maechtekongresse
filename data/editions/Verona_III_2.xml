@@ -5,7 +5,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main">III. Affaires de l'Orient</title>
+            <title type="main">III. Affaires de l’Orient</title>
             <title type="main">Procès-verbal der fünften Sitzung</title>
             <title type="sub">Digitale Edition</title>
             <editor>
@@ -14,9 +14,14 @@
                     </persName>
                 </editor>
             <respStmt>
-               <resp role="Transkription">Karin Schneider</resp>
-               <resp role="Technical_Editor">Stephan Kurz</resp>
-               <resp role="Korrekturen">Stephan Kurz</resp>
+               <resp>Transkription</resp>
+                    <name>Karin Schneider</name>
+               <resp>Wissenschaftliche Edition</resp>
+                    <name>Karin Schneider</name>
+               <resp>Technical Editor</resp>
+                    <name>Stephan Kurz</name>
+               <resp>Korrekturen</resp>
+                    <name>Stephan Kurz</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -25,8 +30,7 @@
                 </edition>
          </editionStmt>
          <publicationStmt>
-            <publisher>Österreichische Akademie der Wissenschaften, Institut für Neuzeit- und
-               Zeitgeschichtsforschung</publisher>
+            <publisher>Österreichische Akademie der Wissenschaften, Institut für Neuzeit- und Zeitgeschichtsforschung</publisher>
             <pubPlace>Wien</pubPlace>
             <idno>V_III_2</idno>
                  <availability>           <licence target="https://creativecommons.org/licenses/by-sa/4.0/legalcode.de">https://creativecommons.org/licenses/by-sa/4.0/legalcode.de</licence>         </availability> </publicationStmt>
@@ -246,7 +250,7 @@
             
                     <head type="desc">Procès-verbal de La <lb/>Conférence du <date when="1822-11-26">26 Novembre 1822</date>
                 </head>
-                     <head type="sub">Affaires d'orient.</head>
+                     <head type="sub">Affaires d’orient.</head>
                 
             <p>À la suite des déclarations consignées au <ref target="Verona_III_1.xml">procès-verbal de la Conférence du <date when="1822-11-09">9 <choice>
                         <abbr>Nov.</abbr>
