@@ -8,6 +8,7 @@ import module namespace kwic = "http://exist-db.org/xquery/kwic" at "resource:or
 import module namespace console = "http://exist-db.org/xquery/console";
 import module namespace r = "http://joewiz.org/ns/xquery/roman-numerals" at "roman-numerals.xqm";
 
+declare variable  $app:data := $config:app-root||'/data';
 declare variable  $app:editions := $config:app-root||'/data/editions';
 declare variable  $app:indices := $config:app-root||'/data/indices';
 declare variable $app:placeIndex := $config:app-root||'/data/indices/listplace.xml';
@@ -92,6 +93,18 @@ let $name := functx:substring-after-last(document-uri(root($node)), '/')
     return $name
 };
 
+
+(:~
+: returns the (relativ) name of the collection the passed in node is located at.
+:)
+declare function app:getColName($node as node()){
+let $root := tokenize(document-uri(root($node)), '/')
+    let $dirIndex := count($root)-1
+    return $root[$dirIndex]
+};
+
+
+
 (:~
 : renders the name element of the passed in entity node as a link to entity's info-modal.
 :)
@@ -169,7 +182,7 @@ let $href := concat('show.html','?document=', app:getDocName($node), '&amp;direc
 declare function app:indexSearch_hits($node as node(), $model as map(*),  $searchkey as xs:string?, $path as xs:string?){
 let $indexSerachKey := $searchkey
 let $searchkey:= '#'||$searchkey
-let $entities := collection($app:editions)//tei:TEI[.//*/@ref=$searchkey]
+let $entities := collection($app:data)//tei:TEI[.//*/@ref=$searchkey]
 let $terms := collection($app:editions)//tei:TEI[.//tei:term[./text() eq substring-after($searchkey, '#')]]
 for $title in ($entities, $terms)
     let $docTitle := string-join(root($title)//tei:titleStmt/tei:title//text(), ' ')
@@ -181,11 +194,12 @@ for $title in ($entities, $terms)
                 return
                     <p>... {$before} <strong><a href="{concat(app:hrefToDoc($title), "&amp;searchkey=", $indexSerachKey)}"> {$entity/text()}</a></strong> {$after}...<br/></p>
     let $zitat := $title//tei:msIdentifier
+    let $collection := app:getColName($title)
     return
             <tr>
                <td>{$docTitle}</td>
                <td>{$hits}</td>
-               <td>{$snippet}<p style="text-align:right">({<a href="{concat(app:hrefToDoc($title), "&amp;searchkey=", $indexSerachKey)}">{app:getDocName($title)}</a>})</p></td>
+               <td>{$snippet}<p style="text-align:right">({<a href="{concat(app:hrefToDoc($title, $collection), "&amp;searchkey=", $indexSerachKey)}">{app:getDocName($title)}</a>})</p></td>
             </tr>
 };
 
