@@ -35,7 +35,7 @@
                                                 </xsl:attribute>
                                                 <xsl:attribute name="target">_blank</xsl:attribute>
                                         <xsl:attribute name="rel">noopener noreferrer</xsl:attribute>
-                                                mentioned in
+                                                erwähnt in
                                             </a>
                             </h4>
                         </div>

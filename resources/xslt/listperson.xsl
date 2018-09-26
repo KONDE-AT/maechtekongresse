@@ -113,18 +113,26 @@
                                                     </td>
                                                 </tr>
                                             </xsl:when>
+
                                         </xsl:choose>
                                     </xsl:for-each>
-                                    <xsl:if test="$entity/tei:idno[@type='URL']">
+                                    <xsl:if test="$entity//tei:idno[@type='URI']">
                                         <tr>
                                             <th>URL:</th>
                                             <td>
                                                 <a>
                                                     <xsl:attribute name="href">
-                                                        <xsl:value-of select="$entity/tei:idno[@type='URL']/text()"/>
+                                                        <xsl:value-of select="$entity/tei:idno[@type='URI']/text()"/>
                                                     </xsl:attribute>
-                                                    <xsl:value-of select="$entity/tei:idno[@type='URL']/text()"/>
+                                                    <xsl:value-of select="$entity/tei:idno[@type='URI']/text()"/>
                                                 </a>
+                                            </td>
+                                        </tr>
+                                    </xsl:if>
+                                    <xsl:if test="$entity//tei:note">
+                                        <tr>
+                                            <td colspan="2">
+                                                <xsl:value-of select="$entity//tei:note"/>
                                             </td>
                                         </tr>
                                     </xsl:if>
