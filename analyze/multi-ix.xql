@@ -21,9 +21,9 @@ let $modal :=
                 let $xmlId := data($x/@xml:id)
                 return 
                     <li>
-                        {$x}
+                        {$x/tei:persName} ({$x/tei:birth}–{$x/tei:death}), {$x/tei:note} <a href="{$x/tei:idno}">{$x/tei:idno}</a> 
                         <br />
-                        <a href="hits.html?searchkey={$xmlId}">mehr</a>
+                        <a href="hits.html?searchkey={$xmlId}">alle Erwähnungen</a>
                     </li>
             }
         </ul>

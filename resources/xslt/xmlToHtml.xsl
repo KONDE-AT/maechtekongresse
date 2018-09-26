@@ -214,12 +214,12 @@
                                                     <abbr title="//tei:msIdentifier">Signatur</abbr>
                                                 </th>
                                                 <td>
-                                                    <xsl:for-each select=".//tei:msIdentifier/descendant::*"><!-- XXX todo -->
+                                                    <xsl:for-each select=".//tei:msIdentifier/child::*">
                                                         <xsl:choose>
-                                                            <xsl:when test=".[parent::tei:idno]">
-                                                                <xsl:for-each select=".">
-                                                                    <xsl:apply-templates/>
-                                                                    <xsl:text>, </xsl:text>
+                                                            <xsl:when test="tei:idno">
+                                                                <xsl:for-each select="./tei:idno">
+                                                                    <xsl:value-of select="."/>
+                                                                    <xsl:if test="position() != last()">, </xsl:if>
                                                                 </xsl:for-each>
                                                             </xsl:when>
                                                             <xsl:otherwise>
