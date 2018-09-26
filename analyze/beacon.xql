@@ -18,7 +18,7 @@ let $prefix :=
 
 let $nl := "&#10;"
 let $items :=  
-    for $x in doc($app:personIndex)//tei:person[starts-with(./tei:idno/text(), 'http://d-nb')]
+    for $x in doc($app:personIndex)//tei:person[starts-with(./tei:idno/text(), 'https://viaf.')]
         let $ownId := data($x/@xml:id)
         let $url := $root||'pages/hits.html?searchkey='||$ownId
         let $entry :=$x/tei:idno/text()||'|'||$url
