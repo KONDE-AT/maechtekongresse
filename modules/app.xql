@@ -187,14 +187,14 @@ let $terms := collection($app:editions)//tei:TEI[.//tei:term[./text() eq substri
 for $title in ($entities, $terms)
     let $docTitle := string-join(root($title)//tei:titleStmt/tei:title//text(), ' ')
     let $hits := if (count(root($title)//*[@ref=$searchkey]) = 0) then 1 else count(root($title)//*[@ref=$searchkey])
+    let $collection := app:getColName($title)
     let $snippet :=
         for $entity in root($title)//*[@ref=$searchkey]
                 let $before := $entity/preceding::text()[1]
                 let $after := $entity/following::text()[1]
                 return
-                    <p>... {$before} <strong><a href="{concat(app:hrefToDoc($title), "&amp;searchkey=", $indexSerachKey)}"> {$entity/text()}</a></strong> {$after}...<br/></p>
+                    <p>... {$before} <strong><a href="{concat(app:hrefToDoc($title, $collection), "&amp;searchkey=", $indexSerachKey)}"> {$entity//text()}</a></strong> {$after}...<br/></p>
     let $zitat := $title//tei:msIdentifier
-    let $collection := app:getColName($title)
     return
             <tr>
                <td>{$docTitle}</td>
