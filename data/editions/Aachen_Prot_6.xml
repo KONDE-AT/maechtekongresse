@@ -284,11 +284,11 @@
                         </item>
                </list>
                 </signed>
-                <note place="margin" hand="#G" type="author">
-                    <p>
+                <add place="margin" hand="#G" type="author">
+                    
                         <hi rendition="#u">Note</hi> du <date when="1818-10-09">9 Octobre</date>
-                    </p>
-               <p>La proposition ad <hi rendition="#u">4</hi> ayant été faite par <choice>
+                    <lb/>
+               La proposition ad <hi rendition="#u">4</hi> ayant été faite par <choice>
                      <abbr>Mr.</abbr>
                      <expan>Monsieur</expan>
                   </choice> le <persName ref="#p.10">
@@ -303,12 +303,11 @@
                         </persName>, la somme totale de ce que la
                      <country>France</country> restera devoir aux puissances Alliées a été fixée à
                   268 Millions, dont 100 Millions à acquitter en Inscriptions et 168 en traites sur
-                  les <rs ref="#o.1 #o.2" type="multi-o">susdites maisons de banque</rs>.</p>
-               <p>À la suite d’explications ultérieures qui ont eu lieu <date when="1818-10-09">le
+                  les <rs ref="#o.1 #o.2" type="multi-o">susdites maisons de banque</rs>.<lb/>
+               À la suite d’explications ultérieures qui ont eu lieu <date when="1818-10-09">le
                      9</date> (jour de la signature du <rs ref="#t.10" type="treaties">traité</rs>), la dite somme
-                  de 268 Millions a été définitivement réduite à 265 Millions Francs.</p>
-                </note>
-         </div>
+                  de 268 Millions a été définitivement réduite à 265 Millions Francs.
+                </add></div>
 
          <div hand="#A" decls="#m.2">
             <pb n="25r"/>
@@ -394,7 +393,7 @@
                millions de francs par an. Quant aux demandes en sus de cette somme, il ne devoit y
                être satisfait que dans le courant de la sixième année.</p>
             <pb n="26v"/>
-            <p xml:space="preserve">7<hi rendition="#su">o</hi><rs ref="#p.1" type="person">Le Ministre de <country>France</country></rs> prétend que <rs ref="#t.8" type="treaties">l’annexe au Protocole du <date when="1815-10-13">13 <choice>
+            <p xml:space="preserve">7<hi rendition="#su">o</hi> <rs ref="#p.1" type="person">Le Ministre de <country>France</country></rs> prétend que <rs ref="#t.8" type="treaties">l’annexe au Protocole du <date when="1815-10-13">13 <choice>
                         <abbr>8<hi rendition="#su">bre</hi>
                                     <expan>Octobre</expan>
                                 </abbr>
