@@ -463,6 +463,34 @@ declare function app:listOrg($node as node(), $model as map(*)) {
         </tr>
 };
 
+(:
+Read out all abstracts
+:)
+declare function app:listAbstract($node as node(), $model as map(*)) {
+let $filterstring := (request:get-parameter("filterstring", ""))
+    let $collection := (request:get-parameter("collection", ""))
+    let $docs := if ($collection)
+            then
+                collection(concat($config:app-root, '/data/', $collection, '/'))//tei:TEI
+            else
+                collection(concat($config:app-root, '/data/editions/'))//tei:TEI
+    for $title in $docs
+        let $idno := $title//tei:publicationStmt/tei:idno//translate(text(),'_',' ')
+        let $docTitle := string-join(root($title)//tei:titleStmt/tei:title[@type='main']//text(), ' ')
+        let $datum := if ($title//tei:msDesc[1]//tei:origin[1]/tei:date[1]/@when)
+            then data($title//tei:msDesc[1]//tei:origin[1]/tei:date[1]/@when)(:/format-date(xs:date(@when), '[D02].[M02].[Y0001]')):)
+            else data($title//tei:editionStmt/tei:edition/tei:date[1]/text()) (: picks date in meta collection :)
+        let $date := for $x in $title//tei:abstract
+                    return
+                        <p>{$x//text()}</p> 
+        return  
+        <tr>
+            <td>{$idno}</td>
+            <td>{$date}<p style="text-align:right"><a href="{app:hrefToDoc($title, $collection)}">{$docTitle}</a></p></td>
+            <td><a href="{app:hrefToDoc($title, $collection)}">{$datum}</a></td>
+        </tr>
+};
+
 (:~
  : creates paging 
  :)
