@@ -175,12 +175,12 @@
       <body>
          <div hand="#G" decls="#m.1">
             <pb n="111r"/>
-            <head>
+            
                     <add hand="#W" place="top"/>
                     <choice>
                   <abbr>n.</abbr>
                   <expan>numéro</expan>
-               </choice> 23.</head>
+               </choice> 23.
             <p>
                     <add hand="#W" place="margin">avec une Annexe</add>
                 </p>
@@ -190,7 +190,7 @@
                   Novembre</date>.</dateline>
                 </opener>
             <p>
-                    <rs xml:id="n.1">À la suite des communications faites à la <ref target="Aachen_Prot_19_xml">Conférence le <date when="1818-10-24">24
+                    <rs xml:id="n.1">À la suite des communications faites à la <ref target="#Aachen_Prot_19_xml">Conférence le <date when="1818-10-24">24
                         Octobre</date>
                         </ref>, <persName ref="#p.9">
                             <roleName>Lord</roleName>
@@ -221,7 +221,7 @@
                   portugiesischen Königs.</note> en Lui rappelant la part qu’Elle a eue à la <rs ref="#t.22" type="treaties">déclaration de <placeName ref="#loc.7">Vienne</placeName> du <date when="1815-02-08">8 février 1815</date>
                     </rs>, à fixer sans plus de délai
                l’époque de l’abolition définitive de la Traite dans la totalité de ses possessions ;
-               époque qui, d’après les engagemens pris par les <rs ref="#p.71 #p.72 #p.73" type="multi-person">Plénipotentiaires de <rs ref="#p.28" type="multi-person">Sa dite Majesté</rs>
+               époque qui, d’après les engagemens pris par les <rs ref="#p.71 #p.72 #p.73" type="multi-person">Plénipotentiaires de <rs ref="#p.28">Sa dite Majesté</rs>
                     </rs> à <placeName ref="#loc.7">Vienne</placeName> et consignée au <rs ref="#t.1" type="treaties">Protocole du <date when="1815-11-20">20 Novembre 1815</date>
                     </rs>, ne pourroit<pb n="111v"/>
                outrepasser l’année 1823, mais que les Souverains Alliés désireroient dans l’intérêt
@@ -238,7 +238,7 @@
                à <rs xml:id="n.4">la déclaration de <choice>
                      <abbr>Mrs</abbr>
                      <expan>Messieurs</expan>
-                  </choice><rs ref="#p.71 #p.72 #p.73" type="multi-person">les Plénipotentiaires de <rs ref="#p.28" type="multi-person" xml:id="n.3">
+                  </choice> les <rs ref="#p.71 #p.72 #p.73" type="multi-person">Plénipotentiaires de <rs ref="#p.28" xml:id="n.3">
                                 <choice>
                            <abbr>S. M.</abbr>
                            <expan>Sa Majesté</expan>
@@ -322,7 +322,7 @@
                             <persName ref="#p.8">Metternich</persName>
                         </item>
                   <item>
-                            <persName ref="#p.1">Richelieus</persName>
+                            <persName ref="#p.1">Richelieu</persName>
                         </item>
                   <item>
                             <persName ref="#p.9">Castlereagh</persName>
