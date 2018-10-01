@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+   <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -218,7 +218,7 @@
                     </persName> dans <ref target="Aachen_Prot_23.xml">la
                   séance du 4 de ce mois</ref> pour assurer le succès de l’abolition de la traite
                des Nègres. Ils y ont ajouté <rs xml:id="n.1">un projet de lettre</rs>
-                    <note type="editorial" target="#n.1">Anlage liegt nicht ein.</note> à adresser par <rs ref="#p.15 #p.16 #p.17 #p.18 #p.19" type="multi-person">les Cinq Souverains</rs> à <choice>
+                    <note type="editorial" target="#n.1">Anlage liegt nicht ein.</note> à adresser par les <rs ref="#p.15 #p.16 #p.17 #p.18 #p.19" type="multi-person">Cinq Souverains</rs> à <choice>
                   <abbr>S. M.</abbr>
                   <expan>Sa Majesté</expan>
                </choice> le <rs ref="#p.28" type="person">Roi de Portugal et du Brésil</rs> pour engager Sa
@@ -238,7 +238,7 @@
                   <abbr>Mrs.</abbr>
                   <expan>Messieurs</expan>
                </choice> les <rs ref="#p.13 #p.14" type="multi-person">Plénipotentiaires de Russie</rs> ont communiqué
-               ensuite l’analyse <ref decls="#m.3">du projet de traité,</ref> rédigé <rs xml:id="n.3">à la conférence de <placeName ref="#loc.8">Londres</placeName>
+               ensuite <ref decls="#m.3">l’analyse du projet de traité,</ref> rédigé <rs xml:id="n.3">à la conférence de <placeName ref="#loc.8">Londres</placeName>
                     </rs>
                     <note type="editorial" target="#n.3">Gemeint ist die
                   Botschafterkonferenz in <placeName ref="#loc.8">London</placeName>, welche sich
@@ -256,7 +256,7 @@
                             <persName ref="#p.8">Metternich</persName>
                         </item>
                   <item>
-                            <persName ref="#p.1">Richelieus</persName>
+                            <persName ref="#p.1">Richelieu</persName>
                         </item>
                   <item>
                             <persName ref="#p.9">Castlereagh</persName>
@@ -297,7 +297,7 @@
                     <head>Opinion du Cabinet de Russie sur la traite des Nègres</head>
                 
             <p>
-                    <rs xml:id="n.5">Le Cabinet de Russie a mis sous les yeux de <rs ref="#p.17" type="person">l’Empereur</rs> et pris d’après Ses ordres en mûre considération <ref target="Aachen_Prot_19.xml Aachen_Prot_23.xml">les diverses communications
+               <rs xml:id="n.5">Le Cabinet de Russie a mis sous les yeux de l’<rs ref="#p.17" type="person">Empereur</rs> et pris d’après Ses ordres en mûre considération les diverses communications
                      faites aux conférences d’<placeName ref="#loc.1">Aix-la-Chapelle</placeName>
                      par <rs ref="#p.9 #p.10" type="multi-person">les Plénipotentiaires de <rs ref="#p.19" type="multi-person">
                                     <choice>
@@ -305,7 +305,7 @@
                               <expan>Sa Majesté</expan>
                            </choice> Britannique</rs>
                             </rs> au sujet de la traite des
-                  Nègres.</ref>
+                  Nègres.
                     </rs>
                     <note type="editorial" target="#n.5">Vgl. Fladeland,
                   Abolitionist Pressures, S. 367–369; Webster, Foreign Policy, Bd. 2, S. 463–464;
@@ -680,7 +680,7 @@
             <p>5<hi rendition="#su">o</hi> Une publication formelle porteroit à la connoissance des
                Etats Barbaresques l’ensemble de ces mesures éventuelles, et préviendroit peut-être
                tout délit propre à nécessiter leur formidable exécution.</p>
-            <p>En dernier lieu, et pour Sa part, <rs ref="#p.17" type="person">l’Empereur</rs> déclare que si, par
+            <p>En dernier lieu, et pour Sa part, l’<rs ref="#p.17" type="person">Empereur</rs> déclare que si, par
                une suite des opérations militaires motivées par l’exécution des articles ci-dessus 3
                et 4, la ligue prenoit possession de quelque point sur la côte septentrionale
                d’Afrique, et jugeoit convenable de s’y maintenir, <rs ref="#p.17" type="person">
@@ -691,14 +691,14 @@
                     </rs>, tout en ayant contribué de Ses forces à cette conquête, ne
                prétendroit nullement à la conserver ni à titre de Colonie, ni sous aucun autre
                prétexte.</p>
-            <p>Le Ministère de <rs ref="#p.17" type="person">l’Empereur</rs>, en articulant ce vote, le terminera
+            <p>Le Ministère de l’<rs ref="#p.17" type="person">Empereur</rs>, en articulant ce vote, le terminera
                par les considérations suivantes : C’est qu’en décidant définitivement<pb n="154r"/>
                sur les bases proposées l’importante question des Barbaresques, et en promettant un
                terme réel à d’humiliantes calamités, les Puissances semblent être appelées à offrir
                au monde un nouveau gage des intentions aussi pures qu’énergiques qui les animent
                pour les grands intérêts de l’humanité. Mais si les vœux que l’Europe forme à cet
                égard ne produisent point à la présente époque des résultats qui paroissent être les
-               seuls analogues à la gravité du mal, <rs ref="#p.17" type="person">l’Empereur de toutes les
+               seuls analogues à la gravité du mal, l’<rs ref="#p.17" type="person">Empereur de toutes les
                   Russies</rs> ne sauroit dorénavant présager avec regret à tous les Etats
                intéressés à la répression des pirateries des Barbaresques d’autre alternative que
                celle de recourir à l’exercice du droit de défense qui appartient à chacun d’eux
