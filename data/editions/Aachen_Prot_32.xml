@@ -199,12 +199,12 @@
                         <abbr>MM</abbr>
                         <expan>Messieurs</expan>
                      </choice> les <rs ref="#p.11 #p.12" type="multi-person">Plénipotentiaires de la Prusse</rs> est le
-                     même qui a été consigné dans le <ref target="Aachen_Prot_32.xml">Protocole du
+                     même qui a été consigné dans le Protocole du
                         14 Novembre (sub <choice>
                            <abbr>n<hi rendition="#su">o</hi>
                                     </abbr>
                            <expan>numéro</expan>
-                        </choice> 32)</ref>."</p>
+                        </choice> 32)."</p>
                </physDesc>
                <history>
                   <origin>
@@ -236,7 +236,7 @@
                </physDesc>
 
             </msDesc>
-            <msDesc xml:id="m.7" type="Konzpet">
+            <msDesc xml:id="m.7" type="Konzept">
                <msIdentifier>
                   <settlement>Wien</settlement>
                   <institution>ÖStA</institution>
@@ -249,7 +249,7 @@
                </msIdentifier>
                <msContents>
                   <msItem>
-                     <title>Anlage 6: Anlage 6: Protokollentwurf betreffend den Zoll von
+                     <title>Anlage 6: Protokollentwurf betreffend den Zoll von
                         Elsfleth</title>
                   </msItem>
                </msContents>
@@ -526,7 +526,7 @@
                     </persName> a fait à <choice>
                   <abbr>Mrs.</abbr>
                   <expan>Messieurs</expan>
-               </choice> les Plénipotentiaires une communication confidentielle relative à des
+                    </choice> les <rs ref="#p.8 #p.9 #p.11 #p.12 #p.13 #p.14 #p.1" type="multi-person">Plénipotentiaires</rs> une communication confidentielle relative à des
                certaines trames profondément criminelles qui ont eu lieu dans les
                   <country>Pays-Bas</country>.</p>
             <p>On a lu le Protocole particulier relatif aux demandes des Princes et Comtes
@@ -553,7 +553,7 @@
                   Territoriaux entre le <rs ref="#p.99" type="person">Roi de Bavière</rs> et le <rs ref="#p.22" type="person">Grand-Duc de Bade</rs>. </rs>
                     <note type="editorial" target="#n.2">Vgl. Huber,
                   Deutsche Verfassungsgeschichte, Bd. 1, S. 324–328.</note>
-               <ref decls="#m.5 #m.6"> Ce Vote se trouve annexé au présent Protocole. </ref>
+               <ref decls="#m.5"> Ce Vote se trouve annexé au présent Protocole.</ref>
             </p>
             <p>
                     <choice>
@@ -608,7 +608,7 @@
                   celle de <placeName ref="#loc.17">Stuttgart</placeName>
                     </rs>
                <subst>
-                  <del rendition="#s">de faire les démarches nécessaires</del>
+                  <del rendition="#s">de faire les démarches nécessaires</del> 
                   <add place="margin">d’employer leurs meilleurs offices et leurs soins</add>
                </subst> pour déterminer le <rs ref="#p.81" type="person">Roi de Würtemberg</rs> à la levée du<pb n="154r"/> séquestre mis sur les possessions du <persName ref="#p.80">
                         <roleName>Prince</roleName>
@@ -652,7 +652,7 @@
                   lettre écrite au <persName ref="#p.96">
                             <roleName>
                                 <subst>
-                           <del rendition="#ow">Prince</del>
+                           <del rendition="#ow">Prince</del> 
                            <add>Princesse</add>
                         </subst>
                             </roleName>
@@ -662,11 +662,11 @@
                             <roleName>Prince</roleName>
                      <surname>de Hohenzollern-Siegmaringen</surname>
                         </rs>
-                    </ref>. <rs ref="#p.11 #p.12 #p.13 #p.14" type="multi-person">
+                    </ref>. 
                         <choice>
                      <abbr>Mrs.</abbr>
                      <expan>Messieurs</expan>
-                  </choice> les Plénipotentiaires de Prusse et de <pb n="154v"/>Russie</rs> en ont
+                        </choice> les <rs ref="#p.11 #p.12 #p.13 #p.14" type="multi-person">Plénipotentiaires de Prusse et de <pb n="154v"/>Russie</rs> en ont
                pris connoissance pour répondre de leur côté au <persName ref="#p.82">
                         <roleName>Prince</roleName>
                   <surname>de La Tour et Taxis</surname>
@@ -712,16 +712,16 @@
                compétence lui permet de disposer à terminer cette affaire par la voie d’une
                Commission médiatrice ou arbitrale.</p>
             <p>
-                    <ref decls="#m.11">
+                    
                   <choice>
                      <abbr>Mr.</abbr>
                      <expan>Monsieur</expan>
                   </choice> le <persName ref="#p.1">
                             <roleName>Duc</roleName>
                      <surname>de Richelieu</surname>
-                        </persName> a fait part de ses observations
-                  ci-annexées sur les dangers dont la navigation et le commerce de l’Europe sont
-                  menacés par la piraterie qui s’exerce dans l’océan à la faveur des troubles <pb n="155r"/>qui agitent l’Amérique Méridionale. </ref>
+                        </persName> a fait part de <ref decls="#m.11">ses observations
+                  ci-annexées</ref> sur les dangers dont la navigation et le commerce de l’Europe sont
+                  menacés par la piraterie qui s’exerce dans l’océan à la faveur des troubles <pb n="155r"/>qui agitent l’Amérique Méridionale. 
                <del rendition="#s">
                         <add hand="#W" place="margin"> Ce Mémoire est le même qui a été
                      annexé (sous le titre de Note sur les Pirates de l’Océan atlantique) au
@@ -747,7 +747,7 @@
                   <country>Etats-Unis de l’Amérique</country>, et d’en informer <choice>
                   <abbr>Mr.</abbr>
                   <expan>Monsieur</expan>
-               </choice> le <persName ref="p.71">
+               </choice> le <persName ref="#p.71">
                         <roleName>
                             <choice>
                         <abbr>Ct.</abbr>
@@ -764,7 +764,7 @@
                             <persName ref="#p.8">Metternich</persName>
                         </item>
                   <item>
-                            <persName ref="#p.1">Richelieus</persName>
+                            <persName ref="#p.1">Richelieu</persName>
                         </item>
                   <item>
                             <persName ref="#p.9">Castlereagh</persName>
@@ -905,7 +905,7 @@
                de la véritable position des choses ; qu’en attendant, Elles chargent néanmoins leurs
                   <rs ref="#p.24 #p.122 #p.39 #p.83" type="multi-person">
                         <rs ref="#p.84 #p.85 #p.86 #p.87 #p.88" type="multi-person">Ministres près les Cours de <placeName ref="#loc.17">Stuttgardt</placeName>
-                        </rs>, <rs xml:id="n.16" ref="#p.119 #p.120 #p.121">de
+                        </rs>, <rs xml:id="n.16" ref="#p.119 #p.120 #p.121" type="multi-person">de
                         <placeName ref="#loc.19">Carlsruhe</placeName>
                         </rs>
                         <note type="multi-editorial" target="#n.16">Großherzogtum Baden. Österreich: Der
@@ -988,7 +988,7 @@
                ils n’auraient à faire usage qu’en suite de l’impulsion qui leur serait donnée<pb n="121r"/> par leurs collègues d’<country>Autriche</country> et de
                   <country>Prusse</country>.</p>
             <p>
-                    <rs ref="#p.8 #p.9 #p.10 #p.11 #p.12 #p.13 #p.14 #p.1" type="multi-person">Messieurs les
+                    Messieurs les <rs ref="#p.8 #p.9 #p.10 #p.11 #p.12 #p.13 #p.14 #p.1" type="multi-person">
                   Plénipotentiaires</rs>, ayant tous été d’avis qu’il était juste de s’occuper des
                intérêts des Pétitionaires et d’assurer par tous les moyens compatibles avec
                l’organisation fédérative de l’Allemagne les droits réels et honorifiques qui sont
@@ -1019,7 +1019,7 @@
                             <persName ref="#p.8">Metternich</persName>
                         </item>
                   <item>
-                            <persName ref="#p.1">Richelieus</persName>
+                            <persName ref="#p.1">Richelieu</persName>
                         </item>
                   <item>
                             <persName ref="#p.9">Castlereagh</persName>
@@ -1065,7 +1065,7 @@
                      commune patrie. »</rs>
                     </quote>
                     <note type="editorial" target="#n.20">Art. 6 der
-                     <rs ref="#t.18" type="treaties">Deutschen Bundesakte</rs>
+                     <rs ref="#t.18" type="treaties">Deutschen Bundesakte</rs>.
                     </note>
                 </p>
          </div>
@@ -1188,31 +1188,33 @@
                positifs que renferme l’<rs ref="#t.18" type="treaties">acte fédératif</rs> en leur faveur ;</p>
             <p>3<hi rendition="#su">o</hi> De ne faire la <pb n="124v"/>demande que
                verbalement ;</p>
+            <p>
+               <add place="margin"> Pour les Ministres d’Autriche &amp; de Prusse</add>
+            </p>
             <p>4<hi rendition="#su">o</hi> D’attendre, avant de parler des voix collectives, des
                instructions ultérieures lesquelles Vous recevrez simultanément avec <choice>
                   <abbr>Mons<hi rendition="#su">r</hi>
                         </abbr>
                   <expan>Monsieur</expan>
                </choice> l’Envoyé de Prusse ;</p>
+            
             <p>
-                    <add place="margin"> Pour les Ministres d’Autriche &amp; de Prusse</add>
-                </p>
+               <add place="margin">Pour les Ministres d’Angleterre, de France et de
+                  Russie.</add>
+            </p>
             <p>4<hi rendition="#su">o</hi> D’attendre l’invitation des <choice>
                   <abbr>M. M.</abbr>
                   <expan>Messieurs</expan>
                </choice> les Envoyés d’Autriche &amp; de Prusse pour entamer l’affaire des voix
                collectives conjointement avec eux.</p>
-            <p>
-                    <add place="margin">Pour les Ministres d’Angleterre, de France et de
-               Russie.</add>
-                </p>
+            
             <signed>
                <list>
                   <item>
                             <persName ref="#p.8">Metternich</persName>
                         </item>
                   <item>
-                            <persName ref="#p.1">Richelieus</persName>
+                            <persName ref="#p.1">Richelieu</persName>
                         </item>
                   <item>
                             <persName ref="#p.9">Castlereagh</persName>
@@ -1320,7 +1322,7 @@
                compter, Sire, que Vous rendiez justice aux motifs qui m’ont
                guidé, et à la marche que j’ai suivie.</p>
             <p>Fidèle à mes engagemens, j’ai donné aux bons offices et aux
-               moyens de persuasion que j’ai employé conjointement avec <rs ref="#p.16 #p.17 #p.19" type="multi-person">les Souverains</rs>, mes Alliés, à ménager à <rs ref="#p.99" type="person">
+               moyens de persuasion que j’ai employé conjointement avec les <rs ref="#p.16 #p.17 #p.19" type="multi-person">Souverains</rs>, mes Alliés, à ménager à <rs ref="#p.99" type="person">
                         <choice>
                      <abbr>V. M.</abbr>
                      <expan>Votre Majesté</expan>
@@ -1359,7 +1361,7 @@
                   <abbr>M<hi rendition="#su">ss</hi>
                         </abbr>
                   <expan>Messieurs</expan>
-               </choice> les Plénipotentiaires des Cinq Cours, considérant :</p>
+                    </choice> les <rs ref="#p.1 #p.8 #p.9 #p.10 #p.11 #p.12 #p.13 #p.14" type="multi-person">Plénipotentiaires des Cinq Cours</rs>, considérant :</p>
             <p>Que d’un côté le <rs ref="#p.76" type="person">Duc d’Oldenbourg</rs>, frustré par la force des
                événemens d’une partie considérable du bénéfice que lui avaient assuré le <rs ref="#t.24" type="treaties" xml:id="n.27">recès de l’Empire de 1803</rs>
                     <note type="editorial" target="#n.27">Vgl. § 8.</note> et le <rs ref="#t.25" type="treaties">traité du <date when="1803-04-06">6 Avril</date> de la même année</rs>, peut-être regardé comme
@@ -1648,7 +1650,7 @@
                             <choice>
                         <abbr>Exp.</abbr>
                         <expan>Expediatur</expan>
-                     </choice>
+                     </choice><lb/>
                      <choice>
                         <abbr>mp.</abbr>
                         <expan>manu propria</expan>
@@ -1823,7 +1825,7 @@
             <p>Il demande :</p>
             <pb n="146r"/>
             <p>1<hi rendition="#su">o</hi> Qu’il soit envoyé des instructions aux <rs ref="#p.103 #p.104 #p.105 #p.106" type="multi-person" xml:id="n.39">Ministres des cinq Cours à
-                  Washington</rs>
+                  <rs ref="#loc.89">Washington</rs></rs>
                     <note type="editorial" target="#n.39">Österreich nahm offiziell
                   erst 1838 diplomatische Beziehungen zu den Vereinigten Staaten von Amerika auf;
                   vgl. Matsch, Wien – Washington, S. 3.</note> pour agir d’accord avec le Ministre
