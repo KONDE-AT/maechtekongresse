@@ -235,13 +235,13 @@
         <body>
             <div hand="#G" decls="#m.1">
                 <pb n="4r"/>
-                <head>
-                    <add hand="#W" place="top">
+                
+                    <head><add hand="#W" place="top">
                         <choice>
                             <abbr>N.</abbr>
                             <expan>Numéro</expan>
-                        </choice> 28.</add>
-                </head>
+                        </choice> 28.</add></head>
+                
                 <opener>
                     <dateline>
                     <placeName ref="#loc.1">Aix-la-Chapelle</placeName> le <date when="1818-11-10">10
@@ -290,7 +290,7 @@
                             <persName ref="#p.8">Metternich</persName>
                         </item>
                         <item>
-                            <persName ref="#p.1">Richelieus</persName>
+                            <persName ref="#p.1">Richelieu</persName>
                         </item>
                         <item>
                             <persName ref="#p.9">Castlereagh</persName>
@@ -390,7 +390,7 @@
                 <p>
                     <hi rendition="#u">Signé</hi>
                 </p>
-                <p>Le <persName>
+                <p>Le <persName ref="#p.26">
                         <roleName>B<hi rendition="#su">on</hi>
                         </roleName>
                         <surname>de Berstett</surname>
@@ -516,7 +516,7 @@
                     sacrifice, il doit être indemnisé, et cela <hi rendition="#u">dans les
                         dimensions les plus rapprochées de Ses Etats</hi>.</p>
                 <p>Ad 1<hi rendition="#su">um</hi>
-                    <ref target="Aachen_Prot_40.xml">Si donc l’on vouloit donner suite aux
+                    <ref target="Aachen_Prot_41.xml">Si donc l’on vouloit donner suite aux
                         engagemens secrets établis par les articles du <rs ref="#t.27" type="treaties">traité de
                                 <placeName ref="#loc.16">Munich</placeName>
                         </rs>
@@ -542,7 +542,7 @@
                     même instant où il accéda au <rs ref="#t.20" type="treaties">traité de <placeName ref="#loc.7">Vienne</placeName> du <date when="1815-05-15">15 Mai
                     1815</date>
                     </rs>.</p>
-                <p>Les articles III et IV de <rs ref="#t.20" type="treaties">ce traité</rs> portent
+                <p>Les articles III et IV de ce traité portent
                     textuellement</p>
                 <p>Article III.</p>
                 <p>
@@ -727,10 +727,10 @@
                         Verfassungsgeschichte, Bd. 1, S. 579–582.</note> au sujet de l’affaire de
                     Bade, et de convenir des principes sur lesquels ce différend seroit applani et
                     réglé définitivement à <placeName ref="#loc.1">Aix-la-Chapelle</placeName>.</p>
-                <p>Elle invita en conséquence le <rs ref="#p.22" type="person">Grand-Duc de Bade</rs> à y envoyer
-                        <rs ref="#p.26" type="person">son Ministre</rs> pour concerter avec <rs ref="#p.8 #p.9 #p.10 #p.11 #p.12 #p.13 #p.14" type="multi-person">les Plénipotentiaires des 4
+                <p>Elle invita en conséquence le <rs ref="#p.22" type="person">Grand-Duc de Bade</rs> à y envoyer son 
+                    <rs ref="#p.26" type="person">Ministre</rs> pour concerter avec les <rs ref="#p.8 #p.9 #p.10 #p.11 #p.12 #p.13 #p.14" type="multi-person">Plénipotentiaires des 4
                         Cours</rs> les mesures les plus propres à terminer les négociations de
-                    Francfort. Le <rs ref="#p.26" type="person">Ministre Badois</rs> devoit à cet effet énoncer la
+                    <placeName ref="#loc.25">Francfort</placeName>. Le <rs ref="#p.26" type="person">Ministre Badois</rs> devoit à cet effet énoncer la
                     nature positive des moyens<pb n="14v"/> que le <rs ref="#p.22" type="person">Grand-Duc de
                         Bade</rs> destinoit à l’accomplissement de ses intentions conciliantes.</p>
                 <p>Les vœux de la Conférence se sont réalisés. <rs ref="#p.100" type="person">Le premier Ministre
@@ -1015,7 +1015,7 @@
                     par le capital offert de deux millions. Ainsi la route de <placeName ref="#loc.38">Frankenthal</placeName> et le baillage de Wertheim sont autant
                     d’avantages additionnels dont elle obtient la jouissance.</p>
                 <p>La <country>Bavière</country> ne peut faire valoir aucun titre à la réversion,
-                    puisqu’elle n’a point adhéré au <rs ref="#t.21" type="treaties">Protocole de Paris</rs> ; elle
+                    puisqu’elle n’a point adhéré au <rs ref="#t.21" type="treaties">Protocole de <placeName ref="#loc.2">Paris</placeName></rs> ; elle
                     reçoit donc plus qu’elle n’étoit en droit de demander.</p>
                 <p>Comme le Cabinet Bavarois ne sauroit réclamer aucun autre dédommagement, il s’en
                     suit que la possibilité d’un refus de sa part au plan de conciliation, proposé
@@ -1081,7 +1081,7 @@
                     <rs ref="#p.17" type="person">Sa Majesté Impériale</rs> pense que, pour combiner tous les
                     intérêts sur des principes équitables, les 4 Puissances pourroient sanctionner
                     d’un commun accord l’arrangement suivant :</p>
-                <p>1<hi rend="superscript">o</hi>
+                <p>1<hi rend="#superscript">o</hi>
                     <choice>
                         <abbr>S. A. R.</abbr>
                         <expan>Son Altesse Royale</expan>
