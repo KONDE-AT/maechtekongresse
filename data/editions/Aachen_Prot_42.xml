@@ -102,7 +102,7 @@
                übernehmen im Konflikt zwischen <persName ref="#p.76">
                         <forename>Peter I.</forename>,
                      <roleName>Herzog von Oldenburg</roleName>
-                    </persName>, und <persName ref="#p.91">
+                    </persName> und <persName ref="#p.91">
                         <forename>Wilhelm Gustav Friedrich</forename>
                   <roleName>Graf</roleName>
                   <surname>von Bentinck</surname>
@@ -158,7 +158,7 @@
                 </head>
             <opener>
                     <dateline>
-                    <placeName rendition="#loc.1">Aix-la-Chapelle</placeName> le <date when="1818-11-20">20 Novembre</date>.</dateline>
+                    <placeName ref="#loc.1">Aix-la-Chapelle</placeName> le <date when="1818-11-20">20 Novembre</date>.</dateline>
                 </opener>
 
             <p>
@@ -195,11 +195,11 @@
                   <surname>de Bentink</surname>
                     </persName> relativement à la <rs xml:id="n.3">Seigneurie de Kniephausen</rs>.<note type="editorial" target="#n.3">Köbler,
                   Historisches Lexikon, S. 339–340.</note>
-                    <rs ref="#p.8 #p.1 #p.9 #p.10 #p.11 #p.12 #p.13 #p.14" type="multi-person">
+                    
                         <choice>
                      <abbr>Mrs.</abbr>
                      <expan>Messieurs</expan>
-                  </choice> les Plénipotentiaires</rs>, regardant cette question comme très
+                        </choice> les <rs ref="#p.8 #p.1 #p.9 #p.10 #p.11 #p.12 #p.13 #p.14" type="multi-person">>Plénipotentiaires</rs>, regardant cette question comme très
                délicate, ont jugé qu’il seroit autant de la prudence que de la justice des Cours
                Alliées de tenter sous la médiation de la <country>Prusse</country> et de la
                   <country>Russie</country>, qui ont d’anciens rapports avec les deux parties
@@ -235,7 +235,7 @@
                             <persName ref="#p.8">Metternich</persName>
                         </item>
                   <item>
-                            <persName ref="#p.1">Richelieus</persName>
+                            <persName ref="#p.1">Richelieu</persName>
                         </item>
                   <item>
                             <persName ref="#p.9">Castlereagh</persName>

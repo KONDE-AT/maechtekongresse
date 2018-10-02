@@ -101,7 +101,7 @@
                <msContents>
                   <msItem>
                      <title>Anlage: Konzept eines Protokolls betreffend die Entschädigung der
-                        ehemaligen Königen von Schweden, Friederike, sowie ihres Sohns
+                        ehemaligen Königin von Schweden, Friederike, sowie ihres Sohns
                         Gustav</title>
                   </msItem>
                </msContents>
@@ -129,7 +129,7 @@
       </encodingDesc>
       <profileDesc>
          <abstract>
-            <p>Die <rs ref="p.#8 #p.1 #p.9 #p.11 #p.12 #p.13 #p.14">Vertreter der Mächte</rs>
+            <p>Die <rs ref="p.#8 #p.1 #p.9 #p.11 #p.12 #p.13 #p.14" type="multi-person">Vertreter der Mächte</rs>
                beschließen, den Kindern der ehemaligen <rs ref="#p.128" type="person">Königin von Schweden</rs>,
                insbesondere aber ihrem Sohn <persName ref="#p.129">
                         <forename>Gustav</forename>
@@ -227,6 +227,7 @@
                   <item>
                             <persName ref="#p.8">Metternich</persName>
                         </item>
+                  <item><persName ref="#p.1">Richelieu</persName></item>
                   <item>
                             <persName ref="#p.9">Castlereagh</persName>
                         </item>
@@ -264,10 +265,10 @@
                         <roleName>Reine</roleName>
                   <forename>Frédérique</forename>
                     </persName> dans la vue de réclamer en faveur de
-               Ses enfans les dispositions généreuses de Leurs Majestés Impériales et Royales, les
+               Ses enfans les dispositions généreuses de Leurs <rs ref="#p.16 #p.17 #p.18 #p.19 #p.15" type="multi-person">Majestés Impériales et Royales</rs>, les
                   <rs ref="#p.8 #p.1 #p.9 #p.11 #p.12 #p.13 #p.14" type="multi-person">Plénipotentiaires d’Autriche, de
                   France, de la Grande-Bretagne, de Prusse et de Russie</rs> se sont réunis en
-               Conférence à l’effet d’aviser aux moyens de remplir les intentions de <rs ref="#p.16 #p.15 #p.19 #p.18 #p.17" type="multi-person">leurs Augustes Maîtres</rs> quant à
+               Conférence à l’effet d’aviser aux moyens de remplir les intentions de leurs Augustes <rs ref="#p.16 #p.15 #p.19 #p.18 #p.17" type="multi-person">Maîtres</rs> quant à
                l’établissement, soit foncier, soit pécuniaire, sollicité pour les enfans de <choice>
                   <abbr>S. M.</abbr>
                   <expan>Sa Majesté</expan>
@@ -282,7 +283,7 @@
                de la <rs ref="#p.128" type="person">Reine</rs> dans la<pb n="179v"/> personne du <persName ref="#p.129">
                         <roleName>Prince</roleName>
                   <forename>Gustave</forename>
-                    </persName>, <rs ref="#p.8 #p.1 #p.9 #p.11 #p.12 #p.13 #p.14" type="multi-person">les Ministres et Plénipotentiaires
+                    </persName>, les <rs ref="#p.8 #p.1 #p.9 #p.11 #p.12 #p.13 #p.14" type="multi-person">Ministres et Plénipotentiaires
                </rs>respectifs ont, en vertu d’autorisations expresses,
                   arrêté<supplied>es</supplied> les dispositions retracées ci-après :</p>
             <p>a. Il sera formé <hi rendition="#u">un fonds</hi> de dotation, composé des
@@ -293,7 +294,7 @@
                     <choice>
                   <abbr>S. M.</abbr>
                   <expan>Sa Majesté</expan>
-               </choice> l’<rs ref="#p.16" type="person">Empereur d’Autriche</rs> ...<supplied/>
+               </choice> l’<rs ref="#p.16" type="person">Empereur d’Autriche</rs> <supplied>...</supplied>
                 </p>
             <p>
                     <choice>
