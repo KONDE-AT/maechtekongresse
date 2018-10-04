@@ -679,7 +679,7 @@
     </xsl:template>
     <!-- reference strings   --> <!-- generic, referring to persons, places, witnesses etc. -->
     <xsl:template match="tei:witness[@corresp]">
-        <xsl:element name="strong">
+        <xsl:element name="span">
             <xsl:element name="a">
                 <xsl:attribute name="class">reference</xsl:attribute>
                 <xsl:attribute name="data-type">listwit.xml</xsl:attribute>
@@ -692,7 +692,7 @@
         </xsl:element>
     </xsl:template>    
     <xsl:template match="tei:persName[@ref]">
-        <xsl:element name="strong">
+        <xsl:element name="span">
             <xsl:element name="a">
                 <xsl:attribute name="class">reference</xsl:attribute>
                 <xsl:attribute name="data-type">listperson.xml</xsl:attribute>
@@ -713,7 +713,7 @@
         </xsl:if>
     </xsl:template>-->
     <xsl:template match="tei:orgName[@ref]">
-        <xsl:element name="strong">
+        <xsl:element name="span">
             <xsl:element name="a">
                 <xsl:attribute name="class">reference</xsl:attribute>
                 <xsl:attribute name="data-type">listorg.xml</xsl:attribute>
@@ -1015,7 +1015,7 @@
     </xsl:template>
     <xsl:template match="tei:country">
         <span>
-            <xsl:attribute name="style">color:purple</xsl:attribute>
+<!--            <xsl:attribute name="style">color:purple</xsl:attribute>-->
             <xsl:attribute name="title">//country</xsl:attribute>
                 <xsl:apply-templates/>
         </span>

@@ -161,7 +161,7 @@
     <xsl:template match="tei:rs[@ref or @key]">
         <xsl:choose>
             <xsl:when test="starts-with(data(./@type), 'multi')">
-                <strong>
+                <span>
                     <xsl:element name="a">
                         <xsl:attribute name="class">reference-multi</xsl:attribute>
                         <xsl:attribute name="data-key">
@@ -170,10 +170,10 @@
                         </xsl:attribute>
                         <xsl:apply-templates/>
                     </xsl:element>
-                </strong>
+                </span>
             </xsl:when>
             <xsl:otherwise>
-                <strong>
+                <span>
                     <xsl:element name="a">
                         <xsl:attribute name="class">reference</xsl:attribute>
                         <xsl:attribute name="data-type">
@@ -185,13 +185,13 @@
                         </xsl:attribute>
                         <xsl:apply-templates/>
                     </xsl:element>
-                </strong>
+                </span>
             </xsl:otherwise>
         </xsl:choose>
     </xsl:template>
 
     <xsl:template match="tei:persName[@key] | tei:persName[@ref]">
-        <strong>
+        <span>
             <xsl:element name="a">
                 <xsl:attribute name="class">reference</xsl:attribute>
                 <xsl:attribute name="data-type">listperson.xml</xsl:attribute>
@@ -201,10 +201,10 @@
                 </xsl:attribute>
                 <xsl:value-of select="."/>
             </xsl:element>
-        </strong>
+        </span>
     </xsl:template>
     <xsl:template match="tei:placeName[@key] | tei:placeName[@ref]">
-        <strong>
+        <span>
             <xsl:element name="a">
                 <xsl:attribute name="class">reference</xsl:attribute>
                 <xsl:attribute name="data-type">listplace.xml</xsl:attribute>
@@ -214,10 +214,10 @@
                 </xsl:attribute>
                 <xsl:value-of select="."/>
             </xsl:element>
-        </strong>
+        </span>
     </xsl:template>
     <xsl:template match="tei:region[@key] | tei:country[@key] | tei:region[@ref] | tei:country[@ref]">
-        <strong>
+        <span>
             <xsl:element name="a">
                 <xsl:attribute name="class">reference</xsl:attribute>
                 <xsl:attribute name="data-type">listplace.xml</xsl:attribute>
@@ -227,12 +227,12 @@
                 </xsl:attribute>
                 <xsl:value-of select="."/>
             </xsl:element>
-        </strong>
+        </span>
     </xsl:template>
     <xsl:template match="tei:date">
         <xsl:element name="span">
             <xsl:attribute name="style">
-                <xsl:text>color:green;</xsl:text>
+<!--                <xsl:text>color:green;</xsl:text>-->
             </xsl:attribute>
             <xsl:if test="@when">
                 <xsl:attribute name="title">ISO: <xsl:value-of select="@when"/>
@@ -276,7 +276,7 @@
         </xsl:element>
     </xsl:template><!-- Bücher -->
     <xsl:template match="tei:bibl">
-        <xsl:element name="strong">
+        <xsl:element name="span">
             <xsl:apply-templates/>
         </xsl:element>
     </xsl:template><!-- Seitenzahlen -->
@@ -439,9 +439,9 @@
     
     
     <xsl:template match="tei:title">
-        <strong>
+        <span>
             <xsl:apply-templates/>
-        </strong>
+        </span>
     </xsl:template>
     
     <xsl:template match="tei:list">
