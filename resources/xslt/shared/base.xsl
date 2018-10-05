@@ -172,6 +172,17 @@
                     </xsl:element>
                 </span>
             </xsl:when>
+            <xsl:when test="./@type eq 'm'">
+                <span>
+                    <xsl:element name="a">
+                        <xsl:attribute name="href">
+                            <xsl:value-of select="@ref"/>
+                            <xsl:value-of select="@key"/>
+                        </xsl:attribute>
+                        <xsl:apply-templates/>
+                    </xsl:element>
+                </span>
+            </xsl:when>
             <xsl:otherwise>
                 <span>
                     <xsl:element name="a">

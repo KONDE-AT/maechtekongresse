@@ -151,7 +151,7 @@
                                 TEI Quelldaten anzeigen
                             </a>
                         </p>
-                        <p style="text-align:center;">
+                        <p style="text-align:center;font-size:larger">
                             <a data-toggle="collapse" data-target="#metadata" title="Klicken für Zeigen/Verbergen">vollständige Header/Metadaten anzeigen</a>
                         </p>
                     </div>
