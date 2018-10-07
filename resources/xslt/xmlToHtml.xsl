@@ -143,16 +143,17 @@
                         </tbody>
                     </table>
                     <div class="panel-footer">
-                        <p style="text-align:center;">
+                        <div class="pull-right">
                             <a>
                                 <xsl:attribute name="href">
                                     <xsl:value-of select="$path2source"/>
                                 </xsl:attribute>
-                                TEI Quelldaten anzeigen
+                                <xsl:attribute name="title">TEI Quelldaten anzeigen</xsl:attribute>
+                                TEI
                             </a>
-                        </p>
-                        <p style="text-align:center;font-size:larger">
-                            <a data-toggle="collapse" data-target="#metadata" title="Klicken für Zeigen/Verbergen">vollständige Header/Metadaten anzeigen</a>
+                        </div>
+                        <p style="text-align:center;">
+                            <a data-toggle="collapse" data-target="#metadata" title="Klicken für Zeigen/Verbergen">Mehr Dokumentinformationen anzeigen</a>
                         </p>
                     </div>
                     </div>
@@ -404,25 +405,33 @@
                     <tbody>
                         <tr>
                             <th>
-                                <abbr title="//tei:editor">Herausgeberin</abbr>
+                                <abbr title="Zitierhilfe">Zitierempfehlung</abbr>
                             </th>
                             <td>
-                                <xsl:for-each select="//tei:author">
-                                    <xsl:apply-templates/>
-                                </xsl:for-each>
+                                <xsl:value-of select="//tei:titleStmt//tei:title[@type='main']"/>
                                 <xsl:if test="//tei:titleStmt/tei:editor">
+                                    <xsl:text>, hrsg. von </xsl:text>
                                     <xsl:for-each select="//tei:titleStmt/tei:editor">
-                                        <xsl:apply-templates/>
-                                    </xsl:for-each>
-                                    <xsl:text>, </xsl:text>
-                                    <xsl:for-each select="//tei:publicationStmt/tei:publisher">
-                                        <xsl:apply-templates/>
+                                        <xsl:value-of select="./tei:persName/tei:forename"/>
+                                        <xsl:text> </xsl:text>
+                                        <xsl:value-of select="./tei:persName/tei:surname"/>
                                     </xsl:for-each>
                                     <xsl:text>, </xsl:text>
                                     <xsl:for-each select="//tei:publicationStmt/tei:pubPlace">
                                         <xsl:apply-templates/>
                                     </xsl:for-each>
+                                    <xsl:text>: </xsl:text>
+                                    <xsl:for-each select="//tei:publicationStmt/tei:publisher">
+                                        <xsl:apply-templates/>
+                                    </xsl:for-each>
                                 </xsl:if>    
+                                <xsl:text> 2018. URL: </xsl:text>
+                                <xsl:value-of select="$xmlFullPath"/>
+                                <xsl:text>, abgerufen </xsl:text>
+                                <xsl:value-of select="format-date(current-date(), '[D01].[M01].[Y0001]')"/>
+                                <xsl:text>, </xsl:text>
+                                <xsl:value-of select="format-time(current-time(), '[H01]:[m01]') "/>
+                                <xsl:text>.</xsl:text>
                             </td>
                         </tr>
                 <xsl:if test="//tei:titleStmt/tei:respStmt">

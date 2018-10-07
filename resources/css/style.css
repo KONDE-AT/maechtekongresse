@@ -39,7 +39,6 @@ body{
     color:#ffffff;
 }
 
-
 .dropdown-submenu {
     position: relative;
 }
@@ -201,8 +200,8 @@ h1,h2 {
 }
 
 .corner-ribbon{
-  width: 200px;
-  background: #e43;
+  width:200px;
+  background:rgba(238,204,0,0.9);
   position: absolute;
   top: 25px;
   left: -50px;
@@ -212,6 +211,7 @@ h1,h2 {
   color: #f0f0f0;
   transform: rotate(-45deg);
   -webkit-transform: rotate(-45deg);
+  z-index:99;
 }
 
 .corner-ribbon.sticky{
