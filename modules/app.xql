@@ -464,11 +464,11 @@ declare function app:listOrg($node as node(), $model as map(*)) {
 };
 
 (:
-Read out all abstracts
+Read out all abstracts regesten
 :)
 declare function app:listAbstract($node as node(), $model as map(*)) {
 let $filterstring := (request:get-parameter("filterstring", ""))
-    let $collection := (request:get-parameter("collection", ""))
+    let $collection := (request:get-parameter("collection", "editions"))
     let $docs := if ($collection)
             then
                 collection(concat($config:app-root, '/data/', $collection, '/'))//tei:TEI

@@ -1081,7 +1081,7 @@
                             <placeName ref="#loc.16">Munich</placeName>,</rs>
                     <rs ref="#p.84 #p.85 #p.86 #p.87 #p.88" type="multi-person">
                             <placeName ref="#loc.17">Stuttgard</placeName>
-                    </rs>, <rs ref="p.119 #p.120 #p.121" xml:id="n.21">
+                    </rs>, <rs ref="p.119 #p.120 #p.121" xml:id="n.21" type="multi-person">
                             <placeName ref="#loc.19">Carlsruhe</placeName>
                     </rs>, <note type="editorial" target="#n.21">Der Posten des österreichischen Gesandten in Karlsruhe war
                      zwischen 16. März und 21. Dezember 1818 vakant; anschließend übernahm Anton
@@ -1650,7 +1650,8 @@
                             <choice>
                         <abbr>Exp.</abbr>
                         <expan>Expediatur</expan>
-                     </choice><lb/>
+                     </choice>
+                            <lb/>
                      <choice>
                         <abbr>mp.</abbr>
                         <expan>manu propria</expan>
@@ -1825,7 +1826,8 @@
             <p>Il demande :</p>
             <pb n="146r"/>
             <p>1<hi rendition="#su">o</hi> Qu’il soit envoyé des instructions aux <rs ref="#p.103 #p.104 #p.105 #p.106" type="multi-person" xml:id="n.39">Ministres des cinq Cours à
-                  <rs ref="#loc.89">Washington</rs></rs>
+                  <rs ref="#loc.89" type="place">Washington</rs>
+                    </rs>
                     <note type="editorial" target="#n.39">Österreich nahm offiziell
                   erst 1838 diplomatische Beziehungen zu den Vereinigten Staaten von Amerika auf;
                   vgl. Matsch, Wien – Washington, S. 3.</note> pour agir d’accord avec le Ministre

@@ -713,7 +713,13 @@
                     </location>
                     <idno type="URI">http://www.geonames.org/2953522/</idno>
             </place>
-             <place xml:id="loc.89"><placeName>Washington</placeName><location><geo></geo></location><idno type="URI">https://www.geonames.org/4140963/</idno></place>
+             <place xml:id="loc.89">
+                    <placeName>Washington</placeName>
+                    <location>
+                        <geo/>
+                    </location>
+                    <idno type="URI">https://www.geonames.org/4140963/</idno>
+                </place>
          </listPlace>
 
       </body>

@@ -3,6 +3,7 @@
     <description>Digitale Edition der Dokumente zu den Kongressen von Aachen (1818), Troppau (1820), Laibach (1821) und Verona (1822)</description>
     <author ref="http://d-nb.info/gnd/129199176">Peter Andorfer</author>
     <author ref="http://d-nb.info/gnd/136442196">Karin Schneider</author>
+    <author ref="http://d-nb.info/gnd/13281899X">Stephan Kurz</author>
     <website/>
     <status>alpha</status>
     <license>GNU-LGPL</license>
@@ -12,5 +13,6 @@
     <prepare>pre-install.xql</prepare>
     <finish>post-install.xql</finish>
     <permissions xmlns:repo="http://exist-db.org/xquery/repo" password="" user="admin" group="dba" mode="rw-rw-r--"/>
+
 
 </meta>
