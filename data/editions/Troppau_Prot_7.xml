@@ -42,7 +42,7 @@
                   </msItem>
                </msContents>
                <physDesc>
-                  <p>Journal von <persName rendition="#p.5">
+                  <p>Journal von <persName ref="#p.5" type="person">
                                 <surname>Gentz</surname>
                             </persName>
                         </p>
@@ -121,7 +121,7 @@
                </msIdentifier>
                <msContents>
                   <msItem>
-                     <title>Anlage 3: Begleitschreiben der britischen Denkschrift</title>
+                     <title>Anlage 3: Begleitschreiben zur britischen Denkschrift</title>
                   </msItem>
                </msContents>
                <physDesc>
@@ -283,9 +283,9 @@
                     <persName ref="#p.137">
                         <roleName>Lord</roleName>
                   <surname>Stewart</surname>
-                    </persName> a fait lire <ref decls="#m.2">un Mémoire du
+                    </persName> a fait lire un <ref decls="#m.2">Mémoire du
                   gouvernement Brittanique, renfermant la déclaration de ce gouvernement sur les
-                  questions traitées dans les sus-dits Mémoires</ref>, et <ref decls="#m.5">une note accompagnant ce
+                  questions traitées dans les sus-dits Mémoires</ref>, et une <ref decls="#m.5">note accompagnant ce
                   Mémoire</ref>. Ces deux
                pièces se trouvent ci-jointes sub <choice>
                   <abbr>Litt</abbr>
@@ -309,8 +309,8 @@
          <div hand="#A" decls="#m.2">
             <pb n="173r"/>
             <p>
-                    <rs ref="#p.137" type="person">The Undersigned,</rs> having transmitted to His Court the <ref target="Troppau_Prot_1.xml Troppau_Prot_2.xml Troppau_Prot_3.xml">Journal of the
-                  Proceedings of the Allied Ministers assembled in Conference down to the <date when="1820-11-07">7<hi rendition="#su">th</hi> November</date> inclusive</ref>,
+                    <rs ref="#p.137" type="person">The Undersigned,</rs> having transmitted to His Court the Journal of the
+                  Proceedings of the Allied Ministers assembled in Conference down to the <date when="1820-11-07">7<hi rendition="#su">th</hi> November</date> inclusive,
                in which Proceedings are contained the Explanatory Memoirs delivered in on the part
                of the <rs ref="#p.8 #p.40 #p.11 #p.12 #p.136 #p.13 #p.14 #p.121" type="multi-person">Austrian, Prussian
                   and Russian Plenipotentiaries</rs>, has received the orders of His Government to
@@ -416,7 +416,7 @@
                   </choice> 3.</note>
                     <rs xml:id="n.5">Dispatch of the <date when="1820-09-16">same date</date>
                     </rs>,<note type="editorial" target="#n.5">Abgedruckt in Londonderry (Hg.), Memoirs and
-                  Correspondence of Viscount Castlereagh, Bd. 12, S. 311–318.</note> addressed<pb n="178r"/> to <rs ref="#p.137" type="person">the Undersigned</rs>, to decline the <rs xml:id="n.6">Austrian Overture of the <date when="1820-08-28">28<hi rendition="#su">th</hi> of August</date>
+                       Correspondence of Viscount Castlereagh, Bd. 12, S. 311–318.</note> addressed<pb n="178r"/> to the <rs ref="#p.137" type="person">Undersigned</rs>, to decline the <rs xml:id="n.6">Austrian Overture of the <date when="1820-08-28">28<hi rendition="#su">th</hi> of August</date>
                     </rs>,<note type="editorial" target="#n.6">Propositions adressées par l’Autriche aux Cours de France, de
                   Grande-Bretagne, die Prusse, de Russie, Wien 28. August 1820; in: ÖStA, HHStA, St.
                   K., Kongressakten, Kart. 21, Fasz. 38/2, fol. 4–8.</note> and they feel equally
@@ -489,7 +489,7 @@
                that the Allied Powers should take an engagement not to recognize, but with common
                consent, the existing order of Things at <country>Naples</country>, so long as the
                Conferences at <placeName ref="#loc.60">Troppau</placeName> shall last, which
-                  Proposition,<pb n="183r"/> having been accepted by <rs ref="#p.13 #p.14 #p.121 #p.11 #p.12 #p.136" type="multi-person">the Russian and Prussian
+               Proposition,<pb n="183r"/> having been accepted by the <rs ref="#p.13 #p.14 #p.121 #p.11 #p.12 #p.136" type="multi-person">Russian and Prussian
                   Plenipotentiaries</rs>, has since, at the instance of the Russian Cabinet, been
                made absolute and without restriction as to time.</p>
             <p>It is not that the British Government has it in contemplation at present to advise
@@ -550,16 +550,16 @@
                     </rs>, recently addressed to the <rs ref="#p.137" type="person">Undersigned</rs> concerning the late Events in
                   <country>Portugal</country>.</p>
             <p>
-                    <ref target="Troppau_Prot_3.xml">There only remains for the <rs ref="#p.137" type="person">Undersigned</rs> to observe upon the idea, which prevails throughout these
+                    There only remains for the <rs ref="#p.137" type="person">Undersigned</rs> to observe upon the idea, which prevails throughout these
                   Memoirs, but which appears to be somewhat more specifically treated of in that
-                  delivered by <rs ref="#p.13 #p.14 #p.121" type="multi-person">the Russian Plenipotentiaries</rs>,
+                  delivered by the <rs ref="#p.13 #p.14 #p.121" type="multi-person">Russian Plenipotentiaries</rs>,
                   namely that of some general systematic and solemn Declaration, to be agreed upon
                   and promulgated on the present occasion, of the Principle, by which the Conduct of
                   the five<pb n="185v"/> Great European Powers is to be in future regulated with
                   regard to States, the established Governments of which shall undergo some violent
                   change by means similar to those by which the late Events in
                      <country>Spain</country>, <country>Portugal</country> and
-                     <country>Naples</country> have been brought about.</ref>
+                     <country>Naples</country> have been brought about.
                 </p>
             <p>
                     <ref target="Aachen_Dok_50.xml">The Principles therein thrown out for consideration
@@ -572,7 +572,7 @@
                   absolute Impracticability, in which the whole Subject was involved.</ref>
                 </p>
             <p>
-                    <rs xml:id="n.12">The Memoir presented by <rs ref="#p.9 #p.10" type="multi-person">the British
+               <rs xml:id="n.12">The Memoir presented by the <rs ref="#p.9 #p.10" type="multi-person">British
                      Plenipotentiaries</rs> on that occasion, bearing date the <date when="1818-09-15">15<hi rendition="#su">th</hi> September
                   1818</date>
                     </rs>,<note type="editorial" target="#n.12">Der Kongress von <placeName ref="#loc.1">Aachen</placeName> begann erst am <date when="1818-09-29">29.
@@ -733,16 +733,15 @@
                in any future discussions that may take place on this subject.</p>
             <p>
                     <rs ref="#p.9" type="person">I</rs> consider it may be convenient in this Dispatch to lay wholly
-               out of view the Instructions transmitted to <rs ref="#p.144 #p.148 #p.149" type="multi-person">the
-                  Austrian, Prussian and Russian Ministers<pb n="131r"/> at <placeName ref="#loc.11">Naples</placeName>
+               out of view the Instructions transmitted to the <rs ref="#p.144 #p.148 #p.149" type="multi-person">Austrian, Prussian and Russian Ministers<pb n="131r"/> at <placeName ref="#loc.11">Naples</placeName>
                     </rs>, together with the Autographic Letters addressed by
-                  <rs ref="#p.16 #p.18 #p.17" type="multi-person">the August Sovereigns assembled at <placeName ref="#loc.60">Troppau</placeName>
+               the August <rs ref="#p.16 #p.18 #p.17" type="multi-person">Sovereigns assembled at <placeName ref="#loc.60">Troppau</placeName>
                     </rs> to <rs ref="#p.138" type="person">His Sicilian
                   Majesty</rs>.</p>
             <p>
-                    <ref decls="#m.2">The Note, which <rs ref="#p.137" type="person">Your Excellency</rs> has already
+                    The Note, which <rs ref="#p.137" type="person">Your Excellency</rs> has already
                   been directed to present to the Conference, will have fully explained, why the <rs ref="#p.130" type="person">King</rs> feels Himself bound to decline any direct Participation
-                  in those Measures.</ref>
+                  in those Measures.
                 </p>
             <p>Under this view of His duty, <rs ref="#p.130" type="person">His Majesty</rs> does not deem it
                   expedient<pb n="131v"/> to appoint a Plenipotentiary to take part in His Majesty’s
@@ -761,8 +760,8 @@
                     </ref>
                which appears to have been presented to the Conference at<pb n="132v"/>
                <placeName ref="#loc.60">Troppau</placeName> on the <date when="1820-11-19">19<hi rendition="#su">th</hi> Ultimo</date>, as an Act agreed upon and executed by
-                  <rs ref="#p.8 #p.40 #p.11 #p.12 #p.136 #p.13 #p.14 #p.121" type="multi-person">the Plenipotentiaries
-                  of the three Powers</rs>, without any previous Communication with <rs ref="#p.137 #p.102 #p.135" type="multi-person">the British and French Ministers</rs>.</p>
+               the <rs ref="#p.8 #p.40 #p.11 #p.12 #p.136 #p.13 #p.14 #p.121" type="multi-person">Plenipotentiaries
+                  of the three Powers</rs>, without any previous Communication with the <rs ref="#p.137 #p.102 #p.135" type="multi-person">British and French Ministers</rs>.</p>
             <p>The formal Signatures to this Protocol having, in consequence of <rs ref="#p.137" type="person">Your Excellency’s</rs> observations, been withdrawn, it was declared on the <rs xml:id="n.18">Proceedings of the following day by the Memoirs of the<pb n="133r"/>
                   three Courts</rs>
                     <note type="editorial" target="#n.18">Liegen nicht ein – bei den

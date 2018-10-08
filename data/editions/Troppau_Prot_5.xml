@@ -300,10 +300,10 @@
                </choice> le <persName ref="#p.102">
                         <roleName>Marquis</roleName>
                   <surname>de Caraman</surname>
-                    </persName> a fait à la conférence les <ref decls="#m.2 #m.3">deux communications ci-jointes sub <choice>
+                    </persName> a fait à la conférence les deux communications ci-jointes sub <choice>
                      <abbr>Litt</abbr>
                      <expan>Litteris</expan>
-                  </choice> A et B</ref> :</p>
+                  </choice> <ref decls="#m.2">A</ref> et <ref decls="#m.4">B</ref> :</p>
             <p>La première pour rendre compte du motif et des suites de la démarche confidentielle
                qu’il avoit faite envers <choice>
                   <abbr>Mrs.</abbr>
@@ -323,10 +323,10 @@
                de <choice>
                   <abbr>S. M.</abbr>
                   <expan>Sa Majesté</expan>
-               </choice> le <rs ref="#p.15" type="person">Roi de France</rs> a envisagé <ref target="Troppau_Prot_1.xml Troppau_Prot_2.xm. Troppau_Prot_3.xml">les Mémoires
-                  remis à la Conférence par les Cabinets d’Autriche, de Prusse et de Russie le <date when="1820-10-23">23</date> et <date when="1820-10-29">29 Octobre</date> et
-                     <date when="1820-11-02">2 Novembre</date>
-                    </ref>.</p>
+               </choice> le <rs ref="#p.15" type="person">Roi de France</rs> a envisagé les Mémoires
+                  remis à la Conférence par les Cabinets d’Autriche, de Prusse et de Russie le <ref target="Troppau_Prot_1.xml"><date when="1820-10-23">23</date></ref> et <ref target="Troppau_Prot_2.xml"><date when="1820-10-29">29 Octobre</date></ref> et
+                     <ref target="Troppau_Prot_3.xml"><date when="1820-11-02">2 Novembre</date></ref>
+                    .</p>
             <p>Après la lecture de ces deux pièces, <choice>
                   <abbr>Mr.</abbr>
                   <expan>Monsieur</expan>
@@ -459,7 +459,7 @@
             <p>Les Cabinets d’Autriche, de Prusse et de Russie venaient d’exposer leurs premières
                opinions sur la grande question qui les occupe lorsque l’<rs ref="#p.102" type="person">Ambassadeur
                   de France près la Cour de <placeName ref="#loc.7">Vienne</placeName>
-                    </rs>, mu par
+                    </rs>, mû par
                le désir sincère de leur offrir – s’il était possible – un nouveau moyen de succès,
                crut devoir communiquer à <choice>
                   <abbr>M<hi rendition="#su">r</hi>
@@ -507,14 +507,14 @@
             <p>Aussi le gouvernement français, en même tems qu’il rejettait toute espèce d’ouverture
                de la part des agens Napolitains et qu’il constatait ainsi son invariable
                détermination de<pb n="84r"/> suivre à cet égard l’exemple de ses alliés, a donné à
-                  <rs ref="#p.102 #p.135" type="multi-person">ses Plénipotentiaires</rs> l’ordre de mettre, pour ainsi
+               ses <rs ref="#p.102 #p.135" type="multi-person">Plénipotentiaires</rs> l’ordre de mettre, pour ainsi
                dire, à la disposition des Puissances toute l’influence que <rs ref="#p.15" type="person">Sa
                   Majesté</rs> pourrait exercer à <country>Naples</country> dans le dessein d’amener
-               ou de hâter l’accomplissement des vœux que <rs ref="#p.16 #p.18 #p.17" type="multi-person">ses augustes
+               ou de hâter l’accomplissement des vœux que ses <rs ref="#p.16 #p.18 #p.17" type="multi-person">augustes
                   alliés</rs> forment pour le bonheur de ce pays et pour sa paisible réconciliation
                avec le reste de l’Europe.</p>
             <p>
-                    <rs ref="#p.102 #p.135" type="multi-person">Les Plénipotentiaires français</rs> exécutent aujourd’hui cet
+               Les <rs ref="#p.102 #p.135" type="multi-person">Plénipotentiaires français</rs> exécutent aujourd’hui cet
                ordre ; toutefois considérant que déjà des démarches directes ont été faites auprès
                de <rs ref="#p.138" type="person">Sa Majesté Sicilienne</rs> ; que l’intention pacifique qui a
                dicté ces démarches ne peut qu’être partagée par leur gouvernement ;<pb n="84v"/>
@@ -528,13 +528,13 @@
                spectacle affligeant d’une nouvelle guerre, aux alliés la pénible nécessité de
                l’entreprendre.</p>
             <p>
-                    <rs ref="#p.102 #p.135" type="multi-person">Les Plénipotentiaires français</rs>
+               Les <rs ref="#p.102 #p.135" type="multi-person">Plénipotentiaires français</rs>
                     <pb n="85r"/> portent
                cette déclaration aux actes de la conférence et se félicitent de pouvoir y joindre la
                réponse du Gouvernement du Roi aux mémoires présentés par les Cabinets d’Autriche, de
-               Prusse et de Russie dans <ref target="Troppau_Prot_1.xml Troppau_Prot_2.xml Troppau_Prot_3.xml">les séances des
-                     <date when="1820-10-23">23</date> et <date when="1820-10-29">29 Octobre</date>
-                  et <date when="1820-11-07">7 Novembre</date> derniers</ref>.</p>
+               Prusse et de Russie dans les séances des
+                     <ref target="Troppau_Prot_1.xml"><date when="1820-10-23">23</date></ref> et <ref target="Troppau_Prot_2.xml"><date when="1820-10-29">29 Octobre</date></ref>
+                  et <ref target="Troppau_Prot_3.xml"><date when="1820-11-07">7 Novembre</date></ref> derniers.</p>
          </div>
 
          <div hand="#A" decls="#m.3">
@@ -546,7 +546,7 @@
                sujet, les <ref target="Troppau_Prot_1.xml">mémoires remis aux conférences de <placeName ref="#loc.60">Troppau</placeName> le
                   <date when="1820-10-23">23 Octobre</date> par le Cabinet Autrichien</ref>, <ref target="Troppau_Prot_2.xml">le <date when="1820-10-29">29</date> par le cabinet Prussien</ref> et <ref target="Troppau_Prot_3.xml">le <date when="1820-11-02">2 Novembre</date> par le cabinet Russe</ref>. L’accord de
                principes qui se rencontre dans ces trois pièces est une conséquence naturelle de
-               l’élévation de caractère et de la loyauté de sentimens qui distinguent <rs ref="#p.16 #p.18 #p.17" type="multi-person">les Augustes Souverains</rs> réunis à <placeName ref="#loc.60">Troppau</placeName>. On remarquera que les mêmes principes ont été
+               l’élévation de caractère et de la loyauté de sentimens qui distinguent les <rs ref="#p.16 #p.18 #p.17" type="multi-person">Augustes Souverains</rs> réunis à <placeName ref="#loc.60">Troppau</placeName>. On remarquera que les mêmes principes ont été
                   <rs xml:id="n.3">la base du mémoire qui a été remis aux Cours<pb n="86v"/> alliées
                   dans le courant du mois d’Août</rs>.<note type="editorial" target="#n.3">Mémoire
                   du Cabinet des Thuileries sur les évènemens à Naples, Paris August 1820; in: ÖStA,
@@ -745,7 +745,7 @@
                perpétuée enfin par les <rs ref="#t.37 #t.13 #t.1 #t.6 #t.9 #t.42" type="multi-treaties">actes de 1814,
                   1815 et 1818 </rs>; que cette union qui a préparé, fondé et complété la
                pacification du monde, ayant délivré le Continent du despotisme Militaire exercé par
-                  <rs ref="#p.50" type="person">l’homme de la révolution</rs>, le délivreroit également d’un
+               l’<rs ref="#p.50" type="person">homme de la révolution</rs>, le délivreroit également d’un
                pouvoir nouveau non moins tyrannique et non moins désastreux du pouvoir, du crime et
                de la révolte.</p>
             <p>Tels ont été les motifs et le but de la réunion de <placeName ref="#loc.60">Troppau</placeName>. Les uns doivent être si généralement sentis qu’ils ne
@@ -781,8 +781,8 @@
                soit de <subst>
                   <del rendition="#s">persuasion</del>
                   <add place="above">conciliation</add>
-               </subst>, <ref target="Troppau_Prot_4.xml">soit de force, propres à ramener au sein
-                  de l’alliance ceux de ces Etats sur lesquels on pourroit exercer une action<pb n="96r"/> salutaire et efficace</ref>.</p>
+               </subst>, soit de force, propres à ramener au sein
+                  de l’alliance ceux de ces Etats sur lesquels on pourroit exercer une action<pb n="96r"/> salutaire et efficace.</p>
             <p>Comme la révolution de <country>Naples</country> jette tous les jours des racines
                plus profondes, <subst>
                   <del rendition="#s">il a été proposé</del>
@@ -792,7 +792,7 @@
                      nécessité</add>
                </subst> de faire au <country>Royaume des Deux-Siciles</country> l’application
                immédiate des principes qui viennent d’être indiqués.</p>
-            <p>Afin d’entamer à son égard les mesures de conciliation, <rs rendition="#p.16 #p.18 #p.17">les Souverains présens à <placeName rendition="#loc.60">Troppau</placeName>
+            <p>Afin d’entamer à son égard les mesures de conciliation, les <rs rendition="#p.16 #p.18 #p.17">Souverains présens à <placeName rendition="#loc.60">Troppau</placeName>
                     </rs> ont adressé à <rs ref="#p.138" type="person">
                         <choice>
                      <abbr>S. M.</abbr>

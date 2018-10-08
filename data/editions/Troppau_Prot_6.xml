@@ -42,7 +42,7 @@
                   </msItem>
                </msContents>
                <physDesc>
-                  <p>Journal von <persName rendition="#p.5">
+                  <p>Journal von <persName ref="#p.5" type="person">
                                 <surname>Gentz</surname>
                             </persName>
                         </p>
@@ -76,7 +76,7 @@
                </msIdentifier>
                <msContents>
                   <msItem>
-                     <title>Erklärung des russischen Kabinetts</title>
+                     <title>Anlage 1: Erklärung des russischen Kabinetts</title>
                   </msItem>
                </msContents>
                <physDesc>
@@ -300,7 +300,7 @@
                   <abbr>Mrs.</abbr>
                   <expan>Messieurs</expan>
                </choice>
-                    <rs ref="#p.102 #p.135 #p.137" type="multi-person">les Ambassadeurs de France et de Grande-Bretagne</rs>
+               les <rs ref="#p.102 #p.135 #p.137" type="multi-person">Ambassadeurs de France et de Grande-Bretagne</rs>
                d’une démarche qu’Ils comptoient faire à la Cour de <placeName ref="#loc.6">Rome</placeName> pour déterminer le <rs ref="#p.155" type="person">Saint-Père</rs> à se charger
                des fonctions de Médiateur dans les affaires de <country>Naples</country>, on a
                communiqué aujourd’hui relativement à cette démarche les pièces suivantes :</p>
@@ -341,10 +341,10 @@
                     <add hand="#AmB" place="top">ad <choice>
                      <abbr>Prot</abbr>
                      <expan>Protocol</expan>
-                  </choice> VI A <choice>
+                  </choice> VI <lb/>A<lb/> <choice>
                      <abbr>N.</abbr>
                      <expan>Numéro</expan>
-                  </choice> 3.</add>
+                  </choice> 3.</add><lb/>
                     <add hand="#AmB" place="top">
                         <date when="1820-12-06">6/12.</date>
                     </add>
@@ -430,10 +430,10 @@
             <p>Dès lors les mesures coercitives deviendraient indispensables et devraient être
                exécutées.</p>
             <p>Mais sur qui retomberaient-elles en dernière analyse ? – Sur une nation qui a cru
-               obéir aux ordres de <rs ref="#p.138" type="person">Son Souverain</rs>, et à la quelle il
+               obéir aux ordres de Son <rs ref="#p.138" type="person">Souverain</rs>, et à la quelle il
                n’appartenait pas de juger si ces ordres étaient, ou non,<pb n="106r"/> l’expression
                libre et sincère de sa pensée et de ses vœux ; sur une nation qui, imitant l’exemple
-               de <rs ref="#p.138" type="person">Son Roi</rs>, a prêté à la face de Dieu et des hommes un serment
+               de Son <rs ref="#p.138" type="person">Roi</rs>, a prêté à la face de Dieu et des hommes un serment
                solennel aux loix dont l’adoption constituerait le crime qui attirerait sur elle le
                fléau de la guerre.</p>
             <p>Ignorant de fait, ou devant être censée ignorer la volonté indépendante et véritable
@@ -573,7 +573,7 @@
                s’adresser collectivement au <rs ref="#p.155" type="person">Pape</rs> pour inviter Sa Sainteté à Se
                charger de cette médiation<pb n="111v"/> dans l’hypothèse où le <rs ref="#p.138" type="person">Roi</rs> ne pourrait point se rendre à l’invitation des <rs ref="#p.16 #p.18 #p.17" type="multi-person">Monarques</rs>.</p>
             <p>Si cette proposition était agréée, le Cabinet de <placeName ref="#loc.10">S<hi rendition="#su">t</hi> Péterbourg</placeName> se ferait un devoir de soumettre
-               aux délibérations de la Conférence le projet des instructions dont <rs ref="#p.156 #p.157 #p.158" type="multi-person">les Ministres respectifs à <placeName ref="#loc.6">Rome</placeName>
+               aux délibérations de la Conférence le projet des instructions dont les <rs ref="#p.156 #p.157 #p.158" type="multi-person">Ministres respectifs à <placeName ref="#loc.6">Rome</placeName>
                     </rs> seraient munis.</p>
          </div>
 
@@ -638,7 +638,7 @@
                      <abbr>S. M. I.</abbr>
                      <expan>Sa Majesté Impériale</expan>
                   </choice>
-                    </rs>, ainsi que <rs ref="#p.18 #p.17" type="multi-person">les augustes Monarques Ses
+               </rs>, ainsi que les augustes <rs ref="#p.18 #p.17" type="multi-person">Monarques Ses
                   alliés</rs>, se sont décidés à suivre immuablement comme les seuls qui puissent
                conduire la catastrophe de <country>Naples</country> à une fin salutaire non
                seulement pour ce Royaume, mais pour l’Europe entière, elle couronne, pour ainsi
@@ -751,7 +751,7 @@
             <p>Dès lors les mesures coercitives deviendroient indispensables et devraient être
                exécutées.</p>
             <p>Mais sur qui retomberaient-elles en dernière analyse ? Sur une nation qui a cru obéir
-               aux ordres de <rs ref="#p.138" type="person">Son Souverain</rs> et à laquelle il n’appartenait pas
+               aux ordres de Son <rs ref="#p.138" type="person">Souverain</rs> et à laquelle il n’appartenait pas
                de juger si ces ordres étaient, ou non, l’expression libre et sincère de Sa pensée et
                de Ses vœux ; sur une nation qui, imitant l’exemple de Son <rs ref="#p.138" type="person">Roi</rs>,
                a prêté à<pb n="117r"/> la face de Dieu et des hommes un serment solemnel aux loix
@@ -825,7 +825,7 @@
                anathèmes.</p>
             <p>Ces démarches de conciliation et à la fois de salut auxquelles se joindrait l’aspect
                menaçant d’une force armée, prête à amener en dernier résultat la réalisation
-               immanquable des desseins que les Cours alliées forment, produiroient, <rs ref="#p.16 #p.18 #p.17" type="multi-person">les Monarques</rs> s’en flattent, une impression décisive
+               immanquable des desseins que les Cours alliées forment, produiroient, les <rs ref="#p.16 #p.18 #p.17" type="multi-person">Monarques</rs> s’en flattent, une impression décisive
                sur la nation, ou du moins sur la partie de cette nation que la contagion n’a point
                encore pervertie.</p>
             <p>On pourrait espérer alors qu’en se ralliant à l’autorité neutre et<pb n="119v"/>
@@ -881,7 +881,7 @@
                                     <hi rendition="#su #u">t</hi>
                                 </abbr>
                         <expan>Saint</expan>
-                     </choice> Père</rs>
+                     </choice> <hi rendition="#u">Père</hi></rs>
                         <hi rendition="#u"> de se charger des fonctions de Médiateur
                      dans les affaires de <country>Naples</country>
                         </hi>
@@ -1131,7 +1131,7 @@
                             </abbr>
                      <expan>Saint</expan>
                   </choice> Père</rs> réussira, et il réussira, soit en portant la nation à briser
-               le joug qui pèse sur <rs ref="#p.138" type="person">son Souverain</rs> et sur elle-même, soit à
+               le joug qui pèse sur son <rs ref="#p.138" type="person">Souverain</rs> et sur elle-même, soit à
                solliciter l’appui dont elle auroit besoin dans ses nobles efforts.</p>
             <p>Quelle que puisse être de ces deux alternatives celle qui se réalisera, <rs ref="#p.155" type="person">
                         <choice>

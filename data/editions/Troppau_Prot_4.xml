@@ -134,7 +134,7 @@
                </msIdentifier>
                <msContents>
                   <msItem>
-                     <title>Anlage 3: Konzept eines Briefs Kaiser Franz I. an Ferdinand I., König
+                     <title>Anlage 3: Konzept eines Briefs von Kaiser Franz I. an Ferdinand I., König
                         beider Sizilien</title>
                   </msItem>
                </msContents>
@@ -395,7 +395,7 @@
                   <abbr>M<hi rendition="#su">rs</hi>
                         </abbr>
                   <expan>Monsieurs</expan>
-               </choice> les <rs ref="#p11 #p.12 #p.136 #p.13 #p.14 #p.121">Ministres de Prusse et
+               </choice> les <rs ref="#p11 #p.12 #p.136 #p.13 #p.14 #p.121" type="multi-person">Ministres de Prusse et
                   de Russie</rs> :</p>
             <p>Qu’en conséquence des explications précédentes, les réunions confidentielles entre
                les trois Cabinets ne peuvent point être considérées comme des Conférences ;</p>
@@ -599,35 +599,35 @@
                   </choice> 1820</date>
                 </dateline>
                 </closer>
-            <signed>signé: <rs xml:id="n.6">
+            <signed>signé: <list><item><rs xml:id="n.6">
                         <persName ref="#p.8">
                             <surname>Metternich</surname>
                         </persName>
-                    </rs>
-                <lb/>
-                    <rs xml:id="n.7">
+                    </rs></item>
+                
+                    <item><rs xml:id="n.7">
                         <persName ref="#p.11">
                             <surname>Hardenberg</surname>
                         </persName>
-                    </rs>
-               <lb/>
-                    <rs xml:id="n.8">
+                    </rs></item>
+               
+                    <item><rs xml:id="n.8">
                         <persName ref="#p.12">
                             <surname>Bernstorff</surname>
                         </persName>
-                    </rs>
-                <lb/>
-                    <rs xml:id="n.9">
+                    </rs></item>
+                
+                    <item><rs xml:id="n.9">
                         <persName ref="#p.13">
                             <surname>Nesselrode</surname>
                         </persName>
-                    </rs>
-                <lb/>
-                    <rs xml:id="n.10">
+                    </rs></item>
+                
+                    <item><rs xml:id="n.10">
                         <persName ref="#p.14">
                             <surname>Capodistrias</surname>
                         </persName>
-                    </rs>
+                    </rs></item></list>
                     <note type="editorial" target="#n.6 #n.7 #n.8 #n.9 #n.10">Unterschriften abschriftlich
                   überliefert.</note>
             </signed>
@@ -649,7 +649,7 @@
                      </choice> 1820</date>
                     </head>
                 
-            <p>Conformément aux principes établis dans le <ref decls="#m.3">Protocole préliminaire
+            <p>Conformément aux principes établis dans le <ref decls="#m.2">Protocole préliminaire
                   de ce jour</ref>, &amp; afin de donner suite à l’application de ces principes aux
                affaires de <country>Naples</country>, les Cabinets ayant signé le dit Protocole sont
                convenus :</p>
@@ -659,10 +659,10 @@
                      <expan>Sa Majesté</expan>
                   </choice> Sicilienne</rs>
                <ref decls="#m.4">la lettre d’invitation jointe au présent Protocole</ref> ;</p>
-            <p>2<hi rendition="#su">o</hi> De l’accompagner <rs ref="#p.144 #p.148 #p.149" type="multi-person">de <ref decls="#m.5">l’instruction également ci-jointe, adressée aux Ministres des
-                     Cours d’Autriche, de Prusse &amp; de Russie résidant à <placeName ref="#loc.11">Naples</placeName>
+            <p>2<hi rendition="#su">o</hi> De l’accompagner de <ref decls="#m.5">l’instruction également ci-jointe, adressée aux <rs ref="#p.144 #p.148 #p.149" type="multi-person">Ministres des
+                     Cours d’Autriche, de Prusse &amp; de Russie</rs> résidant à <placeName ref="#loc.11">Naples</placeName>
                         </ref>
-                    </rs>.</p>
+                    .</p>
             <p>En se décidant à cette démarche les Cabinets ont eu en vue :</p>
             <p>1<hi rendition="#su">o</hi> De ne négliger aucun des moyens qui sont en leur pouvoir
                pour mettre <rs ref="#p.138" type="person">
@@ -715,35 +715,35 @@
                   </choice> 1820</date>
                 </dateline>
                 </closer>
-            <signed>signé: <rs xml:id="n.16">
+            <signed>signé: <list><item><rs xml:id="n.16">
                         <persName ref="#p.8">
                             <surname>Metternich</surname>
                         </persName>
-                    </rs>
-                <lb/>
-                    <rs xml:id="n.17">
+                    </rs></item>
+                
+                    <item><rs xml:id="n.17">
                         <persName ref="#p.11">
                             <surname>Hardenberg</surname>
                         </persName>
-                    </rs>
-                <lb/>
-                    <rs xml:id="n.18">
+                    </rs></item>
+                
+                    <item><rs xml:id="n.18">
                         <persName ref="#p.12">
                             <surname>Bernstorff</surname>
                         </persName>
-                    </rs>
-                <lb/>
-                    <rs xml:id="n.19">
+                    </rs></item>
+                
+                    <item><rs xml:id="n.19">
                         <persName ref="#p.13">
                             <surname>Nesselrode</surname>
                         </persName>
-                    </rs>
-                <lb/>
-                    <rs xml:id="n.20">
+                    </rs></item>
+                
+                    <item><rs xml:id="n.20">
                         <persName ref="#p.14">
                             <surname>Capodistrias</surname>
                         </persName>
-                    </rs>
+                    </rs></item></list>
                     <note type="editorial" target="#n.16 #n.17 #n.18 #n.19 #n.20">Unterschriften abschriftlich
                   überliefert.</note>
                 </signed>
@@ -802,7 +802,7 @@
                      <abbr>V. M.</abbr>
                      <expan>Votre Majesté</expan>
                   </choice>
-                    </rs> doit désirer faire jouir Ses peuples, avec les devoirs que <rs ref="#p.16 #p.18 #p.17" type="multi-person">les Monarques alliés</rs> ont à remplir envers leurs Etats
+               </rs> doit désirer faire jouir Ses peuples, avec les devoirs que les <rs ref="#p.16 #p.18 #p.17" type="multi-person">Monarques alliés</rs> ont à remplir envers leurs Etats
                &amp; envers le monde. Mais nous nous féliciterions, mes Alliés &amp; moi, d’exécuter
                ces engagemens solennels avec la coopération de <rs ref="#p.138" type="person">
                         <choice>
@@ -895,7 +895,7 @@
                   <abbr>M.M.</abbr>
                   <expan>Messieurs</expan>
                </choice>
-                    <rs ref="#p.149 #p.148" type="multi-person">les Envoyés de Russie &amp; de Prusse</rs> sur la marche à
+               les <rs ref="#p.149 #p.148" type="multi-person">Envoyés de Russie &amp; de Prusse</rs> sur la marche à
                suivre pour obtenir des audiences particulières du <rs ref="#p.138" type="person">Roi</rs>, &amp;
                pour remettre à <rs ref="#p.138" type="person">
                         <choice>
@@ -927,13 +927,13 @@
                      <abbr>S. M.</abbr>
                      <expan>Sa Majesté</expan>
                   </choice>
-                    </rs> que <rs ref="#p.16 #p.17 #p.18" type="multi-person">les Monarques</rs> vont se rendre à
+               </rs> que les <rs ref="#p.16 #p.17 #p.18" type="multi-person">Monarques</rs> vont se rendre à
                   <placeName ref="#loc.65">Laybach</placeName> pour l’y attendre.</p>
             <p>En Vous acquittant de ces ordres, Vous aurez soin de prévenir <choice>
                   <abbr>S. M.</abbr>
                   <expan>Sa Majesté</expan>
                </choice>
-                    <rs ref="#p.138" type="person">le Roi</rs> que <rs ref="#p.16 #p.17 #p.18" type="multi-person">
+               le <rs ref="#p.138" type="person">Roi</rs> que <rs ref="#p.16 #p.17 #p.18" type="multi-person">
                         <choice>
                      <abbr>L.L. M.M. I.I. &amp; R.R.</abbr>
                      <expan>Leurs Majestés Impériales et Royales</expan>
@@ -958,7 +958,7 @@
                   <abbr>S. M.</abbr>
                   <expan>Sa Majesté</expan>
                </choice>
-                    <rs ref="#p.138" type="person">le Roi</rs> Vous témoignât le désir d’être mis en possession du
+               le <rs ref="#p.138" type="person">Roi</rs> Vous témoignât le désir d’être mis en possession du
                contenu de Vos instructions, Vous êtes autorisé à les Lui confier.</p>
             <p>La présente communication étant adressée directement à la personne du <rs ref="#p.138" type="person">Roi</rs>, il est entendu que pour Vous en acquitter, Vous n’entriez
                dans aucune explication officielle avec <rs ref="#p.145" type="person">Son Ministre</rs>.</p>

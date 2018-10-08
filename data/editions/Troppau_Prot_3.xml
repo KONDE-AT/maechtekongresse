@@ -164,7 +164,7 @@
                <msContents>
                   <msItem>
                      <title>Anlage 4: Entgegnung des österreichischen Kabinetts auf die russische
-                        Erklärung vom 21. Oktober/2. November</title>
+                        Erklärung vom 21. Oktober/2. November 1820</title>
                   </msItem>
                </msContents>
                <physDesc>
@@ -251,7 +251,7 @@
                </msIdentifier>
                <msContents>
                   <msItem>
-                     <title>Anlage 7: Erklärung des russischen Kabinetts, betreffend die Vorschläge
+                     <title>Anlage 7: Erklärung des russischen Kabinetts betreffend die Vorschläge
                         der österreichischen Regierung </title>
                   </msItem>
                </msContents>
@@ -433,7 +433,7 @@
                   conférence</ref>, <choice>
                   <abbr>Mrs.</abbr>
                   <expan>Messieurs</expan>
-               </choice> les <rs rendition="#p.121 #p.13 #p.14">Ministres de Russie</rs> ont donné
+               </choice> les <rs ref="#p.121 #p.13 #p.14" type="multi-person">Ministres de Russie</rs> ont donné
                part de <ref decls="#m.2">la note ci-jointe sub Litt A</ref> relative à la proposition faite par <choice>
                   <abbr>Mr.</abbr>
                   <expan>Monsieur</expan>
@@ -602,11 +602,10 @@
                   <choice>
                      <abbr>n.</abbr>
                      <expan>numéro</expan>
-                  </choice> 3 <date when="1820-11-07">7/11</date>
-                    </add>
+                  </choice> 3
+                    </add><lb/>
                     <add hand="#AmT" place="top">A</add>
-                </p>
-            <p>
+                <lb/>
                     <add hand="#AmB" place="top">
                         <date when="1820-11-07">7/11</date>
                     </add>
@@ -698,7 +697,7 @@
             <p>
                     <add hand="#AmB" place="top">
                         <date when="1820-11-02">2/11</date>
-                    </add>
+                    </add><lb/>
                     <add hand="#AmT" place="top">B</add>
                 </p>
             
@@ -722,7 +721,7 @@
             <p>L’opinion que le Cabinet de Russie soumet aujourd’hui aux Cabinets alliés sera le
                développement de la déclaration qu’il a donnée au nom et par ordre de l’<rs ref="#p.17" type="person">Empereur</rs> dans la conférence du 17/<date when="1820-10-29">29
                   Octobre</date>.</p>
-            <p>Cette déclaration ne rappelant elle-même que les vœux formés par <rs ref="#p.16 #p.15 #p.130 #p.18" type="multi-person">les augustes alliés de <rs ref="#p.17" type="multi-person">Sa Majesté
+            <p>Cette déclaration ne rappelant elle-même que les vœux formés par les <rs ref="#p.16 #p.15 #p.130 #p.18" type="multi-person">augustes alliés de <rs ref="#p.17" type="multi-person">Sa Majesté
                      Impériale</rs>
                     </rs>, ces vœux se reproduiront dans les observations qui vont
                suivre, et l’on essayera simplement de les représenter sous des formes qui en
@@ -836,7 +835,7 @@
                prévus à ceux qui n’ont pas été explicitement caractérisés lorsque ces derniers
                offrent une identité frappante de circonstances ? Or ici cette identité ne sauroit
                être révoquée en doute.</p>
-            <p>En 1815, la révolution étoit représentée par <rs ref="#p.50" type="person">un homme de
+            <p>En 1815, la révolution étoit représentée par un <rs ref="#p.50" type="person">homme de
                malheur</rs>.</p>
             <p>En 1820, elle l’est par une poignée d’hommes factieux et turbulens.</p>
             <p>Renouvelée en <country>France</country>, elle menaçoit de détruire les fruits des
@@ -845,7 +844,7 @@
                si l’insurrection et le crime obtiennent un triomphe durable dans le midi de
                l’Europe, y a-t-il un seul de ses Gouvernemens qui soit en sureté, y en a-t-il un qui
                puisse se fier à la stabilité des transactions<pb n="37r"/> les plus formelles ?</p>
-            <p>À mesure que l’on poursuit cette comparaison l’analogie augmente. En 1814, <rs ref="#p.16 #p.19 #p.18 #p.17" type="multi-person">les Souverains alliés</rs> étoient parvenus à
+            <p>À mesure que l’on poursuit cette comparaison l’analogie augmente. En 1814, les <rs ref="#p.16 #p.19 #p.18 #p.17" type="multi-person">Souverains alliés</rs> étoient parvenus à
                rétablir l’indépendance et des Gouvernemens et des nations. La <rs xml:id="n.11">révolution de 1815</rs>
                     <note type="editorial" target="#n.11">Napoleons Herrschaft
                   der 100 Tage.</note> devoit avoir pour effet nécessaire d’anéantir l’une et
@@ -912,11 +911,10 @@
                 </p>
             <p>L’ensemble de ces motifs, auxquels on pourroit encore ajouter de nouveaux
                développemens, présente à nos yeux des preuves irré<pb n="39r"/>fragables de la
-               légalité d’une intervention collective <rs ref="#p.16 #p.130 #p.15 #p.18 #p.17" type="multi-person">des
-                  Monarques alliés</rs> qui auroit pour but de délivrer les deux Péninsules du fléau
+               légalité d’une intervention collective des <rs ref="#p.16 #p.130 #p.15 #p.18 #p.17" type="multi-person">Monarques alliés</rs> qui auroit pour but de délivrer les deux Péninsules du fléau
                et du despotisme des insurrections.</p>
             <p>En démontrant que cette intervention seroit juste et légitime, nous avons démontré
-               qu’elle étoit utile et nécessaire, et que par conséquent <rs ref="#p.16 #p.130 #p.15 #p.18 #p.17" type="multi-person">les Monarques alliés</rs> étoient tenus de
+               qu’elle étoit utile et nécessaire, et que par conséquent les <rs ref="#p.16 #p.130 #p.15 #p.18 #p.17" type="multi-person">Monarques alliés</rs> étoient tenus de
                l’interposer.</p>
             <p>Ils y sont tenus dans l’intérêt des pays que vient désoler encore une fois la
                révolution avec le cortège de tous les maux qu’elle entraîne.</p>
@@ -927,7 +925,7 @@
                   <supplied>18</supplied>18</rs>.</p>
             <p>Nous ne saurions, en effet, nous dissimuler que la forme du Gouvernement anglais
                n’impose de justes égards, et nous ne respectons pas moins la position du
-               Gouvernement de <rs xml:id="n.16" ref="#p.15">
+               Gouvernement de <rs xml:id="n.16" ref="#p.15" type="person">
                         <choice>
                      <abbr>S. M.</abbr>
                      <expan>Sa Majesté</expan>
@@ -1102,7 +1100,7 @@
                   indépendance politique et nationale, et d’y établir, de concert avec le <rs ref="#p.138" type="person">Roi</rs>, un mode de Gouvernement qui puisse<pb n="45v"/> assurer
                   à tous ses sujets la paisible jouissance de cette double liberté.</rs>
                     <note type="author" target="#n.20">
-                  <p>Nous sommes persuadés qu’il ne seroit ni utile, ni convenable de séparer la
+                  Nous sommes persuadés qu’il ne seroit ni utile, ni convenable de séparer la
                      nation du <rs ref="#p.138" type="person">Roi</rs> ou de la Dynastie des deux-Siciles. Un
                      triste exemple est trop rapproché de nous ; nous croyons même que les
                      protestations adressées par <rs ref="#p.138" type="person">
@@ -1110,16 +1108,16 @@
                            <abbr>S. M.</abbr>
                            <expan>Sa Majesté</expan>
                         </choice> Sicilienne</rs> à la Cour d’Autriche ne donnent aucun droit, ne
-                     présentent aucun moyen d’action aux Puissances alliées.</p>
-                        <p>Elles ne leur
+                     présentent aucun moyen d’action aux Puissances alliées.<lb/>
+                        Elles ne leur
                      donnent aucun droit ; car dans toute sa correspondance <rs ref="#p.138" type="person">ce
                         Monarque</rs> ne mentionne jamais les obligations <ref target="Troppau_Prot_1.xml">qu’il a contractées envers
                            l’<country>Autriche</country> par le <rs ref="#t.43" type="treaties">traité du <date when="1815-06-12">12 <del rendition="#ow">Juillet</del>
                                         <add hand="#A1">Juin</add>1815</date>
                                 </rs>
                             </ref>, et n’exprime nulle part le désir
-                     d’appeler à son secours une armée étrangère.</p>
-                        <p>Elles ne leur présentent
+                     d’appeler à son secours une armée étrangère.<lb/>
+                        Elles ne leur présentent
                      aucun moyen d’action ; car si l’on alléguoit ce motif à l’appui d’une
                      intervention quelconque, on sépareroit le <rs ref="#p.138" type="person">Roi</rs> de ses
                      peuples et l’on exposeroit ses jours. Mais quand bien même sa personne auguste
@@ -1132,12 +1130,12 @@
                      d’introduire dans ses Etats, avec le consentement de
                         l’<country>Autriche</country> et de l’<country>Angleterre</country>, un
                      régime plus favorable au bien-être de ses peuples et à la sécurité de la
-                     famille Royale.</p>
-                        <p>Assurées de ce vœu, les Puissances alliées seroient
+                     famille Royale.<lb/>
+                        Assurées de ce vœu, les Puissances alliées seroient
                      d’autant plus fondées à promettre, qu’en brisant le joug, sous lequel gémissent
                      le <rs ref="#p.138" type="person">Roi</rs> et la nation Sicilienne, elles assureront au
                      Monarque le bonheur de faire jouir ses sujets d’institutions légalement
-                     établies et conformes à leurs désirs, ainsi qu’à leurs besoins.</p>
+                     établies et conformes à leurs désirs, ainsi qu’à leurs besoins.
                     </note>
                 </p>
             <p>Si la <country>France</country> ou l’<country>Angleterre</country>
@@ -1196,7 +1194,7 @@
             <p>
                     <add hand="#AmB" place="top">
                         <date when="1820-11-05">5/11</date>
-                    </add>
+                    </add><lb/>
                     <add hand="#AmT" place="top">C</add>
                 </p>
             
@@ -1251,12 +1249,10 @@
             <p>
                     <add hand="#AmB" place="top">
                         <date when="1820-11-05">5/11</date>
-                    </add>
+                    </add><lb/>
                     <add hand="#AmT" place="top">D</add>
                 </p>
-            <p>
-                    <add hand="#AmB1" place="bottom">Kongressakten 38</add>
-                </p>
+            
             
                     <head>Apperçu sommaire <add hand="#G" place="inline">au sujet de</add> la
                   réponse <lb/>de Cabinet de Russie <add hand="#G" place="inline">du 21 Octobre/<date when="1820-11-02">2 Novembre</date>
@@ -1417,7 +1413,7 @@
             <p>
                     <add hand="#AmB" place="top">
                         <date when="1820-11-06">6/11</date>
-                    </add>
+                    </add><lb/>
                     <add hand="#AmT" place="top">E</add>
                 </p>
             
@@ -1470,7 +1466,7 @@
                   Pétersbourg</placeName> croit devoir ajouter qu’il est entendu que celles des
                Cours Alliées qui jugeroient ne pouvoir point admettre cette interprétation de <hi rendition="#u">l’esprit des Traités</hi> ne seroient point considérées pour cela,
                comme ayant renoncé aux droits et aux engagemens stipulés et définis par la lettre
-               des actes en question, savoir du <rs ref="#t.1" type="treaties">Traité du <date when="1815-11-20">20 <choice>
+               des actes en question, savoir du <rs ref="#t.6" type="treaties">Traité du <date when="1815-11-20">20 <choice>
                         <abbr>Nov.</abbr>
                         <expan>Novembre</expan>
                      </choice> 1815</date>
@@ -1576,7 +1572,7 @@
                         </persName> vient de communiquer à la
                   Conférence</ref>
                relativement au <ref decls="#m.3">mémoire présenté par la Russie le 21 Octobre/<date when="1820-11-02">2 Novembre</date>
-                    </ref>, et <ref decls="#m.6">aux éclaircissemens
+                    </ref>, et aux <ref decls="#m.6">éclaircissemens
                   supplémentaires</ref>
                qui concernent les vœux que les Cours alliées doivent former par rapport à la
                restauration du Gouvernement des <country>Deux-Siciles</country>.</p>
