@@ -5,6 +5,7 @@
     <xsl:param name="document"/>
     <xsl:param name="app-name"/>
     <xsl:param name="collection-name"/>
+    <xsl:param name="base-url"/>
     <xsl:param name="path2source"/>
     <xsl:param name="prev-doc-name"/>
     <xsl:param name="ref"/>
@@ -26,6 +27,7 @@
 -->
     <xsl:template match="/">
         <div class="page-header">
+            <xsl:comment>base-url: <xsl:value-of select="$base-url"/></xsl:comment>
             <nav class="navbar" id="ph">
                 <xsl:if test="$prev-doc-name != ''">
                 <ul class="nav navbar-nav pager nav-pills">

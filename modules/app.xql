@@ -335,6 +335,7 @@ let $params :=
     <param name="next-doc-name" value="{$next-doc}"/>
     <param name="path2source" value="{$path2source}"/>
     <param name="xmlFullPath" value="{$xmlFullPath}"/>
+    <param name="base-url" value="{request:get-header('X-Forwarded-Host')}"/>
     <param name="ref" value="{$ref}"/>
    {
         for $p in request:get-parameter-names()
