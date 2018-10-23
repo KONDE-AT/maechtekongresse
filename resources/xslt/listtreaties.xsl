@@ -24,8 +24,9 @@
                                     <button type="button" class="close" data-dismiss="modal">
                                         <span class="fa fa-times"/>
                                     </button>
-                                    <h3 class="modal-title">
-                                        <xsl:value-of select="$entity/text()"/>  </h3>
+                                    <h4 class="modal-title">
+                                        <xsl:value-of select="$entity/text()"/>  
+                                    </h4>
                                     <h4>
                                         <a>
                                             <xsl:attribute name="href">
@@ -61,8 +62,8 @@
                                         </xsl:if>
                                     </table>
                                     <div>
-                                        <h4 data-toggle="collapse" data-target="#more"> mehr (TEI
-                                            Datenstruktur)</h4>
+                                        <a data-toggle="collapse" data-target="#more">mehr (TEI
+                                            Datenstruktur)</a>
                                         <div id="more" class="collapse">
                                             <xsl:choose>
                                                 <xsl:when test="//*[@xml:id=$entiyID or @id=$entiyID]">

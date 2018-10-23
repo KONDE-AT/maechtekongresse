@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xsl:stylesheet xmlns="http://www.w3.org/1999/xhtml" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" exclude-result-prefixes="tei" version="2.0"><!-- <xsl:strip-space elements="*"/>-->
+<xsl:stylesheet xmlns="http://www.w3.org/1999/xhtml" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" exclude-result-prefixes="tei" version="2.0">
     <xsl:import href="shared/base.xsl"/>
     <xsl:output indent="no"/>
     <xsl:param name="document"/>
@@ -27,7 +27,8 @@
 -->
     <xsl:template match="/">
         <div class="page-header">
-            <xsl:comment>base-url: <xsl:value-of select="$base-url"/></xsl:comment>
+            <xsl:comment>base-url: <xsl:value-of select="$base-url"/>
+            </xsl:comment>
             <nav class="navbar" id="ph">
                 <xsl:if test="$prev-doc-name != ''">
                 <ul class="nav navbar-nav pager nav-pills">
@@ -265,7 +266,7 @@
                                                             <a>
                                                                 <xsl:attribute name="href">../pages/bibl.html#myTable=f<xsl:value-of select="$witId"/>
                                                                 </xsl:attribute>
-                                                                <xsl:apply-templates select="root()//tei:listWit/tei:witness[@xml:id=$witId]"/>
+                                                                <xsl:apply-templates select="root()//tei:listWit/tei:witness[@xml:id=$witId]/tei:bibl"/>
                                                             </a>
                                                             <xsl:text> S. </xsl:text>
                                                             <xsl:value-of select="normalize-space(substring-after(root()//tei:listWit[@corresp=$divlink]/tei:witness[@corresp=concat('#', $witId)], 'S.'))"/>
@@ -292,7 +293,7 @@
             <div class="panel panel-body">
                 <xsl:if test="count(//tei:div) &gt; 1">
                     <h3 id="clickme">
-                        <abbr title="Für Abschnitte klicken">[Abschnitte]</abbr>
+                        <abbr title="Für Abschnitte klicken" style="color:#23527c">Abschnitte</abbr>
                     </h3>
                     <div id="headings" class="readmore">
                         <ul>
@@ -319,9 +320,9 @@
             <xsl:if test="tei:TEI/tei:text/tei:body//tei:note">
             <div class="panel-footer">
                 <h4 title="mit Buchstaben gezählte Noten sind im Originaldokument vorhanden, alle anderen stammen von der Herausgeberin">Anmerkungen</h4>
-                <p>
+                
                     <xsl:for-each select="tei:TEI/tei:text/tei:body//tei:note[@type='author']">
-                        <div class="footnotes">
+                        <div class="footnote">
                             <xsl:element name="a">
                                 <xsl:attribute name="name">
                                     <xsl:text>fn</xsl:text>
@@ -342,7 +343,7 @@
                         </div>
                     </xsl:for-each>
                     <xsl:for-each select="tei:TEI/tei:text/tei:body//tei:note[@type='editorial']">
-                        <div class="footnotes">
+                        <div class="footnote">
                             <xsl:element name="a">
                                 <xsl:attribute name="name">
                                     <xsl:text>fn</xsl:text>
@@ -362,7 +363,7 @@
                             <xsl:apply-templates/>
                         </div>
                     </xsl:for-each>
-                </p>
+                
                 <xsl:if test="tei:TEI/tei:text/tei:body//tei:app">
                     <h4 title="Zur Überlieferung der Varianten siehe auch die Metadaten oben" data-toggle="collapse" data-target="#metadata" href="#metadata">Varianten</h4>
                 <p>
@@ -374,7 +375,6 @@
                                     <xsl:text>fn</xsl:text>
                                     <xsl:number level="any" format="i" count="tei:app"/>
                                 </xsl:attribute>
-                                <a>
                                     <xsl:attribute name="href">
                                         <xsl:text>#fna_</xsl:text>
                                         <xsl:number level="any" format="i" count="tei:app"/>
@@ -382,7 +382,6 @@
                                     <span style="font-size:7pt;vertical-align:super;">
                                         <xsl:number level="any" format="i" count="tei:app"/>
                                     </span>
-                                </a>
                             </xsl:element>
                             <xsl:text> </xsl:text>
                             <xsl:if test="$handId">
@@ -394,7 +393,7 @@
                                 </xsl:element>
                                 <xsl:text>: </xsl:text>
                             </xsl:if>
-                            <xsl:apply-templates select="//tei:rdg"/>
+                            <xsl:apply-templates select="child::*[not(self::tei:lem)]"/>
                         </div>
                     </xsl:for-each>
                 </p>
@@ -428,7 +427,8 @@
                                     </xsl:for-each>
                                 </xsl:if>    
                                 <xsl:text> 2018. URL: </xsl:text>
-                                <xsl:value-of select="$xmlFullPath"/>
+<!--                                <xsl:value-of select="$xmlFullPath"/>-->
+                                <xsl:value-of select="$base-url"/>
                                 <xsl:text>, abgerufen </xsl:text>
                                 <xsl:value-of select="format-date(current-date(), '[D01].[M01].[Y0001]')"/>
                                 <xsl:text>, </xsl:text>
@@ -788,8 +788,9 @@
                     <xsl:text>)</xsl:text>
                 </xsl:if>
             </xsl:attribute>
-            <xsl:text/>
+            <xsl:text> </xsl:text>
             <xsl:apply-templates/>
+            <xsl:text> </xsl:text>
         </xsl:element>
     </xsl:template><!-- app/rdg tooltip testing -->
     <xsl:template match="tei:app">
@@ -817,7 +818,7 @@
                     <xsl:number level="any" format="i" count="tei:app"/>
                 </xsl:attribute>
                 <xsl:attribute name="title">
-                    <xsl:value-of select="normalize-space(.)"/>
+                    <xsl:value-of select="string-join(tei:rdg/concat(root()//tei:handNote[@xml:id=$handId], ' ', normalize-space(.)),' ')"/>
                 </xsl:attribute>
                 <span style="font-size:7pt;vertical-align:super;" class="shortRdg">
                     <xsl:text>[Variante </xsl:text>
@@ -837,21 +838,27 @@
     <!-- damage supplied -->
     <xsl:template match="tei:damage">
         <xsl:element name="span">
-            <xsl:attribute name="style">color:blue</xsl:attribute>
             <xsl:attribute name="title">
                 <xsl:value-of select="@agent"/>
             </xsl:attribute>
-            <xsl:text> […]</xsl:text>
+            <xsl:if test="not(following::tei:supplied or descendant::tei:supplied)">
+                <xsl:text> […]</xsl:text>
+            </xsl:if>
             <xsl:apply-templates/>
         </xsl:element>
     </xsl:template>
     <xsl:template match="tei:supplied">
         <xsl:element name="span">
-            <xsl:attribute name="style">color:blue</xsl:attribute>
-            <xsl:attribute name="title">editorische Ergänzung</xsl:attribute>
-            <xsl:text>‹</xsl:text>
+            <xsl:attribute name="title">editorische Ergänzung
+                <xsl:if test="parent::tei:damage">
+                    <xsl:text> (</xsl:text>
+                    <xsl:value-of select="parent::tei:damage/@agent"/>
+                    <xsl:text>)</xsl:text>
+                </xsl:if>
+            </xsl:attribute>
+            <xsl:text>&lt;</xsl:text>
             <xsl:apply-templates/>
-            <xsl:text>›</xsl:text>
+            <xsl:text>&gt;</xsl:text>
         </xsl:element>
     </xsl:template>
     <!-- choice -->
@@ -1022,6 +1029,7 @@
     <xsl:template match="tei:del">
         <xsl:element name="strike">
             <xsl:apply-templates/>
+            <xsl:text> </xsl:text>
         </xsl:element>
     </xsl:template>
     <xsl:template match="tei:country">
@@ -1063,16 +1071,9 @@
     </xsl:template>-->
     <xsl:template match="tei:back"/><!-- ignoring complete back, whose include references were adjusted for avoiding oXygen complaining -->
 <!-- The generic approach of handing down durchreichen rendition attributes is resulting in numerous errors. To be implemented differently. -->
-<!--    <xsl:template match="//*[@rend] | //*[@rendition]">
+<!--<xsl:template match="//*[not(self::tei:cell) and @rendition]">
     <span>
         <xsl:choose>
-            <xsl:when test="@rend">
-                <xsl:variable name="style" select="substring-after(@rend, '#')"/>
-                <xsl:attribute name="style">
-                    <xsl:value-of select="root()//tei:rend[@xml:id=current()/$style]"/>
-                </xsl:attribute>
-                <xsl:apply-templates/>
-            </xsl:when>
             <xsl:when test="@rendition">
                 <xsl:variable name="style" select="substring-after(@rendition, '#')"/>
                 <xsl:attribute name="style">

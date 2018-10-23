@@ -69,7 +69,7 @@
          <tagsDecl>
             <rendition xml:id="su" scheme="css">vertical-align:super; font-size:.7em;</rendition>
             <rendition xml:id="s" scheme="css">text-decoration:line-through;</rendition>
-            <rendition xml:id="et" scheme="css">display:block; margin-left:2em; text-indent:0;</rendition>
+            <rendition xml:id="et" scheme="css">display:block; margin-left:2em; text-indent:0;font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif!important;font-size:1.8rem;</rendition>
          </tagsDecl>
       </encodingDesc>
       <profileDesc>
@@ -173,15 +173,16 @@
                         <roleName>Duc</roleName>
                   <surname>de Richelieu</surname></persName> dans la prochaine Conférence générale
                une déclaration, portant,</p>
-            <p rendition="#et">Que les Quatre cours, après avoir murement examiné tout ce qui peut
+            <p>
+                    <hi rendition="#et">Que les Quatre cours, après avoir murement examiné tout ce qui peut
                influer sur une décision aussi importante, sont prêtes à admettre le principe de
                l’évacuation du territoire Français, et à faire exécuter cette mesure à la fin de la
                troisième année d’occupation ou plus tôt si faire se peut, <pb n="5v"/>sauf les
                arrangemens à prendre pour régler le mode et l’époque du payement des sommes dues
                encore par le Gouvernement Français aux Cours Alliées en suite des stipulations du
                susdit <rs ref="#t.1" type="treaties">Traité de <placeName ref="#loc.2">Paris</placeName>
-                    </rs>
-                    <rs ref="#t.2 #t.3 #t.4 #t.5" type="multi-treaties">et de ses annexes</rs>.</p>
+                    </rs> <rs ref="#t.2 #t.3 #t.4 #t.5" type="multi-treaties">et de ses annexes</rs>.</hi>
+                </p>
             <p>
                     <add place="margin left" xml:space="preserve">
                         <choice>

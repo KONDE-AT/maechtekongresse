@@ -226,6 +226,14 @@ h1,h2 {
   -webkit-transform: rotate(45deg);
 }
 
+.corner-ribbon.bottom-left{
+  top: auto;
+  bottom: 25px;
+  left: -50px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
 @media (min-width: 1024px) {
     .container{
         max-width: 860px;

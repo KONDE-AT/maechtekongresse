@@ -71,9 +71,16 @@
                                             </td>
                                         </tr>
                                     </xsl:if>
+                                    <xsl:if test="$entity//tei:note">
+                                        <tr>
+                                            <td colspan="2">
+                                                <xsl:value-of select="$entity//tei:note"/>
+                                            </td>
+                                        </tr>
+                                    </xsl:if>
                                 </table>
                                 <div>
-                                    <h4 data-toggle="collapse" data-target="#more"> mehr (TEI Datenstruktur)</h4>
+                                    <a data-toggle="collapse" data-target="#more"> mehr (TEI Datenstruktur)</a>
                                     <div id="more" class="collapse">
                                         <xsl:choose>
                                             <xsl:when test="//*[@xml:id=$entiyID or @id=$entiyID]">

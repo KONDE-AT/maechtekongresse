@@ -78,8 +78,8 @@
                                         </xsl:if>
                                     </table>
                                     <div>
-                                        <h4 data-toggle="collapse" data-target="#more"> mehr (TEI
-                                            Datenstruktur)</h4>
+                                        <a data-toggle="collapse" data-target="#more"> mehr (TEI
+                                            Datenstruktur)</a>
                                         <div id="more" class="collapse">
                                             <xsl:choose>
                                                 <xsl:when test="//*[@xml:id=$entiyID or @id=$entiyID]">
