@@ -272,16 +272,20 @@
          <div hand="#A" decls="#m.1">
             <pb n="114r"/>
             
-               <head rendition="#u">Journal des Conférences.<lb/>
+               <head>
+                    <hi rendition="#u">Journal des Conférences.<lb/>
                   <choice>
                      <abbr>Nr.</abbr>
                      <expan>Numéro</expan>
-                  </choice> XIV.</head>
+                  </choice> XIV.</hi>
+                </head>
             
             <opener>
-                    <dateline rendition="#u">
+                    <dateline>
+                        <hi rendition="#u">
                <placeName ref="#loc.65">Laybach</placeName> le <date when="1821-02-22">22 Février
                   1821.</date>
+                        </hi>
             </dateline>
                 </opener>
 
@@ -439,7 +443,7 @@
                   <del rendition="#s">chargé</del> 
                   <add place="above">ordonné</add>
                </subst> d’exprimer les vœux sincères qu’Elle forme pour que les intentions justes et
-               paternelles de <rs rendition="#p.138">Son Auguste Ami et Allié</rs> soient couronnées
+               paternelles de <rs ref="#p.138">Son Auguste Ami et Allié</rs> soient couronnées
                du succès le plus complet.</p>
          </div>
 
@@ -448,7 +452,7 @@
             <p>
                <add place="top">B.</add>
             </p>
-            <p>Les <rs rendition="#p.102 #p.135 #p.160">plénipotentiaires français</rs>, ne se
+            <p>Les <rs ref="#p.102 #p.135 #p.160">plénipotentiaires français</rs>, ne se
                trouvant point autorisés à émettre une opinion sur les bases du Gouvernement que Le
                   <rs ref="#p.138" type="person">Roi de Naples</rs> veut donner à ses peuples, ne
                peuvent regarder <ref target="Laibach_Prot_12.xml">la communication qui leur a été

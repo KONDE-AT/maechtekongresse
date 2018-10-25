@@ -256,12 +256,21 @@
                                                 <xsl:variable name="witId" select="substring-after(., '#')"/>
                                                 <tr>
                                                     <th>
-                                                        <abbr> 
+                                                            <abbr> 
                                                             <xsl:attribute name="title">//tei:listWit <xsl:value-of select="$witId"/>
                                                             </xsl:attribute>
-                                                            vgl. gedruckte Quelle</abbr>
+                                                            Vgl. gedruckte Quelle</abbr>
                                                     </th>
                                                     <td>
+                                                        <xsl:for-each select="../tei:bibl">
+                                                            <a>
+                                                                <xsl:attribute name="href">../pages/bibl.html#myTable=f<xsl:value-of select="$witId"/>
+                                                                </xsl:attribute>
+                                                                <xsl:value-of select="."/>
+                                                            </a>
+                                                        </xsl:for-each>
+                                                    </td>
+<!--                                                    <td>
                                                         <xsl:for-each select="root()//tei:listWit/tei:witness[@xml:id=$witId]">
                                                             <a>
                                                                 <xsl:attribute name="href">../pages/bibl.html#myTable=f<xsl:value-of select="$witId"/>
@@ -271,7 +280,7 @@
                                                             <xsl:text> S. </xsl:text>
                                                             <xsl:value-of select="normalize-space(substring-after(root()//tei:listWit[@corresp=$divlink]/tei:witness[@corresp=concat('#', $witId)], 'S.'))"/>
                                                         </xsl:for-each>
-                                                    </td>
+                                                    </td>-->
                                                 </tr>
                                             </xsl:for-each>
                                         </xsl:if>  
@@ -320,7 +329,6 @@
             <xsl:if test="tei:TEI/tei:text/tei:body//tei:note">
             <div class="panel-footer">
                 <h4 title="mit Buchstaben gezählte Noten sind im Originaldokument vorhanden, alle anderen stammen von der Herausgeberin">Anmerkungen</h4>
-                
                     <xsl:for-each select="tei:TEI/tei:text/tei:body//tei:note[@type='author']">
                         <div class="footnote">
                             <xsl:element name="a">
@@ -342,6 +350,9 @@
                             <xsl:apply-templates/>
                         </div>
                     </xsl:for-each>
+                    <xsl:if test="tei:TEI/tei:text/tei:body//tei:note[@type='author']">
+                        <br/>
+                    </xsl:if>
                     <xsl:for-each select="tei:TEI/tei:text/tei:body//tei:note[@type='editorial']">
                         <div class="footnote">
                             <xsl:element name="a">
@@ -518,13 +529,31 @@
                 <span>
                     <xsl:choose>
                         <xsl:when test="@rend">
-                            <xsl:variable name="style" select="substring-after(@rend, '#')"/>
                             <xsl:attribute name="style">
-                                <xsl:value-of select="root()//tei:rend[@xml:id=current()/$style]"/>
+                                <xsl:for-each select=".[contains(concat(' ', normalize-space(@rend), ' '), ' #')]">
+                                    <xsl:variable name="style" select="substring-after(., '#')"/>
+                                    <xsl:value-of select="root()//tei:rend[@xml:id=current()/$style]"/>
+                                </xsl:for-each>
                             </xsl:attribute>
                             <xsl:apply-templates/>
                         </xsl:when>
-                        <xsl:when test="@rendition">
+                        <!--<xsl:when test="@rendition[contains(.,' ')]">
+<!-\-                            <xsl:variable name="style" select="substring-after(@rendition, '#')"/>-\->
+                            <xsl:variable name="x" select="tokenize(replace(data(@rendition), '#', ' '), ' ')" as="node()*"/>
+                            <xsl:attribute name="style">
+                                <xsl:for-each select="$x">
+<!-\-                                    <xsl:variable name="style" select="substring-after(., '#')"/>-\->
+                                    <xsl:variable name="style" select="concat('#',$x)"/>
+<!-\-                                    <xsl:value-of select="concat('#',$style)"/>-\->
+                                    <xsl:value-of select="root()//tei:rendition[@xml:id=current()/$style]"/>
+                                </xsl:for-each>
+<!-\-                                <xsl:value-of select="root()//tei:rendition[@xml:id=current()/$style]"/>
+                                <xsl:value-of select="string-join(tokenize(replace(data(@rendition), '#', ''), ' '), '____')"/>
+                                -\->
+                            </xsl:attribute>
+                            <xsl:apply-templates/>
+                        </xsl:when>-->
+                        <xsl:when test="@rendition[not(contains(.,' '))]">
                             <xsl:variable name="style" select="substring-after(@rendition, '#')"/>
                             <xsl:attribute name="style">
                                 <xsl:value-of select="root()//tei:rendition[@xml:id=current()/$style]"/>
@@ -862,6 +891,13 @@
         </xsl:element>
     </xsl:template>
     <!-- choice -->
+    <xsl:template match="tei:sic">
+        <xsl:apply-templates/>
+        <xsl:element name="span">
+            <xsl:attribute name="title">Fehler/Unstimmigkeit im Originaldokument, KS</xsl:attribute>
+            <xsl:text> [sic]</xsl:text>
+        </xsl:element>
+    </xsl:template>
     <xsl:template match="tei:choice">
         <xsl:choose>
             <xsl:when test="tei:sic and tei:corr">
@@ -918,14 +954,32 @@
         </xsl:element>
     </xsl:template><!-- Seitenzahlen -->
     <xsl:template match="tei:pb">
-        <xsl:element name="span">
-            <xsl:attribute name="class">
-                <xsl:text>hr</xsl:text>
-            </xsl:attribute>
-            <xsl:text>[Bl. </xsl:text>
-            <xsl:value-of select="@n"/>
-            <xsl:text>]</xsl:text>
-        </xsl:element>
+        <xsl:choose>        
+            <xsl:when test="ancestor::tei:table">
+                <xsl:variable name="colno" select="count(ancestor::tei:table/tei:row[1]/tei:cell)"/>
+                <xsl:element name="tr">
+                    <xsl:element name="td">
+                        <xsl:attribute name="style">text-align:right;font-size:12px;</xsl:attribute>
+                        <xsl:attribute name="colspan">
+                            <xsl:value-of select="$colno"/>
+                        </xsl:attribute>
+                    <xsl:text>[Bl. </xsl:text>
+                    <xsl:value-of select="@n"/>
+                    <xsl:text>]</xsl:text>
+                </xsl:element>
+                </xsl:element>
+            </xsl:when>
+            <xsl:otherwise>
+                <xsl:element name="span">
+                    <xsl:attribute name="class">
+                    <xsl:text>hr</xsl:text>
+                    </xsl:attribute>
+                    <xsl:text>[Bl. </xsl:text>
+                    <xsl:value-of select="@n"/>
+                    <xsl:text>]</xsl:text>
+                </xsl:element>
+            </xsl:otherwise>
+        </xsl:choose>    
     </xsl:template><!-- Tabellen -->
     <xsl:template match="tei:table">
         <xsl:element name="table">
@@ -951,6 +1005,10 @@
     </xsl:template>
     <xsl:template match="tei:cell">
         <xsl:element name="td">
+            <xsl:if test="./@rendition='#u'">
+                <xsl:attribute name="style">border-bottom: 1px solid black</xsl:attribute>
+                <xsl:attribute name="class">underline</xsl:attribute>
+            </xsl:if>
             <xsl:if test="./@cols">
                 <xsl:attribute name="colspan">
                     <xsl:value-of select="./@cols"/>
@@ -965,7 +1023,7 @@
                 </xsl:attribute>
                 <xsl:attribute name="style">vertical-align:middle</xsl:attribute>
             </xsl:if>
-            <xsl:if test="not(string(number(.))='NaN')">
+            <xsl:if test="not(string(number(.))='NaN') or .='-'">
                 <xsl:attribute name="style">text-align:right</xsl:attribute>
             </xsl:if>
             <xsl:apply-templates/>

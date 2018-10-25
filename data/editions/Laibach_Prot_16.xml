@@ -390,8 +390,10 @@
                     <head>Journal de clôture des Conférences particulières de <placeName ref="#loc.65">Laybach</placeName>.</head>
                 
             <opener hand="#G">
-                    <dateline rendition="#u">
-                    <placeName ref="#loc.65">Laybach</placeName> le <date when="1821-05-12">12 Mai 1821</date>.</dateline>
+                    <dateline>
+                        <hi rendition="#u">
+                    <placeName ref="#loc.65">Laybach</placeName> le <date when="1821-05-12">12 Mai 1821</date>.</hi>
+                    </dateline>
                 </opener>
 
             <p>Les <rs ref="#p.8 #p.2 #p.136 #p.13 #p.14 #p.7" type="multi-person">Plénipotentiaires des Cours
@@ -771,7 +773,9 @@
             <p>Il partira le <add hand="#AmB" place="inspace">
                         <del>12</del>
                     </add>
-                    <add rendition="#ow">13</add> et se rendra par <placeName ref="#loc.70">Varsovie</placeName> à <placeName ref="#loc.10">
+                    <add>
+                        <hi rendition="#ow">13</hi>
+                    </add> et se rendra par <placeName ref="#loc.70">Varsovie</placeName> à <placeName ref="#loc.10">
                         <choice>
                      <abbr>S.</abbr> 
                      <expan>Saint</expan>

@@ -9,26 +9,33 @@
     </xsl:template>
     <xsl:template match="tei:hi">
         <xsl:choose>
-            <xsl:when test="@rend='ul'">
+            <xsl:when test="@rend='ul' or @rendition='ul'">
                 <u>
                     <xsl:apply-templates/>
                 </u>
             </xsl:when>
-            <xsl:when test="@rend='italic'">
+            <xsl:when test="@rend='italic' or @rendition='italic'">
                 <i>
                     <xsl:apply-templates/>
                 </i>
             </xsl:when>
-            <xsl:when test="@rend='sup'">
+            <xsl:when test="@rend='sup' or @rendition='sup'">
                 <sup>
                     <xsl:apply-templates/>
                 </sup>
             </xsl:when>
             <xsl:otherwise>
                 <span>
-                    <xsl:attribute name="style">
-                        <xsl:value-of select="@rend"/>
-                    </xsl:attribute>
+                    <xsl:if test="@rend">
+                        <xsl:attribute name="style">
+                            <xsl:value-of select="@rend"/>
+                        </xsl:attribute>
+                    </xsl:if>
+                    <xsl:if test="@rendition">
+                        <xsl:attribute name="style">
+                            <xsl:value-of select="@rendition"/>
+                        </xsl:attribute>
+                    </xsl:if>
                     <xsl:apply-templates/>
                 </span>
             </xsl:otherwise>

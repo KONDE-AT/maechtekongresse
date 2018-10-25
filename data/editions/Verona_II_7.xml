@@ -709,8 +709,10 @@
                     </head>
             
             <opener>
-                    <dateline rendition="#u">
-                    <placeName ref="#loc.68">Vérone</placeName> le <date when="1822-12-13">13 Décembre 1822</date>.</dateline>
+                    <dateline>
+                        <hi rendition="#u">
+                    <placeName ref="#loc.68">Vérone</placeName> le <date when="1822-12-13">13 Décembre 1822</date>.</hi>
+                    </dateline>
                 </opener>
             <p>Le <rs ref="#p.184" type="person">Soussigné</rs>, Chevalier d’honneur de <choice>
                   <abbr>S. M.</abbr>
@@ -880,8 +882,10 @@
                Souverains d’Italie, et pour les soins qu’Elles ne cessent de vouer à consolider un
                ordre de choses sur lesquelles repose le bonheur des Gouvernans et des Gouvernés.</p>
             <closer>
-                    <dateline rendition="#u">
-                    <placeName ref="#loc.68">Vérone</placeName> le <date when="1822-12-13">13 Décembre 1822</date>.</dateline>
+                    <dateline>
+                        <hi rendition="#u">
+                    <placeName ref="#loc.68">Vérone</placeName> le <date when="1822-12-13">13 Décembre 1822</date>.</hi>
+                    </dateline>
                 </closer>
          </div>
       </body>

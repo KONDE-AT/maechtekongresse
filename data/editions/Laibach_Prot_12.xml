@@ -259,16 +259,20 @@
             <pb n="95r"/>
 
             
-               <head rendition="#u">Journal des Conférences<lb/>
+               <head>
+                    <hi rendition="#u">Journal des Conférences<lb/>
                   <choice>
                      <abbr>Nr.</abbr>
                      <expan>Numéro</expan>
-                  </choice> XII.</head>
+                  </choice> XII.</hi>
+                </head>
             
             <opener>
-                    <dateline rendition="#u">
+                    <dateline>
+                        <hi rendition="#u">
                <placeName ref="#loc.65">Laybach</placeName> le <date when="1821-02-20">20 Février
                   1821</date>
+                        </hi>
             </dateline>
                 </opener>
 

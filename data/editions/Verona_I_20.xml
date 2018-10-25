@@ -99,12 +99,14 @@
          <div decls="#m.1" hand="#A">
             <pb n="259r"/>
             <p>
-                    <add place="top" hand="#M" rendition="#u">
+                    <add place="top" hand="#M">
+                        <hi rendition="#u">
                         <choice>
                      <abbr>Cab<hi rendition="#su">t</hi>
                             </abbr>
                      <expan>Cabinet</expan>
-                  </choice> françois.</add>
+                  </choice> françois.</hi>
+                    </add>
                 </p>
             
                     <head>Cadre d’Instruction pour le <rs ref="#p.123" type="person">Ministre de France à <placeName ref="#loc.24">Madrid</placeName>

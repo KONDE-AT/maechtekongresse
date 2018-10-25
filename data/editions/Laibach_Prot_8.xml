@@ -265,16 +265,20 @@
          <div hand="#G" decls="#m.1">
             <pb n="30r"/>
             
-               <head rendition="#u">Journal des Conférences<lb/>
+               <head>
+                    <hi rendition="#u">Journal des Conférences<lb/>
                   <choice>
                      <abbr>Nr</abbr>
                      <expan>Numéro</expan>
-                  </choice> VIII.</head>
+                  </choice> VIII.</hi>
+                </head>
             
             <opener>
-                    <dateline rendition="#u">
+                    <dateline>
+                        <hi rendition="#u">
                <placeName ref="#loc.65">Laybach</placeName> le <date when="1821-01-26">26 Janvier
                   1821</date>
+                        </hi>
             </dateline>
                 </opener>
 

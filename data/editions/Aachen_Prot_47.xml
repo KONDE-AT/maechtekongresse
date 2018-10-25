@@ -93,7 +93,7 @@
             <rendition xml:id="s" scheme="css">text-decoration:line-through;</rendition>
             <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
             <rendition xml:id="ow" scheme="css">text-decoration:line-through;text-decoration-style:double;</rendition>
-            <rendition xml:id="up">underdotted</rendition>
+            <rendition xml:id="up" scheme="css">border-bottom:1px dotted red;</rendition>
          </tagsDecl>
       </encodingDesc>
       <profileDesc>
@@ -156,7 +156,9 @@
                 </p>
 
             <p>Pour éviter des discussions désagréables qui pourroient avoir lieu à l’avenir sur un
-               point d’étiquette diplomatique que <del xml:id="del01">l’annexe</del>
+               point d’étiquette diplomatique que <del xml:id="del01">
+                        <hi rendition="#up">l’annexe</hi>
+                    </del>
                     <undo target="#del01" rendition="#up"/> du <rs ref="#t.12" type="treaties">Recès de Vienne</rs>, par
                laquelle les questions de rang ont été réglées, ne paroit pas avoir prévu, il est
                arrêté entre les Cinq Cours que les Ministres Résidens accrédités auprès d’Elles

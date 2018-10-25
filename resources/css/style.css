@@ -158,6 +158,8 @@ span.data-hr {
                 
 td {border-left: 1px;}
 
+td.underline {border-bottom: 1px solid black !important;}
+
 hr {
     display: block;
     height: 1px;

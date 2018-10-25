@@ -278,16 +278,20 @@
          <div hand="#A" decls="#m.1">
             <pb n="104r"/>
             
-               <head rendition="#u">Journal des Conférences.<lb/>
+               <head>
+                    <hi rendition="#u">Journal des Conférences.<lb/>
                   <choice>
                      <abbr>Nr.</abbr>
                      <expan>Numéro</expan>
-                  </choice> XIII.</head>
+                  </choice> XIII.</hi>
+                </head>
             
             <opener>
-                    <dateline rendition="#u">
+                    <dateline>
+                        <hi rendition="#u">
                <placeName ref="#loc.65">Laybach</placeName> le <date when="1821-02-21">21 Février
                   1821</date>
+                        </hi>
             </dateline>
                 </opener>
 
@@ -446,7 +450,9 @@
                   </choice>
                   <subst>
                      <del>12</del> 
-                     <add hand="#AmB" rendition="#ow">13</add>
+                     <add hand="#AmB">
+                            <hi rendition="#ow">13</hi>
+                        </add>
                   </subst> de la Conférence</head>
             
             <p>
@@ -512,7 +518,9 @@
                Conférence du <date when="1821-02-21">
                   <subst>
                      <del>20</del> 
-                     <add hand="#AmB" rendition="#ow">21</add>
+                     <add hand="#AmB">
+                                <hi rendition="#ow">21</hi>
+                            </add>
                   </subst> Février</date>.</p>
          </div>
 
@@ -522,13 +530,13 @@
                <add place="top">C.</add>
             </p>
 
-            <p>Le <persName rendition="#p.164">
+            <p>Le <persName ref="#p.164">
                   <roleName>Cardinal</roleName>
                   <surname>Spina</surname>
                     </persName> a lu avec la plus grande attention la déclaration de <choice>
                   <abbr>S. M.</abbr>
                   <expan>Sa Majesté</expan>
-               </choice> le <rs rendition="#p.138">Roi des deux-Siciles</rs>, présentée par <rs ref="#p.140" type="person">son
+               </choice> le <rs ref="#p.138">Roi des deux-Siciles</rs>, présentée par <rs ref="#p.140" type="person">son
                   Plénipotentiaire</rs> à la <ref target="Laibach_Prot_12.xml">Conférence d’hier</ref>.</p>
             <p>Le <persName ref="#p.164">
                   <roleName>Cardinal</roleName>
