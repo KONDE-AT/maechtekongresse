@@ -276,11 +276,27 @@
             <script>
                 /*script for loading the content of the modal */
                 $(document).ready(function(){
-                    var multitrigger = $(".reference-multi");
-                    $(multitrigger).click(function(){
+                    var multiperstrigger = $(".reference-multi-person");
+                    $(multiperstrigger).click(function(){
+                        var dataKey = $( this ).attr('data-key');
+                        var url = "../analyze/multi-person.xql?ix="+dataKey;
+                        $('#loadModal').load(url, function(){
+                            $('#myModal').modal('show');
+                        });
+                    });
+                    var multiorgtrigger = $(".reference-multi-org");
+                    $(multiorgtrigger).click(function(){
+                        var dataKey = $( this ).attr('data-key');
+                        var url = "../analyze/multi-org.xql?ix="+dataKey;
+                        $('#loadModal').load(url, function(){
+                            $('#myModal').modal('show');
+                        });
+                    });
+                    var multitreattrigger = $(".reference-multi-treaties");
+                    $(multitreattrigger).click(function(){
                         var dataKey = $( this ).attr('data-key');
                         console.log(dataKey);
-                        var url = "../analyze/multi-ix.xql?ix="+dataKey;
+                        var url = "../analyze/multi-treaties.xql?ix="+dataKey;
                         $('#loadModal').load(url, function(){
                             $('#myModal').modal('show');
                         });

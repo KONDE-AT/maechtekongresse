@@ -167,10 +167,34 @@
     
     <xsl:template match="tei:rs[@ref or @key]">
         <xsl:choose>
-            <xsl:when test="starts-with(data(./@type), 'multi')">
+            <xsl:when test="data(./@type) eq 'multi-person'">
                 <span>
                     <xsl:element name="a">
-                        <xsl:attribute name="class">reference-multi</xsl:attribute>
+                        <xsl:attribute name="class">reference-multi-person</xsl:attribute>
+                        <xsl:attribute name="data-key">
+                            <xsl:value-of select="string-join(tokenize(replace(data(@ref), '#', ''), ' '), '____')"/>
+                            <xsl:value-of select="@key"/>
+                        </xsl:attribute>
+                        <xsl:apply-templates/>
+                    </xsl:element>
+                </span>
+            </xsl:when>
+            <xsl:when test="data(./@type) eq 'multi-org'">
+                <span>
+                    <xsl:element name="a">
+                        <xsl:attribute name="class">reference-multi-org</xsl:attribute>
+                        <xsl:attribute name="data-key">
+                            <xsl:value-of select="string-join(tokenize(replace(data(@ref), '#', ''), ' '), '____')"/>
+                            <xsl:value-of select="@key"/>
+                        </xsl:attribute>
+                        <xsl:apply-templates/>
+                    </xsl:element>
+                </span>
+            </xsl:when>
+            <xsl:when test="data(./@type) eq 'multi-treaties'">
+                <span>
+                    <xsl:element name="a">
+                        <xsl:attribute name="class">reference-multi-treaties</xsl:attribute>
                         <xsl:attribute name="data-key">
                             <xsl:value-of select="string-join(tokenize(replace(data(@ref), '#', ''), ' '), '____')"/>
                             <xsl:value-of select="@key"/>
