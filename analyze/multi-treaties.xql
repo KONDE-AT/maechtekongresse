@@ -22,8 +22,10 @@ let $modal :=
                 return 
                     <li>
                         {$x} 
+                        <br /><a href="{$x/tei:ref/@target}">{$x/tei:ref}</a>
                         <br />
                         <a href="hits.html?searchkey={$xmlId}">alle Erwähnungen</a>
+                        – <a href="treaties.html">Verzeichnis der Verträge</a>
                     </li>
             }
         </ul>

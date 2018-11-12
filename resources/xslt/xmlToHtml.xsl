@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xsl:stylesheet xmlns="http://www.w3.org/1999/xhtml" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" exclude-result-prefixes="tei" version="2.0">
+<xsl:stylesheet xmlns="http://www.w3.org/1999/xhtml" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:my="http://test.org/" exclude-result-prefixes="tei" version="2.0">
     <xsl:import href="shared/base.xsl"/>
     <xsl:output indent="no"/>
     <xsl:param name="document"/>
@@ -1090,6 +1090,19 @@
             <xsl:text> </xsl:text>
         </xsl:element>
     </xsl:template>
+    <xsl:function name="my:fetch-delSpan" as="element(tei:delSpan)?">
+    <xsl:param name="n" as="node()"/>
+    <!-- del will be the most recent delSpan milestone -->
+    <xsl:variable name="del" select="$n/preceding::tei:delSpan[1]"/>
+    <!-- $del/id(@spanTo) will be its end anchor -->
+    <!-- return $del if its end anchor appears after the argument node -->
+    <xsl:sequence select="$del[id(@spanTo) &gt;&gt; $n]"/>
+    </xsl:function> 
+    <xsl:template match="text()[exists(my:fetch-delSpan(.))]">
+        <span class="deleted" style="text-decoration:line-through;">
+            <xsl:next-match/>
+        </span>
+    </xsl:template> 
     <xsl:template match="tei:country">
         <span>
 <!--            <xsl:attribute name="style">color:purple</xsl:attribute>-->
