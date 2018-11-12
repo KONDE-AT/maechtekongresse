@@ -438,10 +438,9 @@
                                         <xsl:apply-templates/>
                                     </xsl:for-each>
                                 </xsl:if>    
-                                <xsl:text> 2018. URL: </xsl:text>
-<!--                                <xsl:value-of select="$xmlFullPath"/>-->
-                                <xsl:value-of select="$base-url"/>
-                                <xsl:text>show.html?document=</xsl:text>
+                                <xsl:text> 2018. URL: https://</xsl:text>
+                                <xsl:value-of select="substring-before($base-url,', ')"/>
+                                <xsl:text>/pages/show.html?document=</xsl:text>
                                 <xsl:value-of select="substring-after(string($xmlFullPath),'editions/')"/>
                                 <xsl:text>&amp;directory=</xsl:text>
                             <xsl:value-of select="$collection-name"/>
