@@ -18,6 +18,7 @@
     <xsl:variable name="prev-doc-title" select="$prev-doc//tei:title[@type='main'][1]"/>
     <xsl:variable name="next-doc-title" select="$next-doc//tei:title[@type='main'][1]"/>
     
+    
     <xsl:strip-space elements="*"/>
     <xsl:preserve-space elements="p tei:p tei:title tei:persName tei:roleName tei:surname tei:rs"/>
     <!--
@@ -440,6 +441,10 @@
                                 <xsl:text> 2018. URL: </xsl:text>
 <!--                                <xsl:value-of select="$xmlFullPath"/>-->
                                 <xsl:value-of select="$base-url"/>
+                                <xsl:text>show.html?document=</xsl:text>
+                                <xsl:value-of select="substring-after(string($xmlFullPath),'editions/')"/>
+                                <xsl:text>&amp;directory=</xsl:text>
+                            <xsl:value-of select="$collection-name"/>
                                 <xsl:text>, abgerufen </xsl:text>
                                 <xsl:value-of select="format-date(current-date(), '[D01].[M01].[Y0001]')"/>
                                 <xsl:text>, </xsl:text>
