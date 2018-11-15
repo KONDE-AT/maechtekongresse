@@ -4,6 +4,7 @@
     <xsl:output indent="no"/>
     <xsl:param name="document"/>
     <xsl:param name="app-name"/>
+    <xsl:param name="app-title"/>
     <xsl:param name="collection-name"/>
     <xsl:param name="base-url"/>
     <xsl:param name="path2source"/>
@@ -422,7 +423,7 @@
                             </th>
                             <td>
                                 <xsl:value-of select="//tei:titleStmt//tei:title[@type='main']"/>. In:
-                                <!--<xsl:value-of select="$config:app-title"/>-->
+                                <xsl:value-of select="$app-title"/>
                                 <xsl:if test="//tei:titleStmt/tei:editor">
                                     <xsl:text>, hrsg. von </xsl:text>
                                     <xsl:for-each select="//tei:titleStmt/tei:editor">
@@ -463,6 +464,7 @@
                                 <li>
                                             <xsl:if test="@role">
                                                 <xsl:value-of select="@role"/>: </xsl:if> 
+                                    <xsl:value-of select="next-sibling::tei:name"/>
                                     <xsl:apply-templates/>
                                 </li>
                             </xsl:for-each>

@@ -330,6 +330,7 @@ let $next-doc := if ($collection = 'editions') then app:next-doc(base-uri($xml))
 let $params :=
 <parameters>
     <param name="app-name" value="{$config:app-name}"/>
+    <param name="app-title" value="{$config:app-title}"/>
     <param name="collection-name" value="{$collection}"/>
     <param name="prev-doc-name" value="{$prev-doc}"/>
     <param name="next-doc-name" value="{$next-doc}"/>
