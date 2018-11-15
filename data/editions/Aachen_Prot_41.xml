@@ -194,6 +194,13 @@
             <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
             <rendition xml:id="ow" scheme="css">text-decoration:line-through;text-decoration-style:double;</rendition>
          </tagsDecl>
+         <charDecl>
+            <glyph xml:id="LS">
+               <glyphName>CIRCLED L.S.</glyphName>
+               <desc>Locus Sigilli</desc>
+               <graphic url="https://commons.wikimedia.org/wiki/File:Locus_sigilli.png#/media/File:Locus_sigilli.png"/>
+            </glyph>
+         </charDecl>
       </encodingDesc>
       <profileDesc>
          <abstract>
@@ -997,6 +1004,7 @@
                         </persName>
                     </rs>
                 </signed>
+                <g ref="#LS"/>
                 <note type="editorial" target="#n.19">Es folgt "L. S." in einem Kreis als
                Siegelzeichen.</note>
             <signed>

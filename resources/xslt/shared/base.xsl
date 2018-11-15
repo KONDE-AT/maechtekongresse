@@ -254,7 +254,7 @@
                     <xsl:value-of select="substring-after(data(@ref), '#')"/>
                     <xsl:value-of select="substring-after(data(@key), '#')"/>
                 </xsl:attribute>
-                <xsl:value-of select="."/>
+                <xsl:apply-templates/>
             </xsl:element>
         </span>
     </xsl:template>
@@ -267,7 +267,7 @@
                     <xsl:value-of select="substring-after(data(@ref), '#')"/>
                     <xsl:value-of select="substring-after(data(@key), '#')"/>
                 </xsl:attribute>
-                <xsl:value-of select="."/>
+                <xsl:apply-templates/>
             </xsl:element>
         </span>
     </xsl:template>

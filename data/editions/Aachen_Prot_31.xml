@@ -367,7 +367,7 @@
                </choice> le <persName ref="#p.1">
                   <roleName>Duc</roleName>
                   <surname>de Richelieu</surname>
-                    </persName> a communiqué ses observations sur le <ref type="#Aachen_Prot_30.xml">mémoire de <choice>
+                    </persName> a communiqué ses observations sur le <ref target="Aachen_Prot_30.xml">mémoire de <choice>
                      <abbr>Mr.</abbr>
                      <expan>Monsieur</expan>
                   </choice>
@@ -508,7 +508,7 @@
                             </persName> et dans la supposition d’une démarche Collective)</add>
                </head>
             </p>
-            <p>Monsieur <supplied>...</supplied>, la Cour de Portugal ayant appelé, <rs xml:id="n.7"> par l’office dont copie est ci-jointe, </rs>
+            <p>Monsieur <supplied>…</supplied>, la Cour de Portugal ayant appelé, <rs xml:id="n.7"> par l’office dont copie est ci-jointe, </rs>
                     <note type="editorial" target="#n.7">Anlage liegt nicht ein.</note> l’attention des
                cabinets réunis à <placeName ref="#loc.1">Aix-la-Chapelle</placeName> sur les dangers
                dont la navigation et le commerce de l’Europe sont menacés par l’extension que prend
@@ -1682,11 +1682,13 @@
                part que ce pays a eue à la dette publique du <country>Danemarc</country>, n’est
                point accompli. La Commission de liquidation, établie pour fixer<pb n="100v"/> le
                montant de cette charge, n’a conduit à aucun résultat ; et les instances réitérées
-                  <delSpan rendition="#s" spanTo="#a.1"/>faites par Sa Majesté
-                  <supplied>...</supplied> par Ses augustes Alliés, pour déterminer la Cour de
+                  <del rendition="#s">faites par Sa Majesté
+                  <supplied>…</supplied> par Ses augustes Alliés, pour déterminer la Cour de
                   <placeName ref="#loc.12">Stockholm</placeName> à s’acquitter enfin de ses
-               engagemens sont restées sans effet.</p>
+                     engagemens sont restées sans effet.</del>
+                </p>
             <p>
+                    <del rendition="#s">
                <choice>
                   <abbr>S. M.</abbr>
                   <expan>Sa Majesté</expan>
@@ -1701,14 +1703,17 @@
                      <expan>Sa Majesté</expan>
                   </choice> Danoise</rs> a eu recours à l’intervention <rs ref="#p.16 #p.17 #p.18 #p.19" type="multi-person">des Souverains, sous les
                   auspices desquels la <rs ref="#t.15" type="multi-treaties">paix de <placeName ref="#loc.27">Kiel</placeName>
-                        </rs> a été conclue</rs>.</p>
+                        </rs> a été conclue</rs>.</del>
+                </p>
             <p>
-                    <rs ref="#p.16 #p.17 #p.18 #p.19" type="multi-person">
+               <del rendition="#s">
+                        <rs ref="#p.16 #p.17 #p.18 #p.19" type="multi-person">
                   <choice>
                      <abbr>S. M.</abbr>
                      <expan>Sa Majesté</expan>
                   </choice> et Ses augustes Alliés</rs> ne pouvoient pas décliner cette
-                  intervention <anchor xml:id="a.1"/>
+                  intervention </del>
+                    <anchor xml:id="a.1"/>
                <add place="margin">que <choice>
                      <abbr>S. M.</abbr>
                      <expan>Sa Majesté</expan>
@@ -1730,7 +1735,7 @@
                   <country>Suède</country> et le <country>Danemarc</country> ne Leur était
                étrangère. Ils ont tous plus ou moins concouru à assurer la Norvège à la couronne de
                   <country>Suède</country>.<pb n="101r"/>
-               <delSpan rendition="#s" spanTo="#a.2"/> La <rs ref="#t.15" type="treaties">paix de
+               <del rendition="#s" spanTo="#a.2">La <rs ref="#t.15" type="treaties">paix de
                      <placeName ref="#loc.27">Kiel</placeName>
                     </rs> s’est faite, pour ainsi dire, sous leurs yeux. Leurs Ministres en ont applani
                les obstacles en prennent part aux négociations difficiles qui l’ont précédée. Le <rs ref="#p.112" type="person">Roi de Danemarc</rs> a envisagé leur assentiment commun
@@ -1748,7 +1753,8 @@
                   <expan>Sa Majesté</expan>
                </choice>
                <supplied>...</supplied> qu’Ils feroient respecter la parole <unclear>que</unclear>
-               Lui avoit été donnée.<anchor xml:id="a.2"/>
+                  Lui avoit été donnée.</del>
+                    <anchor xml:id="a.2"/>
                <add place="margin"> C’est sous leur coopération directe que le traité qui en a
                   sanctionné l’acquisition a eu lieu. Le <rs ref="#p.112" type="person">Roi de
                      Danemarc</rs> n’a pas cessé de les envisager comme garans de l’exécution de cet

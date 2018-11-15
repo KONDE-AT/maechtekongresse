@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xsl:stylesheet xmlns="http://www.w3.org/1999/xhtml" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:my="http://test.org/" exclude-result-prefixes="tei" version="2.0">
+<xsl:stylesheet xmlns="http://www.w3.org/1999/xhtml" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:my="http://test.org/" xmlns:config="http://www.digital-archiv.at/ns/kongress/config" exclude-result-prefixes="tei" version="2.0">
     <xsl:import href="shared/base.xsl"/>
     <xsl:output indent="no"/>
     <xsl:param name="document"/>
@@ -421,7 +421,8 @@
                                 <abbr title="Zitierhilfe">Zitierempfehlung</abbr>
                             </th>
                             <td>
-                                <xsl:value-of select="//tei:titleStmt//tei:title[@type='main']"/>
+                                <xsl:value-of select="//tei:titleStmt//tei:title[@type='main']"/>. In:
+                                <!--<xsl:value-of select="$config:app-title"/>-->
                                 <xsl:if test="//tei:titleStmt/tei:editor">
                                     <xsl:text>, hrsg. von </xsl:text>
                                     <xsl:for-each select="//tei:titleStmt/tei:editor">
@@ -1113,6 +1114,41 @@
             <xsl:attribute name="title">//country</xsl:attribute>
                 <xsl:apply-templates/>
         </span>
+    </xsl:template>
+    <xsl:template match="tei:label">
+        <xsl:element name="p">
+            <xsl:attribute name="class">ed</xsl:attribute>
+            <xsl:attribute name="style">margin-left:-1em</xsl:attribute>
+            <xsl:attribute name="title">Marginalie</xsl:attribute>
+            <xsl:apply-templates/>
+        </xsl:element>
+    </xsl:template>
+    <xsl:template match="tei:g">
+        <xsl:element name="img">
+            <xsl:attribute name="src">
+                <xsl:value-of select="root()//tei:charDecl/tei:glyph[@xml:id='@ref']/tei:graphic/@url"/>
+            </xsl:attribute>
+            <xsl:attribute name="title">
+                <xsl:value-of select="."/>
+            </xsl:attribute>
+        </xsl:element>
+        <xsl:apply-templates/>
+    </xsl:template>
+    <xsl:template match="tei:unclear">
+        <xsl:element name="span">
+            <xsl:attribute name="title">unsichere Lesung</xsl:attribute>
+            <xsl:apply-templates/>
+            <xsl:text> [?] </xsl:text>
+        </xsl:element>
+    </xsl:template>
+    <xsl:template match="tei:gap">
+        <xsl:element name="span">
+            <xsl:attribute name="title">Textlücke</xsl:attribute>
+            <xsl:attribute name="style">font-size:x-small;vertical-align:super;</xsl:attribute>
+            <xsl:text> [Lücke</xsl:text>
+            <xsl:apply-templates/>
+            <xsl:text>] </xsl:text>
+        </xsl:element>
     </xsl:template>
     <xsl:template match="tei:signed">
         <xsl:choose>
