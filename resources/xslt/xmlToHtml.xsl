@@ -31,15 +31,14 @@
         <div class="page-header">
             <xsl:comment>base-url: <xsl:value-of select="$base-url"/>
             </xsl:comment>
-            <nav class="navbar" id="ph">
                 <xsl:if test="$prev-doc-name != ''">
-                <ul class="nav navbar-nav pager nav-pills">
+                <ul class="pager nav-pills phl">
                 <li>
                     <a>
                         <xsl:attribute name="href">
                             <xsl:value-of select="concat('show.html?document=', $prev-doc-name)"/>
                         </xsl:attribute> 
-                        <xsl:attribute name="class">btn btnPrev</xsl:attribute>
+                        <xsl:attribute name="class">previous</xsl:attribute>
                         <xsl:attribute name="title">
                                 <xsl:value-of select="$prev-doc-title"/>
                             </xsl:attribute>
@@ -49,13 +48,13 @@
                 </ul>
                 </xsl:if>
                 <xsl:if test="$next-doc-name != ''">
-                <ul class="nav navbar-nav pager nav-pills navbar-right">
+                <ul class="pager nav-pills phr">
                     <li>
                     <a>
                             <xsl:attribute name="href">
                                 <xsl:value-of select="concat('show.html?document=', $next-doc-name)"/>
                             </xsl:attribute> 
-                            <xsl:attribute name="class">btn btnNext</xsl:attribute>
+                            <xsl:attribute name="class">next</xsl:attribute>
                             <xsl:attribute name="title">
                                 <xsl:value-of select="$next-doc-title"/>
                             </xsl:attribute>
@@ -64,7 +63,6 @@
                 </li>
                 </ul>
                 </xsl:if>
-            </nav>
             <h2 style="text-align:center">
                 <xsl:for-each select="//tei:fileDesc/tei:titleStmt/tei:title[@type='main']">
                     <xsl:apply-templates/>

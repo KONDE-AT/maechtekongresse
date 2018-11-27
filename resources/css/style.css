@@ -87,16 +87,18 @@ body{
     border-radius: 6px 0 6px 6px;
 }
 
-#ph{
-    padding:0px 20px 30px; 
+.phl{
     position:fixed;
-    width: 104vw;
-            left: 50%;
-            right: 50%;
-            margin-left: -52vw;
-            margin-right: -52vw;
-    top:5%; 
+    top:10%;
     z-index:2;
+    left:0em;
+}
+
+.phr{
+    position:fixed;
+    top:10%;
+    z-index:2;
+    right:0em;
 }
 
 .widetable{
