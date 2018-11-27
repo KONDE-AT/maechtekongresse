@@ -198,7 +198,8 @@
             <glyph xml:id="LS">
                <glyphName>CIRCLED L.S.</glyphName>
                <desc>Locus Sigilli</desc>
-               <graphic url="https://commons.wikimedia.org/wiki/File:Locus_sigilli.png#/media/File:Locus_sigilli.png"/>
+               <graphic url="../resources/img/LS.svg"/>
+               <!--<graphic url="https://commons.wikimedia.org/wiki/File:Locus_sigilli.png#/media/File:Locus_sigilli.png"/>-->
             </glyph>
          </charDecl>
       </encodingDesc>
@@ -1003,10 +1004,8 @@
                      <surname>de Wacquant-Geozelles</surname>
                         </persName>
                     </rs>
+               <g ref="LS"/>
                 </signed>
-                <g ref="#LS"/>
-                <note type="editorial" target="#n.19">Es folgt "L. S." in einem Kreis als
-               Siegelzeichen.</note>
             <signed>
                     <rs xml:id="n.20">Le <persName ref="#p.131">
                             <roleName>
@@ -1019,18 +1018,16 @@
                      <surname>de Montgelas</surname>
                         </persName>
                     </rs>
+               <g ref="LS"/>
             </signed>
-                <note type="editorial" target="#n.20">Es folgt "L. S." in einem Kreis als
-               Siegelzeichen.</note>
             <signed>
                     <rs xml:id="n.21">Le <persName ref="#p.132">
                             <roleName>Comte</roleName>
                      <surname>de Rechberg</surname>
                         </persName>
                     </rs>
+               <g ref="LS"/>
             </signed>
-                <note type="editorial" target="#n.21">Es folgt "L. S." in einem Kreis als
-               Siegelzeichen.</note>
          </div>
       </body>
        <back>

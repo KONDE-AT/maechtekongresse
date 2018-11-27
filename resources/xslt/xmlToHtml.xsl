@@ -464,8 +464,10 @@
                                 <li>
                                             <xsl:if test="@role">
                                                 <xsl:value-of select="@role"/>: </xsl:if> 
-                                    <xsl:value-of select="next-sibling::tei:name"/>
-                                    <xsl:apply-templates/>
+                                    <xsl:value-of select="."/>
+                                            <xsl:text>: </xsl:text>
+                                    <xsl:value-of select="../tei:name"/>
+                                    <!--<xsl:apply-templates/>-->
                                 </li>
                             </xsl:for-each>
                                 </ul>
@@ -908,12 +910,13 @@
     <xsl:template match="tei:choice">
         <xsl:choose>
             <xsl:when test="tei:sic and tei:corr">
-                <span class="alternate choice4" title="alternate">
+                <span class="alternate choice4">
+                    <xsl:attribute name="title">Korrektur der Hrsg. aus: „<xsl:value-of select="tei:sic[1]"/>“</xsl:attribute>
                     <xsl:if test="@xml:id">
                         <xsl:attribute name="id" select="@xml:id"/>
                     </xsl:if>
                     <xsl:apply-templates select="tei:corr[1]"/>
-                    <span class="hidden altcontent ">
+                    <span class="hidden altcontent">
                         <xsl:if test="@xml:id">
                             <xsl:attribute name="id" select="@xml:id"/>
                         </xsl:if>
@@ -992,11 +995,14 @@
         <xsl:element name="table">
             <xsl:attribute name="class">
                 <xsl:choose>
-                    <xsl:when test="@rend='rules'">
+                    <xsl:when test="@rend='rules' and not(parent::tei:signed)">
                         <xsl:text>table table-bordered table-condensed table-hover</xsl:text>
                     </xsl:when>
+                    <xsl:when test="parent::tei:signed">
+                        <xsl:text>table table-borderless</xsl:text>
+                    </xsl:when>
                     <xsl:otherwise>
-                        <xsl:text>table table-bordered table-striped table-condensed table-hover</xsl:text>                        
+                        <xsl:text>table table-striped table-condensed table-hover</xsl:text>                        
                     </xsl:otherwise>
                 </xsl:choose>
             </xsl:attribute>
@@ -1126,13 +1132,28 @@
         </xsl:element>
     </xsl:template>
     <xsl:template match="tei:g">
+        <xsl:variable name="glyphId" select="@ref"/>
         <xsl:element name="img">
             <xsl:attribute name="src">
-                <xsl:value-of select="root()//tei:charDecl/tei:glyph[@xml:id='@ref']/tei:graphic/@url"/>
+                <xsl:value-of select="root()//tei:charDecl/tei:glyph[$glyphId]/tei:graphic/@url"/>
             </xsl:attribute>
             <xsl:attribute name="title">
-                <xsl:value-of select="."/>
+                <xsl:value-of select="root()//tei:charDecl/tei:glyph[$glyphId]/tei:desc"/>
             </xsl:attribute>
+            <xsl:attribute name="style">width:4em;margin-left:3em;</xsl:attribute>
+        </xsl:element>
+        <xsl:apply-templates/>
+    </xsl:template>
+    <xsl:template match="tei:glyph">
+        <xsl:variable name="glyphId" select="@ref"/>
+        <xsl:element name="img">
+            <xsl:attribute name="src">
+                <xsl:value-of select="root()//tei:charDecl/tei:glyph[$glyphId]/tei:graphic/@url"/>
+            </xsl:attribute>
+            <xsl:attribute name="title">
+                <xsl:value-of select="root()//tei:charDecl/tei:glyph[$glyphId]/tei:desc"/>
+            </xsl:attribute>
+            <xsl:attribute name="style">width:4em;margin-left:3em;</xsl:attribute>
         </xsl:element>
         <xsl:apply-templates/>
     </xsl:template>
