@@ -278,7 +278,7 @@
     </xsl:template>
     <xsl:template match="tei:country">
         <span>
-            <xsl:attribute name="style">color:purple</xsl:attribute>
+<!--            <xsl:attribute name="style">color:purple</xsl:attribute>-->
             <xsl:attribute name="title">//country</xsl:attribute>
             <xsl:apply-templates/>
         </span>
@@ -380,9 +380,9 @@
         <xsl:element name="span">
             <xsl:attribute name="style">color:blue</xsl:attribute>
             <xsl:attribute name="title">editorische Ergänzung</xsl:attribute>
-            <xsl:text>‹</xsl:text>
+            <xsl:text>&lt;</xsl:text>
             <xsl:apply-templates/>
-            <xsl:text>›</xsl:text>
+            <xsl:text>&gt;</xsl:text>
         </xsl:element>
     </xsl:template>
     <!-- choice -->
