@@ -424,11 +424,24 @@
                                 <xsl:value-of select="$app-title"/>
                                 <xsl:if test="//tei:titleStmt/tei:editor">
                                     <xsl:text>, hrsg. von </xsl:text>
-                                    <xsl:for-each select="//tei:titleStmt/tei:editor">
+                                    <xsl:for-each select="//tei:titleStmt/tei:editor[not(@role)]">
                                         <xsl:value-of select="./tei:persName/tei:forename"/>
                                         <xsl:text> </xsl:text>
                                         <xsl:value-of select="./tei:persName/tei:surname"/>
                                     </xsl:for-each>
+                                    <xsl:if test="//tei:titleStmt/tei:editor[@role]">
+                                        <xsl:text> unter Mitarbeit von </xsl:text>
+                                        <xsl:for-each select="//tei:titleStmt/tei:editor[@role]">
+                                            <span>
+                                                <xsl:attribute name="title">
+                                                    <xsl:value-of select="./tei:persName/@ref"/>
+                                                </xsl:attribute>
+                                                <xsl:value-of select="./tei:persName/tei:forename"/>
+                                                <xsl:text> </xsl:text>
+                                                <xsl:value-of select="./tei:persName/tei:surname"/>
+                                            </span>
+                                        </xsl:for-each>
+                                    </xsl:if>
                                     <xsl:text>, </xsl:text>
                                     <xsl:for-each select="//tei:publicationStmt/tei:pubPlace">
                                         <xsl:apply-templates/>
@@ -458,13 +471,15 @@
                         </th>
                         <td>
                                 <ul>
-                            <xsl:for-each select="//tei:titleStmt/tei:respStmt/tei:resp">
+                                <xsl:for-each select="//tei:titleStmt/tei:respStmt/tei:resp">
                                 <li>
-                                            <xsl:if test="@role">
-                                                <xsl:value-of select="@role"/>: </xsl:if> 
+                                    <xsl:if test="@role">
+                                        <xsl:value-of select="@role"/>
+                                        <xsl:text>: </xsl:text> 
+                                    </xsl:if> 
                                     <xsl:value-of select="."/>
                                             <xsl:text>: </xsl:text>
-                                    <xsl:value-of select="../tei:name"/>
+                                    <xsl:value-of select="following-sibling::tei:name[1]"/>
                                     <!--<xsl:apply-templates/>-->
                                 </li>
                             </xsl:for-each>
