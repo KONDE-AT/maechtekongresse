@@ -467,7 +467,7 @@
                 <xsl:if test="//tei:titleStmt/tei:respStmt">
                     <tr>
                         <th>
-                            <abbr title="//tei:titleStmt/tei:respStmt">verantwortlich</abbr>
+                            <abbr title="//tei:titleStmt/tei:respStmt">Verantwortlichkeiten</abbr>
                         </th>
                         <td>
                                 <ul>
@@ -484,6 +484,12 @@
                                 </li>
                             </xsl:for-each>
                                 </ul>
+                            <xsl:if test="//tei:respStmt/tei:note">
+                                <p>
+                                    <xsl:apply-templates select="//tei:titleStmt/tei:respStmt/tei:note"/>
+<!--                                    <xsl:apply-templates/>-->
+                                </p>
+                            </xsl:if>
                         </td>
                     </tr>
                 </xsl:if>
@@ -1184,6 +1190,11 @@
             <xsl:text> [Lücke</xsl:text>
             <xsl:apply-templates/>
             <xsl:text>] </xsl:text>
+        </xsl:element>
+    </xsl:template>
+    <xsl:template match="//tei:titleStmt/tei:respStmt/tei:note">
+        <xsl:element name="p">
+            <xsl:apply-templates/>
         </xsl:element>
     </xsl:template>
     <xsl:template match="tei:signed">
