@@ -484,12 +484,12 @@
                                 </li>
                             </xsl:for-each>
                                 </ul>
-                            <xsl:if test="//tei:respStmt/tei:note">
+                            <xsl:for-each select="//tei:notesStmt/tei:note">
                                 <p>
-                                    <xsl:apply-templates select="//tei:titleStmt/tei:respStmt/tei:note"/>
+                                    <xsl:apply-templates select="."/>
 <!--                                    <xsl:apply-templates/>-->
                                 </p>
-                            </xsl:if>
+                            </xsl:for-each>
                         </td>
                     </tr>
                 </xsl:if>
@@ -1192,7 +1192,7 @@
             <xsl:text>] </xsl:text>
         </xsl:element>
     </xsl:template>
-    <xsl:template match="//tei:titleStmt/tei:respStmt/tei:note">
+    <xsl:template match="//tei:notesStmt/tei:note">
         <xsl:element name="p">
             <xsl:apply-templates/>
         </xsl:element>
