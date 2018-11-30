@@ -196,6 +196,11 @@
                     <xsl:apply-templates/>
                 </xsl:element>
             </xsl:when>
+            <xsl:when test="@type='infobox'">
+                <div class="well">
+                    <xsl:apply-templates/>
+                </div>
+            </xsl:when>
             <xsl:when test="@type='regest'">
                 <div>
                     <xsl:attribute name="class">
@@ -530,7 +535,7 @@
         </xsl:element>
     </xsl:template>
     <xsl:template match="tei:list[@type='gloss']"><!-- reused from https://stackoverflow.com/questions/34855523/xslt-transforming-definition-lists-tei -->
-        <div class="glossary">
+        <div class="glossary well">
             <xsl:apply-templates select="./tei:head"/>
             <dl>
                 <xsl:apply-templates select="tei:label | tei:item"/>

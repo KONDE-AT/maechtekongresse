@@ -14,10 +14,10 @@
             <publicationStmt>
                 <publisher/>
                 <availability>
-                       <licence target="https://creativecommons.org/licenses/by/4.0/">
-                           <p>The (CC BY 4.0) licence applies to this document.</p>
-                       </licence>
-                   </availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        <p>The (CC BY 4.0) licence applies to this document.</p>
+                    </licence>
+                </availability>
             </publicationStmt>
             <sourceDesc>
                 <p>Born digital.</p>
@@ -28,17 +28,21 @@
         <body>
             <div>
                 <head>Technisches</head>
-                <p>Die Umsetzung der Edition der Dokumente der Mächtekongresse wurde seit 
-                    <date when="2018-02-01">Februar 2018</date> am <ref target="https://www.oeaw.ac.at/inz/" type="URI">Institut für Neuzeit- und Zeitgeschichtsforschung</ref> der <ref target="https://www.oeaw.ac.at/" type="URI">Österreichischen Akademie der Wissenschaften</ref> intensiviert verfolgt. 
-                </p>
-                <p>Die Dokumente lagen zu diesem Zeitpunkt als mithilfe der Richtlinien der TEI P5 (<ref type="URI" target="https://www.tei-c.org">https://www.tei-c.org</ref>) codierte XML-Dokumente vor, bei denen noch Korrekturen und Anpassungen sowie die gesamte Online-Darstellungsebene der vorliegenden Applikation umzusetzen waren.</p>
-                <p>Durch die Beteiligung am HRSM-Projekt <ref type="URI" target="http://www.digitale-edition.at/">Kompetenznetzwerk Digitale Edition (KONDE)</ref>
-                    fiel auf der Suche nach einer technischen Lösung
-                    für den Präsentationslayer zu den bereits weitgehend in getaggter und „fertig“ edierter Form vorliegenden Dokumente die Wahl auf 
-                    eine Umsetzung als Applikation für <ref type="URI" target="http://exist-db.org/">eXist-db</ref> (eine java-basierte XML-Serverlösung). Im Zusammenhang mit KONDE 
-                    wurde aufbauend auf den <ref type="URI" target="https://github.com/csae8092/posts/tree/master/digital-edition-web-app">Blogposts</ref> von Peter Andorfer zur Verwendung der <ref type="URI" target="https://github.com/KONDE-AT/dsebaseapp">dsebaseapp</ref> (dse = digital scholarly edition),
-                    die ihrerseits ihre Herkunft aus einer <ref type="URI" target="http://thun-korrespondenz.uibk.ac.at/">Briefedition</ref> nicht verleugnen kann, mit der Umsetzung begonnen. 
-                </p>
+                <p>Die Umsetzung der Edition der Dokumente der Mächtekongresse wurde seit <date when="2018-02-01">Februar 2018</date> am <ref target="https://www.oeaw.ac.at/inz/" type="URI">Institut für Neuzeit- und
+                        Zeitgeschichtsforschung</ref> der <ref target="https://www.oeaw.ac.at/" type="URI">Österreichischen Akademie der Wissenschaften</ref> intensiviert
+                    verfolgt. </p>
+                <p>Die Dokumente lagen zu diesem Zeitpunkt als mithilfe der Richtlinien der TEI P5
+                        (<ref type="URI" target="https://www.tei-c.org">https://www.tei-c.org</ref>)
+                    codierte XML-Dokumente vor, bei denen noch Korrekturen und Anpassungen sowie die
+                    gesamte Online-Darstellungsebene der vorliegenden Applikation umzusetzen
+                    waren.</p>
+                <p>Durch die Beteiligung am HRSM-Projekt <ref type="URI" target="http://www.digitale-edition.at/">Kompetenznetzwerk Digitale Edition
+                        (KONDE)</ref> fiel auf der Suche nach einer technischen Lösung für den
+                    Präsentationslayer zu den bereits weitgehend in getaggter und „fertig“ edierter
+                    Form vorliegenden Dokumente die Wahl auf eine Umsetzung als Applikation für <ref type="URI" target="http://exist-db.org/">eXist-db</ref> (eine java-basierte
+                    XML-Serverlösung). Im Zusammenhang mit KONDE wurde aufbauend auf den <ref type="URI" target="https://github.com/csae8092/posts/tree/master/digital-edition-web-app">Blogposts</ref> von Peter Andorfer zur Verwendung der <ref type="URI" target="https://github.com/KONDE-AT/dsebaseapp">dsebaseapp</ref> (dse =
+                    digital scholarly edition), die ihrerseits ihre Herkunft aus einer <ref type="URI" target="http://thun-korrespondenz.uibk.ac.at/">Briefedition</ref>
+                    nicht verleugnen kann, mit der Umsetzung begonnen. </p>
                 <div>
                     <head>Legende zur Darstellung</head>
                     <list>
@@ -47,71 +51,97 @@
                         <item>
                             <del>durchgestrichen</del>: Streichung</item>
                         <item>
-                            <supplied>blau in Spitzklammern</supplied>: editorische Ergänzungen, Materialschäden</item>
+                            <supplied>blau in Spitzklammern</supplied>: editorische Ergänzungen,
+                            Materialschäden</item>
                         <item>
                             <app>
                                 <lem>grau</lem>
                                 <rdg>grau</rdg>
-                            </app>: Variante (siehe jeweils den Variantenapparat am Ende der Seite)</item>
+                            </app>: Variante (siehe jeweils den Variantenapparat am Ende der
+                            Seite)</item>
                         <item>
                             <hi rend="italic">Kursivierung</hi>: nicht im Originaltext</item>
                         <item>
-                            <country>schwarz, hover</country>: country-Tag, historische Daten sind nicht in das Ortsregister aufgenommen</item>
+                            <country>schwarz, hover</country>: country-Tag, historische Daten sind
+                            nicht in das Ortsregister aufgenommen</item>
                         <item>
-                            <date when="2018-10-30">schwarz, hover</date>: Datumsangabe, ISO-Darstellung im title-Attribut (hover)</item>
-                        <item>Weitere Textphänomene sind visuell den Originalquellen nachempfunden (Unterstreichungen u.a.); im Zweifelsfall wird empfohlen, den TEI-Quelltext der Edition zu konsultieren und die entsprechenden Elemente in der <ref type="URI" target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/">Dokumentation</ref> der TEI-Empfehlungen nachzuschlagen.</item>
+                            <date when="2018-10-30">schwarz, hover</date>: Datumsangabe,
+                            ISO-Darstellung im title-Attribut (hover)</item>
+                        <item>Weitere Textphänomene sind visuell den Originalquellen nachempfunden
+                            (Unterstreichungen u.a.); im Zweifelsfall wird empfohlen, den
+                            TEI-Quelltext der Edition zu konsultieren und die entsprechenden
+                            Elemente in der <ref type="URI" target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/">Dokumentation</ref> der TEI-Empfehlungen nachzuschlagen.</item>
                     </list>
                 </div>
                 <div>
                     <head>Apparate</head>
-                    <p>Der editorische Fußnotenapparat zählt mit arabischen Ziffern (1, 2, 3, …). Anmerkungen aus den edierten Texten, die im Original vorhanden sind, werden in einem separaten Apparat mit alphabetischer Zählung (a, b, c, …) verzeichnet. Ein dritter Apparat betrifft die Varianten, die im Lesetext lediglich durch graue Schrift angezeigt werden.</p>
+                    <p>Der editorische Fußnotenapparat zählt mit arabischen Ziffern (1, 2, 3, …).
+                        Anmerkungen aus den edierten Texten, die im Original vorhanden sind, werden
+                        in einem separaten Apparat mit alphabetischer Zählung (a, b, c, …)
+                        verzeichnet. Ein dritter Apparat betrifft die Varianten, die im Lesetext
+                        lediglich durch graue Schrift angezeigt werden.</p>
                 </div>
                 <div>
                     <head>Versionsgeschichte</head>
-                <list>
-                    <item>
+                    <list>
+                        <item>
                             <date when="2018-09-23">2018-09-23</date> erste Veröffentlichung</item>
-                </list>
-                    <p>Aktuell befindet sich die Applikation im Status einer Public Beta; Kritik, Korrekturen, Verbesserungsvorschläge bitte an die Herausgeberin (Kontakt siehe unten).</p>
+                    </list>
+                    <p>Aktuell befindet sich die Applikation im Status einer Public Beta; Kritik,
+                        Korrekturen, Verbesserungsvorschläge bitte an die Herausgeberin (Kontakt
+                        siehe unten).</p>
                 </div>
-                <list type="gloss">
+                <div>
                     <head>Verantwortlichkeiten im Überblick</head>
-                    <label>Applikation und XSL-Transformation</label>
-                    <item>Stephan Kurz, aufbauend auf umfangreichen Vorarbeiten von Peter Andorfer und Dario Kampkaspar (siehe die Dateien in <ref type="URI" target="../resources/xslt">$approot/resources/xslt</ref>)</item>
-                    <label>Hintergrundkarte</label>
-                    <item>basierend auf der CC-lizenzierten <ref type="URI" target="https://www.ieg-maps.uni-mainz.de/mapsp/mappEu820Serie2.htm">Karte von Kunz, Röss, Möschl</ref>. Bearbeitung mit <ref type="URI" target="https://inkscape.org/en/">Inkscape</ref> und Adobe Illustrator zur Vereinfachung der Pfade (72kb statt 800kb) Stephan Kurz</item>
-                    <label>Layout/CSS</label>
-                    <item>Peter Andorfer, Stephan Kurz, basierend auf <ref type="URI" target="http://getbootstrap.com/">Bootstrap 3</ref>
-                    </item>
-                    <label>Schriften</label>
-                    <item>Palatino als Corporate Identity-Schrift der ÖAW für die Editionsteile, Überschriften aus der Trebuchet MS</item>
-                    <label>Zeitleiste</label>
-                    <item>
-                        <ref type="URI" target="http://visjs.org/">vis.js</ref>
-                    </item>
-                    <label>Kartendarstellung (Ortsregister)</label>
-                    <item>
-                        <ref type="URI" target="https://leafletjs.com/">Leaflet</ref>
-                    </item>
-                    <label>Codierung in TEI und Edition</label>
-                    <item>Karin Schneider</item>
-                    <label>TEI-Korrekturen</label>
-                    <item>Daniel Schopper, Peter Andorfer, Stephan Kurz</item>
-                    <label>Lizenzen</label>
-                    <item>Editionstext: CC-BY-SA 4.0, Software, Applikation: MIT Lizenz</item>
-                    <label>Langzeitarchivierung der TEI-Daten</label>
-                    <item>ARCHE (in Vorbereitung)</item>
-                    <label>Archivierung und Zugänglichkeit der Applikationsdaten</label>
-                    <item>GitHub über KONDE-AT (in Vorbereitung)</item>
-                    <label>Technischer Support</label>
-                    <item>
-                        <ref type="URI" target="https://www.oeaw.ac.at/acdh/">ACDH-ÖAW</ref>
-                    </item>
-                </list>
+                    <list type="gloss">
+                        <head>Applikation</head>
+                        <label>Hintergrundkarte</label>
+                        <item>basierend auf der CC-lizenzierten <ref type="URI" target="https://www.ieg-maps.uni-mainz.de/mapsp/mappEu820Serie2.htm">Karte von Kunz, Röss, Möschl</ref>. Bearbeitung mit <ref type="URI" target="https://inkscape.org/en/">Inkscape</ref> und Adobe
+                            Illustrator zur Vereinfachung der Pfade (72kb statt 800kb) Stephan
+                            Kurz</item>
+                        <label>Kartendarstellung (Ortsregister)</label>
+                        <item>
+                            <ref type="URI" target="https://leafletjs.com/">Leaflet</ref>
+                        </item>
+                        <label>Layout/CSS</label>
+                        <item>Peter Andorfer, Stephan Kurz, basierend auf <ref type="URI" target="http://getbootstrap.com/">Bootstrap 3</ref>
+                        </item>
+                        <label>Schriften</label>
+                        <item>Palatino als Corporate Identity-Schrift der ÖAW für die Editionsteile,
+                            Überschriften aus der Trebuchet MS</item>
+                        <label>XSL-Transformation</label>
+                        <item>Stephan Kurz, aufbauend auf umfangreichen Vorarbeiten von Peter
+                            Andorfer und Dario Kampkaspar (siehe die Dateien in <ref type="URI" target="../resources/xslt">$approot/resources/xslt</ref>)</item>
+                        <label>Zeitleiste</label>
+                        <item>
+                            <ref type="URI" target="http://visjs.org/">vis.js</ref>
+                        </item>
+                    </list>
+                    <list type="gloss">
+                        <head>Edition</head>
+                        <label>Transkription</label>
+                        <item>Karin Schneider</item>
+                        <label>Codierung in TEI</label>
+                        <item>Karin Schneider</item>
+                        <label>TEI-Korrekturen</label>
+                        <item>Daniel Schopper, Peter Andorfer, Stephan Kurz</item>
+                    </list>
+                    <list type="gloss">
+                        <label>Lizenzen</label>
+                        <item>Editionstext: CC-BY-SA 4.0, Software, Applikation: MIT Lizenz</item>
+                        <label>Langzeitarchivierung der TEI-Daten</label>
+                        <item>ARCHE (in Vorbereitung)</item>
+                        <label>Archivierung und Zugänglichkeit der Applikationsdaten</label>
+                        <item>GitHub über KONDE-AT (in Vorbereitung)</item>
+                    </list>
+                </div>
                 <div xml:id="contacts">
                     <head>Kontakt</head>
                     <p>
-                        <ref type="URI" target="mailto:karin.schneider@oeaw.ac.at">Karin Schneider</ref>, INZ</p>
+                        <ref type="URI" target="mailto:karin.schneider@oeaw.ac.at">Karin
+                            Schneider</ref>, INZ</p>
+                    <p>Technischer Support: <ref type="URI" target="https://www.oeaw.ac.at/acdh/">ACDH-ÖAW</ref>
+                    </p>
                 </div>
             </div>
         </body>
