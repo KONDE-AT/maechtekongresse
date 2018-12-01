@@ -10,7 +10,7 @@ declare namespace util = "http://exist-db.org/xquery/util";
 
 declare option exist:serialize "method=text media-type=text";
 
-let $root := "https://kongress.acdh.oeaw.ac.at/"
+let $root := "https://maechtekongresse.acdh.oeaw.ac.at/"
 
 let $prefix := 
 "#FORMAT: BEACON

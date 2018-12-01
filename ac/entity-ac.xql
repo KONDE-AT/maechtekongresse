@@ -69,9 +69,9 @@ let $return :=
                         <type>{$type}</type>
                     </item>
         }</list>
-    else if($type eq 'work') then
+    else if($type eq 'witnesses') then
         <list>{
-        let $entities := doc($app:workIndex)//tei:bibl
+        let $entities := doc($app:listWittnes)//tei:bibl
         for $x in $entities
             let $name := normalize-space(string-join($x/tei:title//text(), ' '))
             let $description := normalize-space(string-join($x//text(), ' '))
