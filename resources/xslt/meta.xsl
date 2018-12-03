@@ -123,6 +123,11 @@
                     <xsl:apply-templates/>
                 </u>
             </xsl:when>
+            <xsl:when test="@rend='tt'">
+                <code>
+                    <xsl:apply-templates/>
+                </code>
+            </xsl:when>
             <xsl:when test="@rend='italic'">
                 <i>
                     <xsl:apply-templates/>
