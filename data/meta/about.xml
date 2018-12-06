@@ -106,14 +106,18 @@
                 <div>
                     <head>Bekannte Darstellungsprobleme</head>
                     <list>
-                        <item><date when="2018-12-03">2018-12-03</date>
+                        <item>
+                            <date when="2018-12-03">2018-12-03</date>
                             Verschachtelte Links werden nicht aufgelöst: V.a. Referenzen auf Verträge werden unterbrochen, wenn 
                             andere Referenzobjekte (Orts- und Personennamen) darin liegen (Pseudocode: 
                             <hi rend="tt">&lt;v&gt;Vertragstitel, der &lt;o&gt;Paris&lt;/o&gt; beinhaltet&lt;/v&gt;</hi>: Der Link zum Vertrag endet vor &lt;o&gt;.)</item>
-                        <item><date when="2018-12-03">2018-12-03</date>
+                        <item>
+                            <date when="2018-12-03">2018-12-03</date>
                             Nur die innerste Ebene von Elementen wird in einem title-Attribut (hover) ausgegeben, das betrifft etwa 
-                            <add>Hinzufügungen, innerhalb derer <date when="2018-12-03">Datumsangaben</date></add> ausgegeben werden.</item>
-                        <item><date when="2018-12-03">2018-12-03</date>
+                            <add>Hinzufügungen, innerhalb derer <date when="2018-12-03">Datumsangaben</date>
+                            </add> ausgegeben werden.</item>
+                        <item>
+                            <date when="2018-12-03">2018-12-03</date>
                             Leerzeichen um Satzzeichen: Whitespace-Handling und eXist-db sind für das gegenständliche Projekt noch ungelöst.</item>
                     </list>
                 </div>
