@@ -275,7 +275,7 @@
                     </div>
                 </div>
             </div>
-
+        </footer>
             <script>
                 /*script for loading the content of the modal */
                 $(document).ready(function(){
@@ -335,8 +335,13 @@
             <script type="text/javascript">
             </script>
         <!-- scroll-up-bottom end -->
-            
-        </footer>
+            <script src="$app-root/resources/js/typopo.min.js"/>
+            <script>
+            $(function() {
+            $('#content').val(fixTypos($('#content').val(), 'en-us'));
+            });
+            </script>
+        
         
     </body>
 </html>
