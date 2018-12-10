@@ -479,10 +479,13 @@
                                     </xsl:if> 
                                     <xsl:value-of select="."/>
                                             <xsl:text>: </xsl:text>
-                                    <xsl:value-of select="following-sibling::tei:name[1]"/>
+                                    <xsl:for-each select="following-sibling::tei:name">
+                                        <xsl:value-of select="."/>
+                                        <xsl:if test="position() != last()">, </xsl:if>
+                                    </xsl:for-each>
                                     <!--<xsl:apply-templates/>-->
                                 </li>
-                            </xsl:for-each>
+                                </xsl:for-each>
                                 </ul>
                             <xsl:for-each select="//tei:notesStmt/tei:note">
                                 <p>
