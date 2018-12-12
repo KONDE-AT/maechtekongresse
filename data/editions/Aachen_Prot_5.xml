@@ -83,6 +83,7 @@
                      <handNote xml:id="G">Friedrich Gentz</handNote>
                      <handNote xml:id="W">Nikolaus Wacken</handNote>
                      <handNote xml:id="A">Anonym</handNote>
+                     <handNote xml:id="R">Armand Emmanel du Plessis, duc de Richelieu</handNote>
                   </handDesc>
                </physDesc>
                <history>
@@ -231,7 +232,7 @@
             </dateline>
                 </opener>
             <p>
-               <add hand="W" place="margin">entre les Cinq Cabinets</add>
+               <add hand="#W" place="margin">entre les Cinq Cabinets</add>
                 </p>
             <p>
                     <choice>
@@ -386,7 +387,7 @@
             <p>Le <rs ref="#t.8" type="treaties">procès-verbal du <date when="1815-10-13">13 Octobre
                   1815</date>
                     </rs> qui, d’après les notes échangées le <date when="1815-10-20">20
-                  Octobre</date> à la suite de la signature <rs ref="#t.1" type="treaties">du traité</rs>, doit être
+                  Octobre</date> à la suite de la signature du traité, doit être
                regardé comme <choice>
                   <abbr>parfaitem<hi rendition="#su">t</hi>
                         </abbr>
@@ -481,7 +482,7 @@
             <p>
                Le <rs ref="#p.1" type="person">Soussigné</rs> a l’honneur de renouveler à <rs ref="#p.8 #p.10 #p.11 #p.13 #p.12 #p.14 #p.9" type="multi-person">Leurs Excellences</rs> l’assurance
                de sa haute considération.</p>
-            <signed>Richelieu</signed>
+            <signed hand="#R">Richelieu</signed>
             <dateline xml:space="preserve">
                     <placeName ref="#loc.1">Aix-la-Chapelle</placeName>, le <date when="1818-10-02">2 <choice>
                      <abbr>8<hi rendition="#su">bre</hi>
@@ -580,7 +581,7 @@
                n’ont jamais pris l’engagement de compenser à la <country>France</country> la
                différence en sus qui pourroit avoir lieu entre cette somme généralement et vaguement
                énoncée et la dépense réelle de l’entretien de l’armée d’occupation.</p>
-            <p>Il est vrai que le Gouvernement Français ayant déclaré aux <rs ref="#p.8 #p.11 #p.13 #p.12 #p.14 #p.9 #" type="multi-person">Ministres des Cours Alliées</rs> que la
+            <p>Il est vrai que le Gouvernement Français ayant déclaré aux Ministres des Cours Alliées que la
                   <country>France</country> ne pouvoit pas payer au delà de 270 Millions par an, y
                compris les 140 Millions payables à titre de contribution de guerre, il fut arrêté
                par le <rs ref="#t.8" type="treaties">protocole du <date when="1815-10-13">13 Octobre</date>
