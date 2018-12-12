@@ -53,6 +53,9 @@
                                             <xsl:number level="any"/>
                                         </xsl:attribute>
                                         <xsl:number level="multiple" count="tei:div" format="1.1. "/>
+                                        <xsl:attribute name="id">
+                                            <xsl:value-of select="@xml:id"/>
+                                        </xsl:attribute>
                                     </a>
                                     <xsl:choose>
                                         <xsl:when test=".//tei:orig">
@@ -122,6 +125,11 @@
                 <u>
                     <xsl:apply-templates/>
                 </u>
+            </xsl:when>
+            <xsl:when test="@rend='tt'">
+                <code>
+                    <xsl:apply-templates/>
+                </code>
             </xsl:when>
             <xsl:when test="@rend='italic'">
                 <i>
@@ -497,9 +505,10 @@
             <xsl:text> </xsl:text>
         </a>
         <h3>
-            <div>
+            <xsl:attribute name="id">
+                    <xsl:value-of select="@xml:id"/>
+                </xsl:attribute>
                 <xsl:apply-templates/>
-            </div>
         </h3>
     </xsl:template><!--  Quotes / Zitate -->
     <xsl:template match="tei:q">

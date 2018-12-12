@@ -27,6 +27,12 @@
                                     <h4 class="modal-title">
                                         <xsl:value-of select="$entity/text()"/>  
                                     </h4>
+                                    <xsl:if test="$entity/tei:ref">
+                                        <p>Webquelle: <a href="{$entity/tei:ref[1]/@target}">
+                                                <xsl:value-of select="$entity/tei:ref[1]"/>
+                                            </a>
+                                        </p>
+                                    </xsl:if>
                                     <h4>
                                         <a>
                                             <xsl:attribute name="href">

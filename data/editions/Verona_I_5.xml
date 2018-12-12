@@ -33,6 +33,7 @@
 </respStmt>
 <respStmt>
     <resp>Korrekturen</resp>
+<name ref="#KS">Karin Schneider</name>
     <name ref="#SK">Stephan Kurz</name>
 </respStmt>
 <respStmt>
@@ -55,7 +56,8 @@
             <pubPlace>Wien</pubPlace>
 <date when="2018-09-23" change="#initial">2018-09-23</date>
             <idno>V_I_05</idno>
-                 <availability>           <licence target="https://creativecommons.org/licenses/by-sa/4.0/legalcode.de">https://creativecommons.org/licenses/by-sa/4.0/legalcode.de</licence>         </availability> </publicationStmt><notesStmt>
+                 <availability>           <licence target="https://creativecommons.org/licenses/by-sa/4.0/legalcode.de">https://creativecommons.org/licenses/by-sa/4.0/legalcode.de</licence>         </availability> </publicationStmt>
+            <notesStmt>
     <note>Vergleiche auch die Projektbeschreibung in der <ref type="URI" target="../meta/Einleitung.xml">Einleitung</ref> sowie die Dokumentation der Applikation unter <ref type="URI" target="../meta/about.xml">„Über diese Webseite“</ref>.</note>
 </notesStmt>
          <sourceDesc>
@@ -122,7 +124,8 @@
                   <placeName ref="#loc.9">Berlin</placeName> das Vorgehen der französischen
                Regierung in Hinblick auf <country>Spanien</country> unterstützen wird.</p>
          </abstract>
-      </profileDesc><revisionDesc>
+      </profileDesc>
+        <revisionDesc>
     <change xml:id="initial" when="2018-09-23" who="#SK">initial version for public beta release</change>
     <change notAfter="2018-09-23" who="#SK #KS">changetracking on ACDH git repository</change>
 </revisionDesc>
