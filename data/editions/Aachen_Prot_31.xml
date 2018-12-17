@@ -213,7 +213,7 @@
 
                <msContents>
                   <msItem>
-                     <title>Anlage 4: Russische Denkschrift hinsichtlich der Vorkehrungen zur
+                     <title>Anlage 4: Russische Denkschrift betreffend die Vorkehrungen zur
                         sicheren Verwahrung Napoleon Bonapartes auf St. Helena</title>
                   </msItem>
                </msContents>
@@ -390,8 +390,9 @@
                <add hand="#W" place="top">Protocole <choice>
                      <abbr>n.</abbr>
                      <expan>numéro</expan>
-                  </choice> 31. avec 5 annexes.</add>
-            </head>
+                  </choice> 31.</add></head>
+            <p><add hand="#W" place="top">avec 5 annexes.</add></p>
+            
             <opener>
                     <dateline>
                <placeName ref="#loc.1">Aix-la-Chapelle</placeName> le <date when="1818-11-13">13
@@ -490,7 +491,7 @@
                   d’Autriche, de Grande-Bretagne, de Prusse et de Russie</rs> au Ministère de <choice>
                   <abbr>S. M.</abbr>
                   <expan>Sa Majesté</expan>
-               </choice> le <rs ref="#p.46" type="person">Roi de Suède</rs> dans le cas que <ref decls="#m.7"> les lettres <pb n="111r"/>confidentielles, que les Souverains
+               </choice> le <rs ref="#p.46" type="person">Roi de Suède</rs> dans le cas que <ref decls="#m.6"> les lettres <pb n="111r"/>confidentielles, que les Souverains
                   vont adresser à ce Monarque </ref> au sujet des plaintes de la Cour de Danemarc et
                de la non-exécution du <rs ref="#t.15" type="treaties">Traité de <placeName ref="#loc.27">Kiel</placeName>
                     </rs> ne produisissent pas leur plein et entier effet. Les susdites lettres
@@ -573,31 +574,31 @@
                tenu la main à son exécution. De plus, il est près d’expirer, n’ayant été promulgué
                que pour deux ans.</p>
             <p>Pour obvier à ces inconvénients, les Cours de <supplied>...</supplied>
-                    ont été unanimement d’avis de charger <rs xml:id="n.9">
+                    <app><lem>ont été unanimement d’avis de charger <rs xml:id="n.9">
                             <rs ref="#p.103 #p.104 #p.105 #p.106" type="multi-person">leurs Ministres
                         respectifs, accrédités auprès du Gouvernement fédéral</rs>, </rs>
                         <note type="editorial" target="#n.9">Österreich nahm offiziell erst 1838
                      diplomatische Beziehungen zu den Vereinigten Staaten von Amerika auf; vgl.
                      Matsch, Wien – Washington, S. 3.</note> de porter à sa connaissance leur
-                  opinion <rs xml:id="n.10">sur ce point,</rs>
-                    <note type="editorial" target="#n.10">Statt „ont été unanimement d’avis de charger
-                  leurs Ministres respectifs, accrédités auprès du Gouvernement fédéral, de porter à
-                  sa connaissance leur opinion sur ce point“ im 2 Entwurf: „sont convenus de faire
-                  connoître sur ce point leur opinion au Gouvernement des Etats unis“</note> et de
+                       opinion sur ce point,</lem><rdg><subst><add>ont été unanimement d’avis de charger leurs Ministres
+                             respectifs, accrédités auprès du Gouvernement fédéral, de porter à sa connaissance leur
+                          opinion sur ce point,</add><del>sont convenus de faire
+                       connoître sur ce point leur opinion au Gouvernement des Etats unis</del></subst></rdg></app>
+                     et de
                l’inviter à prendre les mesures nécessaires pour que l’acte du <date when="1817-03-03">3 Mars 1817</date> soit renouvelé, en y ajoutant les clauses qui
-               pourront être jugées propres à en assurer l’exécution. <rs xml:id="n.12">En
+               pourront être jugées propres à en assurer l’exécution. <app><lem>En
                   conséquence, Monsieur <supplied>...</supplied>, Sa Majesté vous autorise à faire,
                   d’accord avec le Ministre de <rs xml:id="n.11">
                             <rs ref="#p.28" type="person">Sa Majesté Très Fidèle</rs>
                         </rs>
                         <note type="editorial" target="#n.11">Ehrentitel des portugiesischen
                      Königs.</note> et ceux des Cours de <supplied>...</supplied> les démarches que
-                  vous croirez utiles pour atteindre ce but.</rs>
-                    <note type="editorial" target="#n.12"> "En conséquence, Monsieur
-                     <supplied>...</supplied>, Sa Majesté vous autorise à faire, d’accord avec le
-                  Ministre de Sa Majesté Très Fidèle et ceux des Cours de <supplied>...</supplied>
-                  les démarches que vous croirez utiles pour atteindre ce but" fehlt im 2.
-                  Entwurf.</note> Nous aimons à nous flatter que ce Gouvernement se montrera, animé
+                  vous croirez utiles pour atteindre ce but.</lem><rdg><add>En
+                  conséquence, Monsieur <supplied>...</supplied>, Sa Majesté vous autorise à faire,
+                  d’accord avec le Ministre de Sa Majesté Très Fidèle
+                   et ceux des Cours de <supplied>...</supplied> les démarches que
+                  vous croirez utiles pour atteindre ce but.</add></rdg></app>
+ Nous aimons à nous flatter que ce Gouvernement se montrera, animé
                des mêmes sentiments d’humanité et de justice universelle qui engagent les
                différentes Puissances de l’Europe, à lui adresser cette demande, et qu’il<pb n="64r"/> s’empressera d’y acquiescer. Il doit d’ailleurs considérer que le fléau de la
                piraterie, qui peut-être jusqu’ici n’a pas nui essentiellement à son commerce
@@ -613,8 +614,8 @@
                   preuve de l’unanimité d’intentions qui règne entre les Puissances, et de leur
                   désir bien prononcé de mettre fin à un état de choses qui ne pourrait se prolonger
                   sans devenir un continuel et juste sujet de reproche pour toutes les Nations
-                  civilisées.</rs>
-                    <note type="editorial" target="#n.13">Im 2. Entwurf folgende Passage ergänzt: <p>"Il
+                  civilisées.</rs></p>
+                    <p><app><lem>Il
                      sera inutile, <choice>
                         <abbr>M</abbr>
                         <expan>Monsieur</expan>
@@ -634,17 +635,44 @@
                         <expan>Gouvernement</expan>
                      </choice> des Etats unis relativement à la marche qui lui paroitra propre à
                      combattre avec le plus de succès ce mal toujours croissant, ce danger
-                     commun.</p>
-                  <p>Les Ministres des Cours de <supplied>...</supplied> recevront des instructions
+                     commun.</lem><rdg><del>Il
+                       sera inutile, <choice>
+                          <abbr>M</abbr>
+                          <expan>Monsieur</expan>
+                       </choice>, que vous adressiez sur cet objet des notes ou mémoires au <choice>
+                          <abbr>Gouv<hi rendition="#su">t</hi>
+                          </abbr>
+                          <expan>Gouvernement</expan>
+                       </choice> des Etats-unis. Des communications verbales suffiront, et en les
+                       faisant, vous éviterez avec soin de prendre le ton du reproche. Vous chercherez
+                       au contraire à faire comprendre que c’est dans l’intérêt même de ce
+                       Gouvernement que nous l’invitions à combiner ses conseils et ses efforts avec
+                       ceux des principales Puissances de l’Europe, afin de réprimer, par un tel
+                       concours, les effets d’un système de piraterie nuisible aux intérêts de toute
+                       Nation Commerçante. Vous demanderez en même tems à être informé des vues du <choice>
+                          <abbr>Gouv<hi rendition="#su">t</hi>
+                          </abbr>
+                          <expan>Gouvernement</expan>
+                       </choice> des Etats unis relativement à la marche qui lui paroitra propre à
+                       combattre avec le plus de succès ce mal toujours croissant, ce danger
+                       commun.</del></rdg></app></p>
+                  <p><app><lem>Les Ministres des Cours de <supplied>...</supplied> recevront des instructions
                      dans le même sens ; mais on n’a pas jugé nécessaire qu’ils fassent
                      conjointement les démarches qui leur seront prescrites. On a voulu éviter par
                      là tout ce qui auroit pu donner quelqu’ombrage ; l’intention des Puissances
                      étant de n’employer, pour atteindre le but qu’Elles se proposent, que les
                      moyens les plus concilians, d’après le principe que les Etats-unis et Elles
                      n’ont qu’un seul et même intérêt dans cette question, la liberté et la sécurité
-                     du commerce maritime.</p>
-               </note>
-            </p>
+                     du commerce maritime.</lem><rdg><del>Les Ministres des Cours de <supplied>...</supplied> recevront des instructions
+                     dans le même sens ; mais on n’a pas jugé nécessaire qu’ils fassent
+                     conjointement les démarches qui leur seront prescrites. On a voulu éviter par
+                     là tout ce qui auroit pu donner quelqu’ombrage ; l’intention des Puissances
+                     étant de n’employer, pour atteindre le but qu’Elles se proposent, que les
+                     moyens les plus concilians, d’après le principe que les Etats-unis et Elles
+                     n’ont qu’un seul et même intérêt dans cette question, la liberté et la sécurité
+                     du commerce maritime.</del></rdg></app></p>
+               
+            
          </div>
 
          <div hand="#A" decls="#m.3">
@@ -935,7 +963,7 @@
                pourraient être commis postérieurement à la notification qui en aurait été faite aux
                Etats Barbaresques seraient très justement considérés comme une aggression. On peut
                en outre considérer que, si une paix générale n’existait pas au moment de cette
-               notification, les Barbaresques auraient sans doute entre leurs mains <rs xml:id="n.24"> n certain<pb n="61v"/> nombre de prisonniers Chrétiens </rs>
+               notification, les Barbaresques auraient sans doute entre leurs mains <rs xml:id="n.24">un certain<pb n="61v"/> nombre de prisonniers Chrétiens </rs>
                     <note type="editorial" target="#n.24">Zur Forschungsdiskussion vgl. Ressel,
                   Sklavenkasse und Türkenpässe, S. 32–33.</note> dont le sort serait compromis.</p>
             <p>L’<choice>
@@ -1300,7 +1328,7 @@
                projets, un fugitif à <rs xml:id="n.33">
                   <placeName ref="#loc.43">Rochefort</placeName>, </rs>
                     <note type="editorial" target="#n.33">Nach der Niederlage von Waterloo und seiner
-                  Abdankung in Paris begab Napoleon am 29. Juni 1815 in die Stadt und auf die
+                  Abdankung in Paris begab sich Napoleon am 29. Juni 1815 nach Rochefort und auf die
                   vorgelagerte Ile d’Aix; vgl. dazu Tulard, Napoleon, S. 492–502.</note> et
                dépendant de la justice de l’Europe<pb n="89r"/> à bord du <rs xml:id="n.34">
                   Béllérophon. </rs>
@@ -1509,7 +1537,7 @@
                   <forename>Napoléon</forename>
                     </persName>, selon lui, n’<subst hand="#AmB">
                   <del rendition="#s">excite</del> 
-                  <add>exerce</add>
+                  <add hand="#AmB">exerce</add>
                </subst> envers le Gouverneur de <choice>
                   <abbr>S<hi rendition="#su">te</hi>
                   </abbr>
@@ -1672,7 +1700,7 @@
                      <abbr>n<hi rendition="#su">o</hi>
                      </abbr>
                      <expan>numéro</expan>
-                  </choice> 31 du <date when="1818-11-13"/>.</add>
+                  </choice> 31 du <date when="1818-09-13">13 9<hi rendition="#su">bre</hi> 1818</date>.</add>
             </p>
 
             
@@ -1772,8 +1800,8 @@
             </p>
             <p>Aucune des transactions qui ont amené les rapports actuels entre la
                   <country>Suède</country> et le <country>Danemarc</country> ne Leur était
-               étrangère. Ils ont tous plus ou moins concouru à assurer la Norvège à la couronne de
-                  <country>Suède</country>.<pb n="101r"/>
+               étrangère. Ils ont tous plus ou moins concouru à assurer la <del rendition="#s">Norvège à la couronne de
+                  <country>Suède</country>.</del><pb n="101r"/>
                <del rendition="#s" spanTo="#a.2">La <rs ref="#t.15" type="treaties">paix de
                      <placeName ref="#loc.27">Kiel</placeName>
                     </rs> s’est faite, pour ainsi dire, sous leurs yeux. Leurs Ministres en ont applani
@@ -1794,7 +1822,7 @@
                <supplied>...</supplied> qu’Ils feroient respecter la parole <unclear>que</unclear>
                   Lui avoit été donnée.</del>
                     <anchor xml:id="a.2"/>
-               <add place="margin"> C’est sous leur coopération directe que le traité qui en a
+               <add place="margin">couronne de Norvège au Roi de Suède. C’est sous leur coopération directe que le traité qui en a
                   sanctionné l’acquisition a eu lieu. Le <rs ref="#p.112" type="person">Roi de
                      Danemarc</rs> n’a pas cessé de les envisager comme garans de l’exécution de cet
                   acte. Ils ne sauroient d’ailleurs oublier que, lorsque l’accomplissement des
@@ -1882,7 +1910,7 @@
                         </rs> n’avoient pas irrévocablement décidé la question dans le cas présent, la
                   prétention d’acquérir un pays et d’en laisser les charges à l’ancien possesseur
                   répugneroit encore à tout sentiment de justice et d’équité. Le principe opposé a
-                  été admis dans chacune des transactions nombreuses de ce genre,<pb n="103r"/>
+                  été admis dans chacune des transactions nombreuses de ce genre,</del><pb n="103r"/><del rendition="#s">
                   auxquelles les évènemens des dernières années ont donné lieu ; et aucun des
                   Princes participant à ces transactions ne s’est jamais refusé à le
                   reconnoître.</del>
@@ -1987,10 +2015,9 @@
                   de l’article VI du <rs ref="#t.15" type="treaties">Traité de <placeName ref="#loc.27">Kiel</placeName>
                         </rs>, destinées à être transmises par la voie d’<country>Angleterre</country> à
                      <placeName ref="#loc.12">Stockholm</placeName>, étoient prêtes à être fermées,
-                  il a été résolu de munir <rs ref="#p.57 #p.58 #p.59 #p.60" type="multi-person">les
-                     Envoyés des quatre Cours accrédités près le <rs ref="#p.46" type="multi-person">Roi de Suède</rs>
+                  il a été résolu de munir les <rs ref="#p.57 #p.58 #p.59 #p.60" type="multi-person">Envoyés des quatre Cours accrédités près le <rs ref="#p.46">Roi de Suède</rs>
                         </rs> non du Rapport fait aux Conférences d’<placeName ref="#loc.1">Aix-la-Chapelle</placeName> 
-                  <ref target="Aachen_Prot_20.xml">(Annexé au Protocole du <date when="1818-10-29">29 <choice>
+                  <ref target="Aachen_Prot_20.xml"> (Annexé au Protocole du <date when="1818-10-29">29 <choice>
                            <abbr>8<hi rendition="#su">bre</hi>
                            </abbr>
                            <expan>Octobre</expan>
