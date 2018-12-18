@@ -9,8 +9,8 @@ let $whens := collection($app:editions)//tei:TEI//*[@when castable as xs:date]
 let $dates := ($notBefores, $whens)
 
 
-for $x in collection($app:editions)//tei:TEI[.//*[@when castable as xs:date]]
-    let $startDate : = data($x//*[@when castable as xs:date][1]/@when)
+for $x in collection($app:editions)//tei:TEI[.//tei:origin//*[@when castable as xs:date]]
+    let $startDate : = data($x//tei:origin//*[@when castable as xs:date][1]/@when)[1]
     let $name := normalize-space(string-join($x//tei:titleStmt/tei:title[1]//text(), ' '))
     let $id := app:hrefToDoc($x)
     return
