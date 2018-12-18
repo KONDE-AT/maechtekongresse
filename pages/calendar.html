@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<div class="templates:surround?with=templates/page.html&amp;at=content">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-year-calendar/1.1.1/css/bootstrap-year-calendar.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-year-calendar/1.1.1/js/bootstrap-year-calendar.js"/>
+
+    <div class="container-fluid">
+        <div class="card">
+            <div class="card-header" style="text-align:center;">
+                <h1>
+                    Kalenderansicht
+                </h1>
+                <h3>
+                    <a>
+                        <i class="fa fa-info" title="Info" data-toggle="modal" data-target="#exampleModal"/>
+                    </a>
+                    |
+                    <a href="../analyze/calendar_datasource.xql">
+                        <i class="fa fa-download" title="Data"/>
+                    </a>
+                </h3>
+            </div>
+            <div id="calendar"/>
+        </div>
+    </div>
+
+    <div class="modal" tabindex="-1" role="dialog" id="exampleModal">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Über die Kalenderansicht</h5>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        Der Kalender stellt die Dokumente der Edition nach ihren Erzeugungsdaten zusammen.
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+    // most of the code taken from https://github.com/ingoboerner
+    //https://github.com/martinantonmueller/Hermann-Bahr_Arthur-Schnitzler/blob/master/app/resources/js/calendar.js
+        var datasource = "../analyze/calendar_datasource.xql";
+        $.getJSON(datasource, function(data) {
+            console.log(data);
+            var $dataSource = [];
+            $.each( data, function( key, entry ) {
+              var $obj = {};
+              var $j = entry.startDate.substring(0,4);
+              var $m = entry.startDate.substring(5,7);
+              var $d = entry.startDate.substring(8,10);
+              $obj.endDate = new Date($j,$m-1,$d);
+              $obj.startDate = new Date($j,$m-1,$d);
+              $obj.id = entry.id;
+              $dataSource.push($obj);
+            });
+            $('#calendar').calendar({
+                dataSource: $dataSource,
+                startYear: 1818,
+                minDate : new Date(1817,0,1),
+                maxDate : new Date(1823,0,1),
+            });
+
+            $('#calendar').clickDay(function(e){
+                var ids = []
+                $.each(e.events, function( key, entry ) {
+                    ids.push(entry.id)
+                });
+                window.location = ids.join()
+            });
+        });
+
+
+    </script>
+</div>
