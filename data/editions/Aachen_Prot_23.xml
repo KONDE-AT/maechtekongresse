@@ -215,13 +215,13 @@
          <div hand="#G" decls="#m.1">
             <pb n="111r"/>
             
-                    <add hand="#W" place="top"/>
+                    <head><add hand="#W" place="top"/>
                     <choice>
                   <abbr>n.</abbr>
                   <expan>numéro</expan>
-               </choice> 23.
+               </choice> 23.</head>
             <p>
-                    <add hand="#W" place="margin">avec une Annexe</add>
+                    <add hand="#W" place="top">avec une Annexe</add>
                 </p>
             <opener>
                     <dateline>
@@ -229,7 +229,7 @@
                   Novembre</date>.</dateline>
                 </opener>
             <p>
-                    <rs xml:id="n.1">À la suite des communications faites à la <ref target="#Aachen_Prot_19_xml">Conférence le <date when="1818-10-24">24
+                    <rs xml:id="n.1">À la suite des communications faites à la <ref target="#Aachen_Prot_19.xml">Conférence le <date when="1818-10-24">24
                         Octobre</date>
                         </ref>, <persName ref="#p.9">
                             <roleName>Lord</roleName>
@@ -260,7 +260,7 @@
                   portugiesischen Königs.</note> en Lui rappelant la part qu’Elle a eue à la <rs ref="#t.22" type="treaties">déclaration de <placeName ref="#loc.7">Vienne</placeName> du <date when="1815-02-08">8 février 1815</date>
                     </rs>, à fixer sans plus de délai
                l’époque de l’abolition définitive de la Traite dans la totalité de ses possessions ;
-               époque qui, d’après les engagemens pris par les <rs ref="#p.71 #p.72 #p.73" type="multi-person">Plénipotentiaires de <rs ref="#p.28">Sa dite Majesté</rs>
+               époque qui, d’après les engagemens pris par les <rs ref="#p.71 #p.72 #p.73" type="multi-person">Plénipotentiaires de <rs ref="#p.28" type="person">Sa dite Majesté</rs>
                     </rs> à <placeName ref="#loc.7">Vienne</placeName> et consignée au <rs ref="#t.1" type="treaties">Protocole du <date when="1815-11-20">20 Novembre 1815</date>
                     </rs>, ne pourroit<pb n="111v"/>
                outrepasser l’année 1823, mais que les Souverains Alliés désireroient dans l’intérêt
@@ -289,11 +289,11 @@
                         <expan>Sa Majesté</expan>
                      </choice> Britannique</rs> se prêtât de Son côté aux changemens qu’ils avoient
                   proposés dans le système Commercial entre le <country>Portugal</country> et la
-                     <country>Grande-Bretagne</country> »</quote>, a renouvelé l’assurance que <rs ref="#p.19" type="person">
+                     <country>Grande-Bretagne</country> »</quote>, a renouvelé l’assurance que 
                         <choice>
                      <abbr>S. M.</abbr>
                      <expan>Sa Majesté</expan>
-                  </choice> le Roi de la Grande-Bretagne</rs> étoit prête à accéder à toutes les
+                  </choice> le <rs ref="#p.19" type="person">Roi de la Grande-Bretagne</rs> étoit prête à accéder à toutes les
                modifications raisonnables que l’on proposeroit aux traités actuels de Commerce avec
                le <country>Portugale</country> ; assurance qu’Il avoit donnée à plusieurs reprises
                au Ministre de Portugal à <placeName ref="#loc.8">Londres</placeName>.</p>

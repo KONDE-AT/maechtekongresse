@@ -85,6 +85,7 @@
                      <handNote xml:id="G">Friedrich Gentz</handNote>
                      <handNote xml:id="W">Nikolaus Wacken</handNote>
                      <handNote xml:id="A">Anonym</handNote>
+                     <handNote xml:id="P">Pedro de Souza Holstei, Herzog (duque) von Palmella</handNote>
                   </handDesc>
                </physDesc>
                <history>
@@ -131,7 +132,7 @@
                </msIdentifier>
                <msContents>
                   <msItem>
-                     <title>Anlage 2: Österreichisches Votum hinsichtlich der Abschaffung des
+                     <title>Anlage 2: Österreichisches Votum über die Abschaffung des
                         Sklavenhandels</title>
                   </msItem>
                </msContents>
@@ -155,7 +156,7 @@
                </msIdentifier>
                <msContents>
                   <msItem>
-                     <title>Anlage 3: Preußisches Votum hinsichtlich der Abschaffung des
+                     <title>Anlage 3: Preußisches Votum über die Abschaffung des
                         Sklavenhandels</title>
                   </msItem>
                </msContents>
@@ -334,7 +335,9 @@
                      <expan>Numéro</expan>
                   </choice> 30.</add>
                 </head>
-           
+            <p>
+               <add hand="#W" place="margin">avec cinq Annexes</add>
+            </p>
             <opener>
                     <dateline>
                     <placeName ref="#loc.1">Aix-la-Chapelle</placeName> Le <date when="1818-11-11">11
@@ -344,9 +347,7 @@
             <p>
                <add hand="#W" place="margin">Entre les cinq Puissances</add>
             </p>
-            <p>
-                    <add hand="#W" place="margin">avec cinq Annexes</add>
-                </p>
+           
             <p>
                     <choice>
                   <abbr>Mr</abbr>
@@ -378,7 +379,7 @@
                     <choice>
                   <abbr>Mrs.</abbr>
                   <expan>Messieurs</expan>
-               </choice> les Plénipotentiaires se sont occupés d’un Mémoire de <choice>
+               </choice> les Plénipotentiaires se sont occupés d’un <ref decls="#m.5">Mémoire de <choice>
                   <abbr>Mr.</abbr>
                   <expan>Monsieur</expan>
                </choice> le <persName ref="#p.71">
@@ -390,7 +391,7 @@
                      </choice>
                         </roleName>
                   <surname>Palmella</surname>
-                    </persName>, Ministre des affaires étrangères de <choice>
+                    </persName></ref>, Ministre des affaires étrangères de <choice>
                   <abbr>S. M.</abbr>
                   <expan>Sa Majesté</expan>
                </choice> le <rs ref="#p.28" type="person">Roi de Portugal</rs>, sur les pirateries exercées depuis
@@ -483,7 +484,7 @@
                de la Traite. Cette Ordonnance a été fortifiée par une <rs xml:id="n.9"> Loi rendue
                   en Mars 1818 </rs>
                     <note type="editorial" target="#n.9"> Gesetz über die Bestrafung
-                  von französischen Untertanen, die Sklavenhandel betreiben, 15. April 1818; vgl.
+                  französischer Untertanen, die Sklavenhandel betreiben, 15. April 1818; vgl.
                   Hertslet (Hg.), Complete Collection, Bd. 3, S. 100–101.</note> qui prononce contre
                les infracteurs des dispositions arrêtées par le Gouvernement les peines les plus
                sévères que puisse comporter la Législation de <country>France</country>. Des mesures
@@ -671,12 +672,9 @@
                étrangère.</p>
             <p>En vain alléguera-t-on que la<pb n="51r"/> Commission mixte n’exerce pas de
                jurisdiction au criminel, et qu’elle ne fait que <subst>
-                  <del rendition="#s">prouver</del> 
+                  <del rendition="#s">uver</del> 
                   <add place="above">
-                            <choice>
-                        <abbr>noncer</abbr>
-                        <expan>prononcer</expan>
-                     </choice>
+                        noncer
                         </add>
                </subst>
                <ref target="Aachen_Prot_23.xml">
@@ -870,9 +868,8 @@
             <p>
                     <add place="top" hand="#W">Annexé au Protocole du <date when="1818-11-11">11
                      Novembre</date> sub <choice>
-                     <abbr>n<hi rendition="#su">o</hi>
+                        <abbr>n<hi rendition="#su">o</hi></abbr>
                                 <expan>numéro</expan>
-                            </abbr>
                   </choice> 30.</add>
                 </p>
 
@@ -914,23 +911,7 @@
                      <expan>numéro</expan>
                   </choice> 30 du <date when="1818-11-11">11 Novembre</date>.</add>
                 </p>
-            <p>
-                    <add place="bottom">À Son Altesse <choice>
-                     <abbr>Mons<hi rendition="#su">r</hi>
-                            </abbr>
-                     <expan>Monsieur</expan>
-                  </choice> le <persName ref="#p.8">
-                            <roleName>Prince</roleName>
-                     <surname>de Metternich</surname>
-                        </persName> Ministre d’Etat, des Conférences et
-                  des Affaires Etrangères de <rs ref="#p.16" type="person">
-                            <choice>
-                        <abbr>S. M. I<hi rendition="#su">le</hi> et R<hi rendition="#su">le</hi>
-                                </abbr>
-                        <expan>Sa Majesté Impériale et Royale</expan>
-                     </choice> Apostolique.</rs>
-                    </add>
-                </p>
+            
             <p>Mon <rs ref="#p.8" type="person">Prince</rs>,</p>
             <p>J’ai reçu de ma Cour l’ordre d’appeler l’attention des Puissances réunies à
                   <placeName ref="#loc.1">Aix-la-Chapelle</placeName> sur les mesures à prendre pour
@@ -948,7 +929,7 @@
                   <expan>Serviteur</expan>
                </choice>
                 </p>
-            <signed>Le <persName ref="#p.71">
+            <signed hand="#P">Le <persName ref="#p.71">
                         <roleName>Comte</roleName>
                   <surname>de Palmella</surname>
                     </persName>
@@ -958,6 +939,23 @@
                     <placeName ref="#loc.2">Paris</placeName> le <date when="1818-11-07">7
                   Novembre 1818</date>
                 </dateline>
+               <p>
+                  <add place="bottom">À Son Altesse <choice>
+                     <abbr>Mons<hi rendition="#su">r</hi>
+                     </abbr>
+                     <expan>Monsieur</expan>
+                  </choice> le <persName ref="#p.8">
+                     <roleName>Prince</roleName>
+                     <surname>de Metternich</surname>
+                  </persName> Ministre d’Etat, des Conférences et
+                     des Affaires Etrangères de <rs ref="#p.16" type="person">
+                        <choice>
+                           <abbr>S. M. I<hi rendition="#su">le</hi> et R<hi rendition="#su">le</hi>
+                           </abbr>
+                           <expan>Sa Majesté Impériale et Royale</expan>
+                        </choice> Apostolique.</rs>
+                  </add>
+               </p>
                 </closer>
          </div>
       </body>
