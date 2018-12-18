@@ -391,7 +391,8 @@
                      </choice>
                         </roleName>
                   <surname>Palmella</surname>
-                    </persName></ref>, Ministre des affaires étrangères de <choice>
+                    </persName>
+                    </ref>, Ministre des affaires étrangères de <choice>
                   <abbr>S. M.</abbr>
                   <expan>Sa Majesté</expan>
                </choice> le <rs ref="#p.28" type="person">Roi de Portugal</rs>, sur les pirateries exercées depuis
@@ -868,7 +869,8 @@
             <p>
                     <add place="top" hand="#W">Annexé au Protocole du <date when="1818-11-11">11
                      Novembre</date> sub <choice>
-                        <abbr>n<hi rendition="#su">o</hi></abbr>
+                        <abbr>n<hi rendition="#su">o</hi>
+                            </abbr>
                                 <expan>numéro</expan>
                   </choice> 30.</add>
                 </p>
@@ -939,7 +941,8 @@
                     <placeName ref="#loc.2">Paris</placeName> le <date when="1818-11-07">7
                   Novembre 1818</date>
                 </dateline>
-               <p>
+               <address>
+                        <addrLine>
                   <add place="bottom">À Son Altesse <choice>
                      <abbr>Mons<hi rendition="#su">r</hi>
                      </abbr>
@@ -955,7 +958,8 @@
                            <expan>Sa Majesté Impériale et Royale</expan>
                         </choice> Apostolique.</rs>
                   </add>
-               </p>
+                        </addrLine>
+               </address>
                 </closer>
          </div>
       </body>

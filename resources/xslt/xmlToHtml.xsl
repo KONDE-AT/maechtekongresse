@@ -1201,22 +1201,37 @@
         </xsl:element>
     </xsl:template>
     <xsl:template match="tei:signed">
+        <xsl:variable name="handId" select="substring-after(@hand, '#')"/>
         <xsl:choose>
             <xsl:when test="./tei:list">
             <xsl:for-each select="./tei:list/tei:item">
-            <xsl:element name="p">
-            <xsl:attribute name="class">
-                <xsl:text>signed</xsl:text>
-            </xsl:attribute>
-            <xsl:apply-templates/>
-        </xsl:element>
-        </xsl:for-each>
+                <xsl:element name="p">
+                <xsl:attribute name="class">
+                    <xsl:text>signed</xsl:text>
+                </xsl:attribute>
+                <xsl:attribute name="title">
+                    <xsl:text>Hand von </xsl:text>
+                    <xsl:value-of select="root()//tei:handNote[@xml:id=$handId]"/>
+                    <xsl:text> (</xsl:text>
+                    <xsl:value-of select="./@hand"/>
+                    <xsl:text>)</xsl:text>
+                </xsl:attribute>
+                <xsl:apply-templates/>
+                </xsl:element>
+            </xsl:for-each>
             </xsl:when>
             <xsl:otherwise>
                 <xsl:for-each select=".">
                     <xsl:element name="p">
                         <xsl:attribute name="class">
                             <xsl:text>signed</xsl:text>
+                        </xsl:attribute>
+                        <xsl:attribute name="title">
+                            <xsl:text>Hand von </xsl:text>
+                            <xsl:value-of select="root()//tei:handNote[@xml:id=$handId]"/>
+                            <xsl:text> (</xsl:text>
+                            <xsl:value-of select="./@hand"/>
+                            <xsl:text>)</xsl:text>
                         </xsl:attribute>
                         <xsl:apply-templates/>
                     </xsl:element>
