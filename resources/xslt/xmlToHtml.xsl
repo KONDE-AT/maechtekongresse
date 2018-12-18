@@ -1096,9 +1096,9 @@
         </xsl:choose>
     </xsl:template><!--  Quotes / Zitate -->
     <xsl:template match="tei:q">
-        <xsl:element name="i">
-            <xsl:apply-templates/>
-        </xsl:element>
+        <xsl:text>„</xsl:text>
+        <xsl:apply-templates/>
+        <xsl:text>“</xsl:text>
     </xsl:template><!-- Zeilenumbürche   -->
     <xsl:template match="tei:lb">
         <br/>
