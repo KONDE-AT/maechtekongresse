@@ -16,13 +16,18 @@
         
     </div>
     <ul class="menu">
-        <li>Auf die Zeitleiste klicken, <code>ctrl</code> halten um zu zoomen</li>
-        <li>Daten aus <a href="../analyze/cmfi2netjson.xql">../analyze/cmfi2netjson.xql</a>
+        <li>Scrollen um zu zoomen</li>
+        <li>
+            <code>click + drag</code> zum Bewegen</li>
+        <li>Hover für Informationen zu Dokumenten und Personen</li>
+        <li>rot: Verträge</li>
+        <li>blau: erwähnte Personen</li>
+        <li>Daten aus <a href="../analyze/persDocNetJson.xql">../analyze/persDocNetJson.xql</a>
         </li>
     </ul>
     
     <script type="text/javascript">
-        var datasource = "../analyze/cmfi2netjson.xql"
+        var datasource = "../analyze/persDocNetJson.xql"
         var container = document.getElementById('visualization');
         $.getJSON( datasource, function( data ) {
             var container = document.getElementById('visualization');
