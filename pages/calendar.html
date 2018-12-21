@@ -2,7 +2,8 @@
 <div class="templates:surround?with=templates/page.html&amp;at=content">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-year-calendar/1.1.1/css/bootstrap-year-calendar.min.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-year-calendar/1.1.1/js/bootstrap-year-calendar.js"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-year-calendar/1.1.1/js/bootstrap-year-calendar.min.js"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-year-calendar/1.1.1/js/languages/bootstrap-year-calendar.de.js" charset="utf-8"/>
 
     <div class="container-fluid">
         <div class="card">
@@ -42,7 +43,7 @@
         </div>
     </div>
 
-    <script type="text/javascript">
+    <script type="text/javascript" charset="utf-8">
     // most of the code taken from https://github.com/ingoboerner
     //https://github.com/martinantonmueller/Hermann-Bahr_Arthur-Schnitzler/blob/master/app/resources/js/calendar.js
         var datasource = "../analyze/calendar_datasource.xql";
@@ -61,11 +62,12 @@
             });
             $('#calendar').calendar({
                 dataSource: $dataSource,
+                language: "de",
                 startYear: 1818,
                 minDate : new Date(1817,0,1),
                 maxDate : new Date(1823,0,1),
+                weekStart: 1 // week starts on monday
             });
-
             $('#calendar').clickDay(function(e){
                 var ids = []
                 $.each(e.events, function( key, entry ) {
