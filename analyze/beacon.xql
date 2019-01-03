@@ -14,7 +14,8 @@ let $root := "https://maechtekongresse.acdh.oeaw.ac.at/"
 
 let $prefix := 
 "#FORMAT: BEACON
-#MESSAGE: kongress &#10;"
+#MESSAGE: VIAF authority file link list for eminent people mentioned in the treaties of Aachen (1818), Troppau (1820), Laibach (1821) und Verona (1822), generated from TEI data of the digital edition
+#CONTACT: Stephan Kurz <stephan.kurz@oeaw.ac.at> &#10;"
 
 let $nl := "&#10;"
 let $items :=  
