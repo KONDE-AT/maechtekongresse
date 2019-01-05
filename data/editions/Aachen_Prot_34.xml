@@ -88,6 +88,7 @@
                      <handNote xml:id="AmrB">Anonyme Hand mit rotem Buntstift</handNote>
                      <handNote xml:id="AmT">Anonyme Hand mit Tinte</handNote>
                      <handNote xml:id="AmB">Anonyme Hand mit Bleistift</handNote>
+                     <handNote xml:id="R">Armand Emmanuel du Plessis, duc de Richelieu</handNote>
                   </handDesc>
                </physDesc>
                <history>
@@ -232,8 +233,10 @@
                         <bibl type="print">Meyer, Staats-Acten, S.
                   278–280;</bibl>
                     </witness>
-               <witness corresp="#w.17">Clarke, Papers presented to Parliament 1819, Bd. 1, S.
-                  88–91.</witness>
+               <witness corresp="#w.17">
+                  <bibl type="print">Clarke, Papers presented to Parliament
+                     1819, Bd. 1, S. 88–91.</bibl>
+               </witness>
             </listWit>
             <listWit corresp="#m.3">
                <head>Anlage 2: Schreiben des französischen Premierministers Richelieu</head>
@@ -566,9 +569,9 @@
                   L'<rs ref="#p.16" type="person">Empereur d’Autriche</rs>, le <rs ref="#p.18" type="person">Roi de Prusse</rs>
                et l’<rs ref="#p.17" type="person">Empereur de toutes les Russies</rs> se sont rendus à <placeName ref="#loc.1">Aix-la-Chapelle</placeName> et ont chargé <rs ref="#p.8 #p.11 #p.12 #p.13 #p.14" type="multi-person">leurs<pb n="31v"/> Ministres</rs> de s’y réunir
                en conférence avec les <rs ref="#p.1 #p.9 #p.10" type="multi-person">Plénipotentiaires de Leurs Majestés
-                  le <rs ref="#p.15" type="multi-person">Roi de France</rs> et le <rs ref="#p.19" type="multi-person">Roi de la
+                  le</rs> <rs ref="#p.15">Roi de France</rs> et le <rs ref="#p.19">Roi de la
                      Grande-Bretagne</rs>
-                    </rs> afin de procéder à l’examen de cette question
+                     afin de procéder à l’examen de cette question
                importante.</p>
             <p>L’attention des Ministres et Plénipotentiaire a dû se fixer avant tout dans cet
                examen sur l’état intérieur de la <country>France</country> ; elle a dû porter
@@ -721,7 +724,7 @@
                      Cours d’Autriche, de la Grande-Bretagne, de Prusse et de Russie</rs>.</add>
                 </p>
             <p>
-                    Le <rs ref="#p.1" type="person">Soussigné</rs>, Ministre et Secrétaire d’Etat de <rs xml:id="n.7">Sa Majesté Très Chrétienne</rs>,<note type="editorial" target="#n.7">Ehrentitel
+                    Le <rs ref="#p.1" type="person">Soussigné</rs>, Ministre et Secrétaire d’Etat de <rs xml:id="n.7"><rs ref="#p.15">Sa Majesté Très Chrétienne</rs></rs>,<note type="editorial" target="#n.7">Ehrentitel
                   des Königs von Frankreich.</note> a reçu <ref decls="#m.2">la communication que <rs ref="#p.8 #p.9 #p.10 #p.11 #p.12 #p.13 #p.14" type="multi-person">Leurs Excellences Messieurs les
                      Ministres des Cabinets d’Autriche, de la Grande-Bretagne, de Prusse et de
                      Russie</rs> lui ont fait l’honneur de lui adresser <date when="1818-11-04">le
@@ -761,9 +764,9 @@
                bien transmettre à leurs augustes <rs ref="#p.16 #p.17 #p.18 #p.19" type="multi-person">Souverains</rs>
                l’expression des intentions et des sentimens du <rs ref="#p.15" type="person">Roi, son Maître</rs>,
                a l’honneur de leur offrir l’assurance de sa plus haute considération.</p>
-            <signed>
+            <signed hand="#R">
                     <list>
-                        <item>Richelieu</item>
+                        <item><persName ref="#p.1">Richelieu</persName></item>
                     </list>
                 </signed>
             <dateline>
@@ -892,14 +895,14 @@
             
                     <head>Déclaration</head>
                 
-            <p>À l’époque où la pacification de l’Europe est achevée par <rs ref="#t.10" type="treaties">la
-                  résolution de retirer les troupes étrangères du territoire français</rs>, et où
+            <p>À l’époque où la pacification de l’Europe est achevée par la <rs ref="#t.10" type="treaties">résolution 
+                  de retirer les troupes étrangères du territoire français</rs>, et où
                cessent les mesures de précaution que des événemens déplorables avaient rendu
                nécessaires, les <rs ref="#p.8 #p.1 #p.9 #p.10 #p.11 #p.12 #p.13 #p.14" type="multi-person">Ministres et
-                  Plénipotentiaires de Leurs Majestés l’<rs ref="#p.16" type="multi-person">Empereur d’Autriche</rs>, le
-                     <rs ref="#p.15" type="multi-person">Roi de France</rs>, le <rs ref="#p.19" type="multi-person">Roi de
-                     Grande-Bretagne</rs>, le <rs ref="#p.18" type="multi-person">Roi de Prusse</rs> et l’<rs ref="#p.17" type="multi-person">Empereur de toutes les Russies</rs>
-                    </rs> ont reçu de leurs
+                  Plénipotentiaires</rs> de Leurs Majestés l’<rs ref="#p.16">Empereur d’Autriche</rs>, le
+                     <rs ref="#p.15">Roi de France</rs>, le <rs ref="#p.19">Roi de
+                     Grande-Bretagne</rs>, le <rs ref="#p.18">Roi de Prusse</rs> et l’<rs ref="#p.17">Empereur de toutes les Russies</rs>
+                    ont reçu de leurs
                Souverains l’ordre de porter à la connaissance de toutes les Cours de l’Europe les
                résultats de leur réunion à <placeName ref="#loc.1">Aix-la-Chapelle</placeName> et de
                faire, à cet effet, la déclaration suivante :</p>

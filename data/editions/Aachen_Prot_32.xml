@@ -81,11 +81,11 @@
                   <p> Eigenhändiges Protokoll von <persName ref="#p.5">
                                 <surname>Gentz</surname>
                             </persName>.</p>
-                  <p>Die Anlagen liegen in einer Schleife mit der Aufschrift "Protocole <choice>
+                  <p>Die Anlagen liegen in einer Schleife mit der Aufschrift <q>Protocole <choice>
                         <abbr>n<hi rendition="#su">o</hi>
                                 </abbr>
                         <expan>numéro</expan>
-                     </choice> 32, du <date when="1818-11-14">14 novembre</date>."</p>
+                     </choice> 32, du <date when="1818-11-14">14 novembre</date>.</q></p>
                   <handDesc>
                      <handNote xml:id="G">Friedrich Gentz</handNote>
                      <handNote xml:id="W">Nikolaus Wacken</handNote>
@@ -206,7 +206,7 @@
                   <p>Abschrift</p>
                   <p>Auf fol. II/125r folgende Erläuterung von <persName ref="#p.6">
                                 <surname>Wacken</surname>
-                            </persName>: "Dans le <ref target="Aachen_Prot_14.xml">Protocole du <date when="1818-10-17">17 <choice>
+                            </persName>: <q>Dans le <ref target="Aachen_Prot_14.xml">Protocole du <date when="1818-10-17">17 <choice>
                               <abbr>8<hi rendition="#su">bre</hi>
                                         </abbr>
                               <expan>Octobre</expan>
@@ -224,13 +224,13 @@
                            </choice>
                                 </roleName>
                         <surname>de Berstett</surname>
-                            </persName>.</p>
-                  <p>Le Mémoire du Ministère de Russie est le même qui a été consigné au <ref target="Aachen_Prot_28.xml">Protocole du 10 Novembre (sub <choice>
+                            </persName>.<lb/>
+                  Le Mémoire du Ministère de Russie est le même qui a été consigné au <ref target="Aachen_Prot_28.xml">Protocole du 10 Novembre (sub <choice>
                            <abbr>n<hi rendition="#su">o</hi>
                                     </abbr>
                            <expan>numéro</expan>
-                        </choice> 28)</ref>.</p>
-                  <p>Le vote de <choice>
+                        </choice> 28)</ref>.<lb/>
+                  Le vote de <choice>
                         <abbr>MM</abbr>
                         <expan>Messieurs</expan>
                      </choice> les <rs ref="#p.11 #p.12" type="multi-person">Plénipotentiaires de la Prusse</rs> est le
@@ -239,7 +239,7 @@
                            <abbr>n<hi rendition="#su">o</hi>
                                     </abbr>
                            <expan>numéro</expan>
-                        </choice> 32)."</p>
+                        </choice> 32).</q></p>
                </physDesc>
                <history>
                   <origin>
@@ -394,7 +394,7 @@
                <msContents>
                   <msItem>
                      <title>Anlage 10: Französische Denkschrift betreffend die Piraterie im
-                        atlantischen Ozean</title>
+                        Atlantischen Ozean</title>
                   </msItem>
                </msContents>
                <physDesc>
@@ -698,7 +698,7 @@
                         </subst>
                             </roleName>
                      <surname>de La Tour et Taxis</surname>
-                        </persName>,</ref> en réponse <ref target="Aachen_Prot_26.xml">au Mémoire par lequel celui-ci a demandé le
+                        </persName>,</ref> en réponse au <ref target="Aachen_Prot_26.xml">Mémoire par lequel celui-ci a demandé le
                   rétablissement de sa Souveraineté moyennant un arrangement avec le <rs ref="#p.89" type="person">
                             <roleName>Prince</roleName>
                      <surname>de Hohenzollern-Siegmaringen</surname>
@@ -762,8 +762,8 @@
                      <surname>de Richelieu</surname>
                         </persName> a fait part de <ref decls="#m.11">ses observations
                   ci-annexées</ref> sur les dangers dont la navigation et le commerce de l’Europe sont
-                  menacés par la piraterie qui s’exerce dans l’océan à la faveur des troubles <pb n="155r"/>qui agitent l’Amérique Méridionale. 
-               <del rendition="#s">
+                  menacés par la piraterie qui s’exerce dans l’océan à la faveur des troubles <pb n="155r"/>qui agitent l’Amérique Méridionale.</p> 
+               <p><del rendition="#s">
                         <add hand="#W" place="margin"> Ce Mémoire est le même qui a été
                      annexé (sous le titre de Note sur les Pirates de l’Océan atlantique) au
                      Protocole du <date when="1818-11-13">[13] <choice>
@@ -775,8 +775,8 @@
                         <abbr>No</abbr>
                         <expan>Numéro</expan>
                      </choice> 31.</add>
-                    </del>
-               <choice>
+                    </del></p>
+               <p><choice>
                   <abbr>Mr.</abbr>
                   <expan>Monsieur</expan>
                </choice> le <rs ref="#p.1" type="person">Duc</rs> s’est chargé de concerter avec le Gouvernement
@@ -1119,18 +1119,18 @@
                 </p>
            
                     <head>Les Ministres des Cinq Cours à leurs Envoyés respectifs à <rs ref="#p.36 #p.123 #p.114 #p.124 #p.125" type="multi-person">
-                            <placeName ref="#loc.16">Munich</placeName>,</rs>
+                            Munich,</rs>
                     <rs ref="#p.84 #p.85 #p.86 #p.87 #p.88" type="multi-person">
-                            <placeName ref="#loc.17">Stuttgard</placeName>
+                            Stuttgard
                     </rs>, <rs ref="p.119 #p.120 #p.121" xml:id="n.21" type="multi-person">
-                            <placeName ref="#loc.19">Carlsruhe</placeName>
+                            Carlsruhe
                     </rs>, <note type="editorial" target="#n.21">Der Posten des österreichischen Gesandten in Karlsruhe war
                      zwischen 16. März und 21. Dezember 1818 vakant; anschließend übernahm Anton
                      Karl Fürst Pálffy von Eröd (*1793) den Posten; vgl. Bringmann, Handbuch, S.
                      294. Großbritannien nahm erst 1841 diplomatische Beziehungen zum Großherzogtum
                      Baden auf; vgl. Bringmann, Handbuch, S. 198.</note>
                     <rs ref="#p.83 #p.39" type="multi-person" xml:id="n.22">
-                            <placeName ref="#loc.34">Darmstadt</placeName>
+                            Darmstadt
                     </rs>
                     <note type="editorial" target="#n.22">Österreich
                      nahm erst 1853 diplomatische Beziehungen zum Hof von Darmstadt auf; vgl.
@@ -1140,7 +1140,7 @@
                      Russland wurde in Darmstadt bis 1850 durch den Gesandten beim Deutschen
                      Bundestag vertreten, hier Iwan/Johann Ossipowitsch Freiherr von Anstett</note>
                   &amp; <rs ref="#p.24 #p.122 #p.39" type="multi-person" xml:id="n.23">
-                            <placeName ref="#loc.45">Cassel</placeName>
+                            Cassel
                     </rs>
                     <note type="editorial" target="#n.23">Frankreich
                      nahm erst 1822 diplomatische Beziehungen zum Hof von Kassel auf; vgl.
@@ -1177,7 +1177,7 @@
                favorablement accueillis par les Cabinets, et ils sont convenus de donner suite à la
                pétition.</p>
             <pb n="123v"/>
-            <p>La <ref decls="#m.2">Copie ci-jointe du Protocole signé dans la séance du <date when="1818-11-14">14 <choice>
+            <p>La <ref decls="#m.1">Copie ci-jointe du Protocole signé dans la séance du <date when="1818-11-14">14 <choice>
                         <abbr>9<hi rendition="#su">bre</hi>
                                 </abbr>
                         <expan>Novembre</expan>
@@ -1450,7 +1450,7 @@
                     </persName> à <choice>
                      <abbr>S. A.</abbr>
                      <expan>Son Altesse</expan>
-                  </choice>
+                  </choice> 
                   <unclear>
                             <choice>
                         <abbr>M</abbr>

@@ -79,9 +79,10 @@
                <physDesc>
                   <p>Eigenhändiges Journal von <persName ref="#p.5">
                                 <forename>Friedrich</forename>
-                        <surname>von Gentz</surname>
+                        <surname>Gentz</surname>
                             </persName>
                         </p>
+                  <p>Im Dokument Textverlust durch Restaurierung.</p>
                   <handDesc>
                      <handNote xml:id="A">Anonyme Hand</handNote>
                      <handNote xml:id="G">Friedrich Gentz</handNote>
@@ -145,7 +146,7 @@
                </msContents>
                <physDesc>
                   <p>Abschrift</p>
-
+                  <p>Textverlust durch Restaurierung.</p>
                </physDesc>
                <history>
                   <origin>
@@ -862,11 +863,7 @@
 
          <div hand="#A" decls="#m.4">
             <pb n="23r"/>
-            <metamark>
-                    <add hand="#AmB" place="top">
-                        <date when="1820-10-29">29/20</date>
-                    </add>
-                </metamark>
+            
             <metamark>
                     <add place="top" hand="#AmB">C</add>
                 </metamark>

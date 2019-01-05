@@ -188,7 +188,7 @@
                   </msItem>
                </msContents>
                <physDesc>
-                  <p>Abschrift</p>
+                  <p>Abschrift von <persName ref="#p.6"><surname>Wacken</surname></persName></p>
                </physDesc>
                <history>
                   <origin>
@@ -302,7 +302,7 @@
                 </opener>
             <p>
                     <add place="margin">
-                        <hi rendition="u">Affaire de Bade</hi>
+                        <hi rendition="#u">Affaire de Bade</hi>
                     </add>
                 </p>
             <p>
@@ -363,7 +363,7 @@
 
          <div hand="#A" decls="#m.2">
             <pb n="220r"/>
-            <opener hand="#G">
+            <opener hand="#W">
                     <dateline>
                     <placeName ref="#loc.1">Aix-la-Chapelle</placeName> le <date when="1818-11-20">20 Novembre 1818</date>
                 </dateline>
@@ -380,12 +380,12 @@
                      <abbr>S. A. R.</abbr>
                      <expan>Son Altesse Royale</expan>
                   </choice> le <rs ref="#p.22" type="person">Grand-Duc de Bade</rs>
-                    </rs>, a rendu compte dans le <rs ref="#m.3">Mémoire ci-joint</rs> des termes auxquels cette négociation était
+                    </rs>, a rendu compte dans le <ref decls="#m.3">Mémoire ci-joint</ref> des termes auxquels cette négociation était
                parvenue et qui semblaient présenter le dernier résultat que la persuasion pût
                obtenir.</p>
-            <p>Ce mémoire a fait l’objet d’une mûre délibération, et les <rs ref="#m.4">votes ci-annexés des <rs ref="#p.9 #p.10" type="multi-person">Plénipotentiaires de la
+            <p>Ce mémoire a fait l’objet d’une mûre délibération, et les <ref decls="#m.4">votes ci-annexés des <rs ref="#p.9 #p.10" type="multi-person">Plénipotentiaires de la
                Grande-Bretagne</rs>
-                    </rs> et <rs xml:id="n.4">
+                    </ref> et <rs xml:id="n.4">
                         <rs ref="#p.11 #p.12" type="multi-person">de la Prusse</rs>
                     </rs>,<note type="editorial" target="#n.4">Preußisches Votum: Anlage liegt nicht ein.</note>
                conformes en substance au vote énoncé de la part de l’<rs ref="#p.17" type="person">Empereur de
