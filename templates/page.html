@@ -278,7 +278,7 @@
                     </div>
                 </div>
             </div>
-        </footer>
+
             <script>
                 /*script for loading the content of the modal */
                 $(document).ready(function(){
@@ -338,13 +338,19 @@
             <script type="text/javascript">
             </script>
         <!-- scroll-up-bottom end -->
-            <script src="$app-root/resources/js/typopo.min.js"/>
-            <script>
-            $(function() {
-            $('#content').val(fixTypos($('#content').val(), 'en-us'));
-            });
+            <script type="text/javascript">
+            // Taken from https://stackoverflow.com/a/2587356
+            // Remove some of the superfluous whitespace that gets inserted
+            // after last child nodes in mixed content due to exist-db whitespace handling.
+            // This tackles a couple of issues but not all of them.
+            jQuery.fn.cleanWhitespace = function() {
+                this.contents().filter(
+                function() { return (this.nodeType == 3 &amp;&amp; !/\S/.test(this.nodeValue)); })
+                .remove();
+                return this;
+            }
+            $('a:has(span), span:has(a)').cleanWhitespace();
             </script>
-        
-        
+        </footer>
     </body>
 </html>
