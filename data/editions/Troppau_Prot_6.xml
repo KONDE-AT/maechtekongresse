@@ -191,7 +191,7 @@
                </msIdentifier>
                <msContents>
                   <msItem>
-                     <title>Anlage 4: Abschrift eines Schreibens zur Vorlage an den Papst durch die
+                     <title>Anlage 4: Entwurf eines Schreibens zur Vorlage an den Papst durch die
                         diplomatischen Vertreter der alliierten Höfe</title>
                   </msItem>
                </msContents>
@@ -376,11 +376,11 @@
 
          <div hand="#A" decls="#m.2">
             <pb n="103r"/>
-            <p>
+            <metamark>
                     <add hand="#AmB" place="top">ad <choice>
                      <abbr>Prot</abbr>
                      <expan>Protocol</expan>
-                  </choice> VI <lb/>A<lb/> <choice>
+                  </choice> VI <gap/>A<gap/> <choice>
                      <abbr>N.</abbr>
                      <expan>Numéro</expan>
                   </choice> 3.</add>
@@ -388,7 +388,7 @@
                     <add hand="#AmB" place="top">
                         <date when="1820-12-06">6/12.</date>
                     </add>
-                </p>
+                </metamark>
             
                     <head>Opinion du Cabinet de Russie sur les moyens de conciliation que les Cours
                   Alliées <lb/>pourraient employer envers <country>Naples</country> si l’invitation adressée
@@ -530,9 +530,9 @@
                possède tout entier et qui soit en mesure de l’exercer de manière à délivrer le <rs ref="#p.138" type="person">Roi</rs>, et par le Roi la nation, de tous les malheurs dont cet
                engagement funeste est la source.</p>
             <p>
-                    <add hand="#AmB" place="margin">Unterschied zwischen Lösung eines Eides oder Beweis
+                    <metamark><add hand="#AmB" place="margin">Unterschied zwischen Lösung eines Eides oder Beweis
                   daß der Eid an sich selbst null und nichtig ist weil er auf einer sündhaften Basis
-                  steht. Gezwungener Eid gillt übrigens nichts.</add>
+                  steht. Gezwungener Eid gillt übrigens nichts.</add></metamark>
                 </p>
             <p>Invité par les Cours Alliées à intervenir en Médiateur entre elles et le
                   <country>Royaume des Deux-Siciles</country>, le <rs ref="#p.155" type="person">Pape</rs> ferait
@@ -619,9 +619,9 @@
 
          <div hand="#A" decls="#m.3">
             <pb n="113r"/>
-            <p>
+            <metamark>
                     <add place="top" hand="#AmB">B.</add>
-                </p>
+                </metamark>
             
                     <head>Réponse du Cabinet autrichien à la pièce intitulée : <lb/>
                         <ref decls="#m.2">
@@ -714,9 +714,9 @@
 
          <div hand="#A" decls="#m.4">
             <pb n="115r"/>
-            <p>
+            <metamark>
                     <add hand="#AmB" place="top">C.</add>
-                </p>
+                </metamark>
             
                     <head>Projet d’une Dépêche à adresser par les Cabinets d’Autriche, <lb/>de Prusse et de Russie à leurs <rs ref="#p.156 #p.157 #p.158" type="multi-person">Ministres
                      respectifs près du <choice>
@@ -904,9 +904,9 @@
 
          <div hand="#A" decls="#m.5">
             <pb n="121r"/>
-            <p>
+            <metamark>
                     <add hand="#AmB" place="top">D.</add>
-                </p>
+                </metamark>
             
                     <head>
                         <hi rendition="#u">Copie d’une note que les <rs ref="#p.156 #p.157 #p.158" type="multi-person">Ministres des Cours alliées à <placeName ref="#loc.6">Rome</placeName>

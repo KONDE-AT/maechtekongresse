@@ -82,12 +82,13 @@
                             </persName>
                         </p>
                   <p>Liste der anwesenden Personen mit Bleistift durchgestrichen.</p>
-
+                  
                   <handDesc>
                      <handNote xml:id="A">Anonyme Hand</handNote>
                      <handNote xml:id="G">Friedrich Gentz</handNote>
                      <handNote xml:id="W">Nikolaus Wacken</handNote>
                      <handNote xml:id="AmB">Anonyme Hand mit Bleistift</handNote>
+                     
                   </handDesc>
 
                </physDesc>
@@ -342,7 +343,7 @@
                     </persName> a fait à la conférence les deux communications ci-jointes sub <choice>
                      <abbr>Litt</abbr>
                      <expan>Litteris</expan>
-                  </choice> <ref decls="#m.2">A</ref> et <ref decls="#m.4">B</ref> :</p>
+                  </choice> <ref decls="#m.2">A</ref> et <ref decls="#m.3">B</ref> :</p>
             <p>La première pour rendre compte du motif et des suites de la démarche confidentielle
                qu’il avoit faite envers <choice>
                   <abbr>Mrs.</abbr>
@@ -452,7 +453,7 @@
                épuiser toutes les chances de conciliation avant d’avoir recours à la force, venoient
                de fixer leur attention sur une nouvelle démarche, tendant à faire intervenir le <rs ref="#p.155" type="person">Saint-Père</rs> comme Médiateur dans les mesures à prendre par
                rapport à l’état actuel du <country>Royaume des Deux-Siciles</country>, et que ces
-               Cabinets seroient incessamment à même d’in<pb n="81v"/>former la conférence de la
+               Cabinets seroient incessamment à même d’in-<pb n="81v"/>former la conférence de la
                marche qu’ils comptoient suivre pour cet effet.</p>
             <p>
                     <choice>
@@ -484,18 +485,18 @@
 
          <div hand="#A" decls="#m.2">
             <pb n="82r"/>
-            <p>
+            <metamark>
                     <add place="top" hand="#AmB">ad <choice>
                      <abbr>Prot.</abbr>
                      <expan>Protocol</expan>
-                  </choice> V</add>
-               <add place="top">A</add>
-                </p>
-            <p>
+                  </choice> V</add><gap/>
+               <add hand="#A" place="top">A</add>
+                </metamark>
+            <metamark>
                     <add hand="#AmB" place="top">
                         <date when="1820-12-07">7/12</date>
                     </add>
-                </p>
+                </metamark>
             <opener>
                     <dateline>
                     <placeName ref="#loc.60">Troppau</placeName> le <date when="1820-12-07">7 Décembre
@@ -590,9 +591,9 @@
 
          <div hand="#A" decls="#m.3">
             <pb n="86r"/>
-            <p>
-                    <add place="top">B.</add>
-                </p>
+            <metamark>
+                    <add hand="#A" place="top">B.</add>
+                </metamark>
             <p>Le Gouvernement du Roi a examiné, avec toute l’attention que commande la gravité du
                sujet, les <ref target="Troppau_Prot_1.xml">mémoires remis aux conférences de <placeName ref="#loc.60">Troppau</placeName> le
                   <date when="1820-10-23">23 Octobre</date> par le Cabinet Autrichien</ref>, <ref target="Troppau_Prot_2.xml">le <date when="1820-10-29">29</date> par le cabinet Prussien</ref> et <ref target="Troppau_Prot_3.xml">le <date when="1820-11-02">2 Novembre</date> par le cabinet Russe</ref>. L’accord de
@@ -734,9 +735,9 @@
 
          <div hand="#G" decls="#m.4">
             <pb n="94r"/>
-            <p>
-                    <add place="top">C.</add>
-                </p>
+            <metamark>
+                    <add hand="#A" place="top">C.</add>
+                </metamark>
             
                     <head>
                         <subst>

@@ -79,7 +79,7 @@
                <physDesc>
                   <p>Eigenhändiges Journal von <persName ref="#p.5">
                                 <forename>Friedrich</forename>
-                        <surname>von Gentz</surname>
+                        <surname>Gentz</surname>
                             </persName>
                         </p>
                   <handDesc>
@@ -351,7 +351,7 @@
             <listWit corresp="#m.7">
                <head>Anlage 6: Vorschläge des österreichischen Kabinetts hinsichtlich der
                   zusätzlichen russischen Erklärungen</head>
-               <witness corresp="#w.10">Metternich, Nachgelassene Papiere, Bd. 3, S. 417;</witness>
+               <witness corresp="#w.10"><bibl type="print">Metternich, Nachgelassene Papiere, Bd. 3, S. 417;</bibl></witness>
                <witness corresp="#w.37">
                         <bibl type="print">Alberti, Atti, S. 363.</bibl>
                     </witness>
@@ -633,8 +633,8 @@
 
          <div hand="#A" decls="#m.2">
             <pb n="30r"/>
-            <p>
-                    <add hand="#AmB" place="top">ad <choice>
+            
+                    <metamark><add hand="#AmB" place="top">ad <choice>
                      <abbr>Prot.</abbr>
                      <expan>Protocole</expan>
                   </choice>
@@ -642,15 +642,12 @@
                      <abbr>n.</abbr>
                      <expan>numéro</expan>
                   </choice> 3
-                    </add>
+                    </add></metamark><lb/>
+               <metamark><add hand="#AmB" place="top">
+                  <date when="1820-11-07">7/11</date></add></metamark>
                     <lb/>
-                    <add hand="#AmT" place="top">A</add>
-                <lb/>
-                    <add hand="#AmB" place="top">
-                        <date when="1820-11-07">7/11</date>
-                    </add>
-                </p>
-            
+                    <metamark><add hand="#AmT" place="top">A</add></metamark>
+                
                     <head>Note de la Cour de Russie <del rendition="#s">à insérer au Journal des
                      Conférences</del>
                         <addSpan spanTo="#a.1" hand="#G"/>
@@ -686,7 +683,7 @@
                </choice> le <persName ref="#p.8">
                         <roleName>Prince</roleName>
                   <surname>de Metternich</surname>
-                    </persName> dans la Conférence du 17/<date when="1820-10-29">29 Octobre</date> pour engager les Cours de France, de la
+                    </persName> dans la <ref target="Troppau_Prot_1.xml">Conférence du 17/<date when="1820-10-29">29 Octobre</date></ref> pour engager les Cours de France, de la
                Grande-Bretagne, de Prusse et de Russie « à se promettre réciproquement que, <hi rendition="#u">durant la réunion de <placeName ref="#loc.60">Troppau</placeName>
                     </hi>, aucune des cinq Cours n’entamera isolément une
                explication quelconque avec le Gouvernement Napolitain ou avec ses agens ; que,
@@ -734,13 +731,13 @@
 
          <div hand="#A" decls="#m.3">
             <pb n="32r"/>
-            <p>
-                    <add hand="#AmB" place="top">
+            
+                    <metamark><add hand="#AmB" place="top">
                        <date when="1820-11-02">2/11</date>
-                    </add>
+                    </add></metamark>
                     <lb/>
-                    <add hand="#AmT" place="top">B</add>
-                </p>
+                   <metamark> <add hand="#AmT" place="top">B</add></metamark>
+                
             
                     <head>Réponse du Cabinet de Russie <del rendition="#s">aux Communications faites par
                      les Cabinets d’Autriche et de Prusse dans les conférences du 11/<date when="1820-10-23">23</date> et du 17/<date when="1820-10-29">29
@@ -760,11 +757,10 @@
                   Novembre 1820</date>.</dateline>
                 </opener>
             <p>L’opinion que le Cabinet de Russie soumet aujourd’hui aux Cabinets alliés sera le
-               développement de la déclaration qu’il a donnée au nom et par ordre de l’<rs ref="#p.17" type="person">Empereur</rs> dans la conférence du 17/<date when="1820-10-29">29
-                  Octobre</date>.</p>
-            <p>Cette déclaration ne rappelant elle-même que les vœux formés par les <rs ref="#p.16 #p.15 #p.130 #p.18" type="multi-person">augustes alliés de <rs ref="#p.17" type="multi-person">Sa Majesté
-                     Impériale</rs>
-                    </rs>, ces vœux se reproduiront dans les observations qui vont
+               développement de la déclaration qu’il a donnée au nom et par ordre de l’<rs ref="#p.17" type="person">Empereur</rs> dans la <ref target="Troppau_Prot_2.xml">conférence du 17/<date when="1820-10-29">29
+                  Octobre</date></ref>.</p>
+            <p>Cette déclaration ne rappelant elle-même que les vœux formés par les <rs ref="#p.16 #p.15 #p.130 #p.18" type="multi-person">augustes alliés de</rs> <rs ref="#p.17">Sa Majesté
+                     Impériale</rs>, ces vœux se reproduiront dans les observations qui vont
                suivre, et l’on essayera simplement de les représenter sous des formes qui en
                facilitent l’accomplissement prompt, unanime, immanquable.</p>
             <p>Le Cabinet de Russie a mesuré toute l’étendue comme toute la difficulté de cet
@@ -951,7 +947,7 @@
                   Vattel, Livre II. Chap. IV. §. 53.</note>
                 </p>
             <p>L’ensemble de ces motifs, auxquels on pourroit encore ajouter de nouveaux
-               développemens, présente à nos yeux des preuves irré<pb n="39r"/>fragables de la
+               développemens, présente à nos yeux des preuves irré-<pb n="39r"/>fragables de la
                légalité d’une intervention collective des <rs ref="#p.16 #p.130 #p.15 #p.18 #p.17" type="multi-person">Monarques alliés</rs> qui auroit pour but de délivrer les deux Péninsules du fléau
                et du despotisme des insurrections.</p>
             <p>En démontrant que cette intervention seroit juste et légitime, nous avons démontré
@@ -1232,13 +1228,13 @@
 
          <div hand="#A" decls="#m.4">
             <pb n="50r"/>
-            <p>
-                    <add hand="#AmB" place="top">
+            
+                    <metamark><add hand="#AmB" place="top">
                         <date when="1820-11-05">5/11</date>
-                    </add>
+                    </add></metamark>
                     <lb/>
-                    <add hand="#AmT" place="top">C</add>
-                </p>
+                    <metamark><add hand="#AmT" place="top">C</add></metamark>
+                
             
                     <head>Observations <add hand="#G" place="inline">du Cabinet de <placeName ref="#loc.7">Vienne</placeName>
                         </add> sur l’interprétation des
@@ -1288,18 +1284,17 @@
 
          <div hand="#A" decls="#m.5">
             <pb n="52r"/>
-            <p>
-                    <add hand="#AmB" place="top">
+            
+                    <metamark><add hand="#AmB" place="top">
                         <date when="1820-11-05">5/11</date>
-                    </add>
+                    </add></metamark>
                     <lb/>
-                    <add hand="#AmT" place="top">D</add>
-                </p>
+                    <metamark><add hand="#AmT" place="top">D</add></metamark>
             
             
                     <head>Apperçu sommaire <add hand="#G" place="inline">au sujet de</add> la
-                  réponse <lb/>de Cabinet de Russie <add hand="#G" place="inline">du 21 Octobre/<date when="1820-11-02">2 Novembre</date>
-                        </add>
+                  <ref decls="#m.3">réponse <lb/>de Cabinet de Russie <add hand="#G" place="inline">du 21 Octobre/<date when="1820-11-02">2 Novembre</date>
+                        </add></ref>
                     </head>
                 
             <opener>
@@ -1315,7 +1310,7 @@
                et imposante des grandes Cours, et également accessible à tous les Gouvernemens ;</p>
             <p>2<hi rendition="#su">o</hi> Nécessité d’une action morale et matérielle contre la
                révolution de <country>Naples</country>.</p>
-            <p>Les principes généraux, énoncés dans la première partie <ref decls="#m.3">du mémoire
+            <p>Les principes généraux, énoncés dans la première partie du <ref decls="#m.3">mémoire
                   du Cabinet de Russie</ref>, sont de même parfaitement d’accord avec les nôtres.</p>
             <p>Il y a néanmoins dans l’application de ces principes quelques points d’une grande
                importance sur lesquels il est indispensablement nécessaire que les Cabinets ne
@@ -1453,13 +1448,12 @@
 
          <div hand="#A" decls="#m.6">
             <pb n="56r"/>
-            <p>
-                    <add hand="#AmB" place="top">
+            
+                    <metamark><add hand="#AmB" place="top">
                         <date when="1820-11-06">6/11</date>
-                    </add>
+                    </add></metamark>
                     <lb/>
-                    <add hand="#AmT" place="top">E</add>
-                </p>
+                    <metamark><add hand="#AmT" place="top">E</add></metamark>
             
                     <head>
                         <subst>
@@ -1566,13 +1560,13 @@
 
          <div hand="#W" decls="#m.7">
             <pb n="60r"/>
-            <p>
-                    <add hand="#AmT" place="top">F</add>
-                </p>
             
-                    <head>Propositions du Cabinet d’Autriche à la suite des éclaircissemens
+                    <metamark><add hand="#AmT" place="top">F</add></metamark>
+                
+            
+                    <head>Propositions du Cabinet d’Autriche à la suite des <ref decls="#m.6">éclaircissemens
                   supplémentaires <lb/>du Cabinet de Russie, faites le <date when="1820-11-06">6 Novembre
-                  1820</date>
+                  1820</date></ref>
                     </head>
                 
             <p>Le Cabinet d’Autriche propose aux Cours alliées de reconnaître</p>
@@ -1592,12 +1586,12 @@
 
          <div hand="#W" decls="#m.8">
             <pb n="61r"/>
-            <p>
-                    <add hand="#AmT" place="top">G</add>
-                </p>
             
-                    <head>Déclaration du Cabinet de Russie sur les propositions <lb/>faites par le Cabinet d’Autriche le <date when="1820-11-06">6 Novembre
-                     1820</date>
+                    <metamark><add hand="#AmT" place="top">G</add></metamark>
+                
+            
+                    <head>Déclaration du Cabinet de Russie sur les <ref decls="#m.7">propositions <lb/>faites par le Cabinet d’Autriche le <date when="1820-11-06">6 Novembre
+                     1820</date></ref>
                     </head>
                 
             <opener>
