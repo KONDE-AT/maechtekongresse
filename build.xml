@@ -6,6 +6,6 @@
     <property name="build.dir" value="build"/>
     <target name="xar">
         <mkdir dir="${build.dir}"/>
-        <zip basedir="." destfile="${build.dir}/${project.app}-${project.version}.xar" excludes="${build.dir}/* data/temp/** temp/**"/>
+        <zip basedir="." destfile="${build.dir}/${project.app}-${project.version}.xar" excludes="${build.dir}/* data/temp/** temp/** about/**"/>
     </target>
 </project>
