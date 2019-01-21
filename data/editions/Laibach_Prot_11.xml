@@ -84,8 +84,7 @@
                   <p>
                      <persName ref="#p.137">
                         <surname>Stewarts</surname>
-                            </persName> Name in der Anwesenheitsliste gestrichen, anschließen jedoch wieder
-                     unterpungiert.</p>
+                            </persName> Name in der Anwesenheitsliste gestrichen, anschließend unterpungiert.</p>
                   <handDesc>
                      <handNote xml:id="A">Anonyme Hand</handNote>
                      <handNote xml:id="A1">Weitere anonyme Hand</handNote>
@@ -447,9 +446,9 @@
 
          <div hand="#A" decls="#m.2">
             <pb n="89r"/>
-            <p>
+            <metamark>
                <add hand="#AmB" place="top">A.</add>
-            </p>
+            </metamark>
             
                <head>
                   <hi rendition="#u">Point de vue sur l’armée d’occupation</hi>
@@ -533,9 +532,9 @@
 
          <div hand="#A" decls="#m.3">
             <pb n="93r"/>
-            <p>
+            <metamark>
                <add hand="#AmB" place="top">B.</add>
-            </p>
+            </metamark>
             
                <head>Opinion du Cabinet de Russie sur les <ref decls="#m.2">propositions
                      Autrichiennes du <date when="1821-01-29">29 Janvier</date>
@@ -575,8 +574,8 @@
                         <abbr>N<hi rendition="#su">o</hi>
                         </abbr>
                         <expan>Numéro</expan>
-                     </choice>
-                  </add> IV de la Conférence du 7/<date when="1820-11-19">19 Novembre 1820</date>
+                     </choice> 
+                     IV</add> de la Conférence du 7/<date when="1820-11-19">19 Novembre 1820</date>
                </ref>.</p>
             <p>Elles portent l’empreinte des sentimens élevés qui animent <rs ref="#p.16" type="person">
                   <choice>
