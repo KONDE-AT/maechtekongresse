@@ -82,6 +82,7 @@
                   <p>Dokument zweifach ein: Fassung 1 (Ausfertigung) fol. 251-257; Fassung 2
                      (Konzept): fol. 242–250, 258. Die Transkription folgt der Version fol.
                      251–257.</p>
+                  <p>Die angegebenen Varianten beziehen sich auf das Konzept.</p>
 
                   <handDesc>
                      <handNote xml:id="A">Anonyme Hand</handNote>
@@ -160,10 +161,10 @@
       <body>
          <div corresp="#m.1" hand="#A">
             <pb n="251r"/>
-            <p>
+            <metamark>
                     <add hand="#A1" place="top">C</add>
                <add place="top" hand="#AmB">17.</add>
-                </p>
+                </metamark>
 
             
                     <head>Dépêche ostensible au <persName ref="#p.179">
@@ -217,7 +218,7 @@
                   <lem/>
                   <rdg>
                             <subst>
-                        <del>l’anarchie par leur essence, et in</del>
+                        <del>l’anarchie par leur essence, et</del>
                         <add/>
                      </subst>
                         </rdg>
@@ -250,7 +251,7 @@
                   Revolutionen in Lateinamerika; Harvey, Liberators.</note>
             </p>
             <p>Au déchirement de l’Amérique ne tardèrent pas à se joindre les maux inséparables d’un
-               état de choses où tous les principes constitu<pb n="252v"/>tifs de l’ordre social
+               état de choses où tous les principes constitu-<pb n="252v"/>tifs de l’ordre social
                avoient été mis en oubli.</p>
             <p>L’anarchie parut à la suite de la Révolution, le désordre à la suite de l’anarchie ;
                de longues années d’une possession tranquille cessèrent <add place="above">bientôt</add> solennels furent révoqués en doute ; bientôt des Emprunts ruineux
@@ -341,7 +342,7 @@
                      </subst>
                         </rdg>
                </app> au trône ses Droits légitimes et ses prérogatives nécessaires, aux sujets une
-               juste protection, aux pro<pb n="253v"/>priétés d’indispensables garanties. Mais cet
+               juste protection, aux pro-<pb n="253v"/>priétés d’indispensables garanties. Mais cet
                espoir a été complètement déçu. Le tems n’a fait qu’amener de nouvelles injustices,
                les violences se sont multipliées, le nombre des victimes a grossi dans une
                effrayante proportion, et l’<country>Espagne</country> a déjà vu plus d’un guerrier,
@@ -353,7 +354,7 @@
                               <sic>9</sic>
                               <corr>8</corr>
                            </choice> Mars</date>
-                            </rs>
+                            </rs> 
                             <note type="editorial" target="#n.5">
                                 <persName ref="#p.30">
                                     <roleName>König</roleName>
@@ -443,10 +444,10 @@
                   <lem/>
                   <rdg>
                             <subst>
-                        <del>La perte des plus riches portions du monde connu, la captivité d’un <rs ref="#p.30" type="person">Roi</rs>, la guerre civile et la perspective d’une guerre
+                        <del><hi rendition="#s">La perte des plus riches portions du monde connu, la captivité d’un <rs ref="#p.30" type="person">Roi</rs>, la guerre civile et la perspective d’une guerre
                            extérieure, voilà donc pour la Péninsule Espagnole les conséquences à
                            jamais déplorables des journées du <date when="1820-03-08">8</date> et du
-                              <date when="1820-03-09">9 Mars 1820</date>.</del>
+                              <date when="1820-03-09">9 Mars 1820</date>.</hi></del>
                         <add/>
                      </subst>
                         </rdg>
@@ -505,21 +506,21 @@
                <rdg>
                         <subst>
                      <del>
-                                <p>C'est là l’extrémité fâcheuse que les Cours Alliées veulent encore
+                                C'est là l’extrémité fâcheuse que les Cours Alliées veulent encore
                            prévenir s’il est possible, mais elles ne sauroient le vouloir qu’à
                            certaines conditions. Garantes de la paix, elles ne peuvent reconnoître
                            plus long temps un ordre de choses qui tend à la troubler. Aussi
                            intéressées au repos de la <country>France</country> que la France
                            elle-même, elles ne peuvent composer avec les artisans de révolutions,
-                           qui travaillent à le compromettre.</p>
+                           qui travaillent à le compromettre.<lb/>
                             </del>
                      <del>
-                                <p>Enfin, amies sincères de l’<country>Espagne</country>, elles ne peuvent
+                                Enfin, amies sincères de l’<country>Espagne</country>, elles ne peuvent
                            reculer volontairement le terme des malheurs dont gémit une nation si
-                           digne d’un meilleur sort.</p>
+                           digne d’un meilleur sort.<lb/>
                             </del>
                      <del>
-                                <p>Il faut donc de toute nécessité qu’un changement salutaire
+                                Il faut donc de toute nécessité qu’un changement salutaire
                            s’accomplisse dans la situation et du <rs ref="#p.30" type="person">Roi</rs> et du
                            Gouvernement Espagnol. Si les Ministres et les Cortès déplorent hautement
                            les événemens survenus en <country>Espagne</country> depuis le <date when="1822-03-08">8 Mars</date>, si dans une adresse solennelle ils
@@ -537,10 +538,10 @@
                            mais alors seulement les Puissances alliées, heureuses d’applaudir à ses
                            nobles résolutions, s’empresseront de renouer avec le Gouvernement
                            Espagnol des relations auxquelles présideront de leur part les sentimens
-                           les plus vrais d’amitié et de bienveillance.</p>
+                           les plus vrais d’amitié et de bienveillance.<lb/>
                             </del>
                      <del>
-                                <p>Il y a plus de deux ans que la <country>Russie</country> signale ces
+                                Il y a plus de deux ans que la <country>Russie</country> signale ces
                            grandes vérités à l’attention des Espagnols, et jamais leur patriotisme
                            n’eut une tâche plus utile et plus honorable à remplir. Quelle gloire
                            pour l’<country>Espagne</country> que de vaincre une seconde fois la
@@ -553,18 +554,18 @@
                            l’autre de sauver l’<country>Espagne</country>, de la réconcilier avec
                            elle-même et avec toutes les Puissances de l’Europe, et de s’unir dès à
                            présent à son <rs ref="#p.30" type="person">Roi</rs>, pour effacer les traces d’une
-                           longue tourmente.</p>
+                           longue tourmente.<lb/>
                             </del>
                      <add>
-                                <p>C’est là l’extrémité fâcheuse que <rs ref="#p.17" type="person">Sa Majesté
+                                C’est là l’extrémité fâcheuse que <rs ref="#p.17" type="person">Sa Majesté
                               Impériale</rs> voudroit prévenir s’il est possible, mais tant que le
                               <rs ref="#p.30" type="person">Roi</rs> sera hors d’état de témoigner librement sa
                            volonté, tant qu’à la faveur d’un ordre de choses déplorable des Artisans
                            de Révolutions, liés par un Pacte commun à ceux des autres Contrées de
                            l’Europe, chercheront à troubler son repos, est-il au pouvoir de l’<rs ref="#p.17" type="person">Empereur</rs>, est-il au pouvoir d’aucun Monarque,
                            d’améliorer les relations du Gouvernement Espagnol avec les Puissances
-                           étrangères ?</p>
-                        <p>D’un autre côté, combien ce but essentiel ne seroit-il pas facile à
+                           étrangères ?<lb/>
+                        D’un autre côté, combien ce but essentiel ne seroit-il pas facile à
                            atteindre si le <rs ref="#p.30" type="person">Roi</rs> recouvroit avec son entière
                            liberté les moyens de mettre un terme à la guerre civile, de prévenir la
                            guerre étrangère et de s’entourer des plus éclairés et des plus fidèles
@@ -574,8 +575,8 @@
                            jouiroit elle-même, et alors aussi, les Puissances qui réclament
                            aujourd’hui contre la conduite de son Gouvernement s’empresseroient de
                            rétablir avec Elle des rapports d’Amitié véritable et de mutuelle
-                           bienveillance.</p>
-                        <p>Il y a longtems que la <country>Russie</country> signale ces grandes
+                           bienveillance.<lb/>
+                        Il y a longtems que la <country>Russie</country> signale ces grandes
                            vérités à l’attention des Espagnols, jamais leur patriotisme n’eut de
                            plus hautes destinées à remplir. Quelle gloire pour eux que de vaincre
                            une seconde fois la révolution et de prouver qu’elle ne sauroit exercer
@@ -587,7 +588,7 @@
                            prononcée ; il ne tient qu’à l’autre de s’unir dès à présent à son <rs ref="#p.30" type="person">Roi</rs> pour délivrer l’<country>Espagne</country>, pour
                            la sauver, pour lui assigner dans la famille Européenne, une place
                            d’autant plus honorable qu’elle auroit été arrachée comme en 1814 au
-                           triomphe désastreux d’une usurpation militaire.</p>
+                           triomphe désastreux d’une usurpation militaire.
                             </add>
                   </subst>
                     </rdg>

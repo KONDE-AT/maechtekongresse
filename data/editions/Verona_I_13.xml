@@ -142,13 +142,13 @@
          <div decls="#m.1">
             <pb n="231r"/>
 
-            <p>
+            <metamark>
                     <add place="top" hand="#AmB">
                         <choice>
                      <abbr>N.</abbr>
                      <expan>Numéro</expan>
                   </choice> 12</add>
-                </p>
+                </metamark>
             
                     <head>Précis <lb/>de la Conférence de Dimanche <date when="1822-11-17">17 Novembre
                   1822</date>.</head>
@@ -160,7 +160,7 @@
                révolutionnaire de l’Espagne, deviendraient obligatoires pour les Puissances qui y
                ont pris part.</p>
             <p>
-                    <ref target="Verona_I_2.xml">
+                    
                         <choice>
                      <abbr>M<hi rendition="#su">r</hi>
                             </abbr>
@@ -168,7 +168,7 @@
                   </choice> le <persName ref="#p.174">
                             <roleName>Vicomte</roleName>
                      <surname>de Montmorency</surname>
-                        </persName> a d’abord énoncé trois cas qui lui
+                  </persName> a d’abord énoncé <ref target="Verona_I_2.xml">trois cas qui lui
                   paraissaient de nature à rendre lesdits engagemens immédiatement
                   obligatoires</ref> ; et <ref target="Verona_I_3.xml">
                         <choice>
