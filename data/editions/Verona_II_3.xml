@@ -190,7 +190,7 @@
          <div decls="#m.1">
             <pb n="40r"/>
 
-            <p>
+            <metamark>
                     <add hand="#AmB" place="top">
                         <date when="1822-12-08">8/12</date>
                         <lb/>
@@ -199,7 +199,7 @@
                      <expan>Procès-Verbal</expan>
                   </choice>
                     </add>
-                </p>
+                </metamark>
             
                     <head>Procès-Verbal <lb/>de la Conférence entre Messieurs les <rs ref="#p.8 #p.40 #p.175 #p.13 #p.35 #p.140" type="multi-person">Plénipotentiaires d’Autriche, de
                      Russie, de Prusse, et des Deux-Siciles</rs> relativement à la diminution de
@@ -226,7 +226,7 @@
                         </abbr>
                   <expan>Messieurs</expan>
                </choice> les <rs ref="#p.8 #p.40 #p.175 #p.13 #p.35" type="multi-person">Plénipotentiaires des
-                  Puissances signataires de la <rs ref="#t.48">Convention de <placeName ref="#loc.11">Naples</placeName>
+                  Puissances signataires de la <rs ref="#t.48" type="treaties">Convention de <placeName ref="#loc.11">Naples</placeName>
                         </rs> du <date when="1821-10-18">18 Octobre
                      1821</date>
                     </rs> une Conférence relative à l’armée auxiliaire stationnée tant

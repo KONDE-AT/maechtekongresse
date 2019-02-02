@@ -127,6 +127,7 @@
                   <p>Lithographie</p>
                   <p>Anlage liegt zweifach ein: handschriftlich fol. II/62–65, lithographiert fol.
                      60–61; die Edition folgt der lithographierten Variante.</p>
+                  <p>Die Variante in der Edition bezieht sich auf die handschriftliche Fassung.</p>
                </physDesc>
 
             </msDesc>
@@ -240,12 +241,12 @@
          <div decls="#m.1">
             <pb n="54r"/>
 
-            <p>
+            <metamark>
                     <add hand="#AmB" place="top">
                         <date when="1822-12-11">11/12</date>
                     </add>
-                </p>
-            <p>
+                </metamark>
+            <metamark>
                     <add hand="#AmB" place="top">
                         <hi rendition="#u">
                         <choice>
@@ -254,7 +255,7 @@
                      <expan>Numéro</expan>
                   </choice> 1</hi>
                     </add>
-                </p>
+                </metamark>
             
                     <head>Procès-Verbal <lb/>de la Conférence du <date when="1822-12-11">11 Décembre
                1822</date>, <lb/>relativement aux affaires d’Italie</head>
@@ -504,9 +505,9 @@
          <div decls="#m.2">
             <pb n="60r"/>
 
-            <p>
+            <metamark>
                     <add place="top" hand="#A">C.</add>
-                </p>
+                </metamark>
 
             
                     <head>Déclaration des Cours d’Autriche, de Prusse et de Russie à la Conférence du

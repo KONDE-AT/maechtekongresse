@@ -45,9 +45,7 @@
                <name>Peter Andorfer</name>
             </respStmt>
          </titleStmt>
-         <notesStmt>
-            <note>Vergleiche auch die Projektbeschreibung in der <ref type="URI" target="../meta/Einleitung.xml">Einleitung</ref> sowie die Dokumentation der Applikation unter <ref type="URI" target="../meta/about.xml">„Über diese Webseite“</ref>.</note>
-         </notesStmt>
+         
          <editionStmt>
             <edition>
                     <date>2017-03-13</date>
@@ -88,6 +86,8 @@
                                 <surname>Gentz</surname>
                             </persName> fol. III/32, Reinschrift fol.
                      III/31; die Edition folgt der Reinschrift.</p>
+                  <p>Die angegebene Variante bezieht sich auf das Konzept.</p>
+                  <p>Anwesenheitsliste ist nicht überliefert, sondern wurde aus dem Kontext rekonstruiert.</p>
 
                   <handDesc>
                      <handNote xml:id="A">Anonyme Hand</handNote>
@@ -279,9 +279,9 @@
          <div decls="#m.1" hand="#A">
             <pb n="31r"/>
 
-            <p>
+            <metamark>
                     <add place="top">V<hi rendition="#su">me</hi> Conférence.</add>
-                </p>
+                </metamark>
             
                     <head type="desc">Procès-verbal de La <lb/>Conférence du <date when="1822-11-26">26 Novembre 1822</date>
                 </head>
@@ -354,9 +354,9 @@
 
          <div decls="#m.2">
             <pb n="34r"/>
-            <p>
+            <metamark>
                     <add place="top">A.</add>
-                </p>
+                </metamark>
             
                     <head>Déclaration du <rs ref="#p.102" type="person">Plénipotentiaire de France</rs> au Protocole
                   de la Conférence du <date when="1822-11-26">26 Novembre 1822</date>
@@ -409,7 +409,7 @@
 
          <div decls="#m.3">
             <pb n="39r"/>
-            <p>
+            <metamark>
                     <add place="top">
                         <choice>
                      <abbr>Litt.</abbr>
@@ -418,7 +418,7 @@
                         <abbr>Nov.</abbr>
                         <expan>Novembre</expan>
                      </choice> 1822</date>.</add>
-                </p>
+                </metamark>
             
                     <head>Déclaration du <rs ref="#p.175" type="person">Plénipotentiaire de Sa Majesté le <rs ref="#p.18" type="person">Roi de Prusse</rs>
                     </rs> au Protocole du <date when="1822-11-26">26 Novembre 1822</date>
@@ -448,9 +448,9 @@
 
          <div decls="#m.4">
             <pb n="40r"/>
-            <p>
+            <metamark>
                     <add place="top">C.</add>
-                </p>
+                </metamark>
             
                     <head>Déclaration de <choice>
                      <abbr>Mons<hi rendition="#su">r</hi>
