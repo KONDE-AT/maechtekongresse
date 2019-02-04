@@ -85,6 +85,7 @@
                   <p>Procès-verbal liegt zweifach ein: handschriftlich fol. V/74a–74c,
                      lithographiert fol. V/75–76; die Edition folgt der lithographierten Variante.
                      Zählung mit rotem Buntstift rechts oben auf fol. 74a-r: <q>2</q>.</p>
+                  <p>Die Varianten beziehen sich auf Korrekturen in der handschriftlichen Fassung.</p>
 
                   <handDesc>
                      <handNote xml:id="A">Anonyme Hand</handNote>
@@ -125,6 +126,7 @@
                   <p>Anlage 1 liegt zweifach ein: handschriftliches Konzept auf fol. V/91–92,
                      lithographiert auf fol. V/83. Die Edition folgt der lithographierten
                      Variante.</p>
+                  <p>Die Variante bezieht sich auf das handschriftliche Konzept.</p>
                </physDesc>
 
             </msDesc>
@@ -225,6 +227,7 @@
                   <p>Lithographie</p>
                   <p>Anlage 5 liegt zweifach ein: handschriftliches Konzept auf fol. V/77 und 80–81, lithographiert auf fol. V/78–79. Die Edition folgt der lithographierten
                      Variante.</p>
+                  <p>Die Varianten beziehen sich auf Korrekturen im Konzept.</p>
                </physDesc>
                <history>
                   <origin>
@@ -782,9 +785,9 @@
 
          <div decls="#m.2">
             <pb n="83r"/>
-            <p>
+            <metamark>
                <add place="top">A.</add>
-            </p>
+            </metamark>
             
                <head>Réponse du Cabinet d’Autriche au <ref target="Verona_V_1.xml">Mémoire de <choice>
                         <abbr>M<hi rendition="#su">r</hi>
@@ -870,9 +873,9 @@
 
          <div decls="#m.3">
             <pb n="84r"/>
-            <p>
+            <metamark>
                <add place="top">B.</add>
-            </p>
+            </metamark>
             
                <head>Réponse de Messieurs les <rs ref="#p.102 #p.180 #p.135" type="multi-person">Plénipotentiaires de France</rs> au Mémoire de Monsieur le <persName ref="#p.10">
                      <roleName>Duc</roleName>
@@ -1032,7 +1035,7 @@
                flétrir un commerce odieux et à provoquer contre les coupables la vengeance des Lois.
                Mais une déclaration qui obligeroit tous les Gouvernemens à appliquer à la Traite des
                Nègres les châtimens infligés à la piraterie et qui se transformeroit en une loi
-               générale du monde civilisé est une chose qui ne paraît pas aux <rs ref="#p.102 #p.180 #p.135" type="multi-person">Ministres Plénipotentiaires de <rs ref="#p.15" type="multi-person">Sa Majesté Très Chrétienne</rs>
+               générale du monde civilisé est une chose qui ne paraît pas aux <rs ref="#p.102 #p.180 #p.135" type="multi-person">Ministres Plénipotentiaires de <rs ref="#p.15" type="person">Sa Majesté Très Chrétienne</rs>
                     </rs> être de la compétence d’une réunion politique. Quand il s’agit d’établir la
                peine de mort, ce sont, selon la nature des Gouvernemens, les corps judiciaires ou
                les corps législatifs qui sont appelés à statuer.</p>
@@ -1075,10 +1078,10 @@
 
          <div decls="#m.4">
             <pb n="88r"/>
-            <p>
+            <metamark>
                <add place="top">C.</add>
-            </p>
-            <p>
+            </metamark>
+            
                <head>Réponse de <choice>
                      <abbr>M<hi rendition="#su">ss</hi>
                      </abbr>
@@ -1099,7 +1102,7 @@
                            Kielstra, The Politics of Slave Trade, bes. S. 120–124.</note>
                </head>
                     
-            </p>
+            
             <opener>
                     <dateline>
                         <hi rendition="#u">
@@ -1148,9 +1151,9 @@
 
          <div decls="#m.5">
             <pb n="89r"/>
-            <p>
+            <metamark>
                <add place="top">D.</add>
-            </p>
+            </metamark>
             
                <head>Réponse du Cabinet de Russie au <ref target="Verona_V_1.xml">Mémoire
                      Britannique sur la <rs xml:id="n.16">traite des Nègres</rs>
@@ -1289,9 +1292,9 @@
 
          <div decls="#m.6">
             <pb n="78r"/>
-            <p>
+            <metamark>
                <add place="top">E.</add>
-            </p>
+            </metamark>
             
                <head>
                   <hi rendition="#u">Résolutions</hi>
@@ -1326,10 +1329,7 @@
                   </rdg>
                </app> les pratiques frauduleuses moyennant lesquelles les entrepreneurs de ces
                spéculations condamnables éludent les lois de leurs pays, déjouent la surveillance
-               des bâtimens employés pour arrêter le <app>
-                  <lem>cours</lem>
-                  <rdg/>
-               </app> de leurs iniquités, et couvrent les opérations criminelles dont des milliers
+               des bâtimens employés pour arrêter le cours de leurs iniquités, et couvrent les opérations criminelles dont des milliers
                d’êtres humains deviennent d’année en année les innocentes victimes ;</p>
             <p>Que les Puissances de l’Europe sont appelées <app>
                   <lem>par Leurs engagemens antérieurs à chercher les moyens les plus efficaces pour
@@ -1371,14 +1371,14 @@
 
          <div decls="#m.7">
             <pb n="115r"/>
-            <p>
+            <metamark>
                <add place="top">
                   <hi rendition="#u">Colonies Espangnoles</hi>
                </add>
-            </p>
-            <p>
+            </metamark>
+            <metamark>
                <add place="top">F.</add>
-            </p>
+            </metamark>
 
             
                <head>Déclaration du Cabinet Autrichien,<lb/>en réponse à <ref target="Verona_V_1.xml">celle du Cabinet Britannique en date du <date when="1822-11-24">24 Novembre 1822</date>
@@ -1444,14 +1444,14 @@
 
          <div decls="#m.8">
             <pb n="112r"/>
-            <p>
+            <metamark>
                <add place="top">
                   <hi rendition="#u">Colonies Espangnoles</hi>
                </add>
-            </p>
-            <p>
+            </metamark>
+            <metamark>
                <add place="top">G.</add>
-            </p>
+            </metamark>
             
                <head>Déclaration du Cabinet de France<lb/>en réponse à <ref target="Verona_V_1.xml">celle du Cabinet Britannique en date du <date when="1822-11-24">24
                         Novembre</date>
@@ -1530,14 +1530,14 @@
 
          <div decls="#m.9">
             <pb n="114r"/>
-            <p>
+            <metamark>
                <add place="top">
                   <hi rendition="#u">Colonies Espangnoles</hi>
                </add>
-            </p>
-            <p>
+            </metamark>
+            <metamark>
                <add place="top">H.</add>
-            </p>
+            </metamark>
             
                <head>Déclaration du Cabinet de Prusse,<lb/>en réponse à <ref target="Verona_V_1.xml">celle du Cabinet Britannique en date du <date when="1822-11-24">24 Novembre</date>
                   </ref>.</head>
@@ -1556,7 +1556,7 @@
                     </rs>
                     <note type="editorial" target="#n.25">Bernstorff nahm an der Sitzung nicht
                   teil.</note> ont donné toute leur attention au contenu du Mémoire que, dans la
-               Conférence du <date when="1822-11-24">24 du courant</date>, <choice>
+               <ref target="Verna_V_1.xml">Conférence du <date when="1822-11-24">24 du courant</date></ref>, <choice>
                   <abbr>S. G.</abbr>
                   <expan>Sa Grace</expan>
                </choice>
@@ -1604,14 +1604,14 @@
 
          <div decls="#m.10">
             <pb n="113r"/>
-            <p>
+            <metamark>
                <add place="top">
                   <hi rendition="#u">Colonies Espangnoles</hi>
                </add>
-            </p>
-            <p>
+            </metamark>
+            <metamark>
                <add place="top">I.</add>
-            </p>
+            </metamark>
 
             
                <head>Réponse du Cabinet de Russie au Mémoire <lb/>confidentiel communiqué par Son

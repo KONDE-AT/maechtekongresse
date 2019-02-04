@@ -226,9 +226,9 @@
       <body>
          <div hand="#G" decls="#m.1">
             <pb n="8r"/>
-            <head>
+            <metamark>
                     <add place="top">5.</add>
-                </head>
+                </metamark>
             <opener>
                     <dateline xml:space="preserve">À <placeName ref="#loc.1">Aix-la-Chapelle</placeName>
                <date when="1818-10-03">le 3 Octobre 1818</date>
@@ -496,7 +496,7 @@
 
          <div hand="#G" decls="#m.3">
             <pb n="9r"/>
-            <p>
+            <metamark>
                <add place="top" hand="#W">Annexé au Protocole <subst>
                      <del rendition="#s">
                                 <choice>
@@ -514,7 +514,7 @@
                         </choice> 5 du <date when="1818-10-03">3 Octobre</date>.</add>
                   </subst>
                     </add>
-                </p>
+                </metamark>
             <p>
                     <add place="top">À Son Excellence Monsieur le <persName ref="#p.1" xml:space="preserve">
                             <roleName>Duc</roleName>
