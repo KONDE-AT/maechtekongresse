@@ -218,9 +218,9 @@
       <body>
          <div hand="#G" decls="#m.1">
             <pb n="83r"/>
-            <head>
+            <metamark>
                     <add hand="#W" place="top">Protocole 20.</add>
-                </head>
+                </metamark>
             <opener>
                     <dateline>
                     <placeName ref="#loc.1">Aix-la-Chapelle</placeName> Le <date when="1818-10-29">29
@@ -363,7 +363,7 @@
 
          <div hand="#A" decls="#m.2">
             <pb n="88r"/>
-            <p xml:space="preserve">
+            <metamark xml:space="preserve">
                     <add place="top">Copie. annexe Lit. <unclear>Z</unclear> ad <choice>
                      <abbr>prot.</abbr>
                      <expan>protocol</expan>
@@ -372,7 +372,7 @@
                      <abbr>n<hi rendition="#su">o</hi></abbr>
                      <expan>numéro</expan>
                   </choice> 20.</add>
-                </p>
+                </metamark>
             
                     <head>Observations préliminaires</head>
                 
@@ -684,13 +684,13 @@
 
          <div hand="#A" decls="#m.3">
             <pb n="84r"/>
-            <p>
+            <metamark>
                <add place="margin">Annexe D au Protocole <choice>
                   <abbr>N<hi rendition="#su">o</hi>
                   </abbr>
                   <expan>Numéro</expan>
                </choice> 20.</add>
-            </p>
+            </metamark>
                     <head place="margin">                    
                         Note verbale du Cabinet de <country>Russie</country> sur
                      les Contestations entre la <country>Suède</country> et le

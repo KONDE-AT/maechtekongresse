@@ -130,8 +130,8 @@
             </msDesc>
             <listWit corresp="#m.2">
                <head>Anlage</head>
-               <witness corresp="#w.1">Wellington, Supplementary Despatches, Bd. 12, S. 726–729
-                  (Englisch).</witness>
+               <witness corresp="#w.1"><bibl type="print">Wellington, Supplementary Despatches, Bd. 12, S. 726–729
+                  (Englisch).</bibl></witness>
             </listWit>
          </sourceDesc>
       </fileDesc>
@@ -196,9 +196,9 @@
       <body>
          <div hand="#G" decls="#m.1">
             <pb n="24r"/>
-            <head>
+            <metamark>
                     <add place="top">6.</add>
-                </head>
+                </metamark>
             <opener>
                     <dateline>
                     <placeName ref="#loc.1">Aix-la-Chapelle</placeName>
@@ -351,25 +351,25 @@
 
          <div hand="#A" decls="#m.2">
             <pb n="25r"/>
-            <p>
+            <metamark>
                     <add place="top">Annexe au <choice>
                      <abbr>N<hi rendition="#su">o</hi>
                             </abbr>
                      <expan>Numéro</expan>
                   </choice> 6</add>
-                </p>
-            <p>
+                </metamark>
+            <metamark>
                     <add place="top">
                         <hi rendition="#u">Traduction</hi>
                     </add>
-                </p>
+                </metamark>
 
-            <p>
+            
                     <head>Observations concernant la demande de la France que l’indemnité pécuniaire
                   soit diminuée de 38 millions de francs – demande fondée sur ce que les frais de
                   l’armée d’occupation pendant trois ans ont excédé d’une somme pareille celle de
                   450 millions</head>
-                </p>
+                
             <p>1<hi rendition="#su">o</hi> Par l’Art. 2 de la <rs ref="#t.3" type="treaties">Convention pour la mise
                   à exécution de l’Art. 5</rs> du <rs ref="#t.1" type="treaties">traité principal</rs> (savoir de la
                Convention militaire) la <country>France</country> promet ce qui suit : </p>

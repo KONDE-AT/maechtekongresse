@@ -194,12 +194,12 @@
       <body>
          <div hand="#G" decls="#m.1">
             <pb n="30r"/>
-            <head>
+            <metamark>
                     <add place="top">7</add>
-                </head>
+                </metamark>
             <opener>
-                    <dateline>À <placeName ref="#loc.1">Aix-la-Chapelle</placeName> Le</dateline>
-            <dateline><!-- Zeilenumbruch darstellbar? -->
+                    <dateline>À <placeName ref="#loc.1">Aix-la-Chapelle</placeName> Le<lb/>
+            
                     <date when="1818-10-09">9 Octobre 1818</date>
             </dateline>
                 </opener>
