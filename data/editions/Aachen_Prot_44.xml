@@ -189,12 +189,12 @@
       <body>
          <div hand="#G" decls="#m.1">
             <pb n="246"/>
-            <head>
+            <metamark>
                     <add hand="#W" place="top">Protocole <choice>
                      <abbr>N.</abbr>
                      <expan>Numéro</expan>
                   </choice> 4<del rendition="#s">4</del>3.</add>
-                </head>
+                </metamark>
             <opener>
                     <dateline>
                     <placeName ref="#loc.1">Aix-la-Chapelle</placeName> le <date when="1818-11-21">21
@@ -256,7 +256,7 @@
 
          <div hand="#A" decls="#m.2">
             <pb n="247r"/>
-            <p>
+            <metamark>
                     <add place="margin">
                         <choice>
                      <abbr>Exp</abbr>
@@ -266,7 +266,7 @@
                             <unclear>...</unclear>
                         </supplied>
                     </add>
-                </p>
+                </metamark>
             
                     <head>Dépêche aux <rs ref="#p.2 #p.3 #p.4 #p.7" type="multi-person">Ministres d’Autriche, de
                      Grande-Bretagne, de Prusse et de Russie à <placeName ref="#loc.2">Paris</placeName>

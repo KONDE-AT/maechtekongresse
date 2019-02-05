@@ -85,10 +85,10 @@
                      Bezeichnung <q>Protocole secret</q> abgelegt. Es befindet sich in einem Umschlag
                      mit der Aufschrift von der Hand <persName ref="#p.6">
                                 <surname>Wackens</surname>
-                            </persName>: "Protocolle qu’il a été convenu de
+                            </persName>: <q>Protocolle qu’il a été convenu de
                      tenir secret et qui, par ce motif, ne prend pas de Numéro dans la série des
-                     Protocoles des Conférences d’<placeName ref="#loc.1">Aix-la-Chapelle</placeName>. Sous la date du <date when="1818-11-18">18 Novembre 1818</date>.<q> Darüber mit Bleistift der Vermerk: </q>
-                            <choice>
+                     Protocoles des Conférences d’<placeName ref="#loc.1">Aix-la-Chapelle</placeName>. Sous la date du <date when="1818-11-18">18 Novembre 1818</date></q>. Darüber mit Bleistift der Vermerk: 
+                            <q><choice>
                         <abbr>Conc<hi rendition="#su">t</hi>
                                 </abbr>
                         <expan>Concernant</expan>
@@ -105,7 +105,7 @@
                            </choice>
                                 </roleName>
                         <forename>Gustave</forename>
-                            </persName>".</p>
+                            </persName>.</q></p>
                   <handDesc>
                      <handNote xml:id="G">Friedrich Gentz</handNote>
                      <handNote xml:id="W">Nikolaus Wacken</handNote>
@@ -210,7 +210,7 @@
       <body>
          <div hand="#G" decls="#m.1">
             <pb n="178r"/>
-            <head>
+            <metamark>
                     <add place="top" hand="#W">
                         <del rendition="#s">Protocole <choice>
                         <abbr>N<hi rendition="#su">o</hi>
@@ -218,7 +218,7 @@
                         <expan>Numéro</expan>
                      </choice> 36</del>
                     </add>
-                </head>
+                </metamark>
             <p>
                     <add place="top">
                         <hi rendition="#u">Secret</hi>

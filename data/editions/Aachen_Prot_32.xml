@@ -543,12 +543,12 @@
       <body>
          <div hand="#G" decls="#m.1">
             <pb n="112r"/>
-            <head>
+            <metamark>
                     <add hand="#W" place="top">Protocole <choice>
                      <abbr>no</abbr>
                      <expan>numéro</expan>
                   </choice> 32. avec huit Annèxes.</add>
-                </head>
+                </metamark>
             <opener>
                     <dateline>
                     <placeName ref="#loc.1">Aix-la-Chapelle</placeName> le <date when="1818-11-14">14
@@ -836,12 +836,12 @@
 
          <div hand="#A" decls="#m.2">
             <pb n="115r"/>
-            <p>
+            <metamark>
                     <add hand="#W" place="top">Jointe au Protocole <choice>
                      <abbr>n.</abbr>
                      <expan>numéro</expan>
                   </choice> 32 du <date when="1818-11-14">14 Novembre</date>.</add>
-                </p>
+                </metamark>
             <opener>
                     <dateline>
                     <placeName ref="#loc.1">Aix-la-Chapelle</placeName> le <date when="1818-11-07">7
@@ -850,7 +850,7 @@
             
                     <head>
                         <hi rendition="#u">Affaire des Médiatisés</hi>
-                    </head><!-- währe wohl kein Konflikt, wenn head vor opener wäre - ist er aber im Original nicht.... -->
+                    </head>
                 
             <p>Monsieur le <persName ref="#p.13">
                         <roleName>Comte</roleName>
@@ -1118,10 +1118,10 @@
 
          <div hand="#A" decls="#m.4">
             <pb n="123r"/>
-            <p>
+            <metamark>
                     <add hand="#W" place="top">Annexé au Protocole sur l’affaire des médiatisés, lequel
                   est consigné au Protocole du <date when="1818-11-14">14 Novembre</date>.</add>
-                </p>
+                </metamark>
            
                     <head>Les Ministres des Cinq Cours à leurs Envoyés respectifs à <rs ref="#p.36 #p.123 #p.114 #p.124 #p.125" type="multi-person">
                             Munich,</rs>
@@ -1280,13 +1280,13 @@
 
          <div hand="#A" decls="#m.5">
             <pb n="127r"/>
-            <p>
+            <metamark>
                     <add hand="#W" place="top">annexée au Protocole du <date when="1818-11-14">14
                      Novembre</date> sub <choice>
                      <abbr>n.</abbr>
                      <expan>numéro</expan>
                   </choice> 32.</add>
-                </p>
+                </metamark>
             
                     <head>Insertion de Protocole</head>
                 
@@ -1434,13 +1434,13 @@
 
          <div hand="#M" decls="#m.8">
             <pb n="131r"/>
-            <p>
+            <metamark>
                     <add hand="#W" place="margin">Annexé au Protocole <choice>
                      <abbr>n<hi rendition="#su">o</hi>
                             </abbr>
                      <expan>numéro</expan>
                   </choice> 32 du <date when="1818-11-14">14 Novembre</date>.</add>
-                </p>
+                </metamark>
            
                     <head>Lettre de <choice>
                      <abbr>M</abbr>
@@ -1505,13 +1505,13 @@
 
          <div hand="#A" decls="#m.9">
             <pb n="133r"/>
-            <p>
+            <metamark>
                     <add hand="#W" place="top">Annexé au Protocole du <date when="1818-11-14">14
                      Novembre</date> sub <choice>
                      <abbr>N.</abbr>
                      <expan>Numéro</expan>
                   </choice> 32.</add>
-                </p>
+                </metamark>
             
                     <head>Acquéreurs de domaines hessois</head>
                 
@@ -1643,13 +1643,13 @@
 
          <div hand="#A" decls="#m.10">
             <pb n="139r"/>
-            <p>
+            <metamark>
                     <add hand="#W" place="top">Annexé au Protocole du <date when="1818-11-14">14
                      Novembre</date> sub <choice>
                      <abbr>n.</abbr>
                      <expan>numéro</expan>
                   </choice> 32.</add>
-                </p>
+                </metamark>
             
                     <head>Projet d’instruction aux <rs ref="#p.24 #p.122 #p.39" type="multi-person" xml:id="n.33">Ministres
                      des Souverains alliés à la Cour de <placeName ref="#loc.45">Cassel</placeName>
@@ -1662,7 +1662,7 @@
                      Iwan/Johann Ossipowitsch Freiherr von Anstett.</note>
                     </head>
                 
-            <p hand="#A1">à <choice>
+            <p><add hand="#A1">à <choice>
                   <abbr>S E</abbr>
                   <expan>Son Excellence</expan>
                </choice>
@@ -1680,7 +1680,7 @@
                         </roleName>
                   <surname>de Wacquant</surname>
                     </persName> etc. <placeName ref="#loc.45">Cassel</placeName>
-                </p>
+                </add></p>
             <opener>
                     <dateline>
                     <placeName ref="#loc.1">Aix-la-Chapelle</placeName> le <date when="1818-11-20">20 <choice>
@@ -1818,12 +1818,12 @@
 
          <div hand="#A" decls="#m.11">
             <pb n="145r"/>
-            <p>
+            <metamark>
                     <add hand="#W" place="top">Annexée au Protocole sub <choice>
                      <abbr>n.</abbr>
                      <expan>numéro</expan>
                   </choice> 32 du <date when="1818-11-14">14 Novembre 1818</date>.</add>
-                </p>
+                </metamark>
             
                     <head>Note sur les Pirates de l’Océan atlantique</head>
                 

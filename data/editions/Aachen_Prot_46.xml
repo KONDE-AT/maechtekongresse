@@ -167,13 +167,13 @@
       <body>
          <div hand="#G" decls="#m.1">
             <pb n="253r"/>
-            <head>
+            <metamark>
                     <add hand="#W" place="top">Protocole <choice>
                      <abbr>N.</abbr>
                      <expan>Numéro</expan>
                   </choice>
                   <del rendition="#s">45</del>44</add>
-                </head>
+                </metamark>
             <opener>
                     <dateline>
                     <placeName ref="#loc.1">Aix-la-Chapelle</placeName> le <date when="1818-11-21">21
@@ -181,7 +181,7 @@
                 </dateline>
                 </opener>
             <p>
-                    <add place="margin">Reforme de la législation <hi rendition="#u">par rapport aux
+                    <add place="margin">Reforme de la législation<lb/><hi rendition="#u">par rapport aux
                      Juifs</hi>
                     </add>
                 </p>
