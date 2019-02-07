@@ -175,8 +175,8 @@ let $href := concat('show.html','?document=', app:getDocName($node), '&amp;direc
     return
     <tr>
         <td>{$score}</td>
-        <td class="KWIC">{kwic:summarize($hit, <config width="40" link="{$href}" />)}</td>
-        <td>{app:getDocName($hit)}</td>
+        <td class="KWIC">{kwic:summarize($hit, <config width="50" link="{$href}" />)}</td>
+        <td><a href="{app:hrefToDoc($hit)}">{app:getDocName($hit)}</a></td>
     </tr>
  else
     <div>Kein Suchausdruck angegeben</div>
