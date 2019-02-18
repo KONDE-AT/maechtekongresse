@@ -386,6 +386,7 @@
             <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
             <rendition xml:id="ow" scheme="css">text-decoration:line-through;text-decoration-style:double;</rendition>
             <rendition xml:id="r" scheme="css">display:block; text-align:right;</rendition>
+            <rendition xml:id="et" scheme="css">display:block; margin-left:2em; text-indent:0;</rendition>
          </tagsDecl>
       </encodingDesc>
       <profileDesc>
@@ -1274,7 +1275,7 @@
                conférence semblable à celle qui s’est formée auprès du Gouvernement Napolitain.</p>
             <p rendition="#r">
                     <addSpan spanTo="#a.1" place="margin"/>
-                    <title>
+                    
                         <hi rendition="#u">Addition pour le <choice>
                         <abbr>C<hi rendition="#su">te</hi>
                                 </abbr>
@@ -1284,9 +1285,9 @@
                                 <surname>Mocenigo</surname>
                             </persName>
                         </hi>
-                    </title>
+                    
                 </p>
-            <p rendition="#r">Vous prendrez part, <choice>
+            <p rendition="#et">Vous prendrez part, <choice>
                   <abbr>Mr.</abbr>
                   <expan>Monsieur</expan>
                </choice> le <choice>
