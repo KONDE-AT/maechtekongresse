@@ -1113,6 +1113,11 @@
                     <xsl:text>text-align:right; margin-right:3rem;</xsl:text>
                 </xsl:attribute>
             </xsl:if>
+            <xsl:if test="./@rendition='#et'">
+                <xsl:attribute name="style">
+                    <xsl:text>margin-left:2rem; text-indent:0rem</xsl:text>
+                </xsl:attribute>
+            </xsl:if>
             <xsl:apply-templates/>
         </xsl:element>
     </xsl:template>
