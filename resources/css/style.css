@@ -203,6 +203,10 @@ h1,h2 {
     font-weight:bold;
 }
 
+q {
+  quotes: "„" "“" "‚" "‘" "»" "«" "›" "‹";
+}
+
 .corner-ribbon{
   width:200px;
   background:rgba(238,204,0,0.9);
