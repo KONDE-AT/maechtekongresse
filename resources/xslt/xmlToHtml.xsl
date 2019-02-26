@@ -589,6 +589,9 @@
                             <xsl:attribute name="style">
                                 <xsl:value-of select="root()//tei:rendition[@xml:id=current()/$style]"/>
                             </xsl:attribute>
+                            <xsl:if test="@rendition='#k'">
+                                <xsl:attribute name="title">in Kurrent</xsl:attribute>    
+                            </xsl:if>
                             <xsl:apply-templates/>
                         </xsl:when>
                         <xsl:otherwise>
@@ -1099,9 +1102,17 @@
         <xsl:text>„</xsl:text>
         <xsl:apply-templates/>
         <xsl:text>“</xsl:text>
-    </xsl:template><!-- Zeilenumbürche   -->
+    </xsl:template><!-- Zeilenumbrüche   -->
     <xsl:template match="tei:lb">
-        <br/>
+        <xsl:choose>
+            <xsl:when test="ancestor::tei:note"><!-- fixing line length in @title tooltips -->
+                <xsl:text>
+</xsl:text>
+            </xsl:when>
+            <xsl:otherwise>
+                <br/>
+            </xsl:otherwise>
+        </xsl:choose>
     </xsl:template><!-- Absätze    -->
     <xsl:template match="tei:p">
         <xsl:element name="p">
