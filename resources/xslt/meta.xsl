@@ -90,9 +90,9 @@
                                         <xsl:text>#fna_</xsl:text>
                                         <xsl:number level="any" format="1" count="tei:note"/>
                                     </xsl:attribute>
-                                    <span style="font-size:7pt;vertical-align:super;">
+                                    <sup>
                                         <xsl:number level="any" format="1" count="tei:note"/>
-                                    </span>
+                                    </sup>
                                 </a>
                             </xsl:element>
                             <xsl:text> </xsl:text>
@@ -183,9 +183,9 @@
             <xsl:attribute name="title">
                 <xsl:value-of select="normalize-space(.)"/>
             </xsl:attribute>
-            <span style="font-size:7pt;vertical-align:super;">
+            <sup>
                 <xsl:number level="any" format="1" count="tei:note"/>
-            </span>
+            </sup>
         </xsl:element>
     </xsl:template>
     <xsl:template match="tei:div">
@@ -366,11 +366,11 @@
             <xsl:attribute name="title">
                 <xsl:value-of select="normalize-space(.)"/>
             </xsl:attribute>
-            <span style="font-size:7pt;vertical-align:super;" class="shortRdg">
+            <sup class="shortRdg">
                 <xsl:text>[Variante </xsl:text>
                 <xsl:number level="any" format="i" count="tei:app"/>
                 <xsl:text>]</xsl:text>
-            </span>
+            </sup>
         </xsl:element>
         <xsl:element name="span">
             <xsl:attribute name="class">fullRdg</xsl:attribute>

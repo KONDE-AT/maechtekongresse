@@ -341,9 +341,9 @@
                                         <xsl:text>#fna_</xsl:text>
                                         <xsl:number level="any" format="a" count="tei:note[@type='author']"/>
                                     </xsl:attribute>
-                                    <span style="font-size:7pt;vertical-align:super;">
+                                    <sup>
                                         <xsl:number level="any" format="a" count="tei:note[@type='author']"/>
-                                    </span>
+                                    </sup>
                                 </a>
                             </xsl:element>
                             <xsl:text> </xsl:text>
@@ -365,9 +365,9 @@
                                         <xsl:text>#fna_</xsl:text>
                                         <xsl:number level="any" format="1" count="tei:note[@type='editorial']"/>
                                     </xsl:attribute>
-                                    <span style="font-size:7pt;vertical-align:super;">
+                                    <sup>
                                         <xsl:number level="any" format="1" count="tei:note[@type='editorial']"/>
-                                    </span>
+                                    </sup>
                                 </a>
                             </xsl:element>
                             <xsl:text> </xsl:text>
@@ -390,9 +390,9 @@
                                         <xsl:text>#fna_</xsl:text>
                                         <xsl:number level="any" format="i" count="tei:app"/>
                                     </xsl:attribute>
-                                    <span style="font-size:7pt;vertical-align:super;">
+                                    <sup>
                                         <xsl:number level="any" format="i" count="tei:app"/>
-                                    </span>
+                                    </sup>
                             </xsl:element>
                             <xsl:text> </xsl:text>
                             <xsl:if test="$handId">
@@ -543,6 +543,7 @@
     </xsl:template>
     <xsl:template match="tei:term">
         <span/>
+        <xsl:apply-templates/>
     </xsl:template>
     <xsl:template match="tei:hi">
         <xsl:choose>
@@ -630,9 +631,9 @@
             <xsl:attribute name="title">
                 <xsl:value-of select="normalize-space(.)"/>
             </xsl:attribute>
-            <span style="font-size:7pt;vertical-align:super;">
+            <sup>
                 <xsl:number level="any" format="1" count="tei:note[@type='editorial']"/>
-            </span>
+            </sup>
         </xsl:element>
     </xsl:template>
     <xsl:template match="tei:note[@type='author']">
@@ -648,9 +649,9 @@
             <xsl:attribute name="title">
                 <xsl:value-of select="normalize-space(.)"/>
             </xsl:attribute>
-            <span style="font-size:7pt;vertical-align:super;">
+            <sup>
                 <xsl:number level="any" format="a" count="tei:note[@type='author']"/>
-            </span>
+            </sup>
         </xsl:element>
     </xsl:template>
     <xsl:template match="tei:div">
@@ -883,11 +884,11 @@
                 <xsl:attribute name="title">
                     <xsl:value-of select="string-join(tei:rdg/concat(root()//tei:handNote[@xml:id=$handId], ' ', normalize-space(.)),' ')"/>
                 </xsl:attribute>
-                <span style="font-size:7pt;vertical-align:super;" class="shortRdg">
+                <sup class="shortRdg">
                     <xsl:text>[Variante </xsl:text>
                     <xsl:number level="any" format="i" count="tei:app"/>
                     <xsl:text>]</xsl:text>
-                </span>
+                </sup>
             </xsl:element>
             <xsl:element name="span">
                 <xsl:attribute name="class">fullRdg</xsl:attribute>
@@ -1157,9 +1158,9 @@
     <xsl:sequence select="$del[id(@spanTo) &gt;&gt; $n]"/>
     </xsl:function> 
     <xsl:template match="text()[exists(my:fetch-delSpan(.))]">
-        <span class="deleted" style="text-decoration:line-through;">
+        <del>
             <xsl:next-match/>
-        </span>
+        </del>
     </xsl:template> 
     <xsl:template match="tei:country">
         <span>
