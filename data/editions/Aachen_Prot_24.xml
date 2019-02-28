@@ -293,29 +293,15 @@
                      </choice> 24 du <date when="1818-11-05">5 Novembre</date>.</hi>
                     </add>
                 </metamark>
-            <metamark>
-                    <add place="margin">
-                        <choice>
-                     <abbr>N.B.</abbr>
-                     <expan>Nota Bene</expan>
-                  </choice> Lorsque les 3 lettres autographes seront expédiées, elles pourront être
-                  remises à <choice>
-                     <abbr>S. E.</abbr>
-                     <expan>Son Excellence</expan>
-                  </choice>
-                  <persName ref="#p.9">
-                            <roleName>Lord</roleName>
-                     <surname>Castlereagh</surname>
-                        </persName>, qui les transmettroit à <persName ref="#p.37">
-                            <roleName>Lord</roleName>
-                     <surname>Clancarty</surname>
-                        </persName>.</add>
-                </metamark>
             <opener hand="#A">
                     <dateline>
                     <placeName ref="#loc.1">Aix-la-Chapelle</placeName> le <date when="1818-11-14">14 Novembre 1818</date>.</dateline>
                 </opener>
-
+            <p>
+               <add place="margin">
+                  <hi rendition="#u">Superscription</hi>
+               </add>
+            </p>
             <p>
                     <title>Lettre des <rs ref="#p.16 #p.17 #p.18" type="multi-person">trois Souverains</rs> et <hi rendition="#u">in simili</hi> de <persName ref="#p.9">
                             <roleName>Lord</roleName>
@@ -326,15 +312,29 @@
                   </choice> le <rs ref="#p.74" type="person">Roi du Pays-bas, Duc de Luxembourg</rs>
                     </title>
                 </p>
-            <p>
-                    <add place="margin">
-                        <hi rendition="#u">Superscription</hi>
-                    </add>
-                </p>
+
             <p>
                     <hi rendition="#u">à <rs ref="#p.74" type="person">Sa Majesté le Roi des Pays-bas, <del rendition="#s">Duc Grand</del> Duc de Luxembourg</rs>, Monsieur Mon
                   Frère</hi>
                 </p>
+            <p>
+               <add place="margin">
+                  <choice>
+                     <abbr>N.B.</abbr>
+                     <expan>Nota Bene</expan>
+                  </choice> Lorsque les 3 lettres autographes seront expédiées, elles pourront être
+                  remises à <choice>
+                     <abbr>S. E.</abbr>
+                     <expan>Son Excellence</expan>
+                  </choice>
+                  <persName ref="#p.9">
+                     <roleName>Lord</roleName>
+                     <surname>Castlereagh</surname>
+                  </persName>, qui les transmettroit à <persName ref="#p.37">
+                     <roleName>Lord</roleName>
+                     <surname>Clancarty</surname>
+                  </persName>.</add>
+            </p>
             <p>Monsieur Mon Frère, <rs xml:id="n.3">Différentes Notes ont été
                   échangées entre les Commissaires de <choice>
                      <abbr>V. M.</abbr>

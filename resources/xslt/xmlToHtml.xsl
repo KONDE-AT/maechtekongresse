@@ -802,7 +802,12 @@
     </xsl:template>
     <xsl:template match="tei:opener">
         <xsl:element name="div">
+            <xsl:variable name="handId" select="substring-after(./@hand, '#')"/>
             <xsl:attribute name="class">opener</xsl:attribute>
+            <xsl:if test="$handId">
+                <xsl:attribute name="title">Hand: <xsl:value-of select="root()//tei:handNote[@xml:id=$handId]"/>
+                </xsl:attribute>
+            </xsl:if>
             <xsl:apply-templates/>
         </xsl:element>
     </xsl:template>
