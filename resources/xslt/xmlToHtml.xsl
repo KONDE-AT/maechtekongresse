@@ -1159,8 +1159,11 @@
     </xsl:template>
     <xsl:template match="tei:metamark"><!-- Metamarks -->
         <xsl:apply-templates/>
-        <xsl:if test="position() != last() and parent::tei:div">
+        <xsl:if test="position() != last() and parent::tei:div and not(following-sibling::tei:metamark)">
             <br/>
+        </xsl:if>
+        <xsl:if test="position() != last() and parent::tei:div and following-sibling::tei:metamark">
+            <span style="margin-left:8rem;"/>
         </xsl:if>
         <xsl:if test="position()"/>
     </xsl:template><!-- Substitutions -->
