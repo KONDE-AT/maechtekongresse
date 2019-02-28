@@ -744,13 +744,13 @@
         </xsl:for-each>
     </xsl:template>
     <xsl:template match="tei:handDesc">
-        <xsl:text>Hände in diesem Dokument: </xsl:text>
+        <!--<xsl:text>Hände in diesem Dokument: </xsl:text>
         <xsl:for-each select="./tei:handNote">
             <span>
                 <xsl:apply-templates/>
             </span>
             <xsl:if test="position() != last()">, </xsl:if>
-        </xsl:for-each>
+        </xsl:for-each>-->
     </xsl:template>
     <!-- reference strings   --> <!-- generic, referring to persons, places, witnesses etc. -->
     <xsl:template match="tei:witness[@corresp]">
@@ -815,7 +815,7 @@
     </xsl:template>
 <!-- additions -->
     <xsl:template match="tei:add">
-        <xsl:element name="span">
+        <xsl:element name="ins">
             <xsl:attribute name="class">
                 <xsl:text>ergaenzt</xsl:text>
             </xsl:attribute>
@@ -865,10 +865,34 @@
                 <xsl:attribute name="data-toggle">tooltip</xsl:attribute>
                 <xsl:attribute name="data-placement">top</xsl:attribute>
                 <xsl:attribute name="title">
-                    <xsl:value-of select="string-join(tei:rdg/concat(root()//tei:handNote[@xml:id=$handId], '] ', normalize-space(.)),' ')"/>
+                    <xsl:choose>
+                        <xsl:when test="./tei:rdg/tei:subst">
+                            <xsl:text>Ersetzung </xsl:text>
+                            <xsl:value-of select="tei:rdg/root()//tei:handNote[@xml:id=$handId][1]"/>
+                            <xsl:text>: ~</xsl:text>
+                            <xsl:value-of select="normalize-space(./tei:rdg/tei:subst/tei:del[1])"/>
+                            <xsl:text>~ </xsl:text>
+                            <xsl:value-of select="normalize-space(./tei:rdg/tei:subst/tei:add)"/>
+                        </xsl:when>
+                        <xsl:otherwise>
+                            <xsl:value-of select="string-join(tei:rdg/concat(root()//tei:handNote[@xml:id=$handId], ': ', normalize-space(.)),' -- ')"/>
+                        </xsl:otherwise>
+                    </xsl:choose>
                 </xsl:attribute>
                 <xsl:attribute name="data-original-title">
-                    <xsl:value-of select="string-join(tei:rdg/concat(root()//tei:handNote[@xml:id=$handId], '] ', normalize-space(.)),' ')"/>
+                    <xsl:choose>
+                        <xsl:when test="./tei:rdg/tei:subst">
+                            <xsl:text>Ersetzung </xsl:text>
+                            <xsl:value-of select="tei:rdg/root()//tei:handNote[@xml:id=$handId][1]"/>
+                            <xsl:text>: ~</xsl:text>
+                            <xsl:value-of select="normalize-space(./tei:rdg/tei:subst/tei:del[1])"/>
+                            <xsl:text>~ </xsl:text>
+                            <xsl:value-of select="normalize-space(./tei:rdg/tei:subst/tei:add)"/>
+                        </xsl:when>
+                        <xsl:otherwise>
+                            <xsl:value-of select="string-join(tei:rdg/concat(root()//tei:handNote[@xml:id=$handId], ': ', normalize-space(.)),' -- ')"/>
+                        </xsl:otherwise>
+                    </xsl:choose>
                 </xsl:attribute>
                 <xsl:apply-templates select="./tei:lem"/>
             </xsl:element>
@@ -1144,7 +1168,7 @@
         <xsl:apply-templates/>
     </xsl:template><!-- Durchstreichungen -->
     <xsl:template match="tei:del">
-        <xsl:element name="strike">
+        <xsl:element name="del">
             <xsl:apply-templates/>
             <xsl:text> </xsl:text>
         </xsl:element>

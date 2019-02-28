@@ -145,9 +145,15 @@ span.data-hr, mark.data-hr, .mark, mark {
     background-color: #ffff00 !important;
 }
 
+sup {
+    font-size:8pt;    
+}
+
 .ergaenzt{
     color:#3333aa;
+    text-decoration:none;
 }
+
 .signed{
     text-align:right; 
     margin-right:3rem;
