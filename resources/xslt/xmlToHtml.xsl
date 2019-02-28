@@ -937,7 +937,12 @@
     <xsl:template match="tei:damage">
         <xsl:element name="span">
             <xsl:attribute name="title">
-                <xsl:value-of select="@agent"/>
+                <xsl:choose>
+                    <xsl:when test="./@agent='paper_damage'">Papier beschädigt</xsl:when>
+                    <xsl:otherwise>
+                        <xsl:value-of select="@agent"/>
+                    </xsl:otherwise>
+                </xsl:choose>
             </xsl:attribute>
             <xsl:if test="not(following::tei:supplied or descendant::tei:supplied)">
                 <xsl:text> […]</xsl:text>
@@ -950,7 +955,12 @@
             <xsl:attribute name="title">editorische Ergänzung
                 <xsl:if test="parent::tei:damage">
                     <xsl:text> (</xsl:text>
-                    <xsl:value-of select="parent::tei:damage/@agent"/>
+                    <xsl:choose>
+                        <xsl:when test="../@agent='paper_damage'">Papier beschädigt</xsl:when>
+                        <xsl:otherwise>
+                            <xsl:value-of select="../@agent"/>
+                        </xsl:otherwise>
+                    </xsl:choose>
                     <xsl:text>)</xsl:text>
                 </xsl:if>
             </xsl:attribute>
@@ -1207,10 +1217,15 @@
         </span>
     </xsl:template>
     <xsl:template match="tei:label">
+        <xsl:variable name="handId" select="substring-after(./@hand, '#')"/>
         <xsl:element name="p">
             <xsl:attribute name="class">ed</xsl:attribute>
             <xsl:attribute name="style">margin-left:-1em</xsl:attribute>
-            <xsl:attribute name="title">Marginalie</xsl:attribute>
+            <xsl:attribute name="title">Marginalie
+                <xsl:if test="$handId">
+                    Hand: <xsl:value-of select="normalize-space(root()//tei:handNote[@xml:id=$handId])"/>
+                </xsl:if>
+            </xsl:attribute>
             <xsl:apply-templates/>
         </xsl:element>
     </xsl:template>
