@@ -547,6 +547,11 @@
     </xsl:template>
     <xsl:template match="tei:hi">
         <xsl:choose>
+            <xsl:when test="@rendition='#u'">
+                <u>
+                    <xsl:apply-templates/>
+                </u>
+            </xsl:when>
             <xsl:when test="@rend='ul'">
                 <u>
                     <xsl:apply-templates/>
