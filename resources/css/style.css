@@ -141,9 +141,10 @@ body{
     flex:1 0 auto;
 }
 
-span.data-hr {
-    background-color: #ffff00;
+span.data-hr, mark.data-hr, .mark, mark {
+    background-color: #ffff00 !important;
 }
+
 .ergaenzt{
     color:#3333aa;
 }
