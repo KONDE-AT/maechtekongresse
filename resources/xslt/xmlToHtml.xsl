@@ -1236,11 +1236,22 @@
     </xsl:template>
     <xsl:template match="tei:gap">
         <xsl:element name="span">
-            <xsl:attribute name="title">Textlücke</xsl:attribute>
-            <xsl:attribute name="style">font-size:x-small;vertical-align:super;</xsl:attribute>
-            <xsl:text> [Lücke</xsl:text>
-            <xsl:apply-templates/>
-            <xsl:text>] </xsl:text>
+        <xsl:choose>
+            <xsl:when test="@ana">
+                <xsl:attribute name="title">
+                    <xsl:value-of select="@ana"/>
+                </xsl:attribute>
+                <xsl:text> </xsl:text>
+                <xsl:apply-templates/>
+            </xsl:when>
+            <xsl:otherwise>
+                    <xsl:attribute name="title">Textlücke</xsl:attribute>
+                    <xsl:attribute name="style">font-size:x-small;vertical-align:super;</xsl:attribute>
+                    <xsl:text> [Lücke</xsl:text>
+                    <xsl:apply-templates/>
+                    <xsl:text>] </xsl:text>
+            </xsl:otherwise>
+        </xsl:choose>
         </xsl:element>
     </xsl:template>
     <xsl:template match="//tei:notesStmt/tei:note">
