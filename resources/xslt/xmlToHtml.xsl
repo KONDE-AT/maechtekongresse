@@ -1305,7 +1305,17 @@
                 <xsl:apply-templates/>
             </xsl:when>
             <xsl:otherwise>
-                    <xsl:attribute name="title">Textlücke</xsl:attribute>
+                    <xsl:attribute name="title">Textlücke
+                        <xsl:if test="@extent">
+                            <xsl:text> (</xsl:text>
+                            <xsl:value-of select="@extent"/>
+                            <xsl:if test="@reason">
+                                <xsl:text> </xsl:text>
+                                <xsl:value-of select="@reason"/>
+                            </xsl:if>
+                            <xsl:text>)</xsl:text>
+                        </xsl:if>
+                    </xsl:attribute>
                     <xsl:attribute name="style">font-size:x-small;vertical-align:super;</xsl:attribute>
                     <xsl:text> [Lücke</xsl:text>
                     <xsl:apply-templates/>
