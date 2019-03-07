@@ -188,6 +188,7 @@
             <rendition xml:id="s" scheme="css">text-decoration:line-through;</rendition>
             <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
             <rendition xml:id="ow" scheme="css">text-decoration:line-through;text-decoration-style:double;</rendition>
+            <rendition xml:id="et" scheme="css">margin-left:70%; text-indent:0;font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif!important;font-size:1.8rem;</rendition>
          </tagsDecl>
       </encodingDesc>
       <profileDesc>
@@ -596,7 +597,9 @@
                celui-ci, compris dans la sanction de cet acte, et signé en outre par les Ministres
                et Plénipotentiaires des Quatre Puissances.</p>
             <p>Fait Quadruple etc.</p>
-            <p>Signé</p>
+            <p>
+                    <hi rendition="#et">Signé</hi>
+                </p>
             <signed>
                     <list>
                <item>

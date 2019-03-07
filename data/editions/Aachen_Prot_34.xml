@@ -707,14 +707,15 @@
                     </add>
                 </dateline>
                 </opener>
-            <p>
+            <metamark>
+                    <p>
                     <add place="bottom">
                         <choice>
                      <abbr>LL.</abbr>
                      <expan>Leurs</expan>
                   </choice>
                         <choice>
-                     <abbr> EE.</abbr>
+                     <abbr> EE. </abbr>
                      <expan>Excellences</expan>
                   </choice>
                   <choice>
@@ -722,7 +723,8 @@
                      <expan>Messieurs</expan>
                   </choice> les <rs ref="#p.8 #p.9 #p.10 #p.11 #p.12 #p.13 #p.14" type="multi-person">Ministres des
                      Cours d’Autriche, de la Grande-Bretagne, de Prusse et de Russie</rs>.</add>
-                </p>
+            </p>
+                </metamark>
             <p>
                     Le <rs ref="#p.1" type="person">Soussigné</rs>, Ministre et Secrétaire d’Etat de <rs xml:id="n.7">
                         <rs ref="#p.15">Sa Majesté Très Chrétienne</rs>
