@@ -1331,6 +1331,13 @@
     </xsl:template>
     <xsl:template match="tei:signed">
         <xsl:variable name="handId" select="substring-after(@hand, '#')"/>
+        <xsl:variable name="msId" select="substring-after(parent::tei:div/@decls, '#')"/>
+        <xsl:variable name="divtype" select="root()//tei:msDesc[@xml:id=$msId]/@type"/>
+        <xsl:choose>
+            <xsl:when test="not(contains($divtype,'riginal'))">
+                <p class="signed" style="font-size:small">[Unterschriften nicht originalschriftlich: <xsl:value-of select="$divtype"/>]</p>
+            </xsl:when>
+        </xsl:choose>
         <xsl:choose>
             <xsl:when test="./tei:list">
             <xsl:for-each select="./tei:list/tei:item">
