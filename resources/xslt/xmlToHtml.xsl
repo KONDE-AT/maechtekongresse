@@ -982,7 +982,7 @@
     <xsl:template match="tei:choice">
         <xsl:choose>
             <xsl:when test="tei:sic and tei:corr">
-                <span class="alternate choice4">
+                <span class="corr alternate choice4">
                     <xsl:attribute name="title">Korrektur der Hrsg. aus: „<xsl:value-of select="tei:sic[1]"/>“</xsl:attribute>
                     <xsl:if test="@xml:id">
                         <xsl:attribute name="id" select="@xml:id"/>
@@ -1028,6 +1028,36 @@
                 </span>
             </xsl:when>
         </xsl:choose>
+    </xsl:template>
+    <xsl:template match="tei:addSpan">
+        <xsl:variable name="cId">
+            <xsl:value-of select="generate-id(.)"/>
+        </xsl:variable>
+        <ins>
+            <xsl:element name="a">
+                <xsl:attribute name="class">addSpan</xsl:attribute>
+                <xsl:attribute name="name">A<xsl:value-of select="$cId"/>
+                </xsl:attribute>
+                <xsl:attribute name="href">#N<xsl:value-of select="$cId"/>
+                </xsl:attribute>
+                <xsl:number level="any"/>
+            </xsl:element>
+        </ins>
+    </xsl:template>
+    <xsl:template match="tei:anchor">
+        <xsl:variable name="cId">
+            <xsl:value-of select="generate-id(.)"/>
+        </xsl:variable>
+        <ins>
+            <xsl:element name="a">
+                <xsl:attribute name="class">anchor</xsl:attribute>
+                <xsl:attribute name="name">A<xsl:value-of select="$cId"/>
+                </xsl:attribute>
+                <xsl:attribute name="href">#N<xsl:value-of select="$cId"/>
+                </xsl:attribute>
+                <xsl:number level="any"/>
+            </xsl:element>
+        </ins>
     </xsl:template>
     <!-- Bücher -->
     <xsl:template match="tei:bibl">
