@@ -880,9 +880,10 @@
                             <xsl:text>Ersetzung </xsl:text>
                             <xsl:value-of select="tei:rdg/root()//tei:handNote[@xml:id=$handId][1]"/>
                             <xsl:text>: ~</xsl:text>
-                            <xsl:value-of select="normalize-space(./tei:rdg/tei:subst/tei:del[1])"/>
-                            <xsl:text>~ </xsl:text>
-                            <xsl:value-of select="normalize-space(./tei:rdg/tei:subst/tei:add)"/>
+                            <xsl:value-of select="normalize-space(string-join(./tei:rdg/tei:subst/tei:del/descendant-or-self::*[not(name()='note')]/text(), ' '))"/>
+                            <xsl:text>~ 
+</xsl:text>
+                            <xsl:value-of select="normalize-space(string-join(./tei:rdg/tei:subst/tei:add/descendant-or-self::*[not(name()='note')]/text(), ' '))"/>
                         </xsl:when>
                         <xsl:otherwise>
                             <xsl:value-of select="string-join(tei:rdg/concat(root()//tei:handNote[@xml:id=$handId], ': ', normalize-space(.)),' -- ')"/>
@@ -895,9 +896,10 @@
                             <xsl:text>Ersetzung </xsl:text>
                             <xsl:value-of select="tei:rdg/root()//tei:handNote[@xml:id=$handId][1]"/>
                             <xsl:text>: ~</xsl:text>
-                            <xsl:value-of select="normalize-space(./tei:rdg/tei:subst/tei:del[1])"/>
-                            <xsl:text>~ </xsl:text>
-                            <xsl:value-of select="normalize-space(./tei:rdg/tei:subst/tei:add)"/>
+                            <xsl:value-of select="normalize-space(string-join(./tei:rdg/tei:subst/tei:del/descendant-or-self::*[not(name()='note')]/text(), ' '))"/>
+                            <xsl:text>~ 
+</xsl:text>
+                            <xsl:value-of select="normalize-space(string-join(./tei:rdg/tei:subst/tei:add/descendant-or-self::*[not(name()='note')]/text(), ' '))"/>
                         </xsl:when>
                         <xsl:otherwise>
                             <xsl:value-of select="string-join(tei:rdg/concat(root()//tei:handNote[@xml:id=$handId], ': ', normalize-space(.)),' -- ')"/>
