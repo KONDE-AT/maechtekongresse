@@ -850,7 +850,7 @@
                         <xsl:text>zeitgenössische Ergänzung am unteren Blattrand </xsl:text>(<xsl:value-of select="./@place"/>)
                     </xsl:when>
                     <xsl:otherwise>
-                        <xsl:text>zeitgenössische Ergänzung</xsl:text>
+                        <xsl:text>zeitgenössische Ergänzung </xsl:text>
                     </xsl:otherwise>
                 </xsl:choose>
                 <xsl:if test="@hand">
@@ -1029,10 +1029,11 @@
             </xsl:when>
         </xsl:choose>
     </xsl:template>
-    <xsl:template match="tei:addSpan">
+    <!--<xsl:template match="tei:addSpan">
         <xsl:variable name="cId">
             <xsl:value-of select="generate-id(.)"/>
         </xsl:variable>
+        <xsl:variable name="hand"/>
         <ins>
             <xsl:element name="a">
                 <xsl:attribute name="class">addSpan</xsl:attribute>
@@ -1058,7 +1059,7 @@
                 <xsl:number level="any"/>
             </xsl:element>
         </ins>
-    </xsl:template>
+    </xsl:template>-->
     <!-- Bücher -->
     <xsl:template match="tei:bibl">
         <xsl:element name="span">
