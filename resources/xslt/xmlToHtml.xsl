@@ -601,6 +601,7 @@
                             <xsl:apply-templates/>
                         </xsl:when>
                         <xsl:otherwise>
+                            <xsl:attribute name="style">letter-spacing:0.06em;</xsl:attribute>
                             <xsl:apply-templates/>
                         </xsl:otherwise>
                     </xsl:choose>
@@ -1266,6 +1267,12 @@
     </xsl:template><!-- Durchstreichungen -->
     <xsl:template match="tei:del">
         <xsl:element name="del">
+            <xsl:if test="@rendition[not(contains(.,' '))]">
+                <xsl:variable name="style" select="substring-after(@rendition, '#')"/>
+                <xsl:attribute name="style">
+                    <xsl:value-of select="root()//tei:rendition[@xml:id=current()/$style]"/>
+                </xsl:attribute>
+            </xsl:if>
             <xsl:apply-templates/>
             <xsl:text> </xsl:text>
         </xsl:element>
