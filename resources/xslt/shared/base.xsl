@@ -217,7 +217,8 @@
             <xsl:otherwise>
                 <span>
                     <xsl:element name="a">
-                        <xsl:attribute name="class">reference</xsl:attribute>
+                        <xsl:attribute name="class">reference <xsl:if test="ancestor::tei:add">ergaenzt</xsl:if>
+                        </xsl:attribute>
                         <xsl:attribute name="data-type">
                             <xsl:value-of select="concat('list', data(@type), '.xml')"/>
                         </xsl:attribute>

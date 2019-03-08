@@ -774,7 +774,9 @@
     <xsl:template match="tei:persName[@ref]">
         <xsl:element name="span">
             <xsl:element name="a">
-                <xsl:attribute name="class">reference</xsl:attribute>
+                <xsl:attribute name="class">reference
+                    <xsl:if test="ancestor::tei:add">ergaenzt</xsl:if>
+                </xsl:attribute>
                 <xsl:attribute name="data-type">listperson.xml</xsl:attribute>
                 <xsl:attribute name="data-key">
                     <xsl:value-of select="substring-after(data(@ref), '#')"/>
@@ -803,6 +805,45 @@
                 </xsl:attribute>
                 <xsl:apply-templates/>
             </xsl:element>
+        </xsl:element>
+    </xsl:template>
+    <xsl:template match="tei:head">
+        <xsl:variable name="handId" select="substring-after(./@hand, '#')"/>
+        <xsl:element name="div">
+            <xsl:attribute name="style">margin-bottom:1.8em;</xsl:attribute>
+            <xsl:if test="@xml:id[starts-with(.,'org') or starts-with(.,'ue')]">
+                <a>
+                    <xsl:attribute name="name">
+                        <xsl:value-of select="@xml:id"/>
+                    </xsl:attribute>
+                    <xsl:text> </xsl:text>
+                </a>
+            </xsl:if>
+            <xsl:if test="$handId">
+                <xsl:attribute name="title">Hand: <xsl:value-of select="root()//tei:handNote[@xml:id=$handId]"/>
+                </xsl:attribute>
+            </xsl:if>
+            <a>
+                <xsl:attribute name="name">
+                    <xsl:text>hd</xsl:text>
+                    <xsl:number level="any"/>
+                </xsl:attribute>
+                <xsl:text> </xsl:text>
+            </a>
+            <xsl:choose>
+                <xsl:when test="./@type='sub'">
+                    <h4>
+                        <xsl:apply-templates/>
+                    </h4>
+                </xsl:when>
+                <xsl:otherwise>
+                    <h3>
+                        <div>
+                            <xsl:apply-templates/>
+                        </div>
+                    </h3>
+                </xsl:otherwise>
+            </xsl:choose>
         </xsl:element>
     </xsl:template>
     <xsl:template match="tei:opener">
@@ -862,9 +903,9 @@
                     <xsl:text>)</xsl:text>
                 </xsl:if>
             </xsl:attribute>
-            <xsl:text> </xsl:text>
+            <xsl:text/>
             <xsl:apply-templates/>
-            <xsl:text> </xsl:text>
+            <xsl:text/>
         </xsl:element>
     </xsl:template><!-- app/rdg tooltip testing -->
     <xsl:template match="tei:app">
