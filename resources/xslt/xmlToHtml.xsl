@@ -960,7 +960,20 @@
                     <xsl:number level="any" format="i" count="tei:app"/>
                 </xsl:attribute>
                 <xsl:attribute name="title">
-                    <xsl:value-of select="string-join(tei:rdg/concat(root()//tei:handNote[@xml:id=$handId], ' ', normalize-space(.)),' ')"/>
+                    <xsl:choose>
+                        <xsl:when test="./tei:rdg/tei:subst">
+                            <xsl:text>Ersetzung </xsl:text>
+                            <xsl:value-of select="tei:rdg/root()//tei:handNote[@xml:id=$handId][1]"/>
+                            <xsl:text>: ~</xsl:text>
+                            <xsl:value-of select="normalize-space(string-join(./tei:rdg/tei:subst/tei:del/descendant-or-self::*[not(name()='note')]/text(), ' '))"/>
+                            <xsl:text>~ 
+</xsl:text>
+                            <xsl:value-of select="normalize-space(string-join(./tei:rdg/tei:subst/tei:add/descendant-or-self::*[not(name()='note')]/text(), ' '))"/>
+                        </xsl:when>
+                        <xsl:otherwise>
+                            <xsl:value-of select="string-join(tei:rdg/concat(root()//tei:handNote[@xml:id=$handId], ': ', normalize-space(.)),' -- ')"/>
+                        </xsl:otherwise>
+                    </xsl:choose>
                 </xsl:attribute>
                 <sup class="shortRdg">
                     <xsl:text>[Variante </xsl:text>
@@ -973,6 +986,17 @@
                 <xsl:attribute name="style">display:none</xsl:attribute>
                 <xsl:value-of select="concat(tokenize(./tei:lem,' ')[1], ' … ', tokenize(./tei:lem,' ')[last()]), string-join(tei:rdg/concat(tei:add/@hand, '] ', normalize-space(.)),' ')"/>
             </xsl:element>
+    </xsl:template>
+    <xsl:template match="tei:rdg">
+        <xsl:if test="preceding-sibling::tei:rdg or following-sibling::tei:rdg">
+            <xsl:text>Variante </xsl:text>
+            <xsl:number/>
+            <xsl:text>: </xsl:text>
+        </xsl:if>
+        <xsl:apply-templates/>
+        <xsl:if test="position() != last()">
+            <br/>
+        </xsl:if>
     </xsl:template>
     <xsl:template match="tei:lem">
         <xsl:apply-templates/>
