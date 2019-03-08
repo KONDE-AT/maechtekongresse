@@ -1191,6 +1191,9 @@
                 <xsl:attribute name="style">border-bottom: 1px solid black</xsl:attribute>
                 <xsl:attribute name="class">underline</xsl:attribute>
             </xsl:if>
+            <xsl:if test="contains(descendant::*/@rend,'#r')">
+                <xsl:attribute name="style">text-align:right</xsl:attribute>
+            </xsl:if>
             <xsl:if test="./@cols">
                 <xsl:attribute name="colspan">
                     <xsl:value-of select="./@cols"/>
