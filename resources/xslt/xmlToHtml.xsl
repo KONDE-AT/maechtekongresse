@@ -181,7 +181,7 @@
                                                                 <xsl:attribute name="href">
                                                                     <xsl:value-of select="$divlink"/>
                                                                 </xsl:attribute>
-                                                                <xsl:apply-templates select=".//tei:msContents"/>
+                                                                <xsl:value-of select="normalize-space(string-join(.//tei:msContents//tei:title/descendant-or-self::*[not(name()='expan')]/text(), ''))"/>
                                                             </a>
                                                         </td>
                                                     </tr>
@@ -420,7 +420,8 @@
                                 <abbr title="Zitierhilfe">Zitierempfehlung</abbr>
                             </th>
                             <td>
-                                <xsl:value-of select="//tei:titleStmt//tei:title[@type='main']"/>. In:
+                                <xsl:value-of select="normalize-space(string-join(//tei:titleStmt//tei:title[@type='main']/descendant-or-self::*[not(name()='expan')]/text(), ''))"/>
+                                <xsl:text>. In: </xsl:text>
                                 <xsl:value-of select="$app-title"/>
                                 <xsl:if test="//tei:titleStmt/tei:editor">
                                     <xsl:text>, hrsg. von </xsl:text>
@@ -1063,21 +1064,33 @@
                 </span>
             </xsl:when>
             <xsl:when test="tei:abbr and tei:expan">
-                <abbr>
-                    <xsl:if test="@xml:id">
-                        <xsl:attribute name="id" select="@xml:id"/>
-                    </xsl:if>
-                    <xsl:attribute name="title">
-                        <xsl:value-of select="tei:expan"/>
-                    </xsl:attribute>
-                    <xsl:apply-templates select="tei:abbr[1]"/>
-                    <span class="hidden altcontent ">
-                        <xsl:if test="@xml:id">
-                            <xsl:attribute name="id" select="@xml:id"/>
-                        </xsl:if>
-                        <xsl:apply-templates select="tei:expan[1]"/>
-                    </span>
-                </abbr>
+                <xsl:choose>
+                    <xsl:when test="ancestor::tei:title">
+                        <abbr>
+                            <xsl:attribute name="title">
+                                <xsl:value-of select="tei:expan"/>
+                            </xsl:attribute>
+                            <xsl:apply-templates select="tei:abbr[1]"/>
+                        </abbr>
+                    </xsl:when>
+                    <xsl:otherwise>
+                        <abbr>
+                            <xsl:if test="@xml:id">
+                                <xsl:attribute name="id" select="@xml:id"/>
+                            </xsl:if>
+                            <xsl:attribute name="title">
+                                <xsl:value-of select="tei:expan"/>
+                            </xsl:attribute>
+                            <xsl:apply-templates select="tei:abbr[1]"/>
+                            <span class="hidden altcontent ">
+                                <xsl:if test="@xml:id">
+                                    <xsl:attribute name="id" select="@xml:id"/>
+                                </xsl:if>
+                                <xsl:apply-templates select="tei:expan[1]"/>
+                            </span>
+                        </abbr>
+                    </xsl:otherwise>
+                </xsl:choose>
             </xsl:when>
             <xsl:when test="tei:orig and tei:reg">
                 <span class="alternate choice6" title="alternate">
