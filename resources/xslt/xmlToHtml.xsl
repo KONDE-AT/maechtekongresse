@@ -1063,6 +1063,16 @@
                     </span>
                 </span>
             </xsl:when>
+            <xsl:when test="tei:seg">
+                <xsl:text>[</xsl:text>
+                <xsl:for-each select="./tei:seg">
+                    <xsl:apply-templates/>
+                    <xsl:if test="position() != last()">
+                        <xsl:text> / </xsl:text>
+                    </xsl:if>    
+                </xsl:for-each>
+                <xsl:text>]</xsl:text>
+            </xsl:when>
             <xsl:when test="tei:abbr and tei:expan">
                 <xsl:choose>
                     <xsl:when test="ancestor::tei:title">
@@ -1417,6 +1427,9 @@
         <xsl:element name="p">
             <xsl:apply-templates/>
         </xsl:element>
+    </xsl:template>
+    <xsl:template match="//tei:seg">
+        <xsl:apply-templates/>
     </xsl:template>
     <xsl:template match="tei:signed">
         <xsl:variable name="handId" select="substring-after(@hand, '#')"/>
