@@ -636,7 +636,7 @@
                 <xsl:number level="any" format="1" count="tei:note[@type='editorial']"/>
             </xsl:attribute>
             <xsl:attribute name="title">
-                <xsl:value-of select="normalize-space(.)"/>
+                <xsl:value-of select="normalize-space(string-join(./descendant-or-self::*[not(name()='expan')]/text(), ''))"/>
             </xsl:attribute>
             <sup>
                 <xsl:number level="any" format="1" count="tei:note[@type='editorial']"/>
@@ -654,7 +654,7 @@
                 <xsl:number level="any" format="a" count="tei:note[@type='author']"/>
             </xsl:attribute>
             <xsl:attribute name="title">
-                <xsl:value-of select="normalize-space(.)"/>
+                <xsl:value-of select="normalize-space(string-join(./descendant-or-self::*[not(name()='expan')]/text(), ''))"/>
             </xsl:attribute>
             <sup>
                 <xsl:number level="any" format="a" count="tei:note[@type='author']"/>

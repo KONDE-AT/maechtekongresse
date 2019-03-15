@@ -660,14 +660,14 @@
                 
                     <head>Note de la Cour de Russie <del rendition="#s">à insérer au Journal des
                      Conférences</del>
-                        <addSpan spanTo="#a.1" hand="#G"/>
+                        <add hand="#G">
                         <hi rendition="#u">relativement à la proposition faite par</hi>
-                     <lb/>
+                        <lb/>
                         <hi rendition="#u">
                             <choice>
-                        <abbr>Mr.</abbr>
-                        <expan>Monsieur</expan>
-                     </choice> le <persName ref="#p.8">
+                              <abbr>Mr.</abbr>
+                              <expan>Monsieur</expan>
+                            </choice> le <persName ref="#p.8">
                                 <roleName>Prince</roleName>
                         <surname>de Metternich</surname>
                         </persName>
@@ -677,7 +677,7 @@
                            Octobre</date>
                             </ref>
                         </hi>
-                        <anchor xml:id="a.1"/>
+                        </add>
                     </head>
                 
             <opener>
@@ -756,12 +756,12 @@
                     <head>Réponse du Cabinet de Russie <del rendition="#s">aux Communications faites par
                      les Cabinets d’Autriche et de Prusse dans les conférences du 11/<date when="1820-10-23">23</date> et du 17/<date when="1820-10-29">29
                         Octobre</date>.</del>
-                        <addSpan spanTo="#a.2" hand="#G"/>au Mémoire
+                        <add hand="#G">au Mémoire
                   présenté <lb/>par le Cabinet d’Autriche dans la <ref target="Troppau_Prot_1.xml">conférence
                      du <date when="1820-10-23">11/23</date>
                         </ref>, <lb/>et aux communications faites par le Cabinet de Prusse <lb/>dans la <ref target="Troppau_Prot_2.xml">conférence du 17/<date when="1820-10-29">29 Octobre</date>
                         </ref>
-                        <anchor xml:id="a.2"/>
+                        </add>
                     </head>
                 
             <opener>
