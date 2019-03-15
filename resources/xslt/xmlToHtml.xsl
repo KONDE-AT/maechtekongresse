@@ -1272,18 +1272,20 @@
         <xsl:text>„</xsl:text>
         <xsl:apply-templates/>
         <xsl:text>“</xsl:text>
-    </xsl:template><!-- Zeilenumbrüche   -->
+    </xsl:template><!-- Zeilenumbrüche -->
     <xsl:template match="tei:lb">
         <xsl:choose>
             <xsl:when test="ancestor::tei:note"><!-- fixing line length in @title tooltips -->
                 <xsl:text>
+
 </xsl:text>
             </xsl:when>
             <xsl:otherwise>
+                <xsl:text> </xsl:text>
                 <br/>
             </xsl:otherwise>
         </xsl:choose>
-    </xsl:template><!-- Absätze    -->
+    </xsl:template><!-- Absätze -->
     <xsl:template match="tei:p">
         <xsl:element name="p">
             <xsl:if test="ancestor::tei:text">
