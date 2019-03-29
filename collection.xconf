@@ -8,7 +8,7 @@
         <create qname="tei:rs" type="xs:string"/>
         <create qname="@ref" type="xs:string"/>
         <lucene>
-            <text qname="tei:p"/>
+            <text qname="tei:body"/>
         </lucene>
     </index>
     <triggers>
