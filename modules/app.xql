@@ -168,18 +168,18 @@ let $href := concat('show.html','?document=', app:getDocName($node), '&amp;direc
  declare function app:ft_search($node as node(), $model as map (*)) {
  if (request:get-parameter("searchexpr", "") !="") then
  let $searchterm as xs:string:= request:get-parameter("searchexpr", "")
- for $hit in collection(concat($config:app-root, '/data/editions/'))//*[.//tei:body[ft:query(.,$searchterm)]|.//tei:cell[ft:query(.,$searchterm)]]
+ for $hit in collection(concat($config:app-root, '/data/editions/'))//*[.//tei:text[ft:query(.,$searchterm)]]
     let $href := concat(app:hrefToDoc($hit), "&amp;searchexpr=", $searchterm)
     let $score as xs:float := ft:score($hit)
     order by $score descending
     return
     <tr>
         <td>{$score}</td>
-        <td class="KWIC">{kwic:summarize($hit, <config width="50" link="{$href}" />)}</td>
-        <td><a href="{app:hrefToDoc($hit)}">{app:getDocName($hit)}</a></td>
+        <td class="KWIC">{kwic:summarize($hit, <config width="40" link="{$href}" />)}</td>
+        <td align="center"><a href="{$href}">{app:getDocName($hit)}</a></td>
     </tr>
  else
-    <div>Kein Suchausdruck angegeben</div>
+    <div>Nothing to search for</div>
  };
 
 declare function app:indexSearch_hits($node as node(), $model as map(*),  $searchkey as xs:string?, $path as xs:string?){
