@@ -175,7 +175,7 @@ let $href := concat('show.html','?document=', app:getDocName($node), '&amp;direc
     return
     <tr>
         <td>{$score}</td>
-        <td class="KWIC">{kwic:summarize($hit, <config width="40" link="{$href}" />)}</td>
+        <td class="KWIC">{kwic:summarize($hit, <config width="50" link="{$href}" />)}</td>
         <td align="center"><a href="{$href}">{app:getDocName($hit)}</a></td>
     </tr>
  else
