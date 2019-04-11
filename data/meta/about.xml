@@ -16,6 +16,12 @@
                         <forename>Stephan</forename>
                     </persName>
                 </editor>
+                <editor role="Editor">
+                    <persName ref="http://d-nb.info/gnd/136442196" xml:id="KS">
+                        <surname>Schneider</surname>
+                        <forename>Karin</forename>
+                    </persName>
+                </editor>
             </titleStmt>
             
             <publicationStmt>
@@ -97,11 +103,12 @@
                     <head>Versionsgeschichte</head>
                     <list>
                         <item>
-                            <date when="2018-09-23">2018-09-23</date> erste Veröffentlichung</item>
+                            <date when="2019-04-11">2019-04-11</date> Version 1.0
+                        </item>
+                        <item>
+                            <date when="2018-09-23">2018-09-23</date> erste Veröffentlichung (Public Beta)</item>
                     </list>
-                    <p>Aktuell befindet sich die Applikation im Status einer Public Beta; Kritik,
-                        Korrekturen, Verbesserungsvorschläge bitte an die Herausgeberin (Kontakt
-                        siehe unten).</p>
+                    <p>Kritik, Korrekturen, Verbesserungsvorschläge bitte an die Herausgeberin (Kontakt siehe unten).</p>
                 </div>
                 <div>
                     <head>Bekannte Darstellungsprobleme</head>
@@ -118,7 +125,8 @@
                             </add> ausgegeben werden.</item>
                         <item>
                             <date when="2018-12-03">2018-12-03</date>
-                            Leerzeichen um Satzzeichen: Whitespace-Handling und eXist-db sind für das gegenständliche Projekt noch ungelöst.</item>
+                            <del>Leerzeichen um Satzzeichen: Whitespace-Handling und eXist-db sind für das gegenständliche Projekt noch ungelöst.</del>
+                        </item>
                     </list>
                 </div>
                 <div>
