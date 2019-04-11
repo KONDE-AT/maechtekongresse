@@ -48,7 +48,7 @@
     //https://github.com/martinantonmueller/Hermann-Bahr_Arthur-Schnitzler/blob/master/app/resources/js/calendar.js
         var datasource = "../analyze/calendar_datasource.xql";
         $.getJSON(datasource, function(data) {
-            console.log(data);
+            // console.log(data);
             var $dataSource = [];
             $.each( data, function( key, entry ) {
               var $obj = {};
@@ -69,12 +69,15 @@
                 weekStart: 1 // week starts on monday
             });
             $('#calendar').clickDay(function(e){
+                if ( e.events.length === 1 ) { // avoids having broken links - an else with a modal or some other solution would be nice to have
                 var ids = []
                 $.each(e.events, function( key, entry ) {
                     ids.push(entry.id)
                 });
                 window.location = ids.join()
+                }
             });
+            
         });
 
 
