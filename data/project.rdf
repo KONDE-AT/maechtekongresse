@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:acdhid="https://id.acdh.oeaw.ac.at/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:acdh="https://vocabs.acdh.oeaw.ac.at/schema#" xml:lang="en">
+    
+    <!--    see https://arche.acdh.oeaw.ac.at/browser/formats-filenames-and-metadata#metadata -->
+
+        
+<!--    top collection -->
+    <acdh:Collection rdf:about="https://id.acdh.oeaw.ac.at/kongress">
+        <acdh:hasTitle>Mächtekongresse 1818–1822. Digitale Edition</acdh:hasTitle>
+        <acdh:hasDescription>
+            Digitale Edition der Dokumente zu den Kongressen von Aachen (1818), Troppau (1820), Laibach (1821) und Verona (1822).
+           Die Kongresse von Aachen (1818), Troppau (1820), Laibach (1821) und Verona (1822) sind
+                Ausdruck und Ergebnis einer im Vergleich zum 18. Jahrhundert neuen Konzeption von
+                Außenpolitik: An die Stelle von zwischenstaatlicher Rivalität und Machtpolitik trat eine
+                in diesem Ausmaß bisher nicht praktizierte zwischenstaatliche Kooperation. Die
+                Erfahrungen aus den Napoleonischen Kriegen hatten gezeigt, dass nur ein gemeinsames
+                Vorgehen der europäischen Mächte zu einem dauerhaften Frieden führen würde. Die auf dem
+                Wiener Kongress (1814/15) verhandelte politische und territoriale Neuordnung Europas war
+                das Resultat dieser zwischenstaatlichen Zusammenarbeit. Auf völkerrechtlicher Ebene
+                wurde diese Kooperation zwischen 1813 und 1818 durch ein komplexes System verschiedener
+                Allianzen abgesichert und erfuhr als Europäisches Konzert einen gewissen Grad an
+                Institutionalisierung.
+                Dieser strukturelle Wandel in der Außenpolitik erforderte eine verdichtete Kommunikation
+                zwischen den Staaten. In Aachen, Troppau, Laibach und Verona trafen die Mächtevertreter
+                in der Nachfolge des Wiener Kongresses zusammen, um kollektiv über offene Fragen von
+                europäischem Interesse zu beraten, Krisen abzuwenden beziehungsweise einer Lösung
+                zuzuführen und Ruhe und Frieden in Europa zu garantieren. Die hier edierten Protokolle
+                und anderen Schriftstücke zeigen die offizielle Lesart der Verhandlungen und sind
+                entsprechend quellenkritisch zu betrachten. Dennoch geben sie einen Einblick in die
+                Grundlagen und die Funktionsweise des Europäischen Mächtekonzerts im Spannungsfeld
+                zwischen außenpolitischen Erfordernissen und innenpolitischen Zwängen, persönlichen
+                Überzeugungen und politischen Kompromissen.
+        </acdh:hasDescription>
+        <acdh:hasLicense rdf:resource="https://creativecommons.org/licenses/by-sa/4.0/"/>
+        <acdh:hasLifeCycleStatus>completed</acdh:hasLifeCycleStatus>
+        <acdh:hasPrincipalInvestigator>
+            <acdh:Person rdf:about="http://d-nb.info/gnd/136442196">
+                <acdh:hasLastName>Schneider</acdh:hasLastName>
+                <acdh:hasFirstName>Karin</acdh:hasFirstName>
+            </acdh:Person>
+        </acdh:hasPrincipalInvestigator>
+        <acdh:hasCreator>
+            <acdh:Person rdf:about="http://d-nb.info/gnd/136442196"/>
+        </acdh:hasCreator>
+        <acdh:hasContact>
+            <acdh:Person rdf:about="http://d-nb.info/gnd/136442196"/>
+        </acdh:hasContact>
+        <acdh:hasOwner>
+            <acdh:Person rdf:about="http://d-nb.info/gnd/136442196"/>
+        </acdh:hasOwner>
+        <acdh:hasRightsholder>
+            <acdh:Person rdf:about="http://d-nb.info/gnd/136442196"/>
+        </acdh:hasRightsholder>
+        <acdh:hasLicensor>
+            <acdh:Person rdf:about="http://d-nb.info/gnd/136442196"/>
+        </acdh:hasLicensor>
+        <acdh:hasContributor>
+            <acdh:Person rdf:about="http://d-nb.info/gnd/13281899X">
+                <acdh:hasLastName>Kurz</acdh:hasLastName>
+                <acdh:hasFirstName>Stefan</acdh:hasFirstName>
+            </acdh:Person>
+        </acdh:hasContributor>
+        <acdh:hasMetadataCreator>
+            <acdh:Person rdf:about="http://d-nb.info/gnd/1043833846">
+                <acdh:hasLastName>Andorfer</acdh:hasLastName>
+                <acdh:hasFirstName>Peter</acdh:hasFirstName>
+            </acdh:Person>
+        </acdh:hasMetadataCreator>
+        <acdh:hasDepositor>
+            <acdh:Person rdf:about="http://d-nb.info/gnd/1043833846"/>
+        </acdh:hasDepositor>
+        <acdh:hasCoverageStartDate>1818</acdh:hasCoverageStartDate>
+        <acdh:hasCoverageEndDate>1822</acdh:hasCoverageEndDate>
+        <acdh:hasSubject>PROVIDE SOME SUBJECTS</acdh:hasSubject>
+    </acdh:Collection>
+    
+    <acdh:Collection rdf:about="https://id.acdh.oeaw.ac.at/kongress/meta">
+        <acdh:hasLicense rdf:resource="https://creativecommons.org/licenses/by-sa/4.0/"/>
+        <acdh:hasTitle>Meta</acdh:hasTitle>
+        <acdh:hasDescription>Enthält allgemeine Information über zu Dokumente zu den Kongressen von Aachen (1818), Troppau (1820), Laibach (1821)</acdh:hasDescription>
+        <acdh:hasCreator>
+            <acdh:Person rdf:about="http://d-nb.info/gnd/107360859X"/>
+        </acdh:hasCreator>
+        <acdh:hasContributor>
+            <acdh:Person rdf:about="http://d-nb.info/gnd/136442196"/>
+        </acdh:hasContributor>
+        <acdh:isPartOf rdf:resource="https://id.acdh.oeaw.ac.at/kongress"/>
+    </acdh:Collection>
+
+    <acdh:Collection rdf:about="https://id.acdh.oeaw.ac.at/kongress/editions">
+        <acdh:hasLicense rdf:resource="https://creativecommons.org/licenses/by-sa/4.0/"/>
+        <acdh:hasTitle>Editionen</acdh:hasTitle>
+        <acdh:hasDescription>XML/TEI kodierte Dokumente zu den Kongressen von Aachen (1818), Troppau (1820), Laibach (1821) und Verona (1822)</acdh:hasDescription>
+        <acdh:hasCreator>
+            <acdh:Person rdf:about="http://d-nb.info/gnd/107360859X"/>
+        </acdh:hasCreator>
+        <acdh:isPartOf rdf:resource="https://id.acdh.oeaw.ac.at/kongress"/>
+    </acdh:Collection>
+
+    <acdh:Collection rdf:about="https://id.acdh.oeaw.ac.at/kongress/indices">
+        <acdh:hasLicense rdf:resource="https://creativecommons.org/licenses/by-sa/4.0/"/>
+        <acdh:hasTitle>Register</acdh:hasTitle>
+        <acdh:hasDescription>Diverse XML/TEI kodierte Register Dokumente zu den Kongressen von Aachen (1818), Troppau (1820), Laibach (1821) und Verona (1822)</acdh:hasDescription>
+        <acdh:hasCreator>
+            <acdh:Person rdf:about="http://d-nb.info/gnd/13281899X"/>
+        </acdh:hasCreator>
+        <acdh:isPartOf rdf:resource="https://id.acdh.oeaw.ac.at/kongress"/>
+    </acdh:Collection>
+
+    <acdh:Collection rdf:about="https://id.acdh.oeaw.ac.at/kongress/utils">
+        <acdh:hasLicense rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+        <acdh:hasTitle>Utility Files</acdh:hasTitle>
+        <acdh:hasDescription>XSL-Stylesheets</acdh:hasDescription>
+        <acdh:hasCreator>
+            <acdh:Person rdf:about="http://d-nb.info/gnd/1043833846"/>
+        </acdh:hasCreator>
+        <acdh:hasCreator>
+            <acdh:Person rdf:about="http://d-nb.info/gnd/13281899X"/>
+        </acdh:hasCreator>
+        <acdh:isPartOf rdf:resource="https://id.acdh.oeaw.ac.at/kongress"/>
+    </acdh:Collection>
+    
+    <acdh:Resource rdf:about="https://id.acdh.oeaw.ac.at/kongress/utils/tei2html.xsl">
+        <acdh:hasTitle>XSL to transform XML/TEI to HTML</acdh:hasTitle>
+        <acdh:hasCreator>
+            <acdh:Person rdf:about="http://d-nb.info/gnd/1043833846"/>
+        </acdh:hasCreator>
+        <acdh:hasCreator>
+            <acdh:Person rdf:about="http://d-nb.info/gnd/13281899X"/>
+        </acdh:hasCreator>
+        <acdh:hasLicense rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+    </acdh:Resource>
+</rdf:RDF>
