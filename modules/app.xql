@@ -168,18 +168,18 @@ let $href := concat('show.html','?document=', app:getDocName($node), '&amp;direc
  declare function app:ft_search($node as node(), $model as map (*)) {
  if (request:get-parameter("searchexpr", "") !="") then
  let $searchterm as xs:string:= request:get-parameter("searchexpr", "")
- for $hit in collection(concat($config:app-root, '/data/editions/'))//*[.//tei:text[ft:query(.,$searchterm)]]
+ for $hit in collection(concat($config:app-root, '/data/editions/'))//*[.//tei:p[ft:query(.,$searchterm)]|.//tei:cell[ft:query(.,$searchterm)]]
     let $href := concat(app:hrefToDoc($hit), "&amp;searchexpr=", $searchterm)
     let $score as xs:float := ft:score($hit)
     order by $score descending
     return
     <tr>
         <td>{$score}</td>
-        <td class="KWIC">{kwic:summarize($hit, <config width="50" link="{$href}" />)}</td>
-        <td align="center"><a href="{$href}">{app:getDocName($hit)}</a></td>
+        <td class="KWIC">{kwic:summarize($hit, <config width="40" link="{$href}" />)}</td>
+        <td>{app:getDocName($hit)}</td>
     </tr>
  else
-    <div>Nothing to search for</div>
+    <div>Kein Suchausdruck angegeben</div>
  };
 
 declare function app:indexSearch_hits($node as node(), $model as map(*),  $searchkey as xs:string?, $path as xs:string?){
@@ -275,6 +275,8 @@ declare function app:toc($node as node(), $model as map(*)) {
         let $idno := $title//tei:publicationStmt/tei:idno//translate(text(),'_',' ')
         let $datum := if ($title//tei:msDesc[1]//tei:origin[1]/tei:date[1]/@when)
             then data($title//tei:msDesc[1]//tei:origin[1]/tei:date[1]/@when)(:/format-date(xs:date(@when), '[D02].[M02].[Y0001]')):)
+            else if (data($title//tei:msDesc[1]//tei:origin[1]/tei:date[1]))
+            then data($title//tei:msDesc[1]//tei:origin[1]/tei:date[1])
             else data($title//tei:editionStmt/tei:edition/tei:date[1]/text()) (: picks date in meta collection :)
         let $date := if ($title//tei:title[2][@type='main']//text()) 
             then 
