@@ -10,56 +10,56 @@
             <title type="sub">Digitale Edition</title>
             <editor>
                <persName>
-                        <surname>Schneider</surname> <forename>Karin</forename>
-                    </persName>
-                </editor>
-         <editor role="Technical_Editor">
-    <persName ref="http://d-nb.info/gnd/13281899X" xml:id="SK">
-        <surname>Kurz</surname>
-        <forename>Stephan</forename>
-    </persName>
-</editor>
-<respStmt>
-    <resp>Transkription</resp>
-    <name ref="#KS">Karin Schneider</name>
-</respStmt>
-<respStmt>
-    <resp>Wissenschaftliche Edition</resp>
-    <name ref="#KS">Karin Schneider</name>
-</respStmt>
-<respStmt>
-    <resp>Technical Editor</resp>
-    <name ref="#SK">Stephan Kurz</name>
-</respStmt>
-<respStmt>
-    <resp>Korrekturen</resp>
-<name ref="#KS">Karin Schneider</name>
-    <name ref="#SK">Stephan Kurz</name>
-</respStmt>
-<respStmt>
-    <resp>Beratung Kodierung</resp>
-    <name>Daniel Schopper</name>
-</respStmt>
-<respStmt>
-    <resp>Beratung Kodierung</resp>
-    <name>Peter Andorfer</name>
-</respStmt>
-</titleStmt>
+                  <surname>Schneider</surname> <forename>Karin</forename>
+               </persName>
+            </editor>
+            <editor role="Technical_Editor">
+               <persName ref="http://d-nb.info/gnd/13281899X" xml:id="SK">
+                  <surname>Kurz</surname>
+                  <forename>Stephan</forename>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp>Transkription</resp>
+               <name ref="#KS">Karin Schneider</name>
+            </respStmt>
+            <respStmt>
+               <resp>Wissenschaftliche Edition</resp>
+               <name ref="#KS">Karin Schneider</name>
+            </respStmt>
+            <respStmt>
+               <resp>Technical Editor</resp>
+               <name ref="#SK">Stephan Kurz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Korrekturen</resp>
+               <name ref="#KS">Karin Schneider</name>
+               <name ref="#SK">Stephan Kurz</name>
+            </respStmt>
+            <respStmt>
+               <resp>Beratung Kodierung</resp>
+               <name>Daniel Schopper</name>
+            </respStmt>
+            <respStmt>
+               <resp>Beratung Kodierung</resp>
+               <name>Peter Andorfer</name>
+            </respStmt>
+         </titleStmt>
          <editionStmt>
             <edition>
-                    <date>2017-03-13</date>
-                </edition>
+               <date>2017-03-13</date>
+            </edition>
          </editionStmt>
          <publicationStmt>
             <publisher>Österreichische Akademie der Wissenschaften, Institut für Neuzeit- und
                Zeitgeschichtsforschung</publisher>
             <pubPlace>Wien</pubPlace>
-<date when="2018-09-23" change="#initial">2018-09-23</date>
+            <date when="2018-09-23" change="#initial">2018-09-23</date>
             <idno>V_I_03</idno>
-                 <availability>           <licence target="https://creativecommons.org/licenses/by-sa/4.0/legalcode.de">https://creativecommons.org/licenses/by-sa/4.0/legalcode.de</licence>         </availability> </publicationStmt>
-            <notesStmt>
-    <note>Vergleiche auch die Projektbeschreibung in der <ref type="URI" target="../meta/Einleitung.xml">Einleitung</ref> sowie die Dokumentation der Applikation unter <ref type="URI" target="../meta/about.xml">„Über diese Webseite“</ref>.</note>
-</notesStmt>
+            <availability>           <licence target="https://creativecommons.org/licenses/by-sa/4.0/legalcode.de">https://creativecommons.org/licenses/by-sa/4.0/legalcode.de</licence>         </availability> </publicationStmt>
+         <notesStmt>
+            <note>Vergleiche auch die Projektbeschreibung in der <ref type="URI" target="../meta/Einleitung.xml">Einleitung</ref> sowie die Dokumentation der Applikation unter <ref type="URI" target="../meta/about.xml">„Über diese Webseite“</ref>.</note>
+         </notesStmt>
          <sourceDesc>
             <msDesc xml:id="m.1" type="Lithographie">
                <msIdentifier>
@@ -81,16 +81,16 @@
                   <p>Lithographie</p>
                   <p>Das Schriftstück liegt in mehrfacher Ausfertigung ein. Insgesamt wurde es drei
                      Redaktionen unterzogen, der Grundtext liegt in den Handschriften von <persName ref="#p.8">
-                                <surname>Metternich</surname>
-                            </persName> und <persName ref="#p.5">
-                                <surname>Gentz</surname>
-                            </persName> ein (fol. 121–124). Auf dem
+                        <surname>Metternich</surname>
+                     </persName> und <persName ref="#p.5">
+                        <surname>Gentz</surname>
+                     </persName> ein (fol. 121–124). Auf dem
                      ebenfalls zum Konzept zählenden Blatt fol. 130r der Vermerkt mit Bleistift:
                      <q>lithogr. à 12 Exempl.</q> Zweite, lithographierte Redaktion auf fol. 120–21 und
                      131. Die Transkription folgt der letzten, dritten, ebenfalls lithographierten
                      Redaktion fol. 125 und 128. Diese liegt auf fol. 126–127 doppelt ein. Vermerk
                      auf fol. 126r: <q>3<hi rendition="#su">e</hi> et dernière Rédaction</q>.</p>
-
+                  
                   <handDesc>
                      <handNote xml:id="A">Anonyme Hand</handNote>
                      <handNote xml:id="A1">Weitere anonyme Hand</handNote>
@@ -100,16 +100,16 @@
                      <handNote xml:id="AmR">Anonyme Hand mit Rotstift</handNote>
                      <handNote xml:id="M">Metternich</handNote>
                   </handDesc>
-
+                  
                </physDesc>
                <history>
                   <origin>
-                            <placeName ref="#loc.68">Verona</placeName>
+                     <placeName ref="#loc.68">Verona</placeName>
                      <date>o.D.</date>
-                        </origin>
+                  </origin>
                </history>
             </msDesc>
-
+            
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
@@ -129,134 +129,129 @@
       <profileDesc>
          <abstract>
             <p>Der österreichische Staatskanzler <persName ref="#p.8">
-                        <surname>Metternich</surname>
-                    </persName> beantwortet die durch den französischen
+               <surname>Metternich</surname>
+            </persName> beantwortet die durch den französischen
                Außenminister <persName ref="#p.174">
-                        <surname>Montmorency</surname>
-                    </persName> in
+                  <surname>Montmorency</surname>
+               </persName> in
                einer <ref target="Verona_I_2.xml">Denkschrift vom <date when="1822-10-20">20.
-                     Oktober 1822</date>
-                    </ref> vorgelegten Fragen der französischen Regierung
+                  Oktober 1822</date>
+               </ref> vorgelegten Fragen der französischen Regierung
                betreffend die Revolution in <country>Spanien</country> in Hinblick auf die
                politische Unterstützung durch die österreichische Regierung.</p>
          </abstract>
       </profileDesc>
-        <revisionDesc>
-    <change xml:id="initial" when="2018-09-23" who="#SK">initial version for public beta release</change>
-    <change notAfter="2018-09-23" who="#SK #KS">changetracking on ACDH git repository</change>
-</revisionDesc>
+      <revisionDesc>
+         <change xml:id="initial" when="2018-09-23" who="#SK">initial version for public beta release</change>
+         <change notAfter="2018-09-23" who="#SK #KS">changetracking on ACDH git repository</change>
+      </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <div decls="#m.1">
             <pb n="125r"/>
             <metamark>
-                    <add place="top">No 3.</add>
-                </metamark>
+               <add place="top">No 3.</add>
+            </metamark>
             
-                    <head>Réponse confidentielle du Cabinet de <placeName ref="#loc.7">Vienne</placeName> au <ref target="Verona_I_2.xml">Précis des communications
-                     verbales faites par Monsieur le <persName ref="#p.174">
-                                <roleName>Vicomte</roleName>
-                        <surname>de Montmorency</surname>
-                        </persName>
-                        <lb/> dans la Conférence du <date when="1822-10-20">20 Octobre 1822</date>
-                        </ref>
-                    </head>
+            <head>Réponse confidentielle du Cabinet de <placeName ref="#loc.7">Vienne</placeName> au <ref target="Verona_I_2.xml">Précis des communications
+               verbales faites par Monsieur le <persName ref="#p.174">
+                  <roleName>Vicomte</roleName>
+                  <surname>de Montmorency</surname>
+               </persName>
+               <lb/> dans la Conférence du <date when="1822-10-20">20 Octobre 1822</date>
+            </ref>
+            </head>
             
             <p>Ayant soumis à l’<rs ref="#p.16" type="person">Empereur</rs> le Précis des communications verbales
                de Monsieur le <persName ref="#p.174">
-                        <roleName>Vicomte</roleName>
+                  <roleName>Vicomte</roleName>
                   <surname>de Montmorency</surname>
-                    </persName>, le <rs ref="#p.8" type="person">Ministre
+               </persName>, le <rs ref="#p.8" type="person">Ministre
                   d’Autriche</rs> a été autorisé par <rs ref="#p.16" type="person">Sa Majesté Impériale</rs> à
-               faire la réponse également verbale, que voici :</p>
+               faire la réponse également verbale, que voici :</p>
             <p>
-                    <app>
+               <app>
                   <lem>Dans ces communications Monsieur le <persName ref="#p.174">
-                                <roleName>Vicomte</roleName>
-                        <surname>de Montmorency</surname>
-                            </persName> a déclaré « que la
-                        <country>France</country> est prête à se défendre et à ne point avoir à
-                     attaquer »</lem>
+                     <roleName>Vicomte</roleName>
+                     <surname>de Montmorency</surname>
+                  </persName> a déclaré « que la
+                     <country>France</country> est prête à se défendre et à ne point avoir à
+                     attaquer »</lem>
                   <rdg>
-                            <subst>
+                     <subst>
                         <del>La <country>France</country> fait un appel aux Augustes Alliés sur des
-                           dangers dont elle se juge menacée par l’<country>Espagne</country> ; Elle
-                           se déclare « prête à se défendre et à ne point avoir à attaquer »</del>
+                           dangers dont elle se juge menacée par l’<country>Espagne</country> ; Elle
+                           se déclare « prête à se défendre et à ne point avoir à attaquer »</del>
                         <add>
-                                    <rs ref="#p.15" type="person" xml:id="n.1">Sa Majesté Très Chrétienne</rs>
-                                    <note type="editorial" target="#n.1">Ehrentitel des Königs von
+                           <rs ref="#p.15" type="person" xml:id="n.1">Sa Majesté Très Chrétienne</rs>
+                           <note type="editorial" target="#n.1">Ehrentitel des Königs von
                               Frankreich.</note> et Ses augustes Alliés ayant jugé convenable de
                            s’entendre sur le cas d’une aggression de la part de
-                              l’<country>Espagne</country>, la <country>France</country> a déclaré,
-                           « qu’elle est prête à se défendre et à ne point avoir à attaquer »</add>
+                           l’<country>Espagne</country>, la <country>France</country> a déclaré,
+                           « qu’elle est prête à se défendre et à ne point avoir à attaquer »</add>
                      </subst>
-                        </rdg>
-                       <rdg>
-                            <subst>
+                  </rdg>
+                  <rdg>
+                     <subst>
                         <del>
-                                    <rs ref="#p.15" type="person" xml:id="n.2">Sa Majesté Très Chrétienne</rs>
-                                    <note type="editorial" target="#n.2">Ehrentitel des Königs von
+                           <rs ref="#p.15" type="person" xml:id="n.2">Sa Majesté Très Chrétienne</rs>
+                           <note type="editorial" target="#n.2">Ehrentitel des Königs von
                               Frankreich.</note> et Ses augustes Alliés ayant jugé convenable de
                            s’entendre sur le cas d’une aggression de la part de
-                              l’<country>Espagne</country>, la <country>France</country> a déclaré,
-                           « qu’elle est prête à se défendre et à ne point avoir à attaquer »</del>
+                           l’<country>Espagne</country>, la <country>France</country> a déclaré,
+                           « qu’elle est prête à se défendre et à ne point avoir à attaquer »</del>
                         <add>Dans ces communications Monsieur le <persName ref="#p.174">
-                                        <roleName>Vicomte</roleName>
-                              <surname>de Montmorency</surname>
-                                    </persName> a déclaré « que la
-                              <country>France</country> est prête à se défendre et à ne point avoir
-                           à attaquer »</add>
+                           <roleName>Vicomte</roleName>
+                           <surname>de Montmorency</surname>
+                        </persName> a déclaré « que la
+                           <country>France</country> est prête à se défendre et à ne point avoir
+                           à attaquer »</add>
                      </subst>
-                        </rdg>
-               </app> ; Elle déclare être pénétrée surtout de l’idée <quote>« que, dans les
+                  </rdg>
+               </app> ; Elle déclare être pénétrée surtout de l’idée <quote>« que, dans les
                   circonstances présentes, le concours des hautes Puissances Lui semble nécessaire,
                   comme devant consacrer cette unité de vues qui est le caractère fondamental de
                   l’Alliance, et qu’il est du plus grand intérêt de maintenir et de signaler pour
-                  garantir le repos de l’Europe »</quote>.</p>
+                  garantir le repos de l’Europe »</quote>.</p>
             <p>Résumant Ses idées, <rs ref="#p.174" type="person">Monsieur le Ministre de France</rs> a porté à la
                prise en considération des Cabinets trois questions, sur lesquelles <rs ref="#p.16" type="person" xml:id="n.3">Sa Majesté Impériale et Royale Apostolique</rs>
-                    <note type="editorial" target="#n.3">Ehrentitel des Kaisers von Österreich. </note> a autorisé <rs ref="#p.8" type="person">Son Ministre</rs> à s’exprimer dans les termes suivans :</p>
+               <note type="editorial" target="#n.3">Ehrentitel des Kaisers von Österreich. </note> a autorisé <rs ref="#p.8" type="person">Son Ministre</rs> à s’exprimer dans les termes suivans :</p>
             <p>
-               <hi rendition="#u">Ad 1
-               <hi rendition="#su">um</hi>
-                    </hi> Dans le cas que la <country>France</country> se<pb n="125v"/> verroit forcée de rappeler de <placeName ref="#loc.24">Madrid</placeName> la mission qu’Elle y a accréditée et de rompre toute relation
+               <hi rendition="#u">Ad 1<hi rendition="#su">um</hi></hi> Dans le cas que la <country>France</country> se<pb n="125v"/> verroit forcée de rappeler de <placeName ref="#loc.24">Madrid</placeName> la mission qu’Elle y a accréditée et de rompre toute relation
                diplomatique avec l’<country>Espagne</country>, <rs ref="#p.16" type="person">Sa Majesté
                   Impériale</rs>, toujours prête à manifester de Sa part l’union existante entre les
                Augustes Alliés, serait entièrement disposée à prendre une mesure semblable et à
                rappeler Sa mission de <placeName ref="#loc.24">Madrid</placeName>.</p>
             <p>
-               <hi rendition="#u">Ad 2
-               <hi rendition="#su">um</hi>
-                    </hi> Si la guerre devait éclater entre la
-                  <country>France</country> et l’<country>Espagne</country>, <rs ref="#p.16" type="person">Sa
+               <hi rendition="#u">Ad 2<hi rendition="#su">um</hi></hi> Si la guerre devait éclater entre la
+               <country>France</country> et l’<country>Espagne</country>, <rs ref="#p.16" type="person">Sa
                   Majesté Impériale et Royale</rs>, en partant du principe ci-dessus énoncé par
                Monsieur le <persName ref="#p.174">
-                        <roleName>Vicomte</roleName>
+                  <roleName>Vicomte</roleName>
                   <surname>de Montmorency</surname>
-                    </persName>, n’hésiterait pas à prêter à la
-                  <country>France</country> l’appui moral lequel, avec celui des autres Augustes
-               alliés, donnerait à l’action de cette Puissance toute la force de l’Alliance ; sauf à
+               </persName>, n’hésiterait pas à prêter à la
+               <country>France</country> l’appui moral lequel, avec celui des autres Augustes
+               alliés, donnerait à l’action de cette Puissance toute la force de l’Alliance ; sauf à
                convenir, le cas échéant, des actes et des formes qui seroient jugées les plus
                propres à rendre cet appui moral utile et efficace.</p>
             <p>
-               <hi rendition="#u">Ad 3
-               <hi rendition="#u">um</hi></hi> Dans le cas que l’intervention plus active des Alliés
+               <hi rendition="#u">Ad 3<hi rendition="#su">um</hi></hi> Dans le cas que l’intervention plus active des Alliés
                seroit réclamée par la <country>France</country> et reconnue nécessaire par les
                augustes alliés, <rs ref="#p.16" type="person">Sa Majesté Impériale</rs>, en partant toujours du
                principe énoncé par Monsieur le <persName ref="#p.174">
-                        <roleName>Vicomte</roleName>
+                  <roleName>Vicomte</roleName>
                   <surname>de Montmorency</surname>
-                    </persName>, seroit également disposée à prêter à
+               </persName>, seroit également disposée à prêter à
                la <country>France</country> un secours matériel, sauf à régler, le cas échéant, par
                une délibération commune des Cours alliées l’étendue, la qualité et la direction de
                ce secours.</p>
             <p>S’étant ainsi acquitté des ordres de l’<rs ref="#p.16" type="person">Empereur</rs>, Son auguste
                Maître, le <rs ref="#p.8" type="person">Ministre d’Autriche</rs> se réserve<pb n="128r"/> de
                s’occuper avec Monsieur le <persName ref="#p.174">
-                        <roleName>Vicomte</roleName>
+                  <roleName>Vicomte</roleName>
                   <surname>de Montmorency</surname>
-                    </persName> et avec Messieurs les Ministres des
+               </persName> et avec Messieurs les Ministres des
                autres Cabinets de la forme diplomatique la plus apte à constater les engagemens
                préalables ci-dessus spécifiés, et de convenir en même temps des dispositions
                nécessaires pour développer et compléter ces engagemens.</p>
@@ -268,7 +263,7 @@
          <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../indices/listwit.xml" xpointer="listWit"/>
          <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../indices/listorg.xml" xpointer="listOrg"/>
          <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../indices/listtreaties.xml" xpointer="listTreaties"/>
-
+         
       </back>
    </text>
 </TEI>
