@@ -57,57 +57,67 @@
         <acdh:hasContributor>
             <acdh:Person rdf:about="http://d-nb.info/gnd/13281899X">
                 <acdh:hasLastName>Kurz</acdh:hasLastName>
-                <acdh:hasFirstName>Stefan</acdh:hasFirstName>
+                <acdh:hasFirstName>Stephan</acdh:hasFirstName>
             </acdh:Person>
         </acdh:hasContributor>
-        <acdh:hasMetadataCreator>
-            <acdh:Person rdf:about="http://d-nb.info/gnd/1043833846">
-                <acdh:hasLastName>Andorfer</acdh:hasLastName>
-                <acdh:hasFirstName>Peter</acdh:hasFirstName>
-            </acdh:Person>
-        </acdh:hasMetadataCreator>
         <acdh:hasDepositor>
             <acdh:Person rdf:about="http://d-nb.info/gnd/1043833846"/>
         </acdh:hasDepositor>
         <acdh:hasCoverageStartDate>1818</acdh:hasCoverageStartDate>
         <acdh:hasCoverageEndDate>1822</acdh:hasCoverageEndDate>
-        <acdh:hasSubject>PROVIDE SOME SUBJECTS</acdh:hasSubject>
+        <acdh:hasSubject>Wiener Kongress</acdh:hasSubject>
+        <acdh:hasSubject>Diplomatiegeschichte</acdh:hasSubject>
+        <acdh:hasSubject>Kongress von Aachen</acdh:hasSubject>
+        <acdh:hasSubject>Kongress von Verona</acdh:hasSubject>
+        <acdh:hasSubject>Kongress von Laibach</acdh:hasSubject>
+        <acdh:hasSubject>Kongress von Troppau</acdh:hasSubject>
+        <acdh:hasSubject>Mächtekonzert</acdh:hasSubject>
+        <acdh:hasSubject>Mächtekongress</acdh:hasSubject>
+        <acdh:hasSubject>Monarchenkongresse</acdh:hasSubject>
+        <acdh:hasSubject>Kongressakten</acdh:hasSubject>
+        <acdh:hasNonLinkedIdentifier>ISBN:9783950478303</acdh:hasNonLinkedIdentifier>
     </acdh:Collection>
     
-    <acdh:Collection rdf:about="https://id.acdh.oeaw.ac.at/kongress/meta">
+    <acdh:Collection rdf:about="https://id.acdh.oeaw.ac.at/maechtekongresse/meta">
         <acdh:hasLicense rdf:resource="https://creativecommons.org/licenses/by-sa/4.0/"/>
         <acdh:hasTitle>Meta</acdh:hasTitle>
-        <acdh:hasDescription>Enthält allgemeine Information über zu Dokumente zu den Kongressen von Aachen (1818), Troppau (1820), Laibach (1821)</acdh:hasDescription>
-        <acdh:hasCreator>
-            <acdh:Person rdf:about="http://d-nb.info/gnd/107360859X"/>
-        </acdh:hasCreator>
+        <acdh:hasDescription>Enthält allgemeine Information zu den Dokumenten der Kongresse von Aachen (1818), Troppau (1820), Laibach (1821) sowie zur digitalen Edition</acdh:hasDescription>
         <acdh:hasContributor>
             <acdh:Person rdf:about="http://d-nb.info/gnd/136442196"/>
         </acdh:hasContributor>
-        <acdh:isPartOf rdf:resource="https://id.acdh.oeaw.ac.at/kongress"/>
-    </acdh:Collection>
-
-    <acdh:Collection rdf:about="https://id.acdh.oeaw.ac.at/kongress/editions">
-        <acdh:hasLicense rdf:resource="https://creativecommons.org/licenses/by-sa/4.0/"/>
-        <acdh:hasTitle>Editionen</acdh:hasTitle>
-        <acdh:hasDescription>XML/TEI kodierte Dokumente zu den Kongressen von Aachen (1818), Troppau (1820), Laibach (1821) und Verona (1822)</acdh:hasDescription>
-        <acdh:hasCreator>
-            <acdh:Person rdf:about="http://d-nb.info/gnd/107360859X"/>
-        </acdh:hasCreator>
-        <acdh:isPartOf rdf:resource="https://id.acdh.oeaw.ac.at/kongress"/>
-    </acdh:Collection>
-
-    <acdh:Collection rdf:about="https://id.acdh.oeaw.ac.at/kongress/indices">
-        <acdh:hasLicense rdf:resource="https://creativecommons.org/licenses/by-sa/4.0/"/>
-        <acdh:hasTitle>Register</acdh:hasTitle>
-        <acdh:hasDescription>Diverse XML/TEI kodierte Register Dokumente zu den Kongressen von Aachen (1818), Troppau (1820), Laibach (1821) und Verona (1822)</acdh:hasDescription>
         <acdh:hasCreator>
             <acdh:Person rdf:about="http://d-nb.info/gnd/13281899X"/>
         </acdh:hasCreator>
         <acdh:isPartOf rdf:resource="https://id.acdh.oeaw.ac.at/kongress"/>
     </acdh:Collection>
 
-    <acdh:Collection rdf:about="https://id.acdh.oeaw.ac.at/kongress/utils">
+    <acdh:Collection rdf:about="https://id.acdh.oeaw.ac.at/maechtekongresse/editions">
+        <acdh:hasLicense rdf:resource="https://creativecommons.org/licenses/by-sa/4.0/"/>
+        <acdh:hasTitle>Editionsdaten</acdh:hasTitle>
+        <acdh:hasDescription>XML/TEI-kodierte Dokumente zu den Kongressen von Aachen (1818), Troppau (1820), Laibach (1821) und Verona (1822)</acdh:hasDescription>
+        <acdh:hasCreator>
+            <acdh:Person rdf:about="http://d-nb.info/gnd/136442196"/>
+        </acdh:hasCreator>
+        <acdh:hasContributor>
+            <acdh:Person rdf:about="http://d-nb.info/gnd/13281899X"/>
+        </acdh:hasContributor>
+        <acdh:isPartOf rdf:resource="https://id.acdh.oeaw.ac.at/kongress"/>
+    </acdh:Collection>
+
+    <acdh:Collection rdf:about="https://id.acdh.oeaw.ac.at/maechtekongresse/indices">
+        <acdh:hasLicense rdf:resource="https://creativecommons.org/licenses/by-sa/4.0/"/>
+        <acdh:hasTitle>Register</acdh:hasTitle>
+        <acdh:hasDescription>XML/TEI-kodierte Register zu den Dokumenten zu den Kongressen von Aachen (1818), Troppau (1820), Laibach (1821) und Verona (1822)</acdh:hasDescription>
+        <acdh:hasCreator>
+            <acdh:Person rdf:about="http://d-nb.info/gnd/13281899X"/>
+        </acdh:hasCreator>
+        <acdh:hasCreator>
+            <acdh:Person rdf:about="http://d-nb.info/gnd/136442196"/>
+        </acdh:hasCreator>
+        <acdh:isPartOf rdf:resource="https://id.acdh.oeaw.ac.at/kongress"/>
+    </acdh:Collection>
+
+    <acdh:Collection rdf:about="https://id.acdh.oeaw.ac.at/maechtekongresse/utils">
         <acdh:hasLicense rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
         <acdh:hasTitle>Utility Files</acdh:hasTitle>
         <acdh:hasDescription>XSL-Stylesheets</acdh:hasDescription>
@@ -120,7 +130,7 @@
         <acdh:isPartOf rdf:resource="https://id.acdh.oeaw.ac.at/kongress"/>
     </acdh:Collection>
     
-    <acdh:Resource rdf:about="https://id.acdh.oeaw.ac.at/kongress/utils/tei2html.xsl">
+    <acdh:Resource rdf:about="https://id.acdh.oeaw.ac.at/maechtekongresse/utils/tei2html.xsl">
         <acdh:hasTitle>XSL to transform XML/TEI to HTML</acdh:hasTitle>
         <acdh:hasCreator>
             <acdh:Person rdf:about="http://d-nb.info/gnd/1043833846"/>

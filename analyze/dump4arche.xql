@@ -28,10 +28,10 @@ let $childCollections_av_dates := for $x in $childCollections
                 <acdh:Person rdf:about="http://d-nb.info/gnd/136442196"/>
             </acdh:hasContact>
             <acdh:hasMetadataCreator>
-                <acdh:Person rdf:about="http://d-nb.info/gnd/1043833846"/>
+                <acdh:Person rdf:about="http://d-nb.info/gnd/13281899X"/>
             </acdh:hasMetadataCreator>
             <acdh:hasCurator>
-                <acdh:Person rdf:about="http://d-nb.info/gnd/1043833846"/>
+                <acdh:Person rdf:about="http://d-nb.info/gnd/13281899X"/>
             </acdh:hasCurator>
             <acdh:hasDepositor>
                 <acdh:Person rdf:about="http://d-nb.info/gnd/1043833846"/>
@@ -51,7 +51,7 @@ let $avail_date :=
     <acdh:hasAvailableDate>{$current_date}</acdh:hasAvailableDate>
 
 let $col_avail_date :=
-    <acdh:Collection rdf:about="https://id.acdh.oeaw.ac.at/kongress">
+    <acdh:Collection rdf:about="https://id.acdh.oeaw.ac.at/maechtekongresse">
         {$avail_date}
         {$license}
     </acdh:Collection>
@@ -91,10 +91,13 @@ let $RDF :=
                         <acdh:hasTitle>{$doc}</acdh:hasTitle>
                     }
                
-               let $startDate := if($collName = "editions" and data($node//tei:date/@when)[1] castable as xs:date) then 
-                    <acdh:hasCoverageStartDate>{data($node//tei:date/@when)[1]}</acdh:hasCoverageStartDate>
+               let $startDate := if($collName = "editions" and data($node//tei:origin[1]/tei:date/@when)[1] castable as xs:date) then 
+                    <acdh:hasCoverageStartDate>{data($node//tei:origin[1]/tei:date/@when)[1]}</acdh:hasCoverageStartDate>
                     else ()
-               
+               let $endDate := if($collName = "editions" and data($node//tei:origin[last()]/tei:date/@when)[last()] castable as xs:date) then 
+                    <acdh:hasCoverageEndDate>{data($node//tei:origin[last()]/tei:date/@when)[last()]}</acdh:hasCoverageEndDate>
+                    else ()
+
                let $description := if ($node//tei:abstract//text()) then
                     <acdh:hasDescription>{normalize-space(string-join($node//tei:abstract//text()))}</acdh:hasDescription>
                     else ()
@@ -166,19 +169,19 @@ let $RDF :=
                          else if($collName = 'meta') then
                          <acdh:authors>
                             <acdh:hasCreator>
-                                <acdh:Person rdf:about="http://d-nb.info/gnd/136442196"/>
+                                <acdh:Person rdf:about="http://d-nb.info/gnd/13281899X"/>
                             </acdh:hasCreator>
                             <acdh:hasContributor>
-                                <acdh:Person rdf:about="http://d-nb.info/gnd/13281899X"/>
+                                <acdh:Person rdf:about="http://d-nb.info/gnd/136442196"/>
                             </acdh:hasContributor>
                           </acdh:authors>
                            else if($collName = 'indices') then
                          <acdh:authors>
                             <acdh:hasCreator>
-                                <acdh:Person rdf:about="http://d-nb.info/gnd/136442196"/>
+                                <acdh:Person rdf:about="http://d-nb.info/gnd/13281899X"/>
                             </acdh:hasCreator>
                             <acdh:hasContributor>
-                                <acdh:Person rdf:about="http://d-nb.info/gnd/13281899X"/>
+                                <acdh:Person rdf:about="http://d-nb.info/gnd/136442196"/>
                             </acdh:hasContributor>
                           </acdh:authors>
                           else
@@ -198,6 +201,7 @@ let $RDF :=
                          {$title}
                          {$pid}
                          {$startDate}
+                         {$endDate}
                          {$description}
                          {$persons}
                          {$places}
@@ -208,15 +212,15 @@ let $RDF :=
                          {$prev}
                          {$next}
                          <acdh:hasDissService rdf:resource="https://id.acdh.oeaw.ac.at/dissemination/customTEI2HTML"/>
-                         <acdh:hasCustomXSL rdf:resource="https://id.acdh.oeaw.ac.at/kongress/utils/tei2html.xsl"/>
+                         <acdh:hasCustomXSL rdf:resource="https://id.acdh.oeaw.ac.at/maechtekongresse/utils/tei2html.xsl"/>
                          <acdh:hasSchema>https://www.tei-c.org/release/xml/tei/schema/relaxng/tei.rng</acdh:hasSchema>
                          <acdh:hasLicense rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
                          <acdh:isPartOf rdf:resource="{$collID}"/>
                          <acdh:hasMetadataCreator>
-                              <acdh:Person rdf:about="http://d-nb.info/gnd/1043833846"/>
+                              <acdh:Person rdf:about="http://d-nb.info/gnd/13281899X"/>
                          </acdh:hasMetadataCreator>
                          <acdh:hasCurator>
-                             <acdh:Person rdf:about="http://d-nb.info/gnd/1043833846"/>
+                             <acdh:Person rdf:about="http://d-nb.info/gnd/13281899X"/>
                          </acdh:hasCurator>
                          <acdh:hasDepositor>
                              <acdh:Person rdf:about="http://d-nb.info/gnd/1043833846"/>

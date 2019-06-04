@@ -7,7 +7,8 @@
                 <author>
                     <persName ref="#SK">
                         <forename>Stephan</forename>
-                        <surname>Kurz</surname></persName>
+                        <surname>Kurz</surname>
+                    </persName>
                 </author>
                 <editor role="Technical_Editor">
                     <persName ref="http://d-nb.info/gnd/13281899X" xml:id="SK">
@@ -102,6 +103,9 @@
                     <head>Versionsgeschichte</head>
                     <list>
                         <item>
+                            <date when="2019-06-04">2019-06-04</date> ISBN-Nummer hinzugefügt
+                        </item>
+                        <item>
                             <date when="2019-04-11">2019-04-11</date> Version 1.2 mit verbessertem Whitespace-Handling
                         </item>
                         <item>
@@ -148,7 +152,7 @@
                             Überschriften aus der Trebuchet MS</item>
                         <label>XSL-Transformation</label>
                         <item>Stephan Kurz, aufbauend auf umfangreichen Vorarbeiten von Peter
-                            Andorfer und Dario Kampkaspar (siehe die Dateien in <ref type="URI" target="../resources/xslt">$approot/resources/xslt</ref>)</item>
+                            Andorfer und Dario Kampkaspar (siehe die Dateien in <ref type="URI" target="../resources/xslt">/resources/xslt</ref>)</item>
                         <label>Zeitleiste</label>
                         <item>
                             <ref type="URI" target="http://visjs.org/">vis.js</ref>
@@ -167,7 +171,8 @@
                         <label>Lizenzen</label>
                         <item>Editionstext: CC-BY-SA 4.0, Software, Applikation: MIT Lizenz</item>
                         <label>Langzeitarchivierung der TEI-Daten</label>
-                        <item>ARCHE (in Vorbereitung)</item>
+                        <item>ARCHE via <ref type="URI" target="https://id.acdh.oeaw.ac.at/maechtekongresse/">https://id.acdh.oeaw.ac.at/maechtekongresse/</ref>
+                        </item>
                         <label>Archivierung und Zugänglichkeit der Applikationsdaten</label>
                         <item>GitHub über KONDE-AT (in Vorbereitung)</item>
                     </list>
@@ -179,6 +184,19 @@
                             Schneider</ref>, INZ</p>
                     <p>Technischer Support: <ref type="URI" target="https://www.oeaw.ac.at/acdh/">ACDH-ÖAW</ref>
                     </p>
+                </div>
+                <div xml:id="identification">
+                    <head>Identifikatoren</head>
+                    <list type="gloss">
+                        <label>ISBN</label>
+                        <item>
+                            <idno type="ISBN">978-3-9504783-0-3</idno>
+                        </item>
+                        <label>Handle</label>
+                        <item>
+                            <idno type="hdl"/>
+                        </item>
+                    </list>
                 </div>
             </div>
         </body>
