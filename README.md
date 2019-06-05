@@ -1,6 +1,8 @@
-# kongress
+# maechtekongresse
 
-git repo for first draft of web app; internal use only
+Public Repo for the digital edition of the Mächtekongresse Edition by Karin Schneider and Stephan Kurz, Austrian Academy of Sciences, Institute for Modern and Contemporary Historical Research.
 
-20180523 currently the edition data is in the same repo. this should be corrected in a next step. 
-While going through https://redmine.acdh.oeaw.ac.at/issues/11072 this will be added as a subtask.
+Application derived from an earlier version of <https://github.com/KONDE-AT/dsebaseapp>.
+
+Data in `data` is licenced under CC-BY-SA 4.0 as stated in the TEI files. 
+
