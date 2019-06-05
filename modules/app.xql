@@ -482,7 +482,7 @@ let $filterstring := (request:get-parameter("filterstring", ""))
             else
                 collection(concat($config:app-root, '/data/editions/'))//tei:TEI
     for $title in $docs
-        let $idno := $title//tei:publicationStmt/tei:idno//translate(text(),'_',' ')
+        let $idno := $title//tei:publicationStmt/tei:idno[1]//translate(text(),'_',' ')
         let $docTitle := string-join(root($title)//tei:titleStmt/tei:title[@type='main']//text(), ' ')
         let $datum := if ($title//tei:msDesc[1]//tei:origin[1]/tei:date[1]/@when)
             then data($title//tei:msDesc[1]//tei:origin[1]/tei:date[1]/@when)(:/format-date(xs:date(@when), '[D02].[M02].[Y0001]')):)
