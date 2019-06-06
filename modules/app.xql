@@ -525,7 +525,7 @@ declare function app:Pagination($doc as node(), $fileIndex as node(), $sourceFil
 };
 
 
-declare %private function app:related-docs($xmlPath as xs:string) {
+declare function app:related-docs($xmlPath as xs:string) {
     let $doc-name := util:document-name($xmlPath)
     let $doc-name-filter := substring-before($doc-name,'_')
     return
