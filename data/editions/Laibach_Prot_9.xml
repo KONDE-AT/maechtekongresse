@@ -1806,13 +1806,492 @@
             <p>Recevez, Monsieur, les assurances de ma très-parfaite considération.</p>
          </div>
       </body>
-      <back>
-         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../indices/listplace.xml" xpointer="listPlace"/>
-         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../indices/listperson.xml" xpointer="listPerson"/>
-         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../indices/listwit.xml" xpointer="listWit"/>
-         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../indices/listorg.xml" xpointer="listOrg"/>
-         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../indices/listtreaties.xml" xpointer="listTreaties"/>
-
-      </back>
-   </text>
+      
+   <back>
+            <listPerson>
+                <person xml:id="p.6">
+                    <persName>
+                        <forename>Nikolaus</forename>
+                        <surname>Wacken</surname>
+                    </persName>
+                    <death>1834</death>
+                    <note>Kompilator, Protokollführer; vgl. zu seiner Person Schneider, Werner,
+                        Europa in Wien, S. 207.</note>
+                    <idno type="URI">https://viaf.org/viaf/309696450/</idno>
+                </person>
+                <person xml:id="p.164">
+                    <persName>
+                        <forename>Giuseppe</forename>
+                        <surname>Spina</surname>
+                    </persName>
+                    <birth>1756</birth>
+                    <death>1828</death>
+                    <note>Kardinal und Vertreter des Kirchenstaats auf den Kongressen von Laibach
+                        und Verona; vgl. zu seiner Person Miranda, Spina, Giuseppe. In: The
+                        Cardinals of the Holy Roman Church, auf <ref target="http://webdept.fiu.edu/~mirandas/bios1801.htm#Spina">http://webdept.fiu.edu/~mirandas/bios1801.htm#Spina</ref> (eingesehen
+                        am 3. August 2017).</note>
+                    <idno type="URI">http://viaf.org/viaf/89055289/</idno>
+                </person>
+                <person xml:id="p.14">
+                    <persName>
+                        <forename>Ioannis Antonis</forename>
+                        <roleName>Graf</roleName>
+                        <surname>Kapodistrias/Capodistrias</surname>
+                    </persName>
+                    <birth>1776</birth>
+                    <death>1831</death>
+                    <note>Russischer Außenminister, Bevollmächtigter Russlands; vgl. zu seiner
+                        Person Woodhouse, Capodistrias; Grimsted, The Foreign Ministers, S. 226–268;
+                        Schneider, Werner, Europa in Wien, S. 199–200.</note>
+                    <idno type="URI">https://viaf.org/viaf/39507057/</idno>
+                </person>
+                <person xml:id="p.137">
+                    <persName>
+                        <forename>Charles William</forename>
+                        <surname>Stewart Vane</surname>
+                        <roleName>Lord Stewart</roleName>
+                        
+                    </persName>
+                    <birth>1778</birth>
+                    <death>1854</death>
+                    <note>Britischer Botschafter in Wien, Mitglied der britischen Delegation bei den
+                        Kongress von Troppau, Laibach und Verona, ab 1822 Charles William Vane, 3<hi rendition="#su">rd</hi> Marquess of Londonderry vgl. zu seiner Person
+                        Lloyd, Heersom, Vane [formerly Stewart], Charles William. In: ODNB, Bd. 56,
+                        S. 95–98; Schneider, Werner, Europa in Wien, S. 292–293.</note>
+                    <idno type="URI">https://viaf.org/viaf/8284837/</idno>
+                </person>
+                <person xml:id="p.144">
+                    <persName>
+                        <forename>Karl</forename>
+                        <surname>von Menz</surname>
+                    </persName>
+                    <birth>1780</birth>
+                    <death>1847</death>
+                    <note>Österreichischer chargé d’affaires in Neapel; vgl. Matsch, Der auswärtige
+                        Dienst, S. 128.</note>
+                    <idno type="URI">https://viaf.org/viaf/160546908/</idno>
+                </person>
+                <person xml:id="p.148">
+                    <persName>
+                        <forename>Friedrich Wilhelm Basilius</forename>
+                        <surname>von Ramdohr</surname>
+                    </persName>
+                    <birth>1757</birth>
+                    <death>1822</death>
+                    <note>Preußischer Gesandter in Neapel; vgl. zu seiner Person Frensdorff,
+                        Ramdohr, Friedrich Wilhelm Basilius von. In: ADB, Bd. 27, S. 210–212.</note>
+                    <idno type="URI">http://viaf.org/viaf/100206277/</idno>
+                </person>
+                <person xml:id="p.149">
+                    <persName>
+                        <forename>Gustav Ernst</forename>
+                        <roleName>Graf</roleName>
+                        <surname>von Stackelberg</surname>
+                    </persName>
+                    <birth>1766</birth>
+                    <death>1850</death>
+                    <note>Russischer Gesandter in Neapel; vgl. zu seiner Person Stackelberg, Gustav
+                        Ernst Gf. v. In: Baltisches Biographisches Lexikon, S. 748–749; Schneider,
+                        Werner, Europa in Wien, S. 288.</note>
+                    <idno type="URI">http://viaf.org/viaf/37699259/</idno>
+                </person>
+                <person xml:id="p.162">
+                    <persName>
+                        <forename>Anne Louis Gabriel</forename>
+                        <roleName>vicomte</roleName>
+                        <surname>de Fontenay</surname>
+                    </persName>
+                    <birth>1784</birth>
+                    <death>1855</death>
+                    <note>1821 Chargé d’affaires in Neapel.</note>
+                </person>
+                <person xml:id="p.138">
+                    <persName>
+                        <surname>Ferdinand/Ferdinando I.</surname>
+                        <roleName>König beider Sizilien</roleName>
+                    </persName>
+                    <birth>1751</birth>
+                    <death>1825</death>
+                    <note>1759-1806 Ferdinand IV. von Neapel, 1769-1815 Ferdinand III. von Sizilien,
+                        ab 1815/16 König beider Sizilien vgl. de Maio, Ferdinando I di Bourbone, re
+                        delle due Sicilie, auf <ref target="http://www.treccani.it/enciclopedia/ferdinando-i-di-borbone-re-delle-due-sicilie_(Dizionario-Biografico">http://www.treccani.it/enciclopedia/ferdinando-i-di-borbone-re-delle-due-sicilie_(Dizionario-Biografico</ref>)
+                        (eingesehen am 31. Juli 2017).</note>
+                    <idno type="URI">https://viaf.org/viaf/16073751/</idno>
+                </person>
+                <person xml:id="p.141">
+                    <persName>
+                        <surname>Franz/Francesco</surname>
+                        <roleName>duca di Calabria</roleName>
+                    </persName>
+                    <birth>1777</birth>
+                    <death>1830</death>
+                    <note>Ab 1825 Franz/Francesco I., König beider Sizilien; vgl. zu seiner Person
+                        de Majo, Francesco I di Borbone, re delle Due Sicilie, auf <ref target="http://www.treccani.it/enciclopedia/francesco-i-di-borbone-re-delle-due-sicilie_(Dizionario-Biografico)/">http://www.treccani.it/enciclopedia/francesco-i-di-borbone-re-delle-due-sicilie_(Dizionario-Biografico)/</ref>
+                        (eingesehen am 31. Juli 2017).</note>
+                    <idno type="URI">https://viaf.org/viaf/268727865/</idno>
+                </person>
+                <person xml:id="p.167">
+                    <persName>
+                        <forename>Cesare Ambrogio</forename>
+                        <surname>San Martino</surname>
+                        <roleName>conte di Aglié</roleName>
+                    </persName>
+                    <birth>1770</birth>
+                    <death>1847</death>
+                    <note>Vertreter des Königreichs Sardinien-Piemont auf dem Kongress von Laibach;
+                        vgl. zu seiner Person Baudi di Vesme, Aglié, Cesare Ambrogio San Martino
+                        conte di, auf <ref target="http://www.treccani.it/enciclopedia/cesare-ambrogio-san-martino-conte-di-aglie_%28Dizionario-Biografico%29/">http://www.treccani.it/enciclopedia/cesare-ambrogio-san-martino-conte-di-aglie_%28Dizionario-Biografico%29/</ref>
+                        (eingesehen am 11. Dezember 2017).</note>
+                </person>
+                <person xml:id="p.12">
+                    <persName>
+                        <forename>Christian Günther</forename>
+                        <roleName>Graf</roleName>
+                        <surname>von Bernstorff</surname>
+                    </persName>
+                    <birth>1769</birth>
+                    <death>1835</death>
+                    <note>Preußischer Außenminister, Bevollmächtigter Preußens; vgl. zu seiner
+                        Person Kellenbenz, Bernstorff, Christian Graf von. In: NDB, Bd. 2, S.
+                        139–140; Schneider, Werner, Europa in Wien, S. 116–117.</note>
+                    <idno type="URI">https://viaf.org/viaf/49969175/</idno>
+                </person>
+                <person xml:id="p.160">
+                    <persName>
+                        <forename>Pierre Louis Jean Casimir</forename>
+                        <roleName>comte</roleName>
+                        <surname>Blacas d’Aulps</surname>
+                    </persName>
+                    <birth>1770</birth>
+                    <birth>1771</birth>
+                    <death>1839</death>
+                    <note>Vgl. zu seiner Person Michaud, Biographie universelle, Bd. 4, S.
+                        381–385.</note>
+                    <idno type="URI">http://viaf.org/viaf/20825975/</idno>
+                </person>
+                <person xml:id="p.102">
+                    <persName>
+                        <forename>Louis Charles Victor</forename>
+                        <surname>de Riquet</surname>
+                        <roleName>marquis de Caraman</roleName>
+                    </persName>
+                    <birth>1762</birth>
+                    <death>1839</death>
+                    <note>1818 Gesandter Frankreichs in London, 1820 Gesandter Frankreichs in Wien,
+                        1820/21 Vertreter Frankreichs auf den Kongressen von Troppau, Laibach und
+                        Verona; vgl. zu seiner Person Michaud, Biographie Universelle, Bd. 6, S.
+                        630–631.</note>
+                    <idno type="URI">https://viaf.org/viaf/2675/</idno>
+                </person>
+                <person xml:id="p.168">
+                    <persName>
+                        <forename>Neri</forename>
+                        <roleName>principe</roleName>
+                        <surname>Corsini</surname>
+                    </persName>
+                    <birth>1771</birth>
+                    <death>1845</death>
+                    <note>Vertreter des Großherzogtums Toskana auf dem Kongress von Laibach; vgl. zu
+                        seiner Person Danelon Vasoli, Corsini, Neri, auf <ref target="http://www.treccani.it/enciclopedia/neri-corsini_res-586301db-87eb-11dc-8e9d-0016357eee51_%28Dizionario-Biografico%29/">http://www.treccani.it/enciclopedia/neri-corsini_res-586301db-87eb-11dc-8e9d-0016357eee51_%28Dizionario-Biografico%29/</ref>
+                        (eingesehen am 3. August 2017); Schneider, Werner, Europa in Wien, S.
+                        138–139.</note>
+                </person>
+                <person xml:id="p.135">
+                    <persName>
+                        <forename>Auguste</forename>
+                        <surname>Ferron</surname>
+                        <roleName>comte de La Ferronnays</roleName>
+                    </persName>
+                    <birth>1777</birth>
+                    <death>1842</death>
+                    <note>Französischer Botschafter in St. Petersburg, Mitglied der französischen
+                        Delegation in Troppau und Verona; vgl. zu seiner Person Michaud, Biographie
+                        Universelle, Bd. 14, S. 24–25.</note>
+                    <idno type="URI">https://viaf.org/viaf/2463675/</idno>
+                </person>
+                <person xml:id="p.161">
+                    <persName>
+                        <roleName>Sir</roleName>
+                        <forename>Robert</forename>
+                        <surname>Gordon</surname>
+                    </persName>
+                    <birth>1791</birth>
+                    <death>1847</death>
+                    <note>1821 Mitarbeiter der britischen Botschaft in Wien; vgl. zu seiner Person
+                        Chamberlain, Gordon, Sir Robert. In: ODNB, Bd. 22, S. 957-959.</note>
+                </person>
+                <person xml:id="p.8">
+                    <persName>
+                        <surname>Metternich</surname>
+                        <forename>Clemens Wenzel Lothar</forename>
+                        <roleName>Fürst</roleName>
+                    </persName>
+                    <birth>1773</birth>
+                    <death>1859</death>
+                    <note>Österreichischer Außenminister, ab 1821 österreichischer Haus-, Hof- und
+                        Staatskanzler; vgl. zu seiner Person Siemann, Metternich; Šedivý,
+                        Metternich; Srbik, Metternich; Schneider, Werner, Europa in Wien, S.
+                        237–239.</note>
+                    <idno type="URI">https://viaf.org/viaf/49258230/</idno>
+                </person>
+                <person xml:id="p.165">
+                    <persName>
+                        <forename>Guiseppe</forename>
+                        <roleName>marchese</roleName>
+                        <surname>Molza</surname>
+                    </persName>
+                    <birth>1782</birth>
+                    <death>1861</death>
+                    <note>Vertreter Modenas auf den Kongressen von Laibach und Verona; vgl. zu
+                        seiner Person Fazzini, Molza, Giuseppe, auf <ref target="http://www.treccani.it/enciclopedia/giuseppe-molza_%28Dizionario-Biografico%29/">http://www.treccani.it/enciclopedia/giuseppe-molza_%28Dizionario-Biografico%29/</ref>
+                        (eingesehen am 3. August 2017).</note>
+                </person>
+                <person xml:id="p.13">
+                    <persName>
+                        <forename>Karl Robert</forename>
+                        <roleName>Graf</roleName>
+                        <surname>von Nesselrode</surname>
+                    </persName>
+                    <birth>1780</birth>
+                    <death>1862</death>
+                    <note>Russischer Außenminister, Bevollmächtigter Russlands; vgl. zu seiner
+                        Person Eich, Nesselrode, Robert Graf von. In: NDB, Bd. 19, S. 74–75;
+                        Grimsted, The Foreign Ministers, S. 194–225, 269–286; Schneider, Werner,
+                        Europa in Wien, S. 248–249.</note>
+                    <idno type="URI">https://viaf.org/viaf/49992065/</idno>
+                </person>
+                <person xml:id="p.7">
+                    <persName>
+                        <forename>Carlo Andrea</forename>
+                        <surname>Pozzo di Borgo</surname>
+                    </persName>
+                    <birth>1764</birth>
+                    <death>1842</death>
+                    <note>Russischer Gesandter in Paris; vgl. zu seiner Person Capefigue, Les
+                        diplomates européens, S. 123–189; Schneider, Werner, Europa in Wien, S.
+                        260–261.</note>
+                    <idno type="URI">https://viaf.org/viaf/10593226/</idno>
+                </person>
+                <person xml:id="p.140">
+                    <persName>
+                        <forename>Alvaro</forename>
+                        <surname>Ruffo</surname>
+                        <roleName>dei principi della Scaletta</roleName>
+                    </persName>
+                    <birth>1754</birth>
+                    <death>1825</death>
+                    <note>Botschafter des Königreichs beider Sizilien in Wien; vgl. Schneider,
+                        Werner, Europa in Wien, S. 268–269.</note>
+                    <idno type="URI">https://viaf.org/viaf/259506628/</idno>
+                </person>
+                <person xml:id="p.166">
+                    <persName>
+                        <forename>Filippo Antonio</forename>
+                        <roleName>marchese</roleName>
+                        <surname>de Asinari di San Marzano</surname>
+                    </persName>
+                    <birth>1761</birth>
+                    <death>1828</death>
+                    <note>Vertreter des Königreichs Sardinien-Piemont auf dem Kongress von Laibach;
+                        vgl. zu seiner Person Schneider, Werner, Europa in Wien, S. 273.</note>
+                    <idno type="URI">http://viaf.org/viaf/181145542653596641885/</idno>
+                </person>
+                <person xml:id="p.2">
+                    <persName>
+                        <forename>Karl</forename>
+                        <surname>von Vincent</surname>
+                    </persName>
+                    <birth>1757</birth>
+                    <death>1834</death>
+                    <note>Österreichischer Gesandter in Paris; vgl. zu seiner Person Schlitter,
+                        Vincent, Karl Freiherr von. In: ADB, Bd. 39, S 732–734.</note>
+                    <idno type="URI">https://viaf.org/viaf/95669732/</idno>
+                </person>
+                <person xml:id="p.155">
+                    <persName>
+                        <roleName>Papst</roleName>
+                        <surname>Pius VII.</surname>
+                    </persName>
+                    <birth>1742</birth>
+                    <death>1823</death>
+                    <note>Vgl. Boutry, Pio VII, auf <ref target="http://www.treccani.it/enciclopedia/pio-vii_(Enciclopedia-dei-Papi)/">http://www.treccani.it/enciclopedia/pio-vii_(Enciclopedia-dei-Papi)/</ref>
+                        (eingesehen am 19. Juni 2017).</note>
+                    <idno type="URI">https://viaf.org/viaf/98122431/</idno>
+                </person>
+                <person xml:id="p.130">
+                    <persName>
+                        <surname>George IV.</surname>
+                        <roleName>König des Vereinigten Königreichs Großbritannien und Irland, König
+                            von Hannover</roleName>
+                    </persName>
+                    <birth>1762</birth>
+                    <death>1830</death>
+                    <note>Zwischen 1811 und 1820 Prinzregent; vgl. zu seiner Person Hibbert, George
+                        IV. In: ODNB, Bd. 21, S. 856–864; Smith, George IV.</note>
+                    <idno type="URI">https://viaf.org/viaf/265481029/</idno>
+                </person>
+                <person xml:id="p.16">
+                    <persName>
+                        <surname>Franz I.</surname>
+                        <roleName>Kaiser von Österreich</roleName>
+                    </persName>
+                    <birth>1768</birth>
+                    <death>1835</death>
+                    <note>Vgl. Mikoletzky, Franz II. (I.); Schneider, Werner, Europa in Wien, S.
+                        154–155; Ziegler, Franz II./I.</note>
+                    <idno type="URI">https://viaf.org/viaf/36912131/</idno>
+                </person>
+                <person xml:id="p.18">
+                    <persName>
+                        <surname>Friedrich Wilhelm III.</surname>
+                        <roleName>König von Preußen</roleName>
+                    </persName>
+                    <birth>1770</birth>
+                    <death>1840</death>
+                    <note>Vgl. Stamm-Kuhlmann, König in Preußens großer Zeit; Ders., Friedrich
+                        Wilhelm III; Schneider, Werner, Europa in Wien, S. 161–162.</note>
+                    <idno type="URI">https://viaf.org/viaf/774683/</idno>
+                </person>
+                <person xml:id="p.17">
+                    <persName>
+                        <surname>Alexander I.</surname>
+                        <roleName>Zar von Russland</roleName>
+                    </persName>
+                    <birth>1777</birth>
+                    <death>1825</death>
+                    <note>Vgl. Rey, Alexander I.; Schneider, Werner, Europa in Wien, S.
+                        100–102.</note>
+                    <idno type="URI">https://viaf.org/viaf/4938543/</idno>
+                </person>
+                <person xml:id="p.5">
+                    <persName>
+                        <forename>Friedrich</forename>
+                        <surname>Gentz</surname>
+                    </persName>
+                    <birth>1764</birth>
+                    <death>1832</death>
+                    <note>Protokollführer; vgl. zu seiner Person Kronenbitter, Wort und Macht;
+                        Cahen, Gentz; Mann, Friedrich von Gentz; Schneider, Werner, Europa in Wien,
+                        S. 169–170.</note>
+                    <idno type="URI">https://viaf.org/viaf/2522018/</idno>
+                </person>
+                <person xml:id="p.142">
+                    <persName>
+                        <forename>Marzio</forename>
+                        <surname>Mastrilli</surname>
+                        <roleName>duca di Gallo</roleName>
+                    </persName>
+                    <birth>1753</birth>
+                    <death>1833</death>
+                    <note>Vgl. zu seiner Person Sperber, Mastrilli Marzio, auf <ref target="http://www.treccani.it/enciclopedia/marzio-mastrilli_(Dizionario-Biografico">http://www.treccani.it/enciclopedia/marzio-mastrilli_(Dizionario-Biografico</ref>
+                        (eingesehen am 31. Juli 2017).</note>
+                    <idno type="URI">https://viaf.org/viaf/188669354/</idno>
+                </person>
+                <person xml:id="p.15">
+                    <persName>
+                        <surname>Ludwig/Louis XVIII.</surname>
+                        <roleName> König von Frankreich</roleName>
+                    </persName>
+                    <birth>1755</birth>
+                    <death>1824</death>
+                    <note>Vgl. Malettke, Die Bourbonen; Thamer, Ludwig XVIII.; Mansel, Louis
+                        XVIII.</note>
+                    <idno type="URI">https://viaf.org/viaf/84035484/</idno>
+                </person>
+                <person xml:id="p.163">
+                    <persName>
+                        <forename>Pierre/Pjotr Jakowlewitsch</forename>
+                        <surname>de Oubril/Ubri</surname>
+                    </persName>
+                    
+                    <birth>1774</birth>
+                    <death>1847</death>
+                    <note>Russischer Staatsrat; vgl. zu seiner Person den Eintrag zu Oubril Peter in
+                        der Erik-Amburger-Datenbank (Ausländer im vorrevolutionären Russland) auf
+                            <ref target="http://dokumente.ios-regensburg.de/amburger/?id=87537">http://dokumente.ios-regensburg.de/amburger/?id=87537</ref> (eingesehen
+                        am 4. August 2017).</note>
+                    <idno type="URI">http://viaf.org/viaf/42619603/</idno>
+                </person>
+                <person xml:id="p.146">
+                    <persName>
+                        <forename>William</forename>
+                        <surname>A’Court</surname>
+                        <roleName>1<hi rendition="#su">st</hi> Baron Heytesbury</roleName>
+                    </persName>
+                    <birth>1779</birth>
+                    <death>1860</death>
+                    <note>1820 britischer Botschafter in Neapel, 1822 britischer Botschafter in
+                        Madrid; vgl. zu seiner Person Chamberlain, A’Court, William, first Baron
+                        Heytesbury. In: ODNB, Bd. 1, S. 162–163.</note>
+                    <idno type="URI">http://viaf.org/viaf/315945654/</idno>
+                </person>
+            </listPerson>
+            <listPlace>
+                <place xml:id="loc.65">
+               <placeName>Laibach</placeName>
+               <placeName>Laybach</placeName>
+               <placeName>Ljubljana</placeName>
+               <location>
+                        <geo>46.05108 14.50513</geo>
+                    </location>
+                    <idno type="URI">http://www.geonames.org/3196359/</idno>
+            </place>
+                <place xml:id="loc.60">
+               <placeName>Troppau</placeName>
+               <placeName>Opava</placeName>
+               <location>
+                        <geo>49.93866 17.90257</geo>
+                    </location>
+                    <idno type="URI">http://www.geonames.org/3068927/</idno>
+            </place>
+                <place xml:id="loc.11">
+                <placeName>Neapel</placeName>
+               <placeName>Naples</placeName>
+               
+               <location>
+                        <geo>40.85216 14.26811</geo>
+                    </location>
+                    <idno type="URI">http://www.geonames.org/3172394/</idno>
+            </place>
+            </listPlace>
+            <listBibl>
+                <bibl xml:id="t.12">Wiener Kongressakte vom 9. Juni 1815; vgl. Klüber, Acten, Bd. 6, S.
+               12–208; Angeberg, Congrès, Bd. 2, S. 1386–1433; Martens, Nouveau Recueil, Bd. 2, S.
+               361–430; BFSP Bd. 2 (1814/15), S 3–180; <ref target="http://www.staatsvertraege.de/Frieden1814-15/wka1815-i.htm">http://www.staatsvertraege.de/Frieden1814-15/wka1815-i.htm</ref> (eingesehen am
+               15. November 2012).</bibl>
+                <bibl xml:id="t.9">Heilige Allianz, abgeschlossen zwischen den Herrschern Österreichs,
+               Preußens und Russlands am 26. September 1815; vgl. Angeberg, Congrès, Bd. 2, S.
+               1547–1549; Huber, Dokumente zur Deutschen Verfassungsgeschichte, Bd. 1, S. 83–84;
+               Martens, Nouveau Recueil, Bd. 2, S. 656–658; Näf, Europapolitik, S. 5–11; Näf,
+               Geschichte der Heiligen Allianz.</bibl>
+                <bibl xml:id="t.6">Quadrupelallianz zwischen Österreich, Großbritannien, Preußen und
+               Russland, Paris 20. November 1815; vgl. Näf, Europapolitik, S. 12–15; Martens,
+               Supplément au Recueil, Bd. 6, S. 734–738; Angeberg, Congrès, Bd. 4, S. 1636–1639;
+               BFSP Bd. 3 (1815/16), S. 273–280.</bibl>
+                <bibl xml:id="t.1">Zweiter Pariser Frieden zwischen Österreich, Großbritannien, Preußen und Russland auf der
+               einen, Frankreich auf der anderen Seite, Paris 20. November 1815; vgl. BFSP Bd. 3 (1815/16), S. 280–293;
+               Grewe, Fontes, Bd. 3/1, S. 10–18; Clercq, Recueil, Bd. 2, S. 642–650; Martens,
+               Nouveau Recueil, Bd. 2, S. 682–691; <ref target="http://www.staatsvertraege.de/Frieden1814-15/2pfv1815-i.htm">http://www.staatsvertraege.de/Frieden1814-15/2pfv1815-i.htm</ref> (deutsch; eingesehen
+               am 31. Oktober 2012).</bibl>
+                <bibl xml:id="t.42">Protokoll, Aachen 15. November 1818, mit welchem Frankreich wieder
+               in das Konzert der Mächte aufgenommen wird, sowie die entsprechende Deklaration;
+               vgl. für das Protokoll Meyer, Staats-Acten, S. 275–276; Grewe, Fontes, Bd. 3/1, S.
+               104–106; de Clercq, Recueil, Bd. 3, S. 175–176; BFSP Bd. 6 (1818/19), S. 14–15;
+               Angeberg, Congrès, Bd. 3, S. 1755–1756; Näf (Hg.) Europapolitik, S. 22–23, Bertier de
+               Sauvigny, Sainte-Alliance, S. 148–150, für die Deklaration BFSP Bd. 6 (1818/19), S.
+               18–20; de Clercq, Recueil, Bd. 3, S. 179–181; Angeberg, Congrès, Bd. 3, S. 1760–1761;
+               Meyer, Staats-Acten, S. 276–278; Näf (Hg.) Europapolitik, S. 23–25, Bertier de
+               Sauvigny, Sainte-Alliance, S. 163–164.</bibl>
+                <bibl xml:id="t.37">Vertrag von Chaumont zwischen Österreich, Großbritannien, Preußen
+               und Russland, Chaumont 1. März 1814; abgedruckt bei Angeberg, Congrès, Bd. 1, S.
+               116–120; BFSP Bd. 1/1 (1812–1814), S. 121–129.</bibl>
+                <bibl xml:id="t.13">Erster Pariser Frieden, abgeschlossen zwischen Österreich,
+               Großbritannien, Portugal, Preußen, Russland, Schweden und Spanien auf der einen,
+               Frankreich auf der anderen Seite; vgl. BFSP Bd. 1/1 (1812–1814), S. 151–177; Martens,
+               Nouveau Recueil, Bd. 2, S. 1–18; Ghillany, Diplomatisches Handbuch, Bd. 1, S.
+               300–311; Angeberg, Congrès, Bd. 1, S. 161–176; <ref target="http://www.staatsvertraege.de/Frieden1814-15/1pfv1814-i.htm">http://www.staatsvertraege.de/Frieden1814-15/1pfv1814-i.htm</ref> (deutsch;
+               eingesehen am 15. November 2012) </bibl>
+            </listBibl>
+        </back>
+    </text>
 </TEI>

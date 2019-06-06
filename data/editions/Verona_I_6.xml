@@ -291,13 +291,150 @@
                   </choice> Majesty</rs> will find means of avoiding them.</p>
          </div>
       </body>
-      <back>
-         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../indices/listplace.xml" xpointer="listPlace"/>
-         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../indices/listperson.xml" xpointer="listPerson"/>
-         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../indices/listwit.xml" xpointer="listWit"/>
-         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../indices/listorg.xml" xpointer="listOrg"/>
-         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../indices/listtreaties.xml" xpointer="listTreaties"/>
-
-      </back>
-   </text>
+      
+   <back>
+            <listPerson>
+                <person xml:id="p.5">
+                    <persName>
+                        <forename>Friedrich</forename>
+                        <surname>Gentz</surname>
+                    </persName>
+                    <birth>1764</birth>
+                    <death>1832</death>
+                    <note>Protokollführer; vgl. zu seiner Person Kronenbitter, Wort und Macht;
+                        Cahen, Gentz; Mann, Friedrich von Gentz; Schneider, Werner, Europa in Wien,
+                        S. 169–170.</note>
+                    <idno type="URI">https://viaf.org/viaf/2522018/</idno>
+                </person>
+                <person xml:id="p.10">
+                    <persName>
+                        <forename>Arthur</forename>
+                        <surname>Wellesley</surname>, <roleName>1<hi rendition="#su">st</hi> duke of
+                            Wellington</roleName>
+                    </persName>
+                    <birth>1769</birth>
+                    <death>1852</death>
+                    <note>Bevollmächtigter Großbritanniens; vgl. zu seiner Person zuletzt Muir,
+                        Wellington; Gash, Wellesley, Arthur, first duke of Wellington. In: ODNB, Bd.
+                        58, S. 1–29.</note>
+                    <idno type="URI">https://viaf.org/viaf/2465308/</idno>
+                </person>
+                <person xml:id="p.130">
+                    <persName>
+                        <surname>George IV.</surname>
+                        <roleName>König des Vereinigten Königreichs Großbritannien und Irland, König
+                            von Hannover</roleName>
+                    </persName>
+                    <birth>1762</birth>
+                    <death>1830</death>
+                    <note>Zwischen 1811 und 1820 Prinzregent; vgl. zu seiner Person Hibbert, George
+                        IV. In: ODNB, Bd. 21, S. 856–864; Smith, George IV.</note>
+                    <idno type="URI">https://viaf.org/viaf/265481029/</idno>
+                </person>
+                <person xml:id="p.30">
+                    <persName>
+                        <surname>Ferdinand/Fernando VII.</surname>
+                        <roleName>König von Spanien</roleName>
+                    </persName>
+                    <birth>1784</birth>
+                    <death>1833</death>
+                    <note>Vgl. zu seiner Person Sánchez Mantero, Fernando VII.</note>
+                    <idno type="URI">https://viaf.org/viaf/286447916/</idno>
+                </person>
+                <person xml:id="p.146">
+                    <persName>
+                        <forename>William</forename>
+                        <surname>A’Court</surname>
+                        <roleName>1<hi rendition="#su">st</hi> Baron Heytesbury</roleName>
+                    </persName>
+                    <birth>1779</birth>
+                    <death>1860</death>
+                    <note>1820 britischer Botschafter in Neapel, 1822 britischer Botschafter in
+                        Madrid; vgl. zu seiner Person Chamberlain, A’Court, William, first Baron
+                        Heytesbury. In: ODNB, Bd. 1, S. 162–163.</note>
+                    <idno type="URI">http://viaf.org/viaf/315945654/</idno>
+                </person>
+                <person xml:id="p.176">
+                    <persName>
+                        <forename>Juan Gabriel</forename>
+                        <surname>Jabat Aztal</surname>
+                    </persName>
+                    <birth>1768</birth>
+                    <death>1825</death>
+                    <note>Ab März 1822 spanischer Gesander in London; vgl. <ref target="http://dbe.rah.es/biografias/15293/juan-gabriel-jabat-aztal">http://dbe.rah.es/biografias/15293/juan-gabriel-jabat-aztal</ref>
+                    </note>
+                </person>
+                <person xml:id="p.174">
+                    <persName>
+                        <forename>Mathieu Jean Félicité</forename>
+                        <roleName>Vicomte</roleName>
+                        <surname>de Montmorency-Laval</surname>
+                    </persName>
+                    <birth>1766</birth>
+                    <death>1826</death>
+                    <note>1821/22 französischer Außenminister, Vertreter Frankreichs auf dem
+                        Kongress von Verona; vgl. zu seiner Person Michaud, Biographie universelle,
+                        Bd. 29, S. 181-183.</note>
+                    <idno type="URI">https://viaf.org/viaf/66610110/</idno>
+                </person>
+                <person xml:id="p.15">
+                    <persName>
+                        <surname>Ludwig/Louis XVIII.</surname>
+                        <roleName> König von Frankreich</roleName>
+                    </persName>
+                    <birth>1755</birth>
+                    <death>1824</death>
+                    <note>Vgl. Malettke, Die Bourbonen; Thamer, Ludwig XVIII.; Mansel, Louis
+                        XVIII.</note>
+                    <idno type="URI">https://viaf.org/viaf/84035484/</idno>
+                </person>
+            </listPerson>
+            <listPlace>
+                <place xml:id="loc.68">
+               <placeName>Verona</placeName>
+                <placeName>Vérone</placeName>
+               <location>
+                        <geo>45.4299 10.98444</geo>
+                    </location>
+                    <idno type="URI">http://www.geonames.org/3164527/</idno>
+            </place>
+                <place xml:id="loc.1">
+                <placeName>Aachen</placeName>
+               <placeName>Aix-la-Chapelle</placeName>
+               
+               <location>
+                        <geo>50.77664 6.08342</geo>
+                    </location>
+                    <idno type="URI">http://www.geonames.org/3247449/</idno>
+            </place>
+                <place xml:id="loc.24">
+               <placeName>Madrid</placeName>
+               <location>
+                        <geo>40.4165 -3.70256</geo>
+                    </location>
+                    <idno type="URI">http://www.geonames.org/3117735/</idno>
+            </place>
+                <place xml:id="loc.8">
+                <placeName>London</placeName>
+               <placeName>Londres</placeName>
+               
+               <location>
+                        <geo>51.50853 -0.12574</geo>
+                    </location>
+                    <idno type="URI">http://www.geonames.org/2643743/</idno>
+            </place>
+            </listPlace>
+            <listBibl>
+                <bibl xml:id="t.42">Protokoll, Aachen 15. November 1818, mit welchem Frankreich wieder
+               in das Konzert der Mächte aufgenommen wird, sowie die entsprechende Deklaration;
+               vgl. für das Protokoll Meyer, Staats-Acten, S. 275–276; Grewe, Fontes, Bd. 3/1, S.
+               104–106; de Clercq, Recueil, Bd. 3, S. 175–176; BFSP Bd. 6 (1818/19), S. 14–15;
+               Angeberg, Congrès, Bd. 3, S. 1755–1756; Näf (Hg.) Europapolitik, S. 22–23, Bertier de
+               Sauvigny, Sainte-Alliance, S. 148–150, für die Deklaration BFSP Bd. 6 (1818/19), S.
+               18–20; de Clercq, Recueil, Bd. 3, S. 179–181; Angeberg, Congrès, Bd. 3, S. 1760–1761;
+               Meyer, Staats-Acten, S. 276–278; Näf (Hg.) Europapolitik, S. 23–25, Bertier de
+               Sauvigny, Sainte-Alliance, S. 163–164.</bibl>
+            </listBibl>
+        </back>
+    </text>
 </TEI>

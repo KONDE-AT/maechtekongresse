@@ -775,13 +775,272 @@
                maintien de la paix en Europe.</p>
          </div>
       </body>
-      <back>
-         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../indices/listplace.xml" xpointer="listPlace"/>
-         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../indices/listperson.xml" xpointer="listPerson"/>
-         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../indices/listwit.xml" xpointer="listWit"/>
-         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../indices/listorg.xml" xpointer="listOrg"/>
-         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../indices/listtreaties.xml" xpointer="listTreaties"/>
-
-      </back>
-   </text>
+      
+   <back>
+            <listPerson>
+                <person xml:id="p.5">
+                    <persName>
+                        <forename>Friedrich</forename>
+                        <surname>Gentz</surname>
+                    </persName>
+                    <birth>1764</birth>
+                    <death>1832</death>
+                    <note>Protokollführer; vgl. zu seiner Person Kronenbitter, Wort und Macht;
+                        Cahen, Gentz; Mann, Friedrich von Gentz; Schneider, Werner, Europa in Wien,
+                        S. 169–170.</note>
+                    <idno type="URI">https://viaf.org/viaf/2522018/</idno>
+                </person>
+                <person xml:id="p.8">
+                    <persName>
+                        <surname>Metternich</surname>
+                        <forename>Clemens Wenzel Lothar</forename>
+                        <roleName>Fürst</roleName>
+                    </persName>
+                    <birth>1773</birth>
+                    <death>1859</death>
+                    <note>Österreichischer Außenminister, ab 1821 österreichischer Haus-, Hof- und
+                        Staatskanzler; vgl. zu seiner Person Siemann, Metternich; Šedivý,
+                        Metternich; Srbik, Metternich; Schneider, Werner, Europa in Wien, S.
+                        237–239.</note>
+                    <idno type="URI">https://viaf.org/viaf/49258230/</idno>
+                </person>
+                <person xml:id="p.35">
+                    <persName>
+                        <forename>Dimitry Pavlovich</forename>
+                        <surname>Tatistcheff</surname>
+                    </persName>
+                    <birth>1767</birth>
+                    <death>1845</death>
+                    <note>1818 russischer Botschafter in Madrid; vgl. zu seiner Person Татищев
+                        Дмитрий Павлович. In: Russkij biografičeskij slovar’, Bd. 20, S.
+                        237–349.</note>
+                    <idno type="URI">https://viaf.org/viaf/38900750/</idno>
+                </person>
+                <person xml:id="p.102">
+                    <persName>
+                        <forename>Louis Charles Victor</forename>
+                        <surname>de Riquet</surname>
+                        <roleName>marquis de Caraman</roleName>
+                    </persName>
+                    <birth>1762</birth>
+                    <death>1839</death>
+                    <note>1818 Gesandter Frankreichs in London, 1820 Gesandter Frankreichs in Wien,
+                        1820/21 Vertreter Frankreichs auf den Kongressen von Troppau, Laibach und
+                        Verona; vgl. zu seiner Person Michaud, Biographie Universelle, Bd. 6, S.
+                        630–631.</note>
+                    <idno type="URI">https://viaf.org/viaf/2675/</idno>
+                </person>
+                <person xml:id="p.175">
+                    <persName>
+                        <forename>Franz Ludwig</forename>
+                        <roleName>Graf</roleName>
+                        <surname>von Hatzfeldt</surname>
+                    </persName>
+                    <birth>1756</birth>
+                    <death>1827</death>
+                    <note>1822 preußischer Gesandter in Wien und den Niederlanden; vgl. Bringmann,
+                        Handbuch der Diplomatie, S. 312 und S. 334, zu seiner Person Wurzbach,
+                        Biographisches Lexikon, Bd. 8, S. 52; Priesdorff, Soldatisches Führertum,
+                        Bd. 2, S. 446–449.</note>
+                    <idno type="URI">http://viaf.org/viaf/8166997/</idno>
+                </person>
+                <person xml:id="p.10">
+                    <persName>
+                        <forename>Arthur</forename>
+                        <surname>Wellesley</surname>, <roleName>1<hi rendition="#su">st</hi> duke of
+                            Wellington</roleName>
+                    </persName>
+                    <birth>1769</birth>
+                    <death>1852</death>
+                    <note>Bevollmächtigter Großbritanniens; vgl. zu seiner Person zuletzt Muir,
+                        Wellington; Gash, Wellesley, Arthur, first duke of Wellington. In: ODNB, Bd.
+                        58, S. 1–29.</note>
+                    <idno type="URI">https://viaf.org/viaf/2465308/</idno>
+                </person>
+                <person xml:id="p.17">
+                    <persName>
+                        <surname>Alexander I.</surname>
+                        <roleName>Zar von Russland</roleName>
+                    </persName>
+                    <birth>1777</birth>
+                    <death>1825</death>
+                    <note>Vgl. Rey, Alexander I.; Schneider, Werner, Europa in Wien, S.
+                        100–102.</note>
+                    <idno type="URI">https://viaf.org/viaf/4938543/</idno>
+                </person>
+                <person xml:id="p.16">
+                    <persName>
+                        <surname>Franz I.</surname>
+                        <roleName>Kaiser von Österreich</roleName>
+                    </persName>
+                    <birth>1768</birth>
+                    <death>1835</death>
+                    <note>Vgl. Mikoletzky, Franz II. (I.); Schneider, Werner, Europa in Wien, S.
+                        154–155; Ziegler, Franz II./I.</note>
+                    <idno type="URI">https://viaf.org/viaf/36912131/</idno>
+                </person>
+                <person xml:id="p.15">
+                    <persName>
+                        <surname>Ludwig/Louis XVIII.</surname>
+                        <roleName> König von Frankreich</roleName>
+                    </persName>
+                    <birth>1755</birth>
+                    <death>1824</death>
+                    <note>Vgl. Malettke, Die Bourbonen; Thamer, Ludwig XVIII.; Mansel, Louis
+                        XVIII.</note>
+                    <idno type="URI">https://viaf.org/viaf/84035484/</idno>
+                </person>
+                <person xml:id="p.18">
+                    <persName>
+                        <surname>Friedrich Wilhelm III.</surname>
+                        <roleName>König von Preußen</roleName>
+                    </persName>
+                    <birth>1770</birth>
+                    <death>1840</death>
+                    <note>Vgl. Stamm-Kuhlmann, König in Preußens großer Zeit; Ders., Friedrich
+                        Wilhelm III; Schneider, Werner, Europa in Wien, S. 161–162.</note>
+                    <idno type="URI">https://viaf.org/viaf/774683/</idno>
+                </person>
+                <person xml:id="p.58">
+                    <persName>
+                        <forename>Percy</forename>
+                        <surname>Smythe</surname>, <roleName>6<hi rendition="#su">th</hi> Viscount
+                            Strangford</roleName>
+                    </persName>
+                    <birth>1780</birth>
+                    <death>1855</death>
+                    <note>1818 britischer Botschafter in Stockholm, 1822 britischer Botschafter an
+                        der Hohen Pforte; vgl. zu seiner Person Norgate, Matthew, Smythe, Percy
+                        Clinton Sydney, sixth Viscount Strangford. In: ODNB, Bd. 51, S.
+                        466–467.</note>
+                    <idno type="URI">https://viaf.org/viaf/42194009/</idno>
+                </person>
+                <person xml:id="p.190">
+                    <persName>
+                        <forename>Rudolf</forename>
+                        <surname>von Lützow</surname>
+                    </persName>
+                    <birth>1780</birth>
+                    <death>1858</death>
+                    <note>1822 österreichischer Gesandter (Internuntius) an der Hohen Pforte; vgl.
+                        zu seiner Person Wurzbach, Biographisches Lexikon, Bd. 16, S.
+                        148–150.</note>
+                    <idno type="URI">https://viaf.org/viaf/49999879/</idno>
+                </person>
+                <person xml:id="p.137">
+                    <persName>
+                        <forename>Charles William</forename>
+                        <surname>Stewart Vane</surname>
+                        <roleName>Lord Stewart</roleName>
+                        
+                    </persName>
+                    <birth>1778</birth>
+                    <death>1854</death>
+                    <note>Britischer Botschafter in Wien, Mitglied der britischen Delegation bei den
+                        Kongress von Troppau, Laibach und Verona, ab 1822 Charles William Vane, 3<hi rendition="#su">rd</hi> Marquess of Londonderry vgl. zu seiner Person
+                        Lloyd, Heersom, Vane [formerly Stewart], Charles William. In: ODNB, Bd. 56,
+                        S. 95–98; Schneider, Werner, Europa in Wien, S. 292–293.</note>
+                    <idno type="URI">https://viaf.org/viaf/8284837/</idno>
+                </person>
+                <person xml:id="p.130">
+                    <persName>
+                        <surname>George IV.</surname>
+                        <roleName>König des Vereinigten Königreichs Großbritannien und Irland, König
+                            von Hannover</roleName>
+                    </persName>
+                    <birth>1762</birth>
+                    <death>1830</death>
+                    <note>Zwischen 1811 und 1820 Prinzregent; vgl. zu seiner Person Hibbert, George
+                        IV. In: ODNB, Bd. 21, S. 856–864; Smith, George IV.</note>
+                    <idno type="URI">https://viaf.org/viaf/265481029/</idno>
+                </person>
+                <person xml:id="p.191">
+                    <persName>
+                        <forename>Dimitrij Vas.</forename>
+                        <surname>Daškov</surname>
+                    </persName>
+                    <birth>1788</birth>
+                    <death>1839</death>
+                    <note>1822 russischer Botschafter an der Hohen Pforte; vgl. Amburger,
+                        Behördenorganisation, S. 445.</note>
+                    <idno type="URI">https://viaf.org/viaf/165007789/</idno>
+                </person>
+                <person xml:id="p.192">
+                    <persName>
+                        <forename>Grigori Alexandrowitsch</forename>
+                        <roleName>Baron</roleName>
+                        <surname>Stroganow</surname>
+                    </persName>
+                    <birth>1770</birth>
+                    <death>1857</death>
+                    <note>Zwischen 1816 und 1821 russischer Botschafter in Konstantinopel; vgl. zu
+                        seiner Person Amburger, Behördenorganisation, S. 445.</note>
+                    <idno type="URI">https://viaf.org/viaf/101493667/</idno>
+                </person>
+            </listPerson>
+            <listPlace>
+                <place xml:id="loc.68">
+               <placeName>Verona</placeName>
+                <placeName>Vérone</placeName>
+               <location>
+                        <geo>45.4299 10.98444</geo>
+                    </location>
+                    <idno type="URI">http://www.geonames.org/3164527/</idno>
+            </place>
+                <place xml:id="loc.7">
+                <placeName>Wien</placeName>
+               <placeName>Vienne</placeName>
+               
+               <location>
+                        <geo>48.2082 16.37169</geo>
+                    </location>
+                    <idno type="URI">http://www.geonames.org/2761367/</idno>
+            </place>
+                <place xml:id="loc.81">
+                <placeName>Konstantinopel</placeName>
+                <placeName>Constantinople</placeName>
+                <placeName>Istanbul</placeName>
+               <location>
+                        <geo>41.01384 28.94966</geo>
+                    </location>
+                    <idno type="URI">http://www.geonames.org/745044/</idno>
+            </place>
+                <place xml:id="loc.10">
+                <placeName>St. Petersburg</placeName>
+               <placeName>Saint-Pétersbourg</placeName>
+               
+               <location>
+                        <geo>59.93863 30.31413</geo>
+                    </location>
+                    <idno type="URI">http://www.geonames.org/498817/</idno>
+            </place>
+                <place xml:id="loc.82">
+                <placeName>Jassy</placeName>
+                <placeName>Yassy</placeName>
+                <placeName>Iaşi</placeName>
+               <location>
+                        <geo>47.16667 27.6</geo>
+                    </location>
+                    <idno type="URI">http://www.geonames.org/675810/</idno>
+            </place>
+                <place xml:id="loc.11">
+                <placeName>Neapel</placeName>
+               <placeName>Naples</placeName>
+               
+               <location>
+                        <geo>40.85216 14.26811</geo>
+                    </location>
+                    <idno type="URI">http://www.geonames.org/3172394/</idno>
+            </place>
+                <place xml:id="loc.83">
+               <placeName>Bukarest</placeName>
+               <placeName>București</placeName>
+               <location>
+                        <geo>44.43225 26.10626</geo>
+                    </location>
+                    <idno type="URi">http://www.geonames.org/683506/</idno>
+            </place>
+            </listPlace>
+        </back>
+    </text>
 </TEI>

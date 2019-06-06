@@ -2257,13 +2257,570 @@
                considération très distinguée avec lesquels je suis &amp; &amp;.</p>
          </div>
       </body>
-      <back>
-         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../indices/listplace.xml" xpointer="listPlace"/>
-         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../indices/listperson.xml" xpointer="listPerson"/>
-         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../indices/listwit.xml" xpointer="listWit"/>
-         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../indices/listorg.xml" xpointer="listOrg"/>
-         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../indices/listtreaties.xml" xpointer="listTreaties"/>
-
-      </back>
-   </text>
+      
+   <back>
+            <listPerson>
+                <person xml:id="p.5">
+                    <persName>
+                        <forename>Friedrich</forename>
+                        <surname>Gentz</surname>
+                    </persName>
+                    <birth>1764</birth>
+                    <death>1832</death>
+                    <note>Protokollführer; vgl. zu seiner Person Kronenbitter, Wort und Macht;
+                        Cahen, Gentz; Mann, Friedrich von Gentz; Schneider, Werner, Europa in Wien,
+                        S. 169–170.</note>
+                    <idno type="URI">https://viaf.org/viaf/2522018/</idno>
+                </person>
+                <person xml:id="p.6">
+                    <persName>
+                        <forename>Nikolaus</forename>
+                        <surname>Wacken</surname>
+                    </persName>
+                    <death>1834</death>
+                    <note>Kompilator, Protokollführer; vgl. zu seiner Person Schneider, Werner,
+                        Europa in Wien, S. 207.</note>
+                    <idno type="URI">https://viaf.org/viaf/309696450/</idno>
+                </person>
+                <person xml:id="p.9">
+                    <persName>
+                        <forename>Robert </forename>
+                        <surname>Stewart</surname>
+                        <roleName>Viscount Castlereagh</roleName>
+                    </persName>
+                    <birth>1769</birth>
+                    <death>1822</death>
+                    <note>Britischer Außenminister; vgl zu seiner Person Bew, Castlereagh; Webster,
+                        Foreign Policy; Bartlett, Castlereagh; Thorne, Stewart, Robert, Viscount
+                        Castlereagh and second marquess of Londonderry. In: ODNB, Bd. 52, S.
+                        749–757.</note>
+                    <idno type="URI">https://viaf.org/viaf/15560591/</idno>
+                </person>
+                <person xml:id="p.1">
+                    <persName>
+                        <forename>Armand Emmanuel</forename>
+                        <surname>du Plessis</surname>
+                        <roleName>duc de Richelieu</roleName>
+                    </persName>
+                    <birth>1766</birth>
+                    <death>1822</death>
+                    <note>Französischer Premierminister; vgl. zu seiner Person de Waresquiel, Le Duc
+                        de Richelieu; Capefigue, Les diplomates européens, S. 245–274.</note>
+                    <idno type="URI">https://viaf.org/viaf/56652282/</idno>
+                </person>
+                <person xml:id="p.71">
+                    <persName>
+                        <forename>Pedro</forename>
+                        <surname>de Souza Holstein</surname>, <roleName>Herzog (duque) von
+                            Palmella</roleName>
+                    </persName>
+                    <birth>1781</birth>
+                    <death>1850</death>
+                    <note>Portugiesischer Außenminister.</note>
+                    <idno type="URI">https://viaf.org/viaf/28369126/</idno>
+                </person>
+                <person xml:id="p.8">
+                    <persName>
+                        <surname>Metternich</surname>
+                        <forename>Clemens Wenzel Lothar</forename>
+                        <roleName>Fürst</roleName>
+                    </persName>
+                    <birth>1773</birth>
+                    <death>1859</death>
+                    <note>Österreichischer Außenminister, ab 1821 österreichischer Haus-, Hof- und
+                        Staatskanzler; vgl. zu seiner Person Siemann, Metternich; Šedivý,
+                        Metternich; Srbik, Metternich; Schneider, Werner, Europa in Wien, S.
+                        237–239.</note>
+                    <idno type="URI">https://viaf.org/viaf/49258230/</idno>
+                </person>
+                <person xml:id="p.10">
+                    <persName>
+                        <forename>Arthur</forename>
+                        <surname>Wellesley</surname>, <roleName>1<hi rendition="#su">st</hi> duke of
+                            Wellington</roleName>
+                    </persName>
+                    <birth>1769</birth>
+                    <death>1852</death>
+                    <note>Bevollmächtigter Großbritanniens; vgl. zu seiner Person zuletzt Muir,
+                        Wellington; Gash, Wellesley, Arthur, first duke of Wellington. In: ODNB, Bd.
+                        58, S. 1–29.</note>
+                    <idno type="URI">https://viaf.org/viaf/2465308/</idno>
+                </person>
+                <person xml:id="p.11">
+                    <persName>
+                        <forename>Karl August</forename>
+                        <roleName>Fürst</roleName>
+                        <surname>von Hardenberg</surname>
+                    </persName>
+                    <birth>1750</birth>
+                    <death>1822</death>
+                    <note>Preußischer Staatskanzler, Bevollmächtigter Preußens; vgl. zu seiner
+                        Person Gall, Hardenberg; Schneider, Werner, Europa in Wien, S. 184–185;
+                        Capefigue, Les diplomates européens, S. 275–316; Stamm-Kuhlmann, Freier
+                        Gebrauch.</note>
+                    <idno type="URI">https://viaf.org/viaf/4975077/</idno>
+                </person>
+                <person xml:id="p.12">
+                    <persName>
+                        <forename>Christian Günther</forename>
+                        <roleName>Graf</roleName>
+                        <surname>von Bernstorff</surname>
+                    </persName>
+                    <birth>1769</birth>
+                    <death>1835</death>
+                    <note>Preußischer Außenminister, Bevollmächtigter Preußens; vgl. zu seiner
+                        Person Kellenbenz, Bernstorff, Christian Graf von. In: NDB, Bd. 2, S.
+                        139–140; Schneider, Werner, Europa in Wien, S. 116–117.</note>
+                    <idno type="URI">https://viaf.org/viaf/49969175/</idno>
+                </person>
+                <person xml:id="p.13">
+                    <persName>
+                        <forename>Karl Robert</forename>
+                        <roleName>Graf</roleName>
+                        <surname>von Nesselrode</surname>
+                    </persName>
+                    <birth>1780</birth>
+                    <death>1862</death>
+                    <note>Russischer Außenminister, Bevollmächtigter Russlands; vgl. zu seiner
+                        Person Eich, Nesselrode, Robert Graf von. In: NDB, Bd. 19, S. 74–75;
+                        Grimsted, The Foreign Ministers, S. 194–225, 269–286; Schneider, Werner,
+                        Europa in Wien, S. 248–249.</note>
+                    <idno type="URI">https://viaf.org/viaf/49992065/</idno>
+                </person>
+                <person xml:id="p.14">
+                    <persName>
+                        <forename>Ioannis Antonis</forename>
+                        <roleName>Graf</roleName>
+                        <surname>Kapodistrias/Capodistrias</surname>
+                    </persName>
+                    <birth>1776</birth>
+                    <death>1831</death>
+                    <note>Russischer Außenminister, Bevollmächtigter Russlands; vgl. zu seiner
+                        Person Woodhouse, Capodistrias; Grimsted, The Foreign Ministers, S. 226–268;
+                        Schneider, Werner, Europa in Wien, S. 199–200.</note>
+                    <idno type="URI">https://viaf.org/viaf/39507057/</idno>
+                </person>
+                <person xml:id="p.50">
+                    <persName>
+                        <forename>Napoleon I.</forename>
+                        <surname>Bonaparte</surname>
+                    </persName>
+                    <birth>1769</birth>
+                    <death>1821</death>
+                    <note>Vgl. zu seiner Person z. B. Ullrich, Napoleon; Fournier, Napoleon I.
+                        Dwyer, Napoleon; Dwyer, Citizen Emperor; Tulard, Napoleon; Broers, Napoleon
+                        (2 Bde.).</note>
+                    <idno type="URI">https://viaf.org/viaf/106964661/</idno>
+                </person>
+                <person xml:id="p.46">
+                    <persName>
+                        <surname>Karl XIV. Johann</surname>
+                        <roleName>König von Schweden und Norwegen</roleName>
+                    </persName>
+                    <birth>1763</birth>
+                    <death>1844</death>
+                    <note>Geb. als
+                    
+                        Jean Baptiste
+                        Bernadotte;
+                    
+                    vgl. zu seiner Person Findeisen, Jean Baptiste Bernadotte; Imhof,
+                        Bernadotte.</note>
+                    <idno type="URI">https://viaf.org/viaf/73959251/</idno>
+                </person>
+                <person xml:id="p.57">
+                    <persName>
+                        <forename>Adam</forename>
+                        <roleName>Graf</roleName>
+                        <surname>von Ficquelmont</surname>
+                    </persName>
+                    <note>Österreichischer Botschafter in Stockholm; vgl. Matsch, Der auswärtige
+                        Dienst, S. 115.</note>
+                </person>
+                <person xml:id="p.58">
+                    <persName>
+                        <forename>Percy</forename>
+                        <surname>Smythe</surname>, <roleName>6<hi rendition="#su">th</hi> Viscount
+                            Strangford</roleName>
+                    </persName>
+                    <birth>1780</birth>
+                    <death>1855</death>
+                    <note>1818 britischer Botschafter in Stockholm, 1822 britischer Botschafter an
+                        der Hohen Pforte; vgl. zu seiner Person Norgate, Matthew, Smythe, Percy
+                        Clinton Sydney, sixth Viscount Strangford. In: ODNB, Bd. 51, S.
+                        466–467.</note>
+                    <idno type="URI">https://viaf.org/viaf/42194009/</idno>
+                </person>
+                <person xml:id="p.59">
+                    <persName>
+                        <forename>Friedrich Franz</forename>
+                        <surname>von Tarrach</surname>
+                    </persName>
+                    <birth>1766</birth>
+                    <death>1834</death>
+                    <note>Preußischer Botschafter in Stockholm; vgl. Straubel, Biographisches
+                        Handbuch, Bd. 2, S. 1004.</note>
+                </person>
+                <person xml:id="p.60">
+                    <persName>
+                        <forename>Jan Pieter </forename>
+                        <surname>von Suchtelen</surname>
+                    </persName>
+                    <birth>1751</birth>
+                    <death>1836</death>
+                    <note>Russischer Botschafter in Stockholm; vgl. Johann Peter Suchtelen in der
+                        David in der Erik-Amburger-Datenbank (Ausländer im vorrevolutionären
+                        Russland) auf <ref target="http://dokumente.ios-regensburg.de/amburger/index.php?id=89719&amp;mode=1">
+                            &gt;http://dokumente.ios-regensburg.de/amburger/index.php?id=89719&amp;mode=1</ref>
+                        (eingesehen am 5. Juli 2017).</note>
+                    <idno type="URI">https://viaf.org/viaf/40184228/</idno>
+                </person>
+                <person xml:id="p.101">
+                    <persName>
+                        <forename>Paul III. Anton</forename>
+                        <surname>Esterházy de Galantha</surname>
+                    </persName>
+                    <birth>1786</birth>
+                    <death>1866</death>
+                    <note>Österreichischer Gesandter in London; vgl. zu seiner Person Wurzbach,
+                        Biographisches Lexikon, Bd. 4, S. 105; Esterházy Paul Anton Fürst. In: ÖBL,
+                        Bd. 1, S. 269; Allmayer-Beck, Esterházy von Galantha, Paul Anton Fürst. In:
+                        NDB, Bd. 4, S. 663.</note>
+                    <idno type="URI">https://viaf.org/viaf/13120008/</idno>
+                </person>
+                <person xml:id="p.102">
+                    <persName>
+                        <forename>Louis Charles Victor</forename>
+                        <surname>de Riquet</surname>
+                        <roleName>marquis de Caraman</roleName>
+                    </persName>
+                    <birth>1762</birth>
+                    <death>1839</death>
+                    <note>1818 Gesandter Frankreichs in London, 1820 Gesandter Frankreichs in Wien,
+                        1820/21 Vertreter Frankreichs auf den Kongressen von Troppau, Laibach und
+                        Verona; vgl. zu seiner Person Michaud, Biographie Universelle, Bd. 6, S.
+                        630–631.</note>
+                    <idno type="URI">https://viaf.org/viaf/2675/</idno>
+                </person>
+                <person xml:id="p.38">
+                    <persName>
+                        <forename>Wilhelm</forename>
+                        <surname>von Humboldt</surname>
+                    </persName>
+                    <birth>1767</birth>
+                    <death>1835</death>
+                    <note>Preußischer Vertreter in der Territorialkommission in Frankfurt a. M.,
+                        1818 Gesandter Preußens in London; vgl. zu seiner Person zuletzt Gall,
+                        Wilhelm von Humboldt; Schneider, Werner, Europa in Wien, S. 193–195.</note>
+                    <idno type="URI">https://viaf.org/viaf/100183995/</idno>
+                </person>
+                <person xml:id="p.75">
+                    <persName>
+                        <forename>Christoph Andrejewitsch</forename>
+                        <roleName>Graf</roleName>
+                        <surname>von Lieven</surname>
+                    </persName>
+                    <birth>1774</birth>
+                    <death>1839</death>
+                    <note>Russischer Botschafter in London; vgl. zu seiner Person den Eintrag zu
+                        Graf Lieven/Fürst Lieven Christoph Heinrich in der Erik-Amburger-Datenbank
+                        (Ausländer im vorrevolutionären Russland) auf <ref target="http://dokumente.ios-regensburg.de/amburger/index.php?id=71688&amp;mode=1">http://dokumente.ios-regensburg.de/amburger/index.php?id=71688&amp;mode=1</ref>
+                        (eingesehen am 6. Juli 2017).</note>
+                    <idno type="URI">https://viaf.org/viaf/25368257/</idno>
+                </person>
+                <person xml:id="p.103">
+                    <persName>
+                        <roleName>Sir</roleName>
+                        <forename>Charles</forename>
+                        <surname>Bagot</surname>
+                    </persName>
+                    <birth>1781</birth>
+                    <death>1843</death>
+                    <note>Gesandter Großbritanniens in den Vereinigten Staaten von Amerika; vgl. zu
+                        seiner Person Bruckner, Bagot, Sir Charles. In: ODNB, Bd. 3, S.
+                        238–239.</note>
+                    <idno type="URI">https://viaf.org/viaf/14706932/</idno>
+                </person>
+                <person xml:id="p.104">
+                    <persName>
+                        <forename>Jean-Guillaume</forename>
+                        <roleName>baron</roleName>
+                        <surname>Hyde de Neuville</surname>
+                    </persName>
+                    <birth>1776</birth>
+                    <death>1857</death>
+                    <note>Gesandter Frankreichs in den Vereinigten Staaten von Amerika; vgl. zu
+                        seiner Person Watel, Jean-Guillaume Hyde de Neuville.</note>
+                    <idno type="URI">https://viaf.org/viaf/34600228/</idno>
+                </person>
+                <person xml:id="p.105">
+                    <persName>
+                        <forename>Friedrich</forename>
+                        <surname>von Greuhm</surname>
+                    </persName>
+                    <birth>1780</birth>
+                    <death>1823</death>
+                    <note>Gesandter Preußens in den Vereinigten Staaten von Amerika.</note>
+                </person>
+                <person xml:id="p.106">
+                    <persName>
+                        <forename>Pjotr Iwanowitsch</forename>
+                        <surname>Poletika</surname>
+                    </persName>
+                    <birth>1778</birth>
+                    <death>1849</death>
+                    <note>Gesandter Russlands in den Vereinigten Staaten von Amerika.</note>
+                    <idno type="URI">https://viaf.org/viaf/57044598/</idno>
+                </person>
+                <person xml:id="p.28">
+                    <persName>
+                        <surname>Jõao/Johann VI.</surname>
+                        <roleName>König von Portugal und Brasilien</roleName>
+                    </persName>
+                    <birth>1767</birth>
+                    <death>1826</death>
+                    <idno type="URI">https://viaf.org/viaf/269013446/</idno>
+                </person>
+                <person xml:id="p.16">
+                    <persName>
+                        <surname>Franz I.</surname>
+                        <roleName>Kaiser von Österreich</roleName>
+                    </persName>
+                    <birth>1768</birth>
+                    <death>1835</death>
+                    <note>Vgl. Mikoletzky, Franz II. (I.); Schneider, Werner, Europa in Wien, S.
+                        154–155; Ziegler, Franz II./I.</note>
+                    <idno type="URI">https://viaf.org/viaf/36912131/</idno>
+                </person>
+                <person xml:id="p.107">
+                    <persName>
+                        <surname>Mahmud II.</surname>
+                    </persName>
+                    <birth>1785</birth>
+                    <death>1839</death>
+                    <note>Sultan des Osmanischen Reiches; vgl. zu seiner Person Kornrumpf, Mahmud
+                        II. In: Bernrath u. A. (Hg.), Biographisches Lexikon zur Geschichte
+                        Südosteuropas, Bd. 3, S. 71–73.</note>
+                    <idno type="URI">https://viaf.org/viaf/35392079/</idno>
+                </person>
+                <person xml:id="p.17">
+                    <persName>
+                        <surname>Alexander I.</surname>
+                        <roleName>Zar von Russland</roleName>
+                    </persName>
+                    <birth>1777</birth>
+                    <death>1825</death>
+                    <note>Vgl. Rey, Alexander I.; Schneider, Werner, Europa in Wien, S.
+                        100–102.</note>
+                    <idno type="URI">https://viaf.org/viaf/4938543/</idno>
+                </person>
+                <person xml:id="p.19">
+                    <persName>
+                        <surname>Georg/George III.</surname>
+                        <roleName>König des Vereinigten Königreichs Großbritannien und Irland und
+                            Hannover</roleName>
+                    </persName>
+                    <birth>1738</birth>
+                    <death>1820</death>
+                    <note>Vgl. Cannon, George III. In: ODNB, Bd. 21, S. 833–853; Black, George
+                        III.</note>
+                    <idno type="URI">https://viaf.org/viaf/49264990/</idno>
+                </person>
+                <person xml:id="p.108">
+                    <persName>
+                        <roleName>Sir</roleName>
+                        <forename>Hudson</forename>
+                        <surname>Lowe</surname>
+                    </persName>
+                    <birth>1769</birth>
+                    <death>1844</death>
+                    <note>Gouverneur von St. Helena; vgl. zu seiner Person Chichester, Sweetman,
+                        Lowe, Sir Hudson. In: ODNB, Bd. 34, S. 567–570. Martineau, Napoleons St.
+                        Helena; Martineau, Lowe. In: Tulard (Hg.), Dictionnaire Napoléon, S.
+                        1094–1095.</note>
+                    <idno type="URI">https://viaf.org/viaf/24780261/</idno>
+                </person>
+                <person xml:id="p.109">
+                    <persName>
+                        <forename>Barry Edward</forename>
+                        <surname>O’Meara</surname>
+                    </persName>
+                    <birth>1786</birth>
+                    <death>1836</death>
+                    <note>Napoleons Arzt auf St. Helena; vgl. Baignet, O’Meara, Barry Edward. In:
+                        ODNB, Bd. 41, S. 806–807; Martineau, Napoleons St. Helena; Ganière, O’Meara.
+                        In: Tulard (Hg.), Dictionnaire Napoléon, S. 1263–1265.</note>
+                    <idno type="URI">https://viaf.org/viaf/100214919/</idno>
+                </person>
+                <person xml:id="p.110">
+                    <persName>
+                        <roleName>General</roleName>
+                        <forename>Gaspard</forename>
+                        <surname>Gourgaud</surname>
+                    </persName>
+                    <birth>1783</birth>
+                    <death>1852</death>
+                    <note>Napoleons ehemaliger Ordonnanzoffizier, während der 100 Tage sein
+                        Generaladjutant; vgl. Ders, Journal de Sainte-Hélène.</note>
+                    <idno type="URI">https://viaf.org/viaf/44432674/</idno>
+                </person>
+                <person xml:id="p.111">
+                    <persName>
+                        <forename>Henry</forename>
+                        <surname>Bathurst</surname>
+                        <roleName>3<hi rendition="#su">rd</hi> Earl of Bathurst</roleName>
+                    </persName>
+                    <birth>1762</birth>
+                    <death>1834</death>
+                    <note>Zwischen 1812 und 1827 Secretary of State for War and the Colonies;
+                        vgl. zu seiner Person Thompson, Bathurst, Henry, third Earl Bathurst. In:
+                        ODNB, Bd. 4, S. 354–355. Thompson, Earl Bathurst.</note>
+                    <idno type="URI">https://viaf.org/viaf/37762883/</idno>
+                </person>
+                <person xml:id="p.18">
+                    <persName>
+                        <surname>Friedrich Wilhelm III.</surname>
+                        <roleName>König von Preußen</roleName>
+                    </persName>
+                    <birth>1770</birth>
+                    <death>1840</death>
+                    <note>Vgl. Stamm-Kuhlmann, König in Preußens großer Zeit; Ders., Friedrich
+                        Wilhelm III; Schneider, Werner, Europa in Wien, S. 161–162.</note>
+                    <idno type="URI">https://viaf.org/viaf/774683/</idno>
+                </person>
+                <person xml:id="p.112">
+                    <persName>
+                        <surname>Friedrich VI.</surname>
+                        <roleName>König von Dänemark</roleName>
+                    </persName>
+                    <birth>1768</birth>
+                    <death>1839</death>
+                    <note>Vgl. zu seiner Person Schneider, Werner, Europa in Wien, S.
+                        157–158.</note>
+                    <idno type="URI">https://viaf.org/viaf/120724553/</idno>
+                </person>
+                <person xml:id="p.56">
+                    <persName>
+                        <forename>Carl Axel</forename>
+                        <roleName>Graf</roleName>
+                        <surname>Löwenhielm</surname>
+                    </persName>
+                    <birth>1772</birth>
+                    <death>1861</death>
+                    <note>Bevollmächtigter Schwedens auf dem Wiener Kongress; vgl. zu seiner Person
+                        Lazarus, Svenska millionärer, Bd. 5, S. 375–383; Schneider, Werner, Europa
+                        in Wien, S. 223–224.</note>
+                    <idno type="URI">https://viaf.org/viaf/26970463/</idno>
+                </person>
+                <person xml:id="p.207">
+                    <persName>
+                        <surname>Karl XIII.</surname>
+                        <roleName>König von Schweden</roleName>
+                    </persName>
+                    <birth>1748</birth>
+                    <death>1818</death>
+                    <note>Als Karl II. zwischen 1814 und 1818 auch König von Norwegen.</note>
+                </person>
+            </listPerson>
+            <listPlace>
+                <place xml:id="loc.1">
+                <placeName>Aachen</placeName>
+               <placeName>Aix-la-Chapelle</placeName>
+               
+               <location>
+                        <geo>50.77664 6.08342</geo>
+                    </location>
+                    <idno type="URI">http://www.geonames.org/3247449/</idno>
+            </place>
+                <place xml:id="loc.8">
+                <placeName>London</placeName>
+               <placeName>Londres</placeName>
+               
+               <location>
+                        <geo>51.50853 -0.12574</geo>
+                    </location>
+                    <idno type="URI">http://www.geonames.org/2643743/</idno>
+            </place>
+                <place xml:id="loc.27">
+               <placeName>Kiel</placeName>
+               <location>
+                        <geo>54.32133 10.13489</geo>
+                    </location>
+                    <idno type="URI">http://www.geonames.org/2891122/</idno>
+            </place>
+                <place xml:id="loc.12">
+               <placeName>Stockholm</placeName>
+               <location>
+                        <geo>59.33258 18.0649</geo>
+                    </location>
+                    <idno type="URI">http://www.geonames.org/2673730/</idno>
+            </place>
+                <place xml:id="loc.42">
+                <placeName>Algier</placeName>
+                <placeName>Alger</placeName>
+               <location>
+                        <geo>36.73225 3.08746</geo>
+                    </location>
+                    <idno type="URI">http://www.geonames.org/2507480/</idno>
+            </place>
+                <place xml:id="loc.2">
+               <placeName>Paris</placeName>
+               <location>
+                        <geo>48.85341 2.3488</geo>
+                    </location>
+                    <idno type="URI">http://www.geonames.org/2988507/</idno>
+            </place>
+                <place xml:id="loc.7">
+                <placeName>Wien</placeName>
+               <placeName>Vienne</placeName>
+               
+               <location>
+                        <geo>48.2082 16.37169</geo>
+                    </location>
+                    <idno type="URI">http://www.geonames.org/2761367/</idno>
+            </place>
+                <place xml:id="loc.31">
+               <placeName>Waterloo</placeName>
+               <location>
+                        <geo>50.71469 4.3991</geo>
+                    </location>
+                    <idno type="URI">http://www.geonames.org/2783985/</idno>
+            </place>
+                <place xml:id="loc.43">
+               <placeName>Rochefort</placeName>
+               <location>
+                        <geo>45.93333 -0.98333</geo>
+                    </location>
+                    <idno type="URI">http://www.geonames.org/2983276/</idno>
+            </place>
+                <place xml:id="loc.14">
+                <placeName>Kopenhagen</placeName>
+               <placeName>Copenhague</placeName>
+               
+               <location>
+                        <geo>55.67594 12.56553</geo>
+                    </location>
+                    <idno type="URI">http://www.geonames.org/2618425/</idno>
+            </place>
+            </listPlace>
+            <listBibl>
+                <bibl xml:id="t.15">Friedensvertrag zwischen Schweden und Dänemark, Kiel 14. Jänner
+               1814; vgl. Kinzler, Kieler Frieden. Pyta, Konzert der Mächte, S. 153–156. Text
+               abgedruckt in BFSP Bd.1/1 (1812–1814), S. 194–205.</bibl>
+                <bibl xml:id="t.31">Konvention zwischen Großbritannien, Österreich, Russland und Preußen
+               betreffend die Verwahrung Napoleons, Paris 2. August 1815; vgl. BFSP Bd. 3 (1815/16),
+               S. 200–203; Clercq, Recueil, Bd. 2, S. 625–626.</bibl>
+                <bibl xml:id="t.32">Defensivallianz zwischen Spanien und den Niederlanden gegen die
+               Barbareskenstaaten von Algier, Tunis und Tripolis, Alcala de Henares 10. August 1816;
+               vgl. BFSP Bd. 3 (1815/16), S. 562–565.</bibl>
+                <bibl xml:id="t.33">Vertrag zwischen Österreich, Preußen, Russland und Napoleon
+               Bonaparte, Paris 11. April 1814. Beitritt Großbritanniens am 27. April 1814; vgl.
+               BFSP Bd. 1/1 (1812–1814), S. 134–137; Clercq, Recueil, Bd. 2, S. 402–405.</bibl>
+                <bibl xml:id="t.34">Allianzvertrag zwischen Österreich, Großbritannien, Preußen und
+               Russland vom 25. März 1815, formal unterzeichnet am 27. März; vgl. BFSP Bd. 2
+               (1814/15), S. 443–450; Clercq, Recueil, Bd. 2, S. 474–476; Martens, Nouveau Recueil,
+               Bd. 2 (1814/15), S. 109–118.</bibl>
+            </listBibl>
+        </back>
+    </text>
 </TEI>

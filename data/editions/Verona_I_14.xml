@@ -208,13 +208,45 @@
                     </persName>).</p>
          </div>
       </body>
-      <back>
-         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../indices/listplace.xml" xpointer="listPlace"/>
-         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../indices/listperson.xml" xpointer="listPerson"/>
-         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../indices/listwit.xml" xpointer="listWit"/>
-         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../indices/listorg.xml" xpointer="listOrg"/>
-         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../indices/listtreaties.xml" xpointer="listTreaties"/>
-
-      </back>
-   </text>
+      
+   <back>
+            <listPerson>
+                <person xml:id="p.5">
+                    <persName>
+                        <forename>Friedrich</forename>
+                        <surname>Gentz</surname>
+                    </persName>
+                    <birth>1764</birth>
+                    <death>1832</death>
+                    <note>Protokollführer; vgl. zu seiner Person Kronenbitter, Wort und Macht;
+                        Cahen, Gentz; Mann, Friedrich von Gentz; Schneider, Werner, Europa in Wien,
+                        S. 169–170.</note>
+                    <idno type="URI">https://viaf.org/viaf/2522018/</idno>
+                </person>
+                <person xml:id="p.10">
+                    <persName>
+                        <forename>Arthur</forename>
+                        <surname>Wellesley</surname>, <roleName>1<hi rendition="#su">st</hi> duke of
+                            Wellington</roleName>
+                    </persName>
+                    <birth>1769</birth>
+                    <death>1852</death>
+                    <note>Bevollmächtigter Großbritanniens; vgl. zu seiner Person zuletzt Muir,
+                        Wellington; Gash, Wellesley, Arthur, first duke of Wellington. In: ODNB, Bd.
+                        58, S. 1–29.</note>
+                    <idno type="URI">https://viaf.org/viaf/2465308/</idno>
+                </person>
+            </listPerson>
+            <listPlace>
+                <place xml:id="loc.68">
+               <placeName>Verona</placeName>
+                <placeName>Vérone</placeName>
+               <location>
+                        <geo>45.4299 10.98444</geo>
+                    </location>
+                    <idno type="URI">http://www.geonames.org/3164527/</idno>
+            </place>
+            </listPlace>
+        </back>
+    </text>
 </TEI>

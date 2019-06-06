@@ -2014,12 +2014,837 @@
                mesures que les cinq Puissances sont disposées à prendre.</p>
          </div>
       </body>
-       <back>
-           <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../indices/listplace.xml" xpointer="listPlace"/>
-           <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../indices/listperson.xml" xpointer="listPerson"/>
-           <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../indices/listwit.xml" xpointer="listWit"/>
-           <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../indices/listorg.xml" xpointer="listOrg"/>
-           <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../indices/listtreaties.xml" xpointer="listTreaties"/>
-       </back>
-   </text>
+       
+   <back>
+            <listPerson>
+                <person xml:id="p.5">
+                    <persName>
+                        <forename>Friedrich</forename>
+                        <surname>Gentz</surname>
+                    </persName>
+                    <birth>1764</birth>
+                    <death>1832</death>
+                    <note>Protokollführer; vgl. zu seiner Person Kronenbitter, Wort und Macht;
+                        Cahen, Gentz; Mann, Friedrich von Gentz; Schneider, Werner, Europa in Wien,
+                        S. 169–170.</note>
+                    <idno type="URI">https://viaf.org/viaf/2522018/</idno>
+                </person>
+                <person xml:id="p.6">
+                    <persName>
+                        <forename>Nikolaus</forename>
+                        <surname>Wacken</surname>
+                    </persName>
+                    <death>1834</death>
+                    <note>Kompilator, Protokollführer; vgl. zu seiner Person Schneider, Werner,
+                        Europa in Wien, S. 207.</note>
+                    <idno type="URI">https://viaf.org/viaf/309696450/</idno>
+                </person>
+                <person xml:id="p.22">
+                    <persName>
+                        <surname>Karl Ludwig Friedrich</surname>
+                        <roleName>Großherzog von Baden</roleName>
+                    </persName>
+                    <birth>1786</birth>
+                    <death>1818</death>
+                    <note>Vgl. zu seiner Person Weech, Karl Ludwig Friedrich, Großherzog von Baden.
+                        In: ADB, Bd. 15, S. 248–250; Schneider, Werner, Europa in Wien, S.
+                        202.</note>
+                    <idno type="URI">https://viaf.org/viaf/42227780/</idno>
+                </person>
+                <person xml:id="p.26">
+                    <persName>
+                        <forename>Wilhelm Ludwig Leopold Reinhard</forename>
+                        <roleName>Freiherr</roleName>
+                        <surname>von Berstett</surname>
+                    </persName>
+                    <birth>1769</birth>
+                    <death>1837</death>
+                    <note>Badischer Außenminister; vgl. zu seiner Person Ritthaler, Berstett,
+                        Wilhelm Ludwig Leopold Reinhard Freiherr von. In: NDB, Bd. 2, S. 148;
+                        Schneider, Werner, Europa in Wien, S. 118–119.</note>
+                    <idno type="URI">https://viaf.org/viaf/54892705/</idno>
+                </person>
+                <person xml:id="p.11">
+                    <persName>
+                        <forename>Karl August</forename>
+                        <roleName>Fürst</roleName>
+                        <surname>von Hardenberg</surname>
+                    </persName>
+                    <birth>1750</birth>
+                    <death>1822</death>
+                    <note>Preußischer Staatskanzler, Bevollmächtigter Preußens; vgl. zu seiner
+                        Person Gall, Hardenberg; Schneider, Werner, Europa in Wien, S. 184–185;
+                        Capefigue, Les diplomates européens, S. 275–316; Stamm-Kuhlmann, Freier
+                        Gebrauch.</note>
+                    <idno type="URI">https://viaf.org/viaf/4975077/</idno>
+                </person>
+                <person xml:id="p.12">
+                    <persName>
+                        <forename>Christian Günther</forename>
+                        <roleName>Graf</roleName>
+                        <surname>von Bernstorff</surname>
+                    </persName>
+                    <birth>1769</birth>
+                    <death>1835</death>
+                    <note>Preußischer Außenminister, Bevollmächtigter Preußens; vgl. zu seiner
+                        Person Kellenbenz, Bernstorff, Christian Graf von. In: NDB, Bd. 2, S.
+                        139–140; Schneider, Werner, Europa in Wien, S. 116–117.</note>
+                    <idno type="URI">https://viaf.org/viaf/49969175/</idno>
+                </person>
+                <person xml:id="p.10">
+                    <persName>
+                        <forename>Arthur</forename>
+                        <surname>Wellesley</surname>, <roleName>1<hi rendition="#su">st</hi> duke of
+                            Wellington</roleName>
+                    </persName>
+                    <birth>1769</birth>
+                    <death>1852</death>
+                    <note>Bevollmächtigter Großbritanniens; vgl. zu seiner Person zuletzt Muir,
+                        Wellington; Gash, Wellesley, Arthur, first duke of Wellington. In: ODNB, Bd.
+                        58, S. 1–29.</note>
+                    <idno type="URI">https://viaf.org/viaf/2465308/</idno>
+                </person>
+                <person xml:id="p.1">
+                    <persName>
+                        <forename>Armand Emmanuel</forename>
+                        <surname>du Plessis</surname>
+                        <roleName>duc de Richelieu</roleName>
+                    </persName>
+                    <birth>1766</birth>
+                    <death>1822</death>
+                    <note>Französischer Premierminister; vgl. zu seiner Person de Waresquiel, Le Duc
+                        de Richelieu; Capefigue, Les diplomates européens, S. 245–274.</note>
+                    <idno type="URI">https://viaf.org/viaf/56652282/</idno>
+                </person>
+                <person xml:id="p.8">
+                    <persName>
+                        <surname>Metternich</surname>
+                        <forename>Clemens Wenzel Lothar</forename>
+                        <roleName>Fürst</roleName>
+                    </persName>
+                    <birth>1773</birth>
+                    <death>1859</death>
+                    <note>Österreichischer Außenminister, ab 1821 österreichischer Haus-, Hof- und
+                        Staatskanzler; vgl. zu seiner Person Siemann, Metternich; Šedivý,
+                        Metternich; Srbik, Metternich; Schneider, Werner, Europa in Wien, S.
+                        237–239.</note>
+                    <idno type="URI">https://viaf.org/viaf/49258230/</idno>
+                </person>
+                <person xml:id="p.9">
+                    <persName>
+                        <forename>Robert </forename>
+                        <surname>Stewart</surname>
+                        <roleName>Viscount Castlereagh</roleName>
+                    </persName>
+                    <birth>1769</birth>
+                    <death>1822</death>
+                    <note>Britischer Außenminister; vgl zu seiner Person Bew, Castlereagh; Webster,
+                        Foreign Policy; Bartlett, Castlereagh; Thorne, Stewart, Robert, Viscount
+                        Castlereagh and second marquess of Londonderry. In: ODNB, Bd. 52, S.
+                        749–757.</note>
+                    <idno type="URI">https://viaf.org/viaf/15560591/</idno>
+                </person>
+                <person xml:id="p.13">
+                    <persName>
+                        <forename>Karl Robert</forename>
+                        <roleName>Graf</roleName>
+                        <surname>von Nesselrode</surname>
+                    </persName>
+                    <birth>1780</birth>
+                    <death>1862</death>
+                    <note>Russischer Außenminister, Bevollmächtigter Russlands; vgl. zu seiner
+                        Person Eich, Nesselrode, Robert Graf von. In: NDB, Bd. 19, S. 74–75;
+                        Grimsted, The Foreign Ministers, S. 194–225, 269–286; Schneider, Werner,
+                        Europa in Wien, S. 248–249.</note>
+                    <idno type="URI">https://viaf.org/viaf/49992065/</idno>
+                </person>
+                <person xml:id="p.14">
+                    <persName>
+                        <forename>Ioannis Antonis</forename>
+                        <roleName>Graf</roleName>
+                        <surname>Kapodistrias/Capodistrias</surname>
+                    </persName>
+                    <birth>1776</birth>
+                    <death>1831</death>
+                    <note>Russischer Außenminister, Bevollmächtigter Russlands; vgl. zu seiner
+                        Person Woodhouse, Capodistrias; Grimsted, The Foreign Ministers, S. 226–268;
+                        Schneider, Werner, Europa in Wien, S. 199–200.</note>
+                    <idno type="URI">https://viaf.org/viaf/39507057/</idno>
+                </person>
+                <person xml:id="p.76">
+                    <persName>
+                        <surname>Peter Friedrich Wilhelm</surname>
+                        <roleName>Herzog von Oldenburg</roleName>
+                    </persName>
+                    <birth>1754</birth>
+                    <death>1823</death>
+                    <note>Vgl. zu seiner Person Mutzenbecher, Peter Friedrich Wilhelm. In: ADB, Bd.
+                        25, S. 469.</note>
+                    <idno type="URI">https://viaf.org/viaf/88141669/</idno>
+                </person>
+                <person xml:id="p.80">
+                    <persName>
+                        <forename>Alfred I. (Candidus Ferdinand)</forename>
+                        <roleName>Fürst</roleName>
+                        <surname>zu Windisch-Graetz</surname>
+                    </persName>
+                    <birth>1787</birth>
+                    <death>1862</death>
+                    <note>Vgl. zu seiner Person Wurzbach, Biographisches Lexikon, Bd. 57, S. 1–39;
+                        Raberg, Biographisches Handbuch, S. 1021.</note>
+                    <idno type="URI">https://viaf.org/viaf/84635414/</idno>
+                </person>
+                <person xml:id="p.81">
+                    <persName>
+                        <surname>Wilhelm I. (Friedrich Wilhelm Carl)</surname>
+                        <roleName>König von Württemberg</roleName>
+                    </persName>
+                    <birth>1781</birth>
+                    <death>1864</death>
+                    <note>Vgl. zu seiner Person Sauer, Reformer; Elias, Wilhelm I. In: Lorenz,
+                        Mertens, Press (Hg), Das Haus Württemberg, S. 302–306; Schneider, Werner,
+                        Europa in Wien, S. 316–317.</note>
+                    <idno type="URI">https://viaf.org/viaf/263556694/</idno>
+                </person>
+                <person xml:id="p.78">
+                    <persName>
+                        <surname>Friedrich V. (Ludwig Wilhelm Christian)</surname>
+                        <roleName>Landgraf von Hessen-Homburg</roleName>
+                    </persName>
+                    <birth>1748</birth>
+                    <death>1820</death>
+                    <note>Vgl. zu seiner Person Kirchner, Friedrich Ludwig. In: NDB, Bd. 5, S.
+                        506–507; Hischer (Hg.), Landgraf Friedrich V.</note>
+                    <idno type="URI">https://viaf.org/viaf/27865946/</idno>
+                </person>
+                <person xml:id="p.79">
+                    <persName>
+                        <surname>Ludwig I.</surname>
+                        <roleName>Großherzog von Hessen und bei Rhein</roleName>
+                    </persName>
+                    <birth>1753</birth>
+                    <death>1830</death>
+                    <note>Vgl. zu seiner Person Richter, Großherzog Ludewig I.; Franz, Ludwig I. In:
+                        NDB, Bd. 15, S. 395–396.</note>
+                    <idno type="URI">https://viaf.org/viaf/51816780/</idno>
+                </person>
+                <person xml:id="p.99">
+                    <persName>
+                        <surname>Maximilian I. Joseph</surname>
+                        <roleName>König von Bayern</roleName>
+                    </persName>
+                    <birth>1756</birth>
+                    <death>1825</death>
+                    <note>Vgl. zu seiner Person Weis, Maximilian I., König von Bayern. In: NDB, Bd.
+                        16, S. 487–490; Glaser (Hg.), Krone und Verfassung; Schneider, Werner,
+                        Europa in Wien, S. 236–237.</note>
+                    <idno type="URI">https://viaf.org/viaf/5723155/</idno>
+                </person>
+                <person xml:id="p.25">
+                    <persName>
+                        <forename>Johann Rudolf</forename>
+                        <roleName>Graf</roleName>
+                        <surname>Buol-Schauenstein</surname>
+                    </persName>
+                    <birth>1763</birth>
+                    <death>1834</death>
+                    <note>Österreichischer Präsident des Bundestags in Frankfurt am Main; vgl. zu
+                        seiner Person Aretin, Buol-Schauenstein Johann Rudolf Freiherr von, Graf.
+                        In: NDB, Bd. 3, S. 22–23.</note>
+                    <idno type="URI">https://viaf.org/viaf/10616124/</idno>
+                </person>
+                <person xml:id="p.113">
+                    <persName>
+                        <forename>Karl Friedrich</forename>
+                        <roleName>Graf</roleName>
+                        <surname>von Reinhard</surname>
+                    </persName>
+                    <birth>1761</birth>
+                    <death>1837</death>
+                    <note>Gesandter Frankreichs in Frankfurt a. M.; vgl. zu seiner Person Paul,
+                        Reinhard, Karl Friedrich Graf von. In: NDB, Bd. 21, S. 355–357; Gross (Hg.),
+                        Karl Friedrich Reinhard; Delinière, Ein deutscher Aufklärer.</note>
+                    <idno type="URI">https://viaf.org/viaf/22936895/</idno>
+                </person>
+                <person xml:id="p.114">
+                    <persName>
+                        <forename>Frederick</forename>
+                        <surname>Lamb</surname>
+                        <roleName> 3<hi rendition="#su">rd</hi> Viscount Melbourne</roleName>
+                    </persName>
+                    <birth>1782</birth>
+                    <death>1853</death>
+                    <note>Gesandter Großbritanniens in Frankfurt a. M. sowie in München; vgl. zu
+                        seiner Person Reynolds, Lamb, Frederick James. In: ODNB, Bd. 32, S.
+                        267–268.</note>
+                    <idno type="URI">https://viaf.org/viaf/13080989/</idno>
+                </person>
+                <person xml:id="p.115">
+                    <persName>
+                        <forename>August Friedrich Ferdinand</forename>
+                        <roleName>Graf</roleName>
+                        <surname>von der Goltz</surname>
+                    </persName>
+                    <birth>1765</birth>
+                    <death>1832</death>
+                    <note>Gesandter Preußens in Frankfurt a. M.; vgl. zu seiner Person Hoepke,
+                        Goltz, August Friedrich Ferdinand Graf von der. In: NDB, Bd. 6, S.
+                        628–629.</note>
+                    <idno type="URI">https://viaf.org/viaf/35216683/</idno>
+                </person>
+                <person xml:id="p.39">
+                    <persName>
+                        <forename>Iwan/Johann Ossipowitsch</forename>
+                        <roleName>Freiherr</roleName>
+                        <surname>von Anstett</surname>
+                    </persName>
+                    <birth>1766/1770</birth>
+                    <death>1835</death>
+                    <note>Russischer Vertreter in der Territorialkommission in Frankfurt a. M.; vgl.
+                        zu seiner Person Schneider, Werner, Europa in Wien, S. 102–103.</note>
+                    <idno type="URI">https://viaf.org/viaf/15516591/</idno>
+                </person>
+                <person xml:id="p.16">
+                    <persName>
+                        <surname>Franz I.</surname>
+                        <roleName>Kaiser von Österreich</roleName>
+                    </persName>
+                    <birth>1768</birth>
+                    <death>1835</death>
+                    <note>Vgl. Mikoletzky, Franz II. (I.); Schneider, Werner, Europa in Wien, S.
+                        154–155; Ziegler, Franz II./I.</note>
+                    <idno type="URI">https://viaf.org/viaf/36912131/</idno>
+                </person>
+                <person xml:id="p.84">
+                    <persName>
+                        <forename>(Franz) Joseph Ferdinand</forename>
+                        <roleName>Graf</roleName>
+                        <surname>von Trauttmannsdorff-Weinsberg</surname>
+                    </persName>
+                    <birth>1788</birth>
+                    <death>1870</death>
+                    <note>Österreichischer Gesandter in Stuttgart; vgl. zu seiner Person ÖBL, Bd.
+                        14, S. 437.</note>
+                    <idno type="URI">https://viaf.org/viaf/1145147907501379210004/</idno>
+                </person>
+                <person xml:id="p.85">
+                    <persName>
+                        <forename>Marc René</forename>
+                        <roleName>comte</roleName>
+                        <surname>de Montalemberg</surname>
+                    </persName>
+                    <birth>1777</birth>
+                    <death>1831</death>
+                    <note>Französischer Gesandter in Stuttgart; vgl. zu seiner Person Michaud,
+                        Biographie universelle, Bd. 29, S. 28–31.</note>
+                </person>
+                <person xml:id="p.86">
+                    <persName>
+                        <roleName>Sir</roleName>
+                        <forename>Brook</forename>
+                        <surname>Taylor</surname>
+                    </persName>
+                    <birth>1776</birth>
+                    <death>1846</death>
+                    <note>Britischer Gesandter in Stuttgart; vgl. Vetch, Reynolds, Taylor, Sir
+                        Herbert (Unterbiographie Sir Brook Taylor). In: ODNB, Bd. 53, S. 904–905;
+                        Bringmann, Handbuch, S. 200.</note>
+                    <idno type="URI">https://viaf.org/viaf/317073066/</idno>
+                </person>
+                <person xml:id="p.87">
+                    <persName>
+                        <forename>Johann Emanuel</forename>
+                        <surname>von Küster</surname>
+                    </persName>
+                    <birth>1764</birth>
+                    <death>1833</death>
+                    <note>Preußischer Gesandter in Stuttgart; vgl. Bringmann, Handbuch, S.
+                        330.</note>
+                </person>
+                <person xml:id="p.88">
+                    <persName>
+                        <forename>Konstantin Christophorovich</forename>
+                        <roleName>Freiherr</roleName>
+                        <surname>von Benckendorff</surname>
+                    </persName>
+                    <birth>1785</birth>
+                    <death>1828</death>
+                    <note>Russischer Gesandter in Stuttgart; vgl. Bringmann, Handbuch, S.
+                        345.</note>
+                    <idno type="URI">https://viaf.org/viaf/35238097/</idno>
+                </person>
+                <person xml:id="p.83">
+                    <persName>
+                        <forename>Friedrich</forename>
+                        <roleName>Freiherr</roleName>
+                        <surname>von Otterstedt</surname>
+                    </persName>
+                    <birth>1769</birth>
+                    <death>1850</death>
+                    <note>Preußischer Gesandter in Darmstadt; vgl. zu seiner Person Petersdorff,
+                        Otterstedt, Friedrich Freiherr von. In: ADB, Bd. 52, S. 731–733.</note>
+                </person>
+                <person xml:id="p.96">
+                    <persName>
+                        <forename>Therese (Mathilde Amalia)</forename>
+                        <roleName>Fürstin</roleName>
+                        <surname>von Thurn und Taxis</surname>
+                    </persName>
+                    <birth>1773</birth>
+                    <death>1839</death>
+                    <note>Geborene Herzogin zu Mecklenburg-Strelitz, Ehefrau von Karl Alexander
+                        Fürst von Thurn und Taxis (1770–1827); vgl. zu ihrer Person Panzer,
+                        Fürstinnen von Thurn und Taxis, S. 57–82; Schneider, Werner, Europa in Wien,
+                        S. 297–298.</note>
+                    <idno type="URI">https://viaf.org/viaf/32860386/</idno>
+                </person>
+                <person xml:id="p.89">
+                    <persName>
+                        <surname>Anton Aloys (Meinrad Franz)</surname>
+                        <roleName>Fürst von Hohenzollern-Sigmaringen</roleName>
+                    </persName>
+                    <birth>1762</birth>
+                    <death>1831</death>
+                    <note>Vgl. zu seiner Person Schilling, Geschichte des Hauses Hohenzollern, S.
+                        292–299; Schneider, Werner, Europa in Wien, S. 103.</note>
+                    <idno type="URI">https://viaf.org/viaf/65144067/</idno>
+                </person>
+                <person xml:id="p.82">
+                    <persName>
+                        <forename>Karl Alexander</forename>
+                        <roleName>Fürst</roleName>
+                        <surname>von Thurn und Taxis</surname>
+                    </persName>
+                    <birth>1770</birth>
+                    <death>1827</death>
+                    <note>Vgl. Grillmeyer, Habsburgs Diener; Behringer, Thurn und Taxis; Schneider,
+                        Werner, Europa in Wien, S. 297.</note>
+                    <idno type="URI">https://viaf.org/viaf/12733266/</idno>
+                </person>
+                <person xml:id="p.17">
+                    <persName>
+                        <surname>Alexander I.</surname>
+                        <roleName>Zar von Russland</roleName>
+                    </persName>
+                    <birth>1777</birth>
+                    <death>1825</death>
+                    <note>Vgl. Rey, Alexander I.; Schneider, Werner, Europa in Wien, S.
+                        100–102.</note>
+                    <idno type="URI">https://viaf.org/viaf/4938543/</idno>
+                </person>
+                <person xml:id="p.18">
+                    <persName>
+                        <surname>Friedrich Wilhelm III.</surname>
+                        <roleName>König von Preußen</roleName>
+                    </persName>
+                    <birth>1770</birth>
+                    <death>1840</death>
+                    <note>Vgl. Stamm-Kuhlmann, König in Preußens großer Zeit; Ders., Friedrich
+                        Wilhelm III; Schneider, Werner, Europa in Wien, S. 161–162.</note>
+                    <idno type="URI">https://viaf.org/viaf/774683/</idno>
+                </person>
+                <person xml:id="p.19">
+                    <persName>
+                        <surname>Georg/George III.</surname>
+                        <roleName>König des Vereinigten Königreichs Großbritannien und Irland und
+                            Hannover</roleName>
+                    </persName>
+                    <birth>1738</birth>
+                    <death>1820</death>
+                    <note>Vgl. Cannon, George III. In: ODNB, Bd. 21, S. 833–853; Black, George
+                        III.</note>
+                    <idno type="URI">https://viaf.org/viaf/49264990/</idno>
+                </person>
+                <person xml:id="p.21">
+                    <persName>
+                        <surname>Wilhelm I.</surname>
+                        <roleName>Kurfürst von Hessen-Kassel</roleName>
+                    </persName>
+                    <birth>1743</birth>
+                    <death>1821</death>
+                    <note>Vgl. zu seiner Person Petersdorff, Wilhelm I. (Kurfürst von Hessen). In:
+                        ADB, Bd. 43, S. 64–75; Franz, Das Haus Hessen; Schneider, Werner, Europa in
+                        Wien, S. 318–319.</note>
+                    <idno type="URI">https://viaf.org/viaf/264553004/</idno>
+                </person>
+                <person xml:id="p.71">
+                    <persName>
+                        <forename>Pedro</forename>
+                        <surname>de Souza Holstein</surname>, <roleName>Herzog (duque) von
+                            Palmella</roleName>
+                    </persName>
+                    <birth>1781</birth>
+                    <death>1850</death>
+                    <note>Portugiesischer Außenminister.</note>
+                    <idno type="URI">https://viaf.org/viaf/28369126/</idno>
+                </person>
+                <person xml:id="p.116">
+                    <persName>
+                        <forename>Wilhelm Friedrich</forename>
+                        <surname>zu Bentheim und Steinfurt</surname>
+                    </persName>
+                    <birth>1782</birth>
+                    <death>1839</death>
+                    <note>Vgl. zu seiner Person ÖBL, Bd. 1, S. 70.</note>
+                    <idno type="URI">https://viaf.org/viaf/303521974/</idno>
+                </person>
+                <person xml:id="p.117">
+                    <persName>
+                        <forename>Georg</forename>
+                        <surname>zu Löwenstein-Wertheim-Freudenberg</surname>
+                    </persName>
+                    <birth>1775</birth>
+                    <death>1855</death>
+                    <note>Vgl. zu seiner Person Raberger, Biographisches Handbuch, S.
+                        521–522.</note>
+                    <idno type="URI">https://viaf.org/viaf/15539605/</idno>
+                </person>
+                <person xml:id="p.118">
+                    <persName>
+                        <surname>Wilhelm I.</surname>
+                        <roleName>Herzog von Nassau</roleName>
+                    </persName>
+                    <birth>1792</birth>
+                    <death>1839</death>
+                    <note>Vgl. zu seiner Person Kolb, Wilhelm (August Heinrich Belgiens), Herzog von
+                        Nassau. In: ADB, Bd. 43, S. 136–139; Schneider, Werner, Europa in Wien, S.
+                        318.</note>
+                    <idno type="URI">https://viaf.org/viaf/264000517/</idno>
+                </person>
+                <person xml:id="p.24">
+                    <persName>
+                        <forename>Johann Peter Theodor</forename>
+                        <surname>von Wacquant-Geozelles</surname>
+                    </persName>
+                    <birth>1754</birth>
+                    <death>1844</death>
+                    <note>Österreichischer Gesandter in Hessen-Kassel (Kurfürstentum Hessen); vgl.
+                        Bringmann, Handbuch, S. 295; Wurzbach, Biographisches Lexikon, Bd. 52, S.
+                        50–53.</note>
+                    <idno type="URI">https://viaf.org/viaf/254320179/</idno>
+                </person>
+                <person xml:id="p.122">
+                    <persName>
+                        <forename>Konrad Sigmund Karl</forename>
+                        <surname>von Hänlein</surname>
+                    </persName>
+                    <birth>1760</birth>
+                    <death>1819</death>
+                    <note>Gesandter Preußens im Kurfürstentum Hessen; vgl. zu seiner Person Eintrag
+                        Haenlein, Conrad Sigmund Carl von. In: Hessische Biographie
+                        (Landesgeschichtliches Informationssystem Hessen) auf <ref target="http://www.lagis-hessen.de/de/subjects/idrec/sn/bio/id/3231">http://www.lagis-hessen.de/de/subjects/idrec/sn/bio/id/3231</ref>
+                        (eingesehen am 12. Juli 2014).</note>
+                    <idno type="URI">https://viaf.org/viaf/39769875/</idno>
+                </person>
+                <person xml:id="p.119">
+                    <persName>
+                        <forename>Irinée</forename>
+                        <surname>Bénigne</surname>
+                        <roleName>comte de Montlezun</roleName>
+                    </persName>
+                    <note>Gesandter Frankreichs im Großherzogtum Baden; vgl. Bringmann, Handbuch,
+                        S. 186.</note>
+                </person>
+                <person xml:id="p.120">
+                    <persName>
+                        <forename>Karl August </forename>
+                        <surname>Varnhagen von Ense</surname>
+                    </persName>
+                    <birth>1785</birth>
+                    <death>1858</death>
+                    <note>Gesandter Preußens im Großherzogtum Baden; vgl. zu seiner Person
+                        Wiedenmann, Karl August Varnhange von Ense; Greiling, Varnhagen von Ense;
+                        Schneider, Werner, Europa in Wien, S. 302.</note>
+                    <idno type="URI">https://viaf.org/viaf/59091773/</idno>
+                </person>
+                <person xml:id="p.121">
+                    <persName>
+                        <forename>Yuri Alexandrovich</forename>
+                        <roleName>Graf</roleName>
+                        <surname>von Golovkin</surname>
+                    </persName>
+                    <birth>1762</birth>
+                    <death>1846</death>
+                    <note>1818 Gesandter Russlands im Großherzogtum Baden, 1820 Gesandter Russlands
+                        in Wien, Mitglied der russischen Delegation beim Kongress von Troppau.</note>
+                    <idno type="URI">https://viaf.org/viaf/311466653/</idno>
+                </person>
+                <person xml:id="p.50">
+                    <persName>
+                        <forename>Napoleon I.</forename>
+                        <surname>Bonaparte</surname>
+                    </persName>
+                    <birth>1769</birth>
+                    <death>1821</death>
+                    <note>Vgl. zu seiner Person z. B. Ullrich, Napoleon; Fournier, Napoleon I.
+                        Dwyer, Napoleon; Dwyer, Citizen Emperor; Tulard, Napoleon; Broers, Napoleon
+                        (2 Bde.).</note>
+                    <idno type="URI">https://viaf.org/viaf/106964661/</idno>
+                </person>
+                <person xml:id="p.36">
+                    <persName>
+                        <forename>Johann</forename>
+                        <roleName>Freiherr</roleName>
+                        <surname>von Wessenberg-Ampringen</surname>
+                    </persName>
+                    <birth>1773</birth>
+                    <death>1858</death>
+                    <note>Österreichischer Vertreter in der Territorialkommission in Frankfurt a. M.
+                        sowie in München; vgl. zu seiner Person Arneth, Johann Freiherr von
+                        Wessenberg; Schneider, Werner, Europa in Wien, S. 312–313.</note>
+                    <idno type="URI">https://viaf.org/viaf/34486130/</idno>
+                </person>
+                <person xml:id="p.123">
+                    <persName>
+                        <forename>Augustin Marie Balthazar Charles </forename>
+                        <surname>Pelletier</surname>
+                        <roleName>comte de Lagarde</roleName>
+                    </persName>
+                    <birth>1780</birth>
+                    <death>1834</death>
+                    <note>1820/21 Gesandter Frankreichs in München, 1822 Gesandter Frankreichs in
+                        Madrid; vgl. Bringmann, Handbuch, S. 187, Rabbe, Vieilh de Boisjolin,
+                        Sainte-Preuve (Hg.), Biographie universelle, Bd. 3, S. 74..</note>
+                </person>
+                <person xml:id="p.124">
+                    <persName>
+                        <forename>Friedrich Wilhelm Christian</forename>
+                        <surname>von Zastrow</surname>
+                    </persName>
+                    <birth>1752</birth>
+                    <death>1830</death>
+                    <note>Gesandter Preußens in München; vgl. zu seiner Person Poten, Zastrow,
+                        Friedrich von. In: ADB, Bd. 44, S. 721–723.</note>
+                    <idno type="URI">https://viaf.org/viaf/47527552/</idno>
+                </person>
+                <person xml:id="p.125">
+                    <persName>
+                        <forename>Friedrich Alexander</forename>
+                        <roleName>Graf</roleName>
+                        <surname>von der Pahlen</surname>
+                    </persName>
+                    <birth>1780</birth>
+                    <death>1863</death>
+                    <note>Gesandter Russlands in München; vgl. zu seiner Person den Eintrag zu Graf
+                        v. d. Pahlen Friedrich Alexander in der Erik-Amburger-Datenbank (Ausländer
+                        im vorrevolutionären Russland) auf <ref target="http://dokumente.ios-regensburg.de/amburger/?id=74164">http://dokumente.ios-regensburg.de/amburger/?id=74164</ref> (eingesehen
+                        am 16. Juli 2017).</note>
+                </person>
+                <person xml:id="p.126">
+                    <persName>
+                        <forename>Jérôme</forename>
+                        <surname>Bonaparte</surname>
+                    </persName>
+                    <birth>1784</birth>
+                    <death>1860</death>
+                    <note>Ehemaliger König von Westphalen; vgl. zu seiner Person Bartsch, König
+                        Lustik!?; Melchior-Bonnet, Jérôme Bonaparte. In: Tulard (Hg.), Dictionnaire
+                        Napoléon, S. 969–971; Berding, Jérôme Bonaparte. In: NDB, Bd. 10, S.
+                        414–415.</note>
+                    <idno type="URI">https://viaf.org/viaf/39403245/</idno>
+                </person>
+                <person xml:id="p.28">
+                    <persName>
+                        <surname>Jõao/Johann VI.</surname>
+                        <roleName>König von Portugal und Brasilien</roleName>
+                    </persName>
+                    <birth>1767</birth>
+                    <death>1826</death>
+                    <idno type="URI">https://viaf.org/viaf/269013446/</idno>
+                </person>
+                <person xml:id="p.103">
+                    <persName>
+                        <roleName>Sir</roleName>
+                        <forename>Charles</forename>
+                        <surname>Bagot</surname>
+                    </persName>
+                    <birth>1781</birth>
+                    <death>1843</death>
+                    <note>Gesandter Großbritanniens in den Vereinigten Staaten von Amerika; vgl. zu
+                        seiner Person Bruckner, Bagot, Sir Charles. In: ODNB, Bd. 3, S.
+                        238–239.</note>
+                    <idno type="URI">https://viaf.org/viaf/14706932/</idno>
+                </person>
+                <person xml:id="p.104">
+                    <persName>
+                        <forename>Jean-Guillaume</forename>
+                        <roleName>baron</roleName>
+                        <surname>Hyde de Neuville</surname>
+                    </persName>
+                    <birth>1776</birth>
+                    <death>1857</death>
+                    <note>Gesandter Frankreichs in den Vereinigten Staaten von Amerika; vgl. zu
+                        seiner Person Watel, Jean-Guillaume Hyde de Neuville.</note>
+                    <idno type="URI">https://viaf.org/viaf/34600228/</idno>
+                </person>
+                <person xml:id="p.105">
+                    <persName>
+                        <forename>Friedrich</forename>
+                        <surname>von Greuhm</surname>
+                    </persName>
+                    <birth>1780</birth>
+                    <death>1823</death>
+                    <note>Gesandter Preußens in den Vereinigten Staaten von Amerika.</note>
+                </person>
+                <person xml:id="p.106">
+                    <persName>
+                        <forename>Pjotr Iwanowitsch</forename>
+                        <surname>Poletika</surname>
+                    </persName>
+                    <birth>1778</birth>
+                    <death>1849</death>
+                    <note>Gesandter Russlands in den Vereinigten Staaten von Amerika.</note>
+                    <idno type="URI">https://viaf.org/viaf/57044598/</idno>
+                </person>
+                <person xml:id="p.127">
+                    <persName>
+                        <forename>José Gervasio</forename>
+                        <surname>Artigas</surname>
+                    </persName>
+                    <birth>1764</birth>
+                    <death>1850</death>
+                    <note>Uruguayischer General und Politiker, der sich um die Unabhängkeit des
+                        Lande Verdienste erworben hat. Zu seiner Person vgl. Street, Artigas; Luna,
+                        Artigas. Zu den Freibeutern unter seiner Flagge vgl. Reeder, Sovereign
+                        Lords’.</note>
+                    <idno type="URI">https://viaf.org/viaf/64804413/</idno>
+                </person>
+            </listPerson>
+            <listPlace>
+                <place xml:id="loc.1">
+                <placeName>Aachen</placeName>
+               <placeName>Aix-la-Chapelle</placeName>
+               
+               <location>
+                        <geo>50.77664 6.08342</geo>
+                    </location>
+                    <idno type="URI">http://www.geonames.org/3247449/</idno>
+            </place>
+                <place xml:id="loc.33">
+               <placeName>Elsfleth</placeName>
+               <location>
+                        <geo>53.23748 8.45664</geo>
+                    </location>
+                    <idno type="URI">http://www.geonames.org/2930726/</idno>
+            </place>
+                <place xml:id="loc.9">
+               <placeName>Berlin</placeName>
+               <location>
+                        <geo>52.52437 13.41053</geo>
+                    </location>
+                    <idno type="URI">http://www.geonames.org/2950159/</idno>
+            </place>
+                <place xml:id="loc.25">
+               <placeName>Frankfurt am Main</placeName>
+               <placeName>Francfort sur Main</placeName>
+               <location>
+                        <geo>50.11552 8.68417</geo>
+                    </location>
+                    <idno type="URI">http://www.geonames.org/2925533/</idno>
+            </place>
+                <place xml:id="loc.17">
+                <placeName>Stuttgardt</placeName>
+               <placeName>Stuttgart</placeName>
+               
+               <location>
+                        <geo>48.78232 9.17702</geo>
+                    </location>
+                    <idno type="URI">http://www.geonames.org/2825297/</idno>
+            </place>
+                <place xml:id="loc.34">
+               <placeName>Darmstadt</placeName>
+               <location>
+                        <geo>49.87167 8.65027</geo>
+                    </location>
+                    <idno type="URI">http://www.geonames.org/2938913/</idno>
+            </place>
+                <place xml:id="loc.7">
+                <placeName>Wien</placeName>
+               <placeName>Vienne</placeName>
+               
+               <location>
+                        <geo>48.2082 16.37169</geo>
+                    </location>
+                    <idno type="URI">http://www.geonames.org/2761367/</idno>
+            </place>
+                <place xml:id="loc.19">
+               <placeName>Karlsruhe</placeName>
+               <placeName>Carlsruhe</placeName>
+               <location>
+                        <geo>49.00922 8.40394</geo>
+                    </location>
+                    <idno type="URI">http://www.geonames.org/8643496/</idno>
+            </place>
+                <place xml:id="loc.16">
+                <placeName>München</placeName>
+               <placeName>Munich</placeName>
+               
+               <location>
+                        <geo>48.13743 11.57549</geo>
+                    </location>
+                    <idno type="URI">http://www.geonames.org/2867714/</idno>
+            </place>
+                <place xml:id="loc.35">
+               <placeName>Bremen</placeName>
+               <placeName>Brême</placeName>
+               <idno type="URI">http://www.geonames.org/2944388/bremen.html</idno>
+            </place>
+                <place xml:id="loc.45">
+                <placeName>Kassel</placeName>
+                <placeName>Cassel</placeName>
+               <location>
+                        <geo>51.31667 9.5</geo>
+                    </location>
+                    <idno type="URI">http://www.geonames.org/2892518/</idno>
+            </place>
+                <place xml:id="loc.2">
+               <placeName>Paris</placeName>
+               <location>
+                        <geo>48.85341 2.3488</geo>
+                    </location>
+                    <idno type="URI">http://www.geonames.org/2988507/</idno>
+            </place>
+                <place xml:id="loc.89">
+                    <placeName>Washington</placeName>
+                    <location>
+                        <geo>38.89511 -77.03637</geo>
+                    </location>
+                    <idno type="URI">https://www.geonames.org/4140963/</idno>
+                </place>
+            </listPlace>
+            <listBibl>
+                <bibl xml:id="t.12">Wiener Kongressakte vom 9. Juni 1815; vgl. Klüber, Acten, Bd. 6, S.
+               12–208; Angeberg, Congrès, Bd. 2, S. 1386–1433; Martens, Nouveau Recueil, Bd. 2, S.
+               361–430; BFSP Bd. 2 (1814/15), S 3–180; <ref target="http://www.staatsvertraege.de/Frieden1814-15/wka1815-i.htm">http://www.staatsvertraege.de/Frieden1814-15/wka1815-i.htm</ref> (eingesehen am
+               15. November 2012).</bibl>
+                <bibl xml:id="t.18">Deutsche Bundesakte vom 8. Juni 1815 (unterzeichnet am 10. Juni
+               1815; vgl. Huber, Dokumente zur Deutschen Verfassungsgeschichte, Bd. 1, S. 84–90;
+               Treichl, Die Entstehung, Bd. 1/2, S. 1503–1518;<ref target="http://www.verfassungen.de/de/de06-66/bundesakte15-i.htm">http://www.verfassungen.de/de/de06-66/bundesakte15-i.htm</ref> (eingesehen am 15.
+               November 2012).</bibl>
+                <bibl xml:id="t.27">Vertrag zwischen Bayern und Österreich, München 16. April
+               1816/Zusatz- und Geheimartikel, München 14. April 1816; vgl. BFSP Bd. 6 (1819/20), S.
+               63–69 (Vertrag), und Bd. 3 (1815/16), S. 668–669 (Zusatz- und Geheimartikel);
+               Angebert, Congrès, Bd. 3, S. 1688–1695; Neumann, Recueil, Bd. 3, S. 127–135; Martens,
+               Nouveau recueil, Bd. 3, S. 11–20.</bibl>
+                <bibl xml:id="t.24">Hauptschluss der außerordentlichen Reichsdeputation
+               (Reichshauptschluss) vom 25. Februar 1803. § 8 regelt die Entschädigungen für den
+               Herzog von Holstein-Oldenburg für die Aufhebung des Zolls von Elsfleth; vgl. Huber,
+               Dokumente zur deutschen Verfassungsgeschichte, Bd. 1, S. 1–28; Zeumer,
+               Quellensammlung, S. 509–531; Meyer (Hg.), Corpus Juris Confoederationis Germanicae,
+               Bd. 1, S. 16–69.</bibl>
+                <bibl xml:id="t.25">Vertrag zwischen Oldenburg, Russland, Frankreich und Preußen,
+               Regensburg 6. April 1803, vgl. Kotulla, Deutsches Verfassungsrecht, Bd. 4, S. 6. Vgl.
+               zum Inhalt Konvention zwischen Oldenburg und Bremen, Regensburg 6. April 1803,
+               abgedruckt in Protokolle der Deutschen Bundesversammlung, Bd. 2, S. 855–859, 58.
+               Sitzung vom 22. Dezember 1817; online auf <ref target="http://publikationen.ub.uni-frankfurt.de/volltexte/2010/115320/">http://publikationen.ub.uni-frankfurt.de/volltexte/2010/115320/</ref> (eingesehen
+               am 27. Juli 2017)</bibl>
+                <bibl xml:id="t.13">Erster Pariser Frieden, abgeschlossen zwischen Österreich,
+               Großbritannien, Portugal, Preußen, Russland, Schweden und Spanien auf der einen,
+               Frankreich auf der anderen Seite; vgl. BFSP Bd. 1/1 (1812–1814), S. 151–177; Martens,
+               Nouveau Recueil, Bd. 2, S. 1–18; Ghillany, Diplomatisches Handbuch, Bd. 1, S.
+               300–311; Angeberg, Congrès, Bd. 1, S. 161–176; <ref target="http://www.staatsvertraege.de/Frieden1814-15/1pfv1814-i.htm">http://www.staatsvertraege.de/Frieden1814-15/1pfv1814-i.htm</ref> (deutsch;
+               eingesehen am 15. November 2012) </bibl>
+            </listBibl>
+        </back>
+    </text>
 </TEI>

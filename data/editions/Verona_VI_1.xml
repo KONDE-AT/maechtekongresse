@@ -855,13 +855,175 @@
             </table>
          </div>
       </body>
-      <back>
-         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../indices/listplace.xml" xpointer="listPlace"/>
-         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../indices/listperson.xml" xpointer="listPerson"/>
-         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../indices/listwit.xml" xpointer="listWit"/>
-         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../indices/listorg.xml" xpointer="listOrg"/>
-         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../indices/listtreaties.xml" xpointer="listTreaties"/>
-
-      </back>
-   </text>
+      
+   <back>
+            <listPerson>
+                <person xml:id="p.5">
+                    <persName>
+                        <forename>Friedrich</forename>
+                        <surname>Gentz</surname>
+                    </persName>
+                    <birth>1764</birth>
+                    <death>1832</death>
+                    <note>Protokollführer; vgl. zu seiner Person Kronenbitter, Wort und Macht;
+                        Cahen, Gentz; Mann, Friedrich von Gentz; Schneider, Werner, Europa in Wien,
+                        S. 169–170.</note>
+                    <idno type="URI">https://viaf.org/viaf/2522018/</idno>
+                </person>
+                <person xml:id="p.10">
+                    <persName>
+                        <forename>Arthur</forename>
+                        <surname>Wellesley</surname>, <roleName>1<hi rendition="#su">st</hi> duke of
+                            Wellington</roleName>
+                    </persName>
+                    <birth>1769</birth>
+                    <death>1852</death>
+                    <note>Bevollmächtigter Großbritanniens; vgl. zu seiner Person zuletzt Muir,
+                        Wellington; Gash, Wellesley, Arthur, first duke of Wellington. In: ODNB, Bd.
+                        58, S. 1–29.</note>
+                    <idno type="URI">https://viaf.org/viaf/2465308/</idno>
+                </person>
+                <person xml:id="p.130">
+                    <persName>
+                        <surname>George IV.</surname>
+                        <roleName>König des Vereinigten Königreichs Großbritannien und Irland, König
+                            von Hannover</roleName>
+                    </persName>
+                    <birth>1762</birth>
+                    <death>1830</death>
+                    <note>Zwischen 1811 und 1820 Prinzregent; vgl. zu seiner Person Hibbert, George
+                        IV. In: ODNB, Bd. 21, S. 856–864; Smith, George IV.</note>
+                    <idno type="URI">https://viaf.org/viaf/265481029/</idno>
+                </person>
+                <person xml:id="p.198">
+                    <persName>
+                        <forename>Felix</forename>
+                        <surname>von Mier</surname>
+                    </persName>
+                    <note>1822 österreichischer Gesandter in Brüssel bzw. Den Haag; vgl. Matsch, Der
+                        auswärtige Dienst, S. 133.</note>
+                </person>
+                <person xml:id="p.199">
+                    <persName>
+                        <forename>Joseph Alexandre Jacques</forename>
+                        <surname>Durant de Mareuil</surname>
+                    </persName>
+                    <birth>1769</birth>
+                    <death>1855</death>
+                    <note>1822 französischer Gesandter in Brüssel bzw. Denn Haag; vgl. zu seiner
+                        Person Robert, Cougny, Dictionnaire des Parlementaires, online auf <ref target="http://www2.assemblee-nationale.fr/sycomore/fiche/(num_dept)/16525">http://www2.assemblee-nationale.fr/sycomore/fiche/(num_dept)/16525</ref>
+                        (eingesehen am 28. August 2017).</note>
+                    <idno type="URI">https://viaf.org/viaf/170233987/</idno>
+                </person>
+                <person xml:id="p.37">
+                    <persName>
+                        <forename>Richard</forename>
+                        <surname>Le Poer Trench</surname>, <roleName>2<hi rendition="#su">nd</hi>
+                            earl of Clancarty</roleName>
+                    </persName>
+                    <birth>1767</birth>
+                    <death>1837</death>
+                    <note>Britischer Vertreter in der Territorialkommission in Frankfurt a. M.; vgl.
+                        zu seiner Person Norgate, Matthew, Trench, Richard Le Poer, second earl of
+                        Clancarty. In: ODNB, Bd. 55, S. 297–299; Schneider, Werner, Europa in Wien,
+                        S. 134–135.</note>
+                    <idno type="URI">https://viaf.org/viaf/27824573/</idno>
+                </person>
+                <person xml:id="p.175">
+                    <persName>
+                        <forename>Franz Ludwig</forename>
+                        <roleName>Graf</roleName>
+                        <surname>von Hatzfeldt</surname>
+                    </persName>
+                    <birth>1756</birth>
+                    <death>1827</death>
+                    <note>1822 preußischer Gesandter in Wien und den Niederlanden; vgl. Bringmann,
+                        Handbuch der Diplomatie, S. 312 und S. 334, zu seiner Person Wurzbach,
+                        Biographisches Lexikon, Bd. 8, S. 52; Priesdorff, Soldatisches Führertum,
+                        Bd. 2, S. 446–449.</note>
+                    <idno type="URI">http://viaf.org/viaf/8166997/</idno>
+                </person>
+                <person xml:id="p.200">
+                    <persName>
+                        <forename>Peter</forename>
+                        <roleName>Freiherr</roleName>
+                        <surname>von Meyendorff</surname>
+                    </persName>
+                    <birth>1796</birth>
+                    <death>1863</death>
+                    <note>1822 russischer Gesandter in Brüssel bzw. Den Haag; vgl. Amburger,
+                        Behördenorganisation, S. 446.</note>
+                    <idno type="URI">https://viaf.org/viaf/20476565/</idno>
+                </person>
+                <person xml:id="p.15">
+                    <persName>
+                        <surname>Ludwig/Louis XVIII.</surname>
+                        <roleName> König von Frankreich</roleName>
+                    </persName>
+                    <birth>1755</birth>
+                    <death>1824</death>
+                    <note>Vgl. Malettke, Die Bourbonen; Thamer, Ludwig XVIII.; Mansel, Louis
+                        XVIII.</note>
+                    <idno type="URI">https://viaf.org/viaf/84035484/</idno>
+                </person>
+                <person xml:id="p.74">
+                    <persName>
+                        <surname>Willelm/Wilhelm I.</surname>
+                        <roleName>König der Niederlande, Großherzog von Luxemburg</roleName>
+                    </persName>
+                    <birth>1772</birth>
+                    <death>1843</death>
+                    <note>Vgl. zu seiner Person Koch, Koning Willem I.</note>
+                    <idno type="URI">https://viaf.org/viaf/42645467/</idno>
+                </person>
+            </listPerson>
+            <listPlace>
+                <place xml:id="loc.68">
+               <placeName>Verona</placeName>
+                <placeName>Vérone</placeName>
+               <location>
+                        <geo>45.4299 10.98444</geo>
+                    </location>
+                    <idno type="URI">http://www.geonames.org/3164527/</idno>
+            </place>
+                <place xml:id="loc.46">
+                <placeName>Brüssel</placeName>
+                <placeName>Bruxelles</placeName>
+                <placeName>Brussels</placeName>
+               <location>
+                        <geo>50.85045 4.34878</geo>
+                    </location>
+                    <idno type="URI">http://www.geonames.org/2800866/</idno>
+            </place>
+                <place xml:id="loc.85">
+               <placeName>Den Haag</placeName>
+               <placeName>The Hague</placeName>
+               <location>
+                        <geo>52.07667 4.29861</geo>
+                    </location>
+                    <idno type="URI">http://www.geonames.org/2747373/</idno>
+            </place>
+                <place xml:id="loc.7">
+                <placeName>Wien</placeName>
+               <placeName>Vienne</placeName>
+               
+               <location>
+                        <geo>48.2082 16.37169</geo>
+                    </location>
+                    <idno type="URI">http://www.geonames.org/2761367/</idno>
+            </place>
+            </listPlace>
+            <listBibl>
+                <bibl xml:id="t.51">Wiener Kongressakte vom 9. Juni 1815, Anhang Nr. 16; vgl. Klüber, Acten, Bd. 6, S.
+            12–208; Angeberg, Congrès, Bd. 2, S. 1386–1433; Martens, Nouveau Recueil, Bd. 2, S.
+            361–430; BFSP Bd. 2 (1814/15), S 3–180;
+            http://www.staatsvertraege.de/Frieden1814-15/wka1815-i.htm (eingesehen am 15. November
+            2012).</bibl>
+                <bibl xml:id="t.12">Wiener Kongressakte vom 9. Juni 1815; vgl. Klüber, Acten, Bd. 6, S.
+               12–208; Angeberg, Congrès, Bd. 2, S. 1386–1433; Martens, Nouveau Recueil, Bd. 2, S.
+               361–430; BFSP Bd. 2 (1814/15), S 3–180; <ref target="http://www.staatsvertraege.de/Frieden1814-15/wka1815-i.htm">http://www.staatsvertraege.de/Frieden1814-15/wka1815-i.htm</ref> (eingesehen am
+               15. November 2012).</bibl>
+            </listBibl>
+        </back>
+    </text>
 </TEI>

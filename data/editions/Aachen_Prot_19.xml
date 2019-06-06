@@ -310,12 +310,153 @@
                 </signed>
          </div>
       </body>
-      <back>
-         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../indices/listplace.xml" xpointer="listPlace"/>
-         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../indices/listperson.xml" xpointer="listPerson"/>
-         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../indices/listwit.xml" xpointer="listWit"/>
-         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../indices/listorg.xml" xpointer="listOrg"/>
-         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../indices/listtreaties.xml" xpointer="listTreaties"/>
-      </back>
-   </text>
+      
+   <back>
+            <listPerson>
+                <person xml:id="p.5">
+                    <persName>
+                        <forename>Friedrich</forename>
+                        <surname>Gentz</surname>
+                    </persName>
+                    <birth>1764</birth>
+                    <death>1832</death>
+                    <note>Protokollführer; vgl. zu seiner Person Kronenbitter, Wort und Macht;
+                        Cahen, Gentz; Mann, Friedrich von Gentz; Schneider, Werner, Europa in Wien,
+                        S. 169–170.</note>
+                    <idno type="URI">https://viaf.org/viaf/2522018/</idno>
+                </person>
+                <person xml:id="p.9">
+                    <persName>
+                        <forename>Robert </forename>
+                        <surname>Stewart</surname>
+                        <roleName>Viscount Castlereagh</roleName>
+                    </persName>
+                    <birth>1769</birth>
+                    <death>1822</death>
+                    <note>Britischer Außenminister; vgl zu seiner Person Bew, Castlereagh; Webster,
+                        Foreign Policy; Bartlett, Castlereagh; Thorne, Stewart, Robert, Viscount
+                        Castlereagh and second marquess of Londonderry. In: ODNB, Bd. 52, S.
+                        749–757.</note>
+                    <idno type="URI">https://viaf.org/viaf/15560591/</idno>
+                </person>
+                <person xml:id="p.12">
+                    <persName>
+                        <forename>Christian Günther</forename>
+                        <roleName>Graf</roleName>
+                        <surname>von Bernstorff</surname>
+                    </persName>
+                    <birth>1769</birth>
+                    <death>1835</death>
+                    <note>Preußischer Außenminister, Bevollmächtigter Preußens; vgl. zu seiner
+                        Person Kellenbenz, Bernstorff, Christian Graf von. In: NDB, Bd. 2, S.
+                        139–140; Schneider, Werner, Europa in Wien, S. 116–117.</note>
+                    <idno type="URI">https://viaf.org/viaf/49969175/</idno>
+                </person>
+                <person xml:id="p.11">
+                    <persName>
+                        <forename>Karl August</forename>
+                        <roleName>Fürst</roleName>
+                        <surname>von Hardenberg</surname>
+                    </persName>
+                    <birth>1750</birth>
+                    <death>1822</death>
+                    <note>Preußischer Staatskanzler, Bevollmächtigter Preußens; vgl. zu seiner
+                        Person Gall, Hardenberg; Schneider, Werner, Europa in Wien, S. 184–185;
+                        Capefigue, Les diplomates européens, S. 275–316; Stamm-Kuhlmann, Freier
+                        Gebrauch.</note>
+                    <idno type="URI">https://viaf.org/viaf/4975077/</idno>
+                </person>
+                <person xml:id="p.14">
+                    <persName>
+                        <forename>Ioannis Antonis</forename>
+                        <roleName>Graf</roleName>
+                        <surname>Kapodistrias/Capodistrias</surname>
+                    </persName>
+                    <birth>1776</birth>
+                    <death>1831</death>
+                    <note>Russischer Außenminister, Bevollmächtigter Russlands; vgl. zu seiner
+                        Person Woodhouse, Capodistrias; Grimsted, The Foreign Ministers, S. 226–268;
+                        Schneider, Werner, Europa in Wien, S. 199–200.</note>
+                    <idno type="URI">https://viaf.org/viaf/39507057/</idno>
+                </person>
+                <person xml:id="p.8">
+                    <persName>
+                        <surname>Metternich</surname>
+                        <forename>Clemens Wenzel Lothar</forename>
+                        <roleName>Fürst</roleName>
+                    </persName>
+                    <birth>1773</birth>
+                    <death>1859</death>
+                    <note>Österreichischer Außenminister, ab 1821 österreichischer Haus-, Hof- und
+                        Staatskanzler; vgl. zu seiner Person Siemann, Metternich; Šedivý,
+                        Metternich; Srbik, Metternich; Schneider, Werner, Europa in Wien, S.
+                        237–239.</note>
+                    <idno type="URI">https://viaf.org/viaf/49258230/</idno>
+                </person>
+                <person xml:id="p.13">
+                    <persName>
+                        <forename>Karl Robert</forename>
+                        <roleName>Graf</roleName>
+                        <surname>von Nesselrode</surname>
+                    </persName>
+                    <birth>1780</birth>
+                    <death>1862</death>
+                    <note>Russischer Außenminister, Bevollmächtigter Russlands; vgl. zu seiner
+                        Person Eich, Nesselrode, Robert Graf von. In: NDB, Bd. 19, S. 74–75;
+                        Grimsted, The Foreign Ministers, S. 194–225, 269–286; Schneider, Werner,
+                        Europa in Wien, S. 248–249.</note>
+                    <idno type="URI">https://viaf.org/viaf/49992065/</idno>
+                </person>
+                <person xml:id="p.1">
+                    <persName>
+                        <forename>Armand Emmanuel</forename>
+                        <surname>du Plessis</surname>
+                        <roleName>duc de Richelieu</roleName>
+                    </persName>
+                    <birth>1766</birth>
+                    <death>1822</death>
+                    <note>Französischer Premierminister; vgl. zu seiner Person de Waresquiel, Le Duc
+                        de Richelieu; Capefigue, Les diplomates européens, S. 245–274.</note>
+                    <idno type="URI">https://viaf.org/viaf/56652282/</idno>
+                </person>
+            </listPerson>
+            <listPlace>
+                <place xml:id="loc.1">
+                <placeName>Aachen</placeName>
+               <placeName>Aix-la-Chapelle</placeName>
+               
+               <location>
+                        <geo>50.77664 6.08342</geo>
+                    </location>
+                    <idno type="URI">http://www.geonames.org/3247449/</idno>
+            </place>
+                <place xml:id="loc.8">
+                <placeName>London</placeName>
+               <placeName>Londres</placeName>
+               
+               <location>
+                        <geo>51.50853 -0.12574</geo>
+                    </location>
+                    <idno type="URI">http://www.geonames.org/2643743/</idno>
+            </place>
+                <place xml:id="loc.26">
+               <placeName>Rio de Janeiro</placeName>
+               <location>
+                        <geo>-22.90642 -43.18223</geo>
+                    </location>
+                    <idno type="URI">http://www.geonames.org/3451190/</idno>
+            </place>
+            </listPlace>
+            <listBibl>
+                <bibl xml:id="t.14">Vertrag zwischen Großbritannien und Spanien über die Abschaffung des
+               Sklavenhandels, Madrid 23. September 1817; BFSP Bd. 4 (1816/17), S. 33–68.</bibl>
+                <bibl xml:id="t.16">Vertrag zwischen Großbritannien und Portugal zur Verhinderung des
+               Sklavenhandels, London 28. Juli 1817, Separatartikel, London 11. September 1817; BFSP
+               Bd. 4 (1816/17), S. 85–116.</bibl>
+                <bibl xml:id="t.17">Vertrag zwischen Großbritannien und den Niederlanden zur
+               Verhinderung des Sklavenhandels, Den Haag 4. Mai 1818; BFSP Bd. 5 (1817/18), S.
+               125–143.</bibl>
+            </listBibl>
+        </back>
+    </text>
 </TEI>

@@ -162,13 +162,61 @@
                allant au même but, auraient sur une déclaration collective.</p>
          </div>
       </body>
-      <back>
-         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../indices/listplace.xml" xpointer="listPlace"/>
-         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../indices/listperson.xml" xpointer="listPerson"/>
-         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../indices/listwit.xml" xpointer="listWit"/>
-         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../indices/listorg.xml" xpointer="listOrg"/>
-         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../indices/listtreaties.xml" xpointer="listTreaties"/>
-
-      </back>
-   </text>
+      
+   <back>
+            <listPerson>
+                <person xml:id="p.8">
+                    <persName>
+                        <surname>Metternich</surname>
+                        <forename>Clemens Wenzel Lothar</forename>
+                        <roleName>Fürst</roleName>
+                    </persName>
+                    <birth>1773</birth>
+                    <death>1859</death>
+                    <note>Österreichischer Außenminister, ab 1821 österreichischer Haus-, Hof- und
+                        Staatskanzler; vgl. zu seiner Person Siemann, Metternich; Šedivý,
+                        Metternich; Srbik, Metternich; Schneider, Werner, Europa in Wien, S.
+                        237–239.</note>
+                    <idno type="URI">https://viaf.org/viaf/49258230/</idno>
+                </person>
+                <person xml:id="p.12">
+                    <persName>
+                        <forename>Christian Günther</forename>
+                        <roleName>Graf</roleName>
+                        <surname>von Bernstorff</surname>
+                    </persName>
+                    <birth>1769</birth>
+                    <death>1835</death>
+                    <note>Preußischer Außenminister, Bevollmächtigter Preußens; vgl. zu seiner
+                        Person Kellenbenz, Bernstorff, Christian Graf von. In: NDB, Bd. 2, S.
+                        139–140; Schneider, Werner, Europa in Wien, S. 116–117.</note>
+                    <idno type="URI">https://viaf.org/viaf/49969175/</idno>
+                </person>
+                <person xml:id="p.175">
+                    <persName>
+                        <forename>Franz Ludwig</forename>
+                        <roleName>Graf</roleName>
+                        <surname>von Hatzfeldt</surname>
+                    </persName>
+                    <birth>1756</birth>
+                    <death>1827</death>
+                    <note>1822 preußischer Gesandter in Wien und den Niederlanden; vgl. Bringmann,
+                        Handbuch der Diplomatie, S. 312 und S. 334, zu seiner Person Wurzbach,
+                        Biographisches Lexikon, Bd. 8, S. 52; Priesdorff, Soldatisches Führertum,
+                        Bd. 2, S. 446–449.</note>
+                    <idno type="URI">http://viaf.org/viaf/8166997/</idno>
+                </person>
+            </listPerson>
+            <listPlace>
+                <place xml:id="loc.68">
+               <placeName>Verona</placeName>
+                <placeName>Vérone</placeName>
+               <location>
+                        <geo>45.4299 10.98444</geo>
+                    </location>
+                    <idno type="URI">http://www.geonames.org/3164527/</idno>
+            </place>
+            </listPlace>
+        </back>
+    </text>
 </TEI>

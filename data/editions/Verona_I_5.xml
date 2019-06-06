@@ -187,13 +187,97 @@
                Royaume pourroient Lui en laisser la faculté.</p>
          </div>
       </body>
-      <back>
-         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../indices/listplace.xml" xpointer="listPlace"/>
-         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../indices/listperson.xml" xpointer="listPerson"/>
-         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../indices/listwit.xml" xpointer="listWit"/>
-         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../indices/listorg.xml" xpointer="listOrg"/>
-         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../indices/listtreaties.xml" xpointer="listTreaties"/>
-
-      </back>
-   </text>
+      
+   <back>
+            <listPerson>
+                <person xml:id="p.12">
+                    <persName>
+                        <forename>Christian Günther</forename>
+                        <roleName>Graf</roleName>
+                        <surname>von Bernstorff</surname>
+                    </persName>
+                    <birth>1769</birth>
+                    <death>1835</death>
+                    <note>Preußischer Außenminister, Bevollmächtigter Preußens; vgl. zu seiner
+                        Person Kellenbenz, Bernstorff, Christian Graf von. In: NDB, Bd. 2, S.
+                        139–140; Schneider, Werner, Europa in Wien, S. 116–117.</note>
+                    <idno type="URI">https://viaf.org/viaf/49969175/</idno>
+                </person>
+                <person xml:id="p.175">
+                    <persName>
+                        <forename>Franz Ludwig</forename>
+                        <roleName>Graf</roleName>
+                        <surname>von Hatzfeldt</surname>
+                    </persName>
+                    <birth>1756</birth>
+                    <death>1827</death>
+                    <note>1822 preußischer Gesandter in Wien und den Niederlanden; vgl. Bringmann,
+                        Handbuch der Diplomatie, S. 312 und S. 334, zu seiner Person Wurzbach,
+                        Biographisches Lexikon, Bd. 8, S. 52; Priesdorff, Soldatisches Führertum,
+                        Bd. 2, S. 446–449.</note>
+                    <idno type="URI">http://viaf.org/viaf/8166997/</idno>
+                </person>
+                <person xml:id="p.174">
+                    <persName>
+                        <forename>Mathieu Jean Félicité</forename>
+                        <roleName>Vicomte</roleName>
+                        <surname>de Montmorency-Laval</surname>
+                    </persName>
+                    <birth>1766</birth>
+                    <death>1826</death>
+                    <note>1821/22 französischer Außenminister, Vertreter Frankreichs auf dem
+                        Kongress von Verona; vgl. zu seiner Person Michaud, Biographie universelle,
+                        Bd. 29, S. 181-183.</note>
+                    <idno type="URI">https://viaf.org/viaf/66610110/</idno>
+                </person>
+                <person xml:id="p.18">
+                    <persName>
+                        <surname>Friedrich Wilhelm III.</surname>
+                        <roleName>König von Preußen</roleName>
+                    </persName>
+                    <birth>1770</birth>
+                    <death>1840</death>
+                    <note>Vgl. Stamm-Kuhlmann, König in Preußens großer Zeit; Ders., Friedrich
+                        Wilhelm III; Schneider, Werner, Europa in Wien, S. 161–162.</note>
+                    <idno type="URI">https://viaf.org/viaf/774683/</idno>
+                </person>
+                <person xml:id="p.123">
+                    <persName>
+                        <forename>Augustin Marie Balthazar Charles </forename>
+                        <surname>Pelletier</surname>
+                        <roleName>comte de Lagarde</roleName>
+                    </persName>
+                    <birth>1780</birth>
+                    <death>1834</death>
+                    <note>1820/21 Gesandter Frankreichs in München, 1822 Gesandter Frankreichs in
+                        Madrid; vgl. Bringmann, Handbuch, S. 187, Rabbe, Vieilh de Boisjolin,
+                        Sainte-Preuve (Hg.), Biographie universelle, Bd. 3, S. 74..</note>
+                </person>
+            </listPerson>
+            <listPlace>
+                <place xml:id="loc.68">
+               <placeName>Verona</placeName>
+                <placeName>Vérone</placeName>
+               <location>
+                        <geo>45.4299 10.98444</geo>
+                    </location>
+                    <idno type="URI">http://www.geonames.org/3164527/</idno>
+            </place>
+                <place xml:id="loc.9">
+               <placeName>Berlin</placeName>
+               <location>
+                        <geo>52.52437 13.41053</geo>
+                    </location>
+                    <idno type="URI">http://www.geonames.org/2950159/</idno>
+            </place>
+                <place xml:id="loc.24">
+               <placeName>Madrid</placeName>
+               <location>
+                        <geo>40.4165 -3.70256</geo>
+                    </location>
+                    <idno type="URI">http://www.geonames.org/3117735/</idno>
+            </place>
+            </listPlace>
+        </back>
+    </text>
 </TEI>

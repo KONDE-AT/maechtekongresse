@@ -1261,12 +1261,412 @@
                     distinguée avec laquelle je suis …</p>
             </div>
         </body>
-        <back>
-            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../indices/listplace.xml" xpointer="listPlace"/>
-            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../indices/listperson.xml" xpointer="listPerson"/>
-            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../indices/listwit.xml" xpointer="listWit"/>
-            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../indices/listorg.xml" xpointer="listOrg"/>
-            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../indices/listtreaties.xml" xpointer="listTreaties"/>
+        
+    <back>
+            <listPerson>
+                <person xml:id="p.5">
+                    <persName>
+                        <forename>Friedrich</forename>
+                        <surname>Gentz</surname>
+                    </persName>
+                    <birth>1764</birth>
+                    <death>1832</death>
+                    <note>Protokollführer; vgl. zu seiner Person Kronenbitter, Wort und Macht;
+                        Cahen, Gentz; Mann, Friedrich von Gentz; Schneider, Werner, Europa in Wien,
+                        S. 169–170.</note>
+                    <idno type="URI">https://viaf.org/viaf/2522018/</idno>
+                </person>
+                <person xml:id="p.13">
+                    <persName>
+                        <forename>Karl Robert</forename>
+                        <roleName>Graf</roleName>
+                        <surname>von Nesselrode</surname>
+                    </persName>
+                    <birth>1780</birth>
+                    <death>1862</death>
+                    <note>Russischer Außenminister, Bevollmächtigter Russlands; vgl. zu seiner
+                        Person Eich, Nesselrode, Robert Graf von. In: NDB, Bd. 19, S. 74–75;
+                        Grimsted, The Foreign Ministers, S. 194–225, 269–286; Schneider, Werner,
+                        Europa in Wien, S. 248–249.</note>
+                    <idno type="URI">https://viaf.org/viaf/49992065/</idno>
+                </person>
+                <person xml:id="p.14">
+                    <persName>
+                        <forename>Ioannis Antonis</forename>
+                        <roleName>Graf</roleName>
+                        <surname>Kapodistrias/Capodistrias</surname>
+                    </persName>
+                    <birth>1776</birth>
+                    <death>1831</death>
+                    <note>Russischer Außenminister, Bevollmächtigter Russlands; vgl. zu seiner
+                        Person Woodhouse, Capodistrias; Grimsted, The Foreign Ministers, S. 226–268;
+                        Schneider, Werner, Europa in Wien, S. 199–200.</note>
+                    <idno type="URI">https://viaf.org/viaf/39507057/</idno>
+                </person>
+                <person xml:id="p.99">
+                    <persName>
+                        <surname>Maximilian I. Joseph</surname>
+                        <roleName>König von Bayern</roleName>
+                    </persName>
+                    <birth>1756</birth>
+                    <death>1825</death>
+                    <note>Vgl. zu seiner Person Weis, Maximilian I., König von Bayern. In: NDB, Bd.
+                        16, S. 487–490; Glaser (Hg.), Krone und Verfassung; Schneider, Werner,
+                        Europa in Wien, S. 236–237.</note>
+                    <idno type="URI">https://viaf.org/viaf/5723155/</idno>
+                </person>
+                <person xml:id="p.12">
+                    <persName>
+                        <forename>Christian Günther</forename>
+                        <roleName>Graf</roleName>
+                        <surname>von Bernstorff</surname>
+                    </persName>
+                    <birth>1769</birth>
+                    <death>1835</death>
+                    <note>Preußischer Außenminister, Bevollmächtigter Preußens; vgl. zu seiner
+                        Person Kellenbenz, Bernstorff, Christian Graf von. In: NDB, Bd. 2, S.
+                        139–140; Schneider, Werner, Europa in Wien, S. 116–117.</note>
+                    <idno type="URI">https://viaf.org/viaf/49969175/</idno>
+                </person>
+                <person xml:id="p.9">
+                    <persName>
+                        <forename>Robert </forename>
+                        <surname>Stewart</surname>
+                        <roleName>Viscount Castlereagh</roleName>
+                    </persName>
+                    <birth>1769</birth>
+                    <death>1822</death>
+                    <note>Britischer Außenminister; vgl zu seiner Person Bew, Castlereagh; Webster,
+                        Foreign Policy; Bartlett, Castlereagh; Thorne, Stewart, Robert, Viscount
+                        Castlereagh and second marquess of Londonderry. In: ODNB, Bd. 52, S.
+                        749–757.</note>
+                    <idno type="URI">https://viaf.org/viaf/15560591/</idno>
+                </person>
+                <person xml:id="p.11">
+                    <persName>
+                        <forename>Karl August</forename>
+                        <roleName>Fürst</roleName>
+                        <surname>von Hardenberg</surname>
+                    </persName>
+                    <birth>1750</birth>
+                    <death>1822</death>
+                    <note>Preußischer Staatskanzler, Bevollmächtigter Preußens; vgl. zu seiner
+                        Person Gall, Hardenberg; Schneider, Werner, Europa in Wien, S. 184–185;
+                        Capefigue, Les diplomates européens, S. 275–316; Stamm-Kuhlmann, Freier
+                        Gebrauch.</note>
+                    <idno type="URI">https://viaf.org/viaf/4975077/</idno>
+                </person>
+                <person xml:id="p.8">
+                    <persName>
+                        <surname>Metternich</surname>
+                        <forename>Clemens Wenzel Lothar</forename>
+                        <roleName>Fürst</roleName>
+                    </persName>
+                    <birth>1773</birth>
+                    <death>1859</death>
+                    <note>Österreichischer Außenminister, ab 1821 österreichischer Haus-, Hof- und
+                        Staatskanzler; vgl. zu seiner Person Siemann, Metternich; Šedivý,
+                        Metternich; Srbik, Metternich; Schneider, Werner, Europa in Wien, S.
+                        237–239.</note>
+                    <idno type="URI">https://viaf.org/viaf/49258230/</idno>
+                </person>
+                <person xml:id="p.1">
+                    <persName>
+                        <forename>Armand Emmanuel</forename>
+                        <surname>du Plessis</surname>
+                        <roleName>duc de Richelieu</roleName>
+                    </persName>
+                    <birth>1766</birth>
+                    <death>1822</death>
+                    <note>Französischer Premierminister; vgl. zu seiner Person de Waresquiel, Le Duc
+                        de Richelieu; Capefigue, Les diplomates européens, S. 245–274.</note>
+                    <idno type="URI">https://viaf.org/viaf/56652282/</idno>
+                </person>
+                <person xml:id="p.10">
+                    <persName>
+                        <forename>Arthur</forename>
+                        <surname>Wellesley</surname>, <roleName>1<hi rendition="#su">st</hi> duke of
+                            Wellington</roleName>
+                    </persName>
+                    <birth>1769</birth>
+                    <death>1852</death>
+                    <note>Bevollmächtigter Großbritanniens; vgl. zu seiner Person zuletzt Muir,
+                        Wellington; Gash, Wellesley, Arthur, first duke of Wellington. In: ODNB, Bd.
+                        58, S. 1–29.</note>
+                    <idno type="URI">https://viaf.org/viaf/2465308/</idno>
+                </person>
+                <person xml:id="p.16">
+                    <persName>
+                        <surname>Franz I.</surname>
+                        <roleName>Kaiser von Österreich</roleName>
+                    </persName>
+                    <birth>1768</birth>
+                    <death>1835</death>
+                    <note>Vgl. Mikoletzky, Franz II. (I.); Schneider, Werner, Europa in Wien, S.
+                        154–155; Ziegler, Franz II./I.</note>
+                    <idno type="URI">https://viaf.org/viaf/36912131/</idno>
+                </person>
+                <person xml:id="p.26">
+                    <persName>
+                        <forename>Wilhelm Ludwig Leopold Reinhard</forename>
+                        <roleName>Freiherr</roleName>
+                        <surname>von Berstett</surname>
+                    </persName>
+                    <birth>1769</birth>
+                    <death>1837</death>
+                    <note>Badischer Außenminister; vgl. zu seiner Person Ritthaler, Berstett,
+                        Wilhelm Ludwig Leopold Reinhard Freiherr von. In: NDB, Bd. 2, S. 148;
+                        Schneider, Werner, Europa in Wien, S. 118–119.</note>
+                    <idno type="URI">https://viaf.org/viaf/54892705/</idno>
+                </person>
+                <person xml:id="p.22">
+                    <persName>
+                        <surname>Karl Ludwig Friedrich</surname>
+                        <roleName>Großherzog von Baden</roleName>
+                    </persName>
+                    <birth>1786</birth>
+                    <death>1818</death>
+                    <note>Vgl. zu seiner Person Weech, Karl Ludwig Friedrich, Großherzog von Baden.
+                        In: ADB, Bd. 15, S. 248–250; Schneider, Werner, Europa in Wien, S.
+                        202.</note>
+                    <idno type="URI">https://viaf.org/viaf/42227780/</idno>
+                </person>
+                <person xml:id="p.36">
+                    <persName>
+                        <forename>Johann</forename>
+                        <roleName>Freiherr</roleName>
+                        <surname>von Wessenberg-Ampringen</surname>
+                    </persName>
+                    <birth>1773</birth>
+                    <death>1858</death>
+                    <note>Österreichischer Vertreter in der Territorialkommission in Frankfurt a. M.
+                        sowie in München; vgl. zu seiner Person Arneth, Johann Freiherr von
+                        Wessenberg; Schneider, Werner, Europa in Wien, S. 312–313.</note>
+                    <idno type="URI">https://viaf.org/viaf/34486130/</idno>
+                </person>
+                <person xml:id="p.37">
+                    <persName>
+                        <forename>Richard</forename>
+                        <surname>Le Poer Trench</surname>, <roleName>2<hi rendition="#su">nd</hi>
+                            earl of Clancarty</roleName>
+                    </persName>
+                    <birth>1767</birth>
+                    <death>1837</death>
+                    <note>Britischer Vertreter in der Territorialkommission in Frankfurt a. M.; vgl.
+                        zu seiner Person Norgate, Matthew, Trench, Richard Le Poer, second earl of
+                        Clancarty. In: ODNB, Bd. 55, S. 297–299; Schneider, Werner, Europa in Wien,
+                        S. 134–135.</note>
+                    <idno type="URI">https://viaf.org/viaf/27824573/</idno>
+                </person>
+                <person xml:id="p.38">
+                    <persName>
+                        <forename>Wilhelm</forename>
+                        <surname>von Humboldt</surname>
+                    </persName>
+                    <birth>1767</birth>
+                    <death>1835</death>
+                    <note>Preußischer Vertreter in der Territorialkommission in Frankfurt a. M.,
+                        1818 Gesandter Preußens in London; vgl. zu seiner Person zuletzt Gall,
+                        Wilhelm von Humboldt; Schneider, Werner, Europa in Wien, S. 193–195.</note>
+                    <idno type="URI">https://viaf.org/viaf/100183995/</idno>
+                </person>
+                <person xml:id="p.39">
+                    <persName>
+                        <forename>Iwan/Johann Ossipowitsch</forename>
+                        <roleName>Freiherr</roleName>
+                        <surname>von Anstett</surname>
+                    </persName>
+                    <birth>1766/1770</birth>
+                    <death>1835</death>
+                    <note>Russischer Vertreter in der Territorialkommission in Frankfurt a. M.; vgl.
+                        zu seiner Person Schneider, Werner, Europa in Wien, S. 102–103.</note>
+                    <idno type="URI">https://viaf.org/viaf/15516591/</idno>
+                </person>
+                <person xml:id="p.100">
+                    <persName>
+                        <forename>Sigmund Karl Johann</forename>
+                        <roleName>Freiherr</roleName>
+                        <surname>von Reitzenstein</surname>
+                    </persName>
+                    <birth>1766</birth>
+                    <death>1847</death>
+                    <note>Vgl. zu seiner Person Weech, Sigmund Karl Johann Freiherr von Reizenstein.
+                        In: ADB, Bd. 30, S. 69–70; Ders., Sigmund Karl Johann von Reizenstein. In:
+                        Badische Biographien, Bd. 2, S. 179–181; Schwarzmeier, Sigismund von
+                        Reizenstein. In: NDB, Bd. 21, S. 404–405; Merkle, „Plus-Forderer“.</note>
+                    <idno type="URI">https://viaf.org/viaf/67267528/</idno>
+                </person>
+                <person xml:id="p.17">
+                    <persName>
+                        <surname>Alexander I.</surname>
+                        <roleName>Zar von Russland</roleName>
+                    </persName>
+                    <birth>1777</birth>
+                    <death>1825</death>
+                    <note>Vgl. Rey, Alexander I.; Schneider, Werner, Europa in Wien, S.
+                        100–102.</note>
+                    <idno type="URI">https://viaf.org/viaf/4938543/</idno>
+                </person>
+                <person xml:id="p.55">
+                    <persName>
+                        <forename>Karl Wilhelm</forename>
+                        <roleName>Freiherr</roleName>
+                        <surname>Marschall von Bieberstein</surname>
+                    </persName>
+                    <birth>1763</birth>
+                    <death>1817</death>
+                    <note>1817 badischer Innenminister; vgl. zu seiner Person Weech, Marschall von
+                        Bieberstein, Carl Wilhelm Freiherr. In: ADB, Bd. 20, S. 433–434; Schneider,
+                        Werner, Europa in Wien, S. 234–235.</note>
+                    <idno type="URI">https://viaf.org/viaf/270972352/</idno>
+                </person>
+                <person xml:id="p.18">
+                    <persName>
+                        <surname>Friedrich Wilhelm III.</surname>
+                        <roleName>König von Preußen</roleName>
+                    </persName>
+                    <birth>1770</birth>
+                    <death>1840</death>
+                    <note>Vgl. Stamm-Kuhlmann, König in Preußens großer Zeit; Ders., Friedrich
+                        Wilhelm III; Schneider, Werner, Europa in Wien, S. 161–162.</note>
+                    <idno type="URI">https://viaf.org/viaf/774683/</idno>
+                </person>
+                <person xml:id="p.19">
+                    <persName>
+                        <surname>Georg/George III.</surname>
+                        <roleName>König des Vereinigten Königreichs Großbritannien und Irland und
+                            Hannover</roleName>
+                    </persName>
+                    <birth>1738</birth>
+                    <death>1820</death>
+                    <note>Vgl. Cannon, George III. In: ODNB, Bd. 21, S. 833–853; Black, George
+                        III.</note>
+                    <idno type="URI">https://viaf.org/viaf/49264990/</idno>
+                </person>
+            </listPerson>
+            <listPlace>
+                <place xml:id="loc.1">
+                <placeName>Aachen</placeName>
+               <placeName>Aix-la-Chapelle</placeName>
+               
+               <location>
+                        <geo>50.77664 6.08342</geo>
+                    </location>
+                    <idno type="URI">http://www.geonames.org/3247449/</idno>
+            </place>
+                <place xml:id="loc.25">
+               <placeName>Frankfurt am Main</placeName>
+               <placeName>Francfort sur Main</placeName>
+               <location>
+                        <geo>50.11552 8.68417</geo>
+                    </location>
+                    <idno type="URI">http://www.geonames.org/2925533/</idno>
+            </place>
+                <place xml:id="loc.16">
+                <placeName>München</placeName>
+               <placeName>Munich</placeName>
+               
+               <location>
+                        <geo>48.13743 11.57549</geo>
+                    </location>
+                    <idno type="URI">http://www.geonames.org/2867714/</idno>
+            </place>
+                <place xml:id="loc.7">
+                <placeName>Wien</placeName>
+               <placeName>Vienne</placeName>
+               
+               <location>
+                        <geo>48.2082 16.37169</geo>
+                    </location>
+                    <idno type="URI">http://www.geonames.org/2761367/</idno>
+            </place>
+                <place xml:id="loc.32">
+                <placeName>Straßburg</placeName>
+               <placeName>Strasbourg</placeName>
+               
+               <location>
+                        <geo>48.58392 7.74553</geo>
+                    </location>
+                    <idno type="URI">http://www.geonames.org/2973783/</idno>
+            </place>
+                <place xml:id="loc.31">
+               <placeName>Waterloo</placeName>
+               <location>
+                        <geo>50.71469 4.3991</geo>
+                    </location>
+                    <idno type="URI">http://www.geonames.org/2783985/</idno>
+            </place>
+                <place xml:id="loc.2">
+               <placeName>Paris</placeName>
+               <location>
+                        <geo>48.85341 2.3488</geo>
+                    </location>
+                    <idno type="URI">http://www.geonames.org/2988507/</idno>
+            </place>
+                <place xml:id="loc.38">
+               <placeName>Frankenthal</placeName>
+               <location>
+                        <geo>49.53414 8.35357</geo>
+                    </location>
+                    <idno type="URI">http://www.geonames.org/2925550/</idno>
+            </place>
+                <place xml:id="loc.29">
+                <placeName>Basel</placeName>
+               <placeName>Bâle</placeName>
+               
+               <placeName>Basle</placeName>
+               <location>
+                        <geo>47.55839 7.57327</geo>
+                    </location>
+                    <idno type="URI">http://www.geonames.org/2661604/</idno>
+            </place>
+                <place xml:id="loc.19">
+               <placeName>Karlsruhe</placeName>
+               <placeName>Carlsruhe</placeName>
+               <location>
+                        <geo>49.00922 8.40394</geo>
+                    </location>
+                    <idno type="URI">http://www.geonames.org/8643496/</idno>
+            </place>
+            </listPlace>
+            <listBibl>
+                <bibl xml:id="t.19">Allianzvertrag zwischen Baden und Österreich, Frankfurt am Main 20.
+               November 1813; gleichlautend unter demselben Datum auch zwischen Baden und Russland
+               sowie Baden und Preußen. Abgedruckt bei Kotulla, Deutsches Verfassungsrecht, Bd. 1,
+               S. 561–564; BFSP Bd.1/1 (1812-1814), S. 115-116.</bibl>
+                <bibl xml:id="t.27">Vertrag zwischen Bayern und Österreich, München 16. April
+               1816/Zusatz- und Geheimartikel, München 14. April 1816; vgl. BFSP Bd. 6 (1819/20), S.
+               63–69 (Vertrag), und Bd. 3 (1815/16), S. 668–669 (Zusatz- und Geheimartikel);
+               Angebert, Congrès, Bd. 3, S. 1688–1695; Neumann, Recueil, Bd. 3, S. 127–135; Martens,
+               Nouveau recueil, Bd. 3, S. 11–20.</bibl>
+                <bibl xml:id="t.18">Deutsche Bundesakte vom 8. Juni 1815 (unterzeichnet am 10. Juni
+               1815; vgl. Huber, Dokumente zur Deutschen Verfassungsgeschichte, Bd. 1, S. 84–90;
+               Treichl, Die Entstehung, Bd. 1/2, S. 1503–1518;<ref target="http://www.verfassungen.de/de/de06-66/bundesakte15-i.htm">http://www.verfassungen.de/de/de06-66/bundesakte15-i.htm</ref> (eingesehen am 15.
+               November 2012).</bibl>
+                <bibl xml:id="t.20">Vertrag, mit welchem Baden dem am 25. März 1815 in Wien gegen
+               Frankreich abgeschlossenen Allianzvertrag beitritt. Das Datum des Vertrags variiert
+               in den Editionen, da der Vertrag mit Österreich, Großbritannien, Russland und Preußen
+               jeweils separat abgeschlossen wurde; vgl. Martens, Nouveau recueil, Bd. 2, S.
+               139–141; BFSP Bd. 2 (1814/15), S. 456–458; Angeberg, Congès, Bd. 2, S. 1178–1179;
+               Klüber, Acten, Bd. 4, S. 427–430.</bibl>
+                <bibl xml:id="t.1">Zweiter Pariser Frieden zwischen Österreich, Großbritannien, Preußen und Russland auf der
+               einen, Frankreich auf der anderen Seite, Paris 20. November 1815; vgl. BFSP Bd. 3 (1815/16), S. 280–293;
+               Grewe, Fontes, Bd. 3/1, S. 10–18; Clercq, Recueil, Bd. 2, S. 642–650; Martens,
+               Nouveau Recueil, Bd. 2, S. 682–691; <ref target="http://www.staatsvertraege.de/Frieden1814-15/2pfv1815-i.htm">http://www.staatsvertraege.de/Frieden1814-15/2pfv1815-i.htm</ref> (deutsch; eingesehen
+               am 31. Oktober 2012).</bibl>
+                <bibl xml:id="t.21">Konferenzprotokoll zwischen den Vertretern Österreichs,
+               Großbritanniens, Preußens und Russlands über territoriale Regelungen und das
+               Defensivsystem des Deutschen Bundes, Paris 3. November 1815; abgedruckt in BFSP Bd. 3
+               (1815/16), S. 234–239; Meyer, Corpus Juris Confoederationis Germanicae, Bd. 2, S.
+               213–214 (Auszug).</bibl>
+                <bibl xml:id="t.11">Convention entre l’Autriche et la Prusse et le grand-duc de Hesse
+               sur les arrangements territoriaux, Wien 10. Juni 1815; vgl. Angeberg, Congrès, Bd. 2,
+               S.1440-1442</bibl>
+                <bibl xml:id="t.12">Wiener Kongressakte vom 9. Juni 1815; vgl. Klüber, Acten, Bd. 6, S.
+               12–208; Angeberg, Congrès, Bd. 2, S. 1386–1433; Martens, Nouveau Recueil, Bd. 2, S.
+               361–430; BFSP Bd. 2 (1814/15), S 3–180; <ref target="http://www.staatsvertraege.de/Frieden1814-15/wka1815-i.htm">http://www.staatsvertraege.de/Frieden1814-15/wka1815-i.htm</ref> (eingesehen am
+               15. November 2012).</bibl>
+            </listBibl>
         </back>
     </text>
 </TEI>
