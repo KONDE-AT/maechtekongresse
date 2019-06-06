@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/kongress/editions" xml:id="Aachen_Prot_8.xml" prev="https://id.acdh.oeaw.ac.at/kongress/editions/Aachen_Prot_7.xml" next="https://id.acdh.oeaw.ac.at/kongress/editions/Aachen_Prot_9.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -54,7 +54,8 @@
                Zeitgeschichtsforschung</publisher>
             <pubPlace>Wien</pubPlace>
 <date when="2018-09-23" change="#initial">2018-09-23</date>
-            <idno>A_08</idno><idno type="ISBN" n="9783950478303">978-3-9504783-0-3</idno>
+            <idno>A_08</idno>
+                <idno type="ISBN" n="9783950478303">978-3-9504783-0-3</idno>
                  <availability>           <licence target="https://creativecommons.org/licenses/by-sa/4.0/legalcode.de">https://creativecommons.org/licenses/by-sa/4.0/legalcode.de</licence>         </availability> </publicationStmt>
             <notesStmt>
     <note>Vergleiche auch die Projektbeschreibung in der <ref type="URI" target="../meta/Einleitung.xml">Einleitung</ref> sowie die Dokumentation der Applikation unter <ref type="URI" target="../meta/about.xml">„Über diese Webseite“</ref>.</note>
@@ -79,7 +80,8 @@
                <physDesc>
 
                   <p> Eigenhändiges Protokoll von <persName ref="#p.5">
-                        <surname>Gentz</surname></persName>. </p>
+                        <surname>Gentz</surname>
+                            </persName>. </p>
                   <handDesc>
                      <handNote xml:id="G">Friedrich Gentz</handNote>
                      <handNote xml:id="W">Nikolaus Wacken</handNote>
@@ -115,7 +117,8 @@
          <abstract>
             <p>Die <rs ref="#p.8 #p.10 #p.11 #p.13 #p.12 #p.14 #p.9" type="multi-person">Vertreter der alliierten
                 Mächte</rs> beschließen, jene Höfe mittels eines Zirkularschreibens über die <ref target="Aachen_Prot_7.xml">
-                        <rs ref="#t.10" type="treaties">Konvention vom <date when="1818-10-09">9. Oktober 1818</date></rs>
+                        <rs ref="#t.10" type="treaties">Konvention vom <date when="1818-10-09">9. Oktober 1818</date>
+                        </rs>
                     </ref>
                      zu verständigen, die dem
                   <rs ref="#t.1" type="treaties">Zweiten Pariser Frieden</rs> beigetreten sind. <ref target="Aachen_Prot_10.xml">Das Gesuch des <rs ref="#p.21" type="person">Großherzogs von
@@ -181,17 +184,21 @@
                   <expan>Monsieur</expan>
                </choice> le <persName ref="#p.8">
                         <roleName>Prince</roleName>
-                  <surname>de Metternich</surname></persName> a proposé de donner part de la
+                  <surname>de Metternich</surname>
+                    </persName> a proposé de donner part de la
                signature de la <rs ref="#t.10" type="treaties">convention de Vendredi <date when="1818-10-09">9
-                     Octobre</date></rs> relative à l’évacuation du territoire Français aux
-               différentes Cours qui ont accédé au <rs ref="#t.1" type="treaties">Traité de <placeName ref="#loc.2">Paris</placeName> du <date when="1815-11-20">20 Novembre 1815</date></rs>. On
+                     Octobre</date>
+                    </rs> relative à l’évacuation du territoire Français aux
+               différentes Cours qui ont accédé au <rs ref="#t.1" type="treaties">Traité de <placeName ref="#loc.2">Paris</placeName> du <date when="1815-11-20">20 Novembre 1815</date>
+                    </rs>. On
                est convenu d’adresser à cet effet une Circulaire aux Ministres des Quatre puissances
                accrédités prés ces cours. <del rendition="#s">et <choice>
                      <abbr>Mr.</abbr>
                      <expan>Monsieur</expan>
                   </choice> le <persName ref="#p.8">
                             <roleName>Prince</roleName>
-                     <surname>de Metternich</surname></persName> s’est réservé une proposition
+                     <surname>de Metternich</surname>
+                        </persName> s’est réservé une proposition
                   ultérieure sur la forme à donner à cette communication pour les deux Cours de
                   Suède et de Naples, ces Cours n’ayant pas eu part à l’occupation
                Militaire.</del>

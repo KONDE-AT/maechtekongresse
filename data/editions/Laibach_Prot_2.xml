@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/kongress/editions" xml:id="Laibach_Prot_2.xml" prev="https://id.acdh.oeaw.ac.at/kongress/editions/Laibach_Prot_1.xml" next="https://id.acdh.oeaw.ac.at/kongress/editions/Laibach_Prot_3.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -54,7 +54,8 @@
                Zeitgeschichtsforschung</publisher>
             <pubPlace>Wien</pubPlace>
 <date when="2018-09-23" change="#initial">2018-09-23</date>
-            <idno>L_02</idno><idno type="ISBN" n="9783950478303">978-3-9504783-0-3</idno>
+            <idno>L_02</idno>
+                <idno type="ISBN" n="9783950478303">978-3-9504783-0-3</idno>
                  <availability>           <licence target="https://creativecommons.org/licenses/by-sa/4.0/legalcode.de">https://creativecommons.org/licenses/by-sa/4.0/legalcode.de</licence>         </availability> </publicationStmt>
             <notesStmt>
     <note>Vergleiche auch die Projektbeschreibung in der <ref type="URI" target="../meta/Einleitung.xml">Einleitung</ref> sowie die Dokumentation der Applikation unter <ref type="URI" target="../meta/about.xml">„Über diese Webseite“</ref>.</note>
@@ -121,12 +122,14 @@
       <profileDesc>
          <abstract>
             <p>Der österreichische Außenminister <persName ref="#p.8">
-                        <surname>Metternich</surname></persName> informiert über die Gespräche, die
+                        <surname>Metternich</surname>
+                    </persName> informiert über die Gespräche, die
                zwischen dem <rs ref="#p.138" type="person">König beider Sizilien</rs> und den in <placeName ref="#loc.65">Laibach</placeName>/<placeName ref="#loc.65">Ljubljana</placeName>
                anwesenden <rs ref="#p.16 #p.18 #p.17" type="multi-person">alliierten Monarchen</rs> stattgefunden haben.
                   <persName ref="#p.140">
                         <forename>Alvaro</forename>
-                  <surname>Ruffo</surname></persName> wird als Vertreter des <country>Königreichs
+                  <surname>Ruffo</surname>
+                    </persName> wird als Vertreter des <country>Königreichs
                   beider Sizilien</country> bei den Verhandlungen akzeptiert.</p>
          </abstract>
          <particDesc>
@@ -195,7 +198,8 @@
                   <expan>Monsieur</expan>
                </choice> le <persName ref="#p.8">
                         <roleName>Prince</roleName>
-                  <surname>de Metternich</surname></persName> a présenté à la Conférence un résumé
+                  <surname>de Metternich</surname>
+                    </persName> a présenté à la Conférence un résumé
                des communications qui, depuis l’arrivée du <rs ref="#p.138" type="person">Roi de Naples</rs> à
                <placeName ref="#loc.65">Laybach</placeName>, ont eu lieu entre <rs ref="#p.138" type="person">Sa Majesté</rs> et les <rs ref="#p.16 #p.18 #p.17" type="multi-person">Souverains alliés</rs>. <rs ref="#p.138" type="person">
                         <choice>
@@ -209,7 +213,8 @@
                   <expan>Monsieur</expan>
                </choice> le <persName ref="#p.142">
                         <roleName>Duc</roleName>
-                  <surname>de Gallo</surname></persName> qu’Elle adresserait pour cet effet à la
+                  <surname>de Gallo</surname>
+                    </persName> qu’Elle adresserait pour cet effet à la
                Conférence de leurs plénipo-<pb n="9v"/>tentiaires.</p>
             <p>Il a été répondu à <rs ref="#p.138" type="person">Sa Majesté</rs> que les <rs ref="#p.16 #p.18 #p.17" type="multi-person">Souverains</rs> n’ayant pas reconnu et étant décidés à ne pas reconnaître le
                Gouvernement actuellement établi à <country>Naples</country>, la Conférence ne
@@ -219,7 +224,8 @@
                   <expan>Monsieur</expan>
                </choice> le <persName ref="#p.142">
                         <roleName>Duc</roleName>
-                  <surname>de Gallo</surname></persName>, ni avec aucun individu attaché par des
+                  <surname>de Gallo</surname>
+                    </persName>, ni avec aucun individu attaché par des
                places ou des fonctions au régime actuel.</p>
             <p>En suite de cette réponse le <rs ref="#p.138" type="person">Roi de Naples</rs> a fait annoncer aux
                   <rs ref="#p.16 #p.18 #p.17" type="multi-person">Souverains</rs> que ne pouvant, après leur
@@ -230,7 +236,8 @@
                   <expan>Monsieur</expan>
                </choice> le <persName ref="#p.140">
                         <roleName>Prince</roleName>
-                  <surname>de Ruffo</surname></persName> et le nommer Son Plénipotentiaire aux
+                  <surname>de Ruffo</surname>
+                    </persName> et le nommer Son Plénipotentiaire aux
                Conférences.</p>
             <p>
                Les <rs ref="#p.16 #p.18 #p.17" type="multi-person">Souverains</rs> ont fait répondre à <rs ref="#p.138" type="person">Sa Majesté</rs> que comme il n’y avait, de leur côté, aucune objection contre le
@@ -240,14 +247,16 @@
                   <expan>Monsieur</expan>
                </choice> le <persName ref="#p.140">
                         <roleName>Prince</roleName>
-                  <surname>de Ruffo</surname></persName> qui, au contraire, ne pouvait que leur être
+                  <surname>de Ruffo</surname>
+                    </persName> qui, au contraire, ne pouvait que leur être
                agréable, <choice>
                   <abbr>M<hi rendition="#su">r</hi>
                         </abbr>
                   <expan>Monsieur</expan>
                </choice> le <persName ref="#p.140">
                         <roleName>Prince</roleName>
-                  <surname>de Ruffo</surname></persName> serait sans difficulté admis aux
+                  <surname>de Ruffo</surname>
+                    </persName> serait sans difficulté admis aux
                Conférences de leurs Plénipotentiaires.</p>
             <p>En conséquence de ce résumé<pb n="10r"/> il a été conclu </p>
             <p>« Que <choice>
@@ -256,7 +265,8 @@
                   <expan>Monsieur</expan>
                </choice> le <persName ref="#p.140">
                         <roleName>Prince</roleName>
-                  <surname>de Ruffo</surname></persName> sera invité à prendre part aux Conférences
+                  <surname>de Ruffo</surname>
+                    </persName> sera invité à prendre part aux Conférences
                à titre de Plénipotentiaire de <choice>
                   <abbr>S. M.</abbr>
                   <expan>Sa Majesté</expan>
@@ -270,7 +280,8 @@
                 </p>
             <signed rendition="#r">
                     <persName ref="#p.5">
-                        <surname>Gentz</surname></persName>
+                        <surname>Gentz</surname>
+                    </persName>
                 </signed>
          </div>
       </body>

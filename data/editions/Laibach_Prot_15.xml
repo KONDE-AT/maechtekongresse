@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/kongress/editions" xml:id="Laibach_Prot_15.xml" prev="https://id.acdh.oeaw.ac.at/kongress/editions/Laibach_Prot_14.xml" next="https://id.acdh.oeaw.ac.at/kongress/editions/Laibach_Prot_16.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -54,7 +54,8 @@
                Zeitgeschichtsforschung</publisher>
             <pubPlace>Wien</pubPlace>
 <date when="2018-09-23" change="#initial">2018-09-23</date>
-            <idno>L_15</idno><idno type="ISBN" n="9783950478303">978-3-9504783-0-3</idno>
+            <idno>L_15</idno>
+                <idno type="ISBN" n="9783950478303">978-3-9504783-0-3</idno>
             <availability>
                <licence target="https://creativecommons.org/licenses/by-sa/4.0/legalcode.de">https://creativecommons.org/licenses/by-sa/4.0/legalcode.de</licence>
             </availability>
@@ -217,7 +218,8 @@
                   <expan>Monsieur</expan>
                </choice> le <persName ref="#p.8">
                   <roleName>Prince</roleName>
-                  <surname>de Metternich</surname></persName> au nom des Cabinets d’Autriche, de Prusse et de Russie,</p>
+                  <surname>de Metternich</surname>
+                    </persName> au nom des Cabinets d’Autriche, de Prusse et de Russie,</p>
             <p>
                <choice>
                   <abbr>Mrs.</abbr>
@@ -232,7 +234,8 @@
                   <country>Royaume de Naples</country> doit être prorogé ou maintenu,</p>
             <p>Ont arrêté que le présent Congrès est clos et terminé, et qu’ils se réuniront de
                nouveau au mois<pb n="122/1v"/> de Septembre de <rs xml:id="n.1">l’année 1822 dans la
-                  ville de <placeName ref="#loc.69">Florence</placeName></rs>.<note type="editorial" target="#n.1">Der Kongress 1822 fand in Verona statt;
+                  ville de <placeName ref="#loc.69">Florence</placeName>
+                    </rs>.<note type="editorial" target="#n.1">Der Kongress 1822 fand in Verona statt;
                   vgl. Edition Verona.</note>
             </p>
             <p>
@@ -263,7 +266,8 @@
             </p>
             <signed rendition="#r">
                <persName ref="#p.5">
-                  <surname>Gentz</surname></persName>
+                  <surname>Gentz</surname>
+                    </persName>
             </signed>
          </div>
       </body>

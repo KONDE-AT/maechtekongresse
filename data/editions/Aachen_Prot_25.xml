@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/kongress/editions" xml:id="Aachen_Prot_25.xml" prev="https://id.acdh.oeaw.ac.at/kongress/editions/Aachen_Prot_24.xml" next="https://id.acdh.oeaw.ac.at/kongress/editions/Aachen_Prot_26.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -54,7 +54,8 @@
                Zeitgeschichtsforschung</publisher>
             <pubPlace>Wien</pubPlace>
 <date when="2018-09-23" change="#initial">2018-09-23</date>
-            <idno>A_25</idno><idno type="ISBN" n="9783950478303">978-3-9504783-0-3</idno>
+            <idno>A_25</idno>
+                <idno type="ISBN" n="9783950478303">978-3-9504783-0-3</idno>
                  <availability>           <licence target="https://creativecommons.org/licenses/by-sa/4.0/legalcode.de">https://creativecommons.org/licenses/by-sa/4.0/legalcode.de</licence>         </availability> </publicationStmt>
             <notesStmt>
     <note>Vergleiche auch die Projektbeschreibung in der <ref type="URI" target="../meta/Einleitung.xml">Einleitung</ref> sowie die Dokumentation der Applikation unter <ref type="URI" target="../meta/about.xml">„Über diese Webseite“</ref>.</note>
@@ -79,7 +80,8 @@
                <physDesc>
 
                   <p>Eigenhändiges Protokoll von <persName ref="#p.5">
-                        <surname>Gentz</surname></persName>.</p>
+                        <surname>Gentz</surname>
+                            </persName>.</p>
                   <handDesc>
                      <handNote xml:id="G">Friedrich Gentz</handNote>
                      <handNote xml:id="W">Nikolaus Wacken</handNote>
@@ -252,9 +254,11 @@
                la conférence le <ref decls="#m.2">Mémorandum ci-annexé</ref> contenant l’opinion de
                leur Cabinet sur les mesures proposées par <persName ref="#p.9">
                         <roleName>Lord</roleName>
-                  <surname>Castlereagh</surname></persName> dans <ref target="Aachen_Prot_23.xml">la
+                  <surname>Castlereagh</surname>
+                    </persName> dans <ref target="Aachen_Prot_23.xml">la
                   séance du 4 de ce mois</ref> pour assurer le succès de l’abolition de la traite
-               des Nègres. Ils y ont ajouté <rs xml:id="n.1">un projet de lettre</rs><note type="editorial" target="#n.1">Anlage liegt nicht ein.</note> à adresser par les <rs ref="#p.15 #p.16 #p.17 #p.18 #p.19" type="multi-person">Cinq Souverains</rs> à <choice>
+               des Nègres. Ils y ont ajouté <rs xml:id="n.1">un projet de lettre</rs>
+                    <note type="editorial" target="#n.1">Anlage liegt nicht ein.</note> à adresser par les <rs ref="#p.15 #p.16 #p.17 #p.18 #p.19" type="multi-person">Cinq Souverains</rs> à <choice>
                   <abbr>S. M.</abbr>
                   <expan>Sa Majesté</expan>
                </choice> le <rs ref="#p.28" type="person">Roi de Portugal et du Brésil</rs> pour engager Sa
@@ -264,7 +268,8 @@
                      <expan>Messieurs</expan>
                   </choice> les <rs ref="#p.8 #p.9 #p.10 #p.11 #p.12 #p.1" type="multi-person">Plénipotentiaires des
                      autres Cours</rs> se sont réservés de prendre ces pièces en
-                  considération.</rs><note type="editorial" target="#n.2">Vgl. Fladeland,
+                  considération.</rs>
+                    <note type="editorial" target="#n.2">Vgl. Fladeland,
                   Abolitionist Pressures, S. 367–369; Webster, Foreign Policy, Bd. 2, S. 463–464;
                   Kielstra, The Politics of Slave Trade, bes. S. 86–91.</note>
                 </p>
@@ -273,7 +278,9 @@
                   <abbr>Mrs.</abbr>
                   <expan>Messieurs</expan>
                </choice> les <rs ref="#p.13 #p.14" type="multi-person">Plénipotentiaires de Russie</rs> ont communiqué
-               ensuite <ref decls="#m.3">l’analyse du projet de traité,</ref> rédigé <rs xml:id="n.3">à la conférence de <placeName ref="#loc.8">Londres</placeName></rs><note type="editorial" target="#n.3">Gemeint ist die
+               ensuite <ref decls="#m.3">l’analyse du projet de traité,</ref> rédigé <rs xml:id="n.3">à la conférence de <placeName ref="#loc.8">Londres</placeName>
+                    </rs>
+                    <note type="editorial" target="#n.3">Gemeint ist die
                   Botschafterkonferenz in <placeName ref="#loc.8">London</placeName>, welche sich
                   zwischen 1816 und 1819 mit der Abschaffung des Sklavenhandels und der Piraterie im
                   Mittelmeer befasste. Protokolle vgl. BFSP Bd. 6 (1818/19), S. 21–53; Clarke,
@@ -336,9 +343,11 @@
                                     <choice>
                               <abbr>S. M.</abbr>
                               <expan>Sa Majesté</expan>
-                           </choice> Britannique</rs></rs> au sujet de la traite des
+                           </choice> Britannique</rs>
+                        </rs> au sujet de la traite des
                   Nègres.
-                    </rs><note type="editorial" target="#n.4">Vgl. Fladeland,
+                    </rs>
+                    <note type="editorial" target="#n.4">Vgl. Fladeland,
                   Abolitionist Pressures, S. 367–369; Webster, Foreign Policy, Bd. 2, S. 463–464;
                   Kielstra, The Politics of Slave Trade, bes. S. 86–91.</note>
                 </p>
@@ -346,7 +355,8 @@
                         <choice>
                   <abbr>S. M. I.</abbr>
                   <expan>Sa Majesté Impériale</expan>
-               </choice></rs> prenne un plus vif intérêt et dont Elle ait plus à cœur de voir la décision
+               </choice>
+                    </rs> prenne un plus vif intérêt et dont Elle ait plus à cœur de voir la décision
                répondre à la fois aux commandemens de la religion chrétienne, au vœu de l’humanité
                et aux droits et convenances soigneusement ménagés de toutes les Puissances appelées
                à prendre part à l’œuvre.</p>
@@ -355,7 +365,8 @@
                         <choice>
                      <abbr>S. M. I.</abbr>
                      <expan>Sa Majesté Impériale</expan>
-                  </choice></rs> se plait toutefois à espérer que les obstacles ne seront point
+                  </choice>
+                    </rs> se plait toutefois à espérer que les obstacles ne seront point
                insurmontables.</p>
             <p>Elle n’a pu que donner une pleine et entière adhésion à l’idée
                proposée par le Cabinet Britannique d’une<pb n="140v"/> démarche amicale adressée à
@@ -366,7 +377,8 @@
                libre que le <country>Portugal</country> est appelé à prendre. Le Cabinet de Russie
                s’est empressé de rédiger, d’après l’invitation qui lui a été faite par les <rs ref="#p.9 #p.10" type="multi-person">Plénipotentiaires Britanniques</rs>, <rs xml:id="n.5">le projet
                   de la lettre qui pourrait être adressée dans ce sens au <rs ref="#p.28" type="person">Roi de
-                     Portugal</rs>. Ce projet se trouve joint ici.</rs><note type="editorial" target="#n.5">Anlage liegt nicht ein.</note>
+                     Portugal</rs>. Ce projet se trouve joint ici.</rs>
+                    <note type="editorial" target="#n.5">Anlage liegt nicht ein.</note>
                 </p>
             <p>C’est avec satisfaction que l’on envisage la réussite probable de cette démarche dont
                le succès complétera par le fait l’accession de tous les Etats Chrétiens à
@@ -382,8 +394,11 @@
                      <abbr>S. M.</abbr>
                      <expan>Sa Majesté</expan>
                   </choice> Britannique</rs> a fait connoître celles par lesquelles il a déjà
-               commencé à donner suite au principe de l’abolition : c’est-à-dire les <rs ref="#t.16" type="treaties">conventions avec le <country>Portugal</country></rs>, <rs ref="#t.14" type="treaties">l’<country>Espagne</country></rs> et <rs ref="#t.17" type="treaties">les
-                     <country>Pays-Bas</country></rs>. Il propose en outre de généraliser parmi les
+               commencé à donner suite au principe de l’abolition : c’est-à-dire les <rs ref="#t.16" type="treaties">conventions avec le <country>Portugal</country>
+                    </rs>, <rs ref="#t.14" type="treaties">l’<country>Espagne</country>
+                    </rs> et <rs ref="#t.17" type="treaties">les
+                     <country>Pays-Bas</country>
+                    </rs>. Il propose en outre de généraliser parmi les
                Puissances maritimes l’adoption des règlemens établis par <rs ref="#t.14 #t.16 #t.17" type="multi-treaties">ces trois Conventions</rs>, et plus particulièrement de statuer en principe
                général le droit réciproque de visite à exercer par les croiseurs respectifs.</p>
             <pb n="141v"/>
@@ -406,7 +421,8 @@
                         <choice>
                      <abbr>S. M.</abbr>
                      <expan>Sa Majesté</expan>
-                  </choice> l’Empereur de <country>Russie</country></rs> se voit dans
+                  </choice> l’Empereur de <country>Russie</country>
+                    </rs> se voit dans
                l’impossibilité de prévoir une accession aussi unanime. Il lui parait hors de doute
                qu’il existe des Etats qu’aucune considération ne pourra décider à soumettre leur
                navigation à un principe nouveau d’une aussi haute importance. Dès lors on ne peut se
@@ -431,7 +447,8 @@
                point central des côtes d’Afrique, et à la formation de laquelle tous les Etats
                chrétiens prendraient part.</p>
             <p>Déclarée neutre à perpétuité, étrangère à tous les intérêts politiques locaux, ainsi
-               que <rs xml:id="n.6">l’alliance fraternelle et chrétienne</rs><note type="editorial" target="#n.6">Gemeint ist die <rs ref="#t.9" type="treaties">Heilige Allianz</rs>.</note> dont
+               que <rs xml:id="n.6">l’alliance fraternelle et chrétienne</rs>
+                    <note type="editorial" target="#n.6">Gemeint ist die <rs ref="#t.9" type="treaties">Heilige Allianz</rs>.</note> dont
                elle serait une manifestation pratique, cette institution poursuivroit le seul but de
                maintenir strictement l’exécution de la loi. Elle consisterait :</p>
             <p>En une force maritime, composée d’un nombre suffisant de vaisseaux de guerre
@@ -479,8 +496,11 @@
                Octobre/ <date when="1818-11-07">7 Novembre 1818</date>
                 </dateline>
                 </opener>
-            <p>Le <rs xml:id="n.7">traité principal au sujet des Barbaresques,</rs><note type="editorial" target="#n.7">Vgl. Humboldt, Projet d’Alliance. Klose, Enforcing
-                  abolition, S. 115–116.</note> fruit des <rs xml:id="n.8">Conférences de <placeName ref="#loc.8">Londres</placeName></rs><note type="editorial" target="#n.8">
+            <p>Le <rs xml:id="n.7">traité principal au sujet des Barbaresques,</rs>
+                    <note type="editorial" target="#n.7">Vgl. Humboldt, Projet d’Alliance. Klose, Enforcing
+                  abolition, S. 115–116.</note> fruit des <rs xml:id="n.8">Conférences de <placeName ref="#loc.8">Londres</placeName>
+                    </rs>
+                    <note type="editorial" target="#n.8">
                   Gemeint ist die Botschafterkonferenz in London, welche sich zwischen 1816 und 1819
                   mit der Abschaffung des Sklavenhandels und der Piraterie im Mittelmeer befasste.
                   Protokolle vgl. BFSP Bd. 6 (1818/19), S. 21–53; Clarke, Papers presented to
@@ -599,7 +619,9 @@
                      data sunt, repeti possunt ; quae ipsi capiunt haec non mutant dominium</hi>. Et
                   ce qui est plus fort que tous ces axiomes : <hi rendition="#u">piratae non
                      triumphantur</hi>.<note type="author" place="margin"> Grotius, de jure belli et
-                     pacis.</note></rs><note type="editorial" target="#n.9">Teilweise sinngemäße Einträge aus dem
+                     pacis.</note>
+                    </rs>
+                    <note type="editorial" target="#n.9">Teilweise sinngemäße Einträge aus dem
                   Index Rerum Praeciparum des Hugo Grotius, De jure belli et pacis, Erstauflage
                   Paris 1625.</note>
                 </p>
@@ -621,7 +643,8 @@
                l’établissement du Conseil des Ministres et des Agens commerciaux, agissant en
                médiateurs entre la ligue formidable du droit et les repaires systématiques du
                brigandage.</p>
-            <p>Pour achever l’examen de la transaction proposée, il nous reste à relever la <rs xml:id="n.10">stipulation de l’art. VIII</rs><note type="editorial" target="#n.10">Vgl. Humboldt, Projet d’Alliance. Klose, Enforcing abolition, S. 115–116.</note>,
+            <p>Pour achever l’examen de la transaction proposée, il nous reste à relever la <rs xml:id="n.10">stipulation de l’art. VIII</rs>
+                    <note type="editorial" target="#n.10">Vgl. Humboldt, Projet d’Alliance. Klose, Enforcing abolition, S. 115–116.</note>,
                d’après laquelle l’unanimité des efforts et des mesures que les Puissances consacrent
                au grand objet de leur ligue ne sera point interrompue même au cas de guerre échéant
                entre deux ou plusieurs des parties contractantes. Cette seconde conciliation de
@@ -639,7 +662,9 @@
                 </p>
             <p>L’analyse des transactions proposées, comme l’ensemble des observations qu’elle a
                paru devoir motiver, concourent à démontrer l’incompatibilité des mesures adoptées en
-               principe par <rs xml:id="n.11">les Conférences de <placeName ref="#loc.8">Londres</placeName></rs><note type="editorial" target="#n.11">Gemeint ist die Botschafterkonferenz in
+               principe par <rs xml:id="n.11">les Conférences de <placeName ref="#loc.8">Londres</placeName>
+                    </rs>
+                    <note type="editorial" target="#n.11">Gemeint ist die Botschafterkonferenz in
                   London, welche sich zwischen 1816 und 1819 mit der Abschaffung des Sklavenhandels
                   und der Piraterie im Mittelmeer befasste. Protokolle vgl. BFSP Bd. 6 (1818/19), S.
                   21–53; Clarke, Papers presented to Parliament 1819, Bd. 1, S. 153–233; Anderson,
@@ -682,7 +707,9 @@
                Barbaresques.</p>
             <p>3<hi rendition="#su">o</hi> Le premier acte attentatoire aux droits des nations
                commis par ces Corsaires seroit le signal du <rs xml:id="n.12">
-                        <hi rendition="#u">Casus foederis</hi></rs><note type="editorial" target="#n.12">Lat.:
+                        <hi rendition="#u">Casus foederis</hi>
+                    </rs>
+                    <note type="editorial" target="#n.12">Lat.:
                   Bündnisfall.</note> ; et l’objet que l’Escadre Européenne auroit à accomplir
                consisteroit dans la punition radicale du délit : savoir, l’entière destruction de
                tous les moyens que celle des Régences, à laquelle appartient le prévaricateur,
@@ -702,7 +729,8 @@
                         <choice>
                      <abbr>S. M. I.</abbr>
                      <expan>Sa Majesté Impériale</expan>
-                  </choice></rs>, tout en ayant contribué de Ses forces à cette conquête, ne
+                  </choice>
+                    </rs>, tout en ayant contribué de Ses forces à cette conquête, ne
                prétendroit nullement à la conserver ni à titre de Colonie, ni sous aucun autre
                prétexte.</p>
             <p>Le Ministère de l’<rs ref="#p.17" type="person">Empereur</rs>, en articulant ce vote, le terminera

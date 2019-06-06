@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/kongress/editions" xml:id="Verona_I_6.xml" prev="https://id.acdh.oeaw.ac.at/kongress/editions/Verona_I_5.xml" next="https://id.acdh.oeaw.ac.at/kongress/editions/Verona_I_7.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -55,7 +55,8 @@
                Zeitgeschichtsforschung</publisher>
             <pubPlace>Wien</pubPlace>
 <date when="2018-09-23" change="#initial">2018-09-23</date>
-            <idno>V_I_06</idno><idno type="ISBN" n="9783950478303">978-3-9504783-0-3</idno>
+            <idno>V_I_06</idno>
+                <idno type="ISBN" n="9783950478303">978-3-9504783-0-3</idno>
                  <availability>           <licence target="https://creativecommons.org/licenses/by-sa/4.0/legalcode.de">https://creativecommons.org/licenses/by-sa/4.0/legalcode.de</licence>         </availability> </publicationStmt>
             <notesStmt>
     <note>Vergleiche auch die Projektbeschreibung in der <ref type="URI" target="../meta/Einleitung.xml">Einleitung</ref> sowie die Dokumentation der Applikation unter <ref type="URI" target="../meta/about.xml">„Über diese Webseite“</ref>.</note>
@@ -83,7 +84,8 @@
                      134–137 (Lithographie) und fol. 138–143 (handschriftlich) ein. Die
                      Transkription folgt der Fassung auf fol. 134–137. Eine französische Übersetzung
                      von der Hand <persName ref="#p.5">
-                                <surname>Gentz</surname></persName> liegt auf
+                                <surname>Gentz</surname>
+                            </persName> liegt auf
                      fol. 133 und 144–146 ein, eine Lithographie der französischen Übersetzung
                      findet sich auf fol. 132 und 147–148. Vermerk mit Bleistift in der rechten
                      oberen Ecke von fol. 132r: <q>No. 6.</q>
@@ -137,7 +139,8 @@
       <profileDesc>
          <abstract>
             <p>Im Auftrag seiner Regierung rät der britische Gesandte <persName ref="#p.10">
-                        <surname>Wellington</surname></persName> von jeglicher Intervention in
+                        <surname>Wellington</surname>
+                    </persName> von jeglicher Intervention in
                   <country>Spanien</country> ab und geht nicht weiter auf die in der <ref target="Verona_I_2.xml">Denkschrift der französischen Regierung aufgeworfenen
                   Fragen</ref> ein.</p>
          </abstract>
@@ -186,9 +189,11 @@
                the most unlimited confidence and communication on the part of Each; and accordingly
                   <rs ref="#p.130" type="person">His Majesty</rs> has never failed to communicate to His Allies,
                and particularly to <country>France</country>, every instruction which he has sent to
-                  <rs ref="#p.146" type="person">His Minister at <placeName ref="#loc.24">Madrid</placeName></rs>,
+                  <rs ref="#p.146" type="person">His Minister at <placeName ref="#loc.24">Madrid</placeName>
+                    </rs>,
                and all the communications made by <rs ref="#p.130" type="person">His Majesty</rs>’s commands to
-               the <rs ref="#p.176" type="person">Minister of Spain residing<pb n="135r"/> in <placeName ref="#loc.8">London</placeName></rs>; all in the same spirit of good will
+               the <rs ref="#p.176" type="person">Minister of Spain residing<pb n="135r"/> in <placeName ref="#loc.8">London</placeName>
+                    </rs>; all in the same spirit of good will
                towards the <rs ref="#p.30" type="person">King of Spain</rs> and the Spanish Nation.</p>
             <p>It is impossible to look at the existing relations between <country>France</country>
                and <country>Spain</country> without adverting to what has passed from the
@@ -200,7 +205,8 @@
                   <country>France</country>, to which his Excellency the <rs ref="#p.174" type="person">Minister
                   of France</rs> has adverted.</p>
             <p>The great object of <rs ref="#p.130" type="person">His Majesty</rs>’s Foreign policy is to preserve
-               peace among Nations, and He feels the most anxious interest for the happiness of <rs ref="#p.15" type="person" xml:id="n.2">His most Christian Majesty</rs><note type="editorial" target="#n.2">Ehrentitel des Königs von Frankreich. </note> and the honour of His
+               peace among Nations, and He feels the most anxious interest for the happiness of <rs ref="#p.15" type="person" xml:id="n.2">His most Christian Majesty</rs>
+                    <note type="editorial" target="#n.2">Ehrentitel des Königs von Frankreich. </note> and the honour of His
                Government, and it would be His sincere desire to allay that irritation, but His
                government cannot but feel that, to make any declaration on any of the three points
                referred to by <rs ref="#p.174" type="person">His Excellency</rs>, without a previous accurate
@@ -228,13 +234,15 @@
                         <choice>
                      <abbr>H. M. C. M.</abbr>
                      <expan>His Most Christian Majesty</expan>
-                  </choice></rs> has taken in forming a Corps of observation for the protection of
+                  </choice>
+                    </rs> has taken in forming a Corps of observation for the protection of
                His frontier, and for the <unclear>preservation</unclear> of the tranquillity of His
                people. <rs ref="#p.130" type="person">
                         <choice>
                      <abbr>H. B. M</abbr>
                      <expan>His British Majesty</expan>
-                  </choice></rs> sincerely wishes that this measure may be effectual in attaining
+                  </choice>
+                    </rs> sincerely wishes that this measure may be effectual in attaining
                the objects for which it is calculated, and that the wisdom of the French Government
                will have induced them to explain it at <placeName ref="#loc.24">Madrid</placeName>,
                in such terms as will satisfy the Government of His
@@ -248,7 +256,8 @@
                         <choice>
                      <abbr>H. M. C. M.</abbr>
                      <expan>His Most Christian Majesty</expan>
-                  </choice></rs> is exposed, is that resulting from the operations of the civil war
+                  </choice>
+                    </rs> is exposed, is that resulting from the operations of the civil war
                on the neighbouring Frontier of <country>Spain</country>, against which the measure
                which His Government have adopted is best calculated to preserve Him. Even
                revolutionary madness could not calculate<pb n="136v"/> upon the success of a serious

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/kongress/editions" xml:id="Aachen_Prot_3.xml" prev="https://id.acdh.oeaw.ac.at/kongress/editions/Aachen_Prot_2.xml" next="https://id.acdh.oeaw.ac.at/kongress/editions/Aachen_Prot_4.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -52,7 +52,8 @@
                Zeitgeschichtsforschung</publisher>
             <pubPlace>Wien</pubPlace>
 <date when="2018-09-23" change="#initial">2018-09-23</date>
-            <idno>A_03</idno><idno type="ISBN" n="9783950478303">978-3-9504783-0-3</idno>
+            <idno>A_03</idno>
+                <idno type="ISBN" n="9783950478303">978-3-9504783-0-3</idno>
                  <availability>           <licence target="https://creativecommons.org/licenses/by-sa/4.0/legalcode.de">https://creativecommons.org/licenses/by-sa/4.0/legalcode.de</licence>         </availability> </publicationStmt>
             <notesStmt>
     <note>Vergleiche auch die Projektbeschreibung in der <ref type="URI" target="../meta/Einleitung.xml">Einleitung</ref> sowie die Dokumentation der Applikation unter <ref type="URI" target="../meta/about.xml">„Über diese Webseite“</ref>.</note>
@@ -77,7 +78,8 @@
                <physDesc>
 
                   <p>Eigenhändiges Protokoll von <persName ref="#p.5">
-                        <surname>Gentz</surname></persName>. </p>
+                        <surname>Gentz</surname>
+                            </persName>. </p>
                   <handDesc>
                      <handNote xml:id="G">Friedrich Gentz</handNote>
                      <handNote xml:id="W">Nikolaus Wacken</handNote>
@@ -113,7 +115,8 @@
                   Mächte</rs> beschließen nach Prüfung der Grundsätze der finanziellen Entschädigung
                die alliierten Truppen nach dem Ende des dritten Besatzungsjahres beziehungsweise so früh wie
                möglich aus <country>Frankreich</country> abzuziehen. Sie behalten sich vor, sich
-               entsprechend <rs ref="#t.6" type="treaties">Artikel VI. des Bündnisvertrags vom <date when="1815-11-20">20. November 1815</date></rs> regelmäßig zu versammeln, um über die Lage
+               entsprechend <rs ref="#t.6" type="treaties">Artikel VI. des Bündnisvertrags vom <date when="1815-11-20">20. November 1815</date>
+                    </rs> regelmäßig zu versammeln, um über die Lage
                   <country>Frankreichs</country> nach dem Abzug der alliierten Truppen zu
                beraten.</p>
          </abstract>
@@ -217,7 +220,8 @@
                troisième année d’occupation ou plus tôt si faire se peut, <pb n="5v"/>sauf les
                arrangemens à prendre pour régler le mode et l’époque du payement des sommes dues
                encore par le Gouvernement Français aux Cours Alliées en suite des stipulations du
-               susdit <rs ref="#t.1" type="treaties">Traité de <placeName ref="#loc.2">Paris</placeName></rs> <rs ref="#t.2 #t.3 #t.4 #t.5" type="multi-treaties">et de ses annexes</rs>.
+               susdit <rs ref="#t.1" type="treaties">Traité de <placeName ref="#loc.2">Paris</placeName>
+                    </rs> <rs ref="#t.2 #t.3 #t.4 #t.5" type="multi-treaties">et de ses annexes</rs>.
                 </p>
             <p>
                     <add place="margin left" xml:space="preserve">

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/kongress/editions" xml:id="Verona_I_5.xml" prev="https://id.acdh.oeaw.ac.at/kongress/editions/Verona_I_4.xml" next="https://id.acdh.oeaw.ac.at/kongress/editions/Verona_I_6.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -55,7 +55,8 @@
                Zeitgeschichtsforschung</publisher>
             <pubPlace>Wien</pubPlace>
 <date when="2018-09-23" change="#initial">2018-09-23</date>
-            <idno>V_I_05</idno><idno type="ISBN" n="9783950478303">978-3-9504783-0-3</idno>
+            <idno>V_I_05</idno>
+                <idno type="ISBN" n="9783950478303">978-3-9504783-0-3</idno>
                  <availability>           <licence target="https://creativecommons.org/licenses/by-sa/4.0/legalcode.de">https://creativecommons.org/licenses/by-sa/4.0/legalcode.de</licence>         </availability> </publicationStmt>
             <notesStmt>
     <note>Vergleiche auch die Projektbeschreibung in der <ref type="URI" target="../meta/Einleitung.xml">Einleitung</ref> sowie die Dokumentation der Applikation unter <ref type="URI" target="../meta/about.xml">„Über diese Webseite“</ref>.</note>
@@ -146,7 +147,8 @@
                         <expan>Monsieur</expan>
                      </choice> le <persName ref="#p.174">
                                 <roleName>Vicomte</roleName>
-                        <surname>de Montmorency</surname></persName>
+                        <surname>de Montmorency</surname>
+                        </persName>
                         <lb/> à la Conférence du <date when="1822-10-20">20 Octobre</date>
                         </ref>
                     </head>
@@ -161,12 +163,14 @@
                   <expan>Monsieur</expan>
                </choice> le <persName ref="#p.174">
                         <roleName>Vicomte</roleName>
-                  <surname>de Montmorency</surname></persName> ayant été mis sous les yeux du <rs ref="#p.18" type="person">Roi</rs>, Sa Majesté, après avoir pris les rapports actuels entre la
+                  <surname>de Montmorency</surname>
+                    </persName> ayant été mis sous les yeux du <rs ref="#p.18" type="person">Roi</rs>, Sa Majesté, après avoir pris les rapports actuels entre la
                   <country>France</country> et l’<country>Espagne</country> en mûre considération et
                voulant donner à la première de ces Puissances une preuve d’intérêt et de confiance,
                a autorisé Son Cabinet à déclarer en Son nom :</p>
             <p>Que si la conduite du Gouvernement espagnol à l’égard de la <country>France</country>
-               ou de <rs ref="#p.123" type="person">Son Envoyé à <placeName ref="#loc.24">Madrid</placeName></rs>
+               ou de <rs ref="#p.123" type="person">Son Envoyé à <placeName ref="#loc.24">Madrid</placeName>
+                    </rs>
                étoit de nature à forcer cette dernière à rompre Ses relations diplomatiques avec
                   l’<country>Espagne</country>, <rs ref="#p.18" type="person">Sa Majesté</rs> n’hésiteroit pas à
                en faire autant de Son côté ;</p>

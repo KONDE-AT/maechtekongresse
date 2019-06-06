@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/kongress/editions" xml:id="Aachen_Prot_10.xml" prev="https://id.acdh.oeaw.ac.at/kongress/editions/Aachen_Prot_9.xml" next="https://id.acdh.oeaw.ac.at/kongress/editions/Aachen_Prot_11.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -54,7 +54,8 @@
                Zeitgeschichtsforschung</publisher>
             <pubPlace>Wien</pubPlace>
 <date when="2018-09-23" change="#initial">2018-09-23</date>
-            <idno>A_10</idno><idno type="ISBN" n="9783950478303">978-3-9504783-0-3</idno>
+            <idno>A_10</idno>
+                <idno type="ISBN" n="9783950478303">978-3-9504783-0-3</idno>
                  <availability>           <licence target="https://creativecommons.org/licenses/by-sa/4.0/legalcode.de">https://creativecommons.org/licenses/by-sa/4.0/legalcode.de</licence>         </availability> </publicationStmt>
             <notesStmt>
     <note>Vergleiche auch die Projektbeschreibung in der <ref type="URI" target="../meta/Einleitung.xml">Einleitung</ref> sowie die Dokumentation der Applikation unter <ref type="URI" target="../meta/about.xml">„Über diese Webseite“</ref>.</note>
@@ -79,7 +80,8 @@
                <physDesc>
 
                   <p> Eigenhändiges Protokoll von <persName ref="#p.5">
-                        <surname>Gentz</surname></persName>. </p>
+                        <surname>Gentz</surname>
+                            </persName>. </p>
                   <handDesc>
                      <handNote xml:id="G">Friedrich Gentz</handNote>
                      <handNote xml:id="W">Nikolaus Wacken</handNote>
@@ -110,7 +112,8 @@
                </msContents>
                <physDesc>
                   <p>Konzept von <persName ref="#p.6">
-                                <surname>Wacken</surname></persName>
+                                <surname>Wacken</surname>
+                            </persName>
                         </p>
                   <handDesc>
                      <handNote xml:id="MmB">Metternich mit Bleistift</handNote>
@@ -144,7 +147,8 @@
                </msContents>
                <physDesc>
                   <p>Protokoll von <persName ref="#p.5">
-                                <surname>Gentz</surname></persName>
+                                <surname>Gentz</surname>
+                            </persName>
                         </p>
                   <p>Anlage 2 liegt zweifach ein: Auf fol. I/36 und in einer fehlerhaften Variante
                      auf fol. I/38. Die Edition folgt der Variante von fol. I/36. Die Variante fol.
@@ -187,9 +191,11 @@
       <profileDesc>
          <abstract>
             <p>Der britische Gesandte <persName ref="#p.10">
-                        <surname>Wellington</surname></persName>
+                        <surname>Wellington</surname>
+                    </persName>
                berichtet Einzelheiten über die Reduktion der französischen Entschädigungszahlung, wie sie
-               in der <rs ref="#t.10" type="treaties">Konvention vom <date when="1818-10-09">9. Oktober</date></rs>
+               in der <rs ref="#t.10" type="treaties">Konvention vom <date when="1818-10-09">9. Oktober</date>
+                    </rs>
                festgelegt wurde. Deren Inhalt wird den europäischen Höfen mittels Zirkularschreibens
                durch die jeweiligen diplomatischen Gesandten übermittelt. Die <rs ref="#p.8 #p.10 #p.11 #p.13 #p.12 #p.14 #p.9 #p.1" type="multi-person">Vertreter der Mächte</rs>
                beschließen, den diplomatischen Gesandten an den europäischen Höfen Instruktionen
@@ -260,9 +266,11 @@
                   <expan>Monsieur</expan>
                </choice> le <persName ref="#p.10">
                         <roleName>Duc</roleName>
-                  <surname>de Wellington</surname></persName> a donné sur les dispositions
+                  <surname>de Wellington</surname>
+                    </persName> a donné sur les dispositions
                pécuniaires de la <rs ref="#t.10" type="treaties">convention signée le <date when="1818-10-09">9 de
-                     ce mois</date></rs> les explications suivantes :</p>
+                     ce mois</date>
+                    </rs> les explications suivantes :</p>
             <p>La somme de 15 Millions, qui a été passée en décompte sur celle de 280 Millions,
                payables par la <country>France</country> pour compléter ses engagemens pécuniaires
                vis-à-vis des Alliés, se compose : 1<hi rendition="#su">o</hi>
@@ -278,7 +286,8 @@
                eux qui ont joui et jouiront encore de l’avantage de ces anticipations.</p>
             <p>La Circulaire à adresser aux Ministres des Quatre puissances<pb n="43v"/> accrédités
                auprès des autres Cours de l’Europe <add place="margin">pour communiquer à celle-ci
-                  la <rs ref="#t.10" type="treaties">convention signée <date when="1818-10-09">le 9</date></rs> sur
+                  la <rs ref="#t.10" type="treaties">convention signée <date when="1818-10-09">le 9</date>
+                        </rs> sur
                   l’évacuation du territoire Français</add> a été arrêtée, et doit être expédiée <ref decls="#m.2"> telle qu’elle se trouve annexée à ce Protocole</ref>.
             </p>
             <p>
@@ -287,7 +296,8 @@
                   <expan>Monsieur</expan>
                </choice> le <persName ref="#p.8">
                         <roleName>Prince</roleName>
-                  <surname>de Metternich</surname></persName> a communiqué un projet d’instruction
+                  <surname>de Metternich</surname>
+                    </persName> a communiqué un projet d’instruction
                pour le <rs ref="#p.24" type="person">Ministre d’Autriche</rs> auprès de <choice>
                   <abbr>S. A. R.</abbr>
                   <expan>Son Altesse Royale</expan>
@@ -306,11 +316,14 @@
             </p>
             <p>La conférence s’est occupée ensuite :</p>
             <p>De la demande du <rs ref="#p.22" type="person">Grand-Duc de Bade</rs> relativement <rs xml:id="n.1">aux inconvéniens qu’Il craint de la marche du Contingent Bavarois sortant de
-               <country>France</country> à travers le territoire Badois</rs><note type="editorial" target="#n.1">Vgl. Dokumente Nr. 12, 14, 48 und Erbe,
+               <country>France</country> à travers le territoire Badois</rs>
+                    <note type="editorial" target="#n.1">Vgl. Dokumente Nr. 12, 14, 48 und Erbe,
                   Erschütterung, S. 172–173; Handbuch der Baden-Württembergischen Geschichte, Bd. 3,
                   S. 37–38; Huber, Deutsche Verfassungsgeschichte, Bd. 1, S. 324–328.</note> ;</p>
             <p>
-                    <rs xml:id="n.2"> Des dernières transactions qui ont eu lieu à <placeName ref="#loc.2">Paris</placeName> sur l’affaire de <placeName ref="#loc.5">Montevideo</placeName></rs><note type="editorial" target="#n.2">1811 war in Uruguay unter José Gervasio Artigas
+                    <rs xml:id="n.2"> Des dernières transactions qui ont eu lieu à <placeName ref="#loc.2">Paris</placeName> sur l’affaire de <placeName ref="#loc.5">Montevideo</placeName>
+                    </rs>
+                    <note type="editorial" target="#n.2">1811 war in Uruguay unter José Gervasio Artigas
                   (1764–1850) eine Revolution ausgebrochen, die von brasilianisch-portugiesischen
                   Truppen 1820 niedergeschlagen wurde; vgl. Street, Artigas; Pytha, Konzert der
                   Mächte, bes. S. 156–160.</note> ; et</p>
@@ -413,7 +426,8 @@
                         <abbr>9<hi rendition="#su">bre</hi>
                                 </abbr>
                         <expan>Novembre</expan>
-               </choice> 1815</date></rs>
+               </choice> 1815</date>
+                    </rs>
                 </head>
              <p xml:space="preserve">
                <del rendition="#s">Excepté les Cours de <placeName ref="#loc.11">Naples</placeName>
@@ -449,17 +463,21 @@
                         <abbr>9<hi rendition="#su">bre</hi>
                                 </abbr>
                         <expan>Novembre</expan>
-                     </choice> 1815</date></rs> a été admis de la part des quatre Cours ci-dessus
+                     </choice> 1815</date>
+                    </rs> a été admis de la part des quatre Cours ci-dessus
                mentionnées, en même temps que <rs xml:id="n.3" ref="#p.15" type="person">Sa Majesté Très
-                  Chrétienne</rs><note type="editorial" target="#n.3">Ehrentitel des Königs
+                  Chrétienne</rs>
+                    <note type="editorial" target="#n.3">Ehrentitel des Königs
                         von Frankreich.</note> a pris les engagemens requis pour compléter l’exécution de
                l’article IV du dit <rs ref="#t.1" type="treaties">traité de <placeName ref="#loc.2">Paris</placeName> du <date when="1815-11-20">20 <choice>
                         <abbr>9<hi rendition="#su">bre</hi>
                                 </abbr>
                         <expan>Novembre</expan>
-                     </choice> 1815</date></rs>.</p>
+                     </choice> 1815</date>
+                    </rs>.</p>
             <p>Ces dispositions ayant été consignées dans une <rs ref="#t.10" type="treaties">Convention signée à
-                     <placeName ref="#loc.1">Aix-La-Chapelle</placeName> le <date when="1818-10-09">9 de ce mois</date></rs>,</p> <metamark>
+                     <placeName ref="#loc.1">Aix-La-Chapelle</placeName> le <date when="1818-10-09">9 de ce mois</date>
+                    </rs>,</p> <metamark>
                     <add place="margin" hand="#MmB">j’ai l’<choice>
                      <abbr>h<hi rendition="#su">r</hi>
                             </abbr>
@@ -468,7 +486,8 @@
                      <abbr>V. E.</abbr>
                      <expan>Votre Excellence</expan>
                   </choice> un exemplaire en l’invitant à en donner communication <rs xml:id="n.4">à
-                     la Diète</rs><note type="editorial" target="#n.4">Bundestag in Frankfurt a. M.</note> dans la
+                     la Diète</rs>
+                        <note type="editorial" target="#n.4">Bundestag in Frankfurt a. M.</note> dans la
                   forme qui <choice>
                      <abbr>V. E.</abbr>
                      <expan>Votre Excellence</expan>
@@ -481,7 +500,8 @@
                         <abbr>9<hi rendition="#su">bre</hi>
                                 </abbr>
                         <expan>Novembre</expan>
-                     </choice> 1815</date></rs>, Elles désirent que cette communication soit
+                     </choice> 1815</date>
+                    </rs>, Elles désirent que cette communication soit
                effectuée le plus promptement possible par les Envoyés respectifs de chacune des 4
                Cours qui sont accrédités près les Puissances et Etats accédans.</p>
             <p>En conséquence, Vous voudrez bien/<choice>
@@ -496,7 +516,8 @@
                     </choice>
                  vous donnerez
                communication de la <rs ref="#t.10" type="treaties">Convention d’<placeName ref="#loc.1">Aix-la-Chapelle</placeName> 
-                  du <date when="1818-10-09">9 Octobre</date></rs>
+                  du <date when="1818-10-09">9 Octobre</date>
+                    </rs>
                (ci-joint en copie imprimée) à la Cour de <gap/>
                     <add place="inline" hand="#AmB">
                         <placeName ref="#loc.13">Dresde</placeName> et aux Cours Ducales de
@@ -513,13 +534,16 @@
                                 </abbr>
                                     <expan>Octobre</expan>
                      </choice>
-                        </date></rs>, qui ont été stipulés pour assurer l’exécution
+                        </date>
+                    </rs>, qui ont été stipulés pour assurer l’exécution
                   définitive<pb n="45r"/> du <rs ref="#t.1" type="treaties">traité de <placeName ref="#loc.2">Paris</placeName> du <date when="1815-11-20">20 <choice>
                         <abbr>9<hi rendition="#su">bre</hi>
                                 </abbr>
                         <expan>Novembre</expan>
-                     </choice> 1815</date></rs>, <add place="margin">Vous ajouterez verbalement
-                  l’information que les quatre commissaires de finances, établis par la <rs ref="#t.2" type="treaties">convention du <date when="1815-11-20">20 Novembre 1815</date></rs>
+                     </choice> 1815</date>
+                    </rs>, <add place="margin">Vous ajouterez verbalement
+                  l’information que les quatre commissaires de finances, établis par la <rs ref="#t.2" type="treaties">convention du <date when="1815-11-20">20 Novembre 1815</date>
+                        </rs>
                   pour la perception et la répartition des échéances successives de l’indemnité,
                   viennent d’être autorisés à entrer envers les mandataires des Puissances et Etats
                   participant à ladite indemnité dans les explications les plus détaillés sur la
@@ -547,12 +571,14 @@
                   <add place="below">mesures</add>
                </subst> que Son Excellence, Monsieur le <persName ref="#p.10">
                         <roleName>Duc</roleName>
-                  <surname>de Wellington</surname></persName>, Commandant en Chef de l’armée
+                  <surname>de Wellington</surname>
+                    </persName>, Commandant en Chef de l’armée
                d’occupation, s’est chargé de concerter avec le Gouvernement de <rs ref="#p.15" type="person" xml:id="n.5">
                         <choice>
                         <abbr>S. M</abbr>
                         <expan>Sa Majesté</expan>
-                     </choice> très Chrétienne</rs><note type="editorial" target="#n.5">Ehrentitel des Königs von Frankreich</note> pour
+                     </choice> très Chrétienne</rs>
+                    <note type="editorial" target="#n.5">Ehrentitel des Königs von Frankreich</note> pour
                l’évacuation du territoire français dans le terme convenu,<pb n="45v"/> on croit
                pouvoir présumer que la Cour de <placeName ref="#loc.14">Copenhague</placeName>/
                   <placeName ref="#loc.13">Dresde</placeName>/ <placeName ref="#loc.15">Hanovre</placeName>/ <placeName ref="#loc.16">Munich</placeName>/ <placeName ref="#loc.17">Stuttgard</placeName> trouvera également convenable de s’en

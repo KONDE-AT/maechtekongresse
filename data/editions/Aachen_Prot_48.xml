@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/kongress/editions" xml:id="Aachen_Prot_48.xml" prev="https://id.acdh.oeaw.ac.at/kongress/editions/Aachen_Prot_47.xml" next="https://id.acdh.oeaw.ac.at/kongress/editions/Aachen_Prot_49.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -54,7 +54,8 @@
                Zeitgeschichtsforschung</publisher>
             <pubPlace>Wien</pubPlace>
 <date when="2018-09-23" change="#initial">2018-09-23</date>
-            <idno>A_48</idno><idno type="ISBN" n="9783950478303">978-3-9504783-0-3</idno>
+            <idno>A_48</idno>
+                <idno type="ISBN" n="9783950478303">978-3-9504783-0-3</idno>
                  <availability>           <licence target="https://creativecommons.org/licenses/by-sa/4.0/legalcode.de">https://creativecommons.org/licenses/by-sa/4.0/legalcode.de</licence>         </availability> </publicationStmt>
             <notesStmt>
     <note>Vergleiche auch die Projektbeschreibung in der <ref type="URI" target="../meta/Einleitung.xml">Einleitung</ref> sowie die Dokumentation der Applikation unter <ref type="URI" target="../meta/about.xml">„Über diese Webseite“</ref>.</note>
@@ -190,7 +191,8 @@
                </choice>
                     les <rs ref="#p.8 #p.1 #p.9 #p.10 #p.12 #p.13 #p.14" type="multi-person">Plénipotentiaires</rs> ayant cru
                devoir avant leur séparation résumer la position de <rs xml:id="n.1">l’affaire de la
-                  médiation entre les Cours d’Espagne et de Portugal</rs><note type="editorial" target="#n.1">Vgl. Pytha, Konzert der Mächte, bes. S. 156–160.</note> afin de
+                  médiation entre les Cours d’Espagne et de Portugal</rs>
+                    <note type="editorial" target="#n.1">Vgl. Pytha, Konzert der Mächte, bes. S. 156–160.</note> afin de
                régler éventuellement leur marche à l’avenir, se sont réunis sur les points
                suivans :</p>
             <p>1<hi rendition="#su">o</hi> Ils considèrent leur attitude dans la négociation comme
@@ -217,7 +219,9 @@
                voies d’une négociation amicale et par tous les moyens de conciliation le but désiré
                d’un rapprochement définitif entr’Elles.</p>
             <p>5<hi rendition="#su">o</hi> Les Ministres sont convenus en outre de donner à la<pb n="258r"/>
-                    <rs xml:id="n.2">Conférence de <placeName ref="#loc.2">Paris</placeName></rs><note type="editorial" target="#n.2">Botschafterkonferenz in Paris, tätig von 1816 bis
+                    <rs xml:id="n.2">Conférence de <placeName ref="#loc.2">Paris</placeName>
+                    </rs>
+                    <note type="editorial" target="#n.2">Botschafterkonferenz in Paris, tätig von 1816 bis
                   1819; vgl. Pytha, Konzert der Mächte, bes. S. 156–160, wo der Autor die Tätigkeit
                   der Botschafterkonferenz in Hinblick auf den Konflikt zwischen Spanien und
                   Portugal analysiert.</note> des instructions conformes à la teneur du présent

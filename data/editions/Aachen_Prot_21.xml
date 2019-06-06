@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/kongress/editions" xml:id="Aachen_Prot_21.xml" prev="https://id.acdh.oeaw.ac.at/kongress/editions/Aachen_Prot_20.xml" next="https://id.acdh.oeaw.ac.at/kongress/editions/Aachen_Prot_22.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -54,7 +54,8 @@
                Zeitgeschichtsforschung</publisher>
             <pubPlace>Wien</pubPlace>
 <date when="2018-09-23" change="#initial">2018-09-23</date>
-            <idno>A_21</idno><idno type="ISBN" n="9783950478303">978-3-9504783-0-3</idno>
+            <idno>A_21</idno>
+                <idno type="ISBN" n="9783950478303">978-3-9504783-0-3</idno>
                  <availability>           <licence target="https://creativecommons.org/licenses/by-sa/4.0/legalcode.de">https://creativecommons.org/licenses/by-sa/4.0/legalcode.de</licence>         </availability> </publicationStmt>
             <notesStmt>
     <note>Vergleiche auch die Projektbeschreibung in der <ref type="URI" target="../meta/Einleitung.xml">Einleitung</ref> sowie die Dokumentation der Applikation unter <ref type="URI" target="../meta/about.xml">„Über diese Webseite“</ref>.</note>
@@ -79,7 +80,8 @@
                <physDesc>
 
                   <p>Eigenhändiges Protokoll von <persName ref="#p.5">
-                        <surname>Gentz</surname></persName>.</p>
+                        <surname>Gentz</surname>
+                            </persName>.</p>
                   <handDesc>
                      <handNote xml:id="G">Friedrich Gentz</handNote>
                      <handNote xml:id="W">Nikolaus Wacken</handNote>
@@ -160,14 +162,18 @@
          <abstract>
             <p>Die <rs ref="#p.8 #p.11 #p.13 #p.12 #p.14 #p.9 #p.10" type="multi-person">Vertreter der alliierten
                   Mächte</rs> geben dem Ersuchen des französischen Premierministers <persName ref="#p.1">
-                        <surname>Richelieu</surname></persName> statt, die Zahlungsfrist der
+                        <surname>Richelieu</surname>
+                    </persName> statt, die Zahlungsfrist der
                Entschädigungssumme zu verlängern und die Einlösung der Wechsel an verschiedenen
                Orten durchzuführen. <persName ref="#p.20">
                         <forename>Alexander</forename>
-                  <surname>Baring</surname></persName> wird nach <placeName ref="#loc.1">Aachen</placeName> geladen. Die Einzelheiten der zwischen
+                  <surname>Baring</surname>
+                    </persName> wird nach <placeName ref="#loc.1">Aachen</placeName> geladen. Die Einzelheiten der zwischen
                   <country>Preußen</country> und <persName ref="#p.20">
-                        <surname>Baring</surname></persName> getroffenen Abmachungen hinsichtlich der aus
-               der <rs ref="#t.10" type="treaties">Konvention vom <date when="1818-10-09">9. Oktober</date></rs>
+                        <surname>Baring</surname>
+                    </persName> getroffenen Abmachungen hinsichtlich der aus
+               der <rs ref="#t.10" type="treaties">Konvention vom <date when="1818-10-09">9. Oktober</date>
+                    </rs>
                resultierenden Zahlungen werden separat zu Protokoll genommen. </p>
          </abstract>
          <particDesc>
@@ -234,10 +240,12 @@
                   <expan>Monsieur</expan>
                </choice> le <persName ref="#p.1">
                         <roleName>Duc</roleName>
-                  <surname>de Richelieu</surname></persName> a représenté à la Conférence que les
+                  <surname>de Richelieu</surname>
+                    </persName> a représenté à la Conférence que les
                termes de payemens des 165 Millions, à fournir par la <country>France</country>
                d’après la <rs ref="#t.10" type="treaties">Convention du <date when="1818-10-09">9
-                  Octobre</date></rs>, ayant été fixés à des époques trop rapprochées, il en
+                  Octobre</date>
+                    </rs>, ayant été fixés à des époques trop rapprochées, il en
                résulteroit qu’une exportation trop rapide du Numéraire produiroit dans la valeur des
                Inscriptions de rentes une dépréciation également nuisibles aux intérêts de toutes
                les parties contractantes. Pour remédier à cet inconvénient, <choice>
@@ -245,7 +253,8 @@
                   <expan>Monsieur</expan>
                </choice> le <persName ref="#p.1">
                         <roleName>Duc</roleName>
-                  <surname>de Richelieu</surname></persName> a proposé les dispositions
+                  <surname>de Richelieu</surname>
+                    </persName> a proposé les dispositions
                suivantes :</p>
             <p>1. Que les 165 Millions que la <country>France</country> doit acquitter conformément
                à l’article 6 de la <rs ref="#t.10" type="treaties">susdite Convention</rs> par Neuvième de mois en
@@ -260,8 +269,10 @@
                   <expan>Messieurs</expan>
                </choice>
                <persName ref="#p.20">
-                        <surname>Baring</surname></persName> et <persName ref="#p.23">
-                        <surname>Hope</surname></persName>, seront réalisés par des payemens faits aux
+                        <surname>Baring</surname>
+                    </persName> et <persName ref="#p.23">
+                        <surname>Hope</surname>
+                    </persName>, seront réalisés par des payemens faits aux
                mêmes époques et avec la même bonification d’intérêts de la part des traitans en
                raison des délais qui leur seront accordés ;</p>
             <p>3. Qu’il sera pris des arrangemens avec les <rs ref="#o.1 #o.2" type="multi-org">maisons mentionnées
@@ -280,22 +291,26 @@
                   <expan>Monsieur</expan>
                </choice> le <persName ref="#p.1">
                         <roleName>Duc</roleName>
-                  <surname>de Richelieu</surname></persName>, sauf à entrer par rapport à l’article
+                  <surname>de Richelieu</surname>
+                    </persName>, sauf à entrer par rapport à l’article
                3 dans des arrangemens particuliers avec <choice>
                   <abbr>Mrs.</abbr>
                   <expan>Messieurs</expan>
                </choice>
                     <pb n="102r"/>
                <persName ref="#p.23">
-                        <surname>Hope</surname></persName> et <persName ref="#p.20">
-                        <surname>Baring</surname></persName> pour fixer les conditions auxquelles les
+                        <surname>Hope</surname>
+                    </persName> et <persName ref="#p.20">
+                        <surname>Baring</surname>
+                    </persName> pour fixer les conditions auxquelles les
                effets sur les places étrangères seront acceptés.</p>
             <p>Et afin de faciliter ces arrangemens, <choice>
                   <abbr>Mr.</abbr>
                   <expan>Monsieur</expan>
                </choice>
                <persName ref="#p.20">
-                        <surname>Baring</surname></persName> sera invité à se rendre à
+                        <surname>Baring</surname>
+                    </persName> sera invité à se rendre à
                   <placeName ref="#loc.1">Aix-la-Chapelle</placeName> et à s’y concerter à cet effet
                avec les personnes qui seront chargées de cette affaire.</p>
             <p>
@@ -304,15 +319,19 @@
                   <expan>Monsieur</expan>
                </choice> le <persName ref="#p.11">
                         <roleName>Prince</roleName>
-                  <surname>de Hardenberg</surname></persName> a remis en outre au Protocole <rs xml:id="n.1">les observations et réserves ci-jointes</rs><note type="editorial" target="#n.1">Anlage liegt nicht ein. Als „Annexe“ abgedruckt in BFSP Bd. 6
+                  <surname>de Hardenberg</surname>
+                    </persName> a remis en outre au Protocole <rs xml:id="n.1">les observations et réserves ci-jointes</rs>
+                    <note type="editorial" target="#n.1">Anlage liegt nicht ein. Als „Annexe“ abgedruckt in BFSP Bd. 6
                   (1818/19), S. 12.</note> relatives à l’arrangement particulier que le Gouvernement
                Prussien a fait avec <choice>
                   <abbr>Mr.</abbr>
                   <expan>Monsieur</expan>
                </choice>
                <persName ref="#p.20">
-                        <surname>Baring</surname></persName> pour la part qui Lui
-               revient dans les payemens stipulés par la <rs ref="#t.10" type="treaties">Convention du <date when="1818-10-09">9 Octobre</date></rs>.</p>
+                        <surname>Baring</surname>
+                    </persName> pour la part qui Lui
+               revient dans les payemens stipulés par la <rs ref="#t.10" type="treaties">Convention du <date when="1818-10-09">9 Octobre</date>
+                    </rs>.</p>
             <signed>
                <list>
                   <item>
@@ -353,7 +372,8 @@
                pour les arrangemens pécuniaires conclus entre les Gouvernemens étrangers et la
                   <country>France</country> que les termes de payemens des 265 millions, à fournir
                d’après la <rs ref="#t.10" type="treaties">Convention du <date when="1818-10-09">9
-                  Octobre</date></rs>, ont été fixés à des époques trop rapprochées, et que
+                  Octobre</date>
+                    </rs>, ont été fixés à des époques trop rapprochées, et que
                l’exportation du numéraire, qui en seroit la suite, produiroit dans la valeur des
                inscriptions de rentes une dépréciation également nuisible aux intérêts de toutes les
                parties contractantes.</p>
@@ -376,8 +396,10 @@
                   <expan>Messieurs</expan>
                </choice>
                <persName ref="#p.23">
-                        <surname>Hope</surname></persName> et <persName ref="#p.20">
-                        <surname>Baring</surname></persName>, seront réalisés par des payemens faits
+                        <surname>Hope</surname>
+                    </persName> et <persName ref="#p.20">
+                        <surname>Baring</surname>
+                    </persName>, seront réalisés par des payemens faits
                aux mêmes époques et avec la même bonification d’intérêt de la part des traitans, en
                raison des délais qui leur seront accordés. </p>
             <p>3<hi rendition="#su">tio</hi> Il sera pris des arrangemens avec les <rs ref="#o.1 #o.2" type="multi-org">maisons mentionnées ci-dessus</rs> pour que les traites, tirées sur elles

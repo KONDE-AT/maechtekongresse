@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/kongress/editions" xml:id="Verona_I_12.xml" prev="https://id.acdh.oeaw.ac.at/kongress/editions/Verona_I_11.xml" next="https://id.acdh.oeaw.ac.at/kongress/editions/Verona_I_13.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -55,7 +55,8 @@
                Zeitgeschichtsforschung</publisher>
             <pubPlace>Wien</pubPlace>
 <date when="2018-09-23" change="#initial">2018-09-23</date>
-            <idno>V_I_12</idno><idno type="ISBN" n="9783950478303">978-3-9504783-0-3</idno>
+            <idno>V_I_12</idno>
+                <idno type="ISBN" n="9783950478303">978-3-9504783-0-3</idno>
             <availability>
                <licence target="https://creativecommons.org/licenses/by-sa/4.0/legalcode.de">https://creativecommons.org/licenses/by-sa/4.0/legalcode.de</licence>
             </availability>
@@ -126,7 +127,8 @@
          <abstract>
             <p>
                <persName ref="#p.8">
-                  <surname>Metternich</surname></persName> beschreibt die Unterschiede zwischen den Revolutionen auf der
+                  <surname>Metternich</surname>
+                    </persName> beschreibt die Unterschiede zwischen den Revolutionen auf der
                Apennin- und der Iberischen Halbinsel und analysiert die Uneinigkeit zwischen
                   <country>Großbritannien</country> auf der einen und den Kontinentalmächten auf der
                anderen Seite hinsichtlich der Frage des politischen Umgangs mit der Revolution in
@@ -158,7 +160,8 @@
             <p>Le temps qui vient de s’écouler à <placeName ref="#loc.68">Vérone</placeName> et les
                relations qui se sont établies entre les Cabinets m’ont mis à même de recueillir sur
                la situation des Cours relative à l’importante <rs xml:id="n.1">question
-                  Espagnole</rs><note type="editorial" target="#n.1">Zur Revolution in <country>Spanien</country>,
+                  Espagnole</rs>
+                    <note type="editorial" target="#n.1">Zur Revolution in <country>Spanien</country>,
                   die mit einem Militäraufstand am <date when="1820-01-01">1. Jänner 1820</date>
                   ihren Anfang nahm, vgl. Späth, Revolution in Europa, S. 117–128. </note> des
                renseignemens assez certains pour que je puisse fixer mon opinion sur cette
@@ -175,7 +178,9 @@
                n’hésite pas de se prononcer contre toute prise d’attitude morale, et bien plus
                encore matérielle des Puissances dans les affaires de la Péninsule. Il établit
                toutefois à cet égard une distinction entre l’<country>Espagne</country> et le <rs xml:id="n.2">
-                  <country>Portugal</country></rs><note type="editorial" target="#n.2">In <country>Portugal</country> war am <date when="1820-08-24">24. August 1820</date> eine Revolution ausgebrochen; vgl.
+                  <country>Portugal</country>
+                    </rs>
+                    <note type="editorial" target="#n.2">In <country>Portugal</country> war am <date when="1820-08-24">24. August 1820</date> eine Revolution ausgebrochen; vgl.
                   Birmingham, A Concise History, S. 111–113. </note> ; tandis qu’il se borne à
                recommander aux Alliés par rapport <hi rendition="#u">à l’<country>Espagne</country>
                </hi> une nullité absolue,<pb n="206v"/> qu’il énonce cette opinion comme étant
@@ -207,14 +212,17 @@
                suivant :</p>
             <p>Le <hi rendition="#u">principe</hi> révolutionnaire qui a jeté la Péninsule
                occidentale dans un abîme de maux est le même que celui <rs xml:id="n.3">qui a
-                  bouleversé en 1820 et 1821 <country>Naples</country></rs><note type="editorial" target="#n.3">Am <date when="1820-07-02">2. Juli 1820</date>
+                  bouleversé en 1820 et 1821 <country>Naples</country>
+                    </rs>
+                    <note type="editorial" target="#n.3">Am <date when="1820-07-02">2. Juli 1820</date>
                   meuterte die Militärgarnison in Nola, 35 km von <placeName ref="#loc.11">Neapel</placeName> entfernt. Das Datum gilt als Beginn der Revolution im
                        <country>Königreich beider Sizilien</country>. Vgl. Romani, The Neapolitan Revolution; Stites, The four Horsemen;
                   Davis, Naples and Napoleon; Gin, Sanfedisti, Carbonari, Magistrati del Re; Späth,
                   Revolution in Europa, S. 129–149. Zur Reaktion der Großmächte vgl. zuletzt
                   Jarrett, The Congress of Vienna, S. 248–285 sowie die Editionen der Dokumente der
                   Kongresse von Troppau und Laibach. </note>
-                    <rs xml:id="n.4">et le <country>Piémont</country></rs>.<note type="editorial" target="#n.4">Im März 1821 war im <country>Königreich
+                    <rs xml:id="n.4">et le <country>Piémont</country>
+                    </rs>.<note type="editorial" target="#n.4">Im März 1821 war im <country>Königreich
                      Sardinien-Piemont</country> eine Revolution ausgebrochen, die rasch durch
                   österreichische Truppen niedergeschlagen wurde. Vgl. Späth, Revolution in Europa,
                   S. 150–165; Broers, Napoleonic Imperialism; Jarrett, The Congress of Vienna, S.
@@ -289,7 +297,8 @@
                formes.</p>
             <p>
                     <rs xml:id="n.6">Les quatre Cours continentales pourront dès lors se trouver placées
-                  sur une même ligne d’action morale</rs><note type="author" target="#n.6">
+                  sur une même ligne d’action morale</rs>
+                    <note type="author" target="#n.6">
                         <hi rendition="#u">Note.</hi> <lb/>L’Autriche, en réduisant les principes à la définition la plus simple,
                      entend par l’action morale des Alliés : <lb/>
                      a. La manifestation patente du jugement qu’Ils portent sur la révolution

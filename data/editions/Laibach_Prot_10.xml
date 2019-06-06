@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/kongress/editions" xml:id="Laibach_Prot_10.xml" prev="https://id.acdh.oeaw.ac.at/kongress/editions/Laibach_Prot_9.xml" next="https://id.acdh.oeaw.ac.at/kongress/editions/Laibach_Prot_11.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -54,7 +54,8 @@
                Zeitgeschichtsforschung</publisher>
             <pubPlace>Wien</pubPlace>
 <date when="2018-09-23" change="#initial">2018-09-23</date>
-            <idno>L_10</idno><idno type="ISBN" n="9783950478303">978-3-9504783-0-3</idno>
+            <idno>L_10</idno>
+                <idno type="ISBN" n="9783950478303">978-3-9504783-0-3</idno>
             <availability>
                <licence target="https://creativecommons.org/licenses/by-sa/4.0/legalcode.de">https://creativecommons.org/licenses/by-sa/4.0/legalcode.de</licence>
             </availability>
@@ -118,7 +119,8 @@
                <physDesc>
                   <p>Abschrift von <persName ref="#p.6">
                         <forename>Nikolaus</forename>
-                        <surname>Wacken</surname></persName>
+                        <surname>Wacken</surname>
+                            </persName>
                   </p>
 
                </physDesc>
@@ -159,7 +161,8 @@
             <p>Die <rs ref="#p.8 #p.2 #p.12 #p.13 #p.14 #p.2" type="multi-person">Vertreter der
                   Mächte</rs> informieren den <persName ref="#p.142">
                   <roleName>duca</roleName>
-                  <surname>di Gallo</surname></persName> über die Beschlüsse der alliierten Kabinette hinsichtlich der aktuellen
+                  <surname>di Gallo</surname>
+                    </persName> über die Beschlüsse der alliierten Kabinette hinsichtlich der aktuellen
                Lage im <country>Königreich beider Sizilien</country>.</p>
          </abstract>
          <particDesc>
@@ -252,12 +255,14 @@
                   <expan>Monsieur</expan>
                </choice> le <persName ref="#p.142">
                   <roleName>Duc</roleName>
-                  <surname>de Gallo</surname></persName>, conformément au vœu énoncé par <rs ref="#p.138" type="person">Sa Majesté
+                  <surname>de Gallo</surname>
+                    </persName>, conformément au vœu énoncé par <rs ref="#p.138" type="person">Sa Majesté
                   Sicilienne</rs>, les déterminations des Cabinets Alliés relativement à l’état
                actuel des choses dans le <country>Royaume des Deux-Siciles</country>.</p>
             <p>Avant l’arrivée du <persName ref="#p.142">
                   <roleName>Duc</roleName>
-                  <surname>de Gallo</surname></persName>, <choice>
+                  <surname>de Gallo</surname>
+                    </persName>, <choice>
                   <abbr>Mr.</abbr>
                   <expan>Monsieur</expan>
                </choice>
@@ -265,25 +270,29 @@
                      <choice>
                         <abbr>S. M.</abbr>
                         <expan>Sa Majesté</expan>
-                     </choice> Brittannique</rs></rs> a demandé que, pour mettre le<rs ref="#p.142" type="person"> Ministre
+                     </choice> Brittannique</rs>
+                    </rs> a demandé que, pour mettre le<rs ref="#p.142" type="person"> Ministre
                   Napolitain</rs> au fait de l’attitude dans laquelle le Gouvernement Brittannique
                s’étoit placé par rapport à la question de <country>Naples</country> en général et
                particulièrement dans les conférences présentes, il fût donné connoissance au
                   <persName ref="#p.142">
                   <roleName>Duc</roleName>
-                  <surname>de Gallo</surname></persName> du <ref target="Laibach_Prot_7.xml">Journal <choice>
+                  <surname>de Gallo</surname>
+                    </persName> du <ref target="Laibach_Prot_7.xml">Journal <choice>
                      <abbr>Nr.</abbr>
                      <expan>Numéro</expan>
                   </choice> VII</ref>, contenant la déclaration de <persName ref="#p.137">
                   <roleName>Lord</roleName>
-                  <surname>Stewart</surname></persName>. Sur l’observation de plusieurs de <choice>
+                  <surname>Stewart</surname>
+                    </persName>. Sur l’observation de plusieurs de <choice>
                   <abbr>Mrs.</abbr>
                   <expan>Messieurs</expan>
                </choice> les Plénipotentiaires que la communication de cette pièce ne seroit pas
                sans inconvénient pour la marche que l’on s’étoit proposé de suivre dans cette
                occasion, <persName ref="#p.137">
                   <roleName>Lord</roleName>
-                  <surname>Stewart</surname></persName> a consenti à ne faire lire que sa déclaration seule, telle qu’elle se
+                  <surname>Stewart</surname>
+                    </persName> a consenti à ne faire lire que sa déclaration seule, telle qu’elle se
                trouvoit insérée au dit Journal.</p>
             <p>
                <choice>
@@ -291,20 +300,23 @@
                   <expan>Monsieur</expan>
                </choice> le <persName ref="#p.142">
                   <roleName>Duc</roleName>
-                  <surname>de Gallo</surname></persName> ayant été introduit, <choice>
+                  <surname>de Gallo</surname>
+                    </persName> ayant été introduit, <choice>
                   <abbr>Mr.</abbr>
                   <expan>Monsieur</expan>
                </choice> le <persName ref="#p.8">
                   <roleName>Prince</roleName>
                   <pb n="81v"/>
-                  <surname>de Metternich</surname></persName> lui a adressé, au nom de l’assemblée de <choice>
+                  <surname>de Metternich</surname>
+                    </persName> lui a adressé, au nom de l’assemblée de <choice>
                   <abbr>Mrs.</abbr>
                   <expan>Messieurs</expan>
                     </choice> les Plénipotentiaires, le <ref decls="#m.2">Discours dont copie est
                   ci-jointe</ref>. Après la première partie de ce discours les pièces suivantes ont
                été lues :</p>
             <p>1. Instruction aux <rs ref="#p.149 #p.148 #p.144" type="multi-person">Ministres de
-                  Russie et de Prusse, et au Chargé d’affaires d’Autriche à <placeName ref="#loc.11">Naples</placeName></rs>, telle qu’elle se trouve consignée au <ref target="Laibach_Prot_9.xml">Journal <choice>
+                  Russie et de Prusse, et au Chargé d’affaires d’Autriche à <placeName ref="#loc.11">Naples</placeName>
+                    </rs>, telle qu’elle se trouve consignée au <ref target="Laibach_Prot_9.xml">Journal <choice>
                      <abbr>Nr.</abbr>
                      <expan>Numéro</expan>
                   </choice> VIIII</ref> ;</p>
@@ -321,7 +333,8 @@
                   <expan>Monsieur</expan>
                </choice> le <persName ref="#p.142">
                   <roleName>Duc</roleName>
-                  <surname>de Gallo</surname></persName> de la déclaration de <choice>
+                  <surname>de Gallo</surname>
+                        </persName> de la déclaration de <choice>
                   <abbr>Mr.</abbr>
                   <expan>Monsieur</expan>
                </choice>
@@ -332,14 +345,16 @@
                      <expan>Monsieur</expan>
                   </choice> le <persName ref="#p.149">
                      <roleName>Comte</roleName>
-                     <surname>de Stackelberg</surname></persName>
+                     <surname>de Stackelberg</surname>
+                        </persName>
                </ref> ;</p>
             <p>4. Extrait de la <ref target="Laibach_Prot_9.xml">seconde dépêche additionnelle à <choice>
                      <abbr>Mr.</abbr>
                      <expan>Monsieur</expan>
                   </choice> le <persName ref="#p.149">
                      <roleName>Comte</roleName>
-                     <surname>de Stackelberg</surname></persName>
+                     <surname>de Stackelberg</surname>
+                        </persName>
                </ref> pour ce qui concerne l’imposition d’une contribution de guerre au
                   <country>Royaume des Deux-Siciles</country> ; mesure à laquelle on n’auroit
                recours que dans le cas d’une résistance formelle, et qui n’auroit pas lieu dans le
@@ -349,14 +364,16 @@
                   <expan>Monsieur</expan>
                </choice> le <persName ref="#p.8">
                   <roleName>Prince</roleName>
-                  <surname>de Metternich</surname></persName> a lu la dernière partie de Son discours.</p>
+                  <surname>de Metternich</surname>
+                    </persName> a lu la dernière partie de Son discours.</p>
             <p>
                <choice>
                   <abbr>Mr.</abbr>
                   <expan>Monsieur</expan>
                </choice> le <persName ref="#p.142">
                   <roleName>Duc</roleName>
-                  <surname>de Gallo</surname></persName> a dit :</p>
+                  <surname>de Gallo</surname>
+                    </persName> a dit :</p>
             <p>
                     <hi rendition="#et">Qu’il avoit entendu avec la plus grande attention tout ce que l’on
                venoit de lui faire connoitre de la part de l’auguste Congrès ; qu’Il demanderoit les
@@ -380,7 +397,8 @@
             </p>
             <signed rendition="#r">
                <persName ref="#p.5">
-                  <surname>Gentz</surname></persName>
+                  <surname>Gentz</surname>
+                    </persName>
             </signed>
          </div>
 
@@ -392,12 +410,14 @@
                      <expan>Monsieur</expan>
                   </choice> le <persName ref="#p.8">
                      <roleName>Prince</roleName>
-                     <surname>de Metternich</surname></persName>, au nom de la Conférence, <lb/> à <choice>
+                     <surname>de Metternich</surname>
+                    </persName>, au nom de la Conférence, <lb/> à <choice>
                      <abbr>M</abbr>
                      <expan>Monsieur</expan>
                   </choice> le <persName ref="#p.142">
                      <roleName>Duc</roleName>
-                     <surname>de Gallo</surname></persName> dans la séance du <date when="1821-01-30">30 Janvier 1821</date>
+                     <surname>de Gallo</surname>
+                    </persName> dans la séance du <date when="1821-01-30">30 Janvier 1821</date>
                </head>
             
             <p>
@@ -409,7 +429,9 @@
                confirmation de ce qui a été dit et déclaré au <rs ref="#p.138" type="person">Roi</rs>, Votre Maître.</p>
             <p>Les Puissances alliées ne reconnaîtront jamais l’état des choses établi dans le
                   <country>Royaume des deux-Siciles</country> à la suite <rs xml:id="n.2">des
-                  évènemens du <date when="1820-07-06">6 Juillet</date></rs><note type="editorial" target="#n.2">Am <date when="1820-07-06">6. Juli 1820</date>
+                  évènemens du <date when="1820-07-06">6 Juillet</date>
+                    </rs>
+                    <note type="editorial" target="#n.2">Am <date when="1820-07-06">6. Juli 1820</date>
                   entschloss sich der neapolitanische Hof, die Verfassung von Cádiz anzunehmen. Vgl.
                   Stites, The four Horsemen; Davis, Naples and Napoleon; Gin, Sanfedisti, Carbonari,
                   Magistrati del Re; Späth, Revolution in Europa, S. 129–149.</note> dernier, ni
@@ -418,7 +440,8 @@
                incompatible avec le repos et avec l’existence même des Etats voisins comme avec le
                maintien de la paix de l’Europe.</p>
             <p>Nous allons vous donner communication des instructions que les <rs ref="#p.144 #p.148 #p.149" type="multi-person">agens diplomatiques des
-                  Puissances à <placeName ref="#loc.11">Naples</placeName></rs> recevront en même tems que <choice>
+                  Puissances à <placeName ref="#loc.11">Naples</placeName>
+                    </rs> recevront en même tems que <choice>
                   <abbr>S. M.</abbr>
                   <expan>Sa Majesté</expan>
                </choice> le <rs ref="#p.138" type="person">Roi</rs> adressera Ses paroles

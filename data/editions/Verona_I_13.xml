@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/kongress/editions" xml:id="Verona_I_13.xml" prev="https://id.acdh.oeaw.ac.at/kongress/editions/Verona_I_12.xml" next="https://id.acdh.oeaw.ac.at/kongress/editions/Verona_I_14.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -55,7 +55,8 @@
                Zeitgeschichtsforschung</publisher>
             <pubPlace>Wien</pubPlace>
 <date when="2018-09-23" change="#initial">2018-09-23</date>
-            <idno>V_I_13</idno><idno type="ISBN" n="9783950478303">978-3-9504783-0-3</idno>
+            <idno>V_I_13</idno>
+                <idno type="ISBN" n="9783950478303">978-3-9504783-0-3</idno>
                  <availability>           <licence target="https://creativecommons.org/licenses/by-sa/4.0/legalcode.de">https://creativecommons.org/licenses/by-sa/4.0/legalcode.de</licence>         </availability> </publicationStmt>
             <notesStmt>
     <note>Vergleiche auch die Projektbeschreibung in der <ref type="URI" target="../meta/Einleitung.xml">Einleitung</ref> sowie die Dokumentation der Applikation unter <ref type="URI" target="../meta/about.xml">„Über diese Webseite“</ref>.</note>
@@ -167,7 +168,8 @@
                      <expan>Monsieur</expan>
                   </choice> le <persName ref="#p.174">
                             <roleName>Vicomte</roleName>
-                     <surname>de Montmorency</surname></persName> a d’abord énoncé <ref target="Verona_I_2.xml">trois cas qui lui
+                     <surname>de Montmorency</surname>
+                    </persName> a d’abord énoncé <ref target="Verona_I_2.xml">trois cas qui lui
                   paraissaient de nature à rendre lesdits engagemens immédiatement
                   obligatoires</ref> ; et <ref target="Verona_I_3.xml">
                         <choice>
@@ -197,7 +199,9 @@
                rapporterait aux cas prévus et non-prévus dans lesquels ces engagemens deviendraient
                obligatoires fût rédigé sur un principe de réciprocité, en admettant que l’une et
                l’autre Puissance pourrait également réclamer l’application des <rs xml:id="n.1">
-                        <hi rendition="#u">Casus foederis</hi></rs><note type="editorial" target="#n.1">Lat.: Bündnisfall.</note> dont on serait
+                        <hi rendition="#u">Casus foederis</hi>
+                    </rs>
+                    <note type="editorial" target="#n.1">Lat.: Bündnisfall.</note> dont on serait
                convenu. <choice>
                   <abbr>M<hi rendition="#su">ss</hi>
                         </abbr>
@@ -208,7 +212,8 @@
                   <expan>Monsieur</expan>
                </choice> le <persName ref="#p.8">
                         <roleName>Prince</roleName>
-                  <surname>de Metternich</surname></persName>, ont appuyé cette observation.</p>
+                  <surname>de Metternich</surname>
+                    </persName>, ont appuyé cette observation.</p>
             <p>Le résultat de la délibération a été qu’il sera rédigé, dans le sens de ces
                différentes observations, pour être signé par Messieurs les Plénipotentiaires, un
                   <ref target="Verona_I_15.xml">acte en forme de procès-verbal</ref> où seront

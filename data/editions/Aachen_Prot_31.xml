@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/kongress/editions" xml:id="Aachen_Prot_31.xml" prev="https://id.acdh.oeaw.ac.at/kongress/editions/Aachen_Prot_30.xml" next="https://id.acdh.oeaw.ac.at/kongress/editions/Aachen_Prot_32.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -54,7 +54,8 @@
                Zeitgeschichtsforschung</publisher>
             <pubPlace>Wien</pubPlace>
 <date when="2018-09-23" change="#initial">2018-09-23</date>
-            <idno>A_31</idno><idno type="ISBN" n="9783950478303">978-3-9504783-0-3</idno>
+            <idno>A_31</idno>
+                <idno type="ISBN" n="9783950478303">978-3-9504783-0-3</idno>
             <availability>
                <licence target="https://creativecommons.org/licenses/by-sa/4.0/legalcode.de">https://creativecommons.org/licenses/by-sa/4.0/legalcode.de</licence>
             </availability>
@@ -82,9 +83,11 @@
                <physDesc>
 
                   <p> Eigenhändiges Protokoll von <persName ref="#p.5">
-                        <surname>Gentz</surname></persName>.</p>
+                        <surname>Gentz</surname>
+                            </persName>.</p>
                   <p>Auf dem Korrekturrand von fol. II/59r versuchte <persName ref="#p.6">
-                        <surname>Wacken</surname></persName> eine Aufzählung der einzelnen Anlagen; nach mehrfachen Korrekturen
+                        <surname>Wacken</surname>
+                            </persName> eine Aufzählung der einzelnen Anlagen; nach mehrfachen Korrekturen
                      Streichung der gesamten Aufzählung.</p>
                   <handDesc>
                      <handNote xml:id="G">Friedrich Gentz</handNote>
@@ -126,19 +129,23 @@
                      II/65–67) weicht geringfügig vom ersten Konzept ab und wurde, auf Anregung 
                         <persName ref="#p.9">
                         
-                        <surname>Castlereaghs</surname></persName>, um zwei Absätze ergänzt (vgl. die mit Bleistift auf dem
+                        <surname>Castlereaghs</surname>
+                            </persName>, um zwei Absätze ergänzt (vgl. die mit Bleistift auf dem
                      Korrekturrand von fol. II/65r angebrachte Anmerkung: <q>dans la supposition de
                      démarches séparées, avec les additions demandées par Lord Castlereagh)</q>. <q>2<hi rendition="#su">nd</hi>
                             </q> nachträglich mit Bleistift ergänzt. Beide Dokumente
                      sind in eine Schleife mit dem Vermerk von <persName ref="#p.6">
-                        <surname>Wacken</surname></persName> eingelegt: <q>Ces deux Notes aux Envoyés de cinq Cours près des
+                        <surname>Wacken</surname>
+                            </persName> eingelegt: <q>Ces deux Notes aux Envoyés de cinq Cours près des
                      Etats-unis d’Amérique sont mentionnées comme <hi rendition="#u">projets</hi>
                      dans le Mémoire d’observations du <persName ref="#p.1">
                         <roleName>Duc</roleName>
-                        <surname>de Richelieu</surname></persName> (annexé au Protocole du <date when="1818-11-13">13 Novembre
+                        <surname>de Richelieu</surname>
+                                </persName> (annexé au Protocole du <date when="1818-11-13">13 Novembre
                         1818</date>) sur celui du <persName ref="#p.71">
                         <roleName>Comte</roleName>
-                        <surname>de Palmella</surname></persName> (annexé au Protocole du <date when="1818-11-11">11 Novembre</date>)
+                        <surname>de Palmella</surname>
+                                </persName> (annexé au Protocole du <date when="1818-11-11">11 Novembre</date>)
                      au sujet des Pirates de l’océan atlantique ; mais il n’a pas été donné suite à
                      ces Notes. <placeName ref="#loc.1">Aix</placeName> le <date when="1818-11-22">22 9<hi rendition="#su">bre</hi> 1818</date>.</q>
                         </p>
@@ -241,7 +248,8 @@
                <physDesc>
 
                   <p>Konzept von <persName ref="#p.5">
-                        <surname>Gentz</surname></persName>
+                        <surname>Gentz</surname>
+                            </persName>
                   </p>
 
                </physDesc>
@@ -336,8 +344,10 @@
                Ministerialkonferenz weitergeleitet. Anschließend thematisieren die <rs ref="#p.13 #p.14" type="multi-person">Vertreter Russlands</rs> die Verwahrung
                   <persName ref="#p.50">
                   <forename>Napoleon</forename>
-                  <surname>Bonapartes</surname></persName> auf St. Helena. Die <rs ref="#p.8 #p.9 #p.10 #p.11 #p.12 #p.13 #p.14 #p.1" type="multi-person">Bevollmächtigten</rs> beschließen außerdem, der schwedischen Regierung
-               vertrauliche bzw. offizielle Noten betreffend die Nicht-Einhaltung des <rs ref="#t.15" type="treaties">Vertrags von <placeName ref="#loc.27">Kiel</placeName></rs> zukommen zu lassen.</p>
+                  <surname>Bonapartes</surname>
+                    </persName> auf St. Helena. Die <rs ref="#p.8 #p.9 #p.10 #p.11 #p.12 #p.13 #p.14 #p.1" type="multi-person">Bevollmächtigten</rs> beschließen außerdem, der schwedischen Regierung
+               vertrauliche bzw. offizielle Noten betreffend die Nicht-Einhaltung des <rs ref="#t.15" type="treaties">Vertrags von <placeName ref="#loc.27">Kiel</placeName>
+                    </rs> zukommen zu lassen.</p>
          </abstract>
          <particDesc>
             <listPerson>
@@ -403,15 +413,19 @@
                   <expan>Monsieur</expan>
                </choice> le <persName ref="#p.1">
                   <roleName>Duc</roleName>
-                  <surname>de Richelieu</surname></persName> a communiqué ses observations sur le <ref target="Aachen_Prot_30.xml">mémoire de <choice>
+                  <surname>de Richelieu</surname>
+                    </persName> a communiqué ses observations sur le <ref target="Aachen_Prot_30.xml">mémoire de <choice>
                      <abbr>Mr.</abbr>
                      <expan>Monsieur</expan>
                   </choice>
                   <persName ref="#p.71">
-                     <surname>de Palmella</surname></persName>, consigné au Protocole du <date when="1818-11-11">11</date>
+                     <surname>de Palmella</surname>
+                        </persName>, consigné au Protocole du <date when="1818-11-11">11</date>
                </ref>. <rs xml:id="n.1">
                   <ref decls="#m.2">Ces observations ont été prises ad referendum et seront jointes
-                     au Protocole.</ref></rs><note type="editorial" target="#n.1">Das Dokument liegt nicht ein. Beiliegend finden
+                     au Protocole.</ref>
+                    </rs>
+                    <note type="editorial" target="#n.1">Das Dokument liegt nicht ein. Beiliegend finden
                   sich hingegen zwei Konzepte für Depeschen der Mächte an ihre diplomatischen
                   Bevollmächtigten in den Vereinigten Staaten von Amerika. Beide Dokumente sind in
                   eine Schleife mit dem Vermerk von <persName ref="#p.6">Wacken</persName>
@@ -419,10 +433,12 @@
                   d’Amérique sont mentionnées comme <hi rendition="#u">projets</hi> dans le Mémoire
                   d’observations du <persName ref="#p.1">
                      <roleName>Duc</roleName>
-                     <surname>de Richelieu</surname></persName> (annexé au Protocole du <date when="1818-11-13">13 Novembre
+                     <surname>de Richelieu</surname>
+                        </persName> (annexé au Protocole du <date when="1818-11-13">13 Novembre
                      1818</date>) sur celui du <persName ref="#p.71">
                      <roleName>Comte</roleName>
-                     <surname>de Palmella</surname></persName> (annexé au Protocole du <date when="1818-11-11">11 Novembre</date>) au
+                     <surname>de Palmella</surname>
+                        </persName> (annexé au Protocole du <date when="1818-11-11">11 Novembre</date>) au
                   sujet des Pirates de l’océan atlantique ; mais il n’a pas été donné suite à ces
                   Notes. Aix le <date when="1818-11-22">22 9<hi rendition="#su">bre</hi>
                   1818</date>.</note>
@@ -433,10 +449,12 @@
                   <expan>Monsieur</expan>
                </choice> le <persName ref="#p.8">
                   <roleName>Prince</roleName>
-                  <surname>de Metternich</surname></persName> a fait part du <ref decls="#m.3"> Vote du Cabinet d’Autriche sur les
+                  <surname>de Metternich</surname>
+                    </persName> a fait part du <ref decls="#m.3"> Vote du Cabinet d’Autriche sur les
                   moyens de réprimer les pirateries des Barbaresques. </ref> Ce Vote, contenant des
                idées préliminaires sur une institution militaire à créer dans la Méditerannée pour y
-               exercer en tout tems une police efficace contre les Pirates, sera envoyé à la <rs xml:id="n.3"> conférence Ministérielle établie à <placeName ref="#loc.8">Londres</placeName></rs>,<note type="editorial" target="#n.3">Gemeint ist die Botschafterkonferenz in London,
+               exercer en tout tems une police efficace contre les Pirates, sera envoyé à la <rs xml:id="n.3"> conférence Ministérielle établie à <placeName ref="#loc.8">Londres</placeName>
+                    </rs>,<note type="editorial" target="#n.3">Gemeint ist die Botschafterkonferenz in London,
                   welche sich zwischen 1816 und 1819 vorwiegend mit der Abschaffung des
                   Sklavenhandels und der Piraterie im Mittelmeer befasste. Protokolle vgl. BFSP Bd.
                   6 (1818/19), S. 21–53; Clarke, Papers presented to Parliament 1819, Bd. 1, S.
@@ -446,7 +464,8 @@
                   <expan>Monsieur</expan>
                </choice> le <persName ref="#p.8">
                   <roleName>Prince</roleName>
-                  <surname>de Metternich</surname></persName> s’étant réservé de communiquer plus tard ses vues sur l’organisation d’un
+                  <surname>de Metternich</surname>
+                    </persName> s’étant réservé de communiquer plus tard ses vues sur l’organisation d’un
                établissement pareil, sur les moyens de le réaliser et sur les frais qu’il pourroit
                entraîner d’après un calcul approximatif, ces éclaircissemens ultérieurs <pb n="59v"/>seront communiqués de même en son tems à la Conférence de <placeName ref="#loc.8">Londres</placeName>.</p>
             <p>
@@ -455,16 +474,19 @@
                   <expan>Monsieur</expan>
                </choice> le <persName ref="#p.1">
                   <roleName>Duc</roleName>
-                  <surname>de Richelieu</surname></persName> a lu de son côté <ref decls="#m.4"> un Mémorandum sur le projet de
+                  <surname>de Richelieu</surname>
+                    </persName> a lu de son côté <ref decls="#m.4"> un Mémorandum sur le projet de
                   Traité, rédigé à la dite conférence de <placeName ref="#loc.8">Londres</placeName>, relativement à une ligue permanente à établir contre les
                   pirateries des Barbaresques. </ref>
             </p>
             <p>À cette lecture a succédé celle d’un <ref decls="#m.5"> Mémoire renfermant l’opinion
                   du Cabinet de Russie sur les mesures prises et à prendre pour le maintien et
                   l’exécution la plus stricte de <rs ref="#t.31" type="treaties">la convention du
-                        <date when="1815-08-02">2 Aout 1815</date></rs>relativement à la détention de <persName ref="#p.50">
+                        <date when="1815-08-02">2 Aout 1815</date>
+                        </rs>relativement à la détention de <persName ref="#p.50">
                      <forename>Napoléon</forename>
-                     <surname>Bonaparte</surname></persName> à l’Isle de <choice>
+                     <surname>Bonaparte</surname>
+                        </persName> à l’Isle de <choice>
                      <abbr>Ste</abbr>
                      <expan>Sainte</expan>
                   </choice> Hélène.</ref> On est convenu de consigner les résolutions que <choice>
@@ -478,9 +500,11 @@
                   <expan>Sa Majesté</expan>
                </choice> le <rs ref="#p.46" type="person">Roi de Suède</rs> dans le cas que <ref decls="#m.6"> les lettres <pb n="111r"/>confidentielles, que les Souverains
                   vont adresser à ce Monarque </ref> au sujet des plaintes de la Cour de Danemarc et
-               de la non-exécution du <rs ref="#t.15" type="treaties">Traité de <placeName ref="#loc.27">Kiel</placeName></rs> ne produisissent pas leur plein et entier effet. Les susdites lettres
+               de la non-exécution du <rs ref="#t.15" type="treaties">Traité de <placeName ref="#loc.27">Kiel</placeName>
+                    </rs> ne produisissent pas leur plein et entier effet. Les susdites lettres
                confidentielles, ainsi que la Note, accompagnée d’une instruction pour les <rs ref="#p.57 #p.58 #p.59 #p.60" type="multi-person">Ministres accrédités à
-                     <placeName ref="#loc.12">Stockholm</placeName></rs>, seront envoyées à <placeName ref="#loc.8">Londres</placeName> pour y être
+                     <placeName ref="#loc.12">Stockholm</placeName>
+                    </rs>, seront envoyées à <placeName ref="#loc.8">Londres</placeName> pour y être
                expédiées par les <rs ref="#p.101 #p.102 #p.38 #p.75" type="multi-person">Ministres
                   des Quatre Cours</rs>.</p>
             <signed>
@@ -527,10 +551,12 @@
                               <abbr>C.</abbr>
                               <expan>Castlereagh</expan>
                            </choice>
-                        </surname></persName> et dans la supposition d’une démarche Collective)</add>
+                        </surname>
+                        </persName> et dans la supposition d’une démarche Collective)</add>
                </head>
             
-            <p>Monsieur <supplied>…</supplied>, la Cour de Portugal ayant appelé, <rs xml:id="n.7"> par l’office dont copie est ci-jointe, </rs><note type="editorial" target="#n.7">Anlage liegt nicht ein.</note> l’attention des
+            <p>Monsieur <supplied>…</supplied>, la Cour de Portugal ayant appelé, <rs xml:id="n.7"> par l’office dont copie est ci-jointe, </rs>
+                    <note type="editorial" target="#n.7">Anlage liegt nicht ein.</note> l’attention des
                cabinets réunis à <placeName ref="#loc.1">Aix-la-Chapelle</placeName> sur les dangers
                dont la navigation et le commerce de l’Europe sont menacés par l’extension que prend
                la piraterie qui s’exerce dans l’Océan à la faveur des troubles qui agitent
@@ -543,7 +569,8 @@
                   <expan>Gouvernement</expan>
                </choice> qui souvent existe à peine de nom ou ne possède ni porte, ni vaisseaux,
                troublent la sécurité des mers, en attaquant sans distinction les bâtiments de toutes
-               les nations. <rs xml:id="n.8"> Un acte du Congrès, en date du <date when="1817-03-03">3 Mars 1817</date>, </rs><note type="editorial" target="#n.8">Vgl. Act of Congress of The United States, „more
+               les nations. <rs xml:id="n.8"> Un acte du Congrès, en date du <date when="1817-03-03">3 Mars 1817</date>, </rs>
+                    <note type="editorial" target="#n.8">Vgl. Act of Congress of The United States, „more
                   effecutally to preserve the Neutral Relations of The United States“; abgedruckt
                   BFSP Bd. 4 (1816/17), S. 839–841. Wurde mit dem Act of Congress vom 20. April 1818
                   wieder außer Kraft gesetzt; vgl. ebd.</note> avait, à la vérité, prohibé dans les
@@ -557,7 +584,8 @@
                     <app>
                         <lem>ont été unanimement d’avis de charger <rs xml:id="n.9">
                             <rs ref="#p.103 #p.104 #p.105 #p.106" type="multi-person">leurs Ministres
-                        respectifs, accrédités auprès du Gouvernement fédéral</rs>, </rs><note type="editorial" target="#n.9">Österreich nahm offiziell erst 1838
+                        respectifs, accrédités auprès du Gouvernement fédéral</rs>, </rs>
+                            <note type="editorial" target="#n.9">Österreich nahm offiziell erst 1838
                      diplomatische Beziehungen zu den Vereinigten Staaten von Amerika auf; vgl.
                      Matsch, Wien – Washington, S. 3.</note> de porter à sa connaissance leur
                        opinion sur ce point,</lem>
@@ -577,7 +605,9 @@
                         <lem>En
                   conséquence, Monsieur <supplied>…</supplied>, Sa Majesté vous autorise à faire,
                   d’accord avec le Ministre de <rs xml:id="n.11">
-                            <rs ref="#p.28" type="person">Sa Majesté Très Fidèle</rs></rs><note type="editorial" target="#n.11">Ehrentitel des portugiesischen
+                            <rs ref="#p.28" type="person">Sa Majesté Très Fidèle</rs>
+                            </rs>
+                            <note type="editorial" target="#n.11">Ehrentitel des portugiesischen
                      Königs.</note> et ceux des Cours de <supplied>…</supplied> les démarches que
                   vous croirez utiles pour atteindre ce but.</lem>
                         <rdg>
@@ -676,11 +706,13 @@
                   <expan>Messieurs</expan>
                </choice> ses Collègues de la position particulière de sa Cour dans la question.</p>
             <p>L’<country>Autriche</country> ignore pour son compte jusqu’à <rs xml:id="n.14">
-                  l’existence politique des Cantons d’Afrique. </rs><note type="editorial" target="#n.14">Territorien im Norden Afrikas, in die formaler
+                  l’existence politique des Cantons d’Afrique. </rs>
+                    <note type="editorial" target="#n.14">Territorien im Norden Afrikas, in die formaler
                   Abhängigkeit zum Osmanischen Reich standen; Zentren im heutigen Libyen, Tunesien
                   und Algerien; vgl. Mössner, Völkerrechtspersönlichkeit.</note> De tout tems elle
                les a regardé comme des Provinces soumises à l’<country>Empire Ottoman</country> ;
-               elle n’entretient aucune relation directe avec les <rs xml:id="n.15"> Deys </rs><note type="editorial" target="#n.15">Herrschertitel in den nordafrikanischen
+               elle n’entretient aucune relation directe avec les <rs xml:id="n.15"> Deys </rs>
+                    <note type="editorial" target="#n.15">Herrschertitel in den nordafrikanischen
                   Gebieten des Osmanischen Reichs.</note> ; elle ne place même jamais des Consuls
                dans les ports des Cantons ; et les Consuls des Puissances amies sont seuls chargés
                de vouer leurs soins aux intérêts des sujets Autrichiens. L’attitude de
@@ -689,7 +721,8 @@
                   <hi rendition="#u" hand="#AmB">n’existe point d’exemple</hi> que la Porte n’ait
                satisfait <hi rendition="#u">à l’indemnité pleine et entière</hi> qu’elle doit à tout
                sujet Autrichien qui<pb n="80r"/> essuye une perte de la part des Barbaresques. Le
-               versement de la somme réclamée par l’<rs xml:id="n.16"> Internonciature </rs><note type="editorial" target="#n.16">Österreichische Gesandtschaft in
+               versement de la somme réclamée par l’<rs xml:id="n.16"> Internonciature </rs>
+                    <note type="editorial" target="#n.16">Österreichische Gesandtschaft in
                   Konstantinopel; vgl. Agstner, Palazzo di Venezia.</note> a lieu dans des termes
                rapprochés, et le payement s’effectue en espèces sonnantes.</p>
             <p>Le Commerce strictement Autrichien est donc placé, sous un point de vue restreint,
@@ -751,11 +784,14 @@
                les bataillons les mieux exercés.</p>
             <p>La révolution a détruit une antique institution qui depuis des siècles avoit rendu
                dans ce genre les plus grands services. Ces services eussent toutefois été plus
-               efficaces encore si l’<rs xml:id="n.17"> Ordre de Malte </rs><note type="editorial" target="#n.17">Vgl. z. B. Bradford, Johanniter und Malteser.
+               efficaces encore si l’<rs xml:id="n.17"> Ordre de Malte </rs>
+                    <note type="editorial" target="#n.17">Vgl. z. B. Bradford, Johanniter und Malteser.
                   Schneider-Feber, Ritter im Exil.</note> n’avoit eu que le seul but de faire la
                police de la Méditerrannée, et si tous les moyens que possedoit cet Ordre eussent été
                voués exclusivement à ce but d’utilité générale.</p>
-            <p>La <rs xml:id="n.18"> Conférence à <placeName ref="#loc.8">Londres</placeName></rs><note type="editorial" target="#n.18">Gemeint ist die Botschafterkonferenz in London,
+            <p>La <rs xml:id="n.18"> Conférence à <placeName ref="#loc.8">Londres</placeName>
+                    </rs>
+                    <note type="editorial" target="#n.18">Gemeint ist die Botschafterkonferenz in London,
                   welche sich zwischen 1816 und 1819 vorwiegend mit der Abschaffung des
                   Sklavenhandels und der Piraterie im Mittelmeer befasste. Protokolle vgl. BFSP Bd.
                   6 (1818/19), S. 21–53; Clarke, Papers presented to Parliament 1819, Bd. 1, S.
@@ -800,7 +836,8 @@
                      <abbr>S<hi rendition="#su">t</hi>
                      </abbr>
                      <expan>Saint</expan>
-                  </choice> Jean de Jérusalem </rs><note type="editorial" target="#n.19">Synonym für den Malteserorden.</note> l’Île de
+                  </choice> Jean de Jérusalem </rs>
+                    <note type="editorial" target="#n.19">Synonym für den Malteserorden.</note> l’Île de
                Lissa. On peut assurément opposer mainte considération contre la position locale.
                L’isle d’Elbe seroit sans contredit mieux adaptée au but. Elle pourroit servir de
                Chef-lieu à l’Ordre sans que pour cela le Grand-Maître eût a y exercer la
@@ -865,9 +902,12 @@
                      <expan>Monsieur</expan>
                   </choice> le <persName ref="#p.1">
                      <roleName>Duc</roleName>
-                     <surname>de Richelieu</surname></persName>.</add>
+                     <surname>de Richelieu</surname>
+                        </persName>.</add>
             </p>
-            <p>Dans la <rs xml:id="n.21">Conférence tenue à <placeName ref="#loc.8">Londres</placeName> le <date when="1818-05-24">24 Mai dernier</date></rs><note type="editorial" target="#n.21">Gemeint ist eine Sitzung der
+            <p>Dans la <rs xml:id="n.21">Conférence tenue à <placeName ref="#loc.8">Londres</placeName> le <date when="1818-05-24">24 Mai dernier</date>
+                    </rs>
+                    <note type="editorial" target="#n.21">Gemeint ist eine Sitzung der
                   Botschafterkonferenz in London. Protokolle vgl. BFSP Bd. 6 (1818/19), S. 21–53;
                   Clarke, Papers presented to Parliament 1819, Bd. 1, S. 153–233; Anderson, Rise, S.
                   237.</note> au sujet de la répression des Pirates Barbaresques entre <choice>
@@ -883,7 +923,8 @@
                ses forces, et en même temps on a pris ad referendum pour être soumis à la
                considération des Gouvernemens respectifs <rs xml:id="n.22">
                   <ref target="Aachen_Prot_25.xml">un projet de traité qui a été lu dans la même
-                     Séance</ref>.</rs><note type="editorial" target="#n.22">Humboldt, Projet d’Alliance. Klose, Enforcing
+                     Séance</ref>.</rs>
+                    <note type="editorial" target="#n.22">Humboldt, Projet d’Alliance. Klose, Enforcing
                   abolition, S. 115–116.</note>
             </p>
             <p>Le but du présent mémoire est de répondre en même temps à ces deux objets. Ils ont
@@ -905,7 +946,8 @@
             <p>La première observation que fait naître la lecture du projet est celle-ci : La ligue
                maritime est présentée comme ayant pour base une alliance purement <rs xml:id="n.23">
                   <hi rendition="#u">défensive et qui ne change rien à l’état de paix, dans lequel
-                     les parties contractantes se trouvent avec les Régences Barbaresques</hi>. </rs><note type="editorial" target="#n.23">Territorien im Norden Afrikas, in die formaler
+                     les parties contractantes se trouvent avec les Régences Barbaresques</hi>. </rs>
+                    <note type="editorial" target="#n.23">Territorien im Norden Afrikas, in die formaler
                   Abhängigkeit zum Osmanischen Reich standen; Zentren im heutigen Libyen, Tunesien
                   und Algerien; vgl. Mössner, Völkerrechtspersönlichkeit.</note> Comment cette
                condition sera-t-elle remplie si, à l’époque à laquelle le traité deviendra
@@ -923,7 +965,8 @@
                pourraient être commis postérieurement à la notification qui en aurait été faite aux
                Etats Barbaresques seraient très justement considérés comme une aggression. On peut
                en outre considérer que, si une paix générale n’existait pas au moment de cette
-               notification, les Barbaresques auraient sans doute entre leurs mains <rs xml:id="n.24">un certain<pb n="61v"/> nombre de prisonniers Chrétiens </rs><note type="editorial" target="#n.24">Zur Forschungsdiskussion vgl. Ressel,
+               notification, les Barbaresques auraient sans doute entre leurs mains <rs xml:id="n.24">un certain<pb n="61v"/> nombre de prisonniers Chrétiens </rs>
+                    <note type="editorial" target="#n.24">Zur Forschungsdiskussion vgl. Ressel,
                   Sklavenkasse und Türkenpässe, S. 32–33.</note> dont le sort serait compromis.</p>
             <p>L’<choice>
                   <abbr>Art.</abbr>
@@ -1010,7 +1053,9 @@
                intérêts, se dispenser de lui faire connaître à l’avance leur vœu et leurs
                intentions ; car il ne faut pas perdre de vue que tout engagement,<pb n="71v"/> de sa
                nature, est réciproque ; que le <rs xml:id="n.26">
-                        <rs ref="#p.107" type="person">Grand-Seigneur</rs></rs><note type="editorial" target="#n.26">Sultan des Osmanischen Reichs.</note> n’a pu
+                        <rs ref="#p.107" type="person">Grand-Seigneur</rs>
+                    </rs>
+                    <note type="editorial" target="#n.26">Sultan des Osmanischen Reichs.</note> n’a pu
                promettre d’empêcher toute hostilité de la part des Barbaresques contre les
                Puissances en question, sans que celles-ci n’ayent promis, au moins tacitement, de
                n’en point commettre contre les Barbaresques. Pour satisfaire complèttement à la foi
@@ -1022,8 +1067,10 @@
                Barbaresques les Etats dont on a parlé plus haut, et qui ont des traités directs avec
                Eux.</p>
             <p>La <country>France</country> se trouve, pour ainsi dire, placée dans les deux
-               cathégories à la fois. Non seulement elle a <rs xml:id="n.27"> des traités<pb n="72r"/> directs avec les Régences africaines, </rs><note type="editorial" target="#n.27">Vgl. die Verträge in Clercq, Recueil, Bd. 1 und
-                  Bd. 2.</note> mais les <rs xml:id="n.28"> anciennes capitulations </rs><note type="editorial" target="#n.28">Kapitulationen wurden in den Jahren (1500),
+               cathégories à la fois. Non seulement elle a <rs xml:id="n.27"> des traités<pb n="72r"/> directs avec les Régences africaines, </rs>
+                    <note type="editorial" target="#n.27">Vgl. die Verträge in Clercq, Recueil, Bd. 1 und
+                  Bd. 2.</note> mais les <rs xml:id="n.28"> anciennes capitulations </rs>
+                    <note type="editorial" target="#n.28">Kapitulationen wurden in den Jahren (1500),
                   1535, 1673 und 1740 abgeschlossen; vgl. van den Boogert, Fleet (Ed.), The Ottoman
                   Capitualtions.</note> qui font la base de ses rapports avec l’<country>Empire
                   Turc</country> ont en quelque sorte déjà tracé la marche qu’elle aurait à suivre
@@ -1045,7 +1092,8 @@
                justifierait des représailles.</p>
             <p>L’alliance, considérée sous ce point de vue et contractée après ces démarches
                préliminaires, n’aura rien qui puisse exciter les soupçons, ou même blesser la
-               susceptibilité du <rs xml:id="n.29"> Divan. </rs><note type="editorial" target="#n.29">Osmanischer Staatsrat.</note> Au contraire, il
+               susceptibilité du <rs xml:id="n.29"> Divan. </rs>
+                    <note type="editorial" target="#n.29">Osmanischer Staatsrat.</note> Au contraire, il
                est à présumer qu’il verra avec quelque satisfaction une mesure qui, en assez peu de
                temps, pourra, s’il le veut, rétablir sa domination effective en Afrique. Les
                Régences, en perdant l’esprit militaire, perdront le ressort qui leur permet de se
@@ -1207,14 +1255,16 @@
             </metamark>
             <p>Le Cabinet de Russie a examiné la question relative au mode d’existence de <persName ref="#p.50">
                   <forename>Napoléon</forename>
-                  <surname>Bonaparte</surname></persName> à <choice>
+                  <surname>Bonaparte</surname>
+                    </persName> à <choice>
                   <abbr>S<hi rendition="#su">te</hi>
                   </abbr>
                   <expan>Sainte</expan>
                </choice> Hélène, et aux clameurs excitées en <country>Angleterre</country> et
                répétées dans quelques parties de l’Europe concernant les traitemens exercés envers
                un homme <rs xml:id="n.30"> dont la funeste célébrité n’a pas encore cessé d’agiter
-                  le monde. </rs><note type="editorial" target="#n.30">Vgl. Tulard, Napoleon, S. 506–508. Für
+                  le monde. </rs>
+                    <note type="editorial" target="#n.30">Vgl. Tulard, Napoleon, S. 506–508. Für
                   Frankreich bes. Lucas-Dubreton, Le Culte. Für Großbritannien vgl. Semmel, Napoleon
                   and the British, bes. S. 175–239.</note>
             </p>
@@ -1227,7 +1277,8 @@
             <p>La guerre soutenue contre<pb n="87v"/>
                <persName ref="#p.50">
                   <forename>Napoléon</forename>
-                  <surname>Bonaparte</surname></persName> et les résultats qui en ont été la conclusion n’ont jamais eu aucune
+                  <surname>Bonaparte</surname>
+                    </persName> et les résultats qui en ont été la conclusion n’ont jamais eu aucune
                personnalité pour objet : C’est le pouvoir de la révolution française, concentré dans
                un individu qui s’en prévaloit pour asservir les nations sous le joug de l’injustice
                que les Alliés ont combattu et qu’ils sont <choice>
@@ -1241,7 +1292,8 @@
                l’époque de la délivrance générale, les Souverains s’empressèrent de décider ce que
                l’incertitude des événemens avoit mis en question jusqu’alors <hi rendition="#u">La
                   destruction de la puissance politique</hi> de <persName ref="#p.50">
-                  <surname>Bonaparte</surname></persName>.</p>
+                  <surname>Bonaparte</surname>
+                    </persName>.</p>
             <pb n="88r"/>
             <p xml:space="preserve">En proclamant qu’<rs xml:id="n.31"> ils ne feroient jamais la paix ni avec sa
                   personne, ni avec aucun individu de sa famille,</rs><note type="editorial" target="#n.31">Erkärung <persName ref="#p.17">
@@ -1250,7 +1302,8 @@
                et l’Europe voyoit dans cette immense ruine le commencement de sa propre
                réédification.</p>
             <p>Renvoyé à l’isle d’Elbe, <persName ref="#p.50">
-                  <surname>Bonaparte</surname></persName> en sortit <rs ref="#t.33" type="treaties">contre la teneur de son
+                  <surname>Bonaparte</surname>
+                    </persName> en sortit <rs ref="#t.33" type="treaties">contre la teneur de son
                   abdication et la foi des traités</rs>. La même cause produisit de nouveau les
                mêmes effets, sa présence en <country>France</country> excita la révolution dont on
                venoit à peine de sortir, et les espérances de la paix que le Congrès de <placeName ref="#loc.7">Vienne</placeName> travailloit à rétablir se flétrirent et
@@ -1258,7 +1311,8 @@
             <p>La lutte qui s’établit alors entre les forces destinées à conserver l’ordre public et
                celles qui menaçoient de le détruire étoit d’un caractère différent de toutes celles
                qui avoient précédé. Dans les premières, <persName ref="#p.50">
-                  <surname>Bonaparte</surname></persName> avoit été considéré et<pb n="88v"/> traité comme Souverain par le fait du
+                  <surname>Bonaparte</surname>
+                    </persName> avoit été considéré et<pb n="88v"/> traité comme Souverain par le fait du
                pouvoir qui l’avoit élevé et qui le maintenoit à une hauteur aussi éminente ; dans
                celle-ci au contraire il ne se présentoit que comme le Chef d’une force informe sans
                caractère politique reconnu, et en conséquence sans avoir aucun droit de prétendre
@@ -1268,15 +1322,19 @@
                exercées envers un homme qui, ayant cessé d’être reconnu comme le Souverain de la
                   <country>France</country>, devoit nécessairement en être traité comme le
                perturbateur. <persName ref="#p.50">
-                  <surname>Bonaparte</surname></persName>, avant la <rs xml:id="n.32"> bataille de <placeName ref="#loc.31">Waterloo</placeName>, </rs><note type="editorial" target="#n.32">
+                  <surname>Bonaparte</surname>
+                    </persName>, avant la <rs xml:id="n.32"> bataille de <placeName ref="#loc.31">Waterloo</placeName>, </rs>
+                    <note type="editorial" target="#n.32">
                   <date when="1815-06-18">18. Juni 1815</date>. Bremm, Die Schlacht.</note> étoit un
                rebelle redoutable ; après la défaite un vagabond dont la fortune avoit trahi les
                projets, un fugitif à <rs xml:id="n.33">
-                  <placeName ref="#loc.43">Rochefort</placeName>, </rs><note type="editorial" target="#n.33">Nach der Niederlage von Waterloo und seiner
+                  <placeName ref="#loc.43">Rochefort</placeName>, </rs>
+                    <note type="editorial" target="#n.33">Nach der Niederlage von Waterloo und seiner
                   Abdankung in Paris begab sich Napoleon am 29. Juni 1815 nach Rochefort und auf die
                   vorgelagerte Ile d’Aix; vgl. dazu Tulard, Napoleon, S. 492–502.</note> et
                dépendant de la justice de l’Europe<pb n="89r"/> à bord du <rs xml:id="n.34">
-                  Béllérophon. </rs><note type="editorial" target="#n.34">HMS Bellerophon, Linienschiff, das Napoleon
+                  Béllérophon. </rs>
+                    <note type="editorial" target="#n.34">HMS Bellerophon, Linienschiff, das Napoleon
                   1815 von der Ile d’Aix nach Plymouth brachte. Von dort aus ging er nach St. Helena
                   ins Exil; vgl. dazu Tulard, Napoleon, S. 501–502.</note> Dans cette situation, sa
                destinée étoit soumise à la prudence des Gouvernemens qu’il avoit offensé, et il
@@ -1298,11 +1356,14 @@
                délicatesse même pouvoient accorder à un homme qui, au milieu des fastes de son
                existence passée, avoit mis son orgueil à se rendre et à se dire insensible aux
                sentiments de compassion pour ses semblables.</p>
-            <p>C’est sous de pareils auspices que fut rédigé le <rs ref="#t.31" type="treaties">traité du <date when="1815-08-02">2 Août 1815</date></rs> ; les stipulations en sont claires et précises.</p>
+            <p>C’est sous de pareils auspices que fut rédigé le <rs ref="#t.31" type="treaties">traité du <date when="1815-08-02">2 Août 1815</date>
+                    </rs> ; les stipulations en sont claires et précises.</p>
             <p>
                <persName ref="#p.50">
                   <forename>Napoléon</forename>
-                  <surname>Bonaparte</surname></persName> est regardé par les Puissances qui ont signé le <rs ref="#t.34" type="treaties">traité du <date when="1815-03-27">27 Mars de la même année</date></rs> comme leur Prisonnier.</p>
+                  <surname>Bonaparte</surname>
+                    </persName> est regardé par les Puissances qui ont signé le <rs ref="#t.34" type="treaties">traité du <date when="1815-03-27">27 Mars de la même année</date>
+                    </rs> comme leur Prisonnier.</p>
             <pb n="90r"/>
             <p>
                     <rs ref="#p.50" type="person">Il</rs> est confié à la garde du <choice>
@@ -1329,10 +1390,12 @@
             <p>Un pareil acte confirme expressément les principes qui ont dicté le Traité. La
                condition de Prisonnier est soumise aux règles générales du droit des gens ; mais le
                cas de <persName ref="#p.50">
-                  <surname>Bonaparte</surname></persName> étant une exception, tout ce qu’il y avoit de particulier dans ce qui le
+                  <surname>Bonaparte</surname>
+                    </persName> étant une exception, tout ce qu’il y avoit de particulier dans ce qui le
                concerne <rs xml:id="n.35"> a dû être fixé par des stipulations et des loix
                   spéciales, et c’est aux unes et aux autres que le devoir prescrit de s’en
-                  rapporter sans déviation quelconque. </rs><note type="editorial" target="#n.35">Act for the more effectually detaining in
+                  rapporter sans déviation quelconque. </rs>
+                    <note type="editorial" target="#n.35">Act for the more effectually detaining in
                   custody Napoleon Buonaparté, 11. April 1816; Act for regulating the intercourse
                   with the Island of Saint Helena, during the time Napoleon Buonaparté shall be
                   detained there; and for indemnifying Persons in the Cases therein mentioned. In:
@@ -1351,7 +1414,8 @@
                      <abbr>Brit<hi rendition="#su">que</hi>
                      </abbr>
                      <expan>Britannique</expan>
-                  </choice></rs>dans les doctrines et les maximes qu’ils ont<pb n="91r"/> fait triompher sur
+                  </choice>
+                    </rs>dans les doctrines et les maximes qu’ils ont<pb n="91r"/> fait triompher sur
                cette question importante, et ils déclareront expressément avec eux que le traité
                étant réciproque et obligatoire, il n’appartient à aucune des parties de se
                soustraire aux obligations qu’il impose et de mettre en danger les intérêts qu’il est
@@ -1371,7 +1435,8 @@
                des documens relatifs aux faits qui se rapportent à cet objet, combiné avec les vices
                et la conduite politique des auteurs des dénonciations, dévoilent le projet formé de
                leur part non d’améliorer la condition de <persName ref="#p.50">
-                  <surname>Bonaparte</surname></persName> considéré comme détenu, mais de multiplier les chances de son évasion, en
+                  <surname>Bonaparte</surname>
+                    </persName> considéré comme détenu, mais de multiplier les chances de son évasion, en
                fatiguant, s’il leur étoit possible, la vigilance du <rs ref="#p.108" type="person">Gouverneur</rs> et de ses Agens. Cette tactique leur offre, en attendant,
                l’avantage de faire supposer à tous les ennemis de l’ordre le retour du Chef qui
                convient le plus à leurs desseins ou à leurs passions criminelles, et d’infecter
@@ -1380,7 +1445,8 @@
                   ceux<pb n="92r"/> qui cherchent à trouver dans la corruption ou les folies de la
                société les moyens de la bouleverser entièrement.</p>
             <p>Il n’existe nul doute que depuis l’arrivée de <persName ref="#p.50">
-                  <surname>Bonaparte</surname></persName> à <choice>
+                  <surname>Bonaparte</surname>
+                    </persName> à <choice>
                   <abbr>S<hi rendition="#su">te</hi>
                   </abbr>
                   <expan>Sainte</expan>
@@ -1407,7 +1473,8 @@
             <p>Il se dit malade, et il refuse la visite d’aucun autre médecin que de <rs ref="#p.109" type="person">celui qui étoit devenu son complice</rs> et qui même
                n’a jamais pu certifier que le <persName ref="#p.50">
                   <roleName>Général</roleName>
-                  <surname>Bonaparte</surname></persName> fut travaillé d’aucune indisposition sérieuse ou apparente dont quelques
+                  <surname>Bonaparte</surname>
+                    </persName> fut travaillé d’aucune indisposition sérieuse ou apparente dont quelques
                jours d’exercice ne le délivreroient complètement.</p>
             <p>
                     <rs ref="#t.31" type="treaties">Le traité</rs> porte que les Commissaires des
@@ -1448,7 +1515,8 @@
                   <abbr>Hlène</abbr>
                   <expan>Hélène</expan>
                </choice> est prouvée au dessus de toute contradiction, l’envoi de sommes<pb n="94r"/> clandestines et l’acquittement de toute lettre de change endossée par <persName ref="#p.50">
-                  <surname>Bonaparte</surname></persName> sont également avoués et hors de doute.</p>
+                  <surname>Bonaparte</surname>
+                    </persName> sont également avoués et hors de doute.</p>
             <p>Ces vérités, qui résultent des documents fournis par le <choice>
                   <abbr>Gouv<hi rendition="#su">t</hi>
                   </abbr>
@@ -1462,7 +1530,8 @@
                   <expan>Sainte</expan>
                </choice> Hélène, le <persName ref="#p.110">
                   <roleName>General</roleName>
-                  <surname>Gourgaud</surname></persName> se trouve au nombre des plus notables : ayant pris un ton de franchise
+                  <surname>Gourgaud</surname>
+                    </persName> se trouve au nombre des plus notables : ayant pris un ton de franchise
                suspect, il a révélé néanmoins des particularités qui ne peuvent manquer de fixer
                l’attention des Alliés.</p>
             <p>
@@ -1518,12 +1587,15 @@
                         <expan>Chevalier</expan>
                      </choice>
                   </roleName>
-                  <surname>Lowe</surname></persName> toute sa surprise de ce que les Confidents de <persName ref="#p.50">
-                  <surname>Bonaparte</surname></persName> se vantent que son existence dans l’isle seroit un mistère pour tout le
+                  <surname>Lowe</surname>
+                    </persName> toute sa surprise de ce que les Confidents de <persName ref="#p.50">
+                  <surname>Bonaparte</surname>
+                    </persName> se vantent que son existence dans l’isle seroit un mistère pour tout le
                monde et pour le <rs ref="#p.108" type="person">Gouverneur</rs> lui-même. Frappé de
                cette déviation des règles prescrites, le <rs ref="#p.111" type="person">Ministre</rs> ordonne à ce dernier de constater au moins deux fois par jour
                l’existence du détenu, et dans le cas où <persName ref="#p.50">
-                  <surname>Bonaparte</surname></persName> se prêteroit sans résistance à cette vérification, de lui offrir de
+                  <surname>Bonaparte</surname>
+                    </persName> se prêteroit sans résistance à cette vérification, de lui offrir de
                nouvelles facilités de jouir d’une plus grande liberté qui cesseroit d’être
                dangereuse du moment que sa personne seroit mise en évidence à des intervalles aussi
                rapprochés.</p>
@@ -1532,7 +1604,8 @@
                des Puissances ne soient introduits, afin de s’assurer matériellement de l’existence
                du Prisonnier ; ce droit, stipulé par les traités, ne peut leur être contesté, leur
                mission n’est pas auprès de <persName ref="#p.50">
-                  <surname>Bonaparte</surname></persName> pour avoir besoin d’être reçus par lui afin de l’accomplir ; du moment
+                  <surname>Bonaparte</surname>
+                    </persName> pour avoir besoin d’être reçus par lui afin de l’accomplir ; du moment
                que le <rs ref="#p.108" type="person">Gouverneur</rs> les recevroit pour tels, il
                faudroit qu’il les mette à portée d’exécuter les ordres dont ils sont chargés.</p>
             <p>Lorsqu’on considère les tracasseries locales que la duplicité ou l’irritation de
@@ -1552,7 +1625,8 @@
                il n’est pas permis de se départir :</p>
             <p>1<hi rendition="#su">o</hi> Que <persName ref="#p.50">
                   <surname>Napoléon</surname>
-                  <surname>Bonaparte</surname></persName> s’étoit mis par l’effet de sa conduite hors la loi des Nations, et que
+                  <surname>Bonaparte</surname>
+                    </persName> s’étoit mis par l’effet de sa conduite hors la loi des Nations, et que
                ces mesures de précaution prises à son égard, et toutes celles de ce genre qu’on
                seroit autorisé de prendre, dépendront entièrement de la discrétion et de la prudence
                des <rs ref="#p.16 #p.17 #p.18 #p.19" type="multi-person">Souverains
@@ -1561,10 +1635,12 @@
                         <del rendition="#s">Avril</del> 
                         <add place="above">Août</add>
                      </subst>
-                  </date></rs>
+                  </date>
+                    </rs>
                <pb n="96v"/> le constitue expressément et formellement Prisonnier des Puissances
                signataires du <rs ref="#t.34" type="treaties">traité du <date when="1815-03-25">25
-                     Mars 1815</date></rs> ;</p>
+                     Mars 1815</date>
+                    </rs> ;</p>
             <p>3<hi rendition="#su">o</hi> Qu’une telle clause ne permet à aucune d’entr’Elles, et
                encore moins à celle qui en est le dépositaire, de se départir de l’engagement
                contracté, ou de l’exposer par des considérations quelconques, à le voir frustré au
@@ -1580,7 +1656,8 @@
                         <expan>Chevalier</expan>
                      </choice>
                   </roleName>
-                  <surname>Lowe</surname></persName> en date du <date when="1818-09-01">1<hi rendition="#su">er</hi> Septembre
+                  <surname>Lowe</surname>
+                    </persName> en date du <date when="1818-09-01">1<hi rendition="#su">er</hi> Septembre
                   1818</date> rencontrent l’assentiment de toutes les Puissances intéressées à
                l’exécution du traité ;</p>
             <p>5<hi rendition="#su">o</hi> Qu’aussi longtems que les Commissaires de ces Puissances
@@ -1594,7 +1671,8 @@
             <p>6<hi rendition="#su">o</hi> Que les membres de la famille Bonaparte seront obligés de
                se rendre dans les pays qui leur avoient été assignés comme séjour par les
                délibérations précédentes, insérées aux Protocoles arrêtés à cet effet ;</p>
-            <p>7<hi rendition="#su">o</hi> Que les Ministres des Puissances signataires du <rs ref="#t.31" type="treaties">traité du <date when="1815-08-02">2 Août</date></rs> et des Protocoles subséquens, accrédités aux Cours où ces individus résident,
+            <p>7<hi rendition="#su">o</hi> Que les Ministres des Puissances signataires du <rs ref="#t.31" type="treaties">traité du <date when="1815-08-02">2 Août</date>
+                    </rs> et des Protocoles subséquens, accrédités aux Cours où ces individus résident,
                sont chargés d’en demander le départ et se concerteront entre eux sur les moyens
                d’exécution de cette mesure ;</p>
             <p>8<hi rendition="#su">o</hi> Que toutes correspondances avec le <rs ref="#p.50" type="person">Prisonnier de <choice>
@@ -1609,7 +1687,8 @@
                </choice> Anglais de la part des membres de sa famille ou d’autres individus,<pb n="97v"/> sera regardée comme attentatoire à la sureté publique, et qu’il sera
                porté des plaintes et pris des mesures contre quiconque se rendra coupable d’une
                pareille infraction.</p>
-            <p>Si les <rs ref="#p.8 #p.9 #p.10 #p.11 #p.12" type="multi-person">Ministres de Cabinet des <rs ref="#p.16 #p.18 #p.19" type="multi-person">Souverains alliés</rs></rs> partagent la manière dont la question vient d’être
+            <p>Si les <rs ref="#p.8 #p.9 #p.10 #p.11 #p.12" type="multi-person">Ministres de Cabinet des <rs ref="#p.16 #p.18 #p.19" type="multi-person">Souverains alliés</rs>
+                    </rs> partagent la manière dont la question vient d’être
                présentée moyennant le présent rapport, les <rs ref="#p.13 #p.14" type="multi-person">Plénipotentiaires de Russie</rs> sont prêts à se réunir à eux, afin de donner à
                leur décision commune la forme d’un Protocole et à veiller, en ce qui concerne leurs
                Cours, à son entière exécution.</p>
@@ -1631,7 +1710,8 @@
                      <abbr>S. M.</abbr>
                      <expan>Sa Majesté</expan>
                   </choice> le <rs ref="#p.46" type="person">Roi de Suède</rs> par les<rs ref="#p.57 #p.58 #p.59 #p.60" type="multi-person"> Ministres d’Autriche, de la
-                     Grande Bretagne, de Prusse et de Russie à <placeName ref="#loc.12">Stockholm</placeName></rs>
+                     Grande Bretagne, de Prusse et de Russie à <placeName ref="#loc.12">Stockholm</placeName>
+                    </rs>
                </head>
             
             <p>Le Soussigné a l’ordre de <choice>
@@ -1647,13 +1727,17 @@
                   <expan>Leurs Majestés</expan>
                </choice> les <rs ref="#p.46 #p.112" type="multi-person">Rois de Suède et de
                   Danemarc</rs> par rapport à l’exécution du <rs ref="#t.15" type="treaties">
-                        <rs xml:id="n.36"> Traité de <placeName ref="#loc.27">Kiel</placeName>, </rs></rs><note type="editorial" target="#n.36">Vgl. Kinzler, Kieler Frieden; Pyta, Konzert der
+                        <rs xml:id="n.36"> Traité de <placeName ref="#loc.27">Kiel</placeName>, </rs>
+                    </rs>
+                    <note type="editorial" target="#n.36">Vgl. Kinzler, Kieler Frieden; Pyta, Konzert der
                   Mächte, S. 153–156.</note> ont occupé à plusieurs reprises la sollicitude de <rs ref="#p.16 #p.17 #p.18 #p.19" type="multi-person">
                   <choice>
                      <abbr>S. M.</abbr>
                      <expan>Sa Majesté</expan>
                   </choice> et des Souverains Ses Alliées</rs>.</p>
-            <p>Après la <rs xml:id="n.37"> déclaration solemnelle, présentée le <date when="1815-06-07">7 Juin 1815</date> au Congrès de <placeName ref="#loc.7">Vienne</placeName></rs><note type="editorial" target="#n.37">Erklärung vom 7. Juni 1815; vgl. Angeberg, Bd.
+            <p>Après la <rs xml:id="n.37"> déclaration solemnelle, présentée le <date when="1815-06-07">7 Juin 1815</date> au Congrès de <placeName ref="#loc.7">Vienne</placeName>
+                    </rs>
+                    <note type="editorial" target="#n.37">Erklärung vom 7. Juni 1815; vgl. Angeberg, Bd.
                   2, S. 1357–1358.</note> par le <rs ref="#p.56" type="person">Plénipotentiaire
                   Suédois</rs>, déclaration portant <quote>« que <choice>
                      <abbr>S. M.</abbr>
@@ -1678,7 +1762,8 @@
                   <abbr>S. M.</abbr>
                   <expan>Sa Majesté</expan>
                </choice> le <rs ref="#p.112" type="person">Roi de Danemarc</rs> ayant de son côté
-               complètement rempli toutes les clauses onéreuses du <rs ref="#t.15" type="treaties">Traité de <placeName ref="#loc.27">Kiel</placeName></rs>, se voit privée par ce retard inattendu d’un soulagement auquel Elle pouvoit si
+               complètement rempli toutes les clauses onéreuses du <rs ref="#t.15" type="treaties">Traité de <placeName ref="#loc.27">Kiel</placeName>
+                        </rs>, se voit privée par ce retard inattendu d’un soulagement auquel Elle pouvoit si
                justement prétendre, et qui Lui avoit été si solemnellement promis. Dénué de tout
                autre moyen de se faire droit, et répugnant d’ailleurs à tout ce qui peut
                compromettre ses relations pacifiques avec les puissances voisines, <rs ref="#p.112" type="person">
@@ -1686,7 +1771,8 @@
                      <abbr>S. M.</abbr>
                      <expan>Sa Majesté</expan>
                   </choice> Danoise</rs> a eu recours à l’intervention <rs ref="#p.16 #p.17 #p.18 #p.19" type="multi-person">des Souverains, sous les
-                  auspices desquels la <rs ref="#t.15" type="multi-treaties">paix de <placeName ref="#loc.27">Kiel</placeName></rs> a été conclue</rs>.</del>
+                  auspices desquels la <rs ref="#t.15" type="multi-treaties">paix de <placeName ref="#loc.27">Kiel</placeName>
+                            </rs> a été conclue</rs>.</del>
                 </p>
             <p>
                <del rendition="#s">
@@ -1703,7 +1789,8 @@
                   </choice> le <rs ref="#p.112" type="person">Roi de Danemarc</rs> a faites auprès
                   de la Cour de <placeName ref="#loc.12">Stockholm</placeName> pour obtenir enfin ce
                   soulagement qui Lui avoit été si solemnellement promis, sont restées sans effet.
-                  Ayant de son côté complètement rempli toutes les clauses onéreuses du <rs ref="#t.15" type="treaties">Traité de <placeName ref="#loc.27">Kiel</placeName></rs>, <rs ref="#p.112" type="person">ce Monarque</rs> a demandé l’intervention
+                  Ayant de son côté complètement rempli toutes les clauses onéreuses du <rs ref="#t.15" type="treaties">Traité de <placeName ref="#loc.27">Kiel</placeName>
+                        </rs>, <rs ref="#p.112" type="person">ce Monarque</rs> a demandé l’intervention
                   des Souverains, sous les auspices desquels Il avoit fait la paix avec la
                      <country>Suède</country>. <rs ref="#p.16 #p.17 #p.18 #p.19" type="multi-person">
                      <choice>
@@ -1721,13 +1808,16 @@
                 <pb n="101r"/>
                 <p>
                     <del>La <rs ref="#t.15" type="treaties">paix de
-                     <placeName ref="#loc.27">Kiel</placeName></rs> s’est faite, pour ainsi dire, sous leurs yeux. Leurs Ministres en ont applani
+                     <placeName ref="#loc.27">Kiel</placeName>
+                        </rs> s’est faite, pour ainsi dire, sous leurs yeux. Leurs Ministres en ont applani
                les obstacles en prennent part aux négociations difficiles qui l’ont précédée. Le <rs ref="#p.112" type="person">Roi de Danemarc</rs> a envisagé leur assentiment commun
                la plus forte, garantie de cet acte. Mais ce n’est pas seulement comme appelés à
-               maintenir le <rs ref="#t.15" type="treaties">traité de <placeName ref="#loc.27">Kiel</placeName></rs>, c’est pour satisfaire à Leurs propres sentimens de loyauté et de justice
+               maintenir le <rs ref="#t.15" type="treaties">traité de <placeName ref="#loc.27">Kiel</placeName>
+                        </rs>, c’est pour satisfaire à Leurs propres sentimens de loyauté et de justice
                qu’ils ont cru devoir prêter l’oreille aux réclamations de la Cour de <placeName ref="#loc.14">Copenhague</placeName>. Ils n’ont pu oublier, que lors que
                l’accomplissement des stipulations du <rs ref="#t.15" type="treaties">traité de
-                     <placeName ref="#loc.27">Kiel</placeName></rs> parut momentanément entravée par les dispositions du
+                     <placeName ref="#loc.27">Kiel</placeName>
+                        </rs> parut momentanément entravée par les dispositions du
                   <country>Danemarc</country>, le <rs ref="#p.46" type="person">Roi de Suède</rs>
                eut recours de son côté à l’intervention des <rs ref="#p.16 #p.17 #p.18 #p.19" type="multi-person">Souverains Alliés</rs>, et que les démarches les plus
                rassurentes de leur part prouvèrent à <choice>
@@ -1743,7 +1833,8 @@
                   sanctionné l’acquisition a eu lieu. Le <rs ref="#p.112" type="person">Roi de
                      Danemarc</rs> n’a pas cessé de les envisager comme garans de l’exécution de cet
                   acte. Ils ne sauroient d’ailleurs oublier que, lorsque l’accomplissement des
-                  stipulations du <rs ref="#t.15" type="treaties">Traité de <placeName ref="#loc.27">Kiel</placeName></rs> parut momentanément entravée par les dispositions du
+                  stipulations du <rs ref="#t.15" type="treaties">Traité de <placeName ref="#loc.27">Kiel</placeName>
+                        </rs> parut momentanément entravée par les dispositions du
                      <country>Danemarc</country>, <choice>
                      <abbr>S. M.</abbr>
                      <expan>Sa Majesté</expan>
@@ -1768,7 +1859,8 @@
                      <abbr>S. M.</abbr>
                      <expan>Sa Majesté</expan>
                   </choice> Danoise</rs> est complétement justifiée par la lettre même de l’article
-               VI du <rs ref="#t.15" type="treaties">traité de <placeName ref="#loc.27">Kiel</placeName></rs>, ainsi que par la teneur de la déclaration du <date when="1815-06-07">7
+               VI du <rs ref="#t.15" type="treaties">traité de <placeName ref="#loc.27">Kiel</placeName>
+                    </rs>, ainsi que par la teneur de la déclaration du <date when="1815-06-07">7
                   Juin</date>, et que les difficultés et les retards qu’a rencontré jusqu’ici
                l’exécution de ces actes n’étoient pas de nature à pouvoir arrêter légalement l’effet
                des engagemens contractés par la <country>Suède</country>.</p>
@@ -1780,7 +1872,8 @@
                   <del rendition="#s">Mais cette balance étoit évidemment telle qu’aucune déduction
                      légitime pouroit dispenser la <country>Suède</country> du payement d’une somme
                      considérable ; et le refus de tout payement quelconque, quoique fondé en partie
-                     sur ces deductions, n’en étoit pas moins une infraction directe au <rs ref="#t.15" type="treaties">traité de <placeName ref="#loc.27">Kiel</placeName></rs>. </del>
+                     sur ces deductions, n’en étoit pas moins une infraction directe au <rs ref="#t.15" type="treaties">traité de <placeName ref="#loc.27">Kiel</placeName>
+                            </rs>. </del>
                   <add place="margin">Mais le résultat de cette liquidation ne pouvant pas
                      essentiellement altérer les demandes et obligations réciproque, le refus de la
                         <country>Suède</country> de se prêter à un arrangement quelconque n’en étoit
@@ -1788,7 +1881,8 @@
                </subst>
             </p>
             <p>Le Cabinet de <placeName ref="#loc.12">Stockholm</placeName> a essayé de justifier ce
-               refus par les entraves qu’il a prétendu trouver dans les formes de la <rs xml:id="n.38"> Constitution Norvégienne. </rs><note type="editorial" target="#n.38">Die Verfassung von Norwegen wurde am 16. Mai
+               refus par les entraves qu’il a prétendu trouver dans les formes de la <rs xml:id="n.38"> Constitution Norvégienne. </rs>
+                    <note type="editorial" target="#n.38">Die Verfassung von Norwegen wurde am 16. Mai
                   1814 angenommen und am 17. Mai 1814 unterzeichnet; nach der Vereinigung mit
                   Schweden wurde die Verfassung am 4. November 1814 adaptiert; vgl.<ref target="http://www.stortinget.no/en/In-English/About-the-Storting/The-Constitution/The-Constitution/">http://www.stortinget.no/en/In-English/About-the-Storting/The-Constitution/The-Constitution/</ref>
                   (eingesehen am 12. Februar 2013).</note> Cet argument est tout aussi <subst>
@@ -1797,17 +1891,21 @@
                </subst> que celui qui se rapportoit à la marche de la liquidation. <choice>
                   <abbr>S. M.</abbr>
                   <expan>Sa Majesté</expan>
-               </choice> le <rs ref="#p.207" type="person">Roi de Suède</rs> a signé le <rs ref="#t.15" type="treaties">traité de <placeName ref="#loc.27">Kiel</placeName></rs> avant l’existence de cette Constitution ; <rs ref="#p.56" type="person">son
-                  Plénipotentiaire au Congrès de <placeName ref="#loc.7">Vienne</placeName></rs> a remis la déclaration du <date when="1815-06-07">7 Juin</date>, après qu’elle
+               </choice> le <rs ref="#p.207" type="person">Roi de Suède</rs> a signé le <rs ref="#t.15" type="treaties">traité de <placeName ref="#loc.27">Kiel</placeName>
+                    </rs> avant l’existence de cette Constitution ; <rs ref="#p.56" type="person">son
+                  Plénipotentiaire au Congrès de <placeName ref="#loc.7">Vienne</placeName>
+                    </rs> a remis la déclaration du <date when="1815-06-07">7 Juin</date>, après qu’elle
                eut été créée, mais sans articuler la moindre exception ni restriction dérivant de
                cet acte dont cependant <rs ref="#p.207" type="person">son Souverain</rs> devoit
                connoître à cette époque la nature et les conditions. L’assemblée législative de la
                Norvège, en supposant son concours nécessaire pour l’exécution d’un engagement que le
                Roi avoit contracté tout seul, ne pourroit toutefois elle-même, sous aucun<pb n="102v"/> prétexte plausible, éluder les obligations que le Roi s’est imposées
-               par le <rs ref="#t.15" type="treaties">traité de <placeName ref="#loc.27">Kiel</placeName></rs>. La constitution Norvégienne n’auroit pas existé sans ce traité ; c’est l’acte
+               par le <rs ref="#t.15" type="treaties">traité de <placeName ref="#loc.27">Kiel</placeName>
+                    </rs>. La constitution Norvégienne n’auroit pas existé sans ce traité ; c’est l’acte
                qui a dégagé la nation des liens qui l’attachoient à son ancien Souverain ; c’est le
                titre légal en vertu duquel le <rs ref="#p.46" type="person">Roi de Suède</rs>
-               gouverne ce pays ; et le refus d’exécuter les clauses du <rs ref="#t.15" type="treaties">traité de <placeName ref="#loc.27">Kiel</placeName></rs> compromettroit également les droits du Souverain actuel et tous les rapports
+               gouverne ce pays ; et le refus d’exécuter les clauses du <rs ref="#t.15" type="treaties">traité de <placeName ref="#loc.27">Kiel</placeName>
+                    </rs> compromettroit également les droits du Souverain actuel et tous les rapports
                constitutionnels par lesquels Il est lié à la Norvège.</p>
             <p>Les <rs ref="#p.16 #p.17 #p.18 #p.19" type="multi-person">Souverains Alliés</rs> ne
                demandent donc à <choice>
@@ -1815,7 +1913,8 @@
                   <expan>Sa Majesté</expan>
                </choice> le <rs ref="#p.46" type="person">Roi de Suède</rs> que ce que les
                obligations les plus claires, la foi jurée, ses propres déclarations, enfin l’intérêt
-               même de sa Couronne et de son peuple, les autorisent à Lui demander. <del rendition="#s">Si les Stipulations précises du <rs ref="#t.15" type="treaties">Traité de <placeName ref="#loc.27">Kiel</placeName></rs> n’avoient pas irrévocablement décidé la question dans le cas présent, la
+               même de sa Couronne et de son peuple, les autorisent à Lui demander. <del rendition="#s">Si les Stipulations précises du <rs ref="#t.15" type="treaties">Traité de <placeName ref="#loc.27">Kiel</placeName>
+                        </rs> n’avoient pas irrévocablement décidé la question dans le cas présent, la
                   prétention d’acquérir un pays et d’en laisser les charges à l’ancien possesseur
                   répugneroit encore à tout sentiment de justice et d’équité. Le principe opposé a
                   été admis dans chacune des transactions nombreuses de ce genre,</del>
@@ -1874,17 +1973,22 @@
                            <expan>Comte</expan>
                         </choice>
                      </roleName>
-                     <surname>de Fi<supplied>c</supplied>quelmont</surname></persName>, <lb/> Envoyé de l’<rs ref="#p.16" type="person">Empereur</rs> près <choice>
+                     <surname>de Fi<supplied>c</supplied>quelmont</surname>
+                    </persName>, <lb/> Envoyé de l’<rs ref="#p.16" type="person">Empereur</rs> près <choice>
                      <abbr>S. M.</abbr>
                      <expan>Sa Majesté</expan>
                   </choice> le <rs ref="#p.46" type="person">Roi de Suède</rs>
                </head>
             
             <p>Vous êtes informé qu’à la suite des instances réitérées, mais toujours infructueuses,
-               faites par les<rs xml:id="n.39"> quatre Cours alliées </rs><note type="editorial" target="#n.39">Österreich, Großbritannien, Preußen,
+               faites par les<rs xml:id="n.39"> quatre Cours alliées </rs>
+                    <note type="editorial" target="#n.39">Österreich, Großbritannien, Preußen,
                   Russland.</note> auprès celle de <country>Suède</country> pour l’engager à une
                exécution juste et loyale de l’art. VI du <rs ref="#t.15" type="treaties">traité de
-                     <placeName ref="#loc.27">Kiel</placeName></rs>, la <rs xml:id="n.40"> Conférence de <placeName ref="#loc.8">Londres</placeName></rs><note type="editorial" target="#n.40">Gemeint ist die Botschafterkonferenz in London,
+                     <placeName ref="#loc.27">Kiel</placeName>
+                    </rs>, la <rs xml:id="n.40"> Conférence de <placeName ref="#loc.8">Londres</placeName>
+                    </rs>
+                    <note type="editorial" target="#n.40">Gemeint ist die Botschafterkonferenz in London,
                   welche sich zwischen 1816 und 1819 vorwiegend mit der Abschaffung des
                   Sklavenhandels und der Piraterie im Mittelmeer befasste. Protokolle vgl. BFSP Bd.
                   6 (1818/19), S. 21–53; Clarke, Papers presented to Parliament 1819, Bd. 1, S.
@@ -1900,7 +2004,8 @@
                et la <country>Suède</country>, mais encore elle a déterminé le mode qu’elle jugeoit
                convenable de donner à cette intervention, en arrêtant le projet d’une note
                collective à adresser par les quatre Cours à celle de <country>Suède</country>.</p>
-            <p>Ces résultats des délibérations des <rs ref="#p.101 #p.102 #p.9 #p.38 #p.75" type="multi-person">plénipotentiaires de <placeName ref="#loc.8">Londres</placeName></rs> ont été examinés par les Cabinets réunis à <placeName ref="#loc.1">Aix-la-Chapelle</placeName>, <rs xml:id="n.41"> et Vous trouverez joint-ici, <rs ref="#p.57" type="person">
+            <p>Ces résultats des délibérations des <rs ref="#p.101 #p.102 #p.9 #p.38 #p.75" type="multi-person">plénipotentiaires de <placeName ref="#loc.8">Londres</placeName>
+                    </rs> ont été examinés par les Cabinets réunis à <placeName ref="#loc.1">Aix-la-Chapelle</placeName>, <rs xml:id="n.41"> et Vous trouverez joint-ici, <rs ref="#p.57" type="person">
                      <choice>
                         <abbr>M<hi rendition="#su">r</hi>
                         </abbr>
@@ -1909,13 +2014,18 @@
                         <abbr>C<hi rendition="#su">te</hi>
                         </abbr>
                         <expan>Comte</expan>
-                     </choice></rs>, le rapport présenté et approuvé aux conférences d’ici sur le travail de
-                  celles de Londres. </rs><note type="editorial" target="#n.41">Anlage selbst liegt nicht ein, aber folgende
+                     </choice>
+                        </rs>, le rapport présenté et approuvé aux conférences d’ici sur le travail de
+                  celles de Londres. </rs>
+                    <note type="editorial" target="#n.41">Anlage selbst liegt nicht ein, aber folgende
                   <q>Annotation</q> von <persName ref="#p.6">
-                     <surname>Wacken</surname></persName> auf fol. II/99r: "Au moment où les expéditions relatives à l’exécution
-                  de l’article VI du <rs ref="#t.15" type="treaties">Traité de <placeName ref="#loc.27">Kiel</placeName></rs>, destinées à être transmises par la voie d’<country>Angleterre</country> à
+                     <surname>Wacken</surname>
+                        </persName> auf fol. II/99r: "Au moment où les expéditions relatives à l’exécution
+                  de l’article VI du <rs ref="#t.15" type="treaties">Traité de <placeName ref="#loc.27">Kiel</placeName>
+                        </rs>, destinées à être transmises par la voie d’<country>Angleterre</country> à
                      <placeName ref="#loc.12">Stockholm</placeName>, étoient prêtes à être fermées,
-                  il a été résolu de munir les <rs ref="#p.57 #p.58 #p.59 #p.60" type="multi-person">Envoyés des quatre Cours accrédités près le <rs ref="#p.46">Roi de Suède</rs></rs> non du Rapport fait aux Conférences d’<placeName ref="#loc.1">Aix-la-Chapelle</placeName> 
+                  il a été résolu de munir les <rs ref="#p.57 #p.58 #p.59 #p.60" type="multi-person">Envoyés des quatre Cours accrédités près le <rs ref="#p.46">Roi de Suède</rs>
+                        </rs> non du Rapport fait aux Conférences d’<placeName ref="#loc.1">Aix-la-Chapelle</placeName> 
                   <ref target="Aachen_Prot_20.xml"> (Annexé au Protocole du <date when="1818-10-29">29 <choice>
                            <abbr>8<hi rendition="#su">bre</hi>
                            </abbr>
@@ -1926,14 +2036,16 @@
                         </abbr>
                         <expan>numéro</expan>
                      </choice> 20</ref>, mais du Rapport même des <rs ref="#p.101 #p.102 #p.9 #p.38 #p.75" type="multi-person">Plénipotentiaires des
-                     Conférences de <placeName ref="#loc.8">Londres</placeName></rs>, attendu que ce dernier Rapport discute avec plus de détail les mesures
+                     Conférences de <placeName ref="#loc.8">Londres</placeName>
+                        </rs>, attendu que ce dernier Rapport discute avec plus de détail les mesures
                   propres à terminer les différends qui existent entre le
                      <country>Danemarc</country> et la <country>Suède</country>. En conséquence, ce
                   Rapport (tiré de la correspondance de <placeName ref="#loc.8">Londres</placeName>)
                   a été substitué à la 1<hi rendition="#su">re</hi> annexe mentionnée dans la
                   dépêche au <persName ref="#p.57">
                      <roleName>Comte</roleName>
-                     <surname>de Fiquelmont</surname></persName> du <date when="1818-11-14">14 Novembre</date>."</note>
+                     <surname>de Fiquelmont</surname>
+                        </persName> du <date when="1818-11-14">14 Novembre</date>."</note>
             </p>
             <p>En admettant les principes qui y sont développés, ainsi que la convenance d’un office
                qui porteroit à la Cour de <placeName ref="#loc.12">Stockholm</placeName>
@@ -1952,11 +2064,13 @@
                      <abbr>C<hi rendition="#su">te</hi>
                      </abbr>
                      <expan>Comte</expan>
-                  </choice></rs>, que Vous êtes chargé de remettre au <rs ref="#p.46" type="person">Roi</rs>
+                  </choice>
+                    </rs>, que Vous êtes chargé de remettre au <rs ref="#p.46" type="person">Roi</rs>
                <ref decls="#m.8">la lettre de cabinet ci-jointe,</ref> pareille à celle qui Lui sera
                présentée également par <rs ref="#p.58 #p.59 #p.60" type="multi-person">Vos
                   Collègues</rs>
-                    <rs xml:id="n.43"> dont la copie que je joins aussi à cette dépêche </rs><note type="editorial" target="#n.43">Anlage liegt nicht ein.</note> Vous fera juger
+                    <rs xml:id="n.43"> dont la copie que je joins aussi à cette dépêche </rs>
+                    <note type="editorial" target="#n.43">Anlage liegt nicht ein.</note> Vous fera juger
                dans quel esprit de douceur et de ménagement les <rs ref="#p.16 #p.17 #p.18 #p.19" type="multi-person">Monarques alliés</rs> veulent épuiser, par ce dernier
                effort, tous leurs moyens de persuasion. On s’est décidé, malgré tant d’essais
                infructueux, à renouveler encore une tentative de cette nature parce qu’elle est une
@@ -1979,7 +2093,8 @@
                      <abbr>C<hi rendition="#su">te</hi>
                      </abbr>
                      <expan>Comte</expan>
-                  </choice></rs>, à l’emploi de <ref decls="#m.6">la note officielle ci-annexée en projet que
+                  </choice>
+                    </rs>, à l’emploi de <ref decls="#m.6">la note officielle ci-annexée en projet que
                   Vous êtes chargé pour ce cas de remettre au Ministère Suédois.</ref> Cette note
                doit également être remise par <rs ref="#p.58 #p.59 #p.60" type="multi-person">Vos
                   Collègues</rs>, et je n’ai pas besoin, <rs ref="#p.57" type="person">
@@ -1991,14 +2106,16 @@
                      <abbr>C<hi rendition="#su">te</hi>
                      </abbr>
                      <expan>Comte</expan>
-                  </choice></rs>,<pb n="106r"/> de Vous recommander une entente parfaite et suivie avec eux sur
+                  </choice>
+                    </rs>,<pb n="106r"/> de Vous recommander une entente parfaite et suivie avec eux sur
                la manière la plus convenable de Vous acquitter tant de la remise de la lettre de
                cabinet que de celle de la note officielle si, contre notre attente et notre espoir,
                ce dernier cas devoit arriver. <rs ref="#p.16" type="person">
                   <choice>
                      <abbr>S. M.</abbr>
                      <expan>Sa Majesté</expan>
-                  </choice></rs> désire vivement que la Conduite du <rs ref="#p.46" type="person">Roi</rs>
+                  </choice>
+                    </rs> désire vivement que la Conduite du <rs ref="#p.46" type="person">Roi</rs>
                n’amène point cette fâcheuse nécessité par laquelle le caractère de bonne harmonie,
                de confiance et d’amitié qui règne dans les relations actuelles avec la
                   <country>Suède</country> seroient altérées, et que notre auguste maître verroit le
@@ -2017,7 +2134,8 @@
                      <abbr>C<hi rendition="#su">te</hi>
                      </abbr>
                      <expan>Comte</expan>
-                  </choice></rs>, en faisant pressentir au Ministère Suédois<pb n="106v"/> dans le moment où la
+                  </choice>
+                    </rs>, en faisant pressentir au Ministère Suédois<pb n="106v"/> dans le moment où la
                lettre sera remise toute la force et les conséquences de la démarche officielle,
                préparée pour le cas où cette détermination deviendra nécessaire. C’est ainsi que Vos
                entretiens confidentiels pourront contribuer puissamment au succès des démarches qui
@@ -2025,7 +2143,8 @@
                   <choice>
                      <abbr>S. M.</abbr>
                      <expan>Sa Majesté</expan>
-                  </choice></rs>
+                  </choice>
+                    </rs>
             </p>
             <p>Les dernières nouvelles reçues de <placeName ref="#loc.14">Copenhague</placeName>
                annoncent que le Commissaire Suédois a parlé de la possibilité d’une offre de 3
@@ -2041,7 +2160,8 @@
                   <choice>
                      <abbr>S. M. I.</abbr>
                      <expan>Sa Majesté Impériale</expan>
-                  </choice></rs> fonde sur Votre zèle et vos lumières le succès d’une négociation, à laquelle le
+                  </choice>
+                    </rs> fonde sur Votre zèle et vos lumières le succès d’une négociation, à laquelle le
                besoin universel de la paix donne tant d’intérêt. Vous voudrez bien, <rs ref="#p.57" type="person">
                   <choice>
                      <abbr>M<hi rendition="#su">r</hi>
@@ -2051,7 +2171,8 @@
                      <abbr>C<hi rendition="#su">te</hi>
                      </abbr>
                      <expan>Comte</expan>
-                  </choice></rs>, informer le Ministère des résultats qu’auront successivement vos démarches à
+                  </choice>
+                    </rs>, informer le Ministère des résultats qu’auront successivement vos démarches à
                mesure qu’ils se manifesteront.</p>
          </div>
 
@@ -2076,7 +2197,8 @@
                         <choice>
                   <abbr>V. M.</abbr>
                   <expan>Votre Majesté</expan>
-               </choice></rs> à Lui adresser l’expression affectueuse des vœux que <rs ref="#p.16 #p.17 #p.18 #p.19" type="multi-person">Nous</rs> formons tous
+               </choice>
+                    </rs> à Lui adresser l’expression affectueuse des vœux que <rs ref="#p.16 #p.17 #p.18 #p.19" type="multi-person">Nous</rs> formons tous
                quant à un objet justemt envisagé comme un des élémens constitutifs du repos et de la
                sécurité commune. Cette sécurité, cette union intime, est encore cimentée par les
                liens de fraternité chrétienne qui subsistent entre tous les Souverains et entre les
@@ -2089,7 +2211,8 @@
                         <choice>
                   <abbr>V. M.</abbr>
                   <expan>Votre Majesté</expan>
-               </choice></rs> combien il m’est douloureux de voir encore se prolonger entre la
+               </choice>
+                    </rs> combien il m’est douloureux de voir encore se prolonger entre la
                   <country>Suède</country> et le <country>Danemarc</country> un différend dont
                l’applanissement, préparé par la teneur des <rs ref="#t.15" type="treaties">traités</rs>, sembloit devoir être le fruit des négociations suivies jusqu’à ce
                jour. Quoiqu’une aussi légitime espérance<pb n="107v"/> ne se soit pas encore
@@ -2107,13 +2230,15 @@
                         <choice>
                   <abbr>V. M.</abbr>
                   <expan>Votre Majesté</expan>
-               </choice></rs> nous inspirent qui M’autorise à présumer favorablement du succès d’une
+               </choice>
+                    </rs> nous inspirent qui M’autorise à présumer favorablement du succès d’une
                sollicitation amicale, à laquelle je me félicite de prendre part. Mes instances se
                joignent à celles de Mes alliés pour inviter <rs ref="#p.46" type="person">
                         <choice>
                   <abbr>V. M.</abbr>
                   <expan>Votre Majesté</expan>
-               </choice></rs> à terminer aussi promptement que possible, à l’exclusion de toute mesure
+               </choice>
+                    </rs> à terminer aussi promptement que possible, à l’exclusion de toute mesure
                dilatoire, le funeste différend que l’Europe déplore, et qu’une négociation
                bienveillante ajustera sans effort.</p>
             <p>Sûr de voir apprécier de tels sentimens<pb n="108r"/> et justifier l’espoir que nous
@@ -2125,7 +2250,8 @@
                         <choice>
                   <abbr>V. M.</abbr>
                   <expan>Votre Majesté</expan>
-               </choice></rs> et c’est maintenant à Elle à ne point décevoir notre attente.</p>
+               </choice>
+                    </rs> et c’est maintenant à Elle à ne point décevoir notre attente.</p>
             <p>Je la prie de recevoir l’assurance des sentimens d’attachement sincère et de
                considération très distinguée avec lesquels je suis &amp; &amp;.</p>
          </div>

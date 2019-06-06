@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/kongress/editions" xml:id="Verona_I_19.xml" prev="https://id.acdh.oeaw.ac.at/kongress/editions/Verona_I_18.xml" next="https://id.acdh.oeaw.ac.at/kongress/editions/Verona_I_20.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -55,7 +55,8 @@
                Zeitgeschichtsforschung</publisher>
             <pubPlace>Wien</pubPlace>
 <date when="2018-09-23" change="#initial">2018-09-23</date>
-            <idno>V_I_19</idno><idno type="ISBN" n="9783950478303">978-3-9504783-0-3</idno>
+            <idno>V_I_19</idno>
+                <idno type="ISBN" n="9783950478303">978-3-9504783-0-3</idno>
                  <availability>           <licence target="https://creativecommons.org/licenses/by-sa/4.0/legalcode.de">https://creativecommons.org/licenses/by-sa/4.0/legalcode.de</licence>         </availability> </publicationStmt>
             <notesStmt>
     <note>Vergleiche auch die Projektbeschreibung in der <ref type="URI" target="../meta/Einleitung.xml">Einleitung</ref> sowie die Dokumentation der Applikation unter <ref type="URI" target="../meta/about.xml">„Über diese Webseite“</ref>.</note>
@@ -75,7 +76,8 @@
                <msContents>
                   <msItem>
                      <title>Note <persName ref="#p.8">
-                                    <surname>Metternichs</surname></persName> an den Geschäftsträger in <placeName ref="#loc.24">Madrid</placeName>
+                                    <surname>Metternichs</surname>
+                                </persName> an den Geschäftsträger in <placeName ref="#loc.24">Madrid</placeName>
                      </title>
                   </msItem>
                </msContents>
@@ -145,7 +147,8 @@
       <profileDesc>
          <abstract>
             <p>Die österreichische Regierung übermittelt ihrem <rs ref="#p.177" type="person">Geschäftsträger in
-                     <placeName ref="#loc.24">Madrid</placeName></rs> ihre Sichtweise der Revolution
+                     <placeName ref="#loc.24">Madrid</placeName>
+                    </rs> ihre Sichtweise der Revolution
                in <country>Spanien</country> und erklärt, dem Ende der politischen Isolation des
                Landes nur dann zuzustimmen, wenn der <rs ref="#p.30" type="person">König</rs> wieder volle
                Entscheidungsfreiheit erhalte.</p>
@@ -170,11 +173,13 @@
             <metamark>
                     <add place="top" hand="#M">Projet de dépêche ostensible au <persName ref="#p.177">
                             <roleName>Comte</roleName>
-                     <surname>de Brunetti</surname></persName>
+                     <surname>de Brunetti</surname>
+                        </persName>
                     </add>
             </metamark>
             <p>La situation dans laquelle se trouve la Monarchie Espagnole <rs xml:id="n.1">à la
-                  suite des évènemens qui s’y sont passés depuis deux ans</rs><note type="editorial" target="#n.1">Zur Revolution in <country>Spanien</country>, die mit einem
+                  suite des évènemens qui s’y sont passés depuis deux ans</rs>
+                    <note type="editorial" target="#n.1">Zur Revolution in <country>Spanien</country>, die mit einem
                   Militäraufstand am <date when="1820-01-01">1. Jänner 1820</date> ihren Anfang
                   nahm, vgl. Späth, Revolution in Europa, S. 117–128. </note> était un objet de trop
                haute importance pour ne pas avoir sérieusement occupé les Cabinets réunis à
@@ -202,14 +207,18 @@
                Cette révolution, avant même d’être parvenue à sa maturité, a provoqué déjà de grands
                désastres dans d’autres pays ; c’est elle qui, par la contagion de ses principes et
                de ses exemples et par les intrigues de ses principaux artisans, a créé les
-               révolutions <rs xml:id="n.2">de <country>Naples</country></rs><note type="editorial" target="#n.2">Am <date when="1820-07-02">2. Juli 1820</date> meuterte die
+               révolutions <rs xml:id="n.2">de <country>Naples</country>
+                    </rs>
+                    <note type="editorial" target="#n.2">Am <date when="1820-07-02">2. Juli 1820</date> meuterte die
                   Militärgarnison in Nola, 35 km von <placeName ref="#loc.11">Neapel</placeName>
                   entfernt. Das Datum gilt als Beginn der Revolution im <country>Königreich beider
                      Sizilien</country>. Vgl. Stites, The four Horsemen; Davis, Naples and Napoleon;
                   Gin, Sanfedisti, Carbonari, Magistrati del Re; Späth, Revolution in Europa, S.
                   129–149. Zur Reaktion der Großmächte vgl. zuletzt Jarrett, The Congress of Vienna,
                   S. 248–285 sowie die Editionen der Dokumente der Kongresse von Troppau und
-                  Laibach. </note> et <rs xml:id="n.3">du <country>Piémont</country></rs><note type="editorial" target="#n.3">Im März 1821 war im <country>Königreich
+                  Laibach. </note> et <rs xml:id="n.3">du <country>Piémont</country>
+                    </rs>
+                    <note type="editorial" target="#n.3">Im März 1821 war im <country>Königreich
                      Sardinien-Piemont</country> eine Revolution ausgebrochen, die rasch durch
                   österreichische Truppen niedergeschlagen wurde. Vgl. Späth, Revolution in Europa,
                   S. 150–165; Broers, Napoleonic Imperialism; Jarrett, The Congress of Vienna, S.
@@ -218,10 +227,12 @@
                Puissances qui ont préservé l’Europe de ce nouvel incendie. Partout les funestes
                moyens employés en <country>Espagne</country> pour préparer et exécuter la révolution
                ont servi de modèle à ceux qui se flattaient de lui ouvrir de nouvelles conquêtes ;
-               partout la <rs xml:id="n.4">Constitution Espagnole</rs><note type="editorial" target="#n.4">Zur spanischen Verfassung von Cádiz, veröffentlicht am <date when="1812-03-19">19. März 1812</date> und am <date when="1820-03-08">8. März
+               partout la <rs xml:id="n.4">Constitution Espagnole</rs>
+                    <note type="editorial" target="#n.4">Zur spanischen Verfassung von Cádiz, veröffentlicht am <date when="1812-03-19">19. März 1812</date> und am <date when="1820-03-08">8. März
                      1820</date> durch <persName ref="#p.30">
                             <roleName>König</roleName>
-                     <surname>Ferdinand VII.</surname></persName> erneut in Kraft gesetzt, vgl.
+                     <surname>Ferdinand VII.</surname>
+                        </persName> erneut in Kraft gesetzt, vgl.
                   Timmermann, Die „Gemäßigte Monarchie“; BFSP Bd. 6 (1819/20), S. 237–279; Brand,
                   Schlegelmilch, Kirsch (Hgg.), Quellen.</note> est devenue le point de réunion et
                le cri de guerre d’une faction conjurée contre la sûreté des Trônes et contre le
@@ -229,7 +240,8 @@
             <p>Le mouvement dangereux que la révolution d’Espagne avait imprimé à tout le midi de
                l’Europe a mis l’Autriche dans la pénible nécessité de recourir à des mesures peu
                d’accord avec la marche pacifique qu’elle aurait voulu invariablement poursuivre.
-               Elle a vu <rs xml:id="n.5">une partie de ses Etats</rs><note type="editorial" target="#n.5">1814 wurden die Lombardei und Venetien ein Teil des
+               Elle a vu <rs xml:id="n.5">une partie de ses Etats</rs>
+                    <note type="editorial" target="#n.5">1814 wurden die Lombardei und Venetien ein Teil des
                      <country>Kaisertums Österreich</country> und bildeten das Königreich
                   Lombardo-Venetien. Vgl. Gottsmann, Malfèr, Die Vertretungskörperschaften; Helfert,
                   Kaiser Franz von Österreich; Rath, The Provisional Austrian Regime; Pesendorfer,

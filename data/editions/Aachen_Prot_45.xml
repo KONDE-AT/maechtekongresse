@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/kongress/editions" xml:id="Aachen_Prot_45.xml" prev="https://id.acdh.oeaw.ac.at/kongress/editions/Aachen_Prot_44.xml" next="https://id.acdh.oeaw.ac.at/kongress/editions/Aachen_Prot_46.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -54,7 +54,8 @@
                Zeitgeschichtsforschung</publisher>
             <pubPlace>Wien</pubPlace>
 <date when="2018-09-23" change="#initial">2018-09-23</date>
-            <idno>A_45</idno><idno type="ISBN" n="9783950478303">978-3-9504783-0-3</idno>
+            <idno>A_45</idno>
+                <idno type="ISBN" n="9783950478303">978-3-9504783-0-3</idno>
                  <availability>           <licence target="https://creativecommons.org/licenses/by-sa/4.0/legalcode.de">https://creativecommons.org/licenses/by-sa/4.0/legalcode.de</licence>         </availability> </publicationStmt>
             <notesStmt>
     <note>Vergleiche auch die Projektbeschreibung in der <ref type="URI" target="../meta/Einleitung.xml">Einleitung</ref> sowie die Dokumentation der Applikation unter <ref type="URI" target="../meta/about.xml">„Über diese Webseite“</ref>.</note>
@@ -172,7 +173,8 @@
                   <expan>Monsieur</expan>
                </choice> Le Marechal <persName ref="#p.10">
                         <roleName>Duc</roleName>
-                  <surname>de Wellington</surname></persName>, étant de Retour de <placeName ref="#loc.46">Bruxelles</placeName>, a annoncé à la Conférence des <rs ref="#p.8 #p.9 #p.11 #p.12 #p.13 #p.14" type="multi-person">Ministres des Cours d’Autriche, de la
+                  <surname>de Wellington</surname>
+                    </persName>, étant de Retour de <placeName ref="#loc.46">Bruxelles</placeName>, a annoncé à la Conférence des <rs ref="#p.8 #p.9 #p.11 #p.12 #p.13 #p.14" type="multi-person">Ministres des Cours d’Autriche, de la
                   Grande-Bretagne, de Prusse et de Russie</rs> qu’il avoit fait à Sa Majesté le <rs ref="#p.74" type="person">Roi des Pays-Bas</rs>
                
                         <rs xml:id="n.1">la Communication du Protocole
@@ -192,7 +194,8 @@
                   <expan>Monsieur</expan>
                </choice> Le <persName ref="#p.134">
                         <roleName>Baron</roleName>
-                  <surname>de Nagll</surname></persName>, Son Ministre des affaires Etrangers, dont <choice>
+                  <surname>de Nagll</surname>
+                    </persName>, Son Ministre des affaires Etrangers, dont <choice>
                   <abbr>Mon<hi rendition="#su">r</hi>
                         </abbr>
                   <expan>Monsieur</expan>
@@ -214,7 +217,8 @@
                     </date>. </p>
             <p>
                     <rs xml:id="n.2">La Copie conforme de ladite lettre est annexée à ce
-                  Protocole.</rs><note type="editorial" target="#n.2">Anlage liegt nicht
+                  Protocole.</rs>
+                    <note type="editorial" target="#n.2">Anlage liegt nicht
                ein.</note>
                 </p>
             <p>
@@ -224,7 +228,8 @@
                   <expan>Monsieur</expan>
                </choice> Le Marechal <persName ref="#p.10">
                         <roleName>Duc</roleName>
-                  <surname>de Wellington</surname></persName> dit qu’ayant eu l’honneur de conférer
+                  <surname>de Wellington</surname>
+                    </persName> dit qu’ayant eu l’honneur de conférer
                deux fois pendant son séjour à <placeName ref="#loc.46">Bruxelles</placeName> avec Sa
                   Majesté<pb n="252r"/>
                Le <rs ref="#p.74" type="person">Roi des Pays-Bas</rs> sur les établissemens Militaires de son

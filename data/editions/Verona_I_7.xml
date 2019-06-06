@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/kongress/editions" xml:id="Verona_I_7.xml" prev="https://id.acdh.oeaw.ac.at/kongress/editions/Verona_I_6.xml" next="https://id.acdh.oeaw.ac.at/kongress/editions/Verona_I_8.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -55,7 +55,8 @@
                Zeitgeschichtsforschung</publisher>
             <pubPlace>Wien</pubPlace>
 <date when="2018-09-23" change="#initial">2018-09-23</date>
-            <idno>V_I_07</idno><idno type="ISBN" n="9783950478303">978-3-9504783-0-3</idno>
+            <idno>V_I_07</idno>
+                <idno type="ISBN" n="9783950478303">978-3-9504783-0-3</idno>
                  <availability>           <licence target="https://creativecommons.org/licenses/by-sa/4.0/legalcode.de">https://creativecommons.org/licenses/by-sa/4.0/legalcode.de</licence>         </availability> </publicationStmt>
             <notesStmt>
     <note>Vergleiche auch die Projektbeschreibung in der <ref type="URI" target="../meta/Einleitung.xml">Einleitung</ref> sowie die Dokumentation der Applikation unter <ref type="URI" target="../meta/about.xml">„Über diese Webseite“</ref>.</note>
@@ -80,7 +81,8 @@
                <physDesc>
                   <p>Lithographie</p>
                   <p>Das Schriftstück liegt als Konzept von <persName ref="#p.5">
-                                <surname>Gentz</surname></persName> auf fol. 173r–175r und zweifach als
+                                <surname>Gentz</surname>
+                            </persName> auf fol. 173r–175r und zweifach als
                      Lithographie auf fol. 172r und 176, sowie 177–178 ein. Die Edition folgt der
                      Lithographie. Nicht deutbare Vermerke mit Bleistift in den rechten oberen Ecken von fol. 172 r
                      und 177r.</p>
@@ -124,7 +126,8 @@
       <profileDesc>
          <abstract>
             <p>Der österreichische Staatskanzler <persName ref="#p.8">
-                        <surname>Metternich</surname></persName> unterbreitet auf Basis der bisher
+                        <surname>Metternich</surname>
+                    </persName> unterbreitet auf Basis der bisher
                vorgelegten Denkschriften Überlegungen betreffend das weitere gemeinsame Vorgehen der
                alliierten Mächte gegen <country>Spanien</country>.</p>
          </abstract>
@@ -144,7 +147,8 @@
                 
             <p>
                     <rs xml:id="n.1">La première question qui a dû occuper le Congrès est celle de
-                     l’<country>Espagne</country></rs>.<note type="editorial" target="#n.1">Zur
+                     l’<country>Espagne</country>
+                    </rs>.<note type="editorial" target="#n.1">Zur
                   Revolution in <country>Spanien</country>, die mit einem Militäraufstand am <date when="1820-01-01">1. Jänner 1820</date> ihren Anfang nahm, vgl. Späth,
                   Revolution in Europa, S. 117–128. In <country>Portugal</country> war am <date when="1820-08-24">24. August 1820</date> eine Revolution ausgebrochen; vgl.
                   Birmingham, A Concise History, S. 111–113.</note>
@@ -178,7 +182,8 @@
             </p>
             <p>Portant toutefois sur des applications éventuelles, leur adhésion doit être précisée
                par une définition exacte des<pb n="172v"/>
-                    <rs xml:id="n.2">Casus foederis</rs><note type="editorial" target="#n.2">Lat.:
+                    <rs xml:id="n.2">Casus foederis</rs>
+                    <note type="editorial" target="#n.2">Lat.:
                   Bündnisfall.</note> ainsi que par l’énoncé des obligations réciproques qui en
                dériveraient. Ces différens points seront réservés aux transactions diplomatiques que
                les Cabinets jugeront à propos d’entamer à la suite des explications présentes.</p>

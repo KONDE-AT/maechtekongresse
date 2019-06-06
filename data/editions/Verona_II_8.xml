@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/kongress/editions" xml:id="Verona_II_8.xml" prev="https://id.acdh.oeaw.ac.at/kongress/editions/Verona_II_7.xml" next="https://id.acdh.oeaw.ac.at/kongress/editions/Verona_III_1.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -55,7 +55,8 @@
                Zeitgeschichtsforschung</publisher>
             <pubPlace>Wien</pubPlace>
 <date when="2018-09-23" change="#initial">2018-09-23</date>
-            <idno>V_II_8</idno><idno type="ISBN" n="9783950478303">978-3-9504783-0-3</idno>
+            <idno>V_II_8</idno>
+                <idno type="ISBN" n="9783950478303">978-3-9504783-0-3</idno>
                  <availability>           <licence target="https://creativecommons.org/licenses/by-sa/4.0/legalcode.de">https://creativecommons.org/licenses/by-sa/4.0/legalcode.de</licence>         </availability> </publicationStmt>
             <notesStmt>
     <note>Vergleiche auch die Projektbeschreibung in der <ref type="URI" target="../meta/Einleitung.xml">Einleitung</ref> sowie die Dokumentation der Applikation unter <ref type="URI" target="../meta/about.xml">„Über diese Webseite“</ref>.</note>
@@ -80,7 +81,8 @@
                <physDesc>
                   <p>Lithographie</p>
                   <p>Procès-Verbal liegt zweifach ein: handschriftliche Variante von <persName ref="#p.5">
-                                <surname>Gentz</surname></persName> fol. II/87 und 93,
+                                <surname>Gentz</surname>
+                            </persName> fol. II/87 und 93,
                      lithographiert fol. II/89; die Edition folgt der lithographierten Variante.
                      Zählung mit rotem Buntstift oben auf fol. 87r: <q>7</q>.</p>
 
@@ -218,7 +220,8 @@
                 </opener>
             <p>Monsieur le <persName ref="#p.182">
                         <roleName>Comte</roleName>
-                  <surname>de La Tour</surname></persName>, Plénipotentiaire de Sa Majesté le <rs ref="#p.172" type="person">Roi de Sardaigne</rs>, a présenté la <ref decls="#m.2">Note
+                  <surname>de La Tour</surname>
+                    </persName>, Plénipotentiaire de Sa Majesté le <rs ref="#p.172" type="person">Roi de Sardaigne</rs>, a présenté la <ref decls="#m.2">Note
                   ci-jointe</ref> pour informer <choice>
                   <abbr>Mrs.</abbr>
                   <expan>Messieurs</expan>
@@ -242,7 +245,8 @@
                   <expan>Monsieur</expan>
                </choice> le <persName ref="#p.182">
                         <roleName>Comte</roleName>
-                  <surname>de La Tour</surname></persName>, et que les hautes Cours alliées doivent
+                  <surname>de La Tour</surname>
+                    </persName>, et que les hautes Cours alliées doivent
                non seulement se prêter à fournir à <rs ref="#p.172" type="person">Sa Majesté</rs> près de la
                   <country>Confédération suisse</country> tous les bons offices qu’Elle réclame par
                rapport aux fugitifs piémontais, mais prendre acte de cette proposition pour établir
@@ -251,7 +255,8 @@
                bannis pour délits politiques feroient dans un pays limitrophe, serait en droit de
                faire la même démarche et de demander la même assistance aux Puissances alliées.</p>
             <p>Et afin d’examiner et d’arrêter les moyens d’exécution les plus propres à remplir le
-               but que les Cours alliées ont en vue on est convenu d’adresser aux <rs ref="#p.2 #p.4 #p.7" type="multi-person">Ministres de ces Cours accrédités près Sa Majesté le <rs ref="#p.15" type="multi-person">Roi de France</rs></rs> des Instructions qui les mettront en état
+               but que les Cours alliées ont en vue on est convenu d’adresser aux <rs ref="#p.2 #p.4 #p.7" type="multi-person">Ministres de ces Cours accrédités près Sa Majesté le <rs ref="#p.15" type="multi-person">Roi de France</rs>
+                    </rs> des Instructions qui les mettront en état
                de se concerter avec le Ministère Français sur les moyens les plus prompts et les
                plus efficaces pour répondre à la demande de Sa Majesté le <rs ref="#p.172" type="person">Roi de
                   Sardaigne</rs>, ainsi que pour appliquer la marche que l’on adoptera pour cet
@@ -260,11 +265,13 @@
             <p>Signé/</p>
             <p>
                     <persName ref="#p.8">
-                        <surname>Metternich</surname></persName>
+                        <surname>Metternich</surname>
+                    </persName>
                 </p>
             <p>
                     <persName ref="#p.40">
-                        <surname>Lebzeltern</surname></persName>
+                        <surname>Lebzeltern</surname>
+                    </persName>
                 </p>
             <p>Le <persName ref="#p.102">
                         <roleName>
@@ -274,32 +281,39 @@
                         <expan>Marquis</expan>
                      </choice>
                         </roleName>
-                  <surname>de Caraman</surname></persName>
+                  <surname>de Caraman</surname>
+                    </persName>
                 </p>
             <p>
                     <persName ref="#p.135">
                         <roleName>Comte</roleName>
-                  <surname>de la Ferronnay</surname></persName>
+                  <surname>de la Ferronnay</surname>
+                    </persName>
                 </p>
             <p>
                     <persName ref="#p.12">
-                        <surname>Bernstorff</surname></persName>
+                        <surname>Bernstorff</surname>
+                    </persName>
                 </p>
             <p>
                     <persName ref="#p.175">
-                        <surname>Hatzfeldt</surname></persName>
+                        <surname>Hatzfeldt</surname>
+                    </persName>
                 </p>
             <p>
                     <persName ref="#p.182">
-                        <surname>De La Tour</surname></persName>
+                        <surname>De La Tour</surname>
+                    </persName>
                 </p>
             <p>
                     <persName ref="#p.13">
-                        <surname>Nesselrode</surname></persName>
+                        <surname>Nesselrode</surname>
+                    </persName>
                 </p>
             <p>
                     <persName ref="#p.35">
-                        <surname>Tatistscheff</surname></persName>
+                        <surname>Tatistscheff</surname>
+                    </persName>
                 </p>
          </div>
 
@@ -308,7 +322,8 @@
             
                     <head>Note de Monsieur le <persName ref="#p.182">
                             <roleName>Comte</roleName>
-                     <surname>de La Tour</surname></persName>, Secrétaire d’Etat de <choice>
+                     <surname>de La Tour</surname>
+                    </persName>, Secrétaire d’Etat de <choice>
                      <abbr>S. M.</abbr>
                      <expan>Sa Majesté</expan>
                   </choice> le <rs ref="#p.172" type="person">Roi de Sardaigne</rs>, sur les démarches à faire
@@ -317,7 +332,8 @@
                 
             <p>Les démarches que le <rs ref="#p.172" type="person">Roi de Sardaigne</rs> ordonna à Son Ministère
                des Affaires étrangères et à Sa Légation en <country>Suisse</country> pour que les
-               moteurs et les complices de la <rs xml:id="n.3">révolte de l’an dernier</rs><note type="editorial" target="#n.3">Im März 1821 war im <country>Königreich
+               moteurs et les complices de la <rs xml:id="n.3">révolte de l’an dernier</rs>
+                    <note type="editorial" target="#n.3">Im März 1821 war im <country>Königreich
                      Sardinien-Piemont</country> eine Revolution ausgebrochen, die rasch durch
                   österreichische Truppen niedergeschlagen wurde. Vgl. Späth, Revolution in Europa,
                   S. 150–165; Broers, Napoleonic Imperialism; Jarrett, The Congress of Vienna, S.
@@ -343,7 +359,8 @@
                nécessité de punir.</p>
             <p>Des tentatives réitérées dont on a eu connoissance de la part de ces réfugiés, toutes
                vaines qu’elles ont été, n’en ont pas moins justifié la prévoyance du <rs ref="#p.172" type="person">Roi</rs> et celle des <rs ref="#p.16 #p.17 #p.18" type="multi-person">Monarques qui
-                  avoient assisté au Congrès de <placeName ref="#loc.65">Laibach</placeName></rs>,
+                  avoient assisté au Congrès de <placeName ref="#loc.65">Laibach</placeName>
+                    </rs>,
                et on doit s’attendre à les voir sans cesse se renouveler tant que la
                   <country>Suisse</country>, région centrale et attigue au
                   <country>Piémont</country>, continuera d’offrir un lieu de protection, de

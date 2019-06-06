@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/kongress/editions" xml:id="Troppau_Prot_5.xml" prev="https://id.acdh.oeaw.ac.at/kongress/editions/Troppau_Prot_4.xml" next="https://id.acdh.oeaw.ac.at/kongress/editions/Troppau_Prot_6.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -54,7 +54,8 @@
                Zeitgeschichtsforschung</publisher>
             <pubPlace>Wien</pubPlace>
 <date when="2018-09-23" change="#initial">2018-09-23</date>
-            <idno>T_05</idno><idno type="ISBN" n="9783950478303">978-3-9504783-0-3</idno>
+            <idno>T_05</idno>
+                <idno type="ISBN" n="9783950478303">978-3-9504783-0-3</idno>
                  <availability>           <licence target="https://creativecommons.org/licenses/by-sa/4.0/legalcode.de">https://creativecommons.org/licenses/by-sa/4.0/legalcode.de</licence>         </availability> </publicationStmt>
             <notesStmt>
     <note>Vergleiche auch die Projektbeschreibung in der <ref type="URI" target="../meta/Einleitung.xml">Einleitung</ref> sowie die Dokumentation der Applikation unter <ref type="URI" target="../meta/about.xml">„Über diese Webseite“</ref>.</note>
@@ -78,7 +79,8 @@
                </msContents>
                <physDesc>
                   <p>Journal von <persName ref="#p.5">
-                                <surname>Gentz</surname></persName>
+                                <surname>Gentz</surname>
+                            </persName>
                         </p>
                   <p>Liste der anwesenden Personen mit Bleistift durchgestrichen.</p>
                   
@@ -168,7 +170,8 @@
                </msContents>
                <physDesc>
                   <p>Ausfertigung von <persName ref="#p.5">
-                                <surname>Gentz</surname></persName>
+                                <surname>Gentz</surname>
+                            </persName>
                         </p>
                   <p>Das Dokument trägt Korrekturen von anderer Hand.</p>
                </physDesc>
@@ -250,14 +253,16 @@
       <profileDesc>
          <abstract>
             <p>Der französische Vertreter <persName ref="#p.102">
-                        <surname>Caraman</surname></persName> verliest zwei Schreiben betreffend eine
+                        <surname>Caraman</surname>
+                    </persName> verliest zwei Schreiben betreffend eine
                persönliche Intervention <persName ref="#p.15">
                         <roleName>König</roleName>
                   <forename>Ludwigs XVIII.</forename>
                     </persName> und den französischen Standpunkt
                hinsichtlich des separaten Vorgehens Österreichs, Preußens und Russlands, welches
                ausdrücklich bedauert wird. <persName ref="#p.8">
-                        <surname>Metternich</surname></persName> informiert die <rs ref="#p.102 #p.135 #p.137" type="multi-person">Vertreter Frankreichs und Großbritanniens</rs> darüber,
+                        <surname>Metternich</surname>
+                    </persName> informiert die <rs ref="#p.102 #p.135 #p.137" type="multi-person">Vertreter Frankreichs und Großbritanniens</rs> darüber,
                dass die Regierungen Österreichs, Preußens und Russlands den <rs ref="#p.155" type="person">Papst</rs> um Vermittlung bei den projektierten Maßnahmen betreffend das
                   <country>Königreich beider Sizilien</country> ersuchen werden.</p>
          </abstract>
@@ -335,7 +340,8 @@
                   <expan>Monsieur</expan>
                </choice> le <persName ref="#p.102">
                         <roleName>Marquis</roleName>
-                  <surname>de Caraman</surname></persName> a fait à la conférence les deux communications ci-jointes sub <choice>
+                  <surname>de Caraman</surname>
+                    </persName> a fait à la conférence les deux communications ci-jointes sub <choice>
                      <abbr>Litt</abbr>
                      <expan>Litteris</expan>
                   </choice> <ref decls="#m.2">A</ref> et <ref decls="#m.3">B</ref> :</p>
@@ -372,7 +378,8 @@
                   <expan>Monsieur</expan>
                </choice> le <persName ref="#p.8">
                         <roleName>Prince</roleName>
-                  <surname>de<pb n="80v"/> Metternich</surname></persName> a dit que, relativement à
+                  <surname>de<pb n="80v"/> Metternich</surname>
+                    </persName> a dit que, relativement à
                la première, Il se trouvoit dans le cas d’y ajouter quelque éclaircissemens pour ce
                qui le regardoit :</p>
             <p>Que <choice>
@@ -399,19 +406,22 @@
                   <expan>Monsieur</expan>
                </choice> le <persName ref="#p.135">
                         <roleName>Comte</roleName>
-                  <surname>de La Ferronnays</surname></persName> a fait observer qu’il regrettoit
+                  <surname>de La Ferronnays</surname>
+                    </persName> a fait observer qu’il regrettoit
                d’autant plus vivement que <choice>
                   <abbr>Mr.</abbr>
                   <expan>Monsieur</expan>
                </choice> le <persName ref="#p.8">
                         <roleName>Prince</roleName>
-                  <surname>de Metternich</surname></persName> n’ait pas cru pouvoir confier à <choice>
+                  <surname>de Metternich</surname>
+                    </persName> n’ait pas cru pouvoir confier à <choice>
                   <abbr>Mr.</abbr>
                   <expan>Monsieur</expan>
                </choice> le<pb n="81r"/>
                <persName ref="#p.102">
                         <roleName>Marquis</roleName>
-                  <surname>de Caraman</surname></persName> le projet dont <choice>
+                  <surname>de Caraman</surname>
+                    </persName> le projet dont <choice>
                   <abbr>Mrs.</abbr>
                   <expan>Messieurs</expan>
                </choice> les <rs ref="#p.8 #p.40 #p.11 #p.12 #p.136 #p.13 #p.14 #p.121" type="multi-person">Ministres
@@ -433,7 +443,8 @@
                   <expan>Monsieur</expan>
                </choice> le <persName ref="#p.8">
                         <roleName>Prince</roleName>
-                  <surname>de Metternich</surname></persName> a saisi la présente occasion pour
+                  <surname>de Metternich</surname>
+                    </persName> a saisi la présente occasion pour
                prévenir <choice>
                   <abbr>Mrs.</abbr>
                   <expan>Messieurs</expan>
@@ -467,7 +478,8 @@
                 </p>
             <signed rendition="#r">
                     <persName ref="#p.5">
-                        <surname>Gentz</surname></persName>
+                        <surname>Gentz</surname>
+                    </persName>
                 </signed>
          </div>
 
@@ -493,7 +505,8 @@
                 </opener>
             <p>Les Cabinets d’Autriche, de Prusse et de Russie venaient d’exposer leurs premières
                opinions sur la grande question qui les occupe lorsque l’<rs ref="#p.102" type="person">Ambassadeur
-                  de France près la Cour de <placeName ref="#loc.7">Vienne</placeName></rs>, mû par
+                  de France près la Cour de <placeName ref="#loc.7">Vienne</placeName>
+                    </rs>, mû par
                le désir sincère de leur offrir – s’il était possible – un nouveau moyen de succès,
                crut devoir communiquer à <choice>
                   <abbr>M<hi rendition="#su">r</hi>
@@ -501,7 +514,8 @@
                   <expan>Monsieur</expan>
                </choice> le <persName ref="#p.8">
                         <roleName>Prince</roleName>
-                  <surname>de Metternich</surname></persName> et aux Ministres des Cabinets
+                  <surname>de Metternich</surname>
+                    </persName> et aux Ministres des Cabinets
                assemblés l’idée de profiter des droits que donne au <rs ref="#p.15" type="person">Roi</rs>, son
                maître, le titre de chef de la maison de Bourbon et des liens de parenté qui unissent
                Sa Majesté au <rs ref="#p.138" type="person">Roi des Deux-Siciles</rs> pour appuyer et faire
@@ -514,7 +528,8 @@
                   <expan>Monsieur</expan>
                </choice> le <persName ref="#p.8">
                         <roleName>Prince</roleName>
-                  <surname>de Metternich</surname></persName> ayant paru approuver et le motif et le
+                  <surname>de Metternich</surname>
+                    </persName> ayant paru approuver et le motif et le
                but de la mesure qu’il proposait, et ayant même voulu recevoir le développement de sa
                pensée, il se décida à lui en remettre l’exposé par écrit, et s’empressa de rendre
                compte à son Gouvernement de la démarche qu’il avait faite et des raisons qui le
@@ -608,7 +623,8 @@
             <p>L’<country>Autriche</country> est en mesure d’intervenir à main armée dans les
                affaires de Naples ; elle en a manifesté<pb n="87v"/> l’intention par les préparatifs
                qu’elle a faits dès le mois de Juillet ; les Puissances qui composent l’alliance,
-               voyant que la tranquillité de <rs xml:id="n.4">ses possessions en Italie</rs><note type="editorial" target="#n.4">1814 wurden die Lombardei und Venetien ein Teil des
+               voyant que la tranquillité de <rs xml:id="n.4">ses possessions en Italie</rs>
+                    <note type="editorial" target="#n.4">1814 wurden die Lombardei und Venetien ein Teil des
                   Kaisertums Österreich und bildeten das Königreich Lombardo-Venetien. Vgl.
                   Gottsmann, Malfèr, Die Vertretungskörperschaften; Helfert, Kaiser Franz von
                   Österreich; Rath, The Provisional Austrian Regime; Pesendorfer, Eiserne
@@ -634,7 +650,8 @@
                n’ait pu entraîner l’unanimité dans la manière de les manifester et dans les actes
                qui doivent en dériver ; mais l’impossibilité de songer désormais à se servir de ce
                puissant moyen qui constitueroit le véritable <hi rendition="#u">appui moral</hi> à
-               donner à la Puissance agissante est trop <rs xml:id="n.21">complètement démontrée</rs><note target="#n.21" type="editorial">
+               donner à la Puissance agissante est trop <rs xml:id="n.21">complètement démontrée</rs>
+                    <note target="#n.21" type="editorial">
                         <q>complètement démontrée</q> mit Bleistift unterstrichen und auf Korrekturrand durch + hervorgehoben.</note>pour qu’il puisse paroître de quelque utilité de s’y
                arrêter encore.</p>
             <p>Le défaut de concours d’une seule des Puissances rompant<pb n="89r"/> l’unanimité
@@ -653,7 +670,8 @@
                l’emploi de cette force ne pourroit pas être évité, de tâcher de modérer autant que
                possible les maux qu’entraîneroit le rétablissement de l’ordre social à
                   <country>Naples</country> s’il devoit s’opérer par ce moyen, alors le Gouvernement
-               Français ne <rs xml:id="n.22">croiroit pas devoir pousser le scrupule</rs><note type="editorial" target="#n.22">
+               Français ne <rs xml:id="n.22">croiroit pas devoir pousser le scrupule</rs>
+                    <note type="editorial" target="#n.22">
                         <q>croiroit pas devoir pousser le scrupule</q> mit Bleistift unterstrichen und auf Korrekturrand durch + hervorgehoben.</note>jusqu’à
                refuser de coopérer<pb n="90r"/> à cette œuvre salutaire, quand même
                   l’<country>Angleterre</country> ne pourroit pas y prendre part, et il croiroit, au
@@ -733,7 +751,9 @@
                     </head>
                 
             <p>Les <rs xml:id="n.5">évènemens du <date when="1820-03-08">8 Mars</date> en
-                     <country>Espagne</country></rs><note type="editorial" target="#n.5">Zur
+                     <country>Espagne</country>
+                    </rs>
+                    <note type="editorial" target="#n.5">Zur
                   spanischen Verfassung von Cádiz, veröffentlicht am <date when="1812-03-19">19.
                      März 1812</date> und am <date when="1820-03-08">8. März 1820</date> durch
                      <persName ref="#p.150">
@@ -743,11 +763,13 @@
                   Timmermann, Die „Gemäßigte Monarchie“; BFSP Bd. 6 (1819/20), S. 237–279; Brand,
                   Schlegelmilch, Kirsch (Hgg.), Quellen. Zur Revolution vgl. Späth, Revolution in
                   Europa, S. 117–128.</note>, <rs xml:id="n.6">ceux du <date when="1820-07-02">2
-                     Juillet</date> à Naples</rs><note type="editorial" target="#n.6">Am <date when="1820-07-02">2. Juli 1820</date> meuterte die Militärgarnison in Nola, 35
+                     Juillet</date> à Naples</rs>
+                    <note type="editorial" target="#n.6">Am <date when="1820-07-02">2. Juli 1820</date> meuterte die Militärgarnison in Nola, 35
                   km von <placeName ref="#loc.11">Neapel</placeName> entfernt. Das Datum gilt als
                        Beginn der Revolution im <country>Königreich beider Sizilien</country>. Vgl. Romani, The Neapolitan Revolution;
                   Stites, The four Horsemen; Davis, Naples and Napoleon; Gin, Sanfedisti, Carbonari,
-                  Magistrati del Re; Späth, Revolution in Europa, S. 129–149.</note>, la <rs xml:id="n.7">catastrophe du Portugal</rs><note type="editorial" target="#n.7">In
+                  Magistrati del Re; Späth, Revolution in Europa, S. 129–149.</note>, la <rs xml:id="n.7">catastrophe du Portugal</rs>
+                    <note type="editorial" target="#n.7">In
                   Portugal war am <date when="1280-08-24">24. August 1820</date> ebenfalls eine
                   Revolution ausgebrochen; vgl. Birmingham, A Concise History, S. 111–113.</note>
                devoient nécessairement faire naître dans tous les hommes qui veillent à la
@@ -801,7 +823,8 @@
             <p>Ce fait irréfragable devoit être le point de départ des Cabinets Alliés. En
                conséquence, <rs ref="#p.8 #p.40 #p.11 #p.12 #p.136 #p.13 #p.14 #p.121" type="multi-person">les
                   Plénipotentiaires qui pouvoient recevoir à <placeName ref="#loc.60">Troppau</placeName> même les ordres de <rs ref="#p.16 #p.18 #p.17" type="multi-person">leurs
-                     Souverains</rs></rs> ont arrêté entr’eux, et soumis aux délibérations des Cours
+                     Souverains</rs>
+                    </rs> ont arrêté entr’eux, et soumis aux délibérations des Cours
                de <placeName ref="#loc.2">Paris</placeName> et de <placeName ref="#loc.8">Londres</placeName>, les principes à suivre envers les Etats qui subissent une
                altération violente dans la forme de leur régime intérieur, ainsi que les moyens,
                soit de <subst>
@@ -818,7 +841,8 @@
                      nécessité</add>
                </subst> de faire au <country>Royaume des Deux-Siciles</country> l’application
                immédiate des principes qui viennent d’être indiqués.</p>
-            <p>Afin d’entamer à son égard les mesures de conciliation, les <rs ref="#p.16 #p.18 #p.17" type="multi-person">Souverains présens à <placeName ref="#loc.60">Troppau</placeName></rs> ont adressé à <rs ref="#p.138" type="person">
+            <p>Afin d’entamer à son égard les mesures de conciliation, les <rs ref="#p.16 #p.18 #p.17" type="multi-person">Souverains présens à <placeName ref="#loc.60">Troppau</placeName>
+                    </rs> ont adressé à <rs ref="#p.138" type="person">
                         <choice>
                      <abbr>S. M.</abbr>
                      <expan>Sa Majesté</expan>
@@ -831,7 +855,8 @@
                le repos.</p>
             <p>Décidés à ne point reconnoître les gouvernemens enfantés par la sédition, <ref target="Troppau_Prot_4.xml">
                         <rs ref="#p.16 #p.18 #p.17" type="multi-person">les Souverains</rs> ne
-                  pouvoient entrer en rapport qu’avec la personne du <rs ref="#p.138" type="person">Roi</rs>. <rs ref="#p.144 #p.148 #p.149" type="multi-person">Leurs Ministres à <placeName ref="#loc.11">Naples</placeName></rs>
+                  pouvoient entrer en rapport qu’avec la personne du <rs ref="#p.138" type="person">Roi</rs>. <rs ref="#p.144 #p.148 #p.149" type="multi-person">Leurs Ministres à <placeName ref="#loc.11">Naples</placeName>
+                        </rs>
                     </ref> ont reçu des ordres analogues.</p>
             <pb n="96v"/>
             <p>La <country>France</country> et l’<country>Angleterre</country> ont été invitées à se

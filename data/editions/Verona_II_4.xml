@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/kongress/editions" xml:id="Verona_II_4.xml" prev="https://id.acdh.oeaw.ac.at/kongress/editions/Verona_II_3.xml" next="https://id.acdh.oeaw.ac.at/kongress/editions/Verona_II_5.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -55,7 +55,8 @@
                Zeitgeschichtsforschung</publisher>
             <pubPlace>Wien</pubPlace>
 <date when="2018-09-23" change="#initial">2018-09-23</date>
-            <idno>V_II_4</idno><idno type="ISBN" n="9783950478303">978-3-9504783-0-3</idno>
+            <idno>V_II_4</idno>
+                <idno type="ISBN" n="9783950478303">978-3-9504783-0-3</idno>
             <availability>
                <licence target="https://creativecommons.org/licenses/by-sa/4.0/legalcode.de">https://creativecommons.org/licenses/by-sa/4.0/legalcode.de</licence>
             </availability>
@@ -86,7 +87,8 @@
                      fol. II/33 und fol. II/57; die Edition folgt der lithographierten Variante.
                      Zählung mit rotem Buntstift in der rechten oberen Ecke von fol. 32r: <q>4</q>.</p>
                   <p>Die Variante bezieht sich auf eine Ergänzung durch <persName ref="#p.5">
-                                <surname>Gentz</surname></persName> auf der handschriftlichen Fassung.</p>
+                                <surname>Gentz</surname>
+                            </persName> auf der handschriftlichen Fassung.</p>
 
                   <handDesc>
                      <handNote xml:id="A">Anonyme Hand</handNote>
@@ -237,7 +239,8 @@
                   <country>Royaume des Deux-Siciles</country> entre <choice>
                   <abbr>Mrs.</abbr>
                   <expan>Messieurs</expan>
-               </choice> les <rs ref="#p.8 #p.40 #p.175 #p.13 #p.35" type="multi-person">Plénipotentiaires des Cours signataires de la <rs ref="#t.48" type="treaties">Convention de <placeName ref="#loc.11">Naples</placeName></rs>
+               </choice> les <rs ref="#p.8 #p.40 #p.175 #p.13 #p.35" type="multi-person">Plénipotentiaires des Cours signataires de la <rs ref="#t.48" type="treaties">Convention de <placeName ref="#loc.11">Naples</placeName>
+                        </rs>
                     </rs> du <date when="1821-10-18">18 Octobre 1821</date>. </p>
             <p>
                <choice>
@@ -245,7 +248,8 @@
                   <expan>Monsieur</expan>
                </choice> le <persName ref="#p.140">
                   <roleName>Prince</roleName>
-                  <surname>de Ruffo</surname></persName> a fait part en même temps par la <ref decls="#m.2">Note ci-annexée</ref>
+                  <surname>de Ruffo</surname>
+                    </persName> a fait part en même temps par la <ref decls="#m.2">Note ci-annexée</ref>
                de la résolution du <rs ref="#p.138" type="person">Roi</rs>, son Maître, d’engager à
                son service des Régimens suisses, et du désir de <rs ref="#p.138" type="person">
                   <choice>
@@ -271,7 +275,8 @@
                <row>
                   <cell>
                      <persName ref="#p.8">
-                        <surname>Metternich</surname></persName>
+                        <surname>Metternich</surname>
+                                </persName>
                   </cell>
                   <cell>
                      <persName ref="#p.137">
@@ -280,17 +285,20 @@
                   </cell>
                   <cell>
                      <persName ref="#p.140">
-                        <surname>Ruffo</surname></persName>
+                        <surname>Ruffo</surname>
+                                </persName>
                   </cell>
                </row>
                <row>
                   <cell>
                      <persName ref="#p.40">
-                        <surname>Lebzeltern</surname></persName>
+                        <surname>Lebzeltern</surname>
+                                </persName>
                   </cell>
                   <cell>
                      <persName ref="#p.175">
-                        <surname>Hatzfeldt</surname></persName>
+                        <surname>Hatzfeldt</surname>
+                                </persName>
                   </cell>
                   <cell/>
                </row>
@@ -303,11 +311,13 @@
                               <expan>Marquis</expan>
                            </choice>
                         </roleName>
-                        <surname>de Caraman</surname></persName>
+                        <surname>de Caraman</surname>
+                                </persName>
                   </cell>
                   <cell>
                      <persName ref="#p.13">
-                        <surname>Nesselrode</surname></persName>
+                        <surname>Nesselrode</surname>
+                                </persName>
                   </cell>
                   <cell/>
                </row>
@@ -321,22 +331,26 @@
                               <expan>Comte</expan>
                            </choice>
                         </roleName>
-                        <surname>de la Ferronnay</surname></persName>
+                        <surname>de la Ferronnay</surname>
+                                </persName>
                   </cell>
                   <cell>
                      <persName ref="#p.75">
-                        <surname>Lieven</surname></persName>
+                        <surname>Lieven</surname>
+                                </persName>
                   </cell>
                   <cell/>
                </row>
                <row>
                   <cell>
                      <persName ref="#p.180">
-                        <surname>Chateaubriand</surname></persName>
+                        <surname>Chateaubriand</surname>
+                                </persName>
                   </cell>
                   <cell>
                      <persName ref="#p.35">
-                        <surname>Tatistcheff</surname></persName>
+                        <surname>Tatistcheff</surname>
+                                </persName>
                   </cell>
                   <cell/>
                </row>
@@ -379,7 +393,8 @@
                      <expan>Monsieur</expan>
                   </choice> le <persName ref="#p.140">
                      <roleName>Prince</roleName>
-                     <surname>de Ruffo</surname></persName>, remise à la conférence du soir du <date when="1822-12-08">8
+                     <surname>de Ruffo</surname>
+                    </persName>, remise à la conférence du soir du <date when="1822-12-08">8
                      Décembre</date>
                </head>
             
@@ -403,7 +418,8 @@
                   <expan>Monsieur</expan>
                </choice> le <persName ref="#p.140">
                   <roleName>Prince</roleName>
-                  <surname>de Ruffo</surname></persName> de prier les Cabinets alliés de vouloir bien interposer leurs bons
+                  <surname>de Ruffo</surname>
+                    </persName> de prier les Cabinets alliés de vouloir bien interposer leurs bons
                offices près de la Confédération Suisse afin qu’elle appuye de Son assentiment et de
                Son autorité près des Cantons les capitulations particulières qu’a déjà faites le <choice>
                   <abbr>gouv<hi rendition="#su">t</hi>
@@ -418,7 +434,8 @@
                   <expan>Monsieur</expan>
                </choice> le <persName ref="#p.140">
                   <roleName>Prince</roleName>
-                  <surname>de Ruffo</surname></persName> espère que les cabinets alliés voudront d’autant plus accéder à cette
+                  <surname>de Ruffo</surname>
+                    </persName> espère que les cabinets alliés voudront d’autant plus accéder à cette
                demande qu’elle appartient à l’ensemble des mesures que <rs ref="#p.138" type="person">
                   <choice>
                      <abbr>S. M.</abbr>

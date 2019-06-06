@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/kongress/editions" xml:id="Laibach_Prot_7.xml" prev="https://id.acdh.oeaw.ac.at/kongress/editions/Laibach_Prot_6.xml" next="https://id.acdh.oeaw.ac.at/kongress/editions/Laibach_Prot_8.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -54,7 +54,8 @@
                Zeitgeschichtsforschung</publisher>
             <pubPlace>Wien</pubPlace>
 <date when="2018-09-23" change="#initial">2018-09-23</date>
-            <idno>L_07</idno><idno type="ISBN" n="9783950478303">978-3-9504783-0-3</idno>
+            <idno>L_07</idno>
+                <idno type="ISBN" n="9783950478303">978-3-9504783-0-3</idno>
                  <availability>           <licence target="https://creativecommons.org/licenses/by-sa/4.0/legalcode.de">https://creativecommons.org/licenses/by-sa/4.0/legalcode.de</licence>         </availability> </publicationStmt>
             <notesStmt>
     <note>Vergleiche auch die Projektbeschreibung in der <ref type="URI" target="../meta/Einleitung.xml">Einleitung</ref> sowie die Dokumentation der Applikation unter <ref type="URI" target="../meta/about.xml">„Über diese Webseite“</ref>.</note>
@@ -159,12 +160,15 @@
          <abstract>
             <p>Die <rs ref="#p.160 #p.102 #p.135" type="multi-person">Vertreter Frankreichs</rs> stimmen den Ergebnissen
                der vorhergegangenen sechs Konferenzen zu. Der britische Gesandte <persName ref="#p.137">
-                        <surname>Stewart</surname></persName> erklärt, dass er nicht
+                        <surname>Stewart</surname>
+                    </persName> erklärt, dass er nicht
                autorisiert sei, an den Verhandlungen in <placeName ref="#loc.65">Laibach</placeName>/<placeName ref="#loc.65">Ljubljana</placeName> teilzunehmen.
                Die <rs ref="#p.8 #p.2 #p.12 #p.13 #p.14 #p.7 #p.160 #p.102 #p.135" type="multi-person">Vertreter der
                   Mächte</rs> beschließen, umgehend mit der Redaktion der Instruktionen für die <rs ref="#p.144 #p.147 #p.148 #p.149" type="multi-person">österreichischen, französischen, preußischen und
-                  russischen diplomatischen Vertreter in <placeName ref="#loc.11">Neapel</placeName></rs> zu beginnen. Der neapolitanische Gesandte <persName ref="#p.140">
-                        <surname>Ruffo</surname></persName> kündigt an, dass der <rs ref="#p.138" type="person">König beider Sizilien</rs> den <persName ref="#p.142">
+                  russischen diplomatischen Vertreter in <placeName ref="#loc.11">Neapel</placeName>
+                    </rs> zu beginnen. Der neapolitanische Gesandte <persName ref="#p.140">
+                        <surname>Ruffo</surname>
+                    </persName> kündigt an, dass der <rs ref="#p.138" type="person">König beider Sizilien</rs> den <persName ref="#p.142">
                         <roleName>duca
                      di Gallo</roleName>
                     </persName> zu sich rufen wird, um ihm jene Befehle zukommen
@@ -250,7 +254,8 @@
                remis <ref decls="#m.2">la note verbale ci-jointe</ref> pour donner leur assentiment au contenu des dits
                Journaux, tels qu’ils ont été arrêtés jusqu’à ce jour, et pour annoncer qu’ils
                prendront également sur eux d’envoyer au <rs ref="#p.162" type="person">Chargé d’affaires de France
-                  à <placeName ref="#loc.11">Naples</placeName></rs> l’invitation de se conformer
+                  à <placeName ref="#loc.11">Naples</placeName>
+                    </rs> l’invitation de se conformer
                aux instructions qui seront adressées par les <rs ref="#p.16 #p.18 #p.17" type="multi-person">Souverains
                   alliés</rs> à <rs ref="#p.144 #p.148 #p.149" type="multi-person">leurs Ministres respectifs</rs>.</p>
             <p>
@@ -262,7 +267,8 @@
                     <rs ref="#p.137" type="person">l’Ambassadeur de <choice>
                      <abbr>S. M.</abbr>
                      <expan>Sa Majesté</expan>
-                  </choice> le <rs ref="#p.130" type="person">Roi de la Grande-Bretagne</rs></rs> près <choice>
+                  </choice> le <rs ref="#p.130" type="person">Roi de la Grande-Bretagne</rs>
+                    </rs> près <choice>
                   <abbr>S. M.</abbr>
                   <expan>Sa Majesté</expan>
                </choice> l’<rs ref="#p.16" type="person">Empereur d’Autriche</rs> saisit cette occasion pour
@@ -275,7 +281,8 @@
                </choice> le <rs ref="#p.130" type="person">Roi</rs>, son Maître, n’a pas jugé convenable à
                l’attitude dans laquelle<pb n="26v"/> Elle s’est placée relativement aux questions
                qui s’y traitent, de nommer un Plénipotentiaire à ces Conférences.</p>
-            <p>On est convenu de faire rédiger incessamment des instructions aux <rs ref="#p.144 #p.148 #p.149" type="multi-person">agens diplomatiques résidant à <placeName ref="#loc.11">Naples</placeName></rs> lesquelles renfermeront la substance de ce qui se
+            <p>On est convenu de faire rédiger incessamment des instructions aux <rs ref="#p.144 #p.148 #p.149" type="multi-person">agens diplomatiques résidant à <placeName ref="#loc.11">Naples</placeName>
+                    </rs> lesquelles renfermeront la substance de ce qui se
                trouve consigné dans le Journal des six premières Conférences.</p>
             <p>
                     <choice>
@@ -284,7 +291,8 @@
                   <expan>Monsieur</expan>
                </choice> le <persName ref="#p.140">
                         <roleName>Prince</roleName>
-                  <surname>de Ruffo</surname></persName> a annoncé que <choice>
+                  <surname>de Ruffo</surname>
+                    </persName> a annoncé que <choice>
                   <abbr>S. M.</abbr>
                   <expan>Sa Majesté</expan>
                </choice> le <rs ref="#p.138" type="person">Roi</rs>, Son maître, appellerait sans délai <choice>
@@ -293,7 +301,8 @@
                   <expan>Monsieur</expan>
                </choice> le <rs ref="#p.142" type="person">
                         <roleName>Duc</roleName>
-                  <surname>de Gallo</surname></rs> pour lui donner ses ordres en conséquence de ce
+                  <surname>de Gallo</surname>
+                    </rs> pour lui donner ses ordres en conséquence de ce
                qui avait été arrêté à <ref target="Laibach_Prot_6.xml">la Conférence du <date when="1821-01-22">22 de ce mois</date>
                     </ref>.</p>
             <p>La conférence a en outre arrêté que <choice>
@@ -322,7 +331,8 @@
                 </p>
             <signed rendition="#r">
                     <persName ref="#p.5">
-                        <surname>Gentz</surname></persName>
+                        <surname>Gentz</surname>
+                    </persName>
                 </signed>
          </div>
 
@@ -350,7 +360,8 @@
                des Conférences, tels qu’ils ont été arrêtés jusqu’à ce jour.</p>
             <p>Les <rs ref="#p.160 #p.102 #p.135" type="multi-person">Plénipotentiaires Français</rs> prendront
                également sur eux d’envoyer au <rs ref="#p.162" type="person">chargé d’affaires de France à
-                     <placeName ref="#loc.11">Naples</placeName></rs> l’invitation de se conformer
+                     <placeName ref="#loc.11">Naples</placeName>
+                    </rs> l’invitation de se conformer
                aux instructions qui seront adressées par les <rs ref="#p.16 #p.18 #p.17" type="multi-person">Souverains
                   alliés</rs> à <rs ref="#p.144 #p.148 #p.149" type="multi-person">leurs Ministres respectifs</rs>. Ils
                espèrent que les Cours alliées verront dans cette démarche<pb n="28v"/> de leur part

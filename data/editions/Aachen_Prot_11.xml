@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/kongress/editions" xml:id="Aachen_Prot_11.xml" prev="https://id.acdh.oeaw.ac.at/kongress/editions/Aachen_Prot_10.xml" next="https://id.acdh.oeaw.ac.at/kongress/editions/Aachen_Prot_12.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -54,7 +54,8 @@
                Zeitgeschichtsforschung</publisher>
             <pubPlace>Wien</pubPlace>
 <date when="2018-09-23" change="#initial">2018-09-23</date>
-            <idno>A_11</idno><idno type="ISBN" n="9783950478303">978-3-9504783-0-3</idno>
+            <idno>A_11</idno>
+                <idno type="ISBN" n="9783950478303">978-3-9504783-0-3</idno>
                  <availability>           <licence target="https://creativecommons.org/licenses/by-sa/4.0/legalcode.de">https://creativecommons.org/licenses/by-sa/4.0/legalcode.de</licence>         </availability> </publicationStmt>
             <notesStmt>
     <note>Vergleiche auch die Projektbeschreibung in der <ref type="URI" target="../meta/Einleitung.xml">Einleitung</ref> sowie die Dokumentation der Applikation unter <ref type="URI" target="../meta/about.xml">„Über diese Webseite“</ref>.</note>
@@ -79,7 +80,8 @@
                <physDesc>
 
                   <p> Eigenhändiges Protokoll von <persName ref="#p.5">
-                        <surname>Gentz</surname></persName>. </p>
+                        <surname>Gentz</surname>
+                            </persName>. </p>
                   <handDesc>
                      <handNote xml:id="G">Friedrich Gentz</handNote>
                      <handNote xml:id="W">Nikolaus Wacken</handNote>
@@ -357,7 +359,8 @@
             <p>
                Le <rs ref="#p.26" type="person">soussigné</rs> est chargé par Son Altesse royale le <rs ref="#p.22" type="person">Grand-Duc</rs>, son maître, d’entretenir Son Altesse le <persName ref="#p.8">
                         <roleName>Prince</roleName>
-                  <surname>de Metternich</surname></persName>, Ministre d’état &amp; des
+                  <surname>de Metternich</surname>
+                    </persName>, Ministre d’état &amp; des
                conférences, dirigeant le département des affaires étrangères de Sa Majesté l’<rs ref="#p.16" type="person">Empereur d’Autriche</rs>, d’un arrangement que les relations toutes
                particulières du Grand-Duché réclament au cas que les troupes alliées devroient
                effectivement quitter la <country>France</country>.</p>
@@ -422,7 +425,8 @@
                   Plénipotentiaires</rs> des quatre Cabinets se sont réunis en conférence à l’effet
                de discuter les grands objets que leurs Cours ont eus en vue en stipulant l’article
                VI du <rs ref="#t.6" type="treaties">Traité de la quadruple Alliance du <date when="1815-11-20">8/20
-                     Novembre 1815</date></rs>, et afin de convenir sur le mode d’<hi rendition="#u">appliquer les principes</hi> et dispositions de cet article à l’état des choses
+                     Novembre 1815</date>
+                    </rs>, et afin de convenir sur le mode d’<hi rendition="#u">appliquer les principes</hi> et dispositions de cet article à l’état des choses
                qui suivra l’évacuation de la <country>France</country> et à la situation où ce
                gouvernement, comme membre de l’association générale, se trouvera placé conséquemment
                envers les Puissances alliées.</p>
@@ -445,7 +449,8 @@
             <p>2<hi rendition="#su">o</hi> Les réunions des Souverains ayant un double but : <hi rendition="#u">l’exécution du <rs ref="#t.6" type="treaties">Traité d’Alliance</rs> et la
                   consolidation des rapports qui unissent les Souverains pour le bonheur du
                   Monde</hi>, savoir :</p>
-            <p>a) Un état de choses en <country>France</country> qui menace le <rs xml:id="n.2">casus foederis</rs><note type="editorial" target="#n.2">Lat. Bündnisfall</note>
+            <p>a) Un état de choses en <country>France</country> qui menace le <rs xml:id="n.2">casus foederis</rs>
+                    <note type="editorial" target="#n.2">Lat. Bündnisfall</note>
                ou qui le constitue ;</p>
             <p>b) Les progrès de la paix générale dont jouit l’Europe ;</p>
             <p>Les quatre Cabinets sont également convenus de confirmer cette disposition de manière
@@ -470,8 +475,10 @@
                sans y être formellement invités par eux, et sans les admettre à leurs entrevues.</p>
             <p>Cette déclaration préservatrice des droits et des possessions de tous les
                gouvernemens associés à l’alliance générale servira à placer dans tout son jour
-               l’influence inaltérable que les stipulations du <rs ref="#t.12" type="treaties">Recès de <placeName ref="#loc.7">Vienne</placeName></rs>
-                    <pb n="60v"/> et celles du <rs ref="#t.1" type="treaties">traité de <placeName ref="#loc.2">Paris</placeName> du <date when="1815-11-20">8/20 Novembre 1815</date></rs> sont appelées à exercer sur les rapports
+               l’influence inaltérable que les stipulations du <rs ref="#t.12" type="treaties">Recès de <placeName ref="#loc.7">Vienne</placeName>
+                    </rs>
+                    <pb n="60v"/> et celles du <rs ref="#t.1" type="treaties">traité de <placeName ref="#loc.2">Paris</placeName> du <date when="1815-11-20">8/20 Novembre 1815</date>
+                    </rs> sont appelées à exercer sur les rapports
                mutuels entre tous les Etats : rapports qui, quoique susceptibles d’être affermis et
                perfectionnés dans leur ensemble par le moyen des réunions successives, sont
                néanmoins originairement garantis par les stipulations primitives et fondamentales

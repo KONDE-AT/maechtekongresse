@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/kongress/editions" xml:id="Aachen_Prot_42.xml" prev="https://id.acdh.oeaw.ac.at/kongress/editions/Aachen_Prot_41.xml" next="https://id.acdh.oeaw.ac.at/kongress/editions/Aachen_Prot_43.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -54,7 +54,8 @@
                Zeitgeschichtsforschung</publisher>
             <pubPlace>Wien</pubPlace>
 <date when="2018-09-23" change="#initial">2018-09-23</date>
-            <idno>A_42</idno><idno type="ISBN" n="9783950478303">978-3-9504783-0-3</idno>
+            <idno>A_42</idno>
+                <idno type="ISBN" n="9783950478303">978-3-9504783-0-3</idno>
                  <availability>           <licence target="https://creativecommons.org/licenses/by-sa/4.0/legalcode.de">https://creativecommons.org/licenses/by-sa/4.0/legalcode.de</licence>         </availability> </publicationStmt>
             <notesStmt>
     <note>Vergleiche auch die Projektbeschreibung in der <ref type="URI" target="../meta/Einleitung.xml">Einleitung</ref> sowie die Dokumentation der Applikation unter <ref type="URI" target="../meta/about.xml">„Über diese Webseite“</ref>.</note>
@@ -79,7 +80,8 @@
                <physDesc>
 
                   <p>Eigenhändiges Protokoll von <persName ref="#p.5">
-                        <surname>Gentz</surname></persName>.</p>
+                        <surname>Gentz</surname>
+                            </persName>.</p>
                   <handDesc>
                      <handNote xml:id="G">Friedrich Gentz</handNote>
                      <handNote xml:id="W">Nikolaus Wacken</handNote>
@@ -139,7 +141,8 @@
                     </persName> und <persName ref="#p.91">
                         <forename>Wilhelm Gustav Friedrich</forename>
                   <roleName>Graf</roleName>
-                  <surname>von Bentinck</surname></persName> um die Herrschaft von Kniphausen die
+                  <surname>von Bentinck</surname>
+                    </persName> um die Herrschaft von Kniphausen die
                Vermittlung. Sollte diese Mediation zu keinem Ergebnis führen, wird die
                Territorialkommission in <placeName ref="#loc.25">Frankfurt a. M.</placeName> über
                die Mediatisierung der Herrschaft Kniphausen entscheiden.</p>
@@ -225,10 +228,12 @@
                         <expan>Comte</expan>
                      </choice>
                         </roleName>
-                  <surname>de Bernstorff</surname></persName> a présenté à la Conférence <ref decls="#m.2">le rapport ci-joint</ref> sur les différends qui subsistent entre le <rs ref="#p.76" type="person">Duc
+                  <surname>de Bernstorff</surname>
+                    </persName> a présenté à la Conférence <ref decls="#m.2">le rapport ci-joint</ref> sur les différends qui subsistent entre le <rs ref="#p.76" type="person">Duc
                   d’Oldenbourg</rs> et le <persName ref="#p.91">
                         <roleName>Comte</roleName>
-                  <surname>de Bentink</surname></persName> relativement à la <rs xml:id="n.3">Seigneurie de Kniephausen</rs>.<note type="editorial" target="#n.3">Köbler,
+                  <surname>de Bentink</surname>
+                    </persName> relativement à la <rs xml:id="n.3">Seigneurie de Kniephausen</rs>.<note type="editorial" target="#n.3">Köbler,
                   Historisches Lexikon, S. 339–340.</note>
                     
                         <choice>
@@ -247,14 +252,17 @@
                         <expan>Comte</expan>
                      </choice>
                         </roleName>
-                  <surname>de Bentink</surname></persName>, c’est-à-dire de Kniephausen et <rs xml:id="n.4">Varel</rs>,<note type="editorial" target="#n.4">Köbler, Historisches
+                  <surname>de Bentink</surname>
+                    </persName>, c’est-à-dire de Kniephausen et <rs xml:id="n.4">Varel</rs>,<note type="editorial" target="#n.4">Köbler, Historisches
                   Lexikon, S. 339–340 und 737.</note> contre des possessions du même rapport, et de
                faire tomber d’elle-même la question de Souveraineté par un semblable arrangement. Si
                toutefois la médiation et les bons offices des deux Cours n’amenoient pas cet
                arrangement dans l’espace de tems où on pourroit l’espérer, la question de la
                Médiatisation de la Seigneurie de<pb n="240v"/> Kniephausen seroit déférée de nouveau
                aux décisions de la <rs ref="#p.36 #p.37 #p.38 #p.39" type="multi-person" xml:id="n.5">Commission
-                  territoriale de <placeName ref="#loc.25">Francfort</placeName></rs><note type="editorial" target="#n.5">Von den alliierten Mächten eingesetzte Kommission
+                  territoriale de <placeName ref="#loc.25">Francfort</placeName>
+                    </rs>
+                    <note type="editorial" target="#n.5">Von den alliierten Mächten eingesetzte Kommission
                   zur Klärung noch offener territorialer Fragen im Deutschen Bund. Erarbeitet den
                   Frankfurter Territorialrezess vom 20. Juli 1819; vgl. Huber, Deutsche
                   Verfassungsgeschichte, Bd. 1, S. 579–582.</note> où elle a déjà été reçue au
@@ -302,18 +310,21 @@
                 </metamark>
             
                     <head>
-                    <rs xml:id="n.6">Seigneurie de Kniphausen</rs><note type="editorial" target="#n.6">Köbler, Historisches Lexikon, S. 339–340.</note>
+                    <rs xml:id="n.6">Seigneurie de Kniphausen</rs>
+                    <note type="editorial" target="#n.6">Köbler, Historisches Lexikon, S. 339–340.</note>
                     </head>
                     
                 
             <p>La conférence connoit déjà les vicissitudes singulières qu’a essuyées la Seigneurie
                de Kniphausen, propriété du <persName ref="#p.91">
                         <roleName>Comte</roleName>
-                  <surname>de Bentinck</surname></persName>, l’état de dépendance où l’avaient
+                  <surname>de Bentinck</surname>
+                    </persName>, l’état de dépendance où l’avaient
                réduite les reviremens désastreux amenés par l’envahissement du Nord de l’Allemagne,
                et la contestation qui subsiste encore aujourd’hui entre le <persName ref="#p.91">
                         <roleName>Comte</roleName>
-                  <surname>de Bentinck</surname></persName> et le <rs ref="#p.76" type="person">Grand-Duc
+                  <surname>de Bentinck</surname>
+                    </persName> et le <rs ref="#p.76" type="person">Grand-Duc
                   d’Oldenbourg</rs>.</p>
             <p>Lorsqu’on cherche le moyen d’applanir ce différend, il se présente d’abord la
                question de savoir s’il faut regarder la Seigneurie de Kniphausen comme médiatisée ou
@@ -321,14 +332,17 @@
                et le droit de son indépendance primitive.</p>
             <p>D’un côté, l’asservissement où à l’époque de la délivrance de l’Allemagne l’on a
                trouvé ce petit pays, et le silence que l’<rs ref="#t.12" type="treaties">acte final du Congrès de
-                     <placeName ref="#loc.7">Vienne</placeName></rs> a gardé à l’égard du <persName ref="#p.91">
+                     <placeName ref="#loc.7">Vienne</placeName>
+                    </rs> a gardé à l’égard du <persName ref="#p.91">
                         <roleName>Comte</roleName>
-                  <surname>de Bentinck</surname></persName>, ont pu donner naissance et une
+                  <surname>de Bentinck</surname>
+                    </persName>, ont pu donner naissance et une
                apparence de vérité à l’idée qu’en effet ce dernier avait déjà subi<pb n="241v"/> le
                sort des Princes et Etats médiatisés.</p>
             <p>De l’autre côté, le <persName ref="#p.91">
                         <roleName>Comte</roleName>
-                  <surname>de Bentinck</surname></persName> soutient, non sans <choice>
+                  <surname>de Bentinck</surname>
+                    </persName> soutient, non sans <choice>
                   <abbr>qque</abbr>
                   <expan>quelque</expan>
                </choice> fondement, qu’il n’a jamais subi que le joug qu’une force étrangère lui
@@ -346,7 +360,8 @@
                pour tenter la voie d’une médiation à l’amiable entre le <rs ref="#p.76" type="person">Grand-Duc
                   d’Oldenbourg</rs> et le <persName ref="#p.91">
                         <roleName>Comte</roleName>
-                  <surname>de Bentinck</surname></persName>. Cette voie pourra être sujette à des
+                  <surname>de Bentinck</surname>
+                    </persName>. Cette voie pourra être sujette à des
                difficultés et à des lenteurs inévitables, mais c’est peut-être la seule susceptible
                de ménager et de concilier tous les droits et tous les intérêts, et de répondre par
                là entièrement aux vues bienveillantes et impartiales des <rs ref="#p.16 #p.19 #p.18 #p.17" type="multi-person">Souverains alliés</rs>. D’ailleurs, la médiatisation

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/kongress/editions" xml:id="Verona_II_6.xml" prev="https://id.acdh.oeaw.ac.at/kongress/editions/Verona_II_5.xml" next="https://id.acdh.oeaw.ac.at/kongress/editions/Verona_II_7.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -55,7 +55,8 @@
                Zeitgeschichtsforschung</publisher>
             <pubPlace>Wien</pubPlace>
 <date when="2018-09-23" change="#initial">2018-09-23</date>
-            <idno>V_II_6</idno><idno type="ISBN" n="9783950478303">978-3-9504783-0-3</idno>
+            <idno>V_II_6</idno>
+                <idno type="ISBN" n="9783950478303">978-3-9504783-0-3</idno>
                  <availability>           <licence target="https://creativecommons.org/licenses/by-sa/4.0/legalcode.de">https://creativecommons.org/licenses/by-sa/4.0/legalcode.de</licence>         </availability> </publicationStmt>
             <notesStmt>
     <note>Vergleiche auch die Projektbeschreibung in der <ref type="URI" target="../meta/Einleitung.xml">Einleitung</ref> sowie die Dokumentation der Applikation unter <ref type="URI" target="../meta/about.xml">„Über diese Webseite“</ref>.</note>
@@ -79,7 +80,8 @@
                </msContents>
                <physDesc>
                   <p>Originaljournal von <persName ref="#p.5">
-                                <surname>Gentz</surname></persName>.</p>
+                                <surname>Gentz</surname>
+                            </persName>.</p>
                   <p>Procès-verbal liegt zweifach ein: abschriftlich fol. II/49 und 52 (Vermerke:
                      <q>Copie</q>, <q>Secret</q>), original fol. IX/6–7 (bezeichnet als: <q>Procès-Verbal d’une
                      conférence particulière entre <choice>
@@ -91,7 +93,8 @@
                         <expan>Monsieur</expan>
                      </choice> le <persName ref="#p.140">
                                 <roleName>Prince</roleName>
-                        <surname>de Ruffo</surname></persName>
+                        <surname>de Ruffo</surname>
+                                </persName>
                             </q>); die Edition folgt der originalen
                      Variante.</p>
                   <p>Originalprotokoll und Abschrift weisen eine unterschiedliche Datierung auf: Auf
@@ -138,7 +141,8 @@
                <physDesc>
                   <p>Abschrift.</p>
                   <p>Anlage liegt zweifach ein: original fol. IX/2–4, abschriftlich (von <persName ref="#p.5">
-                                <surname>Gentz</surname></persName>) fol. II/50–51;
+                                <surname>Gentz</surname>
+                            </persName>) fol. II/50–51;
                      die Edition folgt der originalen Variante.</p>
                </physDesc>
 
@@ -210,7 +214,8 @@
                      <expan>Monsieur</expan>
                   </choice> le <persName ref="#p.140">
                             <roleName>Prince</roleName>
-                     <surname>de Ruffo</surname></persName>.</head>
+                     <surname>de Ruffo</surname>
+                    </persName>.</head>
                 
 
             <p>Dans la conférence particulière de ce jour <choice>
@@ -218,7 +223,8 @@
                   <expan>Monsieur</expan>
                </choice> le <persName ref="#p.140">
                         <roleName>Prince</roleName>
-                  <surname>de Ruffo</surname></persName> a fait lecture de la <ref decls="#m.2">note
+                  <surname>de Ruffo</surname>
+                    </persName> a fait lecture de la <ref decls="#m.2">note
                   ci-annexée</ref>, par
                laquelle <rs ref="#p.138" type="person">Sa Majesté Sicilienne</rs> l’a chargé de prévenir Ses <rs ref="#p.16 #p.18 #p.17" type="multi-person">Augustes Alliés</rs>,</p>
             <p>Que dans le cas, où Elle le trouveroit nécessaire, Elle
@@ -235,7 +241,8 @@
                   <expan>Monsieur</expan>
                </choice> le <persName ref="#p.8">
                         <roleName>Prince</roleName>
-                  <surname>de Metternich</surname></persName> a observé sur cette proposition, </p>
+                  <surname>de Metternich</surname>
+                    </persName> a observé sur cette proposition, </p>
             <p>Que <choice>
                   <abbr>S. M.</abbr>
                   <expan>Sa Majesté</expan>
@@ -248,13 +255,15 @@
                      <expan>Sa Majesté</expan>
                   </choice> Sicilienne</rs>, ne cesseroit de se livrer à l’espoir que la présence de
                Ses troupes dans le <country>Royaume des Deux-Siciles</country> ne se prolongeroit
-               point au delà du terme indiqué dans la <rs ref="#t.48" type="treaties">Convention du <date when="1821-10-18">18 Octobre 1821</date></rs> ;</p>
+               point au delà du terme indiqué dans la <rs ref="#t.48" type="treaties">Convention du <date when="1821-10-18">18 Octobre 1821</date>
+                    </rs> ;</p>
             <p>Que si toutefois l’hypothèse pénible mise en avant dans la note de <choice>
                   <abbr>Mr.</abbr>
                   <expan>Monsieur</expan>
                </choice> le <persName ref="#p.140">
                         <roleName>Prince</roleName>
-                  <surname>de Ruffo</surname></persName> devroit se réaliser, <rs ref="#p.16" type="person">
+                  <surname>de Ruffo</surname>
+                    </persName> devroit se réaliser, <rs ref="#p.16" type="person">
                         <choice>
                      <abbr>S. M.</abbr>
                      <expan>Sa Majesté</expan>
@@ -266,7 +275,8 @@
                   <expan>Monsieur</expan>
                </choice> le <persName ref="#p.13">
                         <roleName>Comte</roleName>
-                  <surname>de Nesselrode</surname></persName> a déclaré au nom de <rs ref="#p.17" type="person">
+                  <surname>de Nesselrode</surname>
+                    </persName> a déclaré au nom de <rs ref="#p.17" type="person">
                         <choice>
                      <abbr>S. M. I.</abbr>
                      <expan>Sa Majesté Impériale</expan>
@@ -277,7 +287,8 @@
                      <expan>Sa Majesté</expan>
                   </choice> Sicilienne</rs> trouvera pendant l’intervalle qui s’écoulera jusqu’à la
                retraite des troupes auxiliaires au terme prévu par la <rs ref="#t.48" type="treaties">Convention du
-                     <date when="1821-10-18">18 Octobre</date></rs> les moyens<pb n="7r"/> de se
+                     <date when="1821-10-18">18 Octobre</date>
+                    </rs> les moyens<pb n="7r"/> de se
                dispenser de tout secours étranger pour le maintien de la tranquillité dans Son
                Royaume, ne pouvoit admettre qu’avec une véritable peine le cas auquel se rapportoit
                la note de <choice>
@@ -285,7 +296,8 @@
                   <expan>Monsieur</expan>
                </choice> le <persName ref="#p.140">
                         <roleName>Prince</roleName>
-                  <surname>de Ruffo</surname></persName> ; que si cependant contre tous les vœux de
+                  <surname>de Ruffo</surname>
+                    </persName> ; que si cependant contre tous les vœux de
                   <rs ref="#p.17" type="person">
                         <choice>
                      <abbr>S. M.</abbr>
@@ -299,7 +311,8 @@
                   <expan>Monsieur</expan>
                </choice> le <persName ref="#p.12">
                         <roleName>Comte</roleName>
-                  <surname>de Bernstorff</surname></persName> a déclaré qu’intimement convaincu que
+                  <surname>de Bernstorff</surname>
+                    </persName> a déclaré qu’intimement convaincu que
                le <rs ref="#p.18" type="person">Roi</rs>, son maître, jugeroit la question tout comme Ses Augustes
                Alliés <choice>
                   <abbr>L.L. M.M.</abbr>
@@ -322,31 +335,36 @@
                   <row>
                      <cell>
                                 <persName ref="#p.8">
-                                    <surname>Metternich</surname></persName>
+                                    <surname>Metternich</surname>
+                                </persName>
                             </cell>
                      <cell/>
                   </row>
                   <row>
                      <cell>
                                 <persName ref="#p.12">
-                                    <surname>Bernstorff</surname></persName>
+                                    <surname>Bernstorff</surname>
+                                </persName>
                             </cell>
                      <cell>
                                 <persName ref="#p.140">
-                                    <surname>Ruffo</surname></persName>
+                                    <surname>Ruffo</surname>
+                                </persName>
                             </cell>
                   </row>
                   <row>
                      <cell>
                                 <persName ref="#p.13">
-                                    <surname>Nesselrode</surname></persName>
+                                    <surname>Nesselrode</surname>
+                                </persName>
                             </cell>
                      <cell/>
                   </row>
                   <row>
                      <cell>
                                 <persName ref="#p.35">
-                                    <surname>Tatistscheff</surname></persName>
+                                    <surname>Tatistscheff</surname>
+                                </persName>
                      </cell>
                      <cell/>
                   </row>
@@ -366,7 +384,8 @@
                         <expan>Monsieur</expan>
                      </choice> le <persName ref="#p.140">
                                 <roleName>Prince</roleName>
-                        <surname>Ruffo</surname></persName> à la conférence particulière du <date when="1822-12-13">13 Décembre 1822</date>
+                        <surname>Ruffo</surname>
+                        </persName> à la conférence particulière du <date when="1822-12-13">13 Décembre 1822</date>
                         
                     </add>
                 </head>
@@ -379,7 +398,8 @@
                   <expan>Monsieur</expan>
                </choice> le <persName ref="#p.140">
                         <roleName>prince</roleName>
-                  <surname>de Ruffo</surname></persName> de faire à leurs Cabinets la communication
+                  <surname>de Ruffo</surname>
+                    </persName> de faire à leurs Cabinets la communication
                suivante.</p>
             <p>Elle contient sans réserve le fond de la pensée du <rs ref="#p.138" type="person">Roi</rs> ; elle
                est donc de la nature la plus confidentielle.</p>
@@ -387,10 +407,12 @@
                         <choice>
                      <abbr>S. M. Sic.</abbr>
                      <expan>Sa Majesté Sicilienne</expan>
-                  </choice></rs> reconnait tous les jours davantage les difficultés nombreuses qui retardent le
+                  </choice>
+                    </rs> reconnait tous les jours davantage les difficultés nombreuses qui retardent le
                rétablissement de l’ordre dans Ses états. L’expérience des cinq années qui ont suivi
                la restauration de 1815 jusqu’à l’époque de la <rs xml:id="n.2">révolution de
-                  1820</rs><note type="editorial" target="#n.2">Am <date when="1820-07-02">2. Juli
+                  1820</rs>
+                    <note type="editorial" target="#n.2">Am <date when="1820-07-02">2. Juli
                      1820</date> meuterte die Militärgarnison in Nola, 35 km von <placeName ref="#loc.11">Neapel</placeName> entfernt. Das Datum gilt als Beginn der
                        Revolution im <country>Königreich beider Sizilien</country>. Vgl. Romani, The Neapolitan Revolution; Stites, The four
                   Horsemen; Davis, Naples and Napoleon; Gin, Sanfedisti, Carbonari, Magistrati del
@@ -404,9 +426,11 @@
                n’est qu’avec lenteur que le Gouvernement du <rs ref="#p.138" type="person">Roi</rs> peut opérer
                solidement l’œuvre complète d’une restauration rendue plus difficile encore par
                l’agitation contagieuse des <rs xml:id="n.3">commotions populaires de
-                  l’Espagne</rs><note type="editorial" target="#n.3">Zur Revolution in
+                  l’Espagne</rs>
+                    <note type="editorial" target="#n.3">Zur Revolution in
                      <country>Spanien</country> vgl. Späth, Revolution in Europa, S. 117–128. </note>
-                    <rs xml:id="n.4">et de la <country>Grèce</country></rs>.<note type="editorial" target="#n.4">1821 begann der Griechische Unabhängigkeitskrieg gegen die
+                    <rs xml:id="n.4">et de la <country>Grèce</country>
+                    </rs>.<note type="editorial" target="#n.4">1821 begann der Griechische Unabhängigkeitskrieg gegen die
                   Osmanische Herrschaft; vgl. Dakin, The Greek Struggle; Clogg, Movement for Greek
                   Independence.</note> L’ébranlement général des opinions et des principes rend les
                hommes dignes de confiance rares et difficiles à trouver. De là naissent
@@ -419,15 +443,18 @@
                         <choice>
                      <abbr>S. M. Sic.</abbr>
                      <expan>Sa Majesté Sicilienne</expan>
-                  </choice></rs> pourra successivement parvenir à rétablir Son gouvernement et
+                  </choice>
+                    </rs> pourra successivement parvenir à rétablir Son gouvernement et
                l’ordre public sur des bases telles qu’elles puissent en garantir la durée.</p>
             <p>La <rs ref="#t.48" type="treaties">Convention militaire signée le <date when="1821-10-18">18 Octobre
-                     1821</date></rs> détermine l’occupation jusqu’à l’époque correspondante de
+                     1821</date>
+                    </rs> détermine l’occupation jusqu’à l’époque correspondante de
                l’année 1824. <rs ref="#p.138" type="person">
                         <choice>
                      <abbr>S. M. Sic.</abbr>
                      <expan>Sa Majesté Sicilienne</expan>
-                  </choice></rs>,<pb n="3v"/> dominée par la pensée du besoin qu’éprouvent Ses
+                  </choice>
+                    </rs>,<pb n="3v"/> dominée par la pensée du besoin qu’éprouvent Ses
                sujets d’être tirés de l’état de désordre dans lequel 25 années de bouleversement
                successif les ont plongés, prévoit avec chagrin que deux années ne suffiront pas pour
                lui faire atteindre le but de Ses constants efforts. Il croit donc d’avance devoir
@@ -445,11 +472,13 @@
                   <expan>Monsieur</expan>
                </choice> le <persName ref="#p.140">
                         <roleName>prince</roleName>
-                  <surname>de Ruffo</surname></persName> a reçu l’ordre de <rs ref="#p.138" type="person">
+                  <surname>de Ruffo</surname>
+                    </persName> a reçu l’ordre de <rs ref="#p.138" type="person">
                         <choice>
                      <abbr>S. M. Sic.</abbr>
                      <expan>Sa Majesté Sicilienne</expan>
-                  </choice></rs> de prévenir les <rs ref="#p.8 #p.12 #p.13 #p.35" type="multi-person">représentants des
+                  </choice>
+                    </rs> de prévenir les <rs ref="#p.8 #p.12 #p.13 #p.35" type="multi-person">représentants des
                   Souverains</rs>, Ses Alliés, de cette détermination éventuelle, et se flatte
                qu’ils voudront bien y donner leur assentiment.</p>
          </div>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/kongress/editions" xml:id="Aachen_Prot_4.xml" prev="https://id.acdh.oeaw.ac.at/kongress/editions/Aachen_Prot_3.xml" next="https://id.acdh.oeaw.ac.at/kongress/editions/Aachen_Prot_5.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -54,7 +54,8 @@
                Zeitgeschichtsforschung</publisher>
             <pubPlace>Wien</pubPlace>
 <date when="2018-09-23" change="#initial">2018-09-23</date>
-            <idno>A_04</idno><idno type="ISBN" n="9783950478303">978-3-9504783-0-3</idno>
+            <idno>A_04</idno>
+                <idno type="ISBN" n="9783950478303">978-3-9504783-0-3</idno>
                  <availability>           <licence target="https://creativecommons.org/licenses/by-sa/4.0/legalcode.de">https://creativecommons.org/licenses/by-sa/4.0/legalcode.de</licence>         </availability> </publicationStmt>
             <notesStmt>
     <note>Vergleiche auch die Projektbeschreibung in der <ref type="URI" target="../meta/Einleitung.xml">Einleitung</ref> sowie die Dokumentation der Applikation unter <ref type="URI" target="../meta/about.xml">„Über diese Webseite“</ref>.</note>
@@ -79,7 +80,8 @@
                <physDesc>
 
                   <p> Eigenhändiges Protokoll von <persName ref="#p.5">
-                        <surname>Gentz</surname></persName>. </p>
+                        <surname>Gentz</surname>
+                            </persName>. </p>
                   <handDesc>
                      <handNote xml:id="G">Friedrich Gentz</handNote>
                      <handNote xml:id="W">Nikolaus Wacken</handNote>
@@ -112,9 +114,11 @@
          <abstract>
             <p>Die <rs ref="#p.8 #p.10 #p.11 #p.13 #p.12 #p.14 #p.9" type="multi-person">Vertreter der alliierten
                   Mächte</rs> informieren den französischen Premierminister <persName ref="#p.1">
-                        <surname>Richelieu</surname></persName> über die in der <ref target="Aachen_Prot_3.xml">dritten Sitzung</ref> gefassten Beschlüsse. Auftrag an den britischen Gesandten
+                        <surname>Richelieu</surname>
+                    </persName> über die in der <ref target="Aachen_Prot_3.xml">dritten Sitzung</ref> gefassten Beschlüsse. Auftrag an den britischen Gesandten
                   <persName ref="#p.10">
-                        <surname>Wellington</surname></persName>, sich mit den
+                        <surname>Wellington</surname>
+                    </persName>, sich mit den
                Vorbereitungen für den Abzug der Truppen zu befassen.</p>
          </abstract>
          <particDesc>
@@ -190,7 +194,8 @@
                l’article V du <rs ref="#t.1" type="treaties">Traité du <date when="1815-11-20">20 <choice>
                         <abbr>Novbre</abbr>
                         <expan>Novembre</expan>
-                     </choice> 1815</date></rs> ; et ayant en même tems examiné les bases <subst>
+                     </choice> 1815</date>
+                    </rs> ; et ayant en même tems examiné les bases <subst>
                   <del rendition="#s">d’un</del>
                   <add place="margin">communiquées par <choice>
                         <abbr>Mr.</abbr>

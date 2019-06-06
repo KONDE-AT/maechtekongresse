@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/kongress/editions" xml:id="Aachen_Prot_37.xml" prev="https://id.acdh.oeaw.ac.at/kongress/editions/Aachen_Prot_36.xml" next="https://id.acdh.oeaw.ac.at/kongress/editions/Aachen_Prot_38.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -54,7 +54,8 @@
                Zeitgeschichtsforschung</publisher>
             <pubPlace>Wien</pubPlace>
 <date when="2018-09-23" change="#initial">2018-09-23</date>
-            <idno>A_37</idno><idno type="ISBN" n="9783950478303">978-3-9504783-0-3</idno>
+            <idno>A_37</idno>
+                <idno type="ISBN" n="9783950478303">978-3-9504783-0-3</idno>
                  <availability>           <licence target="https://creativecommons.org/licenses/by-sa/4.0/legalcode.de">https://creativecommons.org/licenses/by-sa/4.0/legalcode.de</licence>         </availability> </publicationStmt>
             <notesStmt>
     <note>Vergleiche auch die Projektbeschreibung in der <ref type="URI" target="../meta/Einleitung.xml">Einleitung</ref> sowie die Dokumentation der Applikation unter <ref type="URI" target="../meta/about.xml">„Über diese Webseite“</ref>.</note>
@@ -80,7 +81,8 @@
                   <p>Das Protokoll liegt in handschriftlicher (fol. II/182, 186–191) und gedruckter
                      Form (fol. II/183–185) ein. Die Transkription folgt der handschriftlichen
                      Fassung, welche Korrekturen durch <persName ref="#p.5">
-                                <surname>Gentz</surname></persName> aufweist.</p>
+                                <surname>Gentz</surname>
+                            </persName> aufweist.</p>
                   <handDesc>
                      <handNote xml:id="G">Friedrich Gentz</handNote>
                      <handNote xml:id="W">Nikolaus Wacken</handNote>
@@ -134,7 +136,8 @@
       <profileDesc>
          <abstract>
             <p>Dem Ansuchen des französischen Premierministers <persName ref="#p.1">
-                        <surname>Richelieu</surname></persName> nachkommend, bewilligen die <rs ref="#p.8 #p.9 #p.11 #p.12 #p.13 #p.14" type="multi-person">Vertreter der alliierten Mächte</rs>
+                        <surname>Richelieu</surname>
+                    </persName> nachkommend, bewilligen die <rs ref="#p.8 #p.9 #p.11 #p.12 #p.13 #p.14" type="multi-person">Vertreter der alliierten Mächte</rs>
                folgende Modifikation der Zahlungsmodalitäten der französischen
                Entschädigungszahlungen: Verlängerung des Zahlungszeitraums und Ermächtigung der <rs ref="#o.1 #o.2" type="multi-org">beauftragten Bankhäuser</rs>, einen Teil der Wechselbriefe über
                außerhalb <country>Frankreichs</country> gelegene Orte auszuzahlen.</p>
@@ -199,7 +202,8 @@
                   pécuniaires,</ref> et dont le crédit universellement reconnu a déterminé les Cours
                Alliées non seulement à accepter en payement les lettres de change, tirées sur ces
                maisons par le trésor de <country>France</country> pour la somme de 165 Millions,
-               restant à acquitter d’après l’article VI de la <rs ref="#t.10" type="treaties">Convention du <date when="1818-10-09">9 Octobre</date></rs>, mais encore à faire réaliser par leur
+               restant à acquitter d’après l’article VI de la <rs ref="#t.10" type="treaties">Convention du <date when="1818-10-09">9 Octobre</date>
+                    </rs>, mais encore à faire réaliser par leur
                entremise la somme de 100 Millions valeur effective, payable en inscriptions de rente
                d’après l’article V de la même convention, avoient déclaré qu’elles pourroient
                effectuer en neuf termes les différens payemens<pb n="182v"/> dont elles se
@@ -210,7 +214,8 @@
                sembloient pleinement justifier l’opinion que les termes proposés par <rs ref="#o.1 #o.2" type="multi-org">les dites maisons de banque</rs> ne dépassoient pas la limite des
                moyens disponibles, et pouvoient être acceptés et maintenus sans aucun inconvénient
                ni pour la <country>France</country>, ni pour les puissances créancières.</p>
-            <p>Tel étoit l’état des choses lorsque la <rs ref="#t.10" type="treaties">Convention du <date when="1818-10-09">9 Octobre</date></rs> fut signée. Mais dès les derniers jours
+            <p>Tel étoit l’état des choses lorsque la <rs ref="#t.10" type="treaties">Convention du <date when="1818-10-09">9 Octobre</date>
+                    </rs> fut signée. Mais dès les derniers jours
                du même mois plusieurs symptômes, dont il étoit impossible de se dissimuler
                   l’importance,<pb n="187r"/> avertirent le Gouvernement François que, malgré
                l’étendue des ressources que les <rs ref="#p.20 #p.23" type="multi-person">banquiers</rs>, chargés de ses
@@ -218,7 +223,8 @@
                dans les délais stipulés sans exposer directement la circulation de <placeName ref="#loc.2">Paris</placeName> et de la <country>France</country>, et
                indirectement celle de toute l’Europe commerçante, à de graves inconvéniens. Quoique
                les charges pécuniaires que le <rs ref="#t.1" type="treaties">traité du <date when="1815-11-20">20
-                     Novembre 1815</date></rs> avoit imposées à la <country>France</country> eussent
+                     Novembre 1815</date>
+                    </rs> avoit imposées à la <country>France</country> eussent
                été en très grande Partie acquittées par des revivemens de commerce, par des
                opérations de change, et par tous ces moyens artificiels qui, dans l’état
                perfectionné des communications réciproques des pays, remplacent le numéraire
@@ -280,10 +286,12 @@
             <p>Indépendamment de ces considérations majeures, la valeur des effets publics de
                   <country>France</country> a, dans l’époque actuelle, un intérêt particulier pour
                les Puissances qui ont eu part aux <rs ref="#t.1 #t.2 #t.3 #t.4 #t.5" type="multi-treaties">traités du
-                     <date when="1815-11-20">20 Novembre 1815</date></rs> et à la <rs ref="#t.7" type="treaties">Convention du <date when="1818-04-25">25 <subst>
+                     <date when="1815-11-20">20 Novembre 1815</date>
+                    </rs> et à la <rs ref="#t.7" type="treaties">Convention du <date when="1818-04-25">25 <subst>
                         <del rendition="#s">Mai</del>
                         <add hand="#G" place="above">Avril</add>
-                     </subst>1818</date></rs>. Car ayant stipulé au nom de leurs sujets créanciers
+                     </subst>1818</date>
+                    </rs>. Car ayant stipulé au nom de leurs sujets créanciers
                de la <country>France</country> qu’ils recevroient le montant de Leurs créances en
                inscriptions sur le grand livre de sa dette publique, elles ne doivent négliger aucun
                des moyens à leur portée pour<pb n="190r"/> empêcher que les valeurs que les
@@ -299,7 +307,8 @@
                pareil dans un espace de tems trop limité, le Gouvernement François a proposé aux
                Puissances créancières d’admettre dans les arrangemens convenus les deux<pb n="190v"/> modifications suivantes, savoir : </p>
             <p>1. Celle de prolonger à dix-huit mois les termes des payemens fixés à neuf mois par
-               la <rs ref="#t.10" type="treaties">Convention du <date when="1818-10-09">9 Octobre</date></rs> ; </p>
+               la <rs ref="#t.10" type="treaties">Convention du <date when="1818-10-09">9 Octobre</date>
+                    </rs> ; </p>
             <p>2. Celle de donner aux maisons contractantes la faculté d’acquitter une partie de
                leurs engagemens en lettres de change sur certaines places hors de
                   <country>France</country> qui seroient spécialement déterminées.</p>
@@ -309,7 +318,8 @@
                reconnoître,</p>
             <p>Que les modifications proposées n’altèrent en rien ni la nature, ni la solidité des
                engagemens primitifs, ni celles des garanties sur lesquelles reposent en dernière
-               analyse toutes les stipulations pécuniaires de la <rs ref="#t.10" type="treaties">convention du <date when="1818-10-09">9 Octobre</date></rs> ;</p>
+               analyse toutes les stipulations pécuniaires de la <rs ref="#t.10" type="treaties">convention du <date when="1818-10-09">9 Octobre</date>
+                    </rs> ;</p>
             <pb n="191r"/>
             <p>Que ces modifications ne sauroient affecter en aucune manière la Confiance que les
                puissances ont accordée aux maisons contractantes, attendu que ces maisons se sont
@@ -330,7 +340,8 @@
                arrangement, il n’en résulte pour les autres puissances aucune perte réelle.</p>
             <p>Les <rs ref="#p.8 #p.9 #p.11 #p.12 #p.13 #p.14" type="multi-person">Plénipotentiaires des Quatre
                   puissances</rs> ont adhéré aux modifications proposées par le <rs ref="#p.1" type="person">Plénipotentiaire de France</rs> aux stipulations de la <rs ref="#t.10" type="treaties">Convention
-                  du <date when="1818-10-09">9 Octobre</date></rs> et, de concert avec Lui, les ont
+                  du <date when="1818-10-09">9 Octobre</date>
+                    </rs> et, de concert avec Lui, les ont
                rédigées et arrêtées telles qu’elles se trouvent insérées au <ref target="Aachen_Prot_29.xml">Protocole signé le <date when="1818-11-11">11
                      Novembre</date>
                     </ref>.</p>

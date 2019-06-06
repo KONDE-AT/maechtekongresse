@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/kongress/editions" xml:id="Laibach_Prot_6.xml" prev="https://id.acdh.oeaw.ac.at/kongress/editions/Laibach_Prot_5.xml" next="https://id.acdh.oeaw.ac.at/kongress/editions/Laibach_Prot_7.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -54,7 +54,8 @@
                Zeitgeschichtsforschung</publisher>
             <pubPlace>Wien</pubPlace>
 <date when="2018-09-23" change="#initial">2018-09-23</date>
-            <idno>L_06</idno><idno type="ISBN" n="9783950478303">978-3-9504783-0-3</idno>
+            <idno>L_06</idno>
+                <idno type="ISBN" n="9783950478303">978-3-9504783-0-3</idno>
                  <availability>           <licence target="https://creativecommons.org/licenses/by-sa/4.0/legalcode.de">https://creativecommons.org/licenses/by-sa/4.0/legalcode.de</licence>         </availability> </publicationStmt>
             <notesStmt>
     <note>Vergleiche auch die Projektbeschreibung in der <ref type="URI" target="../meta/Einleitung.xml">Einleitung</ref> sowie die Dokumentation der Applikation unter <ref type="URI" target="../meta/about.xml">„Über diese Webseite“</ref>.</note>
@@ -172,12 +173,16 @@
       <profileDesc>
          <abstract>
             <p>Der neapolitanische Gesandte <persName ref="#p.140">
-                        <surname>Ruffo</surname></persName> übermittelt das Schreiben des <rs ref="#p.138" type="person">Königs beider Sizilien</rs> an <rs ref="#p.141" type="person">seinen Sohn</rs>. Die
+                        <surname>Ruffo</surname>
+                    </persName> übermittelt das Schreiben des <rs ref="#p.138" type="person">Königs beider Sizilien</rs> an <rs ref="#p.141" type="person">seinen Sohn</rs>. Die
                   <rs ref="#p.8 #p.2 #p.12 #p.13 #p.14 #p.7" type="multi-person">Gesandten der Mächte</rs> informieren
                   <persName ref="#p.140">
-                        <surname>Ruffo</surname></persName>, dass die <rs ref="#p.144 #p.148 #p.149" type="multi-person">diplomatischen Vertreter in <placeName ref="#loc.11">Neapel</placeName></rs> Instruktionen betreffend den Stand der Verhandlungen
+                        <surname>Ruffo</surname>
+                    </persName>, dass die <rs ref="#p.144 #p.148 #p.149" type="multi-person">diplomatischen Vertreter in <placeName ref="#loc.11">Neapel</placeName>
+                    </rs> Instruktionen betreffend den Stand der Verhandlungen
                erhalten werden. <persName ref="#p.140">
-                        <surname>Ruffo</surname></persName>
+                        <surname>Ruffo</surname>
+                    </persName>
                unterrichtet die Gesandten von der Absicht des <rs ref="#p.138" type="person">Königs</rs>,
                   <persName ref="#p.142">
                         <forename>Marzio</forename>
@@ -254,7 +259,8 @@
                   <expan>Monsieur</expan>
                </choice> le <persName ref="#p.140">
                         <roleName>Prince</roleName>
-                  <surname>de Ruffo</surname></persName> a communiqué aujourd’hui à la Conférence la
+                  <surname>de Ruffo</surname>
+                    </persName> a communiqué aujourd’hui à la Conférence la
                lettre, <ref decls="#m.2">dont copie ci-jointe</ref>, que <choice>
                   <abbr>S. M.</abbr>
                   <expan>Sa Majesté</expan>
@@ -262,7 +268,8 @@
                   <abbr>S. A. R.</abbr>
                   <expan>Son Altesse Royale</expan>
                </choice> le <rs ref="#p.141" type="person">
-                        <roleName>Duc de Calabre</roleName></rs>. <choice>
+                        <roleName>Duc de Calabre</roleName>
+                    </rs>. <choice>
                   <abbr>M<hi rendition="#su">rs</hi>
                         </abbr>
                   <expan>Messieurs</expan>
@@ -275,12 +282,14 @@
                   <expan>Monsieur</expan>
                </choice> le <persName ref="#p.140">
                         <roleName>Prince</roleName>
-                  <surname>de Ruffo</surname></persName> que, conformément au désir que <rs ref="#p.138" type="person">
+                  <surname>de Ruffo</surname>
+                    </persName> que, conformément au désir que <rs ref="#p.138" type="person">
                         <choice>
                      <abbr>S. M.</abbr>
                      <expan>Sa Majesté</expan>
                   </choice> Sicilienne</rs> avait témoigné dans sa <ref target="Laibach_Prot_5.xml">déclaration du <date when="1821-01-19">19</date>
-                    </ref>, la lettre du <rs ref="#p.138" type="person">Roi</rs> sera accompagnée d’Instructions adressées aux <rs ref="#p.144 #p.148 #p.149" type="multi-person">Ministres ou Agens diplomatiques résidant à <placeName ref="#loc.11">Naples</placeName></rs> ; instructions dans lesquelles on fera
+                    </ref>, la lettre du <rs ref="#p.138" type="person">Roi</rs> sera accompagnée d’Instructions adressées aux <rs ref="#p.144 #p.148 #p.149" type="multi-person">Ministres ou Agens diplomatiques résidant à <placeName ref="#loc.11">Naples</placeName>
+                    </rs> ; instructions dans lesquelles on fera
                entrer la substance de ce qui se trouve consigné dans les Journaux des Conférences
                précédentes et dont les dits agens feront usage pour coopérer aux succès de la
                démarche du <rs ref="#p.138" type="person">Roi</rs>.</p>
@@ -291,7 +300,8 @@
                   <expan>Monsieur</expan>
                </choice> le <persName ref="#p.140">
                         <roleName>Prince</roleName>
-                  <surname>de Ruffo</surname></persName> a annoncé ensuite que <choice>
+                  <surname>de Ruffo</surname>
+                    </persName> a annoncé ensuite que <choice>
                   <abbr>S. M.</abbr>
                   <expan>Sa Majesté</expan>
                </choice> le <rs ref="#p.138" type="person">Roi</rs> avait l’intention d’appeler auprès de sa
@@ -312,7 +322,8 @@
                   <expan>Monsieur</expan>
                </choice> le <persName ref="#p.140">
                         <roleName>Prince</roleName>
-                  <surname>Ruffo</surname></persName> que, vu qu’il ne s’agissait dans cette
+                  <surname>Ruffo</surname>
+                    </persName> que, vu qu’il ne s’agissait dans cette
                occasion que d’une simple communication à faire à <choice>
                   <abbr>M<hi rendition="#su">r</hi>
                         </abbr>
@@ -334,7 +345,8 @@
                 </p>
             <signed rendition="#r">
                     <persName ref="#p.5">
-                        <surname>Gentz</surname></persName>
+                        <surname>Gentz</surname>
+                    </persName>
                 </signed>
          </div>
 
@@ -359,7 +371,9 @@
                luogo dalla parte dei Gabinetti riuniti a <placeName ref="#loc.60">Troppau</placeName>, non mi è restato più dubbio alcuno sulla maniera colla quale
                le Potenza giudicano <rs xml:id="n.2">gli avvenimenti accaduti in
                      <country>Napoli</country> dal <date when="1820-07-02">2 di
-                  Luglio</date></rs><note type="editorial" target="#n.2">Am <date when="1820-07-02">2. Juli 1820</date> meuterte die Militärgarnison in Nola, 35 km von <placeName ref="#loc.11">Neapel</placeName> entfernt. Das Datum gilt als Beginn der
+                  Luglio</date>
+                    </rs>
+                    <note type="editorial" target="#n.2">Am <date when="1820-07-02">2. Juli 1820</date> meuterte die Militärgarnison in Nola, 35 km von <placeName ref="#loc.11">Neapel</placeName> entfernt. Das Datum gilt als Beginn der
                        Revolution im <country>Königreich beider Sizilien</country>. Vgl. Romani, The Neapolitan Revolution; Stites, The four
                   Horsemen; Davis, Naples and Napoleon; Gin, Sanfedisti, Carbonari, Magistrati del
                   Re; Späth, Revolution in Europa, S. 129–149.</note> fino a questo giorno. Le ho

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/kongress/editions" xml:id="Verona_I_18.xml" prev="https://id.acdh.oeaw.ac.at/kongress/editions/Verona_I_17.xml" next="https://id.acdh.oeaw.ac.at/kongress/editions/Verona_I_19.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -55,7 +55,8 @@
                Zeitgeschichtsforschung</publisher>
             <pubPlace>Wien</pubPlace>
 <date when="2018-09-23" change="#initial">2018-09-23</date>
-            <idno>V_I_18</idno><idno type="ISBN" n="9783950478303">978-3-9504783-0-3</idno>
+            <idno>V_I_18</idno>
+                <idno type="ISBN" n="9783950478303">978-3-9504783-0-3</idno>
                  <availability>           <licence target="https://creativecommons.org/licenses/by-sa/4.0/legalcode.de">https://creativecommons.org/licenses/by-sa/4.0/legalcode.de</licence>         </availability> </publicationStmt>
             <notesStmt>
     <note>Vergleiche auch die Projektbeschreibung in der <ref type="URI" target="../meta/Einleitung.xml">Einleitung</ref> sowie die Dokumentation der Applikation unter <ref type="URI" target="../meta/about.xml">„Über diese Webseite“</ref>.</note>
@@ -133,7 +134,8 @@
          <abstract>
             <p>Die Vertreter Österreichs, Preußens und Russlands sprechen den Inhalt der
                Instruktionen an ihre jeweiligen <rs ref="#p.2 #p.4 #p.7" type="multi-person">diplomatischen Vertreter in
-                     <placeName ref="#loc.2">Paris</placeName></rs> ab.</p>
+                     <placeName ref="#loc.2">Paris</placeName>
+                    </rs> ab.</p>
          </abstract>
          <particDesc>
             <listPerson>
@@ -187,7 +189,8 @@
                règle positive pour leur conduite, sont convenus des points suivans :</p>
             <p>1<hi rendition="#su">o</hi> Ils est entendu que dans le cas où la
                   <country>France</country> ne se réunirait pas aux résolutions prises par les trois
-               Cabinets, <rs ref="#p.2 #p.4 #p.7" type="multi-person">Leurs Représentans à <placeName ref="#loc.2">Paris</placeName></rs> feront parvenir à <placeName ref="#loc.24">Madrid</placeName> les ordres et instructions destinés à être communiqués au
+               Cabinets, <rs ref="#p.2 #p.4 #p.7" type="multi-person">Leurs Représentans à <placeName ref="#loc.2">Paris</placeName>
+                    </rs> feront parvenir à <placeName ref="#loc.24">Madrid</placeName> les ordres et instructions destinés à être communiqués au
                Gouvernement Espagnol.</p>
             <p>2<hi rendition="#su">o</hi> Si la <country>France</country> consent à se réunir aux
                trois Cabinets et qu’Elle demande un délai pour recevoir des nouvelles de <placeName ref="#loc.8">Londres</placeName>, les Ministres à <placeName ref="#loc.2">Paris</placeName> se concerteront avec le<pb n="267v"/> Cabinet français sur ce
