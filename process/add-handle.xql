@@ -13,7 +13,7 @@ import module namespace app="http://www.digital-archiv.at/ns/kongress/templates"
 (: a script to create handle pids and write them as <tei:idno> elements into the according TEI-Files, 
  : based upon https://github.com/acdh-oeaw/cr-xq-mets/blob/master/src/modules/resource/handle.xqm
  : call with ?auth=YOURUSERNAME:YOURPASSWORD:)
-let $archeBaseUrl := "https://id.acdh.oeaw.ac.at/kongress"
+let $archeBaseUrl := "https://id.acdh.oeaw.ac.at/maechtekongresse"
 let $versionNo := ""
 let $root := if ($versionNo != "")
     then
@@ -21,7 +21,7 @@ let $root := if ($versionNo != "")
     else
         $archeBaseUrl
 let $resolver := "http://hdl.handle.net/21.11115/"
-let $auth := request:get-parameter('auth', 'USERNAME:PW')
+let $auth := request:get-parameter('auth', 'user:pw')
 
 for $x in xmldb:get-child-collections($config:data-root)
     for $doc in xmldb:get-child-resources($config:data-root||'/'||$x)
