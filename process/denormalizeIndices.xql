@@ -45,17 +45,39 @@ for $x in collection($app:editions)//tei:TEI
         }
     </listBibl>
     
+    let $listwit :=
+    <listWit xmlns="http://www.tei-c.org/ns/1.0">
+       {
+        for $y in $persons
+            let $node := doc($app:listWittnes)//tei:body//id(substring-after($y, '#'))
+                return $node
+        }
+    </listWit>
+    
+    let $listorg :=
+    <listOrg xmlns="http://www.tei-c.org/ns/1.0">
+       {
+        for $y in $persons
+            let $node := doc($app:orgIndex)//tei:body//id(substring-after($y, '#'))
+                return $node
+        }
+    </listOrg>
+    
     
    
-    let $validlistperson := if ($listperson/tei:person) then $listperson else ()
-    let $validlistplace := if ($listplace/tei:place) then $listplace else ()
+    let $listperson := if ($listperson/tei:person) then $listperson else ()
+    let $listplace := if ($listplace/tei:place) then $listplace else ()
     let $listbible := if ($listbible/tei:bibl) then $listbible else ()
+    let $listwit := if ($listwit/tei:bibl) then $listwit else ()
+    let $listorg := if ($listorg/tei:bibl) then $listorg else ()
 
     let $back := 
     <back xmlns="http://www.tei-c.org/ns/1.0">
-        {$validlistperson}
-        {$validlistplace}
+        {$listperson}
+        {$listplace}
         {$listbible}
+        {$listwit}
+        {$listorg}
     </back>
     
     let $update := update insert $back into $x/tei:text
