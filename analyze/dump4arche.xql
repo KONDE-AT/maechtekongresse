@@ -14,6 +14,8 @@ let $about := doc($app:data||'/project.rdf')/rdf:RDF
 let $topCollection := $about//acdh:Collection[not(acdh:isPartOf)]
 let $childCollections := $about//acdh:Collection[acdh:isPartOf]
 let $customResources := $about//acdh:Resource
+let $personURL := "https://id.acdh.oeaw.ac.at/maechtekongresse/persons/"
+let $placeURL := "https://id.acdh.oeaw.ac.at/maechtekongresse/place/"
 
 let $license := <acdh:hasLicense rdf:resource="https://creativecommons.org/licenses/by-sa/4.0/"/>
 let $current_date := current-date()
@@ -77,8 +79,8 @@ let $RDF :=
                 let $collection-uri := $app:data||'/'||$collName
                 let $document-names := xmldb:get-child-resources($collection-uri)
                 let $sample := $document-names
+                for $doc in $sample
 (:                for $doc in subsequence($sample, 1, 3):)
-                for $doc in subsequence($sample, 1, 3)
                 let $resID := string-join(($collection-uri, $doc), '/')
                 let $node := try {
                         doc($resID)
@@ -86,7 +88,7 @@ let $RDF :=
                         false()
                     }
                 let $title := try {
-                        <acdh:hasTitle>{normalize-space(string-join($node//tei:titleStmt//tei:title[1]/text()[not(parent::*:note)], ' '))}</acdh:hasTitle>
+                        <acdh:hasTitle>{normalize-space(string-join($node//tei:titleStmt//tei:title[@type='main']/text()[not(parent::*:note)], ' '))}</acdh:hasTitle>
                     } catch * {
                         <acdh:hasTitle>{$doc}</acdh:hasTitle>
                     }
@@ -102,31 +104,37 @@ let $RDF :=
                     <acdh:hasDescription>{normalize-space(string-join($node//tei:abstract//text()))}</acdh:hasDescription>
                     else ()
                let $persons := if($collName = 'editions') then
-                    for $per in $node//tei:listPerson//tei:person[./tei:idno[@type="URL"]]
-                         let $pername := $per//tei:surname[1]/text()
+                    for $per in $node//tei:listPerson//tei:person[@xml:id]
+                         let $pername := normalize-space(string-join($per//tei:persName[1]//text(), ' '))
                          let $firstname := $per//tei:forename[1]/text()
-                         let $perID := $per//tei:idno[@type="URL"][1]
+                         let $perID := $personURL||data($per/@xml:id)
                          return
                              <acdh:hasActor>
                                  <acdh:Person rdf:about="{$perID}">
                                      <acdh:hasLastName>{$pername}</acdh:hasLastName>
                                      <acdh:hasFirstName>{$firstname}</acdh:hasFirstName>
+                                     {for $id in $per//tei:idno
+                                        return <acdh:hasIdentifier rdf:resource="{$id/text()}"/>
+                                     }
                                  </acdh:Person>
                              </acdh:hasActor>
                     else ()
                 let $places := if($collName = 'editions') then
-                    for $item in $node//tei:listPlace//tei:place[./tei:idno]
-                         let $placename := $item//tei:placeName[1]/text()
-                         let $itemID := $item//tei:idno[1]
+                    for $item in $node//tei:listPlace//tei:place[@xml:id]
+                         let $placename := normalize-space(string-join($item//tei:placeName[1]/text(), ' '))
+                         let $itemID := $placeURL||data($item/@xml:id)
                          return
                              <acdh:hasSpatialCoverage>
                                  <acdh:Place rdf:about="{$itemID}">
                                      <acdh:hasTitle>{$placename}</acdh:hasTitle>
+                                     {for $id in $item//tei:idno
+                                        return <acdh:hasIdentifier rdf:resource="{$id/text()}"/>
+                                     }
                                  </acdh:Place>
                              </acdh:hasSpatialCoverage>
                     else ()
                 let $orgs := if($collName = 'editions') then
-                    for $item in $node//tei:listOrg//tei:org[./tei:idno[@subtype='GND']/text()]
+                    for $item in $node//tei:listOrg//tei:org
                          let $itemname := $item//tei:orgName[1]/text()
                          let $itemID := $item//tei:idno[1]
                          return
