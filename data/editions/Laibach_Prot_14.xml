@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/maechtekongresse/editions" xml:id="Laibach_Prot_14.xml" prev="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Laibach_Prot_13.xml" next="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Laibach_Prot_15.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -54,11 +54,13 @@
                Zeitgeschichtsforschung</publisher>
             <pubPlace>Wien</pubPlace>
 <date when="2018-09-23" change="#initial">2018-09-23</date>
-            <idno>L_14</idno><idno type="ISBN" n="9783950478303">978-3-9504783-0-3</idno>
+            <idno>L_14</idno>
+                <idno type="ISBN" n="9783950478303">978-3-9504783-0-3</idno>
             <availability>
                <licence target="https://creativecommons.org/licenses/by-sa/4.0/legalcode.de">https://creativecommons.org/licenses/by-sa/4.0/legalcode.de</licence>
             </availability>
-         </publicationStmt>
+         <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="handle">http://hdl.handle.net/21.11115/0000-000C-1F55-3</tei:idno>
+            </publicationStmt>
             <notesStmt>
     <note>Vergleiche auch die Projektbeschreibung in der <ref type="URI" target="../meta/Einleitung.xml">Einleitung</ref> sowie die Dokumentation der Applikation unter <ref type="URI" target="../meta/about.xml">„Über diese Webseite“</ref>.</note>
 </notesStmt>
@@ -342,7 +344,8 @@
                   <choice>
                      <abbr>S. M.</abbr>
                      <expan>Sa Majesté</expan>
-                  </choice></rs> se propose de reconstruire le Gouvernement de Son Royaume,</p>
+                  </choice>
+                    </rs> se propose de reconstruire le Gouvernement de Son Royaume,</p>
             <p>
                <choice>
                   <abbr>Mrs.</abbr>
@@ -356,10 +359,12 @@
                   <abbr>Mr.</abbr>
                   <expan>Monsieur</expan>
                </choice> le <rs ref="#p.161" type="person" xml:id="n.2">Ministre plénipotentiaire de
-                     <rs ref="#p.130" type="person">Sa Majesté Brittannique</rs></rs> à la cour de <placeName ref="#loc.7">Vienne</placeName>
+                     <rs ref="#p.130" type="person">Sa Majesté Brittannique</rs>
+                    </rs> à la cour de <placeName ref="#loc.7">Vienne</placeName>
                     <note type="editorial" target="#n.2">
                   <persName ref="#p.137">
-                     <surname>Stewart</surname></persName>, der den Botschafterposten in Wien inne hat, nimmt laut Anwesenheitsliste nicht an der Sitzung teil. Seinen Platz hat Gordon eingenommen.</note> s’est
+                     <surname>Stewart</surname>
+                        </persName>, der den Botschafterposten in Wien inne hat, nimmt laut Anwesenheitsliste nicht an der Sitzung teil. Seinen Platz hat Gordon eingenommen.</note> s’est
                référé aux <ref target="Laibach_Prot_7.xml">déclarations précédentes consignées au
                   Journal des conférences</ref> sur l’attitude de la
                   <country>Grande-Bretagne</country> pour prouver qu’il n’est point autorisé à
@@ -381,7 +386,8 @@
             </p>
             <signed rendition="#r">
                <persName ref="#p.5">
-                  <surname>Gentz</surname></persName>
+                  <surname>Gentz</surname>
+                    </persName>
             </signed>
          </div>
 
@@ -403,7 +409,8 @@
             
             <p>Sa Majesté l’<rs ref="#p.16" type="person">Empereur d’Autriche</rs>, s’étant portée
                dès les <rs xml:id="n.3">déplorables Catastrophes survenues dans le <country>Royaume
-                     de Naples</country> au commencement du mois de Juillet dernier</rs><note type="editorial" target="#n.3">Am <date when="1820-07-02">2. Juli 1820</date>
+                     de Naples</country> au commencement du mois de Juillet dernier</rs>
+                    <note type="editorial" target="#n.3">Am <date when="1820-07-02">2. Juli 1820</date>
                   meuterte die Militärgarnison in Nola, 35 km von <placeName ref="#loc.11">Neapel</placeName> entfernt. Das Datum gilt als Beginn der Revolution im
                      <country>Königreich beider Sizilien</country>. Vgl. Romani, The Neapolitan Revolution; Stites, The four Horsemen;
                   Davis, Naples and Napoleon; Gin, Sanfedisti, Carbonari, Magistrati del Re; Späth,
@@ -456,7 +463,8 @@
             <p>Le <rs ref="#p.138" type="person">Roi</rs> vient de fixer les premières bases sur
                lesquelles Il entend reconstruire Son Gouvernement.</p>
             <p>
-               Les <rs ref="#p.166 #p.167 #p.164 #p.168 #p.165" type="multi-person">Plénipotentiaires des <rs ref="#p.169 #p.155 #p.170 #p.171" type="multi-person">Souverains d’Italie</rs></rs> <ref target="Laibach_Prot_13.xml">ayant déclaré</ref> ne rien trouver dans ces bases qui fût contraire au maintien
+               Les <rs ref="#p.166 #p.167 #p.164 #p.168 #p.165" type="multi-person">Plénipotentiaires des <rs ref="#p.169 #p.155 #p.170 #p.171" type="multi-person">Souverains d’Italie</rs>
+                    </rs> <ref target="Laibach_Prot_13.xml">ayant déclaré</ref> ne rien trouver dans ces bases qui fût contraire au maintien
                   de la tranquillité générale de l’Italie, et l’<rs ref="#p.16" type="person">Empereur</rs> regardant <rs ref="#p.169 #p.155 #p.170 #p.171" type="multi-person">ces Princes</rs> comme les plus immédiatement intéressés aux conséquences que
                tout système de Gouvernement, adopté par l’un ou par l’autre des Etats d’Italie, doit
                nécessairement produire sur la Péninsule toute entière comme sur chacun de Ses Etats
@@ -471,7 +479,8 @@
                      <abbr>S. M. <unclear>I</unclear>
                      </abbr>
                      <expan>Sa Majesté Impériale</expan>
-                  </choice></rs> m’a <subst>
+                  </choice>
+                    </rs> m’a <subst>
                   <del rendition="#s">chargé</del> 
                   <add place="above">ordonné</add>
                </subst> d’exprimer les vœux sincères qu’Elle forme pour que les intentions justes et
@@ -523,14 +532,16 @@
                   1821</date>.</dateline>
                 </opener>
 
-            <p>Les <rs ref="#p.12 #p.136" type="multi-person">Plénipotentiaires de Sa Majesté le <rs ref="#p.18" type="multi-person">Roi de Prusse</rs></rs> ont accueilli avec le plus vif intérêt la
+            <p>Les <rs ref="#p.12 #p.136" type="multi-person">Plénipotentiaires de Sa Majesté le <rs ref="#p.18" type="multi-person">Roi de Prusse</rs>
+                    </rs> ont accueilli avec le plus vif intérêt la
                   communication des bases d’une loi fondamentale pour le <country>Royaume des
                      deux-Siciles</country> que <choice>
                      <abbr>Mr.</abbr>
                      <expan>Monsieur</expan>
                   </choice> le <persName ref="#p.140">
                      <roleName>Prince</roleName>
-                     <surname>de Ruffo</surname></persName> a, d’ordre de <rs ref="#p.138" type="person">son auguste
+                     <surname>de Ruffo</surname>
+                    </persName> a, d’ordre de <rs ref="#p.138" type="person">son auguste
                      Souverain</rs>, faite à l’assemblée du Congrès dans la <ref target="Laibach_Prot_12.xml">Conférence du <date when="1821-02-20">20 de ce mois</date>
                     </ref>.</p>
             <p>La confiance qu’ils prennent dans les intentions qui leur ont été annoncées au nom de
@@ -563,13 +574,16 @@
                      <expan>Monsieur</expan>
                   </choice> le <persName ref="#p.140">
                      <roleName>Prince</roleName>
-                     <surname>de Ruffo</surname></persName> dans la <ref target="Laibach_Prot_12.xml">séance du <date when="1820-02-20">20 Février</date>
+                     <surname>de Ruffo</surname>
+                    </persName> dans la <ref target="Laibach_Prot_12.xml">séance du <date when="1820-02-20">20 Février</date>
                     </ref>, et <rs ref="#p.17" type="person">Sa Majesté</rs> a vivement apprécié le
                témoignage de confiance que le <rs ref="#p.138" type="person">Roi</rs> a cru devoir
                donner à <rs ref="#p.16 #p.18 #p.17" type="multi-person">Ses augustes alliés</rs>, en
                Les instruisant de Ses vues concernant la réorganisation politique de Ses Etats.
                L’ordre de choses à établir dans le <country>Royaume de Naples</country> à la suite
-               des troubles et des malheurs que <rs xml:id="n.4">les évènemens du <date when="1820-07-02">2 Juillet</date></rs><note type="editorial" target="#n.4">Am <date when="1820-07-02">2. Juli 1820</date>
+               des troubles et des malheurs que <rs xml:id="n.4">les évènemens du <date when="1820-07-02">2 Juillet</date>
+                    </rs>
+                    <note type="editorial" target="#n.4">Am <date when="1820-07-02">2. Juli 1820</date>
                   meuterte die Militärgarnison in Nola, 35 km von <placeName ref="#loc.11">Neapel</placeName> entfernt. Das Datum gilt als Beginn der Revolution im
                        <country>Königreich beider Sizilien</country>. Vgl. Romani, The Neapolitan Revolution; Stites, The four Horsemen;
                   Davis, Naples and Napoleon; Gin, Sanfedisti, Carbonari, Magistrati del Re; Späth,
@@ -591,7 +605,8 @@
                      <expan>Monsieur</expan>
                   </choice> le <persName ref="#p.140">
                      <roleName>Prince</roleName>
-                     <surname>de Ruffo</surname></persName>, sont de nature à répondre à l’attente légitime des autres Puissances
+                     <surname>de Ruffo</surname>
+                        </persName>, sont de nature à répondre à l’attente légitime des autres Puissances
                   de la Péninsule</ref>, l’<rs ref="#p.17" type="person">Empereur</rs> forme, comme
                elles, les vœux les plus ardens pour que les<pb n="121r"/> effets de la nouvelle loi
                fondamentale du <country>Royaume des Deux-Siciles</country> justifient les intentions
@@ -613,13 +628,395 @@
                   Etats.</p>
          </div>
       </body>
-      <back>
-         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../indices/listplace.xml" xpointer="listPlace"/>
-         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../indices/listperson.xml" xpointer="listPerson"/>
-         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../indices/listwit.xml" xpointer="listWit"/>
-         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../indices/listorg.xml" xpointer="listOrg"/>
-         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../indices/listtreaties.xml" xpointer="listTreaties"/>
-
-      </back>
-   </text>
+      
+   <back>
+            <listPerson>
+                <person xml:id="p.8">
+                    <persName>
+                        <surname>Metternich</surname>
+                        <forename>Clemens Wenzel Lothar</forename>
+                        <roleName>Fürst</roleName>
+                    </persName>
+                    <birth>1773</birth>
+                    <death>1859</death>
+                    <note>Österreichischer Außenminister, ab 1821 österreichischer Haus-, Hof- und
+                        Staatskanzler; vgl. zu seiner Person Siemann, Metternich; Šedivý,
+                        Metternich; Srbik, Metternich; Schneider, Werner, Europa in Wien, S.
+                        237–239.</note>
+                    <idno type="URI">https://viaf.org/viaf/49258230/</idno>
+                </person>
+                <person xml:id="p.2">
+                    <persName>
+                        <forename>Karl</forename>
+                        <surname>von Vincent</surname>
+                    </persName>
+                    <birth>1757</birth>
+                    <death>1834</death>
+                    <note>Österreichischer Gesandter in Paris; vgl. zu seiner Person Schlitter,
+                        Vincent, Karl Freiherr von. In: ADB, Bd. 39, S 732–734.</note>
+                    <idno type="URI">https://viaf.org/viaf/95669732/</idno>
+                </person>
+                <person xml:id="p.160">
+                    <persName>
+                        <forename>Pierre Louis Jean Casimir</forename>
+                        <roleName>comte</roleName>
+                        <surname>Blacas d’Aulps</surname>
+                    </persName>
+                    <birth>1770</birth>
+                    <birth>1771</birth>
+                    <death>1839</death>
+                    <note>Vgl. zu seiner Person Michaud, Biographie universelle, Bd. 4, S.
+                        381–385.</note>
+                    <idno type="URI">http://viaf.org/viaf/20825975/</idno>
+                </person>
+                <person xml:id="p.102">
+                    <persName>
+                        <forename>Louis Charles Victor</forename>
+                        <surname>de Riquet</surname>
+                        <roleName>marquis de Caraman</roleName>
+                    </persName>
+                    <birth>1762</birth>
+                    <death>1839</death>
+                    <note>1818 Gesandter Frankreichs in London, 1820 Gesandter Frankreichs in Wien,
+                        1820/21 Vertreter Frankreichs auf den Kongressen von Troppau, Laibach und
+                        Verona; vgl. zu seiner Person Michaud, Biographie Universelle, Bd. 6, S.
+                        630–631.</note>
+                    <idno type="URI">https://viaf.org/viaf/2675/</idno>
+                </person>
+                <person xml:id="p.135">
+                    <persName>
+                        <forename>Auguste</forename>
+                        <surname>Ferron</surname>
+                        <roleName>comte de La Ferronnays</roleName>
+                    </persName>
+                    <birth>1777</birth>
+                    <death>1842</death>
+                    <note>Französischer Botschafter in St. Petersburg, Mitglied der französischen
+                        Delegation in Troppau und Verona; vgl. zu seiner Person Michaud, Biographie
+                        Universelle, Bd. 14, S. 24–25.</note>
+                    <idno type="URI">https://viaf.org/viaf/2463675/</idno>
+                </person>
+                <person xml:id="p.12">
+                    <persName>
+                        <forename>Christian Günther</forename>
+                        <roleName>Graf</roleName>
+                        <surname>von Bernstorff</surname>
+                    </persName>
+                    <birth>1769</birth>
+                    <death>1835</death>
+                    <note>Preußischer Außenminister, Bevollmächtigter Preußens; vgl. zu seiner
+                        Person Kellenbenz, Bernstorff, Christian Graf von. In: NDB, Bd. 2, S.
+                        139–140; Schneider, Werner, Europa in Wien, S. 116–117.</note>
+                    <idno type="URI">https://viaf.org/viaf/49969175/</idno>
+                </person>
+                <person xml:id="p.136">
+                    <persName>
+                        <forename>Friedrich Wilhelm Ludwig</forename>
+                        <surname>von Krusemarck</surname>
+                    </persName>
+                    <birth>1767</birth>
+                    <death>1822</death>
+                    <note>Mitglied der preußischen Delegation beim Kongress von Troppau; vgl.
+                        Bailleu, Krusemarck, Friedrich Wilhelm Ludwig von. In: ADB, Bd. 17, S.
+                        269–270.</note>
+                    <idno type="URI">https://viaf.org/viaf/72148713/</idno>
+                </person>
+                <person xml:id="p.13">
+                    <persName>
+                        <forename>Karl Robert</forename>
+                        <roleName>Graf</roleName>
+                        <surname>von Nesselrode</surname>
+                    </persName>
+                    <birth>1780</birth>
+                    <death>1862</death>
+                    <note>Russischer Außenminister, Bevollmächtigter Russlands; vgl. zu seiner
+                        Person Eich, Nesselrode, Robert Graf von. In: NDB, Bd. 19, S. 74–75;
+                        Grimsted, The Foreign Ministers, S. 194–225, 269–286; Schneider, Werner,
+                        Europa in Wien, S. 248–249.</note>
+                    <idno type="URI">https://viaf.org/viaf/49992065/</idno>
+                </person>
+                <person xml:id="p.14">
+                    <persName>
+                        <forename>Ioannis Antonis</forename>
+                        <roleName>Graf</roleName>
+                        <surname>Kapodistrias/Capodistrias</surname>
+                    </persName>
+                    <birth>1776</birth>
+                    <death>1831</death>
+                    <note>Russischer Außenminister, Bevollmächtigter Russlands; vgl. zu seiner
+                        Person Woodhouse, Capodistrias; Grimsted, The Foreign Ministers, S. 226–268;
+                        Schneider, Werner, Europa in Wien, S. 199–200.</note>
+                    <idno type="URI">https://viaf.org/viaf/39507057/</idno>
+                </person>
+                <person xml:id="p.7">
+                    <persName>
+                        <forename>Carlo Andrea</forename>
+                        <surname>Pozzo di Borgo</surname>
+                    </persName>
+                    <birth>1764</birth>
+                    <death>1842</death>
+                    <note>Russischer Gesandter in Paris; vgl. zu seiner Person Capefigue, Les
+                        diplomates européens, S. 123–189; Schneider, Werner, Europa in Wien, S.
+                        260–261.</note>
+                    <idno type="URI">https://viaf.org/viaf/10593226/</idno>
+                </person>
+                <person xml:id="p.138">
+                    <persName>
+                        <surname>Ferdinand/Ferdinando I.</surname>
+                        <roleName>König beider Sizilien</roleName>
+                    </persName>
+                    <birth>1751</birth>
+                    <death>1825</death>
+                    <note>1759-1806 Ferdinand IV. von Neapel, 1769-1815 Ferdinand III. von Sizilien,
+                        ab 1815/16 König beider Sizilien vgl. de Maio, Ferdinando I di Bourbone, re
+                        delle due Sicilie, auf <ref target="http://www.treccani.it/enciclopedia/ferdinando-i-di-borbone-re-delle-due-sicilie_(Dizionario-Biografico">http://www.treccani.it/enciclopedia/ferdinando-i-di-borbone-re-delle-due-sicilie_(Dizionario-Biografico</ref>)
+                        (eingesehen am 31. Juli 2017).</note>
+                    <idno type="URI">https://viaf.org/viaf/16073751/</idno>
+                </person>
+                <person xml:id="p.167">
+                    <persName>
+                        <forename>Cesare Ambrogio</forename>
+                        <surname>San Martino</surname>
+                        <roleName>conte di Aglié</roleName>
+                    </persName>
+                    <birth>1770</birth>
+                    <death>1847</death>
+                    <note>Vertreter des Königreichs Sardinien-Piemont auf dem Kongress von Laibach;
+                        vgl. zu seiner Person Baudi di Vesme, Aglié, Cesare Ambrogio San Martino
+                        conte di, auf <ref target="http://www.treccani.it/enciclopedia/cesare-ambrogio-san-martino-conte-di-aglie_%28Dizionario-Biografico%29/">http://www.treccani.it/enciclopedia/cesare-ambrogio-san-martino-conte-di-aglie_%28Dizionario-Biografico%29/</ref>
+                        (eingesehen am 11. Dezember 2017).</note>
+                </person>
+                <person xml:id="p.168">
+                    <persName>
+                        <forename>Neri</forename>
+                        <roleName>principe</roleName>
+                        <surname>Corsini</surname>
+                    </persName>
+                    <birth>1771</birth>
+                    <death>1845</death>
+                    <note>Vertreter des Großherzogtums Toskana auf dem Kongress von Laibach; vgl. zu
+                        seiner Person Danelon Vasoli, Corsini, Neri, auf <ref target="http://www.treccani.it/enciclopedia/neri-corsini_res-586301db-87eb-11dc-8e9d-0016357eee51_%28Dizionario-Biografico%29/">http://www.treccani.it/enciclopedia/neri-corsini_res-586301db-87eb-11dc-8e9d-0016357eee51_%28Dizionario-Biografico%29/</ref>
+                        (eingesehen am 3. August 2017); Schneider, Werner, Europa in Wien, S.
+                        138–139.</note>
+                </person>
+                <person xml:id="p.161">
+                    <persName>
+                        <roleName>Sir</roleName>
+                        <forename>Robert</forename>
+                        <surname>Gordon</surname>
+                    </persName>
+                    <birth>1791</birth>
+                    <death>1847</death>
+                    <note>1821 Mitarbeiter der britischen Botschaft in Wien; vgl. zu seiner Person
+                        Chamberlain, Gordon, Sir Robert. In: ODNB, Bd. 22, S. 957-959.</note>
+                </person>
+                <person xml:id="p.165">
+                    <persName>
+                        <forename>Guiseppe</forename>
+                        <roleName>marchese</roleName>
+                        <surname>Molza</surname>
+                    </persName>
+                    <birth>1782</birth>
+                    <death>1861</death>
+                    <note>Vertreter Modenas auf den Kongressen von Laibach und Verona; vgl. zu
+                        seiner Person Fazzini, Molza, Giuseppe, auf <ref target="http://www.treccani.it/enciclopedia/giuseppe-molza_%28Dizionario-Biografico%29/">http://www.treccani.it/enciclopedia/giuseppe-molza_%28Dizionario-Biografico%29/</ref>
+                        (eingesehen am 3. August 2017).</note>
+                </person>
+                <person xml:id="p.140">
+                    <persName>
+                        <forename>Alvaro</forename>
+                        <surname>Ruffo</surname>
+                        <roleName>dei principi della Scaletta</roleName>
+                    </persName>
+                    <birth>1754</birth>
+                    <death>1825</death>
+                    <note>Botschafter des Königreichs beider Sizilien in Wien; vgl. Schneider,
+                        Werner, Europa in Wien, S. 268–269.</note>
+                    <idno type="URI">https://viaf.org/viaf/259506628/</idno>
+                </person>
+                <person xml:id="p.166">
+                    <persName>
+                        <forename>Filippo Antonio</forename>
+                        <roleName>marchese</roleName>
+                        <surname>de Asinari di San Marzano</surname>
+                    </persName>
+                    <birth>1761</birth>
+                    <death>1828</death>
+                    <note>Vertreter des Königreichs Sardinien-Piemont auf dem Kongress von Laibach;
+                        vgl. zu seiner Person Schneider, Werner, Europa in Wien, S. 273.</note>
+                    <idno type="URI">http://viaf.org/viaf/181145542653596641885/</idno>
+                </person>
+                <person xml:id="p.164">
+                    <persName>
+                        <forename>Giuseppe</forename>
+                        <surname>Spina</surname>
+                    </persName>
+                    <birth>1756</birth>
+                    <death>1828</death>
+                    <note>Kardinal und Vertreter des Kirchenstaats auf den Kongressen von Laibach
+                        und Verona; vgl. zu seiner Person Miranda, Spina, Giuseppe. In: The
+                        Cardinals of the Holy Roman Church, auf <ref target="http://webdept.fiu.edu/~mirandas/bios1801.htm#Spina">http://webdept.fiu.edu/~mirandas/bios1801.htm#Spina</ref> (eingesehen
+                        am 3. August 2017).</note>
+                    <idno type="URI">http://viaf.org/viaf/89055289/</idno>
+                </person>
+                <person xml:id="p.130">
+                    <persName>
+                        <surname>George IV.</surname>
+                        <roleName>König des Vereinigten Königreichs Großbritannien und Irland, König
+                            von Hannover</roleName>
+                    </persName>
+                    <birth>1762</birth>
+                    <death>1830</death>
+                    <note>Zwischen 1811 und 1820 Prinzregent; vgl. zu seiner Person Hibbert, George
+                        IV. In: ODNB, Bd. 21, S. 856–864; Smith, George IV.</note>
+                    <idno type="URI">https://viaf.org/viaf/265481029/</idno>
+                </person>
+                <person xml:id="p.137">
+                    <persName>
+                        <forename>Charles William</forename>
+                        <surname>Stewart Vane</surname>
+                        <roleName>Lord Stewart</roleName>
+                        
+                    </persName>
+                    <birth>1778</birth>
+                    <death>1854</death>
+                    <note>Britischer Botschafter in Wien, Mitglied der britischen Delegation bei den
+                        Kongress von Troppau, Laibach und Verona, ab 1822 Charles William Vane, 3<hi rendition="#su">rd</hi> Marquess of Londonderry vgl. zu seiner Person
+                        Lloyd, Heersom, Vane [formerly Stewart], Charles William. In: ODNB, Bd. 56,
+                        S. 95–98; Schneider, Werner, Europa in Wien, S. 292–293.</note>
+                    <idno type="URI">https://viaf.org/viaf/8284837/</idno>
+                </person>
+                <person xml:id="p.5">
+                    <persName>
+                        <forename>Friedrich</forename>
+                        <surname>Gentz</surname>
+                    </persName>
+                    <birth>1764</birth>
+                    <death>1832</death>
+                    <note>Protokollführer; vgl. zu seiner Person Kronenbitter, Wort und Macht;
+                        Cahen, Gentz; Mann, Friedrich von Gentz; Schneider, Werner, Europa in Wien,
+                        S. 169–170.</note>
+                    <idno type="URI">https://viaf.org/viaf/2522018/</idno>
+                </person>
+                <person xml:id="p.16">
+                    <persName>
+                        <surname>Franz I.</surname>
+                        <roleName>Kaiser von Österreich</roleName>
+                    </persName>
+                    <birth>1768</birth>
+                    <death>1835</death>
+                    <note>Vgl. Mikoletzky, Franz II. (I.); Schneider, Werner, Europa in Wien, S.
+                        154–155; Ziegler, Franz II./I.</note>
+                    <idno type="URI">https://viaf.org/viaf/36912131/</idno>
+                </person>
+                <person xml:id="p.169">
+                    <persName>
+                        <surname>Vittorio Emanuele/Viktor Emanuel I.</surname>
+                        <roleName>König von Sardinien-Piemont</roleName>
+                    </persName>
+                    <birth>1759</birth>
+                    <death>1824</death>
+                    <note>König von Sardinien-Piemont bis 1821; vgl. zu seiner Person den Eintrag
+                        Vittòrio Emanuèle I re di Sardegna, auf <ref target="http://www.treccani.it/enciclopedia/vittorio-emanuele-i-re-di-sardegna">http://www.treccani.it/enciclopedia/vittorio-emanuele-i-re-di-sardegna</ref>
+                        (eingesehen am 3. August 2017); Segre, Vittorio Emanuele I.</note>
+                    <idno type="URI">http://viaf.org/viaf/48853665/</idno>
+                </person>
+                <person xml:id="p.155">
+                    <persName>
+                        <roleName>Papst</roleName>
+                        <surname>Pius VII.</surname>
+                    </persName>
+                    <birth>1742</birth>
+                    <death>1823</death>
+                    <note>Vgl. Boutry, Pio VII, auf <ref target="http://www.treccani.it/enciclopedia/pio-vii_(Enciclopedia-dei-Papi)/">http://www.treccani.it/enciclopedia/pio-vii_(Enciclopedia-dei-Papi)/</ref>
+                        (eingesehen am 19. Juni 2017).</note>
+                    <idno type="URI">https://viaf.org/viaf/98122431/</idno>
+                </person>
+                <person xml:id="p.170">
+                    <persName>
+                        <surname>Ferdinand III.</surname>
+                        <roleName>Großherzog von Toskana</roleName>
+                    </persName>
+                    <birth>1769</birth>
+                    <death>1824</death>
+                    <note>Vgl. zu seiner Person Schäfer, Ferdinand von Österreich; Pesendorfer, Ein
+                        Kampf; Altgeld, Stickler (Hg.), Italien am Main.</note>
+                    <idno type="URI">http://viaf.org/viaf/102619573/</idno>
+                </person>
+                <person xml:id="p.171">
+                    <persName>
+                        <surname>Franz IV.</surname>
+                        <roleName>Herzog von Modena</roleName>
+                    </persName>
+                    <birth>1779</birth>
+                    <death>1846</death>
+                    <note>Vgl. zu seiner Person Wurzbach, Biographisches Lexikon, Bd. 6, S. 225–226;
+                        Mikoletzky, Franz IV. In: Hamann (Hg.), Die Habsburger, S. 135–136.</note>
+                    <idno type="URI">http://viaf.org/viaf/24960135/</idno>
+                </person>
+                <person xml:id="p.15">
+                    <persName>
+                        <surname>Ludwig/Louis XVIII.</surname>
+                        <roleName> König von Frankreich</roleName>
+                    </persName>
+                    <birth>1755</birth>
+                    <death>1824</death>
+                    <note>Vgl. Malettke, Die Bourbonen; Thamer, Ludwig XVIII.; Mansel, Louis
+                        XVIII.</note>
+                    <idno type="URI">https://viaf.org/viaf/84035484/</idno>
+                </person>
+                <person xml:id="p.18">
+                    <persName>
+                        <surname>Friedrich Wilhelm III.</surname>
+                        <roleName>König von Preußen</roleName>
+                    </persName>
+                    <birth>1770</birth>
+                    <death>1840</death>
+                    <note>Vgl. Stamm-Kuhlmann, König in Preußens großer Zeit; Ders., Friedrich
+                        Wilhelm III; Schneider, Werner, Europa in Wien, S. 161–162.</note>
+                    <idno type="URI">https://viaf.org/viaf/774683/</idno>
+                </person>
+                <person xml:id="p.17">
+                    <persName>
+                        <surname>Alexander I.</surname>
+                        <roleName>Zar von Russland</roleName>
+                    </persName>
+                    <birth>1777</birth>
+                    <death>1825</death>
+                    <note>Vgl. Rey, Alexander I.; Schneider, Werner, Europa in Wien, S.
+                        100–102.</note>
+                    <idno type="URI">https://viaf.org/viaf/4938543/</idno>
+                </person>
+            </listPerson>
+            <listPlace>
+                <place xml:id="loc.65">
+               <placeName>Laibach</placeName>
+               <placeName>Laybach</placeName>
+               <placeName>Ljubljana</placeName>
+               <location>
+                        <geo>46.05108 14.50513</geo>
+                    </location>
+                    <idno type="URI">http://sws.geonames.org/3196359/</idno>
+            </place>
+                <place xml:id="loc.7">
+                <placeName>Wien</placeName>
+               <placeName>Vienne</placeName>
+               
+               <location>
+                        <geo>48.2082 16.37169</geo>
+                    </location>
+                    <idno type="URI">http://sws.geonames.org/2761367/</idno>
+            </place>
+                <place xml:id="loc.11">
+                <placeName>Neapel</placeName>
+               <placeName>Naples</placeName>
+               
+               <location>
+                        <geo>40.85216 14.26811</geo>
+                    </location>
+                    <idno type="URI">http://sws.geonames.org/3172394/</idno>
+            </place>
+            </listPlace>
+        </back>
+    </text>
 </TEI>

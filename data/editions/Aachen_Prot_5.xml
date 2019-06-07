@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/maechtekongresse/editions" xml:id="Aachen_Prot_5.xml" prev="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Prot_4.xml" next="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Prot_6.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -54,8 +54,10 @@
                Zeitgeschichtsforschung</publisher>
             <pubPlace>Wien</pubPlace>
 <date when="2018-09-23" change="#initial">2018-09-23</date>
-            <idno>A_05</idno><idno type="ISBN" n="9783950478303">978-3-9504783-0-3</idno>
-                 <availability>           <licence target="https://creativecommons.org/licenses/by-sa/4.0/legalcode.de">https://creativecommons.org/licenses/by-sa/4.0/legalcode.de</licence>         </availability> </publicationStmt>
+            <idno>A_05</idno>
+                <idno type="ISBN" n="9783950478303">978-3-9504783-0-3</idno>
+                 <availability>           <licence target="https://creativecommons.org/licenses/by-sa/4.0/legalcode.de">https://creativecommons.org/licenses/by-sa/4.0/legalcode.de</licence>         </availability> <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="handle">http://hdl.handle.net/21.11115/0000-000C-1F5F-9</tei:idno>
+            </publicationStmt>
             <notesStmt>
     <note>Vergleiche auch die Projektbeschreibung in der <ref type="URI" target="../meta/Einleitung.xml">Einleitung</ref> sowie die Dokumentation der Applikation unter <ref type="URI" target="../meta/about.xml">„Über diese Webseite“</ref>.</note>
 </notesStmt>
@@ -79,7 +81,8 @@
                <physDesc>
 
                   <p>Eigenhändiges Protokoll von <persName ref="#p.5">
-                        <surname>Gentz</surname></persName>.</p>
+                        <surname>Gentz</surname>
+                            </persName>.</p>
                   <handDesc>
                      <handNote xml:id="G">Friedrich Gentz</handNote>
                      <handNote xml:id="W">Nikolaus Wacken</handNote>
@@ -150,7 +153,8 @@
                <physDesc>
                   <p>Ausfertigung</p>
                   <p>Eigenhändige Ausfertigung von <persName ref="#p.5">
-                        <surname>Gentz</surname></persName>. </p>
+                        <surname>Gentz</surname>
+                            </persName>. </p>
                </physDesc>
                <history>
                   <origin>
@@ -179,7 +183,8 @@
          <abstract>
             <p>Die <rs ref="#p.8 #p.10 #p.11 #p.13 #p.12 #p.14 #p.9" type="multi-person">Vertreter der alliierten
                   Mächte</rs> und der franzöische Premierminister <persName ref="#p.1">
-                        <surname>Richelieu</surname></persName> verhandeln über die Höhe der
+                        <surname>Richelieu</surname>
+                    </persName> verhandeln über die Höhe der
                Entschädigungszahlungen sowie über deren Zahlungsmodalitäten.</p>
          </abstract>
          <particDesc>
@@ -285,16 +290,19 @@
                   <expan>Monsieur</expan>
                </choice> le <persName ref="#p.11" xml:space="preserve">
                         <roleName>Prince</roleName>
-                  <surname>de Hardenberg</surname></persName> a fait ensuite lecture <rs xml:id="n.1"> des observations ci-annexées</rs><note type="editorial" target="#n.1">Anlage liegt nicht ein.</note> sur la <rs ref="#t.7" type="treaties">convention
+                  <surname>de Hardenberg</surname></persName> a fait ensuite lecture <rs xml:id="n.1"> des observations ci-annexées</rs>
+                    <note type="editorial" target="#n.1">Anlage liegt nicht ein.</note> sur la <rs ref="#t.7" type="treaties">convention
                      conclue<pb n="8v"/> le <date when="1818-04-25">25 Avril
-               1818</date></rs> relativement aux réclamations particulières à la charge de la
+               1818</date>
+                    </rs> relativement aux réclamations particulières à la charge de la
                   <country>France</country> ; observations à la suite desquelles <choice>
                   <abbr>Mr.</abbr>
                   <expan>Monsieur</expan>
                </choice> le <rs ref="#p.11" type="person">Prince</rs> a demandé</p>
             <p>
                     <hi rendition="#et"> Que la disposition de l’<rs ref="#t.7" type="treaties">article VIII <rs> de la dite
-                     convention</rs></rs>, qui ordonne la remise successive des inscriptions
+                     convention</rs>
+                        </rs>, qui ordonne la remise successive des inscriptions
                déposées entre les mains des Commissaires ou de leur délégués, soit modifiée de
                manière que les neuf douzièmes restans soient remis à la fois et avant l’évacuation
                du territoire Français.</hi>
@@ -305,7 +313,8 @@
                </choice> le <persName ref="#p.11" xml:space="preserve">
                         <roleName>Prince</roleName>
                   <surname>de Hardenberg</surname></persName> que les <rs ref="#t.7" type="treaties">dispositions de
-                  l’acte du <date when="1818-04-25">25 Avril</date></rs> ne sauroient être changés
+                  l’acte du <date when="1818-04-25">25 Avril</date>
+                    </rs> ne sauroient être changés
                sans le consentement exprès de toutes les parties intéressées à cet arrangement ; que
                la modification proposée, loin d’assurer un avantage réel aux Individus Créanciers,
                les exposeroit à de nouvelles pertes et que, considérée sous un point de vue
@@ -375,12 +384,14 @@
                 </p>
 
             <p>Le <rs ref="#p.1" type="person">Soussigné</rs>, Plénipotentiaire de <rs xml:id="n.2">
-                        <rs ref="#p.15" type="person">Sa Majesté Très Chrétienne</rs></rs>,<note type="editorial" target="#n.2"> Ehrentitel des Königs von Frankreich</note> a l’honneur de
+                        <rs ref="#p.15" type="person">Sa Majesté Très Chrétienne</rs>
+                    </rs>,<note type="editorial" target="#n.2"> Ehrentitel des Königs von Frankreich</note> a l’honneur de
                présenter à Leurs Excellences, Messieurs les <rs ref="#p.8 #p.10 #p.11 #p.13 #p.12 #p.14 #p.9" type="multi-person">Plénipotentiaires des Cours
                   d’Autriche, de la Grande-Bretagne, de Prusse et de Russie</rs>, les observations
                suivantes relativement aux dépenses d’entretien de l’armée d’occupation :</p>
             <p>Le <rs ref="#t.8" type="treaties">procès-verbal du <date when="1815-10-13">13 Octobre
-                  1815</date></rs> qui, d’après les notes échangées le <date when="1815-10-20">20
+                  1815</date>
+                    </rs> qui, d’après les notes échangées le <date when="1815-10-20">20
                   Octobre</date> à la suite de la signature du traité, doit être
                regardé comme <choice>
                   <abbr>parfaitem<hi rendition="#su">t</hi>
@@ -423,7 +434,8 @@
                                     </abbr>
                            <expan>Octobre</expan>
                         </choice>
-                            </date></rs> »</quote>.</p>
+                            </date>
+                        </rs> »</quote>.</p>
             <p>C’est donc dans ce <rs ref="#t.8" type="treaties">procès-verbal</rs> que se trouve la loi des parties
                contractantes ; lui seul peut régler les engagemens réciproques. La
                   <country>France</country>, toujours empressée d’exécuter ceux qu’Elle avoit
@@ -541,7 +553,8 @@
                   verbale qu’Il leur a adressée en date du <date when="1818-10-02">2 Octobre</date>
                      relativement aux dépenses d’entretien de l’armée d’occupation</rs>, les observations
                suivantes :</p>
-            <p>L’article 2 de la <rs ref="#t.3" type="treaties">convention additionnelle</rs> du <rs ref="#t.1" type="treaties">traité du <date when="1815-11-20">20 Novembre 1815</date></rs>, laquelle a réglé
+            <p>L’article 2 de la <rs ref="#t.3" type="treaties">convention additionnelle</rs> du <rs ref="#t.1" type="treaties">traité du <date when="1815-11-20">20 Novembre 1815</date>
+                    </rs>, laquelle a réglé
                les détails relatifs à l’armée d’occupation, a stipulé que le logement, le chauffage,
                l’éclairage, les vivres et les fourages seroient fournis en nature par le
                Gouvernement Français, et que, quant à la solde, l’équippement, l’habillement et
@@ -576,7 +589,8 @@
             <p>Il est vrai que le Gouvernement Français ayant déclaré aux Ministres des Cours Alliées que la
                   <country>France</country> ne pouvoit pas payer au delà de 270 Millions par an, y
                compris les 140 Millions payables à titre de contribution de guerre, il fut arrêté
-               par le <rs ref="#t.8" type="treaties">protocole du <date when="1815-10-13">13 Octobre</date></rs> que
+               par le <rs ref="#t.8" type="treaties">protocole du <date when="1815-10-13">13 Octobre</date>
+                    </rs> que
                dans les trois premières années la <country>France</country> ne payeroit du <rs ref="#p.10" type="person">Chef de l’armée d’occupation</rs> que 130 Millions ; qu’afin de
                rétablir le niveau entre cette somme et la dépense réelle, les puissances
                diminueroient successivement le nombre de leurs troupes et que, dans le cas que cette
@@ -592,7 +606,8 @@
                avoit réduit cet article pour les trois premières années. Ce fut exclusivement sur le
                chapitre de la solde que portèrent tous les calculs de soulagement et de délai,
                établis dans le <rs ref="#t.8" type="treaties">protocole du <date when="1815-10-13"> 13
-                     Octobre</date></rs>. Aussi les puissances Alliées n’ont-elles pas hésité à
+                     Octobre</date>
+                    </rs>. Aussi les puissances Alliées n’ont-elles pas hésité à
                reconnoître que la <country>France</country> n’étant tenue aux termes de ce protocole
                qu’à rembourser dans les deux dernières années, ou même dans la sixième, l’ex<pb n="11r"/>cédent de dépense à titre de solde sur les 30 Millions auxquels on avoit
                limité ses payemens pendant les trois premières années, il étoit juste de lui tenir
@@ -644,7 +659,9 @@
                <list>
                   <item>
                             <rs xml:id="n.4">
-                                <persName ref="#p.8">Metternich</persName></rs><note type="editorial" target="#n.4">Ursprünglich erfolgte die Unterschrift
+                                <persName ref="#p.8">Metternich</persName>
+                            </rs>
+                            <note type="editorial" target="#n.4">Ursprünglich erfolgte die Unterschrift
                            Metternichs mit Bleistift. Die Zeilen für die Unterschriften wurden mit
                            einem Punkt (Tinte) markiert.</note>
                         </item>
@@ -672,11 +689,214 @@
 
          </div>
       </body>
-      <back>
-         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../indices/listplace.xml" xpointer="listPlace"/>
-         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../indices/listperson.xml" xpointer="listPerson"/>
-         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../indices/listtreaties.xml" xpointer="listTreaties"/>
-
-      </back>
-   </text>
+      
+   <back>
+            <listPerson>
+                <person xml:id="p.5">
+                    <persName>
+                        <forename>Friedrich</forename>
+                        <surname>Gentz</surname>
+                    </persName>
+                    <birth>1764</birth>
+                    <death>1832</death>
+                    <note>Protokollführer; vgl. zu seiner Person Kronenbitter, Wort und Macht;
+                        Cahen, Gentz; Mann, Friedrich von Gentz; Schneider, Werner, Europa in Wien,
+                        S. 169–170.</note>
+                    <idno type="URI">https://viaf.org/viaf/2522018/</idno>
+                </person>
+                <person xml:id="p.8">
+                    <persName>
+                        <surname>Metternich</surname>
+                        <forename>Clemens Wenzel Lothar</forename>
+                        <roleName>Fürst</roleName>
+                    </persName>
+                    <birth>1773</birth>
+                    <death>1859</death>
+                    <note>Österreichischer Außenminister, ab 1821 österreichischer Haus-, Hof- und
+                        Staatskanzler; vgl. zu seiner Person Siemann, Metternich; Šedivý,
+                        Metternich; Srbik, Metternich; Schneider, Werner, Europa in Wien, S.
+                        237–239.</note>
+                    <idno type="URI">https://viaf.org/viaf/49258230/</idno>
+                </person>
+                <person xml:id="p.10">
+                    <persName>
+                        <forename>Arthur</forename>
+                        <surname>Wellesley</surname>, <roleName>1<hi rendition="#su">st</hi> duke of
+                            Wellington</roleName>
+                    </persName>
+                    <birth>1769</birth>
+                    <death>1852</death>
+                    <note>Bevollmächtigter Großbritanniens; vgl. zu seiner Person zuletzt Muir,
+                        Wellington; Gash, Wellesley, Arthur, first duke of Wellington. In: ODNB, Bd.
+                        58, S. 1–29.</note>
+                    <idno type="URI">https://viaf.org/viaf/2465308/</idno>
+                </person>
+                <person xml:id="p.11">
+                    <persName>
+                        <forename>Karl August</forename>
+                        <roleName>Fürst</roleName>
+                        <surname>von Hardenberg</surname>
+                    </persName>
+                    <birth>1750</birth>
+                    <death>1822</death>
+                    <note>Preußischer Staatskanzler, Bevollmächtigter Preußens; vgl. zu seiner
+                        Person Gall, Hardenberg; Schneider, Werner, Europa in Wien, S. 184–185;
+                        Capefigue, Les diplomates européens, S. 275–316; Stamm-Kuhlmann, Freier
+                        Gebrauch.</note>
+                    <idno type="URI">https://viaf.org/viaf/4975077/</idno>
+                </person>
+                <person xml:id="p.13">
+                    <persName>
+                        <forename>Karl Robert</forename>
+                        <roleName>Graf</roleName>
+                        <surname>von Nesselrode</surname>
+                    </persName>
+                    <birth>1780</birth>
+                    <death>1862</death>
+                    <note>Russischer Außenminister, Bevollmächtigter Russlands; vgl. zu seiner
+                        Person Eich, Nesselrode, Robert Graf von. In: NDB, Bd. 19, S. 74–75;
+                        Grimsted, The Foreign Ministers, S. 194–225, 269–286; Schneider, Werner,
+                        Europa in Wien, S. 248–249.</note>
+                    <idno type="URI">https://viaf.org/viaf/49992065/</idno>
+                </person>
+                <person xml:id="p.12">
+                    <persName>
+                        <forename>Christian Günther</forename>
+                        <roleName>Graf</roleName>
+                        <surname>von Bernstorff</surname>
+                    </persName>
+                    <birth>1769</birth>
+                    <death>1835</death>
+                    <note>Preußischer Außenminister, Bevollmächtigter Preußens; vgl. zu seiner
+                        Person Kellenbenz, Bernstorff, Christian Graf von. In: NDB, Bd. 2, S.
+                        139–140; Schneider, Werner, Europa in Wien, S. 116–117.</note>
+                    <idno type="URI">https://viaf.org/viaf/49969175/</idno>
+                </person>
+                <person xml:id="p.14">
+                    <persName>
+                        <forename>Ioannis Antonis</forename>
+                        <roleName>Graf</roleName>
+                        <surname>Kapodistrias/Capodistrias</surname>
+                    </persName>
+                    <birth>1776</birth>
+                    <death>1831</death>
+                    <note>Russischer Außenminister, Bevollmächtigter Russlands; vgl. zu seiner
+                        Person Woodhouse, Capodistrias; Grimsted, The Foreign Ministers, S. 226–268;
+                        Schneider, Werner, Europa in Wien, S. 199–200.</note>
+                    <idno type="URI">https://viaf.org/viaf/39507057/</idno>
+                </person>
+                <person xml:id="p.9">
+                    <persName>
+                        <forename>Robert </forename>
+                        <surname>Stewart</surname>
+                        <roleName>Viscount Castlereagh</roleName>
+                    </persName>
+                    <birth>1769</birth>
+                    <death>1822</death>
+                    <note>Britischer Außenminister; vgl zu seiner Person Bew, Castlereagh; Webster,
+                        Foreign Policy; Bartlett, Castlereagh; Thorne, Stewart, Robert, Viscount
+                        Castlereagh and second marquess of Londonderry. In: ODNB, Bd. 52, S.
+                        749–757.</note>
+                    <idno type="URI">https://viaf.org/viaf/15560591/</idno>
+                </person>
+                <person xml:id="p.1">
+                    <persName>
+                        <forename>Armand Emmanuel</forename>
+                        <surname>du Plessis</surname>
+                        <roleName>duc de Richelieu</roleName>
+                    </persName>
+                    <birth>1766</birth>
+                    <death>1822</death>
+                    <note>Französischer Premierminister; vgl. zu seiner Person de Waresquiel, Le Duc
+                        de Richelieu; Capefigue, Les diplomates européens, S. 245–274.</note>
+                    <idno type="URI">https://viaf.org/viaf/56652282/</idno>
+                </person>
+                <person xml:id="p.15">
+                    <persName>
+                        <surname>Ludwig/Louis XVIII.</surname>
+                        <roleName> König von Frankreich</roleName>
+                    </persName>
+                    <birth>1755</birth>
+                    <death>1824</death>
+                    <note>Vgl. Malettke, Die Bourbonen; Thamer, Ludwig XVIII.; Mansel, Louis
+                        XVIII.</note>
+                    <idno type="URI">https://viaf.org/viaf/84035484/</idno>
+                </person>
+                <person xml:id="p.16">
+                    <persName>
+                        <surname>Franz I.</surname>
+                        <roleName>Kaiser von Österreich</roleName>
+                    </persName>
+                    <birth>1768</birth>
+                    <death>1835</death>
+                    <note>Vgl. Mikoletzky, Franz II. (I.); Schneider, Werner, Europa in Wien, S.
+                        154–155; Ziegler, Franz II./I.</note>
+                    <idno type="URI">https://viaf.org/viaf/36912131/</idno>
+                </person>
+                <person xml:id="p.19">
+                    <persName>
+                        <surname>Georg/George III.</surname>
+                        <roleName>König des Vereinigten Königreichs Großbritannien und Irland und
+                            Hannover</roleName>
+                    </persName>
+                    <birth>1738</birth>
+                    <death>1820</death>
+                    <note>Vgl. Cannon, George III. In: ODNB, Bd. 21, S. 833–853; Black, George
+                        III.</note>
+                    <idno type="URI">https://viaf.org/viaf/49264990/</idno>
+                </person>
+                <person xml:id="p.18">
+                    <persName>
+                        <surname>Friedrich Wilhelm III.</surname>
+                        <roleName>König von Preußen</roleName>
+                    </persName>
+                    <birth>1770</birth>
+                    <death>1840</death>
+                    <note>Vgl. Stamm-Kuhlmann, König in Preußens großer Zeit; Ders., Friedrich
+                        Wilhelm III; Schneider, Werner, Europa in Wien, S. 161–162.</note>
+                    <idno type="URI">https://viaf.org/viaf/774683/</idno>
+                </person>
+                <person xml:id="p.17">
+                    <persName>
+                        <surname>Alexander I.</surname>
+                        <roleName>Zar von Russland</roleName>
+                    </persName>
+                    <birth>1777</birth>
+                    <death>1825</death>
+                    <note>Vgl. Rey, Alexander I.; Schneider, Werner, Europa in Wien, S.
+                        100–102.</note>
+                    <idno type="URI">https://viaf.org/viaf/4938543/</idno>
+                </person>
+            </listPerson>
+            <listPlace>
+                <place xml:id="loc.1">
+                <placeName>Aachen</placeName>
+               <placeName>Aix-la-Chapelle</placeName>
+               
+               <location>
+                        <geo>50.77664 6.08342</geo>
+                    </location>
+                    <idno type="URI">http://sws.geonames.org/3247449/</idno>
+            </place>
+            </listPlace>
+            <listBibl>
+                <bibl xml:id="t.7">Konvention zwischen Österreich, Frankreich, Großbritannien, Preußen
+               und Russland, Paris 25. April 1818; vgl. BFSP Bd. 5 (1817/18), S. 179–191; Clercq,
+               Recueil, Bd. 3, S. 126–132; Angeberg, Le Cogrès de Vienne, S. 1732–1739; Clarke,
+               Papers presented to Parliament 1819, S. 3–43.</bibl>
+                <bibl xml:id="t.8">Procès-Verbal de la Conférence entre les Plénipotentiaires des 4
+               Cours Alliées, sur l’Arrangement de l’Indemnité Pécuniaire, et l’entretien de l’Armée
+               d’Occupation, Paris 13. Oktober 1815; vgl. BFSP Bd. 3 (1815/16), S. 229–233.</bibl>
+                <bibl xml:id="t.1">Zweiter Pariser Frieden zwischen Österreich, Großbritannien, Preußen und Russland auf der
+               einen, Frankreich auf der anderen Seite, Paris 20. November 1815; vgl. BFSP Bd. 3 (1815/16), S. 280–293;
+               Grewe, Fontes, Bd. 3/1, S. 10–18; Clercq, Recueil, Bd. 2, S. 642–650; Martens,
+               Nouveau Recueil, Bd. 2, S. 682–691; <ref target="http://www.staatsvertraege.de/Frieden1814-15/2pfv1815-i.htm">http://www.staatsvertraege.de/Frieden1814-15/2pfv1815-i.htm</ref> (deutsch; eingesehen
+               am 31. Oktober 2012).</bibl>
+                <bibl xml:id="t.3">Convention, conclue en conformité de l’Article V du Traité Principal,
+               relativement à l’Occupation d’une Ligne Militaire en France par une Armée Alliée,
+               Paris 20. November 1815; vgl. BFSP Bd. 3 (1815/16), S. 298–315; Clercq, Recueil, Bd.
+               2, S. 653–661; Martens, Nouveau Recueil, Bd. 2, S. 695–707.</bibl>
+            </listBibl>
+        </back>
+    </text>
 </TEI>

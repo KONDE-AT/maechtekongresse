@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/maechtekongresse/editions" xml:id="Aachen_Prot_33.xml" prev="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Prot_32.xml" next="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Prot_34.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -54,8 +54,10 @@
                Zeitgeschichtsforschung</publisher>
             <pubPlace>Wien</pubPlace>
 <date when="2018-09-23" change="#initial">2018-09-23</date>
-            <idno>A_33</idno><idno type="ISBN" n="9783950478303">978-3-9504783-0-3</idno>
-                 <availability>           <licence target="https://creativecommons.org/licenses/by-sa/4.0/legalcode.de">https://creativecommons.org/licenses/by-sa/4.0/legalcode.de</licence>         </availability> </publicationStmt>
+            <idno>A_33</idno>
+                <idno type="ISBN" n="9783950478303">978-3-9504783-0-3</idno>
+                 <availability>           <licence target="https://creativecommons.org/licenses/by-sa/4.0/legalcode.de">https://creativecommons.org/licenses/by-sa/4.0/legalcode.de</licence>         </availability> <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="handle">http://hdl.handle.net/21.11115/0000-000C-1EF4-0</tei:idno>
+            </publicationStmt>
             <notesStmt>
     <note>Vergleiche auch die Projektbeschreibung in der <ref type="URI" target="../meta/Einleitung.xml">Einleitung</ref> sowie die Dokumentation der Applikation unter <ref type="URI" target="../meta/about.xml">„Über diese Webseite“</ref>.</note>
 </notesStmt>
@@ -79,7 +81,8 @@
                <physDesc>
 
                   <p>Eigenhändiges Protokoll von <persName ref="#p.5">
-                        <surname>Gentz</surname></persName>.</p>
+                        <surname>Gentz</surname>
+                            </persName>.</p>
                   <handDesc>
                      <handNote xml:id="G">Friedrich Gentz</handNote>
                      <handNote xml:id="W">Nikolaus Wacken</handNote>
@@ -194,7 +197,8 @@
          <abstract>
             <p>Die Geheimprotokolle vom <date when="1818-11-15">15. November 1818</date> betreffend
                die <rs ref="#t.6" type="treaties">Quadrupelallianz vom <date when="1815-11-20">20. November
-                     1815</date></rs> sowie den Bündnisfall werden von den <rs ref="#p.8 #p.9 #p.10 #p.11 #p.12 #p.13 #p.14" type="multi-person">Gesandten Österreichs,
+                     1815</date>
+                    </rs> sowie den Bündnisfall werden von den <rs ref="#p.8 #p.9 #p.10 #p.11 #p.12 #p.13 #p.14" type="multi-person">Gesandten Österreichs,
                   Großbritannniens, Preußens und Russlands</rs> redigiert sowie paraphiert.</p>
          </abstract>
          <particDesc>
@@ -255,7 +259,8 @@
             <p>Avant de procéder à la signature des pièces auxquelles <choice>
                   <abbr>Mr.</abbr>
                   <expan>Monsieur</expan>
-               </choice> le <rs ref="#p.1" type="person">Plénipotentiaire de <country>France</country></rs> doit
+               </choice> le <rs ref="#p.1" type="person">Plénipotentiaire de <country>France</country>
+                    </rs> doit
                prendre part, <choice>
                   <abbr>Mrs.</abbr>
                   <expan>Messieurs</expan>
@@ -264,7 +269,8 @@
                   des Cours d’Autriche, de la Grande-Bretagne, de Prusse et de Russie</rs> se sont
                réunis pour une dernière lecture du <ref decls="#m.2">Protocole réservé à la
                   connoissance des Quatre puissances</ref> signataires du <rs ref="#t.6" type="treaties">Traité de Quadruple Alliance du
-                     <date when="1815-11-20">20 Novembre 1815</date></rs> ; et la rédaction de ce
+                     <date when="1815-11-20">20 Novembre 1815</date>
+                    </rs> ; et la rédaction de ce
                Protocole ayant été définitivement arrêtée, <choice>
                   <abbr>Mrs.</abbr>
                   <expan>Messieurs</expan>
@@ -342,7 +348,8 @@
                   des cours d’Autriche, de la Grande-Bretagne, de Prusse &amp; de Russie</rs> se
                sont réunis en conférence pour discuter les grands intérêts que les hautes parties
                contractantes ont eu en vue en stipulant les Articles 5 &amp; 6 du <rs ref="#t.6" type="treaties">traité de la Quadruple Alliance du <date when="1815-11-20">20 Novembre
-                     1815</date></rs>, et pour délibérer sur les moyens d’appliquer les principes
+                     1815</date>
+                    </rs>, et pour délibérer sur les moyens d’appliquer les principes
                &amp; les dispositions du dit traité à la situation dans laquelle, après l’évacuation
                du territoire de <country>France</country>, le Gouvernement français se trouvera
                placé envers les quatre puissances,<pb n="167v"/> comme envers tous les autres Etats.
@@ -369,7 +376,8 @@
                         <abbr>9<hi rendition="#su">bre</hi>
                                 </abbr>
                         <expan>Novembre</expan>
-                     </choice> 1815</date></rs>, &amp; renforenfrcée par les <rs ref="#t.9" type="treaties">liens de
+                     </choice> 1815</date>
+                    </rs>, &amp; renforenfrcée par les <rs ref="#t.9" type="treaties">liens de
                   fraternité Chrétienne qui unissent aujourd’hui tous les Etats</rs>, offre le
                principe d’après lequel doivent être déterminées les relations pacifiques &amp;
                permanentes avec la <country>France</country> ; relations inséparables de l’ordre
@@ -385,7 +393,8 @@
                         <abbr>9<hi rendition="#su">bre</hi>
                                 </abbr>
                         <expan>Novembre</expan>
-                     </choice> 1815</date></rs>, et <ref target="Aachen_Prot_34.xml">dans un
+                     </choice> 1815</date>
+                    </rs>, et <ref target="Aachen_Prot_34.xml">dans un
                   protocole séparé</ref>, pour autant qu’elles ont pour but d’associer la
                   <country>France</country> à l’union des quatre Puissances &amp; au Système général
                de l’Europe ; cette forme ayant été jugée préférable à toute autre, en ce qu’elle
@@ -398,7 +407,8 @@
                         <abbr>9<hi rendition="#su">bre</hi>
                                 </abbr>
                         <expan>Novembre</expan>
-                     </choice> 1815</date></rs> étant éventuels &amp; portant sur un cas que les
+                     </choice> 1815</date>
+                    </rs> étant éventuels &amp; portant sur un cas que les
                Puissances voudroient placer aussi loin que possible de leurs calculs, les quatre
                Cours regardent le présent protocole Comme Strictement réservé à la Connoissance des
                Parties Signataires &amp; s’engagent à empêcher par tous les moyens en leur pouvoir
@@ -408,13 +418,16 @@
             <p>7. Que quant au Protocole Séparé qui doit constater les relations futures de la
                   <country>France</country> avec les quatre Puissances Signataires du <rs ref="#t.6" type="treaties">traité de quadruple Alliance</rs>, les quatre Cours sont unanimement d’avis
                d’inviter les Plénipotentiaires de <rs ref="#p.15" type="person" xml:id="n.5">Sa Majesté Très
-                  Chrétienne</rs><note type="editorial" target="#n.5">Ehrentitel des Königs von
+                  Chrétienne</rs>
+                    <note type="editorial" target="#n.5">Ehrentitel des Königs von
                   Frankreich.</note> à prendre part à la rédaction &amp; à la Sanction de cet acte,
                lequel exposera les motifs qui ont porté les Puissances Alliées à associer la
                   <country>France</country> au système général, désignera le but de cette union, en
                tracera les principes &amp; en déterminera les formes.</p>
             <p>Cette pièce, devant être portée à la Connoissance de tous les Etats qui ont accédé au
-                  <rs ref="#t.13" type="treaties">traité de <placeName ref="#loc.2">Paris</placeName> du <date when="1814-05-30">30 Mai 1814</date></rs>,<pb n="170v"/> au <rs ref="#t.12" type="treaties">recès de <placeName ref="#loc.7">Vienne</placeName></rs> &amp; aux <rs ref="#t.1 #t.9" type="multi-treaties">actes de <placeName ref="#loc.2">Paris</placeName> de l’année
+                  <rs ref="#t.13" type="treaties">traité de <placeName ref="#loc.2">Paris</placeName> du <date when="1814-05-30">30 Mai 1814</date>
+                    </rs>,<pb n="170v"/> au <rs ref="#t.12" type="treaties">recès de <placeName ref="#loc.7">Vienne</placeName>
+                    </rs> &amp; aux <rs ref="#t.1 #t.9" type="multi-treaties">actes de <placeName ref="#loc.2">Paris</placeName> de l’année
                   1815</rs>, déclarera en outre en termes positifs que l’union des cinq Puissances
                n’a pour objet que de Contribuer au maintien de la tranquillité générale, fondée sur
                l’inviolabilité des droits que les transactions existantes assurent à chaque Etat
@@ -429,7 +442,8 @@
                         <abbr>9<hi rendition="#su">bre</hi>
                                 </abbr>
                         <expan>Novembre</expan>
-                     </choice> 1815</date></rs> sont conservés dans leur pleine force &amp; valeur
+                     </choice> 1815</date>
+                    </rs> sont conservés dans leur pleine force &amp; valeur
                pour le Casus foederis et belli, tel qu’il est prévu et défini par le
                   dit traité ;</p>
             <p>2. Que pour le Casus foederis, spécialement admis dans le Second paragraphe de l’<choice>
@@ -439,7 +453,8 @@
                         <abbr>9<hi rendition="#su">bre</hi>
                                 </abbr>
                         <expan>Novembre</expan>
-                     </choice> 1815</date></rs>, les hautes Parties Signataires du présent
+                     </choice> 1815</date>
+                    </rs>, les hautes Parties Signataires du présent
                protocole, en suite de leurs engagemens actuels, se concerteront (le cas échéant)
                dans des réunions particulières, soit entre les <rs ref="#p.16 #p.17 #p.18 #p.19" type="multi-person">
                   Monarques Alliés</rs> en personne, soit entre les quatre Cabinets, sur les mesures
@@ -494,7 +509,8 @@
                            <abbr>20 Nov<hi rendition="#su">r</hi>
                                     </abbr>
                            <expan>Novembre</expan>
-                        </choice> 1815</date></rs>
+                        </choice> 1815</date>
+                        </rs>
                     </ref>, Messieurs les <rs ref="#p.8 #p.9 #p.10 #p.11 #p.12 #p.13 #p.14" type="multi-person">Plénipotentiaires d’Autriche, de Grande Bretagne, de Prusse et de Russie</rs> se
                sont réunis par ordre de <rs ref="#p.16 #p.17 #p.18 #p.19" type="multi-person">Leurs Souverains</rs> pour
                arrêter et déclarer ce qui suit :</p>
@@ -504,7 +520,9 @@
                   alliance</rs> échéant, le terme de deux mois, indiqué dans l’article 8 du <rs ref="#t.37" type="treaties">traité de Chaumont</rs>, comme celui où le corps auxiliaire serait
                prêt à entrer en campagne, datera du jour où les hautes Puissances alliées auront
                décidé à la suite du concert à établir ent’Elles que le <rs xml:id="n.8">
-                        <hi rendition="#u">Casus foederis</hi></rs><note type="editorial" target="#n.8">Lat. Bündnisfall.</note> existe.</p>
+                        <hi rendition="#u">Casus foederis</hi>
+                    </rs>
+                    <note type="editorial" target="#n.8">Lat. Bündnisfall.</note> existe.</p>
             <pb n="110v"/>
             <p>Après cette décision, le corps britannique se rassemblera à <placeName ref="#loc.46">Bruxelles</placeName>, le corps prussien à <placeName ref="#loc.47">Cologne</placeName>, le corps autrichien à <placeName ref="#loc.17">Stuttgardt</placeName>, dans le terme fixé par l’article 8 du <rs ref="#t.37" type="treaties">Traité de Chaumont</rs> comme ci-dessus expliqué, et le corps russe à <placeName ref="#loc.30">Mayence</placeName>, dans trois mois à dater de la même époque vu sa
                distance.</p>
@@ -515,7 +533,8 @@
                construites ou en état de construction dans les pays limitrophes de la
                   <country>France</country>, et surtout dans le <country>Royaume des
                   Pays-Bas</country>, d’après les stipulations du <rs ref="#t.38" type="treaties">Protocole des
-                  Conférences du <date when="1815-11-21">21 Novembre 1815</date></rs>.</p>
+                  Conférences du <date when="1815-11-21">21 Novembre 1815</date>
+                    </rs>.</p>
             <p>
                     <choice>
                   <abbr>M<hi rendition="#su">r</hi>
@@ -523,7 +542,8 @@
                   <expan>Monsieur</expan>
                </choice> le Maréchal <persName ref="#p.10">
                         <roleName>Duc</roleName>
-                  <surname>de Wellington</surname></persName>, ayant été chargé de la part du
+                  <surname>de Wellington</surname>
+                    </persName>, ayant été chargé de la part du
                Gouvernement britannique, ainsi que de celui des Pays-Bas, de surveiller l’exécution
                du système de fortification des <country>Pays-Bas</country>, a<pb n="111r"/> déclaré
                pouvoir certifier à la conférence que la quantité de travail exécuté était immense,
@@ -609,13 +629,371 @@
                 </signed>
          </div>
       </body>
-      <back>
-         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../indices/listplace.xml" xpointer="listPlace"/>
-         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../indices/listperson.xml" xpointer="listPerson"/>
-         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../indices/listwit.xml" xpointer="listWit"/>
-         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../indices/listorg.xml" xpointer="listOrg"/>
-         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../indices/listtreaties.xml" xpointer="listTreaties"/>
-
-      </back>
-   </text>
+      
+   <back>
+            <listPerson>
+                <person xml:id="p.5">
+                    <persName>
+                        <forename>Friedrich</forename>
+                        <surname>Gentz</surname>
+                    </persName>
+                    <birth>1764</birth>
+                    <death>1832</death>
+                    <note>Protokollführer; vgl. zu seiner Person Kronenbitter, Wort und Macht;
+                        Cahen, Gentz; Mann, Friedrich von Gentz; Schneider, Werner, Europa in Wien,
+                        S. 169–170.</note>
+                    <idno type="URI">https://viaf.org/viaf/2522018/</idno>
+                </person>
+                <person xml:id="p.8">
+                    <persName>
+                        <surname>Metternich</surname>
+                        <forename>Clemens Wenzel Lothar</forename>
+                        <roleName>Fürst</roleName>
+                    </persName>
+                    <birth>1773</birth>
+                    <death>1859</death>
+                    <note>Österreichischer Außenminister, ab 1821 österreichischer Haus-, Hof- und
+                        Staatskanzler; vgl. zu seiner Person Siemann, Metternich; Šedivý,
+                        Metternich; Srbik, Metternich; Schneider, Werner, Europa in Wien, S.
+                        237–239.</note>
+                    <idno type="URI">https://viaf.org/viaf/49258230/</idno>
+                </person>
+                <person xml:id="p.9">
+                    <persName>
+                        <forename>Robert </forename>
+                        <surname>Stewart</surname>
+                        <roleName>Viscount Castlereagh</roleName>
+                    </persName>
+                    <birth>1769</birth>
+                    <death>1822</death>
+                    <note>Britischer Außenminister; vgl zu seiner Person Bew, Castlereagh; Webster,
+                        Foreign Policy; Bartlett, Castlereagh; Thorne, Stewart, Robert, Viscount
+                        Castlereagh and second marquess of Londonderry. In: ODNB, Bd. 52, S.
+                        749–757.</note>
+                    <idno type="URI">https://viaf.org/viaf/15560591/</idno>
+                </person>
+                <person xml:id="p.10">
+                    <persName>
+                        <forename>Arthur</forename>
+                        <surname>Wellesley</surname>, <roleName>1<hi rendition="#su">st</hi> duke of
+                            Wellington</roleName>
+                    </persName>
+                    <birth>1769</birth>
+                    <death>1852</death>
+                    <note>Bevollmächtigter Großbritanniens; vgl. zu seiner Person zuletzt Muir,
+                        Wellington; Gash, Wellesley, Arthur, first duke of Wellington. In: ODNB, Bd.
+                        58, S. 1–29.</note>
+                    <idno type="URI">https://viaf.org/viaf/2465308/</idno>
+                </person>
+                <person xml:id="p.11">
+                    <persName>
+                        <forename>Karl August</forename>
+                        <roleName>Fürst</roleName>
+                        <surname>von Hardenberg</surname>
+                    </persName>
+                    <birth>1750</birth>
+                    <death>1822</death>
+                    <note>Preußischer Staatskanzler, Bevollmächtigter Preußens; vgl. zu seiner
+                        Person Gall, Hardenberg; Schneider, Werner, Europa in Wien, S. 184–185;
+                        Capefigue, Les diplomates européens, S. 275–316; Stamm-Kuhlmann, Freier
+                        Gebrauch.</note>
+                    <idno type="URI">https://viaf.org/viaf/4975077/</idno>
+                </person>
+                <person xml:id="p.12">
+                    <persName>
+                        <forename>Christian Günther</forename>
+                        <roleName>Graf</roleName>
+                        <surname>von Bernstorff</surname>
+                    </persName>
+                    <birth>1769</birth>
+                    <death>1835</death>
+                    <note>Preußischer Außenminister, Bevollmächtigter Preußens; vgl. zu seiner
+                        Person Kellenbenz, Bernstorff, Christian Graf von. In: NDB, Bd. 2, S.
+                        139–140; Schneider, Werner, Europa in Wien, S. 116–117.</note>
+                    <idno type="URI">https://viaf.org/viaf/49969175/</idno>
+                </person>
+                <person xml:id="p.13">
+                    <persName>
+                        <forename>Karl Robert</forename>
+                        <roleName>Graf</roleName>
+                        <surname>von Nesselrode</surname>
+                    </persName>
+                    <birth>1780</birth>
+                    <death>1862</death>
+                    <note>Russischer Außenminister, Bevollmächtigter Russlands; vgl. zu seiner
+                        Person Eich, Nesselrode, Robert Graf von. In: NDB, Bd. 19, S. 74–75;
+                        Grimsted, The Foreign Ministers, S. 194–225, 269–286; Schneider, Werner,
+                        Europa in Wien, S. 248–249.</note>
+                    <idno type="URI">https://viaf.org/viaf/49992065/</idno>
+                </person>
+                <person xml:id="p.14">
+                    <persName>
+                        <forename>Ioannis Antonis</forename>
+                        <roleName>Graf</roleName>
+                        <surname>Kapodistrias/Capodistrias</surname>
+                    </persName>
+                    <birth>1776</birth>
+                    <death>1831</death>
+                    <note>Russischer Außenminister, Bevollmächtigter Russlands; vgl. zu seiner
+                        Person Woodhouse, Capodistrias; Grimsted, The Foreign Ministers, S. 226–268;
+                        Schneider, Werner, Europa in Wien, S. 199–200.</note>
+                    <idno type="URI">https://viaf.org/viaf/39507057/</idno>
+                </person>
+                <person xml:id="p.1">
+                    <persName>
+                        <forename>Armand Emmanuel</forename>
+                        <surname>du Plessis</surname>
+                        <roleName>duc de Richelieu</roleName>
+                    </persName>
+                    <birth>1766</birth>
+                    <death>1822</death>
+                    <note>Französischer Premierminister; vgl. zu seiner Person de Waresquiel, Le Duc
+                        de Richelieu; Capefigue, Les diplomates européens, S. 245–274.</note>
+                    <idno type="URI">https://viaf.org/viaf/56652282/</idno>
+                </person>
+                <person xml:id="p.16">
+                    <persName>
+                        <surname>Franz I.</surname>
+                        <roleName>Kaiser von Österreich</roleName>
+                    </persName>
+                    <birth>1768</birth>
+                    <death>1835</death>
+                    <note>Vgl. Mikoletzky, Franz II. (I.); Schneider, Werner, Europa in Wien, S.
+                        154–155; Ziegler, Franz II./I.</note>
+                    <idno type="URI">https://viaf.org/viaf/36912131/</idno>
+                </person>
+                <person xml:id="p.17">
+                    <persName>
+                        <surname>Alexander I.</surname>
+                        <roleName>Zar von Russland</roleName>
+                    </persName>
+                    <birth>1777</birth>
+                    <death>1825</death>
+                    <note>Vgl. Rey, Alexander I.; Schneider, Werner, Europa in Wien, S.
+                        100–102.</note>
+                    <idno type="URI">https://viaf.org/viaf/4938543/</idno>
+                </person>
+                <person xml:id="p.18">
+                    <persName>
+                        <surname>Friedrich Wilhelm III.</surname>
+                        <roleName>König von Preußen</roleName>
+                    </persName>
+                    <birth>1770</birth>
+                    <death>1840</death>
+                    <note>Vgl. Stamm-Kuhlmann, König in Preußens großer Zeit; Ders., Friedrich
+                        Wilhelm III; Schneider, Werner, Europa in Wien, S. 161–162.</note>
+                    <idno type="URI">https://viaf.org/viaf/774683/</idno>
+                </person>
+                <person xml:id="p.19">
+                    <persName>
+                        <surname>Georg/George III.</surname>
+                        <roleName>König des Vereinigten Königreichs Großbritannien und Irland und
+                            Hannover</roleName>
+                    </persName>
+                    <birth>1738</birth>
+                    <death>1820</death>
+                    <note>Vgl. Cannon, George III. In: ODNB, Bd. 21, S. 833–853; Black, George
+                        III.</note>
+                    <idno type="URI">https://viaf.org/viaf/49264990/</idno>
+                </person>
+                <person xml:id="p.15">
+                    <persName>
+                        <surname>Ludwig/Louis XVIII.</surname>
+                        <roleName> König von Frankreich</roleName>
+                    </persName>
+                    <birth>1755</birth>
+                    <death>1824</death>
+                    <note>Vgl. Malettke, Die Bourbonen; Thamer, Ludwig XVIII.; Mansel, Louis
+                        XVIII.</note>
+                    <idno type="URI">https://viaf.org/viaf/84035484/</idno>
+                </person>
+                <person xml:id="p.74">
+                    <persName>
+                        <surname>Willelm/Wilhelm I.</surname>
+                        <roleName>König der Niederlande, Großherzog von Luxemburg</roleName>
+                    </persName>
+                    <birth>1772</birth>
+                    <death>1843</death>
+                    <note>Vgl. zu seiner Person Koch, Koning Willem I.</note>
+                    <idno type="URI">https://viaf.org/viaf/42645467/</idno>
+                </person>
+            </listPerson>
+            <listPlace>
+                <place xml:id="loc.1">
+                <placeName>Aachen</placeName>
+               <placeName>Aix-la-Chapelle</placeName>
+               
+               <location>
+                        <geo>50.77664 6.08342</geo>
+                    </location>
+                    <idno type="URI">http://sws.geonames.org/3247449/</idno>
+            </place>
+                <place xml:id="loc.2">
+               <placeName>Paris</placeName>
+               <location>
+                        <geo>48.85341 2.3488</geo>
+                    </location>
+                    <idno type="URI">http://sws.geonames.org/2988507/</idno>
+            </place>
+                <place xml:id="loc.7">
+                <placeName>Wien</placeName>
+               <placeName>Vienne</placeName>
+               
+               <location>
+                        <geo>48.2082 16.37169</geo>
+                    </location>
+                    <idno type="URI">http://sws.geonames.org/2761367/</idno>
+            </place>
+                <place xml:id="loc.46">
+                <placeName>Brüssel</placeName>
+                <placeName>Bruxelles</placeName>
+                <placeName>Brussels</placeName>
+               <location>
+                        <geo>50.85045 4.34878</geo>
+                    </location>
+                    <idno type="URI">http://sws.geonames.org/2800866/</idno>
+            </place>
+                <place xml:id="loc.47">
+                <placeName>Köln</placeName>
+                <placeName>Cologne</placeName>
+               <location>
+                        <geo>50.93333 6.95</geo>
+                    </location>
+                    <idno type="URI">http://sws.geonames.org/2886242/</idno>
+            </place>
+                <place xml:id="loc.17">
+                <placeName>Stuttgardt</placeName>
+               <placeName>Stuttgart</placeName>
+               
+               <location>
+                        <geo>48.78232 9.17702</geo>
+                    </location>
+                    <idno type="URI">http://sws.geonames.org/2825297/</idno>
+            </place>
+                <place xml:id="loc.30">
+                <placeName>Mainz</placeName>
+               <placeName>Mayence</placeName>
+               
+               <location>
+                        <geo>49.98419 8.2791</geo>
+                    </location>
+                    <idno type="URI">http://sws.geonames.org/2874225/</idno>
+            </place>
+                <place xml:id="loc.48">
+               <placeName>Ostende</placeName>
+               <location>
+                        <geo>51.21551 2.927</geo>
+                    </location>
+                    <idno type="URI">http://sws.geonames.org/2789786/</idno>
+            </place>
+                <place xml:id="loc.49">
+               <placeName>Nieuport</placeName>
+               <location>
+                        <geo>51.13008 2.75135</geo>
+                    </location>
+                    <idno type="URI">http://sws.geonames.org/2790150/</idno>
+            </place>
+                <place xml:id="loc.50">
+               <placeName>Ypres</placeName>
+               <location>
+                        <geo>50.85114 2.88569</geo>
+                    </location>
+                    <idno type="URI">http://sws.geonames.org/2795100/</idno>
+            </place>
+                <place xml:id="loc.51">
+               <placeName>Tournai</placeName>
+               <placeName>Tournay</placeName>
+               <location>
+                        <geo>50.60715 3.38932</geo>
+                    </location>
+                    <idno type="URI">http://sws.geonames.org/2785341/</idno>
+            </place>
+                <place xml:id="loc.52">
+                <placeName>Antwerpen</placeName>
+                <placeName>Anvers</placeName>
+               <location>
+                        <geo>51.21989 4.40346</geo>
+                    </location>
+                    <idno type="URI">http://sws.geonames.org/2803138/</idno>
+            </place>
+                <place xml:id="loc.53">
+               <placeName>Huy</placeName>
+               <location>
+                        <geo>50.51894 5.23284</geo>
+                    </location>
+                    <idno type="URI">http://sws.geonames.org/2795113/</idno>
+            </place>
+                <place xml:id="loc.54">
+               <placeName>Namur</placeName>
+               <location>
+                        <geo>50.4669 4.86746</geo>
+                    </location>
+                    <idno type="URI">http://sws.geonames.org/2790471/</idno>
+            </place>
+                <place xml:id="loc.55">
+               <placeName>Dinant</placeName>
+               <location>
+                        <geo>50.25807 4.91166</geo>
+                    </location>
+                    <idno type="URI">http://sws.geonames.org/2799357/</idno>
+            </place>
+                <place xml:id="loc.56">
+                <placeName>Charleroi</placeName>
+                <placeName>Charleroy</placeName>
+               <location>
+                        <geo>50.41136 4.44448</geo>
+                    </location>
+                    <idno type="URI">http://sws.geonames.org/2800481/</idno>
+            </place>
+                <place xml:id="loc.57">
+               <placeName>Marienbourg</placeName>
+               <placeName>Mariembourg</placeName>
+               <location>
+                        <geo>50.09489 4.52161</geo>
+                    </location>
+                    <idno type="URI">http://sws.geonames.org/2791684/</idno>
+            </place>
+                <place xml:id="loc.58">
+               <placeName>Philippeville</placeName>
+               <location>
+                        <geo>50.19612 4.54374</geo>
+                    </location>
+                    <idno type="URI">http://sws.geonames.org/2789016/</idno>
+            </place>
+            </listPlace>
+            <listBibl>
+                <bibl xml:id="t.6">Quadrupelallianz zwischen Österreich, Großbritannien, Preußen und
+               Russland, Paris 20. November 1815; vgl. Näf, Europapolitik, S. 12–15; Martens,
+               Supplément au Recueil, Bd. 6, S. 734–738; Angeberg, Congrès, Bd. 4, S. 1636–1639;
+               BFSP Bd. 3 (1815/16), S. 273–280.</bibl>
+                <bibl xml:id="t.9">Heilige Allianz, abgeschlossen zwischen den Herrschern Österreichs,
+               Preußens und Russlands am 26. September 1815; vgl. Angeberg, Congrès, Bd. 2, S.
+               1547–1549; Huber, Dokumente zur Deutschen Verfassungsgeschichte, Bd. 1, S. 83–84;
+               Martens, Nouveau Recueil, Bd. 2, S. 656–658; Näf, Europapolitik, S. 5–11; Näf,
+               Geschichte der Heiligen Allianz.</bibl>
+                <bibl xml:id="t.13">Erster Pariser Frieden, abgeschlossen zwischen Österreich,
+               Großbritannien, Portugal, Preußen, Russland, Schweden und Spanien auf der einen,
+               Frankreich auf der anderen Seite; vgl. BFSP Bd. 1/1 (1812–1814), S. 151–177; Martens,
+               Nouveau Recueil, Bd. 2, S. 1–18; Ghillany, Diplomatisches Handbuch, Bd. 1, S.
+               300–311; Angeberg, Congrès, Bd. 1, S. 161–176; <ref target="http://www.staatsvertraege.de/Frieden1814-15/1pfv1814-i.htm">http://www.staatsvertraege.de/Frieden1814-15/1pfv1814-i.htm</ref> (deutsch;
+               eingesehen am 15. November 2012) </bibl>
+                <bibl xml:id="t.12">Wiener Kongressakte vom 9. Juni 1815; vgl. Klüber, Acten, Bd. 6, S.
+               12–208; Angeberg, Congrès, Bd. 2, S. 1386–1433; Martens, Nouveau Recueil, Bd. 2, S.
+               361–430; BFSP Bd. 2 (1814/15), S 3–180; <ref target="http://www.staatsvertraege.de/Frieden1814-15/wka1815-i.htm">http://www.staatsvertraege.de/Frieden1814-15/wka1815-i.htm</ref> (eingesehen am
+               15. November 2012).</bibl>
+                <bibl xml:id="t.1">Zweiter Pariser Frieden zwischen Österreich, Großbritannien, Preußen und Russland auf der
+               einen, Frankreich auf der anderen Seite, Paris 20. November 1815; vgl. BFSP Bd. 3 (1815/16), S. 280–293;
+               Grewe, Fontes, Bd. 3/1, S. 10–18; Clercq, Recueil, Bd. 2, S. 642–650; Martens,
+               Nouveau Recueil, Bd. 2, S. 682–691; <ref target="http://www.staatsvertraege.de/Frieden1814-15/2pfv1815-i.htm">http://www.staatsvertraege.de/Frieden1814-15/2pfv1815-i.htm</ref> (deutsch; eingesehen
+               am 31. Oktober 2012).</bibl>
+                <bibl xml:id="t.37">Vertrag von Chaumont zwischen Österreich, Großbritannien, Preußen
+               und Russland, Chaumont 1. März 1814; abgedruckt bei Angeberg, Congrès, Bd. 1, S.
+               116–120; BFSP Bd. 1/1 (1812–1814), S. 121–129.</bibl>
+                <bibl xml:id="t.38">Procès-Verbal de la Conférence entre les Plénipotentiaires des 4
+               Cours Alliées, sur l’empoi de l’Indemnité, pour le renforcement de la Ligne Défensive
+               des Pays limitrophes de la France, Paris 21. November 1815, abgedruckt bei Angeberg,
+               Congrès, Bd. 4, S. 1642–1643; BFSP Bd. 3 (1815/16), S. 249–250.</bibl>
+            </listBibl>
+        </back>
+    </text>
 </TEI>

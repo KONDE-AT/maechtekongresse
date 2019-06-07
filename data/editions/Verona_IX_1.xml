@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/maechtekongresse/editions" xml:id="Verona_IX_1.xml" prev="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Verona_VIII_1.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -55,8 +55,10 @@
                Zeitgeschichtsforschung</publisher>
             <pubPlace>Wien</pubPlace>
 <date when="2018-09-23" change="#initial">2018-09-23</date>
-            <idno>V_VIIII_1</idno><idno type="ISBN" n="9783950478303">978-3-9504783-0-3</idno>
-                 <availability>           <licence target="https://creativecommons.org/licenses/by-sa/4.0/legalcode.de">https://creativecommons.org/licenses/by-sa/4.0/legalcode.de</licence>         </availability> </publicationStmt>
+            <idno>V_VIIII_1</idno>
+                <idno type="ISBN" n="9783950478303">978-3-9504783-0-3</idno>
+                 <availability>           <licence target="https://creativecommons.org/licenses/by-sa/4.0/legalcode.de">https://creativecommons.org/licenses/by-sa/4.0/legalcode.de</licence>         </availability> <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="handle">http://hdl.handle.net/21.11115/0000-000C-1F16-A</tei:idno>
+            </publicationStmt>
             <notesStmt>
     <note>Vergleiche auch die Projektbeschreibung in der <ref type="URI" target="../meta/Einleitung.xml">Einleitung</ref> sowie die Dokumentation der Applikation unter <ref type="URI" target="../meta/about.xml">„Über diese Webseite“</ref>.</note>
 </notesStmt>
@@ -80,9 +82,11 @@
                <physDesc>
                   <p>Lithographie</p>
                   <p>Das Schlusszirkular liegt mehrfach ein: Konzept, von <persName ref="#p.5">
-                                <surname>Gentz</surname></persName> korrigiert, fol. IX/3–12;
+                                <surname>Gentz</surname>
+                            </persName> korrigiert, fol. IX/3–12;
                      handschriftlich von <persName ref="#p.5">
-                                <surname>Gentz</surname></persName>,
+                                <surname>Gentz</surname>
+                            </persName>,
                      fol. IX/25–33; lithographierte Schlussfassung fol. IX/24 und 35–37, sowie fol.
                      IX/40–43; deutsche Übersetzung fol. IX/14–23. Beiliegend kurzes
                      Begleitschreiben an das diplomatische Personal (fol. IX/38), das folgende
@@ -140,9 +144,11 @@
                <physDesc>
                   <p>Lithographie und Konzept</p>
                   <p>Das Konzept liegt mehrfach ein: Konzept, von <persName ref="#p.5">
-                                <surname>Gentz</surname></persName> korrigiert, fol. IX/3–12;
+                                <surname>Gentz</surname>
+                            </persName> korrigiert, fol. IX/3–12;
                      handschriftlich von <persName ref="#p.5">
-                                <surname>Gentz</surname></persName>,
+                                <surname>Gentz</surname>
+                            </persName>,
                      fol. IX/25–33. Vermerk von anderer Hand auf fol. IX/3r: <q>
                                 <choice>
                         <abbr>NB</abbr>
@@ -269,17 +275,20 @@
             </p>
             <p>Cette réunion vient d’avoir lieu, et nous allons Vous en faire connaître les
                principaux résultats.</p>
-            <p>D’après la <rs ref="#t.46" type="treaties">Convention signée à <placeName ref="#loc.73">Novare</placeName> le <date when="1821-07-24">24 Juillet 1821</date></rs>,
+            <p>D’après la <rs ref="#t.46" type="treaties">Convention signée à <placeName ref="#loc.73">Novare</placeName> le <date when="1821-07-24">24 Juillet 1821</date>
+                    </rs>,
                l’occupation d’une ligne militaire dans le <country>Piémont</country> par un corps de
                troupes auxiliaires avait été éventuellement fixée à une année de durée, sauf à
                examiner lors de la réunion de 1822 si la situation du Pays permettrait de la faire
                cesser ou rendrait nécessaire de la prolonger.</p>
             <p>Les Plénipotentiaires des Cours signataires de la <rs ref="#t.46" type="treaties">Convention de
-                     <placeName ref="#loc.73">Novare</placeName></rs> se sont livrés à cet examen
+                     <placeName ref="#loc.73">Novare</placeName>
+                    </rs> se sont livrés à cet examen
                conjointement avec le <rs ref="#p.182" type="person">Plénipotentiaire de <choice>
                      <abbr>S. M.</abbr>
                      <expan>Sa Majesté</expan>
-                  </choice> le <rs ref="#p.172" type="person">Roi de Sardaigne</rs></rs> ; et il a été reconnu que
+                  </choice> le <rs ref="#p.172" type="person">Roi de Sardaigne</rs>
+                    </rs> ; et il a été reconnu que
                l’assistance d’une force alliée n’était plus nécessaire pour le maintien de la
                tranquillité du <country>Piémont</country>. <choice>
                   <abbr>S. M.</abbr>
@@ -297,7 +306,8 @@
                   <expan>Sa Majesté</expan>
                </choice> le <rs ref="#p.138" type="person">Roi des Deux-Siciles</rs> a fait déclarer aux Trois
                Cours qui avaient eu part à la <rs ref="#t.48" type="treaties">Convention signée à <placeName ref="#loc.11">Naples</placeName> le <date when="1821-10-18">18
-                  Octobre</date></rs> que l’état actuel de Son pays Lui permettait de proposer une
+                  Octobre</date>
+                    </rs> que l’état actuel de Son pays Lui permettait de proposer une
                diminution dans le nombre des Troupes auxiliaires stationnées dans différentes
                parties du Royaume. <ref target="Verona_II_3.xml">Les <rs ref="#p.16 #p.18 #p.17" type="multi-person">Souverains Alliés</rs> n’ont pas hésité à se prêter à cette proposition ; et
                   l’armée d’occupation du <country>Royaume des Deux-Siciles</country> sera dans le
@@ -368,7 +378,8 @@
                   qui ont eu le malheur de chercher le bien dans les voies qui n’y conduisent
                   jamais. Elle parcourt aujourd’hui le cercle fatal de sa révolution ; d’une
                   révolution que des hommes égarés ou pervers ont prétendu représenter comme un
-                  bienfait, comme le triomphe même d’un siècle de lumières.</rs><note type="editorial" target="#n.3">Zur Revolution in <country>Spanien</country>, die
+                  bienfait, comme le triomphe même d’un siècle de lumières.</rs>
+                    <note type="editorial" target="#n.3">Zur Revolution in <country>Spanien</country>, die
                   mit einem Militäraufstand am <date when="1820-01-01">1. Jänner 1820</date> ihren
                   Anfang nahm, vgl. Späth, Revolution in Europa, S. 117–128. </note> Tous les
                Gouvernemens ont été témoins des efforts que ces hommes ont faits pour persuader à
@@ -415,7 +426,8 @@
                         <choice>
                      <abbr>S. M.</abbr>
                      <expan>Sa Majesté</expan>
-                  </choice> Catholique</rs><note type="editorial" target="#n.4">Ehrentitel des
+                  </choice> Catholique</rs>
+                    <note type="editorial" target="#n.4">Ehrentitel des
                   Königs von Spanien.</note> et d’intérêt au bien-être d’une Nation que tant de
                vertus et de grandeur ont distinguée dans plus d’une époque de son histoire, et plus
                Ils ont senti la nécessité de prendre le parti auquel Ils se sont arrêtés, et qu’Ils
@@ -492,7 +504,8 @@
                considération le terme à fixer aux mesures qui, sur les propositions des cours de
                   <placeName ref="#loc.11">Naples</placeName> et de <placeName ref="#loc.64">Turin</placeName>, et de l’aveu de toutes les cours d’Italie, avoient été jugées
                nécessaires pour raffermir la tranquillité de la Péninsule après <rs xml:id="n.5">les
-                  funestes évènemens des années 1820 et 1821.</rs><note type="editorial" target="#n.5">Am <date when="1820-07-02">2. Juli 1820</date> meuterte die
+                  funestes évènemens des années 1820 et 1821.</rs>
+                    <note type="editorial" target="#n.5">Am <date when="1820-07-02">2. Juli 1820</date> meuterte die
                   Militärgarnison in Nola, 35 km von <placeName ref="#loc.11">Neapel</placeName>
                   entfernt. Das Datum gilt als Beginn der Revolution im <country>Königreich beider
                      Sizilien</country>. Vgl. Romani, The Neapolitan Revolution; Stites, The four Horsemen; Davis, Naples and Napoleon;
@@ -506,7 +519,8 @@
             </p>
             <p>Cette réunion vient d’avoir lieu, et nous allons Vous en faire connoître les
                principaux résultats.</p>
-            <p>D’après la <rs ref="#t.46" type="treaties">convention<pb n="25v"/> signée à <placeName ref="#loc.73">Novare</placeName> le <date when="1821-07-24">24 Juillet 1821</date></rs>,
+            <p>D’après la <rs ref="#t.46" type="treaties">convention<pb n="25v"/> signée à <placeName ref="#loc.73">Novare</placeName> le <date when="1821-07-24">24 Juillet 1821</date>
+                    </rs>,
                l’occupation d’une ligne militaire dans le <country>Piémont</country> par un corps de
                troupes auxiliaires avoit été éventuellement fixée à une année de durée, sauf à
                examiner lors de la réunion de 1822 si la situation du pays permettroit de la faire
@@ -539,7 +553,8 @@
                   <expan>Sa Majesté</expan>
                </choice> le <rs ref="#p.138" type="person">Roi des Deux-Siciles</rs> a fait déclarer aux Trois
                Cours qui avoient eu part à la <rs ref="#t.48" type="treaties">convention signée à <placeName ref="#loc.11">Naples</placeName> le <date when="1821-10-18">18 Octobre
-                     1821</date></rs>, que l’état actuel de Son pays Lui permettoit de proposer une
+                     1821</date>
+                    </rs>, que l’état actuel de Son pays Lui permettoit de proposer une
                diminution dans le nombre des troupes auxiliaires, stati-<pb n="26v"/>onnées dans
                différentes parties du Royaume. <ref target="Verona_II_3.xml">Les <rs ref="#p.16 #p.18 #p.17" type="multi-person">Souverains Alliés</rs> n’ont pas hésité à se prêter à
                   cette proposition ; et l’armée d’occupation du <country>Royaume des
@@ -573,7 +588,8 @@
             <p>Un évènement d’une conséquence majeure avoit éclaté vers la fin de cette dernière
                réunion. Ce que le génie révolutionnaire avoit commencé dans la Péninsule
                Occidentale, ce qu’il avoit conçu et entrepris en Italie, <rs xml:id="n.6">il parvint
-                  encore à l’exécuter aux extrémités orientales de l’Europe.</rs><note type="editorial" target="#n.6">1821 begann der Griechische Unabhängigkeitskrieg
+                  encore à l’exécuter aux extrémités orientales de l’Europe.</rs>
+                    <note type="editorial" target="#n.6">1821 begann der Griechische Unabhängigkeitskrieg
                   gegen die Osmanische Herrschaft; vgl. Dakin, The Greek Struggle; Clogg, Movement
                   for Greek Independence.</note> À l’époque même où les révoltes militaires de
                   <placeName ref="#loc.11">Naples</placeName> et de <placeName ref="#loc.64">Turin</placeName> cédèrent à l’approche d’une force régulière, le brandon de
@@ -608,7 +624,8 @@
                   toutes les révolutions, parcourt maintenant les phases funestes de la sienne ;
                   d’une révolution que des hommes égarés ou pervers ont prétendu représenter aux
                   peuples de l’Europe comme un bienfait, comme le triomphe même d’un siècle de
-                  lumières.</rs><note type="editorial" target="#n.7">Zur Revolution in
+                  lumières.</rs>
+                    <note type="editorial" target="#n.7">Zur Revolution in
                      <country>Spanien</country>, die mit einem Militäraufstand am <date when="1820-01-01">1. Jänner 1820</date> ihren Anfang nahm, vgl. Späth,
                   Revolution in Europa, S. 117–128.</note> Tous les gouvernemens ont été témoins des
                efforts que ces hommes ont faits pour persuader à leurs contemporains que cette
@@ -692,13 +709,202 @@
                les intérêts impérissables de l’ordre social.</p>
          </div>
       </body>
-      <back>
-         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../indices/listplace.xml" xpointer="listPlace"/>
-         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../indices/listperson.xml" xpointer="listPerson"/>
-         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../indices/listwit.xml" xpointer="listWit"/>
-         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../indices/listorg.xml" xpointer="listOrg"/>
-         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../indices/listtreaties.xml" xpointer="listTreaties"/>
-
-      </back>
-   </text>
+      
+   <back>
+            <listPerson>
+                <person xml:id="p.5">
+                    <persName>
+                        <forename>Friedrich</forename>
+                        <surname>Gentz</surname>
+                    </persName>
+                    <birth>1764</birth>
+                    <death>1832</death>
+                    <note>Protokollführer; vgl. zu seiner Person Kronenbitter, Wort und Macht;
+                        Cahen, Gentz; Mann, Friedrich von Gentz; Schneider, Werner, Europa in Wien,
+                        S. 169–170.</note>
+                    <idno type="URI">https://viaf.org/viaf/2522018/</idno>
+                </person>
+                <person xml:id="p.150">
+                    <persName>
+                        <surname>Ferdinand/Fernando VII.</surname>
+                        <roleName>König von Spanien</roleName>
+                    </persName>
+                    <birth>1784</birth>
+                    <death>1833</death>
+                    <note>Vgl. zu seiner Person Sánchez Mantero, Fernando VII.</note>
+                    <idno type="URI">http://viaf.org/viaf/286447916/</idno>
+                </person>
+                <person xml:id="p.16">
+                    <persName>
+                        <surname>Franz I.</surname>
+                        <roleName>Kaiser von Österreich</roleName>
+                    </persName>
+                    <birth>1768</birth>
+                    <death>1835</death>
+                    <note>Vgl. Mikoletzky, Franz II. (I.); Schneider, Werner, Europa in Wien, S.
+                        154–155; Ziegler, Franz II./I.</note>
+                    <idno type="URI">https://viaf.org/viaf/36912131/</idno>
+                </person>
+                <person xml:id="p.18">
+                    <persName>
+                        <surname>Friedrich Wilhelm III.</surname>
+                        <roleName>König von Preußen</roleName>
+                    </persName>
+                    <birth>1770</birth>
+                    <death>1840</death>
+                    <note>Vgl. Stamm-Kuhlmann, König in Preußens großer Zeit; Ders., Friedrich
+                        Wilhelm III; Schneider, Werner, Europa in Wien, S. 161–162.</note>
+                    <idno type="URI">https://viaf.org/viaf/774683/</idno>
+                </person>
+                <person xml:id="p.17">
+                    <persName>
+                        <surname>Alexander I.</surname>
+                        <roleName>Zar von Russland</roleName>
+                    </persName>
+                    <birth>1777</birth>
+                    <death>1825</death>
+                    <note>Vgl. Rey, Alexander I.; Schneider, Werner, Europa in Wien, S.
+                        100–102.</note>
+                    <idno type="URI">https://viaf.org/viaf/4938543/</idno>
+                </person>
+                <person xml:id="p.182">
+                    <persName>
+                        <forename>Vittorio Amadeo</forename>
+                        <surname>Sallier de la Tour</surname>
+                        <roleName>marchese du Cordon</roleName>
+                    </persName>
+                    <birth>1774</birth>
+                    <death>1858</death>
+                    <note>Sardischer Bevollmächtigter am Kongress von Verona; vgl. zu seiner Person
+                        Menghini, Sallier de la Tour, Vittorio, marchese du Cordon auf <ref target="http://www.treccani.it/enciclopedia/sallier-de-la-tour-vittorio-marchese-du-cordon_%28Enciclopedia-Italiana%29/">http://www.treccani.it/enciclopedia/sallier-de-la-tour-vittorio-marchese-du-cordon_%28Enciclopedia-Italiana%29/</ref>
+                        (eingesehen am 21. August 2017).</note>
+                    <idno type="URI">https://viaf.org/viaf/98859469/</idno>
+                </person>
+                <person xml:id="p.172">
+                    <persName>
+                        <surname>Carlo Felice/Karl Felix</surname>
+                        <roleName>Duc de Genevois</roleName>
+                        <roleName>König von Sardinien-Piemont</roleName>
+                    </persName>
+                    <birth>1765</birth>
+                    <death>1831</death>
+                    <note>Ab 1821 König von Sardinien-Piemont, ab 1824 Herzog von Savoyen; vgl. zu
+                        seiner Person Locorotondo, Carlo Felice di Savoia, re di Sardegna auf <ref target="http://www.treccani.it/enciclopedia/carlo-felice-di-savoia-re-di-sardegna_%28Dizionario-Biografico%29/">http://www.treccani.it/enciclopedia/carlo-felice-di-savoia-re-di-sardegna_%28Dizionario-Biografico%29/</ref>
+                        (eingesehen am 7. August 2017).</note>
+                    <idno type="URI">https://viaf.org/viaf/6003848/k</idno>
+                </person>
+                <person xml:id="p.138">
+                    <persName>
+                        <surname>Ferdinand/Ferdinando I.</surname>
+                        <roleName>König beider Sizilien</roleName>
+                    </persName>
+                    <birth>1751</birth>
+                    <death>1825</death>
+                    <note>1759-1806 Ferdinand IV. von Neapel, 1769-1815 Ferdinand III. von Sizilien,
+                        ab 1815/16 König beider Sizilien vgl. de Maio, Ferdinando I di Bourbone, re
+                        delle due Sicilie, auf <ref target="http://www.treccani.it/enciclopedia/ferdinando-i-di-borbone-re-delle-due-sicilie_(Dizionario-Biografico">http://www.treccani.it/enciclopedia/ferdinando-i-di-borbone-re-delle-due-sicilie_(Dizionario-Biografico</ref>)
+                        (eingesehen am 31. Juli 2017).</note>
+                    <idno type="URI">https://viaf.org/viaf/16073751/</idno>
+                </person>
+            </listPerson>
+            <listPlace>
+                <place xml:id="loc.7">
+                <placeName>Wien</placeName>
+               <placeName>Vienne</placeName>
+               
+               <location>
+                        <geo>48.2082 16.37169</geo>
+                    </location>
+                    <idno type="URI">http://sws.geonames.org/2761367/</idno>
+            </place>
+                <place xml:id="loc.10">
+                <placeName>St. Petersburg</placeName>
+               <placeName>Saint-Pétersbourg</placeName>
+               
+               <location>
+                        <geo>59.93863 30.31413</geo>
+                    </location>
+                    <idno type="URI">http://sws.geonames.org/498817/</idno>
+            </place>
+                <place xml:id="loc.9">
+               <placeName>Berlin</placeName>
+               <location>
+                        <geo>52.52437 13.41053</geo>
+                    </location>
+                    <idno type="URI">http://sws.geonames.org/2950159/</idno>
+            </place>
+                <place xml:id="loc.24">
+               <placeName>Madrid</placeName>
+               <location>
+                        <geo>40.4165 -3.70256</geo>
+                    </location>
+                    <idno type="URI">http://sws.geonames.org/3117735/</idno>
+            </place>
+                <place xml:id="loc.68">
+               <placeName>Verona</placeName>
+                <placeName>Vérone</placeName>
+               <location>
+                        <geo>45.4299 10.98444</geo>
+                    </location>
+                    <idno type="URI">http://sws.geonames.org/3164527/</idno>
+            </place>
+                <place xml:id="loc.65">
+               <placeName>Laibach</placeName>
+               <placeName>Laybach</placeName>
+               <placeName>Ljubljana</placeName>
+               <location>
+                        <geo>46.05108 14.50513</geo>
+                    </location>
+                    <idno type="URI">http://sws.geonames.org/3196359/</idno>
+            </place>
+                <place xml:id="loc.11">
+                <placeName>Neapel</placeName>
+               <placeName>Naples</placeName>
+               
+               <location>
+                        <geo>40.85216 14.26811</geo>
+                    </location>
+                    <idno type="URI">http://sws.geonames.org/3172394/</idno>
+            </place>
+                <place xml:id="loc.64">
+               <placeName>Turin</placeName>
+               <placeName>Turino</placeName>
+               <location>
+                        <geo>45.07049 7.68682</geo>
+                    </location>
+                    <idno type="URI">http://sws.geonames.org/3165524/</idno>
+            </place>
+                <place xml:id="loc.73">
+                <placeName>Novara</placeName>
+                <placeName>Novare</placeName>
+               <location>
+                        <geo>45.44694 8.62118</geo>
+                    </location>
+                    <idno type="URI">http://sws.geonames.org/3172189/</idno>
+            </place>
+                <place xml:id="loc.74">
+                <placeName>Alexandria</placeName>
+                <placeName>Alessandria</placeName>
+                <placeName>Alexandrie</placeName>
+               <location>
+                        <geo>44.90924 8.61007</geo>
+                    </location>
+                    <idno type="URI">http://sws.geonames.org/3183299/</idno>
+            </place>
+            </listPlace>
+            <listBibl>
+                <bibl xml:id="t.46">Konvention von Novara zwischen Österreich, Preußen und Russland auf
+               der einen, Sardinien-Piemont auf der anderen Seite, Novara 24. Juli 1821, betreffend
+               die militärische Besatzung; vgl. dazu BFSP Bd. 9 (1821/22), S. 650–655; Neumann,
+               Recueil, Bd. 3, S. 640–643.</bibl>
+                <bibl xml:id="t.47">Konvention zwischen Österreich, Preußen und Russland auf der einen,
+               Sardinien-Piemont auf der anderen Seite, Verona 14. Dezember 1822; vgl. BFSP Bd. 10
+               (1822/23), S. 731–733.</bibl>
+                <bibl xml:id="t.48">Konvention zwischen Österreich, Preußen und Russland auf der einen,
+               dem Königreich beider Sizilien auf der anderen Seite über die militärische Besatzung
+               des Königreichs beider Sizilien, Neapel 18. Oktober 1821; abgedruckt in BFSP Bd. 9
+               (1821/22), S. 632–635; Neumann, Recueil, Bd. 3, S. 652–656.</bibl>
+            </listBibl>
+        </back>
+    </text>
 </TEI>

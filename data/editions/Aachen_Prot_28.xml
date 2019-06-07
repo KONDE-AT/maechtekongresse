@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/maechtekongresse/editions" xml:id="Aachen_Prot_28.xml" prev="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Prot_27.xml" next="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Prot_29.xml">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -54,8 +54,10 @@
                     Zeitgeschichtsforschung</publisher>
                 <pubPlace>Wien</pubPlace>
 <date when="2018-09-23" change="#initial">2018-09-23</date>
-                <idno>A_28</idno><idno type="ISBN" n="9783950478303">978-3-9504783-0-3</idno>
-                    <availability>           <licence target="https://creativecommons.org/licenses/by-sa/4.0/legalcode.de">https://creativecommons.org/licenses/by-sa/4.0/legalcode.de</licence>         </availability> </publicationStmt>
+                <idno>A_28</idno>
+                <idno type="ISBN" n="9783950478303">978-3-9504783-0-3</idno>
+                    <availability>           <licence target="https://creativecommons.org/licenses/by-sa/4.0/legalcode.de">https://creativecommons.org/licenses/by-sa/4.0/legalcode.de</licence>         </availability> <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="handle">http://hdl.handle.net/21.11115/0000-000C-1F35-7</tei:idno>
+            </publicationStmt>
             <notesStmt>
     <note>Vergleiche auch die Projektbeschreibung in der <ref type="URI" target="../meta/Einleitung.xml">Einleitung</ref> sowie die Dokumentation der Applikation unter <ref type="URI" target="../meta/about.xml">„Über diese Webseite“</ref>.</note>
 </notesStmt>
@@ -79,7 +81,8 @@
                     <physDesc>
 
                         <p>Eigenhändiges Protokoll von <persName ref="#p.5">
-                                <surname>Gentz</surname></persName>.</p>
+                                <surname>Gentz</surname>
+                            </persName>.</p>
                         <handDesc>
                             <handNote xml:id="G">Friedrich Gentz</handNote>
                             <handNote xml:id="W">Nikolaus Wacken</handNote>
@@ -300,7 +303,8 @@
                         <ref decls="#m.3">les
                             questions relatives au <country>Grand-Duché de
                         Bade</country>
-                        </ref></rs>,<note type="editorial" target="#n.1">Zu den
+                        </ref>
+                    </rs>,<note type="editorial" target="#n.1">Zu den
                         Territorialstreitigkeiten vgl. Erbe, Erschütterung, S. 172–173; Ullmann,
                         Baden 1800 bis 1830. In: Handbuch der Baden-Württembergischen Geschichte,
                         Bd. 3, S. 37–38; Huber, Deutsche Verfassungsgeschichte, Bd. 1, S. 324–328;
@@ -315,7 +319,8 @@
                         <expan>Monsieur</expan>
                     </choice> le <persName ref="#p.8">
                         <roleName>Prince</roleName>
-                        <surname>de Metternich</surname></persName> s’étant réservé la faculté
+                        <surname>de Metternich</surname>
+                    </persName> s’étant réservé la faculté
                     d’émettre l’opinion de <choice>
                         <abbr>S. M.</abbr>
                         <expan>Sa Majesté</expan>
@@ -382,7 +387,8 @@
                                 <expan>Comte</expan>
                             </choice>
                         </roleName>
-                        <surname>Capo d’Istrias</surname></persName>
+                        <surname>Capo d’Istrias</surname>
+                    </persName>
                     <ref decls="#m.3"> le mémoire confidentiel ci-joint</ref>, le <rs ref="#p.26" type="person">Ministre de Bade</rs> n’y a point inséré une remarque qu’il a cru de sa
                     délicatesse de ne point énoncer.</p>
                 <p>
@@ -397,20 +403,24 @@
                     dans l’intimité de la confiance.</p>
                 <p>Qu’il soit permis au <rs ref="#p.26" type="person">Ministre de Bade</rs> de joindre encore à
                     son mémoire les réflexions présentées dans la <rs xml:id="n.5"> Commission de
-                            <placeName ref="#loc.25">Francfort</placeName>. </rs><note type="editorial" target="#n.5">Von den alliierten Mächten eingesetzte
+                            <placeName ref="#loc.25">Francfort</placeName>. </rs>
+                    <note type="editorial" target="#n.5">Von den alliierten Mächten eingesetzte
                         Kommission zur Klärung noch offener territorialer Fragen im Deutschen Bund.
                         Mitglieder: <persName ref="#p.36">
                             <forename>Johann</forename>
                             <roleName>Freiherr</roleName>
-                            <surname>von Wessenberg-Ampringen</surname></persName>, <persName ref="#p.37">
+                            <surname>von Wessenberg-Ampringen</surname>
+                        </persName>, <persName ref="#p.37">
                             <forename>Richard</forename>
                             <surname>Le Poer Trench</surname>, <roleName>2<hi rendition="#su">nd</hi> earl of Clancarty</roleName>
                         </persName>, <persName ref="#p.38">
                             <forename>Wilhelm</forename>
-                            <surname>von Humboldt</surname></persName>, <persName ref="#p.39">
+                            <surname>von Humboldt</surname>
+                        </persName>, <persName ref="#p.39">
                             <forename>Iwan/Johann Ossipowitsch</forename>
                             <roleName>Freiherr</roleName>
-                            <surname>von Anstett</surname></persName>. Erarbeitet den Frankfurter
+                            <surname>von Anstett</surname>
+                        </persName>. Erarbeitet den Frankfurter
                         Territorialrezess vom 20. Juli 1819; vgl. Huber, Deutsche
                         Verfassungsgeschichte, Bd. 1, S. 579–582.</note> Elles renferment une
                     déduction exacte des valeurs proposées en indemnité et la preuve incontestable
@@ -426,7 +436,8 @@
                 <p>Le <persName ref="#p.26">
                         <roleName>B<hi rendition="#su">on</hi>
                         </roleName>
-                        <surname>de Berstett</surname></persName>
+                        <surname>de Berstett</surname>
+                    </persName>
                 </p>
                 <closer>
                     <dateline>
@@ -472,22 +483,28 @@
                     qu’on lui demande.</p>
                 <pb n="6v"/>
                 <p>Le <rs ref="#t.19" type="treaties">traité de <placeName ref="#loc.25">Francfort</placeName> du
-                            <date when="1813-11-20">20 Novembre 1813</date></rs> a été adopté
+                            <date when="1813-11-20">20 Novembre 1813</date>
+                    </rs> a été adopté
                     unanimement comme base de la négociation au <rs xml:id="n.7">Protocole de
-                            <placeName ref="#loc.25">Francfort</placeName></rs><note place="editorial" target="#n.7">Vorschlag der Frankfurter Territorialkommission, einer von den alliierten Mächten
+                            <placeName ref="#loc.25">Francfort</placeName>
+                    </rs>
+                    <note place="editorial" target="#n.7">Vorschlag der Frankfurter Territorialkommission, einer von den alliierten Mächten
                         eingesetzten Kommission zur Klärung noch offener territorialer Fragen im
                         Deutschen Bund. Mitglieder: <persName ref="#p.36">
                             <forename>Johann</forename>
                             <roleName>Freiherr</roleName>
-                            <surname>von Wessenberg-Ampringen</surname></persName>, <persName ref="#p.37">
+                            <surname>von Wessenberg-Ampringen</surname>
+                        </persName>, <persName ref="#p.37">
                             <forename>Richard</forename>
                             <surname>Le Poer Trench</surname>, <roleName>2<hi rendition="#su">nd</hi> earl of Clancarty</roleName>
                         </persName>, <persName ref="#p.38">
                             <forename>Wilhelm</forename>
-                            <surname>von Humboldt</surname></persName>, <persName ref="#p.39">
+                            <surname>von Humboldt</surname>
+                        </persName>, <persName ref="#p.39">
                             <forename>Iwan/Johann Ossipowitsch</forename>
                             <roleName>Freiherr</roleName>
-                            <surname>von Anstett</surname></persName>. Erarbeitet den Frankfurter
+                            <surname>von Anstett</surname>
+                        </persName>. Erarbeitet den Frankfurter
                         Territorialrezess vom 20. Juli 1819; vgl. Huber, Deutsche
                         Verfassungsgeschichte, Bd. 1, S. 579–582.</note> ; c’est donc par la teneur
                     des articles de ce traité que l’on doit interpréter tous les actes qui
@@ -542,7 +559,8 @@
                 <p>Ad 1<hi rendition="#su">um</hi>
                     <ref target="Aachen_Prot_41.xml">Si donc l’on vouloit donner suite aux
                         engagemens secrets établis par les articles du <rs ref="#t.27" type="treaties">traité de
-                                <placeName ref="#loc.16">Munich</placeName></rs>
+                                <placeName ref="#loc.16">Munich</placeName>
+                        </rs>
                     </ref>, l’opinion de
                     tous les Etats limitrophes se réunit en un même point, c’est-à-dire que leur
                     indépendance, comme celle du <country>Grand-Duché de Bade</country>, tomberoit
@@ -557,12 +575,14 @@
                 <p>Ad 2<hi rendition="#su">dum</hi> On ne sauroit disconvenir qu’au moment de la
                     pacification les Puissances n’eussent une masse considérable d’objets
                     disponibles. Elles en ont disposé pour des agrandissemens, il semble donc <hi rendition="#u">qu’Elles ont Elles-mêmes renoncé au droit d’appliquer
-                        l’article onéreux du <rs ref="#t.19" type="treaties">Traité de <placeName ref="#loc.25">Francfort</placeName></rs>, et Elles ont donné au <rs ref="#p.22" type="person">Grand-Duc de Bade</rs> celui de se croire entièrem<hi rendition="#su">t</hi> libéré.</hi>
+                        l’article onéreux du <rs ref="#t.19" type="treaties">Traité de <placeName ref="#loc.25">Francfort</placeName>
+                        </rs>, et Elles ont donné au <rs ref="#p.22" type="person">Grand-Duc de Bade</rs> celui de se croire entièrem<hi rendition="#su">t</hi> libéré.</hi>
                 </p>
                 <p>L’année 1815 amena de nouveaux troubles, il fallut reprendre des armes. Le <rs ref="#p.22" type="person">Grand-Duc de Bade</rs>, <hi rendition="#u">placé en première
                         ligne au moment du danger</hi>, parut le premier au champ de bataille, au
                     même instant où il accéda au <rs ref="#t.20" type="treaties">traité de <placeName ref="#loc.7">Vienne</placeName> du <date when="1815-05-15">15 Mai
-                    1815</date></rs>.</p>
+                    1815</date>
+                    </rs>.</p>
                 <p>Les articles III et IV de ce traité portent
                     textuellement</p>
                 <p>Article III.</p>
@@ -571,7 +591,8 @@
                         <choice>
                             <abbr>S. M. I. et R.</abbr>
                             <expan>Sa Majesté Impériale et Royale</expan>
-                        </choice></rs> s’engage tant en Son<pb n="8v"/> nom qu’en celui de Ses
+                        </choice>
+                    </rs> s’engage tant en Son<pb n="8v"/> nom qu’en celui de Ses
                     Alliés <hi rendition="#u">à ne point poser les armes sans avoir particulièrem<hi rendition="#su">t</hi> égard aux intérêts de <choice>
                             <abbr>S. A. R.</abbr>
                             <expan>Son Altesse Royale</expan>
@@ -582,7 +603,8 @@
                         <choice>
                             <abbr>S. M.</abbr>
                             <expan>Sa Majesté</expan>
-                        </choice></rs> s’engage de concert avec ses Alliés d’admettre <choice>
+                        </choice>
+                    </rs> s’engage de concert avec ses Alliés d’admettre <choice>
                         <abbr>S. A. R.</abbr>
                         <expan>Son Altesse Royale</expan>
                     </choice> le <rs ref="#p.22" type="person">Grand-Duc</rs>
@@ -600,7 +622,8 @@
                     que l’armée alliée fut arrivée et ont repoussé victorieusement en nombre
                     inférieur une sortie de la garnison de <placeName ref="#loc.32">Strasbourg</placeName>.</p>
                 <p>La glorieuse journée de <placeName ref="#loc.31">Waterloo</placeName> a décidé du
-                    sort de la guerre, et le <rs ref="#t.1" type="treaties">traité de <placeName ref="#loc.2">Paris</placeName></rs> s’acheva.</p>
+                    sort de la guerre, et le <rs ref="#t.1" type="treaties">traité de <placeName ref="#loc.2">Paris</placeName>
+                    </rs> s’acheva.</p>
                 <p>Des Protocoles séparés
                     règlent <choice>
                         <abbr>
@@ -648,7 +671,8 @@
                 <p>D’après les raisonnemens établis ci-dessus, le <rs ref="#p.22" type="person">Grand-Duc de
                         Bade</rs>, par la lettre du <rs ref="#t.20" type="treaties">traité</rs>, ne seroit plus tenu
                     à aucun sacrifice territorial, puisqu’il n’existe plus d’objets disponibles pour
-                    l’en dédommager, vu que d’après le sens de l’article 2 secret du <rs ref="#t.19" type="treaties">traité de <placeName ref="#loc.25">Francfort</placeName></rs> il ne peut
+                    l’en dédommager, vu que d’après le sens de l’article 2 secret du <rs ref="#t.19" type="treaties">traité de <placeName ref="#loc.25">Francfort</placeName>
+                    </rs> il ne peut
                     être question d’une indemnité pécuniaire, et que la renonciation à des droits de
                     réversion, invalides sans le consentement de toutes les parties intéressées, et
                     qui dans le principe même n’étoient destinés qu’à fournir un moyen pour
@@ -662,7 +686,8 @@
                     de <placeName ref="#loc.38">Frankenthal</placeName> en faveur de la
                         <country>Bavière</country> ;</p>
                 <p>2. L’échange du baillage de Steinfeld contre le <rs xml:id="n.9"> Geroldseck
-                        </rs><note type="editorial" target="#n.9">Vgl. Köbler, Historisches Lexikon,
+                        </rs>
+                    <note type="editorial" target="#n.9">Vgl. Köbler, Historisches Lexikon,
                         S. 216.</note>  ;</p>
                 <p>3. La cession d’une prétention réelle de 1.380.207 florins que le <rs ref="#p.22" type="person">Grand-Duc de Bade</rs> a à la charge de la <country>Bavière</country> ; si
                     cette somme paroissoit insuffisante, le <rs ref="#p.26" type="person">Ministre de Bade</rs>
@@ -679,7 +704,8 @@
                 </metamark>
                 
                     <head>Mémoire sur la question relative à <rs xml:id="n.10">l’affaire de Bade
-                            </rs><note type="editorial" target="#n.10">Vgl. Huber, Deutsche
+                            </rs>
+                    <note type="editorial" target="#n.10">Vgl. Huber, Deutsche
                             Verfassungsgeschichte, Bd. 1, S. 172–186.</note> et vote du Cabinet de
                         Russie</head>
                 
@@ -693,7 +719,9 @@
                                 <abbr>9<hi rendition="#su">bre</hi>
                                 </abbr>
                                 <expan>Novembre</expan>
-                            </choice> 1818</date></rs><note type="editorial" target="#n.10a">Datumsberechnung stimmt nicht. Entweder 29.
+                            </choice> 1818</date>
+                        </rs>
+                        <note type="editorial" target="#n.10a">Datumsberechnung stimmt nicht. Entweder 29.
                         Oktober/8. November 1818, oder 31. Oktober/10. November 1818.</note>
                 </dateline>
                 </opener>
@@ -716,20 +744,25 @@
                         </date>
                     </ref> les décisions suivantes :</p>
                 <p>Sans ouvrir une négociation étrangère à ses attributions actuelles, la Conférence
-                    résolut de donner suite aux <rs xml:id="n.11"> discussions entamées à <placeName ref="#loc.25">Francfort</placeName></rs><note type="editorial" target="#n.11">Von den alliierten Mächten
+                    résolut de donner suite aux <rs xml:id="n.11"> discussions entamées à <placeName ref="#loc.25">Francfort</placeName>
+                    </rs>
+                    <note type="editorial" target="#n.11">Von den alliierten Mächten
                         eingesetzte Kommission zur Klärung noch offener territorialer Fragen im
                         Deutschen Bund. Mitglieder: <persName ref="#p.36">
                             <forename>Johann</forename>
                             <roleName>Freiherr</roleName>
-                            <surname>von Wessenberg-Ampringen</surname></persName>, <persName ref="#p.37">
+                            <surname>von Wessenberg-Ampringen</surname>
+                        </persName>, <persName ref="#p.37">
                             <forename>Richard</forename>
                             <surname>Le Poer Trench</surname>, <roleName>2<hi rendition="#su">nd</hi> earl of Clancarty</roleName>
                         </persName>, <persName ref="#p.38">
                             <forename>Wilhelm</forename>
-                            <surname>von Humboldt</surname></persName>, <persName ref="#p.39">
+                            <surname>von Humboldt</surname>
+                        </persName>, <persName ref="#p.39">
                             <forename>Iwan/Johann Ossipowitsch</forename>
                             <roleName>Freiherr</roleName>
-                            <surname>von Anstett</surname></persName>. Erarbeitet den Frankfurter
+                            <surname>von Anstett</surname>
+                        </persName>. Erarbeitet den Frankfurter
                         Territorialrezess vom 20. Juli 1819; vgl. Huber, Deutsche
                         Verfassungsgeschichte, Bd. 1, S. 579–582.</note> au sujet de l’affaire de
                     Bade, et de convenir des principes sur lesquels ce différend seroit applani et
@@ -741,7 +774,8 @@
                     nature positive des moyens<pb n="14v"/> que le <rs ref="#p.22" type="person">Grand-Duc de
                         Bade</rs> destinoit à l’accomplissement de ses intentions conciliantes.</p>
                 <p>Les vœux de la Conférence se sont réalisés. <rs ref="#p.100" type="person">Le premier Ministre
-                        du <rs ref="#p.22" type="person">Grand-Duc de Bade</rs></rs> ne nous a point laissé
+                        du <rs ref="#p.22" type="person">Grand-Duc de Bade</rs>
+                    </rs> ne nous a point laissé
                     ignorer les dispositions de son Gouvernement. La négociation confidentielle
                     entamée avec lui a été poussée aussi loin que possible ; et nous connoissons
                     maintenant toute l’étendue des sacrifices auxquels on peut amener le <rs ref="#p.22" type="person">Grand-Duc</rs> par la voie de la persuasion ; nous connoissons
@@ -759,7 +793,8 @@
                     <rs ref="#p.17" type="person">l’Empereur</rs>.</p>
                 <p>
                     <rs ref="#p.100" type="person">Le Ministre du <rs ref="#p.22" type="person">Grand-Duc<pb n="15r"/> de
-                            Bade</rs></rs> a repris la négociation au point où elle s’étoit arrêtée
+                            Bade</rs>
+                    </rs> a repris la négociation au point où elle s’étoit arrêtée
                     à <rs ref="#loc.25" type="place">Francfort</rs> dans le cours de l’année 1817.</p>
                 <p>La Commission territoriale de Francfort avoit décidé comme propositions :</p>
                 <p>Que le <rs ref="#p.22" type="person">Grand-Duc de Bade</rs> céderoit le Cercle du Mein et de la
@@ -769,7 +804,8 @@
                 <p>Que par contre le Grand-Duché seroit libéré des réversions mentionnées aux <rs ref="#t.21 #t.11" type="multi-treaties">Protocoles de Vienne et de Paris</rs> en faveur de la
                         <country>Bavière</country> et de l’<country>Autriche</country> ;</p>
                 <p>Que le <rs ref="#p.22" type="person">Grand-Duc</rs> recevroit en outre la <rs xml:id="n.12">
-                        Principauté de Geroldseck, </rs><note type="editorial" target="#n.12">Vgl.
+                        Principauté de Geroldseck, </rs>
+                    <note type="editorial" target="#n.12">Vgl.
                         Köbler, Historisches Lexikon, S. 216.</note>
                 </p>
                 <p>Le fort de Kehl et son territoire,</p>
@@ -795,7 +831,8 @@
                                 <expan>Baron</expan>
                             </choice>
                         </roleName>
-                        <surname>de Berstett</surname></persName> conclut :</p>
+                        <surname>de Berstett</surname>
+                    </persName> conclut :</p>
                 <p>Que <rs ref="#p.22" type="person">Son Souverain</rs> ne sauroit acquiescer aux cessions
                     territoriales qui lui sont demandées ;</p>
                 <p>Qu’il ne sauroit voir une concession dans l’offre de renoncer en sa faveur aux
@@ -807,7 +844,8 @@
                                 <abbr>9<hi rendition="#su">bre</hi>
                                 </abbr>
                                 <expan>Novembre</expan>
-                            </choice> 1815</date></rs> la moitié du pont de Kehl et le produit de
+                            </choice> 1815</date>
+                    </rs> la moitié du pont de Kehl et le produit de
                     l’Octroi du Rhin appartiennent déjà au <rs ref="#p.22" type="person">Grand-Duc</rs> ;</p>
                 <p>Qu’enfin sa conscience et le repos même de ses Etats ne lui permettront jamais
                     d’échanger des sujets contre les 100/m florins qui lui avoient été proposés.</p>
@@ -817,10 +855,12 @@
                             <expan>Plénipotentiaire</expan>
                         </choice> Badois</rs> admet cependant encore le principe d’une négociation,
                     il reconnoît donc la nécessité d’un sacrifice que feroit la Cour de <placeName ref="#loc.19">Carlsruhe</placeName> pour être libérée des clauses onéreuses
-                    du <rs ref="#t.19" type="treaties">traité de <placeName ref="#loc.25">Francfort</placeName></rs>.</p>
+                    du <rs ref="#t.19" type="treaties">traité de <placeName ref="#loc.25">Francfort</placeName>
+                    </rs>.</p>
                 <p>Selon le Ministère de Bade les stipulations expresses des articles I et II du <rs ref="#t.19" type="treaties">traité de <placeName ref="#loc.25">Francfort</placeName> de
                         l’année 1813</rs>, et des articles III et IV du <rs ref="#t.20" type="treaties">traité du
-                            <date when="1815-05-15">15 Mai 1815</date></rs>, n’imposent point au <rs ref="#p.22" type="person">Grand-Duc de Bade</rs> l’obligation de céder le Cercle du Mein
+                            <date when="1815-05-15">15 Mai 1815</date>
+                    </rs>, n’imposent point au <rs ref="#p.22" type="person">Grand-Duc de Bade</rs> l’obligation de céder le Cercle du Mein
                     et de la Tauber.<pb n="16v"/> Cette cession est même aujourd’hui hors de son
                     pouvoir, et ce ne seroit que la force seule des armes qui pourroit l’autoriser à
                     y consentir.</p>
@@ -837,7 +877,8 @@
                                 <expan>Baron</expan>
                             </choice>
                         </roleName>
-                        <surname>de Berstett</surname></persName>.</p>
+                        <surname>de Berstett</surname>
+                    </persName>.</p>
                 <p>La dernière partie de cette pièce discute également la thèse des réversions. Elle
                     appelle sans contredit l’attention la plus sérieuse et la plus méritée.</p>
                 <p>Nous touchions ainsi à des limites qu’il paroissoit impossible de franchir ; mais
@@ -871,7 +912,8 @@
                     <placeName ref="#loc.7">Vienne</placeName> doit à celle de <placeName ref="#loc.19">Carlsruhe</placeName>.</p>
                 <p>Le <rs ref="#p.22" type="person">Grand-Duc</rs> ouvre au reste une route militaire à la
                         <country>Bavière</country> dans la direction de <placeName ref="#loc.38">Frankenthal</placeName> et consent à l’échange du <rs xml:id="n.14">
-                        baillage de Wertheim </rs><note type="editorial" target="#n.14">Vgl. Köbler,
+                        baillage de Wertheim </rs>
+                    <note type="editorial" target="#n.14">Vgl. Köbler,
                         Historisches Lexikon, S. 777–778.</note> contre la Principauté de
                     Geroldseck.</p>
                 <p>Tels sont les fruits de nos efforts, et les uniques résultats que nous puissions
@@ -933,7 +975,8 @@
                     nous sommes convaincus qu’il est de leur obligation de mettre en évidence les
                     vérités suivantes :</p>
                 <p>1<hi rendition="#su">o</hi> Que les droits de réversion n’ont été mentionnés dans
-                    les <rs ref="#t.21 #t.11" type="multi-treaties">Protocoles de <placeName ref="#loc.7">Vienne</placeName> et de <placeName ref="#loc.2">Paris</placeName></rs>
+                    les <rs ref="#t.21 #t.11" type="multi-treaties">Protocoles de <placeName ref="#loc.7">Vienne</placeName> et de <placeName ref="#loc.2">Paris</placeName>
+                    </rs>
                     que comme des moyens transitoires de négociation ou, en d’autres termes, comme
                     des argumens que les négociateurs auroient fait valoir pour concilier des
                     intérêts litigieux, et amener les parties à des conclusions mutuellement
@@ -942,7 +985,8 @@
                     sans fruit, n’existent plus, et se trouvent par ce seul fait frappés de
                     nullité ;</p>
                 <p>3<hi rendition="#su">o</hi> Que la clause explicite du <rs ref="#t.21" type="treaties">Protocole
-                        de <placeName ref="#loc.2">Paris</placeName></rs> relative à la réversion du Palatinat et du<pb n="20r"/>
+                        de <placeName ref="#loc.2">Paris</placeName>
+                    </rs> relative à la réversion du Palatinat et du<pb n="20r"/>
                     Brisgau porte <hi rendition="#u">que cette stipulation ne sera regardée comme
                         obligatoire qu’autant qu’elle aura été acceptée par la
                             <country>Bavière</country>
@@ -957,7 +1001,8 @@
                         <hi rendition="#u">garantie</hi> d’une obligation qui, d’après les principes
                     invariables du droit public, ne pouvoit point être stipulée entr’Elles
                     seulement ;</p>
-                <p>5<hi rendition="#su">o</hi> Enfin, que l’<country>Autriche</country>,<pb n="20v"/> en promettant l’adhésion de ses Alliés aux deux articles secrets du <rs ref="#t.27" type="treaties">traité de <placeName ref="#loc.16">Munic</placeName></rs>, n’a
+                <p>5<hi rendition="#su">o</hi> Enfin, que l’<country>Autriche</country>,<pb n="20v"/> en promettant l’adhésion de ses Alliés aux deux articles secrets du <rs ref="#t.27" type="treaties">traité de <placeName ref="#loc.16">Munic</placeName>
+                    </rs>, n’a
                     fait qu’une concession nécessairement conditionnelle dont l’accomplissement
                     dépendoit du point de vue sous lequel les trois Cours envisageroient
                     l’application du Protocole de Paris, et qu’il n’a jamais été stipulé par ce même
@@ -981,8 +1026,10 @@
                     il s’y refuse, fort de la lettre des traités et de la conscience même des
                     Souverains dont il invoque l’équité autant que la sagesse.</p>
                 <p>Il ne resteroit donc plus qu’à lui<pb n="21v"/> arracher un consentement forcé.
-                    Mais dans l’état de choses que le <rs ref="#t.12" type="treaties">recès de <placeName ref="#loc.7">Vienne</placeName></rs> et les <rs ref="#t.21 #t.1" type="multi-treaties">actes
-                        de <placeName ref="#loc.2">Paris</placeName></rs> ont sanctionnés pour le
+                    Mais dans l’état de choses que le <rs ref="#t.12" type="treaties">recès de <placeName ref="#loc.7">Vienne</placeName>
+                    </rs> et les <rs ref="#t.21 #t.1" type="multi-treaties">actes
+                        de <placeName ref="#loc.2">Paris</placeName>
+                    </rs> ont sanctionnés pour le
                     bonheur du monde, la force ne peut être employée que de l’autorisation des
                     traités et dans le cas qu’ils ont prévus. Nous avons consulté avec respect et
                     scrupule ces transactions Européennes, et nous nous gardons de rompre le silence
@@ -1009,7 +1056,8 @@
                     par le capital offert de deux millions. Ainsi la route de <placeName ref="#loc.38">Frankenthal</placeName> et le baillage de Wertheim sont autant
                     d’avantages additionnels dont elle obtient la jouissance.</p>
                 <p>La <country>Bavière</country> ne peut faire valoir aucun titre à la réversion,
-                    puisqu’elle n’a point adhéré au <rs ref="#t.21" type="treaties">Protocole de <placeName ref="#loc.2">Paris</placeName></rs> ; elle
+                    puisqu’elle n’a point adhéré au <rs ref="#t.21" type="treaties">Protocole de <placeName ref="#loc.2">Paris</placeName>
+                    </rs> ; elle
                     reçoit donc plus qu’elle n’étoit en droit de demander.</p>
                 <p>Comme le Cabinet Bavarois ne sauroit réclamer aucun autre dédommagement, il s’en
                     suit que la possibilité d’un refus de sa part au plan de conciliation, proposé
@@ -1020,7 +1068,8 @@
                     </choice> admise, et quand bien même ce refus auroit lieu, le
                         <country>Grand-Duché de Bade</country> ne peut rester, par le fait seul de
                     la <country>Bavière</country>, sous l’empire<pb n="23r"/> des clauses onéreuses
-                    du <rs ref="#t.19" type="treaties">traité de <placeName ref="#loc.25">Francfort</placeName></rs>.</p>
+                    du <rs ref="#t.19" type="treaties">traité de <placeName ref="#loc.25">Francfort</placeName>
+                    </rs>.</p>
                 <p>Cet aperçu a été mis sous les yeux de <choice>
                         <abbr>S. M.</abbr>
                         <expan>Sa Majesté</expan>
@@ -1045,14 +1094,17 @@
                     Etats de la Confédération germanique ;</p>
                 <p>Que les Puissances alliées ne peuvent rendre cette décision que d’après la teneur
                     du <rs ref="#t.19" type="treaties">traité de <placeName ref="#loc.25">Francfort</placeName> du
-                            <date when="1813-11-20">20 Novembre 1813</date></rs> et du <rs ref="#t.20" type="treaties">traité du <date when="1815-05-15">15 Mai 1815</date></rs>, et
+                            <date when="1813-11-20">20 Novembre 1813</date>
+                    </rs> et du <rs ref="#t.20" type="treaties">traité du <date when="1815-05-15">15 Mai 1815</date>
+                    </rs>, et
                     dans l’unique vue d’asseoir sur une base immuable la tranquillité des Etats de
                     l’Allemagne que concernera cette même décision en statuant sur leurs intérêts
                     les plus graves ;</p>
                 <p>Considérant en outre que pour atteindre ce but il importe de fixer la juste
                     valeur des <rs ref="#t.11 #t.21" type="multi-treaties">Protocoles de <placeName ref="#loc.7">Vienne</placeName> et de <placeName ref="#loc.2">Paris</placeName> du
                             <date when="1815-06-10">10 Juin</date> et du <date when="1815-11-03">3
-                            Novembre 1815</date></rs>, et de faire comprendre que la
+                            Novembre 1815</date>
+                    </rs>, et de faire comprendre que la
                         réversibilité<pb n="24r"/> n’a jamais été articulée que comme moyen de
                     négociation lequel, ayant manqué son effet doit, être déclaré nul et non
                     avenu ;</p>
@@ -1064,7 +1116,8 @@
                                 <abbr>9<hi rendition="#su">bre</hi>
                                 </abbr>
                                 <expan>Novembre</expan>
-                            </choice> 1813</date></rs> comme partie contractante et offre des moyens
+                            </choice> 1813</date>
+                    </rs> comme partie contractante et offre des moyens
                     additionnels de conciliation ;</p>
                 <p>
                     <rs ref="#p.17" type="person">Sa Majesté Impériale</rs> pense que, pour combiner tous les
@@ -1083,7 +1136,8 @@
                         <choice>
                             <abbr>S. A. R.</abbr>
                             <expan>Son Altesse Royale</expan>
-                        </choice></rs> mettroit à la disposition des Cours alliées une prétention
+                        </choice>
+                    </rs> mettroit à la disposition des Cours alliées une prétention
                     réelle, justifiée par des quittances, et se montant à la somme d’un million
                     trois-cent-mille florins ; prétention que le <country>Grand-Duché de
                         Bade</country> forme à la charge de la <country>Bavière</country>.</p>
@@ -1100,7 +1154,8 @@
                 <p>5<hi rendition="#su">o</hi> Les présentes résolutions seroient consignées au
                     Protocole des Conférences d’<placeName ref="#loc.1">Aix-la-Chapelle</placeName>.
                     Ce Protocole serviroit d’instruction commune <rs xml:id="n.15"> aux <rs ref="#p.36 #p.37 #p.38 #p.39" type="multi-person">Ministres des 4 Puissances</rs>,
-                        rassemblés en Commission </rs><note type="editorial" target="#n.15">Gemeint
+                        rassemblés en Commission </rs>
+                    <note type="editorial" target="#n.15">Gemeint
                         ist die Territorialkommission am Frankfurter Bundestag, eine von den
                         alliierten Mächten eingesetzte Kommission zur Klärung noch offener
                         territorialer Fragen im Deutschen Bund. Erarbeitet den Frankfurter
@@ -1116,7 +1171,8 @@
                         <choice>
                             <abbr>L.L. M.M. I.I. &amp; R.R.</abbr>
                             <expan>Leurs Majestés Impériales et Royales</expan>
-                        </choice></rs> ont pris une résolution définitive qui pose les fondemens
+                        </choice>
+                    </rs> ont pris une résolution définitive qui pose les fondemens
                     d’une paix inaltérable, en détruisant pour le présent et pour l’avenir tous les
                     germes de troubles et de dissensions.</p>
                 <p>Cette démarche seroit accompagnée d’une communication diplomatique de la part des
@@ -1151,14 +1207,16 @@
                         <choice>
                             <abbr>V. M.</abbr>
                             <expan>Votre Majesté</expan>
-                        </choice></rs> durant notre réunion à <placeName ref="#loc.1">Aix-la-Chapelle</placeName>, concernant les arrangemens conciliatoires qui
+                        </choice>
+                    </rs> durant notre réunion à <placeName ref="#loc.1">Aix-la-Chapelle</placeName>, concernant les arrangemens conciliatoires qui
                     mettent un terme à la négociation entamée depuis longtems entre les Cours
                     alliées et celle de Bade, vont être portées à la connoissance du Ministère de
                         <rs ref="#p.99" type="person">
                         <choice>
                             <abbr>V. M.</abbr>
                             <expan>Votre Majesté</expan>
-                        </choice></rs> par la voie des communications diplomatiques. Ces résultats,
+                        </choice>
+                    </rs> par la voie des communications diplomatiques. Ces résultats,
                     hautement réclamés par la stricte équité, l’intérêt majeur de l’Allemagne et
                     l’affermissement de ses rapports intérieurs : ces résultats sont de nature à
                     obtenir le suffrage éclairé d’un Prince tel que Vous, Sire, auquel
@@ -1169,7 +1227,8 @@
                         <choice>
                             <abbr>V. M.</abbr>
                             <expan>Votre Majesté</expan>
-                        </choice></rs> l’expression affectueuse et sincère du vœu que nous formons
+                        </choice>
+                    </rs> l’expression affectueuse et sincère du vœu que nous formons
                     tous de La voir acquiescer avec confiance aux termes de l’accommodement que nous
                         Lui<pb n="26v"/> proposons, comme le seul qui soit parfaitement conforme aux
                     principes du droit, autant qu’il est important et décisif pour le bien-être de
@@ -1182,7 +1241,8 @@
                         <choice>
                             <abbr>V. M.</abbr>
                             <expan>Votre Majesté</expan>
-                        </choice></rs>. Elle appréciera sans doute ce nouveau témoignage des
+                        </choice>
+                    </rs>. Elle appréciera sans doute ce nouveau témoignage des
                     sentimens dont nous sommes animés pour Elle, et reconnoîtra sans peine l’utilité
                     du résultat que nous Lui offrons comme le but final de nos sollicitudes et de
                     nos efforts. </p>
@@ -1194,18 +1254,419 @@
                         <choice>
                             <abbr>V. M.</abbr>
                             <expan>Votre Majesté</expan>
-                        </choice></rs>
+                        </choice>
+                    </rs>
                 </p>
                 <p>Je La prie de recevoir l’assurance de mon attachement et de la considération très
                     distinguée avec laquelle je suis …</p>
             </div>
         </body>
-        <back>
-            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../indices/listplace.xml" xpointer="listPlace"/>
-            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../indices/listperson.xml" xpointer="listPerson"/>
-            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../indices/listwit.xml" xpointer="listWit"/>
-            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../indices/listorg.xml" xpointer="listOrg"/>
-            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../indices/listtreaties.xml" xpointer="listTreaties"/>
+        
+    <back>
+            <listPerson>
+                <person xml:id="p.5">
+                    <persName>
+                        <forename>Friedrich</forename>
+                        <surname>Gentz</surname>
+                    </persName>
+                    <birth>1764</birth>
+                    <death>1832</death>
+                    <note>Protokollführer; vgl. zu seiner Person Kronenbitter, Wort und Macht;
+                        Cahen, Gentz; Mann, Friedrich von Gentz; Schneider, Werner, Europa in Wien,
+                        S. 169–170.</note>
+                    <idno type="URI">https://viaf.org/viaf/2522018/</idno>
+                </person>
+                <person xml:id="p.13">
+                    <persName>
+                        <forename>Karl Robert</forename>
+                        <roleName>Graf</roleName>
+                        <surname>von Nesselrode</surname>
+                    </persName>
+                    <birth>1780</birth>
+                    <death>1862</death>
+                    <note>Russischer Außenminister, Bevollmächtigter Russlands; vgl. zu seiner
+                        Person Eich, Nesselrode, Robert Graf von. In: NDB, Bd. 19, S. 74–75;
+                        Grimsted, The Foreign Ministers, S. 194–225, 269–286; Schneider, Werner,
+                        Europa in Wien, S. 248–249.</note>
+                    <idno type="URI">https://viaf.org/viaf/49992065/</idno>
+                </person>
+                <person xml:id="p.14">
+                    <persName>
+                        <forename>Ioannis Antonis</forename>
+                        <roleName>Graf</roleName>
+                        <surname>Kapodistrias/Capodistrias</surname>
+                    </persName>
+                    <birth>1776</birth>
+                    <death>1831</death>
+                    <note>Russischer Außenminister, Bevollmächtigter Russlands; vgl. zu seiner
+                        Person Woodhouse, Capodistrias; Grimsted, The Foreign Ministers, S. 226–268;
+                        Schneider, Werner, Europa in Wien, S. 199–200.</note>
+                    <idno type="URI">https://viaf.org/viaf/39507057/</idno>
+                </person>
+                <person xml:id="p.99">
+                    <persName>
+                        <surname>Maximilian I. Joseph</surname>
+                        <roleName>König von Bayern</roleName>
+                    </persName>
+                    <birth>1756</birth>
+                    <death>1825</death>
+                    <note>Vgl. zu seiner Person Weis, Maximilian I., König von Bayern. In: NDB, Bd.
+                        16, S. 487–490; Glaser (Hg.), Krone und Verfassung; Schneider, Werner,
+                        Europa in Wien, S. 236–237.</note>
+                    <idno type="URI">https://viaf.org/viaf/5723155/</idno>
+                </person>
+                <person xml:id="p.12">
+                    <persName>
+                        <forename>Christian Günther</forename>
+                        <roleName>Graf</roleName>
+                        <surname>von Bernstorff</surname>
+                    </persName>
+                    <birth>1769</birth>
+                    <death>1835</death>
+                    <note>Preußischer Außenminister, Bevollmächtigter Preußens; vgl. zu seiner
+                        Person Kellenbenz, Bernstorff, Christian Graf von. In: NDB, Bd. 2, S.
+                        139–140; Schneider, Werner, Europa in Wien, S. 116–117.</note>
+                    <idno type="URI">https://viaf.org/viaf/49969175/</idno>
+                </person>
+                <person xml:id="p.9">
+                    <persName>
+                        <forename>Robert </forename>
+                        <surname>Stewart</surname>
+                        <roleName>Viscount Castlereagh</roleName>
+                    </persName>
+                    <birth>1769</birth>
+                    <death>1822</death>
+                    <note>Britischer Außenminister; vgl zu seiner Person Bew, Castlereagh; Webster,
+                        Foreign Policy; Bartlett, Castlereagh; Thorne, Stewart, Robert, Viscount
+                        Castlereagh and second marquess of Londonderry. In: ODNB, Bd. 52, S.
+                        749–757.</note>
+                    <idno type="URI">https://viaf.org/viaf/15560591/</idno>
+                </person>
+                <person xml:id="p.11">
+                    <persName>
+                        <forename>Karl August</forename>
+                        <roleName>Fürst</roleName>
+                        <surname>von Hardenberg</surname>
+                    </persName>
+                    <birth>1750</birth>
+                    <death>1822</death>
+                    <note>Preußischer Staatskanzler, Bevollmächtigter Preußens; vgl. zu seiner
+                        Person Gall, Hardenberg; Schneider, Werner, Europa in Wien, S. 184–185;
+                        Capefigue, Les diplomates européens, S. 275–316; Stamm-Kuhlmann, Freier
+                        Gebrauch.</note>
+                    <idno type="URI">https://viaf.org/viaf/4975077/</idno>
+                </person>
+                <person xml:id="p.8">
+                    <persName>
+                        <surname>Metternich</surname>
+                        <forename>Clemens Wenzel Lothar</forename>
+                        <roleName>Fürst</roleName>
+                    </persName>
+                    <birth>1773</birth>
+                    <death>1859</death>
+                    <note>Österreichischer Außenminister, ab 1821 österreichischer Haus-, Hof- und
+                        Staatskanzler; vgl. zu seiner Person Siemann, Metternich; Šedivý,
+                        Metternich; Srbik, Metternich; Schneider, Werner, Europa in Wien, S.
+                        237–239.</note>
+                    <idno type="URI">https://viaf.org/viaf/49258230/</idno>
+                </person>
+                <person xml:id="p.1">
+                    <persName>
+                        <forename>Armand Emmanuel</forename>
+                        <surname>du Plessis</surname>
+                        <roleName>duc de Richelieu</roleName>
+                    </persName>
+                    <birth>1766</birth>
+                    <death>1822</death>
+                    <note>Französischer Premierminister; vgl. zu seiner Person de Waresquiel, Le Duc
+                        de Richelieu; Capefigue, Les diplomates européens, S. 245–274.</note>
+                    <idno type="URI">https://viaf.org/viaf/56652282/</idno>
+                </person>
+                <person xml:id="p.10">
+                    <persName>
+                        <forename>Arthur</forename>
+                        <surname>Wellesley</surname>, <roleName>1<hi rendition="#su">st</hi> duke of
+                            Wellington</roleName>
+                    </persName>
+                    <birth>1769</birth>
+                    <death>1852</death>
+                    <note>Bevollmächtigter Großbritanniens; vgl. zu seiner Person zuletzt Muir,
+                        Wellington; Gash, Wellesley, Arthur, first duke of Wellington. In: ODNB, Bd.
+                        58, S. 1–29.</note>
+                    <idno type="URI">https://viaf.org/viaf/2465308/</idno>
+                </person>
+                <person xml:id="p.16">
+                    <persName>
+                        <surname>Franz I.</surname>
+                        <roleName>Kaiser von Österreich</roleName>
+                    </persName>
+                    <birth>1768</birth>
+                    <death>1835</death>
+                    <note>Vgl. Mikoletzky, Franz II. (I.); Schneider, Werner, Europa in Wien, S.
+                        154–155; Ziegler, Franz II./I.</note>
+                    <idno type="URI">https://viaf.org/viaf/36912131/</idno>
+                </person>
+                <person xml:id="p.26">
+                    <persName>
+                        <forename>Wilhelm Ludwig Leopold Reinhard</forename>
+                        <roleName>Freiherr</roleName>
+                        <surname>von Berstett</surname>
+                    </persName>
+                    <birth>1769</birth>
+                    <death>1837</death>
+                    <note>Badischer Außenminister; vgl. zu seiner Person Ritthaler, Berstett,
+                        Wilhelm Ludwig Leopold Reinhard Freiherr von. In: NDB, Bd. 2, S. 148;
+                        Schneider, Werner, Europa in Wien, S. 118–119.</note>
+                    <idno type="URI">https://viaf.org/viaf/54892705/</idno>
+                </person>
+                <person xml:id="p.22">
+                    <persName>
+                        <surname>Karl Ludwig Friedrich</surname>
+                        <roleName>Großherzog von Baden</roleName>
+                    </persName>
+                    <birth>1786</birth>
+                    <death>1818</death>
+                    <note>Vgl. zu seiner Person Weech, Karl Ludwig Friedrich, Großherzog von Baden.
+                        In: ADB, Bd. 15, S. 248–250; Schneider, Werner, Europa in Wien, S.
+                        202.</note>
+                    <idno type="URI">https://viaf.org/viaf/42227780/</idno>
+                </person>
+                <person xml:id="p.36">
+                    <persName>
+                        <forename>Johann</forename>
+                        <roleName>Freiherr</roleName>
+                        <surname>von Wessenberg-Ampringen</surname>
+                    </persName>
+                    <birth>1773</birth>
+                    <death>1858</death>
+                    <note>Österreichischer Vertreter in der Territorialkommission in Frankfurt a. M.
+                        sowie in München; vgl. zu seiner Person Arneth, Johann Freiherr von
+                        Wessenberg; Schneider, Werner, Europa in Wien, S. 312–313.</note>
+                    <idno type="URI">https://viaf.org/viaf/34486130/</idno>
+                </person>
+                <person xml:id="p.37">
+                    <persName>
+                        <forename>Richard</forename>
+                        <surname>Le Poer Trench</surname>, <roleName>2<hi rendition="#su">nd</hi>
+                            earl of Clancarty</roleName>
+                    </persName>
+                    <birth>1767</birth>
+                    <death>1837</death>
+                    <note>Britischer Vertreter in der Territorialkommission in Frankfurt a. M.; vgl.
+                        zu seiner Person Norgate, Matthew, Trench, Richard Le Poer, second earl of
+                        Clancarty. In: ODNB, Bd. 55, S. 297–299; Schneider, Werner, Europa in Wien,
+                        S. 134–135.</note>
+                    <idno type="URI">https://viaf.org/viaf/27824573/</idno>
+                </person>
+                <person xml:id="p.38">
+                    <persName>
+                        <forename>Wilhelm</forename>
+                        <surname>von Humboldt</surname>
+                    </persName>
+                    <birth>1767</birth>
+                    <death>1835</death>
+                    <note>Preußischer Vertreter in der Territorialkommission in Frankfurt a. M.,
+                        1818 Gesandter Preußens in London; vgl. zu seiner Person zuletzt Gall,
+                        Wilhelm von Humboldt; Schneider, Werner, Europa in Wien, S. 193–195.</note>
+                    <idno type="URI">https://viaf.org/viaf/100183995/</idno>
+                </person>
+                <person xml:id="p.39">
+                    <persName>
+                        <forename>Iwan/Johann Ossipowitsch</forename>
+                        <roleName>Freiherr</roleName>
+                        <surname>von Anstett</surname>
+                    </persName>
+                    <birth>1766/1770</birth>
+                    <death>1835</death>
+                    <note>Russischer Vertreter in der Territorialkommission in Frankfurt a. M.; vgl.
+                        zu seiner Person Schneider, Werner, Europa in Wien, S. 102–103.</note>
+                    <idno type="URI">https://viaf.org/viaf/15516591/</idno>
+                </person>
+                <person xml:id="p.100">
+                    <persName>
+                        <forename>Sigmund Karl Johann</forename>
+                        <roleName>Freiherr</roleName>
+                        <surname>von Reitzenstein</surname>
+                    </persName>
+                    <birth>1766</birth>
+                    <death>1847</death>
+                    <note>Vgl. zu seiner Person Weech, Sigmund Karl Johann Freiherr von Reizenstein.
+                        In: ADB, Bd. 30, S. 69–70; Ders., Sigmund Karl Johann von Reizenstein. In:
+                        Badische Biographien, Bd. 2, S. 179–181; Schwarzmeier, Sigismund von
+                        Reizenstein. In: NDB, Bd. 21, S. 404–405; Merkle, „Plus-Forderer“.</note>
+                    <idno type="URI">https://viaf.org/viaf/67267528/</idno>
+                </person>
+                <person xml:id="p.17">
+                    <persName>
+                        <surname>Alexander I.</surname>
+                        <roleName>Zar von Russland</roleName>
+                    </persName>
+                    <birth>1777</birth>
+                    <death>1825</death>
+                    <note>Vgl. Rey, Alexander I.; Schneider, Werner, Europa in Wien, S.
+                        100–102.</note>
+                    <idno type="URI">https://viaf.org/viaf/4938543/</idno>
+                </person>
+                <person xml:id="p.55">
+                    <persName>
+                        <forename>Karl Wilhelm</forename>
+                        <roleName>Freiherr</roleName>
+                        <surname>Marschall von Bieberstein</surname>
+                    </persName>
+                    <birth>1763</birth>
+                    <death>1817</death>
+                    <note>1817 badischer Innenminister; vgl. zu seiner Person Weech, Marschall von
+                        Bieberstein, Carl Wilhelm Freiherr. In: ADB, Bd. 20, S. 433–434; Schneider,
+                        Werner, Europa in Wien, S. 234–235.</note>
+                    <idno type="URI">https://viaf.org/viaf/270972352/</idno>
+                </person>
+                <person xml:id="p.18">
+                    <persName>
+                        <surname>Friedrich Wilhelm III.</surname>
+                        <roleName>König von Preußen</roleName>
+                    </persName>
+                    <birth>1770</birth>
+                    <death>1840</death>
+                    <note>Vgl. Stamm-Kuhlmann, König in Preußens großer Zeit; Ders., Friedrich
+                        Wilhelm III; Schneider, Werner, Europa in Wien, S. 161–162.</note>
+                    <idno type="URI">https://viaf.org/viaf/774683/</idno>
+                </person>
+                <person xml:id="p.19">
+                    <persName>
+                        <surname>Georg/George III.</surname>
+                        <roleName>König des Vereinigten Königreichs Großbritannien und Irland und
+                            Hannover</roleName>
+                    </persName>
+                    <birth>1738</birth>
+                    <death>1820</death>
+                    <note>Vgl. Cannon, George III. In: ODNB, Bd. 21, S. 833–853; Black, George
+                        III.</note>
+                    <idno type="URI">https://viaf.org/viaf/49264990/</idno>
+                </person>
+            </listPerson>
+            <listPlace>
+                <place xml:id="loc.1">
+                <placeName>Aachen</placeName>
+               <placeName>Aix-la-Chapelle</placeName>
+               
+               <location>
+                        <geo>50.77664 6.08342</geo>
+                    </location>
+                    <idno type="URI">http://sws.geonames.org/3247449/</idno>
+            </place>
+                <place xml:id="loc.25">
+               <placeName>Frankfurt am Main</placeName>
+               <placeName>Francfort sur Main</placeName>
+               <location>
+                        <geo>50.11552 8.68417</geo>
+                    </location>
+                    <idno type="URI">http://sws.geonames.org/2925533/</idno>
+            </place>
+                <place xml:id="loc.16">
+                <placeName>München</placeName>
+               <placeName>Munich</placeName>
+               
+               <location>
+                        <geo>48.13743 11.57549</geo>
+                    </location>
+                    <idno type="URI">http://sws.geonames.org/2867714/</idno>
+            </place>
+                <place xml:id="loc.7">
+                <placeName>Wien</placeName>
+               <placeName>Vienne</placeName>
+               
+               <location>
+                        <geo>48.2082 16.37169</geo>
+                    </location>
+                    <idno type="URI">http://sws.geonames.org/2761367/</idno>
+            </place>
+                <place xml:id="loc.32">
+                <placeName>Straßburg</placeName>
+               <placeName>Strasbourg</placeName>
+               
+               <location>
+                        <geo>48.58392 7.74553</geo>
+                    </location>
+                    <idno type="URI">http://sws.geonames.org/2973783/</idno>
+            </place>
+                <place xml:id="loc.31">
+               <placeName>Waterloo</placeName>
+               <location>
+                        <geo>50.71469 4.3991</geo>
+                    </location>
+                    <idno type="URI">http://sws.geonames.org/2783985/</idno>
+            </place>
+                <place xml:id="loc.2">
+               <placeName>Paris</placeName>
+               <location>
+                        <geo>48.85341 2.3488</geo>
+                    </location>
+                    <idno type="URI">http://sws.geonames.org/2988507/</idno>
+            </place>
+                <place xml:id="loc.38">
+               <placeName>Frankenthal</placeName>
+               <location>
+                        <geo>49.53414 8.35357</geo>
+                    </location>
+                    <idno type="URI">http://sws.geonames.org/2925550/</idno>
+            </place>
+                <place xml:id="loc.29">
+                <placeName>Basel</placeName>
+               <placeName>Bâle</placeName>
+               
+               <placeName>Basle</placeName>
+               <location>
+                        <geo>47.55839 7.57327</geo>
+                    </location>
+                    <idno type="URI">http://sws.geonames.org/2661604/</idno>
+            </place>
+                <place xml:id="loc.19">
+               <placeName>Karlsruhe</placeName>
+               <placeName>Carlsruhe</placeName>
+               <location>
+                        <geo>49.00922 8.40394</geo>
+                    </location>
+                    <idno type="URI">http://sws.geonames.org/8643496/</idno>
+            </place>
+            </listPlace>
+            <listBibl>
+                <bibl xml:id="t.19">Allianzvertrag zwischen Baden und Österreich, Frankfurt am Main 20.
+               November 1813; gleichlautend unter demselben Datum auch zwischen Baden und Russland
+               sowie Baden und Preußen. Abgedruckt bei Kotulla, Deutsches Verfassungsrecht, Bd. 1,
+               S. 561–564; BFSP Bd.1/1 (1812-1814), S. 115-116.</bibl>
+                <bibl xml:id="t.27">Vertrag zwischen Bayern und Österreich, München 16. April
+               1816/Zusatz- und Geheimartikel, München 14. April 1816; vgl. BFSP Bd. 6 (1819/20), S.
+               63–69 (Vertrag), und Bd. 3 (1815/16), S. 668–669 (Zusatz- und Geheimartikel);
+               Angebert, Congrès, Bd. 3, S. 1688–1695; Neumann, Recueil, Bd. 3, S. 127–135; Martens,
+               Nouveau recueil, Bd. 3, S. 11–20.</bibl>
+                <bibl xml:id="t.18">Deutsche Bundesakte vom 8. Juni 1815 (unterzeichnet am 10. Juni
+               1815; vgl. Huber, Dokumente zur Deutschen Verfassungsgeschichte, Bd. 1, S. 84–90;
+               Treichl, Die Entstehung, Bd. 1/2, S. 1503–1518;<ref target="http://www.verfassungen.de/de/de06-66/bundesakte15-i.htm">http://www.verfassungen.de/de/de06-66/bundesakte15-i.htm</ref> (eingesehen am 15.
+               November 2012).</bibl>
+                <bibl xml:id="t.20">Vertrag, mit welchem Baden dem am 25. März 1815 in Wien gegen
+               Frankreich abgeschlossenen Allianzvertrag beitritt. Das Datum des Vertrags variiert
+               in den Editionen, da der Vertrag mit Österreich, Großbritannien, Russland und Preußen
+               jeweils separat abgeschlossen wurde; vgl. Martens, Nouveau recueil, Bd. 2, S.
+               139–141; BFSP Bd. 2 (1814/15), S. 456–458; Angeberg, Congès, Bd. 2, S. 1178–1179;
+               Klüber, Acten, Bd. 4, S. 427–430.</bibl>
+                <bibl xml:id="t.1">Zweiter Pariser Frieden zwischen Österreich, Großbritannien, Preußen und Russland auf der
+               einen, Frankreich auf der anderen Seite, Paris 20. November 1815; vgl. BFSP Bd. 3 (1815/16), S. 280–293;
+               Grewe, Fontes, Bd. 3/1, S. 10–18; Clercq, Recueil, Bd. 2, S. 642–650; Martens,
+               Nouveau Recueil, Bd. 2, S. 682–691; <ref target="http://www.staatsvertraege.de/Frieden1814-15/2pfv1815-i.htm">http://www.staatsvertraege.de/Frieden1814-15/2pfv1815-i.htm</ref> (deutsch; eingesehen
+               am 31. Oktober 2012).</bibl>
+                <bibl xml:id="t.21">Konferenzprotokoll zwischen den Vertretern Österreichs,
+               Großbritanniens, Preußens und Russlands über territoriale Regelungen und das
+               Defensivsystem des Deutschen Bundes, Paris 3. November 1815; abgedruckt in BFSP Bd. 3
+               (1815/16), S. 234–239; Meyer, Corpus Juris Confoederationis Germanicae, Bd. 2, S.
+               213–214 (Auszug).</bibl>
+                <bibl xml:id="t.11">Convention entre l’Autriche et la Prusse et le grand-duc de Hesse
+               sur les arrangements territoriaux, Wien 10. Juni 1815; vgl. Angeberg, Congrès, Bd. 2,
+               S.1440-1442</bibl>
+                <bibl xml:id="t.12">Wiener Kongressakte vom 9. Juni 1815; vgl. Klüber, Acten, Bd. 6, S.
+               12–208; Angeberg, Congrès, Bd. 2, S. 1386–1433; Martens, Nouveau Recueil, Bd. 2, S.
+               361–430; BFSP Bd. 2 (1814/15), S 3–180; <ref target="http://www.staatsvertraege.de/Frieden1814-15/wka1815-i.htm">http://www.staatsvertraege.de/Frieden1814-15/wka1815-i.htm</ref> (eingesehen am
+               15. November 2012).</bibl>
+            </listBibl>
         </back>
     </text>
 </TEI>

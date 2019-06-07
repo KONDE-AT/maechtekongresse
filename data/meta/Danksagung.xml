@@ -7,7 +7,8 @@
             <author>
                     <persName>
                         <forename>Karin</forename>
-               <surname>Schneider</surname></persName>
+               <surname>Schneider</surname>
+                    </persName>
                 </author>
          </titleStmt>
          <editionStmt>
@@ -20,8 +21,10 @@
                Zeitgeschichtsforschung</publisher>
             <pubPlace>Wien</pubPlace>
             <availability>           <licence target="https://creativecommons.org/licenses/by-sa/4.0/legalcode.de">https://creativecommons.org/licenses/by-sa/4.0/legalcode.de</licence>         </availability>
-            <idno>M_03</idno><idno type="ISBN" n="9783950478303">978-3-9504783-0-3</idno>
-         </publicationStmt>
+            <idno>M_03</idno>
+                <idno type="ISBN" n="9783950478303">978-3-9504783-0-3</idno>
+         <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="handle">http://hdl.handle.net/21.11115/0000-000C-1EEA-C</tei:idno>
+            </publicationStmt>
          <sourceDesc>
             <p>Converted from a Word document</p>
          </sourceDesc>
@@ -65,7 +68,8 @@
                   Forschungsinitiativen aus unterschiedlichen Perspektiven beleuchtet werden. Das
                   Resultat dieser Kooperation war der sogenannte <rs xml:id="n.1">„Projektverbund
                      Wiener Kongress“, unter dessen Dach sich mehrere vom <ref target="http://www.fwf.ac.at">FWF</ref> geförderte Projekte
-                     versammelten.</rs><note target="#n.1" type="editorial"> Vgl. <ref type="url" target="http://www.wiener-kongress.at/">http://www.wiener-kongress.at/</ref>. </note>
+                     versammelten.</rs>
+                        <note target="#n.1" type="editorial"> Vgl. <ref type="url" target="http://www.wiener-kongress.at/">http://www.wiener-kongress.at/</ref>. </note>
                </p>
                <p>Reinhard Stauber fungierte als Leiter des Projekts „Der Wiener Kongress und sein
                   europäisches Friedenssystem“ (<ref type="url" target="https://pf.fwf.ac.at/de/wissenschaft-konkret/project-finder?search%5Bproject_number%5D=P+21177">P 21177; 2009–2013</ref>), während dessen Laufzeit

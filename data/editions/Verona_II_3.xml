@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/maechtekongresse/editions" xml:id="Verona_II_3.xml" prev="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Verona_II_2.xml" next="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Verona_II_4.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -56,8 +56,10 @@
                Zeitgeschichtsforschung</publisher>
             <pubPlace>Wien</pubPlace>
 <date when="2018-09-23" change="#initial">2018-09-23</date>
-            <idno>V_II_3</idno><idno type="ISBN" n="9783950478303">978-3-9504783-0-3</idno>
-                 <availability>           <licence target="https://creativecommons.org/licenses/by-sa/4.0/legalcode.de">https://creativecommons.org/licenses/by-sa/4.0/legalcode.de</licence>         </availability> </publicationStmt>
+            <idno>V_II_3</idno>
+                <idno type="ISBN" n="9783950478303">978-3-9504783-0-3</idno>
+                 <availability>           <licence target="https://creativecommons.org/licenses/by-sa/4.0/legalcode.de">https://creativecommons.org/licenses/by-sa/4.0/legalcode.de</licence>         </availability> <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="handle">http://hdl.handle.net/21.11115/0000-000C-1F1C-4</tei:idno>
+            </publicationStmt>
             <notesStmt>
     <note>Vergleiche auch die Projektbeschreibung in der <ref type="URI" target="../meta/Einleitung.xml">Einleitung</ref> sowie die Dokumentation der Applikation unter <ref type="URI" target="../meta/about.xml">„Über diese Webseite“</ref>.</note>
 </notesStmt>
@@ -220,14 +222,17 @@
                   <expan>Monsieur</expan>
                </choice> le <persName ref="#p.140">
                         <roleName>Prince</roleName>
-                  <surname>de Ruffo</surname></persName>, Ministre d’Etat et Président du Conseil de
+                  <surname>de Ruffo</surname>
+                    </persName>, Ministre d’Etat et Président du Conseil de
                Sa Majesté le <rs ref="#p.138" type="person">Roi des Deux-Siciles</rs>, a demandé à <choice>
                   <abbr>M<hi rendition="#su">rs</hi>
                         </abbr>
                   <expan>Messieurs</expan>
                </choice> les <rs ref="#p.8 #p.40 #p.175 #p.13 #p.35" type="multi-person">Plénipotentiaires des
-                  Puissances signataires de la <rs ref="#t.48" type="treaties">Convention de <placeName ref="#loc.11">Naples</placeName></rs> du <date when="1821-10-18">18 Octobre
-                     1821</date></rs> une Conférence relative à l’armée auxiliaire stationnée tant
+                  Puissances signataires de la <rs ref="#t.48" type="treaties">Convention de <placeName ref="#loc.11">Naples</placeName>
+                        </rs> du <date when="1821-10-18">18 Octobre
+                     1821</date>
+                    </rs> une Conférence relative à l’armée auxiliaire stationnée tant
                en Naples qu’en Sicile à la suite <rs xml:id="n.1">des évènemens de 1820 et
                   1821</rs>.<note type="editorial" target="#n.1">Am <date when="1820-07-02">2. Juli
                      1820</date> meuterte die Militärgarnison in Nola, 35 km von <placeName ref="#loc.11">Neapel</placeName> entfernt. Das Datum gilt als Beginn der
@@ -243,7 +248,8 @@
                   <expan>Monsieur</expan>
                </choice> le <persName ref="#p.140">
                         <roleName>Prince</roleName>
-                  <surname>de Ruffo</surname></persName> a informé <choice>
+                  <surname>de Ruffo</surname>
+                    </persName> a informé <choice>
                   <abbr>M<hi rendition="#su">rs</hi>
                         </abbr>
                   <expan>Messieurs</expan>
@@ -287,7 +293,8 @@
                   <expan>Monsieur</expan>
                </choice> le <persName ref="#p.140">
                         <roleName>Prince</roleName>
-                  <surname>de Ruffo</surname></persName> a fait une autre proposition relative à
+                  <surname>de Ruffo</surname>
+                    </persName> a fait une autre proposition relative à
                l’établissement des corps consultatifs dans les deux parties du <country>Royaume des
                   deux-Siciles</country>, tel qu’il se trouvait indiqué par l’Article III du <ref target="Laibach_Prot_12.xml">Protocole de <placeName ref="#loc.65">Laibach</placeName> du <date when="1821-02-20">20 Février 1821</date>
                     </ref>.
@@ -320,30 +327,36 @@
                <row>
                   <cell>
                             <persName ref="#p.8">
-                                <surname>Metternich</surname></persName>
+                                <surname>Metternich</surname>
+                                </persName>
                         </cell>
                   <cell>
                             <persName ref="#p.175">
-                                <surname>Hatzfeldt</surname></persName>
+                                <surname>Hatzfeldt</surname>
+                                </persName>
                         </cell>
                   <cell>
                             <persName ref="#p.13">
-                                <surname>Nesselrode</surname></persName>
+                                <surname>Nesselrode</surname>
+                                </persName>
                         </cell>
                   <cell>
                             <persName ref="#p.140">
-                                <surname>Ruffo</surname></persName>
+                                <surname>Ruffo</surname>
+                                </persName>
                         </cell>
                </row>
                <row>
                   <cell>
                             <persName ref="#p.40">
-                                <surname>Lebzeltern</surname></persName>
+                                <surname>Lebzeltern</surname>
+                                </persName>
                         </cell>
                   <cell/>
                   <cell>
                             <persName ref="#p.35">
-                                <surname>Tatistscheff</surname></persName>
+                                <surname>Tatistscheff</surname>
+                                </persName>
                         </cell>
                   <cell/>
                </row>
@@ -359,7 +372,8 @@
                      <expan>Monsieur</expan>
                   </choice> le <persName ref="#p.140">
                             <roleName>Prince</roleName>
-                     <surname>de Ruffo</surname></persName>, <lb/> sur les Corps consultatifs dans le
+                     <surname>de Ruffo</surname>
+                    </persName>, <lb/> sur les Corps consultatifs dans le
                      <country>Royaume des deux-Siciles</country>
                     </head>
                 
@@ -370,7 +384,8 @@
                   <expan>Monsieur</expan>
                </choice> le <persName ref="#p.140">
                         <roleName>Prince</roleName>
-                  <surname>de Ruffo</surname></persName>, dans la <ref target="Laibach_Prot_12.xml">Conférence du Congrès de <placeName ref="#loc.65">Laibach</placeName> du <date when="1821-02-20">20 Février</date>
+                  <surname>de Ruffo</surname>
+                    </persName>, dans la <ref target="Laibach_Prot_12.xml">Conférence du Congrès de <placeName ref="#loc.65">Laibach</placeName> du <date when="1821-02-20">20 Février</date>
                     </ref> les principes qu’Elle voulait adopter
                pour reconstruire le Gouvernement de Son Royaume.</p>
             <p>
@@ -428,13 +443,179 @@
                bien-être de Ses Etats.</p>
          </div>
       </body>
-      <back>
-         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../indices/listplace.xml" xpointer="listPlace"/>
-         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../indices/listperson.xml" xpointer="listPerson"/>
-         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../indices/listwit.xml" xpointer="listWit"/>
-         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../indices/listorg.xml" xpointer="listOrg"/>
-         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../indices/listtreaties.xml" xpointer="listTreaties"/>
-
-      </back>
-   </text>
+      
+   <back>
+            <listPerson>
+                <person xml:id="p.138">
+                    <persName>
+                        <surname>Ferdinand/Ferdinando I.</surname>
+                        <roleName>König beider Sizilien</roleName>
+                    </persName>
+                    <birth>1751</birth>
+                    <death>1825</death>
+                    <note>1759-1806 Ferdinand IV. von Neapel, 1769-1815 Ferdinand III. von Sizilien,
+                        ab 1815/16 König beider Sizilien vgl. de Maio, Ferdinando I di Bourbone, re
+                        delle due Sicilie, auf <ref target="http://www.treccani.it/enciclopedia/ferdinando-i-di-borbone-re-delle-due-sicilie_(Dizionario-Biografico">http://www.treccani.it/enciclopedia/ferdinando-i-di-borbone-re-delle-due-sicilie_(Dizionario-Biografico</ref>)
+                        (eingesehen am 31. Juli 2017).</note>
+                    <idno type="URI">https://viaf.org/viaf/16073751/</idno>
+                </person>
+                <person xml:id="p.8">
+                    <persName>
+                        <surname>Metternich</surname>
+                        <forename>Clemens Wenzel Lothar</forename>
+                        <roleName>Fürst</roleName>
+                    </persName>
+                    <birth>1773</birth>
+                    <death>1859</death>
+                    <note>Österreichischer Außenminister, ab 1821 österreichischer Haus-, Hof- und
+                        Staatskanzler; vgl. zu seiner Person Siemann, Metternich; Šedivý,
+                        Metternich; Srbik, Metternich; Schneider, Werner, Europa in Wien, S.
+                        237–239.</note>
+                    <idno type="URI">https://viaf.org/viaf/49258230/</idno>
+                </person>
+                <person xml:id="p.40">
+                    <persName>
+                        <forename>Ludwig</forename>
+                        <roleName>Graf</roleName>
+                        <surname>von Lebzeltern</surname>
+                    </persName>
+                    <birth>1774</birth>
+                    <death>1854</death>
+                    <note>Österreichischer Botschafter in St. Petersburg, Mitglied der
+                        österreichischen Delegation beim Kongress von Troppau; vgl. zu seiner Person
+                        Lebzeltern Ludwig Graf. In: ÖBL, Bd. 5, S. 69; Wurzbach, Lebzeltern, Ludwig
+                        Graf, Bd. 14, S. 280–281.</note>
+                    <idno type="URI">https://viaf.org/viaf/12070162/</idno>
+                </person>
+                <person xml:id="p.175">
+                    <persName>
+                        <forename>Franz Ludwig</forename>
+                        <roleName>Graf</roleName>
+                        <surname>von Hatzfeldt</surname>
+                    </persName>
+                    <birth>1756</birth>
+                    <death>1827</death>
+                    <note>1822 preußischer Gesandter in Wien und den Niederlanden; vgl. Bringmann,
+                        Handbuch der Diplomatie, S. 312 und S. 334, zu seiner Person Wurzbach,
+                        Biographisches Lexikon, Bd. 8, S. 52; Priesdorff, Soldatisches Führertum,
+                        Bd. 2, S. 446–449.</note>
+                    <idno type="URI">http://viaf.org/viaf/8166997/</idno>
+                </person>
+                <person xml:id="p.13">
+                    <persName>
+                        <forename>Karl Robert</forename>
+                        <roleName>Graf</roleName>
+                        <surname>von Nesselrode</surname>
+                    </persName>
+                    <birth>1780</birth>
+                    <death>1862</death>
+                    <note>Russischer Außenminister, Bevollmächtigter Russlands; vgl. zu seiner
+                        Person Eich, Nesselrode, Robert Graf von. In: NDB, Bd. 19, S. 74–75;
+                        Grimsted, The Foreign Ministers, S. 194–225, 269–286; Schneider, Werner,
+                        Europa in Wien, S. 248–249.</note>
+                    <idno type="URI">https://viaf.org/viaf/49992065/</idno>
+                </person>
+                <person xml:id="p.35">
+                    <persName>
+                        <forename>Dimitry Pavlovich</forename>
+                        <surname>Tatistcheff</surname>
+                    </persName>
+                    <birth>1767</birth>
+                    <death>1845</death>
+                    <note>1818 russischer Botschafter in Madrid; vgl. zu seiner Person Татищев
+                        Дмитрий Павлович. In: Russkij biografičeskij slovar’, Bd. 20, S.
+                        237–349.</note>
+                    <idno type="URI">https://viaf.org/viaf/38900750/</idno>
+                </person>
+                <person xml:id="p.140">
+                    <persName>
+                        <forename>Alvaro</forename>
+                        <surname>Ruffo</surname>
+                        <roleName>dei principi della Scaletta</roleName>
+                    </persName>
+                    <birth>1754</birth>
+                    <death>1825</death>
+                    <note>Botschafter des Königreichs beider Sizilien in Wien; vgl. Schneider,
+                        Werner, Europa in Wien, S. 268–269.</note>
+                    <idno type="URI">https://viaf.org/viaf/259506628/</idno>
+                </person>
+                <person xml:id="p.16">
+                    <persName>
+                        <surname>Franz I.</surname>
+                        <roleName>Kaiser von Österreich</roleName>
+                    </persName>
+                    <birth>1768</birth>
+                    <death>1835</death>
+                    <note>Vgl. Mikoletzky, Franz II. (I.); Schneider, Werner, Europa in Wien, S.
+                        154–155; Ziegler, Franz II./I.</note>
+                    <idno type="URI">https://viaf.org/viaf/36912131/</idno>
+                </person>
+                <person xml:id="p.17">
+                    <persName>
+                        <surname>Alexander I.</surname>
+                        <roleName>Zar von Russland</roleName>
+                    </persName>
+                    <birth>1777</birth>
+                    <death>1825</death>
+                    <note>Vgl. Rey, Alexander I.; Schneider, Werner, Europa in Wien, S.
+                        100–102.</note>
+                    <idno type="URI">https://viaf.org/viaf/4938543/</idno>
+                </person>
+                <person xml:id="p.18">
+                    <persName>
+                        <surname>Friedrich Wilhelm III.</surname>
+                        <roleName>König von Preußen</roleName>
+                    </persName>
+                    <birth>1770</birth>
+                    <death>1840</death>
+                    <note>Vgl. Stamm-Kuhlmann, König in Preußens großer Zeit; Ders., Friedrich
+                        Wilhelm III; Schneider, Werner, Europa in Wien, S. 161–162.</note>
+                    <idno type="URI">https://viaf.org/viaf/774683/</idno>
+                </person>
+            </listPerson>
+            <listPlace>
+                <place xml:id="loc.68">
+               <placeName>Verona</placeName>
+                <placeName>Vérone</placeName>
+               <location>
+                        <geo>45.4299 10.98444</geo>
+                    </location>
+                    <idno type="URI">http://sws.geonames.org/3164527/</idno>
+            </place>
+                <place xml:id="loc.65">
+               <placeName>Laibach</placeName>
+               <placeName>Laybach</placeName>
+               <placeName>Ljubljana</placeName>
+               <location>
+                        <geo>46.05108 14.50513</geo>
+                    </location>
+                    <idno type="URI">http://sws.geonames.org/3196359/</idno>
+            </place>
+                <place xml:id="loc.11">
+                <placeName>Neapel</placeName>
+               <placeName>Naples</placeName>
+               
+               <location>
+                        <geo>40.85216 14.26811</geo>
+                    </location>
+                    <idno type="URI">http://sws.geonames.org/3172394/</idno>
+            </place>
+                <place xml:id="loc.7">
+                <placeName>Wien</placeName>
+               <placeName>Vienne</placeName>
+               
+               <location>
+                        <geo>48.2082 16.37169</geo>
+                    </location>
+                    <idno type="URI">http://sws.geonames.org/2761367/</idno>
+            </place>
+            </listPlace>
+            <listBibl>
+                <bibl xml:id="t.48">Konvention zwischen Österreich, Preußen und Russland auf der einen,
+               dem Königreich beider Sizilien auf der anderen Seite über die militärische Besatzung
+               des Königreichs beider Sizilien, Neapel 18. Oktober 1821; abgedruckt in BFSP Bd. 9
+               (1821/22), S. 632–635; Neumann, Recueil, Bd. 3, S. 652–656.</bibl>
+            </listBibl>
+        </back>
+    </text>
 </TEI>

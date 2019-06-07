@@ -7,7 +7,8 @@
             <author>
                     <persName>
                         <forename>Karin</forename>
-               <surname>Schneider</surname></persName>
+               <surname>Schneider</surname>
+                    </persName>
                 </author>
          </titleStmt>
          <editionStmt>
@@ -20,8 +21,10 @@
                Zeitgeschichtsforschung</publisher>
             <pubPlace>Wien</pubPlace>
             <availability>           <licence target="https://creativecommons.org/licenses/by-sa/4.0/legalcode.de">https://creativecommons.org/licenses/by-sa/4.0/legalcode.de</licence>         </availability>
-            <idno>M_04</idno><idno type="ISBN" n="9783950478303">978-3-9504783-0-3</idno>
-         </publicationStmt>
+            <idno>M_04</idno>
+                <idno type="ISBN" n="9783950478303">978-3-9504783-0-3</idno>
+         <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="handle">http://hdl.handle.net/21.11115/0000-000C-1EE9-D</tei:idno>
+            </publicationStmt>
          <sourceDesc>
             <p>Written by OpenOffice</p>
          </sourceDesc>
@@ -59,7 +62,8 @@
                     <rs xml:id="n.1">Die schriftliche Hinterlassenschaft der Mächtekongresse von Aachen
                   (1818), Troppau/Opava (1820), Laibach/Ljubljana (1821) und Verona (1822) befindet
                   sich im Österreichischen Staatsarchiv (ÖStA), Abteilung Haus-, Hof- und
-                  Staatsarchiv (HHStA), Reihe Staatskanzlei (St.K.) Kongressakten.</rs><note target="#n.1" type="editorial"> In den Abschnitten zu den Bestandsbeschreibungen
+                  Staatsarchiv (HHStA), Reihe Staatskanzlei (St.K.) Kongressakten.</rs>
+                    <note target="#n.1" type="editorial"> In den Abschnitten zu den Bestandsbeschreibungen
                   der einzelnen Kongresse finden sich hierzu nähere Ausführungen. Dem Sprachgebrauch
                   der ersten Hälfte des 19. Jahrhunderts folgend werden in der Edition sowie den
                   Begleittexten durchgehend die Bezeichnungen Troppau für Opava und Laibach für
@@ -85,15 +89,18 @@
                – meist Sitzungsprotokolle mit Anlagen oder sonstige sich aufeinander beziehende
                Texte – für die Edition ausgewählt. <rs xml:id="n.2">Diese Auswahl kann den Verlauf
                   der Verhandlungen betreffend Spanien nicht vollständig dokumentieren, da nicht
-                  alle Sitzungen schriftlich dokumentiert wurden.</rs><note target="#n.2" type="editorial"> So wird in einem <ref target="Verona_I_2.xml">Précis des
+                  alle Sitzungen schriftlich dokumentiert wurden.</rs>
+                    <note target="#n.2" type="editorial"> So wird in einem <ref target="Verona_I_2.xml">Précis des
                      communications verbales</ref> eine „réunion confidentielle“ am 20. Oktober 1822
                   erwähnt, über welche keine weiteren Unterlagen überliefert sind.</note>
             </p>
             <p>Bei der Edition wird kein sprachwissenschaftlicher, sondern ein historischer Anspruch
                verfolgt. Die Wiedergabe der Dokumente erfolgt im Wesentlichen nach den <rs xml:id="n.3">„Richtlinien für die äußere Textgestaltung bei Herausgabe von Quellen
-                  zur neueren deutschen Geschichte“</rs><note target="#n.3" type="editorial">
+                  zur neueren deutschen Geschichte“</rs>
+                    <note target="#n.3" type="editorial">
                   Schultze, Richtlinien.</note>, <rs xml:id="n.4">soweit dies bei einer
-                  digitalen Edition möglich ist.</rs><note target="#n.4" type="editorial"> Punkt 10 der
+                  digitalen Edition möglich ist.</rs>
+                    <note target="#n.4" type="editorial"> Punkt 10 der
                   Richtlinien beispielsweise, der sich mit der Gestaltung des Anmerkungsapparats
                   befasst, kann bei einer Online-Edition keine Berücksichtigung finden.</note> Dies
                gilt für die französischsprachigen englischsprachigen und deutschsprachigen Texte,

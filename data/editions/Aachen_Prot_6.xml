@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/maechtekongresse/editions" xml:id="Aachen_Prot_6.xml" prev="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Prot_5.xml" next="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Prot_7.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -54,8 +54,10 @@
                Zeitgeschichtsforschung</publisher>
             <pubPlace>Wien</pubPlace>
 <date when="2018-09-23" change="#initial">2018-09-23</date>
-            <idno>A_06</idno><idno type="ISBN" n="9783950478303">978-3-9504783-0-3</idno>
-                 <availability>           <licence target="https://creativecommons.org/licenses/by-sa/4.0/legalcode.de">https://creativecommons.org/licenses/by-sa/4.0/legalcode.de</licence>         </availability> </publicationStmt>
+            <idno>A_06</idno>
+                <idno type="ISBN" n="9783950478303">978-3-9504783-0-3</idno>
+                 <availability>           <licence target="https://creativecommons.org/licenses/by-sa/4.0/legalcode.de">https://creativecommons.org/licenses/by-sa/4.0/legalcode.de</licence>         </availability> <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="handle">http://hdl.handle.net/21.11115/0000-000C-1F5E-A</tei:idno>
+            </publicationStmt>
             <notesStmt>
     <note>Vergleiche auch die Projektbeschreibung in der <ref type="URI" target="../meta/Einleitung.xml">Einleitung</ref> sowie die Dokumentation der Applikation unter <ref type="URI" target="../meta/about.xml">„Über diese Webseite“</ref>.</note>
 </notesStmt>
@@ -79,7 +81,8 @@
                <physDesc>
 
                   <p> Eigenhändiges Protokoll von <persName ref="#p.5">
-                        <surname>Gentz</surname></persName>. </p>
+                        <surname>Gentz</surname>
+                            </persName>. </p>
                   <handDesc>
                      <handNote xml:id="G">Friedrich Gentz</handNote>
                      <handNote xml:id="W">Nikolaus Wacken</handNote>
@@ -108,7 +111,8 @@
                <msContents>
                   <msItem>
                      <title>Anlage: Bericht <persName ref="#p.10">
-                                    <surname>Wellingtons</surname></persName>
+                                    <surname>Wellingtons</surname>
+                                </persName>
                             </title>
                   </msItem>
                </msContents>
@@ -153,7 +157,8 @@
          <abstract>
             <p>Die <rs ref="#p.8 #p.10 #p.11 #p.13 #p.12 #p.14 #p.9" type="multi-person">Vertreter der alliierten
                   Mächte</rs> stimmen den vom französischen Premierminister <persName ref="#p.1">
-                        <surname>Richelieu</surname></persName> in der <ref target="Aachen_Prot_5.xml">Sitzung vom <date when="1818-10-03">3. Oktober 1818</date>
+                        <surname>Richelieu</surname>
+                    </persName> in der <ref target="Aachen_Prot_5.xml">Sitzung vom <date when="1818-10-03">3. Oktober 1818</date>
                     </ref> gemachten
                Vorschlägen hinsichtlich der Zahlungsmodalitäten der Entschädigungszahlungen zu.</p>
          </abstract>
@@ -215,9 +220,11 @@
                   <expan>Monsieur</expan>
                </choice> le <persName ref="#p.10">
                         <roleName>Duc</roleName>
-                  <surname>de Wellington</surname></persName> ayant fait part à la conférence de
+                  <surname>de Wellington</surname>
+                    </persName> ayant fait part à la conférence de
                différens apperçus et éclaircissemens relatifs à l’exécution des clauses pécuniaires
-               du <rs ref="#t.1" type="treaties">traité du <date when="1815-11-20">20 Novembre 1815</date></rs>, <choice>
+               du <rs ref="#t.1" type="treaties">traité du <date when="1815-11-20">20 Novembre 1815</date>
+                    </rs>, <choice>
                   <abbr>Mrs.</abbr>
                   <expan>Messieurs</expan>
                </choice> les<rs ref="#p.8 #p.10 #p.11 #p.13 #p.12 #p.14 #p.9" type="multi-person"> Ministres des Quatre
@@ -228,12 +235,14 @@
                   <expan>Monsieur</expan>
                </choice> le <persName ref="#p.1">
                         <roleName>Duc</roleName>
-                  <surname>de Richelieu</surname></persName> sauf les modifications concertées avec <choice>
+                  <surname>de Richelieu</surname>
+                    </persName> sauf les modifications concertées avec <choice>
                   <abbr>Mr.</abbr>
                   <expan>Monsieur</expan>
                </choice> le <persName ref="#p.10">
                         <roleName>Duc</roleName>
-                  <surname>de Wellington</surname></persName>. En conséquence il est entendu</p>
+                  <surname>de Wellington</surname>
+                    </persName>. En conséquence il est entendu</p>
             <p>1. Que sur ce qui reste à payer par la <country>France</country> pour s’acquitter
                définitivement avec les puissances Alliées, une somme de 100 Millions Francs valeur
                effective sera acquittée en Inscriptions de rentes au Cours de Lundi <date when="1818-10-05">5 Octobre dernier</date> ; lesquelles inscriptions seront
@@ -243,12 +252,14 @@
                   <expan>Monsieur</expan>
                </choice> le <persName ref="#p.10">
                         <roleName>Duc</roleName>
-                  <surname>de Wellington</surname></persName> et <choice>
+                  <surname>de Wellington</surname>
+                    </persName> et <choice>
                   <abbr>Mr.</abbr>
                   <expan>Monsieur</expan>
                </choice>
                <persName ref="#p.20">
-                        <surname>Baring</surname></persName> ;</p>
+                        <surname>Baring</surname>
+                    </persName> ;</p>
             <p>2. Que le surplus des payemens à faire par la <country>France</country> sera acquitté
                en traites sur les maisons <orgName ref="#o.1">Hope</orgName> et <orgName ref="#o.2">Baring</orgName> ; les Quatre Cours considérant que la solidité de ces maisons de
                banque offre une meilleure garantie de l’exactitude des payemens que n’en offriroit
@@ -325,12 +336,14 @@
                      <expan>Monsieur</expan>
                   </choice> le <persName ref="#p.10">
                             <roleName>Duc</roleName>
-                     <surname>de Wellington</surname></persName> et acceptée par <choice>
+                     <surname>de Wellington</surname>
+                    </persName> et acceptée par <choice>
                      <abbr>Mr.</abbr>
                      <expan>Monsieur</expan>
                   </choice> le <persName ref="#p.1">
                             <roleName>Duc</roleName>
-                     <surname>de Richelieu</surname></persName>, la somme totale de ce que la
+                     <surname>de Richelieu</surname>
+                    </persName>, la somme totale de ce que la
                      <country>France</country> restera devoir aux puissances Alliées a été fixée à
                   268 Millions, dont 100 Millions à acquitter en Inscriptions et 168 en traites sur
                   les <rs ref="#o.1 #o.2" type="multi-org">susdites maisons de banque</rs>. <lb/>
@@ -380,18 +393,21 @@
                         <abbr>9<hi rendition="#su">bre</hi>
                                 </abbr>
                         <expan>Novembre</expan>
-                     </choice> 1815</date></rs> qu’ils ne pouvoient point subvenir aux frais de
+                     </choice> 1815</date>
+                    </rs> qu’ils ne pouvoient point subvenir aux frais de
                l’armée d’occupation, évalués à 150 millions de francs par an, et acquitter dans
                l’espace de cinq ans l’indemnité de guerre de 700 millions de francs, en payant 140
                millions annuellement – les Ministres des Puissances alliées <rs ref="#t.8" type="treaties">prirent
-                  cet objet en considération le <date when="1815-10-13">13 Octobre 1815</date></rs>,
+                  cet objet en considération le <date when="1815-10-13">13 Octobre 1815</date>
+                    </rs>,
                et lecture fut faite à la Conférence de la pièce à laquelle <choice>
                   <abbr>M<hi rendition="#su">r</hi>
                         </abbr>
                   <expan>Monsieur</expan>
                </choice> le <persName ref="#p.1">
                         <roleName>Duc</roleName>
-                  <surname>de Richelieu</surname></persName> se réfère dans sa <ref target="Aachen_Prot_5.xml">Note du <date when="1818-10-02">2 Octobre <choice>
+                  <surname>de Richelieu</surname>
+                    </persName> se réfère dans sa <ref target="Aachen_Prot_5.xml">Note du <date when="1818-10-02">2 Octobre <choice>
                         <abbr>c.</abbr>
                         <expan>currente</expan>
                      </choice>
@@ -507,12 +523,171 @@
                année.</p>
          </div>
       </body>
-      <back>
-         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../indices/listplace.xml" xpointer="listPlace"/>
-         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../indices/listperson.xml" xpointer="listPerson"/>
-         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../indices/listwit.xml" xpointer="listWit"/>
-         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../indices/listorg.xml" xpointer="listOrg"/>
-         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../indices/listtreaties.xml" xpointer="listTreaties"/>
-      </back>
-   </text>
+      
+   <back>
+            <listPerson>
+                <person xml:id="p.5">
+                    <persName>
+                        <forename>Friedrich</forename>
+                        <surname>Gentz</surname>
+                    </persName>
+                    <birth>1764</birth>
+                    <death>1832</death>
+                    <note>Protokollführer; vgl. zu seiner Person Kronenbitter, Wort und Macht;
+                        Cahen, Gentz; Mann, Friedrich von Gentz; Schneider, Werner, Europa in Wien,
+                        S. 169–170.</note>
+                    <idno type="URI">https://viaf.org/viaf/2522018/</idno>
+                </person>
+                <person xml:id="p.10">
+                    <persName>
+                        <forename>Arthur</forename>
+                        <surname>Wellesley</surname>, <roleName>1<hi rendition="#su">st</hi> duke of
+                            Wellington</roleName>
+                    </persName>
+                    <birth>1769</birth>
+                    <death>1852</death>
+                    <note>Bevollmächtigter Großbritanniens; vgl. zu seiner Person zuletzt Muir,
+                        Wellington; Gash, Wellesley, Arthur, first duke of Wellington. In: ODNB, Bd.
+                        58, S. 1–29.</note>
+                    <idno type="URI">https://viaf.org/viaf/2465308/</idno>
+                </person>
+                <person xml:id="p.8">
+                    <persName>
+                        <surname>Metternich</surname>
+                        <forename>Clemens Wenzel Lothar</forename>
+                        <roleName>Fürst</roleName>
+                    </persName>
+                    <birth>1773</birth>
+                    <death>1859</death>
+                    <note>Österreichischer Außenminister, ab 1821 österreichischer Haus-, Hof- und
+                        Staatskanzler; vgl. zu seiner Person Siemann, Metternich; Šedivý,
+                        Metternich; Srbik, Metternich; Schneider, Werner, Europa in Wien, S.
+                        237–239.</note>
+                    <idno type="URI">https://viaf.org/viaf/49258230/</idno>
+                </person>
+                <person xml:id="p.11">
+                    <persName>
+                        <forename>Karl August</forename>
+                        <roleName>Fürst</roleName>
+                        <surname>von Hardenberg</surname>
+                    </persName>
+                    <birth>1750</birth>
+                    <death>1822</death>
+                    <note>Preußischer Staatskanzler, Bevollmächtigter Preußens; vgl. zu seiner
+                        Person Gall, Hardenberg; Schneider, Werner, Europa in Wien, S. 184–185;
+                        Capefigue, Les diplomates européens, S. 275–316; Stamm-Kuhlmann, Freier
+                        Gebrauch.</note>
+                    <idno type="URI">https://viaf.org/viaf/4975077/</idno>
+                </person>
+                <person xml:id="p.13">
+                    <persName>
+                        <forename>Karl Robert</forename>
+                        <roleName>Graf</roleName>
+                        <surname>von Nesselrode</surname>
+                    </persName>
+                    <birth>1780</birth>
+                    <death>1862</death>
+                    <note>Russischer Außenminister, Bevollmächtigter Russlands; vgl. zu seiner
+                        Person Eich, Nesselrode, Robert Graf von. In: NDB, Bd. 19, S. 74–75;
+                        Grimsted, The Foreign Ministers, S. 194–225, 269–286; Schneider, Werner,
+                        Europa in Wien, S. 248–249.</note>
+                    <idno type="URI">https://viaf.org/viaf/49992065/</idno>
+                </person>
+                <person xml:id="p.12">
+                    <persName>
+                        <forename>Christian Günther</forename>
+                        <roleName>Graf</roleName>
+                        <surname>von Bernstorff</surname>
+                    </persName>
+                    <birth>1769</birth>
+                    <death>1835</death>
+                    <note>Preußischer Außenminister, Bevollmächtigter Preußens; vgl. zu seiner
+                        Person Kellenbenz, Bernstorff, Christian Graf von. In: NDB, Bd. 2, S.
+                        139–140; Schneider, Werner, Europa in Wien, S. 116–117.</note>
+                    <idno type="URI">https://viaf.org/viaf/49969175/</idno>
+                </person>
+                <person xml:id="p.14">
+                    <persName>
+                        <forename>Ioannis Antonis</forename>
+                        <roleName>Graf</roleName>
+                        <surname>Kapodistrias/Capodistrias</surname>
+                    </persName>
+                    <birth>1776</birth>
+                    <death>1831</death>
+                    <note>Russischer Außenminister, Bevollmächtigter Russlands; vgl. zu seiner
+                        Person Woodhouse, Capodistrias; Grimsted, The Foreign Ministers, S. 226–268;
+                        Schneider, Werner, Europa in Wien, S. 199–200.</note>
+                    <idno type="URI">https://viaf.org/viaf/39507057/</idno>
+                </person>
+                <person xml:id="p.9">
+                    <persName>
+                        <forename>Robert </forename>
+                        <surname>Stewart</surname>
+                        <roleName>Viscount Castlereagh</roleName>
+                    </persName>
+                    <birth>1769</birth>
+                    <death>1822</death>
+                    <note>Britischer Außenminister; vgl zu seiner Person Bew, Castlereagh; Webster,
+                        Foreign Policy; Bartlett, Castlereagh; Thorne, Stewart, Robert, Viscount
+                        Castlereagh and second marquess of Londonderry. In: ODNB, Bd. 52, S.
+                        749–757.</note>
+                    <idno type="URI">https://viaf.org/viaf/15560591/</idno>
+                </person>
+                <person xml:id="p.1">
+                    <persName>
+                        <forename>Armand Emmanuel</forename>
+                        <surname>du Plessis</surname>
+                        <roleName>duc de Richelieu</roleName>
+                    </persName>
+                    <birth>1766</birth>
+                    <death>1822</death>
+                    <note>Französischer Premierminister; vgl. zu seiner Person de Waresquiel, Le Duc
+                        de Richelieu; Capefigue, Les diplomates européens, S. 245–274.</note>
+                    <idno type="URI">https://viaf.org/viaf/56652282/</idno>
+                </person>
+                <person xml:id="p.20">
+                    <persName>
+                        <forename>Alexander</forename>
+                        <surname>Baring</surname>, <roleName>1<hi rendition="#su">st</hi> Baron
+                            Ashburton</roleName>
+                    </persName>
+                    <birth>1774</birth>
+                    <death>1848</death>
+                    <note>Vgl. Jenkins, Baring, Alexander; Orbell, Baring, Alexander, first Baron
+                        Ashburton. In: ODNB, Bd. 3, S. 815–818.</note>
+                    <idno type="URI">https://viaf.org/viaf/62290490/</idno>
+                </person>
+            </listPerson>
+            <listPlace>
+                <place xml:id="loc.1">
+                <placeName>Aachen</placeName>
+               <placeName>Aix-la-Chapelle</placeName>
+               
+               <location>
+                        <geo>50.77664 6.08342</geo>
+                    </location>
+                    <idno type="URI">http://sws.geonames.org/3247449/</idno>
+            </place>
+            </listPlace>
+            <listBibl>
+                <bibl xml:id="t.1">Zweiter Pariser Frieden zwischen Österreich, Großbritannien, Preußen und Russland auf der
+               einen, Frankreich auf der anderen Seite, Paris 20. November 1815; vgl. BFSP Bd. 3 (1815/16), S. 280–293;
+               Grewe, Fontes, Bd. 3/1, S. 10–18; Clercq, Recueil, Bd. 2, S. 642–650; Martens,
+               Nouveau Recueil, Bd. 2, S. 682–691; <ref target="http://www.staatsvertraege.de/Frieden1814-15/2pfv1815-i.htm">http://www.staatsvertraege.de/Frieden1814-15/2pfv1815-i.htm</ref> (deutsch; eingesehen
+               am 31. Oktober 2012).</bibl>
+                <bibl xml:id="t.10">Konvention zwischen Österreich, Großbritannien, Preußen und Russland
+               sowie Frankreich, Aachen 9. Oktober 1818; BFSP Bd. 6 (1818/19), S. 6–10; Clercq,
+               Recueil, Bd. 3, S. 164–166; Angeberg, Congrès, Bd. 3, S. 1744–1746; Meyer, Corpus
+               Juris Confoederationis Germanicae, Bd. 1, S. 269–271; Clarke, Papers presented to
+               Parliament 1819, S. 73–77.</bibl>
+                <bibl xml:id="t.3">Convention, conclue en conformité de l’Article V du Traité Principal,
+               relativement à l’Occupation d’une Ligne Militaire en France par une Armée Alliée,
+               Paris 20. November 1815; vgl. BFSP Bd. 3 (1815/16), S. 298–315; Clercq, Recueil, Bd.
+               2, S. 653–661; Martens, Nouveau Recueil, Bd. 2, S. 695–707.</bibl>
+                <bibl xml:id="t.8">Procès-Verbal de la Conférence entre les Plénipotentiaires des 4
+               Cours Alliées, sur l’Arrangement de l’Indemnité Pécuniaire, et l’entretien de l’Armée
+               d’Occupation, Paris 13. Oktober 1815; vgl. BFSP Bd. 3 (1815/16), S. 229–233.</bibl>
+            </listBibl>
+        </back>
+    </text>
 </TEI>

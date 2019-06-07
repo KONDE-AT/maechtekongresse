@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/maechtekongresse/editions" xml:id="Verona_I_4.xml" prev="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Verona_I_3.xml" next="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Verona_I_5.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -56,8 +56,10 @@
                Zeitgeschichtsforschung</publisher>
             <pubPlace>Wien</pubPlace>
 <date when="2018-09-23" change="#initial">2018-09-23</date>
-            <idno>V_I_04</idno><idno type="ISBN" n="9783950478303">978-3-9504783-0-3</idno>
-                 <availability>           <licence target="https://creativecommons.org/licenses/by-sa/4.0/legalcode.de">https://creativecommons.org/licenses/by-sa/4.0/legalcode.de</licence>         </availability> </publicationStmt>
+            <idno>V_I_04</idno>
+                <idno type="ISBN" n="9783950478303">978-3-9504783-0-3</idno>
+                 <availability>           <licence target="https://creativecommons.org/licenses/by-sa/4.0/legalcode.de">https://creativecommons.org/licenses/by-sa/4.0/legalcode.de</licence>         </availability> <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="handle">http://hdl.handle.net/21.11115/0000-000C-1F05-D</tei:idno>
+            </publicationStmt>
             <notesStmt>
     <note>Vergleiche auch die Projektbeschreibung in der <ref type="URI" target="../meta/Einleitung.xml">Einleitung</ref> sowie die Dokumentation der Applikation unter <ref type="URI" target="../meta/about.xml">„Über diese Webseite“</ref>.</note>
 </notesStmt>
@@ -123,7 +125,8 @@
          <abstract>
             <p>Die Vertreter Russlands erklären, dass der <rs ref="#p.17" type="person">Zar</rs>
                die von Außenminister <persName ref="#p.174">
-                            <surname>Montmorency</surname></persName> im Namen der französischen
+                            <surname>Montmorency</surname>
+                    </persName> im Namen der französischen
                   Regierung am <date when="1822-10-20">20. Oktober 1822</date> gemachten
                <ref target="Verona_I_2.xml">Ausführungen und Fragen</ref> zustimmend zur Kenntnis genommen habe und der
                französischen Regierung seine Unterstützung in Hinblick auf Maßnahmen gegen die
@@ -148,7 +151,8 @@
                         <expan>Monsieur</expan>
                      </choice> le <persName ref="#p.174">
                                 <roleName>Vicomte</roleName>
-                        <surname>de Montmorency</surname></persName>
+                        <surname>de Montmorency</surname>
+                        </persName>
                         <lb/> à la Conférence du <date when="1822-10-20">20 Octobre</date>
                         </ref>
                     </head>
@@ -160,13 +164,15 @@
                         </add> Octobre 1822</date>.</dateline>
                 </opener> 
             <p>Le <rs ref="#p.13" type="person">Plénipotentiaire de Russie</rs> a porté à la connoissance de l’<rs ref="#p.17" type="person">Empereur</rs>, Son Maître, le précis des communications verbales
-               faites par Monsieur le <rs ref="#p.174" type="person">Ministre des Affaires étrangères</rs> de <rs ref="#p.15" type="person" xml:id="n.1">Sa Majesté Très Chrétienne</rs><note type="editorial" target="#n.1">Ehrentitel des Königs von Frankreich. </note> à la Conférence du
+               faites par Monsieur le <rs ref="#p.174" type="person">Ministre des Affaires étrangères</rs> de <rs ref="#p.15" type="person" xml:id="n.1">Sa Majesté Très Chrétienne</rs>
+                    <note type="editorial" target="#n.1">Ehrentitel des Königs von Frankreich. </note> à la Conférence du
                   <date when="1822-10-20">20 Octobre</date>.</p>
             <p>
                     <rs ref="#p.17" type="person">Sa Majesté Impériale</rs> a lu avec un vif intérêt le résumé de ces
                importantes ouvertures, et leur objet a fixé Sa plus sérieuse attention.</p>
             <p>Dès le mois d’Avril de l’année 1820 la Russie avait signalé les conséquences du
-               triomphe de <rs xml:id="n.2">la révolution en <country>Espagne</country></rs>.<note type="editorial" target="#n.2">Zur Revolution in <country>Spanien</country>, die
+               triomphe de <rs xml:id="n.2">la révolution en <country>Espagne</country>
+                    </rs>.<note type="editorial" target="#n.2">Zur Revolution in <country>Spanien</country>, die
                   mit einem Militäraufstand am <date when="1820-01-01">1. Jänner 1820</date> ihren
                   Anfang nahm, vgl. Späth, Revolution in Europa, S. 117–128. In Portugal war am 24.
                   August 1820 eine Revolution ausgebrochen; vgl. Birmingham, A Concise History, S.
@@ -232,7 +238,8 @@
                appui au Gouvernement de <rs ref="#p.15" type="person">Sa Majesté Très Chrétienne</rs> pour tous
                les cas que<pb n="152v"/> Monsieur le <persName ref="#p.174">
                         <roleName>Vicomte</roleName>
-                  <surname>de Montmorency</surname></persName> a indiqués aux Cabinets alliés dans
+                  <surname>de Montmorency</surname>
+                    </persName> a indiqués aux Cabinets alliés dans
                la Conférence du <date when="1822-10-20">20 Octobre</date>, et le<rs ref="#p.13" type="person">
                   Plénipotentiaire de Russie</rs> a ordre de déclarer que <rs ref="#p.17" type="person">Sa Majesté
                   Impériale</rs> l’autorise à accéder aux propositions faites ce même jour par le
@@ -249,13 +256,96 @@
                les stipulations relatives à ces secours.</p>
          </div>
       </body>
-      <back>
-         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../indices/listplace.xml" xpointer="listPlace"/>
-         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../indices/listperson.xml" xpointer="listPerson"/>
-         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../indices/listwit.xml" xpointer="listWit"/>
-         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../indices/listorg.xml" xpointer="listOrg"/>
-         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../indices/listtreaties.xml" xpointer="listTreaties"/>
-
-      </back>
-   </text>
+      
+   <back>
+            <listPerson>
+                <person xml:id="p.17">
+                    <persName>
+                        <surname>Alexander I.</surname>
+                        <roleName>Zar von Russland</roleName>
+                    </persName>
+                    <birth>1777</birth>
+                    <death>1825</death>
+                    <note>Vgl. Rey, Alexander I.; Schneider, Werner, Europa in Wien, S.
+                        100–102.</note>
+                    <idno type="URI">https://viaf.org/viaf/4938543/</idno>
+                </person>
+                <person xml:id="p.174">
+                    <persName>
+                        <forename>Mathieu Jean Félicité</forename>
+                        <roleName>Vicomte</roleName>
+                        <surname>de Montmorency-Laval</surname>
+                    </persName>
+                    <birth>1766</birth>
+                    <death>1826</death>
+                    <note>1821/22 französischer Außenminister, Vertreter Frankreichs auf dem
+                        Kongress von Verona; vgl. zu seiner Person Michaud, Biographie universelle,
+                        Bd. 29, S. 181-183.</note>
+                    <idno type="URI">https://viaf.org/viaf/66610110/</idno>
+                </person>
+                <person xml:id="p.13">
+                    <persName>
+                        <forename>Karl Robert</forename>
+                        <roleName>Graf</roleName>
+                        <surname>von Nesselrode</surname>
+                    </persName>
+                    <birth>1780</birth>
+                    <death>1862</death>
+                    <note>Russischer Außenminister, Bevollmächtigter Russlands; vgl. zu seiner
+                        Person Eich, Nesselrode, Robert Graf von. In: NDB, Bd. 19, S. 74–75;
+                        Grimsted, The Foreign Ministers, S. 194–225, 269–286; Schneider, Werner,
+                        Europa in Wien, S. 248–249.</note>
+                    <idno type="URI">https://viaf.org/viaf/49992065/</idno>
+                </person>
+                <person xml:id="p.15">
+                    <persName>
+                        <surname>Ludwig/Louis XVIII.</surname>
+                        <roleName> König von Frankreich</roleName>
+                    </persName>
+                    <birth>1755</birth>
+                    <death>1824</death>
+                    <note>Vgl. Malettke, Die Bourbonen; Thamer, Ludwig XVIII.; Mansel, Louis
+                        XVIII.</note>
+                    <idno type="URI">https://viaf.org/viaf/84035484/</idno>
+                </person>
+                <person xml:id="p.30">
+                    <persName>
+                        <surname>Ferdinand/Fernando VII.</surname>
+                        <roleName>König von Spanien</roleName>
+                    </persName>
+                    <birth>1784</birth>
+                    <death>1833</death>
+                    <note>Vgl. zu seiner Person Sánchez Mantero, Fernando VII.</note>
+                    <idno type="URI">https://viaf.org/viaf/286447916/</idno>
+                </person>
+            </listPerson>
+            <listPlace>
+                <place xml:id="loc.68">
+               <placeName>Verona</placeName>
+                <placeName>Vérone</placeName>
+               <location>
+                        <geo>45.4299 10.98444</geo>
+                    </location>
+                    <idno type="URI">http://sws.geonames.org/3164527/</idno>
+            </place>
+                <place xml:id="loc.11">
+                <placeName>Neapel</placeName>
+               <placeName>Naples</placeName>
+               
+               <location>
+                        <geo>40.85216 14.26811</geo>
+                    </location>
+                    <idno type="URI">http://sws.geonames.org/3172394/</idno>
+            </place>
+                <place xml:id="loc.64">
+               <placeName>Turin</placeName>
+               <placeName>Turino</placeName>
+               <location>
+                        <geo>45.07049 7.68682</geo>
+                    </location>
+                    <idno type="URI">http://sws.geonames.org/3165524/</idno>
+            </place>
+            </listPlace>
+        </back>
+    </text>
 </TEI>

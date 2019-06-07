@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/maechtekongresse/editions" xml:id="Aachen_Prot_32.xml" prev="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Prot_31.xml" next="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Prot_33.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -54,8 +54,10 @@
                Zeitgeschichtsforschung</publisher>
             <pubPlace>Wien</pubPlace>
 <date when="2018-09-23" change="#initial">2018-09-23</date>
-            <idno>A_32</idno><idno type="ISBN" n="9783950478303">978-3-9504783-0-3</idno>
-                 <availability>           <licence target="https://creativecommons.org/licenses/by-sa/4.0/legalcode.de">https://creativecommons.org/licenses/by-sa/4.0/legalcode.de</licence>         </availability> </publicationStmt>
+            <idno>A_32</idno>
+                <idno type="ISBN" n="9783950478303">978-3-9504783-0-3</idno>
+                 <availability>           <licence target="https://creativecommons.org/licenses/by-sa/4.0/legalcode.de">https://creativecommons.org/licenses/by-sa/4.0/legalcode.de</licence>         </availability> <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="handle">http://hdl.handle.net/21.11115/0000-000C-1EF5-F</tei:idno>
+            </publicationStmt>
             <notesStmt>
     <note>Vergleiche auch die Projektbeschreibung in der <ref type="URI" target="../meta/Einleitung.xml">Einleitung</ref> sowie die Dokumentation der Applikation unter <ref type="URI" target="../meta/about.xml">„Über diese Webseite“</ref>.</note>
 </notesStmt>
@@ -79,7 +81,8 @@
                <physDesc>
 
                   <p> Eigenhändiges Protokoll von <persName ref="#p.5">
-                                <surname>Gentz</surname></persName>.</p>
+                                <surname>Gentz</surname>
+                            </persName>.</p>
                   <p>Die Anlagen liegen in einer Schleife mit der Aufschrift <q>Protocole <choice>
                         <abbr>n<hi rendition="#su">o</hi>
                                 </abbr>
@@ -205,7 +208,8 @@
 
                   <p>Abschrift</p>
                   <p>Auf fol. II/125r folgende Erläuterung von <persName ref="#p.6">
-                                <surname>Wacken</surname></persName>: <q>Dans le <ref target="Aachen_Prot_14.xml">Protocole du <date when="1818-10-17">17 <choice>
+                                <surname>Wacken</surname>
+                            </persName>: <q>Dans le <ref target="Aachen_Prot_14.xml">Protocole du <date when="1818-10-17">17 <choice>
                               <abbr>8<hi rendition="#su">bre</hi>
                                         </abbr>
                               <expan>Octobre</expan>
@@ -222,7 +226,8 @@
                               <expan>Baron</expan>
                            </choice>
                                 </roleName>
-                        <surname>de Berstett</surname></persName>. <lb/>
+                        <surname>de Berstett</surname>
+                                </persName>. <lb/>
                   Le Mémoire du Ministère de Russie est le même qui a été consigné au <ref target="Aachen_Prot_28.xml">Protocole du 10 Novembre (sub <choice>
                            <abbr>n<hi rendition="#su">o</hi>
                                     </abbr>
@@ -314,7 +319,8 @@
                <physDesc>
 
                   <p>Konzept von <persName ref="#p.6">
-                                <surname>Wacken</surname></persName>
+                                <surname>Wacken</surname>
+                            </persName>
                         </p>
 
                </physDesc>
@@ -475,7 +481,8 @@
       <profileDesc>
          <abstract>
             <p>Der britische Vertreter <persName ref="#p.10">
-                        <surname>Wellington</surname></persName> berichtet über kriminelle Verschwörungen
+                        <surname>Wellington</surname>
+                    </persName> berichtet über kriminelle Verschwörungen
                in den <country>Niederlanden</country>. Anschließend Verlesung eines Protokolls
                betreffend die Wünsche der mediatisierten Fürsten und Grafen. Die <rs ref="#p.1 #p.8 #p.9 #p.10 #p.11 #p.12 #p.13 #p.14" type="multi-person">Vertreter der Mächte</rs>
                beraten über strittige Angelegenheiten innerhalb des Deutschen Bundes: den
@@ -483,14 +490,16 @@
                   <country>Königreich Bayern</country>, den Zoll von <placeName ref="#loc.33">Elsfleth</placeName> und die Ansprüchen des <rs ref="#p.76" type="person">Herzogs von
                   Oldenburg</rs>, die Klage des <persName ref="#p.80">
                         <roleName>Prinzen</roleName>
-                  <surname>Windisch-Graetz</surname></persName> gegen den <rs ref="#p.81" type="person">König von
+                  <surname>Windisch-Graetz</surname>
+                    </persName> gegen den <rs ref="#p.81" type="person">König von
                   Württemberg</rs>, den Konflikt zwischen dem <rs ref="#p.78" type="person">Landgrafen von
                   Hessen-Homburg</rs> und dem <rs ref="#p.79" type="person">Großherzog von Hessen</rs>, das
                Arrangement zwischen den Häusern Thurn und Taxis und Hohenzollern-Sigmaringen sowie
                die Beschwerden ehemaliger Grundbesitzer im <country>Königreich Westphalen</country>
                im nunmehrigen <country>Kurfürstentum Hessen</country>. Der französische
                Premierminister <persName ref="#p.1">
-                        <surname>Richelieu</surname></persName>
+                        <surname>Richelieu</surname>
+                    </persName>
                thematisiert die Gefahren der Piraterie im Atlantik; die <rs ref="#p.1 #p.8 #p.9 #p.10 #p.11 #p.12 #p.13 #p.14" type="multi-person">Vertreter der Mächte</rs>
                beschließen, eine diesbezüglich Note an die Regierung der <country>Vereinigten
                   Staaten von Amerika</country> zu richten.</p>
@@ -556,12 +565,14 @@
                   <expan>Monsieur</expan>
                </choice> le <persName ref="#p.10">
                         <roleName>Duc</roleName>
-                  <surname>de Wellington</surname></persName> a fait à <choice>
+                  <surname>de Wellington</surname>
+                    </persName> a fait à <choice>
                   <abbr>Mrs.</abbr>
                   <expan>Messieurs</expan>
                     </choice> les <rs ref="#p.8 #p.9 #p.11 #p.12 #p.13 #p.14 #p.1" type="multi-person">Plénipotentiaires</rs> une communication confidentielle relative à des
                <rs xml:id="n.1a">certaines trames profondément criminelles qui ont eu lieu dans les
-                  <country>Pays-Bas</country>.</rs><note type="editorial" target="n.1a">In Aachen kursierten Gerüchte über eine geplante Entführung von Zar Alexander, die in Brüssel stattfinden sollte; vgl. Duchhardt, Der Aachener Kongress, S. 35–36.</note>
+                  <country>Pays-Bas</country>.</rs>
+                    <note type="editorial" target="n.1a">In Aachen kursierten Gerüchte über eine geplante Entführung von Zar Alexander, die in Brüssel stattfinden sollte; vgl. Duchhardt, Der Aachener Kongress, S. 35–36.</note>
                 </p>
             <p>On a lu le Protocole particulier relatif aux demandes des Princes et Comtes
                Médiatisés d’Allemagne ; protocole contenant <ref target="Aachen_Prot_26.xml">les
@@ -570,7 +581,8 @@
                      <expan>Monsieur</expan>
                   </choice> le <persName ref="#p.8">
                             <roleName>Prince</roleName>
-                     <surname>de Metternich</surname></persName> a donnés sur cette affaire à la
+                     <surname>de Metternich</surname>
+                        </persName> a donnés sur cette affaire à la
                   séance du <date when="1818-11-07">7 de ce mois</date>
                     </ref>, et <ref decls="#m.2">
                   les résolutions prises dans la même séance. </ref>
@@ -583,7 +595,8 @@
                   <expan>Messieurs</expan>
                </choice> les <rs ref="#p.11 #p.12" type="multi-person">Plénipotentiaires de Prusse</rs> ont fait
                connoître le Vote de leur Cabinet sur <rs xml:id="n.2"> la question des arrangemens
-                  Territoriaux entre le <rs ref="#p.99" type="person">Roi de Bavière</rs> et le <rs ref="#p.22" type="person">Grand-Duc de Bade</rs>. </rs><note type="editorial" target="#n.2">Vgl. Huber,
+                  Territoriaux entre le <rs ref="#p.99" type="person">Roi de Bavière</rs> et le <rs ref="#p.22" type="person">Grand-Duc de Bade</rs>. </rs>
+                    <note type="editorial" target="#n.2">Vgl. Huber,
                   Deutsche Verfassungsgeschichte, Bd. 1, S. 324–328.</note>
                <ref decls="#m.5"> Ce Vote se trouve annexé au présent Protocole.</ref>
             </p>
@@ -593,16 +606,19 @@
                   <expan>Monsieur</expan>
                </choice> le <persName ref="#p.12">
                         <roleName>Comte</roleName>
-                  <surname>de Bernstorff</surname></persName> a lu le <ref decls="#m.7"> projet de
+                  <surname>de Bernstorff</surname>
+                    </persName> a lu le <ref decls="#m.7"> projet de
                   Protocole ci-joint </ref> sur l’affaire du péage d’<placeName ref="#loc.33">Elsfleth</placeName> dans ses rapports avec les réclamations du <rs ref="#p.76" type="person">Duc d’Oldenbourg</rs>. Ce projet a été adopté à l’unanimité,<pb n="112v"/> et il
                a été arrêté en conséquence que la démarche à faire auprès de la Diète Germanique
                seroit confiée aux <rs ref="#p.25 #p.113 #p.114 #p.115 #p.39" type="multi-person">Ministres des Cours
-                  résidans à <placeName ref="#loc.25">Francfort</placeName></rs>. <choice>
+                  résidans à <placeName ref="#loc.25">Francfort</placeName>
+                    </rs>. <choice>
                   <abbr>Mr.</abbr>
                   <expan>Monsieur</expan>
                </choice> le <persName ref="#p.8">
                         <roleName>Prince</roleName>
-                  <surname>de Metternich</surname></persName> a pris en outre l’engagement de
+                  <surname>de Metternich</surname>
+                    </persName> a pris en outre l’engagement de
                recommander les intérêts du <rs ref="#p.76" type="person">Duc d’Oldenbourg</rs> au nom de <rs ref="#p.16" type="person">son Souverain</rs>, et de la manière la plus pressante, au <rs ref="#p.25" type="person">Ministre d’Autriche présidant le Diète</rs>, et de l’inviter à prendre
                toutes les mesures propres à ame<damage agent="paper_damage">
                         <supplied>ner</supplied>
@@ -621,22 +637,28 @@
                         <expan>Comte</expan>
                      </choice>
                         </roleName>
-                  <surname>Nesselrode</surname></persName> a communiqué de même l’opinion du Cabinet
+                  <surname>Nesselrode</surname>
+                    </persName> a communiqué de même l’opinion du Cabinet
                de Russie sur le mémoire présenté aux Souverains par le <persName ref="#p.80">
                         <roleName>Prince</roleName>
-                  <surname>de Windischgratz</surname></persName>, concernant ses réclamations contre <choice>
+                  <surname>de Windischgratz</surname>
+                    </persName>, concernant ses réclamations contre <choice>
                   <abbr>S. M.</abbr>
                   <expan>Sa Majesté</expan>
                </choice> le <rs ref="#p.81" type="person">Roi de Würtemberg</rs>. On est unanimement convenu de
                charger, <rs xml:id="n.5">
-                  <add place="margin">moyennant l’instruction ci-jointe,</add></rs><note type="editorial" target="#n.5">Anlage liegt nicht ein</note> les <rs ref="#p.84 #p.85 #p.86 #p.87 #p.88" type="multi-person">Ministres des Cinq cours accrédités auprès de
-                  celle de <placeName ref="#loc.17">Stuttgart</placeName></rs>
+                  <add place="margin">moyennant l’instruction ci-jointe,</add>
+                    </rs>
+                    <note type="editorial" target="#n.5">Anlage liegt nicht ein</note> les <rs ref="#p.84 #p.85 #p.86 #p.87 #p.88" type="multi-person">Ministres des Cinq cours accrédités auprès de
+                  celle de <placeName ref="#loc.17">Stuttgart</placeName>
+                    </rs>
                <subst>
                   <del rendition="#s">de faire les démarches nécessaires</del> 
                   <add place="margin">d’employer leurs meilleurs offices et leurs soins</add>
                </subst> pour déterminer le <rs ref="#p.81" type="person">Roi de Würtemberg</rs> à la levée du<pb n="154r"/> séquestre mis sur les possessions du <persName ref="#p.80">
                         <roleName>Prince</roleName>
-                  <surname>de Windischgratz</surname></persName>, et à un arrangement propre à
+                  <surname>de Windischgratz</surname>
+                    </persName>, et à un arrangement propre à
                terminer ses réclamations.</p>
             <p>
                     <choice>
@@ -644,11 +666,14 @@
                   <expan>Monsieur</expan>
                </choice> le <persName ref="#p.13">
                         <roleName>Comte</roleName>
-                  <surname>Nesselrode</surname></persName> a ensuite proposé relativement aux
+                  <surname>Nesselrode</surname>
+                    </persName> a ensuite proposé relativement aux
                demandes du <rs ref="#p.78" type="person">Landgrave de Hesse-Hombourg</rs> de charger, quant à ses
                intérêts de famille avec les autres branches de sa maison, les <rs xml:id="n.6">
-                        <rs ref="#p.83 #p.39" type="multi-person">Ministres des puissances accrédités à <placeName ref="#loc.34">Darmstadt</placeName></rs>
-                    </rs><note type="editorial" target="#n.6">Österreich nahm erst 1853 diplomatische
+                        <rs ref="#p.83 #p.39" type="multi-person">Ministres des puissances accrédités à <placeName ref="#loc.34">Darmstadt</placeName>
+                        </rs>
+                    </rs>
+                    <note type="editorial" target="#n.6">Österreich nahm erst 1853 diplomatische
                   Beziehungen zum Hof von Darmstadt auf; vgl. Bringmann, Handbuch, S. 290.
                   Frankreich: comte de Salignac-Fénélon; vgl. Bringmann, Handbuch, S. 183.
                   Großbritannien nahm erst 1852 diplomatische Beziehungen zum Hof von Darmstadt auf;
@@ -658,7 +683,8 @@
                réclame à la Diète germanique, de faire valoir par les Ministres résidans à
                   <placeName ref="#loc.25">Francfort</placeName> les bons offices des Souverains, et
                l’intérêt qu’Ils prennent à tout ce qui regarde cette maison. <rs xml:id="n.7"> Les
-                  instructions à adresser aux Ministres sont annexées au Protocole. </rs><note type="editorial" target="#n.7">Anlage liegt nicht ein.</note>
+                  instructions à adresser aux Ministres sont annexées au Protocole. </rs>
+                    <note type="editorial" target="#n.7">Anlage liegt nicht ein.</note>
             </p>
             <p>
                     <choice>
@@ -666,7 +692,8 @@
                   <expan>Monsieur</expan>
                </choice> le <persName ref="#p.8">
                         <roleName>Prince</roleName>
-                  <surname>de Metternich</surname></persName> a communiqué <ref decls="#m.8">la
+                  <surname>de Metternich</surname>
+                    </persName> a communiqué <ref decls="#m.8">la
                   lettre écrite au <persName ref="#p.96">
                             <roleName>
                                 <subst>
@@ -674,10 +701,12 @@
                            <add>Princesse</add>
                         </subst>
                             </roleName>
-                     <surname>de La Tour et Taxis</surname></persName>,</ref> en réponse au <ref target="Aachen_Prot_26.xml">Mémoire par lequel celui-ci a demandé le
+                     <surname>de La Tour et Taxis</surname>
+                        </persName>,</ref> en réponse au <ref target="Aachen_Prot_26.xml">Mémoire par lequel celui-ci a demandé le
                   rétablissement de sa Souveraineté moyennant un arrangement avec le <rs ref="#p.89" type="person">
                             <roleName>Prince</roleName>
-                     <surname>de Hohenzollern-Siegmaringen</surname></rs>
+                     <surname>de Hohenzollern-Siegmaringen</surname>
+                        </rs>
                     </ref>. 
                         <choice>
                      <abbr>Mrs.</abbr>
@@ -685,7 +714,8 @@
                         </choice> les <rs ref="#p.11 #p.12 #p.13 #p.14" type="multi-person">Plénipotentiaires de Prusse et de <pb n="154v"/>Russie</rs> en ont
                pris connoissance pour répondre de leur côté au <persName ref="#p.82">
                         <roleName>Prince</roleName>
-                  <surname>de La Tour et Taxis</surname></persName>.</p>
+                  <surname>de La Tour et Taxis</surname>
+                    </persName>.</p>
             <p>
                     <choice>
                   <abbr>Mr.</abbr>
@@ -698,7 +728,8 @@
                         <expan>Comte</expan>
                      </choice>
                         </roleName>
-                  <surname>Bernstorff</surname></persName> a lu ensuite <ref decls="#m.9">le mémoire
+                  <surname>Bernstorff</surname>
+                    </persName> a lu ensuite <ref decls="#m.9">le mémoire
                      <add place="margin">ci-annexé</add>
                </ref> sur les griefs des acquéreurs de domaines ci-devant Westphaliens dans
                   l’<country>Electorat de Hesse</country> ; et d’après les propositions de <choice>
@@ -712,7 +743,8 @@
                         <expan>Comte</expan>
                      </choice>
                         </roleName>
-                  <surname>Bernstorff</surname></persName> il a été arrêté </p>
+                  <surname>Bernstorff</surname>
+                    </persName> il a été arrêté </p>
             <p>1. Que <choice>
                   <abbr>Mrs.</abbr>
                   <expan>Messieurs</expan>
@@ -731,7 +763,8 @@
                      <expan>Monsieur</expan>
                   </choice> le <persName ref="#p.1">
                             <roleName>Duc</roleName>
-                     <surname>de Richelieu</surname></persName> a fait part de <ref decls="#m.11">ses observations
+                     <surname>de Richelieu</surname>
+                    </persName> a fait part de <ref decls="#m.11">ses observations
                   ci-annexées</ref> sur les dangers dont la navigation et le commerce de l’Europe sont
                   menacés par la piraterie qui s’exerce dans l’océan à la faveur des troubles <pb n="155r"/>qui agitent l’Amérique Méridionale.</p> 
                <p>
@@ -769,7 +802,8 @@
                         <expan>Comte</expan>
                      </choice>
                         </roleName>
-                  <surname>Palmella</surname></persName>
+                  <surname>Palmella</surname>
+                    </persName>
                <ref target="Aachen_Prot_30.xml">qui avoit appelé l’attention des Cabinets réunis sur
                   cet objet important</ref>.</p>
             <signed>
@@ -822,17 +856,22 @@
                 
             <p>Monsieur le <persName ref="#p.13">
                         <roleName>Comte</roleName>
-                  <surname>de Nesselrode</surname></persName> a appelé l’attention de la Conférence
+                  <surname>de Nesselrode</surname>
+                    </persName> a appelé l’attention de la Conférence
                sur <ref decls="#m.3"> le Mémoire ci-joint en copie, </ref> présenté aux Souverains
                et Ministres réunis à <placeName ref="#loc.1">Aix-la-Chapelle</placeName> par les
                Princes <persName ref="#p.116">
                         <forename>Guillaume</forename>
-                  <surname>de Bentheim et Steinfurt</surname></persName> et <persName ref="#p.117">
+                  <surname>de Bentheim et Steinfurt</surname>
+                    </persName> et <persName ref="#p.117">
                         <forename>George</forename>
-                  <surname>de Löwenstein-Wertheim</surname></persName>, au nom et par autorisation
+                  <surname>de Löwenstein-Wertheim</surname>
+                    </persName>, au nom et par autorisation
                des Princes et Comtes d’Allemagne médiatisés, réclamant l’exécution des articles par
-               lesquels <rs xml:id="n.13"> l’<rs ref="#t.12 #t.18" type="multi-treaties">acte du Congrès de <placeName ref="#loc.7">Vienne</placeName></rs>
-                    </rs><note type="editorial" target="#n.13">Art. 6 und 14 der Deutschen Bundesakte und
+               lesquels <rs xml:id="n.13"> l’<rs ref="#t.12 #t.18" type="multi-treaties">acte du Congrès de <placeName ref="#loc.7">Vienne</placeName>
+                        </rs>
+                    </rs>
+                    <note type="editorial" target="#n.13">Art. 6 und 14 der Deutschen Bundesakte und
                   Art. 58 der Wiener Kongressakte vom 9. Juni 1815.</note> a déterminé les droits et
                prérogatives dont Ils doivent jouir dans l’ordre actuel des choses, et notamment de
                celui qui leur a ouvert la perspective d’obtenir quelques voix collectives à la Diète
@@ -844,7 +883,8 @@
                   <expan>Monsieur</expan>
                </choice> le <persName ref="#p.8">
                         <roleName>Prince</roleName>
-                  <surname>de Metternich</surname></persName> a fourni à la Conférence les
+                  <surname>de Metternich</surname>
+                    </persName> a fourni à la Conférence les
                éclaircissemens nécessaires pour faire connoître l’état présent<pb n="115v"/> de
                cette question. Il l’a traitée tant sous le point de vue des rapports qui, d’après
                   l’<rs ref="#t.18" type="treaties">acte de la Confédération germanique</rs>, doivent subsister
@@ -864,7 +904,8 @@
                     <rs xml:id="n.14"> Plusieurs Souverains de l’Allemagne ont rempli les engagemens
                   solemnels qu’ils avaient contractés en faveur d’une classe qui constitue la haute
                   noblesse de l’Allemagne, et qui est d’autant plus digne de tous les égards qu’elle
-                  a été victime des événemens désastreux des derniers tems. </rs><note type="editorial" target="#n.14">Vgl. Gollwitzer, Standesherren, bes. S.
+                  a été victime des événemens désastreux des derniers tems. </rs>
+                    <note type="editorial" target="#n.14">Vgl. Gollwitzer, Standesherren, bes. S.
                   46–115.</note> La <country>Prusse</country> a donné, la première, cet exemple de
                justice ; elle ne s’est pas bornée à assurer aux Maisons médiatisées, placées sous sa
                Souveraineté, ce que leur accorde l’acte fédératif ; – elle est allée<pb n="116v"/>
@@ -883,7 +924,8 @@
             <p>L’<rs ref="#p.16" type="person">Empereur d’Autriche</rs> a cru devoir énoncer vis-à-vis de la
                Confédération, avant la clôture de sa dernière session, Ses sentimens de sollicitude
                à cet égard. <rs xml:id="n.15"> La Diète a procédé de suite à la nomination d’une
-                  Commission chargée de l’examen de ces justes représentations. </rs><note type="editorial" target="#n.15">Vgl. Protokolle der Deutschen Bundesversammlung,
+                  Commission chargée de l’examen de ces justes représentations. </rs>
+                    <note type="editorial" target="#n.15">Vgl. Protokolle der Deutschen Bundesversammlung,
                   Bd. 6 (1818), S. 183–193; online auf <ref target="http://publikationen.ub.uni-frankfurt.de/volltexte/2010/115320/">
                      http://publikationen.ub.uni-frankfurt.de/volltexte/2010/115320/</ref>
                   (eingesehen am 27. Juli 2017).</note> Elle ne tardera pas à faire son rapport
@@ -910,14 +952,19 @@
                considérant celle-ci comme l’instance la plus naturelle et la plus à portée de juger
                de la véritable position des choses ; qu’en attendant, Elles chargent néanmoins leurs
                   <rs ref="#p.24 #p.122 #p.39 #p.83" type="multi-person">
-                        <rs ref="#p.84 #p.85 #p.86 #p.87 #p.88" type="multi-person">Ministres près les Cours de <placeName ref="#loc.17">Stuttgardt</placeName></rs>, <rs xml:id="n.16" ref="#p.119 #p.120 #p.121" type="multi-person">de
-                        <placeName ref="#loc.19">Carlsruhe</placeName></rs><note type="editorial" target="#n.16">Großherzogtum Baden. Österreich: Der
+                        <rs ref="#p.84 #p.85 #p.86 #p.87 #p.88" type="multi-person">Ministres près les Cours de <placeName ref="#loc.17">Stuttgardt</placeName>
+                        </rs>, <rs xml:id="n.16" ref="#p.119 #p.120 #p.121" type="multi-person">de
+                        <placeName ref="#loc.19">Carlsruhe</placeName>
+                        </rs>
+                        <note type="editorial" target="#n.16">Großherzogtum Baden. Österreich: Der
                      Posten des österreichischen Gesandten in Karlsruhe war zwischen 16. März und
                      21. Dezember 1818 vakant; anschließend übernahm Anton Karl Fürst Pálffy von
                      Eröd (*1793) den Posten; vgl. Bringmann, Handbuch, S. 294. Großbritannien nahm
                      erst 1841 diplomatische Beziehungen zum Großherzogtum Baden auf; vgl.
                      Bringmann, Handbuch, S. 198. </note> et <rs xml:id="n.17">des deux
-                  Hesse</rs></rs><note type="editorial" target="#n.17">Kurfürstentum Hessen
+                  Hesse</rs>
+                    </rs>
+                    <note type="editorial" target="#n.17">Kurfürstentum Hessen
                   (Hessen-Kassel) und Großherzogtum Hessen (Hessen-Darmstadt). Frankreich nahm erst
                   1822 diplomatische Beziehungen zum Hof von Kassel auf; vgl. Bringmann, Handbuch,
                   S. 187. Großbritannien hatte zwischen 1806 und 1826 keine diplomatischen
@@ -947,7 +994,8 @@
                </subst>. <rs xml:id="n.18">Il suffit de citer la maison de Fürstenberg qui possédait
                   dix fois plus de sujets que celle de Hohenzollern-Sigmaringen et qui conserve
                   encore aujourd’hui un revenu dix fois plus considérable que ce Prince sous la
-                  souveraineté duquel la maison de Fürstenberg est placée.</rs><note type="editorial" target="#n.18">Vgl. dazu z. B. Asch, Fürstenberg; Wilts,
+                  souveraineté duquel la maison de Fürstenberg est placée.</rs>
+                    <note type="editorial" target="#n.18">Vgl. dazu z. B. Asch, Fürstenberg; Wilts,
                   Ausgelöscht.</note>
                 </p>
             <p>Si les médiatisés ont perdu leur indépendance, du moins désirent-ils que les Princes,
@@ -973,7 +1021,8 @@
                tout tems dans le sens le plus conforme à leurs réclamations relativement à
                l’application de la réserve de l’art. VI. Mais la loi ne pouvant être portée qu’à <hi rendition="#u">l’unanimité</hi> des votans, il n’est que trop à craindre que les
                désirs de tant de victimes d’un bouleversement, opéré par la seule lubie de <persName ref="#p.50">
-                        <surname>Bonaparte</surname></persName>, ne puissent<pb n="120v"/> se
+                        <surname>Bonaparte</surname>
+                    </persName>, ne puissent<pb n="120v"/> se
                réaliser que très difficilement. La conduite de l’affaire est délicate ; elle exige
                même dans l’intérêt de son succès de grands ménagemens ; le choix du moment où elle
                pourrait être traitée à <placeName ref="#loc.25">Francfort</placeName> ne peut être
@@ -1049,9 +1098,11 @@
                 
             <p>Les Princes <persName ref="#p.117">
                         <forename>George</forename>
-                  <surname>de Löwenstein-Wertheim-Freudenberg</surname></persName> et <persName ref="#p.116">
+                  <surname>de Löwenstein-Wertheim-Freudenberg</surname>
+                    </persName> et <persName ref="#p.116">
                         <forename>Guillaume</forename>
-                  <surname>de Bentheim et Steinfurt</surname></persName> réclament, au nom et par
+                  <surname>de Bentheim et Steinfurt</surname>
+                    </persName> réclament, au nom et par
                autorisation des Princes et Etats médiatisés, la concession d’un certain nombre de
                voix à la Diète Germanique. Ils désirent que cette disposition, promise par l’<rs ref="#t.18" type="treaties">acte de la Confédération Germanique</rs>, soit réalisée <quote>
                         <rs xml:id="n.20">« dans le plus court délai possible, d’une manière conforme au
@@ -1087,7 +1138,8 @@
                      Baden auf; vgl. Bringmann, Handbuch, S. 198.</note>
                     <rs ref="#p.83 #p.39" type="multi-person" xml:id="n.22">
                             Darmstadt
-                    </rs><note type="editorial" target="#n.22">Österreich
+                    </rs>
+                    <note type="editorial" target="#n.22">Österreich
                      nahm erst 1853 diplomatische Beziehungen zum Hof von Darmstadt auf; vgl.
                      Bringmann, Handbuch, S. 290. Frankreich: comte de Salignac-Fénélon; vgl.
                      Bringmann, Handbuch, S. 183. Großbritannien nahm erst 1852 diplomatische
@@ -1096,7 +1148,8 @@
                      Bundestag vertreten, hier Iwan/Johann Ossipowitsch Freiherr von Anstett</note>
                   &amp; <rs ref="#p.24 #p.122 #p.39" type="multi-person" xml:id="n.23">
                             Cassel
-                    </rs><note type="editorial" target="#n.23">Frankreich
+                    </rs>
+                    <note type="editorial" target="#n.23">Frankreich
                      nahm erst 1822 diplomatische Beziehungen zum Hof von Kassel auf; vgl.
                      Bringmann, Handbuch, S. 187. Großbritannien hatte zwischen 1806 und 1826 keine
                      diplomatischen Beziehungen; vgl. Bringmann, Handbuch, S. 198. Russland: Betreut
@@ -1265,18 +1318,21 @@
                      <expan>Sa Majesté</expan>
                   </choice> Prussienne</rs>, vivement pénétrée du sentiment de l’urgente nécessité
                de terminer le plutôt possible la <rs xml:id="n.25">contestation au sujet des
-                  arrangemens territoriaux</rs><note type="editorial" target="#n.25">Vgl. Huber,
+                  arrangemens territoriaux</rs>
+                    <note type="editorial" target="#n.25">Vgl. Huber,
                   Deutsche Verfassungsgeschichte, Bd. 1, S. 324–328.</note> entre le <rs ref="#p.99" type="person">Roi de Bavière</rs> et le <rs ref="#p.22" type="person">Grand-Duc de Bade</rs>, et convaincue
                que tous les moyens de conciliation tendent à engager la Cour de Bade à de plus
                grands sacrifices ont été épuisés, n’hésite pas à accéder aux arrangemens qui
-               viennent d’être confidentiellement concertés entre le cabinet russe et le <rs ref="#p.26" type="person">Plénipotentiaire du <rs ref="#p.22" type="person">Grand-Duc</rs></rs>.</p>
+               viennent d’être confidentiellement concertés entre le cabinet russe et le <rs ref="#p.26" type="person">Plénipotentiaire du <rs ref="#p.22" type="person">Grand-Duc</rs>
+                    </rs>.</p>
             <p>Que la position de la <country>Prusse</country> vis-à-vis de la
                   <country>Bavière</country> n’étant pas dans toutes ses nuances celle de ses
                Alliés, <rs ref="#p.18" type="person">
                         <choice>
                      <abbr>S. M.</abbr>
                      <expan>Sa Majesté</expan>
-                  </choice></rs> a vu de l’inconvénient à adopter pour Elle<pb n="127v"/>
+                  </choice>
+                    </rs> a vu de l’inconvénient à adopter pour Elle<pb n="127v"/>
                <ref target="Aachen_Prot_28.xml">le projet d’une lettre à <rs ref="#p.99" type="person">
                             <choice>
                         <abbr>S. M.</abbr>
@@ -1314,7 +1370,8 @@
                         <choice>
                      <abbr>V. M.</abbr>
                      <expan>Votre Majesté</expan>
-                  </choice></rs>, mais je ne partageai pas l’espoir de voir se
+                  </choice>
+                    </rs>, mais je ne partageai pas l’espoir de voir se
                réaliser dans toute leur étendue des arrangemens combattus<pb n="128v"/> par tant
                d’intérêts divers.</p>
             <p>L’événement ayant justifié mes doutes à cet égard, j’ose
@@ -1325,12 +1382,14 @@
                         <choice>
                      <abbr>V. M.</abbr>
                      <expan>Votre Majesté</expan>
-                  </choice></rs> des résultats satisfaisans toute l’extension dont ils ont été
+                  </choice>
+                    </rs> des résultats satisfaisans toute l’extension dont ils ont été
                susceptibles. Si ces résultats ne répondent pas entièrement aux vœux de <rs ref="#p.99" type="person">
                         <choice>
                      <abbr>V. M.</abbr>
                      <expan>Votre Majesté</expan>
-                  </choice></rs>, nous avons, <rs ref="#p.16 #p.17 #p.18 #p.19" type="multi-person">mes Alliés et
+                  </choice>
+                    </rs>, nous avons, <rs ref="#p.16 #p.17 #p.18 #p.19" type="multi-person">mes Alliés et
                   moi</rs>, au moins la conviction consolante d’avoir obtenu tout ce qui pouvait
                s’obtenir par la voye de la conciliation. Nous n’avions que cette seule voye à
                   suivre,<pb n="129r"/> et nous sommes bien persuadés que des moyens que notre
@@ -1360,7 +1419,8 @@
                   <expan>Messieurs</expan>
                     </choice> les <rs ref="#p.1 #p.8 #p.9 #p.10 #p.11 #p.12 #p.13 #p.14" type="multi-person">Plénipotentiaires des Cinq Cours</rs>, considérant :</p>
             <p>Que d’un côté le <rs ref="#p.76" type="person">Duc d’Oldenbourg</rs>, frustré par la force des
-               événemens d’une partie considérable du bénéfice que lui avaient assuré le <rs ref="#t.24" type="treaties" xml:id="n.27">recès de l’Empire de 1803</rs><note type="editorial" target="#n.27">Vgl. § 8.</note> et le <rs ref="#t.25" type="treaties">traité du <date when="1803-04-06">6 Avril</date> de la même année</rs>, peut-être regardé comme
+               événemens d’une partie considérable du bénéfice que lui avaient assuré le <rs ref="#t.24" type="treaties" xml:id="n.27">recès de l’Empire de 1803</rs>
+                    <note type="editorial" target="#n.27">Vgl. § 8.</note> et le <rs ref="#t.25" type="treaties">traité du <date when="1803-04-06">6 Avril</date> de la même année</rs>, peut-être regardé comme
                autorisé à réclamer une indemnité supplémentaire ; et </p>
             <p>Que de l’autre côté la décision d’une affaire qui a déjà provoqué de la part d’autres
                membres de la Confédération Germanique une plainte de lésion de droits ou d’intérêts
@@ -1438,7 +1498,8 @@
                         <choice>
                      <abbr>V. A.</abbr>
                      <expan>Votre Altesse</expan>
-                  </choice></rs> d’agréer l’hommage</p>
+                  </choice>
+                    </rs> d’agréer l’hommage</p>
             <p>de <choice>
                   <abbr>V. A. S.</abbr>
                </choice>
@@ -1479,7 +1540,8 @@
                ce Royaume durant son existence réelle, soient maintenus et respectés.</p>
             <p>Il est vrai que ces droits et ces obligations n’ont été explicitement réservés ou
                déterminés ni par le <rs ref="#t.13" type="treaties">traité de <placeName ref="#loc.2">Paris</placeName> de 1814</rs>, ni par l’<rs ref="#t.12" type="treaties">acte final du Congrès
-                  de <placeName ref="#loc.7">Vienne</placeName></rs>.</p>
+                  de <placeName ref="#loc.7">Vienne</placeName>
+                    </rs>.</p>
             <p>Mais dans un cas où les principes de justice et de droit n’ont pu être<pb n="133v"/>
                douteux, des stipulations expresses ont pu être censées superflues.</p>
             <p>S’il s’agit d’ailleurs de connoître les principes et les vues qui à ces différentes
@@ -1490,7 +1552,8 @@
                   <abbr>art<hi rendition="#su">e</hi>
                         </abbr>
                   <expan>article</expan>
-               </choice> 41 de l’<rs ref="#t.12" type="treaties">acte final du congrès de <placeName ref="#loc.7">Vienne</placeName></rs> qui met à couvert les droits des acquéreurs de
+               </choice> 41 de l’<rs ref="#t.12" type="treaties">acte final du congrès de <placeName ref="#loc.7">Vienne</placeName>
+                    </rs> qui met à couvert les droits des acquéreurs de
                domaines dans la principauté de Fulde et dans le Comté de Hanau.</p>
             <p>La suppression du Royaume de Westphalie et la réintégration des Princes dont les
                dépouilles avaient servi à composer ce Royaume éphémère ayant été le fruit des
@@ -1510,7 +1573,8 @@
                   provinces, elle a reconnu la justice et proclamé l’intention de maintenir les
                   droits acquis et les rapports établis d’une manière légale et constitutionnelle,
                   et elle a attaché à la cession de quelques-unes de ces provinces la condition de
-                  l’adoption de ce même principe.</rs><note type="editorial" target="#n.29">Zu den
+                  l’adoption de ce même principe.</rs>
+                    <note type="editorial" target="#n.29">Zu den
                   Integrationsproblemen der am Wiener Kongress im Westen neu erworbener Gebiete vgl.
                   Mieck, Preußen von 1807 bis 1850. In: Handbuch der preußischen Geschichte, Bd. 2,
                   S. 97–101.</note>
@@ -1594,7 +1658,9 @@
                 </metamark>
             
                     <head>Projet d’instruction aux <rs ref="#p.24 #p.122 #p.39" type="multi-person" xml:id="n.33">Ministres
-                     des Souverains alliés à la Cour de <placeName ref="#loc.45">Cassel</placeName></rs><note type="editorial" target="#n.33"> Frankreich nahm
+                     des Souverains alliés à la Cour de <placeName ref="#loc.45">Cassel</placeName>
+                    </rs>
+                    <note type="editorial" target="#n.33"> Frankreich nahm
                      erst 1822 diplomatische Beziehungen zum Hof von Kassel auf; vgl. Bringmann,
                      Handbuch, S. 187. Großbritannien hatte zwischen 1806 und 1826 keine
                      diplomatischen Beziehungen mit dem Kurfürstentum Hessen; vgl. Bringmann,
@@ -1619,7 +1685,8 @@
                         <expan>Baron</expan>
                      </choice>
                         </roleName>
-                  <surname>de Wacquant</surname></persName> etc. <placeName ref="#loc.45">Cassel</placeName>
+                  <surname>de Wacquant</surname>
+                        </persName> etc. <placeName ref="#loc.45">Cassel</placeName>
                 </add>
                 </p>
             <opener>
@@ -1646,7 +1713,8 @@
                         </unclear>
                     </add>
                 </p>
-            <p>Votre Excellence reçoit <rs xml:id="n.34">ci-joint une lettre</rs><note type="editorial" target="#n.34">Anlage liegt nicht ein.</note> de l’<rs ref="#p.16" type="person">Empereur</rs> pour l’<rs ref="#p.21" type="person">Electeur de Hesse</rs> que je La
+            <p>Votre Excellence reçoit <rs xml:id="n.34">ci-joint une lettre</rs>
+                    <note type="editorial" target="#n.34">Anlage liegt nicht ein.</note> de l’<rs ref="#p.16" type="person">Empereur</rs> pour l’<rs ref="#p.21" type="person">Electeur de Hesse</rs> que je La
                prie de faire parvenir à <choice>
                   <abbr>S. A. R.</abbr>
                   <expan>Son Altesse Royale</expan>
@@ -1676,7 +1744,8 @@
             <p>Les Cours alliées ne sont pas plus disposées que l’<rs ref="#p.21" type="person">Electeur</rs> à
                admettre le principe que le Souverain légitime d’un pays envahi par des<pb n="140r"/>
                forces étrangères soit tenu à reconnoître la légalité des actes d’un Gouvernement
-               usurpateur ou d’une autorité arbitraire ou provisoire. Mais le <rs xml:id="n.35">Royaume de Westphalie</rs><note type="editorial" target="#n.35">Das Königreich
+               usurpateur ou d’une autorité arbitraire ou provisoire. Mais le <rs xml:id="n.35">Royaume de Westphalie</rs>
+                    <note type="editorial" target="#n.35">Das Königreich
                   Westphalen wurde 1807 nach dem Frieden von Tilsit durch <persName ref="#p.50">
                             <forename>Napoleon</forename>
                         </persName> begründet und von dessen Bruder
@@ -1711,10 +1780,13 @@
                 </p>
             <p>Il est vrai que ces droits et ces obligations n’ont été explicitement réservés ou
                déterminés ni par le <rs ref="#t.13" type="treaties">traité de <placeName ref="#loc.2">Paris</placeName> de 1814</rs>, ni par l’<rs ref="#t.12" type="treaties">acte final du congrès
-                  de <placeName ref="#loc.7">Vienne</placeName></rs>.</p>
+                  de <placeName ref="#loc.7">Vienne</placeName>
+                    </rs>.</p>
             <p>Mais dans un cas où les principes de justice et de droit n’ont pu être douteux, des
                stipulations expresses ont pu être censées superflues.</p>
-            <p>L’article 27 du susdit <rs ref="#t.13" type="treaties">traité de <placeName ref="#loc.2">Paris</placeName></rs>, et l’article 41 du <rs ref="#t.12" type="treaties">recès de <placeName ref="#loc.7">Vienne</placeName></rs>, présentent d’ailleurs une analogie qui
+            <p>L’article 27 du susdit <rs ref="#t.13" type="treaties">traité de <placeName ref="#loc.2">Paris</placeName>
+                    </rs>, et l’article 41 du <rs ref="#t.12" type="treaties">recès de <placeName ref="#loc.7">Vienne</placeName>
+                    </rs>, présentent d’ailleurs une analogie qui
                met dans une grande évidence les vues et les<pb n="141v"/> principes par lesquels, à
                ces différentes époques, les Cours alliées se sont laissées guider.</p>
             <p>C’est donc incontestablement à ces Cours qu’il appartient de s’employer à faire
@@ -1776,11 +1848,14 @@
                         <expan>Comte</expan>
                      </choice>
                         </roleName>
-                  <surname>de Palmella</surname></rs>, Ministre de <rs ref="#p.28" type="person" xml:id="n.37">
+                  <surname>de Palmella</surname>
+                    </rs>, Ministre de <rs ref="#p.28" type="person" xml:id="n.37">
                         <choice>
                      <abbr>S. M. T. F.</abbr>
                      <expan>Sa Majesté Très Fidèle</expan>
-                  </choice></rs><note type="editorial" target="#n.37">Ehrentitel des Königs von
+                  </choice>
+                    </rs>
+                    <note type="editorial" target="#n.37">Ehrentitel des Königs von
                   Portugal.</note>, vient d’appeler l’attention des Cabinets réunis à <placeName ref="#loc.1">Aix-la-Chapelle</placeName> sur les dangers dont le commerce et la
                navigation de toutes les nations se trouvent menacés par la multitude de pirates qui
                infestent l’océan à la faveur des troubles qui agitent les Colonies Espagnoles en
@@ -1805,15 +1880,19 @@
             <p>Il demande :</p>
             <pb n="146r"/>
             <p>1<hi rendition="#su">o</hi> Qu’il soit envoyé des instructions aux <rs ref="#p.103 #p.104 #p.105 #p.106" type="multi-person" xml:id="n.39">Ministres des cinq Cours à
-                  <rs ref="#loc.89" type="place">Washington</rs></rs><note type="editorial" target="#n.39">Österreich nahm offiziell
+                  <rs ref="#loc.89" type="place">Washington</rs>
+                    </rs>
+                    <note type="editorial" target="#n.39">Österreich nahm offiziell
                   erst 1838 diplomatische Beziehungen zu den Vereinigten Staaten von Amerika auf;
                   vgl. Matsch, Wien – Washington, S. 3.</note> pour agir d’accord avec le Ministre
                de <rs ref="#p.28" type="person">
                         <choice>
                      <abbr>S. M. T. F.</abbr>
                      <expan>Sa Majesté Très Fidèle</expan>
-                  </choice></rs> à l’effet d’obtenir le renouvellement de <rs xml:id="n.40">l’acte
-                  du <date when="1817-03-03">3 mars 1817</date></rs>,<note type="editorial" target="#n.40">Act of Congress of The United States, „more effecutally to preserve
+                  </choice>
+                    </rs> à l’effet d’obtenir le renouvellement de <rs xml:id="n.40">l’acte
+                  du <date when="1817-03-03">3 mars 1817</date>
+                    </rs>,<note type="editorial" target="#n.40">Act of Congress of The United States, „more effecutally to preserve
                   the Neutral Relations of The United States“. BFSP Bd. 4 (1816/17), S. 839–841.
                   Wurde mit dem Act of Congress vom 20. April 1818 wieder außer Kraft gesetzt; vgl.
                   ebd.</note> d’après lequel tout armement de corsaire dans les
@@ -1895,11 +1974,13 @@
                cela n’auroient couru aucun danger.</p>
             <p>Trop peu, si on ne traite pas avec la même rigueur tous ceux, quelqu’ils soyent et de
                quelque pays qu’ils viennent qui commettroient des violences contraires à la sûreté
-               de la navigation. On ne voit pas pourquoi, par exemple, les Corsaires qui<pb n="149r"/> s’étoient établis à l’<rs xml:id="n.41">isle d’Amelia</rs><note type="editorial" target="#n.41">Amelia Island, Teil der Sea Islands, die sich entlang der US-Küste
+               de la navigation. On ne voit pas pourquoi, par exemple, les Corsaires qui<pb n="149r"/> s’étoient établis à l’<rs xml:id="n.41">isle d’Amelia</rs>
+                    <note type="editorial" target="#n.41">Amelia Island, Teil der Sea Islands, die sich entlang der US-Küste
                   von South Carolina nach Florida erstrecken. 1817 war die Insel Ausgangspunkt von
                   Operationen des französischen Freibeuters Louis-Michel Aury.</note> n’auroient pas
                dû subir le même traitement que ceux qui se disent autorisés par <persName ref="#p.127">
-                        <surname>Artigas</surname></persName>.</p>
+                        <surname>Artigas</surname>
+                    </persName>.</p>
             <p>En approfondissant la question, on voit donc que la dernière proposition du Ministre
                Portugais n’est point exécutable dans l’état actuel des choses. Pour qu’elle le
                devînt, il faudrait qu’elle s’appliquât à tous les Corsaires, et que les Puissances
@@ -1928,16 +2009,842 @@
                   <expan>Monsieur</expan>
                </choice> le <persName ref="#p.71">
                         <roleName>Comte</roleName>
-                  <surname>de Palmella</surname></persName>, laquelle devra contenir l’annonce des
+                  <surname>de Palmella</surname>
+                    </persName>, laquelle devra contenir l’annonce des
                mesures que les cinq Puissances sont disposées à prendre.</p>
          </div>
       </body>
-       <back>
-           <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../indices/listplace.xml" xpointer="listPlace"/>
-           <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../indices/listperson.xml" xpointer="listPerson"/>
-           <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../indices/listwit.xml" xpointer="listWit"/>
-           <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../indices/listorg.xml" xpointer="listOrg"/>
-           <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../indices/listtreaties.xml" xpointer="listTreaties"/>
-       </back>
-   </text>
+       
+   <back>
+            <listPerson>
+                <person xml:id="p.5">
+                    <persName>
+                        <forename>Friedrich</forename>
+                        <surname>Gentz</surname>
+                    </persName>
+                    <birth>1764</birth>
+                    <death>1832</death>
+                    <note>Protokollführer; vgl. zu seiner Person Kronenbitter, Wort und Macht;
+                        Cahen, Gentz; Mann, Friedrich von Gentz; Schneider, Werner, Europa in Wien,
+                        S. 169–170.</note>
+                    <idno type="URI">https://viaf.org/viaf/2522018/</idno>
+                </person>
+                <person xml:id="p.6">
+                    <persName>
+                        <forename>Nikolaus</forename>
+                        <surname>Wacken</surname>
+                    </persName>
+                    <death>1834</death>
+                    <note>Kompilator, Protokollführer; vgl. zu seiner Person Schneider, Werner,
+                        Europa in Wien, S. 207.</note>
+                    <idno type="URI">https://viaf.org/viaf/309696450/</idno>
+                </person>
+                <person xml:id="p.22">
+                    <persName>
+                        <surname>Karl Ludwig Friedrich</surname>
+                        <roleName>Großherzog von Baden</roleName>
+                    </persName>
+                    <birth>1786</birth>
+                    <death>1818</death>
+                    <note>Vgl. zu seiner Person Weech, Karl Ludwig Friedrich, Großherzog von Baden.
+                        In: ADB, Bd. 15, S. 248–250; Schneider, Werner, Europa in Wien, S.
+                        202.</note>
+                    <idno type="URI">https://viaf.org/viaf/42227780/</idno>
+                </person>
+                <person xml:id="p.26">
+                    <persName>
+                        <forename>Wilhelm Ludwig Leopold Reinhard</forename>
+                        <roleName>Freiherr</roleName>
+                        <surname>von Berstett</surname>
+                    </persName>
+                    <birth>1769</birth>
+                    <death>1837</death>
+                    <note>Badischer Außenminister; vgl. zu seiner Person Ritthaler, Berstett,
+                        Wilhelm Ludwig Leopold Reinhard Freiherr von. In: NDB, Bd. 2, S. 148;
+                        Schneider, Werner, Europa in Wien, S. 118–119.</note>
+                    <idno type="URI">https://viaf.org/viaf/54892705/</idno>
+                </person>
+                <person xml:id="p.11">
+                    <persName>
+                        <forename>Karl August</forename>
+                        <roleName>Fürst</roleName>
+                        <surname>von Hardenberg</surname>
+                    </persName>
+                    <birth>1750</birth>
+                    <death>1822</death>
+                    <note>Preußischer Staatskanzler, Bevollmächtigter Preußens; vgl. zu seiner
+                        Person Gall, Hardenberg; Schneider, Werner, Europa in Wien, S. 184–185;
+                        Capefigue, Les diplomates européens, S. 275–316; Stamm-Kuhlmann, Freier
+                        Gebrauch.</note>
+                    <idno type="URI">https://viaf.org/viaf/4975077/</idno>
+                </person>
+                <person xml:id="p.12">
+                    <persName>
+                        <forename>Christian Günther</forename>
+                        <roleName>Graf</roleName>
+                        <surname>von Bernstorff</surname>
+                    </persName>
+                    <birth>1769</birth>
+                    <death>1835</death>
+                    <note>Preußischer Außenminister, Bevollmächtigter Preußens; vgl. zu seiner
+                        Person Kellenbenz, Bernstorff, Christian Graf von. In: NDB, Bd. 2, S.
+                        139–140; Schneider, Werner, Europa in Wien, S. 116–117.</note>
+                    <idno type="URI">https://viaf.org/viaf/49969175/</idno>
+                </person>
+                <person xml:id="p.10">
+                    <persName>
+                        <forename>Arthur</forename>
+                        <surname>Wellesley</surname>, <roleName>1<hi rendition="#su">st</hi> duke of
+                            Wellington</roleName>
+                    </persName>
+                    <birth>1769</birth>
+                    <death>1852</death>
+                    <note>Bevollmächtigter Großbritanniens; vgl. zu seiner Person zuletzt Muir,
+                        Wellington; Gash, Wellesley, Arthur, first duke of Wellington. In: ODNB, Bd.
+                        58, S. 1–29.</note>
+                    <idno type="URI">https://viaf.org/viaf/2465308/</idno>
+                </person>
+                <person xml:id="p.1">
+                    <persName>
+                        <forename>Armand Emmanuel</forename>
+                        <surname>du Plessis</surname>
+                        <roleName>duc de Richelieu</roleName>
+                    </persName>
+                    <birth>1766</birth>
+                    <death>1822</death>
+                    <note>Französischer Premierminister; vgl. zu seiner Person de Waresquiel, Le Duc
+                        de Richelieu; Capefigue, Les diplomates européens, S. 245–274.</note>
+                    <idno type="URI">https://viaf.org/viaf/56652282/</idno>
+                </person>
+                <person xml:id="p.8">
+                    <persName>
+                        <surname>Metternich</surname>
+                        <forename>Clemens Wenzel Lothar</forename>
+                        <roleName>Fürst</roleName>
+                    </persName>
+                    <birth>1773</birth>
+                    <death>1859</death>
+                    <note>Österreichischer Außenminister, ab 1821 österreichischer Haus-, Hof- und
+                        Staatskanzler; vgl. zu seiner Person Siemann, Metternich; Šedivý,
+                        Metternich; Srbik, Metternich; Schneider, Werner, Europa in Wien, S.
+                        237–239.</note>
+                    <idno type="URI">https://viaf.org/viaf/49258230/</idno>
+                </person>
+                <person xml:id="p.9">
+                    <persName>
+                        <forename>Robert </forename>
+                        <surname>Stewart</surname>
+                        <roleName>Viscount Castlereagh</roleName>
+                    </persName>
+                    <birth>1769</birth>
+                    <death>1822</death>
+                    <note>Britischer Außenminister; vgl zu seiner Person Bew, Castlereagh; Webster,
+                        Foreign Policy; Bartlett, Castlereagh; Thorne, Stewart, Robert, Viscount
+                        Castlereagh and second marquess of Londonderry. In: ODNB, Bd. 52, S.
+                        749–757.</note>
+                    <idno type="URI">https://viaf.org/viaf/15560591/</idno>
+                </person>
+                <person xml:id="p.13">
+                    <persName>
+                        <forename>Karl Robert</forename>
+                        <roleName>Graf</roleName>
+                        <surname>von Nesselrode</surname>
+                    </persName>
+                    <birth>1780</birth>
+                    <death>1862</death>
+                    <note>Russischer Außenminister, Bevollmächtigter Russlands; vgl. zu seiner
+                        Person Eich, Nesselrode, Robert Graf von. In: NDB, Bd. 19, S. 74–75;
+                        Grimsted, The Foreign Ministers, S. 194–225, 269–286; Schneider, Werner,
+                        Europa in Wien, S. 248–249.</note>
+                    <idno type="URI">https://viaf.org/viaf/49992065/</idno>
+                </person>
+                <person xml:id="p.14">
+                    <persName>
+                        <forename>Ioannis Antonis</forename>
+                        <roleName>Graf</roleName>
+                        <surname>Kapodistrias/Capodistrias</surname>
+                    </persName>
+                    <birth>1776</birth>
+                    <death>1831</death>
+                    <note>Russischer Außenminister, Bevollmächtigter Russlands; vgl. zu seiner
+                        Person Woodhouse, Capodistrias; Grimsted, The Foreign Ministers, S. 226–268;
+                        Schneider, Werner, Europa in Wien, S. 199–200.</note>
+                    <idno type="URI">https://viaf.org/viaf/39507057/</idno>
+                </person>
+                <person xml:id="p.76">
+                    <persName>
+                        <surname>Peter Friedrich Wilhelm</surname>
+                        <roleName>Herzog von Oldenburg</roleName>
+                    </persName>
+                    <birth>1754</birth>
+                    <death>1823</death>
+                    <note>Vgl. zu seiner Person Mutzenbecher, Peter Friedrich Wilhelm. In: ADB, Bd.
+                        25, S. 469.</note>
+                    <idno type="URI">https://viaf.org/viaf/88141669/</idno>
+                </person>
+                <person xml:id="p.80">
+                    <persName>
+                        <forename>Alfred I. (Candidus Ferdinand)</forename>
+                        <roleName>Fürst</roleName>
+                        <surname>zu Windisch-Graetz</surname>
+                    </persName>
+                    <birth>1787</birth>
+                    <death>1862</death>
+                    <note>Vgl. zu seiner Person Wurzbach, Biographisches Lexikon, Bd. 57, S. 1–39;
+                        Raberg, Biographisches Handbuch, S. 1021.</note>
+                    <idno type="URI">https://viaf.org/viaf/84635414/</idno>
+                </person>
+                <person xml:id="p.81">
+                    <persName>
+                        <surname>Wilhelm I. (Friedrich Wilhelm Carl)</surname>
+                        <roleName>König von Württemberg</roleName>
+                    </persName>
+                    <birth>1781</birth>
+                    <death>1864</death>
+                    <note>Vgl. zu seiner Person Sauer, Reformer; Elias, Wilhelm I. In: Lorenz,
+                        Mertens, Press (Hg), Das Haus Württemberg, S. 302–306; Schneider, Werner,
+                        Europa in Wien, S. 316–317.</note>
+                    <idno type="URI">https://viaf.org/viaf/263556694/</idno>
+                </person>
+                <person xml:id="p.78">
+                    <persName>
+                        <surname>Friedrich V. (Ludwig Wilhelm Christian)</surname>
+                        <roleName>Landgraf von Hessen-Homburg</roleName>
+                    </persName>
+                    <birth>1748</birth>
+                    <death>1820</death>
+                    <note>Vgl. zu seiner Person Kirchner, Friedrich Ludwig. In: NDB, Bd. 5, S.
+                        506–507; Hischer (Hg.), Landgraf Friedrich V.</note>
+                    <idno type="URI">https://viaf.org/viaf/27865946/</idno>
+                </person>
+                <person xml:id="p.79">
+                    <persName>
+                        <surname>Ludwig I.</surname>
+                        <roleName>Großherzog von Hessen und bei Rhein</roleName>
+                    </persName>
+                    <birth>1753</birth>
+                    <death>1830</death>
+                    <note>Vgl. zu seiner Person Richter, Großherzog Ludewig I.; Franz, Ludwig I. In:
+                        NDB, Bd. 15, S. 395–396.</note>
+                    <idno type="URI">https://viaf.org/viaf/51816780/</idno>
+                </person>
+                <person xml:id="p.99">
+                    <persName>
+                        <surname>Maximilian I. Joseph</surname>
+                        <roleName>König von Bayern</roleName>
+                    </persName>
+                    <birth>1756</birth>
+                    <death>1825</death>
+                    <note>Vgl. zu seiner Person Weis, Maximilian I., König von Bayern. In: NDB, Bd.
+                        16, S. 487–490; Glaser (Hg.), Krone und Verfassung; Schneider, Werner,
+                        Europa in Wien, S. 236–237.</note>
+                    <idno type="URI">https://viaf.org/viaf/5723155/</idno>
+                </person>
+                <person xml:id="p.25">
+                    <persName>
+                        <forename>Johann Rudolf</forename>
+                        <roleName>Graf</roleName>
+                        <surname>Buol-Schauenstein</surname>
+                    </persName>
+                    <birth>1763</birth>
+                    <death>1834</death>
+                    <note>Österreichischer Präsident des Bundestags in Frankfurt am Main; vgl. zu
+                        seiner Person Aretin, Buol-Schauenstein Johann Rudolf Freiherr von, Graf.
+                        In: NDB, Bd. 3, S. 22–23.</note>
+                    <idno type="URI">https://viaf.org/viaf/10616124/</idno>
+                </person>
+                <person xml:id="p.113">
+                    <persName>
+                        <forename>Karl Friedrich</forename>
+                        <roleName>Graf</roleName>
+                        <surname>von Reinhard</surname>
+                    </persName>
+                    <birth>1761</birth>
+                    <death>1837</death>
+                    <note>Gesandter Frankreichs in Frankfurt a. M.; vgl. zu seiner Person Paul,
+                        Reinhard, Karl Friedrich Graf von. In: NDB, Bd. 21, S. 355–357; Gross (Hg.),
+                        Karl Friedrich Reinhard; Delinière, Ein deutscher Aufklärer.</note>
+                    <idno type="URI">https://viaf.org/viaf/22936895/</idno>
+                </person>
+                <person xml:id="p.114">
+                    <persName>
+                        <forename>Frederick</forename>
+                        <surname>Lamb</surname>
+                        <roleName> 3<hi rendition="#su">rd</hi> Viscount Melbourne</roleName>
+                    </persName>
+                    <birth>1782</birth>
+                    <death>1853</death>
+                    <note>Gesandter Großbritanniens in Frankfurt a. M. sowie in München; vgl. zu
+                        seiner Person Reynolds, Lamb, Frederick James. In: ODNB, Bd. 32, S.
+                        267–268.</note>
+                    <idno type="URI">https://viaf.org/viaf/13080989/</idno>
+                </person>
+                <person xml:id="p.115">
+                    <persName>
+                        <forename>August Friedrich Ferdinand</forename>
+                        <roleName>Graf</roleName>
+                        <surname>von der Goltz</surname>
+                    </persName>
+                    <birth>1765</birth>
+                    <death>1832</death>
+                    <note>Gesandter Preußens in Frankfurt a. M.; vgl. zu seiner Person Hoepke,
+                        Goltz, August Friedrich Ferdinand Graf von der. In: NDB, Bd. 6, S.
+                        628–629.</note>
+                    <idno type="URI">https://viaf.org/viaf/35216683/</idno>
+                </person>
+                <person xml:id="p.39">
+                    <persName>
+                        <forename>Iwan/Johann Ossipowitsch</forename>
+                        <roleName>Freiherr</roleName>
+                        <surname>von Anstett</surname>
+                    </persName>
+                    <birth>1766/1770</birth>
+                    <death>1835</death>
+                    <note>Russischer Vertreter in der Territorialkommission in Frankfurt a. M.; vgl.
+                        zu seiner Person Schneider, Werner, Europa in Wien, S. 102–103.</note>
+                    <idno type="URI">https://viaf.org/viaf/15516591/</idno>
+                </person>
+                <person xml:id="p.16">
+                    <persName>
+                        <surname>Franz I.</surname>
+                        <roleName>Kaiser von Österreich</roleName>
+                    </persName>
+                    <birth>1768</birth>
+                    <death>1835</death>
+                    <note>Vgl. Mikoletzky, Franz II. (I.); Schneider, Werner, Europa in Wien, S.
+                        154–155; Ziegler, Franz II./I.</note>
+                    <idno type="URI">https://viaf.org/viaf/36912131/</idno>
+                </person>
+                <person xml:id="p.84">
+                    <persName>
+                        <forename>(Franz) Joseph Ferdinand</forename>
+                        <roleName>Graf</roleName>
+                        <surname>von Trauttmannsdorff-Weinsberg</surname>
+                    </persName>
+                    <birth>1788</birth>
+                    <death>1870</death>
+                    <note>Österreichischer Gesandter in Stuttgart; vgl. zu seiner Person ÖBL, Bd.
+                        14, S. 437.</note>
+                    <idno type="URI">https://viaf.org/viaf/1145147907501379210004/</idno>
+                </person>
+                <person xml:id="p.85">
+                    <persName>
+                        <forename>Marc René</forename>
+                        <roleName>comte</roleName>
+                        <surname>de Montalemberg</surname>
+                    </persName>
+                    <birth>1777</birth>
+                    <death>1831</death>
+                    <note>Französischer Gesandter in Stuttgart; vgl. zu seiner Person Michaud,
+                        Biographie universelle, Bd. 29, S. 28–31.</note>
+                </person>
+                <person xml:id="p.86">
+                    <persName>
+                        <roleName>Sir</roleName>
+                        <forename>Brook</forename>
+                        <surname>Taylor</surname>
+                    </persName>
+                    <birth>1776</birth>
+                    <death>1846</death>
+                    <note>Britischer Gesandter in Stuttgart; vgl. Vetch, Reynolds, Taylor, Sir
+                        Herbert (Unterbiographie Sir Brook Taylor). In: ODNB, Bd. 53, S. 904–905;
+                        Bringmann, Handbuch, S. 200.</note>
+                    <idno type="URI">https://viaf.org/viaf/317073066/</idno>
+                </person>
+                <person xml:id="p.87">
+                    <persName>
+                        <forename>Johann Emanuel</forename>
+                        <surname>von Küster</surname>
+                    </persName>
+                    <birth>1764</birth>
+                    <death>1833</death>
+                    <note>Preußischer Gesandter in Stuttgart; vgl. Bringmann, Handbuch, S.
+                        330.</note>
+                </person>
+                <person xml:id="p.88">
+                    <persName>
+                        <forename>Konstantin Christophorovich</forename>
+                        <roleName>Freiherr</roleName>
+                        <surname>von Benckendorff</surname>
+                    </persName>
+                    <birth>1785</birth>
+                    <death>1828</death>
+                    <note>Russischer Gesandter in Stuttgart; vgl. Bringmann, Handbuch, S.
+                        345.</note>
+                    <idno type="URI">https://viaf.org/viaf/35238097/</idno>
+                </person>
+                <person xml:id="p.83">
+                    <persName>
+                        <forename>Friedrich</forename>
+                        <roleName>Freiherr</roleName>
+                        <surname>von Otterstedt</surname>
+                    </persName>
+                    <birth>1769</birth>
+                    <death>1850</death>
+                    <note>Preußischer Gesandter in Darmstadt; vgl. zu seiner Person Petersdorff,
+                        Otterstedt, Friedrich Freiherr von. In: ADB, Bd. 52, S. 731–733.</note>
+                </person>
+                <person xml:id="p.96">
+                    <persName>
+                        <forename>Therese (Mathilde Amalia)</forename>
+                        <roleName>Fürstin</roleName>
+                        <surname>von Thurn und Taxis</surname>
+                    </persName>
+                    <birth>1773</birth>
+                    <death>1839</death>
+                    <note>Geborene Herzogin zu Mecklenburg-Strelitz, Ehefrau von Karl Alexander
+                        Fürst von Thurn und Taxis (1770–1827); vgl. zu ihrer Person Panzer,
+                        Fürstinnen von Thurn und Taxis, S. 57–82; Schneider, Werner, Europa in Wien,
+                        S. 297–298.</note>
+                    <idno type="URI">https://viaf.org/viaf/32860386/</idno>
+                </person>
+                <person xml:id="p.89">
+                    <persName>
+                        <surname>Anton Aloys (Meinrad Franz)</surname>
+                        <roleName>Fürst von Hohenzollern-Sigmaringen</roleName>
+                    </persName>
+                    <birth>1762</birth>
+                    <death>1831</death>
+                    <note>Vgl. zu seiner Person Schilling, Geschichte des Hauses Hohenzollern, S.
+                        292–299; Schneider, Werner, Europa in Wien, S. 103.</note>
+                    <idno type="URI">https://viaf.org/viaf/65144067/</idno>
+                </person>
+                <person xml:id="p.82">
+                    <persName>
+                        <forename>Karl Alexander</forename>
+                        <roleName>Fürst</roleName>
+                        <surname>von Thurn und Taxis</surname>
+                    </persName>
+                    <birth>1770</birth>
+                    <death>1827</death>
+                    <note>Vgl. Grillmeyer, Habsburgs Diener; Behringer, Thurn und Taxis; Schneider,
+                        Werner, Europa in Wien, S. 297.</note>
+                    <idno type="URI">https://viaf.org/viaf/12733266/</idno>
+                </person>
+                <person xml:id="p.17">
+                    <persName>
+                        <surname>Alexander I.</surname>
+                        <roleName>Zar von Russland</roleName>
+                    </persName>
+                    <birth>1777</birth>
+                    <death>1825</death>
+                    <note>Vgl. Rey, Alexander I.; Schneider, Werner, Europa in Wien, S.
+                        100–102.</note>
+                    <idno type="URI">https://viaf.org/viaf/4938543/</idno>
+                </person>
+                <person xml:id="p.18">
+                    <persName>
+                        <surname>Friedrich Wilhelm III.</surname>
+                        <roleName>König von Preußen</roleName>
+                    </persName>
+                    <birth>1770</birth>
+                    <death>1840</death>
+                    <note>Vgl. Stamm-Kuhlmann, König in Preußens großer Zeit; Ders., Friedrich
+                        Wilhelm III; Schneider, Werner, Europa in Wien, S. 161–162.</note>
+                    <idno type="URI">https://viaf.org/viaf/774683/</idno>
+                </person>
+                <person xml:id="p.19">
+                    <persName>
+                        <surname>Georg/George III.</surname>
+                        <roleName>König des Vereinigten Königreichs Großbritannien und Irland und
+                            Hannover</roleName>
+                    </persName>
+                    <birth>1738</birth>
+                    <death>1820</death>
+                    <note>Vgl. Cannon, George III. In: ODNB, Bd. 21, S. 833–853; Black, George
+                        III.</note>
+                    <idno type="URI">https://viaf.org/viaf/49264990/</idno>
+                </person>
+                <person xml:id="p.21">
+                    <persName>
+                        <surname>Wilhelm I.</surname>
+                        <roleName>Kurfürst von Hessen-Kassel</roleName>
+                    </persName>
+                    <birth>1743</birth>
+                    <death>1821</death>
+                    <note>Vgl. zu seiner Person Petersdorff, Wilhelm I. (Kurfürst von Hessen). In:
+                        ADB, Bd. 43, S. 64–75; Franz, Das Haus Hessen; Schneider, Werner, Europa in
+                        Wien, S. 318–319.</note>
+                    <idno type="URI">https://viaf.org/viaf/264553004/</idno>
+                </person>
+                <person xml:id="p.71">
+                    <persName>
+                        <forename>Pedro</forename>
+                        <surname>de Souza Holstein</surname>, <roleName>Herzog (duque) von
+                            Palmella</roleName>
+                    </persName>
+                    <birth>1781</birth>
+                    <death>1850</death>
+                    <note>Portugiesischer Außenminister.</note>
+                    <idno type="URI">https://viaf.org/viaf/28369126/</idno>
+                </person>
+                <person xml:id="p.116">
+                    <persName>
+                        <forename>Wilhelm Friedrich</forename>
+                        <surname>zu Bentheim und Steinfurt</surname>
+                    </persName>
+                    <birth>1782</birth>
+                    <death>1839</death>
+                    <note>Vgl. zu seiner Person ÖBL, Bd. 1, S. 70.</note>
+                    <idno type="URI">https://viaf.org/viaf/303521974/</idno>
+                </person>
+                <person xml:id="p.117">
+                    <persName>
+                        <forename>Georg</forename>
+                        <surname>zu Löwenstein-Wertheim-Freudenberg</surname>
+                    </persName>
+                    <birth>1775</birth>
+                    <death>1855</death>
+                    <note>Vgl. zu seiner Person Raberger, Biographisches Handbuch, S.
+                        521–522.</note>
+                    <idno type="URI">https://viaf.org/viaf/15539605/</idno>
+                </person>
+                <person xml:id="p.118">
+                    <persName>
+                        <surname>Wilhelm I.</surname>
+                        <roleName>Herzog von Nassau</roleName>
+                    </persName>
+                    <birth>1792</birth>
+                    <death>1839</death>
+                    <note>Vgl. zu seiner Person Kolb, Wilhelm (August Heinrich Belgiens), Herzog von
+                        Nassau. In: ADB, Bd. 43, S. 136–139; Schneider, Werner, Europa in Wien, S.
+                        318.</note>
+                    <idno type="URI">https://viaf.org/viaf/264000517/</idno>
+                </person>
+                <person xml:id="p.24">
+                    <persName>
+                        <forename>Johann Peter Theodor</forename>
+                        <surname>von Wacquant-Geozelles</surname>
+                    </persName>
+                    <birth>1754</birth>
+                    <death>1844</death>
+                    <note>Österreichischer Gesandter in Hessen-Kassel (Kurfürstentum Hessen); vgl.
+                        Bringmann, Handbuch, S. 295; Wurzbach, Biographisches Lexikon, Bd. 52, S.
+                        50–53.</note>
+                    <idno type="URI">https://viaf.org/viaf/254320179/</idno>
+                </person>
+                <person xml:id="p.122">
+                    <persName>
+                        <forename>Konrad Sigmund Karl</forename>
+                        <surname>von Hänlein</surname>
+                    </persName>
+                    <birth>1760</birth>
+                    <death>1819</death>
+                    <note>Gesandter Preußens im Kurfürstentum Hessen; vgl. zu seiner Person Eintrag
+                        Haenlein, Conrad Sigmund Carl von. In: Hessische Biographie
+                        (Landesgeschichtliches Informationssystem Hessen) auf <ref target="http://www.lagis-hessen.de/de/subjects/idrec/sn/bio/id/3231">http://www.lagis-hessen.de/de/subjects/idrec/sn/bio/id/3231</ref>
+                        (eingesehen am 12. Juli 2014).</note>
+                    <idno type="URI">https://viaf.org/viaf/39769875/</idno>
+                </person>
+                <person xml:id="p.119">
+                    <persName>
+                        <forename>Irinée</forename>
+                        <surname>Bénigne</surname>
+                        <roleName>comte de Montlezun</roleName>
+                    </persName>
+                    <note>Gesandter Frankreichs im Großherzogtum Baden; vgl. Bringmann, Handbuch,
+                        S. 186.</note>
+                </person>
+                <person xml:id="p.120">
+                    <persName>
+                        <forename>Karl August </forename>
+                        <surname>Varnhagen von Ense</surname>
+                    </persName>
+                    <birth>1785</birth>
+                    <death>1858</death>
+                    <note>Gesandter Preußens im Großherzogtum Baden; vgl. zu seiner Person
+                        Wiedenmann, Karl August Varnhange von Ense; Greiling, Varnhagen von Ense;
+                        Schneider, Werner, Europa in Wien, S. 302.</note>
+                    <idno type="URI">https://viaf.org/viaf/59091773/</idno>
+                </person>
+                <person xml:id="p.121">
+                    <persName>
+                        <forename>Yuri Alexandrovich</forename>
+                        <roleName>Graf</roleName>
+                        <surname>von Golovkin</surname>
+                    </persName>
+                    <birth>1762</birth>
+                    <death>1846</death>
+                    <note>1818 Gesandter Russlands im Großherzogtum Baden, 1820 Gesandter Russlands
+                        in Wien, Mitglied der russischen Delegation beim Kongress von Troppau.</note>
+                    <idno type="URI">https://viaf.org/viaf/311466653/</idno>
+                </person>
+                <person xml:id="p.50">
+                    <persName>
+                        <forename>Napoleon I.</forename>
+                        <surname>Bonaparte</surname>
+                    </persName>
+                    <birth>1769</birth>
+                    <death>1821</death>
+                    <note>Vgl. zu seiner Person z. B. Ullrich, Napoleon; Fournier, Napoleon I.
+                        Dwyer, Napoleon; Dwyer, Citizen Emperor; Tulard, Napoleon; Broers, Napoleon
+                        (2 Bde.).</note>
+                    <idno type="URI">https://viaf.org/viaf/106964661/</idno>
+                </person>
+                <person xml:id="p.36">
+                    <persName>
+                        <forename>Johann</forename>
+                        <roleName>Freiherr</roleName>
+                        <surname>von Wessenberg-Ampringen</surname>
+                    </persName>
+                    <birth>1773</birth>
+                    <death>1858</death>
+                    <note>Österreichischer Vertreter in der Territorialkommission in Frankfurt a. M.
+                        sowie in München; vgl. zu seiner Person Arneth, Johann Freiherr von
+                        Wessenberg; Schneider, Werner, Europa in Wien, S. 312–313.</note>
+                    <idno type="URI">https://viaf.org/viaf/34486130/</idno>
+                </person>
+                <person xml:id="p.123">
+                    <persName>
+                        <forename>Augustin Marie Balthazar Charles </forename>
+                        <surname>Pelletier</surname>
+                        <roleName>comte de Lagarde</roleName>
+                    </persName>
+                    <birth>1780</birth>
+                    <death>1834</death>
+                    <note>1820/21 Gesandter Frankreichs in München, 1822 Gesandter Frankreichs in
+                        Madrid; vgl. Bringmann, Handbuch, S. 187, Rabbe, Vieilh de Boisjolin,
+                        Sainte-Preuve (Hg.), Biographie universelle, Bd. 3, S. 74..</note>
+                </person>
+                <person xml:id="p.124">
+                    <persName>
+                        <forename>Friedrich Wilhelm Christian</forename>
+                        <surname>von Zastrow</surname>
+                    </persName>
+                    <birth>1752</birth>
+                    <death>1830</death>
+                    <note>Gesandter Preußens in München; vgl. zu seiner Person Poten, Zastrow,
+                        Friedrich von. In: ADB, Bd. 44, S. 721–723.</note>
+                    <idno type="URI">https://viaf.org/viaf/47527552/</idno>
+                </person>
+                <person xml:id="p.125">
+                    <persName>
+                        <forename>Friedrich Alexander</forename>
+                        <roleName>Graf</roleName>
+                        <surname>von der Pahlen</surname>
+                    </persName>
+                    <birth>1780</birth>
+                    <death>1863</death>
+                    <note>Gesandter Russlands in München; vgl. zu seiner Person den Eintrag zu Graf
+                        v. d. Pahlen Friedrich Alexander in der Erik-Amburger-Datenbank (Ausländer
+                        im vorrevolutionären Russland) auf <ref target="http://dokumente.ios-regensburg.de/amburger/?id=74164">http://dokumente.ios-regensburg.de/amburger/?id=74164</ref> (eingesehen
+                        am 16. Juli 2017).</note>
+                </person>
+                <person xml:id="p.126">
+                    <persName>
+                        <forename>Jérôme</forename>
+                        <surname>Bonaparte</surname>
+                    </persName>
+                    <birth>1784</birth>
+                    <death>1860</death>
+                    <note>Ehemaliger König von Westphalen; vgl. zu seiner Person Bartsch, König
+                        Lustik!?; Melchior-Bonnet, Jérôme Bonaparte. In: Tulard (Hg.), Dictionnaire
+                        Napoléon, S. 969–971; Berding, Jérôme Bonaparte. In: NDB, Bd. 10, S.
+                        414–415.</note>
+                    <idno type="URI">https://viaf.org/viaf/39403245/</idno>
+                </person>
+                <person xml:id="p.28">
+                    <persName>
+                        <surname>Jõao/Johann VI.</surname>
+                        <roleName>König von Portugal und Brasilien</roleName>
+                    </persName>
+                    <birth>1767</birth>
+                    <death>1826</death>
+                    <idno type="URI">https://viaf.org/viaf/269013446/</idno>
+                </person>
+                <person xml:id="p.103">
+                    <persName>
+                        <roleName>Sir</roleName>
+                        <forename>Charles</forename>
+                        <surname>Bagot</surname>
+                    </persName>
+                    <birth>1781</birth>
+                    <death>1843</death>
+                    <note>Gesandter Großbritanniens in den Vereinigten Staaten von Amerika; vgl. zu
+                        seiner Person Bruckner, Bagot, Sir Charles. In: ODNB, Bd. 3, S.
+                        238–239.</note>
+                    <idno type="URI">https://viaf.org/viaf/14706932/</idno>
+                </person>
+                <person xml:id="p.104">
+                    <persName>
+                        <forename>Jean-Guillaume</forename>
+                        <roleName>baron</roleName>
+                        <surname>Hyde de Neuville</surname>
+                    </persName>
+                    <birth>1776</birth>
+                    <death>1857</death>
+                    <note>Gesandter Frankreichs in den Vereinigten Staaten von Amerika; vgl. zu
+                        seiner Person Watel, Jean-Guillaume Hyde de Neuville.</note>
+                    <idno type="URI">https://viaf.org/viaf/34600228/</idno>
+                </person>
+                <person xml:id="p.105">
+                    <persName>
+                        <forename>Friedrich</forename>
+                        <surname>von Greuhm</surname>
+                    </persName>
+                    <birth>1780</birth>
+                    <death>1823</death>
+                    <note>Gesandter Preußens in den Vereinigten Staaten von Amerika.</note>
+                </person>
+                <person xml:id="p.106">
+                    <persName>
+                        <forename>Pjotr Iwanowitsch</forename>
+                        <surname>Poletika</surname>
+                    </persName>
+                    <birth>1778</birth>
+                    <death>1849</death>
+                    <note>Gesandter Russlands in den Vereinigten Staaten von Amerika.</note>
+                    <idno type="URI">https://viaf.org/viaf/57044598/</idno>
+                </person>
+                <person xml:id="p.127">
+                    <persName>
+                        <forename>José Gervasio</forename>
+                        <surname>Artigas</surname>
+                    </persName>
+                    <birth>1764</birth>
+                    <death>1850</death>
+                    <note>Uruguayischer General und Politiker, der sich um die Unabhängkeit des
+                        Lande Verdienste erworben hat. Zu seiner Person vgl. Street, Artigas; Luna,
+                        Artigas. Zu den Freibeutern unter seiner Flagge vgl. Reeder, Sovereign
+                        Lords’.</note>
+                    <idno type="URI">https://viaf.org/viaf/64804413/</idno>
+                </person>
+            </listPerson>
+            <listPlace>
+                <place xml:id="loc.1">
+                <placeName>Aachen</placeName>
+               <placeName>Aix-la-Chapelle</placeName>
+               
+               <location>
+                        <geo>50.77664 6.08342</geo>
+                    </location>
+                    <idno type="URI">http://sws.geonames.org/3247449/</idno>
+            </place>
+                <place xml:id="loc.33">
+               <placeName>Elsfleth</placeName>
+               <location>
+                        <geo>53.23748 8.45664</geo>
+                    </location>
+                    <idno type="URI">http://sws.geonames.org/2930726/</idno>
+            </place>
+                <place xml:id="loc.9">
+               <placeName>Berlin</placeName>
+               <location>
+                        <geo>52.52437 13.41053</geo>
+                    </location>
+                    <idno type="URI">http://sws.geonames.org/2950159/</idno>
+            </place>
+                <place xml:id="loc.25">
+               <placeName>Frankfurt am Main</placeName>
+               <placeName>Francfort sur Main</placeName>
+               <location>
+                        <geo>50.11552 8.68417</geo>
+                    </location>
+                    <idno type="URI">http://sws.geonames.org/2925533/</idno>
+            </place>
+                <place xml:id="loc.17">
+                <placeName>Stuttgardt</placeName>
+               <placeName>Stuttgart</placeName>
+               
+               <location>
+                        <geo>48.78232 9.17702</geo>
+                    </location>
+                    <idno type="URI">http://sws.geonames.org/2825297/</idno>
+            </place>
+                <place xml:id="loc.34">
+               <placeName>Darmstadt</placeName>
+               <location>
+                        <geo>49.87167 8.65027</geo>
+                    </location>
+                    <idno type="URI">http://sws.geonames.org/2938913/</idno>
+            </place>
+                <place xml:id="loc.7">
+                <placeName>Wien</placeName>
+               <placeName>Vienne</placeName>
+               
+               <location>
+                        <geo>48.2082 16.37169</geo>
+                    </location>
+                    <idno type="URI">http://sws.geonames.org/2761367/</idno>
+            </place>
+                <place xml:id="loc.19">
+               <placeName>Karlsruhe</placeName>
+               <placeName>Carlsruhe</placeName>
+               <location>
+                        <geo>49.00922 8.40394</geo>
+                    </location>
+                    <idno type="URI">http://sws.geonames.org/8643496/</idno>
+            </place>
+                <place xml:id="loc.16">
+                <placeName>München</placeName>
+               <placeName>Munich</placeName>
+               
+               <location>
+                        <geo>48.13743 11.57549</geo>
+                    </location>
+                    <idno type="URI">http://sws.geonames.org/2867714/</idno>
+            </place>
+                <place xml:id="loc.35">
+               <placeName>Bremen</placeName>
+               <placeName>Brême</placeName>
+               <idno type="URI">http://sws.geonames.org/2944388/bremen.html</idno>
+            </place>
+                <place xml:id="loc.45">
+                <placeName>Kassel</placeName>
+                <placeName>Cassel</placeName>
+               <location>
+                        <geo>51.31667 9.5</geo>
+                    </location>
+                    <idno type="URI">http://sws.geonames.org/2892518/</idno>
+            </place>
+                <place xml:id="loc.2">
+               <placeName>Paris</placeName>
+               <location>
+                        <geo>48.85341 2.3488</geo>
+                    </location>
+                    <idno type="URI">http://sws.geonames.org/2988507/</idno>
+            </place>
+                <place xml:id="loc.89">
+                    <placeName>Washington</placeName>
+                    <location>
+                        <geo>38.89511 -77.03637</geo>
+                    </location>
+                    <idno type="URI">https://www.geonames.org/4140963/</idno>
+                </place>
+            </listPlace>
+            <listBibl>
+                <bibl xml:id="t.12">Wiener Kongressakte vom 9. Juni 1815; vgl. Klüber, Acten, Bd. 6, S.
+               12–208; Angeberg, Congrès, Bd. 2, S. 1386–1433; Martens, Nouveau Recueil, Bd. 2, S.
+               361–430; BFSP Bd. 2 (1814/15), S 3–180; <ref target="http://www.staatsvertraege.de/Frieden1814-15/wka1815-i.htm">http://www.staatsvertraege.de/Frieden1814-15/wka1815-i.htm</ref> (eingesehen am
+               15. November 2012).</bibl>
+                <bibl xml:id="t.18">Deutsche Bundesakte vom 8. Juni 1815 (unterzeichnet am 10. Juni
+               1815; vgl. Huber, Dokumente zur Deutschen Verfassungsgeschichte, Bd. 1, S. 84–90;
+               Treichl, Die Entstehung, Bd. 1/2, S. 1503–1518;<ref target="http://www.verfassungen.de/de/de06-66/bundesakte15-i.htm">http://www.verfassungen.de/de/de06-66/bundesakte15-i.htm</ref> (eingesehen am 15.
+               November 2012).</bibl>
+                <bibl xml:id="t.27">Vertrag zwischen Bayern und Österreich, München 16. April
+               1816/Zusatz- und Geheimartikel, München 14. April 1816; vgl. BFSP Bd. 6 (1819/20), S.
+               63–69 (Vertrag), und Bd. 3 (1815/16), S. 668–669 (Zusatz- und Geheimartikel);
+               Angebert, Congrès, Bd. 3, S. 1688–1695; Neumann, Recueil, Bd. 3, S. 127–135; Martens,
+               Nouveau recueil, Bd. 3, S. 11–20.</bibl>
+                <bibl xml:id="t.24">Hauptschluss der außerordentlichen Reichsdeputation
+               (Reichshauptschluss) vom 25. Februar 1803. § 8 regelt die Entschädigungen für den
+               Herzog von Holstein-Oldenburg für die Aufhebung des Zolls von Elsfleth; vgl. Huber,
+               Dokumente zur deutschen Verfassungsgeschichte, Bd. 1, S. 1–28; Zeumer,
+               Quellensammlung, S. 509–531; Meyer (Hg.), Corpus Juris Confoederationis Germanicae,
+               Bd. 1, S. 16–69.</bibl>
+                <bibl xml:id="t.25">Vertrag zwischen Oldenburg, Russland, Frankreich und Preußen,
+               Regensburg 6. April 1803, vgl. Kotulla, Deutsches Verfassungsrecht, Bd. 4, S. 6. Vgl.
+               zum Inhalt Konvention zwischen Oldenburg und Bremen, Regensburg 6. April 1803,
+               abgedruckt in Protokolle der Deutschen Bundesversammlung, Bd. 2, S. 855–859, 58.
+               Sitzung vom 22. Dezember 1817; online auf <ref target="http://publikationen.ub.uni-frankfurt.de/volltexte/2010/115320/">http://publikationen.ub.uni-frankfurt.de/volltexte/2010/115320/</ref> (eingesehen
+               am 27. Juli 2017)</bibl>
+                <bibl xml:id="t.13">Erster Pariser Frieden, abgeschlossen zwischen Österreich,
+               Großbritannien, Portugal, Preußen, Russland, Schweden und Spanien auf der einen,
+               Frankreich auf der anderen Seite; vgl. BFSP Bd. 1/1 (1812–1814), S. 151–177; Martens,
+               Nouveau Recueil, Bd. 2, S. 1–18; Ghillany, Diplomatisches Handbuch, Bd. 1, S.
+               300–311; Angeberg, Congrès, Bd. 1, S. 161–176; <ref target="http://www.staatsvertraege.de/Frieden1814-15/1pfv1814-i.htm">http://www.staatsvertraege.de/Frieden1814-15/1pfv1814-i.htm</ref> (deutsch;
+               eingesehen am 15. November 2012) </bibl>
+            </listBibl>
+        </back>
+    </text>
 </TEI>

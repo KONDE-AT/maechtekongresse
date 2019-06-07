@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/maechtekongresse/editions" xml:id="Aachen_Prot_10.xml" prev="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Prot_9.xml" next="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Aachen_Prot_11.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -54,8 +54,10 @@
                Zeitgeschichtsforschung</publisher>
             <pubPlace>Wien</pubPlace>
 <date when="2018-09-23" change="#initial">2018-09-23</date>
-            <idno>A_10</idno><idno type="ISBN" n="9783950478303">978-3-9504783-0-3</idno>
-                 <availability>           <licence target="https://creativecommons.org/licenses/by-sa/4.0/legalcode.de">https://creativecommons.org/licenses/by-sa/4.0/legalcode.de</licence>         </availability> </publicationStmt>
+            <idno>A_10</idno>
+                <idno type="ISBN" n="9783950478303">978-3-9504783-0-3</idno>
+                 <availability>           <licence target="https://creativecommons.org/licenses/by-sa/4.0/legalcode.de">https://creativecommons.org/licenses/by-sa/4.0/legalcode.de</licence>         </availability> <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="handle">http://hdl.handle.net/21.11115/0000-000C-1EF1-3</tei:idno>
+            </publicationStmt>
             <notesStmt>
     <note>Vergleiche auch die Projektbeschreibung in der <ref type="URI" target="../meta/Einleitung.xml">Einleitung</ref> sowie die Dokumentation der Applikation unter <ref type="URI" target="../meta/about.xml">„Über diese Webseite“</ref>.</note>
 </notesStmt>
@@ -79,7 +81,8 @@
                <physDesc>
 
                   <p> Eigenhändiges Protokoll von <persName ref="#p.5">
-                        <surname>Gentz</surname></persName>. </p>
+                        <surname>Gentz</surname>
+                            </persName>. </p>
                   <handDesc>
                      <handNote xml:id="G">Friedrich Gentz</handNote>
                      <handNote xml:id="W">Nikolaus Wacken</handNote>
@@ -110,7 +113,8 @@
                </msContents>
                <physDesc>
                   <p>Konzept von <persName ref="#p.6">
-                                <surname>Wacken</surname></persName>
+                                <surname>Wacken</surname>
+                            </persName>
                         </p>
                   <handDesc>
                      <handNote xml:id="MmB">Metternich mit Bleistift</handNote>
@@ -144,7 +148,8 @@
                </msContents>
                <physDesc>
                   <p>Protokoll von <persName ref="#p.5">
-                                <surname>Gentz</surname></persName>
+                                <surname>Gentz</surname>
+                            </persName>
                         </p>
                   <p>Anlage 2 liegt zweifach ein: Auf fol. I/36 und in einer fehlerhaften Variante
                      auf fol. I/38. Die Edition folgt der Variante von fol. I/36. Die Variante fol.
@@ -187,9 +192,11 @@
       <profileDesc>
          <abstract>
             <p>Der britische Gesandte <persName ref="#p.10">
-                        <surname>Wellington</surname></persName>
+                        <surname>Wellington</surname>
+                    </persName>
                berichtet Einzelheiten über die Reduktion der französischen Entschädigungszahlung, wie sie
-               in der <rs ref="#t.10" type="treaties">Konvention vom <date when="1818-10-09">9. Oktober</date></rs>
+               in der <rs ref="#t.10" type="treaties">Konvention vom <date when="1818-10-09">9. Oktober</date>
+                    </rs>
                festgelegt wurde. Deren Inhalt wird den europäischen Höfen mittels Zirkularschreibens
                durch die jeweiligen diplomatischen Gesandten übermittelt. Die <rs ref="#p.8 #p.10 #p.11 #p.13 #p.12 #p.14 #p.9 #p.1" type="multi-person">Vertreter der Mächte</rs>
                beschließen, den diplomatischen Gesandten an den europäischen Höfen Instruktionen
@@ -260,9 +267,11 @@
                   <expan>Monsieur</expan>
                </choice> le <persName ref="#p.10">
                         <roleName>Duc</roleName>
-                  <surname>de Wellington</surname></persName> a donné sur les dispositions
+                  <surname>de Wellington</surname>
+                    </persName> a donné sur les dispositions
                pécuniaires de la <rs ref="#t.10" type="treaties">convention signée le <date when="1818-10-09">9 de
-                     ce mois</date></rs> les explications suivantes :</p>
+                     ce mois</date>
+                    </rs> les explications suivantes :</p>
             <p>La somme de 15 Millions, qui a été passée en décompte sur celle de 280 Millions,
                payables par la <country>France</country> pour compléter ses engagemens pécuniaires
                vis-à-vis des Alliés, se compose : 1<hi rendition="#su">o</hi>
@@ -278,7 +287,8 @@
                eux qui ont joui et jouiront encore de l’avantage de ces anticipations.</p>
             <p>La Circulaire à adresser aux Ministres des Quatre puissances<pb n="43v"/> accrédités
                auprès des autres Cours de l’Europe <add place="margin">pour communiquer à celle-ci
-                  la <rs ref="#t.10" type="treaties">convention signée <date when="1818-10-09">le 9</date></rs> sur
+                  la <rs ref="#t.10" type="treaties">convention signée <date when="1818-10-09">le 9</date>
+                        </rs> sur
                   l’évacuation du territoire Français</add> a été arrêtée, et doit être expédiée <ref decls="#m.2"> telle qu’elle se trouve annexée à ce Protocole</ref>.
             </p>
             <p>
@@ -287,7 +297,8 @@
                   <expan>Monsieur</expan>
                </choice> le <persName ref="#p.8">
                         <roleName>Prince</roleName>
-                  <surname>de Metternich</surname></persName> a communiqué un projet d’instruction
+                  <surname>de Metternich</surname>
+                    </persName> a communiqué un projet d’instruction
                pour le <rs ref="#p.24" type="person">Ministre d’Autriche</rs> auprès de <choice>
                   <abbr>S. A. R.</abbr>
                   <expan>Son Altesse Royale</expan>
@@ -306,11 +317,14 @@
             </p>
             <p>La conférence s’est occupée ensuite :</p>
             <p>De la demande du <rs ref="#p.22" type="person">Grand-Duc de Bade</rs> relativement <rs xml:id="n.1">aux inconvéniens qu’Il craint de la marche du Contingent Bavarois sortant de
-               <country>France</country> à travers le territoire Badois</rs><note type="editorial" target="#n.1">Vgl. Dokumente Nr. 12, 14, 48 und Erbe,
+               <country>France</country> à travers le territoire Badois</rs>
+                    <note type="editorial" target="#n.1">Vgl. Dokumente Nr. 12, 14, 48 und Erbe,
                   Erschütterung, S. 172–173; Handbuch der Baden-Württembergischen Geschichte, Bd. 3,
                   S. 37–38; Huber, Deutsche Verfassungsgeschichte, Bd. 1, S. 324–328.</note> ;</p>
             <p>
-                    <rs xml:id="n.2"> Des dernières transactions qui ont eu lieu à <placeName ref="#loc.2">Paris</placeName> sur l’affaire de <placeName ref="#loc.5">Montevideo</placeName></rs><note type="editorial" target="#n.2">1811 war in Uruguay unter José Gervasio Artigas
+                    <rs xml:id="n.2"> Des dernières transactions qui ont eu lieu à <placeName ref="#loc.2">Paris</placeName> sur l’affaire de <placeName ref="#loc.5">Montevideo</placeName>
+                    </rs>
+                    <note type="editorial" target="#n.2">1811 war in Uruguay unter José Gervasio Artigas
                   (1764–1850) eine Revolution ausgebrochen, die von brasilianisch-portugiesischen
                   Truppen 1820 niedergeschlagen wurde; vgl. Street, Artigas; Pytha, Konzert der
                   Mächte, bes. S. 156–160.</note> ; et</p>
@@ -413,7 +427,8 @@
                         <abbr>9<hi rendition="#su">bre</hi>
                                 </abbr>
                         <expan>Novembre</expan>
-               </choice> 1815</date></rs>
+               </choice> 1815</date>
+                    </rs>
                 </head>
              <p xml:space="preserve">
                <del rendition="#s">Excepté les Cours de <placeName ref="#loc.11">Naples</placeName>
@@ -449,17 +464,21 @@
                         <abbr>9<hi rendition="#su">bre</hi>
                                 </abbr>
                         <expan>Novembre</expan>
-                     </choice> 1815</date></rs> a été admis de la part des quatre Cours ci-dessus
+                     </choice> 1815</date>
+                    </rs> a été admis de la part des quatre Cours ci-dessus
                mentionnées, en même temps que <rs xml:id="n.3" ref="#p.15" type="person">Sa Majesté Très
-                  Chrétienne</rs><note type="editorial" target="#n.3">Ehrentitel des Königs
+                  Chrétienne</rs>
+                    <note type="editorial" target="#n.3">Ehrentitel des Königs
                         von Frankreich.</note> a pris les engagemens requis pour compléter l’exécution de
                l’article IV du dit <rs ref="#t.1" type="treaties">traité de <placeName ref="#loc.2">Paris</placeName> du <date when="1815-11-20">20 <choice>
                         <abbr>9<hi rendition="#su">bre</hi>
                                 </abbr>
                         <expan>Novembre</expan>
-                     </choice> 1815</date></rs>.</p>
+                     </choice> 1815</date>
+                    </rs>.</p>
             <p>Ces dispositions ayant été consignées dans une <rs ref="#t.10" type="treaties">Convention signée à
-                     <placeName ref="#loc.1">Aix-La-Chapelle</placeName> le <date when="1818-10-09">9 de ce mois</date></rs>,</p> <metamark>
+                     <placeName ref="#loc.1">Aix-La-Chapelle</placeName> le <date when="1818-10-09">9 de ce mois</date>
+                    </rs>,</p> <metamark>
                     <add place="margin" hand="#MmB">j’ai l’<choice>
                      <abbr>h<hi rendition="#su">r</hi>
                             </abbr>
@@ -468,7 +487,8 @@
                      <abbr>V. E.</abbr>
                      <expan>Votre Excellence</expan>
                   </choice> un exemplaire en l’invitant à en donner communication <rs xml:id="n.4">à
-                     la Diète</rs><note type="editorial" target="#n.4">Bundestag in Frankfurt a. M.</note> dans la
+                     la Diète</rs>
+                        <note type="editorial" target="#n.4">Bundestag in Frankfurt a. M.</note> dans la
                   forme qui <choice>
                      <abbr>V. E.</abbr>
                      <expan>Votre Excellence</expan>
@@ -481,7 +501,8 @@
                         <abbr>9<hi rendition="#su">bre</hi>
                                 </abbr>
                         <expan>Novembre</expan>
-                     </choice> 1815</date></rs>, Elles désirent que cette communication soit
+                     </choice> 1815</date>
+                    </rs>, Elles désirent que cette communication soit
                effectuée le plus promptement possible par les Envoyés respectifs de chacune des 4
                Cours qui sont accrédités près les Puissances et Etats accédans.</p>
             <p>En conséquence, Vous voudrez bien/<choice>
@@ -496,7 +517,8 @@
                     </choice>
                  vous donnerez
                communication de la <rs ref="#t.10" type="treaties">Convention d’<placeName ref="#loc.1">Aix-la-Chapelle</placeName> 
-                  du <date when="1818-10-09">9 Octobre</date></rs>
+                  du <date when="1818-10-09">9 Octobre</date>
+                    </rs>
                (ci-joint en copie imprimée) à la Cour de <gap/>
                     <add place="inline" hand="#AmB">
                         <placeName ref="#loc.13">Dresde</placeName> et aux Cours Ducales de
@@ -513,13 +535,16 @@
                                 </abbr>
                                     <expan>Octobre</expan>
                      </choice>
-                        </date></rs>, qui ont été stipulés pour assurer l’exécution
+                        </date>
+                    </rs>, qui ont été stipulés pour assurer l’exécution
                   définitive<pb n="45r"/> du <rs ref="#t.1" type="treaties">traité de <placeName ref="#loc.2">Paris</placeName> du <date when="1815-11-20">20 <choice>
                         <abbr>9<hi rendition="#su">bre</hi>
                                 </abbr>
                         <expan>Novembre</expan>
-                     </choice> 1815</date></rs>, <add place="margin">Vous ajouterez verbalement
-                  l’information que les quatre commissaires de finances, établis par la <rs ref="#t.2" type="treaties">convention du <date when="1815-11-20">20 Novembre 1815</date></rs>
+                     </choice> 1815</date>
+                    </rs>, <add place="margin">Vous ajouterez verbalement
+                  l’information que les quatre commissaires de finances, établis par la <rs ref="#t.2" type="treaties">convention du <date when="1815-11-20">20 Novembre 1815</date>
+                        </rs>
                   pour la perception et la répartition des échéances successives de l’indemnité,
                   viennent d’être autorisés à entrer envers les mandataires des Puissances et Etats
                   participant à ladite indemnité dans les explications les plus détaillés sur la
@@ -547,12 +572,14 @@
                   <add place="below">mesures</add>
                </subst> que Son Excellence, Monsieur le <persName ref="#p.10">
                         <roleName>Duc</roleName>
-                  <surname>de Wellington</surname></persName>, Commandant en Chef de l’armée
+                  <surname>de Wellington</surname>
+                    </persName>, Commandant en Chef de l’armée
                d’occupation, s’est chargé de concerter avec le Gouvernement de <rs ref="#p.15" type="person" xml:id="n.5">
                         <choice>
                         <abbr>S. M</abbr>
                         <expan>Sa Majesté</expan>
-                     </choice> très Chrétienne</rs><note type="editorial" target="#n.5">Ehrentitel des Königs von Frankreich</note> pour
+                     </choice> très Chrétienne</rs>
+                    <note type="editorial" target="#n.5">Ehrentitel des Königs von Frankreich</note> pour
                l’évacuation du territoire français dans le terme convenu,<pb n="45v"/> on croit
                pouvoir présumer que la Cour de <placeName ref="#loc.14">Copenhague</placeName>/
                   <placeName ref="#loc.13">Dresde</placeName>/ <placeName ref="#loc.15">Hanovre</placeName>/ <placeName ref="#loc.16">Munich</placeName>/ <placeName ref="#loc.17">Stuttgard</placeName> trouvera également convenable de s’en
@@ -662,13 +689,345 @@
                 </signed>
          </div>
       </body>
-      <back>
-         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../indices/listplace.xml" xpointer="listPlace"/>
-         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../indices/listperson.xml" xpointer="listPerson"/>
-         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../indices/listwit.xml" xpointer="listWit"/>
-         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../indices/listorg.xml" xpointer="listOrg"/>
-         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../indices/listtreaties.xml" xpointer="listTreaties"/>
-
-      </back>
-   </text>
+      
+   <back>
+            <listPerson>
+                <person xml:id="p.5">
+                    <persName>
+                        <forename>Friedrich</forename>
+                        <surname>Gentz</surname>
+                    </persName>
+                    <birth>1764</birth>
+                    <death>1832</death>
+                    <note>Protokollführer; vgl. zu seiner Person Kronenbitter, Wort und Macht;
+                        Cahen, Gentz; Mann, Friedrich von Gentz; Schneider, Werner, Europa in Wien,
+                        S. 169–170.</note>
+                    <idno type="URI">https://viaf.org/viaf/2522018/</idno>
+                </person>
+                <person xml:id="p.6">
+                    <persName>
+                        <forename>Nikolaus</forename>
+                        <surname>Wacken</surname>
+                    </persName>
+                    <death>1834</death>
+                    <note>Kompilator, Protokollführer; vgl. zu seiner Person Schneider, Werner,
+                        Europa in Wien, S. 207.</note>
+                    <idno type="URI">https://viaf.org/viaf/309696450/</idno>
+                </person>
+                <person xml:id="p.21">
+                    <persName>
+                        <surname>Wilhelm I.</surname>
+                        <roleName>Kurfürst von Hessen-Kassel</roleName>
+                    </persName>
+                    <birth>1743</birth>
+                    <death>1821</death>
+                    <note>Vgl. zu seiner Person Petersdorff, Wilhelm I. (Kurfürst von Hessen). In:
+                        ADB, Bd. 43, S. 64–75; Franz, Das Haus Hessen; Schneider, Werner, Europa in
+                        Wien, S. 318–319.</note>
+                    <idno type="URI">https://viaf.org/viaf/264553004/</idno>
+                </person>
+                <person xml:id="p.10">
+                    <persName>
+                        <forename>Arthur</forename>
+                        <surname>Wellesley</surname>, <roleName>1<hi rendition="#su">st</hi> duke of
+                            Wellington</roleName>
+                    </persName>
+                    <birth>1769</birth>
+                    <death>1852</death>
+                    <note>Bevollmächtigter Großbritanniens; vgl. zu seiner Person zuletzt Muir,
+                        Wellington; Gash, Wellesley, Arthur, first duke of Wellington. In: ODNB, Bd.
+                        58, S. 1–29.</note>
+                    <idno type="URI">https://viaf.org/viaf/2465308/</idno>
+                </person>
+                <person xml:id="p.8">
+                    <persName>
+                        <surname>Metternich</surname>
+                        <forename>Clemens Wenzel Lothar</forename>
+                        <roleName>Fürst</roleName>
+                    </persName>
+                    <birth>1773</birth>
+                    <death>1859</death>
+                    <note>Österreichischer Außenminister, ab 1821 österreichischer Haus-, Hof- und
+                        Staatskanzler; vgl. zu seiner Person Siemann, Metternich; Šedivý,
+                        Metternich; Srbik, Metternich; Schneider, Werner, Europa in Wien, S.
+                        237–239.</note>
+                    <idno type="URI">https://viaf.org/viaf/49258230/</idno>
+                </person>
+                <person xml:id="p.11">
+                    <persName>
+                        <forename>Karl August</forename>
+                        <roleName>Fürst</roleName>
+                        <surname>von Hardenberg</surname>
+                    </persName>
+                    <birth>1750</birth>
+                    <death>1822</death>
+                    <note>Preußischer Staatskanzler, Bevollmächtigter Preußens; vgl. zu seiner
+                        Person Gall, Hardenberg; Schneider, Werner, Europa in Wien, S. 184–185;
+                        Capefigue, Les diplomates européens, S. 275–316; Stamm-Kuhlmann, Freier
+                        Gebrauch.</note>
+                    <idno type="URI">https://viaf.org/viaf/4975077/</idno>
+                </person>
+                <person xml:id="p.13">
+                    <persName>
+                        <forename>Karl Robert</forename>
+                        <roleName>Graf</roleName>
+                        <surname>von Nesselrode</surname>
+                    </persName>
+                    <birth>1780</birth>
+                    <death>1862</death>
+                    <note>Russischer Außenminister, Bevollmächtigter Russlands; vgl. zu seiner
+                        Person Eich, Nesselrode, Robert Graf von. In: NDB, Bd. 19, S. 74–75;
+                        Grimsted, The Foreign Ministers, S. 194–225, 269–286; Schneider, Werner,
+                        Europa in Wien, S. 248–249.</note>
+                    <idno type="URI">https://viaf.org/viaf/49992065/</idno>
+                </person>
+                <person xml:id="p.12">
+                    <persName>
+                        <forename>Christian Günther</forename>
+                        <roleName>Graf</roleName>
+                        <surname>von Bernstorff</surname>
+                    </persName>
+                    <birth>1769</birth>
+                    <death>1835</death>
+                    <note>Preußischer Außenminister, Bevollmächtigter Preußens; vgl. zu seiner
+                        Person Kellenbenz, Bernstorff, Christian Graf von. In: NDB, Bd. 2, S.
+                        139–140; Schneider, Werner, Europa in Wien, S. 116–117.</note>
+                    <idno type="URI">https://viaf.org/viaf/49969175/</idno>
+                </person>
+                <person xml:id="p.14">
+                    <persName>
+                        <forename>Ioannis Antonis</forename>
+                        <roleName>Graf</roleName>
+                        <surname>Kapodistrias/Capodistrias</surname>
+                    </persName>
+                    <birth>1776</birth>
+                    <death>1831</death>
+                    <note>Russischer Außenminister, Bevollmächtigter Russlands; vgl. zu seiner
+                        Person Woodhouse, Capodistrias; Grimsted, The Foreign Ministers, S. 226–268;
+                        Schneider, Werner, Europa in Wien, S. 199–200.</note>
+                    <idno type="URI">https://viaf.org/viaf/39507057/</idno>
+                </person>
+                <person xml:id="p.9">
+                    <persName>
+                        <forename>Robert </forename>
+                        <surname>Stewart</surname>
+                        <roleName>Viscount Castlereagh</roleName>
+                    </persName>
+                    <birth>1769</birth>
+                    <death>1822</death>
+                    <note>Britischer Außenminister; vgl zu seiner Person Bew, Castlereagh; Webster,
+                        Foreign Policy; Bartlett, Castlereagh; Thorne, Stewart, Robert, Viscount
+                        Castlereagh and second marquess of Londonderry. In: ODNB, Bd. 52, S.
+                        749–757.</note>
+                    <idno type="URI">https://viaf.org/viaf/15560591/</idno>
+                </person>
+                <person xml:id="p.1">
+                    <persName>
+                        <forename>Armand Emmanuel</forename>
+                        <surname>du Plessis</surname>
+                        <roleName>duc de Richelieu</roleName>
+                    </persName>
+                    <birth>1766</birth>
+                    <death>1822</death>
+                    <note>Französischer Premierminister; vgl. zu seiner Person de Waresquiel, Le Duc
+                        de Richelieu; Capefigue, Les diplomates européens, S. 245–274.</note>
+                    <idno type="URI">https://viaf.org/viaf/56652282/</idno>
+                </person>
+                <person xml:id="p.22">
+                    <persName>
+                        <surname>Karl Ludwig Friedrich</surname>
+                        <roleName>Großherzog von Baden</roleName>
+                    </persName>
+                    <birth>1786</birth>
+                    <death>1818</death>
+                    <note>Vgl. zu seiner Person Weech, Karl Ludwig Friedrich, Großherzog von Baden.
+                        In: ADB, Bd. 15, S. 248–250; Schneider, Werner, Europa in Wien, S.
+                        202.</note>
+                    <idno type="URI">https://viaf.org/viaf/42227780/</idno>
+                </person>
+                <person xml:id="p.24">
+                    <persName>
+                        <forename>Johann Peter Theodor</forename>
+                        <surname>von Wacquant-Geozelles</surname>
+                    </persName>
+                    <birth>1754</birth>
+                    <death>1844</death>
+                    <note>Österreichischer Gesandter in Hessen-Kassel (Kurfürstentum Hessen); vgl.
+                        Bringmann, Handbuch, S. 295; Wurzbach, Biographisches Lexikon, Bd. 52, S.
+                        50–53.</note>
+                    <idno type="URI">https://viaf.org/viaf/254320179/</idno>
+                </person>
+                <person xml:id="p.25">
+                    <persName>
+                        <forename>Johann Rudolf</forename>
+                        <roleName>Graf</roleName>
+                        <surname>Buol-Schauenstein</surname>
+                    </persName>
+                    <birth>1763</birth>
+                    <death>1834</death>
+                    <note>Österreichischer Präsident des Bundestags in Frankfurt am Main; vgl. zu
+                        seiner Person Aretin, Buol-Schauenstein Johann Rudolf Freiherr von, Graf.
+                        In: NDB, Bd. 3, S. 22–23.</note>
+                    <idno type="URI">https://viaf.org/viaf/10616124/</idno>
+                </person>
+                <person xml:id="p.15">
+                    <persName>
+                        <surname>Ludwig/Louis XVIII.</surname>
+                        <roleName> König von Frankreich</roleName>
+                    </persName>
+                    <birth>1755</birth>
+                    <death>1824</death>
+                    <note>Vgl. Malettke, Die Bourbonen; Thamer, Ludwig XVIII.; Mansel, Louis
+                        XVIII.</note>
+                    <idno type="URI">https://viaf.org/viaf/84035484/</idno>
+                </person>
+            </listPerson>
+            <listPlace>
+                <place xml:id="loc.1">
+                <placeName>Aachen</placeName>
+               <placeName>Aix-la-Chapelle</placeName>
+               
+               <location>
+                        <geo>50.77664 6.08342</geo>
+                    </location>
+                    <idno type="URI">http://sws.geonames.org/3247449/</idno>
+            </place>
+                <place xml:id="loc.5">
+               <placeName>Montevideo</placeName>
+               <location>
+                        <geo>-34.90328 -56.18816</geo>
+                    </location>
+                    <idno type="URI">http://sws.geonames.org/3441575/</idno>
+            </place>
+                <place xml:id="loc.2">
+               <placeName>Paris</placeName>
+               <location>
+                        <geo>48.85341 2.3488</geo>
+                    </location>
+                    <idno type="URI">http://sws.geonames.org/2988507/</idno>
+            </place>
+                <place xml:id="loc.6">
+                <placeName>Rom</placeName>
+               <placeName>Rome</placeName>
+               
+               <location>
+                        <geo>41.89193 12.51133</geo>
+                    </location>
+                    <idno type="URI">http://sws.geonames.org/3169070/</idno>
+            </place>
+                <place xml:id="loc.7">
+                <placeName>Wien</placeName>
+               <placeName>Vienne</placeName>
+               
+               <location>
+                        <geo>48.2082 16.37169</geo>
+                    </location>
+                    <idno type="URI">http://sws.geonames.org/2761367/</idno>
+            </place>
+                <place xml:id="loc.8">
+                <placeName>London</placeName>
+               <placeName>Londres</placeName>
+               
+               <location>
+                        <geo>51.50853 -0.12574</geo>
+                    </location>
+                    <idno type="URI">http://sws.geonames.org/2643743/</idno>
+            </place>
+                <place xml:id="loc.9">
+               <placeName>Berlin</placeName>
+               <location>
+                        <geo>52.52437 13.41053</geo>
+                    </location>
+                    <idno type="URI">http://sws.geonames.org/2950159/</idno>
+            </place>
+                <place xml:id="loc.10">
+                <placeName>St. Petersburg</placeName>
+               <placeName>Saint-Pétersbourg</placeName>
+               
+               <location>
+                        <geo>59.93863 30.31413</geo>
+                    </location>
+                    <idno type="URI">http://sws.geonames.org/498817/</idno>
+            </place>
+                <place xml:id="loc.11">
+                <placeName>Neapel</placeName>
+               <placeName>Naples</placeName>
+               
+               <location>
+                        <geo>40.85216 14.26811</geo>
+                    </location>
+                    <idno type="URI">http://sws.geonames.org/3172394/</idno>
+            </place>
+                <place xml:id="loc.12">
+               <placeName>Stockholm</placeName>
+               <location>
+                        <geo>59.33258 18.0649</geo>
+                    </location>
+                    <idno type="URI">http://sws.geonames.org/2673730/</idno>
+            </place>
+                <place xml:id="loc.13">
+                <placeName>Dresden</placeName>
+               <placeName>Dresde</placeName>
+               
+               <location>
+                        <geo>51.05089 13.73832</geo>
+                    </location>
+                    <idno type="URI">http://sws.geonames.org/2935022/</idno>
+            </place>
+                <place xml:id="loc.14">
+                <placeName>Kopenhagen</placeName>
+               <placeName>Copenhague</placeName>
+               
+               <location>
+                        <geo>55.67594 12.56553</geo>
+                    </location>
+                    <idno type="URI">http://sws.geonames.org/2618425/</idno>
+            </place>
+                <place xml:id="loc.15">
+                <placeName>Hannover</placeName>
+               <placeName>Hanovre</placeName>
+               
+               <location>
+                        <geo>52.37052 9.73322</geo>
+                    </location>
+                    <idno type="URI">http://sws.geonames.org/2910831/</idno>
+            </place>
+                <place xml:id="loc.16">
+                <placeName>München</placeName>
+               <placeName>Munich</placeName>
+               
+               <location>
+                        <geo>48.13743 11.57549</geo>
+                    </location>
+                    <idno type="URI">http://sws.geonames.org/2867714/</idno>
+            </place>
+                <place xml:id="loc.17">
+                <placeName>Stuttgardt</placeName>
+               <placeName>Stuttgart</placeName>
+               
+               <location>
+                        <geo>48.78232 9.17702</geo>
+                    </location>
+                    <idno type="URI">http://sws.geonames.org/2825297/</idno>
+            </place>
+            </listPlace>
+            <listBibl>
+                <bibl xml:id="t.10">Konvention zwischen Österreich, Großbritannien, Preußen und Russland
+               sowie Frankreich, Aachen 9. Oktober 1818; BFSP Bd. 6 (1818/19), S. 6–10; Clercq,
+               Recueil, Bd. 3, S. 164–166; Angeberg, Congrès, Bd. 3, S. 1744–1746; Meyer, Corpus
+               Juris Confoederationis Germanicae, Bd. 1, S. 269–271; Clarke, Papers presented to
+               Parliament 1819, S. 73–77.</bibl>
+                <bibl xml:id="t.1">Zweiter Pariser Frieden zwischen Österreich, Großbritannien, Preußen und Russland auf der
+               einen, Frankreich auf der anderen Seite, Paris 20. November 1815; vgl. BFSP Bd. 3 (1815/16), S. 280–293;
+               Grewe, Fontes, Bd. 3/1, S. 10–18; Clercq, Recueil, Bd. 2, S. 642–650; Martens,
+               Nouveau Recueil, Bd. 2, S. 682–691; <ref target="http://www.staatsvertraege.de/Frieden1814-15/2pfv1815-i.htm">http://www.staatsvertraege.de/Frieden1814-15/2pfv1815-i.htm</ref> (deutsch; eingesehen
+               am 31. Oktober 2012).</bibl>
+                <bibl xml:id="t.2">Convention, conclue en conformité de l’Article IV du Traité
+               Principal, relative au paiement de l’Indemnité Pécuniaire à fournir par la France aux
+               Puissances Alliées, Paris 20. November 1815; vgl. BFSP Bd. 3 (1815/16), S. 293–298;
+               Clercq, Recueil, Bd. 2, S. 651–653; Martens, Nouveau Recueil. Bd. 2, S.
+               692–695.</bibl>
+            </listBibl>
+        </back>
+    </text>
 </TEI>

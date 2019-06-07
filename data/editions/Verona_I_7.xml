@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/maechtekongresse/editions" xml:id="Verona_I_7.xml" prev="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Verona_I_6.xml" next="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Verona_I_8.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -56,8 +56,10 @@
                Zeitgeschichtsforschung</publisher>
             <pubPlace>Wien</pubPlace>
 <date when="2018-09-23" change="#initial">2018-09-23</date>
-            <idno>V_I_07</idno><idno type="ISBN" n="9783950478303">978-3-9504783-0-3</idno>
-                 <availability>           <licence target="https://creativecommons.org/licenses/by-sa/4.0/legalcode.de">https://creativecommons.org/licenses/by-sa/4.0/legalcode.de</licence>         </availability> </publicationStmt>
+            <idno>V_I_07</idno>
+                <idno type="ISBN" n="9783950478303">978-3-9504783-0-3</idno>
+                 <availability>           <licence target="https://creativecommons.org/licenses/by-sa/4.0/legalcode.de">https://creativecommons.org/licenses/by-sa/4.0/legalcode.de</licence>         </availability> <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="handle">http://hdl.handle.net/21.11115/0000-000C-1F02-0</tei:idno>
+            </publicationStmt>
             <notesStmt>
     <note>Vergleiche auch die Projektbeschreibung in der <ref type="URI" target="../meta/Einleitung.xml">Einleitung</ref> sowie die Dokumentation der Applikation unter <ref type="URI" target="../meta/about.xml">„Über diese Webseite“</ref>.</note>
 </notesStmt>
@@ -81,7 +83,8 @@
                <physDesc>
                   <p>Lithographie</p>
                   <p>Das Schriftstück liegt als Konzept von <persName ref="#p.5">
-                                <surname>Gentz</surname></persName> auf fol. 173r–175r und zweifach als
+                                <surname>Gentz</surname>
+                            </persName> auf fol. 173r–175r und zweifach als
                      Lithographie auf fol. 172r und 176, sowie 177–178 ein. Die Edition folgt der
                      Lithographie. Nicht deutbare Vermerke mit Bleistift in den rechten oberen Ecken von fol. 172 r
                      und 177r.</p>
@@ -125,7 +128,8 @@
       <profileDesc>
          <abstract>
             <p>Der österreichische Staatskanzler <persName ref="#p.8">
-                        <surname>Metternich</surname></persName> unterbreitet auf Basis der bisher
+                        <surname>Metternich</surname>
+                    </persName> unterbreitet auf Basis der bisher
                vorgelegten Denkschriften Überlegungen betreffend das weitere gemeinsame Vorgehen der
                alliierten Mächte gegen <country>Spanien</country>.</p>
          </abstract>
@@ -145,7 +149,8 @@
                 
             <p>
                     <rs xml:id="n.1">La première question qui a dû occuper le Congrès est celle de
-                     l’<country>Espagne</country></rs>.<note type="editorial" target="#n.1">Zur
+                     l’<country>Espagne</country>
+                    </rs>.<note type="editorial" target="#n.1">Zur
                   Revolution in <country>Spanien</country>, die mit einem Militäraufstand am <date when="1820-01-01">1. Jänner 1820</date> ihren Anfang nahm, vgl. Späth,
                   Revolution in Europa, S. 117–128. In <country>Portugal</country> war am <date when="1820-08-24">24. August 1820</date> eine Revolution ausgebrochen; vgl.
                   Birmingham, A Concise History, S. 111–113.</note>
@@ -179,7 +184,8 @@
             </p>
             <p>Portant toutefois sur des applications éventuelles, leur adhésion doit être précisée
                par une définition exacte des<pb n="172v"/>
-                    <rs xml:id="n.2">Casus foederis</rs><note type="editorial" target="#n.2">Lat.:
+                    <rs xml:id="n.2">Casus foederis</rs>
+                    <note type="editorial" target="#n.2">Lat.:
                   Bündnisfall.</note> ainsi que par l’énoncé des obligations réciproques qui en
                dériveraient. Ces différens points seront réservés aux transactions diplomatiques que
                les Cabinets jugeront à propos d’entamer à la suite des explications présentes.</p>
@@ -235,13 +241,56 @@
                Alliés dans tout ce qui peut conduire au bien général de l’Europe.</p>
          </div>
       </body>
-      <back>
-         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../indices/listplace.xml" xpointer="listPlace"/>
-         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../indices/listperson.xml" xpointer="listPerson"/>
-         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../indices/listwit.xml" xpointer="listWit"/>
-         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../indices/listorg.xml" xpointer="listOrg"/>
-         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../indices/listtreaties.xml" xpointer="listTreaties"/>
-
-      </back>
-   </text>
+      
+   <back>
+            <listPerson>
+                <person xml:id="p.5">
+                    <persName>
+                        <forename>Friedrich</forename>
+                        <surname>Gentz</surname>
+                    </persName>
+                    <birth>1764</birth>
+                    <death>1832</death>
+                    <note>Protokollführer; vgl. zu seiner Person Kronenbitter, Wort und Macht;
+                        Cahen, Gentz; Mann, Friedrich von Gentz; Schneider, Werner, Europa in Wien,
+                        S. 169–170.</note>
+                    <idno type="URI">https://viaf.org/viaf/2522018/</idno>
+                </person>
+                <person xml:id="p.8">
+                    <persName>
+                        <surname>Metternich</surname>
+                        <forename>Clemens Wenzel Lothar</forename>
+                        <roleName>Fürst</roleName>
+                    </persName>
+                    <birth>1773</birth>
+                    <death>1859</death>
+                    <note>Österreichischer Außenminister, ab 1821 österreichischer Haus-, Hof- und
+                        Staatskanzler; vgl. zu seiner Person Siemann, Metternich; Šedivý,
+                        Metternich; Srbik, Metternich; Schneider, Werner, Europa in Wien, S.
+                        237–239.</note>
+                    <idno type="URI">https://viaf.org/viaf/49258230/</idno>
+                </person>
+                <person xml:id="p.30">
+                    <persName>
+                        <surname>Ferdinand/Fernando VII.</surname>
+                        <roleName>König von Spanien</roleName>
+                    </persName>
+                    <birth>1784</birth>
+                    <death>1833</death>
+                    <note>Vgl. zu seiner Person Sánchez Mantero, Fernando VII.</note>
+                    <idno type="URI">https://viaf.org/viaf/286447916/</idno>
+                </person>
+            </listPerson>
+            <listPlace>
+                <place xml:id="loc.68">
+               <placeName>Verona</placeName>
+                <placeName>Vérone</placeName>
+               <location>
+                        <geo>45.4299 10.98444</geo>
+                    </location>
+                    <idno type="URI">http://sws.geonames.org/3164527/</idno>
+            </place>
+            </listPlace>
+        </back>
+    </text>
 </TEI>

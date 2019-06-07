@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/maechtekongresse/editions" xml:id="Troppau_Prot_7.xml" prev="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Troppau_Prot_6.xml" next="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Troppau_Prot_8.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -54,8 +54,10 @@
                Zeitgeschichtsforschung</publisher>
             <pubPlace>Wien</pubPlace>
 <date when="2018-09-23" change="#initial">2018-09-23</date>
-            <idno>T_07</idno><idno type="ISBN" n="9783950478303">978-3-9504783-0-3</idno>
-                 <availability>           <licence target="https://creativecommons.org/licenses/by-sa/4.0/legalcode.de">https://creativecommons.org/licenses/by-sa/4.0/legalcode.de</licence>         </availability> </publicationStmt>
+            <idno>T_07</idno>
+                <idno type="ISBN" n="9783950478303">978-3-9504783-0-3</idno>
+                 <availability>           <licence target="https://creativecommons.org/licenses/by-sa/4.0/legalcode.de">https://creativecommons.org/licenses/by-sa/4.0/legalcode.de</licence>         </availability> <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="handle">http://hdl.handle.net/21.11115/0000-000C-1F23-B</tei:idno>
+            </publicationStmt>
             <notesStmt>
     <note>Vergleiche auch die Projektbeschreibung in der <ref type="URI" target="../meta/Einleitung.xml">Einleitung</ref> sowie die Dokumentation der Applikation unter <ref type="URI" target="../meta/about.xml">„Über diese Webseite“</ref>.</note>
 </notesStmt>
@@ -78,7 +80,8 @@
                </msContents>
                <physDesc>
                   <p>Journal von <persName ref="#p.5" type="person">
-                                <surname>Gentz</surname></persName>
+                                <surname>Gentz</surname>
+                            </persName>
                         </p>
 
                   <handDesc>
@@ -183,7 +186,8 @@
                <msContents>
                   <msItem>
                      <title>Anlage 4: Note des britischen Außenministers <persName ref="#p.9">
-                                    <surname>Castlereagh</surname></persName>
+                                    <surname>Castlereagh</surname>
+                                </persName>
                             </title>
                   </msItem>
                </msContents>
@@ -237,7 +241,8 @@
       <profileDesc>
          <abstract>
             <p>Der britische Gesandte <persName ref="#p.137">
-                        <surname>Stewart</surname></persName>
+                        <surname>Stewart</surname>
+                    </persName>
                übermittelt Denkschriften betreffend das von den Regierungen Österreichs, Preußens
                und Russlands geplante Vorgehen gegen die Revolution im <country>Königreich beider
                   Sizilien</country>.</p>
@@ -318,7 +323,8 @@
             <p>
                     <persName ref="#p.137">
                         <roleName>Lord</roleName>
-                  <surname>Stewart</surname></persName> a fait lire un <ref decls="#m.2">Mémoire du
+                  <surname>Stewart</surname>
+                    </persName> a fait lire un <ref decls="#m.2">Mémoire du
                   gouvernement Brittanique, renfermant la déclaration de ce gouvernement sur les
                   questions traitées dans les sus-dits Mémoires</ref>, et une <ref decls="#m.5">note accompagnant ce
                   Mémoire</ref>. Ces deux
@@ -336,7 +342,8 @@
                 </p>
             <signed rendition="#r">
                     <persName ref="#p.5">
-                        <surname>Gentz</surname></persName>
+                        <surname>Gentz</surname>
+                    </persName>
                 </signed>
          </div>
 
@@ -383,7 +390,8 @@
                forms the main topic of discussion in these Papers, the British Government has
                already fully explained its sentiments with the utmost frankness in a <rs xml:id="n.3">Dispatch addressed to the <rs ref="#p.137" type="person">Undersigned</rs>, bearing
                   date <date when="1820-07-29">July 29<hi rendition="#su">th</hi>
-                        </date></rs>.<note type="editorial" target="#n.3">Vgl. dazu Webster, Foreign Policy, Bd. 2, S.
+                        </date>
+                    </rs>.<note type="editorial" target="#n.3">Vgl. dazu Webster, Foreign Policy, Bd. 2, S.
                        263. <lb/>Mit Rotstift auf Korrekturrand ergänzt: <choice>
                           <abbr>N<hi rendition="#su">o</hi>
                           </abbr>
@@ -406,7 +414,8 @@
                interference.</p>
             <p>This Principle of forbearance was still further enforced in <persName ref="#p.9">
                         <roleName>Lord</roleName>
-                  <surname>Castlereagh’s</surname></persName>
+                  <surname>Castlereagh’s</surname>
+                    </persName>
                     <rs xml:id="n.4">Instructions to <persName ref="#p.146">
                             <roleName>Sir</roleName>
                      <forename>
@@ -416,7 +425,9 @@
                            <expan>William</expan>
                         </choice>
                             </forename>
-                     <surname>A’Court</surname></persName>, bearing date the <date when="1820-09-16">16<hi rendition="#su">th</hi> of September</date></rs>,<note type="editorial" target="#n.4">Vgl. Webster, Foreign Policy, Bd. 2, S.
+                     <surname>A’Court</surname>
+                        </persName>, bearing date the <date when="1820-09-16">16<hi rendition="#su">th</hi> of September</date>
+                    </rs>,<note type="editorial" target="#n.4">Vgl. Webster, Foreign Policy, Bd. 2, S.
                        270. <lb/>Mit Rotstift auf Korrekturrand ergänzt: <choice>
                           <abbr>N<hi rendition="#su">o</hi>
                             </abbr>
@@ -433,14 +444,17 @@
             <p>The duties of such a line of conduct compelled them, for the reasons alleged in
                   <persName ref="#p.9">
                         <roleName>Lord</roleName>
-                  <surname>Castlereagh’s</surname></persName>
-                    <rs xml:id="n.5">Dispatch of the <date when="1820-09-16">same date</date></rs>,<note type="editorial" target="#n.5">Abgedruckt in Londonderry (Hg.), Memoirs and
+                  <surname>Castlereagh’s</surname>
+                    </persName>
+                    <rs xml:id="n.5">Dispatch of the <date when="1820-09-16">same date</date>
+                    </rs>,<note type="editorial" target="#n.5">Abgedruckt in Londonderry (Hg.), Memoirs and
                        Correspondence of Viscount Castlereagh, Bd. 12, S. 311–318. <lb/>Mit Rotstift auf Korrekturrand ergänzt: <choice>
                           <abbr>N<hi rendition="#su">o</hi>
                           </abbr>
                           <expan>Numéro</expan>
                        </choice> 3.</note>
-                    addressed<pb n="178r"/> to the <rs ref="#p.137" type="person">Undersigned</rs>, to decline the <rs xml:id="n.6">Austrian Overture of the <date when="1820-08-28">28<hi rendition="#su">th</hi> of August</date></rs>,<note type="editorial" target="#n.6">Propositions adressées par l’Autriche aux Cours de France, de
+                    addressed<pb n="178r"/> to the <rs ref="#p.137" type="person">Undersigned</rs>, to decline the <rs xml:id="n.6">Austrian Overture of the <date when="1820-08-28">28<hi rendition="#su">th</hi> of August</date>
+                    </rs>,<note type="editorial" target="#n.6">Propositions adressées par l’Autriche aux Cours de France, de
                   Grande-Bretagne, die Prusse, de Russie, Wien 28. August 1820; in: ÖStA, HHStA, St.
                   K., Kongressakten, Kart. 21, Fasz. 38/2, fol. 4–8.</note> and they feel equally
                bound to abstain from making themselves Parties either morally or materially to every
@@ -448,7 +462,8 @@
                Powers against the “de facto” Government of Naples.</p>
             <p>The motives, which decided His Majesty’s Government to adopt this course of Policy
                without a moment’s<pb n="178v"/> delay, were explained in the <rs xml:id="n.7">
-                        <hi rendition="#u">Dispatch</hi> to the <rs ref="#p.137" type="person">Undersigned</rs>, also bearing date the <date when="1820-09-16">16<hi rendition="#su">th</hi> of September</date></rs>,<note type="editorial" target="#n.7">Abgedruckt in Londonderry (Hg.), Memoirs and
+                        <hi rendition="#u">Dispatch</hi> to the <rs ref="#p.137" type="person">Undersigned</rs>, also bearing date the <date when="1820-09-16">16<hi rendition="#su">th</hi> of September</date>
+                    </rs>,<note type="editorial" target="#n.7">Abgedruckt in Londonderry (Hg.), Memoirs and
                        Correspondence of Viscount Castlereagh, Bd. 12, S. 311–318. <lb/>Mit Rotstift auf Korrekturrand ergänzt: <choice>
                           <abbr>N<hi rendition="#su">o</hi>
                              <expan>Numéro</expan>
@@ -524,7 +539,9 @@
                   <country>Naples</country>, the <rs ref="#p.137" type="person">Undersigned</rs> is instructed to
                declare, with reference to the observations brought forward in these Memoirs
                concerning the <rs xml:id="n.8">late Revolutions in
-                  <country>Spain</country></rs><note type="editorial" target="#n.8">Zur spanischen
+                  <country>Spain</country>
+                    </rs>
+                    <note type="editorial" target="#n.8">Zur spanischen
                   Verfassung von Cádiz, veröffentlicht am <date when="1812-03-19">19. März
                      1812</date> und am <date when="1820-03-08">8. März 1820</date> durch <persName ref="#p.30">
                             <roleName>König</roleName>
@@ -534,7 +551,8 @@
                   Schlegelmilch, Kirsch (Hgg.), Quellen. Zur Revolution vgl. Späth, Revolution in
                   Europa, S. 117–128.</note> and<pb n="184r"/>
                     <rs xml:id="n.9">
-                        <country>Portugal</country></rs>,<note type="editorial" target="#n.9">In Portugal war am <date when="1820-08-24">24. August 1820</date>
+                        <country>Portugal</country>
+                    </rs>,<note type="editorial" target="#n.9">In Portugal war am <date when="1820-08-24">24. August 1820</date>
                   ebenfalls eine Revolution ausgebrochen; vgl. Birmingham, A Concise History, S.
                   111–113.</note> that His Government continues to be of opinion that the state of
                neither of those Kingdoms, however critically and anxiously circumstanced, can
@@ -564,7 +582,8 @@
                   </choice> 6.</note>
                     <rs xml:id="n.11">Dispatch of <date when="1820-10-29">October
                         29<hi rendition="#su">th</hi>
-                        </date></rs>, recently addressed to the <rs ref="#p.137" type="person">Undersigned</rs> concerning the late Events in
+                        </date>
+                    </rs>, recently addressed to the <rs ref="#p.137" type="person">Undersigned</rs> concerning the late Events in
                   <country>Portugal</country>.</p>
             <p>
                     There only remains for the <rs ref="#p.137" type="person">Undersigned</rs> to observe upon the idea, which prevails throughout these
@@ -591,7 +610,8 @@
             <p>
                <rs xml:id="n.12">The Memoir presented by the <rs ref="#p.9 #p.10" type="multi-person">British
                      Plenipotentiaries</rs> on that occasion, bearing date the <date when="1818-09-15">15<hi rendition="#su">th</hi> September
-                  1818</date></rs>,<note type="editorial" target="#n.12">Der Kongress von <placeName ref="#loc.1">Aachen</placeName> begann erst am <date when="1818-09-29">29.
+                  1818</date>
+                    </rs>,<note type="editorial" target="#n.12">Der Kongress von <placeName ref="#loc.1">Aachen</placeName> begann erst am <date when="1818-09-29">29.
                      September</date>. In den Dokumenten zum Kongress von Aachen im ÖStA, HHStA
                   liegt kein entsprechendes Dokument ein. Ein entsprechendes Memorandum findet
                   Erwähnung bei Webster, Foreign Policy, Bd. 2, S. 134–139, sowie bei Jarrett,
@@ -645,13 +665,15 @@
             <signed>
                     <persName ref="#p.137">
                         <surname>Vane</surname>
-                  <surname>Stewart</surname></persName>
+                  <surname>Stewart</surname>
+                    </persName>
                 </signed>
          </div>
 
          <div hand="#A" decls="#m.3">
             <pb n="157r"/>
-            <p>The <rs ref="#p.137" type="person">English Ambassador at the Court of <placeName ref="#loc.7">Vienna</placeName></rs>, in placing by order of His Court the <ref decls="#m.2">Official Note hereunto annexed</ref> on the Journal of the Conferences, is commanded additionally to
+            <p>The <rs ref="#p.137" type="person">English Ambassador at the Court of <placeName ref="#loc.7">Vienna</placeName>
+                    </rs>, in placing by order of His Court the <ref decls="#m.2">Official Note hereunto annexed</ref> on the Journal of the Conferences, is commanded additionally to
                state that, had the time admitted of it, this Official Document would have been
                accompanied by a more detailed Developement of the reasoning upon which the British
                Government deems it necessary as well to decline being a Party to any League or
@@ -669,7 +691,8 @@
                         <abbr>Sept<hi rendition="#su">r</hi>
                                 </abbr>
                         <expan>September</expan>
-                     </choice> 1818</date></rs>,<note type="editorial" target="#n.15">Der Kongress
+                     </choice> 1818</date>
+                    </rs>,<note type="editorial" target="#n.15">Der Kongress
                   von <placeName ref="#loc.1">Aachen</placeName> begann erst am <date when="1818-09-29">29. September</date>. In den Dokumenten zum Kongress von
                   Aachen im ÖStA, HHStA liegt kein entsprechendes Dokument ein. Ein entsprechendes
                   Memorandum findet Erwähnung bei Webster, Foreign Policy, Bd. 2, S. 134–139, sowie
@@ -684,7 +707,8 @@
                   Plénipotentiaire</rs> de <rs ref="#p.130" type="person">Sa Majesté Britannique</rs> ayant reçu
                l’ordre de Sa Cour de communiquer à Son Altesse Monsieur le <persName ref="#p.8">
                         <roleName>Prince</roleName>
-                  <surname>de Metternich</surname></persName>, Ministre d’Etat et des Affaires
+                  <surname>de Metternich</surname>
+                    </persName>, Ministre d’Etat et des Affaires
                Etrangères de <rs ref="#p.16" type="person">Sa Majesté Impériale et <choice>
                      <abbr>Roy.</abbr>
                      <expan>Royale</expan>
@@ -699,7 +723,8 @@
                 </closer>
             <add place="bottom">À Son Altesse Monsieur le <persName ref="#p.8">
                <roleName>Prince</roleName>
-               <surname>de Metternich</surname></persName> Ministre d’Etat et des Affaires
+               <surname>de Metternich</surname>
+                    </persName> Ministre d’Etat et des Affaires
                Étrangères <choice>
                   <abbr>etc.</abbr>
                   <expan>et cetera</expan>
@@ -743,8 +768,10 @@
                in any future discussions that may take place on this subject.</p>
             <p>
                     <rs ref="#p.9" type="person">I</rs> consider it may be convenient in this Dispatch to lay wholly
-               out of view the Instructions transmitted to the <rs ref="#p.144 #p.148 #p.149" type="multi-person">Austrian, Prussian and Russian Ministers<pb n="131r"/> at <placeName ref="#loc.11">Naples</placeName></rs>, together with the <ref target="Troppau_Prot_4.xml">Autographic Letters</ref> addressed by
-               the August <rs ref="#p.16 #p.18 #p.17" type="multi-person">Sovereigns assembled at <placeName ref="#loc.60">Troppau</placeName></rs> to <rs ref="#p.138" type="person">His Sicilian
+               out of view the Instructions transmitted to the <rs ref="#p.144 #p.148 #p.149" type="multi-person">Austrian, Prussian and Russian Ministers<pb n="131r"/> at <placeName ref="#loc.11">Naples</placeName>
+                    </rs>, together with the <ref target="Troppau_Prot_4.xml">Autographic Letters</ref> addressed by
+               the August <rs ref="#p.16 #p.18 #p.17" type="multi-person">Sovereigns assembled at <placeName ref="#loc.60">Troppau</placeName>
+                    </rs> to <rs ref="#p.138" type="person">His Sicilian
                   Majesty</rs>.</p>
             <p>
                     <ref decls="#m.2">The Note, which <rs ref="#p.137" type="person">Your Excellency</rs> has already
@@ -755,7 +782,8 @@
                   expedient<pb n="131v"/> to appoint a Plenipotentiary to take part in His Majesty’s
                name in the proposed Discussions at <placeName ref="#loc.65">Laybach</placeName>; but
                   <rs ref="#p.130" type="person">His Majesty</rs> sees no objection to <rs ref="#p.137 #p.146" type="multi-person">His
-                  Ministers at <placeName ref="#loc.7">Vienna</placeName> and <placeName ref="#loc.11">Naples</placeName></rs> (should They receive Invitations from the
+                  Ministers at <placeName ref="#loc.7">Vienna</placeName> and <placeName ref="#loc.11">Naples</placeName>
+                    </rs> (should They receive Invitations from the
                Sovereigns to whom They are respectively accredited) accompanying <rs ref="#p.16 #p.138" type="multi-person">Their Majesties</rs> to such interview, and when there, to
                Their assisting at any Conferences which may be held in<pb n="132r"/> the same manner
                and under the same reserve as has been prescribed to <rs ref="#p.137" type="person">Your
@@ -770,7 +798,8 @@
                the <rs ref="#p.8 #p.40 #p.11 #p.12 #p.136 #p.13 #p.14 #p.121" type="multi-person">Plenipotentiaries
                   of the three Powers</rs>, without any previous Communication with the <rs ref="#p.137 #p.102 #p.135" type="multi-person">British and French Ministers</rs>.</p>
             <p>The formal Signatures to this Protocol having, in consequence of <rs ref="#p.137" type="person">Your Excellency’s</rs> observations, been withdrawn, it was declared on the <rs xml:id="n.18">Proceedings of the following day by the Memoirs of the<pb n="133r"/>
-                  three Courts</rs><note type="editorial" target="#n.18">Liegen nicht ein – bei den
+                  three Courts</rs>
+                    <note type="editorial" target="#n.18">Liegen nicht ein – bei den
                   <q>Proceedings of the following day</q> handelt es sich vermutlich um eine der
                   vertraulichen Zusammenkünfte Österreichs, Preußens und Russlands.</note> that they
                regarded this Document rather in the nature of a <hi rendition="#u">Projét</hi>, than
@@ -805,7 +834,8 @@
                   States,<pb n="135v"/> not being Parties to its obligations?</p>
             <p>Before we examine this, it may be well to state generally the nature of its
                provisions.</p>
-            <p>It professes to assign to the contracting Parties under the name of <rs xml:id="n.30">the Alliance</rs><note type="editorial" target="#n.30">
+            <p>It professes to assign to the contracting Parties under the name of <rs xml:id="n.30">the Alliance</rs>
+                    <note type="editorial" target="#n.30">
                         <q>the Alliance</q> mit Bleistift unterstrichen.</note> the right and the duty of declaring any
                particular State, in which a change of Government has been effectuated by what they
                   <add place="inline">may</add> deem irregular or illegal means, to be <hi rendition="#u">ipso<pb n="136r"/> facto</hi> excluded from the European Alliance:
@@ -823,7 +853,8 @@
                   <quote>“une application légitime et salutaire des principes, sur lesquels se fonde
                   Leur Alliance”</quote>. – It may be asked from what Principle of existing Treaties
                the Alliance finds Itself entitled to draw such a conclusion. Certainly not from the
-                  <rs ref="#t.6" type="treaties">Treaty of Alliance of November 1815, signed at <placeName ref="#loc.2">Paris</placeName></rs>.</p>
+                  <rs ref="#t.6" type="treaties">Treaty of Alliance of November 1815, signed at <placeName ref="#loc.2">Paris</placeName>
+                    </rs>.</p>
             <p>At the close of an unexampled war carried<pb n="137v"/> on against Them by the
                Revolutionary Government of <country>France</country> the Allies, under the
                extraordinary Circumstances of being obliged a second time to march Their Armies into
@@ -833,7 +864,8 @@
                justify the Alliance in placing all Europe, including so many States that were
                associated as Allies in that <rs xml:id="n.31">struggle, in the same
                   state of <hi rendition="#u">surveillance</hi> as was then on special grounds
-                  applied to <country>France</country>.</rs><note target="#n.31" type="editorial">
+                  applied to <country>France</country>.</rs>
+                    <note target="#n.31" type="editorial">
                         <q>struggle, in the same
                      state of <hi rendition="#u">surveillance</hi> as was then on special grounds
                      applied to France.</q> mit Bleistift hervorgehoben.</note>
@@ -857,7 +889,8 @@
                accede to this League and thus, by their voluntary<pb n="139v"/> consent, to submit
                themselves in such cases to the Jurisdiction of the Alliance?</p>
             <p>Can it be supposed that all the other States of Europe will choose to accede <rs xml:id="n.32">to such a System? And if not – what is to be the position of the
-               non-acceding States?</rs><note type="editorial" target="#n.32">
+               non-acceding States?</rs>
+                    <note type="editorial" target="#n.32">
                         <q>to such a System? And if not – what is to be the position of the
                   non-acceding States?</q> mit Bleistift hervorgehoben.</note>
                 </p>
@@ -880,7 +913,8 @@
             <p>Are then the Great Powers of Europe prepared to admit or to recognize such a
                Principle, as that Their respective Territories are thrown open to this<pb n="141r"/>
                extent to each other’s approach upon cases of assumed necessity or expediency, of
-               which not the Party receiving aid, but <rs xml:id="n.19">the Party administering</rs><note type="editorial" target="#n.19">
+               which not the Party receiving aid, but <rs xml:id="n.19">the Party administering</rs>
+                    <note type="editorial" target="#n.19">
                         <q>the Party administering</q> durch Bleistift-Kreuz auf Korrekturrand hervorgehoben.</note> it is to be the Judge?</p>
             <p>I should much doubt whether such a Doctrine would be palatable in any one of the
                great Monarchies in question; but with regard to <country>Great Britain</country>, no
@@ -922,7 +956,8 @@
             <p>In this Case no such Conventional arrangement has been or can well be made.</p>
             <p>
                     <rs xml:id="n.20">The claim to exercise such a
-                       Power</rs><note type="editorial" target="#n.20">
+                       Power</rs>
+                    <note type="editorial" target="#n.20">
                         <q>The claim to exercise such a
                           Power</q> durch Bleistift-Kreuz auf Korrekturrand hervorgehoben.</note> may not only excite among the Nations of Europe great uneasiness,
                but may provoke sooner or later Counter-Alliances.</p>
@@ -937,7 +972,9 @@
             <p>It cannot be incorporated with the acknowledged practice of Nations, or provided for
                beforehand by the ordinary Forms of Diplomatic Transactions. Such an innovation<pb n="145r"/> seems the less called for in the present moment, as after preliminary
                explanation with Their Allies the Three Powers have taken Their <rs xml:id="n.21">determination upon the particular point of
-                     <country>Naples</country></rs><note target="#n.21" type="editorial">
+                     <country>Naples</country>
+                    </rs>
+                    <note target="#n.21" type="editorial">
                         <q>determination upon the particular point of Naples</q> durch Bleistift-Kreuz auf Korrekturrand hervorgehoben.</note> as freely as They could have done under
                the existence of such a Protocol.</p>
             <p>If the other Powers have pursued a different course of Policy, They have neither
@@ -951,14 +988,18 @@
                Factions in all Countries and animate the well-disposed with more Confidence to
                resist their evil Machinations.</p>
             <p>But would not the<pb n="146r"/>
-               <rs xml:id="n.22">course of Measures, in which the <rs ref="#p.16 #p.18 #p.17" type="multi-person">Three Allied Sovereigns</rs></rs><note type="editorial" target="#n.22">
+               <rs xml:id="n.22">course of Measures, in which the <rs ref="#p.16 #p.18 #p.17" type="multi-person">Three Allied Sovereigns</rs>
+                    </rs>
+                    <note type="editorial" target="#n.22">
                         <q>course of Measures, in which the Three Allied Sovereigns</q> durch Bleistift-Kreuz auf Korrekturrand hervorgehoben.</note> are engaged in
                the case of <country>Naples</country>, speak more forcibly for itself, than any
                written instrument proceeding from the same Parties could do?</p>
-            <p>If however a Declaration of the Sovereigns is, in <rs xml:id="n.23">addition, deemed necessary</rs><note target="#n.23" type="editorial">
+            <p>If however a Declaration of the Sovereigns is, in <rs xml:id="n.23">addition, deemed necessary</rs>
+                    <note target="#n.23" type="editorial">
                         <q>addition, deemed necessary</q> durch Bleistift-Kreuz auf Korrekturrand hervorgehoben.</note> to enforce their Sentiments
                or to awaken the deluded to reflection, might not such a Declaration <rs xml:id="n.24">find its place in Ministerial Notes,
-                  explanatory of the</rs><note type="editorial" target="#n.24">
+                  explanatory of the</rs>
+                    <note type="editorial" target="#n.24">
                         <q>find its place in Ministerial Notes,
                      explanatory of the</q> durch Bleistift-Kreuz auf Korrekturrand hervorgehoben.</note> Considerations which have determined their
                   Interference<pb n="146v"/> in this particular case, and without hazarding a new
@@ -993,7 +1034,8 @@
             <p>
                     <rs xml:id="n.25">
                         <rs ref="#p.137" type="person">Your Lordship</rs>,
-                       for the reasons above stated,</rs><note target="#n.25" type="editorial">
+                       for the reasons above stated,</rs>
+                    <note target="#n.25" type="editorial">
                         <q>Your Lordship, for the reasons above stated,</q> durch Bleistift-Kreuz auf Korrekturrand hervorgehoben.</note> and many others of a most cogent nature,
                which it would swell this Communication too much<pb n="149r"/> to enumerate, will
                decline, in the name of Your Court, being an acceding Party to the Protocols in
@@ -1001,7 +1043,8 @@
             <p>You will distinctly understand that this determination on the part of His Majesty’s
                Government does not rest upon the <rs xml:id="n.26">
                         Form or Phrases
-               </rs><note type="editorial" target="#n.26">
+               </rs>
+                    <note type="editorial" target="#n.26">
                         <q>Form or Phrases</q> durch Bleistift-Kreuz auf Korrekturrand hervorgehoben und mit Bleistift unterstrichen.</note> of the particular
                Instruments, <rs xml:id="n.27">and consequently is not susceptible of
                   being removed by any partial modification of their stipulations</rs>.<note target="#n.27" type="editorial">
@@ -1012,7 +1055,8 @@
                upon which these Protocols rest, namely that of rendering the Powers either of the
                existing or of any other Alliance avowedly and <hi rendition="#u">systematically
                   applicable</hi>
-               <rs xml:id="n.28">under any Circumstances</rs><note type="editorial" target="#n.28">
+               <rs xml:id="n.28">under any Circumstances</rs>
+                    <note type="editorial" target="#n.28">
                         <q>under any Circumstances</q> mit Bleistift unterstrichen.</note> to the internal
                Transactions of independent States.</p>
             <p>The British Government will always claim on their own behalf and will recognize in
@@ -1044,7 +1088,8 @@
                Despotism than to conduct them to any improved System of regular Liberty.</p>
             <p>But the Disapprobation<pb n="152r"/> and the dread of those perilous evils must not
                be permitted to hurry them into the opposite, and as they would regard it, not less
-               fatal extreme of becoming (as the Protocol appears to contemplate) <rs xml:id="n.29">armed Guardians of all Thrones,</rs><note target="#n.29" type="editorial">
+               fatal extreme of becoming (as the Protocol appears to contemplate) <rs xml:id="n.29">armed Guardians of all Thrones,</rs>
+                    <note target="#n.29" type="editorial">
                         <q>armed Guardians of all Thrones,</q> durch Bleistift-Markierung auf Korrekturand hervorgehoben.</note>
                without even regard to the Principles upon which the Powers of Government are
                administered.</p>
@@ -1090,17 +1135,421 @@
                moral and political ferment no human foresight can estimate, and no Combination of
                its Powers may be able to controul.</p>
             <p>Signed <persName ref="#p.9">
-                        <surname>Castlereagh</surname></persName>
+                        <surname>Castlereagh</surname>
+                    </persName>
                 </p>
          </div>
       </body>
-      <back>
-         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../indices/listplace.xml" xpointer="listPlace"/>
-         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../indices/listperson.xml" xpointer="listPerson"/>
-         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../indices/listwit.xml" xpointer="listWit"/>
-         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../indices/listorg.xml" xpointer="listOrg"/>
-         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../indices/listtreaties.xml" xpointer="listTreaties"/>
-
-      </back>
-   </text>
+      
+   <back>
+            <listPerson>
+                <person xml:id="p.5">
+                    <persName>
+                        <forename>Friedrich</forename>
+                        <surname>Gentz</surname>
+                    </persName>
+                    <birth>1764</birth>
+                    <death>1832</death>
+                    <note>Protokollführer; vgl. zu seiner Person Kronenbitter, Wort und Macht;
+                        Cahen, Gentz; Mann, Friedrich von Gentz; Schneider, Werner, Europa in Wien,
+                        S. 169–170.</note>
+                    <idno type="URI">https://viaf.org/viaf/2522018/</idno>
+                </person>
+                <person xml:id="p.9">
+                    <persName>
+                        <forename>Robert </forename>
+                        <surname>Stewart</surname>
+                        <roleName>Viscount Castlereagh</roleName>
+                    </persName>
+                    <birth>1769</birth>
+                    <death>1822</death>
+                    <note>Britischer Außenminister; vgl zu seiner Person Bew, Castlereagh; Webster,
+                        Foreign Policy; Bartlett, Castlereagh; Thorne, Stewart, Robert, Viscount
+                        Castlereagh and second marquess of Londonderry. In: ODNB, Bd. 52, S.
+                        749–757.</note>
+                    <idno type="URI">https://viaf.org/viaf/15560591/</idno>
+                </person>
+                <person xml:id="p.137">
+                    <persName>
+                        <forename>Charles William</forename>
+                        <surname>Stewart Vane</surname>
+                        <roleName>Lord Stewart</roleName>
+                        
+                    </persName>
+                    <birth>1778</birth>
+                    <death>1854</death>
+                    <note>Britischer Botschafter in Wien, Mitglied der britischen Delegation bei den
+                        Kongress von Troppau, Laibach und Verona, ab 1822 Charles William Vane, 3<hi rendition="#su">rd</hi> Marquess of Londonderry vgl. zu seiner Person
+                        Lloyd, Heersom, Vane [formerly Stewart], Charles William. In: ODNB, Bd. 56,
+                        S. 95–98; Schneider, Werner, Europa in Wien, S. 292–293.</note>
+                    <idno type="URI">https://viaf.org/viaf/8284837/</idno>
+                </person>
+                <person xml:id="p.102">
+                    <persName>
+                        <forename>Louis Charles Victor</forename>
+                        <surname>de Riquet</surname>
+                        <roleName>marquis de Caraman</roleName>
+                    </persName>
+                    <birth>1762</birth>
+                    <death>1839</death>
+                    <note>1818 Gesandter Frankreichs in London, 1820 Gesandter Frankreichs in Wien,
+                        1820/21 Vertreter Frankreichs auf den Kongressen von Troppau, Laibach und
+                        Verona; vgl. zu seiner Person Michaud, Biographie Universelle, Bd. 6, S.
+                        630–631.</note>
+                    <idno type="URI">https://viaf.org/viaf/2675/</idno>
+                </person>
+                <person xml:id="p.135">
+                    <persName>
+                        <forename>Auguste</forename>
+                        <surname>Ferron</surname>
+                        <roleName>comte de La Ferronnays</roleName>
+                    </persName>
+                    <birth>1777</birth>
+                    <death>1842</death>
+                    <note>Französischer Botschafter in St. Petersburg, Mitglied der französischen
+                        Delegation in Troppau und Verona; vgl. zu seiner Person Michaud, Biographie
+                        Universelle, Bd. 14, S. 24–25.</note>
+                    <idno type="URI">https://viaf.org/viaf/2463675/</idno>
+                </person>
+                <person xml:id="p.121">
+                    <persName>
+                        <forename>Yuri Alexandrovich</forename>
+                        <roleName>Graf</roleName>
+                        <surname>von Golovkin</surname>
+                    </persName>
+                    <birth>1762</birth>
+                    <death>1846</death>
+                    <note>1818 Gesandter Russlands im Großherzogtum Baden, 1820 Gesandter Russlands
+                        in Wien, Mitglied der russischen Delegation beim Kongress von Troppau.</note>
+                    <idno type="URI">https://viaf.org/viaf/311466653/</idno>
+                </person>
+                <person xml:id="p.11">
+                    <persName>
+                        <forename>Karl August</forename>
+                        <roleName>Fürst</roleName>
+                        <surname>von Hardenberg</surname>
+                    </persName>
+                    <birth>1750</birth>
+                    <death>1822</death>
+                    <note>Preußischer Staatskanzler, Bevollmächtigter Preußens; vgl. zu seiner
+                        Person Gall, Hardenberg; Schneider, Werner, Europa in Wien, S. 184–185;
+                        Capefigue, Les diplomates européens, S. 275–316; Stamm-Kuhlmann, Freier
+                        Gebrauch.</note>
+                    <idno type="URI">https://viaf.org/viaf/4975077/</idno>
+                </person>
+                <person xml:id="p.14">
+                    <persName>
+                        <forename>Ioannis Antonis</forename>
+                        <roleName>Graf</roleName>
+                        <surname>Kapodistrias/Capodistrias</surname>
+                    </persName>
+                    <birth>1776</birth>
+                    <death>1831</death>
+                    <note>Russischer Außenminister, Bevollmächtigter Russlands; vgl. zu seiner
+                        Person Woodhouse, Capodistrias; Grimsted, The Foreign Ministers, S. 226–268;
+                        Schneider, Werner, Europa in Wien, S. 199–200.</note>
+                    <idno type="URI">https://viaf.org/viaf/39507057/</idno>
+                </person>
+                <person xml:id="p.136">
+                    <persName>
+                        <forename>Friedrich Wilhelm Ludwig</forename>
+                        <surname>von Krusemarck</surname>
+                    </persName>
+                    <birth>1767</birth>
+                    <death>1822</death>
+                    <note>Mitglied der preußischen Delegation beim Kongress von Troppau; vgl.
+                        Bailleu, Krusemarck, Friedrich Wilhelm Ludwig von. In: ADB, Bd. 17, S.
+                        269–270.</note>
+                    <idno type="URI">https://viaf.org/viaf/72148713/</idno>
+                </person>
+                <person xml:id="p.40">
+                    <persName>
+                        <forename>Ludwig</forename>
+                        <roleName>Graf</roleName>
+                        <surname>von Lebzeltern</surname>
+                    </persName>
+                    <birth>1774</birth>
+                    <death>1854</death>
+                    <note>Österreichischer Botschafter in St. Petersburg, Mitglied der
+                        österreichischen Delegation beim Kongress von Troppau; vgl. zu seiner Person
+                        Lebzeltern Ludwig Graf. In: ÖBL, Bd. 5, S. 69; Wurzbach, Lebzeltern, Ludwig
+                        Graf, Bd. 14, S. 280–281.</note>
+                    <idno type="URI">https://viaf.org/viaf/12070162/</idno>
+                </person>
+                <person xml:id="p.8">
+                    <persName>
+                        <surname>Metternich</surname>
+                        <forename>Clemens Wenzel Lothar</forename>
+                        <roleName>Fürst</roleName>
+                    </persName>
+                    <birth>1773</birth>
+                    <death>1859</death>
+                    <note>Österreichischer Außenminister, ab 1821 österreichischer Haus-, Hof- und
+                        Staatskanzler; vgl. zu seiner Person Siemann, Metternich; Šedivý,
+                        Metternich; Srbik, Metternich; Schneider, Werner, Europa in Wien, S.
+                        237–239.</note>
+                    <idno type="URI">https://viaf.org/viaf/49258230/</idno>
+                </person>
+                <person xml:id="p.13">
+                    <persName>
+                        <forename>Karl Robert</forename>
+                        <roleName>Graf</roleName>
+                        <surname>von Nesselrode</surname>
+                    </persName>
+                    <birth>1780</birth>
+                    <death>1862</death>
+                    <note>Russischer Außenminister, Bevollmächtigter Russlands; vgl. zu seiner
+                        Person Eich, Nesselrode, Robert Graf von. In: NDB, Bd. 19, S. 74–75;
+                        Grimsted, The Foreign Ministers, S. 194–225, 269–286; Schneider, Werner,
+                        Europa in Wien, S. 248–249.</note>
+                    <idno type="URI">https://viaf.org/viaf/49992065/</idno>
+                </person>
+                <person xml:id="p.12">
+                    <persName>
+                        <forename>Christian Günther</forename>
+                        <roleName>Graf</roleName>
+                        <surname>von Bernstorff</surname>
+                    </persName>
+                    <birth>1769</birth>
+                    <death>1835</death>
+                    <note>Preußischer Außenminister, Bevollmächtigter Preußens; vgl. zu seiner
+                        Person Kellenbenz, Bernstorff, Christian Graf von. In: NDB, Bd. 2, S.
+                        139–140; Schneider, Werner, Europa in Wien, S. 116–117.</note>
+                    <idno type="URI">https://viaf.org/viaf/49969175/</idno>
+                </person>
+                <person xml:id="p.130">
+                    <persName>
+                        <surname>George IV.</surname>
+                        <roleName>König des Vereinigten Königreichs Großbritannien und Irland, König
+                            von Hannover</roleName>
+                    </persName>
+                    <birth>1762</birth>
+                    <death>1830</death>
+                    <note>Zwischen 1811 und 1820 Prinzregent; vgl. zu seiner Person Hibbert, George
+                        IV. In: ODNB, Bd. 21, S. 856–864; Smith, George IV.</note>
+                    <idno type="URI">https://viaf.org/viaf/265481029/</idno>
+                </person>
+                <person xml:id="p.146">
+                    <persName>
+                        <forename>William</forename>
+                        <surname>A’Court</surname>
+                        <roleName>1<hi rendition="#su">st</hi> Baron Heytesbury</roleName>
+                    </persName>
+                    <birth>1779</birth>
+                    <death>1860</death>
+                    <note>1820 britischer Botschafter in Neapel, 1822 britischer Botschafter in
+                        Madrid; vgl. zu seiner Person Chamberlain, A’Court, William, first Baron
+                        Heytesbury. In: ODNB, Bd. 1, S. 162–163.</note>
+                    <idno type="URI">http://viaf.org/viaf/315945654/</idno>
+                </person>
+                <person xml:id="p.30">
+                    <persName>
+                        <surname>Ferdinand/Fernando VII.</surname>
+                        <roleName>König von Spanien</roleName>
+                    </persName>
+                    <birth>1784</birth>
+                    <death>1833</death>
+                    <note>Vgl. zu seiner Person Sánchez Mantero, Fernando VII.</note>
+                    <idno type="URI">https://viaf.org/viaf/286447916/</idno>
+                </person>
+                <person xml:id="p.28">
+                    <persName>
+                        <surname>Jõao/Johann VI.</surname>
+                        <roleName>König von Portugal und Brasilien</roleName>
+                    </persName>
+                    <birth>1767</birth>
+                    <death>1826</death>
+                    <idno type="URI">https://viaf.org/viaf/269013446/</idno>
+                </person>
+                <person xml:id="p.10">
+                    <persName>
+                        <forename>Arthur</forename>
+                        <surname>Wellesley</surname>, <roleName>1<hi rendition="#su">st</hi> duke of
+                            Wellington</roleName>
+                    </persName>
+                    <birth>1769</birth>
+                    <death>1852</death>
+                    <note>Bevollmächtigter Großbritanniens; vgl. zu seiner Person zuletzt Muir,
+                        Wellington; Gash, Wellesley, Arthur, first duke of Wellington. In: ODNB, Bd.
+                        58, S. 1–29.</note>
+                    <idno type="URI">https://viaf.org/viaf/2465308/</idno>
+                </person>
+                <person xml:id="p.16">
+                    <persName>
+                        <surname>Franz I.</surname>
+                        <roleName>Kaiser von Österreich</roleName>
+                    </persName>
+                    <birth>1768</birth>
+                    <death>1835</death>
+                    <note>Vgl. Mikoletzky, Franz II. (I.); Schneider, Werner, Europa in Wien, S.
+                        154–155; Ziegler, Franz II./I.</note>
+                    <idno type="URI">https://viaf.org/viaf/36912131/</idno>
+                </person>
+                <person xml:id="p.18">
+                    <persName>
+                        <surname>Friedrich Wilhelm III.</surname>
+                        <roleName>König von Preußen</roleName>
+                    </persName>
+                    <birth>1770</birth>
+                    <death>1840</death>
+                    <note>Vgl. Stamm-Kuhlmann, König in Preußens großer Zeit; Ders., Friedrich
+                        Wilhelm III; Schneider, Werner, Europa in Wien, S. 161–162.</note>
+                    <idno type="URI">https://viaf.org/viaf/774683/</idno>
+                </person>
+                <person xml:id="p.17">
+                    <persName>
+                        <surname>Alexander I.</surname>
+                        <roleName>Zar von Russland</roleName>
+                    </persName>
+                    <birth>1777</birth>
+                    <death>1825</death>
+                    <note>Vgl. Rey, Alexander I.; Schneider, Werner, Europa in Wien, S.
+                        100–102.</note>
+                    <idno type="URI">https://viaf.org/viaf/4938543/</idno>
+                </person>
+                <person xml:id="p.144">
+                    <persName>
+                        <forename>Karl</forename>
+                        <surname>von Menz</surname>
+                    </persName>
+                    <birth>1780</birth>
+                    <death>1847</death>
+                    <note>Österreichischer chargé d’affaires in Neapel; vgl. Matsch, Der auswärtige
+                        Dienst, S. 128.</note>
+                    <idno type="URI">https://viaf.org/viaf/160546908/</idno>
+                </person>
+                <person xml:id="p.148">
+                    <persName>
+                        <forename>Friedrich Wilhelm Basilius</forename>
+                        <surname>von Ramdohr</surname>
+                    </persName>
+                    <birth>1757</birth>
+                    <death>1822</death>
+                    <note>Preußischer Gesandter in Neapel; vgl. zu seiner Person Frensdorff,
+                        Ramdohr, Friedrich Wilhelm Basilius von. In: ADB, Bd. 27, S. 210–212.</note>
+                    <idno type="URI">http://viaf.org/viaf/100206277/</idno>
+                </person>
+                <person xml:id="p.149">
+                    <persName>
+                        <forename>Gustav Ernst</forename>
+                        <roleName>Graf</roleName>
+                        <surname>von Stackelberg</surname>
+                    </persName>
+                    <birth>1766</birth>
+                    <death>1850</death>
+                    <note>Russischer Gesandter in Neapel; vgl. zu seiner Person Stackelberg, Gustav
+                        Ernst Gf. v. In: Baltisches Biographisches Lexikon, S. 748–749; Schneider,
+                        Werner, Europa in Wien, S. 288.</note>
+                    <idno type="URI">http://viaf.org/viaf/37699259/</idno>
+                </person>
+                <person xml:id="p.138">
+                    <persName>
+                        <surname>Ferdinand/Ferdinando I.</surname>
+                        <roleName>König beider Sizilien</roleName>
+                    </persName>
+                    <birth>1751</birth>
+                    <death>1825</death>
+                    <note>1759-1806 Ferdinand IV. von Neapel, 1769-1815 Ferdinand III. von Sizilien,
+                        ab 1815/16 König beider Sizilien vgl. de Maio, Ferdinando I di Bourbone, re
+                        delle due Sicilie, auf <ref target="http://www.treccani.it/enciclopedia/ferdinando-i-di-borbone-re-delle-due-sicilie_(Dizionario-Biografico">http://www.treccani.it/enciclopedia/ferdinando-i-di-borbone-re-delle-due-sicilie_(Dizionario-Biografico</ref>)
+                        (eingesehen am 31. Juli 2017).</note>
+                    <idno type="URI">https://viaf.org/viaf/16073751/</idno>
+                </person>
+                <person xml:id="p.50">
+                    <persName>
+                        <forename>Napoleon I.</forename>
+                        <surname>Bonaparte</surname>
+                    </persName>
+                    <birth>1769</birth>
+                    <death>1821</death>
+                    <note>Vgl. zu seiner Person z. B. Ullrich, Napoleon; Fournier, Napoleon I.
+                        Dwyer, Napoleon; Dwyer, Citizen Emperor; Tulard, Napoleon; Broers, Napoleon
+                        (2 Bde.).</note>
+                    <idno type="URI">https://viaf.org/viaf/106964661/</idno>
+                </person>
+                <person xml:id="p.15">
+                    <persName>
+                        <surname>Ludwig/Louis XVIII.</surname>
+                        <roleName> König von Frankreich</roleName>
+                    </persName>
+                    <birth>1755</birth>
+                    <death>1824</death>
+                    <note>Vgl. Malettke, Die Bourbonen; Thamer, Ludwig XVIII.; Mansel, Louis
+                        XVIII.</note>
+                    <idno type="URI">https://viaf.org/viaf/84035484/</idno>
+                </person>
+            </listPerson>
+            <listPlace>
+                <place xml:id="loc.60">
+               <placeName>Troppau</placeName>
+               <placeName>Opava</placeName>
+               <location>
+                        <geo>49.93866 17.90257</geo>
+                    </location>
+                    <idno type="URI">http://sws.geonames.org/3068927/</idno>
+            </place>
+                <place xml:id="loc.7">
+                <placeName>Wien</placeName>
+               <placeName>Vienne</placeName>
+               
+               <location>
+                        <geo>48.2082 16.37169</geo>
+                    </location>
+                    <idno type="URI">http://sws.geonames.org/2761367/</idno>
+            </place>
+                <place xml:id="loc.1">
+                <placeName>Aachen</placeName>
+               <placeName>Aix-la-Chapelle</placeName>
+               
+               <location>
+                        <geo>50.77664 6.08342</geo>
+                    </location>
+                    <idno type="URI">http://sws.geonames.org/3247449/</idno>
+            </place>
+                <place xml:id="loc.11">
+                <placeName>Neapel</placeName>
+               <placeName>Naples</placeName>
+               
+               <location>
+                        <geo>40.85216 14.26811</geo>
+                    </location>
+                    <idno type="URI">http://sws.geonames.org/3172394/</idno>
+            </place>
+                <place xml:id="loc.65">
+               <placeName>Laibach</placeName>
+               <placeName>Laybach</placeName>
+               <placeName>Ljubljana</placeName>
+               <location>
+                        <geo>46.05108 14.50513</geo>
+                    </location>
+                    <idno type="URI">http://sws.geonames.org/3196359/</idno>
+            </place>
+                <place xml:id="loc.2">
+               <placeName>Paris</placeName>
+               <location>
+                        <geo>48.85341 2.3488</geo>
+                    </location>
+                    <idno type="URI">http://sws.geonames.org/2988507/</idno>
+            </place>
+            </listPlace>
+            <listBibl>
+                <bibl xml:id="t.6">Quadrupelallianz zwischen Österreich, Großbritannien, Preußen und
+               Russland, Paris 20. November 1815; vgl. Näf, Europapolitik, S. 12–15; Martens,
+               Supplément au Recueil, Bd. 6, S. 734–738; Angeberg, Congrès, Bd. 4, S. 1636–1639;
+               BFSP Bd. 3 (1815/16), S. 273–280.</bibl>
+                <bibl xml:id="t.12">Wiener Kongressakte vom 9. Juni 1815; vgl. Klüber, Acten, Bd. 6, S.
+               12–208; Angeberg, Congrès, Bd. 2, S. 1386–1433; Martens, Nouveau Recueil, Bd. 2, S.
+               361–430; BFSP Bd. 2 (1814/15), S 3–180; <ref target="http://www.staatsvertraege.de/Frieden1814-15/wka1815-i.htm">http://www.staatsvertraege.de/Frieden1814-15/wka1815-i.htm</ref> (eingesehen am
+               15. November 2012).</bibl>
+                <bibl xml:id="t.1">Zweiter Pariser Frieden zwischen Österreich, Großbritannien, Preußen und Russland auf der
+               einen, Frankreich auf der anderen Seite, Paris 20. November 1815; vgl. BFSP Bd. 3 (1815/16), S. 280–293;
+               Grewe, Fontes, Bd. 3/1, S. 10–18; Clercq, Recueil, Bd. 2, S. 642–650; Martens,
+               Nouveau Recueil, Bd. 2, S. 682–691; <ref target="http://www.staatsvertraege.de/Frieden1814-15/2pfv1815-i.htm">http://www.staatsvertraege.de/Frieden1814-15/2pfv1815-i.htm</ref> (deutsch; eingesehen
+               am 31. Oktober 2012).</bibl>
+                <bibl xml:id="t.44">Britische Thronfolgeregelung von 1701; abgedruckt in Browning (Hg.),
+               English Historical Documents, S. 129–134; online auf <ref target="http://www.jacobite.ca/documents/1701settlement.htm">http://www.jacobite.ca/documents/1701settlement.htm</ref> (eingesehen am 3.
+               August 2017).</bibl>
+            </listBibl>
+        </back>
+    </text>
 </TEI>

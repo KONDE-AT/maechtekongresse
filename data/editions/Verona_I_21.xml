@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/maechtekongresse/editions" xml:id="Verona_I_21.xml" prev="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Verona_I_20.xml" next="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Verona_I_22.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
 <title type="main">Kongress von Verona</title> 
             <title type="main">I. Affaires d’Espagne</title>
-            <title type="main">Note Bernstorffs an den preußischen Geschäftsträger in Madrid </title>
+            <title type="main">Note Bernstorffs an den preußischen Geschäftsträger in Madrid</title>
             <title type="sub">Digitale Edition</title>
             <editor>
                <persName>
@@ -56,8 +56,10 @@
                Zeitgeschichtsforschung</publisher>
             <pubPlace>Wien</pubPlace>
 <date when="2018-09-23" change="#initial">2018-09-23</date>
-            <idno>V_I_21</idno><idno type="ISBN" n="9783950478303">978-3-9504783-0-3</idno>
-                 <availability>           <licence target="https://creativecommons.org/licenses/by-sa/4.0/legalcode.de">https://creativecommons.org/licenses/by-sa/4.0/legalcode.de</licence>         </availability> </publicationStmt>
+            <idno>V_I_21</idno>
+                <idno type="ISBN" n="9783950478303">978-3-9504783-0-3</idno>
+                 <availability>           <licence target="https://creativecommons.org/licenses/by-sa/4.0/legalcode.de">https://creativecommons.org/licenses/by-sa/4.0/legalcode.de</licence>         </availability> <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="handle">http://hdl.handle.net/21.11115/0000-000C-1F08-A</tei:idno>
+            </publicationStmt>
             <notesStmt>
     <note>Vergleiche auch die Projektbeschreibung in der <ref type="URI" target="../meta/Einleitung.xml">Einleitung</ref> sowie die Dokumentation der Applikation unter <ref type="URI" target="../meta/about.xml">„Über diese Webseite“</ref>.</note>
 </notesStmt>
@@ -76,8 +78,10 @@
                <msContents>
                   <msItem>
                      <title>Note <persName ref="#p.12">
-                                    <surname>Bernstorffs</surname></persName> an
-                        den <rs ref="#p.178" type="person">preußischen Geschäftsträger in <placeName ref="#loc.24">Madrid</placeName></rs>
+                                    <surname>Bernstorffs</surname>
+                                </persName> an
+                        den <rs ref="#p.178" type="person">preußischen Geschäftsträger in <placeName ref="#loc.24">Madrid</placeName>
+                                </rs>
                             </title>
                   </msItem>
                </msContents>
@@ -139,7 +143,8 @@
       </encodingDesc>
       <profileDesc>
          <abstract>
-            <p>Das preußische Kabinett beauftragt den <rs ref="#p.178" type="person">Geschäftsträger in <placeName ref="#loc.24">Madrid</placeName></rs>, der spanischen Regierung ihre Sichtweise
+            <p>Das preußische Kabinett beauftragt den <rs ref="#p.178" type="person">Geschäftsträger in <placeName ref="#loc.24">Madrid</placeName>
+                    </rs>, der spanischen Regierung ihre Sichtweise
                in Hinblick auf die inneren Zustände Spaniens und die daraus resultierenden
                Konsequenzen auf die Ruhe in Europa nahezubringen und zu erklären, dass vor der
                Wiederherstellung der Beziehungen zwischen <country>Spanien</country> und den
@@ -179,7 +184,8 @@
                         <choice>
                      <abbr>S. M.</abbr>
                      <expan>Sa Majesté</expan>
-                  </choice> Catholique</rs><note type="editorial" target="#n.1">Ehrentitel des
+                  </choice> Catholique</rs>
+                    <note type="editorial" target="#n.1">Ehrentitel des
                   Königs von Spanien. </note> et à la Nation espagnole.</p>
             <p>Cette Nation si distinguée par la loyauté et l’énergie de son caractère, illustrée
                par tant de siècles de gloire et de vertus, et à jamais célèbre par le noble
@@ -201,7 +207,8 @@
             <pb n="301v"/>
             <p>On crut pouvoir remplacer cet édifice, en arrachant à un <rs ref="#p.30" type="person">Souverain</rs>, déjà dépouillé de toute autorité réelle et de toute liberté de
                volonté, <rs xml:id="n.3">le rétablissement de la Constitution des Cortes de l’année
-                  1812</rs><note type="editorial" target="#n.3">Verfassung von Cádiz aus dem Jahr
+                  1812</rs>
+                    <note type="editorial" target="#n.3">Verfassung von Cádiz aus dem Jahr
                   1812, in <country>Spanien</country> wieder eingeführt 1820; vgl. Timmermann, Die
                   „Gemäßigte Monarchie“; BFSP Bd. 6 (1819/20), S. 237–279; Brand, Schlegelmilch,
                   Kirsch (Hgg.), Quellen. </note> qui, confondant tous les élémens et tous les
@@ -298,13 +305,113 @@
                franchement et clairement sur ce qui en fait l’objet.</p>
          </div>
       </body>
-      <back>
-         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../indices/listplace.xml" xpointer="listPlace"/>
-         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../indices/listperson.xml" xpointer="listPerson"/>
-         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../indices/listwit.xml" xpointer="listWit"/>
-         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../indices/listorg.xml" xpointer="listOrg"/>
-         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../indices/listtreaties.xml" xpointer="listTreaties"/>
-
-      </back>
-   </text>
+      
+   <back>
+            <listPerson>
+                <person xml:id="p.12">
+                    <persName>
+                        <forename>Christian Günther</forename>
+                        <roleName>Graf</roleName>
+                        <surname>von Bernstorff</surname>
+                    </persName>
+                    <birth>1769</birth>
+                    <death>1835</death>
+                    <note>Preußischer Außenminister, Bevollmächtigter Preußens; vgl. zu seiner
+                        Person Kellenbenz, Bernstorff, Christian Graf von. In: NDB, Bd. 2, S.
+                        139–140; Schneider, Werner, Europa in Wien, S. 116–117.</note>
+                    <idno type="URI">https://viaf.org/viaf/49969175/</idno>
+                </person>
+                <person xml:id="p.178">
+                    <persName>
+                        <forename>Daniel Andreas Berthold</forename>
+                        <surname>von Schepeler</surname>
+                    </persName>
+                    <birth>1780</birth>
+                    <death>1849</death>
+                    <note>1822 preußischer Gesandter in Madrid; vgl. Conversations-Lexikon der
+                        Gegenwart, Bd. 4, S. 851–852.</note>
+                    <idno type="URI">http://viaf.org/viaf/60197947/</idno>
+                </person>
+                <person xml:id="p.30">
+                    <persName>
+                        <surname>Ferdinand/Fernando VII.</surname>
+                        <roleName>König von Spanien</roleName>
+                    </persName>
+                    <birth>1784</birth>
+                    <death>1833</death>
+                    <note>Vgl. zu seiner Person Sánchez Mantero, Fernando VII.</note>
+                    <idno type="URI">https://viaf.org/viaf/286447916/</idno>
+                </person>
+                <person xml:id="p.18">
+                    <persName>
+                        <surname>Friedrich Wilhelm III.</surname>
+                        <roleName>König von Preußen</roleName>
+                    </persName>
+                    <birth>1770</birth>
+                    <death>1840</death>
+                    <note>Vgl. Stamm-Kuhlmann, König in Preußens großer Zeit; Ders., Friedrich
+                        Wilhelm III; Schneider, Werner, Europa in Wien, S. 161–162.</note>
+                    <idno type="URI">https://viaf.org/viaf/774683/</idno>
+                </person>
+                <person xml:id="p.16">
+                    <persName>
+                        <surname>Franz I.</surname>
+                        <roleName>Kaiser von Österreich</roleName>
+                    </persName>
+                    <birth>1768</birth>
+                    <death>1835</death>
+                    <note>Vgl. Mikoletzky, Franz II. (I.); Schneider, Werner, Europa in Wien, S.
+                        154–155; Ziegler, Franz II./I.</note>
+                    <idno type="URI">https://viaf.org/viaf/36912131/</idno>
+                </person>
+                <person xml:id="p.17">
+                    <persName>
+                        <surname>Alexander I.</surname>
+                        <roleName>Zar von Russland</roleName>
+                    </persName>
+                    <birth>1777</birth>
+                    <death>1825</death>
+                    <note>Vgl. Rey, Alexander I.; Schneider, Werner, Europa in Wien, S.
+                        100–102.</note>
+                    <idno type="URI">https://viaf.org/viaf/4938543/</idno>
+                </person>
+                <person xml:id="p.50">
+                    <persName>
+                        <forename>Napoleon I.</forename>
+                        <surname>Bonaparte</surname>
+                    </persName>
+                    <birth>1769</birth>
+                    <death>1821</death>
+                    <note>Vgl. zu seiner Person z. B. Ullrich, Napoleon; Fournier, Napoleon I.
+                        Dwyer, Napoleon; Dwyer, Citizen Emperor; Tulard, Napoleon; Broers, Napoleon
+                        (2 Bde.).</note>
+                    <idno type="URI">https://viaf.org/viaf/106964661/</idno>
+                </person>
+            </listPerson>
+            <listPlace>
+                <place xml:id="loc.24">
+               <placeName>Madrid</placeName>
+               <location>
+                        <geo>40.4165 -3.70256</geo>
+                    </location>
+                    <idno type="URI">http://sws.geonames.org/3117735/</idno>
+            </place>
+                <place xml:id="loc.68">
+               <placeName>Verona</placeName>
+                <placeName>Vérone</placeName>
+               <location>
+                        <geo>45.4299 10.98444</geo>
+                    </location>
+                    <idno type="URI">http://sws.geonames.org/3164527/</idno>
+            </place>
+                <place xml:id="loc.9">
+               <placeName>Berlin</placeName>
+               <location>
+                        <geo>52.52437 13.41053</geo>
+                    </location>
+                    <idno type="URI">http://sws.geonames.org/2950159/</idno>
+            </place>
+            </listPlace>
+        </back>
+    </text>
 </TEI>

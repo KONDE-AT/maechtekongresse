@@ -5,7 +5,7 @@
 
         
 <!--    top collection -->
-    <acdh:Collection rdf:about="https://id.acdh.oeaw.ac.at/kongress">
+    <acdh:Collection rdf:about="https://id.acdh.oeaw.ac.at/maechtekongresse">
         <acdh:hasTitle>Mächtekongresse 1818–1822. Digitale Edition</acdh:hasTitle>
         <acdh:hasDescription>
             Digitale Edition der Dokumente zu den Kongressen von Aachen (1818), Troppau (1820), Laibach (1821) und Verona (1822).
@@ -88,7 +88,7 @@
         <acdh:hasCreator>
             <acdh:Person rdf:about="http://d-nb.info/gnd/13281899X"/>
         </acdh:hasCreator>
-        <acdh:isPartOf rdf:resource="https://id.acdh.oeaw.ac.at/kongress"/>
+        <acdh:isPartOf rdf:resource="https://id.acdh.oeaw.ac.at/maechtekongresse"/>
     </acdh:Collection>
 
     <acdh:Collection rdf:about="https://id.acdh.oeaw.ac.at/maechtekongresse/editions">
@@ -101,7 +101,7 @@
         <acdh:hasContributor>
             <acdh:Person rdf:about="http://d-nb.info/gnd/13281899X"/>
         </acdh:hasContributor>
-        <acdh:isPartOf rdf:resource="https://id.acdh.oeaw.ac.at/kongress"/>
+        <acdh:isPartOf rdf:resource="https://id.acdh.oeaw.ac.at/maechtekongresse"/>
     </acdh:Collection>
 
     <acdh:Collection rdf:about="https://id.acdh.oeaw.ac.at/maechtekongresse/indices">
@@ -114,7 +114,7 @@
         <acdh:hasCreator>
             <acdh:Person rdf:about="http://d-nb.info/gnd/136442196"/>
         </acdh:hasCreator>
-        <acdh:isPartOf rdf:resource="https://id.acdh.oeaw.ac.at/kongress"/>
+        <acdh:isPartOf rdf:resource="https://id.acdh.oeaw.ac.at/maechtekongresse"/>
     </acdh:Collection>
 
     <acdh:Collection rdf:about="https://id.acdh.oeaw.ac.at/maechtekongresse/utils">
@@ -127,7 +127,7 @@
         <acdh:hasCreator>
             <acdh:Person rdf:about="http://d-nb.info/gnd/13281899X"/>
         </acdh:hasCreator>
-        <acdh:isPartOf rdf:resource="https://id.acdh.oeaw.ac.at/kongress"/>
+        <acdh:isPartOf rdf:resource="https://id.acdh.oeaw.ac.at/maechtekongresse"/>
     </acdh:Collection>
     
     <acdh:Resource rdf:about="https://id.acdh.oeaw.ac.at/maechtekongresse/utils/tei2html.xsl">

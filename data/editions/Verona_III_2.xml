@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/maechtekongresse/editions" xml:id="Verona_III_2.xml" prev="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Verona_III_1.xml" next="https://id.acdh.oeaw.ac.at/maechtekongresse/editions/Verona_III_3.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -56,11 +56,13 @@
             <publisher>Österreichische Akademie der Wissenschaften, Institut für Neuzeit- und Zeitgeschichtsforschung</publisher>
             <pubPlace>Wien</pubPlace>
             <date when="2018-09-23" change="#initial">2018-09-23</date>
-            <idno>V_III_2</idno><idno type="ISBN" n="9783950478303">978-3-9504783-0-3</idno>
+            <idno>V_III_2</idno>
+                <idno type="ISBN" n="9783950478303">978-3-9504783-0-3</idno>
                  <availability>           
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/legalcode.de">https://creativecommons.org/licenses/by-sa/4.0/legalcode.de</licence>
                  </availability> 
-         </publicationStmt>
+         <tei:idno xmlns:tei="http://www.tei-c.org/ns/1.0" type="handle">http://hdl.handle.net/21.11115/0000-000C-1F20-E</tei:idno>
+            </publicationStmt>
             <notesStmt>
     <note>Vergleiche auch die Projektbeschreibung in der <ref type="URI" target="../meta/Einleitung.xml">Einleitung</ref> sowie die Dokumentation der Applikation unter <ref type="URI" target="../meta/about.xml">„Über diese Webseite“</ref>.</note>
 </notesStmt>
@@ -84,7 +86,8 @@
                <physDesc>
                   <p>Originalprotokoll</p>
                   <p>Procès-verbal liegt zweifach ein: handschriftliches Konzept von <persName ref="#p.5">
-                                <surname>Gentz</surname></persName> fol. III/32, Reinschrift fol.
+                                <surname>Gentz</surname>
+                            </persName> fol. III/32, Reinschrift fol.
                      III/31; die Edition folgt der Reinschrift.</p>
                   <p>Die angegebene Variante bezieht sich auf das Konzept.</p>
                   <p>Anwesenheitsliste ist nicht überliefert, sondern wurde aus dem Kontext rekonstruiert.</p>
@@ -185,7 +188,8 @@
                   <p>Lithographie</p>
                   <p>Anlage 3 liegt dreifach ein: handschriftlich fol. III/42 und III/47–48,
                      handschriftliches Konzept von <persName ref="#p.5">
-                                <surname>Gentz</surname></persName> fol. III/43–45, lithographiert fol.
+                                <surname>Gentz</surname>
+                            </persName> fol. III/43–45, lithographiert fol.
                      III/40–41. Die Edition folgt der lithographierten Variante.</p>
                </physDesc>
                <history>
@@ -297,19 +301,22 @@
                   <expan>Monsieur</expan>
                </choice> le <persName ref="#p.102">
                         <roleName>Marquis</roleName>
-                  <surname>de Caraman</surname></persName>, <choice>
+                  <surname>de Caraman</surname>
+                    </persName>, <choice>
                   <abbr>M<hi rendition="#su">r</hi>
                         </abbr>
                   <expan>Monsieur</expan>
                </choice> le <persName ref="#p.175">
                         <roleName>Prince</roleName>
-                  <surname>de Hatzfeld</surname></persName> et <choice>
+                  <surname>de Hatzfeld</surname>
+                    </persName> et <choice>
                   <abbr>M<hi rendition="#su">r</hi>
                         </abbr>
                   <expan>Monsieur</expan>
                </choice> le <persName ref="#p.10">
                         <roleName>Duc</roleName>
-                  <surname>de Wellington</surname></persName> ont lu et déposé celles qui se trouvent ci-annexées <hi rendition="#u">sub</hi> <ref target="#m.2">A.</ref>, <ref target="#m.3">B</ref> et
+                  <surname>de Wellington</surname>
+                    </persName> ont lu et déposé celles qui se trouvent ci-annexées <hi rendition="#u">sub</hi> <ref target="#m.2">A.</ref>, <ref target="#m.3">B</ref> et
                   <ref target="#m.4">C</ref>.
             </p>
             <p>
@@ -319,7 +326,8 @@
                   <expan>Monsieur</expan>
                </choice> le Conseiller intime actuel <persName ref="#p.35">
                         <surname>de
-                     Tatischeff</surname></persName>, prévoyant qu’il recevroit de <rs ref="#p.17" type="person">
+                     Tatischeff</surname>
+                    </persName>, prévoyant qu’il recevroit de <rs ref="#p.17" type="person">
                         <choice>
                      <abbr>S. M. I.</abbr>
                      <expan>Sa Majesté Impériale</expan>
@@ -374,7 +382,8 @@
             <p>Les sentimens nobles et généreux, qui caractérisent depuis si long temps toutes les
                déterminations de Sa Majesté l’<rs ref="#p.17" type="person">Empereur de toutes les Russies</rs>,
                n’ont jamais permis à <rs xml:id="n.3" ref="#p.15" type="person">Sa Majesté Très
-                  Chrétienne</rs><note type="editorial" target="#n.3">Ehrentitel des Königs von
+                  Chrétienne</rs>
+                    <note type="editorial" target="#n.3">Ehrentitel des Königs von
                   Frankreich.</note> d’élever le moindre doute sur ce qu’Elle avait droit d’attendre
                de <rs ref="#p.17" type="person">Son Auguste Allié</rs> dans une circonstance où le repos de
                l’Europe se trouvait dépendant de Ses hautes résolutions.</p>
@@ -386,7 +395,8 @@
                   <expan>Monsieur</expan>
                </choice> le <rs ref="#p.35" type="person">Plénipotentiaire Russe</rs>.</p>
             <p>Le <rs ref="#p.102" type="person">Soussigné</rs> s’empresse d’assurer Monsieur<pb n="34v"/> le <rs ref="#p.35" type="person">Plénipotentiaire de Russie</rs> que son Gouvernement ne négligera
-               aucun des moyens qui sont en son pouvoir pour engager le <rs xml:id="n.4">Divan</rs><note type="editorial" target="#n.4">Osmanischer Staatsrat.</note> à
+               aucun des moyens qui sont en son pouvoir pour engager le <rs xml:id="n.4">Divan</rs>
+                    <note type="editorial" target="#n.4">Osmanischer Staatsrat.</note> à
                satisfaire au plutôt la Cour de Russie sur les conditions auxquelles Elle a réduit
                Ses prétentions envers la Porte.</p>
             <p>En unissant ses efforts à ceux de Ses Augustes Alliés pour hâter autant que possible
@@ -413,7 +423,8 @@
                      </choice> 1822</date>.</add>
                 </metamark>
             
-                    <head>Déclaration du <rs ref="#p.175" type="person">Plénipotentiaire de Sa Majesté le <rs ref="#p.18" type="person">Roi de Prusse</rs></rs> au Protocole du <date when="1822-11-26">26 Novembre 1822</date>
+                    <head>Déclaration du <rs ref="#p.175" type="person">Plénipotentiaire de Sa Majesté le <rs ref="#p.18" type="person">Roi de Prusse</rs>
+                    </rs> au Protocole du <date when="1822-11-26">26 Novembre 1822</date>
                     </head>
                 
             <p>Le <rs ref="#p.175" type="person">Plénipotentiaire de Prusse</rs> pour les Affaires de l’Orient est
@@ -425,7 +436,8 @@
                dans la <ref target="Verona_III_1.xml">Déclaration que le Cabinet d’Autriche a fait
                   insérer en réponse à celle du Plénipotentiaire de Russie au Protocole du <date when="1822-11-09">9 Novembre</date>
                     </ref>, et que le <rs ref="#p.193" type="person">Chargé
-                  d’Affaires de Prusse à <placeName ref="#loc.81">Constantinople</placeName></rs>
+                  d’Affaires de Prusse à <placeName ref="#loc.81">Constantinople</placeName>
+                    </rs>
                recevra les ordres les plus précis de joindre ses efforts à ceux des Ambassadeurs des
                Cours alliées pour obtenir enfin l’accomplissement des justes demandes du Cabinet de
                Russie, et pour écarter par là les griefs qui s’opposent encore au rétablissement des
@@ -449,12 +461,14 @@
                      <expan>Monsieur</expan>
                   </choice> le <persName ref="#p.10">
                             <roleName>Duc</roleName>
-                     <surname>de Wellington</surname></persName> au Protocole de la Conférence du
+                     <surname>de Wellington</surname>
+                    </persName> au Protocole de la Conférence du
                      <date when="1822-11-26">26 Novembre 1822</date>
                     </head>
                 
             <p>Le <rs ref="#p.10" type="person">Plénipotentiaire de <rs ref="#p.130" type="person">Sa Majesté
-                  Britannique</rs></rs> a déjà, depuis son arrivée au Congrès, saisi une occasion
+                  Britannique</rs>
+                    </rs> a déjà, depuis son arrivée au Congrès, saisi une occasion
                pour déclarer combien le <rs ref="#p.130" type="person">Roi</rs>, son Maître, reconnait la
                magnanimité et la modération de Son Auguste Allié l’<rs ref="#p.17" type="person">Empereur de
                   Russie</rs> dans les discussions récentes avec la Porte Ottomane ; et c’est avec
@@ -470,7 +484,8 @@
             <p>Le but des Cours alliées a été constamment celui d’engager la Porte par Leurs
                représentations à remplir les stipulations de ses traités avec <rs ref="#p.17" type="person">Sa
                   Majesté Impériale</rs>. Et maintenant, que des <rs ref="#p.194 #p.195" type="multi-person">
-                        <rs xml:id="n.5">Hospodars</rs><note type="editorial" target="#n.5">Titel der
+                        <rs xml:id="n.5">Hospodars</rs>
+                        <note type="editorial" target="#n.5">Titel der
                      Fürsten in Moldau und der Walachei.</note> ont été nommés et investis du
                   Gouvernement des Principautés de Valachie et de Moldavie</rs>, que les troupes
                Ottomanes ont été retirées de ces Provinces, que la Porte a proclamé et dans
@@ -491,7 +506,8 @@
                   der <country>Walachei</country> verboten; vgl. Calic, Südosteuropa, S. 253. </note> Quoique cette
                notification ne soit pas exigée par les traités, elle serait cependant une démarche
                si évidemment propre à manifester le désir de la Porte de voir les relations d’amitié
-               et de bon voisinage rétablies entre les deux Puissances, que l’<rs ref="#p.58" type="person">Ambassadeur de <rs ref="#p.130" type="person">Sa Majesté Britannique</rs> à <placeName ref="#loc.81">Constantinople</placeName></rs> proposera et emploira avec
+               et de bon voisinage rétablies entre les deux Puissances, que l’<rs ref="#p.58" type="person">Ambassadeur de <rs ref="#p.130" type="person">Sa Majesté Britannique</rs> à <placeName ref="#loc.81">Constantinople</placeName>
+                    </rs> proposera et emploira avec
                empressement ses bons offices pour que la Porte s’y décide le plus tôt possible.</p>
             <p>Le commerce de la Mer noire, et la manière dont il pourra être affecté par les
                règlemens de douane de la Porte, doit nécessairement offrir un sujet de sollicitude à
@@ -511,13 +527,240 @@
                d’une partie quelconque des Etats de Sa Majesté Impériale.</p>
          </div>
       </body>
-      <back>
-         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../indices/listplace.xml" xpointer="listPlace"/>
-         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../indices/listperson.xml" xpointer="listPerson"/>
-         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../indices/listwit.xml" xpointer="listWit"/>
-         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../indices/listorg.xml" xpointer="listOrg"/>
-         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../indices/listtreaties.xml" xpointer="listTreaties"/>
-
-      </back>
-   </text>
+      
+   <back>
+            <listPerson>
+                <person xml:id="p.5">
+                    <persName>
+                        <forename>Friedrich</forename>
+                        <surname>Gentz</surname>
+                    </persName>
+                    <birth>1764</birth>
+                    <death>1832</death>
+                    <note>Protokollführer; vgl. zu seiner Person Kronenbitter, Wort und Macht;
+                        Cahen, Gentz; Mann, Friedrich von Gentz; Schneider, Werner, Europa in Wien,
+                        S. 169–170.</note>
+                    <idno type="URI">https://viaf.org/viaf/2522018/</idno>
+                </person>
+                <person xml:id="p.102">
+                    <persName>
+                        <forename>Louis Charles Victor</forename>
+                        <surname>de Riquet</surname>
+                        <roleName>marquis de Caraman</roleName>
+                    </persName>
+                    <birth>1762</birth>
+                    <death>1839</death>
+                    <note>1818 Gesandter Frankreichs in London, 1820 Gesandter Frankreichs in Wien,
+                        1820/21 Vertreter Frankreichs auf den Kongressen von Troppau, Laibach und
+                        Verona; vgl. zu seiner Person Michaud, Biographie Universelle, Bd. 6, S.
+                        630–631.</note>
+                    <idno type="URI">https://viaf.org/viaf/2675/</idno>
+                </person>
+                <person xml:id="p.175">
+                    <persName>
+                        <forename>Franz Ludwig</forename>
+                        <roleName>Graf</roleName>
+                        <surname>von Hatzfeldt</surname>
+                    </persName>
+                    <birth>1756</birth>
+                    <death>1827</death>
+                    <note>1822 preußischer Gesandter in Wien und den Niederlanden; vgl. Bringmann,
+                        Handbuch der Diplomatie, S. 312 und S. 334, zu seiner Person Wurzbach,
+                        Biographisches Lexikon, Bd. 8, S. 52; Priesdorff, Soldatisches Führertum,
+                        Bd. 2, S. 446–449.</note>
+                    <idno type="URI">http://viaf.org/viaf/8166997/</idno>
+                </person>
+                <person xml:id="p.10">
+                    <persName>
+                        <forename>Arthur</forename>
+                        <surname>Wellesley</surname>, <roleName>1<hi rendition="#su">st</hi> duke of
+                            Wellington</roleName>
+                    </persName>
+                    <birth>1769</birth>
+                    <death>1852</death>
+                    <note>Bevollmächtigter Großbritanniens; vgl. zu seiner Person zuletzt Muir,
+                        Wellington; Gash, Wellesley, Arthur, first duke of Wellington. In: ODNB, Bd.
+                        58, S. 1–29.</note>
+                    <idno type="URI">https://viaf.org/viaf/2465308/</idno>
+                </person>
+                <person xml:id="p.8">
+                    <persName>
+                        <surname>Metternich</surname>
+                        <forename>Clemens Wenzel Lothar</forename>
+                        <roleName>Fürst</roleName>
+                    </persName>
+                    <birth>1773</birth>
+                    <death>1859</death>
+                    <note>Österreichischer Außenminister, ab 1821 österreichischer Haus-, Hof- und
+                        Staatskanzler; vgl. zu seiner Person Siemann, Metternich; Šedivý,
+                        Metternich; Srbik, Metternich; Schneider, Werner, Europa in Wien, S.
+                        237–239.</note>
+                    <idno type="URI">https://viaf.org/viaf/49258230/</idno>
+                </person>
+                <person xml:id="p.35">
+                    <persName>
+                        <forename>Dimitry Pavlovich</forename>
+                        <surname>Tatistcheff</surname>
+                    </persName>
+                    <birth>1767</birth>
+                    <death>1845</death>
+                    <note>1818 russischer Botschafter in Madrid; vgl. zu seiner Person Татищев
+                        Дмитрий Павлович. In: Russkij biografičeskij slovar’, Bd. 20, S.
+                        237–349.</note>
+                    <idno type="URI">https://viaf.org/viaf/38900750/</idno>
+                </person>
+                <person xml:id="p.17">
+                    <persName>
+                        <surname>Alexander I.</surname>
+                        <roleName>Zar von Russland</roleName>
+                    </persName>
+                    <birth>1777</birth>
+                    <death>1825</death>
+                    <note>Vgl. Rey, Alexander I.; Schneider, Werner, Europa in Wien, S.
+                        100–102.</note>
+                    <idno type="URI">https://viaf.org/viaf/4938543/</idno>
+                </person>
+                <person xml:id="p.15">
+                    <persName>
+                        <surname>Ludwig/Louis XVIII.</surname>
+                        <roleName> König von Frankreich</roleName>
+                    </persName>
+                    <birth>1755</birth>
+                    <death>1824</death>
+                    <note>Vgl. Malettke, Die Bourbonen; Thamer, Ludwig XVIII.; Mansel, Louis
+                        XVIII.</note>
+                    <idno type="URI">https://viaf.org/viaf/84035484/</idno>
+                </person>
+                <person xml:id="p.18">
+                    <persName>
+                        <surname>Friedrich Wilhelm III.</surname>
+                        <roleName>König von Preußen</roleName>
+                    </persName>
+                    <birth>1770</birth>
+                    <death>1840</death>
+                    <note>Vgl. Stamm-Kuhlmann, König in Preußens großer Zeit; Ders., Friedrich
+                        Wilhelm III; Schneider, Werner, Europa in Wien, S. 161–162.</note>
+                    <idno type="URI">https://viaf.org/viaf/774683/</idno>
+                </person>
+                <person xml:id="p.193">
+                    <persName>
+                        <forename>Friedrich Heinrich Leopold</forename>
+                        <surname>von Schladen</surname>
+                    </persName>
+                    <birth>1772</birth>
+                    <death>1845</death>
+                    <note>1822 preußischer Chargé d’affaires in Konstantinopel; vgl. zu seiner
+                        Person Bailleu, Schladen, Friedrich Heinrich Leopold von. In: ADB, Bd. 31,
+                        S. 324–325.</note>
+                    <idno type="URI">https://viaf.org/viaf/67238881/</idno>
+                </person>
+                <person xml:id="p.130">
+                    <persName>
+                        <surname>George IV.</surname>
+                        <roleName>König des Vereinigten Königreichs Großbritannien und Irland, König
+                            von Hannover</roleName>
+                    </persName>
+                    <birth>1762</birth>
+                    <death>1830</death>
+                    <note>Zwischen 1811 und 1820 Prinzregent; vgl. zu seiner Person Hibbert, George
+                        IV. In: ODNB, Bd. 21, S. 856–864; Smith, George IV.</note>
+                    <idno type="URI">https://viaf.org/viaf/265481029/</idno>
+                </person>
+                <person xml:id="p.194">
+                    <persName>
+                        <forename>Ioan Sandu</forename>
+                        <surname>Sturdza</surname>
+                    </persName>
+                    <persName>
+                        <forename>Ioniţă Sandu</forename>
+                        <surname>Sturdza</surname>
+                    </persName>
+                    <birth>1761/62</birth>
+                    <death>1842</death>
+                    <note>Hospodar von Moldau von 1822 bis 1828; vgl. zu seiner Person Sturdza,
+                        Sturdza. In: Bernrath u. A. (Hg.), Biographisches Lexikon zur Geschichte
+                        Südosteuropas, Bd. 4, S. 219–222.</note>
+                </person>
+                <person xml:id="p.195">
+                    <persName>
+                        <forename>Grigore IV.</forename>
+                        <surname>Ghica</surname>
+                    </persName>
+                    <persName>
+                        <forename>Grigore Dimitrie</forename>
+                        <surname>Ghica</surname>
+                    </persName>
+                    <birth>1755</birth>
+                    <death>1834</death>
+                    <note>Hospodar der Walachei von 1822 bis 1828; vgl. zu seiner Person Ghermani,
+                        Ionescu, Ghica. In: Bernrath u. A. (Hg.), Biographisches Lexikon zur
+                        Geschichte Südosteuropas, Bd. 2, S. 47–49.</note>
+                    <idno type="URI">https://viaf.org/viaf/10670757/</idno>
+                </person>
+                <person xml:id="p.58">
+                    <persName>
+                        <forename>Percy</forename>
+                        <surname>Smythe</surname>, <roleName>6<hi rendition="#su">th</hi> Viscount
+                            Strangford</roleName>
+                    </persName>
+                    <birth>1780</birth>
+                    <death>1855</death>
+                    <note>1818 britischer Botschafter in Stockholm, 1822 britischer Botschafter an
+                        der Hohen Pforte; vgl. zu seiner Person Norgate, Matthew, Smythe, Percy
+                        Clinton Sydney, sixth Viscount Strangford. In: ODNB, Bd. 51, S.
+                        466–467.</note>
+                    <idno type="URI">https://viaf.org/viaf/42194009/</idno>
+                </person>
+                <person xml:id="p.172">
+                    <persName>
+                        <surname>Carlo Felice/Karl Felix</surname>
+                        <roleName>Duc de Genevois</roleName>
+                        <roleName>König von Sardinien-Piemont</roleName>
+                    </persName>
+                    <birth>1765</birth>
+                    <death>1831</death>
+                    <note>Ab 1821 König von Sardinien-Piemont, ab 1824 Herzog von Savoyen; vgl. zu
+                        seiner Person Locorotondo, Carlo Felice di Savoia, re di Sardegna auf <ref target="http://www.treccani.it/enciclopedia/carlo-felice-di-savoia-re-di-sardegna_%28Dizionario-Biografico%29/">http://www.treccani.it/enciclopedia/carlo-felice-di-savoia-re-di-sardegna_%28Dizionario-Biografico%29/</ref>
+                        (eingesehen am 7. August 2017).</note>
+                    <idno type="URI">https://viaf.org/viaf/6003848/k</idno>
+                </person>
+            </listPerson>
+            <listPlace>
+                <place xml:id="loc.68">
+               <placeName>Verona</placeName>
+                <placeName>Vérone</placeName>
+               <location>
+                        <geo>45.4299 10.98444</geo>
+                    </location>
+                    <idno type="URI">http://sws.geonames.org/3164527/</idno>
+            </place>
+                <place xml:id="loc.7">
+                <placeName>Wien</placeName>
+               <placeName>Vienne</placeName>
+               
+               <location>
+                        <geo>48.2082 16.37169</geo>
+                    </location>
+                    <idno type="URI">http://sws.geonames.org/2761367/</idno>
+            </place>
+                <place xml:id="loc.81">
+                <placeName>Konstantinopel</placeName>
+                <placeName>Constantinople</placeName>
+                <placeName>Istanbul</placeName>
+               <location>
+                        <geo>41.01384 28.94966</geo>
+                    </location>
+                    <idno type="URI">http://sws.geonames.org/745044/</idno>
+            </place>
+                <place xml:id="loc.83">
+               <placeName>Bukarest</placeName>
+               <placeName>București</placeName>
+               <location>
+                        <geo>44.43225 26.10626</geo>
+                    </location>
+                    <idno type="URi">http://sws.geonames.org/683506/</idno>
+            </place>
+            </listPlace>
+        </back>
+    </text>
 </TEI>
