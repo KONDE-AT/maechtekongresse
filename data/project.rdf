@@ -16,9 +16,13 @@
                 <acdh:hasFirstName>Karin</acdh:hasFirstName>
             </acdh:Person>
         </acdh:hasPrincipalInvestigator>
+        <acdh:hasLanguage>de</acdh:hasLanguage>
         <acdh:hasCreator>
             <acdh:Person rdf:about="http://d-nb.info/gnd/136442196"/>
         </acdh:hasCreator>
+        <acdh:hasEditor>
+            <acdh:Person rdf:about="http://d-nb.info/gnd/136442196"/>
+        </acdh:hasEditor>
         <acdh:hasContact>
             <acdh:Person rdf:about="http://d-nb.info/gnd/136442196"/>
         </acdh:hasContact>
@@ -38,10 +42,14 @@
             </acdh:Person>
         </acdh:hasContributor>
         <acdh:hasDepositor>
-            <acdh:Person rdf:about="http://d-nb.info/gnd/1043833846"/>
+            <acdh:Person rdf:about="http://d-nb.info/gnd/13281899X"/>
         </acdh:hasDepositor>
-        <acdh:hasCoverageStartDate>1818</acdh:hasCoverageStartDate>
-        <acdh:hasCoverageEndDate>1822</acdh:hasCoverageEndDate>
+        <acdh:hasDepositor>
+            <acdh:Person rdf:about="http://d-nb.info/gnd/136442196"/>
+        </acdh:hasDepositor>
+        <acdh:hasCurator>
+            <acdh:Person rdf:about="http://d-nb.info/gnd/1043833846"/>
+        </acdh:hasCurator>
         <acdh:hasSubject>Wiener Kongress</acdh:hasSubject>
         <acdh:hasSubject>Diplomatiegeschichte</acdh:hasSubject>
         <acdh:hasSubject>Kongress von Aachen</acdh:hasSubject>
@@ -53,6 +61,22 @@
         <acdh:hasSubject>Monarchenkongresse</acdh:hasSubject>
         <acdh:hasSubject>Kongressakten</acdh:hasSubject>
         <acdh:hasNonLinkedIdentifier>ISBN:9783950478303</acdh:hasNonLinkedIdentifier>
+        <acdh:hasMetadataCreator><acdh:Person rdf:about="http://d-nb.info/gnd/1043833846"/></acdh:hasMetadataCreator>
+        <acdh:hasMetadataCreator><acdh:Person rdf:about="http://d-nb.info/gnd/13281899X"/></acdh:hasMetadataCreator>
+        <acdh:hasArrangement>Das Verzeichnis "editions" enthält die Editionsdaten (kommentierte und annotierte Texte aus den Originalquellen), im Ordner "meta" liegen einerseits Bestandsbeschreibungen zu den Quellen, andererseits beschreibende Texte sowohl zur Geschichte des Projekts als auch zur technischen Umsetzung; das Verzeichnis "indices" beinhaltet die Registerdatensätze zu Personen, Orten, Institutionen und verwendeter Literatur (primär und sekundär); das Verzeichnis "utils" beinhaltet die Kernfunktionen der XSL-Transformation aus TEI nach HTML, die der unter https://maechtekongresse.acdh.oeaw.ac.at/ verfügbaren Webapplikation zugrunde liegen.</acdh:hasArrangement>
+        <acdh:hasURL>https://maechtekongresse.acdh.oeaw.ac.at/</acdh:hasURL>
+        <acdh:hasTemporalCoverage>Zwischen Wiener Kongress und Restauration</acdh:hasTemporalCoverage>
+        <acdh:hasCoverageStartDate>1818-09-29</acdh:hasCoverageStartDate>
+        <acdh:hasCoverageEndDate>1822-12-14</acdh:hasCoverageEndDate>
+        <acdh:hasRelatedDiscipline>506011  Politische Geschichte Political history</acdh:hasRelatedDiscipline>
+        <acdh:hasRelatedDiscipline>601008  Geschichtswissenschaft Science of history</acdh:hasRelatedDiscipline>
+        <acdh:hasRelatedDiscipline>601014  Neuere Geschichte Modern history</acdh:hasRelatedDiscipline>
+        <acdh:hasRelatedDiscipline>605007  Digital HumanitiesDigital humanities</acdh:hasRelatedDiscipline>
+        <acdh:hasRelatedDiscipline>508001  ArchivwesenArchive studies</acdh:hasRelatedDiscipline>
+        <acdh:hasSubmissionDate>2018-10-31</acdh:hasSubmissionDate>
+        <acdh:hasAcceptedDate>2019-02-04</acdh:hasAcceptedDate>
+        <acdh:hasTransferDate>2019-06-12</acdh:hasTransferDate>
+        
     </acdh:Collection>
     
     <acdh:Collection rdf:about="https://id.acdh.oeaw.ac.at/maechtekongresse/meta">
@@ -157,7 +181,7 @@
         <acdh:hasLifeCycleStatus rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelifecyclestatus/active"/>
         <acdh:hasCoverageStartDate>1814</acdh:hasCoverageStartDate>
         <acdh:hasCoverageEndDate>1821</acdh:hasCoverageEndDate>
-        <acdh:hasLanguage>1825</acdh:hasLanguage>
+        <acdh:hasLanguage>German</acdh:hasLanguage>
         <acdh:hasStartDate>2009-02-01</acdh:hasStartDate>
         <acdh:hasEndDate>2013-03-31</acdh:hasEndDate>
     </acdh:Project>
@@ -182,9 +206,18 @@
         <acdh:hasCreator>
             <acdh:Person rdf:about="http://d-nb.info/gnd/13281899X"/>
         </acdh:hasCreator>
+        <acdh:hasEditor>
+            <acdh:Person rdf:about="http://d-nb.info/gnd/13281899X"/>
+        </acdh:hasEditor>
+        <acdh:hasCurator>
+            <acdh:Person rdf:about="http://d-nb.info/gnd/13281899X"/>
+        </acdh:hasCurator>
         <acdh:hasCreator>
             <acdh:Person rdf:about="http://d-nb.info/gnd/136442196"/>
         </acdh:hasCreator>
+        <acdh:hasEditor>
+            <acdh:Person rdf:about="http://d-nb.info/gnd/136442196"/>
+        </acdh:hasEditor>
         <acdh:isPartOf rdf:resource="https://id.acdh.oeaw.ac.at/maechtekongresse"/>
     </acdh:Collection>
 
@@ -202,7 +235,7 @@
     </acdh:Collection>
     
     <acdh:Resource rdf:about="https://id.acdh.oeaw.ac.at/maechtekongresse/utils/tei2html.xsl">
-        <acdh:hasTitle>XSL to transform XML/TEI to HTML</acdh:hasTitle>
+        <acdh:hasTitle>XSL to transform XML/TEI to HTML, helper file for ARCHE dissemination service</acdh:hasTitle>
         <acdh:hasCreator>
             <acdh:Person rdf:about="http://d-nb.info/gnd/1043833846"/>
         </acdh:hasCreator>
