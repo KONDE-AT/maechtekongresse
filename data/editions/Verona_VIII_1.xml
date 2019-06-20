@@ -9,7 +9,8 @@
             <title type="main">VIII. Protocole du <date when="1822-11-21">21 Novembre</date>
                concernant La réclamation du <persName ref="#p.204">
                         <roleName>Prince</roleName>
-                  <surname>Aldobrandini</surname></persName>
+                  <surname>Aldobrandini</surname>
+                    </persName>
                 </title>
             <title type="sub">Digitale Edition</title>
             <editor>
@@ -83,13 +84,15 @@
                      <title>Protocole du <date when="1822-11-21">21 Novembre</date> concernant La
                         réclamation du <persName ref="#p.204">
                                     <roleName>Prince</roleName>
-                           <surname>Aldobrandini</surname></persName>
+                           <surname>Aldobrandini</surname>
+                                </persName>
                             </title>
                   </msItem>
                </msContents>
                <physDesc>
                   <p>Originalprotokoll von <persName ref="#p.5">
-                                <surname>Gentz</surname></persName>
+                                <surname>Gentz</surname>
+                            </persName>
                         </p>
                   <p>Protokoll liegt zweifach ein: handschriftliches Original von <persName ref="#p.5">Gentz</persName> fol. VI/20, Abschrift fol. VI/21; die Edition
                      folgt der Originalversion von Gentz.</p>
@@ -134,7 +137,8 @@
             <p>Die Mächte legen die Formalien fest, nach welchen über die Forderungen des <persName ref="#p.204">
                         <roleName>Prinzen</roleName>
                   <forename>Francesco</forename>
-                  <surname>Borghese Aldobrandini</surname></persName> hinsichtlich von Einkünften
+                  <surname>Borghese Aldobrandini</surname>
+                    </persName> hinsichtlich von Einkünften
                aus den Salinen <placeName ref="#loc.87">Kreuznach</placeName> und <placeName ref="#loc.88">Dürkheim</placeName> entschieden werden wird.</p>
          </abstract>
          <particDesc>
@@ -172,7 +176,8 @@
             
                     <head>Protocole <lb/>relatif aux réclamations du <persName ref="#p.204">
                             <roleName>Prince</roleName>
-                     <surname>Aldobrandini</surname></persName>
+                     <surname>Aldobrandini</surname>
+                    </persName>
                     </head>
             
             <opener>
@@ -188,8 +193,11 @@
                   Grande-Bretagne, de Prusse et de Russie</rs> sont convenus avec <rs ref="#p.174" type="person">Son Excellence</rs> de ce qui suit :</p>
             <p>La réclamation formée par le <persName ref="#p.204">
                         <roleName>Prince</roleName>
-                  <surname>Aldobrandini</surname></persName> relativement à une partie des revenus
-               des salines de <placeName ref="#loc.87">Kreutznach</placeName> et de <placeName ref="#loc.88">Dürkheim</placeName> sera soumise à l’examen des <rs ref="#p.2 #p.3 #p.4 #p.7" type="multi-person">Ministres des Quatre Cours accrédités auprès de <rs xml:id="n.1" ref="#p.15" type="person">Sa Majesté Très Chrétienne</rs></rs><note type="editorial" target="#n.1">Ehrentitel des Königs von Frankreich.</note>
+                  <surname>Aldobrandini</surname>
+                    </persName> relativement à une partie des revenus
+               des salines de <placeName ref="#loc.87">Kreutznach</placeName> et de <placeName ref="#loc.88">Dürkheim</placeName> sera soumise à l’examen des <rs ref="#p.2 #p.3 #p.4 #p.7" type="multi-person">Ministres des Quatre Cours accrédités auprès de <rs xml:id="n.1" ref="#p.15" type="person">Sa Majesté Très Chrétienne</rs>
+                    </rs>
+                    <note type="editorial" target="#n.1">Ehrentitel des Königs von Frankreich.</note>
                lesquels, après s’être concertés à ce sujet avec <choice>
                   <abbr>Mr.</abbr>
                   <expan>Monsieur</expan>
@@ -218,40 +226,47 @@
          </div>
       </body>
       
-   <back>
+   
+    <back>
             <listPerson>
                 <person xml:id="p.204">
                     <persName>
                         <forename>Francesco</forename>
-                        <surname>Borghese Aldobrandini</surname></persName>
+                        <surname>Borghese Aldobrandini</surname>
+                    </persName>
                     <birth>1776</birth>
                     <death>1839</death>
                     <note>Vgl. zu seiner Person Di Porto, Borghese Aldobrandini, Francesco auf <ref target="http://www.treccani.it/enciclopedia/francesco-borghese-aldobrandini_(Dizionario-Biografico)/">http://www.treccani.it/enciclopedia/francesco-borghese-aldobrandini_(Dizionario-Biografico)/</ref>
                         (eingesehen am 28. August 2017).</note>
                     <idno type="URI">https://viaf.org/viaf/15831044/</idno>
+                <idno type="GND">http://d-nb.info/gnd/128772646/</idno>
                 </person>
                 <person xml:id="p.5">
                     <persName>
                         <forename>Friedrich</forename>
-                        <surname>Gentz</surname></persName>
+                        <surname>Gentz</surname>
+                    </persName>
                     <birth>1764</birth>
                     <death>1832</death>
                     <note>Protokollführer; vgl. zu seiner Person Kronenbitter, Wort und Macht;
                         Cahen, Gentz; Mann, Friedrich von Gentz; Schneider, Werner, Europa in Wien,
                         S. 169–170.</note>
                     <idno type="URI">https://viaf.org/viaf/2522018/</idno>
+                <idno type="GND">http://d-nb.info/gnd/118538489/</idno>
                 </person>
                 <person xml:id="p.12">
                     <persName>
                         <forename>Christian Günther</forename>
                         <roleName>Graf</roleName>
-                        <surname>von Bernstorff</surname></persName>
+                        <surname>von Bernstorff</surname>
+                    </persName>
                     <birth>1769</birth>
                     <death>1835</death>
                     <note>Preußischer Außenminister, Bevollmächtigter Preußens; vgl. zu seiner
                         Person Kellenbenz, Bernstorff, Christian Graf von. In: NDB, Bd. 2, S.
                         139–140; Schneider, Werner, Europa in Wien, S. 116–117.</note>
                     <idno type="URI">https://viaf.org/viaf/49969175/</idno>
+                <idno type="GND">http://d-nb.info/gnd/116147695/</idno>
                 </person>
                 <person xml:id="p.8">
                     <persName>
@@ -266,24 +281,28 @@
                         Metternich; Srbik, Metternich; Schneider, Werner, Europa in Wien, S.
                         237–239.</note>
                     <idno type="URI">https://viaf.org/viaf/49258230/</idno>
+                <idno type="GND">http://d-nb.info/gnd/118581465/</idno>
                 </person>
                 <person xml:id="p.174">
                     <persName>
                         <forename>Mathieu Jean Félicité</forename>
                         <roleName>Vicomte</roleName>
-                        <surname>de Montmorency-Laval</surname></persName>
+                        <surname>de Montmorency-Laval</surname>
+                    </persName>
                     <birth>1766</birth>
                     <death>1826</death>
                     <note>1821/22 französischer Außenminister, Vertreter Frankreichs auf dem
                         Kongress von Verona; vgl. zu seiner Person Michaud, Biographie universelle,
                         Bd. 29, S. 181-183.</note>
                     <idno type="URI">https://viaf.org/viaf/66610110/</idno>
+                <idno type="GND">http://d-nb.info/gnd/104256060/</idno>
                 </person>
                 <person xml:id="p.13">
                     <persName>
                         <forename>Karl Robert</forename>
                         <roleName>Graf</roleName>
-                        <surname>von Nesselrode</surname></persName>
+                        <surname>von Nesselrode</surname>
+                    </persName>
                     <birth>1780</birth>
                     <death>1862</death>
                     <note>Russischer Außenminister, Bevollmächtigter Russlands; vgl. zu seiner
@@ -291,6 +310,7 @@
                         Grimsted, The Foreign Ministers, S. 194–225, 269–286; Schneider, Werner,
                         Europa in Wien, S. 248–249.</note>
                     <idno type="URI">https://viaf.org/viaf/49992065/</idno>
+                <idno type="GND">http://d-nb.info/gnd/117016462/</idno>
                 </person>
                 <person xml:id="p.10">
                     <persName>
@@ -304,16 +324,19 @@
                         Wellington; Gash, Wellesley, Arthur, first duke of Wellington. In: ODNB, Bd.
                         58, S. 1–29.</note>
                     <idno type="URI">https://viaf.org/viaf/2465308/</idno>
+                <idno type="GND">http://d-nb.info/gnd/118806645/</idno>
                 </person>
                 <person xml:id="p.2">
                     <persName>
                         <forename>Karl</forename>
-                        <surname>von Vincent</surname></persName>
+                        <surname>von Vincent</surname>
+                    </persName>
                     <birth>1757</birth>
                     <death>1834</death>
                     <note>Österreichischer Gesandter in Paris; vgl. zu seiner Person Schlitter,
                         Vincent, Karl Freiherr von. In: ADB, Bd. 39, S 732–734.</note>
                     <idno type="URI">https://viaf.org/viaf/95669732/</idno>
+                <idno type="GND">http://d-nb.info/gnd/139078819/</idno>
                 </person>
                 <person xml:id="p.3">
                     <persName>
@@ -326,29 +349,34 @@
                     <note>Britischer Gesandter in Paris; vgl. zu seiner Person Franklin, Stuart,
                         Charles, Baron Stuart de Rothesay. In: ODNB, Bd. 53, S. 142–143.</note>
                     <idno type="URI">https://viaf.org/viaf/59891081/</idno>
+                <idno type="GND">http://d-nb.info/gnd/119290006/</idno>
                 </person>
                 <person xml:id="p.4">
                     <persName>
                         <forename>Karl Heinrich Friedrich</forename>
                         <roleName>Graf</roleName>
-                        <surname>von der Goltz</surname></persName>
+                        <surname>von der Goltz</surname>
+                    </persName>
                     <birth>1775</birth>
                     <death>1822</death>
                     <note>Preußischer Gesandter in Paris, verstarb während des Kongresses von Verona
                         am 13. Oktober 1822; vgl. zu seiner Person Priesdorff, Soldatisches
                         Führertum, Bd. 7, S. 366–368.</note>
                     <idno type="URI">https://viaf.org/viaf/10626284/</idno>
+                <idno type="GND">http://d-nb.info/gnd/117549088/</idno>
                 </person>
                 <person xml:id="p.7">
                     <persName>
                         <forename>Carlo Andrea</forename>
-                        <surname>Pozzo di Borgo</surname></persName>
+                        <surname>Pozzo di Borgo</surname>
+                    </persName>
                     <birth>1764</birth>
                     <death>1842</death>
                     <note>Russischer Gesandter in Paris; vgl. zu seiner Person Capefigue, Les
                         diplomates européens, S. 123–189; Schneider, Werner, Europa in Wien, S.
                         260–261.</note>
                     <idno type="URI">https://viaf.org/viaf/10593226/</idno>
+                <idno type="GND">http://d-nb.info/gnd/118793187/</idno>
                 </person>
                 <person xml:id="p.15">
                     <persName>
@@ -360,6 +388,7 @@
                     <note>Vgl. Malettke, Die Bourbonen; Thamer, Ludwig XVIII.; Mansel, Louis
                         XVIII.</note>
                     <idno type="URI">https://viaf.org/viaf/84035484/</idno>
+                <idno type="GND">http://d-nb.info/gnd/118780743/</idno>
                 </person>
             </listPerson>
             <listPlace>
