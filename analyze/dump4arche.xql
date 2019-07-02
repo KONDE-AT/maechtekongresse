@@ -36,7 +36,7 @@ let $childCollections_av_dates := for $x in $childCollections
                 <acdh:Person rdf:about="http://d-nb.info/gnd/13281899X"/>
             </acdh:hasCurator>
             <acdh:hasDepositor>
-                <acdh:Person rdf:about="http://d-nb.info/gnd/1043833846"/>
+                <acdh:Person rdf:about="http://d-nb.info/gnd/13281899X"/>
             </acdh:hasDepositor>
             <acdh:hasOwner>
                 <acdh:Person rdf:about="http://d-nb.info/gnd/136442196"/>
@@ -88,7 +88,7 @@ let $RDF :=
                         false()
                     }
                 let $title := try {
-                        <acdh:hasTitle>{normalize-space(string-join($node//tei:titleStmt//tei:title//text()[not(parent::*:note)], ' '))}</acdh:hasTitle>
+                        <acdh:hasTitle xml:lang="de">{normalize-space(string-join($node//tei:titleStmt//tei:title//text()[not(parent::*:note)], ' '))}</acdh:hasTitle>
                     } catch * {
                         <acdh:hasTitle>{$doc}</acdh:hasTitle>
                     }
@@ -101,7 +101,7 @@ let $RDF :=
                     else ()
 
                let $description := if ($node//tei:abstract//text()) then
-                    <acdh:hasDescription>{normalize-space(string-join($node//tei:abstract//text()))}</acdh:hasDescription>
+                    <acdh:hasDescription xml:lang="de">{normalize-space(string-join($node//tei:abstract//text()))}</acdh:hasDescription>
                     else ()
                let $persons := if($collName = 'editions') then
                     for $per in $node//tei:listPerson//tei:person[@xml:id]
@@ -174,13 +174,19 @@ let $RDF :=
                                     <acdh:Person rdf:about="http://d-nb.info/gnd/13281899X"/>
                                 </acdh:hasContributor>
                             </acdh:authors>  
-                         else if($collName = 'meta') then
-                         <acdh:authors>
+                          else if($collName = 'meta' and $title='Zur technischen Umsetzung') then
+                          <acdh:authors>
                             <acdh:hasCreator>
                                 <acdh:Person rdf:about="http://d-nb.info/gnd/13281899X"/>
                             </acdh:hasCreator>
-                            <acdh:hasContributor>
+                          </acdh:authors>
+                          else if($collName = 'meta') then
+                         <acdh:authors>
+                            <acdh:hasCreator>
                                 <acdh:Person rdf:about="http://d-nb.info/gnd/136442196"/>
+                            </acdh:hasCreator>
+                            <acdh:hasContributor>
+                                <acdh:Person rdf:about="http://d-nb.info/gnd/13281899X"/>
                             </acdh:hasContributor>
                           </acdh:authors>
                            else if($collName = 'indices') then
@@ -225,13 +231,16 @@ let $RDF :=
                          <acdh:hasLicense rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
                          <acdh:isPartOf rdf:resource="{$collID}"/>
                          <acdh:hasMetadataCreator>
-                              <acdh:Person rdf:about="http://d-nb.info/gnd/13281899X"/>
+                             <acdh:Person rdf:about="http://d-nb.info/gnd/13281899X"/>
                          </acdh:hasMetadataCreator>
                          <acdh:hasCurator>
                              <acdh:Person rdf:about="http://d-nb.info/gnd/13281899X"/>
                          </acdh:hasCurator>
-                         <acdh:hasDepositor>
+                         <acdh:hasCurator>
                              <acdh:Person rdf:about="http://d-nb.info/gnd/1043833846"/>
+                         </acdh:hasCurator>
+                         <acdh:hasDepositor>
+                             <acdh:Person rdf:about="http://d-nb.info/gnd/13281899X"/>
                          </acdh:hasDepositor>
                          <acdh:hasOwner>
                              <acdh:Person rdf:about="http://d-nb.info/gnd/136442196"/>
