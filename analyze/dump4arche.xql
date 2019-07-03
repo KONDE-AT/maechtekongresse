@@ -22,10 +22,11 @@ let $current_date := current-date()
 
 let $childCollections_av_dates := for $x in $childCollections
     let $col_id := $x/@rdf:about
+    let $actual_license := if(ends-with(data($x/@rdf:about), 'utils')) then () else $license
     return
         <acdh:Collection rdf:about="{$col_id}">
             <acdh:hasAvailableDate>{$current_date}</acdh:hasAvailableDate>
-            {$license}
+            {$actual_license}
             <acdh:hasContact>
                 <acdh:Person rdf:about="http://d-nb.info/gnd/136442196"/>
             </acdh:hasContact>
