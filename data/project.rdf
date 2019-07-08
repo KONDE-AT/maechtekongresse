@@ -18,7 +18,7 @@
                 <acdh:hasFirstName>Karin</acdh:hasFirstName>
             </acdh:Person>
         </acdh:hasPrincipalInvestigator>
-        <acdh:hasLanguage>de</acdh:hasLanguage>
+        <acdh:hasLanguage>deu</acdh:hasLanguage>
         <acdh:hasCreator>
             <acdh:Person rdf:about="http://d-nb.info/gnd/136442196"/>
         </acdh:hasCreator>
@@ -225,8 +225,11 @@
             <acdh:Person rdf:about="http://d-nb.info/gnd/13281899X"/>
         </acdh:hasEditor>
         <acdh:hasCurator>
-            <acdh:Person rdf:about="http://d-nb.info/gnd/13281899X"/>
+            <acdh:Person rdf:about="http://d-nb.info/gnd/1043833846"/>
         </acdh:hasCurator>
+        <acdh:hasContributor>
+            <acdh:Person rdf:about="http://d-nb.info/gnd/13281899X"/>
+        </acdh:hasContributor>
         <acdh:hasCreator>
             <acdh:Person rdf:about="http://d-nb.info/gnd/136442196"/>
         </acdh:hasCreator>
