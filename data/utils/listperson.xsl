@@ -11,7 +11,7 @@
         <xsl:value-of select="concat($baseID, 'maechtekongresse/persons/')"/>
     </xsl:variable>
     <xsl:variable name="placebase">
-        <xsl:value-of select="concat($baseID, 'maechtekongresse/places/')"/>
+        <xsl:value-of select="concat($baseID, 'maechtekongresse/place/')"/>
     </xsl:variable>
     
     <xsl:variable name="current-id">listperson.xml</xsl:variable>
@@ -55,7 +55,7 @@
                 <link rel="stylesheet" id="fundament-styles" href="https://shared.acdh.oeaw.ac.at/fundament/dist/fundament/css/fundament.min.css" type="text/css"/>
                 <link rel="stylesheet" id="fundament-styles" href="https://shared.acdh.oeaw.ac.at/maechtekongresse/resources/css/style.css" type="text/css"/>
             </head>
-            <body role="document" class="home contained fixed-nav" id="body">
+            <body role="document" class="home contained-fluid fixed-nav" id="body">
                 <div class="hfeed site" id="page">
                     <!-- ******************* The Navbar Area ******************* -->
                     <div class="wrapper-fluid wrapper-navbar sticky-navbar" id="wrapper-navbar" itemscope="" itemtype="http://schema.org/WebSite">
@@ -86,7 +86,7 @@
                                         </li>
                                     </ul>
                                     <div class="form-inline my-2 my-lg-0 navbar-search-form">
-                                        <input class="form-control navbar-search" id="query" type="text" placeholder="Search" value="" autocomplete="off"/>
+                                        <input class="form-control navbar-search" id="query" type="text" personholder="Search" value="" autocomplete="off"/>
                                         <button class="navbar-search-icon" id="send" data-toggle="modal" data-target="#myModal">
                                             <i data-feather="search"/>
                                         </button>
@@ -141,7 +141,7 @@
                                 </div>
                                 <div class="card-body">
                                     <div>
-                                        <xsl:apply-templates select="//tei:listPlace"/>
+                                        <xsl:apply-templates select="//tei:listPerson"/>
                                     </div>
                                 </div>
                                 <div class="card-footer">
@@ -416,12 +416,12 @@
                     e.preventDefault();
                     var endpoint = "https://arche-curation.acdh-dev.oeaw.ac.at/blazegraph/sparql";
                     var itemId = $(this).attr('data-key');
-                    var personName = $(this).attr('data-person');
+                    var persName = $(this).attr('data-person');
                     var resultTitleId = "fetchMentionsModalHeader";
-                    var resultTitleString = `${personName} wird in folgenden Dokumenten erwähnt:`;
+                    var resultTitleString = `${persName} wird in folgenden Dokumenten erwähnt:`;
                     var resultBody = "fetchMentionsModalBody";
                     console.log(itemId);
-                    var sparqlQuery = `PREFIX%20acdh%3A%20%3Chttps%3A%2F%2Fvocabs.acdh.oeaw.ac.at%2Fschema%23%3E%0A%0ASELECT%20%3Ftitle%20%3Facdhid%0AWHERE%20%7B%0A%20%20%3FcurrentActor%20acdh%3AhasIdentifier%20%3Chttps%3A%2F%2Fid.acdh.oeaw.ac.at%2Fmaechtekongresse%2Fplace%2F${itemId}%3E%20.%0A%20%20%3FcurrentActor%20acdh%3AhasIdentifier%20%3Fuuid%20.%0A%20%20%3Feditions%20acdh%3AhasSpatialCoverage%20%3Fuuid%20.%0A%20%20%3Feditions%20acdh%3AhasTitle%20%3Ftitle%20.%0A%20%20%3Feditions%20acdh%3AhasIdentifier%20%3Facdhid%20.%0A%20%20FILTER%20regex(str(%3Facdhid)%2C%20%22maechtekongresse%22%2C%20%22i%22%20)%0A%7D`;
+                    var sparqlQuery = `PREFIX%20acdh%3A%20%3Chttps%3A%2F%2Fvocabs.acdh.oeaw.ac.at%2Fschema%23%3E%0A%0ASELECT%20%3Ftitle%20%3Facdhid%0AWHERE%20%7B%0A%20%20%3FcurrentActor%20acdh%3AhasIdentifier%20%3Chttps%3A%2F%2Fid.acdh.oeaw.ac.at%2Fmaechtekongresse%2Fpersons%2F${itemId}%3E%20.%0A%20%20%3FcurrentActor%20acdh%3AhasIdentifier%20%3Fuuid%20.%0A%20%20%3Feditions%20acdh%3AhasActor%20%3Fuuid%20.%0A%20%20%3Feditions%20acdh%3AhasTitle%20%3Ftitle%20.%0A%20%20%3Feditions%20acdh%3AhasIdentifier%20%3Facdhid%20.%0A%20%20FILTER%20regex(str(%3Facdhid)%2C%20%22maechtekongresse%22%2C%20%22i%22%20)%0A%7D`;
                     var resultShow = "fetchMentionsModal";
                     
                     fetchMentions(endpoint, sparqlQuery, resultTitleId, resultTitleString, resultBody, resultShow)
@@ -433,39 +433,41 @@
 
     
     <!--  TEMPLATE RULES  -->
-    <xsl:template match="tei:listPlace">
+    <xsl:template match="tei:listPerson">
         <table class="table table-striped table-condensed table-hover">
             <thead>
                 <tr>
-                    <th>Ortsname</th>
-                    <th>Alternative Bezeichnungen</th>
+                    <th>Nachname</th>
+                    <th>Varianten</th>
+                    <th>Anmerkungen</th>
                     <th>ID</th>
-                    <th>GeoNames</th>
+                    <th>Normdaten</th>
                 </tr>
             </thead>
             <tbody>
-                <xsl:for-each select="./tei:place">
+                <xsl:for-each select="./tei:person">
                     <tr>
                         <td>
-                            <xsl:value-of select="./tei:placeName[1]"/>
+                            <xsl:value-of select="./tei:persName/tei:surname[1]"/>
+                            <br/>
+                            <button class="btn btn-primary btn-action" data-key="{data(./@xml:id)}" data-person="{./tei:persName[1]}" id="{concat(data(./@xml:id), '__fetch')}">erwähnt in</button>
                         </td>
                         <td>
-                            <xsl:for-each select="subsequence(.//tei:placeName, 2)">
-                                <li>
+                            <xsl:value-of select="string-join(tei:persName//text(), ' ')"/>
+                        </td>
+                        <td>
+                            <xsl:value-of select="./tei:note"/>
+                        </td>
+                        <td>
+                            <xsl:for-each select="./tei:idno">
+                                <a>
+                                    <xsl:attribute name="href">
+                                        <xsl:value-of select="./text()"/>
+                                    </xsl:attribute>
                                     <xsl:value-of select="./text()"/>
-                                </li>
+                                </a>
+                                <br/>
                             </xsl:for-each>
-                        </td>
-                        <td>
-                            <button class="btn btn-primary btn-action" data-key="{data(./@xml:id)}" data-person="{./tei:placeName[1]}" id="{concat(data(./@xml:id), '__fetch')}">erwähnt in</button>
-                        </td>
-                        <td>
-                            <a>
-                                <xsl:attribute name="href">
-                                    <xsl:value-of select="./tei:idno[@type='URI']/text()"/>
-                                </xsl:attribute>
-                                <xsl:value-of select="./tei:idno[@type='URI']/text()"/>
-                            </a>
                         </td>
                     </tr>
                 </xsl:for-each>

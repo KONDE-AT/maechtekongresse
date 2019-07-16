@@ -89,7 +89,7 @@ let $RDF :=
                         false()
                     }
                 let $title := try {
-                        <acdh:hasTitle xml:lang="de">{normalize-space(string-join($node//tei:titleStmt//tei:title//text()[not(parent::*:note)], ' '))}</acdh:hasTitle>
+                        <acdh:hasTitle xml:lang="deu">{normalize-space(string-join($node//tei:titleStmt//tei:title//text()[not(parent::*:note)], ' '))}</acdh:hasTitle>
                     } catch * {
                         <acdh:hasTitle>{$doc}</acdh:hasTitle>
                     }
@@ -102,7 +102,7 @@ let $RDF :=
                     else ()
 
                let $description := if ($node//tei:abstract//text()) then
-                    <acdh:hasDescription xml:lang="de">{normalize-space(string-join($node//tei:abstract//text()))}</acdh:hasDescription>
+                    <acdh:hasDescription xml:lang="deu">{normalize-space(string-join($node//tei:abstract//text()))}</acdh:hasDescription>
                     else ()
                let $persons := if($collName = 'editions') then
                     for $per in $node//tei:listPerson//tei:person[@xml:id]

@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xsl:stylesheet xmlns="http://www.w3.org/1999/xhtml" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:sparql="http://www.w3.org/2005/sparql-results#"
-    xmlns:my="http://test.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tei="http://www.tei-c.org/ns/1.0"  exclude-result-prefixes="tei" version="2.0">
+<xsl:stylesheet xmlns="http://www.w3.org/1999/xhtml" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:sparql="http://www.w3.org/2005/sparql-results#" xmlns:my="http://test.org/" exclude-result-prefixes="tei" version="2.0">
     <xsl:output encoding="UTF-8" media-type="text/html" method="html" version="5.0" indent="yes"/>
     <xsl:variable name="title">
         <xsl:value-of select="normalize-space(string-join(//tei:titleStmt[1]/tei:title//text(), ' '))"/>
@@ -47,8 +46,8 @@
                 <title>
                     <xsl:value-of select="$title"/>
                 </title>
-                <link rel="stylesheet" id="fundament-styles"  href="https://shared.acdh.oeaw.ac.at/fundament/dist/fundament/css/fundament.min.css" type="text/css"/>
-                <link rel="stylesheet" id="fundament-styles"  href="https://shared.acdh.oeaw.ac.at/maechtekongresse/resources/css/style.css" type="text/css"/>
+                <link rel="stylesheet" id="fundament-styles" href="https://shared.acdh.oeaw.ac.at/fundament/dist/fundament/css/fundament.min.css" type="text/css"/>
+                <link rel="stylesheet" id="fundament-styles" href="https://shared.acdh.oeaw.ac.at/maechtekongresse/resources/css/style.css" type="text/css"/>
             </head>
             <body role="document" class="home contained fixed-nav" id="body">
                 <div class="hfeed site" id="page">
@@ -83,7 +82,7 @@
                                     <div class="form-inline my-2 my-lg-0 navbar-search-form">
                                         <input class="form-control navbar-search" id="query" type="text" placeholder="Search" value="" autocomplete="off"/>
                                         <button class="navbar-search-icon" id="send" data-toggle="modal" data-target="#myModal">
-                                            <i data-feather="search"></i>
+                                            <i data-feather="search"/>
                                         </button>
                                     </div>
                                 </div>
@@ -356,7 +355,7 @@
                                         </tr>
                                     </thead>
                                 </table>
-                                <div id="output"></div>
+                                <div id="output"/>
                             </div>
                             
                             <!-- Modal footer -->
@@ -635,7 +634,7 @@
                             
                             <!-- Modal Header -->
                             <div class="modal-header">
-                                <h4 class="modal-title" id="fetchMentionsModalHeader"></h4>
+                                <h4 class="modal-title" id="fetchMentionsModalHeader"/>
                             </div>
                             
                             <!-- Modal body -->
@@ -653,11 +652,11 @@
                 <xsl:apply-templates select="//tei:back//tei:person"/>
                 <xsl:apply-templates select="//tei:back//tei:org"/>
                 <!-- #page we need this extra closing tag here -->
-                <script type="text/javascript" src="https://shared.acdh.oeaw.ac.at/fundament/dist/fundament/vendor/jquery/jquery.min.js"></script>
-                <script type="text/javascript" src="https://shared.acdh.oeaw.ac.at/fundament/dist/fundament/js/fundament.min.js"></script>
+                <script type="text/javascript" src="https://shared.acdh.oeaw.ac.at/fundament/dist/fundament/vendor/jquery/jquery.min.js"/>
+                <script type="text/javascript" src="https://shared.acdh.oeaw.ac.at/fundament/dist/fundament/js/fundament.min.js"/>
                 <script type="text/javascript" src="https://cdn.datatables.net/v/bs4/jszip-2.5.0/dt-1.10.16/b-1.4.2/b-html5-1.4.2/b-print-1.4.2/datatables.min.js"/>
-                <script src="https://shared.acdh.oeaw.ac.at/solr-getter/solr.js"></script>
-                <script src="https://shared.acdh.oeaw.ac.at/maechtekongresse/resources/js/fetchMentions.js"></script>
+                <script src="https://shared.acdh.oeaw.ac.at/solr-getter/solr.js"/>
+                <script src="https://shared.acdh.oeaw.ac.at/maechtekongresse/resources/js/fetchMentions.js"/>
                 <script>
                     <![CDATA[
                     $( document ).ready(function() {
