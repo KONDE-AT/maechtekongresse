@@ -256,6 +256,7 @@
     </acdh:Collection>
     
     <acdh:Resource rdf:about="https://id.acdh.oeaw.ac.at/maechtekongresse/utils/tei2html.xsl">
+        <acdh:isPartOf rdf:resource="https://id.acdh.oeaw.ac.at/maechtekongresse/utils"/>
         <acdh:hasTitle xml:lang="eng">XSL to transform XML/TEI to HTML, helper file for ARCHE dissemination service</acdh:hasTitle>
         <acdh:hasTitle xml:lang="deu">XSL zur Transformation XML/TEI nach HTML, für ARCHE dissemination service</acdh:hasTitle>
         <acdh:hasCreator>
@@ -265,5 +266,40 @@
             <acdh:Person rdf:about="http://d-nb.info/gnd/13281899X"/>
         </acdh:hasCreator>
         <acdh:hasLicense rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+        <acdh:hasDepositor>
+            <acdh:Person rdf:about="http://d-nb.info/gnd/13281899X"/>
+        </acdh:hasDepositor>
+    </acdh:Resource>
+    
+    <acdh:Resource rdf:about="https://id.acdh.oeaw.ac.at/maechtekongresse/utils/listperson.xsl">
+        <acdh:isPartOf rdf:resource="https://id.acdh.oeaw.ac.at/maechtekongresse/utils"/>
+        <acdh:hasTitle xml:lang="eng">XSL to transform XML/TEI(listperson) to HTML, helper file for ARCHE dissemination service</acdh:hasTitle>
+        <acdh:hasTitle xml:lang="deu">XSL zur Transformation XML/TEI (listperson) nach HTML, für ARCHE dissemination service</acdh:hasTitle>
+        <acdh:hasCreator>
+            <acdh:Person rdf:about="http://d-nb.info/gnd/1043833846"/>
+        </acdh:hasCreator>
+        <acdh:hasCreator>
+            <acdh:Person rdf:about="http://d-nb.info/gnd/13281899X"/>
+        </acdh:hasCreator>
+        <acdh:hasLicense rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+        <acdh:hasDepositor>
+            <acdh:Person rdf:about="http://d-nb.info/gnd/13281899X"/>
+        </acdh:hasDepositor>
+    </acdh:Resource>
+    
+    <acdh:Resource rdf:about="https://id.acdh.oeaw.ac.at/maechtekongresse/utils/lisplace.xsl">
+        <acdh:isPartOf rdf:resource="https://id.acdh.oeaw.ac.at/maechtekongresse/utils"/>
+        <acdh:hasTitle xml:lang="eng">XSL to transform XML/TEI (listplace) to HTML, helper file for ARCHE dissemination service</acdh:hasTitle>
+        <acdh:hasTitle xml:lang="deu">XSL zur Transformation XML/TEI (listplace) nach HTML, für ARCHE dissemination service</acdh:hasTitle>
+        <acdh:hasCreator>
+            <acdh:Person rdf:about="http://d-nb.info/gnd/1043833846"/>
+        </acdh:hasCreator>
+        <acdh:hasCreator>
+            <acdh:Person rdf:about="http://d-nb.info/gnd/13281899X"/>
+        </acdh:hasCreator>
+        <acdh:hasLicense rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+        <acdh:hasDepositor>
+            <acdh:Person rdf:about="http://d-nb.info/gnd/13281899X"/>
+        </acdh:hasDepositor>
     </acdh:Resource>
 </rdf:RDF>
