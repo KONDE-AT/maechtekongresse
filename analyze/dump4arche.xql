@@ -80,8 +80,8 @@ let $RDF :=
                 let $collection-uri := $app:data||'/'||$collName
                 let $document-names := xmldb:get-child-resources($collection-uri)
                 let $sample := $document-names
-(:                for $doc in $sample:)
-                for $doc in subsequence($sample, 1, 3)
+                for $doc in $sample
+(:                for $doc in subsequence($sample, 1, 3):)
                 let $resID := string-join(($collection-uri, $doc), '/')
                 let $node := try {
                         doc($resID)
