@@ -81,7 +81,7 @@ let $RDF :=
                 let $document-names := xmldb:get-child-resources($collection-uri)
                 let $sample := $document-names
                 for $doc in $sample
-(:                for $doc in subsequence($sample, 1, 3):)
+(:                for $doc in subsequence($sample, 1, 4):)
                 let $resID := string-join(($collection-uri, $doc), '/')
                 let $node := try {
                         doc($resID)
@@ -208,7 +208,21 @@ let $RDF :=
                                 <acdh:Person rdf:about="http://d-nb.info/gnd/1043833846"/>
                             </acdh:hasCreator>
                         </acdh:authors>
-                        
+               let $customXSL := 
+                        if($collName = "editions") then
+                            <acdh:hasCustomXSL rdf:resource="https://id.acdh.oeaw.ac.at/maechtekongresse/utils/tei2html.xsl"/>
+                        else if($collName = "meta") then
+                            <acdh:hasCustomXSL rdf:resource="https://id.acdh.oeaw.ac.at/maechtekongresse/utils/tei2html.xsl"/>
+                        else if(ends-with($resID, 'listperson.xml')) then
+                            <acdh:hasCustomXSL rdf:resource="https://id.acdh.oeaw.ac.at/maechtekongresse/utils/listperson.xsl"/>
+                        else if(ends-with($resID, 'listplace.xml')) then
+                            <acdh:hasCustomXSL rdf:resource="https://id.acdh.oeaw.ac.at/maechtekongresse/utils/listplace.xsl"/>
+                        else if(ends-with($resID, 'listwit.xml')) then
+                            <acdh:hasCustomXSL rdf:resource="https://id.acdh.oeaw.ac.at/maechtekongresse/utils/listwit.xsl"/>
+                        else if(ends-with($resID, 'listtreaties.xml')) then
+                            <acdh:hasCustomXSL rdf:resource="https://id.acdh.oeaw.ac.at/maechtekongresse/utils/listtreaties.xsl"/>
+                        else ()
+
                 where $collName != 'utils'        
                 return 
                     <acdh:Resource rdf:about="{string-join(($collID, $doc), '/')}">
@@ -227,7 +241,7 @@ let $RDF :=
                          {$prev}
                          {$next}
                          <acdh:hasDissService rdf:resource="https://id.acdh.oeaw.ac.at/dissemination/customTEI2HTML"/>
-                         <acdh:hasCustomXSL rdf:resource="https://id.acdh.oeaw.ac.at/maechtekongresse/utils/tei2html.xsl"/>
+                         {$customXSL}
                          <acdh:hasSchema>https://www.tei-c.org/release/xml/tei/schema/relaxng/tei.rng</acdh:hasSchema>
                          <acdh:hasLicense rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
                          <acdh:isPartOf rdf:resource="{$collID}"/>

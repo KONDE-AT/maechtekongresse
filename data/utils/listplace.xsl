@@ -34,7 +34,7 @@
     <!--  BLAZEGRAPH  -->
     
     <xsl:variable name="sparql">PREFIX%20acdh%3A%20%3Chttps%3A%2F%2Fvocabs.acdh.oeaw.ac.at%2Fschema%23%3E%0A%0ASELECT%20%3Facdhid%20%3Ftitle%20%3Fdate%0AWHERE%20%7B%0A%09%3Fid%20acdh%3AhasIdentifier%20%3Chttps%3A%2F%2Fid.acdh.oeaw.ac.at%2Fmaechtekongresse%2Feditions%3E%20.%20%0A%20%20%09%3Fid%20acdh%3AhasIdentifier%20%3FcolID%20.%0A%20%20%09%3Feditions%20acdh%3AisPartOf%20%3FcolID%20.%0A%20%20%09%3Feditions%20acdh%3AhasTitle%20%3Ftitle%20.%0A%20%20%09%3Feditions%20acdh%3AhasCoverageStartDate%20%3Fdate%20.%0A%20%20%09%3Feditions%20acdh%3AhasIdentifier%20%3Facdhid%20.%0A%20%20%20%20FILTER%20regex(str(%3Facdhid)%2C%20%22editions%22%2C%20%22i%22%20)%20%0A%7D</xsl:variable>
-    <xsl:variable name="blazegraph">https://arche-curation.acdh-dev.oeaw.ac.at/blazegraph/sparql?query=</xsl:variable>
+    <xsl:variable name="blazegraph">https://arche.acdh.oeaw.ac.at/blazegraph/sparql?query=</xsl:variable>
     <xsl:variable name="query">
         <xsl:value-of select="concat($blazegraph, $sparql)"/>
     </xsl:variable>
@@ -396,7 +396,7 @@
                     $( document ).ready(function() {
                         $('#send').click(function() {
                             getSolr({
-                               solrEndpoint: 'https://arche-curation.acdh-dev.oeaw.ac.at/solr/arche/query',
+                               solrEndpoint: 'https://arche.acdh.oeaw.ac.at/solr/arche/query',
                                pageSize: 25,
                                input: $("#query").val(),
                                columns: [
@@ -404,8 +404,8 @@
                                { 'Title': 'meta_title' },
                                { 'highlight': 'highlight_with_link' }
                                ],
-                               sparqlQuery: decodeURIComponent('select%20%3Fres%20where%20%7B%0A%20%20%3Fres%20%3Chttps%3A%2F%2Fvocabs.acdh.oeaw.ac.at%2Fschema%23isPartOf%3E%20%3Chttps%3A%2F%2Fid.acdh.oeaw.ac.at%2Fuuid%2F18fc414c-280f-e003-8366-9da29661bdc8%20%3E%20.%0A%7D'),
-                               sparqlEndpoint: 'https://arche-curation.acdh-dev.oeaw.ac.at/blazegraph/sparql',
+                               sparqlQuery: decodeURIComponent('select%20%3Fres%20where%20%7B%0A%20%20%3Fres%20%3Chttps%3A%2F%2Fvocabs.acdh.oeaw.ac.at%2Fschema%23isPartOf%3E%20%3Chttps%3A%2F%2Fid.acdh.oeaw.ac.at%2Fuuid%2F36f0770e-3080-e9a8-d86e-0781796285db%20%3E%20.%0A%7D'),
+                               sparqlEndpoint: 'https://arche.acdh.oeaw.ac.at/blazegraph/sparql',
                             });
                         });
                     });
@@ -414,7 +414,7 @@
                 <script>
                     $("button").click(function(e) {
                     e.preventDefault();
-                    var endpoint = "https://arche-curation.acdh-dev.oeaw.ac.at/blazegraph/sparql";
+                    var endpoint = "https://arche.acdh.oeaw.ac.at/blazegraph/sparql";
                     var itemId = $(this).attr('data-key');
                     var personName = $(this).attr('data-person');
                     var resultTitleId = "fetchMentionsModalHeader";
