@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xsl:stylesheet xmlns="http://www.w3.org/1999/xhtml" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:sparql="http://www.w3.org/2005/sparql-results#"
-    xmlns:my="http://test.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tei="http://www.tei-c.org/ns/1.0"  exclude-result-prefixes="tei" version="2.0">
+<xsl:stylesheet xmlns="http://www.w3.org/1999/xhtml" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:sparql="http://www.w3.org/2005/sparql-results#" xmlns:my="http://test.org/" exclude-result-prefixes="tei" version="2.0">
     <xsl:output encoding="UTF-8" media-type="text/html" method="html" version="5.0" indent="yes"/>
     <xsl:variable name="title">
         <xsl:value-of select="normalize-space(string-join(//tei:titleStmt[1]/tei:title//text(), ' '))"/>
@@ -18,7 +17,7 @@
         <xsl:value-of select="//data(tei:TEI/@xml:base)"/>
     </xsl:variable>
     <xsl:variable name="sparql">PREFIX%20acdh%3A%20%3Chttps%3A%2F%2Fvocabs.acdh.oeaw.ac.at%2Fschema%23%3E%0A%0ASELECT%20%3Facdhid%20%3Ftitle%20%3Fdate%0AWHERE%20%7B%0A%09%3Fid%20acdh%3AhasIdentifier%20%3Chttps%3A%2F%2Fid.acdh.oeaw.ac.at%2Fmaechtekongresse%2Feditions%3E%20.%20%0A%20%20%09%3Fid%20acdh%3AhasIdentifier%20%3FcolID%20.%0A%20%20%09%3Feditions%20acdh%3AisPartOf%20%3FcolID%20.%0A%20%20%09%3Feditions%20acdh%3AhasTitle%20%3Ftitle%20.%0A%20%20%09%3Feditions%20acdh%3AhasCoverageStartDate%20%3Fdate%20.%0A%20%20%09%3Feditions%20acdh%3AhasIdentifier%20%3Facdhid%20.%0A%20%20%20%20FILTER%20regex(str(%3Facdhid)%2C%20%22editions%22%2C%20%22i%22%20)%20%0A%7D</xsl:variable>
-    <xsl:variable name="blazegraph">https://arche-curation.acdh-dev.oeaw.ac.at/blazegraph/sparql?query=</xsl:variable>
+    <xsl:variable name="blazegraph">https://arche.acdh.oeaw.ac.at/blazegraph/sparql?query=</xsl:variable>
     <xsl:variable name="query">
         <xsl:value-of select="concat($blazegraph, $sparql)"/>
     </xsl:variable>
@@ -47,8 +46,8 @@
                 <title>
                     <xsl:value-of select="$title"/>
                 </title>
-                <link rel="stylesheet" id="fundament-styles"  href="https://shared.acdh.oeaw.ac.at/fundament/dist/fundament/css/fundament.min.css" type="text/css"/>
-                <link rel="stylesheet" id="fundament-styles"  href="https://shared.acdh.oeaw.ac.at/maechtekongresse/resources/css/style.css" type="text/css"/>
+                <link rel="stylesheet" id="fundament-styles" href="https://shared.acdh.oeaw.ac.at/fundament/dist/fundament/css/fundament.min.css" type="text/css"/>
+                <link rel="stylesheet" id="fundament-styles" href="https://shared.acdh.oeaw.ac.at/maechtekongresse/resources/css/style.css" type="text/css"/>
             </head>
             <body role="document" class="home contained fixed-nav" id="body">
                 <div class="hfeed site" id="page">
@@ -83,7 +82,7 @@
                                     <div class="form-inline my-2 my-lg-0 navbar-search-form">
                                         <input class="form-control navbar-search" id="query" type="text" placeholder="Search" value="" autocomplete="off"/>
                                         <button class="navbar-search-icon" id="send" data-toggle="modal" data-target="#myModal">
-                                            <i data-feather="search"></i>
+                                            <i data-feather="search"/>
                                         </button>
                                     </div>
                                 </div>
@@ -356,7 +355,7 @@
                                         </tr>
                                     </thead>
                                 </table>
-                                <div id="output"></div>
+                                <div id="output"/>
                             </div>
                             
                             <!-- Modal footer -->
@@ -635,7 +634,7 @@
                             
                             <!-- Modal Header -->
                             <div class="modal-header">
-                                <h4 class="modal-title" id="fetchMentionsModalHeader"></h4>
+                                <h4 class="modal-title" id="fetchMentionsModalHeader"/>
                             </div>
                             
                             <!-- Modal body -->
@@ -653,17 +652,17 @@
                 <xsl:apply-templates select="//tei:back//tei:person"/>
                 <xsl:apply-templates select="//tei:back//tei:org"/>
                 <!-- #page we need this extra closing tag here -->
-                <script type="text/javascript" src="https://shared.acdh.oeaw.ac.at/fundament/dist/fundament/vendor/jquery/jquery.min.js"></script>
-                <script type="text/javascript" src="https://shared.acdh.oeaw.ac.at/fundament/dist/fundament/js/fundament.min.js"></script>
+                <script type="text/javascript" src="https://shared.acdh.oeaw.ac.at/fundament/dist/fundament/vendor/jquery/jquery.min.js"/>
+                <script type="text/javascript" src="https://shared.acdh.oeaw.ac.at/fundament/dist/fundament/js/fundament.min.js"/>
                 <script type="text/javascript" src="https://cdn.datatables.net/v/bs4/jszip-2.5.0/dt-1.10.16/b-1.4.2/b-html5-1.4.2/b-print-1.4.2/datatables.min.js"/>
-                <script src="https://shared.acdh.oeaw.ac.at/solr-getter/solr.js"></script>
-                <script src="https://shared.acdh.oeaw.ac.at/maechtekongresse/resources/js/fetchMentions.js"></script>
+                <script src="https://shared.acdh.oeaw.ac.at/solr-getter/solr.js"/>
+                <script src="https://shared.acdh.oeaw.ac.at/maechtekongresse/resources/js/fetchMentions.js"/>
                 <script>
                     <![CDATA[
                     $( document ).ready(function() {
                         $('#send').click(function() {
                             getSolr({
-                               solrEndpoint: 'https://arche-curation.acdh-dev.oeaw.ac.at/solr/arche/query',
+                               solrEndpoint: 'https://arche.acdh.oeaw.ac.at/solr/arche/query',
                                pageSize: 25,
                                input: $("#query").val(),
                                columns: [
@@ -671,8 +670,8 @@
                                { 'Title': 'meta_title' },
                                { 'highlight': 'highlight_with_link' }
                                ],
-                               sparqlQuery: decodeURIComponent('select%20%3Fres%20where%20%7B%0A%20%20%3Fres%20%3Chttps%3A%2F%2Fvocabs.acdh.oeaw.ac.at%2Fschema%23isPartOf%3E%20%3Chttps%3A%2F%2Fid.acdh.oeaw.ac.at%2Fuuid%2F28d104b9-9f4b-c30d-a627-8e5740ceef4f%3E%20.%0A%7D'),
-                               sparqlEndpoint: 'https://arche-curation.acdh-dev.oeaw.ac.at/blazegraph/sparql',
+                               sparqlQuery: decodeURIComponent('select%20%3Fres%20where%20%7B%0A%20%20%3Fres%20%3Chttps%3A%2F%2Fvocabs.acdh.oeaw.ac.at%2Fschema%23isPartOf%3E%20%3Chttps%3A%2F%2Fid.acdh.oeaw.ac.at%2Fuuid%2F36f0770e-3080-e9a8-d86e-0781796285db%3E%20.%0A%7D'),
+                               sparqlEndpoint: 'https://arche.acdh.oeaw.ac.at/blazegraph/sparql',
                             });
                         });
                     });
@@ -681,13 +680,16 @@
                 <script>
                     $("button").click(function(e) {
                     e.preventDefault();
-                    var endpoint = "https://arche-curation.acdh-dev.oeaw.ac.at/blazegraph/sparql";
+                    var endpoint = "https://arche.acdh.oeaw.ac.at/blazegraph/sparql";
                     var itemId = $(this).attr('data-key');
+                    console.log(itemId);
                     var personName = $(this).attr('data-person');
                     var resultTitleId = "fetchMentionsModalHeader";
                     var resultTitleString = `${personName} wird in folgenden Dokumenten erwähnt:`;
+                    console.log(resultTitleString);
                     var resultBody = "fetchMentionsModalBody";
-                    var sparqlQuery = `PREFIX%20acdh%3A%20%3Chttps%3A%2F%2Fvocabs.acdh.oeaw.ac.at%2Fschema%23%3E%0A%0ASELECT%20%3Ftitle%20%3Facdhid%0AWHERE%20%7B%0A%20%20%3FcurrentActor%20acdh%3AhasIdentifier%20%3Chttps%3A%2F%2Fid.acdh.oeaw.ac.at%2Fschnitzler%2Fschnitzler-tagebuch%2Fpersons%2F${itemId}%3E%20.%0A%20%20%3FcurrentActor%20acdh%3AhasIdentifier%20%3Fuuid%20.%0A%20%20%3Feditions%20acdh%3AhasActor%20%3Fuuid%20.%0A%20%20%3Feditions%20acdh%3AhasTitle%20%3Ftitle%20.%0A%20%20%3Feditions%20acdh%3AhasIdentifier%20%3Facdhid%20.%0A%20%20FILTER%20regex%28str%28%3Facdhid%29%2C%20%22entry__%22%2C%20%22i%22%20%29%0A%7D%0A`;
+                    var sparqlQuery = `PREFIX%20acdh%3A%20%3Chttps%3A%2F%2Fvocabs.acdh.oeaw.ac.at%2Fschema%23%3E%0A%0ASELECT%20%3Ftitle%20%3Facdhid%0AWHERE%20%7B%0A%20%20%3FcurrentActor%20acdh%3AhasIdentifier%20%3Chttps%3A%2F%2Fid.acdh.oeaw.ac.at%2Fmaechtekongresse%2Fpersons%2F${itemId}%3E%20.%0A%20%20%3FcurrentActor%20acdh%3AhasIdentifier%20%3Fuuid%20.%0A%20%20%3Feditions%20acdh%3AhasActor%20%3Fuuid%20.%0A%20%20%3Feditions%20acdh%3AhasTitle%20%3Ftitle%20.%0A%20%20%3Feditions%20acdh%3AhasIdentifier%20%3Facdhid%20.%0A%20%20FILTER%20regex(str(%3Facdhid)%2C%20%22maechtekongresse%22%2C%20%22i%22%20)%0A%7D%0A`;
+                    console.log(decodeURIComponent(sparqlQuery));
                     var resultShow = "fetchMentionsModal";
                     
                     fetchMentions(endpoint, sparqlQuery, resultTitleId, resultTitleString, resultBody, resultShow)
