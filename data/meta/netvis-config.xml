@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<netvisConfig>
+    <Nodes>
+        <Entity type="Protokoll">
+            <getId type="xpath">$entity-id</getId>
+            <getEntity type="xpath">doc($app:editions||'/'||$entity-id)//tei:TEI</getEntity>
+            <mandatoryProps>
+                <id type="xpath">util:document-name($node)</id>
+                <label type="xpath">$node//tei:title[@type="main"]/text()</label>
+                <detail_view type="xpath">app:hrefToDoc($node, 'editions')</detail_view>
+                <as_graph type="xpath">netvis:graph-url(util:document-name($node), 'Protokoll')</as_graph>
+                <type type="literal">Protokoll</type>
+            </mandatoryProps>
+            <relations>
+                <target>
+                    <xpath>$node//tei:body//tei:rs[@type='person' and starts-with(@ref, '#')]</xpath>
+                    <relationType>erwähnt Person</relationType>
+                    <mandatoryProps>
+                        <id type="xpath">substring-after(data($node/@ref), '#')</id>
+                        <label type="xpath">$node/text()</label>
+                        <detail_view type="xpath">concat('../pages/hits.html?searchkey=', substring-after(data($node/@ref), '#'))</detail_view>
+                        <as_graph type="xpath">netvis:graph-url(substring-after(data($node/@ref), '#'), 'Person')</as_graph>
+                        <type type="literal">Person</type>
+                        <relationType type="literal">erwähnt Person</relationType>
+                    </mandatoryProps>
+                </target>
+                <target>
+                    <xpath>$node//tei:body//tei:placeName[starts-with(@ref, '#')]</xpath>
+                    <relationType>erwähnt Ort</relationType>
+                    <mandatoryProps>
+                        <id type="xpath">substring-after(data($node/@ref), '#')</id>
+                        <label type="xpath">$node/text()</label>
+                        <detail_view type="xpath">concat('../pages/hits.html?searchkey=', substring-after(data($node/@ref), '#'))</detail_view>
+                        <as_graph type="xpath">netvis:graph-url(substring-after(data($node/@ref), '#'), 'Ort')</as_graph>
+                        <type type="literal">Ort</type>
+                        <relationType type="literal">erwähnt Ort</relationType>
+                    </mandatoryProps>
+                </target>
+            </relations>
+        </Entity>
+        <Entity type="Person">
+            <getId type="xpath">$entity-id</getId>
+            <getEntity type="xpath">doc($app:personIndex)//tei:person[@xml:id=$id]</getEntity>
+            <mandatoryProps>
+                <id type="xpath">data($node/@xml:id)</id>
+                <label type="xpath">normalize-space(string-join($node//tei:persName//text(), ' '))</label>
+                <detail_view type="xpath">concat('../pages/hits.html?searchkey=', substring-after(data($node/@ref), '#'))</detail_view>
+                <as_graph type="xpath">netvis:graph-url($node/@xml:id, 'Person')</as_graph>
+                <type type="literal">Person</type>
+                <relationType type="literal">wird erwähnt in Protokoll</relationType>
+            </mandatoryProps>
+            <target>
+                <xpath>collection($app:editions)//tei:TEI[.//*/@ref=concat("#", $node/@xml:id)]</xpath>
+                <relationType>wird erwähnt in Protokoll</relationType>
+                <mandatoryProps>
+                    <id type="xpath">util:document-name($node)</id>
+                    <label type="xpath">$node//tei:title[@type="short"]/text()</label>
+                    <detail_view type="xpath">app:hrefToDoc($node, 'editions')</detail_view>
+                    <as_graph type="xpath">netvis:graph-url(util:document-name($node), 'Protokoll')</as_graph>
+                    <type type="literal">Protokoll</type>
+                    <relationType type="literal">wird erwähnt in Protokoll</relationType>
+                    <text type="xpath">substring(normalize-space(string-join($node//tei:body//text(), ' ')), 1, 75)</text>
+                </mandatoryProps>
+            </target>
+        </Entity>
+        <Entity type="Ort">
+            <getId type="xpath">$entity-id</getId>
+            <getEntity type="xpath">doc($app:placeIndex)//tei:place[@xml:id=$id]</getEntity>
+            <mandatoryProps>
+                <id type="xpath">data($node/@xml:id)</id>
+                <label type="xpath">normalize-space(string-join($node//tei:placeName//text(), ' '))</label>
+                <detail_view type="xpath">concat('../pages/hits.html?searchkey=', substring-after(data($node/@ref), '#'))</detail_view>
+                <as_graph type="xpath">netvis:graph-url($node/@xml:id, 'Ort')</as_graph>
+                <type type="literal">Ort</type>
+                <relationType type="literal">wird erwähnt in Protokoll</relationType>
+            </mandatoryProps>
+            <target>
+                <xpath>collection($app:editions)//tei:TEI[.//*/@ref=concat("#", $node/@xml:id)]</xpath>
+                <relationType>wird erwähnt in Protokoll</relationType>
+                <mandatoryProps>
+                    <id type="xpath">util:document-name($node)</id>
+                    <label type="xpath">$node//tei:title[@type="short"]/text()</label>
+                    <detail_view type="xpath">app:hrefToDoc($node, 'editions')</detail_view>
+                    <as_graph type="xpath">netvis:graph-url(util:document-name($node), 'Protokoll')</as_graph>
+                    <type type="literal">Protokoll</type>
+                    <relationType type="literal">wird erwähnt in Protokoll</relationType>
+                    <text type="xpath">substring(normalize-space(string-join($node//tei:body//text(), ' ')), 1, 75)</text>
+                </mandatoryProps>
+            </target>
+        </Entity>
+    </Nodes>
+    <NodeTypes>
+        <node>
+            <id>Protokoll</id>
+            <color>#6b5b95</color>
+            <label>Protokoll</label>
+        </node>
+        <node>
+            <id>Person</id>
+            <color>#feb236</color>
+            <label>Person</label>
+        </node>
+        <node>
+            <id>Ort</id>
+            <color>#d64161</color>
+            <label>Ort</label>
+        </node>
+    </NodeTypes>
+</netvisConfig>
