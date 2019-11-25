@@ -1,9 +1,9 @@
 xquery version "3.0";
-module namespace app="http://www.digital-archiv.at/ns/kongress/templates";
+module namespace app="http://www.digital-archiv.at/ns/templates";
 declare namespace tei="http://www.tei-c.org/ns/1.0";
 declare namespace functx = 'http://www.functx.com';
 import module namespace templates="http://exist-db.org/xquery/templates" ;
-import module namespace config="http://www.digital-archiv.at/ns/kongress/config" at "config.xqm";
+import module namespace config="http://www.digital-archiv.at/ns/config" at "config.xqm";
 import module namespace kwic = "http://exist-db.org/xquery/kwic" at "resource:org/exist/xquery/lib/kwic.xql";
 import module namespace console = "http://exist-db.org/xquery/console";
 import module namespace r = "http://joewiz.org/ns/xquery/roman-numerals" at "roman-numerals.xqm";
@@ -219,9 +219,9 @@ declare function app:listPers($node as node(), $model as map(*)) {
         else
         "-"
         return
-    let $notiz := $person/tei:note/text()    
+    let $notiz := $person/tei:note/text()
     let $notizlink := if ($notiz != '') then "Notiz" else ""
-        return    
+        return
         <tr>
             <td>
                 <a href="{concat($hitHtml,data($person/@xml:id))}">{$person/tei:persName/tei:surname}</a>
@@ -263,7 +263,7 @@ declare function app:listPlace($node as node(), $model as map(*)) {
  : creates a basic table of contents derived from the documents stored in '/data/editions'
  :)
 declare function app:toc($node as node(), $model as map(*)) {
-    
+
     let $filterstring := (request:get-parameter("filterstring", ""))
     let $collection := request:get-parameter("collection", "")
     let $docs := if ($collection)
@@ -278,14 +278,14 @@ declare function app:toc($node as node(), $model as map(*)) {
             else if (data($title//tei:msDesc[1]//tei:origin[1]/tei:date[1]))
             then data($title//tei:msDesc[1]//tei:origin[1]/tei:date[1])
             else data($title//tei:editionStmt/tei:edition/tei:date[1]/text()) (: picks date in meta collection :)
-        let $date := string-join(($title//tei:title[@type='main']//text()), ': ') 
-                
+        let $date := string-join(($title//tei:title[@type='main']//text()), ': ')
+
         let $texts := for $x in $title//tei:msDesc[position()>1]//tei:title
                     (: where count($title//tei:msDesc[position()>1]//tei:title) > 1 :)
                     return
                         <span>{$x/text()}<br/></span>
         where if ($filterstring) then starts-with($idno, $filterstring) else $title
-        return  
+        return
         <tr>
             <td>{$idno}</td>
             <td>
@@ -417,7 +417,7 @@ declare function app:listBibl2($node as node(), $model as map(*)) {
     let $author := normalize-space(string-join($item/tei:author//text(), ' '))
     let $gnd := $item//tei:idno/text()
     let $ext := $item//ref[1]/string(@target)
-    let $ext_link := if ($ext) 
+    let $ext_link := if ($ext)
         then
             <a href="{$ext}">{$ext}</a>
         else
@@ -444,7 +444,7 @@ declare function app:listOrg($node as node(), $model as map(*)) {
     for $item in doc($app:orgIndex)//tei:listOrg/tei:org
     let $altnames := normalize-space(string-join($item//tei:orgName[@type='alt'], ' '))
     let $gnd := $item//tei:idno/text()
-    let $gnd_link := if ($gnd) 
+    let $gnd_link := if ($gnd)
         then
             <a href="{$gnd}">{$gnd}</a>
         else
@@ -482,8 +482,8 @@ let $filterstring := (request:get-parameter("filterstring", ""))
             else data($title//tei:editionStmt/tei:edition/tei:date[1]/text()) (: picks date in meta collection :)
         let $date := for $x in $title//tei:abstract
                     return
-                        <p>{$x//text()}</p> 
-        return  
+                        <p>{$x//text()}</p>
+        return
         <tr>
             <td>{$idno}</td>
             <td>{$date}<p style="text-align:right"><a href="{app:hrefToDoc($title, $collection)}">{$docTitle}</a></p></td>
@@ -492,21 +492,21 @@ let $filterstring := (request:get-parameter("filterstring", ""))
 };
 
 (:~
- : creates paging 
+ : creates paging
  :)
 declare function app:Pagination($doc as node(), $fileIndex as node(), $sourceFile as xs:string) {
 
     let $first := concat($fileIndex/tei:item[1]/@source, '.html')
     let $last := concat($fileIndex/tei:item[last()]/@source, '.html')
-    let $previous := 
-        if ($sourceFile ne $first) then 
+    let $previous :=
+        if ($sourceFile ne $first) then
             concat($doc/preceding-sibling::*[1]/@source, '.html')
         else $first
-    let $next := 
-        if ($sourceFile ne $last) then 
+    let $next :=
+        if ($sourceFile ne $last) then
             concat($doc/following-sibling::*[1]/@source, '.html')
         else $last
-    let $pagination := 
+    let $pagination :=
         <list xmlns="http://www.tei-c.org/ns/1.0">
             <item type="first" source="{$first}"/>
             <item type="previous" source="{$previous}"/>
@@ -523,7 +523,7 @@ declare function app:related-docs($xmlPath as xs:string) {
     let $doc-name-filter := substring-before($doc-name,'_')
     return
         for $doc in xmldb:get-child-resources(functx:substring-before-last($xmlPath, "/"))
-        let $o1 := tokenize($doc,"_")[2][not(.=('Prot','Dok'))],   
+        let $o1 := tokenize($doc,"_")[2][not(.=('Prot','Dok'))],
             $o2 := replace(tokenize($doc,"_")[3],"\.xml","")
         where starts-with($doc, $doc-name-filter)
         order by if ($o1) then r:roman-numeral-to-integer($o1) else 0, xs:integer($o2) ascending
@@ -531,22 +531,22 @@ declare function app:related-docs($xmlPath as xs:string) {
 };
 
 (:~
- : returns the name of the next document  
+ : returns the name of the next document
  :)
 declare function app:next-doc($xmlPath as xs:string) {
     let $doc-name := util:document-name($xmlPath)
     let $r := app:related-docs($xmlPath)
     let $i := index-of($r, $doc-name)
-    return if (count($r) gt $i) then $r[$i + 1] else () 
+    return if (count($r) gt $i) then $r[$i + 1] else ()
 };
 
 
 (:~
- : returns the name of the previous document  
+ : returns the name of the previous document
  :)
 declare function app:prev-doc($xmlPath as xs:string) {
     let $doc-name := util:document-name($xmlPath)
     let $r := app:related-docs($xmlPath)
     let $i := index-of($r, $doc-name)
-    return if ($i gt 1) then $r[$i - 1] else ()  
+    return if ($i gt 1) then $r[$i - 1] else ()
 };

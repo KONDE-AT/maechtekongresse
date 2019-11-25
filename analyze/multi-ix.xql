@@ -1,7 +1,7 @@
 xquery version "3.1";
 declare namespace tei="http://www.tei-c.org/ns/1.0";
 declare namespace output="http://www.w3.org/2010/xslt-xquery-serialization";
-import module namespace app="http://www.digital-archiv.at/ns/kongress/templates" at "../modules/app.xql";
+import module namespace app="http://www.digital-archiv.at/ns/templates" at "../modules/app.xql";
 declare option exist:serialize "method=xml media-type=text/html indent=yes";
 
 let $query := request:get-parameter('ix', '')

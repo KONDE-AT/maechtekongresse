@@ -1,6 +1,6 @@
 xquery version "3.1";
 
-import module namespace nlp="http://www.digital-archiv.at/ns/kongress/nlp" at "../modules/nlp.xqm";
+import module namespace nlp="http://www.digital-archiv.at/ns/nlp" at "../modules/nlp.xqm";
 (:declare option exist:serialize "method=json media-type=text/javascript";:)
 
 
