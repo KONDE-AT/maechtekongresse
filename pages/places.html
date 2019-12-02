@@ -5,7 +5,7 @@
             <h1>Ortsregister</h1>
         </div>
         <div class="panel-body">
-            <div id="map"/>     
+            <div id="map"/>
             <div>
                 <table id="myTable" class="table table-striped table-condensed table-hover">
                     <thead>
@@ -30,7 +30,7 @@
                         <tr data-template="app:listPlace"/>
                     </tbody>
                 </table>
-            </div>       
+            </div>
         </div>
     </div>
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.2.0/dist/leaflet.css" integrity="sha512-M2wvCLH6DSRazYeZRIm1JnYyh22purTM+FDB5CsyxtQJYeKq83arPe5wgbNmcFXGqiSH2XR8dT/fJISVA1r/zQ==" crossorigin=""/>
@@ -59,7 +59,7 @@
         });
         var tiles = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
         maxZoom: 19,
-        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+        attribution: '&amp;copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
         });
         var map = L.map('map').addLayer(tiles);
         var markers = L.markerClusterGroup();
@@ -78,7 +78,7 @@
         }catch(err) {
         console.log(err);
         }
-        
+
         $(document).ready(function() {
         $("#myTableBody").show({});
         $('#myTable tfoot th').each( function () {
@@ -88,7 +88,7 @@
         $("#myTable tfoot").show();
         table.columns().every( function () {
         var that = this;
-        
+
         $( 'input', this.footer() ).on( 'keyup change', function () {
         if ( that.search() !== this.value ) {
         that
@@ -98,7 +98,7 @@
         } );
         } );
         });
-        
+
         table.on( 'search.dt', function () {
         //markers.removeLayer(startLayer);
         markers.clearLayers();
@@ -119,7 +119,7 @@
         console.log(err);
         }
         } );
-        
+
         function getTableData(table) {
         const dataArray = [],
         placesArray = [];
@@ -134,7 +134,7 @@
         dataArray.push(placesArray);
         return dataArray;
         };
-        
+
         function createGeoJson(data){
         var geojsonArray = [];
         data[0].forEach(function(element, i) {
@@ -158,7 +158,7 @@
         function onEachFeature(feature, layer) {
         layer.bindPopup(feature.properties.name);
         };
-        
+
     </script>
-    
+
 </div>
