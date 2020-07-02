@@ -483,6 +483,7 @@ let $filterstring := (request:get-parameter("filterstring", ""))
         let $date := for $x in $title//tei:abstract
                     return
                         <p>{$x//text()}</p>
+                        where if ($filterstring) then starts-with($idno, $filterstring) else $title
         return
         <tr>
             <td>{$idno}</td>
