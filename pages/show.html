@@ -1,14 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <div class="templates:surround?with=templates/page.html&amp;at=content">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/mark.min.js" integrity="sha512-5CYOlHXGh6QpOFA/TeTylKLWfB3ftPsde7AnmhuitiTX4K5SqCLBeKro6sPS8ilsz1Q4NRx3v8Ko2IBiszzdww==" crossorigin="anonymous" />
-    <div data-template="app:XMLtoHTML" class="container-fluid" id="main_content"/>
+    <div class="container-fluid" id="main_content">
+        <div class="container-fluid">
+            <div data-template="app:XMLtoHTML"/>
+        </div>
+    </div>
     <script>
-    $(function() {
       var hit = findGetParameter("searchexpr")
       var instance = new Mark(document.querySelector("#main_content"));
       instance.mark(hit, {
         "element": "span",
-        "className": "mark"
+        "className": "markhighlight"
       });
     </script>
 </div>
