@@ -104,6 +104,9 @@
                     <head>Versionsgeschichte</head>
                     <list>
                         <item>
+                            <date when="2021-03-05">2021-03-05</date> Handle-Identifikator ergänzt aus <ref target="https://id.acdh.oeaw.ac.at/maechtekongresse">https://id.acdh.oeaw.ac.at/maechtekongresse</ref>, Links auf INZ korrigiert auf <ref target="https://www.oeaw.ac.at/ihb/">IHB</ref>
+                        </item>
+                        <item>
                             <date when="2019-06-13">2019-06-13</date> GND-IDs zusätzlich zu VIAF ergänzt; ARCHE Export 
                         </item>
                         <item>
@@ -202,7 +205,7 @@
                         </item>
                         <label>Handle</label>
                         <item>
-                            <idno type="hdl"/>
+                            <idno type="hdl">http://hdl.handle.net/21.11115/0000-000C-2093-9</idno>
                         </item>
                     </list>
                 </div>
