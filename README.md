@@ -10,3 +10,5 @@ The web application derived from an earlier version of <https://github.com/KONDE
 
 Data in `data` is licenced under CC-BY-SA 4.0 as stated in the TEI files. 
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4590269.svg)](https://doi.org/10.5281/zenodo.4590269)
+
