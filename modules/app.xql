@@ -20,7 +20,7 @@ declare variable $app:listWittnes := $config:app-root||'/data/indices/listwit.xm
 declare variable $app:defaultXsl := doc($config:app-root||'/resources/xslt/xmlToHtml.xsl');
 
 declare variable $app:redmineBaseUrl := "https://shared.acdh.oeaw.ac.at/acdh-common-assets/api/imprint.php?serviceID=";
-declare variable $app:redmineID := "11071";
+declare variable $app:redmineID := "10920";
 
 declare function functx:contains-case-insensitive
   ( $arg as xs:string? ,
@@ -79,11 +79,13 @@ declare function app:fetchEntity($ref as xs:string){
  : fetches html snippets from ACDH's imprint service; Make sure you'll have $app:redmineBaseUrl and $app:redmineID set
  :)
 declare function app:fetchImprint($node as node(), $model as map(*)) {
-    let $url := $app:redmineBaseUrl||$app:redmineID
-    let $request :=
-    <http:request href="{$url}" method="GET"/>
-    let $response := http:send-request($request)
-        return $response[2]
+    let $lang := request:get-parameter("lang", "de")
+    let $url := $app:redmineBaseUrl||$app:redmineID||"&amp;outputLang="||$lang
+    let $payload :=
+        <div>
+            {doc($url)}
+        </div>
+    return $payload
 };
 
 declare function local:everything2string($entity as node()){
