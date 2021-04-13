@@ -19,6 +19,9 @@ declare variable $app:treatiesIndex := $config:app-root||'/data/indices/listtrea
 declare variable $app:listWittnes := $config:app-root||'/data/indices/listwit.xml';
 declare variable $app:defaultXsl := doc($config:app-root||'/resources/xslt/xmlToHtml.xsl');
 
+declare variable $app:redmineBaseUrl := "https://shared.acdh.oeaw.ac.at/acdh-common-assets/api/imprint.php?serviceID=";
+declare variable $app:redmineID := "11071";
+
 declare function functx:contains-case-insensitive
   ( $arg as xs:string? ,
     $substring as xs:string )  as xs:boolean? {
@@ -70,6 +73,17 @@ declare function app:fetchEntity($ref as xs:string){
 
     return
         ($viewName, $type, $entity)
+};
+
+(:~
+ : fetches html snippets from ACDH's imprint service; Make sure you'll have $app:redmineBaseUrl and $app:redmineID set
+ :)
+declare function app:fetchImprint($node as node(), $model as map(*)) {
+    let $url := $app:redmineBaseUrl||$app:redmineID
+    let $request :=
+    <http:request href="{$url}" method="GET"/>
+    let $response := http:send-request($request)
+        return $response[2]
 };
 
 declare function local:everything2string($entity as node()){
