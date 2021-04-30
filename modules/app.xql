@@ -294,7 +294,7 @@ declare function app:toc($node as node(), $model as map(*)) {
             else if (data($title//tei:msDesc[1]//tei:origin[1]/tei:date[1]))
             then data($title//tei:msDesc[1]//tei:origin[1]/tei:date[1])
             else data($title//tei:editionStmt/tei:edition/tei:date[1]/text()) (: picks date in meta collection :)
-        let $date := string-join(($title//tei:title[@type='main']//text()), ': ')
+        let $date := string-join(($title//tei:title[@type='main']//text()), ' ')
 
         let $texts := for $x in $title//tei:msDesc[position()>1]//tei:title
                     (: where count($title//tei:msDesc[position()>1]//tei:title) > 1 :)

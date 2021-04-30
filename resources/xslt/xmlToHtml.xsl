@@ -420,7 +420,7 @@
                                 <abbr title="Zitierhilfe">Zitierempfehlung</abbr>
                             </th>
                             <td>
-                                <xsl:value-of select="normalize-space(string-join(//tei:titleStmt//tei:title[@type='main']/descendant-or-self::*[not(name()='expan')]/text(), ''))"/>
+                                <xsl:value-of select="normalize-space(string-join(//tei:titleStmt//tei:title[@type='main']/descendant-or-self::*[not(name()='expan')]/text(), ' '))"/>
                                 <xsl:text>. In: </xsl:text>
                                 <xsl:value-of select="$app-title"/>
                                 <xsl:if test="//tei:titleStmt/tei:editor">
