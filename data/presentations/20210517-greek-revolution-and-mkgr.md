@@ -50,21 +50,65 @@ Beginnen möchte ich damit, dass die digitale Edition immer auch versucht, nicht
 
 ### MKGR 
 
+Neben der Erarbeitung einheitlicher Editionskriterien für die Transkription und Auszeichnung textpragmatischer Vorgänge (Hinzufügungen, Streichungen, Randnotizen, Aktenvermerke usf.) sind es vor allem zwei Bereiche, denen hier das Augenmerk gilt: einerseits das Erfassen von Metadaten, die die Dokumente beschreiben und auch abseits der Webapplikation auffindbar machen, andererseits das Führen von Listen zu benannten Entitäten wie Personen, Orten und Institutionen, die eine eineindeutige Identifizierung von in den Texten erwähnten Entitäten ermöglichen und darüber hinaus auch die Anbindung an externe Referenzressourcen erlauben (in diesem Fall via VIAF- und GND-Identifikatoren). Gemeinsam erlaubt die dichtere Vernetzung der Dokumente über Metadaten und benannte Entitäten die Erzeugung von alternativen Zugangsmöglichkeiten direkt aus den Daten heraus – Zeitleisten und Registerübersichten sind nur zwei der möglichen Anwendungsfälle, die sich aus solchen Daten heraus erstellen lassen. 
+
 Sehen wir uns eines der Dokumente an, die wir schon in der Webansicht kennen: Die Dokumente sind der diplomatischen Gepflogenheit der Zeit entsprechend auf Französisch verfasst. 
+
+Baut auf auf <https://github.com/KONDE-AT/dsebaseapp/>. 
+
+Grundsätzlicher Workflow: 
+
+``` 
+digraph G {
+    {Archivierung Webapplikation "GitHub\n Versionierung" rank=same;}
+Quelle -> Transkription;  
+"[Bilddigitalisate]" -> Transkription;
+"Entities\nplace\nperson\norg" -> TEI;
+Transkription -> TEI;  
+"teiHeader (Metadaten)" -> TEI;
+TEI -> Webapplikation -> "XSL-T" -> HTML; 
+Webapplikation -> XQuery -> API; 
+API -> Text;
+API -> Metadaten;
+API -> "autocompletes"
+Webapplikation -> Archivierung -> Zenodo;
+TEI -> Archivierung;
+TEI -> "GitHub\n Versionierung";
+Archivierung -> "ARCHE\n(ÖAW Repository)" -> "Dissemination Services";
+"teiHeader (Metadaten)" -> Metadaten;
+Metadaten -> Findemittel;
+}
+```
+<https://dreampuf.github.io/GraphvizOnline/#digraph%20G%20%7B%0A%20%20%20%20%7BArchivierung%20Webapplikation%20%22GitHub%5Cn%20Versionierung%22%20rank%3Dsame%3B%7D%0AQuelle%20-%3E%20Transkription%3B%20%20%0A%22%5BBilddigitalisate%5D%22%20-%3E%20Transkription%3B%0A%22Entities%5Cnplace%5Cnperson%5Cnorg%22%20-%3E%20TEI%3B%0ATranskription%20-%3E%20TEI%3B%20%20%0A%22teiHeader%20(Metadaten)%22%20-%3E%20TEI%3B%0ATEI%20-%3E%20Webapplikation%20-%3E%20%22XSL-T%22%20-%3E%20HTML%3B%20%0AWebapplikation%20-%3E%20XQuery%20-%3E%20API%3B%20%0AAPI%20-%3E%20Text%3B%0AAPI%20-%3E%20Metadaten%3B%0AAPI%20-%3E%20%22autocompletes%22%0AWebapplikation%20-%3E%20Archivierung%20-%3E%20Zenodo%3B%0ATEI%20-%3E%20Archivierung%3B%0ATEI%20-%3E%20%22GitHub%5Cn%20Versionierung%22%3B%0AArchivierung%20-%3E%20%22ARCHE%5Cn(%C3%96AW%20Repository)%22%20-%3E%20%22Dissemination%20Services%22%3B%0A%22teiHeader%20(Metadaten)%22%20-%3E%20Metadaten%3B%0AMetadaten%20-%3E%20Findemittel%3B%0A%7D>
+
+Kalender
+
+Zeitleiste
+
+TOCs 
 
 Zeigen <https://service4tei.acdh-dev.oeaw.ac.at/?tei=https%3A%2F%2Farche.acdh.oeaw.ac.at%2Fapi%2F30012&xsl=https%3A%2F%2Ftei4arche.acdh-dev.oeaw.ac.at%2Fxsl%2Fmaechtekongress2arche.xsl> als alternative Webanzeige. 
 
-
+Daten sind damit auch z.B. visuell auswertbar, vgl. <https://maechtekongresse.acdh.oeaw.ac.at/pages/netvis.html>
 
 
 ### QhoD
 
+<https://www.oeaw.ac.at/ihb/forschungsbereiche/digitale-historiographie-und-editionen/forschung/habsburg-osmanische-diplomatie>
+
+Relativ neues Projekt
+
+<http://glossa.uni-graz.at/context:qhod>
 
 
 
+Auf ähnliche technische Infrastruktur und Datenbearbeitung setzt auch eine weitere Initiative des Institute for Habsburg and Balkan Studies der Österreichischen Akademie der Wissenschaften. Seit Mitte 2020 wird hier eine digitale Infrastruktur erarbeitet, die der kritischen digitalen Edition von Quellen der habsburgisch-osmanischen Diplomatie (QhoD) dient. Während dieses Projekt seine eigene Editionstätigkeit mit der Edition von früheren Quellen, im Konkreten den erhaltenen Dokumenten zu den Großbotschaften von Damian Hugo v. Virmondt und Ibrahim Paşa 1719-1721, begonnen hat und damit auch nicht mit neuen Dokumenten zu 1821 aufwarten kann, kann die digitale Infrastruktur für Text- und Bilddaten zum diplomatischen Austausch zwischen den Höfen der beiden Reiche von 1500 bis 1918 genutzt werden.
 
+Ediert werden alle Quellen westlicher und osmanischer Herkunft, welche die diplomatischen Kontakte dokumentieren, namentlich Berichte, Korrespondenzen, Instruktionen, Protokolle, Rechnungen, Seyahatnâme und Sefâretnâme, aber auch publizistische Quellen (Flugblätter, Flugschriften, Zeitungsartikel), vertragliche Vereinbarungen, Karten (oder kartenähnliche Darstellungen) sowie Reiseberichte und Tagebücher. Einbezogen werden außerdem Bildquellen (Gesandtschaftsporträts, Allegorien, Historiengemälde usw.) und die materielle Kultur (z.B. Geschenke). Quellen, die im Osmanischen Türkisch verfasst sind, werden neben der Transkription ins Englische übersetzt.
 
+Die Rückseite dessen, dass QhoD mit 1719/21 begonnen hat und daher noch nichts zu 1821 aufzuweisen hat, ist das Open Science-Konzept des Editionsprojekts: Ich darf hier die Einladung aussprechen, wenn Sie Dokumente haben (am besten natürlich gleich in strukturierten Daten), die zum Editionskonzept passen, also im weiteren Sinn mit der Diplomatie zwischen Wien und der Pforte zu tun haben, dann können wir diese als Subprojekt mit allen Paratexten und natürlich unter Nennung der BearbeiterInnen veröffentlichen. Melden Sie sich gern bei Herrn Prof. Strohmeyer oder beim Editionsteam! 
 
+Ich bedanke mich für die Möglichkeit, neben dem abgeschlossenen Editionsprojekt zu den Mächtekongressen auch das unabgeschlossene kurz hergezeigt haben zu dürfen und stehe dann gern vor allem für technische Fragen zur Verfügung. 
 
 
 
