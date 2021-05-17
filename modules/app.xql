@@ -230,11 +230,7 @@ declare function app:listPers($node as node(), $model as map(*)) {
     let $hitHtml := "hits.html?searchkey="
     for $person in doc($app:personIndex)//tei:listPerson/tei:person
     let $gnd := $person/tei:idno/text()
-    let $gnd_link := if ($gnd != "no gnd provided") then
-        <a href="{$gnd}">{$gnd}</a>
-        else
-        "-"
-        return
+    let $gnd := for $i in $person/tei:idno return <small><a href="{$i}" title="{$i}">{data($i/@type)}</a>&#160;{data($i)}&#10;</small>
     let $notiz := $person/tei:note/text()
     let $notizlink := if ($notiz != '') then "Notiz" else ""
         return
@@ -249,7 +245,7 @@ declare function app:listPers($node as node(), $model as map(*)) {
             <td>{$person/tei:birth}–{$person/tei:death}</td>
             <td><a href="{concat($hitHtml,data($person/@xml:id))}" title="{$notiz}">{$notizlink}</a></td>
             <td>
-                {$gnd_link}
+                {$gnd}
             </td>
         </tr>
 };
