@@ -89,8 +89,15 @@
         <li>
             <xsl:choose>
                 <xsl:when test="self::text()">
+                    <xsl:choose>
+                        <xsl:when test="starts-with(.,'http')">
+                            <a href="{.}"><xsl:value-of select="."/></a>
+                        </xsl:when>
                     <!--<small>text()</small>-->
-                    <xsl:value-of select="."/>
+                        <xsl:otherwise>
+                            <xsl:value-of select="."/>
+                        </xsl:otherwise>
+                    </xsl:choose>
                 </xsl:when>
                 <xsl:otherwise>
                     <small>
