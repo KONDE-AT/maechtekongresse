@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:acdhid="https://id.acdh.oeaw.ac.at/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:acdh="https://vocabs.acdh.oeaw.ac.at/schema#" xml:lang="eng">
+    
+    <!--    see https://arche.acdh.oeaw.ac.at/browser/formats-filenames-and-metadata#metadata -->
+    
+    
+    <!--    top collection -->
+    <acdh:Collection rdf:about="https://id.acdh.oeaw.ac.at/maechtekongresse">
+        <!--<acdh:hasPid>create some</acdh:hasPid>-->
+        <acdh:hasTitle xml:lang="deu">Mächtekongresse 1818–1822. Digitale Edition</acdh:hasTitle>
+        <acdh:hasTitle xml:lang="eng">Mächtekongresse 1818–1822. Digital Edition</acdh:hasTitle>
+        <acdh:hasDescription xml:lang="deu">Die Kongresse von Aachen (1818), Troppau (1820), Laibach (1821) und Verona (1822), deren schriftliche Hinterlassenschaft nun in einer digitalen Edition vorliegt, sind Ausdruck und Ergebnis einer neuen Konzeption von Außenpolitik. Vorübergehend trat an die Stelle von zwischenstaatlicher Rivalität und Machtpolitik eine in diesem Ausmaß bisher nicht praktizierte zwischenstaatliche Kooperation. Die auf dem Wiener Kongress (1814/15) verhandelte politische und territoriale Neuordnung Europas war das Resultat dieser Zusammenarbeit. Auf völkerrechtlicher Ebene wurde diese Kooperation durch ein komplexes System verschiedener Allianzen abgesichert und erfuhr als Europäisches Mächtekonzert einen gewissen Grad an Institutionalisierung. In Aachen, Troppau, Laibach und Verona trafen die Mächtevertreter zusammen, um über offene Fragen von europäischem Interesse zu beraten, Krisen abzuwenden beziehungsweise einer Lösung zuzuführen und Ruhe und Frieden in Europa zu garantieren. Die hier edierten Protokolle und anderen Schriftstücke zeigen die offizielle Lesart der Verhandlungen und geben einen Einblick in die Grundlagen und die Funktionsweise des Europäischen Mächtekonzerts.</acdh:hasDescription>
+        <acdh:hasDescription xml:lang="eng">The congresses of Aachen (1818), Troppau (1820), Laibach (1821) and Verona (1822), whose records are available now in a digital edition, are the result of a new conception of foreign policy after the Napoleonic war. Temporarily, interstate rivalry and power politics have been replaced by intergovernmental cooperation, which has hitherto not been practiced to this extent. The political and territorial reorganization of Europe negotiated at the Congress of Vienna (1814/15) was the result of this cooperation. On the level of international law, this cooperation was secured by a complex system of alliances and acquired a certain degree of institutionalization as the so-called European Concert of Powers. In Aachen, Troppau, Ljubljana and Verona, the representatives of the powers met to discuss open questions of European interest, avert or resolve international crises and guarantee peace and tranquillity in Europe. The protocols and other documents edited here show the official reading of the negotiations. As such, they provide an insight into the intellectual foundation and practical functioning of the European Conference of Powers.</acdh:hasDescription>
+        <acdh:hasLicense rdf:resource="https://creativecommons.org/licenses/by-sa/4.0/"/>
+        <acdh:hasLifeCycleStatus>completed</acdh:hasLifeCycleStatus>
+        <acdh:hasPrincipalInvestigator>
+            <acdh:Person rdf:about="http://d-nb.info/gnd/136442196">
+                <acdh:hasLastName>Schneider</acdh:hasLastName>
+                <acdh:hasFirstName>Karin</acdh:hasFirstName>
+            </acdh:Person>
+        </acdh:hasPrincipalInvestigator>
+        <acdh:hasLanguage>deu</acdh:hasLanguage>
+        <acdh:hasCreator>
+            <acdh:Person rdf:about="http://d-nb.info/gnd/136442196"/>
+        </acdh:hasCreator>
+        <acdh:hasEditor>
+            <acdh:Person rdf:about="http://d-nb.info/gnd/136442196"/>
+        </acdh:hasEditor>
+        <acdh:hasContact>
+            <acdh:Person rdf:about="http://d-nb.info/gnd/136442196"/>
+        </acdh:hasContact>
+        <acdh:hasOwner>
+            <acdh:Person rdf:about="http://d-nb.info/gnd/136442196"/>
+        </acdh:hasOwner>
+        <acdh:hasRightsHolder>
+            <acdh:Person rdf:about="http://d-nb.info/gnd/136442196"/>
+        </acdh:hasRightsHolder>
+        <acdh:hasLicensor>
+            <acdh:Person rdf:about="http://d-nb.info/gnd/136442196"/>
+        </acdh:hasLicensor>
+        <acdh:hasContributor>
+            <acdh:Person rdf:about="http://d-nb.info/gnd/13281899X">
+                <acdh:hasLastName>Kurz</acdh:hasLastName>
+                <acdh:hasFirstName>Stephan</acdh:hasFirstName>
+            </acdh:Person>
+        </acdh:hasContributor>
+        <acdh:hasDepositor>
+            <acdh:Person rdf:about="http://d-nb.info/gnd/13281899X"/>
+        </acdh:hasDepositor>
+        <acdh:hasCurator>
+            <acdh:Person rdf:about="http://d-nb.info/gnd/1043833846"/>
+        </acdh:hasCurator>
+        <acdh:hasSubject xml:lang="deu">Wiener Kongress</acdh:hasSubject>
+        <acdh:hasSubject xml:lang="deu">Diplomatiegeschichte</acdh:hasSubject>
+        <acdh:hasSubject xml:lang="deu">Kongress von Aachen</acdh:hasSubject>
+        <acdh:hasSubject xml:lang="deu">Kongress von Verona</acdh:hasSubject>
+        <acdh:hasSubject xml:lang="deu">Kongress von Laibach</acdh:hasSubject>
+        <acdh:hasSubject xml:lang="deu">Kongress von Troppau</acdh:hasSubject>
+        <acdh:hasSubject xml:lang="deu">Mächtekonzert</acdh:hasSubject>
+        <acdh:hasSubject xml:lang="deu">Mächtekongress</acdh:hasSubject>
+        <acdh:hasSubject xml:lang="deu">Monarchenkongresse</acdh:hasSubject>
+        <acdh:hasSubject xml:lang="deu">Kongressakten</acdh:hasSubject>
+        <acdh:hasSubject xml:lang="eng">Congress of Vienna</acdh:hasSubject>
+        <acdh:hasSubject xml:lang="eng">History of diplomacy</acdh:hasSubject>
+        <acdh:hasSubject xml:lang="eng">Congress of Aix-la-chapelle</acdh:hasSubject>
+        <acdh:hasSubject xml:lang="eng">Congress of Verona</acdh:hasSubject>
+        <acdh:hasSubject xml:lang="eng">Congress of Laibach</acdh:hasSubject>
+        <acdh:hasSubject xml:lang="eng">Congress of Troppau</acdh:hasSubject>
+        <acdh:hasSubject xml:lang="eng">European Concert of Powers</acdh:hasSubject>
+        <acdh:hasSubject xml:lang="eng">Concert of Europe</acdh:hasSubject>
+        <acdh:hasSubject xml:lang="eng">Congress System</acdh:hasSubject>
+        <acdh:hasSubject xml:lang="eng">Congress files</acdh:hasSubject>
+        <acdh:hasSubject xml:lang="eng">Great Powers</acdh:hasSubject>
+        <acdh:hasNonLinkedIdentifier>ISBN:9783950478303</acdh:hasNonLinkedIdentifier>
+        <acdh:hasMetadataCreator>
+            <acdh:Person rdf:about="http://d-nb.info/gnd/1043833846"/>
+        </acdh:hasMetadataCreator>
+        <acdh:hasMetadataCreator>
+            <acdh:Person rdf:about="http://d-nb.info/gnd/13281899X"/>
+        </acdh:hasMetadataCreator>
+        <acdh:hasArrangement xml:lang="deu">Das Verzeichnis "editions" enthält die Editionsdaten (kommentierte und annotierte Texte aus den Originalquellen), im Ordner "meta" liegen einerseits Bestandsbeschreibungen zu den Quellen, andererseits beschreibende Texte sowohl zur Geschichte des Projekts als auch zur technischen Umsetzung; das Verzeichnis "indices" beinhaltet die Registerdatensätze zu Personen, Orten, Institutionen und verwendeter Literatur (primär und sekundär); das Verzeichnis "utils" beinhaltet die Kernfunktionen der XSL-Transformation aus TEI nach HTML, die der unter https://maechtekongresse.acdh.oeaw.ac.at/ verfügbaren Webapplikation zugrunde liegen.</acdh:hasArrangement>
+        <acdh:hasURL>https://maechtekongresse.acdh.oeaw.ac.at/</acdh:hasURL>
+        <acdh:hasTemporalCoverage xml:lang="deu">Zwischen Wiener Kongress und Restauration</acdh:hasTemporalCoverage>
+        <acdh:hasCoverageStartDate>1818-09-29</acdh:hasCoverageStartDate>
+        <acdh:hasCoverageEndDate>1822-12-14</acdh:hasCoverageEndDate>
+        <acdh:hasRelatedDiscipline rdf:resource="https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/506011"/>
+        <acdh:hasRelatedDiscipline rdf:resource="https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/601008"/>
+        <acdh:hasRelatedDiscipline rdf:resource="https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/601014"/>
+        <acdh:hasRelatedDiscipline rdf:resource="https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/605007"/>
+        <acdh:hasRelatedDiscipline rdf:resource="https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/508001"/>
+        <acdh:hasSubmissionDate>2018-10-31</acdh:hasSubmissionDate>
+        <acdh:hasAcceptedDate>2019-02-04</acdh:hasAcceptedDate>
+        <acdh:hasTransferDate>2019-06-12</acdh:hasTransferDate>
+        <acdh:hasRelatedProject>
+            <acdh:Project rdf:about="https://id.acdh.oeaw.ac.at/maechtekongresse/projects/P21177">
+                <acdh:hasRelatedCollection rdf:resource="https://id.acdh.oeaw.ac.at/maechtekongresse"/>
+                <acdh:hasTitle xml:lang="deu">Der Wiener Kongress und sein europäisches Friedenssystem</acdh:hasTitle>
+                <acdh:hasDescription xml:lang="deu">Die große historische Leistung des Wiener Kongresses war die Schaffung eines Systems zwischenstaatlicher
+                    Friedenswahrung und Konfliktregelung in Europa, das nach den territorial-politischen Erschütterungen der
+                    napoleonischen Zeit für mehrere Jahrzehnte Bestand hatte. Damit verbunden war ein fundamentaler, qualitativer
+                    Wechsel im Stil der internationalen Politik, zu dem sich alle "Player" bekannten: die Überwindung der Fixierung
+                    rein auf einzelstaatliche Interessen zugunsten der Verpflichtung auf eine funktionierende europäische
+                    Sicherheitsordnung mit planbaren Spielregeln für Mediation und Konfliktmanagement. Die Botschafterkonferenzen
+                    und Kongresse seit 1814 waren erste konkrete Bausteine für eine solche Sicherheitsordnung.
+                    Im "Europäischen Mächtekonzert" des 19. Jahrhunderts mit seiner kompliziert ausbalancierten Mechanik von
+                    Einflusssphären nahm der österreichische Kaiserstaat unter der diplomatischen Regie Metternichs aufgrund seiner
+                    territorialen Interessen in Richtung deutscher Staatenwelt, Italien sowie Balkan eine zentrale Rolle ein. Während
+                    die Entwicklung der europäischen Staatenordnung vom Krimkrieg bis zum Ausbruch der großen Balkankrise 1875,
+                    an deren Ende der letzte europäische Mächte-Kongress in Berlin 1878 steht, gut erforscht ist, fehlt nach wie vor
+                    eine moderne, angemessene und leicht zugängliche Dokumentation für die europapolitisch zentral wichtige "Wiener
+                    Ordnung" von 1815 und für ihre Entfaltung in der "Kongresspolitik" der 1820er-Jahre, die der systematischen,
+                    internationalen und gesamteuropäischen Dimension dieser Ordnung Rechnung tragen würde.
+                    Es scheint also überfällig und lohnend zugleich, sich mit einem neuen Editionsprojekt dem Funktionieren der
+                    europäischen Mächtepolitik 1814/15 - 1825 zuzuwenden, und zwar zunächst aus der bislang ganz unterbelichteten
+                    Perspektive des Wiener Hofs heraus. Dies sichert gleichzeitig einen praktikablen und im beantragten Zeitrahmen
+                    abzuarbeitenden Auftakt für ein mögliches Langfrist-Projekts zum Thema "Das Europäische System des Wiener
+                    Kongresses". Konkretes Ziel ist ein substantieller Dokumentationsband, der auf der Basis archivalischer Originale
+                    in Wien Schlüsseldokumente zum Inhalt wie zu den Verfahrensweisen des europäischen Systems im Zeichen der
+                    "Wiener Ordnung" zugänglich macht und durch die Beigabe deutschsprachiger Regesten weitum konsultierbar
+                    sowie im akademischen Unterricht einsetzbar ist. Ausgewertet sollen dafür im Österreichischen Staatsarchiv -
+                    Haus-, Hof- und Staatsarchiv Wien aus der Bestandsgruppe "Staatskanzlei" die "Kongressakten" (46 Faszikel) und
+                    "Vorträge" (37 Kartons) werden.
+                    Damit soll vor allem ein konkreter, weithin sichtbarer Schritt getan werden, um in Hinblick auf die 200jährige
+                    Wiederkehr des Wiener Kongresses 2014/15 österreichische und von Österreich aus initiierte Forschungen
+                    einzubringen in das neue Interesse an einer systematisch erforschten "Internationalen Geschichte" des "langen" 19.
+                    Jahrhunderts.</acdh:hasDescription>
+                <acdh:hasPrincipalInvestigator>
+                    <acdh:Person rdf:about="http://d-nb.info/gnd/138870802">
+                        <acdh:hasLastName>Stauber</acdh:hasLastName>
+                        <acdh:hasFirstName>Reinhard</acdh:hasFirstName>
+                    </acdh:Person>
+                </acdh:hasPrincipalInvestigator>
+                <acdh:hasNonLinkedIdentifier>FWF: P 21177</acdh:hasNonLinkedIdentifier>
+                <acdh:hasLifeCycleStatus rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelifecyclestatus/completed"/>
+                <acdh:hasCoverageStartDate>1814</acdh:hasCoverageStartDate>
+                <acdh:hasCoverageEndDate>1821</acdh:hasCoverageEndDate>
+                <acdh:hasLanguage>German</acdh:hasLanguage>
+                <acdh:hasStartDate>2009-02-01</acdh:hasStartDate>
+                <acdh:hasEndDate>2013-03-31</acdh:hasEndDate>
+            </acdh:Project>
+        </acdh:hasRelatedProject>
+        <acdh:hasRelatedProject>
+            <acdh:Project rdf:about="https://id.acdh.oeaw.ac.at/maechtekongresse/projects/P28448">
+                <acdh:hasRelatedCollection rdf:resource="https://id.acdh.oeaw.ac.at/maechtekongresse"/>
+                <acdh:hasTitle xml:lang="deu">Die Kongresse von Troppau und Laibach 1820/21</acdh:hasTitle>
+                <acdh:hasDescription xml:lang="deu">1820 und 1821 versammelten sich die Vertreter der europäischen Großmächte erst in der schlesischen
+                    Kleinstadt Troppau/Oppava, und dann in Laibach/Ljubljana, um Krisenpolitik zu betreiben: Auf der
+                    Kongressagenda stand die Frage, wie das Europäische Mächtekonzert auf die im Königreich beider
+                    Sizilien ausgebrochene konstitutionelle Revolution reagieren sollte. War eine militärische Intervention
+                    die einzige Möglichkeit, um die herkömmliche monarchische Ordnung in Süditalien wieder
+                    herzustellen? Oder sollte einer Nichtinterventionspolitik der Vorrang eingeräumt und dadurch der
+                    politische Umsturz akzeptiert werden?
+                    Grundlage der Gespräche 1820/21 waren die verschiedenen Allianzverträge, die ab 1814 zwischen den
+                    europäischen Mächten abgeschlossen worden waren. Das Ziel dieser Maßnahmen war die Sicherung
+                    des Frieden und der politischen Ruhe auf dem durch die Revolutions- und Napoleonischen Kriege
+                    gebeutelten Kontinent. Zwar war ein gemeinsames Ziel definiert – doch wie dieses angesichts erneuter
+                    revolutionärer Unruhen etwa in Süditalien erreicht werden sollte, war nicht vertraglich festgelegt
+                    worden.
+                    Während der Verhandlungen in Troppau und Laibach traten die unterschiedlichen Ansichten der
+                    beteiligten europäischen Mächte in dieser Frage klar zu Tage. Erstmals nach dem Ende des Wiener
+                    Kongresses und dem endgültigen Sieg über Napoleon wurde das europäische Allianzsystem auf die
+                    Probe gestellt.
+                    Das Projekt untersucht die verschiedenen politischen Ansätze und Strategien der Mächte und setzt
+                    diese mit innenpolitischen Faktoren ebenso in Zusammenhang wie mit den unterschiedlichen
+                    Vorstellungen der beteiligten Staatsmänner über das Wesen und den Zweck des Europäischen
+                    Mächtekonzerts. Die zentrale Frage ist dabei jene nach der konkreten Funktionsweise des Konzerts.
+                    Wie wurden die Allianzverträge jeweils interpretiert? Welche Konfliktlösungsstrategien wurden
+                    angewendet? Welche Staaten wurden zu den Gesprächen zugelassen? Wo sind die Verhandlungen in
+                    Troppau und Laibach im Diskurs über Intervention bzw. Nichtintervention in Zweitstaaten zu
+                    verorten?
+                    Das Projekt befasst sich mit zwei bisher wenig untersuchten Mächtekongressen und leistet daher einen
+                    wichtigen Beitrag zum Verständnis europäischer Mächtepolitik in der Ära nach dem Wiener
+                    Kongress. Doch ist der zentrale Konfliktpunkt der Verhandlungen nicht nur relevant für die erste
+                    Hälfte des 19. Jahrhunderts: Auch heute stellt sich angesichts zahlreicher internationaler Krisen immer
+                    noch die Frage nach der Reaktion der Staatengemeinschaft, die letztlich stets auf die Alternative
+                    Intervention – Nicht-Intervention hinausläuft.
+                </acdh:hasDescription>
+                <acdh:hasPrincipalInvestigator>
+                    <acdh:Person rdf:about="http://d-nb.info/gnd/136442196"/>
+                </acdh:hasPrincipalInvestigator>
+                <acdh:hasNonLinkedIdentifier>FWF: P 28448</acdh:hasNonLinkedIdentifier>
+                <acdh:hasLifeCycleStatus rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelifecyclestatus/active"/>
+                <acdh:hasCoverageStartDate>1820</acdh:hasCoverageStartDate>
+                <acdh:hasCoverageEndDate>1821</acdh:hasCoverageEndDate>
+                <acdh:hasLanguage>ger</acdh:hasLanguage>
+                <acdh:hasStartDate>2016-12-01</acdh:hasStartDate>
+                <acdh:hasEndDate>2020-08-31</acdh:hasEndDate>
+            </acdh:Project>
+        </acdh:hasRelatedProject>
+    </acdh:Collection>
+    
+    <acdh:Collection rdf:about="https://id.acdh.oeaw.ac.at/maechtekongresse/meta">
+        <!--<acdh:hasPid>create some</acdh:hasPid>-->
+        <acdh:hasLicense rdf:resource="https://creativecommons.org/licenses/by-sa/4.0/"/>
+        <acdh:hasTitle>Meta</acdh:hasTitle>
+        <acdh:hasDescription xml:lang="deu">Enthält allgemeine Information zu den Dokumenten der Kongresse von Aachen (1818), Troppau (1820), Laibach (1821) und Verona (1822) sowie zur digitalen Edition</acdh:hasDescription>
+        <acdh:hasContributor>
+            <acdh:Person rdf:about="http://d-nb.info/gnd/13281899X"/>
+        </acdh:hasContributor>
+        <acdh:hasCreator>
+            <acdh:Person rdf:about="http://d-nb.info/gnd/136442196"/>
+        </acdh:hasCreator>
+        <acdh:isPartOf rdf:resource="https://id.acdh.oeaw.ac.at/maechtekongresse"/>
+    </acdh:Collection>
+    
+    
+    
+    
+    
+    <acdh:Collection rdf:about="https://id.acdh.oeaw.ac.at/maechtekongresse/editions">
+        <!--<acdh:hasPid>create some</acdh:hasPid>-->
+        <acdh:hasLicense rdf:resource="https://creativecommons.org/licenses/by-sa/4.0/"/>
+        <acdh:hasTitle xml:lang="deu">Editionsdaten</acdh:hasTitle>
+        <acdh:hasTitle xml:lang="eng">edition data</acdh:hasTitle>
+        <acdh:hasDescription xml:lang="deu">XML/TEI-kodierte Dokumente zu den Kongressen von Aachen (1818), Troppau (1820), Laibach (1821) und Verona (1822)</acdh:hasDescription>
+        <acdh:hasCreator>
+            <acdh:Person rdf:about="http://d-nb.info/gnd/136442196"/>
+        </acdh:hasCreator>
+        <acdh:hasContributor>
+            <acdh:Person rdf:about="http://d-nb.info/gnd/13281899X"/>
+        </acdh:hasContributor>
+        <acdh:isPartOf rdf:resource="https://id.acdh.oeaw.ac.at/maechtekongresse"/>
+    </acdh:Collection>
+    
+    <acdh:Collection rdf:about="https://id.acdh.oeaw.ac.at/maechtekongresse/indices">
+        <!--<acdh:hasPid>create some</acdh:hasPid>-->
+        <acdh:hasLicense rdf:resource="https://creativecommons.org/licenses/by-sa/4.0/"/>
+        <acdh:hasTitle xml:lang="deu">Register</acdh:hasTitle>
+        <acdh:hasTitle xml:lang="eng">Index files</acdh:hasTitle>
+        <acdh:hasDescription xml:lang="deu">XML/TEI-kodierte Register zu den Dokumenten zu den Kongressen von Aachen (1818), Troppau (1820), Laibach (1821) und Verona (1822)</acdh:hasDescription>
+        <acdh:hasCreator>
+            <acdh:Person rdf:about="http://d-nb.info/gnd/13281899X"/>
+        </acdh:hasCreator>
+        <acdh:hasEditor>
+            <acdh:Person rdf:about="http://d-nb.info/gnd/13281899X"/>
+        </acdh:hasEditor>
+        <acdh:hasCreator>
+            <acdh:Person rdf:about="http://d-nb.info/gnd/136442196"/>
+        </acdh:hasCreator>
+        <acdh:hasEditor>
+            <acdh:Person rdf:about="http://d-nb.info/gnd/136442196"/>
+        </acdh:hasEditor>
+        <acdh:isPartOf rdf:resource="https://id.acdh.oeaw.ac.at/maechtekongresse"/>
+    </acdh:Collection>
+    
+    <acdh:Collection rdf:about="https://id.acdh.oeaw.ac.at/maechtekongresse/utils">
+        <!--<acdh:hasPid>create some</acdh:hasPid>-->
+        <acdh:hasLicense rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+        <acdh:hasTitle xml:lang="eng">Utility Files</acdh:hasTitle>
+        <acdh:hasTitle xml:lang="deu">Hilfsdateien</acdh:hasTitle>
+        <acdh:hasDescription xml:lang="eng">XSL-Stylesheets for ARCHE dissemination service</acdh:hasDescription>
+        <acdh:hasDescription xml:lang="deu">XSL-Stylesheets für den ARCHE dissemination service</acdh:hasDescription>
+        <acdh:hasCreator>
+            <acdh:Person rdf:about="http://d-nb.info/gnd/1043833846"/>
+        </acdh:hasCreator>
+        <acdh:hasCreator>
+            <acdh:Person rdf:about="http://d-nb.info/gnd/13281899X"/>
+        </acdh:hasCreator>
+        <acdh:isPartOf rdf:resource="https://id.acdh.oeaw.ac.at/maechtekongresse"/>
+    </acdh:Collection>
+    
+    <acdh:Resource rdf:about="https://id.acdh.oeaw.ac.at/maechtekongresse/utils/tei2html.xsl">
+        <acdh:isPartOf rdf:resource="https://id.acdh.oeaw.ac.at/maechtekongresse/utils"/>
+        <acdh:hasTitle xml:lang="eng">XSL to transform XML/TEI to HTML, helper file for ARCHE dissemination service</acdh:hasTitle>
+        <acdh:hasTitle xml:lang="deu">XSL zur Transformation XML/TEI nach HTML, für ARCHE dissemination service</acdh:hasTitle>
+        <acdh:hasCreator>
+            <acdh:Person rdf:about="http://d-nb.info/gnd/1043833846"/>
+        </acdh:hasCreator>
+        <acdh:hasCreator>
+            <acdh:Person rdf:about="http://d-nb.info/gnd/13281899X"/>
+        </acdh:hasCreator>
+        <acdh:hasLicense rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+        <acdh:hasDepositor>
+            <acdh:Person rdf:about="http://d-nb.info/gnd/13281899X"/>
+        </acdh:hasDepositor>
+    </acdh:Resource>
+    
+    <acdh:Resource rdf:about="https://id.acdh.oeaw.ac.at/maechtekongresse/utils/listperson.xsl">
+        <acdh:isPartOf rdf:resource="https://id.acdh.oeaw.ac.at/maechtekongresse/utils"/>
+        <acdh:hasTitle xml:lang="eng">XSL to transform XML/TEI(listperson) to HTML, helper file for ARCHE dissemination service</acdh:hasTitle>
+        <acdh:hasTitle xml:lang="deu">XSL zur Transformation XML/TEI (listperson) nach HTML, für ARCHE dissemination service</acdh:hasTitle>
+        <acdh:hasCreator>
+            <acdh:Person rdf:about="http://d-nb.info/gnd/1043833846"/>
+        </acdh:hasCreator>
+        <acdh:hasCreator>
+            <acdh:Person rdf:about="http://d-nb.info/gnd/13281899X"/>
+        </acdh:hasCreator>
+        <acdh:hasLicense rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+        <acdh:hasDepositor>
+            <acdh:Person rdf:about="http://d-nb.info/gnd/13281899X"/>
+        </acdh:hasDepositor>
+    </acdh:Resource>
+    
+    <acdh:Resource rdf:about="https://id.acdh.oeaw.ac.at/maechtekongresse/utils/listplace.xsl">
+        <acdh:isPartOf rdf:resource="https://id.acdh.oeaw.ac.at/maechtekongresse/utils"/>
+        <acdh:hasTitle xml:lang="eng">XSL to transform XML/TEI (listplace) to HTML, helper file for ARCHE dissemination service</acdh:hasTitle>
+        <acdh:hasTitle xml:lang="deu">XSL zur Transformation XML/TEI (listplace) nach HTML, für ARCHE dissemination service</acdh:hasTitle>
+        <acdh:hasCreator>
+            <acdh:Person rdf:about="http://d-nb.info/gnd/1043833846"/>
+        </acdh:hasCreator>
+        <acdh:hasCreator>
+            <acdh:Person rdf:about="http://d-nb.info/gnd/13281899X"/>
+        </acdh:hasCreator>
+        <acdh:hasLicense rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+        <acdh:hasDepositor>
+            <acdh:Person rdf:about="http://d-nb.info/gnd/13281899X"/>
+        </acdh:hasDepositor>
+    </acdh:Resource>
+    
+    <acdh:Resource rdf:about="https://id.acdh.oeaw.ac.at/maechtekongresse/utils/listtreaties.xsl">
+        <acdh:isPartOf rdf:resource="https://id.acdh.oeaw.ac.at/maechtekongresse/utils"/>
+        <acdh:hasTitle xml:lang="eng">XSL to transform XML/TEI (listtreaties) to HTML, helper file for ARCHE dissemination service</acdh:hasTitle>
+        <acdh:hasTitle xml:lang="deu">XSL zur Transformation XML/TEI (listtreaties) nach HTML, für ARCHE dissemination service</acdh:hasTitle>
+        <acdh:hasCreator>
+            <acdh:Person rdf:about="http://d-nb.info/gnd/1043833846"/>
+        </acdh:hasCreator>
+        <acdh:hasCreator>
+            <acdh:Person rdf:about="http://d-nb.info/gnd/13281899X"/>
+        </acdh:hasCreator>
+        <acdh:hasLicense rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+        <acdh:hasDepositor>
+            <acdh:Person rdf:about="http://d-nb.info/gnd/13281899X"/>
+        </acdh:hasDepositor>
+    </acdh:Resource>
+    
+    <acdh:Resource rdf:about="https://id.acdh.oeaw.ac.at/maechtekongresse/utils/listwit.xsl">
+        <acdh:isPartOf rdf:resource="https://id.acdh.oeaw.ac.at/maechtekongresse/utils"/>
+        <acdh:hasTitle xml:lang="eng">XSL to transform XML/TEI (listwit) to HTML, helper file for ARCHE dissemination service</acdh:hasTitle>
+        <acdh:hasTitle xml:lang="deu">XSL zur Transformation XML/TEI (listwit) nach HTML, für ARCHE dissemination service</acdh:hasTitle>
+        <acdh:hasCreator>
+            <acdh:Person rdf:about="http://d-nb.info/gnd/1043833846"/>
+        </acdh:hasCreator>
+        <acdh:hasCreator>
+            <acdh:Person rdf:about="http://d-nb.info/gnd/13281899X"/>
+        </acdh:hasCreator>
+        <acdh:hasLicense rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+        <acdh:hasDepositor>
+            <acdh:Person rdf:about="http://d-nb.info/gnd/13281899X"/>
+        </acdh:hasDepositor>
+    </acdh:Resource>
+</rdf:RDF>
