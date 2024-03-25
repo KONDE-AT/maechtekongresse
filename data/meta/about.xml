@@ -58,10 +58,11 @@
                 <p>Durch die Beteiligung am HRSM-Projekt <ref type="URI" target="http://www.digitale-edition.at/">Kompetenznetzwerk Digitale Edition
                     (KONDE)</ref> fiel auf der Suche nach einer technischen Lösung für den
                     Präsentationslayer zu den bereits weitgehend in getaggter und „fertig“ edierter
-                    Form vorliegenden Dokumente die Wahl auf eine Umsetzung als Applikation für <ref type="URI" target="http://exist-db.org/">eXist-db</ref> (eine java-basierte
+                    Form vorliegenden Dokumente die Wahl ursprünglich auf eine Umsetzung als Applikation für <ref type="URI" target="http://exist-db.org/">eXist-db</ref> (eine java-basierte
                     XML-Serverlösung). Im Zusammenhang mit KONDE wurde aufbauend auf den <ref type="URI" target="https://github.com/csae8092/posts/tree/master/digital-edition-web-app">Blogposts</ref> von Peter Andorfer zur Verwendung der <ref type="URI" target="https://github.com/KONDE-AT/dsebaseapp">dsebaseapp</ref> (dse =
                     digital scholarly edition), die ihrerseits ihre Herkunft aus einer <ref type="URI" target="http://thun-korrespondenz.uibk.ac.at/">Briefedition</ref>
                     nicht verleugnen kann, mit der Umsetzung begonnen. </p>
+                <p>Die Applikation für eXist-db wird seit 2024 nicht mehr verwendet; an ihre Stelle ist eine Umsetzung mit statischen Seiten getreten. Sie wird auf <ref type="URI" target="https://github.com/KONDE-AT/maechtekongresse-static">GitHub</ref> entwickelt und basiert auf der ebenfalls von Peter Andorfer am ACDH-CH an der ÖAW entwickelten Lösung <ref type="URI" target="https://github.com/acdh-oeaw/dse-static-cookiecutter">dse-static-cookiecutter</ref>.</p>
                 <div>
                     <head>Legende zur Darstellung</head>
                     <list>
