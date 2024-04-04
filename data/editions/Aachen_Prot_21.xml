@@ -78,7 +78,7 @@
                </msContents>
                <physDesc>
 
-                  <p>Eigenhändiges Protokoll von <persName ref="#p.5">
+                  <p>Eigenhändiges Protokoll von <persName ref="#p_5">
                         <surname>Gentz</surname></persName>.</p>
                   <handDesc>
                      <handNote xml:id="G">Friedrich Gentz</handNote>
@@ -88,7 +88,7 @@
                </physDesc>
                <history>
                   <origin>
-                            <placeName ref="#loc.1">Aachen</placeName>
+                            <placeName ref="#loc_1">Aachen</placeName>
                      <date when="1818-11-03">3. November 1818</date>
                         </origin>
                </history>
@@ -116,26 +116,26 @@
                </physDesc>
                <history>
                   <origin>
-                            <placeName ref="#loc.1">Aachen</placeName>
+                            <placeName ref="#loc_1">Aachen</placeName>
                      <date when="1818-11-03">3. November 1818</date>
                         </origin>
                </history>
             </msDesc>
             <listWit corresp="#m.1">
                <head>Protokoll</head>
-               <witness corresp="#w.5">
+               <witness corresp="#w_5">
                         <bibl type="print">BFSP Bd. 6 (1818/19), S.
                   11-12.</bibl>
                     </witness>
-               <witness corresp="#w.6">
+               <witness corresp="#w_6">
                         <bibl type="print">Clarke, Papers presented to Parliament
                      1819, Bd. 1, S. 78-79.</bibl>
                     </witness>
-               <witness corresp="#w.8">
+               <witness corresp="#w_8">
                         <bibl type="print">Angeberg, Congrès, Bd. 3, S.
                      1746–1747.</bibl>
                     </witness>
-               <witness corresp="#w.9">
+               <witness corresp="#w_9">
                         <bibl type="print">Clercq, Recueil Bd. 3, S.
                   166–167</bibl>
                     </witness>
@@ -158,16 +158,16 @@
       </encodingDesc>
       <profileDesc>
          <abstract>
-            <p>Die <rs ref="#p.8 #p.11 #p.13 #p.12 #p.14 #p.9 #p.10" type="multi-person">Vertreter der alliierten
-                  Mächte</rs> geben dem Ersuchen des französischen Premierministers <persName ref="#p.1">
+            <p>Die <rs ref="#p_8 #p_11 #p_13 #p_12 #p_14 #p_9 #p_10" type="multi-person">Vertreter der alliierten
+                  Mächte</rs> geben dem Ersuchen des französischen Premierministers <persName ref="#p_1">
                         <surname>Richelieu</surname></persName> statt, die Zahlungsfrist der
                Entschädigungssumme zu verlängern und die Einlösung der Wechsel an verschiedenen
-               Orten durchzuführen. <persName ref="#p.20">
+               Orten durchzuführen. <persName ref="#p_20">
                         <forename>Alexander</forename>
-                  <surname>Baring</surname></persName> wird nach <placeName ref="#loc.1">Aachen</placeName> geladen. Die Einzelheiten der zwischen
-                  <country>Preußen</country> und <persName ref="#p.20">
+                  <surname>Baring</surname></persName> wird nach <placeName ref="#loc_1">Aachen</placeName> geladen. Die Einzelheiten der zwischen
+                  <country>Preußen</country> und <persName ref="#p_20">
                         <surname>Baring</surname></persName> getroffenen Abmachungen hinsichtlich der aus
-               der <rs ref="#t.10" type="treaties">Konvention vom <date when="1818-10-09">9. Oktober</date></rs>
+               der <rs ref="#t_10" type="treaties">Konvention vom <date when="1818-10-09">9. Oktober</date></rs>
                resultierenden Zahlungen werden separat zu Protokoll genommen. </p>
          </abstract>
          <particDesc>
@@ -175,21 +175,21 @@
                <head>Anwesende</head>
 
                <person>
-                  <persName ref="#p.12">BERNSTORFF</persName></person>
+                  <persName ref="#p_12">BERNSTORFF</persName></person>
                <person>
-                  <persName ref="#p.9">CASTLEREAGH</persName></person>
+                  <persName ref="#p_9">CASTLEREAGH</persName></person>
                <person>
-                  <persName ref="#p.11">HARDENBERG</persName></person>
+                  <persName ref="#p_11">HARDENBERG</persName></person>
                <person>
-                  <persName ref="#p.14">KAPODISTRIAS</persName></person>
+                  <persName ref="#p_14">KAPODISTRIAS</persName></person>
                <person>
-                  <persName ref="#p.8">METTERNICH</persName></person>
+                  <persName ref="#p_8">METTERNICH</persName></person>
                <person>
-                  <persName ref="#p.13">NESSELRODE</persName></person>
+                  <persName ref="#p_13">NESSELRODE</persName></person>
                <person>
-                  <persName ref="#p.1">RICHELIEU</persName></person>
+                  <persName ref="#p_1">RICHELIEU</persName></person>
                <person>
-                  <persName ref="#p.10">WELLINGTON</persName></person>
+                  <persName ref="#p_10">WELLINGTON</persName></person>
 
             </listPerson>
          </particDesc>
@@ -212,7 +212,7 @@
                 </metamark>
             <opener>
                     <dateline>
-                    <placeName ref="#loc.1">Aix-la-Chapelle</placeName> le <date when="1818-11-03">
+                    <placeName ref="#loc_1">Aix-la-Chapelle</placeName> le <date when="1818-11-03">
                         <del rendition="#ow">4</del>
                   <add>3</add> Novembre</date>
                 </dateline>
@@ -224,39 +224,39 @@
                     <choice>
                   <abbr>Mr.</abbr>
                   <expan>Monsieur</expan>
-               </choice> le <persName ref="#p.1">
+               </choice> le <persName ref="#p_1">
                         <roleName>Duc</roleName>
                   <surname>de Richelieu</surname></persName> a représenté à la Conférence que les
                termes de payemens des 165 Millions, à fournir par la <country>France</country>
-               d’après la <rs ref="#t.10" type="treaties">Convention du <date when="1818-10-09">9
+               d’après la <rs ref="#t_10" type="treaties">Convention du <date when="1818-10-09">9
                   Octobre</date></rs>, ayant été fixés à des époques trop rapprochées, il en
                résulteroit qu’une exportation trop rapide du Numéraire produiroit dans la valeur des
                Inscriptions de rentes une dépréciation également nuisibles aux intérêts de toutes
                les parties contractantes. Pour remédier à cet inconvénient, <choice>
                   <abbr>Mr.</abbr>
                   <expan>Monsieur</expan>
-               </choice> le <persName ref="#p.1">
+               </choice> le <persName ref="#p_1">
                         <roleName>Duc</roleName>
                   <surname>de Richelieu</surname></persName> a proposé les dispositions
                suivantes :</p>
             <p>1. Que les 165 Millions que la <country>France</country> doit acquitter conformément
-               à l’article 6 de la <rs ref="#t.10" type="treaties">susdite Convention</rs> par Neuvième de mois en
+               à l’article 6 de la <rs ref="#t_10" type="treaties">susdite Convention</rs> par Neuvième de mois en
                mois, à partir du 6 Janvier jusqu’au 6 Septembre prochaine, seront payés par douzième
                de mois en mois, à partir du 6 Janvier jusqu’au 6 Décembre inclusivement ; l’intérêt
                de ce délai de Trois mois étant bonifié par la <country>France</country> au taux de
                Cinq pour Cent ;</p>
             <p>2. Que les 100 Millions à acquitter en Inscriptions de rentes<pb n="99v"/> d’après
-               l’article 5 de la <rs ref="#t.10" type="treaties">dite convention</rs>, et pour lesquels les
+               l’article 5 de la <rs ref="#t_10" type="treaties">dite convention</rs>, et pour lesquels les
                différens gouvernemens ont traité avec <choice>
                   <abbr>Mrs.</abbr>
                   <expan>Messieurs</expan>
                </choice>
-               <persName ref="#p.20">
-                        <surname>Baring</surname></persName> et <persName ref="#p.23">
+               <persName ref="#p_20">
+                        <surname>Baring</surname></persName> et <persName ref="#p_23">
                         <surname>Hope</surname></persName>, seront réalisés par des payemens faits aux
                mêmes époques et avec la même bonification d’intérêts de la part des traitans en
                raison des délais qui leur seront accordés ;</p>
-            <p>3. Qu’il sera pris des arrangemens avec les <rs ref="#o.1 #o.2" type="multi-org">maisons mentionnées
+            <p>3. Qu’il sera pris des arrangemens avec les <rs ref="#o_1 #o_2" type="multi-org">maisons mentionnées
                   ci-dessus</rs> pour que les traites tirées sur Elles conformément à l’art. 6
                soyent payées en effets sur les différentes places qui pourroint être à la convenance
                des Gouvernemens intéressés, de manière à opérer les payemens en évitant le
@@ -265,12 +265,12 @@
                     <choice>
                   <abbr>Mrs.</abbr>
                   <expan>Messieurs</expan>
-               </choice> les <rs ref="#p.8 #p.11 #p.13 #p.12 #p.14 #p.9 #p.10" type="multi-person">Ministres et
+               </choice> les <rs ref="#p_8 #p_11 #p_13 #p_12 #p_14 #p_9 #p_10" type="multi-person">Ministres et
                   Plénipotentiaires d’Autriche, de la Grande-Bretagne, de Prusse et de Russie</rs>
                ont été unanimement d’avis d’admettre les propositions de <choice>
                   <abbr>Mr.</abbr>
                   <expan>Monsieur</expan>
-               </choice> le <persName ref="#p.1">
+               </choice> le <persName ref="#p_1">
                         <roleName>Duc</roleName>
                   <surname>de Richelieu</surname></persName>, sauf à entrer par rapport à l’article
                3 dans des arrangemens particuliers avec <choice>
@@ -278,23 +278,23 @@
                   <expan>Messieurs</expan>
                </choice>
                     <pb n="102r"/>
-               <persName ref="#p.23">
-                        <surname>Hope</surname></persName> et <persName ref="#p.20">
+               <persName ref="#p_23">
+                        <surname>Hope</surname></persName> et <persName ref="#p_20">
                         <surname>Baring</surname></persName> pour fixer les conditions auxquelles les
                effets sur les places étrangères seront acceptés.</p>
             <p>Et afin de faciliter ces arrangemens, <choice>
                   <abbr>Mr.</abbr>
                   <expan>Monsieur</expan>
                </choice>
-               <persName ref="#p.20">
+               <persName ref="#p_20">
                         <surname>Baring</surname></persName> sera invité à se rendre à
-                  <placeName ref="#loc.1">Aix-la-Chapelle</placeName> et à s’y concerter à cet effet
+                  <placeName ref="#loc_1">Aix-la-Chapelle</placeName> et à s’y concerter à cet effet
                avec les personnes qui seront chargées de cette affaire.</p>
             <p>
                     <choice>
                   <abbr>Mr.</abbr>
                   <expan>Monsieur</expan>
-               </choice> le <persName ref="#p.11">
+               </choice> le <persName ref="#p_11">
                         <roleName>Prince</roleName>
                   <surname>de Hardenberg</surname></persName> a remis en outre au Protocole <rs xml:id="n.1">les observations et réserves ci-jointes</rs>
                     <note type="editorial" target="#n.1">Anlage liegt nicht ein. Als „Annexe“ abgedruckt in BFSP Bd. 6
@@ -303,34 +303,34 @@
                   <abbr>Mr.</abbr>
                   <expan>Monsieur</expan>
                </choice>
-               <persName ref="#p.20">
+               <persName ref="#p_20">
                         <surname>Baring</surname></persName> pour la part qui Lui
-               revient dans les payemens stipulés par la <rs ref="#t.10" type="treaties">Convention du <date when="1818-10-09">9 Octobre</date></rs>.</p>
+               revient dans les payemens stipulés par la <rs ref="#t_10" type="treaties">Convention du <date when="1818-10-09">9 Octobre</date></rs>.</p>
             <signed>
                <list>
                   <item>
-                            <persName ref="#p.8">Metternich</persName>
+                            <persName ref="#p_8">Metternich</persName>
                         </item>
                   <item>
-                            <persName ref="#p.1">Richelieu</persName>
+                            <persName ref="#p_1">Richelieu</persName>
                         </item>
                   <item>
-                            <persName ref="#p.9">Castlereagh</persName>
+                            <persName ref="#p_9">Castlereagh</persName>
                         </item>
                   <item>
-                            <persName ref="#p.10">Wellington</persName>
+                            <persName ref="#p_10">Wellington</persName>
                         </item>
                   <item>
-                            <persName ref="#p.11">Hardenberg</persName>
+                            <persName ref="#p_11">Hardenberg</persName>
                         </item>
                   <item>
-                            <persName ref="#p.12">Bernstorff</persName>
+                            <persName ref="#p_12">Bernstorff</persName>
                         </item>
                   <item>
-                            <persName ref="#p.13">Nesselrode</persName>
+                            <persName ref="#p_13">Nesselrode</persName>
                         </item>
                   <item>
-                            <persName ref="#p.14">Capodistrias</persName>
+                            <persName ref="#p_14">Capodistrias</persName>
                         </item>
                </list>
                 </signed>
@@ -342,10 +342,10 @@
                     <add place="top">Annexe A du protocole du <date when="1818-11-03">3
                   Novembre</date>.</add>
                 </metamark>
-            <p>Il paroit résulter de l’effet opéré sur la place de <placeName ref="#loc.2">Paris</placeName> par l’exécution ou la connoissance des dernières mesures prises
+            <p>Il paroit résulter de l’effet opéré sur la place de <placeName ref="#loc_2">Paris</placeName> par l’exécution ou la connoissance des dernières mesures prises
                pour les arrangemens pécuniaires conclus entre les Gouvernemens étrangers et la
                   <country>France</country> que les termes de payemens des 265 millions, à fournir
-               d’après la <rs ref="#t.10" type="treaties">Convention du <date when="1818-10-09">9
+               d’après la <rs ref="#t_10" type="treaties">Convention du <date when="1818-10-09">9
                   Octobre</date></rs>, ont été fixés à des époques trop rapprochées, et que
                l’exportation du numéraire, qui en seroit la suite, produiroit dans la valeur des
                inscriptions de rentes une dépréciation également nuisible aux intérêts de toutes les
@@ -353,12 +353,12 @@
             <p>Le Gouvernement français s’est empressé de chercher les remèdes qu’il conviendroit
                d’apporter à cet état des choses ; et après un mûr<pb n="100v"/> examen des
                circonstances on croit devoir proposer d’adopter les modifications suivantes aux
-               stipulations de la <rs ref="#t.10" type="treaties">dernière Convention</rs>, et d’accorder en même
-               tems aux <rs ref="#o.1 #o.2" type="multi-org">maisons de banque</rs>, chargées de la négociation des
+               stipulations de la <rs ref="#t_10" type="treaties">dernière Convention</rs>, et d’accorder en même
+               tems aux <rs ref="#o_1 #o_2" type="multi-org">maisons de banque</rs>, chargées de la négociation des
                cent millions payables en inscriptions de rentes, certaines facilités dans le même
                but, de soutenir le cours de ces inscriptions.</p>
             <p>1<hi rendition="#su">mo</hi> Les 165 millions que la <country>France</country> doit
-               acquitter conformément à l’art. 6 de la <rs ref="#t.10" type="treaties">susdite Convention</rs> par
+               acquitter conformément à l’art. 6 de la <rs ref="#t_10" type="treaties">susdite Convention</rs> par
                neuvième de mois en mois, à partir du 6 Janvier jusqu’au 6 Septembre, seront payés
                par douzième de mois en mois, à partir du 6 Janvier jusqu’au 6 Décembre inclus.</p>
             <p>L’intérêt de ce délai de trois mois sera bonifié par la <country>France</country>
@@ -368,18 +368,18 @@
                   <abbr>M.M.</abbr>
                   <expan>Messieurs</expan>
                </choice>
-               <persName ref="#p.23">
-                        <surname>Hope</surname></persName> et <persName ref="#p.20">
+               <persName ref="#p_23">
+                        <surname>Hope</surname></persName> et <persName ref="#p_20">
                         <surname>Baring</surname></persName>, seront réalisés par des payemens faits
                aux mêmes époques et avec la même bonification d’intérêt de la part des traitans, en
                raison des délais qui leur seront accordés. </p>
-            <p>3<hi rendition="#su">tio</hi> Il sera pris des arrangemens avec les <rs ref="#o.1 #o.2" type="multi-org">maisons mentionnées ci-dessus</rs> pour que les traites, tirées sur elles
+            <p>3<hi rendition="#su">tio</hi> Il sera pris des arrangemens avec les <rs ref="#o_1 #o_2" type="multi-org">maisons mentionnées ci-dessus</rs> pour que les traites, tirées sur elles
                conformément à l’art. 6, soient payées en effet sur les différentes places qui
                pourroient être à la convenance des gouvernemens intéressés, de manière à opérer les
                payemens en évitant l’obligation de déplacer une trop grande masse de numéraire.</p>
             <closer>
                     <dateline>
-                    <placeName ref="#loc.1">Aix-la-Chapelle</placeName> le <date when="1818-11-03">3
+                    <placeName ref="#loc_1">Aix-la-Chapelle</placeName> le <date when="1818-11-03">3
                   Novembre 1818</date>.</dateline>
                 </closer>
          </div>
@@ -388,7 +388,7 @@
    
     <back>
             <listPerson>
-                <person xml:id="p.5">
+                <person xml:id="p_5">
                     <persName>
                         <forename>Friedrich</forename>
                         <surname>Gentz</surname></persName>
@@ -399,7 +399,7 @@
                         S. 169–170.</note>
                     <idno type="URI">https://viaf.org/viaf/2522018/</idno>
                 <idno type="GND">http://d-nb.info/gnd/118538489/</idno></person>
-                <person xml:id="p.8">
+                <person xml:id="p_8">
                     <persName>
                         <surname>Metternich</surname>
                         <forename>Clemens Wenzel Lothar</forename>
@@ -412,7 +412,7 @@
                         237–239.</note>
                     <idno type="URI">https://viaf.org/viaf/49258230/</idno>
                 <idno type="GND">http://d-nb.info/gnd/118581465/</idno></person>
-                <person xml:id="p.11">
+                <person xml:id="p_11">
                     <persName>
                         <forename>Karl August</forename>
                         <roleName>Fürst</roleName>
@@ -425,7 +425,7 @@
                         Gebrauch.</note>
                     <idno type="URI">https://viaf.org/viaf/4975077/</idno>
                 <idno type="GND">http://d-nb.info/gnd/118545906/</idno></person>
-                <person xml:id="p.13">
+                <person xml:id="p_13">
                     <persName>
                         <forename>Karl Robert</forename>
                         <roleName>Graf</roleName>
@@ -438,7 +438,7 @@
                         Europa in Wien, S. 248–249.</note>
                     <idno type="URI">https://viaf.org/viaf/49992065/</idno>
                 <idno type="GND">http://d-nb.info/gnd/117016462/</idno></person>
-                <person xml:id="p.12">
+                <person xml:id="p_12">
                     <persName>
                         <forename>Christian Günther</forename>
                         <roleName>Graf</roleName>
@@ -450,7 +450,7 @@
                         139–140; Schneider, Werner, Europa in Wien, S. 116–117.</note>
                     <idno type="URI">https://viaf.org/viaf/49969175/</idno>
                 <idno type="GND">http://d-nb.info/gnd/116147695/</idno></person>
-                <person xml:id="p.14">
+                <person xml:id="p_14">
                     <persName>
                         <forename>Ioannis Antonis</forename>
                         <roleName>Graf</roleName>
@@ -462,7 +462,7 @@
                         Schneider, Werner, Europa in Wien, S. 199–200.</note>
                     <idno type="URI">https://viaf.org/viaf/39507057/</idno>
                 <idno type="GND">http://d-nb.info/gnd/118720791/</idno></person>
-                <person xml:id="p.9">
+                <person xml:id="p_9">
                     <persName>
                         <forename>Robert </forename>
                         <surname>Stewart</surname>
@@ -475,7 +475,7 @@
                         749–757.</note>
                     <idno type="URI">https://viaf.org/viaf/15560591/</idno>
                 <idno type="GND">http://d-nb.info/gnd/11851962/</idno></person>
-                <person xml:id="p.10">
+                <person xml:id="p_10">
                     <persName>
                         <forename>Arthur</forename>
                         <surname>Wellesley</surname>, <roleName>1<hi rendition="#su">st</hi> duke of
@@ -487,7 +487,7 @@
                         58, S. 1–29.</note>
                     <idno type="URI">https://viaf.org/viaf/2465308/</idno>
                 <idno type="GND">http://d-nb.info/gnd/118806645/</idno></person>
-                <person xml:id="p.1">
+                <person xml:id="p_1">
                     <persName>
                         <forename>Armand Emmanuel</forename>
                         <surname>du Plessis</surname>
@@ -498,7 +498,7 @@
                         de Richelieu; Capefigue, Les diplomates européens, S. 245–274.</note>
                     <idno type="URI">https://viaf.org/viaf/56652282/</idno>
                 <idno type="GND">http://d-nb.info/gnd/119006200/</idno></person>
-                <person xml:id="p.20">
+                <person xml:id="p_20">
                     <persName>
                         <forename>Alexander</forename>
                         <surname>Baring</surname>, <roleName>1<hi rendition="#su">st</hi> Baron
@@ -509,7 +509,7 @@
                         Ashburton. In: ODNB, Bd. 3, S. 815–818.</note>
                     <idno type="URI">https://viaf.org/viaf/62290490/</idno>
                 <idno type="GND">http://d-nb.info/gnd/11605705/</idno></person>
-                <person xml:id="p.23">
+                <person xml:id="p_23">
                     <persName>
                         <forename>Thomas</forename>
                         <surname>Hope</surname></persName>
@@ -521,7 +521,7 @@
                 <idno type="GND">http://d-nb.info/gnd/118935488/</idno></person>
             </listPerson>
             <listPlace>
-                <place xml:id="loc.1">
+                <place xml:id="loc_1">
                 <placeName>Aachen</placeName>
                <placeName>Aix-la-Chapelle</placeName>
                
@@ -530,7 +530,7 @@
                     </location>
                     <idno type="URI">https://www.geonames.org/3247449</idno>
             </place>
-                <place xml:id="loc.2">
+                <place xml:id="loc_2">
                <placeName>Paris</placeName>
                <location>
                         <geo>48.85341 2.3488</geo>
@@ -539,7 +539,7 @@
             </place>
             </listPlace>
             <listBibl>
-                <bibl xml:id="t.10">Konvention zwischen Österreich, Großbritannien, Preußen und Russland
+                <bibl xml:id="t_10">Konvention zwischen Österreich, Großbritannien, Preußen und Russland
                sowie Frankreich, Aachen 9. Oktober 1818; BFSP Bd. 6 (1818/19), S. 6–10; Clercq,
                Recueil, Bd. 3, S. 164–166; Angeberg, Congrès, Bd. 3, S. 1744–1746; Meyer, Corpus
                Juris Confoederationis Germanicae, Bd. 1, S. 269–271; Clarke, Papers presented to

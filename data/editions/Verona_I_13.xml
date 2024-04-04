@@ -98,7 +98,7 @@
                </physDesc>
                <history>
                   <origin>
-                            <placeName ref="#loc.68">Verona</placeName>
+                            <placeName ref="#loc_68">Verona</placeName>
                             <date when="1822-11-17">17.
                         November 1822</date>
                         </origin>
@@ -166,7 +166,7 @@
                      <abbr>M<hi rendition="#su">r</hi>
                             </abbr>
                      <expan>Monsieur</expan>
-                  </choice> le <persName ref="#p.174">
+                  </choice> le <persName ref="#p_174">
                             <roleName>Vicomte</roleName>
                      <surname>de Montmorency</surname></persName> a d’abord énoncé <ref target="Verona_I_2.xml">trois cas qui lui
                   paraissaient de nature à rendre lesdits engagemens immédiatement
@@ -183,7 +183,7 @@
                   <abbr>M<hi rendition="#su">r</hi>
                         </abbr>
                   <expan>Monsieur</expan>
-               </choice> le <rs ref="#p.174" type="person">Vicomte</rs> a observé ensuite que, hors de ces cas
+               </choice> le <rs ref="#p_174" type="person">Vicomte</rs> a observé ensuite que, hors de ces cas
                prévus et définis, il pouvait s’en présenter plusieurs autres dans lesquels la
                   <country>France</country>, malgré l’attitude défensive qu’elle était décidée à
                conserver vis-à-vis de l’<country>Espagne</country>, se trouverait nécessairement
@@ -208,7 +208,7 @@
                   <abbr>M<hi rendition="#su">r</hi>
                         </abbr>
                   <expan>Monsieur</expan>
-               </choice> le <persName ref="#p.8">
+               </choice> le <persName ref="#p_8">
                         <roleName>Prince</roleName>
                   <surname>de Metternich</surname></persName>, ont appuyé cette observation.</p>
             <p>Le résultat de la délibération a été qu’il sera rédigé, dans le sens de ces
@@ -226,7 +226,7 @@
    
     <back>
             <listPerson>
-                <person xml:id="p.174">
+                <person xml:id="p_174">
                     <persName>
                         <forename>Mathieu Jean Félicité</forename>
                         <roleName>Vicomte</roleName>
@@ -238,7 +238,7 @@
                         Bd. 29, S. 181-183.</note>
                     <idno type="URI">https://viaf.org/viaf/66610110/</idno>
                 <idno type="GND">http://d-nb.info/gnd/104256060/</idno></person>
-                <person xml:id="p.8">
+                <person xml:id="p_8">
                     <persName>
                         <surname>Metternich</surname>
                         <forename>Clemens Wenzel Lothar</forename>
@@ -253,7 +253,7 @@
                 <idno type="GND">http://d-nb.info/gnd/118581465/</idno></person>
             </listPerson>
             <listPlace>
-                <place xml:id="loc.68">
+                <place xml:id="loc_68">
                <placeName>Verona</placeName>
                 <placeName>Vérone</placeName>
                <location>

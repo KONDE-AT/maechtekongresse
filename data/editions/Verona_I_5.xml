@@ -96,7 +96,7 @@
                </physDesc>
                <history>
                   <origin>
-                            <placeName ref="#loc.68">Verona</placeName>
+                            <placeName ref="#loc_68">Verona</placeName>
                             <date when="1822-10-30">30.
                         Oktober 1822</date>
                         </origin>
@@ -121,8 +121,8 @@
       </encodingDesc>
       <profileDesc>
          <abstract>
-            <p>Die <rs ref="#p.12 #p.175" type="multi-person">preußischen Gesandten</rs> erklären, dass das Kabinett in
-                  <placeName ref="#loc.9">Berlin</placeName> das Vorgehen der französischen
+            <p>Die <rs ref="#p_12 #p_175" type="multi-person">preußischen Gesandten</rs> erklären, dass das Kabinett in
+                  <placeName ref="#loc_9">Berlin</placeName> das Vorgehen der französischen
                Regierung in Hinblick auf <country>Spanien</country> unterstützen wird.</p>
          </abstract>
       </profileDesc>
@@ -140,12 +140,12 @@
                 </metamark>
 
             
-                    <head>Réponse confidentielle du Cabinet de <placeName ref="#loc.9">Berlin</placeName> au <ref target="Verona_I_2.xml">précis des communications
+                    <head>Réponse confidentielle du Cabinet de <placeName ref="#loc_9">Berlin</placeName> au <ref target="Verona_I_2.xml">précis des communications
                      verbales faites par <choice>
                         <abbr>M<hi rendition="#su">r</hi>
                                 </abbr>
                         <expan>Monsieur</expan>
-                     </choice> le <persName ref="#p.174">
+                     </choice> le <persName ref="#p_174">
                                 <roleName>Vicomte</roleName>
                         <surname>de Montmorency</surname></persName>
                         <lb/> à la Conférence du <date when="1822-10-20">20 Octobre</date>
@@ -154,30 +154,30 @@
                 
                <opener>
                     <dateline>
-                    <placeName ref="#loc.68">Vérone</placeName> le <date when="1822-10-30">
+                    <placeName ref="#loc_68">Vérone</placeName> le <date when="1822-10-30">
                         <add hand="#A" place="inspace">30</add> Octobre 1822</date>.</dateline>
                 </opener> 
             <p>Le précis des communications verbales de <choice>
                   <abbr>Mr.</abbr>
                   <expan>Monsieur</expan>
-               </choice> le <persName ref="#p.174">
+               </choice> le <persName ref="#p_174">
                         <roleName>Vicomte</roleName>
-                  <surname>de Montmorency</surname></persName> ayant été mis sous les yeux du <rs ref="#p.18" type="person">Roi</rs>, Sa Majesté, après avoir pris les rapports actuels entre la
+                  <surname>de Montmorency</surname></persName> ayant été mis sous les yeux du <rs ref="#p_18" type="person">Roi</rs>, Sa Majesté, après avoir pris les rapports actuels entre la
                   <country>France</country> et l’<country>Espagne</country> en mûre considération et
                voulant donner à la première de ces Puissances une preuve d’intérêt et de confiance,
                a autorisé Son Cabinet à déclarer en Son nom :</p>
             <p>Que si la conduite du Gouvernement espagnol à l’égard de la <country>France</country>
-               ou de <rs ref="#p.123" type="person">Son Envoyé à <placeName ref="#loc.24">Madrid</placeName></rs>
+               ou de <rs ref="#p_123" type="person">Son Envoyé à <placeName ref="#loc_24">Madrid</placeName></rs>
                étoit de nature à forcer cette dernière à rompre Ses relations diplomatiques avec
-                  l’<country>Espagne</country>, <rs ref="#p.18" type="person">Sa Majesté</rs> n’hésiteroit pas à
+                  l’<country>Espagne</country>, <rs ref="#p_18" type="person">Sa Majesté</rs> n’hésiteroit pas à
                en faire autant de Son côté ;</p>
             <p>Que si, en dépit des soins que le Gouvernement français s’engage à prendre pour
-               éviter la guerre avec l’<country>Espagne</country> cette guerre venait à éclater, <rs ref="#p.18" type="person">Sa Majesté</rs> est prête à Se joindre aux Monarques, Ses alliés, pour
+               éviter la guerre avec l’<country>Espagne</country> cette guerre venait à éclater, <rs ref="#p_18" type="person">Sa Majesté</rs> est prête à Se joindre aux Monarques, Ses alliés, pour
                prêter à la <country>France</country> tout l’appui moral qui pourroit servir à
                renforcer sa position ;</p>
             <p>Et</p>
             <p>Que si les événemens ou les conséquences de<pb n="164v"/> la guerre faisaient éprouver à la
-                  <country>France</country> le besoin d’un secours plus actif, le <rs ref="#p.18" type="person">Roi</rs> consentiroit encore à concourir aux mesures que l’on voudrait concerter
+                  <country>France</country> le besoin d’un secours plus actif, le <rs ref="#p_18" type="person">Roi</rs> consentiroit encore à concourir aux mesures que l’on voudrait concerter
                à l’effet d’assurer au Gouvernement français également ce genre d’appui, en autant
                que les nécessités de la position de Sa Majesté et les soins dus à l’intérieur de Son
                Royaume pourroient Lui en laisser la faculté.</p>
@@ -187,7 +187,7 @@
    
     <back>
             <listPerson>
-                <person xml:id="p.12">
+                <person xml:id="p_12">
                     <persName>
                         <forename>Christian Günther</forename>
                         <roleName>Graf</roleName>
@@ -199,7 +199,7 @@
                         139–140; Schneider, Werner, Europa in Wien, S. 116–117.</note>
                     <idno type="URI">https://viaf.org/viaf/49969175/</idno>
                 <idno type="GND">http://d-nb.info/gnd/116147695/</idno></person>
-                <person xml:id="p.175">
+                <person xml:id="p_175">
                     <persName>
                         <forename>Franz Ludwig</forename>
                         <roleName>Graf</roleName>
@@ -212,7 +212,7 @@
                         Bd. 2, S. 446–449.</note>
                     <idno type="URI">http://viaf.org/viaf/8166997/</idno>
                 <idno type="GND">http://d-nb.info/gnd/11750369/</idno></person>
-                <person xml:id="p.174">
+                <person xml:id="p_174">
                     <persName>
                         <forename>Mathieu Jean Félicité</forename>
                         <roleName>Vicomte</roleName>
@@ -224,7 +224,7 @@
                         Bd. 29, S. 181-183.</note>
                     <idno type="URI">https://viaf.org/viaf/66610110/</idno>
                 <idno type="GND">http://d-nb.info/gnd/104256060/</idno></person>
-                <person xml:id="p.18">
+                <person xml:id="p_18">
                     <persName>
                         <surname>Friedrich Wilhelm III.</surname>
                         <roleName>König von Preußen</roleName></persName>
@@ -234,7 +234,7 @@
                         Wilhelm III; Schneider, Werner, Europa in Wien, S. 161–162.</note>
                     <idno type="URI">https://viaf.org/viaf/774683/</idno>
                 <idno type="GND">http://d-nb.info/gnd/118535986/</idno></person>
-                <person xml:id="p.123">
+                <person xml:id="p_123">
                     <persName>
                         <forename>Augustin Marie Balthazar Charles </forename>
                         <surname>Pelletier</surname>
@@ -246,7 +246,7 @@
                         Sainte-Preuve (Hg.), Biographie universelle, Bd. 3, S. 74..</note></person>
             </listPerson>
             <listPlace>
-                <place xml:id="loc.68">
+                <place xml:id="loc_68">
                <placeName>Verona</placeName>
                 <placeName>Vérone</placeName>
                <location>
@@ -254,14 +254,14 @@
                     </location>
                     <idno type="URI">https://www.geonames.org/3164527</idno>
             </place>
-                <place xml:id="loc.9">
+                <place xml:id="loc_9">
                <placeName>Berlin</placeName>
                <location>
                         <geo>52.52437 13.41053</geo>
                     </location>
                     <idno type="URI">https://www.geonames.org/2950159</idno>
             </place>
-                <place xml:id="loc.24">
+                <place xml:id="loc_24">
                <placeName>Madrid</placeName>
                <location>
                         <geo>40.4165 -3.70256</geo>
