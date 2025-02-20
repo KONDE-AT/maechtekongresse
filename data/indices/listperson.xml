@@ -1,7 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -29,8 +28,8 @@
                         <surname>du Plessis</surname>
                         <roleName>duc de Richelieu</roleName>
                     </persName>
-                    <birth>1766</birth>
-                    <death>1822</death>
+                    <birth notBefore="1766-01-01" notAfter="1766-12-31">1766</birth>
+                    <death notBefore="1822-01-01" notAfter="1822-12-31">1822</death>
                     <note>Französischer Premierminister; vgl. zu seiner Person de Waresquiel, Le Duc
                         de Richelieu; Capefigue, Les diplomates européens, S. 245–274.</note>
                     <idno type="URI">https://viaf.org/viaf/56652282/</idno>
@@ -41,8 +40,8 @@
                         <forename>Karl</forename>
                         <surname>von Vincent</surname>
                     </persName>
-                    <birth>1757</birth>
-                    <death>1834</death>
+                    <birth notBefore="1757-01-01" notAfter="1757-12-31">1757</birth>
+                    <death notBefore="1834-01-01" notAfter="1834-12-31">1834</death>
                     <note>Österreichischer Gesandter in Paris; vgl. zu seiner Person Schlitter,
                         Vincent, Karl Freiherr von. In: ADB, Bd. 39, S 732–734.</note>
                     <idno type="URI">https://viaf.org/viaf/95669732/</idno>
@@ -54,8 +53,8 @@
                         <surname>Stuart</surname>, <roleName>1<hi rendition="#su">st</hi> Baron
                             Stuart de Rothesay</roleName>
                     </persName>
-                    <birth>1779</birth>
-                    <death>1845</death>
+                    <birth notBefore="1779-01-01" notAfter="1779-12-31">1779</birth>
+                    <death notBefore="1845-01-01" notAfter="1845-12-31">1845</death>
                     <note>Britischer Gesandter in Paris; vgl. zu seiner Person Franklin, Stuart,
                         Charles, Baron Stuart de Rothesay. In: ODNB, Bd. 53, S. 142–143.</note>
                     <idno type="URI">https://viaf.org/viaf/59891081/</idno>
@@ -67,8 +66,8 @@
                         <roleName>Graf</roleName>
                         <surname>von der Goltz</surname>
                     </persName>
-                    <birth>1775</birth>
-                    <death>1822</death>
+                    <birth notBefore="1775-01-01" notAfter="1775-12-31">1775</birth>
+                    <death notBefore="1822-01-01" notAfter="1822-12-31">1822</death>
                     <note>Preußischer Gesandter in Paris, verstarb während des Kongresses von Verona
                         am 13. Oktober 1822; vgl. zu seiner Person Priesdorff, Soldatisches
                         Führertum, Bd. 7, S. 366–368.</note>
@@ -80,8 +79,8 @@
                         <forename>Friedrich</forename>
                         <surname>Gentz</surname>
                     </persName>
-                    <birth>1764</birth>
-                    <death>1832</death>
+                    <birth notBefore="1764-01-01" notAfter="1764-12-31">1764</birth>
+                    <death notBefore="1832-01-01" notAfter="1832-12-31">1832</death>
                     <note>Protokollführer; vgl. zu seiner Person Kronenbitter, Wort und Macht;
                         Cahen, Gentz; Mann, Friedrich von Gentz; Schneider, Werner, Europa in Wien,
                         S. 169–170.</note>
@@ -93,7 +92,7 @@
                         <forename>Nikolaus</forename>
                         <surname>Wacken</surname>
                     </persName>
-                    <death>1834</death>
+                    <death notBefore="1834-01-01" notAfter="1834-12-31">1834</death>
                     <note>Kompilator, Protokollführer; vgl. zu seiner Person Schneider, Werner,
                         Europa in Wien, S. 207.</note>
                     <idno type="URI">https://viaf.org/viaf/309696450/</idno>
@@ -104,8 +103,8 @@
                         <forename>Carlo Andrea</forename>
                         <surname>Pozzo di Borgo</surname>
                     </persName>
-                    <birth>1764</birth>
-                    <death>1842</death>
+                    <birth notBefore="1764-01-01" notAfter="1764-12-31">1764</birth>
+                    <death notBefore="1842-01-01" notAfter="1842-12-31">1842</death>
                     <note>Russischer Gesandter in Paris; vgl. zu seiner Person Capefigue, Les
                         diplomates européens, S. 123–189; Schneider, Werner, Europa in Wien, S.
                         260–261.</note>
@@ -118,8 +117,8 @@
                         <forename>Clemens Wenzel Lothar</forename>
                         <roleName>Fürst</roleName>
                     </persName>
-                    <birth>1773</birth>
-                    <death>1859</death>
+                    <birth notBefore="1773-01-01" notAfter="1773-12-31">1773</birth>
+                    <death notBefore="1859-01-01" notAfter="1859-12-31">1859</death>
                     <note>Österreichischer Außenminister, ab 1821 österreichischer Haus-, Hof- und
                         Staatskanzler; vgl. zu seiner Person Siemann, Metternich; Šedivý,
                         Metternich; Srbik, Metternich; Schneider, Werner, Europa in Wien, S.
@@ -133,8 +132,8 @@
                         <surname>Stewart</surname>
                         <roleName>Viscount Castlereagh</roleName>
                     </persName>
-                    <birth>1769</birth>
-                    <death>1822</death>
+                    <birth notBefore="1769-01-01" notAfter="1769-12-31">1769</birth>
+                    <death notBefore="1822-01-01" notAfter="1822-12-31">1822</death>
                     <note>Britischer Außenminister; vgl zu seiner Person Bew, Castlereagh; Webster,
                         Foreign Policy; Bartlett, Castlereagh; Thorne, Stewart, Robert, Viscount
                         Castlereagh and second marquess of Londonderry. In: ODNB, Bd. 52, S.
@@ -148,8 +147,8 @@
                         <surname>Wellesley</surname>, <roleName>1<hi rendition="#su">st</hi> duke of
                             Wellington</roleName>
                     </persName>
-                    <birth>1769</birth>
-                    <death>1852</death>
+                    <birth notBefore="1769-01-01" notAfter="1769-12-31">1769</birth>
+                    <death notBefore="1852-01-01" notAfter="1852-12-31">1852</death>
                     <note>Bevollmächtigter Großbritanniens; vgl. zu seiner Person zuletzt Muir,
                         Wellington; Gash, Wellesley, Arthur, first duke of Wellington. In: ODNB, Bd.
                         58, S. 1–29.</note>
@@ -162,8 +161,8 @@
                         <roleName>Fürst</roleName>
                         <surname>von Hardenberg</surname>
                     </persName>
-                    <birth>1750</birth>
-                    <death>1822</death>
+                    <birth notBefore="1750-01-01" notAfter="1750-12-31">1750</birth>
+                    <death notBefore="1822-01-01" notAfter="1822-12-31">1822</death>
                     <note>Preußischer Staatskanzler, Bevollmächtigter Preußens; vgl. zu seiner
                         Person Gall, Hardenberg; Schneider, Werner, Europa in Wien, S. 184–185;
                         Capefigue, Les diplomates européens, S. 275–316; Stamm-Kuhlmann, Freier
@@ -177,8 +176,8 @@
                         <roleName>Graf</roleName>
                         <surname>von Bernstorff</surname>
                     </persName>
-                    <birth>1769</birth>
-                    <death>1835</death>
+                    <birth notBefore="1769-01-01" notAfter="1769-12-31">1769</birth>
+                    <death notBefore="1835-01-01" notAfter="1835-12-31">1835</death>
                     <note>Preußischer Außenminister, Bevollmächtigter Preußens; vgl. zu seiner
                         Person Kellenbenz, Bernstorff, Christian Graf von. In: NDB, Bd. 2, S.
                         139–140; Schneider, Werner, Europa in Wien, S. 116–117.</note>
@@ -191,8 +190,8 @@
                         <roleName>Graf</roleName>
                         <surname>von Nesselrode</surname>
                     </persName>
-                    <birth>1780</birth>
-                    <death>1862</death>
+                    <birth notBefore="1780-01-01" notAfter="1780-12-31">1780</birth>
+                    <death notBefore="1862-01-01" notAfter="1862-12-31">1862</death>
                     <note>Russischer Außenminister, Bevollmächtigter Russlands; vgl. zu seiner
                         Person Eich, Nesselrode, Robert Graf von. In: NDB, Bd. 19, S. 74–75;
                         Grimsted, The Foreign Ministers, S. 194–225, 269–286; Schneider, Werner,
@@ -206,8 +205,8 @@
                         <roleName>Graf</roleName>
                         <surname>Kapodistrias/Capodistrias</surname>
                     </persName>
-                    <birth>1776</birth>
-                    <death>1831</death>
+                    <birth notBefore="1776-01-01" notAfter="1776-12-31">1776</birth>
+                    <death notBefore="1831-01-01" notAfter="1831-12-31">1831</death>
                     <note>Russischer Außenminister, Bevollmächtigter Russlands; vgl. zu seiner
                         Person Woodhouse, Capodistrias; Grimsted, The Foreign Ministers, S. 226–268;
                         Schneider, Werner, Europa in Wien, S. 199–200.</note>
@@ -219,8 +218,8 @@
                         <surname>Ludwig/Louis XVIII.</surname>
                         <roleName> König von Frankreich</roleName>
                     </persName>
-                    <birth>1755</birth>
-                    <death>1824</death>
+                    <birth notBefore="1755-01-01" notAfter="1755-12-31">1755</birth>
+                    <death notBefore="1824-01-01" notAfter="1824-12-31">1824</death>
                     <note>Vgl. Malettke, Die Bourbonen; Thamer, Ludwig XVIII.; Mansel, Louis
                         XVIII.</note>
                     <idno type="URI">https://viaf.org/viaf/84035484/</idno>
@@ -231,8 +230,8 @@
                         <surname>Franz I.</surname>
                         <roleName>Kaiser von Österreich</roleName>
                     </persName>
-                    <birth>1768</birth>
-                    <death>1835</death>
+                    <birth notBefore="1768-01-01" notAfter="1768-12-31">1768</birth>
+                    <death notBefore="1835-01-01" notAfter="1835-12-31">1835</death>
                     <note>Vgl. Mikoletzky, Franz II. (I.); Schneider, Werner, Europa in Wien, S.
                         154–155; Ziegler, Franz II./I.</note>
                     <idno type="URI">https://viaf.org/viaf/36912131/</idno>
@@ -242,8 +241,8 @@
                         <surname>Alexander I.</surname>
                         <roleName>Zar von Russland</roleName>
                     </persName>
-                    <birth>1777</birth>
-                    <death>1825</death>
+                    <birth notBefore="1777-01-01" notAfter="1777-12-31">1777</birth>
+                    <death notBefore="1825-01-01" notAfter="1825-12-31">1825</death>
                     <note>Vgl. Rey, Alexander I.; Schneider, Werner, Europa in Wien, S.
                         100–102.</note>
                     <idno type="URI">https://viaf.org/viaf/4938543/</idno>
@@ -254,8 +253,8 @@
                         <surname>Friedrich Wilhelm III.</surname>
                         <roleName>König von Preußen</roleName>
                     </persName>
-                    <birth>1770</birth>
-                    <death>1840</death>
+                    <birth notBefore="1770-01-01" notAfter="1770-12-31">1770</birth>
+                    <death notBefore="1840-01-01" notAfter="1840-12-31">1840</death>
                     <note>Vgl. Stamm-Kuhlmann, König in Preußens großer Zeit; Ders., Friedrich
                         Wilhelm III; Schneider, Werner, Europa in Wien, S. 161–162.</note>
                     <idno type="URI">https://viaf.org/viaf/774683/</idno>
@@ -267,8 +266,8 @@
                         <roleName>König des Vereinigten Königreichs Großbritannien und Irland und
                             Hannover</roleName>
                     </persName>
-                    <birth>1738</birth>
-                    <death>1820</death>
+                    <birth notBefore="1738-01-01" notAfter="1738-12-31">1738</birth>
+                    <death notBefore="1820-01-01" notAfter="1820-12-31">1820</death>
                     <note>Vgl. Cannon, George III. In: ODNB, Bd. 21, S. 833–853; Black, George
                         III.</note>
                     <idno type="URI">https://viaf.org/viaf/49264990/</idno>
@@ -280,8 +279,8 @@
                         <surname>Baring</surname>, <roleName>1<hi rendition="#su">st</hi> Baron
                             Ashburton</roleName>
                     </persName>
-                    <birth>1774</birth>
-                    <death>1848</death>
+                    <birth notBefore="1774-01-01" notAfter="1774-12-31">1774</birth>
+                    <death notBefore="1848-01-01" notAfter="1848-12-31">1848</death>
                     <note>Vgl. Jenkins, Baring, Alexander; Orbell, Baring, Alexander, first Baron
                         Ashburton. In: ODNB, Bd. 3, S. 815–818.</note>
                     <idno type="URI">https://viaf.org/viaf/62290490/</idno>
@@ -292,8 +291,8 @@
                         <surname>Wilhelm I.</surname>
                         <roleName>Kurfürst von Hessen-Kassel</roleName>
                     </persName>
-                    <birth>1743</birth>
-                    <death>1821</death>
+                    <birth notBefore="1743-01-01" notAfter="1743-12-31">1743</birth>
+                    <death notBefore="1821-01-01" notAfter="1821-12-31">1821</death>
                     <note>Vgl. zu seiner Person Petersdorff, Wilhelm I. (Kurfürst von Hessen). In:
                         ADB, Bd. 43, S. 64–75; Franz, Das Haus Hessen; Schneider, Werner, Europa in
                         Wien, S. 318–319.</note>
@@ -305,8 +304,8 @@
                         <surname>Karl Ludwig Friedrich</surname>
                         <roleName>Großherzog von Baden</roleName>
                     </persName>
-                    <birth>1786</birth>
-                    <death>1818</death>
+                    <birth notBefore="1786-01-01" notAfter="1786-12-31">1786</birth>
+                    <death notBefore="1818-01-01" notAfter="1818-12-31">1818</death>
                     <note>Vgl. zu seiner Person Weech, Karl Ludwig Friedrich, Großherzog von Baden.
                         In: ADB, Bd. 15, S. 248–250; Schneider, Werner, Europa in Wien, S.
                         202.</note>
@@ -318,8 +317,8 @@
                         <forename>Thomas</forename>
                         <surname>Hope</surname>
                     </persName>
-                    <birth>1769</birth>
-                    <death>1831</death>
+                    <birth notBefore="1769-01-01" notAfter="1769-12-31">1769</birth>
+                    <death notBefore="1831-01-01" notAfter="1831-12-31">1831</death>
                     <note>Vgl. Buist, At spes non fracta; Jonker, The link; Orbell, Hope, Thomas.
                         In: ODNB, Bd. 28, S. 36–38.</note>
                     <idno type="URI">https://viaf.org/viaf/15569018/</idno>
@@ -330,8 +329,8 @@
                         <forename>Johann Peter Theodor</forename>
                         <surname>von Wacquant-Geozelles</surname>
                     </persName>
-                    <birth>1754</birth>
-                    <death>1844</death>
+                    <birth notBefore="1754-01-01" notAfter="1754-12-31">1754</birth>
+                    <death notBefore="1844-01-01" notAfter="1844-12-31">1844</death>
                     <note>Österreichischer Gesandter in Hessen-Kassel (Kurfürstentum Hessen); vgl.
                         Bringmann, Handbuch, S. 295; Wurzbach, Biographisches Lexikon, Bd. 52, S.
                         50–53.</note>
@@ -344,8 +343,8 @@
                         <roleName>Graf</roleName>
                         <surname>Buol-Schauenstein</surname>
                     </persName>
-                    <birth>1763</birth>
-                    <death>1834</death>
+                    <birth notBefore="1763-01-01" notAfter="1763-12-31">1763</birth>
+                    <death notBefore="1834-01-01" notAfter="1834-12-31">1834</death>
                     <note>Österreichischer Präsident des Bundestags in Frankfurt am Main; vgl. zu
                         seiner Person Aretin, Buol-Schauenstein Johann Rudolf Freiherr von, Graf.
                         In: NDB, Bd. 3, S. 22–23.</note>
@@ -358,8 +357,8 @@
                         <roleName>Freiherr</roleName>
                         <surname>von Berstett</surname>
                     </persName>
-                    <birth>1769</birth>
-                    <death>1837</death>
+                    <birth notBefore="1769-01-01" notAfter="1769-12-31">1769</birth>
+                    <death notBefore="1837-01-01" notAfter="1837-12-31">1837</death>
                     <note>Badischer Außenminister; vgl. zu seiner Person Ritthaler, Berstett,
                         Wilhelm Ludwig Leopold Reinhard Freiherr von. In: NDB, Bd. 2, S. 148;
                         Schneider, Werner, Europa in Wien, S. 118–119.</note>
@@ -371,8 +370,8 @@
                         <surname>Jõao/Johann VI.</surname>
                         <roleName>König von Portugal und Brasilien</roleName>
                     </persName>
-                    <birth>1767</birth>
-                    <death>1826</death>
+                    <birth notBefore="1767-01-01" notAfter="1767-12-31">1767</birth>
+                    <death notBefore="1826-01-01" notAfter="1826-12-31">1826</death>
                     <idno type="URI">https://viaf.org/viaf/269013446/</idno>
                 <idno type="GND">http://d-nb.info/gnd/119512602/</idno>
                 </person>
@@ -382,16 +381,16 @@
                         <surname>de Menezes Coutinho</surname>, <roleName>Graf (conde) von
                             Cantanhede und Marquis (marquês) von Marialva</roleName>
                     </persName>
-                    <birth>1765</birth>
-                    <death>1823</death>
+                    <birth notBefore="1765-01-01" notAfter="1765-12-31">1765</birth>
+                    <death notBefore="1823-01-01" notAfter="1823-12-31">1823</death>
                 </person>
                 <person xml:id="p_30">
                     <persName>
                         <surname>Ferdinand/Fernando VII.</surname>
                         <roleName>König von Spanien</roleName>
                     </persName>
-                    <birth>1784</birth>
-                    <death>1833</death>
+                    <birth notBefore="1784-01-01" notAfter="1784-12-31">1784</birth>
+                    <death notBefore="1833-01-01" notAfter="1833-12-31">1833</death>
                     <note>Vgl. zu seiner Person Sánchez Mantero, Fernando VII.</note>
                     <idno type="URI">https://viaf.org/viaf/286447916/</idno>
                 <idno type="GND">http://d-nb.info/gnd/119307421/</idno>
@@ -409,8 +408,8 @@
                         <forename>Anne-Adrien</forename>
                         <surname>de Montmorency-Laval</surname>
                     </persName>
-                    <birth>1768</birth>
-                    <death>1837</death>
+                    <birth notBefore="1768-01-01" notAfter="1768-12-31">1768</birth>
+                    <death notBefore="1837-01-01" notAfter="1837-12-31">1837</death>
                     <note>1818 französischer Botschafter in Madrid; vgl. zu seiner Person Michaud,
                         Biographie universelle, Bd. 23, S. 392–393 (unter „Laval“).</note>
                     <idno type="URI">https://viaf.org/viaf/281994258/</idno>
@@ -421,8 +420,8 @@
                         <surname>Wellesley</surname>, <roleName>1<hi rendition="#su">st</hi> Baron
                             Cowley</roleName>
                     </persName>
-                    <birth>1773</birth>
-                    <death>1847</death>
+                    <birth notBefore="1773-01-01" notAfter="1773-12-31">1773</birth>
+                    <death notBefore="1847-01-01" notAfter="1847-12-31">1847</death>
                     <note>Englischer Botschafter in Madrid; vgl. zu seiner Person Norgate, Severn,
                         Wellesley, Henry, first Baron Cowley. In: ODNB, Bd. 58, S. 32–33.</note>
                     <idno type="URI">https://viaf.org/viaf/52448546/</idno>
@@ -433,8 +432,8 @@
                         <forename>Heinrich Wilhelm</forename>
                         <surname>von Werther</surname>
                     </persName>
-                    <birth>1772</birth>
-                    <death>1859</death>
+                    <birth notBefore="1772-01-01" notAfter="1772-12-31">1772</birth>
+                    <death notBefore="1859-01-01" notAfter="1859-12-31">1859</death>
                     <note>Preußischer Botschafter in Madrid; vgl. zu seiner Person Petersdorff,
                         Werther Heinrich Freiherr von. In: ADB, Bd. 42, S. 111–113.</note>
                     <idno type="URI">https://viaf.org/viaf/35308253/</idno>
@@ -445,8 +444,8 @@
                         <forename>Dimitry Pavlovich</forename>
                         <surname>Tatistcheff</surname>
                     </persName>
-                    <birth>1767</birth>
-                    <death>1845</death>
+                    <birth notBefore="1767-01-01" notAfter="1767-12-31">1767</birth>
+                    <death notBefore="1845-01-01" notAfter="1845-12-31">1845</death>
                     <note>1818 russischer Botschafter in Madrid; vgl. zu seiner Person Татищев
                         Дмитрий Павлович. In: Russkij biografičeskij slovar’, Bd. 20, S.
                         237–349.</note>
@@ -459,8 +458,8 @@
                         <roleName>Freiherr</roleName>
                         <surname>von Wessenberg-Ampringen</surname>
                     </persName>
-                    <birth>1773</birth>
-                    <death>1858</death>
+                    <birth notBefore="1773-01-01" notAfter="1773-12-31">1773</birth>
+                    <death notBefore="1858-01-01" notAfter="1858-12-31">1858</death>
                     <note>Österreichischer Vertreter in der Territorialkommission in Frankfurt a. M.
                         sowie in München; vgl. zu seiner Person Arneth, Johann Freiherr von
                         Wessenberg; Schneider, Werner, Europa in Wien, S. 312–313.</note>
@@ -473,8 +472,8 @@
                         <surname>Le Poer Trench</surname>, <roleName>2<hi rendition="#su">nd</hi>
                             earl of Clancarty</roleName>
                     </persName>
-                    <birth>1767</birth>
-                    <death>1837</death>
+                    <birth notBefore="1767-01-01" notAfter="1767-12-31">1767</birth>
+                    <death notBefore="1837-01-01" notAfter="1837-12-31">1837</death>
                     <note>Britischer Vertreter in der Territorialkommission in Frankfurt a. M.; vgl.
                         zu seiner Person Norgate, Matthew, Trench, Richard Le Poer, second earl of
                         Clancarty. In: ODNB, Bd. 55, S. 297–299; Schneider, Werner, Europa in Wien,
@@ -487,8 +486,8 @@
                         <forename>Wilhelm</forename>
                         <surname>von Humboldt</surname>
                     </persName>
-                    <birth>1767</birth>
-                    <death>1835</death>
+                    <birth notBefore="1767-01-01" notAfter="1767-12-31">1767</birth>
+                    <death notBefore="1835-01-01" notAfter="1835-12-31">1835</death>
                     <note>Preußischer Vertreter in der Territorialkommission in Frankfurt a. M.,
                         1818 Gesandter Preußens in London; vgl. zu seiner Person zuletzt Gall,
                         Wilhelm von Humboldt; Schneider, Werner, Europa in Wien, S. 193–195.</note>
@@ -501,8 +500,8 @@
                         <roleName>Freiherr</roleName>
                         <surname>von Anstett</surname>
                     </persName>
-                    <birth>1766/1770</birth>
-                    <death>1835</death>
+                    <birth notBefore="1766-01-01" notAfter="1766-12-31">1766/1770</birth>
+                    <death notBefore="1835-01-01" notAfter="1835-12-31">1835</death>
                     <note>Russischer Vertreter in der Territorialkommission in Frankfurt a. M.; vgl.
                         zu seiner Person Schneider, Werner, Europa in Wien, S. 102–103.</note>
                     <idno type="URI">https://viaf.org/viaf/15516591/</idno>
@@ -514,8 +513,8 @@
                         <roleName>Graf</roleName>
                         <surname>von Lebzeltern</surname>
                     </persName>
-                    <birth>1774</birth>
-                    <death>1854</death>
+                    <birth notBefore="1774-01-01" notAfter="1774-12-31">1774</birth>
+                    <death notBefore="1854-01-01" notAfter="1854-12-31">1854</death>
                     <note>Österreichischer Botschafter in St. Petersburg, Mitglied der
                         österreichischen Delegation beim Kongress von Troppau; vgl. zu seiner Person
                         Lebzeltern Ludwig Graf. In: ÖBL, Bd. 5, S. 69; Wurzbach, Lebzeltern, Ludwig
@@ -528,8 +527,8 @@
                         <forename>Claude-Philippe-Édouard</forename>
                         <surname>de Mounier</surname>
                     </persName>
-                    <birth>1784</birth>
-                    <death>1843</death>
+                    <birth notBefore="1784-01-01" notAfter="1784-12-31">1784</birth>
+                    <death notBefore="1843-01-01" notAfter="1843-12-31">1843</death>
                     <note>Vgl. zu seiner Person Michaud, Biographie universelle, Bd. 29, S.
                         463–467.</note>
                     <idno type="URI">https://viaf.org/viaf/25371831/</idno>
@@ -540,8 +539,8 @@
                         <forename>François-Maximilien Gerard</forename>
                         <surname>de Rayneval</surname>
                     </persName>
-                    <birth>1778</birth>
-                    <death>1836</death>
+                    <birth notBefore="1778-01-01" notAfter="1778-12-31">1778</birth>
+                    <death notBefore="1836-01-01" notAfter="1836-12-31">1836</death>
                     <note>Vgl. zu seiner Person Michaud, Biographie universelle, Bd. 35, S.
                         268–269.</note>
                     <idno type="URI">https://viaf.org/viaf/22891736/</idno>
@@ -552,8 +551,8 @@
                         <forename>Joseph</forename>
                         <surname>Planta</surname>
                     </persName>
-                    <birth>1744</birth>
-                    <death>1827</death>
+                    <birth notBefore="1744-01-01" notAfter="1744-12-31">1744</birth>
+                    <death notBefore="1827-01-01" notAfter="1827-12-31">1827</death>
                     <note>Vgl. zu seiner Person Harris, Planta, Joseph. In: ODNB, Bd. 44, S.
                         519–521.</note>
                     <idno type="URI">https://viaf.org/viaf/13051898/</idno>
@@ -564,8 +563,8 @@
                         <forename>Johann Ludwig</forename>
                         <surname>von Jordan</surname>
                     </persName>
-                    <birth>1773</birth>
-                    <death>1848</death>
+                    <birth notBefore="1773-01-01" notAfter="1773-12-31">1773</birth>
+                    <death notBefore="1848-01-01" notAfter="1848-12-31">1848</death>
                     <note>Vgl. zu seiner Person Bailleu, Jordan, Johann Ludwig von. In: ADB, Bd. 14,
                         S. 506; Schneider, Werner, Europa in Wien, S. 198–199.</note>
                     <idno type="URI">https://viaf.org/viaf/10616622/</idno>
@@ -577,8 +576,8 @@
                         <roleName>Graf</roleName>
                         <surname>von Alopaeus</surname>
                     </persName>
-                    <birth>1769</birth>
-                    <death>1831</death>
+                    <birth notBefore="1769-01-01" notAfter="1769-12-31">1769</birth>
+                    <death notBefore="1831-01-01" notAfter="1831-12-31">1831</death>
                     <note>Vgl. zu seiner Person Alopäus Franz David in der Erik-Amburger-Datenbank
                         (Ausländer im vorrevolutionären Russland) auf <ref target="http://dokumente.ios-regensburg.de/amburger/index.php?id=94067">
                             http://dokumente.ios-regensburg.de/amburger/index.php?id=94067</ref>
@@ -591,8 +590,8 @@
                         <surname>Karl XIV. Johann</surname>
                         <roleName>König von Schweden und Norwegen</roleName>
                     </persName>
-                    <birth>1763</birth>
-                    <death>1844</death>
+                    <birth notBefore="1763-01-01" notAfter="1763-12-31">1763</birth>
+                    <death notBefore="1844-01-01" notAfter="1844-12-31">1844</death>
                     <note>Geb. als
                     
                         Jean Baptiste
@@ -609,8 +608,8 @@
                         <surname>de Bourbon</surname>
                         <roleName>prince de Condé</roleName>
                     </persName>
-                    <birth>1736</birth>
-                    <death>1818</death>
+                    <birth notBefore="1736-01-01" notAfter="1736-12-31">1736</birth>
+                    <death notBefore="1818-01-01" notAfter="1818-12-31">1818</death>
                     <note>Vgl. zu seiner Person Michaud, Biographie universelle, Bd. 5, S.
                         275–282.</note>
                     <idno type="URI">https://viaf.org/viaf/76411850/</idno>
@@ -621,8 +620,8 @@
                         <forename>Charles Alain Gabriel</forename>
                         <surname>de Rohan</surname>
                     </persName>
-                    <birth>1764</birth>
-                    <death>1836</death>
+                    <birth notBefore="1764-01-01" notAfter="1764-12-31">1764</birth>
+                    <death notBefore="1836-01-01" notAfter="1836-12-31">1836</death>
                     <note>Vgl. zu seiner Person Wurzbach, Bd. 26, S. 279–281.</note>
                     <idno type="URI">https://viaf.org/viaf/85483394/</idno>
                 </person>
@@ -631,8 +630,8 @@
                         <forename>Karl Christian</forename>
                         <surname>von Berckheim</surname>
                     </persName>
-                    <birth>1774</birth>
-                    <death>1849</death>
+                    <birth notBefore="1774-01-01" notAfter="1774-12-31">1774</birth>
+                    <death notBefore="1849-01-01" notAfter="1849-12-31">1849</death>
                     <note>Vertreter Badens auf dem Wiener Kongress, zwischen 1817 und 1820/21
                         Gesandter Badens am Deutschen Bundestag; vgl. zu seiner Person Körner,
                         Berckheim, Karl Christian Freiherr von. In: NDB, Bd. 2, S. 66–67; Schneider,
@@ -645,8 +644,8 @@
                         <forename>Napoleon I.</forename>
                         <surname>Bonaparte</surname>
                     </persName>
-                    <birth>1769</birth>
-                    <death>1821</death>
+                    <birth notBefore="1769-01-01" notAfter="1769-12-31">1769</birth>
+                    <death notBefore="1821-01-01" notAfter="1821-12-31">1821</death>
                     <note>Vgl. zu seiner Person z. B. Ullrich, Napoleon; Fournier, Napoleon I.
                         Dwyer, Napoleon; Dwyer, Citizen Emperor; Tulard, Napoleon; Broers, Napoleon
                         (2 Bde.).</note>
@@ -658,8 +657,8 @@
                         <surname>Ludwig I.</surname>
                         <roleName>Großherzog von Baden</roleName>
                     </persName>
-                    <birth>1763</birth>
-                    <death>1830</death>
+                    <birth notBefore="1763-01-01" notAfter="1763-12-31">1763</birth>
+                    <death notBefore="1830-01-01" notAfter="1830-12-31">1830</death>
                     <note>Ab 1818 Großherzog von Baden; vgl. zu seiner Person Gerteis, Ludwig. In:
                         NDB, Bd. 15, S. 354–355.</note>
                     <idno type="URI">https://viaf.org/viaf/30472249/</idno>
@@ -670,8 +669,8 @@
                         <surname>Karl Friedrich</surname>
                         <roleName>Großherzog von Baden</roleName>
                     </persName>
-                    <birth>1728</birth>
-                    <death>1811</death>
+                    <birth notBefore="1728-01-01" notAfter="1728-12-31">1728</birth>
+                    <death notBefore="1811-01-01" notAfter="1811-12-31">1811</death>
                     <note>Ab 1806 Großherzog von Baden; vgl. zu seiner Person Gerteis, Karl
                         Friedrich von Baden. In: NDB, Bd. 11, S. 221–223; Wiegand, Nieß (Hg.), Karl
                         Friedrich von Baden.</note>
@@ -683,8 +682,8 @@
                         <surname>Leopold I.</surname>
                         <roleName>Großherzog von Baden</roleName>
                     </persName>
-                    <birth>1790</birth>
-                    <death>1852</death>
+                    <birth notBefore="1790-01-01" notAfter="1790-12-31">1790</birth>
+                    <death notBefore="1852-01-01" notAfter="1852-12-31">1852</death>
                     <note>Vgl. zu seiner Person Gerteis, Leopold. In: NDB, Bd. 14, S. 271</note>
                     <idno type="URI">https://viaf.org/viaf/21315940/</idno>
                 <idno type="GND">http://d-nb.info/gnd/118965123/</idno>
@@ -694,8 +693,8 @@
                         <surname>Elisabeth Alexejevna</surname>
                         <roleName>Zarin von Russland</roleName>
                     </persName>
-                    <birth>1779</birth>
-                    <death>1826</death>
+                    <birth notBefore="1779-01-01" notAfter="1779-12-31">1779</birth>
+                    <death notBefore="1826-01-01" notAfter="1826-12-31">1826</death>
                     <note>Geb. Louise von Baden; vgl. zu ihrer Person Schneider, Werner, Europa in Wien, S. 148–149.</note>
                     <idno type="URI">https://viaf.org/viaf/35247922/</idno>
                 <idno type="GND">http://d-nb.info/gnd/118529919/</idno>
@@ -706,8 +705,8 @@
                         <roleName>Freiherr</roleName>
                         <surname>Marschall von Bieberstein</surname>
                     </persName>
-                    <birth>1763</birth>
-                    <death>1817</death>
+                    <birth notBefore="1763-01-01" notAfter="1763-12-31">1763</birth>
+                    <death notBefore="1817-01-01" notAfter="1817-12-31">1817</death>
                     <note>1817 badischer Innenminister; vgl. zu seiner Person Weech, Marschall von
                         Bieberstein, Carl Wilhelm Freiherr. In: ADB, Bd. 20, S. 433–434; Schneider,
                         Werner, Europa in Wien, S. 234–235.</note>
@@ -720,8 +719,8 @@
                         <roleName>Graf</roleName>
                         <surname>Löwenhielm</surname>
                     </persName>
-                    <birth>1772</birth>
-                    <death>1861</death>
+                    <birth notBefore="1772-01-01" notAfter="1772-12-31">1772</birth>
+                    <death notBefore="1861-01-01" notAfter="1861-12-31">1861</death>
                     <note>Bevollmächtigter Schwedens auf dem Wiener Kongress; vgl. zu seiner Person
                         Lazarus, Svenska millionärer, Bd. 5, S. 375–383; Schneider, Werner, Europa
                         in Wien, S. 223–224.</note>
@@ -743,8 +742,8 @@
                         <surname>Smythe</surname>, <roleName>6<hi rendition="#su">th</hi> Viscount
                             Strangford</roleName>
                     </persName>
-                    <birth>1780</birth>
-                    <death>1855</death>
+                    <birth notBefore="1780-01-01" notAfter="1780-12-31">1780</birth>
+                    <death notBefore="1855-01-01" notAfter="1855-12-31">1855</death>
                     <note>1818 britischer Botschafter in Stockholm, 1822 britischer Botschafter an
                         der Hohen Pforte; vgl. zu seiner Person Norgate, Matthew, Smythe, Percy
                         Clinton Sydney, sixth Viscount Strangford. In: ODNB, Bd. 51, S.
@@ -757,8 +756,8 @@
                         <forename>Friedrich Franz</forename>
                         <surname>von Tarrach</surname>
                     </persName>
-                    <birth>1766</birth>
-                    <death>1834</death>
+                    <birth notBefore="1766-01-01" notAfter="1766-12-31">1766</birth>
+                    <death notBefore="1834-01-01" notAfter="1834-12-31">1834</death>
                     <note>Preußischer Botschafter in Stockholm; vgl. Straubel, Biographisches
                         Handbuch, Bd. 2, S. 1004.</note>
                 </person>
@@ -767,8 +766,8 @@
                         <forename>Jan Pieter </forename>
                         <surname>von Suchtelen</surname>
                     </persName>
-                    <birth>1751</birth>
-                    <death>1836</death>
+                    <birth notBefore="1751-01-01" notAfter="1751-12-31">1751</birth>
+                    <death notBefore="1836-01-01" notAfter="1836-12-31">1836</death>
                     <note>Russischer Botschafter in Stockholm; vgl. Johann Peter Suchtelen in der
                         David in der Erik-Amburger-Datenbank (Ausländer im vorrevolutionären
                         Russland) auf <ref target="http://dokumente.ios-regensburg.de/amburger/index.php?id=89719&amp;mode=1">
@@ -783,8 +782,8 @@
                         <surname>de Souza Holstein</surname>, <roleName>Herzog (duque) von
                             Palmella</roleName>
                     </persName>
-                    <birth>1781</birth>
-                    <death>1850</death>
+                    <birth notBefore="1781-01-01" notAfter="1781-12-31">1781</birth>
+                    <death notBefore="1850-01-01" notAfter="1850-12-31">1850</death>
                     <note>Portugiesischer Außenminister.</note>
                     <idno type="URI">https://viaf.org/viaf/28369126/</idno>
                 <idno type="GND">http://d-nb.info/gnd/1029542295/</idno>
@@ -795,8 +794,8 @@
                         <surname>de Saldanha da Gama</surname>
                         <roleName>Graf (conde) von Porto Santo</roleName>
                     </persName>
-                    <birth>1787</birth>
-                    <death>1839</death>
+                    <birth notBefore="1787-01-01" notAfter="1787-12-31">1787</birth>
+                    <death notBefore="1839-01-01" notAfter="1839-12-31">1839</death>
                     <note>Vgl. zu seiner Person Schneider, Werner, Europa in Wien, S.
                         270-271.</note>
                     <idno type="URI">https://viaf.org/viaf/293235843/</idno>
@@ -808,8 +807,8 @@
                         <surname>Lobo da Silveira</surname>,<roleName>Graf (conde) von
                             Oriola</roleName>
                     </persName>
-                    <birth>1772</birth>
-                    <death>1846</death>
+                    <birth notBefore="1772-01-01" notAfter="1772-12-31">1772</birth>
+                    <death notBefore="1846-01-01" notAfter="1846-12-31">1846</death>
                     <note>Vgl. zu seiner Person Kneschke, Neues allgemeines deutsches Adels-Lexicon,
                         Bd. 6, S. 613-614; Schneider, Werner, Europa in Wien, S. 223.</note>
                     <idno type="URI">https://viaf.org/viaf/63643572/</idno>
@@ -820,8 +819,8 @@
                         <surname>Willelm/Wilhelm I.</surname>
                         <roleName>König der Niederlande, Großherzog von Luxemburg</roleName>
                     </persName>
-                    <birth>1772</birth>
-                    <death>1843</death>
+                    <birth notBefore="1772-01-01" notAfter="1772-12-31">1772</birth>
+                    <death notBefore="1843-01-01" notAfter="1843-12-31">1843</death>
                     <note>Vgl. zu seiner Person Koch, Koning Willem I.</note>
                     <idno type="URI">https://viaf.org/viaf/42645467/</idno>
                 <idno type="GND">http://d-nb.info/gnd/119312700/</idno>
@@ -832,8 +831,8 @@
                         <roleName>Graf</roleName>
                         <surname>von Lieven</surname>
                     </persName>
-                    <birth>1774</birth>
-                    <death>1839</death>
+                    <birth notBefore="1774-01-01" notAfter="1774-12-31">1774</birth>
+                    <death notBefore="1839-01-01" notAfter="1839-12-31">1839</death>
                     <note>Russischer Botschafter in London; vgl. zu seiner Person den Eintrag zu
                         Graf Lieven/Fürst Lieven Christoph Heinrich in der Erik-Amburger-Datenbank
                         (Ausländer im vorrevolutionären Russland) auf <ref target="http://dokumente.ios-regensburg.de/amburger/index.php?id=71688&amp;mode=1">http://dokumente.ios-regensburg.de/amburger/index.php?id=71688&amp;mode=1</ref>
@@ -846,8 +845,8 @@
                         <surname>Peter Friedrich Wilhelm</surname>
                         <roleName>Herzog von Oldenburg</roleName>
                     </persName>
-                    <birth>1754</birth>
-                    <death>1823</death>
+                    <birth notBefore="1754-01-01" notAfter="1754-12-31">1754</birth>
+                    <death notBefore="1823-01-01" notAfter="1823-12-31">1823</death>
                     <note>Vgl. zu seiner Person Mutzenbecher, Peter Friedrich Wilhelm. In: ADB, Bd.
                         25, S. 469.</note>
                     <idno type="URI">https://viaf.org/viaf/88141669/</idno>
@@ -858,8 +857,8 @@
                         <surname>Ernst III. (Carl Anton Ludwig)</surname>
                         <roleName>Herzog von Sachsen-Coburg(-Saalfeld)</roleName>
                     </persName>
-                    <birth>1784</birth>
-                    <death>1844</death>
+                    <birth notBefore="1784-01-01" notAfter="1784-12-31">1784</birth>
+                    <death notBefore="1844-01-01" notAfter="1844-12-31">1844</death>
                     <note>Vgl. zu seiner Person Knorr, Ernst I., Herzog von
                         Sachsen-Coburg-Saalfeld). In: NDB, Bd. 4, S. 620–621; Schneider, Werner,
                         Europa in Wien, S. 150–151.</note>
@@ -871,8 +870,8 @@
                         <surname>Friedrich V. (Ludwig Wilhelm Christian)</surname>
                         <roleName>Landgraf von Hessen-Homburg</roleName>
                     </persName>
-                    <birth>1748</birth>
-                    <death>1820</death>
+                    <birth notBefore="1748-01-01" notAfter="1748-12-31">1748</birth>
+                    <death notBefore="1820-01-01" notAfter="1820-12-31">1820</death>
                     <note>Vgl. zu seiner Person Kirchner, Friedrich Ludwig. In: NDB, Bd. 5, S.
                         506–507; Hischer (Hg.), Landgraf Friedrich V.</note>
                     <idno type="URI">https://viaf.org/viaf/27865946/</idno>
@@ -883,8 +882,8 @@
                         <surname>Ludwig I.</surname>
                         <roleName>Großherzog von Hessen und bei Rhein</roleName>
                     </persName>
-                    <birth>1753</birth>
-                    <death>1830</death>
+                    <birth notBefore="1753-01-01" notAfter="1753-12-31">1753</birth>
+                    <death notBefore="1830-01-01" notAfter="1830-12-31">1830</death>
                     <note>Vgl. zu seiner Person Richter, Großherzog Ludewig I.; Franz, Ludwig I. In:
                         NDB, Bd. 15, S. 395–396.</note>
                     <idno type="URI">https://viaf.org/viaf/51816780/</idno>
@@ -896,8 +895,8 @@
                         <roleName>Fürst</roleName>
                         <surname>zu Windisch-Graetz</surname>
                     </persName>
-                    <birth>1787</birth>
-                    <death>1862</death>
+                    <birth notBefore="1787-01-01" notAfter="1787-12-31">1787</birth>
+                    <death notBefore="1862-01-01" notAfter="1862-12-31">1862</death>
                     <note>Vgl. zu seiner Person Wurzbach, Biographisches Lexikon, Bd. 57, S. 1–39;
                         Raberg, Biographisches Handbuch, S. 1021.</note>
                     <idno type="URI">https://viaf.org/viaf/84635414/</idno>
@@ -908,8 +907,8 @@
                         <surname>Wilhelm I. (Friedrich Wilhelm Carl)</surname>
                         <roleName>König von Württemberg</roleName>
                     </persName>
-                    <birth>1781</birth>
-                    <death>1864</death>
+                    <birth notBefore="1781-01-01" notAfter="1781-12-31">1781</birth>
+                    <death notBefore="1864-01-01" notAfter="1864-12-31">1864</death>
                     <note>Vgl. zu seiner Person Sauer, Reformer; Elias, Wilhelm I. In: Lorenz,
                         Mertens, Press (Hg), Das Haus Württemberg, S. 302–306; Schneider, Werner,
                         Europa in Wien, S. 316–317.</note>
@@ -922,8 +921,8 @@
                         <roleName>Fürst</roleName>
                         <surname>von Thurn und Taxis</surname>
                     </persName>
-                    <birth>1770</birth>
-                    <death>1827</death>
+                    <birth notBefore="1770-01-01" notAfter="1770-12-31">1770</birth>
+                    <death notBefore="1827-01-01" notAfter="1827-12-31">1827</death>
                     <note>Vgl. Grillmeyer, Habsburgs Diener; Behringer, Thurn und Taxis; Schneider,
                         Werner, Europa in Wien, S. 297.</note>
                     <idno type="URI">https://viaf.org/viaf/12733266/</idno>
@@ -935,8 +934,8 @@
                         <roleName>Freiherr</roleName>
                         <surname>von Otterstedt</surname>
                     </persName>
-                    <birth>1769</birth>
-                    <death>1850</death>
+                    <birth notBefore="1769-01-01" notAfter="1769-12-31">1769</birth>
+                    <death notBefore="1850-01-01" notAfter="1850-12-31">1850</death>
                     <note>Preußischer Gesandter in Darmstadt; vgl. zu seiner Person Petersdorff,
                         Otterstedt, Friedrich Freiherr von. In: ADB, Bd. 52, S. 731–733.</note>
                 </person>
@@ -946,8 +945,8 @@
                         <roleName>Graf</roleName>
                         <surname>von Trauttmannsdorff-Weinsberg</surname>
                     </persName>
-                    <birth>1788</birth>
-                    <death>1870</death>
+                    <birth notBefore="1788-01-01" notAfter="1788-12-31">1788</birth>
+                    <death notBefore="1870-01-01" notAfter="1870-12-31">1870</death>
                     <note>Österreichischer Gesandter in Stuttgart; vgl. zu seiner Person ÖBL, Bd.
                         14, S. 437.</note>
                     <idno type="URI">https://viaf.org/viaf/1145147907501379210004/</idno>
@@ -959,8 +958,8 @@
                         <roleName>comte</roleName>
                         <surname>de Montalemberg</surname>
                     </persName>
-                    <birth>1777</birth>
-                    <death>1831</death>
+                    <birth notBefore="1777-01-01" notAfter="1777-12-31">1777</birth>
+                    <death notBefore="1831-01-01" notAfter="1831-12-31">1831</death>
                     <note>Französischer Gesandter in Stuttgart; vgl. zu seiner Person Michaud,
                         Biographie universelle, Bd. 29, S. 28–31.</note>
                 </person>
@@ -970,8 +969,8 @@
                         <forename>Brook</forename>
                         <surname>Taylor</surname>
                     </persName>
-                    <birth>1776</birth>
-                    <death>1846</death>
+                    <birth notBefore="1776-01-01" notAfter="1776-12-31">1776</birth>
+                    <death notBefore="1846-01-01" notAfter="1846-12-31">1846</death>
                     <note>Britischer Gesandter in Stuttgart; vgl. Vetch, Reynolds, Taylor, Sir
                         Herbert (Unterbiographie Sir Brook Taylor). In: ODNB, Bd. 53, S. 904–905;
                         Bringmann, Handbuch, S. 200.</note>
@@ -983,8 +982,8 @@
                         <forename>Johann Emanuel</forename>
                         <surname>von Küster</surname>
                     </persName>
-                    <birth>1764</birth>
-                    <death>1833</death>
+                    <birth notBefore="1764-01-01" notAfter="1764-12-31">1764</birth>
+                    <death notBefore="1833-01-01" notAfter="1833-12-31">1833</death>
                     <note>Preußischer Gesandter in Stuttgart; vgl. Bringmann, Handbuch, S.
                         330.</note>
                 </person>
@@ -994,8 +993,8 @@
                         <roleName>Freiherr</roleName>
                         <surname>von Benckendorff</surname>
                     </persName>
-                    <birth>1785</birth>
-                    <death>1828</death>
+                    <birth notBefore="1785-01-01" notAfter="1785-12-31">1785</birth>
+                    <death notBefore="1828-01-01" notAfter="1828-12-31">1828</death>
                     <note>Russischer Gesandter in Stuttgart; vgl. Bringmann, Handbuch, S.
                         345.</note>
                     <idno type="URI">https://viaf.org/viaf/35238097/</idno>
@@ -1006,8 +1005,8 @@
                         <surname>Anton Aloys (Meinrad Franz)</surname>
                         <roleName>Fürst von Hohenzollern-Sigmaringen</roleName>
                     </persName>
-                    <birth>1762</birth>
-                    <death>1831</death>
+                    <birth notBefore="1762-01-01" notAfter="1762-12-31">1762</birth>
+                    <death notBefore="1831-01-01" notAfter="1831-12-31">1831</death>
                     <note>Vgl. zu seiner Person Schilling, Geschichte des Hauses Hohenzollern, S.
                         292–299; Schneider, Werner, Europa in Wien, S. 103.</note>
                     <idno type="URI">https://viaf.org/viaf/65144067/</idno>
@@ -1018,8 +1017,8 @@
                         <surname>Karl II.</surname>
                         <roleName>Großherzog zu Mecklenburg-Strelitz</roleName>
                     </persName>
-                    <birth>1741</birth>
-                    <death>1816</death>
+                    <birth notBefore="1741-01-01" notAfter="1741-12-31">1741</birth>
+                    <death notBefore="1816-01-01" notAfter="1816-12-31">1816</death>
                     <note>Vgl. zu seiner Person Schütt, Carl II. Ludwig Friedrich. Georg, Großherzog
                         zu Mecklenburg-Strelitz; vgl. zu seiner Person Rakow, Georg Friedrich Carl
                         Joseph.</note>
@@ -1032,8 +1031,8 @@
                         <roleName>(Reichs-)Graf</roleName>
                         <surname>von Bentinck</surname>
                     </persName>
-                    <birth>1762</birth>
-                    <death>1835</death>
+                    <birth notBefore="1762-01-01" notAfter="1762-12-31">1762</birth>
+                    <death notBefore="1835-01-01" notAfter="1835-12-31">1835</death>
                     <note>Vgl. zu seiner Person Lübbing, Bentinck, Wilhelm Gustav Friedrich
                         Reichsgraf von. In: NDB, Bd. 2, S. 57.</note>
                     <idno type="URI">https://viaf.org/viaf/27875100/</idno>
@@ -1045,8 +1044,8 @@
                         <roleName>Herzog</roleName>
                         <surname>von Arenberg</surname>
                     </persName>
-                    <birth>1785</birth>
-                    <death>1861</death>
+                    <birth notBefore="1785-01-01" notAfter="1785-12-31">1785</birth>
+                    <death notBefore="1861-01-01" notAfter="1861-12-31">1861</death>
                     <note>Vgl. zu seiner Person Vapereau, Dictionnaire universel, Bd. 1, S.
                         58; Schneider, Werner, Europa in Wien, S. 104–105.</note>
                     <idno type="URI">https://viaf.org/viaf/168257761/</idno>
@@ -1058,8 +1057,8 @@
                         <forename>Gottlieb Friedrich Carl</forename>
                         <surname>Horn</surname>
                     </persName>
-                    <birth>1772</birth>
-                    <death>1844</death>
+                    <birth notBefore="1772-01-01" notAfter="1772-12-31">1772</birth>
+                    <death notBefore="1844-01-01" notAfter="1844-12-31">1844</death>
                     <note>Vgl. zu seiner Person Rotermund, Lexikon aller Gelehrten, Bd. 1, S.
                         214–215.</note>
                     <idno type="URI">https://viaf.org/viaf/301897306/</idno>
@@ -1070,8 +1069,8 @@
                         <forename>Emer</forename>
                         <surname>de Vattel</surname>
                     </persName>
-                    <birth>1714</birth>
-                    <death>1767</death>
+                    <birth notBefore="1714-01-01" notAfter="1714-12-31">1714</birth>
+                    <death notBefore="1767-01-01" notAfter="1767-12-31">1767</death>
                     <note>Natur- und Völkerrechtler; vgl. Haggenmacher, Vattel. In: Historisches Lexikon der Schweiz, online
                             <ref target="http://www.hls-dhs-dss.ch/textes/d/D15917.php">http://www.hls-dhs-dss.ch/textes/d/D15917.php</ref> (eingesehen am 16.
                         Juni 2017).</note>
@@ -1083,8 +1082,8 @@
                         <forename>Louis Napoléon</forename>
                         <surname>Bonaparte</surname>
                     </persName>
-                    <birth>1778</birth>
-                    <death>1846</death>
+                    <birth notBefore="1778-01-01" notAfter="1778-12-31">1778</birth>
+                    <death notBefore="1846-01-01" notAfter="1846-12-31">1846</death>
                     <note>König von Holland 1806–1810; vgl. zu seiner Person Kikkert, Koning van
                         Holland; Amelunxen, Louis Bonaparte; Tulard, Louis Bonaparte. In: Tulard
                         (Hg.), Dictionnaire Napoléon, S. 1090–1091.</note>
@@ -1097,8 +1096,8 @@
                         <roleName>Fürstin</roleName>
                         <surname>von Thurn und Taxis</surname>
                     </persName>
-                    <birth>1773</birth>
-                    <death>1839</death>
+                    <birth notBefore="1773-01-01" notAfter="1773-12-31">1773</birth>
+                    <death notBefore="1839-01-01" notAfter="1839-12-31">1839</death>
                     <note>Geborene Herzogin zu Mecklenburg-Strelitz, Ehefrau von Karl Alexander
                         Fürst von Thurn und Taxis (1770–1827); vgl. zu ihrer Person Panzer,
                         Fürstinnen von Thurn und Taxis, S. 57–82; Schneider, Werner, Europa in Wien,
@@ -1110,8 +1109,8 @@
                     <persName>
                         <surname>Maria Fjodorowna, geb. Sophie Dorothee von Württemberg</surname>
                     </persName>
-                    <birth>1759</birth>
-                    <death>1828</death>
+                    <birth notBefore="1759-01-01" notAfter="1759-12-31">1759</birth>
+                    <death notBefore="1828-01-01" notAfter="1828-12-31">1828</death>
                     <note>Vgl. Maurer, Sophie Dorothee. In: Lorenz, Mertens, Press (Hg), Das Haus
                         Württemberg, S. 295–296; Schallhorn, Maria Feodorowna.</note>
                     <idno type="URI">https://viaf.org/viaf/50033517/</idno>
@@ -1121,8 +1120,8 @@
                     <persName>
                         <surname>Auguste Elisabeth von Württemberg</surname>
                     </persName>
-                    <birth>1734</birth>
-                    <death>1787</death>
+                    <birth notBefore="1734-01-01" notAfter="1734-12-31">1734</birth>
+                    <death notBefore="1787-01-01" notAfter="1787-12-31">1787</death>
                     <note>Vgl. zu ihrer Person Haug-Moritz, Augusta Elisabeth. In: Lorenz, Mertens,
                         Press (Hg), Das Haus Württemberg, S. 269.</note>
                 </person>
@@ -1131,8 +1130,8 @@
                         <surname>Maximilian I. Joseph</surname>
                         <roleName>König von Bayern</roleName>
                     </persName>
-                    <birth>1756</birth>
-                    <death>1825</death>
+                    <birth notBefore="1756-01-01" notAfter="1756-12-31">1756</birth>
+                    <death notBefore="1825-01-01" notAfter="1825-12-31">1825</death>
                     <note>Vgl. zu seiner Person Weis, Maximilian I., König von Bayern. In: NDB, Bd.
                         16, S. 487–490; Glaser (Hg.), Krone und Verfassung; Schneider, Werner,
                         Europa in Wien, S. 236–237.</note>
@@ -1145,8 +1144,8 @@
                         <roleName>Freiherr</roleName>
                         <surname>von Reitzenstein</surname>
                     </persName>
-                    <birth>1766</birth>
-                    <death>1847</death>
+                    <birth notBefore="1766-01-01" notAfter="1766-12-31">1766</birth>
+                    <death notBefore="1847-01-01" notAfter="1847-12-31">1847</death>
                     <note>Vgl. zu seiner Person Weech, Sigmund Karl Johann Freiherr von Reizenstein.
                         In: ADB, Bd. 30, S. 69–70; Ders., Sigmund Karl Johann von Reizenstein. In:
                         Badische Biographien, Bd. 2, S. 179–181; Schwarzmeier, Sigismund von
@@ -1159,8 +1158,8 @@
                         <forename>Paul III. Anton</forename>
                         <surname>Esterházy de Galantha</surname>
                     </persName>
-                    <birth>1786</birth>
-                    <death>1866</death>
+                    <birth notBefore="1786-01-01" notAfter="1786-12-31">1786</birth>
+                    <death notBefore="1866-01-01" notAfter="1866-12-31">1866</death>
                     <note>Österreichischer Gesandter in London; vgl. zu seiner Person Wurzbach,
                         Biographisches Lexikon, Bd. 4, S. 105; Esterházy Paul Anton Fürst. In: ÖBL,
                         Bd. 1, S. 269; Allmayer-Beck, Esterházy von Galantha, Paul Anton Fürst. In:
@@ -1174,8 +1173,8 @@
                         <surname>de Riquet</surname>
                         <roleName>marquis de Caraman</roleName>
                     </persName>
-                    <birth>1762</birth>
-                    <death>1839</death>
+                    <birth notBefore="1762-01-01" notAfter="1762-12-31">1762</birth>
+                    <death notBefore="1839-01-01" notAfter="1839-12-31">1839</death>
                     <note>1818 Gesandter Frankreichs in London, 1820 Gesandter Frankreichs in Wien,
                         1820/21 Vertreter Frankreichs auf den Kongressen von Troppau, Laibach und
                         Verona; vgl. zu seiner Person Michaud, Biographie Universelle, Bd. 6, S.
@@ -1189,8 +1188,8 @@
                         <forename>Charles</forename>
                         <surname>Bagot</surname>
                     </persName>
-                    <birth>1781</birth>
-                    <death>1843</death>
+                    <birth notBefore="1781-01-01" notAfter="1781-12-31">1781</birth>
+                    <death notBefore="1843-01-01" notAfter="1843-12-31">1843</death>
                     <note>Gesandter Großbritanniens in den Vereinigten Staaten von Amerika; vgl. zu
                         seiner Person Bruckner, Bagot, Sir Charles. In: ODNB, Bd. 3, S.
                         238–239.</note>
@@ -1202,8 +1201,8 @@
                         <roleName>baron</roleName>
                         <surname>Hyde de Neuville</surname>
                     </persName>
-                    <birth>1776</birth>
-                    <death>1857</death>
+                    <birth notBefore="1776-01-01" notAfter="1776-12-31">1776</birth>
+                    <death notBefore="1857-01-01" notAfter="1857-12-31">1857</death>
                     <note>Gesandter Frankreichs in den Vereinigten Staaten von Amerika; vgl. zu
                         seiner Person Watel, Jean-Guillaume Hyde de Neuville.</note>
                     <idno type="URI">https://viaf.org/viaf/34600228/</idno>
@@ -1214,8 +1213,8 @@
                         <forename>Friedrich</forename>
                         <surname>von Greuhm</surname>
                     </persName>
-                    <birth>1780</birth>
-                    <death>1823</death>
+                    <birth notBefore="1780-01-01" notAfter="1780-12-31">1780</birth>
+                    <death notBefore="1823-01-01" notAfter="1823-12-31">1823</death>
                     <note>Gesandter Preußens in den Vereinigten Staaten von Amerika.</note>
                 </person>
                 <person xml:id="p_106">
@@ -1223,8 +1222,8 @@
                         <forename>Pjotr Iwanowitsch</forename>
                         <surname>Poletika</surname>
                     </persName>
-                    <birth>1778</birth>
-                    <death>1849</death>
+                    <birth notBefore="1778-01-01" notAfter="1778-12-31">1778</birth>
+                    <death notBefore="1849-01-01" notAfter="1849-12-31">1849</death>
                     <note>Gesandter Russlands in den Vereinigten Staaten von Amerika.</note>
                     <idno type="URI">https://viaf.org/viaf/57044598/</idno>
                 <idno type="GND">http://d-nb.info/gnd/104216085/</idno>
@@ -1233,8 +1232,8 @@
                     <persName>
                         <surname>Mahmud II.</surname>
                     </persName>
-                    <birth>1785</birth>
-                    <death>1839</death>
+                    <birth notBefore="1785-01-01" notAfter="1785-12-31">1785</birth>
+                    <death notBefore="1839-01-01" notAfter="1839-12-31">1839</death>
                     <note>Sultan des Osmanischen Reiches; vgl. zu seiner Person Kornrumpf, Mahmud
                         II. In: Bernrath u. A. (Hg.), Biographisches Lexikon zur Geschichte
                         Südosteuropas, Bd. 3, S. 71–73.</note>
@@ -1247,8 +1246,8 @@
                         <forename>Hudson</forename>
                         <surname>Lowe</surname>
                     </persName>
-                    <birth>1769</birth>
-                    <death>1844</death>
+                    <birth notBefore="1769-01-01" notAfter="1769-12-31">1769</birth>
+                    <death notBefore="1844-01-01" notAfter="1844-12-31">1844</death>
                     <note>Gouverneur von St. Helena; vgl. zu seiner Person Chichester, Sweetman,
                         Lowe, Sir Hudson. In: ODNB, Bd. 34, S. 567–570. Martineau, Napoleons St.
                         Helena; Martineau, Lowe. In: Tulard (Hg.), Dictionnaire Napoléon, S.
@@ -1261,8 +1260,8 @@
                         <forename>Barry Edward</forename>
                         <surname>O’Meara</surname>
                     </persName>
-                    <birth>1786</birth>
-                    <death>1836</death>
+                    <birth notBefore="1786-01-01" notAfter="1786-12-31">1786</birth>
+                    <death notBefore="1836-01-01" notAfter="1836-12-31">1836</death>
                     <note>Napoleons Arzt auf St. Helena; vgl. Baignet, O’Meara, Barry Edward. In:
                         ODNB, Bd. 41, S. 806–807; Martineau, Napoleons St. Helena; Ganière, O’Meara.
                         In: Tulard (Hg.), Dictionnaire Napoléon, S. 1263–1265.</note>
@@ -1275,8 +1274,8 @@
                         <forename>Gaspard</forename>
                         <surname>Gourgaud</surname>
                     </persName>
-                    <birth>1783</birth>
-                    <death>1852</death>
+                    <birth notBefore="1783-01-01" notAfter="1783-12-31">1783</birth>
+                    <death notBefore="1852-01-01" notAfter="1852-12-31">1852</death>
                     <note>Napoleons ehemaliger Ordonnanzoffizier, während der 100 Tage sein
                         Generaladjutant; vgl. Ders, Journal de Sainte-Hélène.</note>
                     <idno type="URI">https://viaf.org/viaf/44432674/</idno>
@@ -1288,8 +1287,8 @@
                         <surname>Bathurst</surname>
                         <roleName>3<hi rendition="#su">rd</hi> Earl of Bathurst</roleName>
                     </persName>
-                    <birth>1762</birth>
-                    <death>1834</death>
+                    <birth notBefore="1762-01-01" notAfter="1762-12-31">1762</birth>
+                    <death notBefore="1834-01-01" notAfter="1834-12-31">1834</death>
                     <note>Zwischen 1812 und 1827 Secretary of State for War and the Colonies;
                         vgl. zu seiner Person Thompson, Bathurst, Henry, third Earl Bathurst. In:
                         ODNB, Bd. 4, S. 354–355. Thompson, Earl Bathurst.</note>
@@ -1301,8 +1300,8 @@
                         <surname>Friedrich VI.</surname>
                         <roleName>König von Dänemark</roleName>
                     </persName>
-                    <birth>1768</birth>
-                    <death>1839</death>
+                    <birth notBefore="1768-01-01" notAfter="1768-12-31">1768</birth>
+                    <death notBefore="1839-01-01" notAfter="1839-12-31">1839</death>
                     <note>Vgl. zu seiner Person Schneider, Werner, Europa in Wien, S.
                         157–158.</note>
                     <idno type="URI">https://viaf.org/viaf/120724553/</idno>
@@ -1314,8 +1313,8 @@
                         <roleName>Graf</roleName>
                         <surname>von Reinhard</surname>
                     </persName>
-                    <birth>1761</birth>
-                    <death>1837</death>
+                    <birth notBefore="1761-01-01" notAfter="1761-12-31">1761</birth>
+                    <death notBefore="1837-01-01" notAfter="1837-12-31">1837</death>
                     <note>Gesandter Frankreichs in Frankfurt a. M.; vgl. zu seiner Person Paul,
                         Reinhard, Karl Friedrich Graf von. In: NDB, Bd. 21, S. 355–357; Gross (Hg.),
                         Karl Friedrich Reinhard; Delinière, Ein deutscher Aufklärer.</note>
@@ -1328,8 +1327,8 @@
                         <surname>Lamb</surname>
                         <roleName> 3<hi rendition="#su">rd</hi> Viscount Melbourne</roleName>
                     </persName>
-                    <birth>1782</birth>
-                    <death>1853</death>
+                    <birth notBefore="1782-01-01" notAfter="1782-12-31">1782</birth>
+                    <death notBefore="1853-01-01" notAfter="1853-12-31">1853</death>
                     <note>Gesandter Großbritanniens in Frankfurt a. M. sowie in München; vgl. zu
                         seiner Person Reynolds, Lamb, Frederick James. In: ODNB, Bd. 32, S.
                         267–268.</note>
@@ -1342,8 +1341,8 @@
                         <roleName>Graf</roleName>
                         <surname>von der Goltz</surname>
                     </persName>
-                    <birth>1765</birth>
-                    <death>1832</death>
+                    <birth notBefore="1765-01-01" notAfter="1765-12-31">1765</birth>
+                    <death notBefore="1832-01-01" notAfter="1832-12-31">1832</death>
                     <note>Gesandter Preußens in Frankfurt a. M.; vgl. zu seiner Person Hoepke,
                         Goltz, August Friedrich Ferdinand Graf von der. In: NDB, Bd. 6, S.
                         628–629.</note>
@@ -1355,8 +1354,8 @@
                         <forename>Wilhelm Friedrich</forename>
                         <surname>zu Bentheim und Steinfurt</surname>
                     </persName>
-                    <birth>1782</birth>
-                    <death>1839</death>
+                    <birth notBefore="1782-01-01" notAfter="1782-12-31">1782</birth>
+                    <death notBefore="1839-01-01" notAfter="1839-12-31">1839</death>
                     <note>Vgl. zu seiner Person ÖBL, Bd. 1, S. 70.</note>
                     <idno type="URI">https://viaf.org/viaf/303521974/</idno>
                 <idno type="GND">http://d-nb.info/gnd/1034668188/</idno>
@@ -1366,8 +1365,8 @@
                         <forename>Georg</forename>
                         <surname>zu Löwenstein-Wertheim-Freudenberg</surname>
                     </persName>
-                    <birth>1775</birth>
-                    <death>1855</death>
+                    <birth notBefore="1775-01-01" notAfter="1775-12-31">1775</birth>
+                    <death notBefore="1855-01-01" notAfter="1855-12-31">1855</death>
                     <note>Vgl. zu seiner Person Raberger, Biographisches Handbuch, S.
                         521–522.</note>
                     <idno type="URI">https://viaf.org/viaf/15539605/</idno>
@@ -1378,8 +1377,8 @@
                         <surname>Wilhelm I.</surname>
                         <roleName>Herzog von Nassau</roleName>
                     </persName>
-                    <birth>1792</birth>
-                    <death>1839</death>
+                    <birth notBefore="1792-01-01" notAfter="1792-12-31">1792</birth>
+                    <death notBefore="1839-01-01" notAfter="1839-12-31">1839</death>
                     <note>Vgl. zu seiner Person Kolb, Wilhelm (August Heinrich Belgiens), Herzog von
                         Nassau. In: ADB, Bd. 43, S. 136–139; Schneider, Werner, Europa in Wien, S.
                         318.</note>
@@ -1400,8 +1399,8 @@
                         <forename>Karl August </forename>
                         <surname>Varnhagen von Ense</surname>
                     </persName>
-                    <birth>1785</birth>
-                    <death>1858</death>
+                    <birth notBefore="1785-01-01" notAfter="1785-12-31">1785</birth>
+                    <death notBefore="1858-01-01" notAfter="1858-12-31">1858</death>
                     <note>Gesandter Preußens im Großherzogtum Baden; vgl. zu seiner Person
                         Wiedenmann, Karl August Varnhange von Ense; Greiling, Varnhagen von Ense;
                         Schneider, Werner, Europa in Wien, S. 302.</note>
@@ -1414,8 +1413,8 @@
                         <roleName>Graf</roleName>
                         <surname>von Golovkin</surname>
                     </persName>
-                    <birth>1762</birth>
-                    <death>1846</death>
+                    <birth notBefore="1762-01-01" notAfter="1762-12-31">1762</birth>
+                    <death notBefore="1846-01-01" notAfter="1846-12-31">1846</death>
                     <note>1818 Gesandter Russlands im Großherzogtum Baden, 1820 Gesandter Russlands
                         in Wien, Mitglied der russischen Delegation beim Kongress von Troppau.</note>
                     <idno type="URI">https://viaf.org/viaf/311466653/</idno>
@@ -1425,8 +1424,8 @@
                         <forename>Konrad Sigmund Karl</forename>
                         <surname>von Hänlein</surname>
                     </persName>
-                    <birth>1760</birth>
-                    <death>1819</death>
+                    <birth notBefore="1760-01-01" notAfter="1760-12-31">1760</birth>
+                    <death notBefore="1819-01-01" notAfter="1819-12-31">1819</death>
                     <note>Gesandter Preußens im Kurfürstentum Hessen; vgl. zu seiner Person Eintrag
                         Haenlein, Conrad Sigmund Carl von. In: Hessische Biographie
                         (Landesgeschichtliches Informationssystem Hessen) auf <ref target="http://www.lagis-hessen.de/de/subjects/idrec/sn/bio/id/3231">http://www.lagis-hessen.de/de/subjects/idrec/sn/bio/id/3231</ref>
@@ -1440,8 +1439,8 @@
                         <surname>Pelletier</surname>
                         <roleName>comte de Lagarde</roleName>
                     </persName>
-                    <birth>1780</birth>
-                    <death>1834</death>
+                    <birth notBefore="1780-01-01" notAfter="1780-12-31">1780</birth>
+                    <death notBefore="1834-01-01" notAfter="1834-12-31">1834</death>
                     <note>1820/21 Gesandter Frankreichs in München, 1822 Gesandter Frankreichs in
                         Madrid; vgl. Bringmann, Handbuch, S. 187, Rabbe, Vieilh de Boisjolin,
                         Sainte-Preuve (Hg.), Biographie universelle, Bd. 3, S. 74..</note>
@@ -1451,8 +1450,8 @@
                         <forename>Friedrich Wilhelm Christian</forename>
                         <surname>von Zastrow</surname>
                     </persName>
-                    <birth>1752</birth>
-                    <death>1830</death>
+                    <birth notBefore="1752-01-01" notAfter="1752-12-31">1752</birth>
+                    <death notBefore="1830-01-01" notAfter="1830-12-31">1830</death>
                     <note>Gesandter Preußens in München; vgl. zu seiner Person Poten, Zastrow,
                         Friedrich von. In: ADB, Bd. 44, S. 721–723.</note>
                     <idno type="URI">https://viaf.org/viaf/47527552/</idno>
@@ -1464,8 +1463,8 @@
                         <roleName>Graf</roleName>
                         <surname>von der Pahlen</surname>
                     </persName>
-                    <birth>1780</birth>
-                    <death>1863</death>
+                    <birth notBefore="1780-01-01" notAfter="1780-12-31">1780</birth>
+                    <death notBefore="1863-01-01" notAfter="1863-12-31">1863</death>
                     <note>Gesandter Russlands in München; vgl. zu seiner Person den Eintrag zu Graf
                         v. d. Pahlen Friedrich Alexander in der Erik-Amburger-Datenbank (Ausländer
                         im vorrevolutionären Russland) auf <ref target="http://dokumente.ios-regensburg.de/amburger/?id=74164">http://dokumente.ios-regensburg.de/amburger/?id=74164</ref> (eingesehen
@@ -1476,8 +1475,8 @@
                         <forename>Jérôme</forename>
                         <surname>Bonaparte</surname>
                     </persName>
-                    <birth>1784</birth>
-                    <death>1860</death>
+                    <birth notBefore="1784-01-01" notAfter="1784-12-31">1784</birth>
+                    <death notBefore="1860-01-01" notAfter="1860-12-31">1860</death>
                     <note>Ehemaliger König von Westphalen; vgl. zu seiner Person Bartsch, König
                         Lustik!?; Melchior-Bonnet, Jérôme Bonaparte. In: Tulard (Hg.), Dictionnaire
                         Napoléon, S. 969–971; Berding, Jérôme Bonaparte. In: NDB, Bd. 10, S.
@@ -1490,8 +1489,8 @@
                         <forename>José Gervasio</forename>
                         <surname>Artigas</surname>
                     </persName>
-                    <birth>1764</birth>
-                    <death>1850</death>
+                    <birth notBefore="1764-01-01" notAfter="1764-12-31">1764</birth>
+                    <death notBefore="1850-01-01" notAfter="1850-12-31">1850</death>
                     <note>Uruguayischer General und Politiker, der sich um die Unabhängkeit des
                         Lande Verdienste erworben hat. Zu seiner Person vgl. Street, Artigas; Luna,
                         Artigas. Zu den Freibeutern unter seiner Flagge vgl. Reeder, Sovereign
@@ -1504,8 +1503,8 @@
                         <surname>Friederike</surname>
                         <roleName>von Baden/von Schweden</roleName>
                     </persName>
-                    <birth>1781</birth>
-                    <death>1826</death>
+                    <birth notBefore="1781-01-01" notAfter="1781-12-31">1781</birth>
+                    <death notBefore="1826-01-01" notAfter="1826-12-31">1826</death>
                     <note>Bis 1809 Königin von Schweden; vgl. zu ihrer Person Kleinschmidt,
                         Friederik Dorothea Wilhelmine. In: ADB, Bd. 8, S. 68–69.</note>
                     <idno type="URI">https://viaf.org/viaf/261122937/</idno>
@@ -1517,8 +1516,8 @@
                         <surname>von Holstein-Gottorp</surname>
                         <roleName>Prinz von Schweden</roleName>
                     </persName>
-                    <birth>1799</birth>
-                    <death>1877</death>
+                    <birth notBefore="1799-01-01" notAfter="1799-12-31">1799</birth>
+                    <death notBefore="1877-01-01" notAfter="1877-12-31">1877</death>
                     <note>Vgl. zu seiner Person Wurzbach, Biographisches Lexikon, Bd. 53, S.
                         125–127.</note>
                     <idno type="URI">https://viaf.org/viaf/62318739/</idno>
@@ -1530,8 +1529,8 @@
                         <roleName>König des Vereinigten Königreichs Großbritannien und Irland, König
                             von Hannover</roleName>
                     </persName>
-                    <birth>1762</birth>
-                    <death>1830</death>
+                    <birth notBefore="1762-01-01" notAfter="1762-12-31">1762</birth>
+                    <death notBefore="1830-01-01" notAfter="1830-12-31">1830</death>
                     <note>Zwischen 1811 und 1820 Prinzregent; vgl. zu seiner Person Hibbert, George
                         IV. In: ODNB, Bd. 21, S. 856–864; Smith, George IV.</note>
                     <idno type="URI">https://viaf.org/viaf/265481029/</idno>
@@ -1543,8 +1542,8 @@
                         <roleName>Graf</roleName>
                         <surname>von Montgelas</surname>
                     </persName>
-                    <birth>1759</birth>
-                    <death>1838</death>
+                    <birth notBefore="1759-01-01" notAfter="1759-12-31">1759</birth>
+                    <death notBefore="1838-01-01" notAfter="1838-12-31">1838</death>
                     <note>Bayerischer Außenminister; vgl. zu seiner Person Weis, Montgelas.</note>
                     <idno type="URI">https://viaf.org/viaf/74650358/</idno>
                 <idno type="GND">http://d-nb.info/gnd/118838113/</idno>
@@ -1555,8 +1554,8 @@
                         <roleName>Graf</roleName>
                         <surname>von Rechberg und Rothenlöwen zu Hohenrechberg</surname>
                     </persName>
-                    <birth>1766</birth>
-                    <death>1849</death>
+                    <birth notBefore="1766-01-01" notAfter="1766-12-31">1766</birth>
+                    <death notBefore="1849-01-01" notAfter="1849-12-31">1849</death>
                     <note>Bayerischer Diplomat; vgl. zu seiner Person Burgdorf, Rechberg von
                         Rothenlöwen, Aloys Franz Xaver. In: NDB, Bd. 21, S. 229–230; Schneider,
                         Werner, Europa in Wien, S. 263–264.</note>
@@ -1569,8 +1568,8 @@
                         <surname>Grimaldi</surname>
                         <roleName>duc de Valentinois</roleName>
                     </persName>
-                    <birth>1778</birth>
-                    <death>1841</death>
+                    <birth notBefore="1778-01-01" notAfter="1778-12-31">1778</birth>
+                    <death notBefore="1841-01-01" notAfter="1841-12-31">1841</death>
                     <note>Ab 1819 Honoré V.</note>
                     <idno type="URI">http://viaf.org/viaf/14811273/</idno>
                 </person>
@@ -1580,8 +1579,8 @@
                         <roleName>Baron</roleName>
                         <surname>van Nagell</surname>
                     </persName>
-                    <birth>1756</birth>
-                    <death>1851</death>
+                    <birth notBefore="1756-01-01" notAfter="1756-12-31">1756</birth>
+                    <death notBefore="1851-01-01" notAfter="1851-12-31">1851</death>
                     <note>Niederländischer Außenminister; vgl. zu seiner Person Breukelmann, Nagell
                         van Ampsen (Anne Willem Carel baron van). In: P. C. Molhuysen, P. J. Blok
                         (Hg.), Niew Nederlandsch Biografisch Woordenboeck, Bd. 2, S. 977–978.</note>
@@ -1594,8 +1593,8 @@
                         <surname>Ferron</surname>
                         <roleName>comte de La Ferronnays</roleName>
                     </persName>
-                    <birth>1777</birth>
-                    <death>1842</death>
+                    <birth notBefore="1777-01-01" notAfter="1777-12-31">1777</birth>
+                    <death notBefore="1842-01-01" notAfter="1842-12-31">1842</death>
                     <note>Französischer Botschafter in St. Petersburg, Mitglied der französischen
                         Delegation in Troppau und Verona; vgl. zu seiner Person Michaud, Biographie
                         Universelle, Bd. 14, S. 24–25.</note>
@@ -1606,8 +1605,8 @@
                         <forename>Friedrich Wilhelm Ludwig</forename>
                         <surname>von Krusemarck</surname>
                     </persName>
-                    <birth>1767</birth>
-                    <death>1822</death>
+                    <birth notBefore="1767-01-01" notAfter="1767-12-31">1767</birth>
+                    <death notBefore="1822-01-01" notAfter="1822-12-31">1822</death>
                     <note>Mitglied der preußischen Delegation beim Kongress von Troppau; vgl.
                         Bailleu, Krusemarck, Friedrich Wilhelm Ludwig von. In: ADB, Bd. 17, S.
                         269–270.</note>
@@ -1621,8 +1620,8 @@
                         <roleName>Lord Stewart</roleName>
                         
                     </persName>
-                    <birth>1778</birth>
-                    <death>1854</death>
+                    <birth notBefore="1778-01-01" notAfter="1778-12-31">1778</birth>
+                    <death notBefore="1854-01-01" notAfter="1854-12-31">1854</death>
                     <note>Britischer Botschafter in Wien, Mitglied der britischen Delegation bei den
                         Kongress von Troppau, Laibach und Verona, ab 1822 Charles William Vane, 3<hi rendition="#su">rd</hi> Marquess of Londonderry vgl. zu seiner Person
                         Lloyd, Heersom, Vane [formerly Stewart], Charles William. In: ODNB, Bd. 56,
@@ -1635,8 +1634,8 @@
                         <surname>Ferdinand/Ferdinando I.</surname>
                         <roleName>König beider Sizilien</roleName>
                     </persName>
-                    <birth>1751</birth>
-                    <death>1825</death>
+                    <birth notBefore="1751-01-01" notAfter="1751-12-31">1751</birth>
+                    <death notBefore="1825-01-01" notAfter="1825-12-31">1825</death>
                     <note>1759-1806 Ferdinand IV. von Neapel, 1769-1815 Ferdinand III. von Sizilien,
                         ab 1815/16 König beider Sizilien vgl. de Maio, Ferdinando I di Bourbone, re
                         delle due Sicilie, auf <ref target="http://www.treccani.it/enciclopedia/ferdinando-i-di-borbone-re-delle-due-sicilie_(Dizionario-Biografico">http://www.treccani.it/enciclopedia/ferdinando-i-di-borbone-re-delle-due-sicilie_(Dizionario-Biografico</ref>)
@@ -1650,8 +1649,8 @@
                         <surname>Pignatelli</surname>
                         <roleName>principe di Strongoli</roleName>
                     </persName>
-                    <birth>1775</birth>
-                    <death>1853</death>
+                    <birth notBefore="1775-01-01" notAfter="1775-12-31">1775</birth>
+                    <death notBefore="1853-01-01" notAfter="1853-12-31">1853</death>
                     <note>Vgl. zu seiner Person Covino, Pignatelli, Francesco, principe di
                         Prignatelli, auf <ref target="http://www.treccani.it/enciclopedia/pignatelli-francesco-principe-di-strongoli_(Dizionario-Biografico)/">http://www.treccani.it/enciclopedia/pignatelli-francesco-principe-di-strongoli_(Dizionario-Biografico)/</ref>
                         (eingesehen am 28. Juli 2017).</note>
@@ -1663,8 +1662,8 @@
                         <surname>Ruffo</surname>
                         <roleName>dei principi della Scaletta</roleName>
                     </persName>
-                    <birth>1754</birth>
-                    <death>1825</death>
+                    <birth notBefore="1754-01-01" notAfter="1754-12-31">1754</birth>
+                    <death notBefore="1825-01-01" notAfter="1825-12-31">1825</death>
                     <note>Botschafter des Königreichs beider Sizilien in Wien; vgl. Schneider,
                         Werner, Europa in Wien, S. 268–269.</note>
                     <idno type="URI">https://viaf.org/viaf/259506628/</idno>
@@ -1675,8 +1674,8 @@
                         <surname>Franz/Francesco</surname>
                         <roleName>duca di Calabria</roleName>
                     </persName>
-                    <birth>1777</birth>
-                    <death>1830</death>
+                    <birth notBefore="1777-01-01" notAfter="1777-12-31">1777</birth>
+                    <death notBefore="1830-01-01" notAfter="1830-12-31">1830</death>
                     <note>Ab 1825 Franz/Francesco I., König beider Sizilien; vgl. zu seiner Person
                         de Majo, Francesco I di Borbone, re delle Due Sicilie, auf <ref target="http://www.treccani.it/enciclopedia/francesco-i-di-borbone-re-delle-due-sicilie_(Dizionario-Biografico)/">http://www.treccani.it/enciclopedia/francesco-i-di-borbone-re-delle-due-sicilie_(Dizionario-Biografico)/</ref>
                         (eingesehen am 31. Juli 2017).</note>
@@ -1689,8 +1688,8 @@
                         <surname>Mastrilli</surname>
                         <roleName>duca di Gallo</roleName>
                     </persName>
-                    <birth>1753</birth>
-                    <death>1833</death>
+                    <birth notBefore="1753-01-01" notAfter="1753-12-31">1753</birth>
+                    <death notBefore="1833-01-01" notAfter="1833-12-31">1833</death>
                     <note>Vgl. zu seiner Person Sperber, Mastrilli Marzio, auf <ref target="http://www.treccani.it/enciclopedia/marzio-mastrilli_(Dizionario-Biografico">http://www.treccani.it/enciclopedia/marzio-mastrilli_(Dizionario-Biografico</ref>
                         (eingesehen am 31. Juli 2017).</note>
                     <idno type="URI">https://viaf.org/viaf/188669354/</idno>
@@ -1702,8 +1701,8 @@
                         <surname>Albertini</surname>
                         <roleName>principe Cimitile</roleName>
                     </persName>
-                    <birth>1755</birth>
-                    <death>1848</death>
+                    <birth notBefore="1755-01-01" notAfter="1755-12-31">1755</birth>
+                    <death notBefore="1848-01-01" notAfter="1848-12-31">1848</death>
                     <note>Vgl. zu seiner Person Sperber, Cimitile, Fabio Albertini principe di, auf
                             <ref target="http://www.treccani.it/enciclopedia/fabio-albertini-principe-di-cimitile_%28Dizionario-Biografico%29/">http://www.treccani.it/enciclopedia/fabio-albertini-principe-di-cimitile_%28Dizionario-Biografico%29/</ref>
                         (eingesehen am 31. Juli 2017).</note>
@@ -1714,8 +1713,8 @@
                         <forename>Karl</forename>
                         <surname>von Menz</surname>
                     </persName>
-                    <birth>1780</birth>
-                    <death>1847</death>
+                    <birth notBefore="1780-01-01" notAfter="1780-12-31">1780</birth>
+                    <death notBefore="1847-01-01" notAfter="1847-12-31">1847</death>
                     <note>Österreichischer chargé d’affaires in Neapel; vgl. Matsch, Der auswärtige
                         Dienst, S. 128.</note>
                     <idno type="URI">https://viaf.org/viaf/160546908/</idno>
@@ -1727,8 +1726,8 @@
                         <surname>Mormile</surname>
                         <roleName>duca di Campochiaro</roleName>
                     </persName>
-                    <birth>1761</birth>
-                    <death>1836</death>
+                    <birth notBefore="1761-01-01" notAfter="1761-12-31">1761</birth>
+                    <death notBefore="1836-01-01" notAfter="1836-12-31">1836</death>
                     <note>Neapolitanischer Außenminister. Vgl. Sperber, Mormile, Ottavio, auf <ref target="http://www.treccani.it/enciclopedia/ottavio-mormile_(Dizionario-Biografico">http://www.treccani.it/enciclopedia/ottavio-mormile_(Dizionario-Biografico</ref>
                         (eingesehen am 31. Juli 2017); Schneider, Werner, Europa in Wien, S.
                         126–127.</note>
@@ -1741,8 +1740,8 @@
                         <surname>A’Court</surname>
                         <roleName>1<hi rendition="#su">st</hi> Baron Heytesbury</roleName>
                     </persName>
-                    <birth>1779</birth>
-                    <death>1860</death>
+                    <birth notBefore="1779-01-01" notAfter="1779-12-31">1779</birth>
+                    <death notBefore="1860-01-01" notAfter="1860-12-31">1860</death>
                     <note>1820 britischer Botschafter in Neapel, 1822 britischer Botschafter in
                         Madrid; vgl. zu seiner Person Chamberlain, A’Court, William, first Baron
                         Heytesbury. In: ODNB, Bd. 1, S. 162–163.</note>
@@ -1755,8 +1754,8 @@
                         <roleName>comte</roleName>
                         <surname>de Narbonne-Pelet</surname>
                     </persName>
-                    <birth>1771</birth>
-                    <death>1855</death>
+                    <birth notBefore="1771-01-01" notAfter="1771-12-31">1771</birth>
+                    <death notBefore="1855-01-01" notAfter="1855-12-31">1855</death>
                     <note>1820 französischer Gesandter in Neapel; vgl. zu seiner Person
                         Narbonne-Pelet (Raymond-Jacques-Marie, duc de). In: Robert, Cougny (Hg.),
                         Dictionnaire des parlementaires français, Bd. 4, S. 483.</note>
@@ -1767,8 +1766,8 @@
                         <forename>Friedrich Wilhelm Basilius</forename>
                         <surname>von Ramdohr</surname>
                     </persName>
-                    <birth>1757</birth>
-                    <death>1822</death>
+                    <birth notBefore="1757-01-01" notAfter="1757-12-31">1757</birth>
+                    <death notBefore="1822-01-01" notAfter="1822-12-31">1822</death>
                     <note>Preußischer Gesandter in Neapel; vgl. zu seiner Person Frensdorff,
                         Ramdohr, Friedrich Wilhelm Basilius von. In: ADB, Bd. 27, S. 210–212.</note>
                     <idno type="URI">http://viaf.org/viaf/100206277/</idno>
@@ -1780,8 +1779,8 @@
                         <roleName>Graf</roleName>
                         <surname>von Stackelberg</surname>
                     </persName>
-                    <birth>1766</birth>
-                    <death>1850</death>
+                    <birth notBefore="1766-01-01" notAfter="1766-12-31">1766</birth>
+                    <death notBefore="1850-01-01" notAfter="1850-12-31">1850</death>
                     <note>Russischer Gesandter in Neapel; vgl. zu seiner Person Stackelberg, Gustav
                         Ernst Gf. v. In: Baltisches Biographisches Lexikon, S. 748–749; Schneider,
                         Werner, Europa in Wien, S. 288.</note>
@@ -1793,8 +1792,8 @@
                         <forename>Guglielmo</forename>
                         <surname>Pepe</surname>
                     </persName>
-                    <birth>1783</birth>
-                    <death>1855</death>
+                    <birth notBefore="1783-01-01" notAfter="1783-12-31">1783</birth>
+                    <death notBefore="1855-01-01" notAfter="1855-12-31">1855</death>
                     <note>Neapolitanischer Offizier, einer der Anführer der Revolte von 1820; vgl.
                         de Majo, Pepe, Guglielmo, auf <ref target="http://www.treccani.it/enciclopedia/guglielmo-pepe_(Dizionario-Biografico">http://www.treccani.it/enciclopedia/guglielmo-pepe_(Dizionario-Biografico</ref>)
                         (eingesehen am 1. August 2017).</note>
@@ -1806,8 +1805,8 @@
                         <forename>Luigi</forename>
                         <surname>Minichini</surname>
                     </persName>
-                    <birth>1783</birth>
-                    <death>1861</death>
+                    <birth notBefore="1783-01-01" notAfter="1783-12-31">1783</birth>
+                    <death notBefore="1861-01-01" notAfter="1861-12-31">1861</death>
                     <note>Priester, einer der Anführer der Revolte von 1820; vgl. Parrella,
                         Minichini, Luigi, auf <ref target="http://www.treccani.it/enciclopedia/luigi-minichini_(Dizionario-Biografico">http://www.treccani.it/enciclopedia/luigi-minichini_(Dizionario-Biografico</ref>)
                         (eingesehen am 1. August 2017).</note>
@@ -1819,8 +1818,8 @@
                         <surname>Filangieri</surname>
                         <roleName>di Satriano</roleName>
                     </persName>
-                    <birth>1784</birth>
-                    <death>1867</death>
+                    <birth notBefore="1784-01-01" notAfter="1784-12-31">1784</birth>
+                    <death notBefore="1867-01-01" notAfter="1867-12-31">1867</death>
                     <note>Neapolitanischer Offizier und Funktionsträger; vgl. de Lorenzo,
                         Filangieri, Carlo, auf <ref target="http://www.treccani.it/enciclopedia/carlo-filangieri_(Dizionario-Biografico">http://www.treccani.it/enciclopedia/carlo-filangieri_(Dizionario-Biografico</ref>)
                         (eingesehen am 1. August 2017).</note>
@@ -1832,8 +1831,8 @@
                         <forename>Michele</forename>
                         <surname>Carrascosa</surname>
                     </persName>
-                    <birth>1774</birth>
-                    <death>1853</death>
+                    <birth notBefore="1774-01-01" notAfter="1774-12-31">1774</birth>
+                    <death notBefore="1853-01-01" notAfter="1853-12-31">1853</death>
                     <note>Neapolitanischer Kriegsminister; vgl. Sperber, Carrascosa, Michele, auf
                             <ref target="http://www.treccani.it/enciclopedia/michele-carrascosa_(Dizionario-Biografico">http://www.treccani.it/enciclopedia/michele-carrascosa_(Dizionario-Biografico</ref>)
                         (eingesehen am 1. August 2017).</note>
@@ -1845,8 +1844,8 @@
                         <roleName>Papst</roleName>
                         <surname>Pius VII.</surname>
                     </persName>
-                    <birth>1742</birth>
-                    <death>1823</death>
+                    <birth notBefore="1742-01-01" notAfter="1742-12-31">1742</birth>
+                    <death notBefore="1823-01-01" notAfter="1823-12-31">1823</death>
                     <note>Vgl. Boutry, Pio VII, auf <ref target="http://www.treccani.it/enciclopedia/pio-vii_(Enciclopedia-dei-Papi)/">http://www.treccani.it/enciclopedia/pio-vii_(Enciclopedia-dei-Papi)/</ref>
                         (eingesehen am 19. Juni 2017).</note>
                     <idno type="URI">https://viaf.org/viaf/98122431/</idno>
@@ -1858,8 +1857,8 @@
                         <roleName>Graf</roleName>
                         <surname>Apponyi von Nagy-Apponyi</surname>
                     </persName>
-                    <birth>1782</birth>
-                    <death>1852</death>
+                    <birth notBefore="1782-01-01" notAfter="1782-12-31">1782</birth>
+                    <death notBefore="1852-01-01" notAfter="1852-12-31">1852</death>
                     <note>1820 Gesandter Österreichs in Rom; vgl. zu seiner Person Wurzbach,
                         Biographisches Lexikon, Bd. 1, S. 57.</note>
                     <idno type="URI">http://viaf.org/viaf/49973505/</idno>
@@ -1870,8 +1869,8 @@
                         <forename>Barthold Georg</forename>
                         <surname>Niebuhr</surname>
                     </persName>
-                    <birth>1776</birth>
-                    <death>1831</death>
+                    <birth notBefore="1776-01-01" notAfter="1776-12-31">1776</birth>
+                    <death notBefore="1831-01-01" notAfter="1831-12-31">1831</death>
                     <note>1820 Gesandter Preußens in Rom; vgl. zu seiner Person Walther, Niebuhr,
                         Barthold Georg. In: NDB, Bd. 19, S. 219–212; Herz, Niebuhr im preussischen
                         Staatsdienst.</note>
@@ -1883,8 +1882,8 @@
                         <forename>Andrej Jakovlevic</forename>
                         <surname>Italinskij</surname>
                     </persName>
-                    <birth>1743</birth>
-                    <death>1827</death>
+                    <birth notBefore="1743-01-01" notAfter="1743-12-31">1743</birth>
+                    <death notBefore="1827-01-01" notAfter="1827-12-31">1827</death>
                     <note>1820 Gesandter Russlands in Rom; vgl. Amburger, Behördenorganisation, S.
                         459.</note>
                     <idno type="URI">http://viaf.org/viaf/64146029500535821030/</idno>
@@ -1895,8 +1894,8 @@
                         <forename>Ercole</forename>
                         <surname>Consalvi</surname>
                     </persName>
-                    <birth>1757</birth>
-                    <death>1824</death>
+                    <birth notBefore="1757-01-01" notAfter="1757-12-31">1757</birth>
+                    <death notBefore="1824-01-01" notAfter="1824-12-31">1824</death>
                     <note>1820 Kardinalstaatssekretär; vgl. zu seiner Person Schneider, Werner,
                         Europa in Wien, S. 135–137; Bautz, Consalvi.</note>
                     <idno type="URI">http://viaf.org/viaf/19702643/</idno>
@@ -1908,9 +1907,9 @@
                         <roleName>comte</roleName>
                         <surname>Blacas d’Aulps</surname>
                     </persName>
-                    <birth>1770</birth>
-                    <birth>1771</birth>
-                    <death>1839</death>
+                    <birth notBefore="1770-01-01" notAfter="1770-12-31">1770</birth>
+                    <birth notBefore="1771-01-01" notAfter="1771-12-31">1771</birth>
+                    <death notBefore="1839-01-01" notAfter="1839-12-31">1839</death>
                     <note>Vgl. zu seiner Person Michaud, Biographie universelle, Bd. 4, S.
                         381–385.</note>
                     <idno type="URI">http://viaf.org/viaf/20825975/</idno>
@@ -1922,8 +1921,8 @@
                         <forename>Robert</forename>
                         <surname>Gordon</surname>
                     </persName>
-                    <birth>1791</birth>
-                    <death>1847</death>
+                    <birth notBefore="1791-01-01" notAfter="1791-12-31">1791</birth>
+                    <death notBefore="1847-01-01" notAfter="1847-12-31">1847</death>
                     <note>1821 Mitarbeiter der britischen Botschaft in Wien; vgl. zu seiner Person
                         Chamberlain, Gordon, Sir Robert. In: ODNB, Bd. 22, S. 957-959.</note>
                 </person>
@@ -1933,8 +1932,8 @@
                         <roleName>vicomte</roleName>
                         <surname>de Fontenay</surname>
                     </persName>
-                    <birth>1784</birth>
-                    <death>1855</death>
+                    <birth notBefore="1784-01-01" notAfter="1784-12-31">1784</birth>
+                    <death notBefore="1855-01-01" notAfter="1855-12-31">1855</death>
                     <note>1821 Chargé d’affaires in Neapel.</note>
                 </person>
                 <person xml:id="p_163">
@@ -1943,8 +1942,8 @@
                         <surname>de Oubril/Ubri</surname>
                     </persName>
                     
-                    <birth>1774</birth>
-                    <death>1847</death>
+                    <birth notBefore="1774-01-01" notAfter="1774-12-31">1774</birth>
+                    <death notBefore="1847-01-01" notAfter="1847-12-31">1847</death>
                     <note>Russischer Staatsrat; vgl. zu seiner Person den Eintrag zu Oubril Peter in
                         der Erik-Amburger-Datenbank (Ausländer im vorrevolutionären Russland) auf
                             <ref target="http://dokumente.ios-regensburg.de/amburger/?id=87537">http://dokumente.ios-regensburg.de/amburger/?id=87537</ref> (eingesehen
@@ -1957,8 +1956,8 @@
                         <forename>Giuseppe</forename>
                         <surname>Spina</surname>
                     </persName>
-                    <birth>1756</birth>
-                    <death>1828</death>
+                    <birth notBefore="1756-01-01" notAfter="1756-12-31">1756</birth>
+                    <death notBefore="1828-01-01" notAfter="1828-12-31">1828</death>
                     <note>Kardinal und Vertreter des Kirchenstaats auf den Kongressen von Laibach
                         und Verona; vgl. zu seiner Person Miranda, Spina, Giuseppe. In: The
                         Cardinals of the Holy Roman Church, auf <ref target="http://webdept.fiu.edu/~mirandas/bios1801.htm#Spina">http://webdept.fiu.edu/~mirandas/bios1801.htm#Spina</ref> (eingesehen
@@ -1972,8 +1971,8 @@
                         <roleName>marchese</roleName>
                         <surname>Molza</surname>
                     </persName>
-                    <birth>1782</birth>
-                    <death>1861</death>
+                    <birth notBefore="1782-01-01" notAfter="1782-12-31">1782</birth>
+                    <death notBefore="1861-01-01" notAfter="1861-12-31">1861</death>
                     <note>Vertreter Modenas auf den Kongressen von Laibach und Verona; vgl. zu
                         seiner Person Fazzini, Molza, Giuseppe, auf <ref target="http://www.treccani.it/enciclopedia/giuseppe-molza_%28Dizionario-Biografico%29/">http://www.treccani.it/enciclopedia/giuseppe-molza_%28Dizionario-Biografico%29/</ref>
                         (eingesehen am 3. August 2017).</note>
@@ -1984,8 +1983,8 @@
                         <roleName>marchese</roleName>
                         <surname>de Asinari di San Marzano</surname>
                     </persName>
-                    <birth>1761</birth>
-                    <death>1828</death>
+                    <birth notBefore="1761-01-01" notAfter="1761-12-31">1761</birth>
+                    <death notBefore="1828-01-01" notAfter="1828-12-31">1828</death>
                     <note>Vertreter des Königreichs Sardinien-Piemont auf dem Kongress von Laibach;
                         vgl. zu seiner Person Schneider, Werner, Europa in Wien, S. 273.</note>
                     <idno type="URI">http://viaf.org/viaf/181145542653596641885/</idno>
@@ -1997,8 +1996,8 @@
                         <surname>San Martino</surname>
                         <roleName>conte di Aglié</roleName>
                     </persName>
-                    <birth>1770</birth>
-                    <death>1847</death>
+                    <birth notBefore="1770-01-01" notAfter="1770-12-31">1770</birth>
+                    <death notBefore="1847-01-01" notAfter="1847-12-31">1847</death>
                     <note>Vertreter des Königreichs Sardinien-Piemont auf dem Kongress von Laibach;
                         vgl. zu seiner Person Baudi di Vesme, Aglié, Cesare Ambrogio San Martino
                         conte di, auf <ref target="http://www.treccani.it/enciclopedia/cesare-ambrogio-san-martino-conte-di-aglie_%28Dizionario-Biografico%29/">http://www.treccani.it/enciclopedia/cesare-ambrogio-san-martino-conte-di-aglie_%28Dizionario-Biografico%29/</ref>
@@ -2010,8 +2009,8 @@
                         <roleName>principe</roleName>
                         <surname>Corsini</surname>
                     </persName>
-                    <birth>1771</birth>
-                    <death>1845</death>
+                    <birth notBefore="1771-01-01" notAfter="1771-12-31">1771</birth>
+                    <death notBefore="1845-01-01" notAfter="1845-12-31">1845</death>
                     <note>Vertreter des Großherzogtums Toskana auf dem Kongress von Laibach; vgl. zu
                         seiner Person Danelon Vasoli, Corsini, Neri, auf <ref target="http://www.treccani.it/enciclopedia/neri-corsini_res-586301db-87eb-11dc-8e9d-0016357eee51_%28Dizionario-Biografico%29/">http://www.treccani.it/enciclopedia/neri-corsini_res-586301db-87eb-11dc-8e9d-0016357eee51_%28Dizionario-Biografico%29/</ref>
                         (eingesehen am 3. August 2017); Schneider, Werner, Europa in Wien, S.
@@ -2022,8 +2021,8 @@
                         <surname>Vittorio Emanuele/Viktor Emanuel I.</surname>
                         <roleName>König von Sardinien-Piemont</roleName>
                     </persName>
-                    <birth>1759</birth>
-                    <death>1824</death>
+                    <birth notBefore="1759-01-01" notAfter="1759-12-31">1759</birth>
+                    <death notBefore="1824-01-01" notAfter="1824-12-31">1824</death>
                     <note>König von Sardinien-Piemont bis 1821; vgl. zu seiner Person den Eintrag
                         Vittòrio Emanuèle I re di Sardegna, auf <ref target="http://www.treccani.it/enciclopedia/vittorio-emanuele-i-re-di-sardegna">http://www.treccani.it/enciclopedia/vittorio-emanuele-i-re-di-sardegna</ref>
                         (eingesehen am 3. August 2017); Segre, Vittorio Emanuele I.</note>
@@ -2035,8 +2034,8 @@
                         <surname>Ferdinand III.</surname>
                         <roleName>Großherzog von Toskana</roleName>
                     </persName>
-                    <birth>1769</birth>
-                    <death>1824</death>
+                    <birth notBefore="1769-01-01" notAfter="1769-12-31">1769</birth>
+                    <death notBefore="1824-01-01" notAfter="1824-12-31">1824</death>
                     <note>Vgl. zu seiner Person Schäfer, Ferdinand von Österreich; Pesendorfer, Ein
                         Kampf; Altgeld, Stickler (Hg.), Italien am Main.</note>
                     <idno type="URI">http://viaf.org/viaf/102619573/</idno>
@@ -2047,8 +2046,8 @@
                         <surname>Franz IV.</surname>
                         <roleName>Herzog von Modena</roleName>
                     </persName>
-                    <birth>1779</birth>
-                    <death>1846</death>
+                    <birth notBefore="1779-01-01" notAfter="1779-12-31">1779</birth>
+                    <death notBefore="1846-01-01" notAfter="1846-12-31">1846</death>
                     <note>Vgl. zu seiner Person Wurzbach, Biographisches Lexikon, Bd. 6, S. 225–226;
                         Mikoletzky, Franz IV. In: Hamann (Hg.), Die Habsburger, S. 135–136.</note>
                     <idno type="URI">http://viaf.org/viaf/24960135/</idno>
@@ -2060,8 +2059,8 @@
                         <roleName>Duc de Genevois</roleName>
                         <roleName>König von Sardinien-Piemont</roleName>
                     </persName>
-                    <birth>1765</birth>
-                    <death>1831</death>
+                    <birth notBefore="1765-01-01" notAfter="1765-12-31">1765</birth>
+                    <death notBefore="1831-01-01" notAfter="1831-12-31">1831</death>
                     <note>Ab 1821 König von Sardinien-Piemont, ab 1824 Herzog von Savoyen; vgl. zu
                         seiner Person Locorotondo, Carlo Felice di Savoia, re di Sardegna auf <ref target="http://www.treccani.it/enciclopedia/carlo-felice-di-savoia-re-di-sardegna_%28Dizionario-Biografico%29/">http://www.treccani.it/enciclopedia/carlo-felice-di-savoia-re-di-sardegna_%28Dizionario-Biografico%29/</ref>
                         (eingesehen am 7. August 2017).</note>
@@ -2073,8 +2072,8 @@
                         <forename>Giorgio</forename>
                         <surname>Mogenigo</surname>
                     </persName>
-                    <birth>1764</birth>
-                    <death>1839</death>
+                    <birth notBefore="1764-01-01" notAfter="1764-12-31">1764</birth>
+                    <death notBefore="1839-01-01" notAfter="1839-12-31">1839</death>
                     <note>1821 russischer Gesandter in Turin; vgl. zu seiner Person den Eintrag Graf
                         Mocenigo Georgij Dmitrievič in der Erik-Amburger-Datenbank (Ausländer im
                         vorrevolutionären Russland) auf <ref target="http://dokumente.ios-regensburg.de/amburger/index.php?id=91103&amp;mode=1">http://dokumente.ios-regensburg.de/amburger/index.php?id=91103&amp;mode=1</ref>
@@ -2086,8 +2085,8 @@
                         <roleName>Vicomte</roleName>
                         <surname>de Montmorency-Laval</surname>
                     </persName>
-                    <birth>1766</birth>
-                    <death>1826</death>
+                    <birth notBefore="1766-01-01" notAfter="1766-12-31">1766</birth>
+                    <death notBefore="1826-01-01" notAfter="1826-12-31">1826</death>
                     <note>1821/22 französischer Außenminister, Vertreter Frankreichs auf dem
                         Kongress von Verona; vgl. zu seiner Person Michaud, Biographie universelle,
                         Bd. 29, S. 181-183.</note>
@@ -2100,8 +2099,8 @@
                         <roleName>Graf</roleName>
                         <surname>von Hatzfeldt</surname>
                     </persName>
-                    <birth>1756</birth>
-                    <death>1827</death>
+                    <birth notBefore="1756-01-01" notAfter="1756-12-31">1756</birth>
+                    <death notBefore="1827-01-01" notAfter="1827-12-31">1827</death>
                     <note>1822 preußischer Gesandter in Wien und den Niederlanden; vgl. Bringmann,
                         Handbuch der Diplomatie, S. 312 und S. 334, zu seiner Person Wurzbach,
                         Biographisches Lexikon, Bd. 8, S. 52; Priesdorff, Soldatisches Führertum,
@@ -2114,8 +2113,8 @@
                         <forename>Juan Gabriel</forename>
                         <surname>Jabat Aztal</surname>
                     </persName>
-                    <birth>1768</birth>
-                    <death>1825</death>
+                    <birth notBefore="1768-01-01" notAfter="1768-12-31">1768</birth>
+                    <death notBefore="1825-01-01" notAfter="1825-12-31">1825</death>
                     <note>Ab März 1822 spanischer Gesander in London; vgl. <ref target="http://dbe.rah.es/biografias/15293/juan-gabriel-jabat-aztal">http://dbe.rah.es/biografias/15293/juan-gabriel-jabat-aztal</ref>
                     </note>
                 </person>
@@ -2125,8 +2124,8 @@
                         <roleName>Graf</roleName>
                         <surname>von Brunetti</surname>
                     </persName>
-                    <birth>1781</birth>
-                    <death>1847</death>
+                    <birth notBefore="1781-01-01" notAfter="1781-12-31">1781</birth>
+                    <death notBefore="1847-01-01" notAfter="1847-12-31">1847</death>
                     <note>1822 österreichischer chargé d’affaires in Madrid; vgl. Matsch, Der
                         auswärtige Dienst, S. 111.</note>
                 </person>
@@ -2135,8 +2134,8 @@
                         <forename>Daniel Andreas Berthold</forename>
                         <surname>von Schepeler</surname>
                     </persName>
-                    <birth>1780</birth>
-                    <death>1849</death>
+                    <birth notBefore="1780-01-01" notAfter="1780-12-31">1780</birth>
+                    <death notBefore="1849-01-01" notAfter="1849-12-31">1849</death>
                     <note>1822 preußischer Gesandter in Madrid; vgl. Conversations-Lexikon der
                         Gegenwart, Bd. 4, S. 851–852.</note>
                     <idno type="URI">http://viaf.org/viaf/60197947/</idno>
@@ -2157,8 +2156,8 @@
                         <roleName>Vicomte</roleName>
                         <surname>de Chateaubriand</surname>
                     </persName>
-                    <birth>1768</birth>
-                    <death>1848</death>
+                    <birth notBefore="1768-01-01" notAfter="1768-12-31">1768</birth>
+                    <death notBefore="1848-01-01" notAfter="1848-12-31">1848</death>
                     <note>Mitglied der französischen Delegation beim Kongress von Verona; vgl. zu
                         seiner Person Scott, Chateaubriand.</note>
                     <idno type="URI">http://viaf.org/viaf/7388218/</idno>
@@ -2169,8 +2168,8 @@
                         <forename>Evaristo</forename>
                         <surname>Fernández de San Miguel</surname>
                     </persName>
-                    <birth>1785</birth>
-                    <death>1862</death>
+                    <birth notBefore="1785-01-01" notAfter="1785-12-31">1785</birth>
+                    <death notBefore="1862-01-01" notAfter="1862-12-31">1862</death>
                     <note>1822 spanischer Außenminister vgl. zu seiner Person Álvarez-Valdés y
                         Valdés, El general Evaristo Fernández San Miguel y Valledor; Feito, Evaristo
                         San Miguel.</note>
@@ -2182,8 +2181,8 @@
                         <surname>Sallier de la Tour</surname>
                         <roleName>marchese du Cordon</roleName>
                     </persName>
-                    <birth>1774</birth>
-                    <death>1858</death>
+                    <birth notBefore="1774-01-01" notAfter="1774-12-31">1774</birth>
+                    <death notBefore="1858-01-01" notAfter="1858-12-31">1858</death>
                     <note>Sardischer Bevollmächtigter am Kongress von Verona; vgl. zu seiner Person
                         Menghini, Sallier de la Tour, Vittorio, marchese du Cordon auf <ref target="http://www.treccani.it/enciclopedia/sallier-de-la-tour-vittorio-marchese-du-cordon_%28Enciclopedia-Italiana%29/">http://www.treccani.it/enciclopedia/sallier-de-la-tour-vittorio-marchese-du-cordon_%28Enciclopedia-Italiana%29/</ref>
                         (eingesehen am 21. August 2017).</note>
@@ -2195,8 +2194,8 @@
                         <roleName>marchese</roleName>
                         <surname>Mansi</surname>
                     </persName>
-                    <birth>1773</birth>
-                    <death>1840</death>
+                    <birth notBefore="1773-01-01" notAfter="1773-12-31">1773</birth>
+                    <death notBefore="1840-01-01" notAfter="1840-12-31">1840</death>
                     <note>Vertreter Luccas auf dem Kongress von Verona; vgl. zu seiner Person
                         Schneider, Werner, Europa in Wien, S. 227.</note>
                 </person>
@@ -2206,8 +2205,8 @@
                         <roleName>Graf</roleName>
                         <surname>von Neipperg</surname>
                     </persName>
-                    <birth>1775</birth>
-                    <death>1829</death>
+                    <birth notBefore="1775-01-01" notAfter="1775-12-31">1775</birth>
+                    <death notBefore="1829-01-01" notAfter="1829-12-31">1829</death>
                     <note>Vertreter Parmas auf dem Kongress von Verona; vgl. zu seiner Person Fuchs,
                         Neipperg, Adam Albert Graf von. In: NDB, Bd. 19, S. 49–50.</note>
                     <idno type="URI">https://viaf.org/viaf/5733114/</idno>
@@ -2218,8 +2217,8 @@
                         <forename>Paolo</forename>
                         <surname>Leardi</surname>
                     </persName>
-                    <birth>1761</birth>
-                    <death>1823</death>
+                    <birth notBefore="1761-01-01" notAfter="1761-12-31">1761</birth>
+                    <death notBefore="1823-01-01" notAfter="1823-12-31">1823</death>
                     <note>Päpstlicher Nuntius am Wiener Hof, Vertreter des Kirchenstaats auf dem
                         Kongress von Verona.</note>
                 </person>
@@ -2228,8 +2227,8 @@
                         <forename>Raffale</forename>
                         <surname>Mazio</surname>
                     </persName>
-                    <birth>1765</birth>
-                    <death>1832</death>
+                    <birth notBefore="1765-01-01" notAfter="1765-12-31">1765</birth>
+                    <death notBefore="1832-01-01" notAfter="1832-12-31">1832</death>
                     <note>Vertreter des Kirchenstaats auf den Kongressen von Laibach und Verona;
                         vgl. zu seiner Person Marini, Mazio, Raffaele auf <ref target="http://www.treccani.it/enciclopedia/raffaele-mazio_%28Dizionario-Biografico%29/">http://www.treccani.it/enciclopedia/raffaele-mazio_%28Dizionario-Biografico%29/</ref>
                         (eingesehen am 12. Jänner 2018).</note>
@@ -2240,8 +2239,8 @@
                         <roleName>Herzogin von Massa und Carrara</roleName>
                     </persName>
 
-                    <birth>1750</birth>
-                    <death>1829</death>
+                    <birth notBefore="1750-01-01" notAfter="1750-12-31">1750</birth>
+                    <death notBefore="1829-01-01" notAfter="1829-12-31">1829</death>
                     <note>Vgl. zu ihrer Person Mikoletzky, Maria Beatrix. In: NDB, Bd. 16, S.
                         192–193.</note>
                     <idno type="URI">https://viaf.org/viaf/263016151/</idno>
@@ -2252,8 +2251,8 @@
                         <surname>Marie Louise </surname>
                         <roleName>Herzogin von Parma, Piaczena und Guastalla</roleName>
                     </persName>
-                    <birth>1791</birth>
-                    <death>1847</death>
+                    <birth notBefore="1791-01-01" notAfter="1791-12-31">1791</birth>
+                    <death notBefore="1847-01-01" notAfter="1847-12-31">1847</death>
                     <note>Ehemalige Kaiserin der Franzosen; vgl. zu ihrer Person Schiel, Marie
                         Louise, Erzherzogin von Österreich. In: NDB, Bd. 16, S. 185–186; Schiel,
                         Eine Habsburgerin.</note>
@@ -2265,8 +2264,8 @@
                         <surname>Maria Luisa</surname>
                         <roleName>von Spanien, Herzogin von Lucca</roleName>
                     </persName>
-                    <birth>1782</birth>
-                    <death>1824</death>
+                    <birth notBefore="1782-01-01" notAfter="1782-12-31">1782</birth>
+                    <death notBefore="1824-01-01" notAfter="1824-12-31">1824</death>
                     <note>Vgl. zu ihrer Person Cifferi, Maria Luisa di Borbone, regina d’Etruria auf
                             <ref target="http://www.treccani.it/enciclopedia/maria-luisa-di-borbone-regina-d-etruria_(Dizionario-Biografico)/">http://www.treccani.it/enciclopedia/maria-luisa-di-borbone-regina-d-etruria_(Dizionario-Biografico)/</ref>
                         (eingesehen am 23. August 2017).</note>
@@ -2278,8 +2277,8 @@
                         <forename>Rudolf</forename>
                         <surname>von Lützow</surname>
                     </persName>
-                    <birth>1780</birth>
-                    <death>1858</death>
+                    <birth notBefore="1780-01-01" notAfter="1780-12-31">1780</birth>
+                    <death notBefore="1858-01-01" notAfter="1858-12-31">1858</death>
                     <note>1822 österreichischer Gesandter (Internuntius) an der Hohen Pforte; vgl.
                         zu seiner Person Wurzbach, Biographisches Lexikon, Bd. 16, S.
                         148–150.</note>
@@ -2291,8 +2290,8 @@
                         <forename>Dimitrij Vas.</forename>
                         <surname>Daškov</surname>
                     </persName>
-                    <birth>1788</birth>
-                    <death>1839</death>
+                    <birth notBefore="1788-01-01" notAfter="1788-12-31">1788</birth>
+                    <death notBefore="1839-01-01" notAfter="1839-12-31">1839</death>
                     <note>1822 russischer Botschafter an der Hohen Pforte; vgl. Amburger,
                         Behördenorganisation, S. 445.</note>
                     <idno type="URI">https://viaf.org/viaf/165007789/</idno>
@@ -2303,8 +2302,8 @@
                         <roleName>Baron</roleName>
                         <surname>Stroganow</surname>
                     </persName>
-                    <birth>1770</birth>
-                    <death>1857</death>
+                    <birth notBefore="1770-01-01" notAfter="1770-12-31">1770</birth>
+                    <death notBefore="1857-01-01" notAfter="1857-12-31">1857</death>
                     <note>Zwischen 1816 und 1821 russischer Botschafter in Konstantinopel; vgl. zu
                         seiner Person Amburger, Behördenorganisation, S. 445.</note>
                     <idno type="URI">https://viaf.org/viaf/101493667/</idno>
@@ -2315,8 +2314,8 @@
                         <forename>Friedrich Heinrich Leopold</forename>
                         <surname>von Schladen</surname>
                     </persName>
-                    <birth>1772</birth>
-                    <death>1845</death>
+                    <birth notBefore="1772-01-01" notAfter="1772-12-31">1772</birth>
+                    <death notBefore="1845-01-01" notAfter="1845-12-31">1845</death>
                     <note>1822 preußischer Chargé d’affaires in Konstantinopel; vgl. zu seiner
                         Person Bailleu, Schladen, Friedrich Heinrich Leopold von. In: ADB, Bd. 31,
                         S. 324–325.</note>
@@ -2332,8 +2331,8 @@
                         <forename>Ioniţă Sandu</forename>
                         <surname>Sturdza</surname>
                     </persName>
-                    <birth>1761/62</birth>
-                    <death>1842</death>
+                    <birth notBefore="1761-01-01" notAfter="1761-12-31">1761/62</birth>
+                    <death notBefore="1842-01-01" notAfter="1842-12-31">1842</death>
                     <note>Hospodar von Moldau von 1822 bis 1828; vgl. zu seiner Person Sturdza,
                         Sturdza. In: Bernrath u. A. (Hg.), Biographisches Lexikon zur Geschichte
                         Südosteuropas, Bd. 4, S. 219–222.</note>
@@ -2347,8 +2346,8 @@
                         <forename>Grigore Dimitrie</forename>
                         <surname>Ghica</surname>
                     </persName>
-                    <birth>1755</birth>
-                    <death>1834</death>
+                    <birth notBefore="1755-01-01" notAfter="1755-12-31">1755</birth>
+                    <death notBefore="1834-01-01" notAfter="1834-12-31">1834</death>
                     <note>Hospodar der Walachei von 1822 bis 1828; vgl. zu seiner Person Ghermani,
                         Ionescu, Ghica. In: Bernrath u. A. (Hg.), Biographisches Lexikon zur
                         Geschichte Südosteuropas, Bd. 2, S. 47–49.</note>
@@ -2360,8 +2359,8 @@
                         <forename>Florimond</forename>
                         <surname>de Faÿ de La Tour-Maubourg</surname>
                     </persName>
-                    <birth>1781</birth>
-                    <death>1837</death>
+                    <birth notBefore="1781-01-01" notAfter="1781-12-31">1781</birth>
+                    <death notBefore="1837-01-01" notAfter="1837-12-31">1837</death>
                     <note>1822 Vertreter Frankreichs an der Hohen Pforte; vgl. Bringmann, Handbuch,
                         S. 184.</note>
                     <idno type="URI">https://viaf.org/viaf/2939147605350957760009/</idno>
@@ -2371,8 +2370,8 @@
                         <forename>William</forename>
                         <surname>Pitt d. J.</surname>
                     </persName>
-                    <birth>1759</birth>
-                    <death>1806</death>
+                    <birth notBefore="1759-01-01" notAfter="1759-12-31">1759</birth>
+                    <death notBefore="1806-01-01" notAfter="1806-12-31">1806</death>
                     <note>Zweimaliger britischer Premierminister; vgl. zu seiner Person Ehrman, The
                         Younger Pitt; Ehrman, Smith, Pitt, William. In: ODNB, Bd. 44, S.
                         470–497.</note>
@@ -2392,8 +2391,8 @@
                         <forename>Joseph Alexandre Jacques</forename>
                         <surname>Durant de Mareuil</surname>
                     </persName>
-                    <birth>1769</birth>
-                    <death>1855</death>
+                    <birth notBefore="1769-01-01" notAfter="1769-12-31">1769</birth>
+                    <death notBefore="1855-01-01" notAfter="1855-12-31">1855</death>
                     <note>1822 französischer Gesandter in Brüssel bzw. Denn Haag; vgl. zu seiner
                         Person Robert, Cougny, Dictionnaire des Parlementaires, online auf <ref target="http://www2.assemblee-nationale.fr/sycomore/fiche/(num_dept)/16525">http://www2.assemblee-nationale.fr/sycomore/fiche/(num_dept)/16525</ref>
                         (eingesehen am 28. August 2017).</note>
@@ -2406,8 +2405,8 @@
                         <roleName>Freiherr</roleName>
                         <surname>von Meyendorff</surname>
                     </persName>
-                    <birth>1796</birth>
-                    <death>1863</death>
+                    <birth notBefore="1796-01-01" notAfter="1796-12-31">1796</birth>
+                    <death notBefore="1863-01-01" notAfter="1863-12-31">1863</death>
                     <note>1822 russischer Gesandter in Brüssel bzw. Den Haag; vgl. Amburger,
                         Behördenorganisation, S. 446.</note>
                     <idno type="URI">https://viaf.org/viaf/20476565/</idno>
@@ -2419,8 +2418,8 @@
                         <surname>Katharina</surname>
                         <roleName>Prinzessin von Montfort</roleName>
                     </persName>
-                    <birth>1783</birth>
-                    <death>1835</death>
+                    <birth notBefore="1783-01-01" notAfter="1783-12-31">1783</birth>
+                    <death notBefore="1835-01-01" notAfter="1835-12-31">1835</death>
                     <note>Geb. Prinzessin von Württemberg, ehemalige Königin von Westphalen; vgl.
                         zu ihrer Person Schmauder, Katharina. In: Lorenz, Mertens, Press (Hg), Das
                         Haus Württemberg, S. 311–313. Köttelwesch, Katharina von Westphalen.</note>
@@ -2432,8 +2431,8 @@
                         <forename>Napoléon Achille</forename>
                         <surname>Murat</surname>
                     </persName>
-                    <birth>1801</birth>
-                    <death>1847</death>
+                    <birth notBefore="1801-01-01" notAfter="1801-12-31">1801</birth>
+                    <death notBefore="1847-01-01" notAfter="1847-12-31">1847</death>
                     <note>Ältester Sohn von Caroline, geb. Bonaparte, und Joachim Murat; vgl. zu
                         seiner Person Vidal, Caroline Bonaparte, S. 245–247.</note>
                     <idno type="URI">https://viaf.org/viaf/46861551/</idno>
@@ -2444,8 +2443,8 @@
                         <forename>Francesco</forename>
                         <surname>Borghese Aldobrandini</surname>
                     </persName>
-                    <birth>1776</birth>
-                    <death>1839</death>
+                    <birth notBefore="1776-01-01" notAfter="1776-12-31">1776</birth>
+                    <death notBefore="1839-01-01" notAfter="1839-12-31">1839</death>
                     <note>Vgl. zu seiner Person Di Porto, Borghese Aldobrandini, Francesco auf <ref target="http://www.treccani.it/enciclopedia/francesco-borghese-aldobrandini_(Dizionario-Biografico)/">http://www.treccani.it/enciclopedia/francesco-borghese-aldobrandini_(Dizionario-Biografico)/</ref>
                         (eingesehen am 28. August 2017).</note>
                     <idno type="URI">https://viaf.org/viaf/15831044/</idno>
@@ -2456,8 +2455,8 @@
                         <forename>George</forename>
                         <surname>Canning</surname>
                     </persName>
-                    <birth>1770</birth>
-                    <death>1827</death>
+                    <birth notBefore="1770-01-01" notAfter="1770-12-31">1770</birth>
+                    <death notBefore="1827-01-01" notAfter="1827-12-31">1827</death>
                     <note>vgl. zu seiner Person Temperley, The foreign Policy of Canning; Beales,
                         Canning, George.</note>
                 </person>
@@ -2466,16 +2465,16 @@
                         <surname>Nikolaus I.</surname>
                         <roleName>Zar von Russland</roleName>
                     </persName>
-                    <birth>1796</birth>
-                    <death>1855</death>
+                    <birth notBefore="1796-01-01" notAfter="1796-12-31">1796</birth>
+                    <death notBefore="1855-01-01" notAfter="1855-12-31">1855</death>
                 </person>
                 <person xml:id="p_207">
                     <persName>
                         <surname>Karl XIII.</surname>
                         <roleName>König von Schweden</roleName>
                     </persName>
-                    <birth>1748</birth>
-                    <death>1818</death>
+                    <birth notBefore="1748-01-01" notAfter="1748-12-31">1748</birth>
+                    <death notBefore="1818-01-01" notAfter="1818-12-31">1818</death>
                     <note>Als Karl II. zwischen 1814 und 1818 auch König von Norwegen.</note>
                 </person>
                 <person role="Editor" xml:id="p_208">
